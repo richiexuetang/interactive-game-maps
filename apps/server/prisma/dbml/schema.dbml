@@ -1,0 +1,56 @@
+//// ------------------------------------------------------
+//// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//// ------------------------------------------------------
+
+Table User {
+  id String [pk]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  email String [unique, not null]
+  password String [not null]
+  firstname String
+  lastname String
+  posts Post [not null]
+  role Role [not null]
+}
+
+Table Post {
+  id String [pk]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  published Boolean [not null]
+  title String [not null]
+  content String
+  author User
+  authorId String
+}
+
+Table Game {
+  id String [pk]
+  gameSlug String [not null]
+  gameTitle String [not null]
+  thumbnailUrl String [not null]
+  maps Map [not null]
+}
+
+Table Map {
+  id String [pk]
+  mapSlug String [not null]
+  mapTitle String [not null]
+  thumbnailUrl String [not null]
+  minZoom Int [not null]
+  maxZoom Int [not null]
+  defaultZoom Int [not null]
+  tilePath String [not null]
+  Game Game
+  gameId String
+}
+
+Enum Role {
+  ADMIN
+  USER
+}
+
+Ref: Post.authorId > User.id
+
+Ref: Map.gameId > Game.id
