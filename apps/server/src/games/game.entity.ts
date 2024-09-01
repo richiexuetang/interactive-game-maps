@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Map } from '../maps/map.entity';
+import { Column, Entity, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 
 @Entity()
 export class Game {
@@ -16,4 +17,7 @@ export class Game {
 
   @Column({ default: true })
   isActive: boolean;
+
+  @OneToMany(() => Map, (map) => map.game)
+  maps: Map[];
 }

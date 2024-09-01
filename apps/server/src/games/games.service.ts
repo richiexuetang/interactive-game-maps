@@ -3,6 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Game } from './game.entity';
 import { CreateGameDto } from './dto/create-game.dto';
+import { UpdateGameDto } from './dto/update-game.dto';
 
 @Injectable()
 export class GamesService {
@@ -25,7 +26,20 @@ export class GamesService {
   }
 
   findOne(id: number): Promise<Game | null> {
-    return this.gameRepository.findOneBy({ id: id });
+    return this.gameRepository.findOneBy({ id });
+  }
+
+  async update(updateGameDto: UpdateGameDto): Promise<Game | null> {
+    const game = await this.gameRepository.findOneBy({ id: updateGameDto.id });
+    if (!game) {
+      return null;
+    }
+
+    game.gameSlug = updateGameDto.gameSlug;
+    game.gameTitle = updateGameDto.gameTitle;
+    game.thumbnailUrl = updateGameDto.thumbnailUrl;
+
+    return this.gameRepository.save(game);
   }
 
   async remove(id: string): Promise<void> {
