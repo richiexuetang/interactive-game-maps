@@ -9,7 +9,6 @@ import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
-import { MapsModule } from "./maps/maps.module";
 
 @Module({
   imports: [
@@ -35,7 +34,6 @@ import { MapsModule } from "./maps/maps.module";
     UsersModule,
     PostsModule,
     GamesModule,
-    MapsModule,
   ],
   controllers: [],
   providers: [],

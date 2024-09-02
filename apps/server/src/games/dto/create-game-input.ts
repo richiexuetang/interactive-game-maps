@@ -1,17 +1,17 @@
-import { IsNotEmpty } from 'class-validator';
-import { InputType, Field } from '@nestjs/graphql';
+import { IsNotEmpty } from "class-validator";
+import { InputType, Field } from "@nestjs/graphql";
 
 @InputType()
 export class CreateGameInput {
   @Field()
   @IsNotEmpty()
-  gameSlug: string;
+  slug: string;
 
   @Field()
   @IsNotEmpty()
-  gameTitle: string;
+  title: string;
 
   @Field()
   @IsNotEmpty()
-  thumbnailUrl: string;  
+  thumbnailUrl: string;
 }

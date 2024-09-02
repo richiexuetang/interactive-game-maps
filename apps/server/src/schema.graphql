@@ -17,9 +17,9 @@ input ChangePasswordInput {
 }
 
 input CreateGameInput {
-  gameSlug: String!
-  gameTitle: String!
+  slug: String!
   thumbnailUrl: String!
+  title: String!
 }
 
 input CreatePostInput {
@@ -35,10 +35,10 @@ scalar DateTime
 type Game {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  gameSlug: String!
-  gameTitle: String!
   id: ID!
+  slug: String!
   thumbnailUrl: String!
+  title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
@@ -52,22 +52,6 @@ scalar JWT
 input LoginInput {
   email: String!
   password: String!
-}
-
-type Map {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  defaultZoom: Int!
-  gameId: String!
-  id: ID!
-  mapSlug: String!
-  mapTitle: String!
-  maxZoom: Int!
-  minZoom: Int!
-  tilePath: String!
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
 }
 
 type Mutation {
@@ -136,8 +120,8 @@ enum PostOrderField {
 }
 
 type Query {
-  games: [Game!]!
-  maps: [Map!]!
+  findOneById(id: String!): Game!
+  getGames: [Game!]!
   me: User!
   post: Post!
   publishedPosts(orderBy: PostOrder, query: String): PostConnection!

@@ -26,25 +26,25 @@ Table Post {
 }
 
 Table Game {
-  id String [pk]
-  gameSlug String [not null]
-  gameTitle String [not null]
+  id Int [pk, increment]
+  slug String [unique, not null]
+  title String [not null]
   thumbnailUrl String [not null]
-  maps Map [not null]
-  markerGroups MarkerGroup [not null]
+  regions Region [not null]
+  groups MarkerGroup [not null]
 }
 
-Table Map {
-  id String [pk]
-  mapSlug String [not null]
-  mapTitle String [not null]
+Table Region {
+  id Int [pk, increment]
+  slug String [unique, not null]
+  title String [not null]
   thumbnailUrl String [not null]
   minZoom Int [not null]
   maxZoom Int [not null]
   defaultZoom Int [not null]
   tilePath String [not null]
   Game Game
-  gameId String
+  gameSlug String
   locations MarkerLocation [not null]
 }
 
@@ -52,7 +52,7 @@ Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
   Game Game
-  gameId String
+  gameSlug String
   categories MarkerCategory [not null]
 }
 
@@ -71,8 +71,8 @@ Table MarkerLocation {
   description String
   latitude String [not null]
   longitude String [not null]
-  Map Map
-  mapId String
+  Region Region
+  regionSlug String
 }
 
 Enum Role {
@@ -82,10 +82,10 @@ Enum Role {
 
 Ref: Post.authorId > User.id
 
-Ref: Map.gameId > Game.id
+Ref: Region.gameSlug > Game.slug
 
-Ref: MarkerGroup.gameId > Game.id
+Ref: MarkerGroup.gameSlug > Game.slug
 
 Ref: MarkerCategory.markerGroupId > MarkerGroup.id
 
-Ref: MarkerLocation.mapId > Map.id
+Ref: MarkerLocation.regionSlug > Region.slug

@@ -6,7 +6,6 @@ async function main() {
   await prisma.user.deleteMany();
   await prisma.post.deleteMany();
   await prisma.game.deleteMany();
-  await prisma.map.deleteMany();
   await prisma.markerGroup.deleteMany();
   await prisma.markerCategory.deleteMany();
   await prisma.markerLocation.deleteMany();
