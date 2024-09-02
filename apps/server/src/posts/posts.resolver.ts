@@ -91,14 +91,6 @@ export class PostsResolver {
     return this.prisma.user
       .findUnique({ where: { id: id.userId } })
       .posts({ where: { published: true } });
-
-    // or
-    // return this.prisma.posts.findMany({
-    //   where: {
-    //     published: true,
-    //     author: { id: id.userId }
-    //   }
-    // });
   }
 
   @Query(() => Post)

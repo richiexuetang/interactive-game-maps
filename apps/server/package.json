@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-prisma-client-starter",
+  "name": "ritcher-map-server",
   "version": "0.0.1",
   "scripts": {
     "build": "nest build",

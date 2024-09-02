@@ -31,6 +31,7 @@ Table Game {
   gameTitle String [not null]
   thumbnailUrl String [not null]
   maps Map [not null]
+  markerGroups MarkerGroup [not null]
 }
 
 Table Map {
@@ -44,6 +45,34 @@ Table Map {
   tilePath String [not null]
   Game Game
   gameId String
+  locations MarkerLocation [not null]
+}
+
+Table MarkerGroup {
+  id Int [pk, increment]
+  title String [not null]
+  Game Game
+  gameId String
+  categories MarkerCategory [not null]
+}
+
+Table MarkerCategory {
+  id Int [pk, increment]
+  MarkerGroup MarkerGroup
+  markerGroupId Int
+  title String [not null, default: '']
+  icon String [not null]
+  template String
+}
+
+Table MarkerLocation {
+  id Int [pk, increment]
+  title String [not null]
+  description String
+  latitude String [not null]
+  longitude String [not null]
+  Map Map
+  mapId String
 }
 
 Enum Role {
@@ -54,3 +83,9 @@ Enum Role {
 Ref: Post.authorId > User.id
 
 Ref: Map.gameId > Game.id
+
+Ref: MarkerGroup.gameId > Game.id
+
+Ref: MarkerCategory.markerGroupId > MarkerGroup.id
+
+Ref: MarkerLocation.mapId > Map.id

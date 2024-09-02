@@ -16,6 +16,12 @@ input ChangePasswordInput {
   oldPassword: String!
 }
 
+input CreateGameInput {
+  gameSlug: String!
+  gameTitle: String!
+  thumbnailUrl: String!
+}
+
 input CreatePostInput {
   content: String!
   title: String!
@@ -25,6 +31,18 @@ input CreatePostInput {
 A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
 """
 scalar DateTime
+
+type Game {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  gameSlug: String!
+  gameTitle: String!
+  id: ID!
+  thumbnailUrl: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
 
 """
 A field whose value is a JSON Web Token (JWT): https://jwt.io/introduction.
@@ -36,8 +54,25 @@ input LoginInput {
   password: String!
 }
 
+type Map {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  defaultZoom: Int!
+  gameId: String!
+  id: ID!
+  mapSlug: String!
+  mapTitle: String!
+  maxZoom: Int!
+  minZoom: Int!
+  tilePath: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
 type Mutation {
   changePassword(data: ChangePasswordInput!): User!
+  createGame(data: CreateGameInput!): Game!
   createPost(data: CreatePostInput!): Post!
   login(data: LoginInput!): Auth!
   refreshToken(token: JWT!): Token!
@@ -101,8 +136,8 @@ enum PostOrderField {
 }
 
 type Query {
-  hello(name: String!): String!
-  helloWorld: String!
+  games: [Game!]!
+  maps: [Map!]!
   me: User!
   post: Post!
   publishedPosts(orderBy: PostOrder, query: String): PostConnection!

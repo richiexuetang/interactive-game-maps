@@ -40,15 +40,16 @@ enum Role {
 }
 
 model Game {
-  id           String @id @default(cuid())
+  id           String        @id @default(cuid())
   gameSlug     String
   gameTitle    String
   thumbnailUrl String
   maps         Map[]
+  markerGroups MarkerGroup[]
 }
 
 model Map {
-  id           String  @id @default(cuid())
+  id           String           @id @default(cuid())
   mapSlug      String
   mapTitle     String
   thumbnailUrl String
@@ -56,6 +57,34 @@ model Map {
   maxZoom      Int
   defaultZoom  Int
   tilePath     String
-  Game         Game?   @relation(fields: [gameId], references: [id])
+  Game         Game?            @relation(fields: [gameId], references: [id])
   gameId       String?
+  locations    MarkerLocation[]
+}
+
+model MarkerGroup {
+  id         Int              @id @default(autoincrement())
+  title      String
+  Game       Game?            @relation(fields: [gameId], references: [id])
+  gameId     String?
+  categories MarkerCategory[]
+}
+
+model MarkerCategory {
+  id            Int          @id @default(autoincrement())
+  MarkerGroup   MarkerGroup? @relation(fields: [markerGroupId], references: [id])
+  markerGroupId Int?
+  title         String       @default("")
+  icon          String
+  template      String?
+}
+
+model MarkerLocation {
+  id          Int     @id @default(autoincrement())
+  title       String
+  description String?
+  latitude    String
+  longitude   String
+  Map         Map?    @relation(fields: [mapId], references: [id])
+  mapId       String?
 }

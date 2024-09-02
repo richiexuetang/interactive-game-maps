@@ -1,45 +1,33 @@
 import Image from "next/image";
+import { FETCH_GAMES } from "./constants";
+import { getClient } from "./apollo-client";
+import Link from "next/link";
 
 type Game = {
   gameSlug: string;
   gameTitle: string;
   thumbnailUrl: string;
+  id: string;
 };
 
 export default async function Page() {
-  let data = await fetch(process.env.API_BASE_URL + "/games");
-  let mapsData = await fetch(process.env.API_BASE_URL + "/maps");
-  let games = await data.json();
-  let maps = await mapsData.json();
-  console.log(games, maps);
+  const { data, loading, error } = await getClient().query({ query: FETCH_GAMES });
 
   return (
     <>
-      {games?.map((game: Game) => (
-        <div key={game.gameSlug}>
-          <h2>{game.gameTitle}</h2>
+    {data.games?.map((game: Game) => (
+      <div key={game.gameSlug}>
+        <Link href={`/game/${game.id}`}>
           <Image
-            src={game.thumbnailUrl}
-            width={500}
-            height={500}
+            src={process.env.CDN_BASE_URL + game.thumbnailUrl}
+            width={250}
+            height={250}
             alt={`${game.gameTitle} thumbnail`}
           />
+          <h2>{game.gameTitle}</h2>
+          </Link>
         </div>
-      ))}
-      {maps?.map((game: any) => (
-        <div key={game.mapSlug}>
-          <h2>
-            {game.mapTitle}
-            {game.gameId}
-          </h2>
-          <Image
-            src={`${process.env.CDN_BASE_URL}${game.thumbnailUrl}`}
-            width={500}
-            height={500}
-            alt={`${game.mapTitle} thumbnail`}
-          />
-        </div>
-      ))}
+    ))}
     </>
   );
 }
