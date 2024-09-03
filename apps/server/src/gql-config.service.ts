@@ -13,9 +13,9 @@ export class GqlConfigService implements GqlOptionsFactory {
       // schema options
       autoSchemaFile: graphqlConfig.schemaDestination || "./src/schema.graphql",
       sortSchema: graphqlConfig.sortSchema,
-      buildSchemaOptions: {
-        numberScalarMode: "integer",
-      },
+      // buildSchemaOptions: {
+      //   numberScalarMode: "integer",
+      // },
       // subscription
       installSubscriptionHandlers: true,
       includeStacktraceInErrorResponses: graphqlConfig.debug,

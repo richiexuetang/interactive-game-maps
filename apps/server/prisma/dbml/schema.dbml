@@ -42,6 +42,7 @@ Table Region {
   minZoom Int [not null]
   maxZoom Int [not null]
   defaultZoom Int [not null]
+  bounds Decimal[] [not null]
   tilePath String [not null]
   Game Game
   gameSlug String
@@ -69,8 +70,8 @@ Table MarkerLocation {
   id Int [pk, increment]
   title String [not null]
   description String
-  latitude String [not null]
-  longitude String [not null]
+  latitude Decimal [not null]
+  longitude Decimal [not null]
   Region Region
   regionSlug String
 }

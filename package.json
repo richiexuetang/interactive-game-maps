@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm run --parallel dev"
+    "preinstall": "npx only-allow pnpm",
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --parallel build",
+    "prisma:studio": "pnpm --filter server prisma:studio",
+    "prisma:generate": "pnpm --filter server prisma:generate",
+    "migrate:dev": "pnpm --filter server migrate:dev",
+    "migrate:reset": "pnpm --filter server migrate:reset"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1",
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "pnpm": "9.9.0"
+  },
   "devDependencies": {
     "@nestjs/common": "^10.4.1",
     "@nestjs/core": "^10.4.1",

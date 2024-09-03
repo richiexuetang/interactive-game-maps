@@ -1,28 +1,45 @@
+import { getClient } from "../../apollo-client";
+import {
+  FETCH_LOCATIONS_BY_REGION,
+  FETCH_REGION_DETAILS,
+} from "../../constants";
+import Map from "../../../components/map/map";
 
-import Image from "next/image";
-import Link from "next/link";
-import dynamic from 'next/dynamic';
-
-interface Map {
-    mapSlug: string;
-    mapTitle: string;
-    thumbnailUrl: string;
-    id: string;
-    minZoom: number;
-    maxZoom: number;
-    defaultZoom: number;
-    tilePath:  number;
-}
-
-const MapContainer = dynamic(() => import('apps/ui/components/MapContainer'), {
-    ssr: false,
+export default async function MapPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const { data } = await getClient().query({
+    query: FETCH_REGION_DETAILS,
+    variables: { slug: params.slug },
+  });
+  const { data: locationData, error } = await getClient().query({
+    query: FETCH_LOCATIONS_BY_REGION,
+    variables: { slug: params.slug },
   });
 
-export default async function MapPage({ params }: { params: { slug: string } }) {
-    const data = await fetch(`http://localhost:5001/maps/by-slug/${params.slug}`);
-    const maps = await data.json();
-    
-    return (<div>
-        <MapContainer />
-    </div>)
+  const { regionDetails: region } = data;
+
+  const DEFAULT_CENTER = [0.66245, -0.9];
+
+  return (
+    <div>
+      {region.title}
+      <Map
+        width="800"
+        height="400"
+        center={DEFAULT_CENTER}
+        zoom={region.defaultZoom}
+        minZoom={region.minZoom}
+        maxZoom={region.maxZoom}
+        tilePath={region.tilePath}
+        bounds={[
+          [1.6037944300589855, 1.1618041992187502],
+          [-0.08514401163112739, -2.2164916992187504],
+        ]}
+        markers={locationData.getByRegion}
+      />
+    </div>
+  );
 }

@@ -2,6 +2,7 @@ import { Args, Mutation, Query, Resolver } from "@nestjs/graphql";
 import { Game } from "./models/game.model";
 import { PrismaService } from "nestjs-prisma";
 import { CreateGameInput } from "./dto/create-game-input";
+import { ParseIntPipe } from "@nestjs/common";
 
 @Resolver(() => Game)
 export class GamesResolver {
@@ -21,7 +22,7 @@ export class GamesResolver {
   }
 
   @Query(() => Game)
-  async findOneById(@Args("id") id: string) {
+  async findOneById(@Args("id", ParseIntPipe) id: number) {
     return this.prisma.game.findUnique({ where: { id: id } });
   }
 }

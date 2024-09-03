@@ -54,6 +54,21 @@ input LoginInput {
   password: String!
 }
 
+type MarkerLocation {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String
+  id: ID!
+  latitude: Float!
+  longitude: Float!
+  region: Region
+  regionSlug: String
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
 type Mutation {
   changePassword(data: ChangePasswordInput!): User!
   createGame(data: CreateGameInput!): Game!
@@ -120,12 +135,32 @@ enum PostOrderField {
 }
 
 type Query {
-  findOneById(id: String!): Game!
+  findOneById(id: Float!): Game!
+  findRegionsByGame(slug: String!): [Region!]!
+  getByRegion(slug: String!): [MarkerLocation!]!
   getGames: [Game!]!
   me: User!
   post: Post!
   publishedPosts(orderBy: PostOrder, query: String): PostConnection!
+  regionDetails(slug: String!): Region!
   userPosts: [Post!]!
+}
+
+type Region {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  defaultZoom: Float!
+  gameSlug: String!
+  id: ID!
+  maxZoom: Float!
+  minZoom: Float!
+  slug: String!
+  thumbnailUrl: String!
+  tilePath: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 """User role"""

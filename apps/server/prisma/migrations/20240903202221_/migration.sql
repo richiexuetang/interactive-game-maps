@@ -47,6 +47,7 @@ CREATE TABLE "Region" (
     "minZoom" INTEGER NOT NULL,
     "maxZoom" INTEGER NOT NULL,
     "defaultZoom" INTEGER NOT NULL,
+    "bounds" DECIMAL(65,30)[],
     "tilePath" TEXT NOT NULL,
     "gameSlug" TEXT,
 
@@ -78,8 +79,8 @@ CREATE TABLE "MarkerLocation" (
     "id" SERIAL NOT NULL,
     "title" TEXT NOT NULL,
     "description" TEXT,
-    "latitude" TEXT NOT NULL,
-    "longitude" TEXT NOT NULL,
+    "latitude" DECIMAL(65,30) NOT NULL,
+    "longitude" DECIMAL(65,30) NOT NULL,
     "regionSlug" TEXT,
 
     CONSTRAINT "MarkerLocation_pkey" PRIMARY KEY ("id")
