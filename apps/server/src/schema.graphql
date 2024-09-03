@@ -22,6 +22,19 @@ input CreateGameInput {
   title: String!
 }
 
+input CreateMarkerCategoryInput {
+  icon: String!
+  info: String!
+  markerGroupId: Float!
+  template: String!
+  title: String!
+}
+
+input CreateMarkerGroupInput {
+  gameSlug: String!
+  title: String!
+}
+
 input CreatePostInput {
   content: String!
   title: String!
@@ -54,6 +67,35 @@ input LoginInput {
   password: String!
 }
 
+type MarkerCategory {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  icon: String
+  id: ID!
+  info: String!
+  markerGroup: MarkerGroup
+  markerGroupId: Float
+  template: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+type MarkerGroup {
+  categories: [MarkerCategory!]!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  game: Game!
+  gameSlug: String!
+  id: ID!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
 type MarkerLocation {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -72,6 +114,8 @@ type MarkerLocation {
 type Mutation {
   changePassword(data: ChangePasswordInput!): User!
   createGame(data: CreateGameInput!): Game!
+  createMarkerCategory(data: CreateMarkerCategoryInput!): MarkerCategory!
+  createMarkerGroup(data: CreateMarkerGroupInput!): MarkerGroup!
   createPost(data: CreatePostInput!): Post!
   login(data: LoginInput!): Auth!
   refreshToken(token: JWT!): Token!

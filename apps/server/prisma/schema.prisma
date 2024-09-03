@@ -78,6 +78,7 @@ model MarkerCategory {
   title         String       @default("")
   icon          String
   template      String?
+  info          String?
 }
 
 model MarkerLocation {
