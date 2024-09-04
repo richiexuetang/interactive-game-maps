@@ -64,7 +64,6 @@ Table MarkerCategory {
   title String [not null, default: '']
   icon String [not null]
   template String
-  info String
 }
 
 Table MarkerLocation {

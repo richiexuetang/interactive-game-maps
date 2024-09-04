@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
@@ -9,38 +8,27 @@
       "esnext"
     ],
     "allowJs": true,
-    "skipLibCheck": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./*"
-      ]
-    },
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".contentlayer/generated"
+    ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "./scripts/build-registry.mts",
-    "__registry__"
+    "node_modules"
   ]
 }

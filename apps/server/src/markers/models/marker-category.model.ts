@@ -13,9 +13,6 @@ export class MarkerCategory extends BaseModel {
   @Field(() => String)
   template: string;
 
-  @Field(() => String)
-  info: string | null;
-
   @Field(() => MarkerGroup, { nullable: true })
   markerGroup?: MarkerGroup | null;
 

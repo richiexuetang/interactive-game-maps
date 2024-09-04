@@ -9,12 +9,15 @@ export class MarkerGroup extends BaseModel {
   @Field()
   title: string;
 
+  @Field(() => Boolean)
+  published: boolean;
+
   @Field(() => Game)
-  game?: Game | null;
+  game?: Game;
 
   @Field(() => String)
-  gameSlug?: string | null;
+  gameSlug?: boolean | null;
 
-  @Field(() => [MarkerCategory])
-  categories?: MarkerCategory[] | null;
+  @Field(() => [MarkerCategory], { nullable: true })
+  categories?: [MarkerCategory] | null;
 }
