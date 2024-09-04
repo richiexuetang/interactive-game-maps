@@ -14,7 +14,7 @@ export default async function MapPage({
     query: FETCH_REGION_DETAILS,
     variables: { slug: params.slug },
   });
-  const { data: locationData, error } = await getClient().query({
+  const { data: locationData } = await getClient().query({
     query: FETCH_LOCATIONS_BY_REGION,
     variables: { slug: params.slug },
   });
