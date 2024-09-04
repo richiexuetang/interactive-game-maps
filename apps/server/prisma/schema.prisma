@@ -56,7 +56,7 @@ model Region {
   minZoom      Int
   maxZoom      Int
   defaultZoom  Int
-  bounds       Decimal[]
+  center       Decimal[]
   tilePath     String
   Game         Game?            @relation(fields: [gameSlug], references: [slug])
   gameSlug     String?
@@ -78,6 +78,7 @@ model MarkerCategory {
   title         String       @default("")
   icon          String
   template      String?
+  info          String?
 }
 
 model MarkerLocation {

@@ -4,12 +4,14 @@ import {
   FETCH_REGION_DETAILS,
 } from "../../constants";
 import Map from "../../../components/map/map";
+import { revalidatePath } from "next/cache";
 
 export default async function MapPage({
   params,
 }: {
   params: { slug: string };
 }) {
+  revalidatePath("/map");
   const { data } = await getClient().query({
     query: FETCH_REGION_DETAILS,
     variables: { slug: params.slug },
@@ -21,15 +23,13 @@ export default async function MapPage({
 
   const { regionDetails: region } = data;
 
-  const DEFAULT_CENTER = [0.66245, -0.9];
-
   return (
     <div>
       {region.title}
       <Map
         width="800"
         height="400"
-        center={DEFAULT_CENTER}
+        center={region.center}
         zoom={region.defaultZoom}
         minZoom={region.minZoom}
         maxZoom={region.maxZoom}

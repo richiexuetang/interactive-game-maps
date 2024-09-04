@@ -42,7 +42,7 @@ Table Region {
   minZoom Int [not null]
   maxZoom Int [not null]
   defaultZoom Int [not null]
-  bounds Decimal[] [not null]
+  center Decimal[] [not null]
   tilePath String [not null]
   Game Game
   gameSlug String
@@ -64,6 +64,7 @@ Table MarkerCategory {
   title String [not null, default: '']
   icon String [not null]
   template String
+  info String
 }
 
 Table MarkerLocation {

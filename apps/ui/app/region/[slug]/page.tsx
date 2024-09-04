@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getClient } from "../../apollo-client";
 import { FETCH_REGIONS_BY_GAME } from "../../constants";
+import { revalidatePath } from "next/cache";
 
 interface Region {
   slug: string;
@@ -19,6 +20,7 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
+  revalidatePath("/region");
   const { data } = await getClient().query({
     query: FETCH_REGIONS_BY_GAME,
     variables: { slug: params.slug },

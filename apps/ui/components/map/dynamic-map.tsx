@@ -22,9 +22,14 @@ const Map = ({ className, width, height, tilePath, markers, ...rest }: any) => {
   }, []);
 
   return (
-    <MapContainer {...rest} attributionControl={false}>
+    <MapContainer
+      {...rest}
+      attributionControl={false}
+      className="w-full h-full"
+    >
       <ReactLeaflet.TileLayer
-        url={`${process.env.NEXT_PUBLIC_CDN_URL}${tilePath}/{z}/{y}/{x}.jpg`}
+        url={`${process.env.NEXT_PUBLIC_CDN_URL}/${tilePath}/{z}/{y}/{x}.jpg`}
+        className="w-full h-full"
       />
       <MarkerRenderer markers={markers} />
     </MapContainer>

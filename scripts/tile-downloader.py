@@ -13,9 +13,9 @@ import os
 # x_low, x_high = 1017, 1022
 # y_low, y_high = 1017, 1022
 
-zoom = 12
-x_low, x_high = 2034, 2046
-y_low, y_high = 2034, 2045
+# zoom = 12
+# x_low, x_high = 2034, 2046
+# y_low, y_high = 2034, 2045
 
 region_name = 'chapter-2'
 for x in range(x_low, x_high+1):

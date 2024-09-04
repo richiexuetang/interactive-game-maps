@@ -26,4 +26,7 @@ export class Region extends BaseModel {
 
   @Field()
   gameSlug: string;
+
+  // @Field()
+  // center: number[];
 }

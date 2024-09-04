@@ -47,7 +47,7 @@ CREATE TABLE "Region" (
     "minZoom" INTEGER NOT NULL,
     "maxZoom" INTEGER NOT NULL,
     "defaultZoom" INTEGER NOT NULL,
-    "bounds" DECIMAL(65,30)[],
+    "center" DECIMAL(65,30)[],
     "tilePath" TEXT NOT NULL,
     "gameSlug" TEXT,
 
@@ -70,6 +70,7 @@ CREATE TABLE "MarkerCategory" (
     "title" TEXT NOT NULL DEFAULT '',
     "icon" TEXT NOT NULL,
     "template" TEXT,
+    "info" TEXT,
 
     CONSTRAINT "MarkerCategory_pkey" PRIMARY KEY ("id")
 );
