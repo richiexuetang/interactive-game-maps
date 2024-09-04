@@ -14,9 +14,9 @@ const Map = ({ className, width, height, tilePath, markers, ...rest }: any) => {
       // @ts-ignore
       delete Leaflet.Icon.Default.prototype._getIconUrl;
       Leaflet.Icon.Default.mergeOptions({
-        iconRetinaUrl: `${process.env.NEXT_PUBLIC_CDN_URL}/leaflet/marker-icon-2x.png`,
-        iconUrl: `${process.env.NEXT_PUBLIC_CDN_URL}/leaflet/marker-icon.png`,
-        shadowUrl: `${process.env.NEXT_PUBLIC_CDN_URL}/leaflet/marker-shadow.png`,
+        iconRetinaUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon-2x.png`,
+        iconUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon.png`,
+        shadowUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-shadow.png`,
       });
     })();
   }, []);
@@ -28,7 +28,7 @@ const Map = ({ className, width, height, tilePath, markers, ...rest }: any) => {
       className="w-full h-full"
     >
       <ReactLeaflet.TileLayer
-        url={`${process.env.NEXT_PUBLIC_CDN_URL}/${tilePath}/{z}/{y}/{x}.jpg`}
+        url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
         className="w-full h-full"
       />
       <MarkerRenderer markers={markers} />

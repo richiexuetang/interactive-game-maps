@@ -22,24 +22,22 @@ export default async function MapPage({
   });
 
   const { regionDetails: region } = data;
+  const { center, defaultZoom, minZoom, maxZoom, tilePath } = region;
 
   return (
-    <div>
-      {region.title}
-      <Map
-        width="800"
-        height="400"
-        center={region.center}
-        zoom={region.defaultZoom}
-        minZoom={region.minZoom}
-        maxZoom={region.maxZoom}
-        tilePath={region.tilePath}
-        bounds={[
-          [1.6037944300589855, 1.1618041992187502],
-          [-0.08514401163112739, -2.2164916992187504],
-        ]}
-        markers={locationData.getByRegion}
-      />
-    </div>
+    <Map
+      width="800"
+      height="400"
+      center={center}
+      zoom={defaultZoom}
+      minZoom={minZoom}
+      maxZoom={maxZoom}
+      tilePath={tilePath}
+      bounds={[
+        [1.6037944300589855, 1.1618041992187502],
+        [-0.08514401163112739, -2.2164916992187504],
+      ]}
+      markers={locationData.getByRegion}
+    />
   );
 }

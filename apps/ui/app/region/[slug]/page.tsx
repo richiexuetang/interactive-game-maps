@@ -28,10 +28,10 @@ export default async function RegionPage({
   const { findRegionsByGame: regions } = data;
 
   return (
-    <div>
+    <div className="flex">
       {regions.map(({ id, slug, thumbnailUrl, title }: Region) => (
         <div key={id}>
-          <Link href={`/map/${slug}`}>
+          <Link href={`/map/${slug}`} className="flex flex-col">
             <Image
               src={process.env.CDN_BASE_URL + thumbnailUrl}
               width={250}
