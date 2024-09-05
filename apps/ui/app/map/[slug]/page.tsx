@@ -12,6 +12,7 @@ export default async function MapPage({
   params: { slug: string };
 }) {
   revalidatePath("/map");
+
   const { data } = await getClient().query({
     query: FETCH_REGION_DETAILS,
     variables: { slug: params.slug },
@@ -25,23 +26,19 @@ export default async function MapPage({
   const { center, defaultZoom, minZoom, maxZoom, tilePath } = region;
 
   return (
-    <Map
-      width="800"
-      height="400"
-      center={center}
-      zoom={defaultZoom}
-      minZoom={minZoom}
-      maxZoom={maxZoom}
-      tilePath={tilePath}
-      bounds={[
-        [1.864599987320306, 0.9640502929687501],
-        [-1.513190760969425, -2.41424560546875],
-      ]}
-      maxBounds={[
-        [1.864599987320306, 0.9640502929687501],
-        [-1.513190760969425, -2.41424560546875],
-      ]}
-      markers={locationData.getLocationByRegion}
-    />
+    <>
+      <Map
+        center={center}
+        zoom={defaultZoom}
+        minZoom={minZoom}
+        maxZoom={maxZoom}
+        tilePath={tilePath}
+        bounds={[
+          [1.8645, 0.964],
+          [-1.513190760969425, -2.41424560546875],
+        ]}
+        markers={locationData.getLocationByRegion}
+      />
+    </>
   );
 }

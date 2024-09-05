@@ -17,5 +17,5 @@ export class MarkerCategory extends BaseModel {
   info?: string | null;
 
   @Field(() => [MarkerLocation], { nullable: true })
-  markerLocations?: MarkerLocation[] | null;
+  locations?: MarkerLocation[] | null;
 }

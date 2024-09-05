@@ -30,7 +30,9 @@ scalar DateTime
 type Game {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
+  groups: [MarkerGroup!]
   id: ID!
+  regions: [Region!]
   slug: String!
   thumbnailUrl: String!
   title: String!
@@ -55,7 +57,7 @@ type MarkerCategory {
   icon: String
   id: ID!
   info: String
-  markerLocations: [MarkerLocation!]
+  locations: [MarkerLocation!]
   template: String
   title: String!
 
@@ -68,11 +70,9 @@ type MarkerGroup {
 
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  game: Game!
-  gameSlug: String!
+  game: Game
+  gameSlug: String
   id: ID!
-  region: Region
-  regionId: Float
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -112,8 +112,10 @@ type Query {
   findOne(id: Float!): MarkerCategory!
   findOneById(id: Float!): Game!
   findRegionsByGame(slug: String!): [Region!]!
-  getGames: [Game!]!
+  games: [Game!]!
+  getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
   getLocationByRegion(slug: String!): [MarkerLocation!]!
+  groups: [MarkerGroup!]!
   me: User!
   regionDetails(slug: String!): Region!
 }

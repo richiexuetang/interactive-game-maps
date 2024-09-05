@@ -12,15 +12,15 @@ generator dbml {
 }
 
 model User {
-  id              String           @id @default(cuid())
-  createdAt       DateTime         @default(now())
-  updatedAt       DateTime         @updatedAt
-  email           String           @unique
-  password        String
-  firstName       String?
-  lastName        String?
-  role            Role
-  markedLocations MarkerLocation[]
+  id        String           @id @default(cuid())
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+  email     String           @unique
+  password  String
+  firstName String?
+  lastName  String?
+  role      Role
+  locations MarkerLocation[]
 }
 
 enum Role {
@@ -49,7 +49,6 @@ model Region {
   tilePath     String
   Game         Game?            @relation(fields: [gameSlug], references: [slug])
   gameSlug     String?
-  groups       MarkerGroup[]
   locations    MarkerLocation[]
 }
 
@@ -59,19 +58,17 @@ model MarkerGroup {
   Game       Game?            @relation(fields: [gameSlug], references: [slug])
   gameSlug   String?
   categories MarkerCategory[]
-  Region     Region?          @relation(fields: [regionId], references: [id])
-  regionId   Int?
 }
 
 model MarkerCategory {
   id            Int              @id @default(autoincrement())
-  MarkerGroup   MarkerGroup?     @relation(fields: [markerGroupId], references: [id])
   markerGroupId Int?
   title         String           @default("")
   icon          String
   template      String?
   info          String?
   locations     MarkerLocation[]
+  MarkerGroup   MarkerGroup?     @relation(fields: [markerGroupId], references: [id])
 }
 
 model MarkerLocation {

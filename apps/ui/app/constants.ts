@@ -2,11 +2,24 @@ import { gql } from "@apollo/client";
 
 export const FETCH_GAMES = gql`
   query {
-    getGames {
-      slug
-      title
-      thumbnailUrl
+    games {
+      groups {
+        title
+      }
       id
+      regions {
+        defaultZoom
+        gameSlug
+        maxZoom
+        minZoom
+        slug
+        thumbnailUrl
+        tilePath
+        title
+      }
+      slug
+      thumbnailUrl
+      title
     }
   }
 `;

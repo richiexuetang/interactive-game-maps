@@ -8,7 +8,7 @@ import { MarkerRenderer } from "../markers/marker-renderer";
 
 const { MapContainer } = ReactLeaflet;
 
-const Map = ({ className, width, height, tilePath, markers, ...rest }: any) => {
+const Map = ({ width, height, tilePath, markers, ...rest }: any) => {
   useEffect(() => {
     (async function init() {
       // @ts-ignore
@@ -25,6 +25,7 @@ const Map = ({ className, width, height, tilePath, markers, ...rest }: any) => {
     <MapContainer
       {...rest}
       attributionControl={false}
+      zoomControl={false}
       className="w-full h-full"
     >
       <ReactLeaflet.TileLayer

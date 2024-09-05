@@ -106,7 +106,7 @@ async function main() {
     data: {
       slug: "witcher-3",
       title: "The Witcher 3: The Wild Hunt",
-      thumbnailUrl: "thumbnails/witcher-3.jpg",
+      thumbnailUrl: "thumbnails/witcher-3.png",
     },
   });
 

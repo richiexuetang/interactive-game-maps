@@ -17,8 +17,10 @@ export class GamesResolver {
   }
 
   @Query(() => [Game])
-  async getGames() {
-    return this.prisma.game.findMany({});
+  async games() {
+    return this.prisma.game.findMany({
+      include: { regions: true, groups: true },
+    });
   }
 
   @Query(() => Game)

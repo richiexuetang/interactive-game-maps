@@ -8,6 +8,19 @@ import { MarkerCategory } from "./models/marker-category.model";
 export class MarkerGroupsResolver {
   constructor(private prisma: PrismaService) {}
 
+  @Query(() => [MarkerGroup])
+  async groups() {
+    return this.prisma.markerGroup.findMany({ include: { categories: true } });
+  }
+
+  @Query(() => [MarkerGroup])
+  async getGroupsByGameSlug(@Args("slug") slug: string) {
+    return this.prisma.markerGroup.findMany({
+      where: { gameSlug: slug },
+      include: { categories: true },
+    });
+  }
+
   @Query(() => MarkerCategory)
   async findOne(@Args("id") id: number) {
     return this.prisma.markerGroup.findUnique({ where: { id: id } }).categories;
@@ -15,6 +28,9 @@ export class MarkerGroupsResolver {
 
   @Query(() => [MarkerGroup])
   async findByRegionId(@Args("id") id: number) {
-    return this.prisma.markerGroup.findMany({ where: { regionId: id } });
+    return this.prisma.markerGroup.findMany({
+      where: { regionId: id },
+      include: { categories: true },
+    });
   }
 }
