@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getClient } from "../../apollo-client";
-import { FETCH_REGIONS_BY_GAME } from "../../constants";
+import { FETCH_GAMES } from "../../constants";
 import { revalidatePath } from "next/cache";
+import { Game } from "../../__generated__/graphql";
 
 interface Region {
   slug: string;
@@ -22,25 +23,31 @@ export default async function RegionPage({
 }) {
   revalidatePath("/region");
   const { data } = await getClient().query({
-    query: FETCH_REGIONS_BY_GAME,
-    variables: { slug: params.slug },
+    query: FETCH_GAMES,
   });
-  const { findRegionsByGame: regions } = data;
+  const { games } = data;
 
+  const regions = games?.find(
+    (game: Game) => game.slug === params.slug
+  ).regions;
+
+  console.log(regions);
   return (
-    <div className="flex">
-      {regions.map(({ id, slug, thumbnailUrl, title }: Region) => (
-        <div key={id}>
-          <Link href={`/map/${slug}`} className="flex flex-col">
-            <Image
-              src={process.env.CDN_BASE_URL + thumbnailUrl}
-              width={250}
-              height={250}
-              alt={`${title} thumbnail`}
-            />
-            <span>{title}</span>
-          </Link>
-        </div>
+    <div className="flex gap-5 justify-between">
+      {regions.map(({ slug, thumbnailUrl, title }: Region) => (
+        <Link
+          key={title}
+          href={`/map/${slug}`}
+          className="flex flex-col items-center justify-center"
+        >
+          <Image
+            src={process.env.CDN_BASE_URL + thumbnailUrl}
+            width={320}
+            height={320}
+            alt={`${title} thumbnail`}
+          />
+          <span className="text-center">{title}</span>
+        </Link>
       ))}
     </div>
   );

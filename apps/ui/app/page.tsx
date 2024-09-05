@@ -4,7 +4,7 @@ import { getClient } from "./apollo-client";
 import Link from "next/link";
 import { revalidatePath } from "next/cache";
 
-type Game = {
+export type Game = {
   slug: string;
   title: string;
   thumbnailUrl: string;
@@ -16,10 +16,11 @@ export default async function Page() {
   const { data } = await getClient().query({
     query: FETCH_GAMES,
   });
-  const { getGames: games } = data;
+  const { games } = data;
 
+  console.log(games);
   return (
-    <div className="flex gap-5 justify-between m-5">
+    <div className="flex gap-5 justify-between m-5 h-full">
       {games?.map((game: Game) => (
         <div key={game.slug}>
           <Link

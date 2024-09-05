@@ -1,6 +1,6 @@
 import { gql } from "@apollo/client";
 
-export const FETCH_GAMES = gql`
+export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {
       groups {
@@ -22,7 +22,7 @@ export const FETCH_GAMES = gql`
       title
     }
   }
-`;
+`);
 
 export const FETCH_REGIONS_BY_GAME = gql`
   query findRegionsByGame($slug: String!) {

@@ -1,13 +1,19 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { AntdRegistry } from "@ant-design/nextjs-registry";
-
-const inter = Inter({ subsets: ["latin"] });
+import { NextUIProvider } from "@nextui-org/react";
+import clsx from "clsx";
+import { fontSans } from "@/config/fonts";
 
 export const metadata: Metadata = {
   title: "Ritcher Map",
   description: "",
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
 };
 
 export default function RootLayout({
@@ -17,8 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <AntdRegistry>{children}</AntdRegistry>
+      <body
+        className={clsx(
+          "min-h-screen font-sans antialiased",
+          fontSans.variable
+        )}
+      >
+        <NextUIProvider>{children}</NextUIProvider>
       </body>
     </html>
   );
