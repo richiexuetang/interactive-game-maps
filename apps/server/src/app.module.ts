@@ -4,7 +4,6 @@ import { ConfigModule } from "@nestjs/config";
 import { PrismaModule, loggingMiddleware } from "nestjs-prisma";
 import { AuthModule } from "./auth/auth.module";
 import { UsersModule } from "./users/users.module";
-import { PostsModule } from "./posts/posts.module";
 import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
@@ -34,7 +33,6 @@ import { MarkersModule } from "./markers/marker.module";
 
     AuthModule,
     UsersModule,
-    PostsModule,
     GamesModule,
     RegionsModule,
     MarkersModule,

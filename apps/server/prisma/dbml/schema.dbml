@@ -8,21 +8,10 @@ Table User {
   updatedAt DateTime [not null]
   email String [unique, not null]
   password String [not null]
-  firstname String
-  lastname String
-  posts Post [not null]
+  firstName String
+  lastName String
   role Role [not null]
-}
-
-Table Post {
-  id String [pk]
-  createdAt DateTime [default: `now()`, not null]
-  updatedAt DateTime [not null]
-  published Boolean [not null]
-  title String [not null]
-  content String
-  author User
-  authorId String
+  markedLocations MarkerLocation [not null]
 }
 
 Table Game {
@@ -46,6 +35,7 @@ Table Region {
   tilePath String [not null]
   Game Game
   gameSlug String
+  groups MarkerGroup [not null]
   locations MarkerLocation [not null]
 }
 
@@ -55,6 +45,8 @@ Table MarkerGroup {
   Game Game
   gameSlug String
   categories MarkerCategory [not null]
+  Region Region
+  regionId Int
 }
 
 Table MarkerCategory {
@@ -65,6 +57,7 @@ Table MarkerCategory {
   icon String [not null]
   template String
   info String
+  locations MarkerLocation [not null]
 }
 
 Table MarkerLocation {
@@ -73,6 +66,10 @@ Table MarkerLocation {
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
+  category MarkerCategory
+  categoryId Int
+  User User
+  userId String
   Region Region
   regionSlug String
 }
@@ -82,12 +79,16 @@ Enum Role {
   USER
 }
 
-Ref: Post.authorId > User.id
-
 Ref: Region.gameSlug > Game.slug
 
 Ref: MarkerGroup.gameSlug > Game.slug
 
+Ref: MarkerGroup.regionId > Region.id
+
 Ref: MarkerCategory.markerGroupId > MarkerGroup.id
+
+Ref: MarkerLocation.categoryId > MarkerCategory.id
+
+Ref: MarkerLocation.userId > User.id
 
 Ref: MarkerLocation.regionSlug > Region.slug

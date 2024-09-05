@@ -29,7 +29,6 @@ const Map = ({ className, width, height, tilePath, markers, ...rest }: any) => {
     >
       <ReactLeaflet.TileLayer
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
-        className="w-full h-full"
       />
       <MarkerRenderer markers={markers} />
     </MapContainer>

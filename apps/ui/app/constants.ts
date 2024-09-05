@@ -35,8 +35,8 @@ export const FETCH_REGION_DETAILS = gql`
 `;
 
 export const FETCH_LOCATIONS_BY_REGION = gql`
-  query getByRegion($slug: String!) {
-    getByRegion(slug: $slug) {
+  query getLocationByRegion($slug: String!) {
+    getLocationByRegion(slug: $slug) {
       title
       latitude
       longitude

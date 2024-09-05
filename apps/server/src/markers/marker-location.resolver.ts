@@ -7,7 +7,7 @@ export class MarkerLocationsResolver {
   constructor(private prisma: PrismaService) {}
 
   @Query(() => [MarkerLocation])
-  async getByRegion(@Args("slug") slug: string) {
+  async getLocationByRegion(@Args("slug") slug: string) {
     return this.prisma.markerLocation.findMany({ where: { regionSlug: slug } });
   }
 }

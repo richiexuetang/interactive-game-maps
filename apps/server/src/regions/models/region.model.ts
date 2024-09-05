@@ -1,5 +1,6 @@
 import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "src/common/models/base.model";
+import { MarkerGroup } from "src/markers/models/marker-group.model";
 
 @ObjectType()
 export class Region extends BaseModel {
@@ -27,6 +28,6 @@ export class Region extends BaseModel {
   @Field()
   gameSlug: string;
 
-  // @Field()
-  // center: number[];
+  // @Field(() => [MarkerGroup], { nullable: true })
+  // groups?: MarkerGroup[] | null;
 }

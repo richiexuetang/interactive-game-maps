@@ -34,10 +34,14 @@ export default async function MapPage({
       maxZoom={maxZoom}
       tilePath={tilePath}
       bounds={[
-        [1.6037944300589855, 1.1618041992187502],
-        [-0.08514401163112739, -2.2164916992187504],
+        [1.864599987320306, 0.9640502929687501],
+        [-1.513190760969425, -2.41424560546875],
       ]}
-      markers={locationData.getByRegion}
+      maxBounds={[
+        [1.864599987320306, 0.9640502929687501],
+        [-1.513190760969425, -2.41424560546875],
+      ]}
+      markers={locationData.getLocationByRegion}
     />
   );
 }
