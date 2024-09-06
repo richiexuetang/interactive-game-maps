@@ -20,25 +20,24 @@ export default async function Page() {
 
   console.log(games);
   return (
-    <div className="flex gap-5 justify-between m-5 h-full">
+    <div className="flex gap-5 p-8 flex-wrap content-center justify-center">
       {games?.map((game: Game) => (
-        <div key={game.slug}>
-          <Link
-            href={`/region/${game.slug}`}
-            className="flex flex-col items-center"
-          >
-            <Image
-              src={process.env.CDN_BASE_URL + game.thumbnailUrl}
-              width={480}
-              height={270}
-              alt={`${game.title} thumbnail`}
-              priority={true}
-            />
-            <h2 className="p-3 bg-slate-700 w-full text-center">
-              {game.title}
-            </h2>
-          </Link>
-        </div>
+        <Link
+          key={game.slug}
+          href={`/region/${game.slug}`}
+          className="flex flex-col items-center"
+        >
+          <Image
+            src={process.env.CDN_BASE_URL + game.thumbnailUrl}
+            width={360}
+            height={202.5}
+            alt={`${game.title} thumbnail`}
+            priority={true}
+          />
+          <h2 className="p-2 bg-slate-700 w-full h-20 text-center inline-block content-center text-sm">
+            {game.title}
+          </h2>
+        </Link>
       ))}
     </div>
   );

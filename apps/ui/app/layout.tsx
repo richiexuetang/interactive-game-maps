@@ -3,6 +3,7 @@ import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import clsx from "clsx";
 import { fontSans } from "@/config/fonts";
+import { MainNav } from "@/components/main-nav";
 
 export const metadata: Metadata = {
   title: "Ritcher Map",
@@ -29,7 +30,10 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <NextUIProvider>{children}</NextUIProvider>
+        <NextUIProvider>
+          <MainNav />
+          {children}
+        </NextUIProvider>
       </body>
     </html>
   );

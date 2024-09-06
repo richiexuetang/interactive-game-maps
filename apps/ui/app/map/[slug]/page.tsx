@@ -26,19 +26,13 @@ export default async function MapPage({
   const { center, defaultZoom, minZoom, maxZoom, tilePath } = region;
 
   return (
-    <>
-      <Map
-        center={center}
-        zoom={defaultZoom}
-        minZoom={minZoom}
-        maxZoom={maxZoom}
-        tilePath={tilePath}
-        bounds={[
-          [1.8645, 0.964],
-          [-1.513190760969425, -2.41424560546875],
-        ]}
-        markers={locationData.getLocationByRegion}
-      />
-    </>
+    <Map
+      center={center}
+      zoom={defaultZoom}
+      minZoom={minZoom}
+      maxZoom={maxZoom}
+      tilePath={tilePath}
+      markers={locationData.getLocationByRegion}
+    />
   );
 }
