@@ -35,14 +35,18 @@ export const FETCH_REGIONS_BY_GAME = gql`
 `;
 
 export const FETCH_REGION_DETAILS = gql`
-  query regionDetails($slug: String!) {
+  query RegionDetails($slug: String!) {
     regionDetails(slug: $slug) {
-      slug
-      title
-      tilePath
-      minZoom
       defaultZoom
+      gameSlug
+      id
       maxZoom
+      minZoom
+      slug
+      thumbnailUrl
+      tilePath
+      title
+      center
     }
   }
 `;

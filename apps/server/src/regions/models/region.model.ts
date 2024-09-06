@@ -28,6 +28,9 @@ export class Region extends BaseModel {
   @Field()
   gameSlug: string;
 
+  @Field(() => [Number], { nullable: true })
+  center: number[] | null;
+
   // @Field(() => [MarkerGroup], { nullable: true })
   // groups?: MarkerGroup[] | null;
 }

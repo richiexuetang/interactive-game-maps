@@ -31,7 +31,6 @@ export default async function RegionPage({
     (game: Game) => game.slug === params.slug
   ).regions;
 
-  console.log(regions);
   return (
     <div className="flex gap-5 justify-between">
       {regions.map(({ slug, thumbnailUrl, title }: Region) => (
