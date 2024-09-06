@@ -32,12 +32,12 @@ export default async function RegionPage({
   ).regions;
 
   return (
-    <div className="flex gap-5 justify-between">
+    <div className="flex gap-5 p-8 flex-wrap content-center justify-center">
       {regions.map(({ slug, thumbnailUrl, title }: Region) => (
         <Link
           key={title}
           href={`/map/${slug}`}
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center"
         >
           <Image
             src={process.env.CDN_BASE_URL + thumbnailUrl}
@@ -45,7 +45,9 @@ export default async function RegionPage({
             height={320}
             alt={`${title} thumbnail`}
           />
-          <span className="text-center">{title}</span>
+          <span className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-secondary-200 rounded-b-lg">
+            {title}
+          </span>
         </Link>
       ))}
     </div>

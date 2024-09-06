@@ -16,6 +16,7 @@ export const FETCH_GAMES = gql(/* GraphQL */ `
         thumbnailUrl
         tilePath
         title
+        center
       }
       slug
       thumbnailUrl

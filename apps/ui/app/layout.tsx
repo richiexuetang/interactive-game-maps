@@ -25,20 +25,20 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <NextUIProvider>
-          <NextThemesProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
+        <NextThemesProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NextUIProvider>
             <MainNav />
             <div className="relative flex min-h-screen flex-col text-foreground bg-background">
               {children}
             </div>
             <ThemeSwitcher />
-          </NextThemesProvider>
-        </NextUIProvider>
+          </NextUIProvider>
+        </NextThemesProvider>
       </body>
     </html>
   );

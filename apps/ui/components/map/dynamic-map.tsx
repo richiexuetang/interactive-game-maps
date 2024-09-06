@@ -5,6 +5,7 @@ import Leaflet from "leaflet";
 import * as ReactLeaflet from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { MarkerRenderer } from "../markers/marker-renderer";
+import "@/leaflet/smooth-wheel-zoom";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -13,6 +14,7 @@ const Map = ({ width, height, tilePath, markers, ...rest }: any) => {
     (async function init() {
       // @ts-ignore
       delete Leaflet.Icon.Default.prototype._getIconUrl;
+
       Leaflet.Icon.Default.mergeOptions({
         iconRetinaUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon-2x.png`,
         iconUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon.png`,
@@ -26,6 +28,9 @@ const Map = ({ width, height, tilePath, markers, ...rest }: any) => {
       {...rest}
       attributionControl={false}
       zoomControl={false}
+      scrollWheelZoom={false}
+      smoothWheelZoom={true}
+      smoothSensitivity={15}
       className="w-full h-full"
     >
       <ReactLeaflet.TileLayer

@@ -25,8 +25,6 @@ export default async function MapPage({
   const { regionDetails: region } = data;
   const { center, defaultZoom, minZoom, maxZoom, tilePath } = region;
 
-  console.log(region);
-
   return (
     <Map
       center={center}
