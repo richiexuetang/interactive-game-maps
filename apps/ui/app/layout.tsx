@@ -1,20 +1,15 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import clsx from "clsx";
 import { fontSans } from "@/config/fonts";
 import { MainNav } from "@/components/main-nav";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { ThemeSwitcher } from "@/components/theme-switcher";
 
 export const metadata: Metadata = {
   title: "Ritcher Map",
   description: "",
-};
-
-export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
 };
 
 export default function RootLayout({
@@ -26,13 +21,23 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={clsx(
-          "min-h-screen font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
         <NextUIProvider>
-          <MainNav />
-          {children}
+          <NextThemesProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <MainNav />
+            <div className="relative flex min-h-screen flex-col text-foreground bg-background">
+              {children}
+            </div>
+            <ThemeSwitcher />
+          </NextThemesProvider>
         </NextUIProvider>
       </body>
     </html>

@@ -34,7 +34,7 @@ export default async function Page() {
             alt={`${game.title} thumbnail`}
             priority={true}
           />
-          <h2 className="p-2 bg-slate-700 w-full h-20 text-center inline-block content-center text-sm">
+          <h2 className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-secondary-200 rounded-b-lg">
             {game.title}
           </h2>
         </Link>

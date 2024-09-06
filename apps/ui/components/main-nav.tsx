@@ -3,42 +3,35 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
   Button,
+  Link as UiLink,
 } from "@nextui-org/react";
+import { ZapIcon } from "./icons/zap-icon";
+import Link from "next/link";
+import { ModeToggle } from "./mode-toggle";
 
 export function MainNav() {
   return (
     <Navbar>
       <NavbarBrand>
-        {/* <AcmeLogo /> */}
-        <p className="font-bold text-inherit">Ritcher Map</p>
+        <UiLink href="/">
+          <ZapIcon />
+          <p className="font-bold pl-3">Ritcher Map</p>
+        </UiLink>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
+          <Link href="/login">
+            <Button variant="bordered" radius="md">
+              Login
+            </Button>
+          </Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
+          <Button radius="md">Sign up</Button>
+        </NavbarItem>
+        <NavbarItem>
+          <ModeToggle />
         </NavbarItem>
       </NavbarContent>
     </Navbar>
