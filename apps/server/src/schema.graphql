@@ -110,7 +110,6 @@ type Query {
   findByRegionId(id: Float!): [MarkerGroup!]!
   findCategoryById(id: Float!): MarkerCategory!
   findOne(id: Float!): MarkerCategory!
-  findOneById(id: Float!): Game!
   findRegionsByGame(slug: String!): [Region!]!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!

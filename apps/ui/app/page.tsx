@@ -18,7 +18,6 @@ export default async function Page() {
   });
   const { games } = data;
 
-  console.log(games);
   return (
     <div className="flex gap-5 p-8 flex-wrap content-center justify-center">
       {games?.map((game: Game) => (

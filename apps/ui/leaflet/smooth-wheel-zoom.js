@@ -1,3 +1,5 @@
+import L from 'leaflet';
+
 L.Map.mergeOptions({
   // @section Mousewheel options
   // @option smoothWheelZoom: Boolean|String = true

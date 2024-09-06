@@ -25,6 +25,20 @@ export const FETCH_GAMES = gql(/* GraphQL */ `
   }
 `);
 
+export const FETCH_GROUPS_BY_GAME_SLUG = gql`
+  query GetGroupsByGameSlug($slug: String!) {
+    getGroupsByGameSlug(slug: $slug) {
+      title
+      categories {
+        title
+        icon
+        info
+        template
+      }
+    }
+  }
+`;
+
 export const FETCH_REGIONS_BY_GAME = gql`
   query findRegionsByGame($slug: String!) {
     findRegionsByGame(slug: $slug) {

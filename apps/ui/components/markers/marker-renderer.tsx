@@ -1,4 +1,4 @@
-import { Marker, Popup, useMap } from "react-leaflet";
+import { Marker, Popup, Tooltip, useMap } from "react-leaflet";
 import * as React from "react";
 
 export const MarkerRenderer = ({ markers }: any) => {
@@ -15,7 +15,7 @@ export const MarkerRenderer = ({ markers }: any) => {
         const marker = markerRef.current;
         if (marker != null) {
           console.log(marker.getLatLng());
-          console.log(map.getBounds());
+          alert(map.getBounds().getCenter());
           setPosition(marker.getLatLng());
         }
       },
@@ -36,6 +36,7 @@ export const MarkerRenderer = ({ markers }: any) => {
           <Popup minWidth={90}>
             <span>{marker.title}</span>
           </Popup>
+          <Tooltip>{marker.title}</Tooltip>
         </Marker>
       ))}
       <Marker

@@ -12,7 +12,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export function MainNav() {
   return (
-    <Navbar>
+    <Navbar isBordered className="z-[500]">
       <NavbarBrand>
         <UiLink href="/">
           <ZapIcon />

@@ -199,6 +199,7 @@ export type QueryRegionDetailsArgs = {
 
 export type Region = {
   __typename?: 'Region';
+  center?: Maybe<Array<Scalars['Float']['output']>>;
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   defaultZoom: Scalars['Float']['output'];

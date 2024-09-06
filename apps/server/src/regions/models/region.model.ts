@@ -30,7 +30,4 @@ export class Region extends BaseModel {
 
   @Field(() => [Number], { nullable: true })
   center: number[] | null;
-
-  // @Field(() => [MarkerGroup], { nullable: true })
-  // groups?: MarkerGroup[] | null;
 }

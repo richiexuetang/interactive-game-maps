@@ -22,9 +22,4 @@ export class GamesResolver {
       include: { regions: true, groups: true },
     });
   }
-
-  @Query(() => Game)
-  async findOneById(@Args("id", ParseIntPipe) id: number) {
-    return this.prisma.game.findUnique({ where: { id: id } });
-  }
 }

@@ -15,6 +15,7 @@
     "@apollo/experimental-nextjs-app-support": "^0.11.2",
     "@graphql-codegen/cli": "^5.0.2",
     "@nextui-org/button": "^2.0.37",
+    "@nextui-org/divider": "^2.0.31",
     "@nextui-org/navbar": "^2.0.36",
     "@nextui-org/react": "^2.4.6",
     "@nextui-org/system": "^2.2.5",
