@@ -39,12 +39,21 @@ export const FETCH_GROUPS_BY_GAME_SLUG = gql`
   }
 `;
 
-export const FETCH_REGIONS_BY_GAME = gql`
-  query findRegionsByGame($slug: String!) {
-    findRegionsByGame(slug: $slug) {
-      slug
+export const FETCH_REGION_MARKERS = gql`
+  query Locations($regionSlug: String) {
+    locations(regionSlug: $regionSlug) {
+      categoryId
+      category {
+        title
+        id
+        icon
+        info
+      }
+      description
+      latitude
+      longitude
       title
-      thumbnailUrl
+      id
     }
   }
 `;
@@ -62,16 +71,6 @@ export const FETCH_REGION_DETAILS = gql`
       tilePath
       title
       center
-    }
-  }
-`;
-
-export const FETCH_LOCATIONS_BY_REGION = gql`
-  query getLocationByRegion($slug: String!) {
-    getLocationByRegion(slug: $slug) {
-      title
-      latitude
-      longitude
     }
   }
 `;

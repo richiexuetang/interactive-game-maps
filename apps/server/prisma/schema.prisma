@@ -50,6 +50,7 @@ model Region {
   Game         Game?            @relation(fields: [gameSlug], references: [slug])
   gameSlug     String?
   locations    MarkerLocation[]
+  order        Int              @default(1)
 }
 
 model MarkerGroup {

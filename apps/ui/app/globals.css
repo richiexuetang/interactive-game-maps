@@ -18,16 +18,106 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.icon {
+  background: url(../public/markers/black-myth-wukong.png);
+  display: inline-block;
+  position: absolute;
+  width: 33px;
+  height: 44px;
+  background-color: transparent !important;
+}
+
+.leaflet-div-icon {
+  background: none !important;
+  border: none !important;
+}
+
+.aged_ginseng,
+.celestial_pear,
+.fire_bellflower,
+.fragrant_jade_flower,
+.jade_lotus,
+.gentian,
+.licorice {
+  background-position: 0 0;
+}
+
+.armor {
+  background-position: -33px 0;
+}
+
+.awaken_wine_worm {
+  background-position: -66px 0;
+}
+
+.character {
+  background-position: -165px 0;
+}
+
+.chest {
+  background-position: -198px 0px;
+}
+
+.consumable {
+  background-position: -231px 0px;
+}
+
+.chest {
+  background-position: -132px -44px;
+}
+
+.curio {
+  background-position: 0 -44px;
+}
+
+.drink {
+  background-position: -33px -44px;
+}
+
+.elite_lesser_yaoguai {
+  background-position: -99px -44px;
+}
+
+.formula {
+  background-position: -165px -44px;
+}
+
+.item {
+  background-position: -33px -88px;
+}
+
+.keeper_shrine {
+  background-position: -99px -88px;
+}
+
+.meditation_spot {
+  background-position: -66px -132px;
+}
+
+.easter_egg {
+  background-position: -44px -66px;
+}
+
+.leaflet-popup {
+  text-align: left !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: hsl(var(--nextui-content1) / var(--nextui-content1-opacity, var(--tw-bg-opacity))) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
+.leaflet-popup-tip {
+  background-color: hsl(var(--nextui-content1) / var(--nextui-content1-opacity, var(--tw-bg-opacity))) !important;
 }

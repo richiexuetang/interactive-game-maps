@@ -1,5 +1,10 @@
-import { MarkerGroup, Region } from "@/app/__generated__/graphql";
+import {
+  MarkerGroup,
+  MarkerLocation,
+  Region,
+} from "@/app/__generated__/graphql";
 import dynamic from "next/dynamic";
+import { ScrollShadow } from "@nextui-org/scroll-shadow";
 
 const DynamicMap = dynamic(() => import("./dynamic-map"), {
   ssr: false,
@@ -8,12 +13,13 @@ const DynamicMap = dynamic(() => import("./dynamic-map"), {
 export interface MapProps {
   region: Region;
   groups: MarkerGroup[];
+  markers: MarkerLocation[];
 }
 
-const Map = ({ region, groups }: MapProps) => {
+const Map = ({ region, groups, markers }: MapProps) => {
   return (
-    <div className="aspect-square overflow-y-hidden">
-      <div className="overflow-x-auto overflow-y-hidden absolute left-0 z-[499] w-96 transition-transform bg-black border-r-blue-50 border-r-1 h-full">
+    <div className="w-[98%] h-screen overflow-y-hidden top-0 bottom-0">
+      <div className="overflow-y-scroll absolute left-0 top-10 z-[499] w-96 transition-transform border-r-blue-50 border-1 border-l-0 h-[650px] my-5">
         <div className="relative flex flex-col py-5">
           {groups?.map((group) => (
             <div
@@ -33,7 +39,7 @@ const Map = ({ region, groups }: MapProps) => {
           ))}
         </div>
       </div>
-      <DynamicMap region={region} />
+      <DynamicMap region={region} markers={markers} />
     </div>
   );
 };

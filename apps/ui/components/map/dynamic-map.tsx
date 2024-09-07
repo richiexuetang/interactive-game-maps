@@ -5,11 +5,18 @@ import Leaflet from "leaflet";
 import * as ReactLeaflet from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "@/leaflet/smooth-wheel-zoom";
-import { Region } from "@/app/__generated__/graphql";
+import { MarkerLocation, Region } from "@/app/__generated__/graphql";
+import { MarkerRenderer } from "../markers/markers-renderer";
 
 const { MapContainer } = ReactLeaflet;
 
-const Map = ({ region }: { region: Region }) => {
+const Map = ({
+  region,
+  markers,
+}: {
+  region: Region;
+  markers: MarkerLocation[];
+}) => {
   const {
     tilePath,
     gameSlug,
@@ -19,6 +26,7 @@ const Map = ({ region }: { region: Region }) => {
     defaultZoom: zoom,
     ...rest
   } = region;
+
   useEffect(() => {
     (async function init() {
       Leaflet.Icon.Default.mergeOptions({
@@ -44,7 +52,7 @@ const Map = ({ region }: { region: Region }) => {
       <ReactLeaflet.TileLayer
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
       />
-      {/* <MarkerRenderer markers={markers} /> */}
+      <MarkerRenderer markers={markers} />
     </MapContainer>
   );
 };

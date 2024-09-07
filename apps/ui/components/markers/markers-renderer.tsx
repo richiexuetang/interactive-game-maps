@@ -1,5 +1,6 @@
-import { Marker, Popup, Tooltip, useMap } from "react-leaflet";
+import { Popup, useMap, Marker as RlMarker } from "react-leaflet";
 import * as React from "react";
+import { Marker } from "./marker";
 
 export const MarkerRenderer = ({ markers }: any) => {
   const map = useMap();
@@ -14,8 +15,7 @@ export const MarkerRenderer = ({ markers }: any) => {
       dragend() {
         const marker = markerRef.current;
         if (marker != null) {
-          console.log(marker.getLatLng());
-          alert(map.getBounds().getCenter());
+          console.log(map.getCenter());
           setPosition(marker.getLatLng());
         }
       },
@@ -28,18 +28,20 @@ export const MarkerRenderer = ({ markers }: any) => {
 
   return (
     <>
-      {markers.map((marker: any) => (
-        <Marker
-          key={marker.title}
-          position={[marker.latitude, marker.longitude]}
-        >
-          <Popup minWidth={90}>
-            <span>{marker.title}</span>
-          </Popup>
-          <Tooltip>{marker.title}</Tooltip>
-        </Marker>
-      ))}
-      <Marker
+      {markers.map(
+        ({ title, longitude, latitude, category, description }: any) => (
+          <Marker
+            key={title}
+            title={title}
+            longitude={longitude}
+            latitude={latitude}
+            icon={category.icon}
+            category={category.title}
+            description={description}
+          />
+        )
+      )}
+      <RlMarker
         draggable={draggable}
         eventHandlers={eventHandlers}
         position={position as any}
@@ -52,7 +54,7 @@ export const MarkerRenderer = ({ markers }: any) => {
               : "Click here to make marker draggable"}
           </span>
         </Popup>
-      </Marker>
+      </RlMarker>
     </>
   );
 };

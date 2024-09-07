@@ -106,15 +106,23 @@ type Mutation {
   updateUser(data: UpdateUserInput!): User!
 }
 
+"""
+Possible directions in which to order a list of items when provided an `orderBy` argument.
+"""
+enum OrderDirection {
+  asc
+  desc
+}
+
 type Query {
-  findByRegionId(id: Float!): [MarkerGroup!]!
   findCategoryById(id: Float!): MarkerCategory!
   findOne(id: Float!): MarkerCategory!
-  findRegionsByGame(slug: String!): [Region!]!
+  findRegionsByGame(orderBy: RegionOrder, slug: String!): [Region!]!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
   getLocationByRegion(slug: String!): [MarkerLocation!]!
   groups: [MarkerGroup!]!
+  locations(regionSlug: String): [MarkerLocation!]!
   me: User!
   regionDetails(slug: String!): Region!
 }
@@ -129,6 +137,7 @@ type Region {
   id: ID!
   maxZoom: Float!
   minZoom: Float!
+  order: Float
   slug: String!
   thumbnailUrl: String!
   tilePath: String!
@@ -136,6 +145,18 @@ type Region {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+}
+
+input RegionOrder {
+  direction: OrderDirection!
+  field: RegionOrderField!
+}
+
+"""Properties by which region connections can be ordered."""
+enum RegionOrderField {
+  id
+  order
+  title
 }
 
 """User role"""

@@ -25,12 +25,4 @@ export class MarkerGroupsResolver {
   async findOne(@Args("id") id: number) {
     return this.prisma.markerGroup.findUnique({ where: { id: id } }).categories;
   }
-
-  @Query(() => [MarkerGroup])
-  async findByRegionId(@Args("id") id: number) {
-    return this.prisma.markerGroup.findMany({
-      where: { regionId: id },
-      include: { categories: true },
-    });
-  }
 }

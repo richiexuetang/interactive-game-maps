@@ -6,6 +6,7 @@ import { fontSans } from "@/config/fonts";
 import { MainNav } from "@/components/main-nav";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "Ritcher Map",
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -33,7 +34,7 @@ export default function RootLayout({
         >
           <NextUIProvider>
             <MainNav />
-            <div className="relative flex min-h-screen flex-col text-foreground bg-background">
+            <div className="relative flex flex-col text-foreground bg-background">
               {children}
             </div>
             <ThemeSwitcher />
