@@ -1,9 +1,13 @@
 import { Popup, useMap, Marker as RlMarker } from "react-leaflet";
 import * as React from "react";
 import { Marker } from "./marker";
+import { useAtomValue } from "jotai";
+import { showMarkerAtom } from "@/store/marker";
 
 export const MarkerRenderer = ({ markers }: any) => {
   const map = useMap();
+  const showMarker = useAtomValue(showMarkerAtom);
+
   const [draggable, setDraggable] = React.useState(true);
   const [position, setPosition] = React.useState([
     0.1867672473697175, -0.68389892578125,
@@ -25,6 +29,8 @@ export const MarkerRenderer = ({ markers }: any) => {
   const toggleDraggable = React.useCallback(() => {
     setDraggable((d) => !d);
   }, []);
+
+  if (!showMarker) return null;
 
   return (
     <>

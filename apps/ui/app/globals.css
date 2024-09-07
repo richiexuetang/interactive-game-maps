@@ -121,3 +121,7 @@ body {
 .leaflet-popup-tip {
   background-color: hsl(var(--nextui-content1) / var(--nextui-content1-opacity, var(--tw-bg-opacity))) !important;
 }
+
+.leaflet-popup-content p {
+  margin: 0px !important;
+}
