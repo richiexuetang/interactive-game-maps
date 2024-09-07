@@ -34,6 +34,7 @@ export const FETCH_GROUPS_BY_GAME_SLUG = gql`
         icon
         info
         template
+        id
       }
     }
   }

@@ -1,13 +1,14 @@
-import { MarkerGroup } from "@/app/__generated__/graphql";
+import { MarkerGroup, MarkerLocation } from "@/app/__generated__/graphql";
 import { showMarkerAtom } from "@/store/marker";
 import { Checkbox } from "@nextui-org/checkbox";
 import { useAtom } from "jotai";
 
 interface MenuProps {
   groups: MarkerGroup[];
+  markers: MarkerLocation[];
 }
 
-export const Menu = ({ groups }: MenuProps) => {
+export const Menu = ({ groups, markers }: MenuProps) => {
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
   const toggleShowMarker = () => setShowMarker(!showMarker);
 
@@ -24,12 +25,18 @@ export const Menu = ({ groups }: MenuProps) => {
           >
             <h1 className="text-lg">{group.title}</h1>
             {group.categories?.map((category) => (
-              <span
-                key={category.title}
-                className="text-center inline-block content-center"
-              >
-                {category.title}
-              </span>
+              <div key={category.title} className="flex gap-2 justify-center">
+                <span className="text-center inline-block content-center">
+                  {category.title}
+                </span>
+                <p>
+                  {
+                    markers?.filter(
+                      ({ categoryId }) => categoryId == parseInt(category.id)
+                    ).length
+                  }
+                </p>
+              </div>
             ))}
           </div>
         ))}

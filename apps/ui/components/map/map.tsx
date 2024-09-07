@@ -26,7 +26,7 @@ const Map = ({ region, groups, markers }: MapProps) => {
   return (
     <Provider store={store}>
       <div className="h-[calc(100vh-3rem)] overflow-hidden">
-        <Menu groups={groups} />
+        <Menu groups={groups} markers={markers} />
         <DynamicMap region={region} markers={markers} />
       </div>
     </Provider>
