@@ -3,12 +3,6 @@ import {
   getMarkerLocations,
   getRegionDetails,
 } from "@/lib/api";
-import { getClient } from "../../apollo-client";
-import {
-  FETCH_GROUPS_BY_GAME_SLUG,
-  FETCH_REGION_DETAILS,
-  FETCH_REGION_MARKERS,
-} from "../../constants";
 import Map from "@/components/map/map";
 import { revalidatePath } from "next/cache";
 

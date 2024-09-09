@@ -18,6 +18,7 @@ export const Marker = ({
   category,
   description,
   gameSlug,
+  info,
 }: any) => {
   // build div icon
   var div = document.createElement("div");
@@ -47,8 +48,9 @@ export const Marker = ({
           <Divider />
           <CardBody>
             <div dangerouslySetInnerHTML={{ __html: description }} />
+            <div dangerouslySetInnerHTML={{ __html: info }} />
           </CardBody>
-          <Divider />
+          <Divider className="my-2" />
           <CardFooter className="justify-center">
             <Checkbox
               isSelected={markerFound}

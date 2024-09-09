@@ -7,6 +7,7 @@ import "leaflet/dist/leaflet.css";
 import "@/leaflet/smooth-wheel-zoom";
 import { MarkerLocation, Region } from "@/app/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
+import data from "@/lib/geo.json";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -27,6 +28,7 @@ const Map = ({
     ...rest
   } = region;
 
+  console.log(markers);
   useEffect(() => {
     (async function init() {
       Leaflet.Icon.Default.mergeOptions({
@@ -37,7 +39,7 @@ const Map = ({
     })();
   }, []);
 
-  const mimeType = gameSlug === "black-myth-wukong" ? "jpg" : "png";
+  const mimeType = gameSlug === "witcher-3" ? "png" : "jpg";
   const first = gameSlug === "black-myth-wukong" ? "y" : "x";
   const second = gameSlug === "black-myth-wukong" ? "x" : "y";
 
@@ -56,6 +58,7 @@ const Map = ({
       <ReactLeaflet.TileLayer
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{${first}}/{${second}}.${mimeType}`}
       />
+      <ReactLeaflet.GeoJSON data={data as any} />
       <MarkerRenderer markers={markers} gameSlug={gameSlug} />
     </MapContainer>
   );

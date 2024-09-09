@@ -8,6 +8,8 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { cn } from "@nextui-org/theme";
+import { Tooltip } from "@nextui-org/react";
 
 interface MenuProps {
   groups: MarkerGroup[];
@@ -43,28 +45,33 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
     }
   };
 
+  const ChevronIcon = collapseMenu ? ChevronRightIcon : ChevronLeftIcon;
+  const chevronText = collapseMenu ? "Expand" : "Collapse";
   return (
     <>
-      {collapseMenu ? (
-        <div className="mt-20">
-          <ChevronRightIcon
-            className="w-[30px] h-[30px] top-12"
-            onClick={() => setCollapseMenu(false)}
+      <div
+        className={cn("absolute z-[1000] top-20", !collapseMenu && "left-96")}
+      >
+        <Tooltip content={chevronText}>
+          <ChevronIcon
+            onClick={() => setCollapseMenu(!collapseMenu)}
+            className="w-8 h-8 cursor-pointer"
           />
-        </div>
-      ) : (
-        <div className="overflow-y-scroll absolute left-0 z-[499] w-[460px] transition-transform bg-zinc-900 border-r-blue-50 border-1 border-l-0 h-[95%] my-5">
+        </Tooltip>
+      </div>
+      {!collapseMenu && (
+        <div className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform bg-zinc-900 border-r-blue-50 border-1 border-l-0 h-full">
           <div className="relative flex flex-col p-5 gap-4 items-center">
             <Link href={`/region/${gameSlug}`}>
               <Image
-                src="/images/games/black-myth-wukong/logo-512.png"
+                src={`/images/games/${gameSlug}/logo-512.png`}
                 width="360"
                 height="70"
                 alt="sidebar logo"
                 className="cursor-pointer"
               />
             </Link>
-            <ChevronLeftIcon onClick={() => setCollapseMenu(true)} />
+
             <Checkbox isSelected={!showMarker} onValueChange={toggleShowMarker}>
               {showMarker ? "Hide All" : "Show All"}
             </Checkbox>
@@ -86,14 +93,14 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               if (sumValues === 0) return null;
 
               return (
-                <div key={group.title} className="flex flex-col gap-4 pb-4">
+                <div key={group.title} className="flex flex-wrap w-full">
                   <h1
                     className="text-lg w-full uppercase"
                     onClick={() => handleHideGroup(group.title)}
                   >
                     {group.title}
                   </h1>
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-col cursor-pointer flex-wrap">
                     {group.categories?.map((category) => {
                       const count = markers?.filter(
                         ({ categoryId }) => categoryId == parseInt(category.id)
@@ -104,17 +111,12 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
                       return (
                         <div
                           key={category.title}
-                          className="flex-[50%] gap-2 cursor-pointer"
+                          className="cursor-pointer flex-grow"
                           onClick={() => handleHiddenCategory(category.id)}
                         >
-                          <div className="flex text-sm h-12 align-middle">
-                            <span
-                              className={`${gameSlug} icon ${category.icon}`}
-                            />
-                            <span className="text-center inline-block content-center pl-10">
-                              {category.title} {count}
-                            </span>
-                          </div>
+                          <span className="text-sm text-ellipsis whitespace-nowrap">
+                            {category.title} {count}
+                          </span>
                         </div>
                       );
                     })}

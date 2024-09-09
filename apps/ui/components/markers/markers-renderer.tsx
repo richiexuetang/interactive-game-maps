@@ -25,6 +25,7 @@ export const MarkerRenderer = ({ markers, gameSlug }: any) => {
               category={category.title}
               description={description}
               gameSlug={gameSlug}
+              info={category.info}
             />
           );
         }

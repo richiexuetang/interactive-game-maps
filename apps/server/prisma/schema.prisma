@@ -32,6 +32,7 @@ model Game {
   slug         String        @unique
   title        String
   thumbnailUrl String
+  logo         String?
   regions      Region[]
   groups       MarkerGroup[]
 }

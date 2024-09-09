@@ -18,6 +18,7 @@ Table Game {
   slug String [unique, not null]
   title String [not null]
   thumbnailUrl String [not null]
+  logo String
   regions Region [not null]
   groups MarkerGroup [not null]
 }

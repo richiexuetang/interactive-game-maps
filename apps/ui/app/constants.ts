@@ -76,3 +76,16 @@ export const FETCH_REGION_DETAILS = gql`
     }
   }
 `;
+
+export const LOGIN = gql`
+  mutation User {
+    login(data: { email: $email, password: $password }) {
+      accessToken
+      refreshToken
+      user {
+        id
+        email
+      }
+    }
+  }
+`;
