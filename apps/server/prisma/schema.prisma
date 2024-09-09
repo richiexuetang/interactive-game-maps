@@ -81,4 +81,16 @@ model MarkerLocation {
   categoryId  Int?
   Region      Region?         @relation(fields: [regionSlug], references: [slug])
   regionSlug  String?
+  media       Media[]
+}
+
+model Media {
+  id               Int             @id @default(autoincrement())
+  title            String
+  url              String
+  fileName         String?
+  type             String
+  mimeType         String
+  MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])
+  markerLocationId Int?
 }

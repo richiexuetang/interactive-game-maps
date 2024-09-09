@@ -8,8 +8,11 @@ async function main() {
 
   console.log("Seeding Marker Locations...");
 
-  console.log(locations);
-  await prisma.markerLocation.createMany({ data: locations });
+  for (let i = 0; i < locations.length; i++) {
+    const curr = locations[i];
+    const { media, ...rest } = curr;
+    await prisma.markerLocation.create({ data: rest });
+  }
 }
 
 main()

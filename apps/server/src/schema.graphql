@@ -89,12 +89,29 @@ type MarkerLocation {
   id: ID!
   latitude: Float!
   longitude: Float!
+  media: [Media!]
   region: Region
   regionSlug: String
   title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+}
+
+type Media {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  fileName: String
+  id: ID!
+  markerLocation: MarkerLocation
+  markerLocationId: Float
+  mimeType: String
+  title: String!
+  type: String
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+  url: String
 }
 
 type Mutation {

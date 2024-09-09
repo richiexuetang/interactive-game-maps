@@ -67,6 +67,18 @@ Table MarkerLocation {
   categoryId Int
   Region Region
   regionSlug String
+  media Media [not null]
+}
+
+Table Media {
+  id Int [pk, increment]
+  title String [not null]
+  url String [not null]
+  fileName String
+  type String [not null]
+  mimeType String [not null]
+  MarkerLocation MarkerLocation
+  markerLocationId Int
 }
 
 Enum Role {
@@ -83,3 +95,5 @@ Ref: MarkerCategory.markerGroupId > MarkerGroup.id
 Ref: MarkerLocation.categoryId > MarkerCategory.id
 
 Ref: MarkerLocation.regionSlug > Region.slug
+
+Ref: Media.markerLocationId > MarkerLocation.id
