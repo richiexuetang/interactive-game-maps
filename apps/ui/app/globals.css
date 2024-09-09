@@ -73,10 +73,6 @@ body {
   background-position: -231px 0px;
 }
 
-.chest {
-  background-position: -132px -44px;
-}
-
 .curio {
   background-position: 0 -44px;
 }
@@ -106,7 +102,27 @@ body {
 }
 
 .easter_egg {
-  background-position: -44px -66px;
+  background-position: -66px -44px;
+}
+
+.will {
+  background-position: -99px -264px;
+}
+
+.spell {
+  background-position: -99px -220px;
+}
+
+.yaoguai_chief {
+  background-position: -132px -264px;
+}
+
+.lesser_yaoguai {
+  background-position: -165px -88px;
+}
+
+.npc {
+  background-position: -198px -132px;
 }
 
 .leaflet-popup {

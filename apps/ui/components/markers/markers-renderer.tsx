@@ -3,10 +3,12 @@ import * as React from "react";
 import { Marker } from "./marker";
 import { useAtomValue } from "jotai";
 import { showMarkerAtom } from "@/store/marker";
+import { hiddenCategoriesAtom } from "@/store/category";
 
 export const MarkerRenderer = ({ markers }: any) => {
   const map = useMap();
   const showMarker = useAtomValue(showMarkerAtom);
+  const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
 
   const [draggable, setDraggable] = React.useState(true);
   const [position, setPosition] = React.useState([
@@ -35,17 +37,20 @@ export const MarkerRenderer = ({ markers }: any) => {
   return (
     <>
       {markers.map(
-        ({ title, longitude, latitude, category, description }: any) => (
-          <Marker
-            key={title}
-            title={title}
-            longitude={longitude}
-            latitude={latitude}
-            icon={category.icon}
-            category={category.title}
-            description={description}
-          />
-        )
+        ({ title, longitude, latitude, category, description }: any) => {
+          if (hiddenCategories.includes(category.id)) return null;
+          return (
+            <Marker
+              key={title}
+              title={title}
+              longitude={longitude}
+              latitude={latitude}
+              icon={category.icon}
+              category={category.title}
+              description={description}
+            />
+          );
+        }
       )}
       <RlMarker
         draggable={draggable}

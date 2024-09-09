@@ -11,7 +11,6 @@ Table User {
   firstName String
   lastName String
   role Role [not null]
-  locations MarkerLocation [not null]
 }
 
 Table Game {
@@ -66,8 +65,6 @@ Table MarkerLocation {
   longitude Decimal [not null]
   category MarkerCategory
   categoryId Int
-  User User
-  userId String
   Region Region
   regionSlug String
 }
@@ -84,7 +81,5 @@ Ref: MarkerGroup.gameSlug > Game.slug
 Ref: MarkerCategory.markerGroupId > MarkerGroup.id
 
 Ref: MarkerLocation.categoryId > MarkerCategory.id
-
-Ref: MarkerLocation.userId > User.id
 
 Ref: MarkerLocation.regionSlug > Region.slug
