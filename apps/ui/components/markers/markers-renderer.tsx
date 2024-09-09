@@ -1,4 +1,3 @@
-import { Popup, useMap, Marker as RlMarker } from "react-leaflet";
 import * as React from "react";
 import { Marker } from "./marker";
 import { useAtomValue } from "jotai";

@@ -40,6 +40,7 @@ const Map = ({
   const mimeType = gameSlug === "black-myth-wukong" ? "jpg" : "png";
   const first = gameSlug === "black-myth-wukong" ? "y" : "x";
   const second = gameSlug === "black-myth-wukong" ? "x" : "y";
+
   return (
     <MapContainer
       zoom={zoom}

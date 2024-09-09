@@ -6,8 +6,6 @@ import {
   CardBody,
   CardFooter,
   Divider,
-  Image,
-  cn,
   Checkbox,
 } from "@nextui-org/react";
 import { useState } from "react";
@@ -42,19 +40,9 @@ export const Marker = ({
     >
       <RL.Popup minWidth={90}>
         <Card className="max-w-[400px] shadow-none">
-          <CardHeader className="flex gap-3">
-            <Image
-              alt="ritcher map logo"
-              height={40}
-              radius="sm"
-              src={`/markers/${category}.png`}
-              width={40}
-            />
-            <span className={cn(`icon ${category}`, "w-10 h-10")} />
-            <div className="flex flex-col">
-              <p className="text-md">{title}</p>
-              <p className="text-small text-default-500">{category}</p>
-            </div>
+          <CardHeader className="py-2 px-4 flex-col items-start">
+            <p className="text-sm uppercase font-bold">{title}</p>
+            <small className="text-default-500">{category}</small>
           </CardHeader>
           <Divider />
           <CardBody>

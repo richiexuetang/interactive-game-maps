@@ -1,3 +1,8 @@
+import {
+  getGroupDetails,
+  getMarkerLocations,
+  getRegionDetails,
+} from "@/lib/api";
 import { getClient } from "../../apollo-client";
 import {
   FETCH_GROUPS_BY_GAME_SLUG,
@@ -14,28 +19,9 @@ export default async function MapPage({
 }) {
   revalidatePath("/map");
 
-  const { data } = await getClient().query({
-    query: FETCH_REGION_DETAILS,
-    variables: { slug: params.slug },
-  });
+  const region = await getRegionDetails(params.slug);
+  const groupData = await getGroupDetails(region.gameSlug);
+  const markers = await getMarkerLocations(region.slug);
 
-  const { regionDetails: region } = data;
-
-  const { data: groupData } = await getClient().query({
-    query: FETCH_GROUPS_BY_GAME_SLUG,
-    variables: { slug: region.gameSlug },
-  });
-
-  const { data: markers } = await getClient().query({
-    query: FETCH_REGION_MARKERS,
-    variables: { regionSlug: region.slug },
-  });
-
-  return (
-    <Map
-      region={region}
-      groups={groupData.getGroupsByGameSlug}
-      markers={markers.locations}
-    />
-  );
+  return <Map region={region} groups={groupData} markers={markers} />;
 }
