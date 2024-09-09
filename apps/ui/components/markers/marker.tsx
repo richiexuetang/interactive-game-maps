@@ -19,10 +19,11 @@ export const Marker = ({
   icon,
   category,
   description,
+  gameSlug,
 }: any) => {
   // build div icon
   var div = document.createElement("div");
-  div.className = `icon ${icon}`;
+  div.className = `icon ${gameSlug} ${icon}`;
 
   const [markerFound, setMarkerFound] = useState(false);
 

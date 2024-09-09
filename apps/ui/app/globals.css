@@ -30,6 +30,22 @@ body {
 }
 
 .icon {
+  display: inline-block;
+  position: absolute;
+  width: 33px;
+  height: 44px;
+  background-color: transparent !important;
+}
+
+.black-myth-wukong {
+  background: url(../public/markers/black-myth-wukong.png);
+}
+
+.witcher-3 {
+  background: url(../public/markers/witcher-3.png);
+}
+
+.icon {
   background: url(../public/markers/black-myth-wukong.png);
   display: inline-block;
   position: absolute;
@@ -123,6 +139,102 @@ body {
 
 .npc {
   background-position: -198px -132px;
+}
+
+.location {
+  background-position: -231px -88px;
+}
+
+.spirit {
+  background-position: -132px -220px;
+}
+
+.valuable {
+  background-position: -0px -264px;
+}
+
+.point_of_interest {
+  background-position: -132px -176px;
+}
+
+.celestial_pill {
+  background-position: -132px -0px;
+}
+
+.gourd {
+  background-position: -0px -88px;
+}
+
+.key_item {
+  background-position: -132px -88px;
+}
+
+.luojia_fragrant_vine {
+  background-position: -0px -132px;
+}
+
+.seeds {
+  background-position: -198px -176px;
+}
+
+.soak {
+  background-position: -66px -220px;
+}
+
+.talisman {
+  background-position: -165px -220px;
+}
+
+.transformation_spell {
+  background-position: -198px -220px;
+}
+
+.vessel {
+  background-position: -33px -264px;
+}
+
+.weapon {
+  background-position: -66px -264px;
+}
+
+.yaoguai_king {
+  background-position: -165px -264px;
+}
+
+.main_quest {
+  background-position: -33px -132px;
+}
+
+.side_quest {
+  background-position: -0px -220px;
+}
+
+.miscellaneous {
+  background-position: -132px -132px;
+}
+
+.celestial_pear {
+  background-position: -99px -0px;
+}
+
+.fire_bellflower,
+.fragrant_jade_flower,
+.millenium_ginseng,
+.nine_capped_lingzhi,
+.purple_lingzhi {
+  background-position: -165px -176px;
+}
+
+.tree_pearl {
+  background-position: -231px -220px;
+}
+
+.shen_monkey {
+  background-position: -231px -176px;
+}
+
+.aged_ginseng {
+  background-position: -0px -0px;
 }
 
 .leaflet-popup {

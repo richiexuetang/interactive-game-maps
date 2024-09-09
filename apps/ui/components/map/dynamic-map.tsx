@@ -37,6 +37,9 @@ const Map = ({
     })();
   }, []);
 
+  const mimeType = gameSlug === "black-myth-wukong" ? "jpg" : "png";
+  const first = gameSlug === "black-myth-wukong" ? "y" : "x";
+  const second = gameSlug === "black-myth-wukong" ? "x" : "y";
   return (
     <MapContainer
       zoom={zoom}
@@ -50,9 +53,9 @@ const Map = ({
       className="w-full h-full !bg-black"
     >
       <ReactLeaflet.TileLayer
-        url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
+        url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{${first}}/{${second}}.${mimeType}`}
       />
-      <MarkerRenderer markers={markers} />
+      <MarkerRenderer markers={markers} gameSlug={gameSlug} />
     </MapContainer>
   );
 };

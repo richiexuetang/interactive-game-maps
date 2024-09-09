@@ -5,32 +5,9 @@ import { useAtomValue } from "jotai";
 import { showMarkerAtom } from "@/store/marker";
 import { hiddenCategoriesAtom } from "@/store/category";
 
-export const MarkerRenderer = ({ markers }: any) => {
-  const map = useMap();
+export const MarkerRenderer = ({ markers, gameSlug }: any) => {
   const showMarker = useAtomValue(showMarkerAtom);
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
-
-  const [draggable, setDraggable] = React.useState(true);
-  const [position, setPosition] = React.useState([
-    0.1867672473697175, -0.68389892578125,
-  ]);
-  const markerRef = React.useRef<any>(null);
-
-  const eventHandlers = React.useMemo(
-    () => ({
-      dragend() {
-        const marker = markerRef.current;
-        if (marker != null) {
-          console.log(map.getCenter());
-          setPosition(marker.getLatLng());
-        }
-      },
-    }),
-    []
-  );
-  const toggleDraggable = React.useCallback(() => {
-    setDraggable((d) => !d);
-  }, []);
 
   if (!showMarker) return null;
 
@@ -48,24 +25,11 @@ export const MarkerRenderer = ({ markers }: any) => {
               icon={category.icon}
               category={category.title}
               description={description}
+              gameSlug={gameSlug}
             />
           );
         }
       )}
-      <RlMarker
-        draggable={draggable}
-        eventHandlers={eventHandlers}
-        position={position as any}
-        ref={markerRef}
-      >
-        <Popup minWidth={90}>
-          <span onClick={toggleDraggable}>
-            {draggable
-              ? "Marker is draggable"
-              : "Click here to make marker draggable"}
-          </span>
-        </Popup>
-      </RlMarker>
     </>
   );
 };
