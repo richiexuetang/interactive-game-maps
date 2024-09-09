@@ -3,18 +3,7 @@ import Link from "next/link";
 import { getClient } from "../../apollo-client";
 import { FETCH_GAMES } from "../../constants";
 import { revalidatePath } from "next/cache";
-import { Game } from "../../__generated__/graphql";
-
-interface Region {
-  slug: string;
-  title: string;
-  thumbnailUrl: string;
-  id: string;
-  minZoom: number;
-  maxZoom: number;
-  defaultZoom: number;
-  tilePath: number;
-}
+import { Game, Region } from "../../__generated__/graphql";
 
 export default async function RegionPage({
   params,
@@ -30,10 +19,12 @@ export default async function RegionPage({
   const regions = games?.find(
     (game: Game) => game.slug === params.slug
   ).regions;
+  const sorted_regions = [...regions];
+  sorted_regions?.sort((a: any, b: any) => a.order - b.order);
 
   return (
     <div className="flex gap-5 p-8 flex-wrap content-center justify-center">
-      {regions.map(({ slug, thumbnailUrl, title }: Region) => (
+      {sorted_regions.map(({ slug, thumbnailUrl, title }: Region) => (
         <Link
           key={title}
           href={`/map/${slug}`}
