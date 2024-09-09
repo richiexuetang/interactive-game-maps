@@ -37,6 +37,7 @@ export const Marker = ({
         tooltipAnchor: [22, -22],
         html: div,
       })}
+      zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
     >
       <RL.Popup minWidth={90}>
         <Card className="max-w-[400px] shadow-none">
