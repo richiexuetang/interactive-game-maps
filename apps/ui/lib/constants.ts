@@ -63,6 +63,11 @@ export const FETCH_REGION_MARKERS = gql`
         icon
         info
       }
+      media {
+        url
+        mimeType
+        type
+      }
       description
       latitude
       longitude

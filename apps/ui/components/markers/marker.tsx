@@ -1,6 +1,6 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
-import { Divider, Checkbox, Tooltip } from "@nextui-org/react";
+import { Divider } from "@nextui-org/react";
 import {
   Card,
   CardContent,
@@ -14,6 +14,14 @@ import { useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "usehooks-ts";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
+import Image from "next/image";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 export const Marker = ({
   title,
@@ -25,6 +33,7 @@ export const Marker = ({
   gameSlug,
   info,
   id,
+  media,
 }: any) => {
   const [markerFound, setMarkerFound] = useState(false);
   const [copiedText, copy] = useCopyToClipboard();
@@ -80,36 +89,54 @@ export const Marker = ({
       <RL.Popup>
         <Card className="shadow-none -mx-7 -my-4">
           <CardHeader>
-            <div className="flex">
+            <div className="flex justify-between">
               <div>
-                <CardTitle>{title}</CardTitle>
-                <CardDescription>{category}</CardDescription>
+                <CardTitle className="text-lg">{title}</CardTitle>
+                <CardDescription className="text-xs">
+                  {category}
+                </CardDescription>
               </div>
-              <div className="flex pl-5">
-                <Tooltip content="Copy link">
-                  <Link1Icon
-                    className="cursor-pointer"
-                    onClick={handleCopy(
-                      `http://localhost:3000/map/chapter-3?marker=${id}`
-                    )}
-                  />
-                </Tooltip>
+              <div className="flex px-5">
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger>
+                      <Link1Icon
+                        className="cursor-pointer h-5 w-5"
+                        onClick={handleCopy(
+                          `http://localhost:3000/map/chapter-3?marker=${id}`
+                        )}
+                      />
+                    </TooltipTrigger>
+                    <TooltipContent>Copy link</TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
               </div>
             </div>
           </CardHeader>
           {description ? <Divider /> : null}
-          <CardContent>
+          <CardContent className="leading-5">
+            {media.length > 0 &&
+              media.map((m: any) => (
+                <Image
+                  src={m.url}
+                  alt={m.url}
+                  width={300}
+                  height={300}
+                  className="py-3"
+                />
+              ))}
             <div dangerouslySetInnerHTML={{ __html: description }} />
             <div dangerouslySetInnerHTML={{ __html: info }} />
           </CardContent>
-          {description ? <Divider className="my-2" /> : null}
-          <CardFooter className="justify-center">
+          {description ? <Divider /> : null}
+          <CardFooter className="mt-4 justify-center">
             <Checkbox
-              isSelected={markerFound}
-              onValueChange={() => setMarkerFound(!markerFound)}
-            >
-              Found
-            </Checkbox>
+              checked={markerFound}
+              onCheckedChange={() => setMarkerFound(!markerFound)}
+            />
+            <div className="ml-2 space-y-1 leading-none">
+              <label>Found</label>
+            </div>
           </CardFooter>
         </Card>
       </RL.Popup>

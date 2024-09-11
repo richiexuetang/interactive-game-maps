@@ -8,6 +8,12 @@ const nextConfig = {
                 port: '',
                 pathname: '/**',
             },
+            {
+                hostname: "media.mapgenie.io",
+                protocol: 'https',
+                port: '',
+                pathname: '/**',
+            }
         ],
     },
 };

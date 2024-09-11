@@ -2,16 +2,23 @@ import { MarkerGroup, MarkerLocation } from "@/app/__generated__/graphql";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { hiddenGroupsAtom } from "@/store/group";
 import { showMarkerAtom } from "@/store/marker";
-import { Checkbox } from "@nextui-org/checkbox";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useAtom, useAtomValue } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@nextui-org/theme";
-import { Divider, Tooltip } from "@nextui-org/react";
+import { Divider } from "@nextui-org/react";
 import { regionsAtom } from "@/store/region";
 import { buttonVariants } from "./ui/button";
+import React from "react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 interface MenuProps {
   groups: MarkerGroup[];
@@ -70,12 +77,17 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
           !collapseMenu && "left-96"
         )}
       >
-        <Tooltip content={chevronText}>
-          <ChevronIcon
-            onClick={() => setCollapseMenu(!collapseMenu)}
-            className="mt-3 w-6 h-6 cursor-pointer"
-          />
-        </Tooltip>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger>
+              <ChevronIcon
+                onClick={() => setCollapseMenu(!collapseMenu)}
+                className="mt-3 w-6 h-6 cursor-pointer"
+              />
+            </TooltipTrigger>
+            <TooltipContent>{chevronText}</TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
       </div>
       {!collapseMenu && (
         <div className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform bg-neutral-600 h-full">
@@ -104,9 +116,13 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               ))}
             </div>
             <Divider />
-            <Checkbox isSelected={!showMarker} onValueChange={toggleShowMarker}>
-              {showMarker ? "Hide All" : "Show All"}
-            </Checkbox>
+            <div className="flex gap-2">
+              <Checkbox
+                checked={!showMarker}
+                onCheckedChange={toggleShowMarker}
+              />
+              <label>{showMarker ? "Hide All" : "Show All"}</label>
+            </div>
             <Divider />
             {groups?.map((group) => {
               const counts: any = {};
@@ -126,7 +142,7 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               if (sumValues === 0) return null;
 
               return (
-                <>
+                <React.Fragment key={group.id}>
                   <h1
                     className="text-lg uppercase w-full"
                     onClick={() => handleHideGroup(group.title)}
@@ -150,7 +166,11 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
                           )}
                           onClick={() => handleHiddenCategory(category.id)}
                         >
-                          <span className={cn(`icon icon-${category.icon}`)} />
+                          <span
+                            className={cn(
+                              `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
+                            )}
+                          />
                           <span className="pl-5 text-sm text-ellipsis whitespace-nowrap">
                             {category.title}
                           </span>
@@ -159,7 +179,7 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
                       );
                     })}
                   </div>
-                </>
+                </React.Fragment>
               );
             })}
           </div>
