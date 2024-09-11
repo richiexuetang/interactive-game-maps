@@ -13,7 +13,7 @@ export const MarkerRenderer = ({ markers, gameSlug }: any) => {
   return (
     <>
       {markers.map(
-        ({ title, longitude, latitude, category, description }: any) => {
+        ({ title, longitude, latitude, category, description, id }: any) => {
           if (hiddenCategories.includes(category.id)) return null;
           return (
             <Marker
@@ -26,6 +26,7 @@ export const MarkerRenderer = ({ markers, gameSlug }: any) => {
               description={description}
               gameSlug={gameSlug}
               info={category.info}
+              id={id}
             />
           );
         }

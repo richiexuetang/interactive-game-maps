@@ -8,6 +8,7 @@ import { MainNav } from "@/components/main-nav";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { ReactNode } from "react";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Ritcher Map",
@@ -38,6 +39,8 @@ export default function RootLayout({
             <div className="relative flex flex-col text-foreground bg-background">
               {children}
             </div>
+            <Toaster position="top-left" />
+
             <ThemeSwitcher />
           </NextUIProvider>
         </NextThemesProvider>

@@ -7,10 +7,13 @@ import {
   CardFooter,
   Divider,
   Checkbox,
+  Tooltip,
 } from "@nextui-org/react";
-import { useState } from "react";
-import { useAtomValue } from "jotai";
-import { showMarkerAtom } from "@/store/marker";
+import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { useCopyToClipboard } from "usehooks-ts";
+import { Link1Icon } from "@radix-ui/react-icons";
+import { toast } from "sonner";
 
 export const Marker = ({
   title,
@@ -21,15 +24,46 @@ export const Marker = ({
   description,
   gameSlug,
   info,
+  id,
 }: any) => {
   const [markerFound, setMarkerFound] = useState(false);
+  const [copiedText, copy] = useCopyToClipboard();
 
   // build div icon
   const div = document.createElement("div");
   div.className = `icon ${gameSlug} ${icon}`;
 
+  const map = RL.useMap();
+  const searchParams = useSearchParams();
+  const markerRef = useRef<any>(null);
+
+  const handleCopy = (text: string) => () => {
+    copy(text)
+      .then(() => {
+        toast.success("Copied", {
+          description: "",
+          action: {
+            label: "Ok",
+            onClick: () => console.log("Undo"),
+          },
+        });
+      })
+      .catch((error) => {});
+  };
+
+  useEffect(() => {
+    const markerId = searchParams.get("marker");
+    if (markerId && id == markerId) {
+      map.flyTo([latitude, longitude]);
+      if (markerRef) {
+        markerRef.current.openPopup();
+      }
+    }
+  }, [searchParams]);
+
   return (
     <RL.Marker
+      ref={markerRef}
       position={[latitude, longitude]}
       opacity={markerFound ? 0.5 : 1}
       icon={L.divIcon({
@@ -43,9 +77,21 @@ export const Marker = ({
     >
       <RL.Popup minWidth={90}>
         <Card className="max-w-[400px] shadow-none">
-          <CardHeader className="py-2 px-4 flex-col items-start">
-            <p className="text-sm uppercase font-bold">{title}</p>
-            <small className="text-default-500">{category}</small>
+          <CardHeader className="py-2 px-4 flex items-start">
+            <div className="flex-col">
+              <p className="text-sm uppercase font-bold">{title}</p>
+              <small className="text-default-500">{category}</small>
+            </div>
+            <div className="flex pl-5">
+              <Tooltip content="Copy link">
+                <Link1Icon
+                  className="cursor-pointer"
+                  onClick={handleCopy(
+                    `http://localhost:3000/map/chapter-3?marker=${id}`
+                  )}
+                />
+              </Tooltip>
+            </div>
           </CardHeader>
           <Divider />
           <CardBody>
