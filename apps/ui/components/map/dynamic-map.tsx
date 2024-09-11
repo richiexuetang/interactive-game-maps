@@ -66,7 +66,7 @@ const Map = ({
       // @ts-ignore
       smoothWheelZoom={true}
       smoothSensitivity={15}
-      className="w-full h-full !bg-black"
+      className="w-full h-full !bg-accent"
     >
       <ReactLeaflet.TileLayer
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{${first}}/{${second}}.${mimeType}`}

@@ -45,6 +45,9 @@ model Game {
   logo         String?
   regions      Region[]
   groups       MarkerGroup[]
+  previewUrl   String?
+  iconUrl      String?
+  description  String?
 }
 
 model Region {
@@ -84,7 +87,7 @@ model MarkerGroup {
 
 model MarkerCategory {
   id          Int              @id @default(autoincrement())
-  title       String           @unique
+  title       String
   icon        String
   template    String?
   info        String?

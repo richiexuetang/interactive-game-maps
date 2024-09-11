@@ -43,8 +43,11 @@ export type Game = {
   __typename?: 'Game';
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
+  description?: Maybe<Scalars['String']['output']>;
   groups?: Maybe<Array<MarkerGroup>>;
+  iconUrl?: Maybe<Scalars['String']['output']>;
   id: Scalars['ID']['output'];
+  previewUrl?: Maybe<Scalars['String']['output']>;
   regions?: Maybe<Array<Region>>;
   slug: Scalars['String']['output'];
   thumbnailUrl: Scalars['String']['output'];
@@ -170,6 +173,7 @@ export type Query = {
   findCategoryById: MarkerCategory;
   findOne: MarkerCategory;
   findRegionsByGame: Array<Region>;
+  game: Game;
   games: Array<Game>;
   getGroupsByGameSlug: Array<MarkerGroup>;
   getLocationByRegion: Array<MarkerLocation>;
@@ -192,6 +196,11 @@ export type QueryFindOneArgs = {
 
 export type QueryFindRegionsByGameArgs = {
   orderBy?: InputMaybe<RegionOrder>;
+  slug: Scalars['String']['input'];
+};
+
+
+export type QueryGameArgs = {
   slug: Scalars['String']['input'];
 };
 

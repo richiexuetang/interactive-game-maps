@@ -5,12 +5,13 @@ import { showMarkerAtom } from "@/store/marker";
 import { Checkbox } from "@nextui-org/checkbox";
 import { useAtom, useAtomValue } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@nextui-org/theme";
 import { Divider, Tooltip } from "@nextui-org/react";
 import { regionsAtom } from "@/store/region";
+import { buttonVariants } from "./ui/button";
 
 interface MenuProps {
   groups: MarkerGroup[];
@@ -65,7 +66,7 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
     <>
       <div
         className={cn(
-          "absolute z-[1000] top-20 bg-[#090708] h-12 transition-all duration-200 opacity-100",
+          "absolute z-[1000] top-20 bg-neutral-500 h-12 transition-all duration-200 opacity-100 border-1 border-l-0",
           !collapseMenu && "left-96"
         )}
       >
@@ -77,7 +78,7 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
         </Tooltip>
       </div>
       {!collapseMenu && (
-        <div className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform bg-[#090708] h-full">
+        <div className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform bg-neutral-600 h-full">
           <div className="relative flex flex-col p-5 gap-4 items-center">
             <Link href={`/region/${gameSlug}`}>
               <Image
@@ -93,7 +94,10 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
             <div className="grid grid-cols-3 gap-4">
               {currentRegions.regions.map((region) => (
                 <div key={region.id}>
-                  <Link href={`/map/${region.slug}`} className="text-sm">
+                  <Link
+                    href={`/map/${region.slug}`}
+                    className={cn(buttonVariants({ variant: "link" }))}
+                  >
                     {region.title}
                   </Link>
                 </div>

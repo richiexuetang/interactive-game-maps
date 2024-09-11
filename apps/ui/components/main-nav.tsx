@@ -3,12 +3,12 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Button,
   Link as UiLink,
 } from "@nextui-org/react";
 import { ZapIcon } from "./icons/zap-icon";
 import Link from "next/link";
 import { ModeToggle } from "./mode-toggle";
+import { buttonVariants } from "./ui/button";
 
 export function MainNav() {
   return (
@@ -21,14 +21,20 @@ export function MainNav() {
       </NavbarBrand>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="/login">
-            <Button variant="bordered" radius="md">
-              Login
-            </Button>
+          <Link
+            href="/login"
+            className={buttonVariants({ variant: "outline" })}
+          >
+            Login
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Button radius="md">Sign up</Button>
+          <Link
+            href="/signup"
+            className={buttonVariants({ variant: "default" })}
+          >
+            Sign up
+          </Link>
         </NavbarItem>
         <NavbarItem>
           <ModeToggle />

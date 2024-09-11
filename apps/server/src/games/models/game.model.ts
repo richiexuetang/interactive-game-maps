@@ -14,6 +14,15 @@ export class Game extends BaseModel {
   @Field()
   thumbnailUrl: string;
 
+  @Field(() => String, { nullable: true })
+  previewUrl: string | null;
+
+  @Field(() => String, { nullable: true })
+  iconUrl: string | null;
+
+  @Field(() => String, { nullable: true })
+  description: string | null;
+
   @Field(() => [Region], { nullable: true })
   regions?: Region[] | null;
 

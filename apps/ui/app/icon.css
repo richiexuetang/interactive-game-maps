@@ -38,7 +38,7 @@
     color: #fff;
 }
 
-.icon-staff:before {
+.icon-weapon:before {
     content: "\e903";
     color: #fff;
 }
@@ -193,7 +193,7 @@
     color: #fff;
 }
 
-.icon-easter_eggs:before {
+.icon-easter_egg:before {
     content: "\e922";
     color: #fff;
 }
@@ -213,7 +213,7 @@
     color: #fff;
 }
 
-.icon-chests:before {
+.icon-chest:before {
     content: "\e926";
     color: #fff;
 }
@@ -238,7 +238,7 @@
     color: #fff;
 }
 
-.icon-armor_set:before {
+.icon-armor:before {
     content: "\e92b";
     color: #fff;
 }

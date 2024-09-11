@@ -9,6 +9,8 @@ import { Provider } from "jotai";
 import dynamic from "next/dynamic";
 import { createStore } from "jotai";
 import { Menu } from "../menu";
+import { getFontClassName } from "@/lib/font";
+import { cn } from "@/lib/utils";
 
 const store = createStore();
 
@@ -26,7 +28,12 @@ export interface MapProps {
 const Map = ({ region, groups, markers, regions }: MapProps) => {
   return (
     <Provider store={store}>
-      <div className="h-[calc(100vh-1rem)] overflow-hidden">
+      <div
+        className={cn(
+          getFontClassName(region.gameSlug),
+          "h-[calc(100vh-1rem)] overflow-hidden"
+        )}
+      >
         <Menu groups={groups} markers={markers} gameSlug={region.gameSlug} />
         <DynamicMap region={region} markers={markers} regions={regions} />
       </div>

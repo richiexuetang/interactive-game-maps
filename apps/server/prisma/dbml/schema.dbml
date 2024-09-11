@@ -33,6 +33,9 @@ Table Game {
   logo String
   regions Region [not null]
   groups MarkerGroup [not null]
+  previewUrl String
+  iconUrl String
+  description String
 }
 
 Table Region {
@@ -72,7 +75,7 @@ Table MarkerGroup {
 
 Table MarkerCategory {
   id Int [pk, increment]
-  title String [unique, not null]
+  title String [not null]
   icon String [not null]
   template String
   info String

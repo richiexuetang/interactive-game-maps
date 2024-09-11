@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { FETCH_GAMES } from "./constants";
-import { getClient } from "./apollo-client";
+import { FETCH_GAMES } from "@/lib/constants";
+import { getClient } from "@/lib/apollo-client";
 import Link from "next/link";
 import { revalidatePath } from "next/cache";
 

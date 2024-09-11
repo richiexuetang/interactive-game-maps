@@ -30,8 +30,11 @@ scalar DateTime
 type Game {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
+  description: String
   groups: [MarkerGroup!]
+  iconUrl: String
   id: ID!
+  previewUrl: String
   regions: [Region!]
   slug: String!
   thumbnailUrl: String!
@@ -135,6 +138,7 @@ type Query {
   findCategoryById(id: Float!): MarkerCategory!
   findOne(id: Float!): MarkerCategory!
   findRegionsByGame(orderBy: RegionOrder, slug: String!): [Region!]!
+  game(slug: String!): Game!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
   getLocationByRegion(slug: String!): [MarkerLocation!]!

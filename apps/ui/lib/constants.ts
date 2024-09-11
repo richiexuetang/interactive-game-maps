@@ -26,6 +26,18 @@ export const FETCH_GAMES = gql(/* GraphQL */ `
   }
 `);
 
+export const FETCH_GAME_META_DATA = gql(`
+query GetGames($slug: String!) {
+  game(slug: $slug) {
+    slug
+    thumbnailUrl
+    title
+    iconUrl
+    previewUrl
+    description
+  }
+}`);
+
 export const FETCH_GROUPS_BY_GAME_SLUG = gql`
   query GetGroupsByGameSlug($slug: String!) {
     getGroupsByGameSlug(slug: $slug) {
@@ -78,14 +90,37 @@ export const FETCH_REGION_DETAILS = gql`
 `;
 
 export const LOGIN = gql`
-  mutation User {
-    login(data: { email: $email, password: $password }) {
+  mutation Login($data: LoginInput!) {
+    login(data: $data) {
       accessToken
       refreshToken
       user {
-        id
         email
+        firstName
+        lastName
+        role
+        locations {
+          title
+        }
       }
+    }
+  }
+`;
+
+export const FETCH_REGION_BY_GAME = gql`
+  query FindRegionByGame($slug: String!) {
+    findRegionsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
+      center
+      defaultZoom
+      gameSlug
+      id
+      maxZoom
+      minZoom
+      order
+      slug
+      thumbnailUrl
+      tilePath
+      title
     }
   }
 `;

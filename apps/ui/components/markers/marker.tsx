@@ -1,14 +1,14 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
+import { Divider, Checkbox, Tooltip } from "@nextui-org/react";
 import {
   Card,
-  CardHeader,
-  CardBody,
+  CardContent,
+  CardDescription,
   CardFooter,
-  Divider,
-  Checkbox,
-  Tooltip,
-} from "@nextui-org/react";
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "usehooks-ts";
@@ -38,17 +38,14 @@ export const Marker = ({
   const markerRef = useRef<any>(null);
 
   const handleCopy = (text: string) => () => {
-    copy(text)
-      .then(() => {
-        toast.success("Copied", {
-          description: "",
-          action: {
-            label: "Ok",
-            onClick: () => console.log("Undo"),
-          },
-        });
-      })
-      .catch((error) => {});
+    copy(text).then(() => {
+      toast.success("Copied", {
+        action: {
+          label: "OK",
+          onClick: () => {},
+        },
+      });
+    });
   };
 
   useEffect(() => {
@@ -74,31 +71,38 @@ export const Marker = ({
         html: div,
       })}
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
+      eventHandlers={{
+        click: (e) => {
+          console.log("marker clicked", e);
+        },
+      }}
     >
-      <RL.Popup minWidth={90}>
-        <Card className="max-w-[400px] shadow-none">
-          <CardHeader className="py-2 px-4 flex items-start">
-            <div className="flex-col">
-              <p className="text-sm uppercase font-bold">{title}</p>
-              <small className="text-default-500">{category}</small>
-            </div>
-            <div className="flex pl-5">
-              <Tooltip content="Copy link">
-                <Link1Icon
-                  className="cursor-pointer"
-                  onClick={handleCopy(
-                    `http://localhost:3000/map/chapter-3?marker=${id}`
-                  )}
-                />
-              </Tooltip>
+      <RL.Popup>
+        <Card className="shadow-none -mx-7 -my-4">
+          <CardHeader>
+            <div className="flex">
+              <div>
+                <CardTitle>{title}</CardTitle>
+                <CardDescription>{category}</CardDescription>
+              </div>
+              <div className="flex pl-5">
+                <Tooltip content="Copy link">
+                  <Link1Icon
+                    className="cursor-pointer"
+                    onClick={handleCopy(
+                      `http://localhost:3000/map/chapter-3?marker=${id}`
+                    )}
+                  />
+                </Tooltip>
+              </div>
             </div>
           </CardHeader>
-          <Divider />
-          <CardBody>
+          {description ? <Divider /> : null}
+          <CardContent>
             <div dangerouslySetInnerHTML={{ __html: description }} />
             <div dangerouslySetInnerHTML={{ __html: info }} />
-          </CardBody>
-          <Divider className="my-2" />
+          </CardContent>
+          {description ? <Divider className="my-2" /> : null}
           <CardFooter className="justify-center">
             <Checkbox
               isSelected={markerFound}

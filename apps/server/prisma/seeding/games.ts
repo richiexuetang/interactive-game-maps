@@ -1,9 +1,3 @@
-// slug         String        @unique
-// title        String
-// thumbnailUrl String
-// logo         String?
-// regions      Region[]
-// groups       MarkerGroup[]
 export const games = [
   {
     slug: "black-myth-wukong",

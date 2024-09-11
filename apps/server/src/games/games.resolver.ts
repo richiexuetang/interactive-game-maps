@@ -22,4 +22,11 @@ export class GamesResolver {
       include: { regions: true, groups: true },
     });
   }
+
+  @Query(() => Game)
+  async game(@Args("slug") slug: string) {
+    return this.prisma.game.findUnique({
+      where: { slug },
+    });
+  }
 }
