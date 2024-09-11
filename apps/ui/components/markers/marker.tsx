@@ -9,6 +9,8 @@ import {
   Checkbox,
 } from "@nextui-org/react";
 import { useState } from "react";
+import { useAtomValue } from "jotai";
+import { showMarkerAtom } from "@/store/marker";
 
 export const Marker = ({
   title,
@@ -20,11 +22,11 @@ export const Marker = ({
   gameSlug,
   info,
 }: any) => {
-  // build div icon
-  var div = document.createElement("div");
-  div.className = `icon ${gameSlug} ${icon}`;
-
   const [markerFound, setMarkerFound] = useState(false);
+
+  // build div icon
+  const div = document.createElement("div");
+  div.className = `icon ${gameSlug} ${icon}`;
 
   return (
     <RL.Marker

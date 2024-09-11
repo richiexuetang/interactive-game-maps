@@ -8,24 +8,19 @@ CREATE TABLE "User" (
     "updatedAt" TIMESTAMP(3) NOT NULL,
     "email" TEXT NOT NULL,
     "password" TEXT NOT NULL,
-    "firstname" TEXT,
-    "lastname" TEXT,
+    "firstName" TEXT,
+    "lastName" TEXT,
     "role" "Role" NOT NULL,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "Post" (
-    "id" TEXT NOT NULL,
-    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL,
-    "published" BOOLEAN NOT NULL,
-    "title" TEXT NOT NULL,
-    "content" TEXT,
-    "authorId" TEXT,
+CREATE TABLE "UsersOnLocations" (
+    "userId" TEXT NOT NULL,
+    "locationId" INTEGER NOT NULL,
 
-    CONSTRAINT "Post_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "UsersOnLocations_pkey" PRIMARY KEY ("userId","locationId")
 );
 
 -- CreateTable
@@ -34,6 +29,7 @@ CREATE TABLE "Game" (
     "slug" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "thumbnailUrl" TEXT NOT NULL,
+    "logo" TEXT,
 
     CONSTRAINT "Game_pkey" PRIMARY KEY ("id")
 );
@@ -50,14 +46,27 @@ CREATE TABLE "Region" (
     "center" DECIMAL(65,30)[],
     "tilePath" TEXT NOT NULL,
     "gameSlug" TEXT,
+    "order" INTEGER NOT NULL DEFAULT 1,
 
     CONSTRAINT "Region_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "SubRegion" (
+    "id" SERIAL NOT NULL,
+    "name" TEXT NOT NULL,
+    "latitude" DECIMAL(65,30) NOT NULL,
+    "longitude" DECIMAL(65,30) NOT NULL,
+    "parentRegionId" INTEGER,
+
+    CONSTRAINT "SubRegion_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "MarkerGroup" (
     "id" SERIAL NOT NULL,
     "title" TEXT NOT NULL,
+    "slug" TEXT NOT NULL,
     "gameSlug" TEXT,
 
     CONSTRAINT "MarkerGroup_pkey" PRIMARY KEY ("id")
@@ -66,11 +75,11 @@ CREATE TABLE "MarkerGroup" (
 -- CreateTable
 CREATE TABLE "MarkerCategory" (
     "id" SERIAL NOT NULL,
-    "markerGroupId" INTEGER,
-    "title" TEXT NOT NULL DEFAULT '',
+    "title" TEXT NOT NULL,
     "icon" TEXT NOT NULL,
     "template" TEXT,
     "info" TEXT,
+    "groupSlug" TEXT NOT NULL,
 
     CONSTRAINT "MarkerCategory_pkey" PRIMARY KEY ("id")
 );
@@ -82,9 +91,23 @@ CREATE TABLE "MarkerLocation" (
     "description" TEXT,
     "latitude" DECIMAL(65,30) NOT NULL,
     "longitude" DECIMAL(65,30) NOT NULL,
+    "categoryId" INTEGER,
     "regionSlug" TEXT,
 
     CONSTRAINT "MarkerLocation_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "Media" (
+    "id" SERIAL NOT NULL,
+    "title" TEXT NOT NULL,
+    "url" TEXT NOT NULL,
+    "fileName" TEXT,
+    "type" TEXT NOT NULL,
+    "mimeType" TEXT NOT NULL,
+    "markerLocationId" INTEGER,
+
+    CONSTRAINT "Media_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
@@ -96,17 +119,35 @@ CREATE UNIQUE INDEX "Game_slug_key" ON "Game"("slug");
 -- CreateIndex
 CREATE UNIQUE INDEX "Region_slug_key" ON "Region"("slug");
 
+-- CreateIndex
+CREATE UNIQUE INDEX "MarkerGroup_slug_key" ON "MarkerGroup"("slug");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "MarkerCategory_title_key" ON "MarkerCategory"("title");
+
 -- AddForeignKey
-ALTER TABLE "Post" ADD CONSTRAINT "Post_authorId_fkey" FOREIGN KEY ("authorId") REFERENCES "User"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "UsersOnLocations" ADD CONSTRAINT "UsersOnLocations_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "UsersOnLocations" ADD CONSTRAINT "UsersOnLocations_locationId_fkey" FOREIGN KEY ("locationId") REFERENCES "MarkerLocation"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Region" ADD CONSTRAINT "Region_gameSlug_fkey" FOREIGN KEY ("gameSlug") REFERENCES "Game"("slug") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
+ALTER TABLE "SubRegion" ADD CONSTRAINT "SubRegion_parentRegionId_fkey" FOREIGN KEY ("parentRegionId") REFERENCES "Region"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
 ALTER TABLE "MarkerGroup" ADD CONSTRAINT "MarkerGroup_gameSlug_fkey" FOREIGN KEY ("gameSlug") REFERENCES "Game"("slug") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "MarkerCategory" ADD CONSTRAINT "MarkerCategory_markerGroupId_fkey" FOREIGN KEY ("markerGroupId") REFERENCES "MarkerGroup"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "MarkerCategory" ADD CONSTRAINT "MarkerCategory_groupSlug_fkey" FOREIGN KEY ("groupSlug") REFERENCES "MarkerGroup"("slug") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "MarkerLocation" ADD CONSTRAINT "MarkerLocation_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "MarkerCategory"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "MarkerLocation" ADD CONSTRAINT "MarkerLocation_regionSlug_fkey" FOREIGN KEY ("regionSlug") REFERENCES "Region"("slug") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Media" ADD CONSTRAINT "Media_markerLocationId_fkey" FOREIGN KEY ("markerLocationId") REFERENCES "MarkerLocation"("id") ON DELETE SET NULL ON UPDATE CASCADE;

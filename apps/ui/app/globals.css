@@ -45,8 +45,11 @@ body {
   background: url(../public/markers/witcher-3.png);
 }
 
+.elden-ring {
+  background: url(../public/markers/elden-ring.png);
+}
+
 .icon {
-  background: url(../public/markers/black-myth-wukong.png);
   display: inline-block;
   position: absolute;
   width: 33px;
@@ -59,6 +62,373 @@ body {
   border: none !important;
 }
 
+/* Elden Ring */
+.ammunition {
+  background-position: 0 0;
+}
+
+.ancient_smithing_stone {
+  background-position: -33px 0;
+}
+
+.armor {
+  background-position: -66px 0;
+}
+
+.ash_of_war {
+  background-position: -99px 0;
+}
+
+.bell_bearing {
+  background-position: -132px 0;
+}
+
+.birdseye_telescope {
+  background-position: -165px 0;
+}
+
+.boss {
+  background-position: -198px 0;
+}
+
+.cerulean_scarab {
+  background-position: -231px 0;
+}
+
+.character {
+  background-position: -264px 0;
+}
+
+.consumable {
+  background-position: -297px 0;
+}
+
+.cookbook {
+  background-position: -330px 0;
+}
+
+.cracked_pot {
+  background-position: 0 -44px;
+}
+
+.crafting_material {
+  background-position: -33px -44px;
+}
+
+.crystal_tear {
+  background-position: -66px -44px;
+}
+
+.deathroot {
+  background-position: -99px -44px;
+}
+
+.demigod {
+  background-position: -132px -44px;
+}
+
+.divine_tower {
+  background-position: -165px -44px;
+}
+
+.dragon_heart {
+  background-position: -198px -44px;
+}
+
+.dragon_shrine {
+  background-position: -231px -44px;
+}
+
+.dungeon {
+  background-position: -264px -44px;
+}
+
+.easter_egg {
+  background-position: -297px -44px;
+}
+
+.elevator {
+  background-position: -330px -44px;
+}
+
+.elite_enemy {
+  background-position: 0 -88px;
+}
+
+.enemy {
+  background-position: -33px -88px;
+}
+
+.evergaol {
+  background-position: -66px -88px;
+}
+
+.gesture {
+  background-position: -99px -88px;
+}
+
+.ghost {
+  background-position: -132px -88px;
+}
+
+.ghost_glovewort {
+  background-position: -165px -88px;
+}
+
+.glovewort {
+  background-position: -198px -88px;
+}
+
+.golden_rune {
+  background-position: -231px -88px;
+}
+
+.golden_seed {
+  background-position: -264px -88px;
+}
+
+.great_boss {
+  background-position: -297px -88px;
+}
+
+.great_glovewort {
+  background-position: -330px -88px;
+}
+
+.great_rune {
+  background-position: 0 -132px;
+}
+
+.guiding_statue {
+  background-position: -33px -132px;
+}
+
+.hidden_passage {
+  background-position: -66px -132px;
+}
+
+.imp_seal_statue {
+  background-position: -99px -132px;
+}
+
+.incantation {
+  background-position: -132px -132px;
+}
+
+.invasion {
+  background-position: -165px -132px;
+}
+
+.item {
+  background-position: -198px -132px;
+}
+
+.key_item {
+  background-position: -231px -132px;
+}
+
+.landmark {
+  background-position: -264px -132px;
+}
+
+.legacy_dungeon {
+  background-position: -297px -132px;
+}
+
+.lore {
+  background-position: -330px -132px;
+}
+
+.map_fragment {
+  background-position: 0 -176px;
+}
+
+.martyr_effigy {
+  background-position: -33px -176px;
+}
+
+.memory_stone {
+  background-position: -66px -176px;
+}
+
+.merchant {
+  background-position: -99px -176px;
+}
+
+.minor_erdtree {
+  background-position: -132px -176px;
+}
+
+.miquellas_cross {
+  background-position: -165px -176px;
+}
+
+.miquellas_lilly {
+  background-position: -198px -176px;
+}
+
+.miscellaneous {
+  background-position: -231px -176px;
+}
+
+.multiplayer_item {
+  background-position: -264px -176px;
+}
+
+.n_lily {
+  background-position: -297px -176px;
+}
+
+.painting {
+  background-position: -330px -176px;
+}
+
+.perfume_bottle {
+  background-position: 0 -220px;
+}
+
+.portal {
+  background-position: -33px -220px;
+}
+
+.puzzle {
+  background-position: -66px -220px;
+}
+
+.quest {
+  background-position: -99px -220px;
+}
+
+.rebirth_monument {
+  background-position: -132px -220px;
+}
+
+.remembrance {
+  background-position: -165px -220px;
+}
+
+.revered_spirit_ash {
+  background-position: -198px -220px;
+}
+
+.ritual_pot {
+  background-position: -231px -220px;
+}
+
+.ruin_fragment {
+  background-position: -264px -220px;
+}
+
+.rune_arc {
+  background-position: -297px -220px;
+}
+
+.sacramental_bud {
+  background-position: -330px -220px;
+}
+
+.sacred_tear {
+  background-position: 0 -264px;
+}
+
+.scadutree_fragment {
+  background-position: -33px -264px;
+}
+
+.scadutree_fragment {
+  background-position: -66px -264px;
+}
+
+.shield {
+  background-position: -99px -264px;
+}
+
+.site_of_grace {
+  background-position: -132px -264px;
+}
+
+.slumbering_egg {
+  background-position: -165px -264px;
+}
+
+.smithing_stone {
+  background-position: -198px -264px;
+}
+
+.somber_smithing_stone {
+  background-position: -231px -264px;
+}
+
+.sorcery {
+  background-position: -264px -264px;
+}
+
+.spellbook {
+  background-position: -297px -264px;
+}
+
+.spirit_ashes {
+  background-position: -330px -264px;
+}
+
+
+.spiritspring_jump {
+  background-position: 0 -308px;
+}
+
+.stake_of_marika {
+  background-position: -33px -308px;
+}
+
+.stone_cairn {
+  background-position: -66px -308px;
+}
+
+.stonesword_key {
+  background-position: -99px -308px;
+}
+
+.summoning_sigil {
+  background-position: -132px -308px;
+}
+
+.talisman {
+  background-position: -165px -308px;
+}
+
+.talisman_pouch {
+  background-position: -198px -308px;
+}
+
+.teardrop_scarab {
+  background-position: -231px -308px;
+}
+
+.tool {
+  background-position: -264px -308px;
+}
+
+.trainer {
+  background-position: -297px -308px;
+}
+
+.trinas_lilly {
+  background-position: -330px -308px;
+}
+
+
+.wandering_mausoleum {
+  background-position: 0 -352px;
+}
+
+.weapon {
+  background-position: -33px -352px;
+}
+
+.whetblade {
+  background-position: -66px -352px;
+}
+
 .aged_ginseng,
 .celestial_pear,
 .fire_bellflower,
@@ -69,7 +439,7 @@ body {
   background-position: 0 0;
 }
 
-.armor {
+.armor_set {
   background-position: -33px 0;
 }
 
@@ -81,7 +451,7 @@ body {
   background-position: -165px 0;
 }
 
-.chest {
+.chests {
   background-position: -198px 0px;
 }
 
@@ -252,4 +622,8 @@ body {
 
 .leaflet-popup-content p {
   margin: 0px !important;
+}
+
+.sidebar {
+  transition: transform .3s cubic-bezier(0, 0, .2, 1), right .3s cubic-bezier(0, 0, .2, 1)
 }

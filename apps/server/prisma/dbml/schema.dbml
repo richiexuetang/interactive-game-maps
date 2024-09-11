@@ -11,6 +11,18 @@ Table User {
   firstName String
   lastName String
   role Role [not null]
+  UsersOnLocations UsersOnLocations [not null]
+}
+
+Table UsersOnLocations {
+  user User [not null]
+  userId String [not null]
+  location MarkerLocation [not null]
+  locationId Int [not null]
+
+  indexes {
+    (userId, locationId) [pk]
+  }
 }
 
 Table Game {
@@ -36,12 +48,23 @@ Table Region {
   Game Game
   gameSlug String
   locations MarkerLocation [not null]
+  subRegions SubRegion [not null]
   order Int [not null, default: 1]
+}
+
+Table SubRegion {
+  id Int [pk, increment]
+  name String [not null]
+  latitude Decimal [not null]
+  longitude Decimal [not null]
+  parentRegion Region
+  parentRegionId Int
 }
 
 Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
+  slug String [unique, not null]
   Game Game
   gameSlug String
   categories MarkerCategory [not null]
@@ -49,12 +72,12 @@ Table MarkerGroup {
 
 Table MarkerCategory {
   id Int [pk, increment]
-  markerGroupId Int
-  title String [not null, default: '']
+  title String [unique, not null]
   icon String [not null]
   template String
   info String
   locations MarkerLocation [not null]
+  groupSlug String [not null]
   MarkerGroup MarkerGroup
 }
 
@@ -69,6 +92,7 @@ Table MarkerLocation {
   Region Region
   regionSlug String
   media Media [not null]
+  UsersOnLocations UsersOnLocations [not null]
 }
 
 Table Media {
@@ -87,11 +111,17 @@ Enum Role {
   USER
 }
 
+Ref: UsersOnLocations.userId > User.id
+
+Ref: UsersOnLocations.locationId > MarkerLocation.id
+
 Ref: Region.gameSlug > Game.slug
+
+Ref: SubRegion.parentRegionId > Region.id
 
 Ref: MarkerGroup.gameSlug > Game.slug
 
-Ref: MarkerCategory.markerGroupId > MarkerGroup.id
+Ref: MarkerCategory.groupSlug > MarkerGroup.slug
 
 Ref: MarkerLocation.categoryId > MarkerCategory.id
 

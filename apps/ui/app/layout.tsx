@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./icon.css";
 import { NextUIProvider } from "@nextui-org/react";
 import clsx from "clsx";
 import { fontSans } from "@/config/fonts";

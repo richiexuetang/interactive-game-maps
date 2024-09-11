@@ -20,14 +20,15 @@ export interface MapProps {
   region: Region;
   groups: MarkerGroup[];
   markers: MarkerLocation[];
+  regions: Region[];
 }
 
-const Map = ({ region, groups, markers }: MapProps) => {
+const Map = ({ region, groups, markers, regions }: MapProps) => {
   return (
     <Provider store={store}>
-      <div className="h-[calc(100vh-3rem)] overflow-hidden">
+      <div className="h-[calc(100vh-1rem)] overflow-hidden">
         <Menu groups={groups} markers={markers} gameSlug={region.gameSlug} />
-        <DynamicMap region={region} markers={markers} />
+        <DynamicMap region={region} markers={markers} regions={regions} />
       </div>
     </Provider>
   );

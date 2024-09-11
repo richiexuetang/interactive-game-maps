@@ -7,16 +7,19 @@ import "leaflet/dist/leaflet.css";
 import "@/leaflet/smooth-wheel-zoom";
 import { MarkerLocation, Region } from "@/app/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
-import data from "@/lib/geo.json";
+import { useAtom } from "jotai";
+import { regionsAtom } from "@/store/region";
 
 const { MapContainer } = ReactLeaflet;
 
 const Map = ({
   region,
   markers,
+  regions,
 }: {
   region: Region;
   markers: MarkerLocation[];
+  regions: Region[];
 }) => {
   const {
     tilePath,
@@ -28,7 +31,17 @@ const Map = ({
     ...rest
   } = region;
 
-  console.log(markers);
+  const [currentRegions, setCurrentRegions] = useAtom(regionsAtom);
+
+  useEffect(() => {
+    if (!currentRegions.gameSlug || currentRegions.gameSlug !== gameSlug) {
+      setCurrentRegions({
+        gameSlug: gameSlug as any,
+        regions: [...regions],
+      });
+    }
+  });
+
   useEffect(() => {
     (async function init() {
       Leaflet.Icon.Default.mergeOptions({
@@ -58,7 +71,6 @@ const Map = ({
       <ReactLeaflet.TileLayer
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{${first}}/{${second}}.${mimeType}`}
       />
-      <ReactLeaflet.GeoJSON data={data as any} />
       <MarkerRenderer markers={markers} gameSlug={gameSlug} />
     </MapContainer>
   );

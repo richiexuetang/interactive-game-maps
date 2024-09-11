@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'icomoon';
+    /* src: url('//fonts/black-myth-wukong/icons/icomoon.eot?wezb57'); */
+    src: url('./fonts/icons/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yaoguai_king:before {
+    content: "\e900";
+    color: #fff;
+}
+
+.icon-yaoguai_chief:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.icon-will:before {
+    content: "\e902";
+    color: #fff;
+}
+
+.icon-staff:before {
+    content: "\e903";
+    color: #fff;
+}
+
+.icon-vessel:before {
+    content: "\e904";
+    color: #fff;
+}
+
+.icon-tree_pearl:before {
+    content: "\e905";
+    color: #fff;
+}
+
+.icon-transformation_spell:before {
+    content: "\e906";
+    color: #fff;
+}
+
+.icon-spirit:before {
+    content: "\e907";
+    color: #fff;
+}
+
+.icon-spell:before {
+    content: "\e908";
+    color: #fff;
+}
+
+.icon-soak:before {
+    content: "\e909";
+    color: #fff;
+}
+
+.icon-snake_head_mushroom:before {
+    content: "\e90a";
+    color: #fff;
+}
+
+.icon-encounters:before {
+    content: "\e90b";
+    color: #fff;
+}
+
+.icon-shen_monkey:before {
+    content: "\e90c";
+    color: #fff;
+}
+
+.icon-seeds:before {
+    content: "\e90d";
+    color: #fff;
+}
+
+.icon-purple_lingzhi:before {
+    content: "\e90e";
+    color: #fff;
+}
+
+.icon-point_of_interest:before {
+    content: "\e90f";
+    color: #fff;
+}
+
+.icon-npc:before {
+    content: "\e910";
+    color: #fff;
+}
+
+.icon-nine-capped_lingzhi:before {
+    content: "\e911";
+    color: #fff;
+}
+
+.icon-miscellaneous:before {
+    content: "\e912";
+    color: #fff;
+}
+
+.icon-millenium_ginseng:before {
+    content: "\e913";
+    color: #fff;
+}
+
+.icon-meditation_spot:before {
+    content: "\e914";
+    color: #fff;
+}
+
+.icon-luojia_fragrant_vine:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.icon-licorice:before {
+    content: "\e916";
+    color: #fff;
+}
+
+.icon-lesser_yaoguai:before {
+    content: "\e917";
+    color: #fff;
+}
+
+.icon-key_items:before {
+    content: "\e918";
+    color: #fff;
+}
+
+.icon-keeper_shrine:before {
+    content: "\e919";
+    color: #fff;
+}
+
+.icon-jade_lotus:before {
+    content: "\e91a";
+    color: #fff;
+}
+
+.icon-item:before {
+    content: "\e91b";
+    color: #fff;
+}
+
+.icon-gourd:before {
+    content: "\e91c";
+    color: #fff;
+}
+
+.icon-gentian:before {
+    content: "\e91d";
+    color: #fff;
+}
+
+.icon-fragrant_jade_flower:before {
+    content: "\e91e";
+    color: #fff;
+}
+
+.icon-formula:before {
+    content: "\e91f";
+    color: #fff;
+}
+
+.icon-fire_bellflower:before {
+    content: "\e920";
+    color: #fff;
+}
+
+.icon-elite_lesser_yaoguai:before {
+    content: "\e921";
+    color: #fff;
+}
+
+.icon-easter_eggs:before {
+    content: "\e922";
+    color: #fff;
+}
+
+.icon-drink:before {
+    content: "\e923";
+    color: #fff;
+}
+
+.icon-curio:before {
+    content: "\e924";
+    color: #fff;
+}
+
+.icon-consumable:before {
+    content: "\e925";
+    color: #fff;
+}
+
+.icon-chests:before {
+    content: "\e926";
+    color: #fff;
+}
+
+.icon-character:before {
+    content: "\e927";
+    color: #fff;
+}
+
+.icon-celestial_pill:before {
+    content: "\e928";
+    color: #fff;
+}
+
+.icon-celestial_pear:before {
+    content: "\e929";
+    color: #fff;
+}
+
+.icon-awaken_wine_worm:before {
+    content: "\e92a";
+    color: #fff;
+}
+
+.icon-armor_set:before {
+    content: "\e92b";
+    color: #fff;
+}
+
+.icon-aged_ginseng:before {
+    content: "\e92c";
+    color: #fff;
+}
