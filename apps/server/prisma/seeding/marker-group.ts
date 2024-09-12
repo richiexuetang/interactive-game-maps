@@ -1,7 +1,3 @@
-// model MarkerGroup {
-//     title      String
-//     gameSlug   String?
-//   }
 export const markerGroups = [
   { slug: "bmw_locations", title: "Locations", gameSlug: "black-myth-wukong" },
   { slug: "bmw_key_items", title: "Key Items", gameSlug: "black-myth-wukong" },

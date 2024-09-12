@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'icomoon';
-    /* src: url('//fonts/black-myth-wukong/icons/icomoon.eot?wezb57'); */
-    src: url('./fonts/icons/icomoon.ttf') format('truetype');
+    src: url('../public/fonts/icomoon.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -9,8 +8,7 @@
 
 @font-face {
     font-family: 'elden-ring-icomoon';
-    /* src: url('//fonts/black-myth-wukong/icons/icomoon.eot?wezb57'); */
-    src: url('./fonts/icons/elden-ring-icomoon.ttf') format('truetype');
+    src: url('../public/fonts/elden-ring-icomoon.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -18,7 +16,6 @@
 
 [class^="black-myth-wukong-icon-"],
 [class*=" black-myth-wukong-icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: never;
     font-style: normal;
@@ -27,14 +24,12 @@
     text-transform: none;
     line-height: 1;
 
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 [class^="elden-ring-icon-"],
 [class*=" elden-ring-icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'elden-ring-icomoon' !important;
     speak: never;
     font-style: normal;
@@ -43,7 +38,6 @@
     text-transform: none;
     line-height: 1;
 
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

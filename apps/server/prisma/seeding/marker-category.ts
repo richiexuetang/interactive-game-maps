@@ -1,10 +1,3 @@
-// model MarkerCategory {
-//     title         String           @default("")
-//     icon          String
-//     template      String?
-//     info          String?
-//      groupSlug
-//   }
 export const markerCategories = [
   //#region Black myth wukong
   {

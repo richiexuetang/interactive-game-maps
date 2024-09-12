@@ -1,19 +1,3 @@
-// model Region {
-//     id           Int              @id @default(autoincrement())
-//     slug         String           @unique
-//     title        String
-//     thumbnailUrl String
-//     minZoom      Int
-//     maxZoom      Int
-//     defaultZoom  Int
-//     center       Decimal[]
-//     tilePath     String
-//     Game         Game?            @relation(fields: [gameSlug], references: [slug])
-//     gameSlug     String?
-//     locations    MarkerLocation[]
-//     subRegions   SubRegion[]
-//     order        Int              @default(1)
-//   }
 export const regions = [
   //#region Black Myth Wukong
   {

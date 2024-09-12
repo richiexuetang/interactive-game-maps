@@ -18,7 +18,7 @@ export class MarkerLocationsResolver {
     regionSlug: string
   ) {
     return this.prisma.markerLocation.findMany({
-      include: { category: true },
+      include: { category: true, media: true },
       where: {
         regionSlug,
       },
