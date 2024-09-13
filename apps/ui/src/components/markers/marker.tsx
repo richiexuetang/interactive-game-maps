@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { useCopyToClipboard } from "usehooks-ts";
+import { useCopyToClipboard } from "@/hooks";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -176,6 +176,7 @@ export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
                   if (m.mimeType === "mp4") {
                     return (
                       <video
+                        key={m.url!}
                         src={m.url ?? ""}
                         width="750"
                         height="500"

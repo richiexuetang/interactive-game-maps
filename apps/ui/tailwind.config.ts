@@ -60,7 +60,6 @@ const config: Config = {
   },
   darkMode: ["class"],
   plugins: [
-    require("tailwindcss-animate"),
     nextui({
       addCommonColors: true,
       layout: {
