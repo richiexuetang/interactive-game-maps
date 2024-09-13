@@ -1,0 +1,672 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+  width: 33px;
+  height: 44px;
+  background-color: transparent !important;
+}
+
+.black-myth-wukong {
+  background: url(../../public/markers/black-myth-wukong.png);
+}
+
+.witcher-3 {
+  background: url(../../public/markers/witcher-3.png);
+}
+
+.elden-ring {
+  background: url(../../public/markers/elden-ring.png);
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+  width: 33px;
+  height: 44px;
+  background-color: transparent !important;
+}
+
+.leaflet-div-icon {
+  background: none !important;
+  border: none !important;
+}
+
+/* Elden Ring */
+.ammunition {
+  background-position: 0 0;
+}
+
+.ancient_smithing_stone {
+  background-position: -33px 0;
+}
+
+.armor {
+  background-position: -66px 0;
+}
+
+.ash_of_war {
+  background-position: -99px 0;
+}
+
+.bell_bearing {
+  background-position: -132px 0;
+}
+
+.birdseye_telescope {
+  background-position: -165px 0;
+}
+
+.boss {
+  background-position: -198px 0;
+}
+
+.cerulean_scarab {
+  background-position: -231px 0;
+}
+
+.character {
+  background-position: -264px 0;
+}
+
+.consumable {
+  background-position: -297px 0;
+}
+
+.cookbook {
+  background-position: -330px 0;
+}
+
+.cracked_pot {
+  background-position: 0 -44px;
+}
+
+.crafting_material {
+  background-position: -33px -44px;
+}
+
+.crystal_tear {
+  background-position: -66px -44px;
+}
+
+.deathroot {
+  background-position: -99px -44px;
+}
+
+.demigod {
+  background-position: -132px -44px;
+}
+
+.divine_tower {
+  background-position: -165px -44px;
+}
+
+.dragon_heart {
+  background-position: -198px -44px;
+}
+
+.dragon_shrine {
+  background-position: -231px -44px;
+}
+
+.dungeon {
+  background-position: -264px -44px;
+}
+
+.easter_egg {
+  background-position: -297px -44px;
+}
+
+.elevator {
+  background-position: -330px -44px;
+}
+
+.elite_enemy {
+  background-position: 0 -88px;
+}
+
+.enemy {
+  background-position: -33px -88px;
+}
+
+.evergaol {
+  background-position: -66px -88px;
+}
+
+.gesture {
+  background-position: -99px -88px;
+}
+
+.ghost {
+  background-position: -132px -88px;
+}
+
+.ghost_glovewort {
+  background-position: -165px -88px;
+}
+
+.glovewort {
+  background-position: -198px -88px;
+}
+
+.golden_rune {
+  background-position: -231px -88px;
+}
+
+.golden_seed {
+  background-position: -264px -88px;
+}
+
+.great_boss {
+  background-position: -297px -88px;
+}
+
+.great_glovewort {
+  background-position: -330px -88px;
+}
+
+.great_rune {
+  background-position: 0 -132px;
+}
+
+.guiding_statue {
+  background-position: -33px -132px;
+}
+
+.hidden_passage {
+  background-position: -66px -132px;
+}
+
+.imp_seal_statue {
+  background-position: -99px -132px;
+}
+
+.incantation {
+  background-position: -132px -132px;
+}
+
+.invasion {
+  background-position: -165px -132px;
+}
+
+.item {
+  background-position: -198px -132px;
+}
+
+.key_item {
+  background-position: -231px -132px;
+}
+
+.landmark {
+  background-position: -264px -132px;
+}
+
+.legacy_dungeon {
+  background-position: -297px -132px;
+}
+
+.lore {
+  background-position: -330px -132px;
+}
+
+.map_fragment {
+  background-position: 0 -176px;
+}
+
+.martyr_effigy {
+  background-position: -33px -176px;
+}
+
+.memory_stone {
+  background-position: -66px -176px;
+}
+
+.merchant {
+  background-position: -99px -176px;
+}
+
+.minor_erdtree {
+  background-position: -132px -176px;
+}
+
+.miquellas_cross {
+  background-position: -165px -176px;
+}
+
+.miquellas_lilly {
+  background-position: -198px -176px;
+}
+
+.miscellaneous {
+  background-position: -231px -176px;
+}
+
+.multiplayer_item {
+  background-position: -264px -176px;
+}
+
+.n_lily {
+  background-position: -297px -176px;
+}
+
+.painting {
+  background-position: -330px -176px;
+}
+
+.perfume_bottle {
+  background-position: 0 -220px;
+}
+
+.portal {
+  background-position: -33px -220px;
+}
+
+.puzzle {
+  background-position: -66px -220px;
+}
+
+.quest {
+  background-position: -99px -220px;
+}
+
+.rebirth_monument {
+  background-position: -132px -220px;
+}
+
+.remembrance {
+  background-position: -165px -220px;
+}
+
+.revered_spirit_ash {
+  background-position: -198px -220px;
+}
+
+.ritual_pot {
+  background-position: -231px -220px;
+}
+
+.ruin_fragment {
+  background-position: -264px -220px;
+}
+
+.rune_arc {
+  background-position: -297px -220px;
+}
+
+.sacramental_bud {
+  background-position: -330px -220px;
+}
+
+.sacred_tear {
+  background-position: 0 -264px;
+}
+
+.scadutree_fragment {
+  background-position: -33px -264px;
+}
+
+.scadutree_fragment {
+  background-position: -66px -264px;
+}
+
+.shield {
+  background-position: -99px -264px;
+}
+
+.site_of_grace {
+  background-position: -132px -264px;
+}
+
+.slumbering_egg {
+  background-position: -165px -264px;
+}
+
+.smithing_stone {
+  background-position: -198px -264px;
+}
+
+.somber_smithing_stone {
+  background-position: -231px -264px;
+}
+
+.sorcery {
+  background-position: -264px -264px;
+}
+
+.spellbook {
+  background-position: -297px -264px;
+}
+
+.spirit_ashes {
+  background-position: -330px -264px;
+}
+
+
+.spiritspring_jump {
+  background-position: 0 -308px;
+}
+
+.stake_of_marika {
+  background-position: -33px -308px;
+}
+
+.stone_cairn {
+  background-position: -66px -308px;
+}
+
+.stonesword_key {
+  background-position: -99px -308px;
+}
+
+.summoning_sigil {
+  background-position: -132px -308px;
+}
+
+.talisman {
+  background-position: -165px -308px;
+}
+
+.talisman_pouch {
+  background-position: -198px -308px;
+}
+
+.teardrop_scarab {
+  background-position: -231px -308px;
+}
+
+.tool {
+  background-position: -264px -308px;
+}
+
+.trainer {
+  background-position: -297px -308px;
+}
+
+.trinas_lilly {
+  background-position: -330px -308px;
+}
+
+
+.wandering_mausoleum {
+  background-position: 0 -352px;
+}
+
+.weapon {
+  background-position: -33px -352px;
+}
+
+.whetblade {
+  background-position: -66px -352px;
+}
+
+.aged_ginseng,
+.celestial_pear,
+.fire_bellflower,
+.fragrant_jade_flower,
+.jade_lotus,
+.gentian,
+.licorice {
+  background-position: 0 0;
+}
+
+.armor {
+  background-position: -33px 0;
+}
+
+.awaken_wine_worm {
+  background-position: -66px 0;
+}
+
+.character {
+  background-position: -165px 0;
+}
+
+.chest {
+  background-position: -198px 0px;
+}
+
+.consumable {
+  background-position: -231px 0px;
+}
+
+.curio {
+  background-position: 0 -44px;
+}
+
+.drink {
+  background-position: -33px -44px;
+}
+
+.elite_lesser_yaoguai {
+  background-position: -99px -44px;
+}
+
+.formula {
+  background-position: -165px -44px;
+}
+
+.item {
+  background-position: -33px -88px;
+}
+
+.keeper_shrine {
+  background-position: -99px -88px;
+}
+
+.meditation_spot {
+  background-position: -66px -132px;
+}
+
+.easter_egg {
+  background-position: -66px -44px;
+}
+
+.will {
+  background-position: -99px -264px;
+}
+
+.spell {
+  background-position: -99px -220px;
+}
+
+.yaoguai_chief {
+  background-position: -132px -264px;
+}
+
+.lesser_yaoguai {
+  background-position: -165px -88px;
+}
+
+.npc {
+  background-position: -198px -132px;
+}
+
+.location {
+  background-position: -231px -88px;
+}
+
+.spirit {
+  background-position: -132px -220px;
+}
+
+.valuable {
+  background-position: -0px -264px;
+}
+
+.point_of_interest {
+  background-position: -132px -176px;
+}
+
+.celestial_pill {
+  background-position: -132px -0px;
+}
+
+.gourd {
+  background-position: -0px -88px;
+}
+
+.key_item {
+  background-position: -132px -88px;
+}
+
+.luojia_fragrant_vine {
+  background-position: -0px -132px;
+}
+
+.seeds {
+  background-position: -198px -176px;
+}
+
+.soak {
+  background-position: -66px -220px;
+}
+
+.talisman {
+  background-position: -165px -220px;
+}
+
+.transformation_spell {
+  background-position: -198px -220px;
+}
+
+.vessel {
+  background-position: -33px -264px;
+}
+
+.weapon {
+  background-position: -66px -264px;
+}
+
+.yaoguai_king {
+  background-position: -165px -264px;
+}
+
+.main_quest {
+  background-position: -33px -132px;
+}
+
+.side_quest {
+  background-position: -0px -220px;
+}
+
+.miscellaneous {
+  background-position: -132px -132px;
+}
+
+.celestial_pear {
+  background-position: -99px -0px;
+}
+
+.fire_bellflower,
+.fragrant_jade_flower,
+.millenium_ginseng,
+.nine_capped_lingzhi,
+.purple_lingzhi {
+  background-position: -165px -176px;
+}
+
+.tree_pearl {
+  background-position: -231px -220px;
+}
+
+.shen_monkey {
+  background-position: -231px -176px;
+}
+
+.aged_ginseng {
+  background-position: -0px -0px;
+}
+
+.leaflet-popup-tip {
+  background-color: hsl(var(--card)) !important;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

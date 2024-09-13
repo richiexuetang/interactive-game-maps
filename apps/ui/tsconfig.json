@@ -36,7 +36,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "leaflet/smooth-wheel-zoom.js"
+    "src/leaflet/smooth-wheel-zoom.js",
+    "src/utils/initAuth.js"
   ],
   "exclude": [
     "node_modules"
