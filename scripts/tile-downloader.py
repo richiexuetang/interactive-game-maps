@@ -1,8 +1,8 @@
 import urllib.request
 import os
 
-zoom_start = 10
-zoom_end = 13
+zoom_start = 9
+zoom_end = 15
 
 x_low_map = {
     8: 127,
@@ -29,17 +29,17 @@ x_high_map = {
 y_low_map = x_low_map
 y_high_map = x_high_map
 
-regions = ["06_huaguoshan", "04_zhujiadayuan", "04_pansidongshangceng", "04_pansidongxiaceng", "04_huanghuaguan", "04_ziyunshan"]
+regions = ["hyrule"]
 
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
 for region in regions:
     for z in range(zoom_start, zoom_end+1):
         for x in range(x_low_map[z], x_high_map[z] + 1):
             for y in range(y_low_map[z], y_high_map[z] + 1):
-                uri = "https://image.gamersky.com/webimg13/db/game_map/black_myth_wukong/{region}/{z}/{x}_{y}.webp".format(region=region, z=z, x=x, y=y)
-                directory = '{dir}/black-myth-wukong/{region}/{z}/{y}'.format(dir=dir_name, region=region, z=z, y=y)
+                uri = "https://tiles.mapgenie.io/games/zelda-tears-of-the-kingdom/{region}/default-v2/{z}/{y}/{x}.jpg".format(region=region, z=z, x=x, y=y)
+                directory = '{dir}/totk/{region}/{z}/{x}'.format(dir=dir_name, region=region, z=z, x=x)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)
                 print(x, y, z)
-                urllib.request.urlretrieve(uri, directory + "/{x}.jpg".format(x=x))
+                urllib.request.urlretrieve(uri, directory + "/{y}.jpg".format(y=y))

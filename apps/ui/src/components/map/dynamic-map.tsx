@@ -30,10 +30,6 @@ const Map = ({ region, markers, user }: MapProps) => {
     })();
   }, []);
 
-  const mimeType = gameSlug === "witcher-3" ? "png" : "jpg";
-  const first = gameSlug === "black-myth-wukong" ? "y" : "x";
-  const second = gameSlug === "black-myth-wukong" ? "x" : "y";
-
   return (
     <MapContainer
       zoom={zoom}
@@ -47,7 +43,7 @@ const Map = ({ region, markers, user }: MapProps) => {
       className="w-full h-full !bg-accent"
     >
       <ReactLeaflet.TileLayer
-        url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{${first}}/{${second}}.${mimeType}`}
+        url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
       />
       <MarkerRenderer markers={markers} gameSlug={gameSlug} user={user!} />
     </MapContainer>

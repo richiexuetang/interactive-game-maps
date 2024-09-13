@@ -150,7 +150,6 @@ export const Menu = ({ groups, markers, gameSlug, regions }: MenuProps) => {
             <Divider />
             {groups?.map((group, index) => {
               const counts: any = {};
-              console.log(group);
               group.categories?.map((category) => {
                 const count = markers?.filter(
                   ({ categoryId }) => categoryId == parseInt(category.id)

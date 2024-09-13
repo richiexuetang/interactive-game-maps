@@ -7,7 +7,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "兰喜村-朱家大院",
         longitude: -0.8637105373165923,
         latitude: 0.2402583410530923,
@@ -15,7 +14,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "盘丝洞-碎玉池",
         longitude: -0.5023285862474438,
         latitude: 0.9117178154397152,
@@ -23,7 +21,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "盘丝洞-上层",
         longitude: -1.0168663084234026,
         latitude: 0.3971912275075198,
@@ -31,7 +28,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-濯垢泉",
         longitude: -0.7933173824029609,
         latitude: 0.713794567647895,
@@ -39,7 +35,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-万慈窟",
         longitude: -0.9185666143716844,
         latitude: 0.8857208639566352,
@@ -48,7 +43,6 @@ export const markerCategories = [
         description:
           "<p>从旁边可以跳(跳加右键跳批可以类似二段跳)上去打波里个波,</p><p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-底层",
         longitude: -1.1630788919822237,
         latitude: 0.7245840844819895,
@@ -56,7 +50,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-堕龙壁",
         longitude: -1.0617166896387857,
         latitude: 0.14131476093800188,
@@ -64,7 +57,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-绝想崖",
         longitude: -0.7413439597906404,
         latitude: 0.3271039908500626,
@@ -72,7 +64,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-中层",
         longitude: -0.5760859747490485,
         latitude: 0.7530213724829053,
@@ -80,7 +71,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-千红窟",
         longitude: -0.5912063167671135,
         latitude: 0.5546205574224956,
@@ -88,7 +78,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-花间桥",
         longitude: -0.5039493793658778,
         latitude: 1.007309900519516,
@@ -96,7 +85,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞-若仙庵",
         longitude: -0.9547732888636062,
         latitude: 0.49988641822898217,
@@ -104,7 +92,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "黄花观-山道",
         longitude: -1.1166488060933943,
         latitude: 0.4693229560587895,
@@ -112,7 +99,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "黄花观-虎蛇虫林",
         longitude: -0.6809955033229471,
         latitude: 0.44971972026742435,
@@ -120,7 +106,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "黄花观-观门",
         longitude: -1.0272792969543048,
         latitude: 0.3345686811200892,
@@ -129,7 +114,6 @@ export const markerCategories = [
         description:
           "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>到这里先别去找百眼(开阔大平地),先走上山的阶梯过四妹剧情(会大喊一声快走)图1为通向四妹剧情的路口</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "黄花观-金光苑",
         longitude: -0.7601227230618406,
         latitude: 1.031437709344715,
@@ -137,7 +121,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "隐-紫云山-绕仙居",
         longitude: -0.7501547805505879,
         latitude: 0.3438639138905444,
@@ -145,7 +128,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "隐·紫云山-巢云顶",
         longitude: -0.30966604764438443,
         latitude: 1.1111036541522594,
@@ -153,7 +135,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "隐·紫云山-落花庄",
         longitude: -0.7910028974121133,
         latitude: 0.7617912950899637,
@@ -161,7 +142,6 @@ export const markerCategories = [
       {
         description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "隐·紫云山-千花谷",
         longitude: -1.0167097474457023,
         latitude: 0.48543713271411093,
@@ -170,7 +150,6 @@ export const markerCategories = [
         description:
           "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>取景点：安徽安庆天柱山惜字亭<br></p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "山脚-青嶂道",
         longitude: -0.33985756269075296,
         latitude: 0.49269348020980885,
@@ -179,16 +158,14 @@ export const markerCategories = [
         description:
           "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>打完金角犀用青符即可见</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "山脚-望犀坡",
         longitude: -0.40831484721638844,
         latitude: 0.8441820587621862,
       },
       {
         description:
-          "<p>可以远处看到红树林,前面大片空地是BOSS战斗场地</p><p>————————————————————————</p><p>山脚只是区域名！不是真的要往山脚跑！看到红树林过去就对了,地图上的标点有点歪。</p>",
+          "<p>可以远处看到红树林,前面大片空地是BOSS战斗场地</p><p>————————————————————————</p><p>山脚只是区域名!不是真的要往山脚跑!看到红树林过去就对了,地图上的标点有点歪。</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "山脚-见鹿林",
         longitude: -0.7059927047016572,
         latitude: 0.9873427736903011,
@@ -196,7 +173,6 @@ export const markerCategories = [
       {
         description: "<p>黄色的树下就是土地庙</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "山脚-捕螂汀",
         longitude: -0.7083767912719168,
         latitude: 0.43828579973596504,
@@ -204,7 +180,6 @@ export const markerCategories = [
       {
         description: "<p>拿完金箍棒后上山,山顶上</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "水帘洞-天真顶",
         longitude: -1.267962892360913,
         latitude: 0.22889755675394952,
@@ -213,7 +188,6 @@ export const markerCategories = [
         description:
           "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p><br></p><p>PS：这玩意儿得拿了金箍棒才有路去开,没做前置就别找了</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "水帘洞-峰回路",
         longitude: -0.9142298270904519,
         latitude: 0.295904511666663,
@@ -222,7 +196,6 @@ export const markerCategories = [
         description:
           "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>可以在这调整打大圣的打法</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "石卵-石中境",
         longitude: -1.3244751152346907,
         latitude: 0.1847169235076649,
@@ -233,7 +206,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.75452650172841",
         longitude: "-0.58213591575498",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -242,7 +214,6 @@ export const markerCategories = [
           "**Location:** Kill the Wolf Scout and the Wolf Stalwart and the golden trail will lead you here.",
         latitude: "0.64941863428122",
         longitude: "-0.81590652466016",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -250,7 +221,6 @@ export const markerCategories = [
         description: "**Location:** Just outside the small cave",
         latitude: "0.88310749622674",
         longitude: "-0.91830909234253",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -258,7 +228,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84251068136295",
         longitude: "-0.78730456225531",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -266,7 +235,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.74282052262677",
         longitude: "-0.76472660959229",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -275,7 +243,6 @@ export const markerCategories = [
           "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)\n\n**Shop:**\n- Evil Repelling Medicament (x2)\n- Longevity Decoction (x2)\n- Silk (x2)\n- Yaoguai Core (x2)",
         latitude: "0.87509211105314",
         longitude: "-0.71554884817940",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -283,7 +250,6 @@ export const markerCategories = [
         description: "**Location:** By the edge of the path",
         latitude: "0.73069975846236",
         longitude: "-0.54159164428478",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -292,7 +258,6 @@ export const markerCategories = [
           "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
         latitude: "0.52036335626630",
         longitude: "-0.88384964193304",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -300,7 +265,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.36939126654569",
         longitude: "-0.77541589737046",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -308,7 +272,6 @@ export const markerCategories = [
         description: "**Location:** Inside the cavern",
         latitude: "0.46541002162454",
         longitude: "-0.71174613730850",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -316,7 +279,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.46904917301740",
         longitude: "-0.67935424765775",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -341,7 +303,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.64611656823190",
         longitude: "-0.83536619889983",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -382,7 +343,6 @@ export const markerCategories = [
         description: "**Location:** Fright Cliff",
         latitude: "0.80901318570002",
         longitude: "-0.68295478820696",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -406,7 +366,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.66679760739623",
         longitude: "-1.08792496087760",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -414,7 +373,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.60819415029945",
         longitude: "-0.96845351356413",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -439,7 +397,6 @@ export const markerCategories = [
           "Two of two shrines in secret area. Shrines are the only way back into area.",
         latitude: "1.02687051544710",
         longitude: "-0.465826600299",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -448,7 +405,6 @@ export const markerCategories = [
           "One of two shrines in secret area. Shrines are the only way back into area.",
         latitude: "0.94199355582884",
         longitude: "-0.55058731084313",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -456,7 +412,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.34545235385329",
         longitude: "-0.63628818740148",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -464,7 +419,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.32651013425152",
         longitude: "-0.93020701035329",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -472,7 +426,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.24607215013974",
         longitude: "-0.63154495933796",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -480,7 +433,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.63831485248824",
         longitude: "-0.61187624931031",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -488,7 +440,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77471967388236",
         longitude: "-0.62088265097609",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -496,7 +447,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.87130576904316",
         longitude: "-0.77625018662997",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -504,7 +454,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.97574438373253",
         longitude: "-0.70351755279151",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -512,7 +461,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.99004391966916",
         longitude: "-0.65977965373733",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -520,7 +468,6 @@ export const markerCategories = [
         description: "",
         latitude: "1.07428576944710",
         longitude: "-0.64297567464993",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -528,7 +475,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.82019465453480",
         longitude: "-0.65038744344997",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -536,7 +482,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84433035445817",
         longitude: "-0.52836594021286",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -544,7 +489,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84024695627429",
         longitude: "-0.56179672479692",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -552,7 +496,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51159291172461",
         longitude: "-0.64786566317036",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -560,13 +503,11 @@ export const markerCategories = [
         description: "",
         latitude: "0.67602230439955",
         longitude: "-0.61628020506586",
-        media: [],
       },
       {
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "灰烬林-春秋寨",
         longitude: -1.1826390355814738,
         latitude: 0.14627554017030775,
@@ -575,7 +516,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "火光地-火燎三关",
         longitude: -0.5641107862948047,
         latitude: 0.8921899784550504,
@@ -584,7 +524,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "丹灶谷-谷口",
         longitude: -0.5962041954960853,
         latitude: 0.4562388081873081,
@@ -593,7 +532,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "灰烬林-火燎二关",
         longitude: -0.828885130420133,
         latitude: 0.5682206871844926,
@@ -602,7 +540,6 @@ export const markerCategories = [
         description:
           "<p>一上来就有一个火牛和焰蝠还有三个焦尸,打完才能上香,提前做好准备</p><p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "灰烬林-灰烬台",
         longitude: -0.7811527027766942,
         latitude: 0.33095166505400186,
@@ -611,7 +548,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "火光地-清凉坡",
         longitude: -0.5363349117486678,
         latitude: 0.5302483934301847,
@@ -620,7 +556,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "火光地-陨砖坑",
         longitude: -0.12469640609197086,
         latitude: 1.2567769648173481,
@@ -629,7 +564,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "隐·璧水洞-水火道",
         longitude: -0.6563886440130489,
         latitude: 0.9853137090894535,
@@ -638,7 +572,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "隐·璧水洞-洞天深处",
         longitude: -0.920819752068553,
         latitude: 0.7534985701826145,
@@ -647,7 +580,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p><p>(土地庙左边过去一点之后,直接踩岩浆上去即可到达下一个土地庙)</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "丹灶谷-罗刹宫",
         longitude: -0.34621844074808905,
         latitude: 0.7386629977435888,
@@ -656,7 +588,6 @@ export const markerCategories = [
         description:
           "<p>Similar to site of grace, recommend to check shop for new items</p>",
         regionSlug: "05_huoyanshan",
-        media: [],
         title: "灰烬林-火燎一关",
         longitude: -1.2468759054004295,
         latitude: 0.15123577753149675,
@@ -668,7 +599,6 @@ export const markerCategories = [
         title: "丹灶谷-翠云殿",
         longitude: -0.2836515768207448,
         latitude: 0.7840633617984594,
-        media: [],
       },
       {
         description:
@@ -677,7 +607,6 @@ export const markerCategories = [
         title: "隐·璧水洞-炼魔坑",
         longitude: -1.0556573068637647,
         latitude: 0.6573218586953544,
-        media: [],
       },
     ],
   },
@@ -688,7 +617,6 @@ export const markerCategories = [
       {
         description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "碎玉池摩崖前",
         longitude: -0.3609423677166319,
         latitude: 0.9473380007631107,
@@ -697,7 +625,6 @@ export const markerCategories = [
         description:
           "<p>打坐蒲团,地下传送点往茧那边走,刚进门左边有缝,上去就是</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "底层洞天深处",
         longitude: -1.2224150322872163,
         latitude: 0.5858231862128633,
@@ -705,7 +632,6 @@ export const markerCategories = [
       {
         description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "中层幽阴树下",
         longitude: -0.5306394857078089,
         latitude: 0.8253243616733243,
@@ -713,7 +639,6 @@ export const markerCategories = [
       {
         description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "虎蛇虫林崖头",
         longitude: -0.6128862720607913,
         latitude: 0.4404494145939566,
@@ -721,7 +646,6 @@ export const markerCategories = [
       {
         description: "<p>[地点描述]:进门左手树下边</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "黄花观松柟间",
         longitude: -0.2333499572024209,
         latitude: 0.8541336972819664,
@@ -730,14 +654,12 @@ export const markerCategories = [
         description:
           "<p>[地点描述]:坐上去欣赏风景可得一个技能点(桥旁边的大树下)</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "紫云山巉岩上",
         longitude: -0.6627439405035318,
         latitude: 0.4421693802421913,
       },
       {
         description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "春秋寨崖像前",
         longitude: -0.9745577702252319,
@@ -746,7 +668,6 @@ export const markerCategories = [
       {
         description:
           "<p>[地点描述]:传送点后面的右侧方,坐上去欣赏风景可得一个技能点</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "火燎三关崖前",
         longitude: -0.5616475415368711,
@@ -755,7 +676,6 @@ export const markerCategories = [
       {
         description:
           "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p><p>土地庙上台阶后左转后再右转一直走即可</p><p>[有bug]我打坐了之后,画面横过来了,如图3</p><p>在二楼别在楼下找了</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "翠云殿坐佛前",
         longitude: -0.3355819319482123,
@@ -763,7 +683,6 @@ export const markerCategories = [
       },
       {
         description: "<p>向后走,拐个弯儿。解锁第五五难。</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "炼魔坑石屏前",
         longitude: -0.9751529725855619,
@@ -776,7 +695,6 @@ export const markerCategories = [
           "**Location:** In front of the pavillion with the large buddha head",
         latitude: "0.52379978873173",
         longitude: "-0.71688067778973",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -848,7 +766,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.59766929759525",
         longitude: "-0.86262242317486",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -872,7 +789,6 @@ export const markerCategories = [
         description: "**Location:** ??",
         latitude: "1.06310222657840",
         longitude: "-0.64349073947767",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -881,7 +797,6 @@ export const markerCategories = [
           "On your left before you continue down the path to the recipe",
         latitude: "0.99351453230418",
         longitude: "-0.65515756511428",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -889,7 +804,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81434220023080",
         longitude: "-0.53590267896621",
-        media: [],
       },
 
       {
@@ -927,7 +841,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.43571479327178",
         longitude: "-0.59239428223640",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -935,7 +848,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.25685119391957",
         longitude: "-0.94701281991155",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -943,7 +855,6 @@ export const markerCategories = [
         description: "Purple Seal blocking access.",
         latitude: "0.63883455921803",
         longitude: "-0.59999393706397",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -951,7 +862,6 @@ export const markerCategories = [
         description: "Purple Seal",
         latitude: "0.52204847254983",
         longitude: "-0.46391169844449",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -959,7 +869,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.46389077500893",
         longitude: "-0.63052070176167",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -967,7 +876,6 @@ export const markerCategories = [
         description: "Purple Seal.",
         latitude: "0.48940999921315",
         longitude: "-0.65140646020427",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -976,7 +884,6 @@ export const markerCategories = [
           "If desired, you can use this area to drop down and kill the Yaksha Archer that was previously unreachable.",
         latitude: "0.52290321245403",
         longitude: "-0.52861901203275",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -992,19 +899,39 @@ export const markerCategories = [
     title: "Awaken Wine Worm",
     locations: [
       {
-        description: "<p>在发光的罐子里</p>",
-        media: [],
+        description: "<p>在室内发光的罐子里</p>",
+        regionSlug: "04_zhujiadayuan",
+        title: "Awaken Wine Worm",
+        longitude: -0.9234421184210362,
+        latitude: 0.38894234523404236,
+      },
+      {
+        description: "<p>在葫芦仙人后面花坛的发光罐子里</p>",
+        regionSlug: "04_huanghuaguan",
+        title: "Awaken Wine Worm",
+        longitude: -0.14024850064359384,
+        latitude: 0.8818629965919627,
+      },
+      {
+        description:
+          "<p>从糜道人那边进门, 然后左转上楼, 在发光的罐子里</p><p>楼梯非常窄,进门回头看</p><p>补充:用定风珠可以在底下打到,少跑一段路,打靡道人的时候就可以完成</p>",
+        regionSlug: "04_ziyunshan",
+        title: "Awaken Wine Worm",
+        longitude: -0.5049778161826737,
+        latitude: 1.0062000494027359,
+      },
+      {
+        description: "Inside glowing jar",
         regionSlug: "05_huoyanshan",
-        title: "三冬虫",
+        title: "Awaken Wine Worm",
         longitude: -0.40695301229195024,
         latitude: 0.8866368972772563,
       },
       {
         description:
           "<p>金晴兽一阶段破冰后进,在左边发光的罐子里。二周目只给灵蕴,不用特意进来。</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
-        title: "三冬虫",
+        title: "Awaken Wine Worm",
         longitude: -0.6046241374049259,
         latitude: 1.0276529899533386,
       },
@@ -1048,7 +975,6 @@ export const markerCategories = [
       {
         description: "<p>[注意事项]:大幅提升气力上限</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "九转金丹",
         longitude: -0.979604964310397,
         latitude: 1.1569621281120277,
@@ -1056,7 +982,6 @@ export const markerCategories = [
       {
         description: "<p>别跳下去,就在虫子桥头部位置向左转弯</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "太乙紫金丹",
         longitude: -0.9299680900580256,
         latitude: 0.3620148398841252,
@@ -1064,14 +989,12 @@ export const markerCategories = [
       {
         description: "<p>提升血量上限</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "碧藕金丹",
         longitude: -1.3333421404579724,
         latitude: 0.3343048456000588,
       },
       {
         description: "<p>[注意事项]:就在土地庙旁边,很好找</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "太乙紫金丹",
         longitude: -0.3452265483594772,
@@ -1080,7 +1003,6 @@ export const markerCategories = [
       {
         description:
           "<p>[注意事项]:土地庙转头的坡上就是,别被狐狸精勾了魂忘了拿</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "碧藕金丹",
         longitude: -0.840464871306267,
@@ -1089,7 +1011,6 @@ export const markerCategories = [
       {
         description:
           "<p>加力气上限,这颗很容易错过,记得回来找</p><p>在两只小怪的左手边、解锁新土地庙之前。</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "九转金丹",
         longitude: -0.9336604567210998,
@@ -1133,7 +1054,6 @@ export const markerCategories = [
         description: "**Location:** ??",
         latitude: "0.82272861193297",
         longitude: "-0.83266496658044",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1182,7 +1102,6 @@ export const markerCategories = [
       {
         description:
           "<p>桌子上面,就是铁扇公主座位后面</p><p>酒品多周目无法重复获取</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "龙膏",
         longitude: -0.22719366125812712,
@@ -1191,7 +1110,6 @@ export const markerCategories = [
       {
         description:
           "<p>位置是在宫殿正路左侧第一个金色灯左转在右转效果是减少所有法术回转时间,但一段时间内艰难行走</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "瞌睡虫蜕",
         longitude: -0.27919164727924795,
@@ -1200,7 +1118,6 @@ export const markerCategories = [
       {
         description:
           "要先把默认葫芦升级到9口酒【药师佛葫芦】才能互动<div>与葫芦仙人对话后就可以吸收此处红色精魄,升级为10口酒的【上清宝葫芦】</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "上清宝葫芦",
         longitude: -0.3993870585219099,
@@ -1209,7 +1126,6 @@ export const markerCategories = [
       {
         description:
           "<p>打火焰石头人概率掉落,不行就去土地庙调息刷新。</p><p>------</p><p>全场石头人都会爆,不用一直刷新</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "火焰丹头(概率)",
         longitude: -0.6323912662610667,
@@ -1218,7 +1134,6 @@ export const markerCategories = [
       {
         description:
           "<p>[注意事项]:</p><p>少许提高下次使用身外身法时召唤的毛猴的持续时间</p><p>二周目不能重复获得&nbsp;可略过</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "灵台药苗",
         longitude: -0.892212150723708,
@@ -1271,7 +1186,6 @@ export const markerCategories = [
           "**Location:** On a small table in the water  \n\n**Effect:**  ??",
         latitude: "1.00960632420420",
         longitude: "-0.73048353195267",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1279,7 +1193,6 @@ export const markerCategories = [
         description: "**Location:** In front of the obelisk",
         latitude: "0.46762638983259",
         longitude: "-0.52468375069239",
-        media: [],
       },
     ],
     groupSlug: "bmw_key_items",
@@ -1290,7 +1203,6 @@ export const markerCategories = [
       {
         description: "<p>[注意事项]:击败头目王灵官获得</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "[丹方]登仙散",
         longitude: -0.32982257454662545,
         latitude: 0.5328929178011066,
@@ -1298,7 +1210,6 @@ export const markerCategories = [
       {
         description: "<p>[注意事项]:回神力的丹药,加速化身技能冷却</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "[丹方]镜中丹",
         longitude: -0.16034166034759778,
         latitude: 0.8957830485797871,
@@ -1306,7 +1217,6 @@ export const markerCategories = [
       {
         description: "<p>加味参势丸*3</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "[丹方]加味参势丸",
         longitude: -0.5516325121885757,
         latitude: 1.2356814585032936,
@@ -1314,7 +1224,6 @@ export const markerCategories = [
       {
         description:
           "<p>[注意事项]看到左侧石门右边丹方</p><p><br></p><p>不是宝箱是一个棺材</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "[丹方]七返火丹",
         longitude: -1.0751513948913214,
@@ -1327,7 +1236,6 @@ export const markerCategories = [
           "**Location:** At the end of the path coming from the shrine",
         latitude: "0.99463830124640",
         longitude: "-0.65231025525671",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1336,7 +1244,13 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Lang-Li-Guhh-Baw](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397429)",
         latitude: "0.51858745780614",
         longitude: "-0.67390841850306",
-        media: [],
+      },
+      {
+        description: "<p>[注意事项]:就在正门小盒子里,随单方附赠3个保命丹</p>",
+        regionSlug: "04_ziyunshan",
+        title: "[丹方]保命丹",
+        longitude: -0.28126811355281234,
+        latitude: 0.9936489311489396,
       },
     ],
     groupSlug: "bmw_key_items",
@@ -1367,7 +1281,6 @@ export const markerCategories = [
           "**Location:** Inside a chest after defeating the [Mad Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397643) at the bottom of the secret well",
         latitude: "0.35105361101215",
         longitude: "-0.62044292322622",
-        media: [],
       },
     ],
     groupSlug: "bmw_key_items",
@@ -1390,7 +1303,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [First Prince of Flowing Sands](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397843)\n\n**Use:** ??",
         latitude: "0.47794264586449",
         longitude: "-0.85135996341634",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1399,7 +1311,6 @@ export const markerCategories = [
           "**Location:** Dropped from  [King of Flowing Sands + Second Rat Prince](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397456)\n\n**Use:** Used to lure the [First Prince of Flowing Sands](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397843) out of hiding",
         latitude: "0.47594337402350",
         longitude: "-0.77587833160140",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1425,7 +1336,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating the [Tiger Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397634)  \n\n**Use:** ??",
         latitude: "0.56185068376089",
         longitude: "-0.98803851580689",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1518,7 +1428,6 @@ export const markerCategories = [
           "**Location:** Dropped by the [Mother Of Stones](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397639)  \n\n**Use:** ??",
         latitude: "0.74084754865402",
         longitude: "-0.75381033209660",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1551,7 +1460,6 @@ export const markerCategories = [
           "**Location:** Rewarded for defeating the [Stone Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397637)  \n\n**Use:** ??",
         latitude: "0.83563941397713",
         longitude: "-0.76575994491469",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1560,7 +1468,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Tiger's Acolyte](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397636)  \n\n**Use:** ??",
         latitude: "0.71109972660530",
         longitude: "-0.88302612304611",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1569,7 +1476,6 @@ export const markerCategories = [
           "**Location:** Inside a jar in a small outhouse  \n\n**Use:** ??\n\nNote: If Sobering Stone is already collected, you'll receive Ascension Powder",
         latitude: "0.76022301595212",
         longitude: "-1.09968423843210",
-        media: [],
       },
     ],
     groupSlug: "bmw_key_items",
@@ -1578,9 +1484,36 @@ export const markerCategories = [
   {
     locations: [
       {
+        description: "<p>[获得方式]:</p><p>过场CG后直接眼前就是</p>",
+        regionSlug: "04_huanghuaguan",
+        title: "落伽香藤",
+        longitude: -1.1448547206915975,
+        latitude: 0.2615925750650234,
+      },
+      {
+        description: "<p>[获得方式]:直接拾取 就在青冉冉隔壁</p>",
+        regionSlug: "04_ziyunshan",
+        title: "落伽香藤",
+        longitude: -0.9493245330566822,
+        latitude: 0.4162985309701952,
+      },
+      {
+        description: "<p>[获得方式]:树上拾取</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "落伽香藤",
+        longitude: -1.1666680099610005,
+        latitude: 0.25901018284766053,
+      },
+      {
+        description: "<p>[获得方式]:树上</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "落伽香藤",
+        longitude: -0.1252102798688668,
+        latitude: 1.0502760916842107,
+      },
+      {
         description:
           '<p>[获得方式]:门楼正对枯木跳下去,图中所站位置走下去右转走到底,就可以看到。(<span style="font-family: var(--van-base-font);">有好几节楼梯的,靠左一直走在最底下。</span><span style="font-family: var(--van-base-font);">)</span></p>',
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "落伽香藤",
         longitude: -1.0866944317244815,
@@ -1588,7 +1521,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获得方式]:boss左边树,会有石头怪跳脸注意躲闪</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "落伽香藤",
         longitude: -0.21790723395429268,
@@ -1609,7 +1541,6 @@ export const markerCategories = [
           "**Location:** Found hanging on a tree near the [Gore-Eye Daoist](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397638)",
         latitude: "0.61200221260796",
         longitude: "-0.80092259692509",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1617,7 +1548,6 @@ export const markerCategories = [
         description: "**Location:** On the tree just outside the gate",
         latitude: "0.79386555122296",
         longitude: "-1.01728677749580",
-        media: [],
       },
     ],
     groupSlug: "bmw_key_items",
@@ -1628,7 +1558,6 @@ export const markerCategories = [
       {
         description: "<p>采集碧藕概率获得</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "嫩玉藕(概率)",
         longitude: -0.45388500559849376,
         latitude: 0.9422163388136227,
@@ -1637,7 +1566,6 @@ export const markerCategories = [
         description:
           "<p>[注意事项]:击杀黄花观内和这紫云山内的道士都有概率掉落</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "清虚道果(概率)",
         longitude: -0.2712537346887416,
         latitude: 1.0510764560543464,
@@ -1646,7 +1574,6 @@ export const markerCategories = [
         description:
           "<p>大树怪掉落,概率获得</p><p>好像概率很低 我打了半个小时才出</p><p><br></p><p>看运气把,我打了两次出了2个,最多能拿3个。应该是效果可以叠加</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "不老藤(概率)",
         longitude: -0.9328641073001904,
         latitude: 0.41146680789893253,
@@ -1655,7 +1582,6 @@ export const markerCategories = [
         description:
           "<p>[注意事项]泡酒物:清虚道果 (饮酒后一定时间内,少许延长闪避的无敌时间)还是人形的道士概率掉落</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "清虚道果(概率)",
         longitude: -0.8050345025287129,
         latitude: 0.7780228316119491,
@@ -1663,7 +1589,6 @@ export const markerCategories = [
       {
         description: "<p>就在桌子上面 二周目没有</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "九霞清醑",
         longitude: -0.2708945019017506,
         latitude: 0.9712159775350386,
@@ -1672,7 +1597,6 @@ export const markerCategories = [
         description:
           "<p>[获取方法]:</p><p>先击败一个道人和剑客就可以开了</p><p>[酒物功能]:</p><p>饮酒时,一定概率不消耗葫芦中的酒量</p><p>只能获取一个,二周目以后获取会变为灵蕴</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "蜂山石髓",
         longitude: -0.9772493083690961,
         latitude: 0.4752287514543241,
@@ -1680,16 +1604,14 @@ export const markerCategories = [
       {
         description: "<p>房子左侧草药位置采集概率获得青山骨</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "青山骨(概率)",
         longitude: -0.4338059676353794,
         latitude: 1.1362648676778377,
       },
       {
         description:
-          "<p>[奖励] 血杞子 x 1</p><p>[注意事项] 进那个大门扭头就能找到</p><p>二周目无视</p>",
+          "<p>[Reward] 血杞子 x 1</p><p>[注意事项] 进那个大门扭头就能找到</p><p>二周目无视</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "血杞子",
         longitude: -1.0887453413297123,
         latitude: 0.16981688846885845,
@@ -1698,7 +1620,6 @@ export const markerCategories = [
         description:
           "<p>[注意事项]在屋内的火上的一个酒壶里</p><p>二周目无法重复获得</p><p>效果:恢复二成四的血量,生命危急时,大大增加恢复量</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "酒品-无忧醑",
         longitude: -0.2379948830359524,
         latitude: 0.8569016001904259,
@@ -1706,7 +1627,6 @@ export const markerCategories = [
       {
         description: "<p>泡酒物,只能获得一个,二周目来会变为灵蕴</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "紫纹缃核",
         longitude: -0.5253683215148612,
         latitude: 1.257391483533283,
@@ -1715,7 +1635,6 @@ export const markerCategories = [
         description:
           "<p>[注意事项]击败蝎太子获得(总之是4只蝎太子的其中一只掉落的),只能获得一个,二周目来不会再获取(即使打完四只蝎太子)</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "倒马毒钩",
         longitude: -0.12158244423056885,
         latitude: 1.0652740598660273,
@@ -1743,7 +1662,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Cyan Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397826)",
         latitude: "0.86534762948834",
         longitude: "-0.76099277637610",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -1767,7 +1685,6 @@ export const markerCategories = [
         description: "**Location:** On the offering table on the platform",
         latitude: "0.43305461547625",
         longitude: "-0.75400114059519",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1776,7 +1693,6 @@ export const markerCategories = [
           "**Location:** On a wooden platform you can jump up to on the way down the hill. After jumping, use the Heavy Attack button for a lift in air.",
         latitude: "0.62078279912126",
         longitude: "-0.97061860506767",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1784,7 +1700,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.62005652907636",
         longitude: "-1.09166645904010",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -1793,7 +1708,6 @@ export const markerCategories = [
           "**Location:** Hidden in a Licorice plant by the cliff edge  \n\n**Effect:** ??",
         latitude: "0.80532141476313",
         longitude: "-0.77599447889472",
-        media: [],
       },
     ],
     groupSlug: "bmw_key_items",
@@ -1804,7 +1718,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:击败百足虫</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "百足虫精魄",
         longitude: -0.7922613204857782,
         latitude: 0.4282043257330628,
@@ -1812,7 +1725,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:击败蓝光蝎太子</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "蝎太子精魄",
         longitude: -0.1124364772819888,
         latitude: 1.0834617245738798,
@@ -1821,7 +1733,6 @@ export const markerCategories = [
         description:
           "<p>[获取方式]:在桥下方虫茧挡着的洞里有精英傀蛛士+蚕怪,小心别被群殴死。</p><p>旁边一个大茧出来的蚕怪会掉一个玲珑内丹</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "傀蛛士精魄(隐藏)",
         longitude: -0.30485664433570037,
         latitude: 0.871840924985122,
@@ -1830,7 +1741,6 @@ export const markerCategories = [
         description:
           '<p>[获取方式]:</p><p>击败此处琴螂仙,获得【琴螂原体】后交付给如意画轴中的辰龙,土地庙调息后,六六村药篓右边会多一个小琴螂,喂食3次【茧圆】(盘丝洞里打白色的茧概率掉落)后,土地庙调息后,在<span style="font-family: var(--van-base-font);">小琴螂</span><span style="font-family: var(--van-base-font);">原来的位置吸取精魄即可获得</span></p><p><span style="font-family: var(--van-base-font);">注:多周目不会出现可炼化精魄</span></p>',
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "琴螂仙精魄",
         longitude: -0.4433624916873953,
         latitude: 1.3043256161038386,
@@ -1838,7 +1748,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:往左上去有宝箱,往右是精魄</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "儡蜱士精魄",
         longitude: -0.9528606505930668,
         latitude: 0.20824886589169012,
@@ -1846,7 +1755,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:优先打,会在和蝎子怪打架的时候搞偷袭</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "蜻蜓精精魄",
         longitude: -0.8562006434520129,
         latitude: 0.8849253771713137,
@@ -1854,7 +1762,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:击杀此处头目虫总兵获得</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "虫总兵精魄",
         longitude: -0.7255957051780513,
         latitude: 0.3439817165759962,
@@ -1862,7 +1769,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:打蓝火蛇捕头获得,低概率掉珍玩虎筋绦子</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "蛇捕头精魄",
         longitude: -0.15290810754768813,
         latitude: 0.8093552562031476,
@@ -1870,7 +1776,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:采集此处蘑菇触发头目菇女,击败后获得</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "蘑女精魄",
         longitude: -0.2616029865309315,
         latitude: 0.9301820848001796,
@@ -1878,7 +1783,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:</p><p>小心两边弓箭手</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "蛇司药精魄",
         longitude: -0.9211936472472644,
         latitude: 0.6851717459085478,
@@ -1886,7 +1790,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:击杀此处蓝火精英大树精青冉冉掉落</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "青冉冉精魄",
         longitude: -0.9301351954953248,
         latitude: 0.4311631042236854,
@@ -1894,7 +1797,6 @@ export const markerCategories = [
       {
         description: "<p>[获取方式]:击杀棺材前蓝火精英虫校尉</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "虫校尉精魄",
         longitude: -0.6983965088724062,
         latitude: 1.0400396362706772,
@@ -1903,14 +1805,12 @@ export const markerCategories = [
         description:
           "<p>[获取方式]:打完二姐进入盘丝洞后传送出来能看到一个幽灯鬼,打掉即可获得</p><p>被动增加灵韵掉落,刷钱套装必备</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "幽灯鬼精魂",
         longitude: -0.9149631876630053,
         latitude: 0.32007931017102464,
       },
       {
         description: "<p>通道往右下方跳 旁边还有一个宝箱</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "鳖宝精魄",
         longitude: -0.5153587120536542,
@@ -1919,7 +1819,6 @@ export const markerCategories = [
       {
         description:
           '<div>获得方式:</div><div><span style="font-family: var(--van-base-font);">&nbsp;击杀</span>燧统领获得<br></div>',
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "燧统领精魄",
         longitude: -0.5276051539700006,
@@ -1927,7 +1826,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获取方式]:击杀此处看宝箱的蓝火地罗刹</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "地罗刹精魄",
         longitude: -0.5363471272415268,
@@ -1936,7 +1834,6 @@ export const markerCategories = [
       {
         description:
           "<p>[获取方式]:小心自爆,会刷很多吐火+自爆的小怪,周围精魄不要打,直接大技能按死,拿会回法力的葫芦,打完喝酒把法喝满再吸收精魄</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "黑脸鬼精魄",
         longitude: -1.0370982896507144,
@@ -1944,7 +1841,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获取方式]:击败石父掉落</p><p>无脑立棍随便杀</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "石父精魄",
         longitude: -0.8831795328680698,
@@ -1953,7 +1849,6 @@ export const markerCategories = [
       {
         description:
           "<p>[获取方式]:打败燧先锋获得,和之前的燧统领不是一个,别忘了</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "燧先锋精魄",
         longitude: -0.2145084336638945,
@@ -1961,7 +1856,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获取方式]:蓝火牯都督掉落,这里犀牛精很多,一点点打</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "牯都督精魄",
         longitude: -0.8903828146328294,
@@ -1970,7 +1864,6 @@ export const markerCategories = [
       {
         description:
           "<p>[获取方式]:</p><p>主线进度到灭火,大铁球和八戒坠落后返回来就能捡到,</p><p>如果已拥有二周目无法重复获得</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "兴烘掀·掀烘兴精魄(大铁球)",
         longitude: -0.32305079369095324,
@@ -1978,7 +1871,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获取方式]:击败BOSS云里雾·雾里云后吸取</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "云里雾·雾里云精魄",
         longitude: -0.39041263030608775,
@@ -1986,7 +1878,6 @@ export const markerCategories = [
       },
       {
         description: "<p>必出地灵伞盖</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "九叶灵芝精精魄",
         longitude: -0.5815753601930851,
@@ -1999,7 +1890,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397822)\n\n**Note:** Not a useable seal, but rather a key item.",
         latitude: "0.65464860317610",
         longitude: "-0.60185551643272",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2008,7 +1898,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Captain Wise-Voice](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397823)",
         latitude: "0.72018923865548",
         longitude: "-0.61387448070954",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2017,7 +1906,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Non-White](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397830)",
         latitude: "1.04428276317780",
         longitude: "-0.64517331814611",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2026,7 +1914,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Old Ginseng Guai](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397832)",
         latitude: "1.10011203146550",
         longitude: "-0.64382293268972",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2035,7 +1922,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Non-Able](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397833)",
         latitude: "1.08935211903200",
         longitude: "-0.61744977948777",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2044,7 +1930,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Captain Void-Illusion](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397835)",
         latitude: "1.10159851530250",
         longitude: "-0.62794804573076",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2053,7 +1938,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Captain Kalpa-Wave](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397836)",
         latitude: "1.12599459664430",
         longitude: "-0.62424132697745",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2062,7 +1946,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Non-Pure](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397837)",
         latitude: "1.14645242093290",
         longitude: "-0.61632126135541",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2071,7 +1954,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Non-Void](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397838)",
         latitude: "1.13845628891580",
         longitude: "-0.64070029924912",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2080,7 +1962,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating the [Elite Yaksha Patroller](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399842)",
         latitude: "0.40507717170854",
         longitude: "-0.80308925484823",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2088,7 +1969,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.57867299294338",
         longitude: "-0.57740947735428",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2096,7 +1976,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52150896820525",
         longitude: "-0.46098926206724",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2105,7 +1984,6 @@ export const markerCategories = [
           "**Location:** Reward for defaulting [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430)",
         latitude: "0.39155191320763",
         longitude: "-0.72425959343664",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2131,7 +2009,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Tiger's Acolyte](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397636)",
         latitude: "0.73653576685446",
         longitude: "-0.88096618652298",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2140,7 +2017,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Gore-Eye Daoist](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397638)",
         latitude: "0.61510143555537",
         longitude: "-0.79615014612278",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2149,7 +2025,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Mad Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397643)",
         latitude: "0.34709718114577",
         longitude: "-0.62748670577824",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2158,7 +2033,6 @@ export const markerCategories = [
           "Dropped by one of the [4 Rat Archers](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398460) on top of the gate.\n\n**Note:** The archers will drop down after defeating the [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430)",
         latitude: "0.41297738780299",
         longitude: "-0.70431008578120",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2218,7 +2092,6 @@ export const markerCategories = [
           "Reward for defeating the [Elite Civet Sergeant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398970)",
         latitude: "0.62288127700049",
         longitude: "-0.98338860573688",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2227,7 +2100,6 @@ export const markerCategories = [
           "**Location:** Located directly in front of [the](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398505) meditation spot.\n\nDrops from the [Elite Rat Governor](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399630)",
         latitude: "0.80878452422783",
         longitude: "-0.83842045718052",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2235,7 +2107,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78459671629149",
         longitude: "-1.03410959243880",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -2276,52 +2147,46 @@ export const markerCategories = [
   {
     locations: [
       {
-        description: "<p>[奖励物品]:小金片,镔铁砂</p>",
+        description: "<p>[Reward物品]:小金片,镔铁砂</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "宝箱",
         longitude: -0.45492039296019016,
         latitude: 0.8929224762604946,
       },
       {
         description:
-          "<p>[奖励物品]:</p><p>彩云葫芦</p><p>毒敌大王喝酒亭子下面的宝箱里,可以直接获取。</p><p>必须要打了再开 不然是丹药【龙光倍力丸】。</p><p>补充:先开宝箱给丹药,葫芦会从毒敌大王身上掉</p>",
+          "<p>[Reward物品]:</p><p>彩云葫芦</p><p>毒敌大王喝酒亭子下面的宝箱里,可以直接获取。</p><p>必须要打了再开 不然是丹药【龙光倍力丸】。</p><p>补充:先开宝箱给丹药,葫芦会从毒敌大王身上掉</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "彩玉葫芦",
         longitude: -0.5339764140949228,
         latitude: 0.39271436530442827,
       },
       {
-        description: "<p>[奖励物品]:铁中血</p>",
+        description: "<p>[Reward物品]:铁中血</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "宝箱",
         longitude: -0.34135960624021777,
         latitude: 0.9030959057779029,
       },
       {
-        description: "<p>[奖励物品]:解毒药*3</p>",
+        description: "<p>[Reward物品]:解毒药*3</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "宝箱",
         longitude: -1.2240778825313043,
         latitude: 0.332020105726329,
       },
       {
         description:
-          "<p>[奖励物品]:铁中血,金片.&nbsp;</p><p>不注意被偷袭,2只蜘蛛精</p><p>补充一下,进门右侧埋伏了一只,正前方掉下来一只<br></p>",
+          "<p>[Reward物品]:铁中血,金片.&nbsp;</p><p>不注意被偷袭,2只蜘蛛精</p><p>补充一下,进门右侧埋伏了一只,正前方掉下来一只<br></p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "宝箱",
         longitude: -0.4023477999345175,
         latitude: 1.2677628754048555,
       },
       {
         description:
-          '<p>[奖励物品]:碎金片*3 小金片*3</p><p>or&nbsp;<span style="font-family: var(--van-base-font);">小金片*1 镔铁砂*2</span></p>',
+          '<p>[Reward物品]:碎金片*3 小金片*3</p><p>or&nbsp;<span style="font-family: var(--van-base-font);">小金片*1 镔铁砂*2</span></p>',
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "宝箱",
         longitude: -0.35177941217250464,
         latitude: 1.0862848336091133,
@@ -2330,75 +2195,66 @@ export const markerCategories = [
         description:
           '<p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">[获取方式]:在亭子里的盒子里</p><p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">效果是提高打杀获得的经验值(提高10%),此效果可堆叠</p><p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">多周目可多次获得</p>',
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "仙箓",
         longitude: -0.6944803329167826,
         latitude: 0.5785427847286826,
       },
       {
-        description: "<p>[奖励物品]:几枚丹药</p>",
+        description: "<p>[Reward物品]:几枚丹药</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "丹药盒",
         longitude: -1.0436375561279192,
         latitude: 0.27254509633816326,
       },
       {
         description:
-          "<p>[奖励物品]: 镔铁砂x2</p><p>[注意]:走过崖边后不需要上楼梯,直接左转,小心掉下去。里面有几个怪物还有琴螂幼虫</p>",
+          "<p>[Reward物品]: 镔铁砂x2</p><p>[注意]:走过崖边后不需要上楼梯,直接左转,小心掉下去。里面有几个怪物还有琴螂幼虫</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.8651113666513481,
         latitude: 0.4095566861428921,
       },
       {
-        description: "<p>[奖励物品]:铁中血+碎金片</p>",
+        description: "<p>[Reward物品]:铁中血+碎金片</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "宝箱",
         longitude: -0.5916717624539558,
         latitude: 0.43832684011661627,
       },
       {
-        description: "<p>[奖励物品]:金称心+玲珑内丹</p>",
+        description: "<p>[Reward物品]:金称心+玲珑内丹</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.641619365997542,
         latitude: 1.0511705556142346,
       },
       {
-        description: "<p>[奖励物品]:小金叶+寒铁片</p>",
+        description: "<p>[Reward物品]:小金叶+寒铁片</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "宝箱",
         longitude: -1.0758886526402307,
         latitude: 0.49750661253234796,
       },
       {
         description:
-          "<p>[奖励物品]:灵蕴*1600+ 镔铁砂*2</p><p>百眼房间进门右边有个小路两只怪</p>",
+          "<p>[Reward物品]:灵蕴*1600+ 镔铁砂*2</p><p>百眼房间进门右边有个小路两只怪</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.7007574711660425,
         latitude: 1.0695220215829977,
       },
       {
         description:
-          '<p>[奖励物品]:寒铁叶(随机)、<span style="font-family: var(--van-base-font);">碎金片,旁边有个躺着的虫头道士会起来问候你&nbsp;</span></p>',
+          '<p>[Reward物品]:寒铁叶(随机)、<span style="font-family: var(--van-base-font);">碎金片,旁边有个躺着的虫头道士会起来问候你&nbsp;</span></p>',
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "宝箱(有埋伏)",
         longitude: -0.5924058348866197,
         latitude: 0.8518418909139314,
       },
       {
         description:
-          "<p>宝箱旁边有小怪,慢慢走过去蓄力3段一棍打死</p><p>[奖励物品]:铁中血</p>",
+          "<p>宝箱旁边有小怪,慢慢走过去蓄力3段一棍打死</p><p>[Reward物品]:铁中血</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "宝箱",
         longitude: -0.4869837114909785,
         latitude: 0.7637700887802197,
@@ -2407,23 +2263,20 @@ export const markerCategories = [
         description:
           '<div>左边楼梯尽头,有两个小怪</div>龙光倍力丸,镜中丹,铁中血<div><span style="font-family: var(--van-base-font);">或是七反火丹,虚空结,铁中血,</span></div><div><span style="font-family: var(--van-base-font);">两个小怪在我刚把镜头转到石板路上时喊着“mimimi”就下来了</span><br></div>',
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "丹药宝箱",
         longitude: -1.0012274054287786,
         latitude: 0.958838261442267,
       },
       {
-        description: "<p>[奖励物品]:小金片 碎金片 细金线</p>",
+        description: "<p>[Reward物品]:小金片 碎金片 细金线</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "宝箱",
         longitude: -0.7618062932751002,
         latitude: 0.5818503072589891,
       },
       {
-        description: "<p>[奖励物品]:玲珑内丹 细金线 寒铁叶</p>",
+        description: "<p>[Reward物品]:玲珑内丹 细金线 寒铁叶</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "玲珑内丹",
         longitude: -0.7303347008535184,
         latitude: 0.40756466735116703,
@@ -2432,7 +2285,6 @@ export const markerCategories = [
         description:
           '<p>从台阶往左看可以直接跳下去,跳跃加重击可以再跳上来。</p><p>地图没画出来,但确实有</p><p>从这里直走即可</p><p>没啥用,碎金片,小金片</p><p>~~~~~~~~~~~~~~~~~~~~</p><p>#编辑:面对虫总兵,左边的房子附近有一条路可以</p><p><span style="font-family: var(--van-base-font);">过去</span><br></p><p><span style="font-family: var(--van-base-font);"><br></span></p><p><span style="font-family: var(--van-base-font);">沿着总兵房子旁边下楼梯也可以走过来</span></p>',
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "这里有宝箱",
         longitude: -0.863769596479699,
         latitude: 0.33997490772846106,
@@ -2441,42 +2293,37 @@ export const markerCategories = [
         description:
           "保命丹药。服用后长时间内,遭遇丧命之难,优先触发此药,还魂复生。<div>打完黑手道人后面的大树再往上走有个宝箱</div>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "九转还魂丹",
         longitude: -0.5586073636514186,
         latitude: 1.0954958569693076,
       },
       {
-        description: "<p>[奖励物品]:金吻兽</p>",
+        description: "<p>[Reward物品]:金吻兽</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "金稳兽",
         longitude: -0.5444371038502425,
         latitude: 1.2454131777489437,
       },
       {
         description:
-          "<p>[奖励物品]:寒铁叶*4&nbsp; &nbsp; &nbsp;过独木桥后沿着路走,在两个蛇骨头怪之间,朝右后方回头看,在一堆木头架子后面有个棺材宝箱{面朝独木桥(图一)向右后方看(图二)木头架子后面}</p>",
+          "<p>[Reward物品]:寒铁叶*4&nbsp; &nbsp; &nbsp;过独木桥后沿着路走,在两个蛇骨头怪之间,朝右后方回头看,在一堆木头架子后面有个棺材宝箱{面朝独木桥(图一)向右后方看(图二)木头架子后面}</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.9777691893378346,
         latitude: 0.23156115347065054,
       },
       {
         description:
-          "<p>[奖励物品]:小金片、镔铁砂</p><p>就在土地庙旁边,二战老猪后一进山洞就能看见,正对洞口。</p>",
+          "<p>[Reward物品]:小金片、镔铁砂</p><p>就在土地庙旁边,二战老猪后一进山洞就能看见,正对洞口。</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "宝箱",
         longitude: -0.7685691766716047,
         latitude: 0.7259328439172208,
       },
       {
         description:
-          "<p>[奖励物品]:虚空结</p><p>七返火丹(重制法术cd的消耗药)或龙光倍力丸</p><p>这里少画一条路</p>",
+          "<p>[Reward物品]:虚空结</p><p>七返火丹(重制法术cd的消耗药)或龙光倍力丸</p><p>这里少画一条路</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "宝箱",
         longitude: -0.9972714077899809,
         latitude: 0.2692373830460326,
@@ -2485,7 +2332,6 @@ export const markerCategories = [
         description:
           "<p>有小怪偷袭,开宝箱前先扫荡下小怪,内容物:铁中血,镔铁沙</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "宝箱",
         longitude: -0.7412915841002246,
         latitude: 0.3694795194997056,
@@ -2494,23 +2340,20 @@ export const markerCategories = [
         description:
           '<p>在坑里边,<span style="font-family: var(--van-base-font);">记得隐身,怪很多&nbsp;金称心+玲珑内丹(附近的怪物可以掉落玲珑内丹)</span></p><p><span style="font-family: var(--van-base-font);">定风丹可以秒杀飞虫,建议聚怪之后一个定风丹全秒</span></p>',
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "棺材宝箱",
         longitude: -1.2661123567184802,
         latitude: 0.5143676126730696,
       },
       {
-        description: "<p>[奖励物品]:寒铁叶或镔铁砂</p>",
+        description: "<p>[Reward物品]:寒铁叶或镔铁砂</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.5597763083687539,
         latitude: 0.6936234508938242,
       },
       {
-        description: "<p>[奖励物品]:材料宝箱</p>",
+        description: "<p>[Reward物品]:材料宝箱</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "细金线*2",
         longitude: -0.5240808611871444,
         latitude: 1.2156874839585896,
@@ -2519,89 +2362,78 @@ export const markerCategories = [
         description:
           "<p>可以喝八次,饮酒加火焚耐性,且无视熔岩地面焚伤</p><div>之后第五回火焰山非常有用的葫芦</div>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "湘妃葫芦",
         longitude: -0.5141245013242326,
         latitude: 1.2320774054705907,
       },
       {
         description:
-          "<p>[奖励物品]:出洞口后不上台阶右手边,寒铁叶x4/兵铁砂x2</p>",
+          "<p>[Reward物品]:出洞口后不上台阶右手边,寒铁叶x4/兵铁砂x2</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.8637795362746203,
         latitude: 0.8345650338320212,
       },
       {
-        description: "<p>[奖励物品]:镔铁砂</p>",
+        description: "<p>[Reward物品]:镔铁砂</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "棺材宝箱",
         longitude: -0.9058823207226112,
         latitude: 0.56212047887918,
       },
       {
-        description: "<p>[奖励物品]:寒铁叶,小金片</p>",
+        description: "<p>[Reward物品]:寒铁叶,小金片</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "宝箱",
         longitude: -0.6701183445326535,
         latitude: 0.6837032300157517,
       },
       {
-        description: "石蛛看守,奖励碎金片+小金片",
+        description: "石蛛看守,Reward碎金片+小金片",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "宝箱",
         longitude: -0.711118504530333,
         latitude: 0.36358938750625214,
       },
       {
-        description: "<p>[奖励物品]:小金片 镔铁砂</p>",
+        description: "<p>[Reward物品]:小金片 镔铁砂</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "宝箱",
         longitude: -0.9630714180445636,
         latitude: 0.5116927023894959,
       },
       {
         description:
-          '<p>[奖励物品]:</p><p>七反火丹+保命丸/镜中丹 或&nbsp;<span style="text-align: center;">龙光倍力丸+虚空结</span></p>',
+          '<p>[Reward物品]:</p><p>七反火丹+保命丸/镜中丹 或&nbsp;<span style="text-align: center;">龙光倍力丸+虚空结</span></p>',
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "宝箱",
         longitude: -0.6737522991733158,
         latitude: 0.9419498668129194,
       },
       {
         description:
-          "<p>[奖励物品]:寒铁叶*4、铁中血,宝箱旁会出一堆自爆小蜘蛛</p><p>ps:刚来带着猪八戒有特殊互动然后出小蜘蛛,若先打二姐猪八戒离队后过来就无法打开宝箱,需白天后再来才能打开</p>",
+          "<p>[Reward物品]:寒铁叶*4、铁中血,宝箱旁会出一堆自爆小蜘蛛</p><p>ps:刚来带着猪八戒有特殊互动然后出小蜘蛛,若先打二姐猪八戒离队后过来就无法打开宝箱,需白天后再来才能打开</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "宝箱(有埋伏)",
         longitude: -0.49195422001227485,
         latitude: 0.5679639510053676,
       },
       {
-        description: "<p>[奖励物品]:霓虹云绦、玲珑内丹</p>",
-        media: [],
+        description: "<p>[Reward物品]:霓虹云绦、玲珑内丹</p>",
         regionSlug: "05_huoyanshan",
         title: "虹霓云绦",
         longitude: -0.5449750295124431,
         latitude: 0.7008494268688708,
       },
       {
-        description: "<p>[奖励物品]:铁中血,大小金片</p>",
-        media: [],
+        description: "<p>[Reward物品]:铁中血,大小金片</p>",
         regionSlug: "05_huoyanshan",
         title: "宝箱",
         longitude: -0.33907988021624647,
         latitude: 0.8970810221613306,
       },
       {
-        description: "<p>[奖励物品]:随机的,我的是宾铁砂,看见火盆走出外面</p>",
-        media: [],
+        description: "<p>[Reward物品]:随机的,我的是宾铁砂,看见火盆走出外面</p>",
         regionSlug: "05_huoyanshan",
         title: "加味参试丹(棺材宝箱)",
         longitude: -1.0979336023075064,
@@ -2609,8 +2441,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励物品]:细金线+玲珑内丹</p><p>上台阶之前左手边走到底</p><p>由于细金线每周目也是限量的,故名称处特意加注</p>",
-        media: [],
+          "<p>[Reward物品]:细金线+玲珑内丹</p><p>上台阶之前左手边走到底</p><p>由于细金线每周目也是限量的,故名称处特意加注</p>",
         regionSlug: "05_huoyanshan",
         title: "棺材宝箱(细金线)",
         longitude: -0.8781891571824758,
@@ -2618,8 +2449,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励物品]:登仙散、加味参势丸、虚空结随机获取</p><p>----------</p><p>有鳖宝守护,概率掉落头冠鳖宝头骨</p>",
-        media: [],
+          "<p>[Reward物品]:登仙散、加味参势丸、虚空结随机获取</p><p>----------</p><p>有鳖宝守护,概率掉落头冠鳖宝头骨</p>",
         regionSlug: "05_huoyanshan",
         title: "随机药",
         longitude: -1.0747560496051278,
@@ -2628,31 +2458,27 @@ export const markerCategories = [
       {
         description:
           "有鳖宝看守,在岩浆上<div>宝箱给先天锟钢 虚空结(概率)</div><div>注:从这里开始的岩浆地形可以带湘妃葫芦</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "先天锟钢",
         longitude: -0.5221376144832561,
         latitude: 0.4802246417337557,
       },
       {
-        description: "<p>[奖励物品]:寒铁叶x5</p>",
-        media: [],
+        description: "<p>[Reward物品]:寒铁叶x5</p>",
         regionSlug: "05_huoyanshan",
         title: "棺材宝箱",
         longitude: -1.048590557600221,
         latitude: 0.1978245802144869,
       },
       {
-        description: "<p>[奖励物品]:镔铁砂x5</p>",
-        media: [],
+        description: "<p>[Reward物品]:镔铁砂x5</p>",
         regionSlug: "05_huoyanshan",
         title: " 棺材宝箱",
         longitude: -1.1780179751862363,
         latitude: 0.24409595714446652,
       },
       {
-        description: "<p>[奖励物品]:细金线,玲珑内丹</p>",
-        media: [],
+        description: "<p>[Reward物品]:细金线,玲珑内丹</p>",
         regionSlug: "05_huoyanshan",
         title: "棺材宝箱(细金线)",
         longitude: -0.3887113847964372,
@@ -2660,24 +2486,21 @@ export const markerCategories = [
       },
       {
         description:
-          '<p><span style="font-family: var(--van-base-font);">[奖励物品]:大力铁角+虹霓云绦+虚空结, 大力铁角一个周目算上这个宝箱加BOSS的产出只有4个,不然错过材料不够又要多开一周目专门拿这个材料</span></p><p><span style="font-family: var(--van-base-font);">---</span></p><p>只要装备没做完,<span style="font-family: var(--van-base-font);">三周目也会给</span>大力铁角<span style="font-family: var(--van-base-font);">,BOSS就给材料,不过一个周目一共最多获得4个,两个周目8个正好做完全套装备(漏了这个箱子就需要3周目才能集齐套装)</span></p>',
-        media: [],
+          '<p><span style="font-family: var(--van-base-font);">[Reward物品]:大力铁角+虹霓云绦+虚空结, 大力铁角一个周目算上这个宝箱加BOSS的产出只有4个,不然错过材料不够又要多开一周目专门拿这个材料</span></p><p><span style="font-family: var(--van-base-font);">---</span></p><p>只要装备没做完,<span style="font-family: var(--van-base-font);">三周目也会给</span>大力铁角<span style="font-family: var(--van-base-font);">,BOSS就给材料,不过一个周目一共最多获得4个,两个周目8个正好做完全套装备(漏了这个箱子就需要3周目才能集齐套装)</span></p>',
         regionSlug: "05_huoyanshan",
         title: "[重点]大力铁角+虹霓云绦",
         longitude: -0.9270659850202776,
         latitude: 0.7909218312199755,
       },
       {
-        description: "<p>[奖励物品]:金趁心,铁中血</p>",
-        media: [],
+        description: "<p>[Reward物品]:金趁心,铁中血</p>",
         regionSlug: "05_huoyanshan",
         title: "滑冰的路到头后往右下去",
         longitude: -0.8057740537701079,
         latitude: 0.8812122967059679,
       },
       {
-        description: "<p>[奖励物品]:铁中血、小金片、大金片</p>",
-        media: [],
+        description: "<p>[Reward物品]:铁中血、小金片、大金片</p>",
         regionSlug: "05_huoyanshan",
         title: "普通宝箱",
         longitude: -0.3341979212440549,
@@ -2685,48 +2508,42 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励物品]:细金线,铁中血。</p><p>在外面的岩浆里,不是平台上</p>",
-        media: [],
+          "<p>[Reward物品]:细金线,铁中血。</p><p>在外面的岩浆里,不是平台上</p>",
         regionSlug: "05_huoyanshan",
         title: "宝箱(细金线)",
         longitude: -0.45115469926815877,
         latitude: 0.8545282015279696,
       },
       {
-        description: "<p>[奖励物品]:登仙散 细金线&nbsp; 铁中血</p>",
-        media: [],
+        description: "<p>[Reward物品]:登仙散 细金线&nbsp; 铁中血</p>",
         regionSlug: "05_huoyanshan",
         title: "宝箱(细金线)",
         longitude: -0.4360440247248789,
         latitude: 0.5927521196602612,
       },
       {
-        description: "<p>[奖励物品]:金称心+玲珑内丹</p>",
-        media: [],
+        description: "<p>[Reward物品]:金称心+玲珑内丹</p>",
         regionSlug: "05_huoyanshan",
         title: "棺材宝箱",
         longitude: -1.1445074822706545,
         latitude: 0.23206734590245048,
       },
       {
-        description: "<p>[奖励物品]:碎金片x5</p><p>也会掉寒铁叶,镔铁砂等</p>",
-        media: [],
+        description: "<p>[Reward物品]:碎金片x5</p><p>也会掉寒铁叶,镔铁砂等</p>",
         regionSlug: "05_huoyanshan",
         title: "棺材宝箱",
         longitude: -1.1549131287718524,
         latitude: 0.23357054768132457,
       },
       {
-        description: "<p>[奖励物品]:虹霓云绦＋玲珑内丹</p><p>概率 金趁心</p>",
-        media: [],
+        description: "<p>[Reward物品]:虹霓云绦＋玲珑内丹</p><p>概率 金趁心</p>",
         regionSlug: "05_huoyanshan",
         title: "虹霓云绦(棺材宝箱)",
         longitude: -0.7246261967236478,
         latitude: 0.9125266290417215,
       },
       {
-        description: "<p>[奖励物品]:镔铁砂*5</p>",
-        media: [],
+        description: "<p>[Reward物品]:镔铁砂*5</p>",
         regionSlug: "05_huoyanshan",
         title: "棺材宝箱",
         longitude: -0.21130466222115274,
@@ -2735,7 +2552,6 @@ export const markerCategories = [
       {
         description:
           "<div>有鳖宝看守 概率出鳖宝头骨,不想打就引到路上用铁球秒</div><div>-----------</div><div>拿到了登仙散,虚空结<br></div><div>----------</div><div>随机出药,我出了加味参势丸和虚空结</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "宝箱",
         longitude: -0.2869616604896805,
@@ -2747,7 +2563,6 @@ export const markerCategories = [
         description: "**Location:** ??",
         latitude: "0.29611827590756",
         longitude: "-0.95284930671428",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2804,7 +2619,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.90391645566442",
         longitude: "-0.79369481766781",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2812,7 +2626,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.94670323689124",
         longitude: "-0.78505229079011",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2820,7 +2633,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.93735980078178",
         longitude: "-0.76093962960789",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2828,7 +2640,6 @@ export const markerCategories = [
         description: "",
         latitude: "1.00758961553060",
         longitude: "-0.72777986526418",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2836,7 +2647,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.95507200241923",
         longitude: "-0.70097612606060",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2844,7 +2654,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.74206897062992",
         longitude: "-0.64885673258937",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2852,7 +2661,6 @@ export const markerCategories = [
         description: "**Location:** ??",
         latitude: "0.98609764580770",
         longitude: "-0.72615176439251",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2861,7 +2669,6 @@ export const markerCategories = [
           "Location: Close to the right wall when you walk out of the cave\n\nContents: Cold Iron Leaves",
         latitude: "0.98383955952089",
         longitude: "-0.67002385854693",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2869,7 +2676,6 @@ export const markerCategories = [
         description: "**Location:** ??",
         latitude: "0.82618025756227",
         longitude: "-0.53990185260957",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2909,7 +2715,6 @@ export const markerCategories = [
         description: "**Location:** In alcove behind purple seal.",
         latitude: "0.64063689132311",
         longitude: "-0.60102390532603",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2917,7 +2722,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.51921597170467",
         longitude: "-0.46058676477736",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2925,7 +2729,6 @@ export const markerCategories = [
         description: "**Location:** Inside alcove with purple seal.",
         latitude: "0.48842137407431",
         longitude: "-0.65536110473795",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -2933,7 +2736,6 @@ export const markerCategories = [
         description: "**Location:** ??",
         latitude: "0.50578794991088",
         longitude: "-0.53109926823848",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2941,7 +2743,6 @@ export const markerCategories = [
         description: "**Location:** In the small building",
         latitude: "0.43171354915906",
         longitude: "-0.71927726268910",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -2965,7 +2766,6 @@ export const markerCategories = [
         description: "**Contents:**\n- Blood of the Iron Bull",
         latitude: "0.78913240328679",
         longitude: "-0.86078608663038",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3074,7 +2874,6 @@ export const markerCategories = [
           "To the left of the area \n\n**Rewards:**\n- Knot of Voidness\n- Gold Ridge Beast",
         latitude: "1.05291257103580",
         longitude: "-0.53750777116571",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3082,7 +2881,6 @@ export const markerCategories = [
         description: "**Location:** ??\n\n**Contents:** Silk x3",
         latitude: "0.51855530341881",
         longitude: "-0.76377506373538",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3091,7 +2889,6 @@ export const markerCategories = [
           "**Location:** In the corner of the upper area, defended by some rats",
         latitude: "0.77689949110598",
         longitude: "-1.07487916946250",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3099,7 +2896,6 @@ export const markerCategories = [
         description: "**Location:** In the corner area, barricaded by fences",
         latitude: "0.72863998898146",
         longitude: "-1.04097604751660",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3107,7 +2903,6 @@ export const markerCategories = [
         description: "**Location:** Inside the house",
         latitude: "0.77347835944038",
         longitude: "-1.02605295177140",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3131,7 +2926,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.74424134792149",
         longitude: "-0.92976403347444",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3140,7 +2934,6 @@ export const markerCategories = [
           "**Location:** As you approach sunlight after Civet fights, it will be on the righthand side.",
         latitude: "0.61797084253918",
         longitude: "-0.97448721110794",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3149,7 +2942,6 @@ export const markerCategories = [
           "**Location:** Behind rock formation. Wooden Chest blends in with environment",
         latitude: "0.99836743329006",
         longitude: "-0.41694022102570",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -3239,7 +3031,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.32416885110371",
         longitude: "-0.94875463017829",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3247,7 +3038,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.34684499286897",
         longitude: "-0.874982915508",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3255,7 +3045,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.34367524527308",
         longitude: "-0.76308928622475",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3263,7 +3052,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.37197079422221",
         longitude: "-0.78785435540615",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3271,7 +3059,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.86068850114272",
         longitude: "-0.46853899955687",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3279,7 +3066,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.42538138490548",
         longitude: "-0.76547913007059",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3287,7 +3073,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.73764919239595",
         longitude: "-0.58896017505143",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3295,7 +3080,6 @@ export const markerCategories = [
         description: "Location: On the bridge",
         latitude: "0.98315837879869",
         longitude: "-0.66745162010392",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3303,7 +3087,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81914650508192",
         longitude: "-0.54501906433470",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3311,7 +3094,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.46708355148081",
         longitude: "-0.64153286894287",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3319,7 +3101,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52871139364179",
         longitude: "-0.63535521187208",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3327,7 +3108,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53995773321253",
         longitude: "-0.60540447695641",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3335,7 +3115,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.46179686582002",
         longitude: "-0.61522804578203",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3343,7 +3122,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.97865685226338",
         longitude: "-0.71012203228392",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3351,7 +3129,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.60252091426059",
         longitude: "-0.57161959837632",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3359,7 +3136,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.46588532905241",
         longitude: "-0.52315016710139",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3367,7 +3143,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53176851136804",
         longitude: "-0.51230980578163",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3375,7 +3150,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.49479486226026",
         longitude: "-0.45662924368889",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3383,7 +3157,6 @@ export const markerCategories = [
         description: "**Location:** Under the rock arch",
         latitude: "0.44962622225845",
         longitude: "-0.66363504164493",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3391,7 +3164,6 @@ export const markerCategories = [
         description: "**Location:** Just inside the cave entrance",
         latitude: "0.47719418500741",
         longitude: "-0.70311721010063",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3399,7 +3171,6 @@ export const markerCategories = [
         description: "**Location:** Under the wooden platform",
         latitude: "0.45321566812601",
         longitude: "-0.71826686044812",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3423,7 +3194,6 @@ export const markerCategories = [
         description: "**Location:** On top of the building",
         latitude: "0.39541937467346",
         longitude: "-0.75760030484932",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3448,7 +3218,6 @@ export const markerCategories = [
         description: "**Location:** Inside the building",
         latitude: "0.70447517583661",
         longitude: "-1.05359315871960",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3456,7 +3225,6 @@ export const markerCategories = [
         description: "**Location:** Inside the hut",
         latitude: "0.76379540239709",
         longitude: "-0.94928741454862",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3464,7 +3232,6 @@ export const markerCategories = [
         description: "**Location:** In front of the house",
         latitude: "0.79417665759151",
         longitude: "-1.05378627776950",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3472,7 +3239,6 @@ export const markerCategories = [
         description: "**Location:** Inside the cave",
         latitude: "0.81962293289551",
         longitude: "-1.01216912269490",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3480,7 +3246,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.75717638891998",
         longitude: "-0.86057368172731",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3505,7 +3270,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.63097301323891",
         longitude: "-0.81435079506411",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3561,7 +3325,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78440351633824",
         longitude: "-0.72809881160418",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3569,7 +3332,6 @@ export const markerCategories = [
         description: "**Location:** In the open",
         latitude: "0.73759783373984",
         longitude: "-1.10633611679020",
-        media: [],
       },
 
       {
@@ -3712,7 +3474,6 @@ export const markerCategories = [
           "**Type:** ??  \n\n**Rarity:** ?? \n\n**Defence:** ?? \n   \n**Effect:** ??",
         latitude: "0.32904209812777",
         longitude: "-0.93042158707428",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3721,7 +3482,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating the [Yellow-Robed Squire](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397644)\n\n**Type:** Headgear/Mask\n\n**Rarity:** Rare\n\n**Defence:** 17\n   \n**Effect:** For a short duration after using the gourd, moderately increases attack. Refraining from using Gourd for a relatively long duration moderately reduces attack on the contrary",
         latitude: "0.93434899155358",
         longitude: "-0.70325765308593",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3730,7 +3490,6 @@ export const markerCategories = [
           "Craftable upon defeating the [Stone Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397637)\t\n\n**Set Pieces:**\n- Galeguard Beast Mask (headgear)\n- Galeguard Beastmaw Armor (body)\n- Galeguard Bracers (arms)\n- Galeguard Greaves (legs)\n\n**Rarity:** Rare \n\n**Defence:** 18 / 35 / 14 / 21 \n   \n**Effect:** \n- 4% Shock Resistance (body)\t\n- Performing 3 consecutive perfect dodges within a brief moment recovers a moderate amount of Mana (legs)\t\n\n**Set Bonus:**\n- Gale Guardian: Upon perfect dodges, grants considerable additional focus (2 pieces equipped)\n- Perfect dodges slightly reduces cooldown for all spells (4 pieces equipped)",
         latitude: "0.84272876560387",
         longitude: "-0.75886591607210",
-        media: [],
       },
     ],
     groupSlug: "bmw_equipment",
@@ -3741,7 +3500,6 @@ export const markerCategories = [
       {
         description:
           "<p>[获取方式]:</p><p>初见九叶灵芝精必定掉落,二周目无法重复获得</p><p>在这附近采集就会摸出九叶灵芝精了</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "[头冠]地灵伞盖",
         longitude: -0.588996417320601,
@@ -3749,7 +3507,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获取方式]:刷火长老掉,第三章刷过就不用再刷了</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "雷火印(概率)",
         longitude: -0.38436296702050754,
@@ -3757,8 +3514,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励物品]:琥珀念珠,数量限制一个,多周目只能拿到灵蕴</p>",
-        media: [],
+          "<p>[Reward物品]:琥珀念珠,数量限制一个,多周目只能拿到灵蕴</p>",
         regionSlug: "05_huoyanshan",
         title: "琥珀念珠",
         longitude: -0.9620810686786854,
@@ -3766,7 +3522,6 @@ export const markerCategories = [
       },
       {
         description: "<p>[获取方式]:打死鳖宝概率掉</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "鳖宝头骨(概率)",
         longitude: -1.0624854171505262,
@@ -3775,7 +3530,6 @@ export const markerCategories = [
       {
         description:
           "<p>[获取方式]:打犀牛精(概率)掉落 打后面的地罗刹也掉,不用着急刷,后面壁水洞里这种怪扎堆,刷起来更方便。</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "白贝腰链(概率)",
         longitude: -1.1526351454885457,
@@ -3784,7 +3538,6 @@ export const markerCategories = [
       {
         description:
           "<p>[获取方式]:击杀两个海罗刹掉落,不用刷。限定一个。</p><p>二周目不会掉了,可以留着吉祥物</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "金钮",
         longitude: -0.3454261780858303,
@@ -3797,7 +3550,6 @@ export const markerCategories = [
           "**Location:** Drops randomly on this level ??  \n\n**Effect:** ??",
         latitude: "0.42494384278162",
         longitude: "-0.67274093627958",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3806,7 +3558,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397822)",
         latitude: "0.65465761398860",
         longitude: "-0.59899669750178",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3873,7 +3624,6 @@ export const markerCategories = [
           '**Location:** Reward for defeating ["Tiger Vanguard"](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397645)',
         latitude: "0.98996867428075",
         longitude: "-0.51979989541823",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3882,7 +3632,6 @@ export const markerCategories = [
           "**Location:** In the cave, in front of a small obelisk\n\n**Effect:** ??",
         latitude: "0.76201457348758",
         longitude: "-0.79185247421194",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3891,13 +3640,11 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Black Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397647)",
         latitude: "0.77201556730866",
         longitude: "-0.52412405157850",
-        media: [],
       },
       {
         description:
           "<p>[获取方式]:击败小黄龙获得</p><p>能够提高打杀掉落材料的概率(提升率大概10%,稀有掉落照样稀有)</p><p>多周目可以重复获得</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "金色鲤",
         longitude: -1.0105874784380262,
         latitude: 0.09758862525244183,
@@ -3915,7 +3662,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating the [Tiger Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397634) in Crouching Tiger Temple\n\n**Effect:** Solidify the body like a rock to parry incoming attacks",
         latitude: "0.57420169465493",
         longitude: "-0.98565831444751",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -3924,7 +3670,6 @@ export const markerCategories = [
           "**Location:** Obtained from the Headless Man upon reaching the cellar OR at the Windseal Gate, whichever you reach first.",
         latitude: "0.61246884863181",
         longitude: "-0.96183854014535",
-        media: [],
       },
 
       {
@@ -3934,7 +3679,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating the [Macaque Chief](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397824) for the 2nd time.",
         latitude: "0.83743630247965",
         longitude: "-0.52262037992401",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -3943,7 +3687,6 @@ export const markerCategories = [
           "**Location:** Inside Alcove blocked by purple seal. I believe this is available here if something is done in Chapter 2.\n\n**Effect:** Blow forth flames where ash is laid, for days of glory soon shall fade. Transform into a rat guar, slashing at the enemy while blowing fierce flames at them, inflicting Scorch Bane. Focus built up before transformation can be converted for use afterward.",
         latitude: "0.46043057361337",
         longitude: "-0.63274518931163",
-        media: [],
       },
 
       {
@@ -3983,7 +3726,13 @@ export const markerCategories = [
           "**Location:** Reward for defeating the [Man-In-Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397640)",
         latitude: "0.72961087002729",
         longitude: "-0.66460311412939",
-        media: [],
+      },
+      {
+        description: "<p>[获取方式]:击败靡道人获得,蛇姐姐给的</p>",
+        regionSlug: "04_ziyunshan",
+        title: "变化·藕雹",
+        longitude: -0.576324356332151,
+        latitude: 1.0374261803342506,
       },
     ],
     groupSlug: "bmw_equipment",
@@ -3998,7 +3747,6 @@ export const markerCategories = [
           "**Location:** Reward for defeating [Fuban](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397646)",
         latitude: "1.09510166985710",
         longitude: "-0.42554855346586",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -4011,7 +3759,6 @@ export const markerCategories = [
       {
         description:
           "<p>[Obtain]: By defeating main story boss Red Boy</p><p>Can provide a long during of crowd control,缺点是BOSS被控后会一直后退不能打棍花,对付后续BOSS王灵官有奇效</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "Plantain Fan",
         longitude: -0.2796005958002752,
@@ -4030,7 +3777,6 @@ export const markerCategories = [
           "**Location:** Craftable after defeating [Black Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397647) or [Red Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398284) (in Chapter 1)  \n\n**Damage:** 70  \n**Critical Chance:** 0  \n\n**Unique Effect:** Moderately increases the damage dealt by all Pillar Stance moves\t\n\n**Crafting Ingredients:** \n- 1 Thunder Tail\n- 1 Thunderbone\n- 4 Refined Iron Sand\n- 21,000 Will",
         latitude: "0.75331357209689",
         longitude: "-0.51492143288252",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4039,7 +3785,6 @@ export const markerCategories = [
           "**Location:** Craftable upon defeating the [Yellow Wind Sage](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397641)   \n\n**Damage:** 66  \n**Critical Chance:** 7% Critical Hit Chance  \n\n**Unique Effect:** The fourth move of light attack combo and mobile staff spin can stir up a whirlwind of sands, increases attack range and damage\n\n**Crafting Ingredients:** \n- 1 Samadhi Wind Agate\n- 4 Refined Iron Sand\n- 8 Yaoguai Core\n- 21,000 Will",
         latitude: "0.68117938825047",
         longitude: "-0.95423929453511",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4048,7 +3793,6 @@ export const markerCategories = [
           "**Location:** Craftable upon defeating [Shigandang](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397642)  \n\n**Atack:** 60\n\n**Defense:** 30\n\n**Critical Chance:** ??\n\n**Unique Effect:** Moderately increases the Damage executed by charged Smash Heavy Attacks.\n\n**Crafting Ingredients:**   \n- Heart of Stone (1x) (Dropped by [Shingandang](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397642))\n- Yaoguai Core (4x)\n- Stone Spirit (8x)\n- Will (8,100)",
         latitude: "0.82242287161856",
         longitude: "-0.76232671737628",
-        media: [],
       },
 
       {
@@ -4058,7 +3802,6 @@ export const markerCategories = [
           "**Location:** Craftable upon defeating [Kang-Jin Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397821)  \n\n**Damage:** ??  \n**Critical Chance:** ??  \n\n**Unique Effect:** ??\n\n**Crafting Ingredients:**   \n- ??",
         latitude: "0.37239294849927",
         longitude: "-0.63391270903833",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -4067,7 +3810,6 @@ export const markerCategories = [
           "**Location:** Craftable upon defeating [Cyan Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397826)  \n\n**Damage:**  108\n**Critical Chance:** 0\n\n**Unique Effect:** Moderately increases the damage dealt by all pillar stances. A loong can be summoned to execute thunder at the enemy at pillar stance Heavy attacks that cost 3 or 4 focus points.\n\n**Crafting Ingredients:**   \n- ??",
         latitude: "0.86561236648188",
         longitude: "-0.75637447202982",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -4106,7 +3848,6 @@ export const markerCategories = [
           "**Location:** On top of the gate.  Will jump down once the [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430) is defeated.\n\nThe Elite Rat Archer will drop [Rat Archer Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398492)",
         latitude: "0.40940085084540",
         longitude: "-0.69880127906472",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4114,7 +3855,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.42913727637555",
         longitude: "-0.77299987358378",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4122,7 +3862,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.40172795530726",
         longitude: "-0.77692744965250",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4131,7 +3870,6 @@ export const markerCategories = [
           "**Location:** Inside the cave - through a small crack. \n\n**Drops:** [Swift Bat Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398760)",
         latitude: "0.50195344379528",
         longitude: "-0.91149924034766",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4173,7 +3911,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.62545735565719",
         longitude: "-0.98314126331562",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4182,7 +3919,6 @@ export const markerCategories = [
           "Drops [Rat Governor Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399178) upon defeat",
         latitude: "0.81071232357543",
         longitude: "-0.83418480136871",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4191,7 +3927,6 @@ export const markerCategories = [
           "**Location:** On top of the gate.\n\nFlanked by 2 regular Rat Imperial Guards",
         latitude: "0.78888880990442",
         longitude: "-1.03269003838910",
-        media: [],
       },
 
       {
@@ -4200,7 +3935,6 @@ export const markerCategories = [
         description: "**Reward:** ??",
         latitude: "0.40533598149368",
         longitude: "-0.80127754104296",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -4208,7 +3942,6 @@ export const markerCategories = [
         description: "**Reward:** ??",
         latitude: "0.34775403151620",
         longitude: "-0.87791027473108",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -4216,7 +3949,6 @@ export const markerCategories = [
         description: "Reward: Aged Ginseng",
         latitude: "0.27566511107365",
         longitude: "-0.65549009278226",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -4225,7 +3957,6 @@ export const markerCategories = [
           "Does not record a separate journal account, but it different.",
         latitude: "0.57815606712155",
         longitude: "-0.57875355298066",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -4233,7 +3964,6 @@ export const markerCategories = [
         description: "**Reward:** ??",
         latitude: "0.52218334862656",
         longitude: "-0.46148382822270",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -4241,7 +3971,6 @@ export const markerCategories = [
         description: "**Reward:** ??",
         latitude: "0.50183149368195",
         longitude: "-0.53183833146602",
-        media: [],
       },
 
       {
@@ -4517,7 +4246,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48086078712265",
         longitude: "-0.56666493415659",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4525,7 +4253,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48714013305399",
         longitude: "-0.56650724187699",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4533,7 +4260,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.42457907237720",
         longitude: "-0.75482726097056",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4541,7 +4267,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.40833067943994",
         longitude: "-0.79314529895782",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4549,7 +4274,6 @@ export const markerCategories = [
         description: "**Location:** On the high rock ledges",
         latitude: "0.49963687491165",
         longitude: "-0.84880202208481",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4557,7 +4281,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.49862604392864",
         longitude: "-0.88651882158416",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4565,7 +4288,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51385191583072",
         longitude: "-0.93730651489946",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4573,7 +4295,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.39556360064538",
         longitude: "-0.79427526252115",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4581,7 +4302,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.39180644664007",
         longitude: "-0.79813652619307",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4589,7 +4309,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.40309907788215",
         longitude: "-0.75898470186104",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4597,7 +4316,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.41444159717607",
         longitude: "-0.75910945880579",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4605,7 +4323,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.37622532876782",
         longitude: "-0.80108792701557",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4613,7 +4330,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.38661603790516",
         longitude: "-0.78927755355775",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4621,7 +4337,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.36682999067373",
         longitude: "-0.74715116790040",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4629,7 +4344,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.37024986161079",
         longitude: "-0.74873927915442",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4637,7 +4351,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.39156344428169",
         longitude: "-0.74498968824892",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4646,7 +4359,6 @@ export const markerCategories = [
           "**Location:** Disguised as an Aged Ginseng near the bridge",
         latitude: "0.49034782192230",
         longitude: "-0.76843381646242",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4654,7 +4366,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.55598871519825",
         longitude: "-0.73409625555766",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4662,7 +4373,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.59329438630177",
         longitude: "-0.74171540970638",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4670,7 +4380,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.62422107445368",
         longitude: "-0.73369772865308",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4678,7 +4387,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.61966290495621",
         longitude: "-0.73048413871686",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4686,7 +4394,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.64256905377747",
         longitude: "-0.66060509796568",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4694,7 +4401,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.67683850720080",
         longitude: "-0.69266632146889",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4702,7 +4408,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.69645071465255",
         longitude: "-0.68599519962745",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4710,7 +4415,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.71734268328389",
         longitude: "-0.65714430264591",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4718,7 +4422,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.70730726135353",
         longitude: "-0.65678770056732",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4726,7 +4429,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.69211819513517",
         longitude: "-0.65472705486129",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4734,7 +4436,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.69173038530989",
         longitude: "-0.66495058769803",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4742,7 +4443,6 @@ export const markerCategories = [
         description: "**Location:** In the ravine",
         latitude: "0.70683126339934",
         longitude: "-0.66259635118015",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4750,7 +4450,6 @@ export const markerCategories = [
         description: "**Location:** In the ravine",
         latitude: "0.72023998184207",
         longitude: "-0.66380918026033",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4758,7 +4457,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.65293378104958",
         longitude: "-0.64944038161738",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4766,7 +4464,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.64961581118386",
         longitude: "-0.62434544141376",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4774,7 +4471,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.72466690218638",
         longitude: "-0.69346917050023",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4782,7 +4478,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.68499798324758",
         longitude: "-0.71242337294387",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4790,7 +4485,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.67980434093220",
         longitude: "-0.71569178815375",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4798,7 +4492,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.68783905210235",
         longitude: "-0.71934901492221",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4806,7 +4499,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.71381519384673",
         longitude: "-0.71589338466515",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4814,7 +4506,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77242638488532",
         longitude: "-0.69236781538774",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4822,7 +4513,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77895379938408",
         longitude: "-0.68698253537704",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4830,7 +4520,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77390105603079",
         longitude: "-0.68251401238942",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4838,7 +4527,6 @@ export const markerCategories = [
         description: "**Location:** Guarding the Buddha Head",
         latitude: "0.71028454422291",
         longitude: "-0.73756982857369",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4846,7 +4534,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.71237904544169",
         longitude: "-0.74347107029476",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4854,7 +4541,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78362291988762",
         longitude: "-0.66699096910051",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4862,7 +4548,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78067846260529",
         longitude: "-0.73034641610107",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4870,7 +4555,6 @@ export const markerCategories = [
         description: "Will emerge if you approach the Buddha head",
         latitude: "0.83102914262977",
         longitude: "-0.69661962484065",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4878,7 +4562,6 @@ export const markerCategories = [
         description: "Note: does not appear after defeating Stone Vanguard",
         latitude: "0.83610399371859",
         longitude: "-0.70993796200119",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4886,7 +4569,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81391804157057",
         longitude: "-0.66543347903885",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4894,7 +4576,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81967432580681",
         longitude: "-0.61965661252262",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4902,7 +4583,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.83672028619409",
         longitude: "-0.66107739712862",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4910,7 +4590,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84740767768359",
         longitude: "-0.66572427749784",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4918,7 +4597,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84147358107937",
         longitude: "-0.66817950113128",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4926,7 +4604,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.85993739704332",
         longitude: "-0.69318749724002",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4934,7 +4611,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84869486227973",
         longitude: "-0.69190003691270",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4942,7 +4618,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48493999466521",
         longitude: "-0.82932606115571",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4950,7 +4625,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.55491187417319",
         longitude: "-0.64101849209320",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4958,7 +4632,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.55594367460805",
         longitude: "-0.66371916828052",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4966,7 +4639,6 @@ export const markerCategories = [
         description: "Just adjacent to licorice near large pool.",
         latitude: "0.53707938358238",
         longitude: "-0.65707134193292",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4974,7 +4646,6 @@ export const markerCategories = [
         description: "Patrolling east to west on south end of pool",
         latitude: "0.50901810765870",
         longitude: "-0.64355591803758",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4982,7 +4653,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.63599823297250",
         longitude: "-0.64893437780663",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4990,7 +4660,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51106788775756",
         longitude: "-0.76865975456022",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -4998,7 +4667,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51662724409375",
         longitude: "-0.77231737292763",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5007,7 +4675,6 @@ export const markerCategories = [
           "First is next to Fragrant Jade Flower, Second is under the structure hidden in shadows.",
         latitude: "0.52774594212191",
         longitude: "-0.80070049145635",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5016,7 +4683,6 @@ export const markerCategories = [
           "Note: If you don't want to fight them both, lure the Spearbone across the bridge if approaching from the north.",
         latitude: "0.54489688264073",
         longitude: "-0.80879233755948",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5024,7 +4690,6 @@ export const markerCategories = [
         description: "The Weasel Captain is hunched over the Lingzhiling",
         latitude: "0.62127852734059",
         longitude: "-0.80282051274321",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5032,7 +4697,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.59412742450368",
         longitude: "-0.79014928524253",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5040,7 +4704,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.60981474503022",
         longitude: "-0.81404359995867",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5049,7 +4712,6 @@ export const markerCategories = [
           "After chest, rat archers on either side of canyon as sliding.",
         latitude: "0.76657573301023",
         longitude: "-0.87005996009304",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5057,7 +4719,6 @@ export const markerCategories = [
         description: "On opposite side of sand from chest. Will shoot at you.",
         latitude: "0.78580517105945",
         longitude: "-0.88460663913497",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5065,7 +4726,6 @@ export const markerCategories = [
         description: "On same precipice as the chest.",
         latitude: "0.78284680168231",
         longitude: "-0.86438922080578",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5073,7 +4733,6 @@ export const markerCategories = [
         description: "On lefthand side if sliding down.",
         latitude: "0.80996510851588",
         longitude: "-0.86364955916048",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5081,7 +4740,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.80774634469076",
         longitude: "-0.81211979781048",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5089,7 +4747,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81563527721008",
         longitude: "-0.81384567498500",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5097,7 +4754,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.44867890281516",
         longitude: "-0.66052136458828",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5105,7 +4761,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.56857811603965",
         longitude: "-1.06049209946140",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5113,7 +4768,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.61638682067976",
         longitude: "-1.07125726106260",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5121,7 +4775,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.62888128758179",
         longitude: "-1.08980584129600",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5129,7 +4782,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.64019639414070",
         longitude: "-1.08828929071120",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5137,7 +4789,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.69490040364914",
         longitude: "-1.08515202999070",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5145,7 +4796,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.69967820340071",
         longitude: "-1.08258673907370",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5153,7 +4803,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.71103746784208",
         longitude: "-1.06820695701220",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5161,7 +4810,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.72717236634210",
         longitude: "-1.06546037498020",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5169,7 +4817,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.75297516045616",
         longitude: "-1.09732054680710",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5177,7 +4824,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.75529238831031",
         longitude: "-1.10195540398510",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5185,7 +4831,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.74340261306652",
         longitude: "-1.07466124505000",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5193,7 +4838,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.73524937648814",
         longitude: "-1.04170226067690",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5201,7 +4845,6 @@ export const markerCategories = [
         description: "Fifth Withered Corpse down to the left of the main path.",
         latitude: "0.76133968029609",
         longitude: "-1.06195830315640",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5209,7 +4852,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77309743040544",
         longitude: "-1.06916808098910",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5217,7 +4859,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78680845911074",
         longitude: "-1.05540299183840",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5225,7 +4866,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.76974876073798",
         longitude: "-1.01522703724230",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5233,7 +4873,6 @@ export const markerCategories = [
         description: "**Location:** At the large dead tree",
         latitude: "0.80141843672737",
         longitude: "-1.02378388021760",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5241,7 +4880,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78580752961541",
         longitude: "-0.95651031351571",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5249,7 +4887,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.73942100436260",
         longitude: "-0.81455994063171",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5257,7 +4894,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78040379792378",
         longitude: "-0.81219544866855",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5265,7 +4901,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.62062951845503",
         longitude: "-0.98569335673815",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5273,7 +4908,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.63833299843324",
         longitude: "-1.01426911929390",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5281,7 +4915,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.95152127243153",
         longitude: "-0.69066605712356",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5289,7 +4922,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77173462684027",
         longitude: "-0.79247670294495",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5297,7 +4929,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77204059395613",
         longitude: "-0.95221905206955",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5305,7 +4936,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.73325205491564",
         longitude: "-1.10526371765450",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -5314,7 +4944,6 @@ export const markerCategories = [
           "Rushes you only after you enter the shack with the chest, upon exiting, from the left. Unsure if this only happens once.",
         latitude: "0.73284419017072",
         longitude: "-1.09302677378560",
-        media: [],
       },
 
       {
@@ -5323,7 +4952,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.35290928452739",
         longitude: "-0.81303253099384",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5331,7 +4959,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.34810299101741",
         longitude: "-0.77123165130538",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5339,7 +4966,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.37467440351811",
         longitude: "-0.79339043481332",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5347,7 +4973,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.32285660035220",
         longitude: "-0.95242264491546",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5355,7 +4980,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.29675163402368",
         longitude: "-0.94720157528070",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5363,7 +4987,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.27180436988435",
         longitude: "-0.94674861482255",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5371,7 +4994,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.29958773221068",
         longitude: "-0.95300276376250",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5379,7 +5001,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.35373858906051",
         longitude: "-0.88766897472732",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5387,7 +5008,6 @@ export const markerCategories = [
         description: "**Note:** Possible to drop Tiger Tally",
         latitude: "0.33979096534576",
         longitude: "-0.88409232571638",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5395,7 +5015,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.81872009596800",
         longitude: "-0.56415813373914",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5403,7 +5022,6 @@ export const markerCategories = [
         description: "Two in general area.",
         latitude: "0.26146933430137",
         longitude: "-0.63839068291517",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5427,7 +5045,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.40138016505506",
         longitude: "-0.78101503077113",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5435,7 +5052,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84788666857355",
         longitude: "-0.58912074252996",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5443,7 +5059,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84912373146197",
         longitude: "-0.58249289313773",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5451,7 +5066,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.84735649864227",
         longitude: "-0.57471621651709",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5459,7 +5073,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.40063474875326",
         longitude: "-0.79670218405408",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5467,7 +5080,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.40211521401568",
         longitude: "-0.80688063248499",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5475,7 +5087,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.26475729993967",
         longitude: "-0.59893467922856",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5484,7 +5095,6 @@ export const markerCategories = [
           "The first is in the open area below staircase. Second is at the top and will ambush you.",
         latitude: "0.35946938252528",
         longitude: "-0.78875985828577",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5492,7 +5102,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.27231351882081",
         longitude: "-0.64553293533805",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5500,7 +5109,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52284272714435",
         longitude: "-0.64698901845554",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5508,7 +5116,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.47781675601497",
         longitude: "-0.64990818864771",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5516,7 +5123,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48012974552701",
         longitude: "-0.64589075069767",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5524,7 +5130,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48378183263634",
         longitude: "-0.64747337776947",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5532,7 +5137,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.46425929651164",
         longitude: "-0.62663311772110",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5540,7 +5144,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.81895287458978",
         longitude: "-0.57192906674007",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5548,7 +5151,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81890869343971",
         longitude: "-0.57736390324183",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5556,7 +5158,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.82180968410924",
         longitude: "-0.57377117084854",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5564,7 +5165,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.82571258468373",
         longitude: "-0.57908714408435",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5572,7 +5172,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.82774491357983",
         longitude: "-0.57873365878339",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5580,7 +5179,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.83105849108259",
         longitude: "-0.57528717710056",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5588,7 +5186,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.84276644255294",
         longitude: "-0.57170813842603",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5596,7 +5193,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.56403085700380",
         longitude: "-0.61778533523332",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5604,7 +5200,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.52737949447923",
         longitude: "-0.59208981508743",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5612,7 +5207,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.64067980398505",
         longitude: "-0.59982227568722",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5620,7 +5214,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.63622299648873",
         longitude: "-0.59940397739607",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5628,7 +5221,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.64066223214979",
         longitude: "-0.63104426311190",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5636,7 +5228,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.62956924725269",
         longitude: "-0.64606489116349",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5644,7 +5235,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.56905816498896",
         longitude: "-0.59312482314178",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5653,7 +5243,6 @@ export const markerCategories = [
           "**Note:** The first archer that is unreachable is located here as well.",
         latitude: "0.60314126675257",
         longitude: "-0.57127493902598",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5662,7 +5251,6 @@ export const markerCategories = [
           "**Note:** The second archer that is unreachable is located here as well.",
         latitude: "0.58584029878820",
         longitude: "-0.57479046439565",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5671,7 +5259,6 @@ export const markerCategories = [
           "The Cyan Bat is overhead and will ambush you. There are two archers that are not reachable from this walkway with a lucky jump.",
         latitude: "0.59532284850337",
         longitude: "-0.57747804892426",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5679,7 +5266,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52294764635113",
         longitude: "-0.46193343381879",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5687,7 +5273,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48897747573302",
         longitude: "-0.65375453039630",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5695,7 +5280,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.50660425982905",
         longitude: "-0.53322682629283",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5703,7 +5287,6 @@ export const markerCategories = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.48202602911245",
         longitude: "-0.52844380362936",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5711,7 +5294,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53333050057367",
         longitude: "-0.51977296547602",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5719,7 +5301,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53325506371509",
         longitude: "-0.50807282659795",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5727,7 +5308,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52309078639252",
         longitude: "-0.53044701945814",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5735,7 +5315,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.50563450374159",
         longitude: "-0.53816491396736",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5743,7 +5322,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51110151387276",
         longitude: "-0.46074090456054",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5751,7 +5329,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52854585498801",
         longitude: "-0.63431971283143",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5759,7 +5336,6 @@ export const markerCategories = [
         description: "Up on high ground. Unsure if reachable.",
         latitude: "0.52510611813427",
         longitude: "-0.63882874769362",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5767,7 +5343,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53468159707116",
         longitude: "-0.60912489947515",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5775,7 +5350,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53389521395810",
         longitude: "-0.60531313804461",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5783,7 +5357,6 @@ export const markerCategories = [
         description: "Will ambush if coming from the west.",
         latitude: "0.53975205372079",
         longitude: "-0.61307611559749",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5791,7 +5364,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53976637035248",
         longitude: "-0.60407227067250",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5799,7 +5371,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53289222403218",
         longitude: "-0.58811868584547",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5807,7 +5378,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52554792385151",
         longitude: "-0.58058813277597",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5815,7 +5385,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.49082567424226",
         longitude: "-0.57704513864758",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5824,7 +5393,6 @@ export const markerCategories = [
           "In snake head mushroom, doesn't appear to be different Lesser Yaoguai than normal.",
         latitude: "0.49928175330936",
         longitude: "-0.57167716634095",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5832,7 +5400,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.47984996060795",
         longitude: "-0.45558968620759",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5840,7 +5407,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.47022532958853",
         longitude: "-0.47409513770100",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5848,7 +5414,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.47596820495997",
         longitude: "-0.46914971531953",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5856,7 +5421,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.47506423415264",
         longitude: "-0.46431064610695",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5864,7 +5428,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.48306678264520",
         longitude: "-0.46401488879243",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5872,7 +5435,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51560744414988",
         longitude: "-0.45782266115194",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5880,7 +5442,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51954905767839",
         longitude: "-0.46619115326894",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -5888,7 +5449,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52469868515827",
         longitude: "-0.47039685700432",
-        media: [],
       },
     ],
     groupSlug: "bmw_enemies",
@@ -5898,8 +5458,7 @@ export const markerCategories = [
     locations: [
       {
         description:
-          "<p>[奖励]:</p><p>业火晶、虚空节</p><p>[攻略要点]:</p><p>类似以前打的石先锋,用定很好大,杂兵</p>",
-        media: [],
+          "<p>[Reward]:</p><p>业火晶、虚空节</p><p>[攻略要点]:</p><p>类似以前打的石先锋,用定很好大,杂兵</p>",
         regionSlug: "05_huoyanshan",
         title: "燧统领",
         longitude: -0.5350976970733257,
@@ -5907,8 +5466,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:</p><p>金趁心</p><p>[攻略要点]:</p><p>比较简单,带上避火罩,先打在地上的,两段棍势击中会有很大的硬直</p><p>注意从设置查关闭锁敌</p>",
-        media: [],
+          "<p>[Reward]:</p><p>金趁心</p><p>[攻略要点]:</p><p>比较简单,带上避火罩,先打在地上的,两段棍势击中会有很大的硬直</p><p>注意从设置查关闭锁敌</p>",
         regionSlug: "05_huoyanshan",
         title: "急如火 快如风",
         longitude: -0.9031862773076682,
@@ -5916,8 +5474,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:业火精,这附近还有落伽香藤</p><p><br></p><p>[攻略要点]:优先清理小怪避免控到死</p>",
-        media: [],
+          "<p>[Reward]:业火精,这附近还有落伽香藤</p><p><br></p><p>[攻略要点]:优先清理小怪避免控到死</p>",
         regionSlug: "05_huoyanshan",
         title: "燧先锋",
         longitude: -0.23566678734707125,
@@ -5925,8 +5482,7 @@ export const markerCategories = [
       },
       {
         description:
-          '<p>注意看地上有红色的印记,实际点位为左面那个交互点,上交四个火灵砂触发战斗</p><p>[奖励]:业火精</p><p><span style="font-family: var(--van-base-font);">[攻略要点]:</span><br></p><p>需要4个火灵砂解锁挑战<br></p><p>火灵砂可以在土地庙买</p><p>他打半血会招小怪,可以用变身来抗伤害打小怪</p><p>如果一次没打过,再战又需要4个火灵砂</p><p>(小心火焚伤害,带上带上避火罩好打很多)</p>',
-        media: [],
+          '<p>注意看地上有红色的印记,实际点位为左面那个交互点,上交四个火灵砂触发战斗</p><p>[Reward]:业火精</p><p><span style="font-family: var(--van-base-font);">[攻略要点]:</span><br></p><p>需要4个火灵砂解锁挑战<br></p><p>火灵砂可以在土地庙买</p><p>他打半血会招小怪,可以用变身来抗伤害打小怪</p><p>如果一次没打过,再战又需要4个火灵砂</p><p>(小心火焚伤害,带上带上避火罩好打很多)</p>',
         regionSlug: "05_huoyanshan",
         title: "火灵元母",
         longitude: -0.235864825029779,
@@ -5934,8 +5490,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:金趁心</p><p><br></p><p>[攻略要点]:双boss交替进攻</p><p>击败获得成就【两双一对五十六难】</p><p>—————————-</p><p>千万别用任何有毒伤火伤打这两个boss,会有锁血卡死bug,若触发bug重启游戏卸下相关装备即可</p>",
-        media: [],
+          "<p>[Reward]:金趁心</p><p><br></p><p>[攻略要点]:双boss交替进攻</p><p>击败获得成就【两双一对五十六难】</p><p>—————————-</p><p>千万别用任何有毒伤火伤打这两个boss,会有锁血卡死bug,若触发bug重启游戏卸下相关装备即可</p>",
         regionSlug: "05_huoyanshan",
         title: "兴烘掀 掀烘兴",
         longitude: -0.9949319920729067,
@@ -5943,8 +5498,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:打完和牛哥对话进行(在下次就在碧云洞口了)</p><p><br></p><p>[攻略要点]:如果发现牛哥不在,记得返回春秋寨再次对话；</p><p>1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；</p><p>可以站在地图外用仇恨把BOSS拉出来。然后就会被卡在地图外。一直蓄力戳棍可以无伤过</p><p>如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br></p>",
-        media: [],
+          "<p>[Reward]:打完和牛哥对话进行(在下次就在碧云洞口了)</p><p><br></p><p>[攻略要点]:如果发现牛哥不在,记得返回春秋寨再次对话；</p><p>1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；</p><p>可以站在地图外用仇恨把BOSS拉出来。然后就会被卡在地图外。一直蓄力戳棍可以无伤过</p><p>如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br></p>",
         regionSlug: "05_huoyanshan",
         title: "红银战车",
         longitude: -0.34544303784556973,
@@ -5952,8 +5506,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:</p><p><br></p><p>[攻略要点]:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤。离屁股太近的话会被后喷火秒<br></p>",
-        media: [],
+          "<p>[Reward]:</p><p><br></p><p>[攻略要点]:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤。离屁股太近的话会被后喷火秒<br></p>",
         regionSlug: "05_huoyanshan",
         title: "褐铁战车",
         longitude: -1.1949097751573845,
@@ -5962,7 +5515,6 @@ export const markerCategories = [
       {
         description:
           '<p><span style="font-family: var(--van-base-font);">[攻略要点]:躲在离他最近的石壁凹陷处,劈棍蓄力后出去打出硬直然后接着打,要攻击了就马上退回凹陷,如此反复即可。并不难打(也可以三段立棍反复敲,不耗血不耗蓝)</span></p><p><span style="font-family: var(--van-base-font);">[攻略方法2]:</span>没必要上面那么磨叽,直接用精魄冻结/定身+棍花回转,很快就能打死</p>',
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "灰铜战车",
         longitude: -0.9378476966145683,
@@ -5970,8 +5522,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:阳遂珠+玲珑内丹</p><p><br></p><p>[攻略要点]:需要做前面牛哥的对话</p><p><br></p><p>打法建议:铜头铁臂+无限重击</p><p>打法建议: 先轻击+重击磨血到60%,存3段棍势,隐身→放猴毛→化身赤尻马猴→放马猴技能→砍砍砍→放马猴大招</p><p>如果没有刷新去牛哥2号任务点找,土地庙不显示的话</p><p>打完后记得和牛哥对话</p>",
-        media: [],
+          "<p>[Reward]:阳遂珠+玲珑内丹</p><p><br></p><p>[攻略要点]:需要做前面牛哥的对话</p><p><br></p><p>打法建议:铜头铁臂+无限重击</p><p>打法建议: 先轻击+重击磨血到60%,存3段棍势,隐身→放猴毛→化身赤尻马猴→放马猴技能→砍砍砍→放马猴大招</p><p>如果没有刷新去牛哥2号任务点找,土地庙不显示的话</p><p>打完后记得和牛哥对话</p>",
         regionSlug: "05_huoyanshan",
         title: "赤金战车",
         longitude: -0.6069396324251102,
@@ -5979,8 +5530,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:</p><p>云里雾·雾里云精魄、细金线、虚空结</p><p>[攻略要点]:</p><p>用定身棍花快速攒棍势,或者聚形散气三段重击可轻松过,出招不难</p>",
-        media: [],
+          "<p>[Reward]:</p><p>云里雾·雾里云精魄、细金线、虚空结</p><p>[攻略要点]:</p><p>用定身棍花快速攒棍势,或者聚形散气三段重击可轻松过,出招不难</p>",
         regionSlug: "05_huoyanshan",
         title: "云里雾·雾里云",
         longitude: -0.40903212940762046,
@@ -5988,8 +5538,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:虚空结+石父精魄</p><p><br></p><p>[攻略要点]:弱,没啥要点</p><p>如果手贱打碎了他手里抱着的骷髅,就会狂暴化,可以感受一下愤怒的真·BOSS石父</p>",
-        media: [],
+          "<p>[Reward]:虚空结+石父精魄</p><p><br></p><p>[攻略要点]:弱,没啥要点</p><p>如果手贱打碎了他手里抱着的骷髅,就会狂暴化,可以感受一下愤怒的真·BOSS石父</p>",
         regionSlug: "05_huoyanshan",
         title: "石父",
         longitude: -0.897798871568483,
@@ -5997,8 +5546,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>[奖励]:</p><p>九叶灵芝精精魄、地灵伞盖。概率给九叶灵芝种子&nbsp; 还有概率给虚空结</p><p>[攻略要点]:</p><p>关系到一个成就&nbsp; &nbsp;&nbsp;</p><p>注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断</p><p>聚形散气、变身可以解蘑菇异常</p>",
-        media: [],
+          "<p>[Reward]:</p><p>九叶灵芝精精魄、地灵伞盖。概率给九叶灵芝种子&nbsp; 还有概率给虚空结</p><p>[攻略要点]:</p><p>关系到一个成就&nbsp; &nbsp;&nbsp;</p><p>注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断</p><p>聚形散气、变身可以解蘑菇异常</p>",
         regionSlug: "05_huoyanshan",
         title: "九叶灵芝精",
         longitude: -0.5834652412309538,
@@ -6006,8 +5554,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br></p><p>[奖励]:</p><p>小活师</p><p>[攻略要点]:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打。</p><p>BOSS火伤,建议带法宝避火罩</p>",
-        media: [],
+          "<p>注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br></p><p>[Reward]:</p><p>小活师</p><p>[攻略要点]:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打。</p><p>BOSS火伤,建议带法宝避火罩</p>",
         regionSlug: "05_huoyanshan",
         title: "波浪浪",
         longitude: -1.0795285595006305,
@@ -6061,7 +5608,6 @@ export const markerCategories = [
           "**Location:** Sandgate Village - Village Entrance  \n\n**Reward:** \n- [Evil Repelling Medicament Formula](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398788)\n- Tadpole\n- Silk x2\n- Yarn x2",
         latitude: "0.51565360128915",
         longitude: "-0.67433831925282",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6070,7 +5616,6 @@ export const markerCategories = [
           "**Location:** Sandgate Village - Village Entrance\n  \n**Reward:** \n- [Earth Wolf Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397841)\n- Stone Spirit x1",
         latitude: "0.39169674890025",
         longitude: "-0.71888444657128",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6079,7 +5624,6 @@ export const markerCategories = [
           "**Location:** Sandgate Village - Valley Of Despair\n  \n**Reward:** \n- [Second Rat Prince Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397842)\n- Pungent Flesh Chunk\n- Blood of the Iron Bull x2\n- Silk x2\n- Yaoguai Core x2\n- Stone Spirit x1",
         latitude: "0.47193557546872",
         longitude: "-0.78148942371277",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6088,7 +5632,6 @@ export const markerCategories = [
           "**Location:** Yellow Wind Formation - Windrest Hamlet\n  \n\n**Reward:** \n- [Tiger's Acolyte Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397845)\n- [Old-Rattle Drum](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399043)\n- Silk x2\n- Yarn x2\n- 758 Experience\n- 779 Will",
         latitude: "0.72607600377910",
         longitude: "-0.88247895240733",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6097,7 +5640,6 @@ export const markerCategories = [
           "**Location:** Sandgate Village - Valley Of Despair\n  \n\n**Reward:** ??",
         latitude: "0.60729913718830",
         longitude: "-0.79692815820672",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6140,7 +5682,6 @@ export const markerCategories = [
           "**Location:** Sandgate Village - Bottom Of The Well\n  \n\n**Reward:** \n- [Mad Tiger Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397847)\n- Blood of the Iron Bull\n- Yaoguai Core\n- Stone Spirit \n- 1102 Experience\n- 1023 Will",
         latitude: "0.34031667876272",
         longitude: "-0.62742233276236",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6149,7 +5690,6 @@ export const markerCategories = [
           "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Tiger Tally](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397848)\n- Silk x2\n- Yarn x2",
         latitude: "0.97636265485365",
         longitude: "-0.52107810974303",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6158,7 +5698,6 @@ export const markerCategories = [
           "**Location:** Sandgate Village - Valley of Despair.  Inside the cave - you must throw the [Pungent Flesh Chunk](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398750) into the chasm to summon him.  \n\n**Reward:** \n- Arhat Gold Piece\n- Silk x2\n- Yarn x2",
         latitude: "0.48161714338430",
         longitude: "-0.85291564464492",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6167,7 +5706,6 @@ export const markerCategories = [
           "**Location:** Snowhill Path - Frost-Clad Path  \n\n**Reward:** ??",
         latitude: "0.36434881696992",
         longitude: "-0.84959506988395",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6176,7 +5714,6 @@ export const markerCategories = [
           "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:** \n- [Spirit of Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398918) \n- [Frostsprout Twig](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399852)\n- Mind Core",
         latitude: "0.64895195986385",
         longitude: "-0.60216665267689",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6185,7 +5722,6 @@ export const markerCategories = [
           "**Location:** Pagoda Realm - Warding Temple\n\n**Reward:** ??",
         latitude: "0.83588883287830",
         longitude: "-0.52273035049421",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6194,7 +5730,6 @@ export const markerCategories = [
           "**Location:** Bitter Lake - North Shore Of The Bitter Lake\n\n**Reward:** ??",
         latitude: "0.94887381031336",
         longitude: "-0.69219089577138",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6203,7 +5738,6 @@ export const markerCategories = [
           "**Location:** Zodiac Village - Village Entrance\n\n**Reward:** ??",
         latitude: "1.00841560806700",
         longitude: "-0.77359199523775",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6212,7 +5746,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Mindfulness Cliff\n\n**Reward:** \n- [Non-White Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398920)",
         latitude: "1.04453883750410",
         longitude: "-0.64276456832840",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6221,7 +5754,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Forest Of Felicity\n  \n\n**Reward:** \n- Tadpole\n- Refined Iron Sand \n- Yaoguai Core.",
         latitude: "1.07280229325110",
         longitude: "-0.65564726967580",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6230,7 +5762,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Forest Of Felicity\n  \n\n**Reward:** \n- [Old Ginseng Guai Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399046)",
         latitude: "1.10064918865030",
         longitude: "-0.64537435770080",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6239,7 +5770,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Brook Of Bliss  \n  \n\n**Reward:** \n- [Non-Able Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399047)",
         latitude: "1.08683028384080",
         longitude: "-0.61738014221248",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6248,7 +5778,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Void-Illusion Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399048)",
         latitude: "1.10102462860620",
         longitude: "-0.62909066677145",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6257,7 +5786,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Kalpa-Wave Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399049)",
         latitude: "1.12272283311850",
         longitude: "-0.62385508887832",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6266,7 +5794,6 @@ export const markerCategories = [
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Pure Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399050)",
         latitude: "1.14582779786550",
         longitude: "-0.61803861218655",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6275,7 +5802,6 @@ export const markerCategories = [
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Void Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399051)",
         latitude: "1.13661003247650",
         longitude: "-0.64084927902528",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6284,7 +5810,134 @@ export const markerCategories = [
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** ??",
         latitude: "1.13507981772390",
         longitude: "-0.61436634663679",
-        media: [],
+      },
+      {
+        description:
+          "<p>[Reward]:细金线、玲珑内丹</p><p><br></p><p>[攻略要点]:在一处大空地中间,有一块未激活的巨石</p>",
+        regionSlug: "06_huaguoshan",
+        title: "毒统领-第四只",
+        longitude: -0.5561781477532861,
+        latitude: 0.46278839245472625,
+      },
+      {
+        description:
+          "<p>就是你站在云上就能看到一个坐在山崖上巨大的石头人。它背后是水帘洞入口<br></p><p>【建议一周目打了】不然图鉴不全啊,虽然傻乎乎的<br></p><p>[Reward]:</p><p>寒铁叶、细金线、玲珑内丹</p><p>[攻略要点]:</p><p>躲避他的蓄力全屏雷击,只有这招是致命的,接下来他会睡好久,使劲抽他</p>",
+        regionSlug: "06_huaguoshan",
+        title: "石子",
+        longitude: -0.7033755554746222,
+        latitude: 0.6087403022382887,
+      },
+      {
+        description:
+          "<p>这里才是第二个</p><p>[Reward]:寒铁叶、细金线、玲珑内丹</p>",
+        regionSlug: "06_huaguoshan",
+        title: "毒统领-第二个",
+        longitude: -0.5966347577355293,
+        latitude: 1.0464132658282779,
+      },
+      {
+        description:
+          "<p>[Reward]:</p><p>[攻略要点]:这只在步云鹿正对着的平台上</p><p>图示为在望犀坡土地庙升高的视角</p>",
+        regionSlug: "06_huaguoshan",
+        title: "毒统领-第一只",
+        longitude: -0.606585486195911,
+        latitude: 0.8003326702853997,
+      },
+      {
+        description:
+          '<p>靠近后低飞,接近会强制降落,太高了会摔不少血</p><p>[Reward]:</p><p>小活师、细金线、<span style="font-family: var(--van-base-font);">珍玩【仙胞石片】:无视对手四灾耐性</span></p><p>[攻略要点]:在地图最角落那块土色空地上,和背景颜色差不多,打的时候会刷天兵(天兵会攻击BOSS但是没有伤害,只能吸引BOSS攻击)。</p><p>关联成就【蛙声一片六十六难】,这是最后一只青蛙</p><p>其他青蛙BOSS位置:</p><p><a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821482&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个浪</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821510&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个波(雷)</a>、<a href="https://app.gamersky.com/map/?mapId=54&amp;landmarkId=821851&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个浪(冰)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822231&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个波(毒)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=61&amp;landmarkId=822290&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波浪浪(火)</a></p>',
+        regionSlug: "06_huaguoshan",
+        title: "浪波波",
+        longitude: -0.47573168463125626,
+        latitude: 0.9864855957824545,
+      },
+      {
+        description:
+          "<p>[Reward]:寒铁叶、细金线、玲珑内丹</p><p>[攻略要点]:毒统领第三只的位置给错了,我标记的才是正确的,跟步云鹿,金甲犀在一条直线上。按照我图三的位置定位,图二是地图边缘三个小山尖,图二是毒统领二的样子</p>",
+        regionSlug: "06_huaguoshan",
+        title: "毒统领-第三只",
+        longitude: -0.19467858192902554,
+        latitude: 0.8425486869411856,
+      },
+      {
+        description:
+          '<p>[Reward]:琴螂原体</p><p><br></p><p>[攻略要点]:拿到<span style="font-family: var(--van-base-font);">琴螂原体,再收集三个“茧圆”(切记不可卖掉,上限就三个)回到画册中交付给辰龙,遁地符刷新下在辰龙外面“右边三个箩筐的右边箩筐”可以看到蚕宝宝,喂食三次茧圆,再次遁地符刷新,回来可以捡到精魄</span>琴螂仙</p><p>[补充]:“<span style="font-family: var(--van-base-font);">茧圆”在地图中任意</span><span style="font-family: var(--van-base-font);">茧里也能概率获取,没必要先打原体在打</span><span style="font-family: var(--van-base-font);">茧</span></p>',
+        regionSlug: "04_pansidongxiaceng",
+        title: "琴螂仙",
+        longitude: -0.47802923867203617,
+        latitude: 1.3142815314418783,
+      },
+      {
+        description:
+          "<p>[Reward]:金称心、精魄-百足虫、虚空结</p><p><br></p><p>[攻略要点]:很菜,半血注意躲一下自爆虫潮即可</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "百足虫",
+        longitude: -0.8117228136541144,
+        latitude: 0.4330695615996376,
+      },
+      {
+        description:
+          '<p>[Reward]:</p><p><span style="font-family: var(--van-base-font);">照骨镜、佛手·右</span></p><p>[攻略要点]:</p><p>二阶段回下来它的头喷毒打出巨额伤害,可以定住它快速移动到它身后躲避,或立棍躲避毒水</p><p>打完虫往前走,虫头前面先别跳下去,虫头左边有火盆,火盆方向上去有太乙紫金丹</p><p>［对应成就］:脸上有泥三十九难</p>',
+        regionSlug: "04_pansidongxiaceng",
+        title: "右手虫",
+        longitude: -0.8233371309445943,
+        latitude: 0.3413167521957092,
+      },
+      {
+        description:
+          "<p>[Reward]:</p><p>佛手·左、小活狮</p><p>[近路]:</p><p>不用跟着地图跑,从底层土地庙可以直接二段跳到通道</p><p>[攻略要点]:</p><p>这个青蛙在打坐处那个洞里面,直接在打坐洞外找是找不到的</p><p>剧毒很痛,留意躲避</p><p>用定风珠可以把毒池净化</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "波里个波",
+        longitude: -1.0981857143245861,
+        latitude: 0.751911928759867,
+      },
+      {
+        description:
+          "<p>[Reward]:</p><p>珍玩【避水珠】、细金线、玲珑内丹</p><p>[攻略要点]:</p><p>获得筋斗云后往前一点下面的水潭里,一定会在你下来的时候咬你一口,可以躲开</p>",
+        regionSlug: "06_huaguoshan",
+        title: "跳浪蛟",
+        longitude: -0.43349856493495054,
+        latitude: 0.6067666450281166,
+      },
+      {
+        description:
+          "<p>中间大水池靠章节开始的边上,里面的大湖中间一直冒水花,靠近怪就出来了。</p><p>这个是boss</p><p>[Reward]:玲珑内丹、镔铁砂x2</p><p>[注意]:水木兽有很多只,别的可以解锁图鉴,但这只有血条的关系到70难的成就!!!特别注意!!!</p><p>[攻略要点]:残血后会频繁潜水折磨你,建议穿上水中回血那套,免得被他耗死</p>",
+        regionSlug: "06_huaguoshan",
+        title: "水木兽[BOSS]",
+        longitude: -0.554727766066037,
+        latitude: 0.2965650659789958,
+      },
+      {
+        description:
+          "<p>[相关事件]:&nbsp;<br></p><p>要你帮他收集道士掉的藕雹(四周大范围的黄衣道士掉落),交付后和你打架</p><p>有2条血,打完会变大肉虫<br>[注意]:<br>打完魔君后会消失,不要先去打魔君</p><p>[Reward]:</p><p>法术:变身·藕雹</p>",
+        regionSlug: "04_ziyunshan",
+        title: "靡道人",
+        longitude: -0.5882414376805514,
+        latitude: 1.0101225908178293,
+      },
+      {
+        description:
+          "<p>[Reward]:蘑女精魄、猴头菌种子、概率出虚空结</p><p>三个葛草中靠近崖边最近的的葛草是蘑女</p><p>[攻略要点]:</p><p>被蘑女远程打中会让她恢复大量生命,尽量躲开或者直接灌伤害将其灌死</p>",
+        regionSlug: "04_huanghuaguan",
+        title: "蘑女",
+        longitude: -0.2996723512018775,
+        latitude: 0.9357127976698081,
+      },
+      {
+        description:
+          "<p>[Reward]:虚空结</p><p>还有个虫总兵的精魄</p><p>[攻略要点]:有较多道士些许棘手,开身外分身清理&nbsp;&nbsp;</p><p>也可進場變身自爆鼠&nbsp; 打到神力快消耗完自爆清場</p>",
+        regionSlug: "04_huanghuaguan",
+        title: "虫总兵",
+        longitude: -0.7161968512244812,
+        latitude: 0.33329016572197645,
+      },
+      {
+        description:
+          '<p>[相关事件]:</p><p>boss有第二形态(两条血)<br></p><p>要先在<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822078&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">盘丝洞</a>遇到一次才会到这里</p><p>杀完跟你说去紫云山找那根针</p><p>[Reward]:</p><p>开启紫云山入口,金趁心(武器材料)</p><p><br></p><p>注意:第一次打没有打掉他后面四条胳膊的,这是最后一次机会,还没拿到毒手,只能下周目了,还是一样,定身术定住,然后棍花击打,胳膊不单独算血量,只算被击打次数,建议再没有打完他胳膊之前,躲着点,等定身术CD,打完胳膊会触发CG,就算成功了,不想多周目麻烦就切记!!已经拿到了的可以直接秒了</p>',
+        regionSlug: "04_huanghuaguan",
+        title: "黑手道人(二回战)",
+        longitude: -0.5145762465283781,
+        latitude: 1.0581153180450542,
       },
     ],
     groupSlug: "bmw_enemies",
@@ -6294,8 +5947,7 @@ export const markerCategories = [
     locations: [
       {
         description:
-          "<p>[奖励]:法宝·芭蕉扇、细金线、虹霓云绦、金趁心、先天锟钢、玲珑内丹</p><p>[攻略要点]:</p><p>半血会飞到天上放一个技能,按节奏躲避即可,只要不是全部中就死不掉,打完进入二阶段夜叉王,会给你恢复满状态,boss连贯技能多,范围广,但大技能40米大刀5连前摇大,可用定风珠打断,打完进入cg</p><p>---</p><p>残血不杀只需要三点一线既可(牛魔王-红孩儿-天命人)</p><p>红孩儿低于20%血量既可触发(意义不大,就是多个两人打斗的CG,主要打死和打残的结局CG是一样的)</p>",
-        media: [],
+          "<p>[Reward]:法宝·芭蕉扇、细金线、虹霓云绦、金趁心、先天锟钢、玲珑内丹</p><p>[攻略要点]:</p><p>半血会飞到天上放一个技能,按节奏躲避即可,只要不是全部中就死不掉,打完进入二阶段夜叉王,会给你恢复满状态,boss连贯技能多,范围广,但大技能40米大刀5连前摇大,可用定风珠打断,打完进入cg</p><p>---</p><p>残血不杀只需要三点一线既可(牛魔王-红孩儿-天命人)</p><p>红孩儿低于20%血量既可触发(意义不大,就是多个两人打斗的CG,主要打死和打残的结局CG是一样的)</p>",
         regionSlug: "05_huoyanshan",
         title: "红孩儿",
         longitude: -0.23208141877927346,
@@ -6303,8 +5955,7 @@ export const markerCategories = [
       },
       {
         description:
-          '<p>[奖励]:阴阳法衣、细金线x2、<span style="font-family: var(--van-base-font);">虹霓云绦</span></p><p><br></p><p>[攻略要点]:重点！！！先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身。</span></p><p>在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span></p><p><span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span></p><p><span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上。</span></p><p><span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span></p>',
-        media: [],
+          '<p>[Reward]:阴阳法衣、细金线x2、<span style="font-family: var(--van-base-font);">虹霓云绦</span></p><p><br></p><p>[攻略要点]:重点!!!先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身。</span></p><p>在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span></p><p><span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span></p><p><span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上。</span></p><p><span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span></p>',
         regionSlug: "05_huoyanshan",
         title: "火焰山土地",
         longitude: -0.24355521737027175,
@@ -6312,8 +5963,7 @@ export const markerCategories = [
       },
       {
         description:
-          '<p>[奖励]:</p><p>大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、细金线、玲珑内丹、珍玩【水火蓝】</span></p><p>[攻略要点]:</p><p>第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理。</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿三冬虫。</span></p><p><span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打。</span></p><p><span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span></p>',
-        media: [],
+          '<p>[Reward]:</p><p>大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、细金线、玲珑内丹、珍玩【水火蓝】</span></p><p>[攻略要点]:</p><p>第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理。</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿Awaken Wine Worm。</span></p><p><span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打。</span></p><p><span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span></p>',
         regionSlug: "05_huoyanshan",
         title: "璧水金睛兽",
         longitude: -0.6260214051914943,
@@ -6360,7 +6010,6 @@ export const markerCategories = [
           "**Location:** Crouching Tiger Temple - Cellar\n  \n\n**Reward:**\n- [Rat Sage Staff](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399056)\n\n**Reward at Conclusion of Chapter 2:**\n- 1x Samadhi Wind Agate\n- 2x Cold Iron Leaves\n- 5x Silk\n- 2x Yaoguai Core\n- 1x Refined Iron Sand\n- 1x Mind Core",
         latitude: "0.67177292259281",
         longitude: "-0.94912672859240",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6369,7 +6018,6 @@ export const markerCategories = [
           "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Cloud-Patterned Stone Staff](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399057)\n- Heart of Stone\n- Skhanda of Feeling\n- Mind Core x1\n- Yaoguai Core x2",
         latitude: "0.82160756399443",
         longitude: "-0.75374364852942",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6378,7 +6026,6 @@ export const markerCategories = [
           "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Wind Tamer](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399060)\n- Sky-Piercing Horn",
         latitude: "1.08140246457400",
         longitude: "-0.42554855346623",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6387,7 +6034,6 @@ export const markerCategories = [
           "**Location:** Fright Cliff - Hidden Loong Cavern\n\n**Reward:**\n- [Tridacna Pendant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399054)\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
         latitude: "0.77192166360884",
         longitude: "-0.53260257193517",
-        media: [],
       },
 
       {
@@ -6414,7 +6060,6 @@ export const markerCategories = [
           "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:**\n- [Spirit of Captain Wise-Voice](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398919)\n- Mind Core",
         latitude: "0.71387323127763",
         longitude: "-0.61376452445899",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6423,7 +6068,6 @@ export const markerCategories = [
           "**Location:** Bitter Lake - Turtle Island\n\n**Reward:**\n- Loong Pearl\n- Mind Core",
         latitude: "0.91389076568014",
         longitude: "-0.77336589613597",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -6449,7 +6093,6 @@ export const markerCategories = [
           "**Location:** New Thunderclap Temple - Mahavira Hall\n\n  \n\n**Reward:** ??",
         latitude: "1.15027839388230",
         longitude: "-0.62585935956017",
-        media: [],
       },
 
       {
@@ -6508,6 +6151,102 @@ export const markerCategories = [
         latitude: "1.00752525246930",
         longitude: "-0.98414540290801",
       },
+      {
+        description:
+          "<p>[Reward]:</p><p>连理肢<br></p><p>[攻略要点]:</p><p>boss会乱动,不好打到,多用三段棍势打倒地在去输出</p><p>重点:</p><p>1.半血钻地时是有一个范围的,要尽快往远处跑</p><p>2.眼睛发光马上把视角移开看地面不要看boss</p><p>只要做到上面两点就不会进入非常难打的二阶段</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "紫蛛儿",
+        longitude: -1.112373522643793,
+        latitude: 0.8975790954052201,
+      },
+      {
+        description:
+          "<p>[Reward]:龙珠、珍玩-金色鲤、法术-金岚(变身龙)</p><p>[提醒]:需要把前面章节的三龙打完,到这里才会出现小黄龙,不然这里就是空的。【一般经过能打的龙都会念一段词:无有因,……】</p><p><br></p><p>[攻略要点]:</p><p>这是目前为止打过最粪的怪,建议在远处蓄力棍一下一下敲,定风珠和三蓄棍可打断他进入飞天状态,若进入飞天状态可用寅虎挡一下,铜头铁臂后注意他的投技,可以配合回棍势的丹药一下一下蓄力敲死吧</p><p>他飞天的时候 躲过第一下俯冲后直接用隐身术, 可以站着看看他表演, 蓄好棍等他下来</p><p>可以尝试用禁字法配合戳棍,这怪很喜欢二人转,趁他逛街的时候蓄力,蓄满3段或者他要冲过来了就放</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "小黄龙",
+        longitude: -1.0384971238538867,
+        latitude: 0.07631660938398,
+      },
+      {
+        description:
+          "<p>[Reward]</p><p>根器【舌长思】、虹霓云绦、细金线x2、金趁心x2、先天锟钢、玲珑内丹</p><p>[打法秘诀]</p><p>建议关闭战斗自动锁定,锁定会对准天上的准星,导致很多攻击打不到,脱锁就可以敲腿了。</p><p>注意先去紫云山拿法宝·绣花针再来打,能好打很多。(boss进入金色二阶段时用绣花针会变回一阶段,不要开局就给用了)</p><p>用完绣花针后一段会进一下剧情,在进剧情前别用变身,进剧情会把变身取消。</p><p>注意:千万要首先完成蜘蛛精四妹支线然后击杀百眼魔君,若过早击杀百眼魔君会导致该支线直接中断。</p><p>战斗过程使用虫变身有特殊对话。</p>",
+        regionSlug: "04_huanghuaguan",
+        title: "百眼魔君",
+        longitude: -0.6049839146306226,
+        latitude: 1.1805396101453738,
+      },
+      {
+        description:
+          '<p>想全收集的不要直接去找魔君,先杀毒敌大王,关系到获得武器材料,去了没打死他毒敌大王也会消失。</p><p>[Reward]:</p><p>昆崎毒敌甲材料【毒敌钩】、金称心、玲珑内丹、彩云葫芦、通天角</p><p>[攻略要点]:&nbsp;</p><p>如果不打毒敌大王,最终BOSS他会和晦月魔君互殴。进入<span style="font-family: var(--van-base-font);">晦月魔君二阶段过场动画完成后</span><span style="font-family: var(--van-base-font);">毒敌大王会被</span>晦月魔君击杀<span style="font-family: var(--van-base-font);">。</span></p><p>单挑毒敌大王会获得材料【毒敌钩】,建议提前击杀。</p><p>注意 打<span style="font-family: var(--van-base-font);">晦月魔君一阶段,毒敌不死,进入2阶段也会触发【</span>齐齐整整四十五难<span style="font-family: var(--van-base-font);">&nbsp;】,所以不一定为了成就非得杀</span></p><p>毒敌大王的四个儿子:<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822091&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子1</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822235&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子2</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822236&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子3</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822240&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子4</a><br></p>',
+        regionSlug: "04_ziyunshan",
+        title: "毒敌大王",
+        longitude: -0.596209147236749,
+        latitude: 0.38469556315416753,
+      },
+      {
+        description:
+          '<p>[Reward]:&nbsp;</p><p>法宝【绣花针】、酒食【双冠血】、材料【妖生角】、玲珑内丹、金趁心x2</p><p>[攻略要点]:</p><p><span style="font-family: var(--van-base-font);">前面不打毒敌大王此处会前来协助战斗(但是毒敌大王会在</span>晦月魔君<span style="font-family: var(--van-base-font);">二阶段死亡,无法复活,也无法获得武器材料毒敌钩)</span></p><p>击杀后,BOSS会进入2阶段,只能自己单挑了</p><p>毒敌大王死在帮战的第一阶段也可以拿成就</p>',
+        regionSlug: "04_ziyunshan",
+        title: "晦月魔君",
+        longitude: -0.16371718641252642,
+        latitude: 1.1440514180685142,
+      },
+      {
+        description:
+          '<p>飞到这块会进入剧情动画</p><p>[Reward]:</p><p><span style="font-family: var(--van-base-font);">神珍【</span><span style="font-family: var(--van-base-font);">锁子黄金甲】</span></p><p>[攻略要点]:三蓄力的重棍可以打破它的角(定风珠没用),然后就好打了</p><p>拉开距离蓄力,它会慢慢跟过来,近距离会一直乱跑</p><p>破隐一击好像也能断角</p><p>大头磕头也可以破角(可以打出大硬直的精魄都可以)</p>',
+        regionSlug: "06_huaguoshan",
+        title: "金甲犀",
+        longitude: -0.41125961975353675,
+        latitude: 0.8912971211568248,
+      },
+      {
+        description:
+          '<p>[Reward]:识蕴</p><p>[攻略要点]:需要 色蕴,想蕴,受蕴,行蕴解锁boss战</p><p>此boss拳头从天降这招好像是秒的,建议卡在他横扫攻击范围往外站一点点,只要闪避捶地的地震波,等他停下来暴露蓝色结晶就可以拉满输出秒杀,临死之前会疯狂砸地,所以打完记得后撤到攻击范围外只要躲地震波就行。打完后从胳膊上上去,拿到第五<span style="font-family: var(--van-base-font);">蕴</span><span style="font-family: var(--van-base-font);">(识蕴)</span></p><p>五蕴可以拿去找戌狗<span style="font-family: var(--van-base-font);">炼</span><span style="font-family: var(--van-base-font);">五蕴</span><span style="font-family: var(--van-base-font);">丹</span><span style="font-family: var(--van-base-font);">,可以同时加生命、法力和气力</span></p><p><br></p><p>地点:看到水帘洞后背对着水帘洞飞到两个山中间有一山洞,飞进去就触发BOSS,记得先下云,不然会被吼下来摔掉血</p>',
+        regionSlug: "06_huaguoshan",
+        title: "大石敢当",
+        longitude: -0.9749979473096744,
+        latitude: 0.9140212566329353,
+      },
+      {
+        description:
+          '<p>[Reward]:</p><p><span style="text-align: center;">臂甲【点翠飞龙釬】</span><br></p><p>[攻略要点]:</p><p>打完步云鹿、凤翅将军(拔触须)、打完金甲犀先获得这三件披挂之后,回到捕螂汀触发剧情；在八戒肚子里</p><p>(下面是轮椅)</p><p>一阶段定身棍花四豆,F地狼撞+A几下</p><p>二阶段躲第一刀,定身棍花四豆,倒地的时候用芭蕉扇可以A一整套,定身棍花四豆就差不多了</p>',
+        regionSlug: "06_huaguoshan",
+        title: "碧臂螂(需完成前置)",
+        longitude: -0.7312181680775893,
+        latitude: 0.4428539400430225,
+      },
+      {
+        description:
+          '<p>[Reward]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p>(<span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
+        regionSlug: "06_huaguoshan",
+        title: "凤翅将军-落点1",
+        longitude: -0.6352323742729311,
+        latitude: 0.287864487857334,
+      },
+      {
+        description:
+          "<p>[Reward]:神珍【藕丝步云履】,玲珑内丹</p><p><br></p><p>[攻略要点]:记得带定风珠</p><p>这B有二阶段!泡酒物记得放喝酒消除负面状态的。</p><p>二阶段打不过可以选择摸鱼,二师叔会全程助战,单刷BOSS</p><p>挂机要是觉得二师叔打的慢,可以选择立棍挂在天上,BOSS读指令,立棍的时候只会放血球,站着不动二师叔输出空间比较大</p><p><br></p><p>猴毛分身+定身打死第一阶段,boss bug直接金身无法选中,一会就死掉了</p>",
+        regionSlug: "06_huaguoshan",
+        title: "步云鹿",
+        longitude: -0.741836175065572,
+        latitude: 1.0796056232200328,
+      },
+      {
+        description:
+          "<p>[Reward]:根器【意见欲】(开启轮回功能)、毫毛·救命毫毛(二周目轮回自动获得)</p><p><br></p><p>[攻略要点]:</p><p>BOSS分4个阶段,4个阶段都是水场地,可以为此配装。</p><p>1阶段无属性石猿,很简单,自己体会就好；</p><p>2阶段光炎、冰霜属性石猿,期间会使用分身2打1,注意跳躲范围伤害；</p><p>2阶段结束后会有记录点,后续死了就不用重新打前2个阶段了；</p><p>3阶段大圣残躯,还是较为好打的阶段,可以用4蓄力重击轻松过关；</p><p>4阶段是有6根的大圣残躯,是真正的难点,新增了很多技能和针对天命人的机制,会有较大消耗,尽量在3阶段保留资源投入到4阶段攻略中；</p><p>没有进入二周目轮回的话BOSS会复原,可以再度挑战,恢复打石猿前进度</p>",
+        regionSlug: "06_huaguoshan",
+        title: "石猿",
+        longitude: -1.336302545409751,
+        latitude: 0.1956812677880464,
+      },
+      {
+        description:
+          "<p>[Reward]:</p><p>金趁心、青丝刺</p><p>[攻略要点]:</p><p>方法一:金身挡一挡就行了</p><p>方法二:用禁字法无脑c就行了</p><p>打完二师兄会被二姐激怒自己一个人冲下去,暂时脱离</p>",
+        regionSlug: "04_zhujiadayuan",
+        title: "Second Sister",
+        longitude: -0.9686948910710953,
+        latitude: 0.33785356850516735,
+      },
     ],
     groupSlug: "bmw_enemies",
     title: "Yaoguai King",
@@ -6521,7 +6260,6 @@ export const markerCategories = [
           "**How To Begin:** Speak to [Xu Dog](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398476) in the cave in Sandgate Village\n\n**Steps:**\n0.  ??",
         latitude: "0.50263516298259",
         longitude: "-0.687371263221",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6530,7 +6268,6 @@ export const markerCategories = [
           "**How To Begin:** Speak to the [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398863)\n\n**Steps:**\n\n1. Give [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398863) the [Sobering Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399634) (purchase from Man in Rock).\n2. Find the [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399827) in the Tiger's Temple and give him the Jade Lotus.\n3. Return to he was originally and defeat the [Yellow-Robed Squire](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397644)",
         latitude: "0.92749735183827",
         longitude: "-0.70356364529886",
-        media: [],
       },
     ],
     groupSlug: "bmw_quests",
@@ -6626,7 +6363,61 @@ export const markerCategories = [
           "A hidden underground passage, accessible by placing the [Sterness of Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398923) in the statue",
         latitude: "0.56921941421969",
         longitude: "-0.99700044987387",
-        media: [],
+      },
+      {
+        description:
+          "从底层传送点往右走,经过一堆虫卵,左边的墙上有道缝,钻进去,别走过了(补充说明,是右边的墙上有裂缝)",
+        regionSlug: "04_pansidongxiaceng",
+        title: "墙缝隐藏区域",
+        longitude: -1.2241362131103415,
+        latitude: 0.6452463956746612,
+      },
+      {
+        description:
+          "<p>第四十五难成就相关</p><div>周围有很多骨蛇,另外还有个蓝火精英射手注意,旁边有个葛草精,打死有概率出玲珑内丹</div>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "毒敌大王儿子4",
+        longitude: -0.857474286187994,
+        latitude: 0.8985109674015774,
+      },
+      {
+        description: "<p>第四十五难成就相关</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "毒敌大王儿子3",
+        longitude: -1.0727937139254209,
+        latitude: 0.19203565587676508,
+      },
+      {
+        description:
+          "<p>(有概率掉酒品:倒马毒钩)</p><div>打BOSS前先打周围大点的卵,会出怪,有3个,清完卵BOSS很好杀,否则被围殴难度暴涨</div>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "毒敌大王儿子2",
+        longitude: -0.0946308564639935,
+        latitude: 1.0691017768509568,
+      },
+      {
+        description:
+          "<p>在此处打败黑手道人后进入紫云山</p><div>---</div><div>注意务必在盘丝洞第一次打完黑手,这里才会出现</div>",
+        regionSlug: "04_huanghuaguan",
+        title: "紫云山前置任务2",
+        longitude: -0.46516723633862966,
+        latitude: 1.1002641164636344,
+      },
+      {
+        description:
+          "<p>影响第45难成就,要击杀毒敌大王和4个蝎太子</p><div>这里有第一个蝎太子</div><div><br></div><div>一共4个蝎太子,不会重复刷新,其中一个会掉落酒食【蝎尾钩】</div>",
+        regionSlug: "04_pansidongshangceng",
+        title: "毒敌大王儿子1",
+        longitude: -0.1655793399024219,
+        latitude: 0.7701976793564285,
+      },
+      {
+        description:
+          "在这里击败黑手道人,之后在黄花观-金光苑附近再次击败黑手道人,即可进入紫云山<div>在紫云山会获得对百眼魔君的法宝,务必要拿</div>",
+        regionSlug: "04_pansidongshangceng",
+        title: "紫云山前置任务1",
+        longitude: -0.5936907290864042,
+        latitude: 1.245609650026978,
       },
     ],
     groupSlug: "bmw_other",
@@ -6637,7 +6428,6 @@ export const markerCategories = [
       {
         description:
           "<div><div>打完了红孩儿进了花果山也是可以传送回来继续任务。会分为两种情况:</div><div>1.打完第二辆车,后面有跟牛哥对话,打第三辆车的时候会有牛哥帮你,然后在门口自动触发剧情。</div><div>2.你自己打完第三辆车,这个时候来到门口是不会触发剧情的。你要回到第三辆车那里,牛哥在那里。对话完过来解锁隐藏地图。(第三辆车在翠云殿往山上走的路,牛哥在那)</div></div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "隐藏地图入口",
         longitude: -0.6576701051815235,
@@ -6646,7 +6436,6 @@ export const markerCategories = [
       {
         description:
           "<div>这里也是璧水金睛兽的战斗场地,在最开始的战斗中引诱它使用火属性攻击打碎冰墙能直接进入下一个场地,在第二个场地再引诱它使用冰属性攻击熄灭火墙就可以进入第三个场地,在那里辟水金睛兽会同时使用冰火双属性与玩家战斗。推荐想要挑战高难的天命人尝试。</div><div>打完之后会有关于红孩儿身世的CG,观看完毕之后会传送出去</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "璧水金睛兽双属性场地",
         longitude: -0.4949855357822628,
@@ -6654,8 +6443,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>打完两个boss,救出狐狸精</p><p>---</p><p>小狐狸可爱捏,质疑纣王,理解纣王,成为纣王！</p>",
-        media: [],
+          "<p>打完两个boss,救出狐狸精</p><p>---</p><p>小狐狸可爱捏,质疑纣王,理解纣王,成为纣王!</p>",
         regionSlug: "05_huoyanshan",
         title: "满口哥哥的狐狸精",
         longitude: -0.891364097903022,
@@ -6663,7 +6451,6 @@ export const markerCategories = [
       },
       {
         description: "刷珍品【白贝腰链】建议到这里刷,大概有6头,其中一个是老六",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "此地一大群犀牛精",
         longitude: -0.9009072207556414,
@@ -6672,7 +6459,6 @@ export const markerCategories = [
       {
         description:
           "杀了会掉珍玩,黑神话的巨大野怪都菜的,别看他远看吓死人,修脚随便一下就死了",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "两只海罗刹",
         longitude: -0.3588246613797139,
@@ -6681,7 +6467,6 @@ export const markerCategories = [
       {
         description:
           "<p>跑跳的时候当心贴图石头里卡bug动弹不得,弄不好就得回档了</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "贴图石头里有bug",
         longitude: -0.5110064562167054,
@@ -6690,7 +6475,6 @@ export const markerCategories = [
       {
         description:
           "吸引到这里后壁水金晴兽的属性攻击会切换为冰,相较于火属性较简单,如果继续前进会切换双属性,变得比较难打。",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "壁水金晴兽冰属性场地",
         longitude: -0.5346224284778316,
@@ -6698,7 +6482,6 @@ export const markerCategories = [
       },
       {
         description: "小心石头人会把你撞下去,下面是岩浆地形,记得提前装备避火罩",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "这段路没有空气墙",
         longitude: -0.511287143301729,
@@ -6707,7 +6490,6 @@ export const markerCategories = [
       {
         description:
           "<p>跟着小狐狸前往下一个地点 丹炉谷谷口。</p><p>你要是站在这里不下去小狐狸还会红温,可以调戏一下。</p><div>注:前面被火拦着的是去清凉坡的路,等芭蕉扇灭火后 可以过<br></div><div>(这里也会遇到赤金战车,然后进入隐藏地图入口)<br></div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "跳下去吧 不会死的",
         longitude: -0.6409634456019546,
@@ -6716,7 +6498,6 @@ export const markerCategories = [
       {
         description:
           "<p>芭蕉扇灭火后,可以通过火燎二关免打怪直达隐藏图,绕过一大段路和2个BOSS,多周目可以这么走速通</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "可以通过火燎二关直通",
         longitude: -0.1761282462603333,
@@ -6725,7 +6506,6 @@ export const markerCategories = [
       {
         description:
           "灭火剧情后从此处可以直接到隐藏图门前<div>------------</div><div>需要先完成皓斧力士的任务,进去之后直接打赤金战车</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "灭火后从此步行可到隐藏图前",
         longitude: -0.6475464349337301,
@@ -6733,8 +6513,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>全图火伤害 场景有岩浆</p><p>或者带老婆给的葫芦【湘妃葫芦】 喝了就不怕火了。</p><p>老婆真好！</p>",
-        media: [],
+          "<p>全图火伤害 场景有岩浆</p><p>或者带老婆给的葫芦【湘妃葫芦】 喝了就不怕火了。</p><p>老婆真好!</p>",
         regionSlug: "05_huoyanshan",
         title: "火焰山起点:建议带辟火罩",
         longitude: -1.1837397630806095,
@@ -6743,7 +6522,6 @@ export const markerCategories = [
       {
         description:
           "<p>石父→灰铜战车→急如火快如风</p><div>这是三场BOSS连战,中途没有土地庙,合理利用路上的灵蕴和精魄恢复状态。有压力大不了重新跑图。</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "BOSS RUSH 注意状态",
         longitude: -0.8025758718805491,
@@ -6752,7 +6530,6 @@ export const markerCategories = [
       {
         description:
           '吸的时候下面的战车会炸你一炮,真掉下去了记得还是往回走一下把洞里的东西捡了,<span style="font-family: var(--van-base-font);">在战车的反方向。</span><div><span style="font-family: var(--van-base-font);">前有诱敌头盖骨,事实证明吸引不死人的光球对猴头也有效</span></div>',
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "吸灵韵小心被炸",
         longitude: -0.9625768100160315,
@@ -6760,7 +6537,6 @@ export const markerCategories = [
       },
       {
         description: "此处火枣概率掉种子,刷种子可以来此",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "此处火枣密集,概率掉种子",
         longitude: -0.5065544332442755,
@@ -6768,7 +6544,6 @@ export const markerCategories = [
       },
       {
         description: "土地庙就卖火灵砂,注意如果不小心死了,下次挑战需要重新交付",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "需要4个火灵砂开启BOSS战",
         longitude: -0.21633260393076625,
@@ -6776,8 +6551,7 @@ export const markerCategories = [
       },
       {
         description:
-          "隐藏图有重要的大力王套装材料、每周目限量的三冬虫(都是要2个周目集齐),千万别错过了",
-        media: [],
+          "隐藏图有重要的大力王套装材料、每周目限量的Awaken Wine Worm(都是要2个周目集齐),千万别错过了",
         regionSlug: "05_huoyanshan",
         title: "隐·壁水洞 起点",
         longitude: -1.1140864406371804,
@@ -6786,7 +6560,6 @@ export const markerCategories = [
       {
         description:
           "<p>车轮滚滚 碰到便死。定身、铜头都没用。</p><p>可带加移速的物品,装备行者套2件套效果,精魄百足虫,酒鲜酿蓝桥风月,加速通过。</p><div>注:不要相信地形,左右固定位置可以躲(一般有个小怪的位置),路径石头会被撞碎。</div><div>车轮可以压死小怪,不用硬打</div><div>注:bug已经修改,不能用寅虎</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "当心秒杀铁球",
         longitude: -0.539295229813149,
@@ -6795,7 +6568,6 @@ export const markerCategories = [
       {
         description:
           "故事从此开始……<div>小心别被二师兄拱了,他撞怪一点不注意自己人的</div>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "第五回 起点",
         longitude: -1.1796932154377942,
@@ -6803,8 +6575,7 @@ export const markerCategories = [
       },
       {
         description:
-          "<p>建议对照游民官方路线进行攻略,确保不错过任何道具！</p><div>(点击左下角查看攻略即可进入)</div>",
-        media: [],
+          "<p>建议对照游民官方路线进行攻略,确保不错过任何道具!</p><div>(点击左下角查看攻略即可进入)</div>",
         regionSlug: "05_huoyanshan",
         title: "建议对照官方路线攻略",
         longitude: -1.2351691895314616,
@@ -6817,7 +6588,6 @@ export const markerCategories = [
           "**Requires:** \n- [Sterness of Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398923)\n- [Keeness of Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398770)",
         latitude: "0.48897149668854",
         longitude: "-0.79247474670365",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6825,7 +6595,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.47166145139946",
         longitude: "-0.82584412313025",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6851,7 +6620,6 @@ export const markerCategories = [
           "Can only be opened from the rear after defeating the [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430)",
         latitude: "0.40940890001028",
         longitude: "-0.70321083068777",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6860,7 +6628,6 @@ export const markerCategories = [
           "Requires [Keeness of Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398770)",
         latitude: "0.64170329110955",
         longitude: "-0.85218129194763",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6869,7 +6636,6 @@ export const markerCategories = [
           "Alternative location for obtaining the [Pluck of Many](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399176) - whichever area you reach first.",
         latitude: "0.64337255394345",
         longitude: "-0.83288356863045",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6878,7 +6644,6 @@ export const markerCategories = [
           "Open from the eastern side, where you first encounter Withered Corpses and Weasel Captains",
         latitude: "0.50801625874512",
         longitude: "-0.83002527020454",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -6886,12 +6651,10 @@ export const markerCategories = [
         description: "Talk to Xu Dog after saving him (finishing his quest)",
         latitude: "0.59788930733160",
         longitude: "-0.96574659217907",
-        media: [],
       },
       {
         description: "从盘丝洞上层到此",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "花间桥 起点",
         longitude: -0.5215244804662404,
         latitude: 0.910751792134576,
@@ -6900,7 +6663,6 @@ export const markerCategories = [
         description:
           "打完紫珠儿,逃离蜘蛛潮的时候坠崖被蜘蛛丝拉起来后到达的地方<div><br></div>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "击败紫珠儿后起始点",
         longitude: -1.193406533144156,
         latitude: 0.24578214899935347,
@@ -6908,7 +6670,6 @@ export const markerCategories = [
       {
         description: "从此进入紫云山",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "隐·紫云山-起点",
         longitude: -1.2171718572897703,
         latitude: 0.15448951230902708,
@@ -6916,7 +6677,6 @@ export const markerCategories = [
       {
         description: "切换到下一张地图,盘丝洞下花间桥",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "通往花间桥",
         longitude: -1.026843261718568,
         latitude: 0.6869546909674114,
@@ -6924,7 +6684,6 @@ export const markerCategories = [
       {
         description: "<p>切换到下一张地图,盘丝洞下花间桥</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "通往花间桥",
         longitude: -0.39201322739813804,
         latitude: 0.7109945153097073,
@@ -6932,7 +6691,6 @@ export const markerCategories = [
       {
         description: "跟着火盆木板提示往下跳就行(下面这一片白色都是碎玉池)",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "向下前往碎玉池",
         longitude: -0.8407373323443892,
         latitude: 0.6193353081664128,
@@ -6940,16 +6698,14 @@ export const markerCategories = [
       {
         description: "初次进入盘丝洞时的起点",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "盘丝洞 起点",
         longitude: -1.0460415672911267,
         latitude: 0.28985376818583575,
       },
       {
         description:
-          "<p>建议对照游民官方路线进行攻略,确保不错过任何道具！</p><div>(点击左下角查看攻略即可进入)</div>",
+          "<p>建议对照游民官方路线进行攻略,确保不错过任何道具!</p><div>(点击左下角查看攻略即可进入)</div>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "建议对照官方路线攻略",
         longitude: -0.3224598047642644,
         latitude: 0.838345753868353,
@@ -6958,7 +6714,6 @@ export const markerCategories = [
         description:
           "<div>第四回,二师兄会和你一起进图陪你打一段路</div>周围很多药草,可以拾取一下,二师兄还会吐槽你喜欢捡破烂从来不用",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "第四回 起点",
         longitude: -0.21351404651190364,
         latitude: 0.9869417058685599,
@@ -6967,7 +6722,6 @@ export const markerCategories = [
         description:
           "回头走,从树下走过去第一个路口左拐回头就是大圣套装(需要获得筋斗云)<div>------</div><div>解锁筋斗云后,周围的空气墙会消失,可以直接跳过起始点后面树桩旁边的石头台阶去拿装备</div>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "第六章 起点",
         longitude: -0.3105848262664779,
         latitude: 0.44732466779248625,
@@ -6976,7 +6730,6 @@ export const markerCategories = [
         description:
           "这图建议速通后白天回来拿资源,掉入盘丝洞后再回来白天没有怪,放心领取所有宝箱资源。",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "这图建议速通后白天回来拿资源",
         longitude: -0.21303830619604014,
         latitude: 1.0910596719367618,
@@ -6984,7 +6737,6 @@ export const markerCategories = [
       {
         description: "",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "有几率掉淑玉花种子",
         longitude: -1.3311698831459466,
         latitude: 0.42360470087051283,
@@ -6992,7 +6744,6 @@ export const markerCategories = [
       {
         description: "跳进洞后再回来会变成白天",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "进盘丝洞后再次前来会变白天",
         longitude: -1.1524299234419288,
         latitude: 0.3790914340830369,
@@ -7000,7 +6751,6 @@ export const markerCategories = [
       {
         description: "进村后有一排灯笼,站在旁边八戒会说话",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "八戒剧情对话",
         longitude: -0.5130711922768114,
         latitude: 0.747266180746081,
@@ -7008,7 +6758,6 @@ export const markerCategories = [
       {
         description: "",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "小心弓箭手",
         longitude: -0.8369441252098397,
         latitude: 0.41356489427037957,
@@ -7016,7 +6765,6 @@ export const markerCategories = [
       {
         description: "慢慢接近不要触发战斗有对话小彩蛋",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "有对话小彩蛋",
         longitude: -0.701494216904905,
         latitude: 0.8624329012283596,
@@ -7024,7 +6772,6 @@ export const markerCategories = [
       {
         description: "<p>打死给内丹(概率掉落)</p>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "葛覃精",
         longitude: -0.6308038944391683,
         latitude: 0.8157317632391283,
@@ -7032,16 +6779,14 @@ export const markerCategories = [
       {
         description: "确实有个怪(快走出去的时候按闪避)",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "此处门路大开,必有埋伏!",
         longitude: -0.6705948641094324,
         latitude: 0.5907992944909921,
       },
       {
         description:
-          "很多蜘蛛和葛根精小心。<div>八戒会触发摘果子的对话,没有奖励</div>",
+          "很多蜘蛛和葛根精小心。<div>八戒会触发摘果子的对话,没有Reward</div>",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "八戒剧情对话",
         longitude: -0.6404497270368381,
         latitude: 0.4172690870606317,
@@ -7049,7 +6794,6 @@ export const markerCategories = [
       {
         description: "可以白天再来,白天这些怪物会消失",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "门后当心有偷袭",
         longitude: -0.9608312606100355,
         latitude: 0.4335235016171026,
@@ -7057,7 +6801,6 @@ export const markerCategories = [
       {
         description: "这里的葛覃拔出来是个妖怪",
         regionSlug: "04_zhujiadayuan",
-        media: [],
         title: "葛覃精",
         longitude: -0.6671233758601147,
         latitude: 0.3932823313320313,
@@ -7074,7 +6817,6 @@ export const markerCategories = [
         description:
           "<p>[获取方式]:</p><p>击杀虫卵孵出蜘蛛后掉落 或者 击破虫卵掉落<br></p><p>[用途]:喂养琴螂幼虫</p><p>可重复获得,上限3个</p>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "茧圆(概率)",
         longitude: -0.854216077974769,
         latitude: 0.37459874602107845,
@@ -7086,13 +6828,11 @@ export const markerCategories = [
         title: "黑手道人",
         longitude: -0.6294214493287882,
         latitude: 1.2176359071385292,
-        media: [],
       },
       {
         description:
           '盘丝洞上:兰喜村朱家大院→打二姐→进入盘丝洞→上层土地庙→碎玉池土地庙→土地庙旁水中【打坐蒲团】→第一次打黑手道人→花间桥土地庙<div><br></div><div><span style="font-family: var(--van-base-font);">盘丝洞下:花间桥土地庙</span>→大喜大喜房子里一堆宝箱→打琴螂仙→打蝎太子得精魄→发紫光的小塔处遇到四姐,揭第一张符纸→【打坐蒲团】→中层土地庙→打百足虫(从千红窟土地庙也能来到打百足虫的地方)→打破超大号茧救出马哥→小塔处揭第二张符纸→绝想崖土地庙→打右手虫→岔路口过左边的桥→堕龙壁土地庙→打小黄龙→进洞往高处走揭第三张符纸→猪八戒蜘蛛精长段剧情→底层土地庙→土地庙附近钻过狭缝,右边有个【打坐蒲团】→打波里个波→若仙庵土地庙→打两次猪八戒→濯垢泉土地庙→水池边佛头上拿到【行蕴】→万慈窟土地庙→打紫蛛儿</div>',
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "盘丝洞攻略路线",
         longitude: -0.3510509275943434,
         latitude: 0.43344246420299726,
@@ -7100,7 +6840,6 @@ export const markerCategories = [
       {
         description: "旁边的宝箱藏在一排悬挂茧后面",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "悬挂茧区域",
         longitude: -0.6407959518817847,
         latitude: 0.5022115966784924,
@@ -7108,7 +6847,6 @@ export const markerCategories = [
       {
         description: "注意这里会跳出来一个怪",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "跳出个青灯鬼吓人",
         longitude: -1.1447609404842183,
         latitude: 0.3292900877283387,
@@ -7117,7 +6855,6 @@ export const markerCategories = [
         description:
           "打太子之引怪,在之前的洞穴里有几只在天花板,出来之后在这里3只在地里,一个人打4只小怪加太子就可以在里无限猫车了",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "有一万只小怪会偷袭",
         longitude: -0.17137488725674643,
         latitude: 0.8137402406796923,
@@ -7126,7 +6863,6 @@ export const markerCategories = [
         description:
           '<p>这个地方有大量蜘蛛卵,使用双头鼠变身自爆可20秒刷2000+灵蕴(不能全打死可以补用一个定风珠,或者升级一下双头鼠的伤害)</p><p>隐身过去定风珠然后变鼠人自爆,然后直接青符传送,如此重复。<br></p><div>【可以增加掉落的装备】</div><div>珍玩金花玉萼(石中人处购买)、珍玩【仙箓】、百戏套装(豪华版赠礼),精魄带【幽灯鬼】,</div><div>全部装备,每20秒可刷3300+灵韵(一周目)；</div><div>实测二周目也能刷,带两个<span style="font-family: var(--van-base-font);">金花玉萼+百戏套+幽灯鬼,每趟9500+灵韵</span></div><div><br></div>',
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "刷钱点(玉碎池银行)",
         longitude: -0.4956096937793859,
         latitude: 1.0102954581529104,
@@ -7134,7 +6870,6 @@ export const markerCategories = [
       {
         description: "第二次之后来,从朱家大宅洞里跳下来回<div>会到这里</div>",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "盘丝洞起点(非剧情)",
         longitude: -0.4488960081251605,
         latitude: 0.17970993256565748,
@@ -7142,7 +6877,6 @@ export const markerCategories = [
       {
         description: "从火盆处往下蹦就好",
         regionSlug: "04_pansidongshangceng",
-        media: [],
         title: "有火盆的地方是正路",
         longitude: -0.8506890191580965,
         latitude: 0.5594457720361987,
@@ -7150,7 +6884,6 @@ export const markerCategories = [
       {
         description: "打蛤蟆省的绕路了,具体操作是跳跃+重攻击,直接跳不行。",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "这里有个三级台阶可以跳上去",
         longitude: -1.150845483147208,
         latitude: 0.7382367924297171,
@@ -7159,7 +6892,6 @@ export const markerCategories = [
         description:
           "好多人不知道小黄龙掉变身,其实CG剧情很明显了,刀就插在地上,和广智的一样,要自己去捡起来才会获得。<div>可能是场景太暗了好多人打完没看到,就忘了拿了。</div>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "打完小黄龙别忘了拔刀",
         longitude: -1.0216195506026509,
         latitude: 0.11406129015503552,
@@ -7168,7 +6900,6 @@ export const markerCategories = [
         description:
           "小黄龙在进行原地蓄力准备进入雷电状态时,当它第一段对你进行突刺时,快速使用聚形散气,有一定几率他会直接卡到头顶的石头那,这个时候走到他下面,用定风珠,能直接秒杀,不要质疑可行性,因为我就是这么过的,反正我也觉得挺离谱的",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "是个几率挺低的BUG",
         longitude: -1.0633256039990613,
         latitude: 0.0828973085383069,
@@ -7176,7 +6907,6 @@ export const markerCategories = [
       {
         description: "记得带上隐身,后面有个很恶心的独木桥",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "过木桥是堕龙壁",
         longitude: -0.9337021745163554,
         latitude: 0.3113237124091057,
@@ -7185,7 +6915,6 @@ export const markerCategories = [
         description:
           "<p>打完boss会有真·漫山遍野的蜘蛛</p><div>如果有密集或蜘蛛恐惧症的,务必做好心理准备</div><div>具体细节:打完boss后会有一个过场动画,最后一幕是满山遍野的蜘蛛追了出来,挺过这一幕不看之后一直按住shift往前跑就能在看不到这些蜘蛛的情况下进入下一个场景</div>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "蜘!蛛!潮!",
         longitude: -1.1712844955283686,
         latitude: 0.8787722319904248,
@@ -7194,7 +6923,6 @@ export const markerCategories = [
         description:
           "<p>打完八戒出屋子其实很好找&nbsp; 这一回的主线路径都是火盆指引</p>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "打完猪八戒才有路",
         longitude: -0.8973711683393617,
         latitude: 0.5505386683962854,
@@ -7203,7 +6931,6 @@ export const markerCategories = [
         description:
           "·推荐用隐身通过,有很多个镰刀虫蛹守桥<div>·虫蛹有碰撞箱,小心别被推了</div><div>·有耐心用戳棍一个个戳掉也行(注意戳棍有概率在收招的时候一脚踏空掉下去)</div><div>·对面还有个弓箭手埋伏你,所以还是建议隐身</div><div>·桥上的魂吸的时候,强制位移可能卡下去</div><div>·变身为暴躁(双头鼠),用自爆可清理所有虫蛹</div>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "逆天虫蛹独木桥",
         longitude: -1.0895394546334103,
         latitude: 0.24048037339284178,
@@ -7211,7 +6938,6 @@ export const markerCategories = [
       {
         description: "这个卵出来的螳螂可以刷 长须面具(概率)",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "这里的卵会打人",
         longitude: -0.4916315762588397,
         latitude: 1.0464425373206296,
@@ -7219,7 +6945,6 @@ export const markerCategories = [
       {
         description: "往左是紫符,往右是宝箱",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "分叉路口",
         longitude: -1.0194454309188643,
         latitude: 0.28217967103159936,
@@ -7227,7 +6952,6 @@ export const markerCategories = [
       {
         description: "躲过蜘蛛潮之后,跳下就可以进入黄花观",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "跳下进入黄花观",
         longitude: -1.3114093900871922,
         latitude: 0.8364129777270222,
@@ -7236,7 +6960,6 @@ export const markerCategories = [
         description:
           '<div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 从花间桥土地庙</span><span style="font-family: var(--van-base-font);">→大喜大喜房子里一堆宝箱→打琴螂仙→打蝎太子得精魄→发紫光的小塔处遇到四姐,揭第一张符纸</span></div><div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; 【打坐蒲团】→中层土地庙→打百足虫(从千红窟土地庙也能来到打百足虫的地方)→打破超大号茧救出马哥→小塔处揭第二张符纸</span></div><div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;绝想崖土地庙→打右手虫→岔路口过左边的桥→堕龙壁土地庙→打小黄龙→进洞往高处走揭第三张符纸</span></div><div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 猪八戒蜘蛛精长段剧情→底层土地庙→土地庙附近钻过狭缝,右边有个【打坐蒲团】→打波里个波→若仙庵土地庙→打两次猪八戒→濯垢泉土地庙→水池边佛头上拿到【行蕴】→万慈窟土地庙→打紫蛛儿</span><br></div>',
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "盘丝洞下攻略路线",
         longitude: -0.2668706008292645,
         latitude: 0.6084313786382012,
@@ -7245,7 +6968,6 @@ export const markerCategories = [
         description:
           "沟里全是大肉虫,两边是蜻蜓,一堆粪怪还有天上飞的骚扰你,掉下去一直挨揍",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "别掉到这个沟里面",
         longitude: -1.1941455025375376,
         latitude: 0.46443790241255556,
@@ -7253,8 +6975,7 @@ export const markerCategories = [
       {
         description: "面对虫子头右手边有个火盆,往上走能找到金丹",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
-        title: "过了虫子桥先别下去！",
+        title: "过了虫子桥先别下去!",
         longitude: -0.913884833950533,
         latitude: 0.3681420695850619,
       },
@@ -7262,7 +6983,6 @@ export const markerCategories = [
         description:
           '<p>不必担心,不会就进BOSS战<br></p><p>剧情<span style="font-family: var(--van-base-font);">CG</span><span style="font-family: var(--van-base-font);">结束后,并不能直接跳下去找八戒,看完剧情回头左手边才是路。</span></p>',
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "猪八戒被俘虏(结婚)剧情",
         longitude: -1.095498466608035,
         latitude: 0.36024473860938144,
@@ -7271,7 +6991,6 @@ export const markerCategories = [
         description:
           "<p>老龙就是六六村的那个画卷里的辰龙。在那三个花盆旁边能看到它,投喂三个茧圆可以获得它的魂魄</p><div>在老龙院子门口三个簸箕旁边,给老龙后需要在土地庙调息后才会出现,精魄也需要在投喂三个茧圆调息后出现</div>",
         regionSlug: "04_pansidongxiaceng",
-        media: [],
         title: "打完虫子拿到原体回画卷给老龙",
         longitude: -0.46102244945174675,
         latitude: 1.3276885022314389,
@@ -7280,7 +6999,6 @@ export const markerCategories = [
         description:
           '<p>需要先撕了前三个符才能互动:<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822213&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第1个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822209&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第2个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822255&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第3个紫符</a></p><div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div><p>互动完成后初见BOSS王灵官,打一点血后进剧情后飞走。</p><div>打完百眼魔君后任务(紫符)会消失</div>',
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "四姐剧情-最后的紫符",
         longitude: -0.9412669579062936,
         latitude: 1.1384045430814496,
@@ -7288,7 +7006,6 @@ export const markerCategories = [
       {
         description: "又来惩罚喜欢采集的猴了",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: " 葛蕈精",
         longitude: -0.6692955655691151,
         latitude: 0.37080670751701916,
@@ -7297,16 +7014,14 @@ export const markerCategories = [
         description:
           "我当时打到这儿的时候,我以为下面有路,然后在这里就一直往前走,然后他就在那里停了一个动作,最后还是摔下去死了",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "这里有bug会摔死",
         longitude: -0.7559373582120088,
         latitude: 0.5174037205101456,
       },
       {
         description:
-          "第一次来可能被吓一跳,会跳出来一个剑门弟子,有语音“来者何人！”",
+          "第一次来可能被吓一跳,会跳出来一个剑门弟子,有语音“来者何人!”",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "小心埋伏",
         longitude: -0.7390699050933165,
         latitude: 0.47386331840320395,
@@ -7314,16 +7029,14 @@ export const markerCategories = [
       {
         description: "估计是这个,找不到的注意一下就在路边",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "葛蕈精",
         longitude: -0.8932944861776093,
         latitude: 0.48069986259184816,
       },
       {
         description:
-          "建议先触发完4妹剧情再来打,打完百眼之后,4妹支线就不能撕符了,会少一段剧情。<div>注意先去紫云山打晦月魔君拿法宝,再回来打百眼魔君会轻松很多。<br><div>想捡宝箱的注意！！！进门就会触发剧情</div></div>",
+          "建议先触发完4妹剧情再来打,打完百眼之后,4妹支线就不能撕符了,会少一段剧情。<div>注意先去紫云山打晦月魔君拿法宝,再回来打百眼魔君会轻松很多。<br><div>想捡宝箱的注意!!!进门就会触发剧情</div></div>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "先做4妹支线再进这个门",
         longitude: -0.7400590861175544,
         latitude: 1.0862825520255228,
@@ -7331,7 +7044,6 @@ export const markerCategories = [
       {
         description: "楼梯右边草丛藏着一个蛇司药,会和正前方的蛇司药包夹打你",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "小心背刺",
         longitude: -0.7437744499886776,
         latitude: 0.7902341257494783,
@@ -7340,7 +7052,6 @@ export const markerCategories = [
         description:
           "不是地图起点,地图起点在左边,叫起始点,是过了盘丝洞剧情四妹救你起来的地方",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "黄花观观门",
         longitude: -0.4615922745018395,
         latitude: 0.450108442276715,
@@ -7348,7 +7059,6 @@ export const markerCategories = [
       {
         description: "为避免地图块之间互相覆盖,这里的地图断开了",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "移动到右侧地图观门",
         longitude: -1.0206990823485853,
         latitude: 0.36911415592392416,
@@ -7356,7 +7066,6 @@ export const markerCategories = [
       {
         description: "<p>需要完成黑手道人支线</p>",
         regionSlug: "04_huanghuaguan",
-        media: [],
         title: "紫云山入口",
         longitude: -0.4940130758852206,
         latitude: 1.007949338217415,
@@ -7364,7 +7073,6 @@ export const markerCategories = [
       {
         description: "",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "旁边树上有个蜘蛛怪偷袭",
         longitude: -0.29523307757582984,
         latitude: 0.9610760901924209,
@@ -7372,7 +7080,6 @@ export const markerCategories = [
       {
         description: "找路提醒:此处是一条枯木,可以攀爬,没有空气墙",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "枯木桩路",
         longitude: -0.9053047779138694,
         latitude: 0.6065185815373013,
@@ -7381,7 +7088,6 @@ export const markerCategories = [
         description:
           '<p>彩玉葫芦需要先击杀毒敌大王获得,直接打晦月魔君逃课是没有的。</p><p>补充:好像只要把毒敌大王骗下来了,宝箱里会换成葫芦,然后你可以逃课它不打,直接找<span style="font-family: var(--van-base-font);">晦月魔君,它就来送了。</span></p>',
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "宝箱里是丹药",
         longitude: -0.5118310303624867,
         latitude: 0.41125302237816186,
@@ -7389,7 +7095,6 @@ export const markerCategories = [
       {
         description: "又来骚扰爱收集的天命人了",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "葛蕈精",
         longitude: -0.9061646201645033,
         latitude: 0.4110002402274091,
@@ -7397,7 +7102,6 @@ export const markerCategories = [
       {
         description: "这个断桥能助跑直接跳过去",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "断桥",
         longitude: -0.3898003211789671,
         latitude: 1.0851641793560134,
@@ -7405,7 +7109,6 @@ export const markerCategories = [
       {
         description: "从此处上拐找到有珍玩的宝箱",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "上坡有宝箱(日金乌)",
         longitude: -0.9482483814463762,
         latitude: 0.7099269518283791,
@@ -7413,7 +7116,6 @@ export const markerCategories = [
       {
         description: "找地提辨识提醒:此处为吊桥<div>桥上有射毒箭的老六</div>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "吊桥",
         longitude: -0.6601988742542915,
         latitude: 0.5035888392606438,
@@ -7421,7 +7123,6 @@ export const markerCategories = [
       {
         description: "水道只有几个莲藕,死胡同里一点灵韵,不用特意下来",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "水里有六只小蛤蟆埋伏",
         longitude: -0.3914355116772583,
         latitude: 0.9894202507532981,
@@ -7430,7 +7131,6 @@ export const markerCategories = [
         description:
           "靡道人的任务做吗？如果击败晦月魔君,靡道人就消失了,会少一个变身。<div>毒敌大王打败了吗？如果接触了晦月魔君,无论是否击败BOSS,毒敌大王都会消失,会少一个衣甲制作材料。</div>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "[重要事项]进门前必读",
         longitude: -0.259836660666366,
         latitude: 1.1197172068468149,
@@ -7439,7 +7139,6 @@ export const markerCategories = [
         description:
           "这里是死路,断桥正下方,但是重击可以上去,哪怕是没有落脚点,但判定都会成功。",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "此处可以重击上墙",
         longitude: -0.4392574474997275,
         latitude: 1.1335080818602847,
@@ -7447,7 +7146,6 @@ export const markerCategories = [
       {
         description: "<p>打完晦月魔君靡道人会消失</p>",
         regionSlug: "04_ziyunshan",
-        media: [],
         title: "建议优先完成靡道人任务",
         longitude: -0.6047103328646131,
         latitude: 1.0520026247434942,
@@ -7456,7 +7154,6 @@ export const markerCategories = [
         description:
           "在石子后面,其他地方都有空气墙<div>看到一个V字形的山崖中间,一直往里飞</div>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "前往大石敢当的山涧",
         longitude: -0.8727509859193106,
         latitude: 0.6959386212988363,
@@ -7465,7 +7162,6 @@ export const markerCategories = [
         description:
           "从侧面飞到波浪浪身边(它一开始在的位置不是会触发BOSS战的场地),不会加载BOSS的AI,一棍一棍打,不要连击,一直能打死。蛤蟆掉地上就开始反击了。",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "有可利用的BUG",
         longitude: -0.44015755103231413,
         latitude: 0.9883257645270049,
@@ -7474,25 +7170,22 @@ export const markerCategories = [
         description:
           '<p>山脚:青嶂道土地庙→打王灵官,得到筋斗云→回到本关起点处,筋斗云飞到高处树下开宝箱,得到凡品大圣套→回到得到筋斗云的地方→到面前悬崖下的水池,打跳浪蛟→望犀坡土地庙→打金甲犀→附近河边空地,打浪波波→见鹿林土地庙→打步云鹿→捕螂汀土地庙→抓凤翅将军(大蚂蚱),得凤翅紫金冠→捕螂汀土地庙触发猪八戒剧情,打碧臂螂</p><p>*记得打水木兽和毒统领 影响成就收集</p><div><br></div><div>水帘洞:河对岸悬崖边打石子→击败大石敢当化作岩石,到岩石上拿【识蕴】→到如意画轴,找戌狗炼制【五蕴丹】→水帘洞拿如意金箍棒→峰回路土地庙→天真顶土地庙→进入石卵→最终BOSS战→普通结局</div><div><br></div><div>隐藏结局:<span style="font-family: var(--van-base-font);">天真顶土地庙→小西天-浮屠界-浮屠塔→正中间壁画处见到弥勒,来到最后的隐藏关卡梅山→打二郎神→花果山-水帘洞-天真顶→再次进入石卵→最终BOSS战→隐藏结局</span></div>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "花果山攻略顺序(含剧透)",
         longitude: -0.3814703824795913,
         latitude: 0.5561222710402234,
       },
       {
         description:
-          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p><span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记！</span><span style="font-family: var(--van-base-font);">)</span><br></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
+          '<p>[Reward]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p><span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span><br></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "风翅将军-落点4",
         longitude: -0.5381335285224793,
         latitude: 0.7151922143115712,
       },
       {
         description:
-          '<p>[奖励]:<span style="font-family: var(--van-base-font);">玲珑内丹(概率)</span></p><p>[攻略要点]:水木兽不止一只,水里到处能找到,会重复刷新,可以刷内丹</p>',
+          '<p>[Reward]:<span style="font-family: var(--van-base-font);">玲珑内丹(概率)</span></p><p>[攻略要点]:水木兽不止一只,水里到处能找到,会重复刷新,可以刷内丹</p>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "水木兽",
         longitude: -0.6637847948076967,
         latitude: 0.5380156019033819,
@@ -7501,7 +7194,6 @@ export const markerCategories = [
         description:
           "水木兽周边可刷出天将,持盾的天兵,在刚进花果山时被八戒抢了人头导致图鉴未解锁的可以过来这里刷,顺便一提水木兽是反复刷新的",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "天将图鉴解锁点",
         longitude: -0.6266554596042226,
         latitude: 0.5415855718443936,
@@ -7510,7 +7202,6 @@ export const markerCategories = [
         description:
           "<p>水边有金龟,打了会反弹,多打几下天上就会下来天兵</p><p>纯属彩蛋,不影响任何头目、影神图收集</p>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "无敌金龟",
         longitude: -0.6637158347256786,
         latitude: 0.47231157591336626,
@@ -7518,52 +7209,46 @@ export const markerCategories = [
       {
         description: "这边有个黄色的树 很显眼很好找",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "黄色的树",
         longitude: -0.7087920890320163,
         latitude: 0.4557277747585715,
       },
       {
         description:
-          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p>',
+          '<p>[Reward]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "凤翅将军-落点3",
         longitude: -0.5903982783507047,
         latitude: 0.575444029782048,
       },
       {
         description:
-          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[奖励]:</p><p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br></p><p style="white-space-collapse: collapse;">[攻略要点]:</p><p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p></div>',
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]:</p><p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br></p><p style="white-space-collapse: collapse;">[攻略要点]:</p><p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p></div>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "凤翅将军-落点6(无法捕捉)",
         longitude: -0.410940596443254,
         latitude: 0.9345775700868302,
       },
       {
         description:
-          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[奖励]:</p><p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br></p><p style="white-space-collapse: collapse;">[攻略要点]:</p><p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p></div>',
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]:</p><p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br></p><p style="white-space-collapse: collapse;">[攻略要点]:</p><p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p></div>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "凤翅将军-落点7(无法捕捉)",
         longitude: -0.3884011619591661,
         latitude: 1.041463897292786,
       },
       {
         description:
-          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p>',
+          '<p>[Reward]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "凤翅将军-落点5(无法捕捉)",
         longitude: -0.3867032912872901,
         latitude: 0.8151262443650893,
       },
       {
         description:
-          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
+          '<p>[Reward]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "凤翅将军-落点2",
         longitude: -0.6199587924042191,
         latitude: 0.4266667179389003,
@@ -7572,7 +7257,6 @@ export const markerCategories = [
         description:
           "<div>算是个彩蛋吧,强化后变成游戏唯一神品精魄【波波浪浪】</div>效果是随机化身5个不同属性的蛤蟆,高贵属性攻击伤害很炸裂",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "击败6只蛤蟆,可把波里个浪强化到神品",
         longitude: -0.48425727436864463,
         latitude: 1.0138343619481134,
@@ -7581,7 +7265,6 @@ export const markerCategories = [
         description:
           "<p>在筋斗云上无法触发boss战,但是你直接跳下去稳定挨1口,这个可以避免:只要在快落地时重新上云就行</p><div><div>[注意]这个位置不是王灵官前面的水坑</div></div>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "一定要落水池里跳浪蛟才会出现",
         longitude: -0.45204881998529345,
         latitude: 0.6211038713001074,
@@ -7590,7 +7273,6 @@ export const markerCategories = [
         description:
           "1.进来时筋斗云贴地走,飞太高被吼下来会摔死。<div>2.进场看左边(BOSS面向的右前方)有个长木头桩子,木桩和BOSS连线中间有个石头,如下图所示。这石头后无敌,BOSS什么招式和地震波都不会打到。</div><div>3.站这石头后,等BOSS双手砸地2次,上去打BOSS手部的水晶。或者BOSS手砸在眼前不动,也可以去打。轻松过。(可以用禁字法提高伤害)</div><div>4.BOSS最后一小格血会连续砸地,赶紧跑这石头后等着别被砸死。</div>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "大石敢当超轻松攻略",
         longitude: -0.9262170134096266,
         latitude: 0.8743129530271432,
@@ -7599,7 +7281,6 @@ export const markerCategories = [
         description:
           "先完成收集大圣套剧情再走这条路,不然前方触发不了剧情,是一条死路。<div>你需要和大圣当年一样,跳进瀑布,跑起来,使劲跳。</div><div>如果重开轮回每周目都需要打4BOSS集齐套装,不然不触发剧情</div>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "水帘洞:需集齐大圣套",
         longitude: -0.8575827418204938,
         latitude: 0.4492039336620195,
@@ -7608,10 +7289,73 @@ export const markerCategories = [
         description:
           "<p>拿完金箍棒往前走就能打最终战了,这时候返回小西天浮屠塔打完二郎神有隐藏剧情</p><div>感觉棍子实在不好打的,可以考虑用三尖两刃刀</div><div>同一周目可以2个结局都解锁:</div><div>先打最终战,解锁坏结局,打完看完CG回到主界面后不要选择再入轮回,而是继续游戏后,会回到水帘洞的土地庙。然后去浮屠塔打杨戬,再打第二次大圣解锁好结局。</div><div>多周目也要先打杨戬再来打这个,不然打完就直接开三周目了,会少拿个根器点。</div>",
         regionSlug: "06_huaguoshan",
-        media: [],
         title: "结局提醒(含剧透)",
         longitude: -1.2651948321719715,
         latitude: 0.2578590166952779,
+      },
+      {
+        description:
+          "<p>[获取方式]:<br>右手虫掉落,必经之路BOSS,不会错过</p><p>[用途]:</p><p>剧情任务道具</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "照骨镜",
+        longitude: -0.8470448834885929,
+        latitude: 0.33204239379000455,
+      },
+      {
+        description:
+          "<p>[获取方式]:<br>在佛头上</p><p>[用途]:</p><p>五蕴收集任务必备道具</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "行蕴",
+        longitude: -0.8437845008218972,
+        latitude: 0.7842762106262882,
+      },
+      {
+        description:
+          "<p>[获取方式]:击败boss猪八戒获得<br><br></p><p>[用途]:用于后续剧情</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "染血绣针",
+        longitude: -0.7708139131962923,
+        latitude: 0.6452531462923616,
+      },
+      {
+        description:
+          "<p>[获取方式]:<br>黄衣道士(非虫头)概率掉落</p><p>掉落概率在2%~5%(打了24个黄袍道人出的)</p><p>[用途]:</p><p>靡道人任务需求道具</p>",
+        regionSlug: "04_ziyunshan",
+        title: "藕雹(概率)",
+        longitude: -0.49181025471690987,
+        latitude: 0.9049322910165927,
+      },
+      {
+        description:
+          '<p>[获取方式]:<br>击杀大石敢当获得</p><p>[用途]:</p><p>五蕴收集任务必备道具,拿到识蕴可以去六六村找戌狗<span style="font-family: var(--van-base-font);">那边炼丹</span></p><p><span style="font-family: var(--van-base-font);">关联成就【</span>五蕴结丹六十八难<span style="font-family: var(--van-base-font);">】</span></p><p><span style="font-family: var(--van-base-font);">补充:五蕴丹计入全仙丹收集【当饭吃哩六十九难】</span></p><p><span style="font-family: var(--van-base-font);">其他四蕴位置:</span></p><p>【<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821559&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">色蕴</a>】【<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=822414&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">受蕴</a>】【<a href="https://app.gamersky.com/map/?mapId=53&amp;landmarkId=821832&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">想蕴</a>】【<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822238&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">行蕴</a>】<br></p>',
+        regionSlug: "06_huaguoshan",
+        title: "识蕴",
+        longitude: -0.9526161084052092,
+        latitude: 0.9231555270231979,
+      },
+      {
+        description:
+          "<p>[获取方式]:需要集齐大圣四件套之后再过来<br><br></p><p>[用途]:解锁大圣五件套效果,四阶段棍势不会衰退,大圣姿态可用</p>",
+        regionSlug: "06_huaguoshan",
+        title: "如意金箍棒",
+        longitude: -0.8515098093626818,
+        latitude: 0.3439884282860248,
+      },
+      {
+        description:
+          '<p>[获取方式]:<br>打完王灵官获得<br></p><p>[用途]:</p><p><span style="font-family: var(--van-base-font);">解锁花果山区域的飞行能力,</span>键鼠G键、手柄下方向键召唤筋斗云</p>',
+        regionSlug: "06_huaguoshan",
+        title: "筋斗云",
+        longitude: -0.3569975406714434,
+        latitude: 0.5221366162946879,
+      },
+      {
+        description:
+          "<p>[获取方式]:<br>来到花果山后,右手边的石壁处,找斜坡跳上去,上去之后在一棵大树下面就是凡品大圣套。没解锁筋斗云的时候这儿有空气墙,先去打败BOSS王灵官再来取。</p><p>[用途]:</p><p>这套随根器被动完整度强度增强,初始阶段很弱</p><p>[补充一]:</p><p>大圣套就在起始点后面山上一棵斜脖子大树下面。</p><p>如果已经获得,二周目再来箱子是空的。</p><p><br></p>",
+        regionSlug: "06_huaguoshan",
+        title: "凡品·大圣套",
+        longitude: -0.2847176374754383,
+        latitude: 0.42114324088380783,
       },
     ],
     groupSlug: "bmw_other",
@@ -7622,7 +7366,6 @@ export const markerCategories = [
       {
         description:
           "<p>[相关事件]:</p><p>先要跟他打一架,打完触发对话</p><p><br></p><p>打完两个五行战车回来触发第二个对话(注意回来时的位置,他走到另一边看风景),会帮你打第三个五行战车,还涉及到后续隐藏任务<br></p><p><br></p><p>第二个对话打完第三个铜车也可以触发,再上第三铜车处,可触发下一段对话</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "皓斧力士(位置1)",
         longitude: -1.127629679588381,
@@ -7631,7 +7374,6 @@ export const markerCategories = [
       {
         description:
           "<p>[相关事件]:<br></p><p>牛哥在这里被战车打成重伤,干掉赤金战车,完事后会帮你打开隐藏图的入口</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "皓斧卫士(位置3)",
         longitude: -0.5917931341508336,
@@ -7640,7 +7382,6 @@ export const markerCategories = [
       {
         description:
           "<p>[相关事件]:做完皓斧卫士任务一后来此处<br></p><p>打红银战车可以先回春秋寨对话,然后在回来这个点他会在此助战。</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "皓斧卫士(位置2)",
         longitude: -0.36612345214066977,
@@ -7649,7 +7390,6 @@ export const markerCategories = [
       {
         description:
           "<p>有NPC,但不能互动,疑似是BUG</p><p>----</p><p>哥哥~哥哥~哥哥~</p>",
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "小狐狸(萍萍)",
         longitude: -0.18230223853510097,
@@ -7657,8 +7397,7 @@ export const markerCategories = [
       },
       {
         description:
-          '<p>[相关事件]:</p><p>马哥支线,在这里一个五行战车里,记得拉3次对完话<br></p><p>马哥被火焰山土地算计了,落得如此下场。<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走。</span></p><p>[奖励]:<span style="font-family: var(--van-base-font);">马哥的变身</span></p><p>[注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span></p><p>马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a></p><p>回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面</p>',
-        media: [],
+          '<p>[相关事件]:</p><p>马哥支线,在这里一个五行战车里,记得拉3次对完话<br></p><p>马哥被火焰山土地算计了,落得如此下场。<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走。</span></p><p>[Reward]:<span style="font-family: var(--van-base-font);">马哥的变身</span></p><p>[注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span></p><p>马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a></p><p>回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面</p>',
         regionSlug: "05_huoyanshan",
         title: "马哥(位置5)",
         longitude: -0.45072482637738176,
@@ -7667,7 +7406,6 @@ export const markerCategories = [
       {
         description:
           '<p>[相关事件]:小狐狸芭蕉扇灭火</p><p>到地点自动触发,再往前开了土地庙以后不建议继续往前了,建议先回头<span style="font-family: var(--van-base-font);">去打隐藏关,</span><span style="font-family: var(--van-base-font);">关系到重要的配方解锁和剧情CG</span><span style="font-family: var(--van-base-font);">。</span></p><p>记得去取和师叔一起摔下悬崖的铁球精魄。</p>',
-        media: [],
         regionSlug: "05_huoyanshan",
         title: "小狐狸-灭火剧情",
         longitude: -0.2446161199684127,
@@ -7675,8 +7413,7 @@ export const markerCategories = [
       },
       {
         description:
-          '<p>[相关事件]:<br></p><p>初始葫芦满级后【药师佛葫芦】吸收该处红精魄可将葫芦升级至神珍品质</p><p>[奖励]:</p><p>葫芦升级【上清宝葫芦】</p><p>[图鉴]:</p><p><span style="font-family: var(--van-base-font);">葫芦仙人支线做完后解锁其他所有图鉴自动解锁袁守诚</span></p>',
-        media: [],
+          '<p>[相关事件]:<br></p><p>初始葫芦满级后【药师佛葫芦】吸收该处红精魄可将葫芦升级至神珍品质</p><p>[Reward]:</p><p>葫芦升级【上清宝葫芦】</p><p>[图鉴]:</p><p><span style="font-family: var(--van-base-font);">葫芦仙人支线做完后解锁其他所有图鉴自动解锁袁守诚</span></p>',
         regionSlug: "05_huoyanshan",
         title: "葫芦仙人(位置5)",
         longitude: -0.39264229265270956,
@@ -7747,7 +7484,6 @@ export const markerCategories = [
           "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398924)",
         latitude: "0.93424878783188",
         longitude: "-0.70666538820186",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -7755,7 +7491,6 @@ export const markerCategories = [
         description: "Input to journal upon defeating Fuban.",
         latitude: "1.08721121838460",
         longitude: "-0.41375532448035",
-        media: [],
       },
 
       {
@@ -7765,7 +7500,6 @@ export const markerCategories = [
           "**Location:** Inside the cave. \n\nDefeat [Lang-Li-Guhh-Baw](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397429) and then return to him with the [Evil Repelling Medicant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398788) formula.  He will teach you how to brew them at Shrines\n\n**Related Quest:** [Xu Dog's Quest](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398921)",
         latitude: "0.50180861033366",
         longitude: "-0.69197652573223",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -7857,7 +7591,6 @@ export const markerCategories = [
           "Grants [Pluck of Many](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399176) after cutscene.",
         latitude: "0.64438266655648",
         longitude: "-0.84109822202893",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -7866,7 +7599,6 @@ export const markerCategories = [
           "Found here after giving the [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398863) the [Sobering Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399634)",
         latitude: "0.57844073117383",
         longitude: "-0.96255885987748",
-        media: [],
       },
 
       {
@@ -7876,7 +7608,6 @@ export const markerCategories = [
           "**Location:** Bitter Lake - North Shore Of The Bitter Lake  \n\n**Reward:** ??",
         latitude: "0.98040415453539",
         longitude: "-0.72172343730941",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -7885,7 +7616,6 @@ export const markerCategories = [
           "**Location:** Valley Of Ecstasy - Melon Field\n  \n\n**Reward:** ??",
         latitude: "1.09100404701390",
         longitude: "-0.64200918043923",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -7893,7 +7623,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.39503846703253",
         longitude: "-0.78733895053989",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -7901,7 +7630,6 @@ export const markerCategories = [
         description: "",
         latitude: "1.00838673963370",
         longitude: "-0.72394123603141",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -7910,7 +7638,6 @@ export const markerCategories = [
           "You encounter him once you go to the tree in the middle of the area. taking you to the next area",
         latitude: "0.39451122133877",
         longitude: "-0.75578225062571",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -7919,7 +7646,6 @@ export const markerCategories = [
           "Blinded and deafened NPC in the cell blocked by purple seal.",
         latitude: "0.46012162697782",
         longitude: "-0.63120040629155",
-        media: [],
       },
     ],
     groupSlug: "bmw_other",
@@ -7976,7 +7702,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.26064544423843",
         longitude: "-0.64496397972019",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -7984,7 +7709,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.34152901577762",
         longitude: "-0.89360475540076",
-        media: [],
       },
 
       {
@@ -7993,7 +7717,6 @@ export const markerCategories = [
         description: "**Location:** On the lower cliff level by the edge",
         latitude: "0.49809703892999",
         longitude: "-0.66761209089063",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8001,7 +7724,6 @@ export const markerCategories = [
         description: "**Location:** Under the bridge",
         latitude: "0.69789699273242",
         longitude: "-0.67175743045157",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8009,7 +7731,6 @@ export const markerCategories = [
         description: "Immediately left of gate",
         latitude: "0.61150935160293",
         longitude: "-0.75046028441793",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8018,7 +7739,6 @@ export const markerCategories = [
           "Upon using the gourd, instantly gains a moderate amount of Focus.",
         latitude: "0.56525260198107",
         longitude: "-0.93693597804810",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8026,7 +7746,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.38701980921854",
         longitude: "-0.75583082638707",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8034,7 +7753,6 @@ export const markerCategories = [
         description: "**Location:** Under the bridge",
         latitude: "0.71483307249461",
         longitude: "-0.66150390044842",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8042,7 +7760,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.57950689333524",
         longitude: "-1.06406078413690",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8050,7 +7767,6 @@ export const markerCategories = [
         description: "Note: May receive steel ginseng at this location.",
         latitude: "0.77577713019643",
         longitude: "-1.01626499135900",
-        media: [],
       },
     ],
     groupSlug: "bmw_materials",
@@ -8064,7 +7780,6 @@ export const markerCategories = [
         description: "**Location:** Inside a small canyon in the cave",
         latitude: "0.49597235559739",
         longitude: "-0.88936028713695",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8088,7 +7803,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.69019569806753",
         longitude: "-0.68631811839398",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8096,7 +7810,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.79059525449413",
         longitude: "-0.70902354033049",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8104,7 +7817,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.80837440562731",
         longitude: "-0.66741839584497",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8112,7 +7824,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.90145988430824",
         longitude: "-0.71217336665466",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8120,7 +7831,6 @@ export const markerCategories = [
         description: "Right before the bridge",
         latitude: "0.56318411939867",
         longitude: "-0.79518599724091",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8128,7 +7838,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.71901910029088",
         longitude: "-1.04486100974570",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8136,7 +7845,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.75241406754873",
         longitude: "-1.10478781670510",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8144,7 +7852,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.78389756229140",
         longitude: "-1.02283427418070",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8152,7 +7859,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.81466851823136",
         longitude: "-1.00847115210070",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8160,7 +7866,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77470558641680",
         longitude: "-0.93866829030802",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8168,7 +7873,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.74183709552834",
         longitude: "-0.90716656075554",
-        media: [],
       },
 
       {
@@ -8177,7 +7881,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.37164284560293",
         longitude: "-0.75167191732459",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8185,7 +7888,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.25719296409024",
         longitude: "-0.60297704784227",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8193,7 +7895,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.25354519606265",
         longitude: "-0.59838510600895",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8224,7 +7925,6 @@ export const markerCategories = [
           "**Location:** Just outside the [Elite Swift Bat](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398759) arena",
         latitude: "0.50652320943958",
         longitude: "-0.92942044831642",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8232,7 +7932,6 @@ export const markerCategories = [
         description: "**Location:** Inside the small canyon",
         latitude: "0.41028056559040",
         longitude: "-0.68800215598051",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8257,7 +7956,6 @@ export const markerCategories = [
           "**Location:** On a ledge at the edge of the [Lang-Li-Guhh-Baw](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397429) arena",
         latitude: "0.51304923341593",
         longitude: "-0.66238625288568",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8265,7 +7963,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.52745334505845",
         longitude: "-0.80377289088446",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8273,7 +7970,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.60064370158234",
         longitude: "-0.80921646567182",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8281,7 +7977,6 @@ export const markerCategories = [
         description: "Before dropping down to grab chest, at the edge.",
         latitude: "0.80749981530118",
         longitude: "-0.85896503540138",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8289,7 +7984,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.76570860326377",
         longitude: "-0.66978574531532",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8297,7 +7991,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.79061736900989",
         longitude: "-0.67649257008193",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8305,7 +7998,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.92547594832283",
         longitude: "-0.71761952178812",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8313,7 +8005,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.60351218783481",
         longitude: "-0.86805448421188",
-        media: [],
       },
     ],
     groupSlug: "bmw_materials",
@@ -8327,7 +8018,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.30022224810324",
         longitude: "-0.95931839854566",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8335,7 +8025,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.80033224903119",
         longitude: "-0.60540676356558",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8343,7 +8032,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.80567514211953",
         longitude: "-0.61308162617135",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8351,7 +8039,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.80884958725815",
         longitude: "-0.57338386774148",
-        media: [],
       },
       {
         regionSlug: "chapter-3",
@@ -8359,7 +8046,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.39651549956942",
         longitude: "-0.77498129771212",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8368,7 +8054,6 @@ export const markerCategories = [
           "**Location:** In the water.\n\n**Note:** You will be attacked by the Rat Archers on the hill upon picking this up",
         latitude: "0.46299972147619",
         longitude: "-0.59252720110726",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8376,7 +8061,6 @@ export const markerCategories = [
         description: "**Location:** In the water",
         latitude: "0.48017067042131",
         longitude: "-0.58083453056963",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8384,7 +8068,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.45578833502951",
         longitude: "-0.73632001876726",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8392,7 +8075,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.60412226804583",
         longitude: "-1.03431293984540",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8400,7 +8082,6 @@ export const markerCategories = [
         description: "**Location:** In the pond",
         latitude: "0.40462120330243",
         longitude: "-0.73049598358565",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8408,7 +8089,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77633817360083",
         longitude: "-0.68852392411142",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8416,7 +8096,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.55152461654500",
         longitude: "-0.66996945340313",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8424,7 +8103,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.49679366416790",
         longitude: "-0.74446128054046",
-        media: [],
       },
 
       {
@@ -8530,7 +8208,6 @@ export const markerCategories = [
         description: "**Location:** By a tree near the gate",
         latitude: "0.46916401992473",
         longitude: "-0.56019635864661",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8538,7 +8215,6 @@ export const markerCategories = [
         description: "**Location:** In the hills, beside a small building",
         latitude: "0.50196371466006",
         longitude: "-0.62591695539444",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8546,7 +8222,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.43794211193850",
         longitude: "-0.78696964020429",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8554,7 +8229,6 @@ export const markerCategories = [
         description: "**Location:** On the top of the cliffs",
         latitude: "0.49948336351122",
         longitude: "-0.72684997492851",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8562,7 +8236,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53823012671446",
         longitude: "-0.92264282128116",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8571,7 +8244,6 @@ export const markerCategories = [
           "**Location:** In the cave, by a narrow bridge near the Blazebone",
         latitude: "0.49163807476631",
         longitude: "-0.88542280430397",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8579,7 +8251,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.51576790865285",
         longitude: "-0.74269072353874",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8587,7 +8258,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.58498151526070",
         longitude: "-0.79201346117005",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8595,7 +8265,6 @@ export const markerCategories = [
         description: "**Location:** Under the building",
         latitude: "0.41040465822709",
         longitude: "-0.80733554902886",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8603,7 +8272,6 @@ export const markerCategories = [
         description: "**Location:** By the tree",
         latitude: "0.63872097750171",
         longitude: "-0.71065784569478",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8611,7 +8279,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.90317627948529",
         longitude: "-0.67191877376495",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8619,7 +8286,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.39995393486510",
         longitude: "-0.66587300533598",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8627,7 +8293,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53398397204627",
         longitude: "-0.63911717076647",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8635,7 +8300,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.76838693376604",
         longitude: "-1.02965712547520",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8643,7 +8307,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.77939371544387",
         longitude: "-1.05648994445660",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8651,7 +8314,6 @@ export const markerCategories = [
         description: "",
         latitude: "1.01448315097870",
         longitude: "-0.51777378052995",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8659,7 +8321,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.96387031767236",
         longitude: "-0.52162092931098",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8667,7 +8328,6 @@ export const markerCategories = [
         description: "",
         latitude: "1.00136169039990",
         longitude: "-0.43654118272181",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8675,7 +8335,6 @@ export const markerCategories = [
         description: "",
         latitude: "1.02745013013200",
         longitude: "-0.40804539414813",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8683,7 +8342,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.80545848086926",
         longitude: "-0.78156021847374",
-        media: [],
       },
     ],
     groupSlug: "bmw_materials",
@@ -8697,7 +8355,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.53210555157145",
         longitude: "-0.90572712654614",
-        media: [],
       },
       {
         regionSlug: "chapter-1",
@@ -8747,7 +8404,6 @@ export const markerCategories = [
           "**Location:** Just outside the [Elite Swift Bat](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398759) arena - behind some rocks",
         latitude: "0.50856759384387",
         longitude: "-0.93698295131753",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8755,7 +8411,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.75588876134779",
         longitude: "-0.66056386126004",
-        media: [],
       },
     ],
     groupSlug: "bmw_materials",
@@ -8769,7 +8424,6 @@ export const markerCategories = [
         description: "**Location:** Beside a slanted dead tree",
         latitude: "0.45741758539966",
         longitude: "-0.70774215732407",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8778,7 +8432,6 @@ export const markerCategories = [
           "**Location:** Inside the cave, near [Xu Dog](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398476)",
         latitude: "0.49192246469948",
         longitude: "-0.70045621170626",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8786,7 +8439,6 @@ export const markerCategories = [
         description: "**Location:** On a tree inside the cave",
         latitude: "0.47218580458129",
         longitude: "-0.83060431908765",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8794,7 +8446,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.79233421286467",
         longitude: "-0.69124876048815",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8802,7 +8453,6 @@ export const markerCategories = [
         description: "On the eastern side of tree past gate",
         latitude: "0.37016077855895",
         longitude: "-0.73113527574998",
-        media: [],
       },
       {
         regionSlug: "chapter-2",
@@ -8810,7 +8460,6 @@ export const markerCategories = [
         description: "",
         latitude: "0.73169445466323",
         longitude: "-0.81944136046096",
-        media: [],
       },
 
       {
@@ -9869,7 +9518,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Elevator",
-        description: null,
+        description: "",
         latitude: "0.74757687029212",
         longitude: "-0.51499391509313",
       },
@@ -9906,14 +9555,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Elevator",
-        description: null,
+        description: "",
         latitude: "0.85190102438276",
         longitude: "-0.62347430330794",
       },
       {
         regionSlug: "the-lands-between",
         title: "Elevator",
-        description: null,
+        description: "",
         latitude: "0.79689195016502",
         longitude: "-0.78843766740746",
       },
@@ -10291,7 +9940,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Magic Barrier",
-        description: null,
+        description: "",
         latitude: "0.65023607212751",
         longitude: "-0.64404410623121",
         media: [
@@ -10307,7 +9956,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Magic Barrier",
-        description: null,
+        description: "",
         latitude: "0.64853761003414",
         longitude: "-0.64234895013380",
         media: [
@@ -10395,7 +10044,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Laskyar Ruins Cellar",
-        description: null,
+        description: "",
         latitude: "0.67732412031198",
         longitude: "-0.77694229446453",
         media: [
@@ -10855,7 +10504,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Gatefront Ruins",
-        description: null,
+        description: "",
         latitude: "0.62868242526491",
         longitude: "-0.72222098708198",
         media: [
@@ -10871,21 +10520,21 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Church of Elleh",
-        description: null,
+        description: "",
         latitude: "0.61839678548825",
         longitude: "-0.72726705408791",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stormgate",
-        description: null,
+        description: "",
         latitude: "0.63098093951018",
         longitude: "-0.72528406977713",
       },
       {
         regionSlug: "the-lands-between",
         title: "Castle Morne",
-        description: null,
+        description: "",
         latitude: "0.55714504050486",
         longitude: "-0.71229279041395",
         media: [
@@ -10918,84 +10567,84 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Forest Lookout Tower",
-        description: null,
+        description: "",
         latitude: "0.59058916775389",
         longitude: "-0.70299491286170",
       },
       {
         regionSlug: "the-lands-between",
         title: "Bridge of Sacrifice",
-        description: null,
+        description: "",
         latitude: "0.59461092504878",
         longitude: "-0.69779276847967",
       },
       {
         regionSlug: "the-lands-between",
         title: "Ailing Village",
-        description: null,
+        description: "",
         latitude: "0.58114158043449",
         longitude: "-0.70789799094297",
       },
       {
         regionSlug: "the-lands-between",
         title: "Callu Baptismal Church",
-        description: null,
+        description: "",
         latitude: "0.57886450165610",
         longitude: "-0.70680901408144",
       },
       {
         regionSlug: "the-lands-between",
         title: "Tower of Return",
-        description: null,
+        description: "",
         latitude: "0.56909236349024",
         longitude: "-0.72726354002936",
       },
       {
         regionSlug: "the-lands-between",
         title: "Isolated Merchant's Shack",
-        description: null,
+        description: "",
         latitude: "0.57494733396403",
         longitude: "-0.73535576462587",
       },
       {
         regionSlug: "the-lands-between",
         title: "Witchbane Ruins",
-        description: null,
+        description: "",
         latitude: "0.58108525694122",
         longitude: "-0.73337629437509",
       },
       {
         regionSlug: "the-lands-between",
         title: "Fourth Church of Marika",
-        description: null,
+        description: "",
         latitude: "0.58486563485148",
         longitude: "-0.73251664638630",
       },
       {
         regionSlug: "the-lands-between",
         title: "Tombsward Ruins",
-        description: null,
+        description: "",
         latitude: "0.58826783869058",
         longitude: "-0.72534441948011",
       },
       {
         regionSlug: "the-lands-between",
         title: "Demi-Human Forest Ruins",
-        description: null,
+        description: "",
         latitude: "0.59032096109560",
         longitude: "-0.71257844567302",
       },
       {
         regionSlug: "the-lands-between",
         title: "Church of Pilgrimage",
-        description: null,
+        description: "",
         latitude: "0.59792327380829",
         longitude: "-0.71887493133579",
       },
       {
         regionSlug: "the-lands-between",
         title: "Dragon-Burnt Ruins",
-        description: null,
+        description: "",
         latitude: "0.61197458355397",
         longitude: "-0.71459412574782",
         media: [
@@ -11011,14 +10660,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Waypoint Ruins",
-        description: null,
+        description: "",
         latitude: "0.61795288307633",
         longitude: "-0.70278972387351",
       },
       {
         regionSlug: "the-lands-between",
         title: "Fort Haight",
-        description: null,
+        description: "",
         latitude: "0.61377826592309",
         longitude: "-0.68197175860294",
         media: [
@@ -11034,14 +10683,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Mistwood Ruins",
-        description: null,
+        description: "",
         latitude: "0.62123035084952",
         longitude: "-0.69463580846761",
       },
       {
         regionSlug: "the-lands-between",
         title: "Siofra River Well",
-        description: null,
+        description: "",
         latitude: "0.62722607324203",
         longitude: "-0.68804964423055",
         media: [
@@ -11057,7 +10706,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Third Church of Marika",
-        description: null,
+        description: "",
         latitude: "0.64009184300758",
         longitude: "-0.68632096051971",
         media: [
@@ -11073,7 +10722,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Summonwater Village",
-        description: null,
+        description: "",
         latitude: "0.64943606751744",
         longitude: "-0.69461166858588",
         media: [
@@ -11096,35 +10745,35 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Warmaster's Shack",
-        description: null,
+        description: "",
         latitude: "0.64041368799222",
         longitude: "-0.72593182325355",
       },
       {
         regionSlug: "the-lands-between",
         title: "Laskyar Ruins",
-        description: null,
+        description: "",
         latitude: "0.67696575734702",
         longitude: "-0.77541992068225",
       },
       {
         regionSlug: "the-lands-between",
         title: "Church of Irith",
-        description: null,
+        description: "",
         latitude: "0.65299110592946",
         longitude: "-0.75979471206668",
       },
       {
         regionSlug: "the-lands-between",
         title: "Purified Ruins",
-        description: null,
+        description: "",
         latitude: "0.67441970787465",
         longitude: "-0.76119018684739",
       },
       {
         regionSlug: "the-lands-between",
         title: "Carian Study Hall",
-        description: null,
+        description: "",
         latitude: "0.70455965903301",
         longitude: "-0.75923949480014",
       },
@@ -11138,14 +10787,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Tetsu's Rise",
-        description: null,
+        description: "",
         latitude: "0.73907024422940",
         longitude: "-0.80574765801353",
       },
       {
         regionSlug: "the-lands-between",
         title: "Kingsrealm Ruins",
-        description: null,
+        description: "",
         latitude: "0.75152134609002",
         longitude: "-0.81067085266096",
       },
@@ -11160,7 +10809,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Shack of the Rotting",
-        description: null,
+        description: "",
         latitude: "0.65518903298651",
         longitude: "-0.67763864994143",
         media: [
@@ -11176,28 +10825,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Smoldering Church",
-        description: null,
+        description: "",
         latitude: "0.65943603146566",
         longitude: "-0.68503886461357",
       },
       {
         regionSlug: "the-lands-between",
         title: "Deep Siofra Well",
-        description: null,
+        description: "",
         latitude: "0.65748217123226",
         longitude: "-0.65347462892555",
       },
       {
         regionSlug: "the-lands-between",
         title: "Forsaken Ruins",
-        description: null,
+        description: "",
         latitude: "0.65447427096817",
         longitude: "-0.67399084568166",
       },
       {
         regionSlug: "the-lands-between",
         title: "Caelem Ruins",
-        description: null,
+        description: "",
         latitude: "0.65386276717309",
         longitude: "-0.66462993621877",
         media: [
@@ -11213,7 +10862,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Sellia Gateway",
-        description: null,
+        description: "",
         latitude: "0.63478944395644",
         longitude: "-0.64291343093032",
       },
@@ -11235,7 +10884,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Bestial Sanctum",
-        description: null,
+        description: "",
         latitude: "0.69286475629545",
         longitude: "-0.62896728515747",
         media: [
@@ -11251,56 +10900,56 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "East Windmill Pasture",
-        description: null,
+        description: "",
         latitude: "0.82548563758709",
         longitude: "-0.74084356427210",
       },
       {
         regionSlug: "the-lands-between",
         title: "Fort Gael",
-        description: null,
+        description: "",
         latitude: "0.63549213954084",
         longitude: "-0.67543655634012",
       },
       {
         regionSlug: "the-lands-between",
         title: "Castle Sol",
-        description: null,
+        description: "",
         latitude: "0.85009763815559",
         longitude: "-0.62419965863282",
       },
       {
         regionSlug: "the-lands-between",
         title: "Fort Laiedd",
-        description: null,
+        description: "",
         latitude: "0.80716935040650",
         longitude: "-0.80273956060520",
       },
       {
         regionSlug: "the-lands-between",
         title: "Grand Lift of Rold",
-        description: null,
+        description: "",
         latitude: "0.80014265406528",
         longitude: "-0.64914554357520",
       },
       {
         regionSlug: "the-lands-between",
         title: "Minor Erdtree Church",
-        description: null,
+        description: "",
         latitude: "0.76640898204072",
         longitude: "-0.71910560130922",
       },
       {
         regionSlug: "the-lands-between",
         title: "Woodfolk Ruins",
-        description: null,
+        description: "",
         latitude: "0.80262881861840",
         longitude: "-0.73484882712395",
       },
       {
         regionSlug: "the-lands-between",
         title: "Second Church of Marika",
-        description: null,
+        description: "",
         latitude: "0.79300866761054",
         longitude: "-0.75628235936114",
       },
@@ -11315,14 +10964,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "The Shaded Castle",
-        description: null,
+        description: "",
         latitude: "0.81181849568296",
         longitude: "-0.75936019420584",
       },
       {
         regionSlug: "the-lands-between",
         title: "Hermit's Shack",
-        description: null,
+        description: "",
         latitude: "0.79176960554848",
         longitude: "-0.79622313380338",
       },
@@ -11336,7 +10985,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Caria Manor",
-        description: null,
+        description: "",
         latitude: "0.76897160270796",
         longitude: "-0.80160096287810",
       },
@@ -11350,42 +10999,42 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Church of Vows",
-        description: null,
+        description: "",
         latitude: "0.72522849370883",
         longitude: "-0.78234136104768",
       },
       {
         regionSlug: "the-lands-between",
         title: "Academy Gate Town",
-        description: null,
+        description: "",
         latitude: "0.70365850485317",
         longitude: "-0.78455686569305",
       },
       {
         regionSlug: "the-lands-between",
         title: "Rose Church",
-        description: null,
+        description: "",
         latitude: "0.69801690026718",
         longitude: "-0.80593004822657",
       },
       {
         regionSlug: "the-lands-between",
         title: "Temple Quarter",
-        description: null,
+        description: "",
         latitude: "0.70622786660441",
         longitude: "-0.81095784902394",
       },
       {
         regionSlug: "the-lands-between",
         title: "Converted Tower",
-        description: null,
+        description: "",
         latitude: "0.68863387905982",
         longitude: "-0.81675276160174",
       },
       {
         regionSlug: "the-lands-between",
         title: "Village of the Albinaurics",
-        description: null,
+        description: "",
         latitude: "0.67736494125629",
         longitude: "-0.80969755964767",
       },
@@ -11399,7 +11048,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Bellum Church",
-        description: null,
+        description: "",
         latitude: "0.75353282934385",
         longitude: "-0.79053148627165",
       },
@@ -11438,14 +11087,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Church of the Plague",
-        description: null,
+        description: "",
         latitude: "0.64310511590024",
         longitude: "-0.63714399933838",
       },
       {
         regionSlug: "the-lands-between",
         title: "First Church of Marika",
-        description: null,
+        description: "",
         latitude: "0.82706931731728",
         longitude: "-0.59457466006430",
       },
@@ -11459,21 +11108,21 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Church of Repose",
-        description: null,
+        description: "",
         latitude: "0.79931795513681",
         longitude: "-0.62798023223860",
       },
       {
         regionSlug: "the-lands-between",
         title: "Highway Lookout Tower",
-        description: null,
+        description: "",
         latitude: "0.68621872367957",
         longitude: "-0.76373219489915",
       },
       {
         regionSlug: "the-lands-between",
         title: "Isolated Merchant's Shack (Dragonbarrow)",
-        description: null,
+        description: "",
         latitude: "0.66628727586523",
         longitude: "-0.66286370158454",
       },
@@ -11503,28 +11152,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Hermit Village",
-        description: null,
+        description: "",
         latitude: "0.79474389026392",
         longitude: "-0.78038334846596",
       },
       {
         regionSlug: "the-lands-between",
         title: "Perfumer's Ruins",
-        description: null,
+        description: "",
         latitude: "0.78641508310233",
         longitude: "-0.79115509987065",
       },
       {
         regionSlug: "the-lands-between",
         title: "Sainted Hero's Grave",
-        description: null,
+        description: "",
         latitude: "0.79144240727973",
         longitude: "-0.74551731347967",
       },
       {
         regionSlug: "the-lands-between",
         title: "West Windmill Pasture",
-        description: null,
+        description: "",
         latitude: "0.82018479814799",
         longitude: "-0.75038284063243",
       },
@@ -11555,7 +11204,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Fort Faroth",
-        description: null,
+        description: "",
         latitude: "0.65222002085675",
         longitude: "-0.62880635261425",
       },
@@ -11569,7 +11218,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Boilprawn Shack",
-        description: null,
+        description: "",
         latitude: "0.68968925195867",
         longitude: "-0.78658059239390",
         media: [
@@ -11593,7 +11242,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stargazer Ruins",
-        description: null,
+        description: "",
         latitude: "0.83646008255950",
         longitude: "-0.62790513038803",
       },
@@ -11614,14 +11263,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Frenzied Flame Village",
-        description: null,
+        description: "",
         latitude: "0.74748228491977",
         longitude: "-0.77182039618569",
       },
       {
         regionSlug: "the-lands-between",
         title: "Corpse-Stench Shack",
-        description: null,
+        description: "",
         latitude: "0.81271694541292",
         longitude: "-0.77311187982724",
       },
@@ -11642,14 +11291,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Wyndham Ruins",
-        description: null,
+        description: "",
         latitude: "0.78868267659618",
         longitude: "-0.77200144529360",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stormcaller Church",
-        description: null,
+        description: "",
         latitude: "0.78431376976059",
         longitude: "-0.74550926685467",
       },
@@ -11663,14 +11312,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Swamp Lookout Tower",
-        description: null,
+        description: "",
         latitude: "0.63928723045090",
         longitude: "-0.64590141176973",
       },
       {
         regionSlug: "the-lands-between",
         title: "Frenzy-Flaming Tower",
-        description: null,
+        description: "",
         latitude: "0.75383589274043",
         longitude: "-0.76969876885559",
       },
@@ -11685,28 +11334,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Shack of the Lofty",
-        description: null,
+        description: "",
         latitude: "0.83758112629124",
         longitude: "-0.63539117574686",
       },
       {
         regionSlug: "the-lands-between",
         title: "Yelough Anix Ruins",
-        description: null,
+        description: "",
         latitude: "0.82467971735001",
         longitude: "-0.66711634397583",
       },
       {
         regionSlug: "the-lands-between",
         title: "Ordina, Liturgical Town",
-        description: null,
+        description: "",
         latitude: "0.84558665652152",
         longitude: "-0.65705403685624",
       },
       {
         regionSlug: "the-lands-between",
         title: "Apostate Derelict",
-        description: null,
+        description: "",
         latitude: "0.85496128575201",
         longitude: "-0.66753074526861",
       },
@@ -11721,7 +11370,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Zamor Ruins",
-        description: null,
+        description: "",
         latitude: "0.79946948519544",
         longitude: "-0.64347133040400",
         media: [
@@ -11737,56 +11386,56 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Guardians' Garrison",
-        description: null,
+        description: "",
         latitude: "0.82637201556675",
         longitude: "-0.61762690544222",
       },
       {
         regionSlug: "the-lands-between",
         title: "Uhl Palace Ruins",
-        description: null,
+        description: "",
         latitude: "0.38603485711928",
         longitude: "-0.77812552047874",
       },
       {
         regionSlug: "the-lands-between",
         title: "Nokstella, Eternal City",
-        description: null,
+        description: "",
         latitude: "0.38975318005087",
         longitude: "-0.79503188284559",
       },
       {
         regionSlug: "the-lands-between",
         title: "Grand Cloister",
-        description: null,
+        description: "",
         latitude: "0.35792428425255",
         longitude: "-0.81312813582269",
       },
       {
         regionSlug: "the-lands-between",
         title: "Hallowhorn Grounds",
-        description: null,
+        description: "",
         latitude: "0.27421892325891",
         longitude: "-0.67509343701852",
       },
       {
         regionSlug: "the-lands-between",
         title: "Night's Sacred Ground",
-        description: null,
+        description: "",
         latitude: "0.28393580499360",
         longitude: "-0.68649879034055",
       },
       {
         regionSlug: "the-lands-between",
         title: "Nokron, Eternal City",
-        description: null,
+        description: "",
         latitude: "0.27821287492880",
         longitude: "-0.69682644976126",
       },
       {
         regionSlug: "the-lands-between",
         title: "Lux Ruins",
-        description: null,
+        description: "",
         latitude: "0.78010873610224",
         longitude: "-0.77042514845519",
         media: [
@@ -11802,49 +11451,49 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Moonfolk Ruins",
-        description: null,
+        description: "",
         latitude: "0.68012405720805",
         longitude: "-0.81269736582502",
       },
       {
         regionSlug: "the-lands-between",
         title: "Lunar Estate Ruins",
-        description: null,
+        description: "",
         latitude: "0.67351407515214",
         longitude: "-0.80113569894645",
       },
       {
         regionSlug: "the-lands-between",
         title: "Highway Lookout Tower",
-        description: null,
+        description: "",
         latitude: "0.81161322817651",
         longitude: "-0.72432657793070",
       },
       {
         regionSlug: "the-lands-between",
         title: "Uhl Palace Ruins",
-        description: null,
+        description: "",
         latitude: "0.37313561141622",
         longitude: "-0.78388916950379",
       },
       {
         regionSlug: "the-lands-between",
         title: "Chelona's Rise",
-        description: null,
+        description: "",
         latitude: "0.65990697262590",
         longitude: "-0.82380807864760",
       },
       {
         regionSlug: "the-lands-between",
         title: "Hallowhorn Grounds",
-        description: null,
+        description: "",
         latitude: "0.29240521295698",
         longitude: "-0.67776446333320",
       },
       {
         regionSlug: "the-lands-between",
         title: "Mohgwyn Dynasty Mausoleum",
-        description: null,
+        description: "",
         latitude: "0.28240865934680",
         longitude: "-0.65117871415649",
         media: [
@@ -11860,35 +11509,35 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Siofra Aqueduct",
-        description: null,
+        description: "",
         latitude: "0.30073033804888",
         longitude: "-0.67202377068676",
       },
       {
         regionSlug: "the-lands-between",
         title: "Forge of the Giants",
-        description: null,
+        description: "",
         latitude: "0.80031372267651",
         longitude: "-0.59689663025949",
       },
       {
         regionSlug: "the-lands-between",
         title: "The Four Belfries",
-        description: null,
+        description: "",
         latitude: "0.72887380026559",
         longitude: "-0.82111255357000",
       },
       {
         regionSlug: "the-lands-between",
         title: "Dominula, Windmill Village",
-        description: null,
+        description: "",
         latitude: "0.81696078619902",
         longitude: "-0.72842307042819",
       },
       {
         regionSlug: "the-lands-between",
         title: "Artist's Shack",
-        description: null,
+        description: "",
         latitude: "0.70957510363045",
         longitude: "-0.76530418354041",
         media: [
@@ -11904,14 +11553,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Elphael, Brace of the Haligtree",
-        description: null,
+        description: "",
         latitude: "0.89096777226217",
         longitude: "-0.64307842716792",
       },
       {
         regionSlug: "the-lands-between",
         title: "Subterranean Shunning Grounds",
-        description: null,
+        description: "",
         latitude: "0.77755969373938",
         longitude: "-0.69836343428324",
       },
@@ -11926,14 +11575,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Artist's Shack",
-        description: null,
+        description: "",
         latitude: "0.63793011046253",
         longitude: "-0.70310350228251",
       },
       {
         regionSlug: "the-lands-between",
         title: "Gaol Cave Rear Exit",
-        description: null,
+        description: "",
         latitude: "0.63900912753510",
         longitude: "-0.67777149454116",
       },
@@ -11975,49 +11624,49 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stormveil Castle",
-        description: null,
+        description: "",
         latitude: "0.63855905598081",
         longitude: "-0.74768722056996",
       },
       {
         regionSlug: "the-lands-between",
         title: "Redmane Castle",
-        description: null,
+        description: "",
         latitude: "0.61114076740685",
         longitude: "-0.62417023593196",
       },
       {
         regionSlug: "the-lands-between",
         title: "Volcano Manor",
-        description: null,
+        description: "",
         latitude: "0.80487226570089",
         longitude: "-0.79173311591111",
       },
       {
         regionSlug: "the-lands-between",
         title: "Raya Lucaria Academy",
-        description: null,
+        description: "",
         latitude: "0.71566985650205",
         longitude: "-0.80587506294228",
       },
       {
         regionSlug: "the-lands-between",
         title: "Leyndell, Royal Capital",
-        description: null,
+        description: "",
         latitude: "0.77684719283810",
         longitude: "-0.70134401321536",
       },
       {
         regionSlug: "the-lands-between",
         title: "Crumbling Farum Azula",
-        description: null,
+        description: "",
         latitude: "0.73273002511594",
         longitude: "-0.51664978265703",
       },
       {
         regionSlug: "the-lands-between",
         title: "Miquella's Haligtree",
-        description: null,
+        description: "",
         latitude: "0.88499725280575",
         longitude: "-0.64078504121687",
       },
@@ -12371,7 +12020,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.62460168832484",
         longitude: "-0.72858452796766",
       },
@@ -12418,7 +12067,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.61292537232632",
         longitude: "-0.73365658521533",
         media: [
@@ -12523,21 +12172,21 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Summoning Pool",
-        description: null,
+        description: "",
         latitude: "0.27464201917635",
         longitude: "-0.69541854632880",
       },
       {
         regionSlug: "the-lands-between",
         title: "Summoning Pool",
-        description: null,
+        description: "",
         latitude: "0.27948665557530",
         longitude: "-0.67978863493943",
       },
       {
         regionSlug: "the-lands-between",
         title: "Summoning Pool",
-        description: null,
+        description: "",
         latitude: "0.30357231009263",
         longitude: "-0.66271524451557",
         media: [
@@ -12606,7 +12255,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.62301952659314",
         longitude: "-0.62371572082029",
       },
@@ -12636,14 +12285,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.61010910449677",
         longitude: "-0.62524647041779",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.62477321118024",
         longitude: "-0.71899313411242",
         media: [
@@ -12675,7 +12324,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.28816285121023",
         longitude: "-0.68429020865315",
         media: [
@@ -12698,7 +12347,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Summoning Pool",
-        description: null,
+        description: "",
         latitude: "0.84083996591878",
         longitude: "-0.61777062762053",
         media: [
@@ -12714,7 +12363,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.84888216672081",
         longitude: "-0.60929863980908",
         media: [
@@ -12730,14 +12379,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.74390792971016",
         longitude: "-0.77179329626500",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.71168661972587",
         longitude: "-0.81534455249232",
         media: [
@@ -12819,7 +12468,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.80926460042460",
         longitude: "-0.79105642243994",
       },
@@ -12843,7 +12492,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.81912603799555",
         longitude: "-0.72736022607205",
         media: [
@@ -12859,14 +12508,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.37660556662196",
         longitude: "-0.77423012872120",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.39191458794348",
         longitude: "-0.77724238450216",
         media: [
@@ -12882,14 +12531,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.79172280440278",
         longitude: "-0.79688738130807",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.84497804498062",
         longitude: "-0.63175187574288",
       },
@@ -12912,14 +12561,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.79086161235230",
         longitude: "-0.78718603573580",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.80148672368166",
         longitude: "-0.80185640441570",
       },
@@ -12943,7 +12592,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.27990541842925",
         longitude: "-0.68716261846043",
         media: [
@@ -13317,21 +12966,21 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.80660882430759",
         longitude: "-0.74960001851039",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.78763821912301",
         longitude: "-0.76747667935862",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.84379976714220",
         longitude: "-0.64676068101639",
         media: [
@@ -13370,7 +13019,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.77785158766368",
         longitude: "-0.69942090025978",
       },
@@ -13384,28 +13033,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.78254100782395",
         longitude: "-0.69321339289516",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.43244582296059",
         longitude: "-0.71319341873343",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr effigy",
-        description: null,
+        description: "",
         latitude: "0.75112140346447",
         longitude: "-0.81301366304544",
       },
       {
         regionSlug: "the-lands-between",
         title: "Summoning Pool",
-        description: null,
+        description: "",
         latitude: "0.69351898044327",
         longitude: "-0.82518186238229",
       },
@@ -13429,28 +13078,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.80113141334775",
         longitude: "-0.79324003455832",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.84901739056632",
         longitude: "-0.62728737762168",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.80586396240616",
         longitude: "-0.78673656627032",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.79761188396894",
         longitude: "-0.78636148315843",
       },
@@ -13464,7 +13113,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Magma Wyrm",
-        description: null,
+        description: "",
         latitude: "0.83155856343288",
         longitude: "-0.64749416660069",
       },
@@ -13485,56 +13134,56 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.88240306472699",
         longitude: "-0.64446544540951",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Malenia, Goddess of Rot)",
-        description: null,
+        description: "",
         latitude: "0.89174400478990",
         longitude: "-0.64149717094469",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Drainage Channel)",
-        description: null,
+        description: "",
         latitude: "0.89039728586717",
         longitude: "-0.63790851452114",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Elphael Inner Wall)",
-        description: null,
+        description: "",
         latitude: "0.89464566950527",
         longitude: "-0.64458327460704",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Prayer Room)",
-        description: null,
+        description: "",
         latitude: "0.88829255848607",
         longitude: "-0.63971295749448",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Loretta's War Sickle)",
-        description: null,
+        description: "",
         latitude: "0.87840812438587",
         longitude: "-0.63739114569509",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Haligtree Town)",
-        description: null,
+        description: "",
         latitude: "0.87901038481635",
         longitude: "-0.64174191885886",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.27846552364937",
         longitude: "-0.63842713241334",
       },
@@ -13548,14 +13197,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.28557280044245",
         longitude: "-0.64734187377130",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Radagon of the Golden Order)",
-        description: null,
+        description: "",
         latitude: "0.76570725447702",
         longitude: "-0.68815577255208",
       },
@@ -13590,28 +13239,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.80148260343272",
         longitude: "-0.70212206060458",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.65010486586827",
         longitude: "-0.67798915923089",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.66349471256612",
         longitude: "-0.62379846029203",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.75204556652535",
         longitude: "-0.76155584775452",
       },
@@ -13625,35 +13274,35 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.27431715115432",
         longitude: "-0.68355878025255",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Raya Lucaria Crystal Tunnel)",
-        description: null,
+        description: "",
         latitude: "0.73618134887252",
         longitude: "-0.78544843213680",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy",
-        description: null,
+        description: "",
         latitude: "0.66713283956210",
         longitude: "-0.64426262464261",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Dragonbarrow Cave)",
-        description: null,
+        description: "",
         latitude: "0.66337031509727",
         longitude: "-0.62714853787833",
       },
       {
         regionSlug: "the-lands-between",
         title: "Martyr Effigy (Gaol Cave)",
-        description: null,
+        description: "",
         latitude: "0.63763106921525",
         longitude: "-0.67239426679654",
       },
@@ -13753,7 +13402,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Minor Erdtree",
-        description: null,
+        description: "",
         latitude: "0.62340147097464",
         longitude: "-0.68943366408359",
         media: [
@@ -13790,7 +13439,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Minor Erdtree",
-        description: null,
+        description: "",
         latitude: "0.80364929888214",
         longitude: "-0.70043608546052",
       },
@@ -13811,21 +13460,21 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Minor Erdtree (Mt Gelmir)",
-        description: null,
+        description: "",
         latitude: "0.81144609784870",
         longitude: "-0.78090186320858",
       },
       {
         regionSlug: "the-lands-between",
         title: "Minor Erdtree",
-        description: null,
+        description: "",
         latitude: "0.84004096112322",
         longitude: "-0.64150200177022",
       },
       {
         regionSlug: "the-lands-between",
         title: "Minor Erdtree",
-        description: null,
+        description: "",
         latitude: "0.83610517183255",
         longitude: "-0.61856446107084",
       },
@@ -14284,7 +13933,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Gatefront",
-        description: null,
+        description: "",
         latitude: "0.63104262657697",
         longitude: "-0.72372302413112",
         media: [
@@ -14336,7 +13985,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.64695652396493",
         longitude: "-0.71121722459705",
         media: [
@@ -14352,14 +14001,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.57861640997885",
         longitude: "-0.69816023111468",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.58412001954558",
         longitude: "-0.71129634976461",
       },
@@ -14382,14 +14031,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.58764023482652",
         longitude: "-0.71437284350446",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump Point",
-        description: null,
+        description: "",
         latitude: "0.59454119136919",
         longitude: "-0.70380225777635",
         media: [
@@ -14405,7 +14054,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.60484299187630",
         longitude: "-0.71581050753670",
         media: [
@@ -14421,14 +14070,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.61609422001186",
         longitude: "-0.69809854030512",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.64500802296428",
         longitude: "-0.68504557013452",
         media: [
@@ -14444,7 +14093,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.64878835560786",
         longitude: "-0.68507775664304",
         media: [
@@ -14460,14 +14109,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.66818615107911",
         longitude: "-0.77075287699779",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.60204962612286",
         longitude: "-0.70104762911754",
         media: [
@@ -14483,7 +14132,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.63754658486121",
         longitude: "-0.71544975042184",
       },
@@ -14497,14 +14146,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.69332757315796",
         longitude: "-0.76181565722557",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.63785636047521",
         longitude: "-0.70677303127744",
         media: [
@@ -14520,14 +14169,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.79772975075211",
         longitude: "-0.75943114832691",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.66406589069784",
         longitude: "-0.75883538906967",
       },
@@ -14541,35 +14190,35 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.73902928299006",
         longitude: "-0.79167701991562",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.79925469028187",
         longitude: "-0.75566949704611",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.79994332962390",
         longitude: "-0.75818142588687",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.78332086704862",
         longitude: "-0.71723042478629",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.81406499759773",
         longitude: "-0.74530345439899",
       },
@@ -14583,63 +14232,63 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritsong Jump Point",
-        description: null,
+        description: "",
         latitude: "0.43854479687167",
         longitude: "-0.70879608113279",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritsong Jump Point",
-        description: null,
+        description: "",
         latitude: "0.43503478585983",
         longitude: "-0.72024660841203",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.27823408054209",
         longitude: "-0.66982970369335",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.83466279744884",
         longitude: "-0.63428171808454",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.68209182345960",
         longitude: "-0.76689013104914",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.79586782428184",
         longitude: "-0.62768861293412",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.75468849105884",
         longitude: "-0.76750202906220",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.79067721446472",
         longitude: "-0.69337163475828",
       },
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.83005966214584",
         longitude: "-0.60384114035281",
       },
@@ -14654,7 +14303,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring Jump",
-        description: null,
+        description: "",
         latitude: "0.78214518898160",
         longitude: "-0.73645677647673",
       },
@@ -14669,7 +14318,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Spiritspring jump",
-        description: null,
+        description: "",
         latitude: "0.64990760221652",
         longitude: "-0.68514879109671",
         media: [
@@ -14747,7 +14396,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.59892904732595",
         longitude: "-0.69979637861266",
         media: [
@@ -14763,7 +14412,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.61414402121770",
         longitude: "-0.71759497109764",
         media: [
@@ -14834,7 +14483,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.62559002352462",
         longitude: "-0.72333142161386",
         media: [
@@ -14867,7 +14516,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.64412480509628",
         longitude: "-0.65244116515746",
       },
@@ -14895,7 +14544,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.77228383122581",
         longitude: "-0.80090492963893",
         media: [
@@ -14948,7 +14597,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.66284399024180",
         longitude: "-0.62375851655082",
       },
@@ -14969,14 +14618,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.58661569151985",
         longitude: "-0.69655610088407",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.62934018183647",
         longitude: "-0.72886684875340",
         media: [
@@ -14999,105 +14648,105 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.63982920292943",
         longitude: "-0.65803884411537",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.63748293171676",
         longitude: "-0.65174835665147",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.62131240355923",
         longitude: "-0.62337819882254",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.66053269724227",
         longitude: "-0.67153599921247",
       },
       {
         regionSlug: "the-lands-between",
         title: "Nokron Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.27721224891394",
         longitude: "-0.69208965479024",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.84308280120615",
         longitude: "-0.66674316102668",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.74422976765148",
         longitude: "-0.77200787298653",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.72646924413868",
         longitude: "-0.77799476848901",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.67475151271226",
         longitude: "-0.76363788057142",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.70569932316046",
         longitude: "-0.79114925588357",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.69893080574573",
         longitude: "-0.80450390428692",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.70629897248125",
         longitude: "-0.80872321606166",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.68248866379885",
         longitude: "-0.76452209463770",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.30369903992450",
         longitude: "-0.67066955520227",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.38003545114353",
         longitude: "-0.79442716721789",
       },
@@ -15111,56 +14760,56 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.30546848037632",
         longitude: "-0.82564504963185",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.65764258142106",
         longitude: "-0.76509240950230",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.84409365184538",
         longitude: "-0.63248672676551",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.68279950421588",
         longitude: "-0.82412234277425",
       },
       {
         regionSlug: "the-lands-between",
         title: "Moonfolk Ruins Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.67800287085134",
         longitude: "-0.81192305746313",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.81925449921998",
         longitude: "-0.74502030940323",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.81916871986866",
         longitude: "-0.72697711044319",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.80645863548450",
         longitude: "-0.74942835713387",
       },
@@ -15175,63 +14824,63 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.78457782453783",
         longitude: "-0.78864256773335",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.77939088185407",
         longitude: "-0.77813153305718",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.81340358900181",
         longitude: "-0.77636546161017",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.69750351034557",
         longitude: "-0.76057345309636",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.71924605810482",
         longitude: "-0.76788384689320",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.73351647943087",
         longitude: "-0.77113649373809",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.79752128438155",
         longitude: "-0.70943796179682",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.76772872057118",
         longitude: "-0.69691735102415",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.73122446981894",
         longitude: "-0.79146004492802",
       },
@@ -15245,56 +14894,56 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.77822595183926",
         longitude: "-0.71649988039820",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.27999822388598",
         longitude: "-0.64937269688971",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.67308736771935",
         longitude: "-0.80002406620079",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.84488607210045",
         longitude: "-0.64670083927967",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.28268247232117",
         longitude: "-0.65076843992156",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.83534571723760",
         longitude: "-0.66554301881939",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika (Yelough Anix Ruins)",
-        description: null,
+        description: "",
         latitude: "0.82297424567119",
         longitude: "-0.66414993466628",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.83307083871533",
         longitude: "-0.60620083949772",
       },
@@ -15308,56 +14957,56 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.28305464748971",
         longitude: "-0.67836455711287",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.67432193057525",
         longitude: "-0.80680586531770",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.78998875309473",
         longitude: "-0.64955818255140",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.36738084302519",
         longitude: "-0.79747356778185",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.79130053870161",
         longitude: "-0.75443482082918",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.61588475312938",
         longitude: "-0.64542772372394",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.80296547457957",
         longitude: "-0.74162432959960",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.77600965738785",
         longitude: "-0.73608381854032",
         media: [
@@ -15373,7 +15022,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.74991881070706",
         longitude: "-0.81339808410181",
       },
@@ -15388,14 +15037,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.57609840303948",
         longitude: "-0.70714024179173",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.80574656477768",
         longitude: "-0.76039125876770",
       },
@@ -15410,28 +15059,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.80223282638453",
         longitude: "-0.80129058765235",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.79294007840777",
         longitude: "-0.69706114537141",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.67336984364381",
         longitude: "-0.78791119574112",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.62298977624349",
         longitude: "-0.69396619587459",
       },
@@ -15445,28 +15094,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.61824854007351",
         longitude: "-0.70397913337825",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.79006090459509",
         longitude: "-0.71924897058395",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.66295872478399",
         longitude: "-0.67645309400154",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.79743587330815",
         longitude: "-0.73634901840745",
       },
@@ -15490,7 +15139,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.75970336618234",
         longitude: "-0.78280447014018",
         media: [
@@ -15506,7 +15155,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Stake of Marika",
-        description: null,
+        description: "",
         latitude: "0.78045490932234",
         longitude: "-0.76058379076878",
         media: [
@@ -17097,7 +16746,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Godrick the Grafted](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164052).  \n**Effect:** +5 to all attributes  \n**Related Tower:** [Divine Tower of Limgrave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164074)",
         latitude: "0.65097287432006",
         longitude: "-0.75074359774450",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17106,7 +16754,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Rennala, Queen of the Full Moon](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164430)  \n**Effect:** Grants access to the Rebirth mechanic from [Rennala](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165895).  \n**Related Tower:** None",
         latitude: "0.72147638233810",
         longitude: "-0.80408871173910",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17115,7 +16762,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Starscourge Radahn](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165444)  \n**Effect:**  Increases HP, FP & Stamina by 15%  \n**Related Tower:** [Divine Tower of Caelid](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165620)",
         latitude: "0.63887967238129",
         longitude: "-0.60965320007674",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17124,7 +16770,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Rykard, Lord of Blasphemy](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167571)  \n**Effect:** Restores HP upon defeating enemies.  \n**Related Tower:** [Divine Tower of West Altus](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167706)",
         latitude: "0.80205622314057",
         longitude: "-0.78933924436333",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17133,7 +16778,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Morgott, the Omen King](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167374)  \n**Effect:** Greatly increases HP  \n**Related Tower:** [Divine Tower of East Altus](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168667)",
         latitude: "0.77054394547634",
         longitude: "-0.69108566745908",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17142,7 +16786,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Mohg, Lord of Blood](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168412)    \n**Effect:** Grants a blessing that empowers nearby summoned spirits.  \n**Related Tower:** [Divine Tower of East Altus](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168667)",
         latitude: "0.28345405060630",
         longitude: "-0.65338152290218",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17151,7 +16794,6 @@ export const markerCategories = [
           "**Location:** Dropped by [Malenia, Blade of Miquella](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167678)  \n**Effect:** Attacks made immediately after receiving damage will partially recover HP. Reduces the healing power of the Flask of Crimson Tears.   \n**Related Tower:** [Isolated Divine Tower](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167609)",
         latitude: "0.89083300847351",
         longitude: "-0.63673228025138",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17160,7 +16802,6 @@ export const markerCategories = [
           "**Location:** Rewarded for completing [Milos' Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169072)  \n**Effect:** Unlocks an alternate ending.  \n**Related Tower:** None",
         latitude: "0.57870992931611",
         longitude: "-0.85277490569720",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17169,7 +16810,6 @@ export const markerCategories = [
           "**Location:** Obtained from Fia if you gave the [Twinned Set](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168994) to D's brother during [D's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167218)  \n**Effect:** Unlocks an alternate ending.  \n**Related Tower:** None",
         latitude: "0.44258288478282",
         longitude: "-0.70287287235055",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -17178,7 +16818,6 @@ export const markerCategories = [
           "**Location:** Given by Goldmask after completing [Brother Corhyn's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=178950).  \n**Effect:** Unlocks an alternate ending.  \n**Related Tower:** None",
         latitude: "0.76616894580319",
         longitude: "-0.70091217756146",
-        media: [],
       },
     ],
     groupSlug: "er_key_items",
@@ -19015,7 +18654,6 @@ export const markerCategories = [
         description: "Found on a body lying on a branch at the tip",
         latitude: "0.87215760512233",
         longitude: "-0.63922535516940",
-        media: [],
       },
       {
         regionSlug: "the-lands-between",
@@ -20701,7 +20339,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "5x Crystal Dart",
-        description: null,
+        description: "",
         latitude: "0.37526680332996",
         longitude: "-0.79441261592362",
       },
@@ -20739,7 +20377,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "8x Kukri",
-        description: null,
+        description: "",
         latitude: "0.29040967526090",
         longitude: "-0.67789320936672",
       },
@@ -20786,14 +20424,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "5x Exploding Greatbolt",
-        description: null,
+        description: "",
         latitude: "0.64080260452705",
         longitude: "-0.67566544171950",
       },
       {
         regionSlug: "the-lands-between",
         title: "3x Lightning Greatbolt",
-        description: null,
+        description: "",
         latitude: "0.79846533010060",
         longitude: "-0.72736847955588",
         media: [
@@ -20809,7 +20447,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "5x Ballista Bolt",
-        description: null,
+        description: "",
         latitude: "0.67009587057484",
         longitude: "-0.78248304675489",
       },
@@ -20824,7 +20462,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "10x Black-Key Bolt",
-        description: null,
+        description: "",
         latitude: "0.37383569072145",
         longitude: "-0.80733573915037",
       },
@@ -20838,14 +20476,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "8x Fan Daggers",
-        description: null,
+        description: "",
         latitude: "0.35697452815079",
         longitude: "-0.81444137203101",
       },
       {
         regionSlug: "the-lands-between",
         title: "6x Throwing Dagger",
-        description: null,
+        description: "",
         latitude: "0.37665039033382",
         longitude: "-0.78821858819376",
       },
@@ -21273,7 +20911,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "5x Crystal Dart",
-        description: null,
+        description: "",
         latitude: "0.84546788672230",
         longitude: "-0.65921492063700",
       },
@@ -21410,7 +21048,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Cerulean Scarab",
-        description: null,
+        description: "",
         latitude: "0.38804033851449",
         longitude: "-0.80281287632997",
         media: [
@@ -21460,7 +21098,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Cerulean Scarab",
-        description: null,
+        description: "",
         latitude: "0.78625626950820",
         longitude: "-0.65499431799270",
       },
@@ -21603,7 +21241,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Cerulean Scarab",
-        description: null,
+        description: "",
         latitude: "0.84001570700910",
         longitude: "-0.64693687365906",
       },
@@ -21763,7 +21401,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Starlight Shards",
-        description: null,
+        description: "",
         latitude: "0.62417932923741",
         longitude: "-0.73750753833036",
         media: [
@@ -22105,7 +21743,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Warming Stone",
-        description: null,
+        description: "",
         latitude: "0.65399023084304",
         longitude: "-0.76458684260814",
       },
@@ -22269,14 +21907,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "4x Soap",
-        description: null,
+        description: "",
         latitude: "0.37384637092153",
         longitude: "-0.79611332925009",
       },
       {
         regionSlug: "the-lands-between",
         title: "Formic Rock",
-        description: null,
+        description: "",
         latitude: "0.37515951727075",
         longitude: "-0.79404783549805",
       },
@@ -22427,7 +22065,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "2x Drawstring Holy Grease",
-        description: null,
+        description: "",
         latitude: "0.38766991263425",
         longitude: "-0.79045312751046",
         media: [
@@ -22471,28 +22109,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "2x Magic Grease",
-        description: null,
+        description: "",
         latitude: "0.37654310429033",
         longitude: "-0.78856191094684",
       },
       {
         regionSlug: "the-lands-between",
         title: "Shield Grease",
-        description: null,
+        description: "",
         latitude: "0.37688641961655",
         longitude: "-0.78812202867550",
       },
       {
         regionSlug: "the-lands-between",
         title: "Stimulating Boluses",
-        description: null,
+        description: "",
         latitude: "0.38264216264150",
         longitude: "-0.78373147551272",
       },
       {
         regionSlug: "the-lands-between",
         title: "2x Shield Grease",
-        description: null,
+        description: "",
         latitude: "0.38207188469418",
         longitude: "-0.78568246982624",
       },
@@ -22716,7 +22354,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Clarifying Boluses",
-        description: null,
+        description: "",
         latitude: "0.43196153329558",
         longitude: "-0.71600967913648",
       },
@@ -22858,7 +22496,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Starlight Shards",
-        description: null,
+        description: "",
         latitude: "0.79453024162473",
         longitude: "-0.77813919955940",
         media: [
@@ -22968,7 +22606,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Warming Stone",
-        description: null,
+        description: "",
         latitude: "0.37110071983246",
         longitude: "-0.80446259701768",
       },
@@ -23892,14 +23530,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Invigorating Cured Meat",
-        description: null,
+        description: "",
         latitude: "0.84799961552716",
         longitude: "-0.65553492985165",
       },
       {
         regionSlug: "the-lands-between",
         title: "2x Freezing Grease",
-        description: null,
+        description: "",
         latitude: "0.84598359692173",
         longitude: "-0.65910962417365",
       },
@@ -24192,7 +23830,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.61484706477890",
         longitude: "-0.69914057850880",
         media: [
@@ -24258,7 +23896,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Teardrop Scarab",
-        description: null,
+        description: "",
         latitude: "0.62983972865506",
         longitude: "-0.70622965693536",
         media: [
@@ -24370,14 +24008,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.29358881050180",
         longitude: "-0.67529731353864",
       },
       {
         regionSlug: "the-lands-between",
         title: "Teardrop Scarab",
-        description: null,
+        description: "",
         latitude: "0.56353316074207",
         longitude: "-0.71293963657047",
         media: [
@@ -24409,14 +24047,14 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.63822784426510",
         longitude: "-0.67607313749002",
       },
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.29937667960678",
         longitude: "-0.66363202879290",
       },
@@ -24456,7 +24094,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.70031700048852",
         longitude: "-0.80559224384075",
       },
@@ -24497,7 +24135,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.78427297813832",
         longitude: "-0.65542707675431",
       },
@@ -24659,7 +24297,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "2x Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.84074518938627",
         longitude: "-0.64704416201937",
       },
@@ -24688,7 +24326,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Crimson Scarab",
-        description: null,
+        description: "",
         latitude: "0.64633507459685",
         longitude: "-0.71258982498935",
       },
@@ -26272,7 +25910,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [1]",
-        description: null,
+        description: "",
         latitude: "0.60878830005588",
         longitude: "-0.69086194038240",
         media: [
@@ -26713,21 +26351,21 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [2]",
-        description: null,
+        description: "",
         latitude: "0.37382590610180",
         longitude: "-0.78422224038448",
       },
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [3]",
-        description: null,
+        description: "",
         latitude: "0.37290324579129",
         longitude: "-0.78428661340058",
       },
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [1]",
-        description: null,
+        description: "",
         latitude: "0.37414776432715",
         longitude: "-0.78280603402456",
       },
@@ -26828,7 +26466,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [7]",
-        description: null,
+        description: "",
         latitude: "0.38699078311750",
         longitude: "-0.77731614883683",
       },
@@ -26887,28 +26525,28 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [3]",
-        description: null,
+        description: "",
         latitude: "0.37680059078443",
         longitude: "-0.78835806306881",
       },
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [2]",
-        description: null,
+        description: "",
         latitude: "0.37714390610789",
         longitude: "-0.78960260805155",
       },
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [3]",
-        description: null,
+        description: "",
         latitude: "0.37891957822733",
         longitude: "-0.78844255795704",
       },
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [10]",
-        description: null,
+        description: "",
         latitude: "0.38201185543434",
         longitude: "-0.78520222507228",
       },
@@ -27512,7 +27150,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [4]",
-        description: null,
+        description: "",
         latitude: "0.81482118265193",
         longitude: "-0.75972059251797",
       },
@@ -27683,7 +27321,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [12]",
-        description: null,
+        description: "",
         latitude: "0.85047666686995",
         longitude: "-0.66490336323938",
         media: [
@@ -27699,7 +27337,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [13]",
-        description: null,
+        description: "",
         latitude: "0.85573321380298",
         longitude: "-0.66337986851906",
       },
@@ -28949,7 +28587,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [12]",
-        description: null,
+        description: "",
         latitude: "0.83801773222264",
         longitude: "-0.60583200648273",
       },
@@ -29548,7 +29186,7 @@ export const markerCategories = [
       {
         regionSlug: "the-lands-between",
         title: "Golden Rune [5]",
-        description: null,
+        description: "",
         latitude: "0.65098386340418",
         longitude: "-0.67872643049392",
       },
@@ -31231,7 +30869,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Lost Ashes of War",
-        description: null,
+        description: "",
         latitude: "0.67257938764038",
         longitude: "-0.72771134946663",
       },
@@ -33864,6 +33502,86 @@ export const markerCategories = [
         latitude: "0.72263737374378",
         longitude: "-0.70571165086409",
       },
+      {
+        description:
+          "<p>会在这里弹奏《戒网》,和你谈猪八戒的情事</p><p>-----------------</p><p>好像只会在这里闲聊？求告知后续剧情<br></p><p>后续在火焰山跟他说话之前把初始葫芦升到9级,他给你升10,切记必须带着9级葫芦跟他说第一句话,没9级别跟他说</p>",
+        regionSlug: "04_huanghuaguan",
+        title: "葫芦仙人(位置4)",
+        longitude: -0.15191980145587536,
+        latitude: 0.8705823704867157,
+      },
+      {
+        description:
+          '<p>[相关事件]:<br></p><p><span style="text-align: center;">友方NPC,击败靡道人后触发剧情</span><br></p><p><span style="text-align: center;">--</span></p><p><span style="text-align: center;">别说,蛇妹也不是不行...(未亡人……蛇？)</span></p><p>[奖励]:</p><p>变化·藕雹</p>',
+        regionSlug: "04_ziyunshan",
+        title: "红依(蛇形态)",
+        longitude: -1.213746802999566,
+        latitude: 0.3636204721997558,
+      },
+      {
+        description:
+          "<p>王灵官是道教最崇奉的护法尊神。道教有五百灵官的说法,而王灵官是五百灵官之首,称号为“都天大灵官”。</p><p>[奖励]:筋斗云,红霓云绦,细金线,金趁心,玲珑内丹等</p><p><br></p><p>[攻略要点]:第二阶段(非第二条命)很难打,芭蕉扇可以解他的火圈,避火罩没用,他的攻击主要是雷系。</p>",
+        regionSlug: "06_huaguoshan",
+        title: "[太乙雷声应化尊]王灵官",
+        longitude: -0.3403562440173289,
+        latitude: 0.5206185424055434,
+      },
+      {
+        description:
+          "<p>[相关事件]:<br></p><p>猪八戒被迷了心智,索性第一阶段很菜,打完了就跑了</p><p>[奖励]:</p><p>无</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "猪八戒-初战",
+        longitude: -1.0138217042863005,
+        latitude: 0.4606820579985822,
+      },
+      {
+        description:
+          "<p>马哥在卵里,打出来以后记得对话到重复,不然没有推进剧情,到下一回的剧情位置对话马哥剧情会断</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "马哥(位置4)",
+        longitude: -0.6476973365379308,
+        latitude: 0.29660330177729577,
+      },
+      {
+        description:
+          "<p>[相关事件]:<br></p><p>通过土地庙旁边的瀑布可过来,必须先打掉第一阶段八戒才有这条路,打完猪八戒会被直接抓走</p><p>[奖励]:</p><p>细金丝x2,珍玩【月玉兔】,染血绣针</p><p>[注意事项]:</p><p>建议泥怪阶段专注躲避,变野猪时有个大硬直可以白打。</p><p>变成泥怪阶段会锁血,必须变回野猪形态才能击杀,千万不要去拼血</p><p>［对应成就］:咬牙恨齿第四十难</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "猪八戒-再战",
+        longitude: -0.7567434101505626,
+        latitude: 0.6505458536692856,
+      },
+      {
+        description:
+          "<p>[相关事件]:<br></p><p>四姐会在此处尝试撕掉封印符咒,但撕不掉,需要天命人帮忙撕掉。</p><p>触发剧情都是在游戏内第一个遇到的符,找到其他紫符就不会重复触发了。</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "四姐撕符-第1个紫符",
+        longitude: -0.2722644079797476,
+        latitude: 0.9016761996806792,
+      },
+      {
+        description:
+          "<p>[相关事件]:</p><p>撕紫符剧情任务相关地点</p><p>触发剧情都是在游戏内第一个遇到的符,找到其他紫符就不会重复触发了。<br></p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "四姐撕符-第2个紫符",
+        longitude: -0.7476492892076578,
+        latitude: 0.3483124576151937,
+      },
+      {
+        description:
+          "<p>正常来说这里没剧情,直接揭符即可</p><p>触发剧情都是在游戏内第一个遇到的符,找到其他紫符就不会重复触发了。<br></p><p>如果错过上一个先来这里会触发剧情</p>",
+        regionSlug: "04_pansidongxiaceng",
+        title: "四姐撕符-第3个紫符",
+        longitude: -0.9870328360859446,
+        latitude: 0.30413433732826434,
+      },
+      {
+        description:
+          '<p><span style="font-family: var(--van-base-font);">第一次遇见四妹,让你去前面开宝箱</span></p><p><span style="font-family: var(--van-base-font);">---</span></p><p><span style="font-family: var(--van-base-font);">四妹可爱捏,初见还以为她要骗我</span></p><p>但里面真的是一堆好货,这个女人喜欢我</p><p>---<br></p><p>是的,这是四姐的嫁妆(确信)</p>',
+        regionSlug: "04_pansidongxiaceng",
+        title: "四姐-赠礼剧情",
+        longitude: -0.5483082140137014,
+        latitude: 1.1904910128425854,
+      },
     ],
     groupSlug: "er_npcs",
     title: "Character",
@@ -33890,7 +33608,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ghost",
-        description: null,
+        description: "",
         latitude: "0.64738208252083",
         longitude: "-0.72027591542280",
       },
@@ -33912,7 +33630,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ghost",
-        description: null,
+        description: "",
         latitude: "0.70574664199104",
         longitude: "-0.75840032595880",
       },
@@ -33943,7 +33661,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ghost",
-        description: null,
+        description: "",
         latitude: "0.58449366387067",
         longitude: "-0.71089835812819",
         media: [
@@ -34020,7 +33738,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ghost",
-        description: null,
+        description: "",
         latitude: "0.67698100309681",
         longitude: "-0.73482017216102",
         media: [
@@ -34077,7 +33795,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ghost",
-        description: null,
+        description: "",
         latitude: "0.67573783383274",
         longitude: "-0.70939217943666",
       },
@@ -34587,7 +34305,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Elite Fire Knight",
-        description: null,
+        description: "",
         latitude: "0.71463951785108",
         longitude: "-0.69905664956826",
       },
@@ -34802,7 +34520,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Divine Bird Warrior",
-        description: null,
+        description: "",
         latitude: "0.69815100240422",
         longitude: "-0.75463312232000",
       },
@@ -34829,7 +34547,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Horned Warrior",
-        description: null,
+        description: "",
         latitude: "0.67619253380126",
         longitude: "-0.75814556860229",
       },
@@ -34902,7 +34620,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Curseblade Ascetic",
-        description: null,
+        description: "",
         latitude: "0.66865664889740",
         longitude: "-0.71632649841229",
       },
@@ -34916,7 +34634,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Black Steel Knight",
-        description: null,
+        description: "",
         latitude: "0.67617704439283",
         longitude: "-0.72691847716644",
       },
@@ -34930,21 +34648,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Giant Miranda Sprout",
-        description: null,
+        description: "",
         latitude: "0.67210967532637",
         longitude: "-0.71210325826766",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Giant Crab",
-        description: null,
+        description: "",
         latitude: "0.67299787710522",
         longitude: "-0.71156904688240",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Giant Lightning Ram x2",
-        description: null,
+        description: "",
         latitude: "0.63728316320623",
         longitude: "-0.70690708335732",
         media: [
@@ -34960,7 +34678,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Giant Lightning Ram",
-        description: null,
+        description: "",
         latitude: "0.64080209905805",
         longitude: "-0.71022412057528",
         media: [
@@ -34976,7 +34694,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Elite Fire Knight",
-        description: null,
+        description: "",
         latitude: "0.71760075052826",
         longitude: "-0.69671635069022",
       },
@@ -35006,7 +34724,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Horned Warrior",
-        description: null,
+        description: "",
         latitude: "0.67292850829030",
         longitude: "-0.75155386171221",
       },
@@ -35942,63 +35660,63 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.66443362946336",
         longitude: "-0.72144930842055",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.66528426980943",
         longitude: "-0.72387379660367",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.66915560879843",
         longitude: "-0.72587671293502",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67237524287378",
         longitude: "-0.72593411712873",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.66811529691051",
         longitude: "-0.72730297300910",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67068241242937",
         longitude: "-0.73072949937088",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67374293757287",
         longitude: "-0.72792111477830",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67286766633855",
         longitude: "-0.73140694528334",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67657924675024",
         longitude: "-0.72929684797350",
       },
@@ -36012,28 +35730,28 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67527886722445",
         longitude: "-0.73177627609221",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67867291695664",
         longitude: "-0.73121281023873",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.68329202483193",
         longitude: "-0.73070068597963",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.68388180618066",
         longitude: "-0.73214473634818",
       },
@@ -36114,14 +35832,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x3",
-        description: null,
+        description: "",
         latitude: "0.67109509953308",
         longitude: "-0.71686922151113",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Empyrean-Blood Burgeon x2",
-        description: null,
+        description: "",
         latitude: "0.66597355690247",
         longitude: "-0.71035340767139",
         media: [
@@ -36137,7 +35855,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Spiritgrave Stone",
-        description: null,
+        description: "",
         latitude: "0.66946962964442",
         longitude: "-0.71569083492778",
         media: [
@@ -36153,7 +35871,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Spiritgrave Stone",
-        description: null,
+        description: "",
         latitude: "0.66845532118516",
         longitude: "-0.71516615685346",
         media: [
@@ -36223,28 +35941,28 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.67934227420001",
         longitude: "-0.72065857141129",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.67897563751025",
         longitude: "-0.72125604498865",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.67883871794713",
         longitude: "-0.72264638550791",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68042720606407",
         longitude: "-0.72450118690372",
       },
@@ -36395,21 +36113,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68716476898562",
         longitude: "-0.69202553338593",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.70734280275740",
         longitude: "-0.67314216848931",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Glintslab Firefly x6",
-        description: null,
+        description: "",
         latitude: "0.70792622844789",
         longitude: "-0.67421934422617",
       },
@@ -36423,14 +36141,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Spiritgrave Stone",
-        description: null,
+        description: "",
         latitude: "0.71164855042073",
         longitude: "-0.68599874271072",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.71201330269606",
         longitude: "-0.68480784190803",
       },
@@ -36444,7 +36162,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.64809789022540",
         longitude: "-0.74020246046189",
       },
@@ -36474,14 +36192,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Sanguine Amaryllis",
-        description: null,
+        description: "",
         latitude: "0.64257599398434",
         longitude: "-0.74828535561682",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Sanguine Amaryllis",
-        description: null,
+        description: "",
         latitude: "0.64393865152923",
         longitude: "-0.74296403417594",
       },
@@ -36513,21 +36231,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.63358225436960",
         longitude: "-0.73589835316301",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x3",
-        description: null,
+        description: "",
         latitude: "0.63655041857153",
         longitude: "-0.73264730707083",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Sanguine Amaryllis",
-        description: null,
+        description: "",
         latitude: "0.64469188063590",
         longitude: "-0.74600383273929",
       },
@@ -36582,63 +36300,63 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Sanguine Amaryllis",
-        description: null,
+        description: "",
         latitude: "0.63994925050901",
         longitude: "-0.74791472203952",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Glintslab Firefly",
-        description: null,
+        description: "",
         latitude: "0.68827067490342",
         longitude: "-0.72011653798972",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Glintslab Firefly x2",
-        description: null,
+        description: "",
         latitude: "0.68860791287615",
         longitude: "-0.72105337776330",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.69010674801797",
         longitude: "-0.71951696054180",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.68942653543718",
         longitude: "-0.71873077768632",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Glintslab Firefly",
-        description: null,
+        description: "",
         latitude: "0.68920171016333",
         longitude: "-0.71567668002470",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem x2",
-        description: null,
+        description: "",
         latitude: "0.68622277427882",
         longitude: "-0.71743793880199",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Glintslab Firefly x2",
-        description: null,
+        description: "",
         latitude: "0.68429302237388",
         longitude: "-0.71715688687331",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.68318763015623",
         longitude: "-0.71599520555444",
       },
@@ -36653,7 +36371,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Innard Meat x5",
-        description: null,
+        description: "",
         latitude: "0.71952840574582",
         longitude: "-0.70564338000992",
       },
@@ -36826,21 +36544,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.68635192606612",
         longitude: "-0.72312907511090",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68703307806807",
         longitude: "-0.72349033269882",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.68799033342877",
         longitude: "-0.72257346590587",
       },
@@ -37027,7 +36745,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x3",
-        description: null,
+        description: "",
         latitude: "0.71913160854078",
         longitude: "-0.71326328581108",
       },
@@ -37259,7 +36977,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Sanguine Amaryllis",
-        description: null,
+        description: "",
         latitude: "0.71990811070579",
         longitude: "-0.71807359174815",
       },
@@ -37296,7 +37014,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.69607043336617",
         longitude: "-0.73555005973515",
       },
@@ -37324,91 +37042,91 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.59782413258240",
         longitude: "-0.72355230074746",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58516054579626",
         longitude: "-0.72568921973445",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58408140932509",
         longitude: "-0.72363264506384",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.59139260405196",
         longitude: "-0.72628137943963",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58776497077257",
         longitude: "-0.72678495334853",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58651746841120",
         longitude: "-0.72807915926464",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58944385201436",
         longitude: "-0.72238931703907",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58823033713223",
         longitude: "-0.72100369606315",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58538451749088",
         longitude: "-0.72015072161074",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58581209979167",
         longitude: "-0.72084303387601",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.58534379536509",
         longitude: "-0.72253309028918",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.59081251607559",
         longitude: "-0.72396090404652",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Deep-Purple Lily",
-        description: null,
+        description: "",
         latitude: "0.59455085974615",
         longitude: "-0.72463770936952",
       },
@@ -37422,35 +37140,35 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Whiteflesh Mushroom x2",
-        description: null,
+        description: "",
         latitude: "0.65775410391282",
         longitude: "-0.74336344197872",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Whiteflesh Mushroom x3",
-        description: null,
+        description: "",
         latitude: "0.65101072845205",
         longitude: "-0.74162855469388",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Spiritgrave Stone x2",
-        description: null,
+        description: "",
         latitude: "0.61832877562334",
         longitude: "-0.72929343395887",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "String x3",
-        description: null,
+        description: "",
         latitude: "0.61819762569041",
         longitude: "-0.73103595593793",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem x2",
-        description: null,
+        description: "",
         latitude: "0.68248972488296",
         longitude: "-0.70812735134800",
       },
@@ -37497,7 +37215,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Spiritgrave Stone",
-        description: null,
+        description: "",
         latitude: "0.65065030498192",
         longitude: "-0.72149792320320",
       },
@@ -37544,7 +37262,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ember of Messmer",
-        description: null,
+        description: "",
         latitude: "0.69032311131042",
         longitude: "-0.70744090912399",
       },
@@ -37630,7 +37348,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Red Fulgurbloom x3",
-        description: null,
+        description: "",
         latitude: "0.62697345917297",
         longitude: "-0.69959976932023",
       },
@@ -37673,7 +37391,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Nectarblood Burgeon x3",
-        description: null,
+        description: "",
         latitude: "0.59977256796256",
         longitude: "-0.71131180971923",
       },
@@ -37722,14 +37440,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.71216118137406",
         longitude: "-0.73619957977780",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem x4",
-        description: null,
+        description: "",
         latitude: "0.70843188576137",
         longitude: "-0.73923737660607",
       },
@@ -37743,7 +37461,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Thin Beast Bones x8",
-        description: null,
+        description: "",
         latitude: "0.71002516552726",
         longitude: "-0.73083694784751",
       },
@@ -37765,14 +37483,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.63695423611570",
         longitude: "-0.72071781492326",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.63768375183376",
         longitude: "-0.72075000143141",
       },
@@ -37801,7 +37519,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Deep Purple Lilly",
-        description: null,
+        description: "",
         latitude: "0.60965918873410",
         longitude: "-0.71778164432834",
       },
@@ -37815,28 +37533,28 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Deep Purple Lilly",
-        description: null,
+        description: "",
         latitude: "0.60655805017323",
         longitude: "-0.71518439403397",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Grave Cricket",
-        description: null,
+        description: "",
         latitude: "0.61170840076660",
         longitude: "-0.71369038925894",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Grave Crickets",
-        description: null,
+        description: "",
         latitude: "0.61131653750672",
         longitude: "-0.70747787731275",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Grave Cricket x2",
-        description: null,
+        description: "",
         latitude: "0.60569685887396",
         longitude: "-0.70775049264637",
       },
@@ -37857,14 +37575,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Deep Purple Lilly",
-        description: null,
+        description: "",
         latitude: "0.58553442954128",
         longitude: "-0.72103247179501",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Ghostflame Bloom x4",
-        description: null,
+        description: "",
         latitude: "0.62292800610133",
         longitude: "-0.72693331686500",
       },
@@ -37907,98 +37625,98 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Horn-Strewn Excrement",
-        description: null,
+        description: "",
         latitude: "0.71572576757998",
         longitude: "-0.75750724603830",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Horn-Strewn Excrement \u00d72",
-        description: null,
+        description: "",
         latitude: "0.71728305151981",
         longitude: "-0.75236593078699",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Horn-Strewn Excrement",
-        description: null,
+        description: "",
         latitude: "0.72194733888043",
         longitude: "-0.74899324365148",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Horn-Strewn Excrement",
-        description: null,
+        description: "",
         latitude: "0.72134568762253",
         longitude: "-0.74514237016015",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Ghostflame Bloom",
-        description: null,
+        description: "",
         latitude: "0.62256569410980",
         longitude: "-0.70500288320713",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Ghostflame Bloom",
-        description: null,
+        description: "",
         latitude: "0.62304732085239",
         longitude: "-0.70569096206006",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Ghostflame Bloom",
-        description: null,
+        description: "",
         latitude: "0.62221434985084",
         longitude: "-0.71173905750041",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Ghostflame Bloom",
-        description: null,
+        description: "",
         latitude: "0.62258983695685",
         longitude: "-0.71085929294327",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Ghostflame Bloom",
-        description: null,
+        description: "",
         latitude: "0.62595849151450",
         longitude: "-0.71146010776255",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Winter-Lantern Fly",
-        description: null,
+        description: "",
         latitude: "0.64666561480844",
         longitude: "-0.66519549261463",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Winter-Lantern Fly",
-        description: null,
+        description: "",
         latitude: "0.64346587813388",
         longitude: "-0.66284978749746",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Winter-Lantern Fly",
-        description: null,
+        description: "",
         latitude: "0.64220131326813",
         longitude: "-0.65810140547953",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Winter-Lantern Fly",
-        description: null,
+        description: "",
         latitude: "0.64902247711566",
         longitude: "-0.65682683125817",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Winter-Lantern Fly",
-        description: null,
+        description: "",
         latitude: "0.64944488319530",
         longitude: "-0.66142949730508",
       },
@@ -38012,21 +37730,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Shadow Sunflower",
-        description: null,
+        description: "",
         latitude: "0.73257520352756",
         longitude: "-0.69249589946585",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Shadow Sunflower",
-        description: null,
+        description: "",
         latitude: "0.73308105562627",
         longitude: "-0.69146537571535",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Shadow Sunflower",
-        description: null,
+        description: "",
         latitude: "0.73301571035792",
         longitude: "-0.69032078712596",
       },
@@ -38140,7 +37858,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Gravekeepers Brainpan",
-        description: null,
+        description: "",
         latitude: "0.62349559827132",
         longitude: "-0.70600291235240",
       },
@@ -38176,14 +37894,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.70476977232269",
         longitude: "-0.69877834265438",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Furnace Visage",
-        description: null,
+        description: "",
         latitude: "0.70761335817640",
         longitude: "-0.69669699225039",
       },
@@ -38205,14 +37923,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Furnace Visage",
-        description: null,
+        description: "",
         latitude: "0.70501739044060",
         longitude: "-0.69195627026764",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Blessed Bone Shard",
-        description: null,
+        description: "",
         latitude: "0.71734220814049",
         longitude: "-0.68765280850408",
         media: [
@@ -38257,21 +37975,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Finger Mimic",
-        description: null,
+        description: "",
         latitude: "0.64392873258987",
         longitude: "-0.68606349783295",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Nailstone",
-        description: null,
+        description: "",
         latitude: "0.64369271309705",
         longitude: "-0.68359586553922",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Nailstone",
-        description: null,
+        description: "",
         latitude: "0.64051781304293",
         longitude: "-0.68027623958133",
       },
@@ -38285,7 +38003,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Finger Mimic",
-        description: null,
+        description: "",
         latitude: "0.63300067143487",
         longitude: "-0.69287855191007",
       },
@@ -38299,7 +38017,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Nectarblood Burgeon",
-        description: null,
+        description: "",
         latitude: "0.60011739894739",
         longitude: "-0.70683809132217",
       },
@@ -38391,7 +38109,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Furnace Visage",
-        description: null,
+        description: "",
         latitude: "0.70375630773731",
         longitude: "-0.69224763900530",
       },
@@ -38406,35 +38124,35 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.68944646308734",
         longitude: "-0.71136307322683",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68434720536972",
         longitude: "-0.71397862808303",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.69297156019501",
         longitude: "-0.71653673874400",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Blessed Bone Shard",
-        description: null,
+        description: "",
         latitude: "0.69861801057309",
         longitude: "-0.72049215536816",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.69977663858914",
         longitude: "-0.72152212363108",
       },
@@ -38448,7 +38166,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.70023303088325",
         longitude: "-0.71735722680953",
       },
@@ -38462,7 +38180,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Ember of Messmer",
-        description: null,
+        description: "",
         latitude: "0.70363973080656",
         longitude: "-0.71197226643403",
       },
@@ -38476,56 +38194,56 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.70553856372885",
         longitude: "-0.71382719063729",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.70789821460957",
         longitude: "-0.70649330890464",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Furnace Visage",
-        description: null,
+        description: "",
         latitude: "0.70770511029691",
         longitude: "-0.70396130359472",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Shadow Sunflower",
-        description: null,
+        description: "",
         latitude: "0.70354235029643",
         longitude: "-0.70812351736848",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68511438712106",
         longitude: "-0.71004643131346",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68480867857009",
         longitude: "-0.70821226301970",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem x2",
-        description: null,
+        description: "",
         latitude: "0.68111822116225",
         longitude: "-0.71113050642731",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67946609687039",
         longitude: "-0.71046531859258",
       },
@@ -38554,14 +38272,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.64156411655358",
         longitude: "-0.71100360769597",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Black Pyrefly",
-        description: null,
+        description: "",
         latitude: "0.64505619994578",
         longitude: "-0.71563718788019",
       },
@@ -38584,7 +38302,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.64366153945971",
         longitude: "-0.71265457145665",
       },
@@ -38598,70 +38316,70 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.64285775342374",
         longitude: "-0.72582007295932",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.64095504018387",
         longitude: "-0.72553401131600",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.63968911653808",
         longitude: "-0.72446112773997",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.64164164263154",
         longitude: "-0.72495465419917",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.64099795279344",
         longitude: "-0.72443967006788",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.64442407606484",
         longitude: "-0.72304102265761",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.63928398812199",
         longitude: "-0.72496925560441",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.64125155601901",
         longitude: "-0.72125707834007",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.63745378451428",
         longitude: "-0.72280203072546",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Knot Resin",
-        description: null,
+        description: "",
         latitude: "0.63472882804714",
         longitude: "-0.72217975828070",
       },
@@ -38682,7 +38400,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.63117376928481",
         longitude: "-0.72409420399956",
       },
@@ -38696,35 +38414,35 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x3",
-        description: null,
+        description: "",
         latitude: "0.63657310750685",
         longitude: "-0.73069044392273",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.63778303798468",
         longitude: "-0.72488239702801",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.64111206125246",
         longitude: "-0.71606204396443",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Black Pyrefly",
-        description: null,
+        description: "",
         latitude: "0.64359539664230",
         longitude: "-0.71543370659927",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.63736084118175",
         longitude: "-0.71645680991000",
       },
@@ -38738,49 +38456,49 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.63450951556740",
         longitude: "-0.71845463313224",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.63425835219562",
         longitude: "-0.71930271184763",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Knot Resin",
-        description: null,
+        description: "",
         latitude: "0.63443055470999",
         longitude: "-0.71988606532466",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Knot Resin",
-        description: null,
+        description: "",
         latitude: "0.63144812026657",
         longitude: "-0.72100186428264",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Knot Resin",
-        description: null,
+        description: "",
         latitude: "0.63256385132664",
         longitude: "-0.72456383785089",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.63601832483829",
         longitude: "-0.71960711560456",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.63852871715623",
         longitude: "-0.73237443051957",
       },
@@ -38794,14 +38512,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.64670109983460",
         longitude: "-0.73499519573267",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.65451730230575",
         longitude: "-0.73134649080924",
       },
@@ -38816,49 +38534,49 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.65787540921707",
         longitude: "-0.72808482387444",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Knot Resin",
-        description: null,
+        description: "",
         latitude: "0.65774667166953",
         longitude: "-0.72746255138267",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.65849764064451",
         longitude: "-0.73014476039754",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Knot Resin",
-        description: null,
+        description: "",
         latitude: "0.65789686546925",
         longitude: "-0.72969414928346",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.65512900746560",
         longitude: "-0.72287060956785",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.65697424629589",
         longitude: "-0.72336413602198",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.65521861578732",
         longitude: "-0.72461369804176",
       },
@@ -38873,7 +38591,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Black Pyrefly",
-        description: null,
+        description: "",
         latitude: "0.64729410079950",
         longitude: "-0.72752612329137",
       },
@@ -38887,7 +38605,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.64953282931117",
         longitude: "-0.72346475366859",
       },
@@ -38927,7 +38645,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Spiritgrave Stone",
-        description: null,
+        description: "",
         latitude: "0.64994825752154",
         longitude: "-0.72108052879400",
         media: [
@@ -38943,7 +38661,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Empyrean-Blood Burgeon",
-        description: null,
+        description: "",
         latitude: "0.66242813517557",
         longitude: "-0.73413394200261",
         media: [
@@ -38959,49 +38677,49 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.66174692219479",
         longitude: "-0.73133337980732",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Whiteflesh Mushroom x2",
-        description: null,
+        description: "",
         latitude: "0.66065265372310",
         longitude: "-0.72719204912914",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Whiteflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.66071702244167",
         longitude: "-0.72629082690969",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Whiteflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.66026644125787",
         longitude: "-0.72418797504017",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.66614544954010",
         longitude: "-0.73150504123956",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.66082240105398",
         longitude: "-0.73957296519745",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.65799017588117",
         longitude: "-0.74356409224188",
       },
@@ -39171,7 +38889,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem x5",
-        description: null,
+        description: "",
         latitude: "0.67436826155655",
         longitude: "-0.74869577761007",
       },
@@ -39208,21 +38926,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.66261043812543",
         longitude: "-0.74596718842557",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.66140044686438",
         longitude: "-0.74075589976698",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67560525498551",
         longitude: "-0.73951037002982",
         media: [
@@ -39238,35 +38956,35 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Dewgem",
-        description: null,
+        description: "",
         latitude: "0.67571766794038",
         longitude: "-0.73999987931290",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.67073968882949",
         longitude: "-0.74333922707464",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.67114721493562",
         longitude: "-0.74282978451157",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Redflesh Mushroom",
-        description: null,
+        description: "",
         latitude: "0.67229802783578",
         longitude: "-0.74586753618888",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit",
-        description: null,
+        description: "",
         latitude: "0.67156787704340",
         longitude: "-0.74573168483906",
       },
@@ -39337,21 +39055,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.68037512615045",
         longitude: "-0.74810046486652",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x3",
-        description: null,
+        description: "",
         latitude: "0.68107188528371",
         longitude: "-0.74680609629351",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.67543820089286",
         longitude: "-0.73420414719823",
       },
@@ -39374,28 +39092,28 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Black Pyrefly",
-        description: null,
+        description: "",
         latitude: "0.67600723208783",
         longitude: "-0.72733282251585",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Black Pyrefly",
-        description: null,
+        description: "",
         latitude: "0.67466038777447",
         longitude: "-0.72557471412611",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x2",
-        description: null,
+        description: "",
         latitude: "0.67473754145874",
         longitude: "-0.72226418708183",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Rada Fruit x3",
-        description: null,
+        description: "",
         latitude: "0.66343111165872",
         longitude: "-0.72028320921399",
       },
@@ -39467,28 +39185,28 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66384603970715",
         longitude: "-0.71036655308447",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66225827829705",
         longitude: "-0.71068818609112",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66157167860914",
         longitude: "-0.71079547445248",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66539631716138",
         longitude: "-0.70873873555436",
       },
@@ -39502,21 +39220,21 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66748543991376",
         longitude: "-0.70697642157936",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66719578098896",
         longitude: "-0.70705152343174",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Toxic Mossling",
-        description: null,
+        description: "",
         latitude: "0.66747584247621",
         longitude: "-0.70762663674739",
       },
@@ -39854,14 +39572,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Great Grave Glovewart",
-        description: null,
+        description: "",
         latitude: "0.61138658004779",
         longitude: "-0.70975627478438",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Great Grave Glovewort",
-        description: null,
+        description: "",
         latitude: "0.60604621151006",
         longitude: "-0.70623039560007",
       },
@@ -40641,7 +40359,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Smithing Stone [7] x2",
-        description: null,
+        description: "",
         latitude: "0.70004731765290",
         longitude: "-0.73881731031122",
       },
@@ -40670,7 +40388,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Smithing Stone [7] x2",
-        description: null,
+        description: "",
         latitude: "0.66751431540644",
         longitude: "-0.68777026608893",
       },
@@ -40721,7 +40439,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Smithing Stone [6]",
-        description: null,
+        description: "",
         latitude: "0.62698705774373",
         longitude: "-0.72516483932995",
       },
@@ -40814,7 +40532,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Castle Cross Message",
-        description: null,
+        description: "",
         latitude: "0.68281160852260",
         longitude: "-0.71912383815393",
         media: [
@@ -40987,14 +40705,14 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Finger Mimic",
-        description: null,
+        description: "",
         latitude: "0.69866380807314",
         longitude: "-0.65827886488350",
       },
       {
         regionSlug: "the-shadow-realm",
         title: "Nailstone (x2)",
-        description: null,
+        description: "",
         latitude: "0.70236644635440",
         longitude: "-0.64894972779263",
       },
@@ -41064,7 +40782,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Invisible Bridge",
-        description: null,
+        description: "",
         latitude: "0.70992886927034",
         longitude: "-0.75054213941311",
         media: [
@@ -41166,7 +40884,7 @@ export const markerCategories = [
       {
         regionSlug: "the-shadow-realm",
         title: "Stone Cairn",
-        description: null,
+        description: "",
         latitude: "0.69357569330194",
         longitude: "-0.73301532508589",
       },
@@ -41206,15 +40924,7252 @@ export const markerCategories = [
     groupSlug: "er_other",
     title: "Stone Cairn",
   },
-  { locations: [], groupSlug: "totk_locations", title: "Area" },
-  { locations: [], groupSlug: "totk_locations", title: "Building" },
-  { locations: [], groupSlug: "totk_locations", title: "Cave" },
-  { locations: [], groupSlug: "totk_locations", title: "Chasm" },
-  { locations: [], groupSlug: "totk_locations", title: "Goddess Statue" },
-  { locations: [], groupSlug: "totk_locations", title: "Great Fairy" },
-  { locations: [], groupSlug: "totk_locations", title: "Landmark" },
-  { locations: [], groupSlug: "totk_locations", title: "Lighthouse" },
-  { locations: [], groupSlug: "totk_locations", title: "Lightroot" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Temple of Time",
+        latitude: "1.02039298269390",
+        longitude: "-0.68852442724610",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tenoko Island",
+        description: "",
+        latitude: "0.60805824017052",
+        longitude: "-0.57410193706548",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shatterback Point",
+        description: "",
+        latitude: "0.71561943136078",
+        longitude: "-0.58230924835959",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lulu Lake",
+        description: "",
+        latitude: "0.72211119317720",
+        longitude: "-0.58339130062475",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mikau Lake",
+        description: "",
+        latitude: "0.72140485874243",
+        longitude: "-0.58874286959946",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Reservoir Lake",
+        latitude: "0.70852541817801",
+        longitude: "-0.58515202173911",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ruto Precipice",
+        description: "",
+        latitude: "0.70993689110398",
+        longitude: "-0.59374377288947",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ruto Lake",
+        description: "",
+        latitude: "0.70888258756072",
+        longitude: "-0.60160033028751",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rutala Dam",
+        description: "",
+        latitude: "0.70040231124844",
+        longitude: "-0.58844344718869",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Veiled Falls",
+        description: "",
+        latitude: "0.71767533442431",
+        longitude: "-0.60427988835767",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ralis Pond",
+        description: "",
+        latitude: "0.71120404044517",
+        longitude: "-0.60885637564147",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rutala River",
+        description: "",
+        latitude: "0.69745134126983",
+        longitude: "-0.62333869723739",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zora River",
+        description: "",
+        latitude: "0.71463955776835",
+        longitude: "-0.61683882994171",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bank of Wishes",
+        description: "",
+        latitude: "0.70583814543750",
+        longitude: "-0.61445248816108",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Woods",
+        description: "",
+        latitude: "0.70869079045633",
+        longitude: "-0.61978877748672",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Toto Lake",
+        description: "",
+        latitude: "0.73144953648546",
+        longitude: "-0.59137486062960",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana",
+        description: "",
+        latitude: "0.73151946701962",
+        longitude: "-0.60186157091920",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akkala Falls",
+        description: "",
+        latitude: "0.74066984308075",
+        longitude: "-0.58297967826721",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lake Akkala",
+        description: "",
+        latitude: "0.73805504664766",
+        longitude: "-0.58734950455812",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Akkala",
+        description: "",
+        latitude: "0.75020733208589",
+        longitude: "-0.57853007108133",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Torin Wetland",
+        description: "",
+        latitude: "0.75509285803703",
+        longitude: "-0.58585899234166",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Malin Bay",
+        description: "",
+        latitude: "0.76353631962992",
+        longitude: "-0.56115412231230",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Akkala Beach",
+        description: "",
+        latitude: "0.77938297112937",
+        longitude: "-0.56329422214381",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rist Peninsula",
+        description: "",
+        latitude: "0.77337594783455",
+        longitude: "-0.55591086682776",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Akkala Plains",
+        latitude: "0.76905383561942",
+        longitude: "-0.57518630297901",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ordorac Quarry",
+        description: "",
+        latitude: "0.78405862716895",
+        longitude: "-0.58619238519745",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Octorok Lake",
+        description: "",
+        latitude: "0.78219923102081",
+        longitude: "-0.57220528351587",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Akkala Valley",
+        description: "",
+        latitude: "0.79378684796227",
+        longitude: "-0.58087901041259",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shadow Pass",
+        description: "",
+        latitude: "0.77508352046907",
+        longitude: "-0.59377646519127",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Akkala Foothill",
+        description: "",
+        latitude: "0.79650184013055",
+        longitude: "-0.56790613192121",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bloodleaf Lake",
+        description: "",
+        latitude: "0.80004641054670",
+        longitude: "-0.56564342055583",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rok Woods",
+        description: "",
+        latitude: "0.80163015378632",
+        longitude: "-0.59543578685933",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Skull Lake",
+        description: "",
+        latitude: "0.81503562819969",
+        longitude: "-0.59679341367874",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akkala Wilds",
+        description: "",
+        latitude: "0.81141565467664",
+        longitude: "-0.58389595890009",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tempest Gulch",
+        description: "",
+        latitude: "0.80787109413032",
+        longitude: "-0.59339934663126",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tumlea Heights",
+        description: "",
+        latitude: "0.80492986069082",
+        longitude: "-0.57024426699871",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Akkala Beach",
+        description: "",
+        latitude: "0.79655864624043",
+        longitude: "-0.55184088123241",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eldin's Flank",
+        description: "",
+        latitude: "0.82090293733332",
+        longitude: "-0.63009679457494",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Caldera",
+        description: "",
+        latitude: "0.79834287070534",
+        longitude: "-0.62179712978960",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Darman",
+        description: "",
+        latitude: "0.80106369041587",
+        longitude: "-0.63907327164529",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goro Cove",
+        description: "",
+        latitude: "0.78111764731510",
+        longitude: "-0.64345332457304",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gorko Lake",
+        description: "",
+        latitude: "0.77168199526734",
+        longitude: "-0.63564924114010",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Darb Pond",
+        description: "",
+        latitude: "0.76937942308814",
+        longitude: "-0.62816520479956",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gero Pond",
+        description: "",
+        latitude: "0.75882595142603",
+        longitude: "-0.62499888173119",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Broca Island",
+        description: "",
+        latitude: "0.75935362562379",
+        longitude: "-0.61626750600055",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gortram Cliff",
+        description: "",
+        latitude: "0.76376689820388",
+        longitude: "-0.64557998166657",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gorko Tunnel",
+        description: "",
+        latitude: "0.76789234456221",
+        longitude: "-0.63924733553242",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goron Hot Springs",
+        description: "",
+        latitude: "0.77465614915312",
+        longitude: "-0.64682732105663",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goronbi River",
+        description: "",
+        latitude: "0.76262605280242",
+        longitude: "-0.65272071946060",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulri Mountain",
+        description: "",
+        latitude: "0.76900452348427",
+        longitude: "-0.58899544212593",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akkala Citadel Ruins",
+        description: "",
+        latitude: "0.75140533887622",
+        longitude: "-0.59645024864818",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Akkala Plains",
+        description: "",
+        latitude: "0.74674648298858",
+        longitude: "-0.59854691297937",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cephla Lake",
+        description: "",
+        latitude: "0.74410354356273",
+        longitude: "-0.61483328688729",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kanalet Ridge",
+        description: "",
+        latitude: "0.76309047319302",
+        longitude: "-0.59789751570776",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ternio Trail",
+        description: "",
+        latitude: "0.72771359938463",
+        longitude: "-0.61629328806103",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trilby Valley",
+        description: "",
+        latitude: "0.72516740618482",
+        longitude: "-0.63068665052688",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Ferona",
+        description: "",
+        latitude: "0.74084182971163",
+        longitude: "-0.63447866215768",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bon\u00e9 Pond",
+        description: "",
+        latitude: "0.70224900429814",
+        longitude: "-0.63663188773398",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kincean Island",
+        description: "",
+        latitude: "0.69802096070958",
+        longitude: "-0.63805318497543",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Molida Island",
+        description: "",
+        latitude: "0.69585364277401",
+        longitude: "-0.64427136037662",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lineback Island",
+        description: "",
+        latitude: "0.69986850963630",
+        longitude: "-0.64736268186198",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mercay Island",
+        description: "",
+        latitude: "0.70676128188732",
+        longitude: "-0.64853525207926",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelo Pond",
+        description: "",
+        latitude: "0.71948900491569",
+        longitude: "-0.65033166450056",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bannan Island",
+        description: "",
+        latitude: "0.69114009941029",
+        longitude: "-0.64625332232748",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shrine Island",
+        description: "",
+        latitude: "0.68822665116538",
+        longitude: "-0.65041061673844",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goponga Island",
+        description: "",
+        latitude: "0.69270341236712",
+        longitude: "-0.65293341932986",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wes Island",
+        description: "",
+        latitude: "0.69320083001746",
+        longitude: "-0.65815668666770",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zauz Island",
+        description: "",
+        latitude: "0.69781970570274",
+        longitude: "-0.65666432457135",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Millennio Sandbar",
+        description: "",
+        latitude: "0.68588167933387",
+        longitude: "-0.66188759190791",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rikoka Hills",
+        description: "",
+        latitude: "0.68062325348178",
+        longitude: "-0.65179638154225",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Quatta's Shelf",
+        description: "",
+        latitude: "0.68748593863235",
+        longitude: "-0.63270192835222",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Hill",
+        description: "",
+        latitude: "0.67711991863902",
+        longitude: "-0.64274889152401",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Telta Lake",
+        description: "",
+        latitude: "0.67793710741037",
+        longitude: "-0.64786556156787",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sahasra Slope",
+        description: "",
+        latitude: "0.66969986984938",
+        longitude: "-0.65840225711756",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lantern Lake",
+        description: "",
+        latitude: "0.67195701546437",
+        longitude: "-0.64821932451875",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ring Ruins",
+        latitude: "0.67414628111142",
+        longitude: "-0.64610056579116",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pierre Plateau",
+        description: "",
+        latitude: "0.67278799736771",
+        longitude: "-0.63254736136832",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bonooru's Stand",
+        description: "",
+        latitude: "0.66631541385333",
+        longitude: "-0.63394187168248",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rabia Plain",
+        description: "",
+        latitude: "0.68382843163914",
+        longitude: "-0.61911871733119",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Heights",
+        description: "",
+        latitude: "0.67319959035795",
+        longitude: "-0.61496462600229",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Bluff",
+        description: "",
+        latitude: "0.66208204193344",
+        longitude: "-0.61044399720294",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Phalian Heights",
+        description: "",
+        latitude: "0.66403677754062",
+        longitude: "-0.62235646498482",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Samasa Plain",
+        description: "",
+        latitude: "0.68419479986804",
+        longitude: "-0.60045637430079",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trotter's Downfall",
+        description: "",
+        latitude: "0.67606621948974",
+        longitude: "-0.60489045781861",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Bay",
+        description: "",
+        latitude: "0.68360363085063",
+        longitude: "-0.57843375949523",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Brynna Plain",
+        description: "",
+        latitude: "0.68990942995825",
+        longitude: "-0.57749090780942",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Horon Lagoon",
+        description: "",
+        latitude: "0.69321011835446",
+        longitude: "-0.56704617774693",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Talus Plateau",
+        description: "",
+        latitude: "0.69143661442652",
+        longitude: "-0.56064139044335",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lodrum Headland",
+        description: "",
+        latitude: "0.68232276438962",
+        longitude: "-0.56054285525249",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tarm Point",
+        description: "",
+        latitude: "0.67459101502244",
+        longitude: "-0.55906482741261",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wintre Island",
+        description: "",
+        latitude: "0.67045282215793",
+        longitude: "-0.55788240514116",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ja'Abu Ridge",
+        description: "",
+        latitude: "0.70122604010291",
+        longitude: "-0.57896585313580",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spool Blight",
+        description: "",
+        latitude: "0.71002449113908",
+        longitude: "-0.56158354577514",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tal Tal Peak",
+        description: "",
+        latitude: "0.71436178150688",
+        longitude: "-0.56984284088338",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Davdi Island",
+        description: "",
+        latitude: "0.72261749005025",
+        longitude: "-0.55376832751406",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Polymus Mountain",
+        description: "",
+        latitude: "0.72445274262216",
+        longitude: "-0.57946391230701",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulria Grotto",
+        latitude: "0.72831562023713",
+        longitude: "-0.56777789857651",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ukuku Plains",
+        description: "",
+        latitude: "0.73438468477207",
+        longitude: "-0.57741258410965",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Knuckel Island",
+        description: "",
+        latitude: "0.72833915737671",
+        longitude: "-0.55355239822958",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ankel Island",
+        description: "",
+        latitude: "0.73632788827291",
+        longitude: "-0.55349841590916",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kaepora Pass",
+        description: "",
+        latitude: "0.74165847447875",
+        longitude: "-0.57050284702433",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tingel Island",
+        description: "",
+        latitude: "0.74624658496879",
+        longitude: "-0.55204089324405",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spring of Wisdom",
+        latitude: "0.65927533776842",
+        longitude: "-0.57690082117264",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Loshlo Harbor",
+        description: "",
+        latitude: "0.60906435504329",
+        longitude: "-0.59203293987107",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Bay",
+        description: "",
+        latitude: "0.62436713462340",
+        longitude: "-0.57347317453895",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kitano Bay",
+        description: "",
+        latitude: "0.62197946979266",
+        longitude: "-0.58421830182851",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Beach",
+        description: "",
+        latitude: "0.62850561384839",
+        longitude: "-0.57395032560126",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deepback Bay",
+        description: "",
+        latitude: "0.62630839173748",
+        longitude: "-0.56504213431157",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Solewood Range",
+        description: "",
+        latitude: "0.63200929043647",
+        longitude: "-0.56088497837681",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mapla Point",
+        description: "",
+        latitude: "0.62642716052457",
+        longitude: "-0.55280821827452",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koholit Rock",
+        description: "",
+        latitude: "0.58266632311138",
+        longitude: "-0.55311409210276",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eventide Island",
+        description: "",
+        latitude: "0.58573400342091",
+        longitude: "-0.55561902550147",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Toronbo Beach",
+        description: "",
+        latitude: "0.58964599697565",
+        longitude: "-0.55874315591919",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Soka Point",
+        description: "",
+        latitude: "0.58600988291008",
+        longitude: "-0.58092795746373",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cape Cresia",
+        description: "",
+        latitude: "0.58020117492008",
+        longitude: "-0.59198104734256",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rimba Beach",
+        description: "",
+        latitude: "0.58262766049769",
+        longitude: "-0.60129330088213",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gogobi Shores",
+        description: "",
+        latitude: "0.58913697180974",
+        longitude: "-0.60111413615780",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Palmorae Beach",
+        description: "",
+        latitude: "0.59146598961074",
+        longitude: "-0.59036425270710",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cape Cales",
+        description: "",
+        latitude: "0.59740839671984",
+        longitude: "-0.58840353774713",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Korne Beach",
+        description: "",
+        latitude: "0.58522584431925",
+        longitude: "-0.60924636732372",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Clarnet Coast",
+        description: "",
+        latitude: "0.57764159486672",
+        longitude: "-0.62131012541883",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yambi Lake",
+        description: "",
+        latitude: "0.58727125449647",
+        longitude: "-0.62364825705276",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tuft Mountain",
+        description: "",
+        latitude: "0.59043633079278",
+        longitude: "-0.62060245674115",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Temto Hill",
+        description: "",
+        latitude: "0.59276534804901",
+        longitude: "-0.62699266523688",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Atun Valley",
+        latitude: "0.59897754096694",
+        longitude: "-0.62388718128173",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Dunsel",
+        description: "",
+        latitude: "0.60023130055407",
+        longitude: "-0.60119062437420",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dunsel Plateau",
+        description: "",
+        latitude: "0.60285890501744",
+        longitude: "-0.60602807192706",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Keya Pond",
+        description: "",
+        latitude: "0.60757664620979",
+        longitude: "-0.60746138972070",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uten Marsh",
+        description: "",
+        latitude: "0.60793495549875",
+        longitude: "-0.61671823380368",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Taran Pass",
+        description: "",
+        latitude: "0.61152276011680",
+        longitude: "-0.61581101474090",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ebon Mountain",
+        description: "",
+        latitude: "0.62139647314056",
+        longitude: "-0.59549007109285",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hanu Pond",
+        description: "",
+        latitude: "0.61504203086940",
+        longitude: "-0.61366606678629",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stinger Cliffs",
+        description: "",
+        latitude: "0.61875434968285",
+        longitude: "-0.61151040188221",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Firly Plateau",
+        description: "",
+        latitude: "0.62621889683989",
+        longitude: "-0.60855634256774",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Jarrah",
+        description: "",
+        latitude: "0.63160773444497",
+        longitude: "-0.60823698480468",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Firly Pond",
+        description: "",
+        latitude: "0.63104889228461",
+        longitude: "-0.59793769692484",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Marbold Plain",
+        description: "",
+        latitude: "0.62953203469331",
+        longitude: "-0.61518301616425",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koto Pond",
+        description: "",
+        latitude: "0.62122922744787",
+        longitude: "-0.62658182033329",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Camphor Pond",
+        description: "",
+        latitude: "0.63724358227090",
+        longitude: "-0.60451648933397",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Midla Woods",
+        description: "",
+        latitude: "0.63253334444774",
+        longitude: "-0.60323905827897",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ginner Woods",
+        description: "",
+        latitude: "0.63564689196369",
+        longitude: "-0.60044467784604",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ovli Plain",
+        description: "",
+        latitude: "0.64251153987492",
+        longitude: "-0.60583384011886",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelkoa Pond",
+        description: "",
+        latitude: "0.63950557459286",
+        longitude: "-0.59074361328561",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Sumac",
+        description: "",
+        latitude: "0.64154135311890",
+        longitude: "-0.58299918751570",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Walnot Mountain",
+        description: "",
+        latitude: "0.64011921429666",
+        longitude: "-0.57044070323769",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Afromsia Coast",
+        description: "",
+        latitude: "0.64450188506702",
+        longitude: "-0.55526559477582",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Range",
+        description: "",
+        latitude: "0.65271780632685",
+        longitude: "-0.57462579074368",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Madorna Mountain",
+        description: "",
+        latitude: "0.64919863140794",
+        longitude: "-0.57755862579356",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Naydra Snowfield",
+        description: "",
+        latitude: "0.65749547068162",
+        longitude: "-0.59016817599121",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nirvata Lake",
+        description: "",
+        latitude: "0.64856719725894",
+        longitude: "-0.60000946693526",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nirvata Plateau",
+        description: "",
+        latitude: "0.65813541290640",
+        longitude: "-0.60034714231350",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Purifier Lake",
+        description: "",
+        latitude: "0.66093771406202",
+        longitude: "-0.59891331184434",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Peak of Awakening",
+        description: "",
+        latitude: "0.65650616732508",
+        longitude: "-0.60914564746196",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Robred Dropoff",
+        description: "",
+        latitude: "0.65155325750709",
+        longitude: "-0.61611927746569",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fir River",
+        description: "",
+        latitude: "0.63897383811317",
+        longitude: "-0.61297603840003",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oakle's Navel",
+        description: "",
+        latitude: "0.63538948360059",
+        longitude: "-0.62379494102808",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cliffs of Quince",
+        description: "",
+        latitude: "0.64555600987765",
+        longitude: "-0.62014519074364",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meda Mountain",
+        description: "",
+        latitude: "0.62287680844737",
+        longitude: "-0.62138349887064",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bubinga Forest",
+        description: "",
+        latitude: "0.63486812273860",
+        longitude: "-0.63682976346496",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ash Swamp",
+        description: "",
+        latitude: "0.64334023023167",
+        longitude: "-0.63930637972965",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blatchery Plain",
+        description: "",
+        latitude: "0.64079859945234",
+        longitude: "-0.63480936598646",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hickaly Woods",
+        description: "",
+        latitude: "0.62489708615252",
+        longitude: "-0.64080538430127",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Breman Peak",
+        description: "",
+        latitude: "0.62046550824260",
+        longitude: "-0.63493971420272",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Taran",
+        latitude: "0.61658235380955",
+        longitude: "-0.62349893152512",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rabella Wetlands",
+        description: "",
+        latitude: "0.61290073219708",
+        longitude: "-0.62548445068913",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Courage Steppe",
+        description: "",
+        latitude: "0.60801295122150",
+        longitude: "-0.63128494667512",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aris Beach",
+        description: "",
+        latitude: "0.57825154869218",
+        longitude: "-0.64166491270083",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rassla Lake",
+        description: "",
+        latitude: "0.58462168398589",
+        longitude: "-0.64333890306054",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Floria",
+        description: "",
+        latitude: "0.58931791049037",
+        longitude: "-0.64729138029961",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ubota Point",
+        description: "",
+        latitude: "0.58597010586055",
+        longitude: "-0.65175535459238",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ebara Forest",
+        description: "",
+        latitude: "0.59606001091883",
+        longitude: "-0.64310640439956",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calora Lake",
+        description: "",
+        latitude: "0.59950080382497",
+        longitude: "-0.63827043224899",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rodai Lake",
+        description: "",
+        latitude: "0.60222767833746",
+        longitude: "-0.64347840226293",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floria Falls",
+        description: "",
+        latitude: "0.59790344040807",
+        longitude: "-0.64622188646351",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Corta Lake",
+        description: "",
+        latitude: "0.60334361015073",
+        longitude: "-0.64910486986165",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bronas Forest",
+        description: "",
+        latitude: "0.59762088527761",
+        longitude: "-0.65572981038380",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Martha's Landing",
+        description: "",
+        latitude: "0.58209079779007",
+        longitude: "-0.66437876057819",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floria River",
+        description: "",
+        latitude: "0.59680219018612",
+        longitude: "-0.66284426941931",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sarjon Woods",
+        description: "",
+        latitude: "0.59838732200303",
+        longitude: "-0.66740687936928",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kamah Plateau",
+        description: "",
+        latitude: "0.60666381667170",
+        longitude: "-0.65750243640628",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Keelay Plain",
+        description: "",
+        latitude: "0.61077660404941",
+        longitude: "-0.65519693240333",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Riola Spring",
+        description: "",
+        latitude: "0.60849824614671",
+        longitude: "-0.64571098703067",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Floria",
+        description: "",
+        latitude: "0.61351993166971",
+        longitude: "-0.64087501488012",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Angel Peak",
+        description: "",
+        latitude: "0.61915100465711",
+        longitude: "-0.64853585994831",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Jia Highlands",
+        description: "",
+        latitude: "0.62375420736190",
+        longitude: "-0.65495282299432",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tobio's Hollow",
+        description: "",
+        latitude: "0.61989495688103",
+        longitude: "-0.66039329166369",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dracozu Lake",
+        description: "",
+        latitude: "0.62035992696772",
+        longitude: "-0.67341321668505",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Damel Forest",
+        description: "",
+        latitude: "0.61566372721860",
+        longitude: "-0.67652869872776",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dracozu River",
+        description: "",
+        latitude: "0.61354811112871",
+        longitude: "-0.67127422898832",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Harker Lake",
+        description: "",
+        latitude: "0.61054904952232",
+        longitude: "-0.67392471372463",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Guchini Plain",
+        description: "",
+        latitude: "0.59511854395070",
+        longitude: "-0.67490012157924",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Herin Lake",
+        description: "",
+        latitude: "0.58987004955557",
+        longitude: "-0.67076810719030",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ibara Butte",
+        description: "",
+        latitude: "0.58149849716696",
+        longitude: "-0.67716289671810",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Komo Shoreline",
+        description: "",
+        latitude: "0.57675250686928",
+        longitude: "-0.68040150259120",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake of the Horse God",
+        description: "",
+        latitude: "0.58602114303201",
+        longitude: "-0.68274669994756",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pagos Woods",
+        description: "",
+        latitude: "0.60437783964062",
+        longitude: "-0.68299465952219",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Finra Woods",
+        description: "",
+        latitude: "0.60785149252858",
+        longitude: "-0.68950233216239",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Farosh Hills",
+        description: "",
+        latitude: "0.62318442783695",
+        longitude: "-0.68547088254763",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Hylia",
+        description: "",
+        latitude: "0.62371783331432",
+        longitude: "-0.69966422068305",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nette Plateau",
+        description: "",
+        latitude: "0.58618634400210",
+        longitude: "-0.69651544704027",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Puffer Beach",
+        description: "",
+        latitude: "0.57751519968747",
+        longitude: "-0.69617691644265",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Laverra Beach",
+        description: "",
+        latitude: "0.57951825518397",
+        longitude: "-0.70899350614533",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nautelle Wetlands",
+        description: "",
+        latitude: "0.57949078308184",
+        longitude: "-0.72348124542580",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Darybon Plains",
+        description: "",
+        latitude: "0.58423401106549",
+        longitude: "-0.71436720594184",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Papetto Grove",
+        description: "",
+        latitude: "0.58899710429850",
+        longitude: "-0.71383421754953",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oseira Plains",
+        description: "",
+        latitude: "0.58763936428055",
+        longitude: "-0.72856079291770",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hylia Island",
+        description: "",
+        latitude: "0.61828727680974",
+        longitude: "-0.71343585269997",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cora Lake",
+        description: "",
+        latitude: "0.60473433445516",
+        longitude: "-0.70460220127183",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Menoat River",
+        description: "",
+        latitude: "0.59903258426677",
+        longitude: "-0.70293328708377",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Haran Lake",
+        description: "",
+        latitude: "0.59118688826840",
+        longitude: "-0.69102382946852",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Harfin Valley",
+        description: "",
+        latitude: "0.59444119587444",
+        longitude: "-0.70020343941664",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Barula Plain",
+        description: "",
+        latitude: "0.60223919816235",
+        longitude: "-0.69802580537939",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fural Plain",
+        description: "",
+        latitude: "0.59533623151557",
+        longitude: "-0.69002320320104",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Parache Plains",
+        description: "",
+        latitude: "0.59681359738629",
+        longitude: "-0.71509517668369",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zokassa Ridge",
+        description: "",
+        latitude: "0.60051846175737",
+        longitude: "-0.72285933401037",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Grinnden Plains",
+        description: "",
+        latitude: "0.60917337729600",
+        longitude: "-0.72748610779581",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Gerudo Mesa",
+        description: "",
+        latitude: "0.60694380422758",
+        longitude: "-0.75652020663640",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Champion's Gate",
+        description: "",
+        latitude: "0.60028544965742",
+        longitude: "-0.76722348906088",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Granajh",
+        description: "",
+        latitude: "0.59558268783150",
+        longitude: "-0.74746719595217",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Daval Peak",
+        description: "",
+        latitude: "0.58691694881489",
+        longitude: "-0.74807820334291",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Barrens",
+        description: "",
+        latitude: "0.58586704177135",
+        longitude: "-0.78658460239035",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Palu Wasteland",
+        description: "",
+        latitude: "0.60429752043430",
+        longitude: "-0.80587443831070",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Southern Oasis",
+        description: "",
+        latitude: "0.58737528342546",
+        longitude: "-0.82354300840572",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dragon's Exile",
+        description: "",
+        latitude: "0.59010614423215",
+        longitude: "-0.85547276683744",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Toruma Dunes",
+        description: "",
+        latitude: "0.61478547346688",
+        longitude: "-0.85620956123884",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Barrens",
+        description: "",
+        latitude: "0.62292279341089",
+        longitude: "-0.84843145942065",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Gerudo Ruins",
+        description: "",
+        latitude: "0.62901819763044",
+        longitude: "-0.84595781442607",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Cliffs",
+        description: "",
+        latitude: "0.63206925924732",
+        longitude: "-0.81016165065918",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Birida Lookout",
+        description: "",
+        latitude: "0.64311996352440",
+        longitude: "-0.81532337705346",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Karusa Valley",
+        description: "",
+        latitude: "0.64292743375792",
+        longitude: "-0.84215457890656",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Desert Gateway",
+        description: "",
+        latitude: "0.62863489523865",
+        longitude: "-0.79697769091752",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon",
+        description: "",
+        latitude: "0.63164666967967",
+        longitude: "-0.77764513229477",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spectacle Rock",
+        description: "",
+        latitude: "0.62163076193096",
+        longitude: "-0.77463317569828",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yarna Valley",
+        description: "",
+        latitude: "0.61245533325699",
+        longitude: "-0.76412635035598",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalry Plateau",
+        description: "",
+        latitude: "0.61574728276824",
+        longitude: "-0.75312920650254",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Taobab Grassland",
+        description: "",
+        latitude: "0.61420637048290",
+        longitude: "-0.74213206264795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Faloraa",
+        description: "",
+        latitude: "0.61854894032511",
+        longitude: "-0.73393673887048",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "River of the Dead",
+        description: "",
+        latitude: "0.63817229374396",
+        longitude: "-0.74185917414272",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Hylia",
+        description: "",
+        latitude: "0.63134209372446",
+        longitude: "-0.74459142182224",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Pass",
+        description: "",
+        latitude: "0.63631872240684",
+        longitude: "-0.75637364782156",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Nabooru",
+        description: "",
+        latitude: "0.64328354823503",
+        longitude: "-0.76427239637763",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hopper Pond",
+        description: "",
+        latitude: "0.64938673831617",
+        longitude: "-0.74122241195309",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forest of Spirits",
+        description: "",
+        latitude: "0.65014066128649",
+        longitude: "-0.73407763484823",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koukot Plateau",
+        description: "",
+        latitude: "0.64421578892701",
+        longitude: "-0.77361970721185",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nephra Hill",
+        description: "",
+        latitude: "0.65486445247443",
+        longitude: "-0.77469230340128",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Taafei Hill",
+        description: "",
+        latitude: "0.64505848973592",
+        longitude: "-0.79353935072149",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zirco Mesa",
+        description: "",
+        latitude: "0.65340888108554",
+        longitude: "-0.78786991372235",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sapphia's Table",
+        description: "",
+        latitude: "0.65235144319546",
+        longitude: "-0.80592702064104",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Laporah Mesa",
+        description: "",
+        latitude: "0.66514513779268",
+        longitude: "-0.79841884731508",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Vatorsa Snowfield",
+        description: "",
+        latitude: "0.66652409692047",
+        longitude: "-0.81588684238650",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Risoka Snowfield",
+        description: "",
+        latitude: "0.66774983804574",
+        longitude: "-0.84921393825491",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rutimala Hill",
+        description: "",
+        latitude: "0.65794390057295",
+        longitude: "-0.84783488601212",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Summit",
+        description: "",
+        latitude: "0.67977740648851",
+        longitude: "-0.83603632793381",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cliffs of Ruvara",
+        description: "",
+        latitude: "0.68325403417904",
+        longitude: "-0.81266983613457",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meadela's Mantle",
+        description: "",
+        latitude: "0.66154878900954",
+        longitude: "-0.83677797260626",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hemaar's Descent",
+        description: "",
+        latitude: "0.69758196460992",
+        longitude: "-0.84124627739070",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mystathi's Shelf",
+        description: "",
+        latitude: "0.69009580711494",
+        longitude: "-0.83385374335498",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Illumeni",
+        description: "",
+        latitude: "0.69828473864148",
+        longitude: "-0.81709200904635",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Illumeni Plateau",
+        description: "",
+        latitude: "0.70254226315875",
+        longitude: "-0.80326776352516",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Washa's Bluff",
+        description: "",
+        latitude: "0.70021747471534",
+        longitude: "-0.79086434368611",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tamio River",
+        description: "",
+        latitude: "0.70057042380219",
+        longitude: "-0.77864956585390",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Mountain",
+        description: "",
+        latitude: "0.69359039041029",
+        longitude: "-0.77627737988428",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rutile Lake",
+        description: "",
+        latitude: "0.68213339483887",
+        longitude: "-0.78490928112788",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dalite Forest",
+        description: "",
+        latitude: "0.66660501067754",
+        longitude: "-0.77010051968728",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Safula Hill",
+        description: "",
+        latitude: "0.67447819074847",
+        longitude: "-0.76025837058862",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nima Plain",
+        latitude: "0.68806862851913",
+        longitude: "-0.75786547773839",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Regencia River",
+        latitude: "0.70710908571455",
+        longitude: "-0.77099146585860",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aquame Lake",
+        latitude: "0.66902495483210",
+        longitude: "-0.73570981621845",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Kolomo",
+        description: "",
+        latitude: "0.66473675338749",
+        longitude: "-0.71936443014471",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Exchange Ruins",
+        description: "",
+        latitude: "0.67466812600415",
+        longitude: "-0.72776473441633",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Windvane Meadow",
+        description: "",
+        latitude: "0.67884237928136",
+        longitude: "-0.72513023007272",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Daphnes",
+        description: "",
+        latitude: "0.68445286227963",
+        longitude: "-0.73759333490960",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Passeri Greenbelt",
+        description: "",
+        latitude: "0.69641133150094",
+        longitude: "-0.72240100447257",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ranch Ruins",
+        description: "",
+        latitude: "0.69444794164421",
+        longitude: "-0.69991664195339",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Whistling Hill",
+        description: "",
+        latitude: "0.67450224824333",
+        longitude: "-0.69694853558244",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bottomless Pond",
+        description: "",
+        latitude: "0.68335789478401",
+        longitude: "-0.68653453267976",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hylia River",
+        description: "",
+        latitude: "0.69024986457687",
+        longitude: "-0.67725754158786",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nabi Lake",
+        description: "",
+        latitude: "0.66292403683416",
+        longitude: "-0.66844514837547",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Batrea Lake",
+        description: "",
+        latitude: "0.66352934124163",
+        longitude: "-0.68494079860557",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forest of Time",
+        description: "",
+        latitude: "0.65509585663219",
+        longitude: "-0.71517486440871",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Scout's Hill",
+        description: "",
+        latitude: "0.64126491926227",
+        longitude: "-0.70387795758600",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hills of Baumer",
+        description: "",
+        latitude: "0.64578339697542",
+        longitude: "-0.68960528018243",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deya Village Ruins",
+        description: "",
+        latitude: "0.64135845612387",
+        longitude: "-0.69191335648199",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deya Lake",
+        description: "",
+        latitude: "0.63841042283524",
+        longitude: "-0.68915801335379",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eastern Abbey",
+        description: "",
+        latitude: "0.63841154211072",
+        longitude: "-0.71871437530288",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Popla Foothills",
+        description: "",
+        latitude: "0.63302731815921",
+        longitude: "-0.67762070833115",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dueling Peaks",
+        description: "",
+        latitude: "0.64408123927532",
+        longitude: "-0.66042557422904",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Squabble River",
+        description: "",
+        latitude: "0.64581371686599",
+        longitude: "-0.67341997939812",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Nabi Lake",
+        description: "",
+        latitude: "0.65117369230354",
+        longitude: "-0.67567099904895",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mable Ridge",
+        description: "",
+        latitude: "0.65776918910345",
+        longitude: "-0.66121325983019",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Siela",
+        description: "",
+        latitude: "0.65750270456164",
+        longitude: "-0.65005031592835",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pillars of Levia",
+        description: "",
+        latitude: "0.66300839945885",
+        longitude: "-0.64316774004456",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mabe Prairie",
+        description: "",
+        latitude: "0.70972304105962",
+        longitude: "-0.69627233601867",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Applean Forest",
+        description: "",
+        latitude: "0.71128643201985",
+        longitude: "-0.68583031496092",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Romani Plains",
+        description: "",
+        latitude: "0.71392646547083",
+        longitude: "-0.69307350581130",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Gustaf",
+        description: "",
+        latitude: "0.70969356961645",
+        longitude: "-0.73439323191258",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Moat Bridge",
+        description: "",
+        latitude: "0.72457803898405",
+        longitude: "-0.72284680813127",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Castle Town",
+        latitude: "0.71608350710902",
+        longitude: "-0.71942964337828",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Quarry Ruins",
+        description: "",
+        latitude: "0.71750473809780",
+        longitude: "-0.72651346972592",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Central Square",
+        description: "",
+        latitude: "0.71723169098742",
+        longitude: "-0.71126064333245",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Town Ruins",
+        description: "",
+        latitude: "0.71442320558465",
+        longitude: "-0.71137767269104",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Castle Town",
+        description: "",
+        latitude: "0.71738771790002",
+        longitude: "-0.70279551973857",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat",
+        latitude: "0.74180035754233",
+        longitude: "-0.70162190295517",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Hills",
+        description: "",
+        latitude: "0.73053938828185",
+        longitude: "-0.68027406177586",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Peak",
+        description: "",
+        latitude: "0.71534368822117",
+        longitude: "-0.66507715195641",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trilby Plain",
+        description: "",
+        latitude: "0.73274644615806",
+        longitude: "-0.65802294205551",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pico Pond",
+        description: "",
+        latitude: "0.73995754820420",
+        longitude: "-0.66441305386473",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Minshi Woods",
+        description: "",
+        latitude: "0.75261565986457",
+        longitude: "-0.66947172462739",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goronbi Lake",
+        description: "",
+        latitude: "0.75098975370847",
+        longitude: "-0.64498897077038",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Saria",
+        description: "",
+        latitude: "0.76388120085252",
+        longitude: "-0.70144654239388",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mido Swamp",
+        description: "",
+        latitude: "0.77950228377563",
+        longitude: "-0.67725044026702",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Mekar",
+        description: "",
+        latitude: "0.79143903948381",
+        longitude: "-0.69459313320536",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mekar Island",
+        description: "",
+        latitude: "0.77311634313604",
+        longitude: "-0.71149622690339",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Drena",
+        description: "",
+        latitude: "0.78774281065586",
+        longitude: "-0.72236111930675",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thyphlo Ruins",
+        description: "",
+        latitude: "0.80152695915532",
+        longitude: "-0.69318702653297",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Drenan Highlands",
+        description: "",
+        latitude: "0.80431371446427",
+        longitude: "-0.70901174642489",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deplian Badlands",
+        description: "",
+        latitude: "0.82292230496012",
+        longitude: "-0.69204945232252",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Deplian Badlands",
+        description: "",
+        latitude: "0.82137341045926",
+        longitude: "-0.66574455466358",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Deplian Badlands",
+        latitude: "0.81752242057495",
+        longitude: "-0.69870463610442",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Isle of Rabac",
+        description: "",
+        latitude: "0.80189555685820",
+        longitude: "-0.65354313880530",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Darunia Lake",
+        description: "",
+        latitude: "0.79486215552733",
+        longitude: "-0.65903997282686",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rauru Hillside",
+        description: "",
+        latitude: "0.75237243001989",
+        longitude: "-0.68690599733216",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Elma Knolls",
+        description: "",
+        latitude: "0.76159420919340",
+        longitude: "-0.71755111926043",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Irch Plain",
+        description: "",
+        latitude: "0.74946792859228",
+        longitude: "-0.73294629899314",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Breach of Demise",
+        description: "",
+        latitude: "0.72100571698091",
+        longitude: "-0.75108075357343",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Hyrule Plain",
+        latitude: "0.73050433511703",
+        longitude: "-0.74426193518894",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Salari Hill",
+        description: "",
+        latitude: "0.75180146205841",
+        longitude: "-0.74696460742791",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Seres Scablands",
+        description: "",
+        latitude: "0.71669824710162",
+        longitude: "-0.78065882284039",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ludfo's Bog",
+        description: "",
+        latitude: "0.72388330194507",
+        longitude: "-0.77073582012872",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Rhoam",
+        description: "",
+        latitude: "0.72816011490589",
+        longitude: "-0.78938422177532",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Hyrule Plains",
+        description: "",
+        latitude: "0.71115273838252",
+        longitude: "-0.75408240485893",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Miphia Court",
+        description: "",
+        latitude: "0.72040711382854",
+        longitude: "-0.57982649616855",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tanagar Canyon",
+        description: "",
+        latitude: "0.75199663373681",
+        longitude: "-0.79063257695893",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Piper Ridge",
+        description: "",
+        latitude: "0.72468115495199",
+        longitude: "-0.81498776523242",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rayne Highlands",
+        description: "",
+        latitude: "0.71781852750294",
+        longitude: "-0.82462705065791",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nero Hill",
+        latitude: "0.73390524784973",
+        longitude: "-0.81963907422653",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Strock Lake",
+        description: "",
+        latitude: "0.74288859858420",
+        longitude: "-0.81177963673554",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cuho Mountain",
+        description: "",
+        latitude: "0.74635703174863",
+        longitude: "-0.82764380863676",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Passer Hill",
+        description: "",
+        latitude: "0.75502000597911",
+        longitude: "-0.83185116781158",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Totori",
+        latitude: "0.76551770004154",
+        longitude: "-0.82182653872633",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dronoc's Pass",
+        description: "",
+        latitude: "0.77548429243693",
+        longitude: "-0.82526706745685",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Trailhead Lodge",
+        description: "",
+        latitude: "0.77579688800789",
+        longitude: "-0.81814618252591",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rospro Pass",
+        description: "",
+        latitude: "0.77940910181300",
+        longitude: "-0.81776408626061",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Corvash Peak",
+        description: "",
+        latitude: "0.78142710013626",
+        longitude: "-0.80828977476051",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra South Summit",
+        description: "",
+        latitude: "0.78604263612466",
+        longitude: "-0.81407139102700",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Talonto Peak",
+        description: "",
+        latitude: "0.78921290031491",
+        longitude: "-0.80577197412839",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Kilsie",
+        description: "",
+        latitude: "0.78129872797075",
+        longitude: "-0.83343292559584",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sturnida Basin",
+        description: "",
+        latitude: "0.79309749411618",
+        longitude: "-0.83515045025013",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Biron Snowshelf",
+        description: "",
+        latitude: "0.79900987474853",
+        longitude: "-0.82286970517274",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra West Summit",
+        latitude: "0.80469499385029",
+        longitude: "-0.84595376316631",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra North Summit",
+        description: "",
+        latitude: "0.81940955624259",
+        longitude: "-0.83272972960751",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Icefall Foothills",
+        description: "",
+        latitude: "0.82529947556853",
+        longitude: "-0.84290427460218",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra North Crest",
+        description: "",
+        latitude: "0.82348592264741",
+        longitude: "-0.81749610610032",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Tundra",
+        description: "",
+        latitude: "0.80932896329509",
+        longitude: "-0.81366093351122",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floating Scales Island",
+        description: "",
+        latitude: "1.06344113574340",
+        longitude: "-0.57181586525562",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lockup",
+        description: "",
+        latitude: "0.73728728361735",
+        longitude: "-0.71741569472067",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Salari Plain",
+        description: "",
+        latitude: "0.75894979879443",
+        longitude: "-0.75651733129985",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rowan Plain",
+        description: "",
+        latitude: "0.76825822693696",
+        longitude: "-0.74418405027981",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forgotten Temple",
+        description: "",
+        latitude: "0.77197352563903",
+        longitude: "-0.75252926817595",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lindor's Brow",
+        description: "",
+        latitude: "0.74597208059286",
+        longitude: "-0.76538226325084",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Lindor",
+        description: "",
+        latitude: "0.74693556115830",
+        longitude: "-0.77547872078836",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aldor Foothills",
+        description: "",
+        latitude: "0.77195664191052",
+        longitude: "-0.72547768624457",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kopeki Drifts",
+        description: "",
+        latitude: "0.78316944509474",
+        longitude: "-0.77880162886410",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Tabantha Snowfield",
+        description: "",
+        latitude: "0.78079550193416",
+        longitude: "-0.76474914300306",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Tabantha Snowfield",
+        latitude: "0.81296436920334",
+        longitude: "-0.76443082572783",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pikida Stonegrove",
+        description: "",
+        latitude: "0.80480663983477",
+        longitude: "-0.77751665476055",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Coldsnap Hollow",
+        description: "",
+        latitude: "0.79758719274781",
+        longitude: "-0.80262675261284",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Peak",
+        description: "",
+        latitude: "0.79648277732616",
+        longitude: "-0.79283432322976",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra East Summit",
+        description: "",
+        latitude: "0.80026726053639",
+        longitude: "-0.79249692399512",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Plunge",
+        description: "",
+        latitude: "0.77199924599708",
+        longitude: "-0.80186316050293",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tama Pond",
+        description: "",
+        latitude: "0.76402142642834",
+        longitude: "-0.79856624465910",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Hills",
+        description: "",
+        latitude: "0.76075584793176",
+        longitude: "-0.78402089217346",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Village Ruins",
+        description: "",
+        latitude: "0.76453013503787",
+        longitude: "-0.77847510214946",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gisa Crater",
+        description: "",
+        latitude: "0.73731929860675",
+        longitude: "-0.82994669858084",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau",
+        description: "",
+        latitude: "0.64150332110333",
+        longitude: "-0.73383061551499",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gama Cove",
+        description: "",
+        latitude: "0.59315394974443",
+        longitude: "-0.59792319953851",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Medingo Pool",
+        description: "",
+        latitude: "0.75972596984960",
+        longitude: "-0.63295138282359",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Golow River",
+        description: "",
+        latitude: "0.78510932894282",
+        longitude: "-0.65540128727028",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Military Training Camp",
+        description: "",
+        latitude: "0.74939233125524",
+        longitude: "-0.67544923417603",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Abandoned Central Mine",
+        latitude: "0.31908357318349",
+        longitude: "-0.72695063964205",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wellspring of Wisdom",
+        description: "",
+        latitude: "0.33805492458740",
+        longitude: "-0.57980905634622",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Lomei Depths Labyrinth",
+        description: "",
+        latitude: "0.48886389278492",
+        longitude: "-0.72959764255774",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sky Mine",
+        description: "",
+        latitude: "1.11480801017240",
+        longitude: "-0.55596090828550",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Headspring",
+        description: "",
+        latitude: "0.78104113899664",
+        longitude: "-0.79462860209384",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Falls",
+        description: "",
+        latitude: "0.77764516943014",
+        longitude: "-0.79182666800136",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dunsel Canyon Mine",
+        description: "",
+        latitude: "0.27336261659420",
+        longitude: "-0.60356265275459",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Corvash Canyon Mine",
+        description: "",
+        latitude: "0.45382345221573",
+        longitude: "-0.81044741984002",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rist Mine",
+        description: "",
+        latitude: "0.44595226926256",
+        longitude: "-0.55641397450535",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Minshi Grove",
+        description: "",
+        latitude: "0.43203052892454",
+        longitude: "-0.66948861129299",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Columns",
+        description: "",
+        latitude: "0.71699098499168",
+        longitude: "-0.81810626969440",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thundra Plateau",
+        latitude: "0.73403548340357",
+        longitude: "-0.77617160975984",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom's Approach",
+        latitude: "0.40813322471150",
+        longitude: "-0.71110657391186",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lomei Labyrinth",
+        description: "",
+        latitude: "0.59290280804851",
+        longitude: "-0.76087782127308",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Area",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "YunoboCo HQ",
+        latitude: "0.79386482064484",
+        longitude: "-0.65147090811163",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Pasture",
+        description:
+          "**Location:** [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)",
+        latitude: "0.63554755395739",
+        longitude: "-0.58613223116555",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bedrock Bistro",
+        latitude: "0.75284154970230",
+        longitude: "-0.64627155661458",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Construction Site",
+        description: "",
+        latitude: "0.75494801133682",
+        longitude: "-0.58328284148544",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forgotten Temple",
+        description: "",
+        latitude: "0.77678897286208",
+        longitude: "-0.74794941898429",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Southern Mine",
+        description: "",
+        latitude: "0.76573445055973",
+        longitude: "-0.64956048371934",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Selmie's Spot",
+        description:
+          "**Note:** After you rescue her from the cave she will give you a large zonite shield when you come here. Then you are able to do a shield surfing mini-game with her.",
+        latitude: "0.80419966750657",
+        longitude: "-0.79839357005139",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ascend Tower Depths",
+        description:
+          "An area in the depths designed to ascend you to the surface, so players can escape without Fast Travel.",
+        latitude: "0.27236069700082",
+        longitude: "-0.59009909023456",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ascend Tower Depths",
+        description:
+          "An area in the depths designed to ascend you to the surface, so players can escape without Fast Travel.",
+        latitude: "0.25729789242534",
+        longitude: "-0.55116784522244",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Building",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Sahasra Slope Cave",
+        description:
+          "**Entrances:**\n- [Sahasra Slope Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277032)\n- [Sahasra Slope Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277034)\n\n**Bubbulfrog:** From the north entrance, break rocks while sticking to the right wall. You'll find a small chamber with a boulder hiding a small entrance to another chamber containing the bubbulfrog and some ore deposits.\n\n**Inside The Cave:**\n- Chest containing Shield of the Mind's Eye\n- 2 x Horriblin\n- 1 x Blue Horriblin\n- Multiple Traveler's Claymore (among the rocks)\n- 5 x Ore Deposit\n- 1 x Rare Ore Deposit\n- 3 x Brightcap\n- 4 x Brightbloom Seed\n- 1 x Giant Brightbloom Seed\n- 1 x Glowing Cave Fish\n- 6 x Sticky Lizard\n- 1 x Raw Meat",
+        latitude: "0.66548669054106",
+        longitude: "-0.65943986177251",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ploymus Mountain Cave",
+        description:
+          "**Cave Entrances:** \n- [Ploymus Mountain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277050)\n- ??  \n\n**Bubbulfrog:** Right after entering, turn right and climb to a ledge marked by a luminous ore deposit.\n\n**Inside The Cave:** \n- Glowing Cave Fish\n- [Climber\u2019s Bandanna](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279675)",
+        latitude: "0.72053033654244",
+        longitude: "-0.58468623335625",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pristine Sanctum",
+        description:
+          "**Coordinates:** 3709 0600 0362\n\n**Cave Entrances:** \n- [Pristine Sanctum Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277455)\n- [Pristine Sanctum Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277456)  \n\n**Bubbulfrog:** In the area behind Dorephan  \n\n**Inside The Cave:** \n- Dorephan\n- Arrows x5 [Chest]",
+        latitude: "0.72224879722765",
+        longitude: "-0.58549135923511",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra South Summit Cave",
+        description:
+          "**Cave Entrances:**\n- [Hebra South Summit Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277469)\n- [Hebra South Summit Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277470)\n\n**Bubbulfrog:** At the end of a tunnel starting at the top of the cavern, on the north wall. To access, use the nearby wood, flint and pine cone to create a wind tunnel.\n \n**Inside the Cave:**\n- 1 x Blue Horriblin\n- 4 x Ore Deposit\n- 2 x Luminous Stone Deposit\n- 2 x Stone Pebbit\n- 1 x Bomb Flower\n- Brightbloom Seeds\n- Giant Brightbloom Seeds\n- Chillshrooms\n- Brightcaps\n- Sticky Lizards\n- Glowing Cave Fish\n- Chillfin Trout",
+        latitude: "0.78504460317187",
+        longitude: "-0.80975085496738",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lindor's Brow Cave",
+        description:
+          "**Cave Entrances:** ??  \n**Coordinates:** -1751, 1180, 0255\n\n**Bubbulfrog:** At the end of a raised cliff, northwest of the main cavern.\n\n**Inside The Cave:** \n- [Taki-Ihaban Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277701)\n- Bomb Flowers\n- Brightflowers\n- Brightbloom Seed\n- Flint\n- Luminous Stone\n- Mini-Boss *Phantom-Ganon*",
+        latitude: "0.73988286121400",
+        longitude: "-0.75875463767673",
+        media: [
+          {
+            title: "",
+            fileName: "5e12e85f-89f8-49d4-9ad7-ff19b1fa1b4d.jpg",
+            url: "https://media.mapgenie.io/storage/media/5e12e85f-89f8-49d4-9ad7-ff19b1fa1b4d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Hyrule Plain Cave",
+        description:
+          "**Cave Entrances:** \n- [North Hyrule Plain Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277713)  \n- [North Hyrule Plain Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277716)\n\n**Bubbulfrog:** In the chamber at the very top of the cave system (next to the northern entrance).\n\n**Inside The Cave:** \n- [Climbing Outfit](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276862)\n- [Soldier's Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277714)\n- [Wooden Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277715)\n- Bomb Flowers\n- Brightcap\n- Glowing Cave Fish\n- Tireless Frogs\n- Sticky Lizards",
+        latitude: "0.72426029371597",
+        longitude: "-0.74146717786738",
+        media: [
+          {
+            title: "2023050600102300_c",
+            fileName: "750ef1c2-ef15-4720-9c7b-58d6edd54eec.jpg",
+            url: "https://media.mapgenie.io/storage/media/750ef1c2-ef15-4720-9c7b-58d6edd54eec.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Mountain Foothill Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** In an elevated alcove along the wall at the back of the circular room  \n**Inside the Cave:**\n- The [Hinox](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282879) for the [Satori Mountain Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281693) Shrine Quest\n- Chest with silver Rupees\n- [The Satori Mountain Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281693) in the possession of a Hinox.",
+        latitude: "0.67686075729877",
+        longitude: "-0.77366035866879",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Tree Stump Cave",
+        description:
+          "**Cave Entrances:** ??  \n\n**Bubbulfrog:** Hanging against a root, near the bottom of the cave on the eastern side.  \n\n**Inside The Cave:** \n- [Fierce Deity Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279654)\n- Like Like\n- Ore Nodes\n- Bomb Flowers",
+        latitude: "0.68939221882129",
+        longitude: "-0.73913030326384",
+        media: [
+          {
+            title: "Tree-stump-cave-1",
+            fileName: "Tree-stump-cave-1",
+            url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/c/cd/Tree-stump-cave-1.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Peak Cave",
+        description:
+          "**Cave Entrances:**\n- [Crenel Peak Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277819)  \n- [Crenel Peak Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279701)\n\n**Bubbulfrog:** From first chamber, cut or burn vines to enter small tunnel in east wall. Break rocks while hugging north wall. Bubbulfrog is in first chamber to north.\n\n**Inside the Cave:**\n- Jojon Shrine (At back of cave past breakable rocks)\n- 3 x Blue Bokoblin\n- 1 x Blue Boss Bokoblin\n- 1 x Blue Horriblin\n- 5 x Bomb Flower (In unlocked chest)\n- 1 x Bomb Flower\n- 5 x Ore Deposit\n- 1 x Luminous Stone Deposit\n- 1 x Big Hearty Truffle\n- 3 x Brightcap\n- 21 x Brightbloom Seed\n- 5 x Giant Brightbloom Seed\n- 3 x Glowing Cave Fish\n- 5 x Sticky Lizard",
+        latitude: "0.71280547984324",
+        longitude: "-0.66424369812036",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau Foothill Cave",
+        description:
+          "**Cave Entrances:**\n- [Great Plateau Foothill Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277807)\n\n**Bubbulfrog:**  Behind blue breakable rocks\n\n**Inside the Cave:**\n- [Kyokugon Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277808)\n- 3x Ore Deposit\n- 1x Luminous Stone Deposit",
+        latitude: "0.65490826435953",
+        longitude: "-0.72916058447089",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "YunoboCo HQ East Cave",
+        description:
+          "**Cave Entrances:** \n- [YunoboCo HQ East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277834)\n\n**Bubbulfrog:** Break the breakable rocks in the center of the cave's first chamber. Drop down into the chamber below. The bubbulfrog is on the ceiling.\n\n**Inside The Cave:** \n- [Isisim Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277833)\n- 2 Horriblins (Color varies depending on player's progression)\n- 1 Fire Like\n- 3 Ore Deposits\n- 18 Brightbloom Seeds\n- 7 Giant Brightbloom Seeds\n- 2 Fireproof Lizards",
+        latitude: "0.79443969372447",
+        longitude: "-0.64626020089253",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Restaurant Cave",
+        description:
+          "**Cave Entrances:**\n- [West Restaurant Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284500)\n\n**Bubbulfrog:** Left along the lava river as you enter, inside a smaller room .\n\n**Inside the Cave:**\n- The [Marbled Rock Roast](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284499) needed for [Meat for Meat](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279494)\n- 2 Hydrant Zonai Devices\n- 2 Rocket Zonai Devices\n- 8 Ore Deposits\n- 9 Brightbloom Seeds\n- 2 Giant Brightbloom Seeds\n- 5 Fireproof Lizards",
+        latitude: "0.75929438272917",
+        longitude: "-0.65033644438043",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "YunoboCo HQ South Cave",
+        description:
+          "**Cave Entrances:**\n[YunoboCo HQ South Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277835)\n\n**Bubbulfrog:** Left of the giant pool of lava -  **Coordinates:** 1615-2717-0381 \n\n**Inside the Cave:**\n- ??",
+        latitude: "0.79098609355933",
+        longitude: "-0.64789952427887",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pico Pond Cave",
+        description:
+          "**Cave Entrances:** \n- [Pico Pond Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277849)  \n\n**Bubbulfrog:** On the ceiling near the back wall of the cave.\n\n**Inside The Cave:**\n\n- 3 Ore Deposits\n- 1 Luminous Stone Deposit\n- 6 Brightbloom Seeds\n- 1 Giant Brightbloom Seed\n- 1 Fireproof Lizard",
+        latitude: "0.74297722542606",
+        longitude: "-0.66335454583108",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calora Lake Cave",
+        description:
+          "**Cave Entrances:** \n- [Calora Lake Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277994)  \n- [Calora Lake Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281691)\n\n**Bubbulfrog:** Opposite the campfire as you enter, behind the wall of breakable rocks.\n\n**Inside The Cave:** \n- [The Eldest Hinox Brother](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277997)\n- Arrow Chest (in the water near the Hinox)\n- 4x Gem Nodes\n- Hearty Lizards\n- Giant Brightbloom Seeds\n- Bomb Flowers\n- Brightcap Mushrooms",
+        latitude: "0.60193966162421",
+        longitude: "-0.63859239220631",
+        media: [
+          {
+            title: "2023050723003400_c",
+            fileName: "da65332d-360c-47ad-ac3b-cf8aebc2e8ed.jpg",
+            url: "https://media.mapgenie.io/storage/media/da65332d-360c-47ad-ac3b-cf8aebc2e8ed.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Atun Valley Cave",
+        description:
+          "**Cave Entrances:** \n- [Atun Valley Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278000)  \n\n**Bubbulfrog:** Upper level, behind some breakable rocks.\n\n**Inside The Cave:** \n- [Bubbulfrog](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278004)\n- [Treasure Chest](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278003)\n- Luminous Stone Vein\n- Multiple Gem Veins\n- Bomb Flower [Chest]\n- Glowing Cave Fish\n- 3x Black Horriblin",
+        latitude: "0.60135233267826",
+        longitude: "-0.62440901466150",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Dunsel Cave",
+        description:
+          "**Cave Entrances:** \n- [Mount Dunsel Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278018)\n\n**Bubblefrog:** In the cavern with the two Shock Likes, there is a vine-covered tunnel along the north wall.  \n\n**Inside The Cave:** \n- [Royal Bow [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278020)\n- [Royal Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278021)\n- [Sapphire [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278023)\n- 4x Gemstone Nodes\n- 2x Electric Like Like\n- 2x Luminous Stone\n- Mineral Nodes\n- Brightcap Mushroom",
+        latitude: "0.59754122408231",
+        longitude: "-0.59715709718560",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tarrey Town Tunnel",
+        description:
+          "**Cave Entrances:**\n- [Tarrey Town Tunnel Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278092)\n\n**Bubbulfrog:** At the end of the cave hidden behind a rock.  \n**Inside the Cave:**\n- ??",
+        latitude: "0.75353277123321",
+        longitude: "-0.57720136129748",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Summit Cave",
+        description:
+          "**Cave Entrances:** [Upland Zorana Summit Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286626)\n\n\n**Bubbulfrog:** Look towards the exit from the last room in the cave to see the frog in a niche in the wall\n\n**Inside the Cave:**\n- Hightail lizard\n- bBightbloom Seeds\n- Luminous Stone\n- Glowing Cave Fish\n- Tireless Frog\n- Hot-footed Frog\n- Ice Fruit\n- Sticky Lizard\n- Bokoblins",
+        latitude: "0.71882358129231",
+        longitude: "-0.61220350940036",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oakle's Navel Cave",
+        description:
+          "**Cave Entrances:** \n- [Oakle's Navel Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278115)  \n\n**Bubbulfrog:**  In the chamber connected to the pond that the single boulder rolls down the tunnel into (before the shrine room).  \n\n**Inside The Cave:** \n- [Tokiy Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278119)\n- [Bubbulfrog](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278118)\n- Like Like",
+        latitude: "0.63548746101604",
+        longitude: "-0.62205573492193",
+        media: [
+          {
+            title: "2023050820301300_c",
+            fileName: "b0578d21-a008-4a74-b277-5c47aceb2ae3.jpg",
+            url: "https://media.mapgenie.io/storage/media/b0578d21-a008-4a74-b277-5c47aceb2ae3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain East Tunnel",
+        description:
+          "**Cave Entrances:**\n- [Death Mountain East Tunnel Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278219)\n\n**Bubbulfrog:** In a cavern along the left wall, the first exit along the minecart track. **Coordinates:** 2699, 2629, 0523\n\n**Inside the Cave:**\n- 1 Horriblin\n- 1 Igneo Talus\n- Green crystal needed for [The Death Caldera Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280403) (At back of cave on top of Igneo Talus)\n- 3 Zonai Fans\n- 4 Mine Carts\n- 11 Ore Deposits\n- 1 Rare Ore Deposit\n- 24 Brightbloom Seeds\n- 8 Giant Brightbloom Seeds\n- 4 Fireproof Lizards",
+        latitude: "0.79210619062732",
+        longitude: "-0.61545565724381",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "River of the Dead Waterfall Cave",
+        description:
+          "**Cave Entrances:**\nBehind the Waterfall, opening in wall directly to the right of waterfall\n\n**Bubbulfrog:** Inside the cave, before the second chamber.  \n**Inside the Cave:**\n- Soldiers Shield",
+        latitude: "0.63355792455489",
+        longitude: "-0.73850300584053",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Retsam Forest Cave",
+        description:
+          "**Cave Entrance:** On the rim of a pond, on the side of the hill.\n\n**Bubbulfrog:** Keep left at the fork in the tunnel.  \n\n**Inside The Cave:** \n- Ore Deposit\n- Brightcaps\n- Brightbloom Seeds\n- Sticky Lizards\n- Hearty Truffles\n- [Bubbulfrog](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279687)",
+        latitude: "0.63784563264383",
+        longitude: "-0.58238267898577",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tanagar Canyon West Cave",
+        description:
+          "**Cave Entrances:**\n- [Tanagar Canyon West Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282435)\n\n**Bubbulfrog:** Beyond the Like Likes, in the left-most passage.   -3429, 0765, -0140\n\n**Inside the Cave:**\n- [Iun-orok Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277788)",
+        latitude: "0.72825016315861",
+        longitude: "-0.81049434477950",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gisa Crater Cave",
+        description:
+          "**Cave Entrances:**\n- [Gisa Crater Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286060) (Northwest)\n- [Gisa Crater Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286061) (Southeast)\n\n**Bubbulfrog:** Inside the raised cave chamber that leads to the cracked roof of the southwest entrance.  **Coordinates:** -3909, 11035, 0085\n\n**Inside the Cave:**\n- [Ikatak Shrine Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286062)\n- [Feathered Spear](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286946)",
+        latitude: "0.73795051498579",
+        longitude: "-0.82979097962401",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain West Tunnel",
+        description:
+          "**Cave Entrances:**\n[Death Mountain West Tunnel Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278327)\n\n**Bubbulfrog:** On the back wall of the cave's last chamber\n\n**Inside the Cave:**\n- Cobble Crusher (In buried chest in cave's second chamber)\n- 2 Zonai Fans\n- 3 Zonai Rockets\n- 3 Ore Deposits\n- 27 Brightbloom Seeds\n- 2 Giant Brightbloom Seeds\n- 8 Fireproof Lizards",
+        latitude: "0.78949058900987",
+        longitude: "-0.63012874996261",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pondside Cave",
+        description:
+          "**Cave Entrances:**\n- [Pondside Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279220)\n- [Pondside Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279222)  \n\n**Bubbulfrog:** In the central, large cavern.  \n**Inside the Cave:**\n- [Archaic Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279221)\n- Brighbloom Seeds\n- 5x Ore Deposit",
+        latitude: "0.99462579631366",
+        longitude: "-0.69615662097786",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mining Cave",
+        description:
+          "**Cave Entrances:**\n- [Mining Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276623)\n- [Mining Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276624)\n\n**Bubbulfrog**: On the ceiling, just before the refinery.\n\n**Inside the Cave:**\n- [Forge Construct](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276621)\n- 3x Fan\n- Zonaite",
+        latitude: "0.99250448797508",
+        longitude: "-0.68853780627219",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pit Cave",
+        description:
+          "**Cave Entrances:**\n- [Pit Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276628)\n- [Pit Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276629)\n\n**Bubbulfrog:** Break the cracked wall beside the western entrance; the bubbulfrog is handing from a high ledge.  \n**Inside the Cave:**\n- 1x Rare Ore Deposit (in the cracked wall area)\n- 6x Spicy Peppers\n- Brightbloom Seeds\n- Giant Brightbloom Seeds",
+        latitude: "0.99391176568727",
+        longitude: "-0.68349659442799",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bottomless Cave",
+        description:
+          "**Cave Entrances:**\n- [Bottomless Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276630)\n- [Bottomless Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276631)\n\n**Bubbulfrog:** On the ceiling, a little way inside in front of the pit.  \n**Inside the Cave:**\n- [Amber [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276680)\n- [Flame Emitter [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276674)\n- Brightbloom Seed\n- 8x Bomb Flower\n- 1x Ore Deposit",
+        latitude: "1.00122638195960",
+        longitude: "-0.67949138581673",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Whistling Hill Cave",
+        description:
+          "**Cave Entrances:**\n- [Whistling Hill Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283043): Destroy rocks at the base of the hill, on the south side\n\n**Bubbulfrog:** Stuck to the ceiling of the first large cavern.  \n\n**Inside the Cave:**\n- [Rubber Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279731)\n- Keese\n- Electic Keese\n- Bomb Flower x5\n- Brightcap x5\n- Ore Deposit x6\n- Rare Ore Deposit x2\n- Hearty Truffle x1\n- Brightbloom Seed x4\n- Giant Brightbloom Seed x1\n- Rock Like x1\n- Shock Like x1\n- Stalkoblins x3\n- Rubber Armor",
+        latitude: "0.66974843133663",
+        longitude: "-0.70584073662613",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Mountain Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** In the first big room, follow the wall to the left into the first passageway, take the fork to the right, go down the hole, cross to the bridge, and head left, Bubbulfrog is in the circular room with a large stone pillar in the middle  -2283, -0479, 0255\n\n**Inside the Cave:**\n- Blupees\n- Hearty Truffle at: -2179, -0578, 0121",
+        latitude: "0.69148184671387",
+        longitude: "-0.77231095082811",
+        media: [
+          {
+            title: "",
+            fileName: "be0583a1-4fc1-4898-94b8-47138659c79d.jpg",
+            url: "https://media.mapgenie.io/storage/media/be0583a1-4fc1-4898-94b8-47138659c79d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ranch Ruins Cave",
+        description:
+          "**Cave Entrances:**\n- [Ranch Ruins Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280498)\n\n**Bubbulfrog:** Hidden in a crevice, north-east of the main cavern.    \n**Inside the Cave:**\n- [Traveler's Sword [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281269)",
+        latitude: "0.69790258210124",
+        longitude: "-0.70283812135204",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rebonae Bridge Cave",
+        description:
+          "**Cave Entrances:**\n- On a cliff facing the river\n\n**Bubbulfrog:** Behind some breakable rocks, on the ceiling in the middle of the large cavern.\n\n**Inside the Cave:**\n- Horriblin Camp (3 x Horriblin, 1 x Blue Horriblin)\n- 5 x Bomb Flower (In locked chest. Kill horriblins to unlock)\n- Soldier's-Spear Spear [Chest]\n- 1 x Ore Deposit\n- 1 x Rare Ore Deposit\n- 3 x Brightcap\n- 27 x Brightbloom Seed\n- 1 x Giant Brightbloom Seed\n- 1 x Sticky Lizard\n- 3 x Raw Meat",
+        latitude: "0.70398382934269",
+        longitude: "-0.67634180692769",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Passeri Greenbelt Cave",
+        description:
+          "**Cave Entrances:**\n- [Passeri Greenbelt Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279578)\n\n**Bubbulfrog:** Behind a cracked wall, towards the back of the cave.  \n**Inside the Cave:**\n- [Enemy Camp](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279580) (awards a [Spiky Spear [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279581))\n- 2x Ore Deposits\n- Sticky Lizards (walking on the ceiling)",
+        latitude: "0.70832318274445",
+        longitude: "-0.72020329534857",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Robred Dropoff Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Hidden in the room above [Barbarian Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279726), use ascend in chest room.\n\n**Inside the Cave:**\n- [Barbarian Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279726)\n- 3 x Horriblin\n- 5 x Bokoblin\n- 1 x Boss Bokoblin\n- 8 x Chuchu\n- 1 x Rare Ore Deposit\n- 6 x Ore Deposit\n- 1 x Luminous Stone Deposit\n- 8 x Bomb Flower\n- 1 x Big Hearty Truffle\n- 5 x Brightcap\n- 48 x Brightbloom Seed\n- 15 x Giant Brightbloom Seed\n- 3 x Glowing Cave Fish\n- 10 x Sticky Lizard",
+        latitude: "0.65522583872496",
+        longitude: "-0.62316920325367",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koukot Plateau Cave",
+        description:
+          "**Cave Entrances:**\n- [Koukot Plateau Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279614)\n- [Koukot Plateau Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279617)\n\nBubbul Frog: In an alcove on the first ledge when you drop in from the higher entrance.  \n\n**Inside the Cave:**\n- Gerudo Scimitar [Chest]",
+        latitude: "0.64537649735360",
+        longitude: "-0.77467052111800",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lower Spectacle Rock Cave",
+        description:
+          "**Cave Entrances:**\n- [Lower Spectacle Rock Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279629)\n\n**Bubbulfrog:** ??  \n**Inside the Cave:**\n- ??",
+        latitude: "0.62530369999681",
+        longitude: "-0.75946411675656",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shrine of Resurrection Cave",
+        description:
+          "**Cave Entrances:**\n- [Shrine of Resurrection Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279649)\n\n**Bubbulfrog:** Just past the entrance, on the right wall. **Coordinates:** -1107, -1880. 0130\n\n**Inside the Cave:**\n- ??\n\n**Coordinates** -1061, -1829, 0143",
+        latitude: "0.64437660959147",
+        longitude: "-0.73750786663838",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Lake Totori Cave",
+        description:
+          "**Cave Entrances:**\n- [West Lake Totori Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280440)\n\n**Bubbulfrog:**  In an upper right alcove halfway down the corridor between the pool of water and the shrine   \n**Inside the Cave:**\n- [Wao-os Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278382)",
+        latitude: "0.76813885173267",
+        longitude: "-0.83111733198058",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Icefall Foothills Cave",
+        description:
+          "**Cave Entrances:** Melt the ice to gain entry\n\n**Bubbulfrog:** Hiding in a small room in the ceiling; look for an ice-covered hole in the first large room.\n\n**Inside the Cave:**\n- Lots of ice blocks. Bring lots of fire.\n- In the floor below, small bokoblin camp\n- Otak Shrine at the lower floor. Melt an ice block high up on a wall to reach it.",
+        latitude: "0.82407340886785",
+        longitude: "-0.84565951703408",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Hylia Whirlpool Cave",
+        description:
+          "**Cave Entrances:**\n- Accessible by diving into the giant whirlpool in Lake Hylia\n\n**Bubbulfrog:** On the wall behind the waterfall\n\n**Inside the Cave:**\n- [En-oma Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278371)",
+        latitude: "0.62280850836287",
+        longitude: "-0.69999289178058",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Walnot Mountain Cave",
+        description:
+          "**Cave Entrances:**\n- [Walnot Mountain Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280996) (West)\n- [Walnot Mountain Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280997) (East)\n\n**Bubbulfrog:** Near the lower level Ice Like (middle of the cave from either entrance), underneath a ledge.\n\n**Inside the Cave:**\n- [Barbarian Leg Wraps](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279730): Jump across a gap on the upper ledge of the cave past an Ice Like. Melt the chest frozen in ice to obtain.\n- Black Boss Bokoblin\n- Blue Horriblin\n- Black Horriblin\n- Like Like\n- Ice Like\n- Claymore [Chest]\n- Spear [Chest}\n- Boomerank [Chest]",
+        latitude: "0.64245512986514",
+        longitude: "-0.57342121687833",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bon\u00e9 Pond East Cave",
+        description:
+          "**Cave Entrances:**\n- [Bon\u00e9 Pond East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279757)\n- [Bon\u00e9 Pond East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=285983)\n- [Bon\u00e9 Pond East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279755)\n- [Bon\u00e9 Pond East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286703)\n\n**Bubbulfrog:** Enter from either the North or South entrance of the cave.  The Bubbulfrog is hiding behind the giant spine  \n\n**Inside the Cave:**\n- [Maoikes Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278870)\n- NPC Hino (Rescue by using Ultrahand to lift his cage)",
+        latitude: "0.70429447574419",
+        longitude: "-0.63055050683409",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deepback Bay Cave",
+        description:
+          "**Cave Entrances:** On the beach.\n\n**Bubbulfrog:** Drop down to a lower path, then look up towards the Like Like. Shoot the cracked wall behind it, which will drain the flooded moat and reveal [Adenamimik Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277956). Walk behind the shrine and continue to a small alcove.  \n\n**Inside the Cave:**\n- [Bubbulfrog](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282010) - behind the shrine in a little tunnel\n- [Adenamimik Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277956)",
+        latitude: "0.62938378065168",
+        longitude: "-0.56763052940195",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Woods Cave",
+        description:
+          "**Cave Entrances:**\n- [Tabahl Woods Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279777)\n\n**Bubbulfrog:** Far back right in the main room.\n\n**Inside the Cave:**\n- Silver Lizal Soear [Chest]",
+        latitude: "0.71139660481078",
+        longitude: "-0.61719735819541",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tarm Point Cave",
+        description:
+          "**Cave Entrances:**\n- [Tarm Point Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279802)\n\n**Bubbulfrog:** From the entrance, hug the left wall and look for the cracked wall. \n \n**Inside the Cave:**\n- Shield [Chest] - Floating in the water.",
+        latitude: "0.67757628885858",
+        longitude: "-0.55919113813550",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sage Temple Cave",
+        description:
+          "**Cave Entrances:**\n- Above\n\n**Bubbulfrog:** At the eastern end of the cave, behind breakable rocks.  \n**Inside the Cave:**\n- Knight's Claymore - Behnd the cracked wall",
+        latitude: "0.69486136559182",
+        longitude: "-0.74842419919690",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fort Hateno Cave",
+        description:
+          "**Cave Entrances:**\n- 2239, -1691, 0027\n\n**Bubbulfrog:** Under the main room's mound, breakable rocks on the north side of the room.\n\n**Inside the Cave:**\n- 5 x Ore Deposit\n- 5 x Brightcap\n- 20 x Brightbloom Seed\n- 2 x Giant Brightbloom Seed\n- 2 x Raw Meat\n- 9 x Sticky Lizard\n\n**Reward:** Random",
+        latitude: "0.64908001496635",
+        longitude: "-0.63041931739600",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Brightcap Cave",
+        description:
+          "**Cave Entrances:**\n- [Brightcap Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279994)\n\n**Bubbulfrog:** Just before the end of the tunnel, the path will open up to a large cavern. Look up for a ledge you can reach with Ascend.\n\n**Inside the Cave:**\n- [Frostbite Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279996) (Chest)\n- 2x Luminous Ore Deposits",
+        latitude: "0.75524403563378",
+        longitude: "-0.79995006322795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Talonto Peak Cave",
+        description:
+          "**Cave Entrances:**\n- [Talonto Peak Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280046)\n\n**Bubbulfrog:** After crossing the freezing pond, Ascend to a hidden alcove.\n**Inside the Cave:**\n- 3 x Ore Deposits",
+        latitude: "0.78305727238337",
+        longitude: "-0.80652952194353",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Hills Cave",
+        description:
+          "**Cave Entrances:**\n- [Tabantha Hills Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280102)\n\n**Bubbulfrog:** Hanging on the ceiling, in the room just before the enemy camp. Will retreat to a higher ledge when hit.   \n**Inside the Cave:**\n- [Enemy Camp](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280104)\n- [Feathered Spear](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280109)\n- 3x Ore Deposit\n- 1x Luminous Stone Deposit",
+        latitude: "0.76201935176969",
+        longitude: "-0.79500410943476",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Mountains Northwest Cave",
+        description:
+          "**Cave Entrances:**\n- [Hebra Mountains Northwest Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280428)\n\n**Bubbulfrog:** Just underneath the southern entrance, halfway down the chute to the cave.\n\n**Inside the Cave:**\n- Wings x3 (In a chest frozen in ice on the western side of the underground pond the crystal is found in)\n- 2 x Bokoblins\n- 2 x Blue Bokoblins\n- 1 x Bomb Flower\n- 2 x Luminous Stone Deposits\n- 6 x Ore Deposits\n- 2 x Hearty Truffles\n- Giant Brightbloom Seeds\n- Brightcaps",
+        latitude: "0.80686240164556",
+        longitude: "-0.79953881550608",
+        media: [
+          {
+            title: "",
+            fileName: "db6a15eb-fc3a-4e06-8778-57bc0e5adc4b.jpg",
+            url: "https://media.mapgenie.io/storage/media/db6a15eb-fc3a-4e06-8778-57bc0e5adc4b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rospro Pass Cave",
+        description:
+          "**Cave Entrances:**\n- [Rospro Pass Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280283)\n\n**Bubbulfrog:** Inside the second chamber from the south, right after Mazlin.  \n**Inside the Cave:**\n- 1 x Ore Deposit\n- 6 x Bomb Flower\n- Brightbloom Seed\n- Sticky Lizard",
+        latitude: "0.78413944250383",
+        longitude: "-0.81641882657874",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kopeeki Drifts Cave",
+        description:
+          "**Cave Entrances:**\n- [Kopeeki Drifts Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280386)\n\n**Bubbulfrog:** Build an ice path to the left of the lake and go up the wall into the small room.  \n\n**Inside the Cave:**\n- Nouda Shrine (Found in the back of the cave. Use the thin ice blocks and Ultrahand to cross the freezing water)\n- 1 x Ice Like\n- 1 x Ore Deposit\n- 1 x Bomb Flower\n- 2 x Hearty Truffle\n- 6 x Brightbloom Seed\n- 3 x Giant Brightbloom Seed\n- 1 x Brightcap\n- 1 x Glowing Cave Fish\n- 6 x Sticky Lizard",
+        latitude: "0.77609233208810",
+        longitude: "-0.77945256771813",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deplian Badlands Cave",
+        description:
+          "**Cave Entrances:**\n- [Deplian Badlands Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280398)\n\n**Bubbulfrog:** Turn right after the big drop into the cave, and then a sharp left.   \n\n**Inside the Cave:**\n- Soldier's-Claymore Stick [Chest]\n- Forest Dweller's Spear [Chest]\n- [Minetak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278167)",
+        latitude: "0.81781467026592",
+        longitude: "-0.69251867609959",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tanagar Canyon East Cave",
+        description:
+          "**Cave Entrances:**\n- [Tanagar Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280455)\n\n**Bubbulfrog:** At the western end of the cavern, behind several breakable walls.\n \n**Inside the Cave:**\n- Stanox & Ore in rock pile\n- Stalnox only wakes at night (9pm to 5am)\n- Ruby chest behind 2 rock walls NW of Stalnox",
+        latitude: "0.75570777157235",
+        longitude: "-0.76761724983351",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Kilsie Cave",
+        description:
+          "**Cave Entrances:** On a small patch of shore on lake level\n\n**Bubbulfrog:** In a small tunnel above the entrace; use the wind draft to access.\n\n**Inside The Cave:**\n- [Frostbite Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280713) - behind a breakable wall\n- Feathered Edge \n- Blue Horroblin",
+        latitude: "0.79444887564547",
+        longitude: "-0.82975007593689",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Biron Snowshelf Cave",
+        description:
+          "**Cave Entrances:**\n- melt the large ice block outside the entrance\n- part of the quest Treasure of the Secret Springs\n\n**Bubbulfrog:** Against the ceiling of the main cavern with the waterfall.\n \n**Inside the Cave:**\n- [Vah Medoh Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280463)\n- Arrows x5 (In chest on east side of underground ziggurat)",
+        latitude: "0.80724696453145",
+        longitude: "-0.83044869313947",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sturnida Springs Cave",
+        description:
+          "**Cave Entrances:**\n- [Sturnida Springs Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280479)\n\n**Bubbulfrog:** In the back of the cave behind 2 breakable walls.  \n**Inside the Cave:**\n- If the side quest [Who Finds the Haven?](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282454) has been started, the two sisters will be found in the cave's first chamber. Approaching them will trigger a cutscene and advance the quest.\n- Chest (hidden behind a boulder in the middle of the first room)\n- 3 x Ore Deposit\n- 13 x Sticky Lizard\n- 1 x Big Hearty Truffle\n- 4 x Hearty Truffle\n- 23 x Brightcap\n- 4 x Chillshroom\n- 4 x Stamella Shroom\n- 5 x Rushroom\n- 21 x Brightbloom Seed\n- 2 x Giant Brightbloom Seed",
+        latitude: "0.78870063266711",
+        longitude: "-0.83367225905718",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Hidden Passage",
+        description:
+          "**Cave Entrances:**\n- [Royal Hidden Passage Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281597)\n- [Royal Hidden Passage Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289706)\n\n**Bubbulfrog:** Hanging against the northern wall, on the deepest level of the cave.\n\n**Inside the Cave:**\n- ??",
+        latitude: "0.72228442311296",
+        longitude: "-0.71303685133126",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akkala Citadel Ruins Cave",
+        description:
+          "**Location:** On the side of the mountain, at the same elevation as the ruined bridge.\n\n**Bubbulfrog:** In the main cavern with the Horriblins, there's a cracked wall near the top. Destroy the wall to access an additional area with the Bubbulfrog.\n\n**Inside the Cave:**\n- [Fierce Deity Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280700)\n- Guard's Sword Stick [Chest]\n- Soldier's-Broadsword Halberd [Chest]",
+        latitude: "0.74994347550007",
+        longitude: "-0.59906256458655",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Horon Lagoon Cave",
+        description:
+          "**Cave Entrances:**\n- [Horon Lagoon Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=285864)\n\n**Bubbulfrog:** Second room on the wall to the right.\n  \n**Inside the Cave:**\n- [Rubber Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282075)",
+        latitude: "0.69475047487053",
+        longitude: "-0.56656712493910",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dueling Peaks South Cave",
+        description:
+          "**Cave Entrances:**\n- Between the mountain halfway up\n\n**Bubbulfrog:** Behind a breakable wall to the right of the Like Like.\n\n\n**Inside the Cave:** [Tingle's Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280869)",
+        latitude: "0.64125824312725",
+        longitude: "-0.66412670909395",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construction Site Cave",
+        description:
+          "**Cave Entrances:**\n- [Construction Site Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283270)\n- [Construction Site Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283269)\n\n**Bubbulfrog:** Right inside of west entrance    \n**Inside the Cave:**\n- ??",
+        latitude: "0.75283629713562",
+        longitude: "-0.58366585493883",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meadela's Mantle Cave",
+        description:
+          "**Cave Entrances:**\n- [Meadela's Mantle ](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276840)\n\n**Bubbulfrog:** On the ceiling of the cave, above the waterfall.\n\n**Inside the Cave:**\n- Topaz behind the waterfall. Crouch through a small cave left of the waterfall to get there.",
+        latitude: "0.66268044329564",
+        longitude: "-0.83115368884876",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cephla Lake Cave",
+        description:
+          "**Cave Entrances:**\n- Next to the tent with the campfire  \n\n**Bubbulfrog:** Alcove on the left as you enter, next to the ore deposit.    \n\n**Inside the Cave:**\n- [Ember Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279831) (from [Misko's Cave of Chests](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280696))\n- [Fierce Deity Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280702)\n- ??",
+        latitude: "0.74601792317848",
+        longitude: "-0.62045261263717",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akkala Citadel Ruins Summit Cave",
+        description:
+          "**Cave Entrance:** Inside the ruins, there will be a small hole in the wall you need to crouch through to a secret room. Drop down into the hole in the floor.\n\n**Bubbulfrog:** On the side of the cave, destroy the crates and reveal a small tunnel you can crouch through. Bubbulfrog is in the next room.\n\n**Inside the Cave:**\n- [Fierce Deity Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280700)\n- Guard's-Sword Stick",
+        latitude: "0.75134633535211",
+        longitude: "-0.59736219971376",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Skull Lake Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Behind the Blue wall of breakable rocks  \n\n**Inside the Cave:**\n- Stalnox\n- [Fierce Deity Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280133)",
+        latitude: "0.81296025855481",
+        longitude: "-0.59621805036547",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goronbi River Cave",
+        description:
+          "**Cave Entrances:**\n- [Goronbi River Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=288169)\n\n**Bubbulfrog:** Just before the lava waterfall, hug the right wall and look out for a hole above you    \n\n**Inside the Cave:**\n- Ember Shirt\n- Ruby\n- Misko\u2019s Treasure of Awakening 1 Quest",
+        latitude: "0.76995805191981",
+        longitude: "-0.65726862273578",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Headspring Cave",
+        description:
+          "**Cave Entrances:**\n- Hebra Headspring Cave Entrance\n\n\n**Bubbulfrog:** On the left side of the cave, in the hole up the icy wall.  \n**Inside the Cave:**\n- [Frostbite Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280711)",
+        latitude: "0.78365731147635",
+        longitude: "-0.79640191669154",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Gerudo Underground Ruins",
+        description:
+          "**Cave Entrances:**\n-  Small hole under the skeleton blocked by breakable rocks.\n\n**Bubbulfrog:** - Hidden in the breakable rocks. Coordinates: -4687, -2062, -0001  \n\n**Inside the Cave:**\n- ??",
+        latitude: "0.63925193937489",
+        longitude: "-0.85362419886846",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lizard's Burrow",
+        description:
+          "**Cave Entrances:**\n- [Lizard's Burrow Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284439)\n\n**Bubbulfrog:** Behind a breakable wall within the cave    \n\n**Inside the Cave:**\n- [Vah Rudaina Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280780) -  _(Needed to complete [The Hidden Treasure at Lizard Lakes](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284354))_",
+        latitude: "0.80005147782283",
+        longitude: "-0.63074064280158",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cave Under Zora's Domain",
+        description:
+          "**Cave Entrances:**\n- Behind the waterfall\n\n**Bubbulfrog:**  After swimming up the waterfall inside the cave or Ascending from the room with the chest. **Coordinates:** 3336. 0538. 0076\n\n**Inside the Cave:**\n- [Vah Ruta Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280782)\n- [Zora's Domain Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282743)",
+        latitude: "0.71461464592649",
+        longitude: "-0.59864524016925",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tamio River Downstream Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Right path after the 2 Horriblins  \n\n**Inside the Cave:**\n- [Phantom Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280846). Look for a breakable wall in the second chamber, close to the back.\n- Knight-Claymore Spear [Chest]\n- Gloom Hands [Mini-boss]",
+        latitude: "0.67735350609412",
+        longitude: "-0.79620538625733",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins",
+        description:
+          "**Cave Entrances:**\n- Drop into the quicksand pit\n\n**Bubbulfrog:** On the ceiling, in the room with the armor.\n\n**Inside the Cave:**\n- [Phantom Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280848)\n- Topaz [Chest]\n- Gerudo Shield [Chest]\n- Gerudo Scimitar [Chest]\n- Gerudo Bow [Chest]",
+        latitude: "0.58315939337706",
+        longitude: "-0.78426258657453",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Puffer Beach Overhead Cave",
+        description:
+          "**Cave Entrances:**\n- Circular opening on the ceiling of the rocky overhang on the beach\n\n**Bubbulfrog:** On the ceiling where the chest is. **Coordinates:** 0285, -3786, 0048\n\n**Inside the Cave:**\n- ??\n- [Phantom Helmet](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280851)",
+        latitude: "0.57869134877735",
+        longitude: "-0.69428035876081",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Columns Cave",
+        description:
+          "**Cave Entrances:**\n- Press the [Button](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280854) that's on top of the pillar\n\n**Bubbulfrog:** Jump into the hole to the left of the shrine containing the treasure chest  \n**Inside the Cave:**\n- ??\n- [Tunic of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280855)",
+        latitude: "0.71750261978497",
+        longitude: "-0.81465134841437",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thundra Plateau Cave",
+        description:
+          "**Cave Entrances:**\n- [Thundra Plateau Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280858)\n\n**Bubbulfrog:** In a room above the ceiling, behind breakable rocks.    \n\n**Inside the Cave:**\n- [Mask of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280863)",
+        latitude: "0.73242628977273",
+        longitude: "-0.77618233859778",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Coliseum Ruins Cave",
+        description:
+          "**Cave Entrances:**\n- [Coliseum Ruins Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280867)\n\n**Bubbulfrog:** At the end of a side tunnel, past the chest.  \n**Inside the Cave:**\n- [Trousers of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280868)",
+        latitude: "0.66047062495964",
+        longitude: "-0.74140079319588",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Statue of the Eighth Heroine Cave",
+        description:
+          "**Cave Entrances:**\n- Use a mirror to shine light on the statue's chest    \n\n**Bubbulfrog:** Use a fan to blow away sand to the left of the tent with the chest to reveal a hidden chamber with the Bubbulfrog inside  \n\n**Inside the Cave:**\n- [Tingle's Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280872)\n- Ruby [Sand Mound]",
+        latitude: "0.68591163276575",
+        longitude: "-0.84414549172030",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cape Cales Cliffbase Cave",
+        description:
+          "**Cave Entrances:**\n- [Cape Cales Cliffbase Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280874)\n\n**Bubbulfrog:** Past the ship inside on the ceiling.\n\n**Inside the Cave:**\n- [Tingle's Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280875)",
+        latitude: "0.59978894435075",
+        longitude: "-0.58649832420002",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oasis Source Cave",
+        description:
+          "**Cave Entrances:**\n- [Kara Dara Bazaar Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279321)\n\n**Bubbulfrog:** Behind one of the breakable walls in the main cavern.\n  \n**Inside the Cave:**\n- ??",
+        latitude: "0.61640980228698",
+        longitude: "-0.81111015495810",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Popla Foothills Excavation Site Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Hole on the right walls in the corridor  \n**Inside the Cave:**\n- Treasures: Topaz",
+        latitude: "0.63203682592642",
+        longitude: "-0.68356573674026",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Hills Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** In chamber behind breakable rocks found on east wall of large chamber containing Stone Talus (Luminous).\n\n**Inside the Cave:**\n- Stone Talus (Luminous)\n- Misko's Treasure: [Barbarian Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279638)\n- 5 x Bomb Flower\n- 4 x Ore Deposit\n- 1 x Luminous Stone Deposit\n- 1 x Hearty Truffle\n- 21 x Brightbloom Seed\n- 4 x Giant Brightbloom Seed\n- 7 x Brightcap\n- 8 x Sticky Lizard",
+        latitude: "0.72664731733812",
+        longitude: "-0.68704011763032",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ralis Channel",
+        description:
+          "**Cave Entrances:**\n- [Ralis Channel Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281820) (North)\n- [Ralis Channel Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281821) (South)\n\nBubbulfrog: Follow the river north and watch for an alcove on the east side.\n\n**Inside the Cave:**\n- [Joniu Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278644)\n- [The Ralis Channel Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281822)",
+        latitude: "0.70991159937157",
+        longitude: "-0.60865223407797",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Akkala Beach Cave",
+        description:
+          "**Cave Entrances:**\n- [North Akkala Beach Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282157)\n\n**Bubbulfrog:** At the end of the cave in the middle of a tunnel leading up to the exit to Lomei Labyrinth Island. When you get to where you're supposed to ascend, instead look up next to the pillar.\n**Inside the Cave:**\n- ??",
+        latitude: "0.80682016042457",
+        longitude: "-0.55340584464238",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Drena Foothill Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Behind a breakable wall, high against the northwestern wall of the main cavern.\n\n**Inside the Cave:**\n- 3 x Bokoblin and 1 x Blue Moblin (Kill them to complete the side quest: [The Captured Tent](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280957)\n- 3 x Fairies\n- 1 x Ore Deposit\n- 3 x Bomb Flower\n- 9 x Brightcap\n- 5 x Chillshroom\n- 15 x Brightbloom Seed\n- 15 x Sticky Lizard",
+        latitude: "0.79493356458003",
+        longitude: "-0.74754715555062",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mapla Point Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Above the first room (Ascend to get there)  \n**Inside the Cave:**\n- ??",
+        latitude: "0.63074449991365",
+        longitude: "-0.55555280915146",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain Foothill Cave",
+        description:
+          "**Cave Entrances:**\n- [Death Mountain Foothill Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=288147)\n\n**Bubbulfrog:** Behind breakable rocks located at the far right near the lava  \n\n**Inside the Cave:**\n- Fire Like\n- Horriblins (Clear to unlock chest containing Cobble-Crusher Halberd)",
+        latitude: "0.78955476199597",
+        longitude: "-0.64035205471248",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gorko Tunnel",
+        description:
+          "**Cave Entrances:**\n- [Gorko Tunnel Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281083)\n\n**Bubbulfrog:** Tiny tunnel past the [Simmerstone Springs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282022). Swim through and it'll be on the wall ahead\n\n**Inside the Cave:**\n- Quest objective for [Simmerstone Springs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282022), found along the left wall and past some breakable barriers\n- Chest with an Ancient Blade inside",
+        latitude: "0.76883026804588",
+        longitude: "-0.63771081911910",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road East Cave",
+        description:
+          "**Cave Entrances:**\n- [Lanayru Road East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281943) (East)\n- [Lanayru Road East Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281942) (West)\n\n**Bubbulfrog:** In the circular area with a Bokoblin Boss patrolling, look for a small hidden alcove with mushrooms.  \n\n**Inside the Cave:**\n- [Jogou Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277764)",
+        latitude: "0.66823040451899",
+        longitude: "-0.59715896844824",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Byroad to Lanayru Wetlands",
+        description:
+          "**Cave Entrances:**\n- [Byroad to Lanayru Wetlands Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280963)\n\n**Bubbulfrog:**  On the ceiling near the entrance. **Coordinates:** 1541. -0835. 0009\n\n**Inside the Cave:**\n\n- Glowing Cave Fish\n- Hot Footed Frog\n- Sticky Lizard\n- Bomb Flower\n- Brightcap\n- Brightbloom Seed\n- Giant Brightbloom Seed\n- Chest (Arrow x5)\n- Stone Talus",
+        latitude: "0.67693811590459",
+        longitude: "-0.65112174550065",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Finra Woods Excavation Site",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:**  Room above opening in ceiling, left corner\n**Inside the Cave:**\n- ??",
+        latitude: "0.60708799440405",
+        longitude: "-0.68486954660727",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Restaurant Cave",
+        description:
+          "**Cave Entrances:**\n- 1846, 1714, 0290\n\n**Bubbulfrog:** A little pathway behind the upside down cart near the Marbled Rock Roast. Move it out of the way, squat and walk through.  \n\n**Inside the Cave:**\n- Rocket Device (Chest)\n- Ruby [Chest] Behind breakable rocks on the right cave wall)",
+        latitude: "0.75827429306061",
+        longitude: "-0.64358268928848",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Southern Mine Cave",
+        description:
+          "**Cave Entrances:**\n- [Southern Mine Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281081)\n\n**Bubbulfrog:** Follow the left wall. Behind a breakable rock near two minecarts and a chest with a Cobble Crusher  \n\n**Inside the Cave:**\n- Fire Like\n- Side quest [Mine-Cart Land: Open for Business!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284353). Available after completion of [Yunobo of Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279572)",
+        latitude: "0.76605658367407",
+        longitude: "-0.64903003328709",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Great Skeleton Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** On the ceiling of the main cavern.\n\n**Inside the Cave:**\n- [Korok Seed](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280665)\n- [Korok Seed](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280666)\n- Hearty Truffle x2\n- Brightcap x10\n- Brightbloom Seed x34\n- Giant Brightbloom Seed x18\n- Sticky Lizard x29\n- Glowing Cave Fish x2\n- Bomb Flower x7\n- Ore Deposit x19\n- Rare Ore Deposit x1\n- Luminous Stone Deposit x3",
+        latitude: "0.81886840282431",
+        longitude: "-0.82587497958764",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Darman Monster Den",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** In a hidden upper cavern on the left side of the cave. Climb through the hole in the ceiling or use Ascend.  \n\n**Inside the Cave:**\n- Monster camp. Part of the side quest: Bring Peace to Eldin!",
+        latitude: "0.80129785007954",
+        longitude: "-0.62669535218265",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Prison Ruins",
+        description:
+          "**Cave Entrances:**\n- [Ancient Prison Ruins Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=285230)\n\n**Bubbulfrog:** In the lower under-cell floor, there will be a ramp of rumble leading up to a cell with falling floor tiles. Stand on the falling tiles and descend into a different under-cell floor with the Bubbulfrog on the ceiling. ( -3210, -3210, -0047)\n\n**Inside the Cave:**\n- [Chichim Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278146): After grabbing the Gerudo Scimitar, Ultrahand reveals two movable blocks of stone hiding a lever. Pull the lever to access the shrine.\n- Purple rupee [Chest]: In a gated-off room. Come in from below.\n- Topaz rupee [Chest]: In a gated-off room. Come in from below.",
+        latitude: "0.60476387111866",
+        longitude: "-0.80315396189917",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Biron Snowshelf Cave",
+        description:
+          "**Cave Entrances:**\n- [East Biron Snowshelf Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281338)\n- [East Biron Snowshelf Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284495)\n\n**Bubbulfrog:** At the end of the cavern, turn back to find a lower passageway with icicles. The bubbulfrog is in the passageway.\n\n**Inside the Cave:**\n- [The Duchess Who Disappeared](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282169) - In the lower caverns of the cave, behind the cracked walls.\n- 2 x Rare Ore Deposit\n- 5 x Ore Deposit\n- 1 x Luminous Stone Deposit\n- Giant Brightbloom Seeds\n- Brightbloom Seeds",
+        latitude: "0.80261406791543",
+        longitude: "-0.82238271832350",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Mountainside Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Behind a wall of breakable rocks in the room with a Like Like  \n**Inside the Cave:**\n- ??",
+        latitude: "0.72081796339316",
+        longitude: "-0.61946900649048",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cora Lakefront Cave",
+        description:
+          "**Cave Entrances:**\n- [Cora Lakefront Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284310)\n\n**Bubbulfrog:** Way up high in the middle of the cave, on top/on the edge of one of the overhanging arches.\n\n**Inside the Cave:**\n- 2x Horroblin  \n- Bomb Flower x3 (Chest), in the Horroblin Camp\n- Another chest in the middle of the cave (?)\n- Royal Halberd (Chest), in the Horroblin Camp",
+        latitude: "0.60826323743562",
+        longitude: "-0.71129109983775",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Komo Shoreline Cave",
+        description:
+          "**Cave Entrances:**\n- [Komo Shoreline Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287484)\n\n**Bubbulfrog:** Behind the cracked wall, in the Lightning Like room.\n\n**Inside the Cave:**\n- Ancient Blade [Chest]\n- Broadsword [Chest]",
+        latitude: "0.58025696822514",
+        longitude: "-0.68696390263013",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dueling Peaks North Cave",
+        description:
+          "**Cave Entrances:**\n- Between the two peaks, halfway up.\n\n**Bubbulfrog:** In an alcove a short way into the cave, on the left side.  \n**Inside the Cave:**\n- Horriblins\n- The answer to the puzzle from the Dueling Peaks South Cave\n\n**Coordinates:** 1192, -1858, 0159",
+        latitude: "0.64339368256488",
+        longitude: "-0.66450735919574",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Byroad",
+        description:
+          "**Cave Entrances:**\n- [Upland Zorana Byroad Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281818) (West)\n- [Upland Zorana Byroad Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279676) (East)\n\n**Bubbulfrog:** In the flooded room, after it's drained, go back and look for a vine covered tunnel. Cut the vines and the Bubbulfrog will be inside a tiny room.  \n\n**Inside the Cave:**\n- Horriblins x3\n- Like Like x2\n- Arrows x5 [Chest] (ruins area of the cave)\n- [Climbing Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279677)",
+        latitude: "0.71727369208743",
+        longitude: "-0.61314493417649",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pikida Stonegrove Northwest Cave",
+        description:
+          "**Cave Entrances:**\n- [Pikida Stonegrove Northwest Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280775)\n\n**Bubbulfrog:** Behind a breakable wall, against the eastern wall of the wind tunnel.\n\n**Inside the Cave:**\n- Horriblins, Ice Like, Silver Boss Bokoblin, Bokoblins\n- Feathered Edge Sword",
+        latitude: "0.80402202728703",
+        longitude: "-0.78085006617428",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Corta Lake Cave",
+        description:
+          "**Cave Entrances:**\n- On the lake bank\n\n**Bubbulfrog:** Hidden inside one of the vertical wind tunnels. **Coordinates:** 1702. -2953, 0154\n  \n**Inside the Cave:**\n- [The Middle Hinox Brother](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281890)\n- Gnarled Long Stick [Chest]",
+        latitude: "0.60547730661936",
+        longitude: "-0.64907866079577",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Maritta Branch",
+        description:
+          "**Cave Entrances:**\n- [Yiga Clan Maritta Branch Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282035)\n\n**Bubbulfrog:** Use Ultrahand to lift two planks on the right side of the cave and go down the hole\n\n**Inside the Cave:**\n- ??",
+        latitude: "0.76954580684137",
+        longitude: "-0.72381345935701",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tobio's Hollow Cave",
+        description:
+          "**Cave Entrances:**\nOn the Northside of the Mountain, Glowstone ore on either side of entrance\n\n**Bubbulfrog:** At the very bottom\n\n**Inside the Cave:**\n- 9 Keese near the entrance, 2 Yellow Slimes Near Entrance\n- Small camp at the bottom with two Zonanite Spear\n- To Finish the puzzle, attach Keese Wing to Zonanite Spear and throw it through the circle in the middle of the pond (this opens the shrine)\n- Shrine is Utoji's Shrine\n- Further in are 2 Like Like with chest containing Shield of the Mind's Eye\n- 5 more Keese and at the very bottom there is a bubble frog",
+        latitude: "0.62430858723513",
+        longitude: "-0.66491426635247",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rauru Hillside Cave",
+        description:
+          "**Cave Entrances:**\n- [Rauru Hillside Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280388)\n\n**Bubbulfrog:** Go right and shoot the stonewall with a bombflower. It is hanging on the ceiling in the chamber behind the rockwall.\n\n**Inside the Cave:**\n- LikeLike (normal) \n- 4 Hobogoblins (1 blue, 3 normal)\n- Brightbloom seeds\n- Unlockable chests (Lizal Spear)\n- Raw Meat\n- Brightcaps\n- Arrows (in metal boxes)\n- Roasted Bass\n- Amber\n- Ruby\n- Topaz\n- Fairy (3x)",
+        latitude: "0.74787882232554",
+        longitude: "-0.68126517957159",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Intenoch Cave",
+        description:
+          "WARNING: Intense heat! Requires heat resistance elixirs or flame guard armor. Any wooden weapons will ignite and degrade. Do *NOT* use bombs to clear the cracked rocks; due to the extreme heat, they will immediately explode when taken out of your inventory.\n\n**Cave Entrances:** On the edges of Gero Pond\n\n**Bubbulfrog:** This cave contains tunnels filled with cracked rock. Follow the path going west until you reach a cavern with lava and ore deposits. The Bubbulfrog will be lurking on the cave's ceiling.\n\n**Inside the Cave:**\n- [Moshapin Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278869)\n- [Strong Construct Bow](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282307)",
+        latitude: "0.76073393176215",
+        longitude: "-0.62316566705846",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Foothill Monster Den",
+        description:
+          "**Cave Entrances:**\n- [Foothill Monster Den Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=288189)\n\n**Bubbulfrog:** Behind the breakable wall near the ceiling along the left tunnel as you enter  \n\n**Inside the Cave:**\nSide quest objective [For Our Princess](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280509) where you have to defeat:\n- 1 armored Bokoblin\n- 1 Moblin\n- and a few other regular Bokoblins",
+        latitude: "0.75240629773715",
+        longitude: "-0.62924263831101",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Isle of Rabac Gallery",
+        description:
+          "**Cave Entrances:**\n- [Isle of Rabac Gallery Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281593)\n\n**Bubbulfrog:** On the back wall of a small cave whose entrance is on the southeast wall of the large chamber at the end of the rail system.\n\n**Inside the Cave:**\n- [Jiotak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278867)\n- Ruby [Chest]\n- Soldier's Broadsword (In chest behind Fire Like)\n- 2 Bokoblin\n- 2 Moblin\n- 1 Fire Like\n- 20 Fire Keese\n- 18 Ore Deposits\n- 1 Luminous Stone Deposit\n- 144 Brightbloom Seeds\n- 20 Giant Brightbloom Seeds\n\nAnd a large number of:\n\n- Smotherwing Butterflies\n- Fireproof Lizards",
+        latitude: "0.80380374279332",
+        longitude: "-0.65246359845252",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalry Plateau Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** On the ceiling, hiding behind a stalactite.\n  \n**Inside the Cave:**\n- Shield [Chest]. Underneath the tumbleweed pile\n- Fire Lizalfos",
+        latitude: "0.63131673934872",
+        longitude: "-0.75227753686417",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oren Bridge Cave",
+        description:
+          "**Cave Entrances:**\n- [Oren Bridge Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281909)\n\n**Bubbulfrog:** From entrance, go to end of cave and use Ascend to go up through wooden ceiling. Follow second tunnel to end. Bubbulfrog is on wall at end of tunnel.\n\n**Inside the Cave:**\n- Royal Claymore [Chest]",
+        latitude: "0.70088026760463",
+        longitude: "-0.60920817779428",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cucco Hideaway",
+        description:
+          "**Cave Entrances:**\n- Follow the chickens from Kakariko Village to find the area where the chickens are going to lay their eggs\n\n**Bubbulfrog:** Behind the 2nd Rock Wall\n\n**Inside the Cave:**\n- 12 Bird Eggs\n- 2x Rock Walls\n- Ore Deposit\n- Like Like behind 1st Rock Wall\n- Giant Brightbloom Seeds",
+        latitude: "0.66593527520305",
+        longitude: "-0.64268803700134",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eventide Island Cave",
+        description:
+          "**Cave Entrances:**\n- Appears by following quest on island. Entrance will appear around the backside of the island.\n\n**Bubbulfrog:** In the back of the cave down a ramp into the water. Swim down the small tunnel to a little alcove with the Bubbulfrog\n\n**Inside the Cave:**\n- Rare Ore Deposit\n- Ore Deposit\n- Chest with Silver (100) Rupee\n- More ??",
+        latitude: "0.58123591934485",
+        longitude: "-0.55038445096224",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rodai Lakefront Tunnel",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Down a raised hole  \n**Inside the Cave:**\n- [The Youngest Hinox Brother](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282069)",
+        latitude: "0.60289447525325",
+        longitude: "-0.64208731055223",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sarjon Woods Cave",
+        description:
+          "**Cave Entrances:**\n- Beneath the palm trees, next to the river, where the mountain meets land, entrance is hidden behind branches\n\n**Bubbulfrog:** On the wall, in front of the waterfall at the end of the cave  \n**Inside the Cave:**\n- [Rubber Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282074)\n- ??",
+        latitude: "0.60137921261934",
+        longitude: "-0.66399314374144",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ubota Point Cave",
+        description:
+          "**Cave Entrances:**\n- Small Hole in the side of the hill (1454 -3481 0077)\n\n**Bubbulfrog:** On the Right Side behind breakable rocks  \n\n**Inside the Cave:** \n- Royal Claymore [Chest]",
+        latitude: "0.59117275031534",
+        longitude: "-0.65664302716709",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pagos Woods Excavation Site",
+        description:
+          "**Cave Entrances:**\n- 0672, -3180, 0026\n\n**Bubbulfrog:** On the right side of the main chamber (when facing the treasure), there is a hole in the ground.  Follow to the Bubbulfrog behind the grate.\n\n**Inside the Cave:**\n- Large Zonai Charge",
+        latitude: "0.60298098794873",
+        longitude: "-0.68153819984832",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulria Grotto East Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** In the room with the [Blue Hinox](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281765), look for an elevated passageway. The Bubbulfrog is clinging on the wall inside.\n  \n**Inside the Cave:**\n- [Blue Hinox](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281765)",
+        latitude: "0.72719856182400",
+        longitude: "-0.56220056249140",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Blademaster Station",
+        description:
+          "_Note:_ To enter the station, you must wear the full Yiga set.\n\n**Cave Entrances:**\n- [Yiga Blademaster Station Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282171)\n\n**Bubbulfrog:** Requires completion of [The Yiga Clan Exam](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282815). Gain access to the Inner rooms. There will be a small opening to the right that leads into a hidden room. \n\n**Inside the Cave:**\n- [Suariwak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278884)",
+        latitude: "0.64460300816640",
+        longitude: "-0.78142240190408",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Great Skeleton",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Hanging on the wall to the left of the entrance.  \n\n**Inside the Cave:**\n- Side Quest: [Gerudo's Colossal Fossil](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284462)  \n- ??",
+        latitude: "0.57833076927663",
+        longitude: "-0.85807487368459",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Nabooru South Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Climb to the hole in the ceiling of the west side of the cave, behind the luminous stone ore.  \n**Inside the Cave:**\n- ??",
+        latitude: "0.63240344950337",
+        longitude: "-0.75851800216876",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road South Cave",
+        description:
+          "**Cave Entrances:**\n- [Lanayru Road South Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287921)\n\n**Bubbulfrog:** After breaking the brown rocks in the cave's first chamber, go through the left waterfall in the second chamber. The bubbulfrog is found at the end of that tunnel. There is a Shock Like that may block your way.\n\n**Inside the Cave:**\n- Lanayru Road Crystal  \n- 1 x Wing (Zonai device found encased in a blue rock wall in the cave's first chamber).\n- Strong Zonaite Shield (In a chest found behind the right waterfall in the cave's second chamber)\n- 1 x Shock Like\n- 2 x Ore Deposit\n- 1 x Bomb Flower\n- 1 x Brightcap\n- 15 x Brightbloom Seed\n- 2 x Giant Brightbloom Seed",
+        latitude: "0.66154280605535",
+        longitude: "-0.61618401269948",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Gerudo Cave",
+        description:
+          "**Cave Entrances:** Drop through the sand pit near the Hudson Sign. \n\n**Bubbulfrog:** Through the breakable wall behind the Horriblin camp.  \n\n**Inside the Cave:**\n- Knight-Claymore Spear [Chest]\n- Soldier's-Claymore Spear [Chest]",
+        latitude: "0.57884284676979",
+        longitude: "-0.79780070395998",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Quicksand Lake Cave",
+        description:
+          "**Cave Entrances:**\n- [Quicksand Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282502)\n\n**Bubbulfrog:** Clinging to one of the southern columns.\n\n**Inside the Cave:**\n- Shield [Chest]",
+        latitude: "0.60836604422259",
+        longitude: "-0.80739448720331",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Ferona Cave",
+        description:
+          "**Cave Entrances:**\n- [Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281017)\n\n**Bubbulfrog:** Along the lower right wall is an opening to another cavern  \n\n**Inside the Cave:**\n- Side quest objective for [Moon Gazing Gorons](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281866)",
+        latitude: "0.74502987294670",
+        longitude: "-0.64100483184804",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spectacle Rock Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Destroy rocks on pillar in the middle of the cave.    \n\n**Inside the Cave:**    \n- Destroy big wall of rocks to reveal a passage with platforms and one Fire Like.\n- Fire Like drops a chest that contains a Radiant Shield.",
+        latitude: "0.62608926398028",
+        longitude: "-0.77439656284793",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Central Gerudo Cave",
+        description:
+          "**Cave Entrances:**\n- Through a sinkpit.\n\n**Bubbulfrog:** Behind the blue rocks on the ground at the east side of the main room\n\n**Inside the Cave:**\n- Flame Emitter x3 [Chest]",
+        latitude: "0.59833653074004",
+        longitude: "-0.82161030704424",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Gerudo Ruin Cave",
+        description:
+          "**Cave Entrances:** \n- In the sand pit.\n\n**Bubbulfrog:** Upstream of the sand river, there will be a breakable rock wall.\n\n**Inside the Cave:**\n- Shock Like\n- Topaz [Chest]",
+        latitude: "0.61266043255377",
+        longitude: "-0.78989321888616",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Sanctuary",
+        description:
+          "**Cave Entrances:**\n- [Gerudo Sanctuary Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283920)\n- [Gerudo Sanctuary Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287127)\n\n**Bubbulfrog:** The west side of the room after the Gibdos\n\n**Inside the Cave:**\n- Electric Chuchus  \n- Gibdos  \n- Brightbloom Seeds\n- Giant Brightbloom Seeds\n- Chest (in Sand Mound after Bubbulfrog)\n- Statue Of The Eighth Heroine Cave (For the associated side quest)",
+        latitude: "0.61879374061848",
+        longitude: "-0.82427883147901",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mystathi's Shelf Cave",
+        description:
+          "**Cave Entrances:**\n- Glide through the hole on the north side of Mystathi's Shelf.\n\n**Bubbulfrog:** \n- Through a hole in the wall to the left as you enter the cave\n\n**Inside the Cave:**\n- Large Zonite - needs Riju\u2019s lighting ability",
+        latitude: "0.67963206922394",
+        longitude: "-0.82805551362728",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floria River Upstream Excavation",
+        description:
+          "**Cave Entrances:**\n- Next to the river (0807 -2978 0012)\n\n**Bubbulfrog:** Down a small alcove in the floor on the right side of the room with the treasure chest  \n\n**Inside the Cave:**\n- Topaz [Chest]",
+        latitude: "0.60705440887682",
+        longitude: "-0.67694047333072",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Mine",
+        description:
+          "**Cave Entrances:**\n- [Gerudo Canyon Mine Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284444) to the north.\n- [Gerudo Canyon Mine Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284442) to the south.\n\n**Bubbulfrog:** In the large cavern, north side, look for a small recess near the ceiling. The Bubbulfrog is hiding there.  \n\n**Inside the Cave:**\n- Like Like\n- Ice Like\n- Boss Bokoblin and gang\n- Bomb Flower x5 [Chest]",
+        latitude: "0.62284807865340",
+        longitude: "-0.78873812755616",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Nabooru Cave",
+        description:
+          "**Cave Entrances:**\n- [Mount Nabooru Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282183) to the west.\n- [Mount Nabooru Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282184) to the east\n\n**Bubbulfrog:** Along the north wall. Inside a cavern filled with ore deposits.  \n\n**Inside the Cave:**\n- Side Quest Objective for [The Yiga Clan Exam](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282815)\n- Halberd [Chest]",
+        latitude: "0.63815763985253",
+        longitude: "-0.76427327403795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Taafei Hill Cave",
+        description:
+          "**Cave Entrances:**\n- At the river's origin from the mountain.\n\n**Bubbulfrog:** Along the right wall, behind some breakable rocks.\n\n**Inside the Cave:**\n- [Rare Talus](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280586)",
+        latitude: "0.64510723152381",
+        longitude: "-0.78214123392036",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Valley of Silent Statues",
+        description:
+          "**Cave Entrances:**\n- -3832, -2650, 0036\n\n**Bubbulfrog:** Behind the left statue in the light in the mirror puzzle (when facing the statues). Lighting the statue reveals a button to step on.  \n\n**Inside the Cave:**\n- Common Ore\n- Topaz \n- Electric Like Like",
+        latitude: "0.61754194172345",
+        longitude: "-0.82619123790070",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Zora Waterworks",
+        description:
+          "**Cave Entrances:**\n- In the center of the whirlpool.\n\n**Bubbulfrog:** Highest level in cave along north west wall. \n\n**Inside the Cave:**\n- Zora Greaves (After completion of the Water Temple) \n- Zora Sword [Chest]\n- Opal [Chest]\n- Zora Shield [Chest]\n- Zora Longsword [Chest]\n- Large Zonai Charge [Chest]: It is beneath some thorns. Create a roof using the wood planks to prevent the water from putting out the fire",
+        latitude: "0.70665699187202",
+        longitude: "-0.58682031061565",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Foothill Cave",
+        description:
+          "**Cave Entrances:**\n- [Upland Zorana Foothill Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282924)\n\n**Bubbulfrog:** Use Ascend or climb to the back of the cave. You will have to go up two levels and get through two or three breakable rock walls.\n\n**Inside the Cave:**\n- Zora Spear [Chest]",
+        latitude: "0.72476687164700",
+        longitude: "-0.60171435041058",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kakariko Village Cave",
+        description:
+          "**Cave Entrances:**\n- Entrance is at the very top of the waterfall in Kakariko Village\n\n**Bubbulfrog:** On the ceiling in the second chamber\n\n**Inside the Cave:**\n- 3 x Fairy\n- 4 x Ore Deposit\n- 2 x Hearty Truffle\n- 12 x Brightbloom Seed\n- 2 x Glowing Cave Fish",
+        latitude: "0.67149791865270",
+        longitude: "-0.64046764150203",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Floria Cave",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Located up a ramp in the main chamber leading to a makeshift jail cell.  Break a wall to enter the jail cell and then break a second wall inside the cell to locate the chamber with the bubbulfrog.\n\n**Inside the Cave:**\n- Large Zonai Charge (chest) Located at top of large square tower in middle of main chamber.\n- Star Fragment (chest) located in a makeshift jailcell up a ramp located in the main chamber. Need to break a rock wall to enter the jail cell.",
+        latitude: "0.60610718421916",
+        longitude: "-0.64562017826714",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luto's Channel",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** ??  \n\n**Inside the Cave:**\n- ??",
+        latitude: "0.70153727023715",
+        longitude: "-0.60362682179760",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Reservoir Lakefront Cavern",
+        description:
+          "**Cave Entrances:**\n- At water level.\n\n**Bubbulfrog:** Behind the vines to the left, just after the entrance. **Coordinates:** 3921. 0385, 0212  \n\n**Inside the Cave:**\n- Blue stone for [The Blue Stone](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283904) side quest",
+        latitude: "0.71633472690998",
+        longitude: "-0.58063692674361",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulria Grotto South Cave",
+        description:
+          "**Cave Entrances:**\n- Ulria Grotto South Cave Entrance\n\n**Bubbulfrog:** Behind blue breakable rocks and behind the large center pillar on ceiling \n\n**Inside the Cave:**\n- [Stone Talus]()",
+        latitude: "0.72325609123808",
+        longitude: "-0.57031849577743",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rassla Lake Cave",
+        description:
+          "**Cave Entrances:**\n- Behind the rubble in the ground\n\n**Bubbulfrog:** One level above entrance, need to make it up the broken stairs.\n\n**Inside the Cave:**\n- Large Zonai Charge [Chest]\n\nThe water level in the cave goes down on a clear day, granting access to the chest on the floor of the second chamber.",
+        latitude: "0.58283616934468",
+        longitude: "-0.64515940021462",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Cave",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Field Chasm",
+        description:
+          "**Leads To:** [Hyrule Field Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277762)",
+        latitude: "0.69327183332879",
+        longitude: "-0.71127165562257",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Hill Chasm",
+        description:
+          "**Leads To:** [East Hill Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280827)",
+        latitude: "0.67589675581685",
+        longitude: "-0.63963073246296",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Gerudo Chasm",
+        description:
+          "**Leads To:** [East Gerudo Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278136)",
+        latitude: "0.60378812377668",
+        longitude: "-0.78358583502225",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Drenan Highlands Chasm",
+        description:
+          "**Leads To:** [Drenan Highlands Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278172)",
+        latitude: "0.79897362749278",
+        longitude: "-0.70520604923237",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain Chasm",
+        description: "**Leads To:** ??",
+        latitude: "0.78680593263843",
+        longitude: "-0.62154147836057",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forest of Time Chasm",
+        description:
+          "**Leads To:** [Forest of Time Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277975)",
+        latitude: "0.64965465015722",
+        longitude: "-0.70722878054559",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau North Chasm",
+        description:
+          "**Leads To:** [Great Plateau North Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281248)",
+        latitude: "0.65457246999057",
+        longitude: "-0.72445567763788",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eventide Island Chasm",
+        description:
+          "**Leads To:** [Eventide Island Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282678)",
+        latitude: "0.59152923198796",
+        longitude: "-0.55800944566420",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Naydra Snowfield Chasm (Exit)",
+        description:
+          "**Enter From:** [Naydra Snowfield Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277045)",
+        latitude: "0.33561753032266",
+        longitude: "-0.58730721473825",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Naydra Snowfield Chasm",
+        description:
+          "**Leads To:** [Naydra Snowfield Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277044)",
+        latitude: "0.65971062119566",
+        longitude: "-0.58735965599394",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Akkala Plains Chasm",
+        description:
+          "**Leads To:** [South Akkala Plains Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283892)",
+        latitude: "0.74441705319150",
+        longitude: "-0.59700935913500",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Wetlands Chasm",
+        description:
+          "**Leads To:** [Lanayru Wetlands Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278333)",
+        latitude: "0.70825353020639",
+        longitude: "-0.64757587644735",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meda Mountain Chasm",
+        description:
+          "**Leads To:** [Meda Mountain Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278120)",
+        latitude: "0.62653823552026",
+        longitude: "-0.62232864612673",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hills of Baumer Chasm",
+        description:
+          "**Leads To:** [Hills of Baumer Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277960)",
+        latitude: "0.63491063640360",
+        longitude: "-0.69600966975310",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Hylia Chasm",
+        description: "**Leads To:** ??",
+        latitude: "0.61957856900813",
+        longitude: "-0.71382164179360",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau East Chasm",
+        description:
+          "**Leads To:** [Great Plateau East Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281126)",
+        latitude: "0.63899073597356",
+        longitude: "-0.71766633825922",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau South Chasm",
+        description:
+          "**Leads To:** [Great Plateau South Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281233)",
+        latitude: "0.62849748955908",
+        longitude: "-0.73314339574281",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau West Chasm",
+        description: "**Leads To:** ??",
+        latitude: "0.63895424411615",
+        longitude: "-0.74918137769558",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Birida Lookout Chasm",
+        description:
+          "**Leads To:** [Birida Lookout Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283237)",
+        latitude: "0.64351699437334",
+        longitude: "-0.82147774313870",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Hideout Chasm",
+        description:
+          "**Leads To:** [Yiga Clan Hideout Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287067)",
+        latitude: "0.66012348331367",
+        longitude: "-0.81353270018167",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Skull Lake Chasm",
+        description:
+          "**Leads To:** [Skull Lake Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280823)",
+        latitude: "0.81386108641621",
+        longitude: "-0.59863694380843",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Elma Knolls Chasm",
+        description:
+          "**Leads To:** [Elma Knolls Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281919)",
+        latitude: "0.75847187669095",
+        longitude: "-0.71791421312105",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Ridge Chasm",
+        description:
+          "**Leads To:** [Hyrule Ridge Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280836)",
+        latitude: "0.73954317155065",
+        longitude: "-0.78833834244730",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Akkala Plains Chasm",
+        description:
+          "**Leads To:** [East Akkala Plains Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278280)",
+        latitude: "0.77272117084452",
+        longitude: "-0.57338513020875",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Field Chasm (Exit)",
+        description:
+          "**Enter From:** [Hyrule Field Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276819)",
+        latitude: "0.36986332550802",
+        longitude: "-0.71109652519348",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hills of Baumer Chasm (Exit)",
+        description:
+          "**Enter From:** [Hills of Baumer Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277280)",
+        latitude: "0.31036082955283",
+        longitude: "-0.69555772250609",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forest of Time Chasm (Exit)",
+        description:
+          "**Enter From:** [Forest of Time Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276859)",
+        latitude: "0.32747590420414",
+        longitude: "-0.70783950203142",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Hylia Chasm (Exit)",
+        description:
+          "**Enter From:** [Lake Hylia Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277281)",
+        latitude: "0.29653403106222",
+        longitude: "-0.71391877104966",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meda Mountain Chasm (Exit)",
+        description:
+          "**Enter From:** [Meda Mountain Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277207)",
+        latitude: "0.30229635840993",
+        longitude: "-0.62234614190075",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Gerudo Chasm (Exit)",
+        description:
+          "**Enter From:** [East Gerudo Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276837)",
+        latitude: "0.28072734219504",
+        longitude: "-0.78412869259935",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Summit Chasm",
+        description:
+          "**Leads To:** [Gerudo Summit Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278168)",
+        latitude: "0.68251274176686",
+        longitude: "-0.83845978939038",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Summit Chasm (Exit)",
+        description:
+          "**Enter From:** [Gerudo Summit Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278163)",
+        latitude: "0.35831704086495",
+        longitude: "-0.83850383585744",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Drenan Highlands Chasm (Exit)",
+        description:
+          "**Enter From:** [Drenan Highlands Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276850)",
+        latitude: "0.47383235410021",
+        longitude: "-0.70918576262767",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Akkala Plains Chasm (Exit)",
+        description:
+          "**Enter From:** [East Akkala Plains Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277435)",
+        latitude: "0.45053526365533",
+        longitude: "-0.57408866425331",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lomei Labyrinth Chasm",
+        description:
+          "**Leads To:** [Lomei Labyrinth Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284633)",
+        latitude: "0.82201034966256",
+        longitude: "-0.55330752577254",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Wetlands Chasm (Exit)",
+        description:
+          "**Enter From:** [Lanayru Wetlands Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277130)",
+        latitude: "0.38379268884385",
+        longitude: "-0.64687565118328",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain Chasm (Exit)",
+        description:
+          "**Enter From:** [Death Mountain Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276857)",
+        latitude: "0.46247404589002",
+        longitude: "-0.62103042775803",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Minshi Woods Chasm",
+        description:
+          "**Leads To:** [Minshi Woods Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280111)",
+        latitude: "0.75697581778763",
+        longitude: "-0.66907274051920",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Minshi Woods Chasm (Exit)",
+        description:
+          "**Leads To:** [Minshi Woods Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280080)",
+        latitude: "0.43520762422622",
+        longitude: "-0.66953138312962",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deku Tree Chasm",
+        description:
+          "**Leads To:** [Deku Tree Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289708)\n\nDive into the chasm, defeat the Gloom Hands and Phantom Ganon, and rid the Great Deku Tree of its gloom plague.",
+        latitude: "0.77372672834545",
+        longitude: "-0.68960264325278",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tingel Island Chasm",
+        description:
+          "**Leads To:** [Tingel Island Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280273)",
+        latitude: "0.74473210180780",
+        longitude: "-0.55185143993492",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tingel Island Chasm (Exit)",
+        description:
+          "**Enter From:** [Tingel Island Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280272)",
+        latitude: "0.42379101584102",
+        longitude: "-0.55176405118283",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Skull Lake Chasm (Exit)",
+        description:
+          "**Leads To:** [Skull Lake Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277413)",
+        latitude: "0.49001845722896",
+        longitude: "-0.59887678307572",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Hill Chasm (Exit)",
+        description:
+          "**Leads To:** [East Hill Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276827)",
+        latitude: "0.35174993051710",
+        longitude: "-0.63937215957168",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Ridge Chasm (Exit)",
+        description:
+          "**Leads To:** [Hyrule Ridge Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277428)",
+        latitude: "0.41514381418315",
+        longitude: "-0.78821249876964",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lomei Chasm",
+        description:
+          "**Leads To:** [South Lomei Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280842)",
+        latitude: "0.59178218719482",
+        longitude: "-0.76089073914036",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lomei Chasm (Exit)",
+        description:
+          "**Leads To:** [South Lomei Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280841)",
+        latitude: "0.26770604069104",
+        longitude: "-0.76089343490773",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Lomei Chasm",
+        description: "**Leads To:** ??",
+        latitude: "0.81685299885365",
+        longitude: "-0.72938277795632",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau East Chasm (Exit)",
+        description:
+          "**Enter From:** [Great Plateau East Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277282)",
+        latitude: "0.31490946168691",
+        longitude: "-0.71787244945074",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau South Chasm (Exit)",
+        description:
+          "**Enter From:** [Great Plateau South Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277283)",
+        latitude: "0.30444707353358",
+        longitude: "-0.73266493162438",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau North Chasm (Exit)",
+        description:
+          "**Enter From:** [Great Plateau North Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276860)",
+        latitude: "0.33005477564579",
+        longitude: "-0.72403381976474",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat West Chasm",
+        description:
+          '**Leads To:** [Hyrule Castle Moat West Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281762)\n\n**Note:** Only appears when visited. Access via the "Hyrule Castle Moat West Chasm Entrance".',
+        latitude: "0.72333931560281",
+        longitude: "-0.73361495442009",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Chasm",
+        description:
+          "**Leads To:** [Hyrule Castle Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281729)",
+        latitude: "0.73533259153895",
+        longitude: "-0.71135410316592",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat East Chasm",
+        description:
+          '**Leads To:** [Hyrule Castle Moat East Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282155)\n\n**Location:** Access via "Hyrule Castle Moat East Chasm Entrance" ??',
+        latitude: "0.73125889023902",
+        longitude: "-0.69708244968888",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau West Chasm (Exit)",
+        description:
+          "**Enter From:** [Great Plateau West Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277284)",
+        latitude: "0.31501755275195",
+        longitude: "-0.74933175520110",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Chasm (Exit)",
+        description:
+          "**Enter From:** [Hyrule Castle Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281599)",
+        latitude: "0.41199959922226",
+        longitude: "-0.71083958373311",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat West Chasm (Exit)",
+        description:
+          "**Enter From:** [Hyrule Castle Moat West Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281595)",
+        latitude: "0.40040873693967",
+        longitude: "-0.73287836909756",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rowan Plain Well Chasm (Exit)",
+        description:
+          "**Enter From:** [Rowan Plain Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277753)",
+        latitude: "0.45407834914833",
+        longitude: "-0.73746007319784",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Elma Knolls Chasm (Exit)",
+        description:
+          "**Enter From:** [Elma Knolls Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277414)",
+        latitude: "0.43463499445261",
+        longitude: "-0.71749507113262",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat East Chasm (Exit)",
+        description:
+          "**Enter From:** [Hyrule Castle Moat East Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281600)",
+        latitude: "0.40755332443388",
+        longitude: "-0.69774371594741",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Daphnes Well Chasm (Exit)",
+        description:
+          "**Enter From:** [Mount Daphnes Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279336)",
+        latitude: "0.35909512167160",
+        longitude: "-0.74536146567945",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rito Village Chasm",
+        description:
+          "**Leads To:** [Rito Village Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282568) \n\nThe chasm is located inside a hidden cave. The cave entrance is southwest of this marker in the cliff face.",
+        latitude: "0.76113000093615",
+        longitude: "-0.81815021292743",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rito Village Chasm (Exit)",
+        description:
+          "**Leads To:** [Rito Village Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282359)",
+        latitude: "0.43708923685737",
+        longitude: "-0.81817699636147",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tobio's Hollow Chasm (Enter)",
+        description:
+          "**Exit to:** [Tobio's Hollow Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281959)",
+        latitude: "0.30200832765998",
+        longitude: "-0.66110444985816",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eventide Island Chasm (Exit)",
+        description:
+          "**Enter From:** [Eventide Island Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276919)",
+        latitude: "0.26787804899237",
+        longitude: "-0.55800959453981",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zora's Domain Chasm",
+        description:
+          "**Location:** As soon as you enter the [Cave Under Zora's Domain](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280781)  \n\n**Leads To:** [Chasm Under Zora's Domain](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284532)",
+        latitude: "0.71723928813157",
+        longitude: "-0.59786140562554",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Birida Lookout Chasm (Exit)",
+        description:
+          "**Leads To:** [Birida Lookout Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277307)",
+        latitude: "0.31945928799597",
+        longitude: "-0.82150622857834",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tobio's Hollow Chasm",
+        description:
+          "**Location:** [Tobio's Hollow Chasm (Enter)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282601)",
+        latitude: "0.62586341315533",
+        longitude: "-0.66101905531079",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Akkala Plains Chasm (Exit)",
+        description:
+          "**Enter From:** [South Akkala Plains Chasm (Enter)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=)",
+        latitude: "0.42052670713403",
+        longitude: "-0.59712003232747",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Daphnes' Chasm",
+        description: "**Location** Inside the well",
+        latitude: "0.68292538820427",
+        longitude: "-0.74526818827482",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Chasm Under Zora's Domain",
+        description: "**Leads To:** ??",
+        latitude: "0.39340416096483",
+        longitude: "-0.59814147041931",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Lomei Chasm (Exit)",
+        description: "**Leads To:** ??",
+        latitude: "0.49254732214703",
+        longitude: "-0.72933570976661",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lomei Labyrinth Chasm (Exit)",
+        description:
+          "**Enter From:** [Lomei Labyrinth Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278300)",
+        latitude: "0.49753876197716",
+        longitude: "-0.55330839674111",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Hideout Chasm (Exit)",
+        description:
+          "**Leads To:** [Yiga Clan Hideout Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277332)",
+        latitude: "0.33610070863136",
+        longitude: "-0.81370272520712",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deku Tree Chasm",
+        description:
+          "**Leads To:** [Deku Tree Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280226)",
+        latitude: "0.44982660783432",
+        longitude: "-0.68967675046542",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Chasm",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description:
+          "**Location:** Inside the Temple of Time, past the cog puzzle.",
+        latitude: "1.02143061996400",
+        longitude: "-0.68851879151683",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description:
+          "**Location:** Against the wall of the Mayor's House and by the campfire.",
+        latitude: "0.63544319223762",
+        longitude: "-0.59237055480466",
+        media: [
+          {
+            title: "2023043000264400_c",
+            fileName: "45bfa65d-3b4a-4010-8206-6dc8980a9cf5.jpg",
+            url: "https://media.mapgenie.io/storage/media/45bfa65d-3b4a-4010-8206-6dc8980a9cf5.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description:
+          "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752) - in the Emergency Shelter underground.",
+        latitude: "0.70613600792596",
+        longitude: "-0.71070224046662",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description:
+          "**Location:** Upper level of [Zora's Domain](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276828). In front of the large staircase to the main hall",
+        latitude: "0.71954668554170",
+        longitude: "-0.59621550142768",
+        media: [
+          {
+            title: "2023050416182300_c",
+            fileName: "0d099d7c-6601-41cb-a8f6-c4932af166aa.jpg",
+            url: "https://media.mapgenie.io/storage/media/0d099d7c-6601-41cb-a8f6-c4932af166aa.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description: "**Location:** Tucked in behind the building, near Douma",
+        latitude: "0.78205055055197",
+        longitude: "-0.64768066166968",
+        media: [
+          {
+            title: "2023050915290100_c",
+            fileName: "e8f3678b-7fa8-4155-b3e8-aad0d67c3268.jpg",
+            url: "https://media.mapgenie.io/storage/media/e8f3678b-7fa8-4155-b3e8-aad0d67c3268.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description: "",
+        latitude: "0.67101300632342",
+        longitude: "-0.64391380270516",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description:
+          "At the base of Rito Village, near the bridge leading to the other plateaus.",
+        latitude: "0.76125369381339",
+        longitude: "-0.81926952260883",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue of Wisdom",
+        description: "",
+        latitude: "0.66027845063870",
+        longitude: "-0.57733458785413",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description:
+          "**Location:** In [East Akkala Stable Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278290) - break though the rocks",
+        latitude: "0.79318489325148",
+        longitude: "-0.56725944877394",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description: "**Location:** Inside the Deku Tree",
+        latitude: "0.77294359465257",
+        longitude: "-0.68976022303181",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description: "",
+        latitude: "0.63764282095440",
+        longitude: "-0.72967382267950",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue of Courage",
+        description: "",
+        latitude: "0.62723772527096",
+        longitude: "-0.67509367063769",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description: "",
+        latitude: "0.75498613377289",
+        longitude: "-0.57518064418193",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue of Wisdom",
+        description:
+          "**How to Begin:** Pray to the Goddess Statue\n\n**Solution:** Retrieve Naydra's Claw and offer it to the Goddess Statue by dropping it in the water\n\n**Reward:** One Sapphire",
+        latitude: "0.66038344404811",
+        longitude: "-0.57748495049822",
+        media: [
+          {
+            title: "",
+            fileName: "9717c1c0-7536-4624-b017-0a8316231309.png",
+            url: "https://media.mapgenie.io/storage/media/9717c1c0-7536-4624-b017-0a8316231309.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue of Power",
+        description: "",
+        latitude: "0.78930612298726",
+        longitude: "-0.58208960798834",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue",
+        description: "**Coordinates:**  1338 -3311 0429",
+        latitude: "0.93989636783962",
+        longitude: "-0.65998876329174",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue of Courage",
+        description:
+          "**How to Begin:** Interact with the Goddess Statue  \n\n**Solution:** Find [Farosh, Lightning Dragon](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278139) and shoot his claws to drop part of it. Offer Farosh's Claw and drop it into the water.\n\n**Reward:** 1x Topaz",
+        latitude: "0.62733000261281",
+        longitude: "-0.67471504211429",
+        media: [
+          {
+            title: "",
+            fileName: "dd843580-6877-41cd-803c-420017c4b0c4.jpg",
+            url: "https://media.mapgenie.io/storage/media/dd843580-6877-41cd-803c-420017c4b0c4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue of Power",
+        description:
+          "Bring Dinraal's Claw to her and drop it in the water.\n\n**Reward:** One Ruby",
+        latitude: "0.78907715821727",
+        longitude: "-0.58237311358184",
+        media: [
+          {
+            title: "",
+            fileName: "bb06211e-ac1a-4818-9881-a29f8c80faa3.jpg",
+            url: "https://media.mapgenie.io/storage/media/bb06211e-ac1a-4818-9881-a29f8c80faa3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goddess Statue - Lurelin Village",
+        description: "Lurelin Village, on the shoreline beside the inn",
+        latitude: "0.59211766924155",
+        longitude: "-0.60911652516791",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Goddess Statue",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Horse God Malanya",
+        description:
+          "**Required:** Endura Carrot\n\nUnique among the Great Fairies is Malanya, a spirit that looks over the horses of Hyrule. She can revive and enhance horses that Link has registered at stables.\n\nIn lieu of materials and rupees, Malanya asks for **meals** in exchange for her services.",
+        latitude: "0.80666432221038",
+        longitude: "-0.56487074712811",
+        media: [
+          {
+            title: "2023050913463100_c",
+            fileName: "dcb464eb-3624-4bf0-9230-d952c7efa7b2.jpg",
+            url: "https://media.mapgenie.io/storage/media/dcb464eb-3624-4bf0-9230-d952c7efa7b2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Fairy Mija",
+        description:
+          "Unlocking the Great Fairies involves a series of Side Adventures. Ultimately, you will need to reunite all the members of [The Stable Trotters](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279499) and have them lure the Great Fairies out of their flower Buds with beautiful music.\n\nHere is the Side Adventure sequence you must complete to unlock Mija:\n- [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n- [Serenade to a Great Fairy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279983)\n- [The Hornist's Dramatic Escape](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280076)\n- [Serenade to Mija](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280073)",
+        latitude: "0.79912217292672",
+        longitude: "-0.75014144182188",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Fairy Cotera",
+        description:
+          "Unlocking the Great Fairies involves a series of Side Adventures. Ultimately, you will need to reunite all the members of [The Stable Trotters](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279499) and have them lure the Great Fairies out of their flower Buds with beautiful music.\n\nHere is the Side Adventure sequence you must complete to unlock Cotera:\n1. [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n2. [Serenade to a Great Fairy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279983)\n3. [Honey, Bee Mine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279476)\n4. [Serenade to Cotera](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279990)",
+        latitude: "0.63293480992267",
+        longitude: "-0.64621925354166",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Fairy Kaysa",
+        description:
+          "Unlocking the Great Fairies involves a series of Side Adventures. Ultimately, you will need to reunite all the members of [The Stable Trotters](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279499) and have them lure the Great Fairies out of their flower Buds with beautiful music.\n\nHere is the Side Adventure sequence you must complete to unlock Kaysa:\n1. [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n2. [Serenade to a Great Fairy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279983)\n3. [The Flute Player's Plan](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280107)\n4. [Serenade to Kaysa](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280108)",
+        latitude: "0.66352277514662",
+        longitude: "-0.75318578548431",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Fairy Tera",
+        description:
+          "Unlocking the Great Fairies involves a series of Side Adventures. Ultimately, you will need to reunite all the members of [The Stable Trotters](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279499) and have them lure the Great Fairies out of their flower Buds with beautiful music.\n\nTera will be the first Great Fairy you unlock, and therefore has the shortest sequence to complete:\n- [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n- [Serenade to a Great Fairy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279983)",
+        latitude: "0.74774646002034",
+        longitude: "-0.67366629838938",
+        media: [
+          {
+            title: "",
+            fileName: "d8be88b0-e118-431c-b590-5a50b1514061.jpg",
+            url: "https://media.mapgenie.io/storage/media/d8be88b0-e118-431c-b590-5a50b1514061.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Great Fairy Fountain Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-great-fairy-fountain-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Great Fairy",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Great Zora Bridge",
+        description: "",
+        latitude: "0.71287060403682",
+        longitude: "-0.59935403317326",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Diggdog Suspension Bridge",
+        description: "",
+        latitude: "0.65369486805811",
+        longitude: "-0.75651726143141",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Coliseum Ruins",
+        description: "",
+        latitude: "0.66246350406163",
+        longitude: "-0.74018721685940",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Garrison Ruins",
+        description: "",
+        latitude: "0.68504426247237",
+        longitude: "-0.72238471054126",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Post Ruins",
+        description: "",
+        latitude: "0.65316724213994",
+        longitude: "-0.70200432425699",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Orsedd Bridge",
+        description: "",
+        latitude: "0.71890812448841",
+        longitude: "-0.68698287466202",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "First Gatehouse",
+        description: "",
+        latitude: "0.72858263519711",
+        longitude: "-0.71457647515635",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Observation Room",
+        latitude: "0.72713153327856",
+        longitude: "-0.71066081635631",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thims Bridge",
+        description: "",
+        latitude: "0.72535039473661",
+        longitude: "-0.66197714024966",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Castle Town Prison",
+        description: "",
+        latitude: "0.73080646129770",
+        longitude: "-0.72612013439584",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Carok Bridge",
+        description: "",
+        latitude: "0.71784629197454",
+        longitude: "-0.73797937186851",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kolami Bridge",
+        description: "",
+        latitude: "0.74466207766390",
+        longitude: "-0.80356696555256",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sanctum",
+        latitude: "0.77961353207320",
+        longitude: "-0.49947728386650",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Temple of Time Ruins",
+        description: "",
+        latitude: "0.63817116247411",
+        longitude: "-0.72969203142199",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Jeddo Bridge",
+        description: "",
+        latitude: "0.69890058607369",
+        longitude: "-0.75762640835276",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Giant's Forest",
+        description: "",
+        latitude: "0.69887728661885",
+        longitude: "-0.74120815987214",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Ancient Lab Ruins",
+        description: "",
+        latitude: "0.73722360038933",
+        longitude: "-0.74349441823423",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Moor Garrison Ruins",
+        description: "",
+        latitude: "0.70924266963182",
+        longitude: "-0.65422281685798",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rebonae Bridge",
+        description: "",
+        latitude: "0.70208148033618",
+        longitude: "-0.67699661299520",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gatepost Town Ruins",
+        description: "",
+        latitude: "0.65666379660367",
+        longitude: "-0.72133780634425",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Courage Island",
+        description: "",
+        latitude: "1.07455828178490",
+        longitude: "-0.77689372223759",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Grove of Time",
+        description: "",
+        latitude: "0.32985448273952",
+        longitude: "-0.71586925027020",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bridge of Hylia",
+        description: "",
+        latitude: "0.62220855935736",
+        longitude: "-0.70435209397425",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forest Coliseum",
+        description: "",
+        latitude: "0.45736283568810",
+        longitude: "-0.70691365885384",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Helmhead Bridge",
+        description: "",
+        latitude: "0.74061428910268",
+        longitude: "-0.69046395391194",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mabe Village Ruins",
+        latitude: "0.69654884012245",
+        longitude: "-0.70392526859943",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floria Canyon Mine",
+        description: "",
+        latitude: "0.28964565691346",
+        longitude: "-0.64109588769398",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spirit Temple",
+        description: "",
+        latitude: "0.27533443621620",
+        longitude: "-0.65817083410354",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Kara Kara Mine",
+        description: "",
+        latitude: "0.29976968089206",
+        longitude: "-0.80713185323501",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Desert Coliseum",
+        description: "",
+        latitude: "0.25655872407185",
+        longitude: "-0.84186553792310",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Dark Skeleton",
+        description: "",
+        latitude: "0.26056454730777",
+        longitude: "-0.85256756956940",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Underground Cemetery",
+        description: "",
+        latitude: "0.25882015221872",
+        longitude: "-0.83514342277772",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain West Site",
+        description: "",
+        latitude: "0.79124823278221",
+        longitude: "-0.63317516295885",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Retsam Forest",
+        description: "",
+        latitude: "0.63848970600664",
+        longitude: "-0.57917074393538",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rising Island Chain",
+        description: "",
+        latitude: "1.15379274829270",
+        longitude: "-0.80698909729580",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Guchini Plain Barrows",
+        description: "",
+        latitude: "0.59148859086542",
+        longitude: "-0.67153601677356",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lomei Depths Labyrinth",
+        description: "",
+        latitude: "0.26441655921732",
+        longitude: "-0.76099249431087",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lomei Labyrinth Island",
+        latitude: "0.81629793737133",
+        longitude: "-0.55333980655487",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eldin Great Skeleton",
+        description: "",
+        latitude: "0.82409696537489",
+        longitude: "-0.65465192856655",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stolock Bridge",
+        description: "",
+        latitude: "0.78141810288970",
+        longitude: "-0.64997052627859",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kakariko Bridge",
+        description: "",
+        latitude: "0.65399960891546",
+        longitude: "-0.64561533531079",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Big Twin Bridge",
+        description: "",
+        latitude: "0.63764252546015",
+        longitude: "-0.64922359658905",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Little Twin Bridge",
+        description: "",
+        latitude: "0.63393000061590",
+        longitude: "-0.64797155614698",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Link's House",
+        description:
+          "Plot of land where Link can build a house once the side quest [Home on Arrange](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283059) is acquired.",
+        latitude: "0.74748513779847",
+        longitude: "-0.56766527777611",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Madorna Canyon Mine",
+        description: "",
+        latitude: "0.32511927374409",
+        longitude: "-0.57992524118657",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wellspring of Power",
+        latitude: "0.46079551885474",
+        longitude: "-0.58287238156644",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wellspring of Courage",
+        description: "",
+        latitude: "0.29803205637053",
+        longitude: "-0.67392181523059",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Left-Leg Depot",
+        description: "",
+        latitude: "0.30597005858891",
+        longitude: "-0.67104767103933",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Drena Canyon Mine",
+        description: "",
+        latitude: "0.46195913112727",
+        longitude: "-0.72258523796751",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floating Coliseum",
+        description: "",
+        latitude: "0.33849875586539",
+        longitude: "-0.74002377291828",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Manhala Bridge",
+        description: "",
+        latitude: "0.67039832527666",
+        longitude: "-0.75496001334818",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Gerudo Ruins",
+        description: "",
+        latitude: "0.61966474587287",
+        longitude: "-0.82430325490890",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Lomei Labyrinth",
+        description: "",
+        latitude: "0.81277307915683",
+        longitude: "-0.72968152244306",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Abandoned Central Mine",
+        description: "",
+        latitude: "0.31666298598024",
+        longitude: "-0.72933471800079",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dragon Bone Mire",
+        description: "",
+        latitude: "0.75833250843448",
+        longitude: "-0.83725035375765",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Valor Island",
+        description: "",
+        latitude: "1.01656714679690",
+        longitude: "-0.55627097986670",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hylia Canyon Mine",
+        description: "",
+        latitude: "0.30593763690887",
+        longitude: "-0.74434408034963",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Daphnes Canyon Mine",
+        description: "",
+        latitude: "0.36030989561489",
+        longitude: "-0.73684689601956",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Dark Skeleton",
+        description: "",
+        latitude: "0.49664367176945",
+        longitude: "-0.83287216722954",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meda Canyon Mine",
+        description: "",
+        latitude: "0.29894191579869",
+        longitude: "-0.62233091625765",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Taran Canyon Mine",
+        latitude: "0.29250655334516",
+        longitude: "-0.62269076297572",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Lurelin Mine",
+        description: "",
+        latitude: "0.26835152305496",
+        longitude: "-0.60997035215934",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cresia Pit Mine",
+        description: "",
+        latitude: "0.25853942814497",
+        longitude: "-0.58219220767123",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lone Island Coliseum",
+        latitude: "0.26269146623064",
+        longitude: "-0.55596322137738",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cuho Canyon Mine",
+        description: "",
+        latitude: "0.42238633946434",
+        longitude: "-0.82558339467562",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dueling Canyons Mine",
+        description: "",
+        latitude: "0.31899126807217",
+        longitude: "-0.66141115882402",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bubinga Grove",
+        description: "",
+        latitude: "0.31047386253888",
+        longitude: "-0.63695425893147",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Secluded Coliseum",
+        description: "",
+        latitude: "0.31909184101015",
+        longitude: "-0.63094437908251",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rozudo Canyon Mine",
+        description: "",
+        latitude: "0.30730805009850",
+        longitude: "-0.62612742415084",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meda Lavafalls",
+        description: "",
+        latitude: "0.30154018978580",
+        longitude: "-0.63044821204204",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Hebra Mine",
+        description: "",
+        latitude: "0.43820808100421",
+        longitude: "-0.81629007271874",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Midla Grove",
+        description: "",
+        latitude: "0.30947776538446",
+        longitude: "-0.60251836607142",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ebon Canyon Mine",
+        description: "",
+        latitude: "0.29857343635601",
+        longitude: "-0.59655109222749",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Observation Deck",
+        description: "",
+        latitude: "0.26596648007038",
+        longitude: "-0.62034834604771",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tuft Canyon Mine",
+        description: "",
+        latitude: "0.26248826488080",
+        longitude: "-0.62127177582948",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Underground Fortress",
+        description: "",
+        latitude: "0.42834601604550",
+        longitude: "-0.59641722521476",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gleeok Den",
+        description: "",
+        latitude: "0.47847706331680",
+        longitude: "-0.69241150890022",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akkala House of Bones",
+        description: "",
+        latitude: "0.49023291398923",
+        longitude: "-0.59788685533499",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Scorching Coliseum",
+        description: "",
+        latitude: "0.48161288100377",
+        longitude: "-0.63416375061144",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Canyon Mine",
+        description: "",
+        latitude: "0.39173067536889",
+        longitude: "-0.66546441094920",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Retsam Grove",
+        description: "",
+        latitude: "0.31369572602090",
+        longitude: "-0.57926853013211",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lindor Canyon Mine",
+        description: "",
+        latitude: "0.42225023152953",
+        longitude: "-0.76761013116780",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aquame Bridge",
+        description: "",
+        latitude: "0.67039442237943",
+        longitude: "-0.73944830814219",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Docks",
+        latitude: "0.73978085860622",
+        longitude: "-0.71242779142132",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Guards' Chamber",
+        description:
+          "Location will only appear when visited. Must go inside castle walls from Guards' Chamber Entrance marker.",
+        latitude: "0.73049853565442",
+        longitude: "-0.71501477762985",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dining Hall",
+        description: "",
+        latitude: "0.73024106450985",
+        longitude: "-0.70681794688051",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ruto Canyon Mine",
+        description: "",
+        latitude: "0.37882424412977",
+        longitude: "-0.59653817511904",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Water Reservoir",
+        description: "",
+        latitude: "0.72024694640427",
+        longitude: "-0.72232548826641",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Boneyard Bridge",
+        description: "",
+        latitude: "0.72633060756228",
+        longitude: "-0.69447159129166",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Forest Park",
+        description: "",
+        latitude: "0.73306512485701",
+        longitude: "-0.69657578685661",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Tree Stump",
+        latitude: "0.68894417681969",
+        longitude: "-0.73885088287853",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sage Temple Ruins",
+        description: "",
+        latitude: "0.69558350949495",
+        longitude: "-0.74659088754171",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Room of Hopeful Light",
+        latitude: "0.58950016808529",
+        longitude: "-0.91059706540033",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Room of Ascension",
+        latitude: "0.60048669411012",
+        longitude: "-0.93846358159598",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Cathedral",
+        description: "",
+        latitude: "0.72359933355568",
+        longitude: "-0.70069359185393",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rhoam Canyon Mine",
+        description:
+          "- Large Crystallized Charge in chest in main ruin\n\n**TIP:** Use Bomb Flowers on the large Zonaite deposits to save on weapon durability",
+        latitude: "0.40370027470063",
+        longitude: "-0.78975658929608",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gustaf Canyon Mine",
+        description: "",
+        latitude: "0.38561338456817",
+        longitude: "-0.73458199666101",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Applean Grove",
+        description: "",
+        latitude: "0.38838013673815",
+        longitude: "-0.68544147658585",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bravery Island",
+        latitude: "1.10795592664780",
+        longitude: "-0.69659476127064",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Room of Light and Flame",
+        latitude: "0.60048904110588",
+        longitude: "-0.96056820899117",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Room of Light and Shade",
+        latitude: "0.59124016874706",
+        longitude: "-1.01667313116880",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Princess Zelda's Study",
+        latitude: "0.77495976132353",
+        longitude: "-0.51005825400462",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Grove",
+        description: "",
+        latitude: "0.38534103710545",
+        longitude: "-0.61796085684819",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Kakariko Mine",
+        description: "",
+        latitude: "0.34063033825292",
+        longitude: "-0.64458306940986",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Hateno Mine",
+        description: "",
+        latitude: "0.30716412949174",
+        longitude: "-0.59062522298197",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonaite Forge Island",
+        description: "",
+        latitude: "0.99209217558621",
+        longitude: "-0.62537555953602",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construct Factory",
+        description: "",
+        latitude: "0.30927869579007",
+        longitude: "-0.67514637014722",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Right-Arm Depot",
+        description: "",
+        latitude: "0.31181719304034",
+        longitude: "-0.68379420806775",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Gerudo Mine",
+        description: "",
+        latitude: "0.28609074766517",
+        longitude: "-0.82598484226403",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sherfin's Secret Hot Spring",
+        description: "",
+        latitude: "0.81526754654827",
+        longitude: "-0.84202338669405",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulri Canyon Mine",
+        description: "",
+        latitude: "0.44565325556358",
+        longitude: "-0.58487002206900",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Grove of Spirits",
+        description: "",
+        latitude: "0.32502337125463",
+        longitude: "-0.73391590732211",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Secret Spring of Revival",
+        description: "",
+        latitude: "0.31831107988550",
+        longitude: "-0.73787214796710",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Right-Leg Depot",
+        description: "",
+        latitude: "0.31112489630691",
+        longitude: "-0.66552890069795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Left-Arm Depot",
+        description: "",
+        latitude: "0.30168291996382",
+        longitude: "-0.68066224529500",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fort Hateno",
+        latitude: "0.64330612535794",
+        longitude: "-0.62819247339986",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Owlan Bridge",
+        description: "",
+        latitude: "0.66217209073788",
+        longitude: "-0.69295027044888",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Canyon of Awakening Mine",
+        description: "",
+        latitude: "0.33387947115928",
+        longitude: "-0.60865570010216",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Tarrey Mine",
+        description: "",
+        latitude: "0.43107772754922",
+        longitude: "-0.57547885753317",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Lanayru Mine",
+        description: "",
+        latitude: "0.39698341676871",
+        longitude: "-0.59699992304525",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Agaat Canyon Mine",
+        description: "",
+        latitude: "0.35812397049398",
+        longitude: "-0.85536407072914",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Arbiter's Grounds",
+        description: "",
+        latitude: "0.58276545851094",
+        longitude: "-0.83696638132646",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Proxim Bridge",
+        description: "",
+        latitude: "0.65130720865338",
+        longitude: "-0.69657209204053",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blupee Burrow",
+        description: "",
+        latitude: "0.36715846978367",
+        longitude: "-0.77670038755775",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dalite Grove",
+        description: "",
+        latitude: "0.34400579383203",
+        longitude: "-0.77161465862312",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Outpost Ruins",
+        description: "",
+        latitude: "0.64923074848045",
+        longitude: "-0.71134363895527",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Abandoned Eldin Mine",
+        description: "",
+        latitude: "0.45665657372261",
+        longitude: "-0.65007150797894",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Moat Bridge",
+        description: "",
+        latitude: "0.72449880703508",
+        longitude: "-0.72287067676132",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Maritta Exchange Ruins",
+        latitude: "0.75791659436973",
+        longitude: "-0.76000894121549",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Second Gatehouse",
+        description: "",
+        latitude: "0.73140522503112",
+        longitude: "-0.70826179949128",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lockup",
+        description: "",
+        latitude: "0.73656664293701",
+        longitude: "-0.71746813178305",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eagus Bridge",
+        description: "",
+        latitude: "0.67271557583817",
+        longitude: "-0.67189708517148",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Horwell Bridge",
+        description: "",
+        latitude: "0.67160845171976",
+        longitude: "-0.68124537859461",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nabooru Canyon Mine",
+        description: "",
+        latitude: "0.31015777917432",
+        longitude: "-0.76122658872941",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sherfin's Lavafalls",
+        description: "",
+        latitude: "0.49063247907763",
+        longitude: "-0.84301584680767",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Faloraa Canyon Mine",
+        description: "",
+        latitude: "0.29616617060361",
+        longitude: "-0.73359760431251",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goflam's Lavafalls",
+        description: "",
+        latitude: "0.49446834224010",
+        longitude: "-0.81228098057804",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eldin Dark Skeleton",
+        description: "",
+        latitude: "0.49885086939292",
+        longitude: "-0.65302430713407",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Giant's Grove",
+        description: "",
+        latitude: "0.37452476669706",
+        longitude: "-0.74051023358373",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Mine",
+        description: "",
+        latitude: "0.35651992624392",
+        longitude: "-0.83749966303574",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sturnida Lavafalls",
+        description: "",
+        latitude: "0.46664927315878",
+        longitude: "-0.83385030467517",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dunsel Canyon Mine",
+        description: "",
+        latitude: "0.27251132148209",
+        longitude: "-0.60265958338755",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Canyon Mine",
+        description: "",
+        latitude: "0.33540589333094",
+        longitude: "-0.57527204610508",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Walnot Canyon Mine",
+        description: "",
+        latitude: "0.31614418519248",
+        longitude: "-0.56625933243944",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pappetto Grove",
+        description: "",
+        latitude: "0.26492066951656",
+        longitude: "-0.71388154399907",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Daval Canyon Mine",
+        description: "",
+        latitude: "0.26289331186688",
+        longitude: "-0.74858838886109",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Granajh Canyon Mine",
+        description: "",
+        latitude: "0.27003005319645",
+        longitude: "-0.74745029156068",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Canyon Mine",
+        description: "",
+        latitude: "0.47333048196472",
+        longitude: "-0.79128749020080",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ploymus Canyon Mine",
+        description: "",
+        latitude: "0.39479677540164",
+        longitude: "-0.58117302188307",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spring of Power",
+        description: "",
+        latitude: "0.78892435658911",
+        longitude: "-0.58245199690444",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spring of Courage",
+        description: "",
+        latitude: "0.62697837671465",
+        longitude: "-0.67497568135795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bridge Of Eldin",
+        description: "",
+        latitude: "0.77885368015120",
+        longitude: "-0.63181095989199",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gleeok Bridge",
+        description: "",
+        latitude: "0.67791985051092",
+        longitude: "-0.74559245015334",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gut Check Rock",
+        description: "",
+        latitude: "0.81468714609464",
+        longitude: "-0.61681131077893",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kolomo Garrison Ruins",
+        description: "",
+        latitude: "0.66211836115241",
+        longitude: "-0.71803933223492",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ginner Grove",
+        description: "",
+        latitude: "0.31289642010104",
+        longitude: "-0.59932864290323",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rok Grove",
+        description: "",
+        latitude: "0.47836422707371",
+        longitude: "-0.59523957884029",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Castle Town Watchtower",
+        description: "",
+        latitude: "0.71611296556682",
+        longitude: "-0.70078589604398",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dracozu Altar",
+        description: "Behind the waterfall",
+        latitude: "0.29639982799450",
+        longitude: "-0.67385235031586",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hickaly Grove",
+        description: "",
+        latitude: "0.30244411298732",
+        longitude: "-0.64036478678076",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sanidin Park Ruins",
+        description: "",
+        latitude: "0.68093794535928",
+        longitude: "-0.75575168281691",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Great Bridge",
+        description: "",
+        latitude: "0.72174951494138",
+        longitude: "-0.80348021493441",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Gerudo Ruins",
+        description:
+          "Side quest location for [To the Ruins!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283893)",
+        latitude: "0.61196270053618",
+        longitude: "-0.78987386683639",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Agaat",
+        description: "",
+        latitude: "0.67660826774031",
+        longitude: "-0.86184933613808",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Southern Oasis Training Area",
+        description: "",
+        latitude: "0.58483950111119",
+        longitude: "-0.82112632958356",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Horse God Bridge",
+        description: "",
+        latitude: "0.58341077360241",
+        longitude: "-0.68399432955658",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Desert Rift",
+        description: "",
+        latitude: "0.61528718723017",
+        longitude: "-0.81631813718300",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Northern Icehouse",
+        description: "",
+        latitude: "0.62943088382070",
+        longitude: "-0.82399232698776",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Korok Grove",
+        description: "",
+        latitude: "0.44683500372636",
+        longitude: "-0.69006332918582",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sarjon Bridge",
+        description: "",
+        latitude: "0.59896985576280",
+        longitude: "-0.67008649230343",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Sokkala Bridge",
+        description: "",
+        latitude: "0.73609452869430",
+        longitude: "-0.58755630877826",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sokkala Bridge",
+        description: "",
+        latitude: "0.73540347831252",
+        longitude: "-0.58446451268583",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Sokkala Bridge",
+        description: "",
+        latitude: "0.73834953445797",
+        longitude: "-0.57897202786160",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Faron Woods",
+        description: "",
+        latitude: "0.60493722362865",
+        longitude: "-0.69196898210583",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Palmorae Ruins",
+        description: "",
+        latitude: "0.59370920548182",
+        longitude: "-0.59094259593155",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luto's Crossing",
+        description: "",
+        latitude: "0.70300100801585",
+        longitude: "-0.60414901724852",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oren Bridge",
+        description: "",
+        latitude: "0.70224759710365",
+        longitude: "-0.61038224892326",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Inogo Bridge",
+        description: "",
+        latitude: "0.71110776391012",
+        longitude: "-0.62762887167415",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Passage",
+        description:
+          "In the ground-level area surrounding Hyrule Castle. Most easily accesible approaching from the North/Northeast. Entrance looks like a mineshaft.",
+        latitude: "0.73471014683766",
+        longitude: "-0.70694696592608",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Passage",
+        description:
+          "In the ground-level area surrounding Hyrule Castle. Most easily accessible from the water, approaching from the Southwest. There are exposed minecart rails over the moat that lead into the passage.",
+        latitude: "0.73068034818934",
+        longitude: "-0.71780318784445",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floret Sandbar",
+        description: "",
+        latitude: "0.67611072873993",
+        longitude: "-0.67568330054516",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Library",
+        description: "",
+        latitude: "0.73719409276299",
+        longitude: "-0.70815741485148",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Lomei Castle Top Floor",
+        description: "",
+        latitude: "1.16004008886030",
+        longitude: "-0.73351730462315",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lomei Castle Top Floor",
+        description: "",
+        latitude: "0.93944548324824",
+        longitude: "-0.76089140718528",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lightcast Island",
+        description: "",
+        latitude: "1.07942515712070",
+        longitude: "-0.81921565774090",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lomei Depths Labyrinth",
+        description: "",
+        latitude: "0.49701215591794",
+        longitude: "-0.55313560709473",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Starview Island",
+        description: "",
+        latitude: "1.03553695729180",
+        longitude: "-0.81478800811013",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Lomei Depths Labyrinth",
+        description: "",
+        latitude: "0.49304430382075",
+        longitude: "-0.72941704866662",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Floria Bridge",
+        description: "",
+        latitude: "0.59134933390058",
+        longitude: "-0.64744383028435",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Princess Zelda's Room",
+        description: "",
+        latitude: "0.73513682238315",
+        longitude: "-0.71384022719988",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lomei Sky Labyrinth",
+        description: "",
+        latitude: "1.15994544636660",
+        longitude: "-0.55327100690184",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road - East Gate",
+        description: "",
+        latitude: "0.66615795737616",
+        longitude: "-0.60224202595086",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road - West Gate",
+        description: "",
+        latitude: "0.67866794854952",
+        longitude: "-0.62927379029531",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Landmark",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        latitude: "0.30507467691348",
+        longitude: "-0.70720304989194",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse Exit",
+        description: "",
+        latitude: "0.62885185682055",
+        longitude: "-0.70727174399022",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description:
+          "**Leads To:** [Akkala Ancient Tech Lab Lighthouse (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278283)",
+        latitude: "0.48084833673209",
+        longitude: "-0.55777431725704",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse (Exit)",
+        description:
+          "**Enter From:** [Lighthouse](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278282)",
+        latitude: "0.80496412571311",
+        longitude: "-0.55780621030678",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.47455490573427",
+        longitude: "-0.68060131520457",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.41220227118642",
+        longitude: "-0.63807684496919",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.38031017283812",
+        longitude: "-0.56805653825577",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.27231082888277",
+        longitude: "-0.59004142578024",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.25377427020165",
+        longitude: "-0.85685060118922",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.37191483262279",
+        longitude: "-0.79237282315387",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.43834951468807",
+        longitude: "-0.78107537200327",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.50165927007203",
+        longitude: "-0.84631880533749",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.48348839865650",
+        longitude: "-0.74510424222944",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.25733033349530",
+        longitude: "-0.55120635072731",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.31850731348605",
+        longitude: "-0.81497273880896",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.31686041726419",
+        longitude: "-0.66309381923114",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.44652309084424",
+        longitude: "-0.68909610360657",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lighthouse",
+        description: "",
+        latitude: "0.40437807207178",
+        longitude: "-0.74047066554402",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Lighthouse",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Takaruk Lightroot",
+        description: "",
+        latitude: "0.36274197521867",
+        longitude: "-0.62713382980408",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Migo-o Lightroot",
+        description: "",
+        latitude: "0.34410012899963",
+        longitude: "-0.61450929432144",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uogoj Lightroot",
+        description: "",
+        latitude: "0.34093016909445",
+        longitude: "-0.59538562466693",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Usukaz Lightroot",
+        description: "",
+        latitude: "0.33150191479747",
+        longitude: "-0.58965503610901",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Siakij Lightroot",
+        description: "",
+        latitude: "0.32527999843458",
+        longitude: "-0.56577383424897",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kimimadena Lightroot",
+        description: "",
+        latitude: "0.30900773285546",
+        longitude: "-0.56683449390732",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kisihayam Lightroot",
+        description: "",
+        latitude: "0.31294252580213",
+        longitude: "-0.58305819025892",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kimnaz Lightroot",
+        description: "",
+        latitude: "0.30900478614680",
+        longitude: "-0.59146522285585",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uoyoyuik Lightroot",
+        description: "",
+        latitude: "0.44634796224014",
+        longitude: "-0.73877950450031",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nikakik Lightroot",
+        description: "",
+        latitude: "0.46719634322892",
+        longitude: "-0.71586993097719",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nisoij Lightroot",
+        description: "",
+        latitude: "0.36724554366803",
+        longitude: "-0.71064591407827",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Iayusus Lightroot",
+        latitude: "0.36517492060648",
+        longitude: "-0.72844505310016",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kotimab Lightroot",
+        description: "",
+        latitude: "0.27586957711583",
+        longitude: "-0.60351249043993",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mimufis Lightroot",
+        description: "",
+        latitude: "0.27393481817860",
+        longitude: "-0.61206374884168",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ni-iraram Lightroot",
+        description: "",
+        latitude: "0.25966189976856",
+        longitude: "-0.55406906382512",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yikot Lightroot",
+        description: "",
+        latitude: "0.30265708649375",
+        longitude: "-0.62896158273330",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sijotu Lightroot",
+        description: "",
+        latitude: "0.29735250645842",
+        longitude: "-0.66392911568641",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Muokuij Lightroot",
+        description: "",
+        latitude: "0.30591963754371",
+        longitude: "-0.67524549060653",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nikohsi Lightroot",
+        description: "",
+        latitude: "0.26577370117866",
+        longitude: "-0.72131679305997",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawatik Lightroot",
+        description: "",
+        latitude: "0.28490585728318",
+        longitude: "-0.75233554433834",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kogoir Lightroot",
+        description: "",
+        latitude: "0.32719215433191",
+        longitude: "-0.74951093970398",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mu-ustust Lightroot",
+        description: "",
+        latitude: "0.33574453485585",
+        longitude: "-0.74891740972765",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Napanos Lightroot",
+        description: "",
+        latitude: "0.36765453294144",
+        longitude: "-0.76497728891937",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sikurukam Lightroot",
+        description: "",
+        latitude: "0.39948254791204",
+        longitude: "-0.79480848142717",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tikanur Lightroot",
+        description: "",
+        latitude: "0.41693574030862",
+        longitude: "-0.78455847470102",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nabahi-ikat Lightroot",
+        description: "",
+        latitude: "0.41758521427460",
+        longitude: "-0.76198977952743",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawumoro Lightroot",
+        description: "",
+        latitude: "0.43129499756607",
+        longitude: "-0.80219773814261",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Worihas Lightroot",
+        description: "",
+        latitude: "0.45602276748748",
+        longitude: "-0.81109145421129",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aduon Lightroot",
+        description: "",
+        latitude: "0.45005142223918",
+        longitude: "-0.77774133533913",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Muihcoro Lightroot",
+        description: "",
+        latitude: "0.46422683895167",
+        longitude: "-0.75581098993445",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mu-ufatur Lightroot",
+        description: "",
+        latitude: "0.47909376515130",
+        longitude: "-0.79960341937533",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Narusis Lightroot",
+        description: "",
+        latitude: "0.48712275344728",
+        longitude: "-0.78554514713315",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kato Lightroot",
+        description: "",
+        latitude: "0.49875695488544",
+        longitude: "-0.84447985355601",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "So-oaw Lightroot",
+        description: "",
+        latitude: "0.44317115292019",
+        longitude: "-0.83371749516775",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nupisoyuat Lightroot",
+        description: "",
+        latitude: "0.47194207328063",
+        longitude: "-0.84920465540137",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kataki Lightroot",
+        description: "",
+        latitude: "0.41587725018525",
+        longitude: "-0.83031014694106",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koro-nui Lightroot",
+        description: "",
+        latitude: "0.40662658323579",
+        longitude: "-0.81703210631673",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mustuto Lightroot",
+        description: "",
+        latitude: "0.35749786620433",
+        longitude: "-0.84689123256254",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stamayam Lightroot",
+        description: "",
+        latitude: "0.33043608685863",
+        longitude: "-0.85238346589611",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Umamustor Lightroot",
+        description: "",
+        latitude: "0.33522896699637",
+        longitude: "-0.81276374435495",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gonatoyros Lightroot",
+        description:
+          "Use Ascend from the top of the Yiga structure to reach the Lightroot.",
+        latitude: "0.28374117269991",
+        longitude: "-0.82819844191434",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gonatoyrim Lightroot",
+        description: "",
+        latitude: "0.27980351327585",
+        longitude: "-0.85366208853853",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rasinaduk Lightroot",
+        description: "",
+        latitude: "0.31032546568551",
+        longitude: "-0.83746328881594",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawiraus Lightroot",
+        description: "",
+        latitude: "0.32226258250434",
+        longitude: "-0.78439606859237",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koradat Lightroot",
+        description: "",
+        latitude: "0.30875764221130",
+        longitude: "-0.73795415148570",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "U-u-ujoj Lightroot",
+        description: "",
+        latitude: "0.26404295932829",
+        longitude: "-0.65434446034183",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uisihcoj Lightroot",
+        description: "",
+        latitude: "0.31802047121265",
+        longitude: "-0.67316178420592",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Busus Lightroot",
+        description: "",
+        latitude: "0.31320338634927",
+        longitude: "-0.69198872205988",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nuzimak Lightroot",
+        description: "",
+        latitude: "0.32916417145047",
+        longitude: "-0.70880048202503",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nipahsom Lightroot",
+        description: "",
+        latitude: "0.44043675391330",
+        longitude: "-0.61693598224471",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Misisi Lightroot",
+        description: "",
+        latitude: "0.47062626457235",
+        longitude: "-0.64383934131772",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mustis Lightroot",
+        description: "",
+        latitude: "0.46288993283270",
+        longitude: "-0.62697612454895",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Katijabis Lightroot",
+        description: "",
+        latitude: "0.48455508974398",
+        longitude: "-0.62588191513467",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Katoij Lightroot",
+        description: "",
+        latitude: "0.48147396218440",
+        longitude: "-0.64412540652583",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kayam Lightroot",
+        description: "",
+        latitude: "0.49951997478908",
+        longitude: "-0.66221361962803",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uukukis Lightroot",
+        description: "",
+        latitude: "0.46910999523608",
+        longitude: "-0.68060655092859",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Katenim Lightroot",
+        description: "",
+        latitude: "0.49135119822085",
+        longitude: "-0.69043833884581",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ikatoayam Lightroot",
+        description: "",
+        latitude: "0.49298213980727",
+        longitude: "-0.73055715338560",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "U-nazohso Lightroot",
+        description: "",
+        latitude: "0.49757579653824",
+        longitude: "-0.74835299954682",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ramobnukas Lightroot",
+        description: "",
+        latitude: "0.45372572389425",
+        longitude: "-0.69778129052600",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sijnin Lightroot",
+        description: "",
+        latitude: "0.43999769062312",
+        longitude: "-0.69173671502236",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eknupup Lightroot",
+        description: "",
+        latitude: "0.45034838227245",
+        longitude: "-0.68326736861763",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kisomom Lightroot",
+        latitude: "0.46798118916371",
+        longitude: "-0.60785632117621",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tayamik Lightroot",
+        description: "",
+        latitude: "0.49620091883016",
+        longitude: "-0.61095458092996",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ui-ihcoj Lightroot",
+        description: "",
+        latitude: "0.47175847783690",
+        longitude: "-0.56320139412909",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gedihcayam Lightroot",
+        description: "",
+        latitude: "0.43781904966301",
+        longitude: "-0.60459795629234",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Niuzimod Lightroot",
+        description: "",
+        latitude: "0.42567422263913",
+        longitude: "-0.59676904352511",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uinoj Lightroot",
+        description: "",
+        latitude: "0.39550846476276",
+        longitude: "-0.60919928582823",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawagom Lightroot",
+        description: "",
+        latitude: "0.39275593631938",
+        longitude: "-0.59696467301271",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawamit Lightroot",
+        description: "",
+        latitude: "0.43173946713074",
+        longitude: "-0.64514018519503",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Netamnet Lightroot",
+        description: "",
+        latitude: "0.42910453040889",
+        longitude: "-0.72221289487246",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kegopa Lightroot",
+        description: "",
+        latitude: "0.37222025273573",
+        longitude: "-0.57806294661580",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kuzimoy Lightroot",
+        description: "",
+        latitude: "0.35939401007580",
+        longitude: "-0.56109336270393",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nojoj Lightroot",
+        description: "",
+        latitude: "0.38967692804960",
+        longitude: "-0.66437138299534",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zi-ner Lightroot",
+        description: "",
+        latitude: "0.40570789011824",
+        longitude: "-0.67887853187213",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Apapes Lightroot",
+        description: "",
+        latitude: "0.41395140253000",
+        longitude: "-0.69594696368085",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gadohsi Lightroot",
+        description: "",
+        latitude: "0.39275224851153",
+        longitude: "-0.73148311671494",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawakanis Lightroot",
+        description: "",
+        latitude: "0.40357430386068",
+        longitude: "-0.74864660525711",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Akinatanis Lightroot",
+        description: "",
+        latitude: "0.45317607979435",
+        longitude: "-0.57938218444647",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sikutamak Lightroot",
+        description: "",
+        latitude: "0.48717875421990",
+        longitude: "-0.59268985562954",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawikatisar Lightroot",
+        description: "",
+        latitude: "0.42168305227231",
+        longitude: "-0.56904602086678",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sisinatag Lightroot",
+        description: "",
+        latitude: "0.40571330839553",
+        longitude: "-0.55839491036531",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Arusakam Lightroot",
+        description: "",
+        latitude: "0.34519454403616",
+        longitude: "-0.64604288739957",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Korom Lightroot",
+        description: "",
+        latitude: "0.35409791736973",
+        longitude: "-0.66504411786309",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stakijat Lightroot",
+        description: "",
+        latitude: "0.34662732509290",
+        longitude: "-0.69201884845063",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Netinet Lightroot",
+        latitude: "0.34328954097550",
+        longitude: "-0.70553892976050",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mihcihc Lightroot",
+        description: "",
+        latitude: "0.28231005985151",
+        longitude: "-0.80632236541524",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gataharak Lightroot",
+        description: "",
+        latitude: "0.26254365001247",
+        longitude: "-0.82298729761874",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kasari Lightroot",
+        description: "",
+        latitude: "0.25604981419271",
+        longitude: "-0.83703437657815",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Muzasu Lightroot",
+        description: "",
+        latitude: "0.35103598243933",
+        longitude: "-0.77214753089643",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sasag Lightroot",
+        description: "",
+        latitude: "0.38246886066476",
+        longitude: "-0.83671404340154",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Muot'ue Lightroot",
+        description: "",
+        latitude: "0.49397934664931",
+        longitude: "-0.81596974818214",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sinonoyk Lightroot",
+        latitude: "0.39368617694738",
+        longitude: "-0.70991367101729",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oyimay Lightroot",
+        description: "",
+        latitude: "0.39436152624556",
+        longitude: "-0.69256547515948",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nihcayam Lightroot",
+        description: "",
+        latitude: "0.35104958926532",
+        longitude: "-0.72571423291754",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kohsustu Lightroot",
+        description: "",
+        latitude: "0.27109581077866",
+        longitude: "-0.68171011757983",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Amo-ne Lightroot",
+        description: "",
+        latitude: "0.29813616094249",
+        longitude: "-0.69968730479440",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uihcoke Lightroot",
+        description: "",
+        latitude: "0.42025090265533",
+        longitude: "-0.66886951921188",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Anonisik Lightroot",
+        description: "",
+        latitude: "0.41909041774990",
+        longitude: "-0.62042546353157",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Uasnoj Lightroot",
+        description: "",
+        latitude: "0.37975779145467",
+        longitude: "-0.64686682752873",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Amakawis Lightroot",
+        description: "",
+        latitude: "0.27142295702002",
+        longitude: "-0.78157207252170",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sisustom Lightroot",
+        description: "Use ascend or the hot air balloon to reach it",
+        latitude: "0.26642439345814",
+        longitude: "-0.76089972378119",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawakarut Lightroot",
+        description: "",
+        latitude: "0.37217212241998",
+        longitude: "-0.81539997731099",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kuhsagi Lightroot",
+        description: "",
+        latitude: "0.49914504213100",
+        longitude: "-0.55327550875089",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kimimeg Lightroot",
+        description: "",
+        latitude: "0.44729889914677",
+        longitude: "-0.55776871690534",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rikonasum Lightroot",
+        description: "",
+        latitude: "0.44777850269938",
+        longitude: "-0.69001484764362",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sohse Lightroot",
+        description: "",
+        latitude: "0.31663712044764",
+        longitude: "-0.65271838594361",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tatayam Lightroot",
+        description: "",
+        latitude: "0.29814148272695",
+        longitude: "-0.80896025477546",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kimakarut Lightroot",
+        description: "",
+        latitude: "0.30727359052715",
+        longitude: "-0.78852344851595",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Camobatures Lightroot",
+        description: "",
+        latitude: "0.41698212682581",
+        longitude: "-0.70889046918944",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sekioam Lightroot",
+        description: "",
+        latitude: "0.38383408471290",
+        longitude: "-0.62980415963108",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "A-nehi Lightroot",
+        description: "",
+        latitude: "0.39773985773112",
+        longitude: "-0.58128912913537",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yisuayam Lightroot",
+        description: "",
+        latitude: "0.46285126490604",
+        longitude: "-0.74064285245262",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kawisar Lightroot",
+        description: "",
+        latitude: "0.48417263387226",
+        longitude: "-0.55294112696205",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Agihi-ihcoj Lightroot",
+        description: "",
+        latitude: "0.41835331154482",
+        longitude: "-0.58051209427910",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nogukoyk Lightroot",
+        description: "**Coordinates:** -0708, -1551, -0517",
+        latitude: "0.32921132179324",
+        longitude: "-0.72610445855577",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Jadukakar Lightroot",
+        description: "",
+        latitude: "0.31931954259963",
+        longitude: "-0.76871739089623",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cugukaram Lightroot",
+        description: '**Location:** At the top of the lava "waterfall"',
+        latitude: "0.45991136377197",
+        longitude: "-0.64629991867440",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sikatag Lightroot",
+        description: "",
+        latitude: "0.43725271772726",
+        longitude: "-0.82070007771733",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Korakut Lightroot",
+        description: "",
+        latitude: "0.37108394117732",
+        longitude: "-0.67361645866479",
+      },
+    ],
+    groupSlug: "totk_locations",
+    title: "Lightroot",
+  },
   { locations: [], groupSlug: "totk_locations", title: "Point of Interest" },
   { locations: [], groupSlug: "totk_locations", title: "Province" },
   { locations: [], groupSlug: "totk_locations", title: "Settlement" },
@@ -41227,7 +48182,60 @@ export const markerCategories = [
     groupSlug: "totk_locations",
     title: "Zonai Survey Team Base",
   },
-  { locations: [], groupSlug: "totk_services", title: "Armor Shop" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Armor Shop",
+        description:
+          "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)  \n\n**Stock:**\n- ??\n- Hylian Set:\n  - [Hylian Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279419) - 70 Rupees\n  - [Hylian Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279420) - 130 Rupees\n  - [Hylian Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279421) - 120 Rupees",
+        latitude: "0.70591541298306",
+        longitude: "-0.70987612008992",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enchanted (Armor Shop)",
+        description:
+          '**Location:** [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)  \n\nShop is renamed to "Enchanted" after completing [Gloom-Borne Illness](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279468).\n\n**Stock:**\n- Stealth Set:\n  - [Stealth Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279427) - 500 Rupees\n  - [Stealth Chest Guard](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279428) - 700 Rupees\n  - [Stealth Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279429) - 600 Rupees\n- Radiant Set:\n  - [Radiant Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279442) - 800 Rupees\n  - [Radiant Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279441) - 800 Rupees\n  - [Radiant Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279443) - 800 Rupees\n\n_Note: Prices are initially much higher (5000 Rupees each) but will lower after completing [Gloom-Borne Illness](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279468)_',
+        latitude: "0.67149577081283",
+        longitude: "-0.64344786107424",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Brazen Beak",
+        description:
+          "**Location:** [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)  \n\n**Stock:**\n- Snowquill Set:\n  - [Snowquill Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279409) - 650 Rupees\n  - [Snowquill Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279410) - 500 Rupees\n  - [Snowquill Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279411) - 1,000 Rupees",
+        latitude: "0.76062371029016",
+        longitude: "-0.82003776275457",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armor Shop",
+        description:
+          "**Location:** [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852)  \n\n**Stock:**\n- Flamebreaker Set:\n  - [Flamebreaker Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279416) - 1,400 Rupees\n  - [Flamebreaker Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279417) - 700 Rupees\n  - [Flamebreaker Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279418) - 1,200 Rupees",
+        latitude: "0.78070766716684",
+        longitude: "-0.65031272717667",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ventest Clothing Boutique",
+        description:
+          "**Location:** [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)  \n\nExclusive shop for Cece brand clothing!\n\n**Stock:** (After Mayoral Election quest is completed)\n- Hylian Trousers                      70 rps\n- Hylian Hood                            70 rps\n- Hylian Tunic.                          120 rps\n- Royal Guard Uniform        2,200 rps",
+        latitude: "0.63445552941698",
+        longitude: "-0.59508159756746",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Secret Club",
+        description:
+          "_Shop does not appear on Purah Pad map._\n\n**Location:** Drop down into the [Secret Shop Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279712) cave, and turn left at the cracked rock wall. Break apart the rocks, and continue pushing forward through the rock-blocked tunnel until you reach white stone pillars. Ascend through the roof, right into the Gerudo Secret Club armor shop.\n\nFor future shopping, make sure to unlock the [door shortcut](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284930) that leads into an alley of Gerudo Town.\n\n**Stock:**\n- [Snow Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284635) \u2014 1,300 Rupees\n- [Sand Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284634) \u2014 1,200 Rupees\n- [Desert Voe Spaulder](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279713) \u2014 1,300 Rupees\n- [Desert Voe Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279714) \u2014 650",
+        latitude: "0.60921474719935",
+        longitude: "-0.82532107829942",
+      },
+    ],
+    groupSlug: "totk_services",
+    title: "Armor Shop",
+  },
   { locations: [], groupSlug: "totk_services", title: "Bargainer Statue" },
   { locations: [], groupSlug: "totk_services", title: "Crystal Refinery" },
   { locations: [], groupSlug: "totk_services", title: "Device Dispenser" },
@@ -41240,7 +48248,97 @@ export const markerCategories = [
   { locations: [], groupSlug: "totk_services", title: "Mini-Game" },
   { locations: [], groupSlug: "totk_services", title: "Stable" },
   { locations: [], groupSlug: "totk_services", title: "Travelling Merchant" },
-  { locations: [], groupSlug: "totk_collectibles", title: "Ancient Tablet" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "0.95842174602411",
+        longitude: "-0.63609725777465",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "0.96677940243410",
+        longitude: "-0.57697066684733",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description:
+          "**How To Reach:** Use the [Popla Foothills Skyview Tower](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276835) and glide across.",
+        latitude: "0.97394062249984",
+        longitude: "-0.68764215069302",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "0.98395129975701",
+        longitude: "-0.74298501634775",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "0.94150530388055",
+        longitude: "-0.78186189115448",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description:
+          "When you land on the platform of this relief, it will fall to the surface! Use your gliding costume to have more control and dive down directly to where it is so you can take a picture correctly.",
+        latitude: "1.01618207303450",
+        longitude: "-0.81916809081918",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "1.16130491632610",
+        longitude: "-0.74706590573447",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "1.14258585999820",
+        longitude: "-0.70456597592681",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: "South Eldin Sky Archipelago",
+        latitude: "1.07815206138480",
+        longitude: "-0.63175280309085",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        latitude: "1.05283921141090",
+        longitude: "-0.60930669307982",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "1.10261537741290",
+        longitude: "-0.58786602801953",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Relief",
+        description: null,
+        latitude: "1.14938658323360",
+        longitude: "-0.83316420190584",
+      },
+    ],
+    groupSlug: "totk_collectibles",
+    title: "Ancient Tablet",
+  },
   {
     locations: [],
     groupSlug: "totk_collectibles",
@@ -41254,7 +48352,3255 @@ export const markerCategories = [
   { locations: [], groupSlug: "totk_collectibles", title: "Sage's Will" },
   { locations: [], groupSlug: "totk_collectibles", title: "Treasure" },
   { locations: [], groupSlug: "totk_collectibles", title: "Yiga Schematic" },
-  { locations: [], groupSlug: "totk_loot", title: "Link Armor" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Archaic Warm Greaves",
+        description:
+          "**Set:** Archaic \n\n**Location:**  In a chest inside the giant hollow tree.\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Cold Resistance",
+        latitude: "1.00329466065250",
+        longitude: "-0.67843528645486",
+        media: [
+          {
+            title: "",
+            fileName: "ea56967a-d18f-4b25-a8cc-1149b27945de.jpg",
+            url: "https://media.mapgenie.io/storage/media/ea56967a-d18f-4b25-a8cc-1149b27945de.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "4d1fd69b-b95f-42c4-9f0c-f691d5b9cc92.jpg",
+            url: "https://media.mapgenie.io/storage/media/4d1fd69b-b95f-42c4-9f0c-f691d5b9cc92.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Climbing Gear",
+        description:
+          "**Set:** Climber's \n- [Climbing Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279677)\n- [Climber\u2019s Bandana](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279675)\n\n**Location:**  Inside [North Hyrule Plain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277712).  In a secret cave behind the 2nd waterfall (the one before the [Bubbulfrog](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277717)).\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Climb Speed Up",
+        latitude: "0.72675052513526",
+        longitude: "-0.74239522218846",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Climbing Gear Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "",
+            fileName: "dd786438-4cd9-4802-b4f9-955fc7521d2d.jpg",
+            url: "https://media.mapgenie.io/storage/media/dd786438-4cd9-4802-b4f9-955fc7521d2d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "56deb9ad-4448-41b1-9e37-f38c0b39826d.jpg",
+            url: "https://media.mapgenie.io/storage/media/56deb9ad-4448-41b1-9e37-f38c0b39826d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dark Tunic",
+        description:
+          "**Set:** Dark\n- [Dark Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279744)\n- [Dark Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279737)\n\n**Location:**  Sold by any [Bargainer Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276867) for Poe.\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.70852500354512",
+        longitude: "-0.71071498096032",
+        media: [
+          {
+            title: "",
+            fileName: "6a353440-398f-4a0c-904f-a36352833796.jpg",
+            url: "https://media.mapgenie.io/storage/media/6a353440-398f-4a0c-904f-a36352833796.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Glide Shirt",
+        description:
+          "**Set:** Glide\n\n**Location:**  Reward for completing the [Dive Ceremony](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277840)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Skydive Mobility Up",
+        latitude: "1.07139422695420",
+        longitude: "-0.77785134315428",
+        media: [
+          {
+            title: "",
+            fileName: "dc9ca7c3-d393-4326-97ce-d7cb47a4d260.jpg",
+            url: "https://media.mapgenie.io/storage/media/dc9ca7c3-d393-4326-97ce-d7cb47a4d260.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "9c05f915-ae7c-4aba-be4b-5293f9ddb247.png",
+            url: "https://media.mapgenie.io/storage/media/9c05f915-ae7c-4aba-be4b-5293f9ddb247.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Froggy Hood",
+        description:
+          "**Set:** Froggy \n- [Froggy Sleeve](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281121)\n- [Froggy Leggings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281122)\n\n**Location:**  Reward for completing [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n\n**Stats:**\n- 8 Defense\n\n**Armor Effect:** Slip Resistance",
+        latitude: "0.75952704392067",
+        longitude: "-0.80820187926179",
+        media: [
+          {
+            title: "",
+            fileName: "786cf389-5518-4f12-b73d-808231a7a547.jpg",
+            url: "https://media.mapgenie.io/storage/media/786cf389-5518-4f12-b73d-808231a7a547.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Korok Mask",
+        description:
+          "**Location:**  In the Forest Coliseum, guarded by the [Black Hinox](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278097)\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** Shakes and jingles when near a korok puzzle",
+        latitude: "0.45622113025173",
+        longitude: "-0.70767105524195",
+        media: [
+          {
+            title: "",
+            fileName: "d8617477-a1b0-4c0f-bd67-9f4b0f8eec83.jpg",
+            url: "https://media.mapgenie.io/storage/media/d8617477-a1b0-4c0f-bd67-9f4b0f8eec83.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "a1f63338-5d44-446d-bcd2-e2367b314cc0.png",
+            url: "https://media.mapgenie.io/storage/media/a1f63338-5d44-446d-bcd2-e2367b314cc0.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Find The Korok Mask",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-find-the-korok-mask",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sheik's Mask",
+        description:
+          "**Location:**  In a chest inside the Desert Coliseum, after completing all the waves\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.25748945881047",
+        longitude: "-0.84190431892696",
+        media: [
+          {
+            title: "",
+            fileName: "4fb16f1e-6cdd-4cf2-9ede-b2547e63f929.png",
+            url: "https://media.mapgenie.io/storage/media/4fb16f1e-6cdd-4cf2-9ede-b2547e63f929.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "45f88c73-4576-4e9f-9552-158ee118b780.png",
+            url: "https://media.mapgenie.io/storage/media/45f88c73-4576-4e9f-9552-158ee118b780.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Archaic Tunic [Chest]",
+        description:
+          "**Location:** [Pondside Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279219) - In a little outcropping, by the eastern entrance.  \n**Coordinates:** 0239 -1558 1365",
+        latitude: "0.99610615227667",
+        longitude: "-0.69548472762179",
+        media: [
+          {
+            title: "",
+            fileName: "dddd17c0-dba2-4e3c-bed2-55895a3282e1.jpg",
+            url: "https://media.mapgenie.io/storage/media/dddd17c0-dba2-4e3c-bed2-55895a3282e1.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "c8b09b41-88dc-417b-ac1d-5d2f1a9e498f.jpg",
+            url: "https://media.mapgenie.io/storage/media/c8b09b41-88dc-417b-ac1d-5d2f1a9e498f.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of the Wind",
+        description:
+          "[Old Map Location](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281662)\n\n**Set:** Wind\n- [Cap of the Wind](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280268)\n- [Tunic of the Wind](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280798)\n\n**Location:**  At the end of the [Cresia Pit Mine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280795)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.26261294711976",
+        longitude: "-0.58100134290478",
+        media: [
+          {
+            title: "",
+            fileName: "8905ae6c-d3f7-4c8c-a895-b80f66a2e4a5.jpg",
+            url: "https://media.mapgenie.io/storage/media/8905ae6c-d3f7-4c8c-a895-b80f66a2e4a5.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "29bd0e48-457c-4714-a22e-0b5592e5920d.jpg",
+            url: "https://media.mapgenie.io/storage/media/29bd0e48-457c-4714-a22e-0b5592e5920d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zora Helm",
+        description:
+          '**Set:** Zora Armor\n- [Zora Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279692)\n- [Zora Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279700)\n\n**Location:**  Go to  the side of the "fish" island by the islands tail, then face north and you should find a hole on the side covered in sludge, from there you can get the Zora helmet (use any water item to clear the sludge). \n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Swim Speed Up',
+        latitude: "1.06288773561360",
+        longitude: "-0.57043612003395",
+        media: [
+          {
+            title: "",
+            fileName: "d6a67d63-2a9a-4093-aef4-1e211ee28024.jpg",
+            url: "https://media.mapgenie.io/storage/media/d6a67d63-2a9a-4093-aef4-1e211ee28024.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "56ecd3b4-25aa-426a-bd85-d963576742fa.jpg",
+            url: "https://media.mapgenie.io/storage/media/56ecd3b4-25aa-426a-bd85-d963576742fa.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Snowquill Headdress",
+        description:
+          "**Set:** Snowquill \n\n**Location:**  Can be purchased from the armor shop in [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)\n\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Cold Resistance",
+        latitude: "0.76025385864185",
+        longitude: "-0.82003779709285",
+        media: [
+          {
+            title: "",
+            fileName: "fb13c2b8-0c6b-49cd-a79b-e5ff68e6a057.jpg",
+            url: "https://media.mapgenie.io/storage/media/fb13c2b8-0c6b-49cd-a79b-e5ff68e6a057.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "7ab2458c-12aa-4199-9c01-a578a7ff0d03.jpg",
+            url: "https://media.mapgenie.io/storage/media/7ab2458c-12aa-4199-9c01-a578a7ff0d03.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Snowquill Tunic",
+        description:
+          "**Set:** Snowquill \n\n**Location:**  Can be purchased from the armor shop in [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)\n\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Cold Resistance",
+        latitude: "0.75989983820340",
+        longitude: "-0.82003779709439",
+        media: [
+          {
+            title: "",
+            fileName: "0f07575a-f7e7-4f80-8aee-19e5b832f3ca.jpg",
+            url: "https://media.mapgenie.io/storage/media/0f07575a-f7e7-4f80-8aee-19e5b832f3ca.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "6d0aa1c0-c83f-4d2a-9ca6-d96591729c52.jpg",
+            url: "https://media.mapgenie.io/storage/media/6d0aa1c0-c83f-4d2a-9ca6-d96591729c52.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Snowquill Trousers",
+        description:
+          "**Set:** Snowquill \n\n**Location:**  Can be purchased from the armor shop in [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Cold Resistance",
+        latitude: "0.75954581773780",
+        longitude: "-0.82003779709439",
+        media: [
+          {
+            title: "",
+            fileName: "47d594de-a828-4e4e-bb4c-3f6e3a68f197.jpg",
+            url: "https://media.mapgenie.io/storage/media/47d594de-a828-4e4e-bb4c-3f6e3a68f197.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "1a5395ad-9426-47ee-810e-58191c203577.jpg",
+            url: "https://media.mapgenie.io/storage/media/1a5395ad-9426-47ee-810e-58191c203577.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flamebreaker Helm",
+        description:
+          "**Set:** Flamebreaker \n\n**Location:**  Can be purchased from the armor shop in [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Flame Guard",
+        latitude: "0.78034085749034",
+        longitude: "-0.65032369847430",
+        media: [
+          {
+            title: "",
+            fileName: "11fa3192-fe5f-4fc4-bd39-846d41108b66.jpg",
+            url: "https://media.mapgenie.io/storage/media/11fa3192-fe5f-4fc4-bd39-846d41108b66.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flamebreaker Armor",
+        description:
+          "**Set:** Flamebreaker \n\n**Location:**  Can be purchased from the armor shop in [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Flame Guard",
+        latitude: "0.77996564355929",
+        longitude: "-0.65031297504925",
+        media: [
+          {
+            title: "",
+            fileName: "16612827-28bd-4ad1-b572-227160620f47.jpg",
+            url: "https://media.mapgenie.io/storage/media/16612827-28bd-4ad1-b572-227160620f47.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flamebreaker Boots",
+        description:
+          "**Set:** Flamebreaker \n\n**Location:**  Can be purchased from the armor shop in [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852) for 1200 rupees\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Flame Guard",
+        latitude: "0.77959016907113",
+        longitude: "-0.65032370388383",
+        media: [
+          {
+            title: "",
+            fileName: "833be969-ded5-4ac0-b7b4-5dee25ecb3ce.jpg",
+            url: "https://media.mapgenie.io/storage/media/833be969-ded5-4ac0-b7b4-5dee25ecb3ce.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hylian Hood",
+        description:
+          "**Set:** Hylian\n\n**Location:** Can be purchased from the armor shop in [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.70590334395966",
+        longitude: "-0.70949926972617",
+        media: [
+          {
+            title: "",
+            fileName: "2f5c4131-b440-4053-bca6-e1800bc7df83.jpg",
+            url: "https://media.mapgenie.io/storage/media/2f5c4131-b440-4053-bca6-e1800bc7df83.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "2b9d2829-fac7-45ca-a4dc-f4384980fbc8.jpg",
+            url: "https://media.mapgenie.io/storage/media/2b9d2829-fac7-45ca-a4dc-f4384980fbc8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hylian Tunic",
+        description:
+          "**Set:** Hylian\n\n**Location:**  Can be purchased from the armor shop in [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.70590334395966",
+        longitude: "-0.70914521813543",
+        media: [
+          {
+            title: "",
+            fileName: "ebe517b3-22b3-4b20-bb19-225f5944b843.jpg",
+            url: "https://media.mapgenie.io/storage/media/ebe517b3-22b3-4b20-bb19-225f5944b843.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "3d706a2c-f6bd-47eb-97de-f7dff9b3d656.jpg",
+            url: "https://media.mapgenie.io/storage/media/3d706a2c-f6bd-47eb-97de-f7dff9b3d656.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hylian Trousers",
+        description:
+          "**Set:** Hylian\n\n**Location:**  Can be purchased from the armor shop in [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.70590334395966",
+        longitude: "-0.70879116654586",
+        media: [
+          {
+            title: "",
+            fileName: "35d78e19-062e-42d6-8dcd-51582e663959.jpg",
+            url: "https://media.mapgenie.io/storage/media/35d78e19-062e-42d6-8dcd-51582e663959.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "9854e99c-a247-4381-b293-966cb8bd4ea2.jpg",
+            url: "https://media.mapgenie.io/storage/media/9854e99c-a247-4381-b293-966cb8bd4ea2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Well-Worn Hair Band",
+        description:
+          "**Location:**  In the chest that's inside [Zelda's Secret Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279305)\n\n**Stats:**\n- 0 Defense",
+        latitude: "0.62865426376763",
+        longitude: "-0.59665068984154",
+        media: [
+          {
+            title: "",
+            fileName: "a9d8dd40-8724-40c0-ba4a-8337001fd94f.png",
+            url: "https://media.mapgenie.io/storage/media/a9d8dd40-8724-40c0-ba4a-8337001fd94f.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "828bb8e6-7965-479e-b0f8-e6826eba9f32.png",
+            url: "https://media.mapgenie.io/storage/media/828bb8e6-7965-479e-b0f8-e6826eba9f32.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Glide Tights",
+        description:
+          "**Set:** Glide\n\n**Location:**  Reward for completing the [Dive Ceremony](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279424)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Skydive Mobility Up",
+        latitude: "1.11069219111400",
+        longitude: "-0.69696664810311",
+        media: [
+          {
+            title: "",
+            fileName: "dad5cd57-2178-4298-be3a-11d476018a19.jpg",
+            url: "https://media.mapgenie.io/storage/media/dad5cd57-2178-4298-be3a-11d476018a19.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "3823ad39-76f5-41e2-842e-18b9d5a4eca7.png",
+            url: "https://media.mapgenie.io/storage/media/3823ad39-76f5-41e2-842e-18b9d5a4eca7.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Glide Mask",
+        description:
+          "**Set:** Glide\n\n**Location:**  Reward for completing the [Dive Ceremony](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279425)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Skydive Mobility Up",
+        latitude: "1.01876731483400",
+        longitude: "-0.55857002734956",
+        media: [
+          {
+            title: "",
+            fileName: "37e6e1b7-b49d-4cfa-892f-ff46d0852cd0.jpg",
+            url: "https://media.mapgenie.io/storage/media/37e6e1b7-b49d-4cfa-892f-ff46d0852cd0.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "2552eb70-e3f2-4dc0-90d9-88ecc874a795.png",
+            url: "https://media.mapgenie.io/storage/media/2552eb70-e3f2-4dc0-90d9-88ecc874a795.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stealth Mask",
+        description:
+          "**Set:** Stealth \n\n**Location:**  Can be purchased from the armor shop in [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.67147230309581",
+        longitude: "-0.64310856163431",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stealth Chest Guard",
+        description:
+          "**Set:** Stealth \n\n**Location:**  Can be purchased from the armor shop in [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.67144011879752",
+        longitude: "-0.64277596771626",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stealth Tights",
+        description:
+          "**Set:** Stealth \n\n**Location:**  Can be purchased from the armor shop in [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.67145084689777",
+        longitude: "-0.64244337379941",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ruby Circlet",
+        description:
+          "**Price:** 1,300 Rupees\n\n**Location:**  [Starlight Memories](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279349) (Jewelry Shop)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Cold Resistance",
+        latitude: "0.61023795200008",
+        longitude: "-0.82709066569825",
+        media: [
+          {
+            title: "",
+            fileName: "f5b6006c-387e-4cc5-9bab-28d09aac903d.png",
+            url: "https://media.mapgenie.io/storage/media/f5b6006c-387e-4cc5-9bab-28d09aac903d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "22a3f76c-4680-450c-9eda-9d40a5e73934.png",
+            url: "https://media.mapgenie.io/storage/media/22a3f76c-4680-450c-9eda-9d40a5e73934.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sapphire Circlet",
+        description:
+          "**Price:** 1,400 Rupees\n\n**Location:**  [Starlight Memories](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279349) (Jewelry Shop)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Heat Resistance",
+        latitude: "0.61021247245945",
+        longitude: "-0.82746215164636",
+        media: [
+          {
+            title: "",
+            fileName: "d472db43-8491-4fa3-b792-d9d8efd9f437.png",
+            url: "https://media.mapgenie.io/storage/media/d472db43-8491-4fa3-b792-d9d8efd9f437.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "0780ee64-ddc7-4579-ac5c-8d15092eadf4.png",
+            url: "https://media.mapgenie.io/storage/media/0780ee64-ddc7-4579-ac5c-8d15092eadf4.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Amber Earrings",
+        description:
+          "**Price:** 400 Rupees\n\n**Location:**  [Starlight Memories](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279349) (Jewelry Shop)\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.61058796041250",
+        longitude: "-0.82706518471244",
+        media: [
+          {
+            title: "",
+            fileName: "d31a02c8-a9da-4d2b-b053-116f20f1480c.png",
+            url: "https://media.mapgenie.io/storage/media/d31a02c8-a9da-4d2b-b053-116f20f1480c.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "e0eb338e-5457-45a6-bf7e-8285809d53d1.png",
+            url: "https://media.mapgenie.io/storage/media/e0eb338e-5457-45a6-bf7e-8285809d53d1.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Desert Voe Headband",
+        description:
+          "**Price:** 450 Rupees  \n\n**Set:** Desert Voe\n- [Desert Voe Spaulder](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279713)\n- [Desert Voe Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279714)\n\n**Location:**  Sold by Saula's shop stall in the Kara Kara Bazaar.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Heat Resistance",
+        latitude: "0.62103053801921",
+        longitude: "-0.80850027501523",
+        media: [
+          {
+            title: "",
+            fileName: "9c76c703-ebdb-41a2-89e6-d93117933f15.png",
+            url: "https://media.mapgenie.io/storage/media/9c76c703-ebdb-41a2-89e6-d93117933f15.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "aaee24af-0275-4da7-96b4-f4ba50424dcc.png",
+            url: "https://media.mapgenie.io/storage/media/aaee24af-0275-4da7-96b4-f4ba50424dcc.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Champion's Leathers",
+        description:
+          "**Location:**  Ignite two torches and then open the chest located in the tomb behind the throne\n\n**Stats:**\n- 5 Defense\n\nClue is in the [Zelda's Secret Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279305), in Zelda's Diary. If you find the armor with the clue, it will start the side quest [A New Champion's Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280934).",
+        latitude: "0.78181802780945",
+        longitude: "-0.49955186667987",
+        media: [
+          {
+            title: "",
+            fileName: "976813fe-fa4e-4a78-8cf1-aece9da10c8f.png",
+            url: "https://media.mapgenie.io/storage/media/976813fe-fa4e-4a78-8cf1-aece9da10c8f.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Get The Champions Leathers",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-champions-leathers",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Tights",
+        description:
+          "**Set:** Yiga \n- [Yiga Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279437)\n- [Yiga Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279438)\n\n**Location:**  In [Yiga Clan Maritta Branch](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279435), ascend to the Aliza room and talk to her\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.76898594087598",
+        longitude: "-0.72381564777964",
+        media: [
+          {
+            title: "",
+            fileName: "f1966325-7de1-4632-b568-a876bd89c150.jpg",
+            url: "https://media.mapgenie.io/storage/media/f1966325-7de1-4632-b568-a876bd89c150.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "qJHJ3Ag7djc",
+            url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Mask",
+        description:
+          "**Set:** Yiga \n- [Yiga Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279438)\n- [Yiga Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279436)\n\n**Location:**  Infiltrate the hideout and talk to Pitar inside the house\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.63046709057390",
+        longitude: "-0.72834488002923",
+        media: [
+          {
+            title: "",
+            fileName: "4d9d62ad-a8a8-49b1-987b-a2bbfe307972.jpg",
+            url: "https://media.mapgenie.io/storage/media/4d9d62ad-a8a8-49b1-987b-a2bbfe307972.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "qJHJ3Ag7djc",
+            url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Armor",
+        description:
+          "**Set:** Yiga \n- [Yiga Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279437)\n- [Yiga Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279436)\n\n**Location:**  Infiltrate the lighthouse, and talk to Konba\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.80460482871588",
+        longitude: "-0.55815727345245",
+        media: [
+          {
+            title: "",
+            fileName: "a95f2e32-00f8-43f9-a649-6b5520cdf737.jpg",
+            url: "https://media.mapgenie.io/storage/media/a95f2e32-00f8-43f9-a649-6b5520cdf737.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "qJHJ3Ag7djc",
+            url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Radiant Shirt",
+        description:
+          "**Set:** Radiant \n\n**Location:** Can be purchased from the armor shop in [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)\n\n**Stats:**\n- Defense 3",
+        latitude: "0.67104183809406",
+        longitude: "-0.64278468489695",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Radiant Mask",
+        description:
+          "**Set:** Radiant \n\n**Location:**  Can be purchased from the armor shop in [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)\n\n**Stats:**\n- Defense 3",
+        latitude: "0.67104183809406",
+        longitude: "-0.64313873648649",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Radiant Tights",
+        description:
+          "**Set:** Radiant \n\n**Location:**  Can be purchased from the armor shop in [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)\n\n**Stats:**\n- Defense 3",
+        latitude: "0.67105228129974",
+        longitude: "-0.64243072224127",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Guard Boots",
+        description:
+          "**Set:** Royal Guard\n\n**Location:**  [Hyrule Castle B3](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279445), behind bookshelves, in King's Study\n\n**Stats:**\n- 4 Defense \n\n**Armor Effect:** ??",
+        latitude: "0.78493196096744",
+        longitude: "-0.37369541823942",
+        media: [
+          {
+            title: "",
+            fileName: "5cd90e44-7eff-4153-810a-24a36c97e2ea.png",
+            url: "https://media.mapgenie.io/storage/media/5cd90e44-7eff-4153-810a-24a36c97e2ea.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Guard Cap",
+        description:
+          "**Set:** Royal Guard\n\n**Location:**  In the corner of [Princess Zelda's Room](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279451) - behind a small partition\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** ??",
+        latitude: "0.77574557696094",
+        longitude: "-0.46610458725151",
+        media: [
+          {
+            title: "",
+            fileName: "8f8a3534-e692-40cf-9790-93cf9fec9dc2.png",
+            url: "https://media.mapgenie.io/storage/media/8f8a3534-e692-40cf-9790-93cf9fec9dc2.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Guard Uniform",
+        description:
+          "**Set:** Royal Guard\n\n**Location:**  In the [Guard's Chamber](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279454)\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** ??",
+        latitude: "0.73042060993953",
+        longitude: "-0.71627221427192",
+        media: [
+          {
+            title: "",
+            fileName: "411b2669-8591-4aa2-923f-add8ba921cee.png",
+            url: "https://media.mapgenie.io/storage/media/411b2669-8591-4aa2-923f-add8ba921cee.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonaite Helm",
+        description:
+          "**Set:** Zonaite Set\n- [Zonaite Waistguard](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279590)\n- [Zonaite Shin Guards](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280286)\n\n**Location:**  Lightcast Island\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Energy Up",
+        latitude: "1.07619031007830",
+        longitude: "-0.81905671275507",
+        media: [
+          {
+            title: "",
+            fileName: "df444cbe-3ba3-4b12-8f49-4d4e8569dad2.png",
+            url: "https://media.mapgenie.io/storage/media/df444cbe-3ba3-4b12-8f49-4d4e8569dad2.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "e5ecf3fd-cfa3-46cb-a900-0a575082d2f1.png",
+            url: "https://media.mapgenie.io/storage/media/e5ecf3fd-cfa3-46cb-a900-0a575082d2f1.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Zonaite Armor Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonaite Waistguard",
+        description:
+          "**Set:** Zonaite Set\n- [Zonaite Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279584)\n- [Zonaite Shin Guards](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280286)\n\n**Location:**  Inside Zonaite Forge Island, use ascend ability under tower in the lava pool area\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Energy Up",
+        latitude: "0.98996780049130",
+        longitude: "-0.62680792471193",
+        media: [
+          {
+            title: "",
+            fileName: "82c3cae8-7ae5-4b13-88aa-4437ce6e200d.png",
+            url: "https://media.mapgenie.io/storage/media/82c3cae8-7ae5-4b13-88aa-4437ce6e200d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "1fbcbafb-e68c-402a-8f52-c82dce675e8d.png",
+            url: "https://media.mapgenie.io/storage/media/1fbcbafb-e68c-402a-8f52-c82dce675e8d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Zonaite Armor Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Barbarian Armor",
+        description:
+          "**Set:** Barbarian\n- [Barbarian Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279726)\n- [Barbarian Leg Wraps](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279730)\n\n**Location:**  Inside Crenel Hills Cave, past the Luminescent Stone Talus, behind breakable rocks.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.72697551503279",
+        longitude: "-0.68705688369113",
+        media: [
+          {
+            title: "",
+            fileName: "4a892186-962b-4045-a8aa-e2f27bf2cff8.png",
+            url: "https://media.mapgenie.io/storage/media/4a892186-962b-4045-a8aa-e2f27bf2cff8.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "fcd34b46-138f-4688-91e3-d8d805dc49e2.jpg",
+            url: "https://media.mapgenie.io/storage/media/fcd34b46-138f-4688-91e3-d8d805dc49e2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Get The Barbarian Armor",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fierce Deity Boots",
+        description:
+          "**Set:** Fierce Deity\n- [Fierce Deity Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280133)\n- [Fierce Deity Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280700)\n\n**Location:**  Inside the [Ancient Tree Stump Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277795), you need to go down around the water level, you'll see an area with branches that you can cut down. You'll need to climb.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.68907507055369",
+        longitude: "-0.73853150010195",
+        media: [
+          {
+            title: "",
+            fileName: "c345b5bf-bad1-4dc4-9b07-e0eca9268589.jpg",
+            url: "https://media.mapgenie.io/storage/media/c345b5bf-bad1-4dc4-9b07-e0eca9268589.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "003b693e-49c6-4726-b809-1d73a190e4f2.jpg",
+            url: "https://media.mapgenie.io/storage/media/003b693e-49c6-4726-b809-1d73a190e4f2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
+            fileName: "",
+            url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Climber's Bandana",
+        description:
+          "**Set:** Climber's\n- [Climbing Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279677)\n- [Climbing Gear](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276862)\n\n**Location:**  At the end of the [Ploymus Mountain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277051), after climbing to the top of the cave\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Climb Speed Up",
+        latitude: "0.71911264280638",
+        longitude: "-0.58360691465018",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Climbing Gear Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "",
+            fileName: "37dae596-4fc0-4877-95a4-d67485c5db7d.jpg",
+            url: "https://media.mapgenie.io/storage/media/37dae596-4fc0-4877-95a4-d67485c5db7d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "26e52425-e846-4838-8ca4-7bb935fe51d4.jpg",
+            url: "https://media.mapgenie.io/storage/media/26e52425-e846-4838-8ca4-7bb935fe51d4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Climbing Boots",
+        description:
+          "**Set:** Climber's\n- [Climber\u2019s Bandana](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279675)\n- [Climbing Gear](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276862)\n\n**Location:**  Inside [Upland Zorana Byroad Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281819). From the [east cave entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279676), keep right at the pool of water. Follow the path downward until you reach ruins. At the back of this area, there's a gate you can lift to lower the water level. Life the gate, then go right into a secret side area with a tent. Open the chest.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Climb Speed Up",
+        latitude: "0.72046258759651",
+        longitude: "-0.61146184802050",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Climbing Gear Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "",
+            fileName: "5b4957d1-92aa-4466-b546-93392a6e2e5b.jpg",
+            url: "https://media.mapgenie.io/storage/media/5b4957d1-92aa-4466-b546-93392a6e2e5b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "93605fcf-6b86-4e7c-bfff-d31009dcf6a8.jpg",
+            url: "https://media.mapgenie.io/storage/media/93605fcf-6b86-4e7c-bfff-d31009dcf6a8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zora Armor",
+        description:
+          "**Set:** Zora Armor\n- [Zora Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279700)\n- [Zora Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279275)\n\n**Location:**  Reward for completing [Restoring the Zora Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279261)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Swim Speed Up",
+        latitude: "0.71954007049899",
+        longitude: "-0.59584132366368",
+        media: [
+          {
+            title: "",
+            fileName: "d9bb9e3d-0fa2-4661-a1aa-27a800a354fd.png",
+            url: "https://media.mapgenie.io/storage/media/d9bb9e3d-0fa2-4661-a1aa-27a800a354fd.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "dd3d5a54-02ae-4131-b8be-c0e7586345ff.jpg",
+            url: "https://media.mapgenie.io/storage/media/dd3d5a54-02ae-4131-b8be-c0e7586345ff.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zora Greaves",
+        description:
+          "**Set:** Zora Armor\n- [Zora Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279692)\n- [Zora Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279275)\n\n**Location:**  \n- In the Ancient Zora Waterworks, after entering the whirlpool and following the path into the larger cave, head northwest to find a hole in the floor, chest will be behind the waterfall \n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Swim Speed Up\n\n**Coordinates:** 3585, 0247, -0103",
+        latitude: "0.71126267035976",
+        longitude: "-0.58788171190960",
+        media: [
+          {
+            title: "",
+            fileName: "e84bdbca-ad3a-43a1-aea4-df1a4c3617df.jpg",
+            url: "https://media.mapgenie.io/storage/media/e84bdbca-ad3a-43a1-aea4-df1a4c3617df.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "229dd502-63dd-4306-9335-1d91257427ad.jpg",
+            url: "https://media.mapgenie.io/storage/media/229dd502-63dd-4306-9335-1d91257427ad.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lightning Helm",
+        description:
+          "**Location:**  Complete 3 Yiga Challenges in the [Yiga Clan Hideout](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279439)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Lightning Proof",
+        latitude: "0.65941125066580",
+        longitude: "-0.81865432407099",
+        media: [
+          {
+            title: "",
+            fileName: "fbf8ecbf-5c2c-410d-865b-d5d8b7fa603e.png",
+            url: "https://media.mapgenie.io/storage/media/fbf8ecbf-5c2c-410d-865b-d5d8b7fa603e.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "09e07670-c95b-452d-a7de-362595a9a16f.png",
+            url: "https://media.mapgenie.io/storage/media/09e07670-c95b-452d-a7de-362595a9a16f.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Desert Voe Spaulder",
+        description:
+          "**Price:** 1,300 Rupees  \n\n**Set:** Desert Voe\n- [Desert Voe Headband](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279433)\n- [Desert Voe Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279714)\n\n**Location:**  [Gerudo Secret Club](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284929)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Heat Resistance",
+        latitude: "0.60919329074288",
+        longitude: "-0.82494020462048",
+        media: [
+          {
+            title: "",
+            fileName: "7592298f-2a0f-43b3-923c-6b42b171d3ca.png",
+            url: "https://media.mapgenie.io/storage/media/7592298f-2a0f-43b3-923c-6b42b171d3ca.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "aaf43baa-7112-46bb-8999-53017220b464.png",
+            url: "https://media.mapgenie.io/storage/media/aaf43baa-7112-46bb-8999-53017220b464.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Desert Voe Trousers",
+        description:
+          "**Price:** 650 Rupees  \n**Set:** Desert Voe\n- [Desert Voe Headband](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279433)\n- [Desert Voe Spaulder](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279713)\n\n**Location:**  [Gerudo Secret Club](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284929)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Heat Resistance",
+        latitude: "0.60916714068250",
+        longitude: "-0.82456000149261",
+        media: [
+          {
+            title: "",
+            fileName: "00fed31f-4c66-49e9-b818-3f73d70a5e5f.png",
+            url: "https://media.mapgenie.io/storage/media/00fed31f-4c66-49e9-b818-3f73d70a5e5f.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "b733d634-f6e5-4dca-ad70-eada3f1971fa.png",
+            url: "https://media.mapgenie.io/storage/media/b733d634-f6e5-4dca-ad70-eada3f1971fa.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Miner's Top",
+        description:
+          "[Old Map Location](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279679)\n\n**Set:** Miner's\n- [Miner's Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279725)\n- [Miner's Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279724)\n\n**Location:**  ??\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Glow",
+        latitude: "0.36120541972244",
+        longitude: "-0.73781309437581",
+        media: [
+          {
+            title: "",
+            fileName: "e2fb06f0-8693-4cac-af88-57e18227e83b.jpg",
+            url: "https://media.mapgenie.io/storage/media/e2fb06f0-8693-4cac-af88-57e18227e83b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Where To Find The Miners Armor Set",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Miner's Trousers",
+        description:
+          "[Old Map Location](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279720)\n\n**Set:** Miner's\n- [Miner's Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279725)\n- [Miner's Top](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279717)\n\n**Location:**  -1287, -2251, -0707\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Glow",
+        latitude: "0.30681572521353",
+        longitude: "-0.74455267759336",
+        media: [
+          {
+            title: "",
+            fileName: "eaa757e6-9763-4243-b270-437e3f9f4f68.jpg",
+            url: "https://media.mapgenie.io/storage/media/eaa757e6-9763-4243-b270-437e3f9f4f68.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Where To Find The Miners Armor Set",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Miner's Mask",
+        description:
+          "[Old Map - Location](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279722)\n\n**Set:** Miner's\n- [Miner\u2019s Top](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279717)\n- [Miner\u2019s Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279724)\n\n**Location:**  ??  \n**Coordinates:** -3232, -2477, -0475\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Glow",
+        latitude: "0.29897261686301",
+        longitude: "-0.80714165918207",
+        media: [
+          {
+            title: "",
+            fileName: "d177b077-fd5e-4d87-8ad3-e61c0c22aad4.jpg",
+            url: "https://media.mapgenie.io/storage/media/d177b077-fd5e-4d87-8ad3-e61c0c22aad4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Where To Find The Miners Armor Set",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Barbarian Helm",
+        description:
+          "**Set:** Barbarian \n- [Barbarian Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279638)\n- [Barbarian Leg Wraps](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279730)\n\n**Location:**  At the end of the [Robred Dropoff Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279591)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.65569147495026",
+        longitude: "-0.62336076006707",
+        media: [
+          {
+            title: "",
+            fileName: "442af50e-e851-4797-9614-c4122242b30c.png",
+            url: "https://media.mapgenie.io/storage/media/442af50e-e851-4797-9614-c4122242b30c.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "c1e3dfb5-289f-450e-b2aa-29e600b29f4d.jpg",
+            url: "https://media.mapgenie.io/storage/media/c1e3dfb5-289f-450e-b2aa-29e600b29f4d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Get The Barbarian Armor",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Barbarian Leg Wraps",
+        description:
+          "**Set:** Barbarian\n- [Barbarian Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279638)\n- [Barbarian Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279726)\n\n**Location:**  In the middle of the [Walnot Mountain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279728), jump across a gap on the higher ridge past an Ice Like.\n\n**Coordinates:** 4051, -1877, 0155\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.64264916906829",
+        longitude: "-0.57274550199557",
+        media: [
+          {
+            title: "",
+            fileName: "9ebc4f55-f278-4c05-b984-ba68b41c7124.png",
+            url: "https://media.mapgenie.io/storage/media/9ebc4f55-f278-4c05-b984-ba68b41c7124.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "e1d886e3-dcb5-4b64-85d8-7d3f0f02da8b.jpg",
+            url: "https://media.mapgenie.io/storage/media/e1d886e3-dcb5-4b64-85d8-7d3f0f02da8b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Get The Barbarian Armor",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rubber Armor",
+        description:
+          "**Set:** Rubber \n- [Rubber Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282074)\n- [Rubber Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282075)\n\n**Location:**  In the [Whistling Hill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279230). Behind a Shock Like, destroy an elevated cracked wall.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Shock Resistance",
+        latitude: "0.67003138504873",
+        longitude: "-0.70626050233744",
+        media: [
+          {
+            title: "",
+            fileName: "0d4e2fa0-b914-4443-9f6e-4ae9b6fb4745.png",
+            url: "https://media.mapgenie.io/storage/media/0d4e2fa0-b914-4443-9f6e-4ae9b6fb4745.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "f719d3f0-d6e5-4506-9522-d778eb93a23c.png",
+            url: "https://media.mapgenie.io/storage/media/f719d3f0-d6e5-4506-9522-d778eb93a23c.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dark Trousers",
+        description:
+          "**Set:** Dark\n- [Dark Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279744)\n- [Dark Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277770)\n\n**Location:**  Sold by any [Bargainer Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276867) for Poe.\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.70852902655106",
+        longitude: "-0.71034416556409",
+        media: [
+          {
+            title: "",
+            fileName: "5a269a6b-79ce-4114-ad6e-cf6b58c6b6d4.jpg",
+            url: "https://media.mapgenie.io/storage/media/5a269a6b-79ce-4114-ad6e-cf6b58c6b6d4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gaiters of the Depths",
+        description:
+          "**Set:** Depths\n- [Hood of the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279748)\n- [Tunic of the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286480)\n\n**Location:**  Sold by any [Bargainer Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276867) for 200 Poe\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Gloom Resistance",
+        latitude: "0.70901715124059",
+        longitude: "-0.71034550666766",
+        media: [
+          {
+            title: "",
+            fileName: "eac0cdf2-23a3-4e93-9019-e7b9ee23b97a.jpg",
+            url: "https://media.mapgenie.io/storage/media/eac0cdf2-23a3-4e93-9019-e7b9ee23b97a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dark Hood",
+        description:
+          "**Set:** Dark\n- [Dark Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277770)\n- [Dark Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279737)\n\n**Location:**  Sold by any [Bargainer Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276867) for Poe.\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.70852902655106",
+        longitude: "-0.71104489266853",
+        media: [
+          {
+            title: "",
+            fileName: "f9626a91-2baa-4c9f-8699-e34c8f91efff.jpg",
+            url: "https://media.mapgenie.io/storage/media/f9626a91-2baa-4c9f-8699-e34c8f91efff.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hood of the Depths",
+        description:
+          "**Set:** Depths\n- [Tunic of the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286480)\n- [Gaiters of the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279740)\n\n**Location:**  Sold by any [Bargainer Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276867) for 300 Poe.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Gloom Resistance",
+        latitude: "0.70899636571308",
+        longitude: "-0.71105226874306",
+        media: [
+          {
+            title: "",
+            fileName: "6f3fa77a-4ca0-4a2d-824c-0f1693633dc5.jpg",
+            url: "https://media.mapgenie.io/storage/media/6f3fa77a-4ca0-4a2d-824c-0f1693633dc5.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Majora's Mask",
+        description:
+          "**Set:** ??\n\n**Location:**  Complete [Floating Coliseum](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279749)\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** Makes it harder for certain enemies to spot you",
+        latitude: "0.33851286844560",
+        longitude: "-0.74026426378012",
+        media: [
+          {
+            title: "",
+            fileName: "d128166b-dad0-4f2f-be8f-c4ab5c6034d3.jpg",
+            url: "https://media.mapgenie.io/storage/media/d128166b-dad0-4f2f-be8f-c4ab5c6034d3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ember Trousers",
+        description:
+          "**Set:** Ember \n- [Ember Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280548)\n- [Ember Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279831)\n\n**Location:**  In one of the chests inside the [Cephla Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280697)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Hot Weather Attack",
+        latitude: "0.74641016297815",
+        longitude: "-0.62000937759825",
+        media: [
+          {
+            title: "",
+            fileName: "175e0dd8-5a53-4d9c-8a2c-4234bcde0917.png",
+            url: "https://media.mapgenie.io/storage/media/175e0dd8-5a53-4d9c-8a2c-4234bcde0917.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "c825f0df-2d0e-4665-a09a-7de900bf2ec8.png",
+            url: "https://media.mapgenie.io/storage/media/c825f0df-2d0e-4665-a09a-7de900bf2ec8.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cece Hat",
+        description:
+          "Cannot be purchased. Complete the Side Adventure [Team Cece or Team Reede?](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279950) to decide if you are worthy of owning such a magnificent fashion statement.",
+        latitude: "0.63473312102522",
+        longitude: "-0.59515602886646",
+        media: [
+          {
+            title: "",
+            fileName: "3f8ff94e-cdb3-4d09-bedf-3b68d7f897b0.png",
+            url: "https://media.mapgenie.io/storage/media/3f8ff94e-cdb3-4d09-bedf-3b68d7f897b0.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "403edb7d-d57d-4015-b803-9c083f41a882.jpg",
+            url: "https://media.mapgenie.io/storage/media/403edb7d-d57d-4015-b803-9c083f41a882.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frostbite Shirt",
+        description:
+          "**Set:** Frostbite \n- [Frostbite Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280713)\n- [Frostbite Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280711)\n\n**Location:**  Inside [Brightcap Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279995). Burn away thorns to reach the chest inside a tent.\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Cold Weather Attack",
+        latitude: "0.75483626999554",
+        longitude: "-0.80008685588953",
+        media: [
+          {
+            title: "",
+            fileName: "c9a1a4d6-0cf0-4a5a-92d0-74df3435849e.png",
+            url: "https://media.mapgenie.io/storage/media/c9a1a4d6-0cf0-4a5a-92d0-74df3435849e.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "43bf24e6-3c98-409f-abcb-75912e7401eb.jpg",
+            url: "https://media.mapgenie.io/storage/media/43bf24e6-3c98-409f-abcb-75912e7401eb.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "How To Get The Frostbite Armor Set In Zelda Tears Of The Kingdom",
+            fileName: "",
+            url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ravio's Hood",
+        description:
+          "**Location:**  Reward for completing [Secluded Coliseum](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280801)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Increases sideways climbing speed.",
+        latitude: "0.31803870098460",
+        longitude: "-0.63089938236618",
+        media: [
+          {
+            title: "",
+            fileName: "6e0e7fc9-f899-4d1c-8eb0-7d2799d32b06.jpg",
+            url: "https://media.mapgenie.io/storage/media/6e0e7fc9-f899-4d1c-8eb0-7d2799d32b06.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "e02437d8-8cfe-48fd-a3d0-3437623d5765.jpg",
+            url: "https://media.mapgenie.io/storage/media/e02437d8-8cfe-48fd-a3d0-3437623d5765.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fierce Deity Mask",
+        description:
+          "**Set:** Fierce Deity\n- [Fierce Deity Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280700)\n- [Fierce Deity Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279654)\n\n**Location:**  Inside the [Skull Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280701)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.81340380549888",
+        longitude: "-0.59623308229516",
+        media: [
+          {
+            title: "",
+            fileName: "dd9c4bf5-6e14-4407-a2b1-d808ff0aefbd.jpg",
+            url: "https://media.mapgenie.io/storage/media/dd9c4bf5-6e14-4407-a2b1-d808ff0aefbd.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "01e2f8b2-de8b-41fe-b3c2-84449d5bcdb7.jpg",
+            url: "https://media.mapgenie.io/storage/media/01e2f8b2-de8b-41fe-b3c2-84449d5bcdb7.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
+            fileName: "",
+            url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cap of the Wind",
+        description:
+          "[Old Map Location](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281661)\n\n**Set:** Wind\n- [Tunic of the Wind](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280798)\n- [Trousers of the Wind](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279270)\n\n**Location:**  Must access via [Tingel Island Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280272)  and follow the path of destroyable rocks\n\n**Stats:**\n- 3 Defense\n\n**WARNING:** The chest is protected by Phantom Ganon!",
+        latitude: "0.39927330406449",
+        longitude: "-0.55330784300514",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Phantom Ganon Miniboss Gameplay Walkthrough",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-phantom-ganon-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "",
+            fileName: "f89aa7ae-b90f-4145-96ad-4b9ef3579c15.jpg",
+            url: "https://media.mapgenie.io/storage/media/f89aa7ae-b90f-4145-96ad-4b9ef3579c15.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "d7527ea5-dd35-4c43-8648-0210b1667b9d.jpg",
+            url: "https://media.mapgenie.io/storage/media/d7527ea5-dd35-4c43-8648-0210b1667b9d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonaite Shin Guards",
+        description:
+          "**Set:** Zonaite Set\n- [Zonaite Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279584)\n- [Zonaite Waistguard](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279590)\n\n**Location:**  Inside the spinning sphere\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Energy Up",
+        latitude: "1.11149165236820",
+        longitude: "-0.55922899825825",
+        media: [
+          {
+            title: "Zonaite Shin Guards",
+            fileName: "5f5f65ed-1869-449c-a845-431ac26f3750.jpg",
+            url: "https://media.mapgenie.io/storage/media/5f5f65ed-1869-449c-a845-431ac26f3750.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom All Zonaite Armor Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Evil Spirit Armor",
+        description:
+          "**Set:** Evil Spirit\n- [Evil Spirit Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280877)\n- [Evil Spirit Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280876)\n\n**Location:**  Reward for completing [The Lomei Labyrinth Island Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278299) Side Quest\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.49799865219322",
+        longitude: "-0.55323566383987",
+        media: [
+          {
+            title: "",
+            fileName: "4dd5b5df-d483-4a54-bab9-fb7d5c8f6ce0.png",
+            url: "https://media.mapgenie.io/storage/media/4dd5b5df-d483-4a54-bab9-fb7d5c8f6ce0.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "efad7b49-85cc-409c-b6b5-f9d719911e42.png",
+            url: "https://media.mapgenie.io/storage/media/efad7b49-85cc-409c-b6b5-f9d719911e42.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Vah Medoh Divine Helm",
+        description:
+          "**Set:** Divine Helms\n- [Vah Naboris Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280777)\n- [Vah Rudaina Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280780)\n- [Vah Ruta Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280782)\n\n**Location:**  Inside North Biron Snowshelf Cave as part of the Treasure of the Secret Springs quest.\n\n**Stats:**\n- 2 armor\n\n**Armor Effect:** Cold Resistance",
+        latitude: "0.80530674066462",
+        longitude: "-0.82936316728686",
+        media: [
+          {
+            title: "",
+            fileName: "fa8a4bc2-87dc-47dd-a9bf-c4e3c6bea262.png",
+            url: "https://media.mapgenie.io/storage/media/fa8a4bc2-87dc-47dd-a9bf-c4e3c6bea262.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "5be3fa80-ddf3-42eb-858a-9c48f174e516.png",
+            url: "https://media.mapgenie.io/storage/media/5be3fa80-ddf3-42eb-858a-9c48f174e516.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ember Headdress",
+        description:
+          "**Set:** Ember\n - [Ember Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280706)\n- [Ember Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279831)\n\n**Location:**  In [YunoboCo HQ South Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277835)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Hot Weather Attack",
+        latitude: "0.79093470815389",
+        longitude: "-0.64827365046833",
+        media: [
+          {
+            title: "",
+            fileName: "48eb3302-53df-4ac1-93b3-e5b2658f6c68.jpg",
+            url: "https://media.mapgenie.io/storage/media/48eb3302-53df-4ac1-93b3-e5b2658f6c68.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "8b39cc1c-56fd-4348-8da6-93bf6d162faf.jpg",
+            url: "https://media.mapgenie.io/storage/media/8b39cc1c-56fd-4348-8da6-93bf6d162faf.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fierce Deity Armor",
+        description:
+          "**Set:** Fierce Deity\n- [Fierce Deity Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280133)\n- [Fierce Deity Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279654)\n\n**Location:**  Under the [Akkala Citadel Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277118), inside the [Akkala Citadel Ruins Summit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280699)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.75141070283258",
+        longitude: "-0.59695450394361",
+        media: [
+          {
+            title: "",
+            fileName: "a09024d1-5c35-4ad3-ba52-d2abd315aba3.jpg",
+            url: "https://media.mapgenie.io/storage/media/a09024d1-5c35-4ad3-ba52-d2abd315aba3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "a2b7ed87-0006-40e9-b06f-6484a1fe2997.jpg",
+            url: "https://media.mapgenie.io/storage/media/a2b7ed87-0006-40e9-b06f-6484a1fe2997.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
+            fileName: "",
+            url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ember Shirt",
+        description:
+          "**Set:** Ember\n- [Ember Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280548)\n- [Ember Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279831)\n\n**Location:**  At the end of the [Goronbi River Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280705)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Hot Weather Attack",
+        latitude: "0.77087865304223",
+        longitude: "-0.65777551869229",
+        media: [
+          {
+            title: "",
+            fileName: "4490e6e2-aeff-449f-8071-7ba1a93ed337.jpg",
+            url: "https://media.mapgenie.io/storage/media/4490e6e2-aeff-449f-8071-7ba1a93ed337.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "ed6ee27c-c4f8-44ce-9d6c-693c8ea84982.png",
+            url: "https://media.mapgenie.io/storage/media/ed6ee27c-c4f8-44ce-9d6c-693c8ea84982.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frostbite Trousers",
+        description:
+          "**Set:** Frostbite \n- [Frostbite Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280713)\n- [Frostbite Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279996)\n\n**Location:**  In [Hebra Headspring Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280710)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Cold Weather Attack",
+        latitude: "0.78406496909258",
+        longitude: "-0.79659503574115",
+        media: [
+          {
+            title: "",
+            fileName: "bdb2484d-5d97-4e82-9b62-6ae2b9b2fbe6.png",
+            url: "https://media.mapgenie.io/storage/media/bdb2484d-5d97-4e82-9b62-6ae2b9b2fbe6.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "0b13836c-8326-429b-85a7-922e463f3583.jpg",
+            url: "https://media.mapgenie.io/storage/media/0b13836c-8326-429b-85a7-922e463f3583.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "How To Get The Frostbite Armor Set In Zelda Tears Of The Kingdom",
+            fileName: "",
+            url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frostbite Headdress",
+        description:
+          "**Set:** Frostbite \n- [Frostbite Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279996)\n- [Frostbite Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280711)\n\n**Location:**  Chest behind a breakable wall in [Lake Kilsie Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280462)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Cold Weather Attack",
+        latitude: "0.79462242168930",
+        longitude: "-0.82943367270880",
+        media: [
+          {
+            title: "",
+            fileName: "85457e1d-906f-4604-b93c-01377adb7590.png",
+            url: "https://media.mapgenie.io/storage/media/85457e1d-906f-4604-b93c-01377adb7590.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "07417d65-bca4-4a11-9300-81cd177c431e.jpg",
+            url: "https://media.mapgenie.io/storage/media/07417d65-bca4-4a11-9300-81cd177c431e.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "How To Get The Frostbite Armor Set In Zelda Tears Of The Kingdom",
+            fileName: "",
+            url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Soldier's Armor",
+        description:
+          "**Set:** Soldier's\n- [Soldier's Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280738)\n- [Soldier's Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280742)\n\n**Location:**  In the [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483) tunnels, accessible through the hatch in [Observation Room](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277392)  \n**Coordinates:** -0267 0637 -0035\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.72396310025340",
+        longitude: "-0.71068764028001",
+        media: [
+          {
+            title: "",
+            fileName: "76e57bb9-aca4-4774-bd3f-82a9fbdafff0.jpg",
+            url: "https://media.mapgenie.io/storage/media/76e57bb9-aca4-4774-bd3f-82a9fbdafff0.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "781061f7-6098-45be-8ec6-2295bbe1ead2.jpg",
+            url: "https://media.mapgenie.io/storage/media/781061f7-6098-45be-8ec6-2295bbe1ead2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Soldier's Helm",
+        description:
+          "**Set:** Soldier's\n- [Soldier's Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280735)\n- [Soldier's Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280742)\n\n**Location:**  In the [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483) tunnels, accessible through the hatch in [Observation Room](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277392)\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.71798046612430",
+        longitude: "-0.71012648123116",
+        media: [
+          {
+            title: "",
+            fileName: "cb78bced-d5ac-4aac-b218-327b3d7b9e33.jpg",
+            url: "https://media.mapgenie.io/storage/media/cb78bced-d5ac-4aac-b218-327b3d7b9e33.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "a37c43c1-8c59-4802-bbf1-db8df316421a.jpg",
+            url: "https://media.mapgenie.io/storage/media/a37c43c1-8c59-4802-bbf1-db8df316421a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Soldier's Greaves",
+        description:
+          "**Set:** Soldier's\n- [Soldier's Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280738)\n- [Soldier's Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280735)\n\n**Location:**  In the [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483) tunnels, accessible through the hatch in [Observation Room](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277392)  \n**Coordinates:** 0307 0280 -0006\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.71270153728101",
+        longitude: "-0.71336364360667",
+        media: [
+          {
+            title: "",
+            fileName: "dd1560e1-f6a4-4c13-b336-70fd81afefee.jpg",
+            url: "https://media.mapgenie.io/storage/media/dd1560e1-f6a4-4c13-b336-70fd81afefee.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "174c917d-9b4f-443d-82c4-04cf8cb9dbb6.jpg",
+            url: "https://media.mapgenie.io/storage/media/174c917d-9b4f-443d-82c4-04cf8cb9dbb6.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Midna's Helmet",
+        description:
+          "**Location:**  In the chest in the coliseum. defeat the waves of bokoblin to open the chest.\n\n**Stats:**\n- 7 Defense\n\n**Armor Effect:** Gloom resistance",
+        latitude: "0.26271767568036",
+        longitude: "-0.55626820966683",
+        media: [
+          {
+            title: "",
+            fileName: "334f963a-530e-4fd3-bdc8-a846d03a7ef2.jpg",
+            url: "https://media.mapgenie.io/storage/media/334f963a-530e-4fd3-bdc8-a846d03a7ef2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "0acf7ff8-e341-461a-a80f-0496464c6d71.jpg",
+            url: "https://media.mapgenie.io/storage/media/0acf7ff8-e341-461a-a80f-0496464c6d71.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Vah Naboris Divine Helm",
+        description:
+          "**Set:** Divine Helms\n- [Vah Medoh Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280463)\n- [Vah Rudaina Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280780)\n- [Vah Ruta Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280782)\n\n**Location:**  At the end of the [West Gerudo Underground Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280778)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Shock Resistance",
+        latitude: "0.63943340174362",
+        longitude: "-0.85329115390775",
+        media: [
+          {
+            title: "",
+            fileName: "8d3fc54a-43d3-4764-860c-566f4c052b99.png",
+            url: "https://media.mapgenie.io/storage/media/8d3fc54a-43d3-4764-860c-566f4c052b99.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "c7652d84-72dc-454d-bce8-1aed2cf84ef9.png",
+            url: "https://media.mapgenie.io/storage/media/c7652d84-72dc-454d-bce8-1aed2cf84ef9.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Vah Rudania Divine Helm",
+        description:
+          "**Set:** Divine Helms\n- [Vah Medoh Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280463)\n- [Vah Naboris Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280777)\n- [Vah Ruta Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280782) \n\n**Location:**  In the [Lizard's Burrow](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280779)\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Flame Guard",
+        latitude: "0.79972964410730",
+        longitude: "-0.63059043909618",
+        media: [
+          {
+            title: "",
+            fileName: "bebe6beb-0c73-4506-8441-f4e5727b924b.jpg",
+            url: "https://media.mapgenie.io/storage/media/bebe6beb-0c73-4506-8441-f4e5727b924b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "19d68b41-a930-47b3-a9c8-0227fa825dce.jpg",
+            url: "https://media.mapgenie.io/storage/media/19d68b41-a930-47b3-a9c8-0227fa825dce.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Vah Ruta Divine Helm",
+        description:
+          "**Set:** Divine Helms\n- [Vah Medoh Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280463)\n- [Vah Naboris Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280777)\n- [Vah Rudaina Divine Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280780)\n\n**Location:**  Behind the waterfall, at the end of the [Cave Under Zora's Domain](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280781).\n\n**Stats:**\n- 2 Defense\n\n**Armor Effect:** Swim Speed Up",
+        latitude: "0.71501158196860",
+        longitude: "-0.59854868064502",
+        media: [
+          {
+            title: "",
+            fileName: "421aecef-620f-4836-8623-89dd407470bd.png",
+            url: "https://media.mapgenie.io/storage/media/421aecef-620f-4836-8623-89dd407470bd.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "bbc78c63-a749-4595-abbb-06b2aa612bcd.png",
+            url: "https://media.mapgenie.io/storage/media/bbc78c63-a749-4595-abbb-06b2aa612bcd.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cap of the Wild",
+        description:
+          "**Set:** Wild\n- [Tunic of the Wild](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280785)\n- [Trousers of the Wild](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280786)\n\n**Location:**  On the jawbone of the big dragon skeleton\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.49938145484325",
+        longitude: "-0.82993122844837",
+        media: [
+          {
+            title: "",
+            fileName: "c57367da-1a23-4471-a901-cc3a19ec6384.jpg",
+            url: "https://media.mapgenie.io/storage/media/c57367da-1a23-4471-a901-cc3a19ec6384.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "73cc6f3f-fe49-4f23-ae66-a383452782e5.jpg",
+            url: "https://media.mapgenie.io/storage/media/73cc6f3f-fe49-4f23-ae66-a383452782e5.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of the Wild",
+        description:
+          "**Set:** Wild\n- [Cap of the Wild](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280784)\n- [Trousers of the Wild](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280786)\n\n**Location:**  On the jawbone of the big dragon skeleton\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.25949465371529",
+        longitude: "-0.86025135124703",
+        media: [
+          {
+            title: "",
+            fileName: "544c6568-b495-4bea-b939-46c09de06b1e.png",
+            url: "https://media.mapgenie.io/storage/media/544c6568-b495-4bea-b939-46c09de06b1e.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "40fcbc35-fd95-47e7-a364-b27e67f38f70.png",
+            url: "https://media.mapgenie.io/storage/media/40fcbc35-fd95-47e7-a364-b27e67f38f70.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of the Wild",
+        description:
+          "**Set:** Wild\n- [Cap of the Wild](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280784)\n- [Tunic of the Wild](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280785)\n\n**Location:**  On the jawbone of the big dragon skeleton\n\n**Stats:**\n- 4 Defense",
+        latitude: "0.49901421441913",
+        longitude: "-0.64946530991628",
+        media: [
+          {
+            title: "",
+            fileName: "4f224e27-373d-4dcc-a121-28aaab627470.jpg",
+            url: "https://media.mapgenie.io/storage/media/4f224e27-373d-4dcc-a121-28aaab627470.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "261a1157-bec8-4de3-b26d-8a5001dc0d27.jpg",
+            url: "https://media.mapgenie.io/storage/media/261a1157-bec8-4de3-b26d-8a5001dc0d27.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of the Wind",
+        description:
+          "Old Map Location - ??\n\n**Set:** Wind\n- [Cap of the Wind](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280268)\n- [Trousers of the Wind](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279270)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.42262309063854",
+        longitude: "-0.82494414912449",
+        media: [
+          {
+            title: "",
+            fileName: "35b2e304-2b70-4e65-8082-6dde4bc6072c.jpg",
+            url: "https://media.mapgenie.io/storage/media/35b2e304-2b70-4e65-8082-6dde4bc6072c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "1091afeb-28c9-44b0-92f6-f813e4cb39fc.jpg",
+            url: "https://media.mapgenie.io/storage/media/1091afeb-28c9-44b0-92f6-f813e4cb39fc.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of the Hero",
+        description:
+          "Old Map Location - ??\n\n**Set:** Hero's\n- [Cap of the Hero](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280813)\n- [Trousers of the Hero](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280806)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.32082325288708",
+        longitude: "-0.66178267642076",
+        media: [
+          {
+            title: "",
+            fileName: "2b5d2f0f-e1bd-4215-83cd-829c08a9100c.jpg",
+            url: "https://media.mapgenie.io/storage/media/2b5d2f0f-e1bd-4215-83cd-829c08a9100c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "91cd1dbd-120f-483b-973e-3ece6f4e12a6.jpg",
+            url: "https://media.mapgenie.io/storage/media/91cd1dbd-120f-483b-973e-3ece6f4e12a6.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of the Hero",
+        description:
+          "Old Map Location - ??\n\n**Set:** Hero's\n- [Cap of the Hero](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280813)\n- [Tunic of the Hero](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280804)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.45363056583136",
+        longitude: "-0.81104837358001",
+        media: [
+          {
+            title: "",
+            fileName: "7a642419-5ad4-4716-968a-3ce6a29faec4.jpg",
+            url: "https://media.mapgenie.io/storage/media/7a642419-5ad4-4716-968a-3ce6a29faec4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "d76b6832-daac-46ad-9715-0575dc9f826c.jpg",
+            url: "https://media.mapgenie.io/storage/media/d76b6832-daac-46ad-9715-0575dc9f826c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cap of the Hero",
+        description:
+          "Old Map Location - ??\n\n**Set:** Hero's\n- [Tunic of the Hero](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280804)\n- [Trousers of the Hero](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280806)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.26324756817034",
+        longitude: "-0.62203249261182",
+        media: [
+          {
+            title: "",
+            fileName: "21a3ac81-ca2f-4488-a139-f99b2e4b8e01.jpg",
+            url: "https://media.mapgenie.io/storage/media/21a3ac81-ca2f-4488-a139-f99b2e4b8e01.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "da95ec97-09c9-4037-b2e4-10dfc29b737a.jpg",
+            url: "https://media.mapgenie.io/storage/media/da95ec97-09c9-4037-b2e4-10dfc29b737a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of Twilight",
+        description:
+          "Old Map Location - ??\n\n**Set:** Twilight\n- [Cap of Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280822)\n- [Tunic of Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280819)\n\n**Location:**  In the middle of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.42763793261959",
+        longitude: "-0.59632066567599",
+        media: [
+          {
+            title: "",
+            fileName: "7a197f1b-4953-4066-ba7c-7c4b51372b15.jpg",
+            url: "https://media.mapgenie.io/storage/media/7a197f1b-4953-4066-ba7c-7c4b51372b15.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "5b92b80c-5258-4ad0-ac68-f7d5ed190262.jpg",
+            url: "https://media.mapgenie.io/storage/media/5b92b80c-5258-4ad0-ac68-f7d5ed190262.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of Twilight",
+        description:
+          "Old Map Location - ??\n\n**Set:** Twilight\n- [Cap of Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280822)\n- [Trousers of the Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280816)\n\n**Location:**  In the middle of the Rist Mine\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.44897894079739",
+        longitude: "-0.55784841301721",
+        media: [
+          {
+            title: "",
+            fileName: "cbae301b-9b66-4f53-9e50-f2436cc29b52.jpg",
+            url: "https://media.mapgenie.io/storage/media/cbae301b-9b66-4f53-9e50-f2436cc29b52.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "f05e8fcd-6956-441a-9b20-075620b1f1fd.jpg",
+            url: "https://media.mapgenie.io/storage/media/f05e8fcd-6956-441a-9b20-075620b1f1fd.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cap of Twilight",
+        description:
+          "Old Map Location - ??\n\n**Set:** Twilight\n- [Tunic of Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280819)\n- [Trousers of the Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280816)\n\n**Location:**  Appears in the middle of the arena, after beating [King Gleeok](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280821)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.48006296924667",
+        longitude: "-0.69238221355585",
+        media: [
+          {
+            title: "",
+            fileName: "01e79a65-201c-49b1-abb1-04feacc9f45b.jpg",
+            url: "https://media.mapgenie.io/storage/media/01e79a65-201c-49b1-abb1-04feacc9f45b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "ca7b2bdb-4a54-4b40-8819-ac53ee7b4bc2.jpg",
+            url: "https://media.mapgenie.io/storage/media/ca7b2bdb-4a54-4b40-8819-ac53ee7b4bc2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zant's Helmet",
+        description:
+          "**Location:**  Complete [Scorching Coliseum](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280825)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Unfreezable",
+        latitude: "0.48178363765743",
+        longitude: "-0.63419593711885",
+        media: [
+          {
+            title: "",
+            fileName: "59a8d525-cf2b-4ced-a65e-56bdf37ccec1.jpg",
+            url: "https://media.mapgenie.io/storage/media/59a8d525-cf2b-4ced-a65e-56bdf37ccec1.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "2e10e0b9-4da0-4b63-b034-8f511db7e3d7.jpg",
+            url: "https://media.mapgenie.io/storage/media/2e10e0b9-4da0-4b63-b034-8f511db7e3d7.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of the Sky",
+        description:
+          "Old Map Location - ??\n\n**Set:** Sky\n- [Cap of the Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280831)\n- [Tunic of The Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280833)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.39285717675058",
+        longitude: "-0.66562534349038",
+        media: [
+          {
+            title: "",
+            fileName: "1abd9e83-9185-47ee-b337-86d7a29b618e.jpg",
+            url: "https://media.mapgenie.io/storage/media/1abd9e83-9185-47ee-b337-86d7a29b618e.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "bbbbfd2e-8763-4381-a05f-1102d070b67d.jpg",
+            url: "https://media.mapgenie.io/storage/media/bbbbfd2e-8763-4381-a05f-1102d070b67d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cap of the Sky",
+        description:
+          "Old Map Location - ??\n\n**Set:** Sky\n- [Tunic of The Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280833)\n- [Trousers of the Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280829)\n\n**Location:**  In the hollow tree trunk, guarded by an Evermean\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.31530008419222",
+        longitude: "-0.58018932936687",
+        media: [
+          {
+            title: "Cap of the Sky",
+            fileName: "0e352b63-da43-43d9-aa79-d40c7364b33b.jpg",
+            url: "https://media.mapgenie.io/storage/media/0e352b63-da43-43d9-aa79-d40c7364b33b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "c21dee4b-64fe-499d-96bc-3465eedebd81.jpg",
+            url: "https://media.mapgenie.io/storage/media/c21dee4b-64fe-499d-96bc-3465eedebd81.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of The Sky",
+        description:
+          "Old Map Location - ??\n\n**Set:** Sky\n- [Cap of the Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280831)\n- [Trousers of the Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280829)\n\n**Location:**  In the hollow tree trunk, guarded by an Evermean\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.42446212605451",
+        longitude: "-0.67035801662081",
+        media: [
+          {
+            title: "",
+            fileName: "e38e7043-8a0b-4400-b35b-925b16acae81.jpg",
+            url: "https://media.mapgenie.io/storage/media/e38e7043-8a0b-4400-b35b-925b16acae81.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "5be521f7-5149-424d-a3eb-d75d07345afa.jpg",
+            url: "https://media.mapgenie.io/storage/media/5be521f7-5149-424d-a3eb-d75d07345afa.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of Time",
+        description:
+          "Old Map Location - ??\n\n**Set:** Time\n- [Cap of Time](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280839)\n- [Tunic of Time](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280838)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.35668863040128",
+        longitude: "-0.83766738343002",
+        media: [
+          {
+            title: "",
+            fileName: "773265bb-a09c-4da0-af95-cde3eb409420.png",
+            url: "https://media.mapgenie.io/storage/media/773265bb-a09c-4da0-af95-cde3eb409420.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "f95cd9b9-827a-4f6f-86af-71d91450e468.png",
+            url: "https://media.mapgenie.io/storage/media/f95cd9b9-827a-4f6f-86af-71d91450e468.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of Time",
+        description:
+          "Old Map Location - ??\n\n**Set:** Time\n- [Cap of Time](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280839)\n- [Trousers of Time](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280835)\n\n**Location:**  On top of the ruins\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.42132535768681",
+        longitude: "-0.76753502932175",
+        media: [
+          {
+            title: "",
+            fileName: "0c497e74-fe44-42e9-89ed-22108c566824.jpg",
+            url: "https://media.mapgenie.io/storage/media/0c497e74-fe44-42e9-89ed-22108c566824.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "23da7d1e-9b82-41ff-a732-ce0d30d64d68.jpg",
+            url: "https://media.mapgenie.io/storage/media/23da7d1e-9b82-41ff-a732-ce0d30d64d68.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cap of Time",
+        description:
+          "Old Map Location - ??\n\n**Set:** Time\n- [Tunic of Time](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280838)\n- [Trousers of Time](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280835)\n\n**Location:**  On top stone pillar\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.46928010416600",
+        longitude: "-0.83438997495637",
+        media: [
+          {
+            title: "",
+            fileName: "d1ba0e7a-f8b3-41c2-8cdd-83a588877db4.jpg",
+            url: "https://media.mapgenie.io/storage/media/d1ba0e7a-f8b3-41c2-8cdd-83a588877db4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "28d576d8-7b02-44ac-9812-ab27377299b9.jpg",
+            url: "https://media.mapgenie.io/storage/media/28d576d8-7b02-44ac-9812-ab27377299b9.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Island Lobster Shirt",
+        description:
+          "**Location:**  Under a ship, in the water - use ultrahand to get it out\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** Heat Resistance",
+        latitude: "0.59042489117823",
+        longitude: "-0.60940459370730",
+        media: [
+          {
+            title: "",
+            fileName: "45d1071d-8984-4e16-95e9-21db9bae1280.png",
+            url: "https://media.mapgenie.io/storage/media/45d1071d-8984-4e16-95e9-21db9bae1280.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "aa3cebc3-71b5-4905-89a8-e67d3a264e30.png",
+            url: "https://media.mapgenie.io/storage/media/aa3cebc3-71b5-4905-89a8-e67d3a264e30.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Phantom Armor",
+        description:
+          "**Set:** Phantom \n- [Phantom Helmet](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280851)\n- [Phantom Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280848)\n\n**Location:**  At the end of the [Tamio River Downstream Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280845), behind destructible wall\n\n**Stats:**\n- 8 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.67690618584983",
+        longitude: "-0.79591229390530",
+        media: [
+          {
+            title: "",
+            fileName: "38e28fe3-cc31-459c-a2cc-4590e1ae755b.png",
+            url: "https://media.mapgenie.io/storage/media/38e28fe3-cc31-459c-a2cc-4590e1ae755b.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "2c434605-492a-4ba8-a478-2db8d9c828d9.png",
+            url: "https://media.mapgenie.io/storage/media/2c434605-492a-4ba8-a478-2db8d9c828d9.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Phantom Greaves",
+        description:
+          "**Set:** Phantom \n- [Phantom Helmet](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280851)\n- [Phantom Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280846)\n\n**Location:**  In the [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)\n\n**Stats:**\n- 8 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.58322376305817",
+        longitude: "-0.78465955350950",
+        media: [
+          {
+            title: "",
+            fileName: "17485f7b-4f29-41fe-8f55-1c39b9212d4c.png",
+            url: "https://media.mapgenie.io/storage/media/17485f7b-4f29-41fe-8f55-1c39b9212d4c.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "7277b189-ff57-47bd-9def-3af67e0f0d24.png",
+            url: "https://media.mapgenie.io/storage/media/7277b189-ff57-47bd-9def-3af67e0f0d24.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Phantom Helmet",
+        description:
+          "**Set:** Phantom \n- [Phantom Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280846)\n- [Phantom Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280848)\n\n**Location:**  In the [Puffer Beach Overhead Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280849)\n\n**Stats:**\n- 8 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.57903465403088",
+        longitude: "-0.69457003735724",
+        media: [
+          {
+            title: "",
+            fileName: "2af92c5c-d263-40d4-90b3-ecb85886d0fc.png",
+            url: "https://media.mapgenie.io/storage/media/2af92c5c-d263-40d4-90b3-ecb85886d0fc.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "3e8aa1b3-23f2-413d-a6d4-2de848ee44b1.png",
+            url: "https://media.mapgenie.io/storage/media/3e8aa1b3-23f2-413d-a6d4-2de848ee44b1.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of Awakening",
+        description:
+          "**Set:** Awakening\n- [Mask of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280863)\n- [Trousers of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280868)\n\n**Location:**  In the [Ancient Columns Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280853)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.71761526373039",
+        longitude: "-0.81436166984147",
+        media: [
+          {
+            title: "",
+            fileName: "4ab1359f-5480-4f16-95c0-ab55c60fcab3.jpg",
+            url: "https://media.mapgenie.io/storage/media/4ab1359f-5480-4f16-95c0-ab55c60fcab3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "2a34a20e-58fb-4474-a934-ecf0d52517f4.jpg",
+            url: "https://media.mapgenie.io/storage/media/2a34a20e-58fb-4474-a934-ecf0d52517f4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mask of Awakening",
+        description:
+          "**Set:** Awakening\n- [Tunic of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280855)\n- [Trousers of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280868)\n\n**Location:**  Inside [Thundra Plateau Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280862)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.73236869589087",
+        longitude: "-0.77579003107826",
+        media: [
+          {
+            title: "",
+            fileName: "de753afb-9b26-4140-960f-cbebca979a3e.jpg",
+            url: "https://media.mapgenie.io/storage/media/de753afb-9b26-4140-960f-cbebca979a3e.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "96b0b95a-6148-42a2-98f7-58409cc6d306.jpg",
+            url: "https://media.mapgenie.io/storage/media/96b0b95a-6148-42a2-98f7-58409cc6d306.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trousers of Awakening",
+        description:
+          "**Set:** Awakening\n- [Mask of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280863)\n- [Tunic of Awakening](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280855)\n\n**Location:**  In the [Coliseum Ruins Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280866)\n\n**Stats:**\n- 3 Defense",
+        latitude: "0.66034725154179",
+        longitude: "-0.74110038578601",
+        media: [
+          {
+            title: "",
+            fileName: "4e18bc99-f3d2-4c12-a1c7-781968551f08.jpg",
+            url: "https://media.mapgenie.io/storage/media/4e18bc99-f3d2-4c12-a1c7-781968551f08.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "f8971883-2170-4fcf-a7ea-2799b7c991c2.jpg",
+            url: "https://media.mapgenie.io/storage/media/f8971883-2170-4fcf-a7ea-2799b7c991c2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tingle's Shirt",
+        description:
+          "**Set:** Tingle's\n- [Tingle's Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280872)\n- [Tingle's Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280875)\n\n**Location:**  Inside the [Dueling Peaks South Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280531)\n\n**Door Password:**\n\n...\u25a1...  \n..\u25a0\u25a1..  \n.\u25a1\u25a0\u25a1.  \n\u25a1\u25a0\u25a1\u25a0 \n \n\u25a0 - Stone\n\u25a1 - Blank\n\n**Stats:**\n- 2 Defense",
+        latitude: "0.64075501386257",
+        longitude: "-0.66418868477248",
+        media: [
+          {
+            title: "",
+            fileName: "2387791e-f862-4a71-8529-979264231632.png",
+            url: "https://media.mapgenie.io/storage/media/2387791e-f862-4a71-8529-979264231632.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "9e28ff04-8809-4a97-987b-d48457492293.png",
+            url: "https://media.mapgenie.io/storage/media/9e28ff04-8809-4a97-987b-d48457492293.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tingle's Hood",
+        description:
+          "**Set:** Tingle's\n- [Tingle's Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280869)\n- [Tingle's Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280875)\n\n**Location:**  At the end of the [Statue of the Eighth Heroine Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280871), use fan to blow the sand away from the chest\n\n**Stats:**\n- 2 Defense",
+        latitude: "0.68557918832127",
+        longitude: "-0.84429597717104",
+        media: [
+          {
+            title: "",
+            fileName: "94bf450e-e4a4-44fb-9e16-4f84d0017c3b.png",
+            url: "https://media.mapgenie.io/storage/media/94bf450e-e4a4-44fb-9e16-4f84d0017c3b.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "0524cff1-1652-4443-acf4-30a830338ec5.png",
+            url: "https://media.mapgenie.io/storage/media/0524cff1-1652-4443-acf4-30a830338ec5.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tingle's Tights",
+        description:
+          "**Set:** Tingle's\n- [Tingle's Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280872)\n- [Tingle's Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280869)\n\n**Location:**  Behind a pile of boxes, on a ship\n\n**Stats:**\n- 2 Defense",
+        latitude: "0.59915061354553",
+        longitude: "-0.58687383346069",
+        media: [
+          {
+            title: "",
+            fileName: "0532016f-dcd6-4868-8e9b-86069ff10605.png",
+            url: "https://media.mapgenie.io/storage/media/0532016f-dcd6-4868-8e9b-86069ff10605.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "159cadbb-c762-4acb-8abb-5f3f75152ec8.png",
+            url: "https://media.mapgenie.io/storage/media/159cadbb-c762-4acb-8abb-5f3f75152ec8.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Evil Spirit Greaves",
+        description:
+          "**Set:** Evil Spirit\n- [Evil Spirit Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280877)\n- [Evil Spirit Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280412)\n\n**Location:**  Reward for completing [The North Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281125).\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.49289620451196",
+        longitude: "-0.72934206673966",
+        media: [
+          {
+            title: "",
+            fileName: "b50b29cd-4bab-4b9d-b06a-d01173ab0ba2.png",
+            url: "https://media.mapgenie.io/storage/media/b50b29cd-4bab-4b9d-b06a-d01173ab0ba2.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "eed3e572-b04c-45e9-a042-344e187a8cc9.png",
+            url: "https://media.mapgenie.io/storage/media/eed3e572-b04c-45e9-a042-344e187a8cc9.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Evil Spirit Mask",
+        description:
+          "**Set:** Evil Spirit\n- [Evil Spirit Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280412)\n- [Evil Spirit Greaves](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280876)\n\n**Location:**  Reward for completing The South Lomei Prophecy Side Quest\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Stealth Up",
+        latitude: "0.26815226273555",
+        longitude: "-0.76089734301462",
+        media: [
+          {
+            title: "",
+            fileName: "4a77ef6f-f031-45c6-b2b8-c64aceb32139.png",
+            url: "https://media.mapgenie.io/storage/media/4a77ef6f-f031-45c6-b2b8-c64aceb32139.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "6434957b-067a-4d2f-a030-f5b7cd6ac7ed.png",
+            url: "https://media.mapgenie.io/storage/media/6434957b-067a-4d2f-a030-f5b7cd6ac7ed.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bokoblin Mask",
+        description:
+          "**Set:** Kilton's Monster Masks\n- [Moblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280938)\n- [Lizalfos Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280940)\n- [Horriblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281133)\n- [Lynel Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281135)\n\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #1\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Blend in with Bokoblins.",
+        latitude: "0.76905809616008",
+        longitude: "-0.58622963726407",
+        media: [
+          {
+            title: "",
+            fileName: "efa4d3ab-c7b8-450b-866e-81e2a4e6fda4.png",
+            url: "https://media.mapgenie.io/storage/media/efa4d3ab-c7b8-450b-866e-81e2a4e6fda4.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Moblin Mask",
+        description:
+          "**Set:** Kilton's Monster Masks\n- [Bokoblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280937)\n- [Lizalfos Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280940)\n- [Horriblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281133)\n- [Lynel Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281135)\n\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #2\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Blend in with Moblins.",
+        latitude: "0.76907150599635",
+        longitude: "-0.58577366173219",
+        media: [
+          {
+            title: "",
+            fileName: "86b677d3-fb1d-4db2-8058-8702778bb48d.png",
+            url: "https://media.mapgenie.io/storage/media/86b677d3-fb1d-4db2-8058-8702778bb48d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mystic Robe",
+        description:
+          "**Set:** Mystic\n- [Mystic Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281131)\n- [Mystic Headpiece](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281132)\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #4\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Rupee Padding - lose Rupees instead of health when taking damage.",
+        latitude: "0.76856796659015",
+        longitude: "-0.58625511824988",
+        media: [
+          {
+            title: "",
+            fileName: "e1c8db3b-6447-40ed-8a31-b56bd7311cc8.jpg",
+            url: "https://media.mapgenie.io/storage/media/e1c8db3b-6447-40ed-8a31-b56bd7311cc8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lizalfos Mask",
+        description:
+          "**Set:** Kilton's Monster Masks\n- [Bokoblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280937)\n- [Moblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280938)\n- [Horriblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281133)\n- [Lynel Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281135)\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #6\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Blend in with Lizalfos.",
+        latitude: "0.76905005025785",
+        longitude: "-0.58529756963173",
+        media: [
+          {
+            title: "",
+            fileName: "c16cc9f5-aefb-4f24-9421-f68699a61fc3.png",
+            url: "https://media.mapgenie.io/storage/media/c16cc9f5-aefb-4f24-9421-f68699a61fc3.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Froggy Sleeve",
+        description:
+          "**Set:** Froggy \n- [Froggy Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277847)\n- [Froggy Leggings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281122)\n\n**Location:**  Reward for completing [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n\n**Stats:**\n- 8 Defense\n\n**Armor Effect:** Slip Resistance",
+        latitude: "0.75910813683329",
+        longitude: "-0.80821754078232",
+        media: [
+          {
+            title: "",
+            fileName: "822d1a57-e30e-4c42-a922-f85207f5ce16.jpg",
+            url: "https://media.mapgenie.io/storage/media/822d1a57-e30e-4c42-a922-f85207f5ce16.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Froggy Leggings",
+        description:
+          "**Set:** Froggy \n- [Froggy Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277847)\n- [Froggy Sleeve](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281121)\n\n**Location:**  Reward for completing [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n\n**Stats:**\n- 8 Defense\n\n**Armor Effect:** Slip Resistance",
+        latitude: "0.75870032555984",
+        longitude: "-0.80821730196365",
+        media: [
+          {
+            title: "",
+            fileName: "e7e2777e-2495-49d2-8788-fddb3863b75e.jpg",
+            url: "https://media.mapgenie.io/storage/media/e7e2777e-2495-49d2-8788-fddb3863b75e.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bokoblin Mask",
+        description:
+          "**Location:**  Reward for completing [The Hunt For Bubbul Gems!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277852)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Blend in with Bokoblins",
+        latitude: "0.74203980412042",
+        longitude: "-0.66328480839900",
+        media: [
+          {
+            title: "",
+            fileName: "45645337-eb38-4310-9f6d-4fbcba974973.png",
+            url: "https://media.mapgenie.io/storage/media/45645337-eb38-4310-9f6d-4fbcba974973.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
+            url: "https://media.mapgenie.io/storage/media/0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mystic Trousers",
+        description:
+          "**Set:** Mystic \n- [Mystic Robe](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280939)\n- [Mystic Headpiece](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281132)\n\n**Location:**  [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) item #8\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Rupee Padding - lose Rupees instead of health when taking damage.",
+        latitude: "0.76855925019261",
+        longitude: "-0.58576159179157",
+        media: [
+          {
+            title: "",
+            fileName: "f6646866-03c6-471a-a4a5-a9c39436cb80.jpg",
+            url: "https://media.mapgenie.io/storage/media/f6646866-03c6-471a-a4a5-a9c39436cb80.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mystic Headpiece",
+        description:
+          "**Set:** Mystic\n- [Mystic Robe](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280939)\n- [Mystic Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281131)\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #14\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Rupee Padding - lose Rupees instead of health when taking damage.",
+        latitude: "0.76856729609339",
+        longitude: "-0.58530025184029",
+        media: [
+          {
+            title: "",
+            fileName: "8e1adc88-f641-435d-bbdb-06f0646a6507.jpg",
+            url: "https://media.mapgenie.io/storage/media/8e1adc88-f641-435d-bbdb-06f0646a6507.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Horriblin Mask",
+        description:
+          "**Set:** Kilton's Monster Masks\n- [Bokoblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280937)\n- [Moblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280938)\n- [Lizalfos Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280940)\n- [Lynel Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281135)\n\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #10\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Blend in with Horriblins.",
+        latitude: "0.76902725353469",
+        longitude: "-0.58482013642677",
+        media: [
+          {
+            title: "",
+            fileName: "e3e59f54-7e2d-4cfe-b574-671b3e20efe2.jpg",
+            url: "https://media.mapgenie.io/storage/media/e3e59f54-7e2d-4cfe-b574-671b3e20efe2.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "307d5ae3-8b9c-4284-8ae6-e8f50aca70f0.jpg",
+            url: "https://media.mapgenie.io/storage/media/307d5ae3-8b9c-4284-8ae6-e8f50aca70f0.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lynel Mask",
+        description:
+          "**Set:** Kilton's Monster Masks\n- [Bokoblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280937)\n- [Moblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280938)\n- [Lizalfos Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280940)\n- [Horriblin Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281133)\n\n\n**Location:** [Koltin Shop](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280936) Item #12\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Blend in with Lynels for a while.",
+        latitude: "0.76901853714011",
+        longitude: "-0.58433733880452",
+        media: [
+          {
+            title: "",
+            fileName: "00e0b332-0c71-4aa8-9d7f-585b24f0ab24.jpg",
+            url: "https://media.mapgenie.io/storage/media/00e0b332-0c71-4aa8-9d7f-585b24f0ab24.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "ca09223e-030a-458c-af62-19afe15b935d.jpg",
+            url: "https://media.mapgenie.io/storage/media/ca09223e-030a-458c-af62-19afe15b935d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rubber Helm",
+        description:
+          "**Set:** Rubber\n- [Rubber Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279731)\n- [Rubber Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282075)\n\n**Location:**  At the end of the [Sarjon Woods Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282073), after the waterfall\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Shock Resistance",
+        latitude: "0.60118089477213",
+        longitude: "-0.66371772165814",
+        media: [
+          {
+            title: "",
+            fileName: "edc7972a-6920-44ac-82f7-df100aa36572.png",
+            url: "https://media.mapgenie.io/storage/media/edc7972a-6920-44ac-82f7-df100aa36572.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "5df89c52-1f34-4914-b6e7-09630cee4b62.png",
+            url: "https://media.mapgenie.io/storage/media/5df89c52-1f34-4914-b6e7-09630cee4b62.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rubber Tights",
+        description:
+          "**Set:** Rubber\n- [Rubber Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282074)\n- [Rubber Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279731)\n\n**Location:**  Behind destructible wall in the [Horon Lagoon Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280514)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Shock Resistance",
+        latitude: "0.69524073756760",
+        longitude: "-0.56658388059802",
+        media: [
+          {
+            title: "",
+            fileName: "7acb143d-eafc-4526-93bc-e8d522cfe1f0.png",
+            url: "https://media.mapgenie.io/storage/media/7acb143d-eafc-4526-93bc-e8d522cfe1f0.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "102df9bc-5eac-4e8e-814d-508b4903a771.png",
+            url: "https://media.mapgenie.io/storage/media/102df9bc-5eac-4e8e-814d-508b4903a771.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Charged Headdress",
+        description:
+          "**Set:** Charged\n\n**Location:**  Dracozu Lake, follow the river and search for the tall dragon-head statues, the headdress will be hidden on an altar beneath this statue.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Stormy Weather Attack\n\n**Note:** Available during the main story.",
+        latitude: "0.61287330848751",
+        longitude: "-0.67189040176362",
+        media: [
+          {
+            title: "",
+            fileName: "d002e65d-080f-458e-b2b0-9e3cf126f749.jpg",
+            url: "https://media.mapgenie.io/storage/media/d002e65d-080f-458e-b2b0-9e3cf126f749.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "5bdcfc83-d071-44c7-aaa3-d8495fa9144a.png",
+            url: "https://media.mapgenie.io/storage/media/5bdcfc83-d071-44c7-aaa3-d8495fa9144a.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Charged Trousers",
+        description:
+          "**Set:** Charged\n\n**Location:**  Dracozu Lake, Beneath a tall dragon statue, there is a doorway with a breakable boulder behind it. The trousers are in a chest in the altar beyond\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Stormy Weather Attack\n\n**Note:** Available during the main story.",
+        latitude: "0.61642508339463",
+        longitude: "-0.67158217996345",
+        media: [
+          {
+            title: "",
+            fileName: "acfa63f0-0404-4b00-ae1d-91df2f3597ef.jpg",
+            url: "https://media.mapgenie.io/storage/media/acfa63f0-0404-4b00-ae1d-91df2f3597ef.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "ea04ea09-9816-4bc8-8056-b017a8af08ba.png",
+            url: "https://media.mapgenie.io/storage/media/ea04ea09-9816-4bc8-8056-b017a8af08ba.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Charged Shirt",
+        description:
+          "**Set:** Charged\n\n**Location:**  Dracozu Lake, in a chest above where Tauro investigates a hieroglyph.\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Stormy Weather Attack\n\n**Note:** Available during the main story.",
+        latitude: "0.62137597748260",
+        longitude: "-0.67097189341823",
+        media: [
+          {
+            title: "",
+            fileName: "a42fa1b8-5a99-4320-bb4f-d73cf6f56402.jpg",
+            url: "https://media.mapgenie.io/storage/media/a42fa1b8-5a99-4320-bb4f-d73cf6f56402.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "d0a137f4-32db-40b4-b493-604a1ea8d17c.png",
+            url: "https://media.mapgenie.io/storage/media/d0a137f4-32db-40b4-b493-604a1ea8d17c.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Archaic Legwear",
+        description:
+          "**Set:** Archaic\n\n**Location:**  Room of Awakening in a chest near the door leading outside to the Great Sky Island.\n\n**Stats:**\n- 1 Defense\n\n**Armor Effect:** None",
+        latitude: "0.99372397809620",
+        longitude: "-0.69149212670985",
+        media: [
+          {
+            title: "",
+            fileName: "df6f5b41-5a21-4168-a53b-ca3138f76b4f.jpg",
+            url: "https://media.mapgenie.io/storage/media/df6f5b41-5a21-4168-a53b-ca3138f76b4f.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "e2c585a2-8886-4ba0-b8a6-03ce131ae162.jpg",
+            url: "https://media.mapgenie.io/storage/media/e2c585a2-8886-4ba0-b8a6-03ce131ae162.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sand Boots",
+        description:
+          "**Price:** 1200 Rupees\n\n**Location:**  [Gerudo Secret Club](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284929)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Sand Speed Up",
+        latitude: "0.60875745639588",
+        longitude: "-0.82494422793405",
+        media: [
+          {
+            title: "",
+            fileName: "203926c4-4622-43af-b932-2668a491bca2.png",
+            url: "https://media.mapgenie.io/storage/media/203926c4-4622-43af-b932-2668a491bca2.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "0a917e7b-8a8c-4dde-9fcb-c5ce7598add4.png",
+            url: "https://media.mapgenie.io/storage/media/0a917e7b-8a8c-4dde-9fcb-c5ce7598add4.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Snow Boots",
+        description:
+          "**Price:** 1300 Rupees  \n\n**Location:**  [Gerudo Secret Club](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284929)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Snow Speed Up",
+        latitude: "0.60876818462641",
+        longitude: "-0.82456871867157",
+        media: [
+          {
+            title: "",
+            fileName: "f3f33eae-5656-4984-bf79-57056bc83d81.png",
+            url: "https://media.mapgenie.io/storage/media/f3f33eae-5656-4984-bf79-57056bc83d81.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "e8772958-fbef-4140-ac77-26e1df34aeed.png",
+            url: "https://media.mapgenie.io/storage/media/e8772958-fbef-4140-ac77-26e1df34aeed.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Opal Earrings",
+        description:
+          "**Price:** 700 Rupees\n\n**Location:**  [Starlight Memories](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279349) (Jewelry Shop)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Swim Speed Up",
+        latitude: "0.61056650395862",
+        longitude: "-0.82745678722827",
+        media: [
+          {
+            title: "",
+            fileName: "f1c8dd68-5385-489f-8ef1-8047b5d88cc7.png",
+            url: "https://media.mapgenie.io/storage/media/f1c8dd68-5385-489f-8ef1-8047b5d88cc7.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "adf2e363-3636-4c23-95c6-4df862e20063.png",
+            url: "https://media.mapgenie.io/storage/media/adf2e363-3636-4c23-95c6-4df862e20063.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Topaz Earrings",
+        description:
+          "**Price:** 1,200 Rupees\n\n**Location:**  [Starlight Memories](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279349) (Jewelry Shop)\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Shock Resistance",
+        latitude: "0.61055577573161",
+        longitude: "-0.82788057625254",
+        media: [
+          {
+            title: "",
+            fileName: "0da78b6f-b6d5-4374-ac82-8e9f00082063.png",
+            url: "https://media.mapgenie.io/storage/media/0da78b6f-b6d5-4374-ac82-8e9f00082063.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "2024cf50-80aa-49d5-8bd5-1d5ffcad4736.png",
+            url: "https://media.mapgenie.io/storage/media/2024cf50-80aa-49d5-8bd5-1d5ffcad4736.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Diamond Circlet",
+        description:
+          "**Price:** 2,400 Rupees\n\n**Location:**  [Starlight Memories](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279349) (Jewelry Shop)\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** Attack Up",
+        latitude: "0.61021247245945",
+        longitude: "-0.82789130508868",
+        media: [
+          {
+            title: "",
+            fileName: "0fb76480-6596-401f-a3d3-b88ddf1e4f34.png",
+            url: "https://media.mapgenie.io/storage/media/0fb76480-6596-401f-a3d3-b88ddf1e4f34.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "f4bf71f8-32c1-48e9-b131-5cb1a36fcd2e.png",
+            url: "https://media.mapgenie.io/storage/media/f4bf71f8-32c1-48e9-b131-5cb1a36fcd2e.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "d8eccd7a-ddf9-4641-968e-21776ac2567d.png",
+            url: "https://media.mapgenie.io/storage/media/d8eccd7a-ddf9-4641-968e-21776ac2567d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of the Depths",
+        description:
+          "**Set:** Depths\n- [Hood of the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279748)\n- [Gaiters of the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279740)\n\n**Location:**  Sold by any [Bargainer Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276867) for 150 Poe\n\n**Stats:**\n- 3 Defense\n\n**Armor Effect:** Gloom Resistance",
+        latitude: "0.70900642322631",
+        longitude: "-0.71069687604859",
+        media: [
+          {
+            title: "",
+            fileName: "d051354b-36d4-4d81-ac90-c1a7e8bb83cf.jpg",
+            url: "https://media.mapgenie.io/storage/media/d051354b-36d4-4d81-ac90-c1a7e8bb83cf.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Hero's Aspect",
+        description:
+          "**Set:** Ancient Hero's Aspect\n\n**Location:** Appears behind the Goddess Statue in the Temple of Time, after completing [The Shrine Explorer](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284432),\n\n**Stats:** 12 Defence\n\n**Armor Effect:** None",
+        latitude: "1.02055293530540",
+        longitude: "-0.68853733033669",
+        media: [
+          {
+            title: "",
+            fileName: "de8c8062-f822-46d5-a841-4ec81e37d077.jpg",
+            url: "https://media.mapgenie.io/storage/media/de8c8062-f822-46d5-a841-4ec81e37d077.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tunic of Memories",
+        description:
+          "**Set:** None\n\n**Location:**  Sold by any Bargainer Statue for 300 Poes, after finding all 7 of them.\n\n**Stats:**\n- 4 Defense\n\n**Armor Effect:** None",
+        latitude: "0.70937780691157",
+        longitude: "-0.71069982224241",
+        media: [
+          {
+            title: "",
+            fileName: "8b2d27b6-8fb2-4d1a-bd37-fc531140793c.jpg",
+            url: "https://media.mapgenie.io/storage/media/8b2d27b6-8fb2-4d1a-bd37-fc531140793c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "2b8c82b2-6977-4c72-98b2-d53fdaf7cb22.jpg",
+            url: "https://media.mapgenie.io/storage/media/2b8c82b2-6977-4c72-98b2-d53fdaf7cb22.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_loot",
+    title: "Armor",
+  },
   { locations: [], groupSlug: "totk_loot", title: "Arrows" },
   { locations: [], groupSlug: "totk_loot", title: "Blupee" },
   { locations: [], groupSlug: "totk_loot", title: "Chest" },
@@ -41267,12 +51613,636 @@ export const markerCategories = [
   { locations: [], groupSlug: "totk_loot", title: "Weapon" },
   { locations: [], groupSlug: "totk_loot", title: "Zonai Charge" },
   { locations: [], groupSlug: "totk_loot", title: "Zonai Component" },
-  { locations: [], groupSlug: "totk_quests", title: "Main Quest" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Camera Work in The Depths",
+        description:
+          "**Quest Giver:** [Josha](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276865)  \n\n**Requirements:** Advance [Crisis At Hyrule Castle](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277854) until you activate the [Lookout Landing Skyview Tower](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276753)  \n\n**Reward:** \n- Unlocks: Camera on Purah Pad\n- Unlocks: Hyrule Compendium on the Purah Pad\n- Zonaite x5",
+        latitude: "0.70812672594430",
+        longitude: "-0.71147739887491",
+        media: [
+          {
+            title: "",
+            fileName: "36ed7b53-a6a1-4403-9920-9e51c8627384.jpg",
+            url: "https://media.mapgenie.io/storage/media/36ed7b53-a6a1-4403-9920-9e51c8627384.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Camera Work In The Depths Where To Find Robbie",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Impa and the Geoglyphs",
+        description:
+          "**Quest Giver:** [Impa](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276884)    \n\n**Reward:** [Memory 03: Where Am I?](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276888)",
+        latitude: "0.72970756385801",
+        longitude: "-0.74528182232265",
+        media: [
+          {
+            title: "",
+            fileName: "3f46c61d-05dd-4a5e-82f5-8e675e4ceb75.jpg",
+            url: "https://media.mapgenie.io/storage/media/3f46c61d-05dd-4a5e-82f5-8e675e4ceb75.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough All Dragons Tears Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-all-dragons-tears-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Dragon's Tears",
+        description:
+          "**How To Begin:** Automatically started after completing [Impa and the Geoglyphs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276885)  \n\n**Requirements:** Complete [Impa and the Geoglyphs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276885)  \n\n**Reward:** Location of the [Master Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279408)",
+        latitude: "0.73427846581723",
+        longitude: "-0.74839695427497",
+        media: [
+          {
+            title: "",
+            fileName: "64637f21-2a73-4159-b16b-2ba3d6e87c6b.jpg",
+            url: "https://media.mapgenie.io/storage/media/64637f21-2a73-4159-b16b-2ba3d6e87c6b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough All Dragons Tears Locations",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-all-dragons-tears-locations",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sidon of the Zora",
+        description:
+          "**How to Begin:** Speak with the villagers in Zora's Domain.  \n**Requirements:** Complete [The Sludge-Covered Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279574)  \n**Reward:** [Vow of Sidon](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279575)",
+        latitude: "0.71816545661653",
+        longitude: "-0.59701345861001",
+        media: [
+          {
+            title: "",
+            fileName: "c3f11f71-47c7-45c1-b049-f8f882c44cb6.png",
+            url: "https://media.mapgenie.io/storage/media/c3f11f71-47c7-45c1-b049-f8f882c44cb6.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "HOnHr3y8TNw",
+            url: "https://youtu.be/HOnHr3y8TNw?t=349",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Broken Slate",
+        description:
+          "**How to Begin:** Speak to [Jihato](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277442)  \n**Requirements:** Progress [Sidon of the Zora](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277434)  \n**Reward:** None",
+        latitude: "0.73142724843693",
+        longitude: "-0.59316985309206",
+        media: [
+          {
+            title: "",
+            fileName: "4587e7d6-6ff8-4964-a869-25e8c8052ce5.png",
+            url: "https://media.mapgenie.io/storage/media/4587e7d6-6ff8-4964-a869-25e8c8052ce5.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "HOnHr3y8TNw",
+            url: "https://youtu.be/HOnHr3y8TNw?t=865",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Clues to the Sky",
+        description:
+          "**How to Begin:** Automatically started upon meeting the requirements.  \n**Requirements:** Complete [The Broken Slate](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277443)  \n**Reward:** None",
+        latitude: "0.73127906846216",
+        longitude: "-0.59317655861420",
+        media: [
+          {
+            title: "",
+            fileName: "de3b79a7-b80e-41f9-9f98-6e588b2cb265.png",
+            url: "https://media.mapgenie.io/storage/media/de3b79a7-b80e-41f9-9f98-6e588b2cb265.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "A Mystery in the Depths",
+        description:
+          "**How To Begin:** Speak to [Josha](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276865)   \n**Requirements:** \n- Complete [Camera Work in The Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276866)\n- Complete 1 of the 4 [Regional Phenomena](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277708) tasks  \n\n**Reward:** Auto-build",
+        latitude: "0.70811599792789",
+        longitude: "-0.71178048849310",
+        media: [
+          {
+            title: "",
+            fileName: "b84a676e-3fab-405b-b4d5-9343b2a45cfe.jpg",
+            url: "https://media.mapgenie.io/storage/media/b84a676e-3fab-405b-b4d5-9343b2a45cfe.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough A Mystery In The Depths",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-a-mystery-in-the-depths",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Regional Phenomena",
+        description:
+          "**How To Begin:** Speak with Purah  \n**Requirements:** Advance [Crisis at Hyrule Castle](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277854) until you unlock the [Paraglider](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279264).  \n**Reward:** ??",
+        latitude: "0.70795977118195",
+        longitude: "-0.71050040424102",
+        media: [
+          {
+            title: "",
+            fileName: "e961da80-c5c5-4ee2-9dc6-b2441977b618.jpg",
+            url: "https://media.mapgenie.io/storage/media/e961da80-c5c5-4ee2-9dc6-b2441977b618.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "GpIFwo5Qj0U",
+            url: "https://youtu.be/GpIFwo5Qj0U",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "To The Kingdom of Hyrule",
+        description:
+          "**How To Begin:** Interact with the glowing light at the end of the platform.   \n**Requirements:** [The Closed Door](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279111)   \n**Reward:** Access to the Surface world.",
+        latitude: "1.02571101156730",
+        longitude: "-0.68851700493212",
+        media: [
+          {
+            title: "",
+            fileName: "db998268-d0b3-4a55-9bc0-7119b54fd8cd.jpg",
+            url: "https://media.mapgenie.io/storage/media/db998268-d0b3-4a55-9bc0-7119b54fd8cd.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough To The Kingdom Of Hyrule",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-to-the-kingdom-of-hyrule",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crisis at Hyrule Castle",
+        description:
+          "**How To Begin:** Speak with Purah   \n**Requirements:** [To The Kingdom of Hyrule](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277853)   \n**Reward:** [Paraglider](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279264)",
+        latitude: "0.70796714669380",
+        longitude: "-0.71076996624703",
+        media: [
+          {
+            title: "",
+            fileName: "7803ebed-605d-4679-adca-1c85d825fdc9.jpg",
+            url: "https://media.mapgenie.io/storage/media/7803ebed-605d-4679-adca-1c85d825fdc9.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "uJwA0CTOGmE",
+            url: "https://youtu.be/uJwA0CTOGmE",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Find Princess Zelda",
+        description:
+          "**How to Begin:** Awaken the Steward Construct by interacting with it.  \n**Requirements:** None  \n**Reward:** ??",
+        latitude: "1.00407704611320",
+        longitude: "-0.68859992253707",
+        media: [
+          {
+            title: "",
+            fileName: "a36d9b36-e5da-4a3d-8a44-eb5b05bfac58.jpg",
+            url: "https://media.mapgenie.io/storage/media/a36d9b36-e5da-4a3d-8a44-eb5b05bfac58.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Find Princess Zelda",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-find-princess-zelda",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Closed Door",
+        description:
+          "**How to Begin:** Try to enter the Temple of Time.   \n**Requirements:** Start [Find Princess Zelda](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279105)   \n**Reward:** Entry into the Temple of Time.",
+        latitude: "1.01902878886230",
+        longitude: "-0.68853110074872",
+        media: [
+          {
+            title: "",
+            fileName: "f2090184-aea6-466a-8895-0cc4a60cdfe4.jpg",
+            url: "https://media.mapgenie.io/storage/media/f2090184-aea6-466a-8895-0cc4a60cdfe4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough The Closed Door",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-the-closed-door",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Restoring the Zora Armor",
+        description:
+          "**How to Begin:** Speak with Yona.  \n**Requirements:** Complete [The Sludge-Covered Statue](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279574).  \n**Reward:** Zora Armor",
+        latitude: "0.71997178212460",
+        longitude: "-0.59651121497177",
+        media: [
+          {
+            title: "",
+            fileName: "4fd77d87-688d-439b-acd0-a651e277f893.png",
+            url: "https://media.mapgenie.io/storage/media/4fd77d87-688d-439b-acd0-a651e277f893.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tulin of Rito Village",
+        description:
+          "**How to Begin:** Speak with Teba.  \n**Requirements:** Started [Regional Phenomena](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277708).  \n**Reward:** [Vow of Tulin](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279571)",
+        latitude: "0.76109197509179",
+        longitude: "-0.81889316439671",
+        media: [
+          {
+            title: "",
+            fileName: "9933a034-7c84-4a29-a957-0ae558816e9c.png",
+            url: "https://media.mapgenie.io/storage/media/9933a034-7c84-4a29-a957-0ae558816e9c.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "YbNWTYQB8PQ",
+            url: "https://youtu.be/YbNWTYQB8PQ",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yunobo of Goron City",
+        description:
+          "**How to Begin:** Speak with the village elder.  \n**Requirements:** Started [Regional Phenomena](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277708)  \n**Reward:** [Vow of Yunobo](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279573)",
+        latitude: "0.78181485491446",
+        longitude: "-0.64995892345871",
+        media: [
+          {
+            title: "",
+            fileName: "9258bb08-5729-4232-b521-67dfbec9c805.png",
+            url: "https://media.mapgenie.io/storage/media/9258bb08-5729-4232-b521-67dfbec9c805.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Yunobo Of Goron City",
+            fileName: "",
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-yunobo-of-goron-city",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Sludge-Covered Statue",
+        description:
+          "**How to Begin:** Speak with a villager in Zora's Domain.  \n**Requirements:** Started [Regional Phenomena](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277708).  \n**Reward:** None",
+        latitude: "0.71748422899397",
+        longitude: "-0.59715762734447",
+        media: [
+          {
+            title: "",
+            fileName: "512f01e8-fcd4-4b39-b1bc-07a7aaba9de8.png",
+            url: "https://media.mapgenie.io/storage/media/512f01e8-fcd4-4b39-b1bc-07a7aaba9de8.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "HOnHr3y8TNw",
+            url: "https://youtu.be/HOnHr3y8TNw?t=130",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Riju of Gerudo Town",
+        description:
+          "**How to Begin:** Speak with the villagers in the underground shelter.  Use the [Gerudo Shelter Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279350) to access the hideout.  \n**Requirements:** Started [Regional Phenomena](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277708).  \n**Reward:** [Vow of Riju](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279577)",
+        latitude: "0.60750292379635",
+        longitude: "-0.82787521183488",
+        media: [
+          {
+            title: "",
+            fileName: "8b9df270-d54c-4f21-8b79-b584a3f6635a.png",
+            url: "https://media.mapgenie.io/storage/media/8b9df270-d54c-4f21-8b79-b584a3f6635a.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "-quuqrJ6pdM",
+            url: "https://youtu.be/-quuqrJ6pdM",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trail of the Master Sword",
+        description:
+          "**How to Begin:** Automatic upon fulfulling the requirements.\n**Requirements:** Complete [Guidance From Ages Past](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287480)\n**Reward:** Location of the [Master Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279408)",
+        latitude: "0.27659793166037",
+        longitude: "-0.65762428836615",
+        media: [
+          {
+            title: "",
+            fileName: "e420ad2d-64cc-460f-b28d-3767f4bb2c62.jpg",
+            url: "https://media.mapgenie.io/storage/media/e420ad2d-64cc-460f-b28d-3767f4bb2c62.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "xwdv_8HLhBA",
+            url: "https://youtu.be/xwdv_8HLhBA",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Guidance From Ages Past",
+        description:
+          "**How to Begin:** Activate the Owl Mask behind the Heart Door north of [Joku-u Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278359). The heart door is located in the same room as the shrine.  \n**Requirements:** Complete [Secret of the Ring Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290118)\n**Reward:** [Vow of Mineru, Sage of Spirit](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290057)",
+        latitude: "0.94138368380408",
+        longitude: "-0.65918961080466",
+        media: [
+          {
+            title: "",
+            fileName: "63e65583-7eb3-4377-8b58-b3b722b65a88.png",
+            url: "https://media.mapgenie.io/storage/media/63e65583-7eb3-4377-8b58-b3b722b65a88.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "vdju7WE4em0",
+            url: "https://youtu.be/vdju7WE4em0",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Find the Fifth Sage",
+        description:
+          "**How to Begin:** Speak with Purah.  \n**Requirements:** Advance [Crisis at Hyrule Castle](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277854) until after the first boss fight within Hyrule Castle.  \n**Reward:** None",
+        latitude: "0.70801303758781",
+        longitude: "-0.71020733208446",
+        media: [
+          {
+            title: "",
+            fileName: "c9d3c8c0-bf54-407b-b0ac-8033ff4da71d.png",
+            url: "https://media.mapgenie.io/storage/media/c9d3c8c0-bf54-407b-b0ac-8033ff4da71d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "uCK1vxe5ImI",
+            url: "https://youtu.be/uCK1vxe5ImI",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Secret of the Ring Ruins",
+        description:
+          "**How to Begin:** Speak with Tauro  \n**Requirements:** Start [Find the Fifth Sage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290117)  \n**Reward:** None",
+        latitude: "0.67228734624303",
+        longitude: "-0.64468182953457",
+        media: [
+          {
+            title: "",
+            fileName: "939acd28-738f-4c88-babf-7e8891a71e39.png",
+            url: "https://media.mapgenie.io/storage/media/939acd28-738f-4c88-babf-7e8891a71e39.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title: "",
+            fileName: "b7cDKmLj3Ww",
+            url: "https://youtu.be/b7cDKmLj3Ww",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Recovering the Master Sword",
+        description:
+          "**How to Begin:** Speak with the Deku Tree  \n**Requirements:** Complete [Trail of the Master Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287479)  \n**Reward:** [Master Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279408)",
+        latitude: "0.77319666399605",
+        longitude: "-0.68865842814889",
+        media: [
+          {
+            title: "",
+            fileName: "f5dffd41-07e8-49f6-b029-92d2f6e77a0d.jpg",
+            url: "https://media.mapgenie.io/storage/media/f5dffd41-07e8-49f6-b029-92d2f6e77a0d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "xwdv_8HLhBA",
+            url: "https://youtu.be/xwdv_8HLhBA",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Destroy Ganondorf",
+        description:
+          "**How to Begin:** Obtain the [Master Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279408)  \n**Requirements:** Complete [Recovering the Master Sword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290119)  \n**Reward:** Game completion!",
+        latitude: "0.79507262522168",
+        longitude: "-0.75941920280566",
+        media: [
+          {
+            title: "",
+            fileName: "4be791f4-ca99-4c18-b9ab-83d680d8ca78.jpg",
+            url: "https://media.mapgenie.io/storage/media/4be791f4-ca99-4c18-b9ab-83d680d8ca78.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "",
+            fileName: "_OWbTdIPsZo",
+            url: "https://youtu.be/_OWbTdIPsZo",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_quests",
+    title: "Main Quest",
+  },
   { locations: [], groupSlug: "totk_quests", title: "Memory" },
   { locations: [], groupSlug: "totk_quests", title: "Shrine Quest" },
   { locations: [], groupSlug: "totk_quests", title: "Side Adventure" },
   { locations: [], groupSlug: "totk_quests", title: "Side Quest" },
-  { locations: [], groupSlug: "totk_enemies", title: "Dragon" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Farosh, Lightning Dragon",
+        description:
+          "**Location:** Flies clockwise between [East Gerudo Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276837) and [Hills of Baumer Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277280) (and completes the circle in The Depths)",
+        latitude: "0.62556454405789",
+        longitude: "-0.74741363525433",
+        media: [
+          {
+            title: "2023050821452500_c",
+            fileName: "68e62455-ce3a-4a9c-9ad4-c5d0f2c9e384.jpg",
+            url: "https://media.mapgenie.io/storage/media/68e62455-ce3a-4a9c-9ad4-c5d0f2c9e384.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Light Dragon",
+        description:
+          "**Location:** Circles the entire map high in the sky (passes all the Geoglyphs)",
+        latitude: "0.79536744382065",
+        longitude: "-0.75964450836159",
+        media: [
+          {
+            title: "",
+            fileName: "fb54d94a-1748-4930-a001-5cae71702c2e.jpg",
+            url: "https://media.mapgenie.io/storage/media/fb54d94a-1748-4930-a001-5cae71702c2e.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dinraal, Fire Dragon",
+        description:
+          "**Location:** Flies from east to west along the coast north coast between [East Akkala Plains Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277435) and [Drenan Highlands Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276850) (and repeats the cycle in the Depths)",
+        latitude: "0.81915225478738",
+        longitude: "-0.60551398840914",
+        media: [
+          {
+            title: "",
+            fileName: "165d5489-8df6-4447-b4f8-1d29ff03944b.jpg",
+            url: "https://media.mapgenie.io/storage/media/165d5489-8df6-4447-b4f8-1d29ff03944b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Naydra, Frost Dragon",
+        description:
+          "**Location:** Flies in a clockwise circle between [Naydra Snowfield Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277045) and [East Hill Chasm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276827) - and completes the cycle in The Depths",
+        latitude: "0.64829987264856",
+        longitude: "-0.58319219646927",
+        media: [
+          {
+            title: "",
+            fileName: "90a38606-6445-4192-aac1-4f1e01cd3138.jpg",
+            url: "https://media.mapgenie.io/storage/media/90a38606-6445-4192-aac1-4f1e01cd3138.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Dragon",
+  },
   { locations: [], groupSlug: "totk_enemies", title: "Enemy Camp" },
   { locations: [], groupSlug: "totk_enemies", title: "Flux Construct" },
   { locations: [], groupSlug: "totk_enemies", title: "Frox" },
@@ -41288,7 +52258,1199 @@ export const markerCategories = [
   { locations: [], groupSlug: "totk_enemies", title: "Wizzrobe" },
   { locations: [], groupSlug: "totk_enemies", title: "Yiga" },
   { locations: [], groupSlug: "totk_enemies", title: "Zonai" },
-  { locations: [], groupSlug: "totk_other", title: "Cave Entrance" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Mining Cave Entrance",
+        latitude: "0.99375622096724",
+        longitude: "-0.69090686738539",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mining Cave Entrance",
+        description:
+          "**Associated Cave:** [Mining Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279223)",
+        latitude: "0.99397076540713",
+        longitude: "-0.68738780915757",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pit Cave Entrance",
+        description:
+          "**Associated Cave:** [Pit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279224)",
+        latitude: "0.99398484488276",
+        longitude: "-0.68420067429480",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pit Cave Entrance",
+        description:
+          "**Associated Cave:** [Pit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279224)",
+        latitude: "0.99351284710103",
+        longitude: "-0.68275161087655",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bottomless Cave Entrance",
+        description:
+          "**Associated Cave:** [Bottomless Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279226)",
+        latitude: "0.99964881302711",
+        longitude: "-0.68018741905766",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bottomless Cave Entrance",
+        description:
+          "**Associated Cave:** [Bottomless Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279226)",
+        latitude: "1.00260415616180",
+        longitude: "-0.67930631339678",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Popla Foothills Excavation Site",
+        description: "**Location:** ??",
+        latitude: "0.63185087240491",
+        longitude: "-0.68347231299319",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meadela's Mantle Cave",
+        description: null,
+        latitude: "0.66301050294391",
+        longitude: "-0.83126897421641",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sahasra Slope Cave Entrance",
+        description:
+          "**Associated Cave:** [Sahasra Slope Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277033)",
+        latitude: "0.66451177323368",
+        longitude: "-0.65891683101538",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sahasra Slope Cave Entrance",
+        description:
+          "**Associated Cave:** [Sahasra Slope Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277033)",
+        latitude: "0.66608075972833",
+        longitude: "-0.66028207540384",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ploymus Mountain Cave Entrance",
+        description:
+          "**Associated Cave:** [Ploymus Mountain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277051)",
+        latitude: "0.72023103632473",
+        longitude: "-0.58538465573545",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pristine Sanctum Cave Entrance",
+        description:
+          "**Associated Cave:** [Pristine Sanctum](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277454)\r\n\r\nLocated at the base of the waterfall in Lulu Lake. A small stream of water will flow down into the cave.",
+        latitude: "0.72270071351397",
+        longitude: "-0.58372244238893",
+        media: [
+          {
+            title: "2023050416291200_c",
+            fileName: "94dfa5fe-00ff-43e8-8d6f-dee684abfd52.jpg",
+            url: "https://media.mapgenie.io/storage/media/94dfa5fe-00ff-43e8-8d6f-dee684abfd52.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pristine Sanctum Cave Entrance",
+        description:
+          "**Associated Cave:** [Pristine Sanctum](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277454)\r\n\r\nBehind the waterfall",
+        latitude: "0.72208005561129",
+        longitude: "-0.58622536363310",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra South Summit Cave Entrance",
+        description:
+          "**Associated Cave:** [Hebra South Summit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277471)",
+        latitude: "0.78359011002360",
+        longitude: "-0.81215413496778",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra South Summit Cave Entrance",
+        description:
+          "**Associated Cave:** [Hebra South Summit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277471)",
+        latitude: "0.78487709721918",
+        longitude: "-0.80696548186918",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Hyrule Plain Cave Entrance",
+        description:
+          "**Associated Cave:** [North Hyrule Plain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277712)",
+        latitude: "0.72350799413348",
+        longitude: "-0.74127607047467",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Hyrule Plain Cave Entrance",
+        description:
+          "**Associated Cave:** [North Hyrule Plain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277712)",
+        latitude: "0.72790529276595",
+        longitude: "-0.74288300974786",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Great Plateau Foothill Cave Entrance",
+        description:
+          "**Associated Cave:** [Great Plateau Foothill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277823)\n\n**Location:** Ground level - at the base of the ruins, by the path",
+        latitude: "0.65531374754819",
+        longitude: "-0.72990149259570",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Peak Cave Entrance",
+        description:
+          "**Associated Cave:** [Crenel Peak Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277820)",
+        latitude: "0.71388708351158",
+        longitude: "-0.66017437495410",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "YunoboCo HQ East Cave Entrance",
+        description:
+          "**Associated Cave:** [RoboCo HQ East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277829)\n\n**Note:** You'll need to break the red rock barrier using Yunobo's ability",
+        latitude: "0.79432952881565",
+        longitude: "-0.64642846584232",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "YunoboCo HQ South Cave Entrance",
+        description:
+          "**Associated Cave:** [YunoboCo HQ South Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277836)",
+        latitude: "0.79054678095419",
+        longitude: "-0.64793586730946",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pico Pond Cave Entrance",
+        description:
+          "**Associated Cave:** [Pico Pond Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277848)",
+        latitude: "0.74263527251553",
+        longitude: "-0.66354833543272",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calora Lake Cave Entrance",
+        description: "**Associated Cave:** ??",
+        latitude: "0.60124951430932",
+        longitude: "-0.63846921479191",
+        media: [
+          {
+            title: "2023050722591300_c",
+            fileName: "f29d78f9-675d-469f-8455-4fdb92bb89cd.jpg",
+            url: "https://media.mapgenie.io/storage/media/f29d78f9-675d-469f-8455-4fdb92bb89cd.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Atun Valley Cave Entrance",
+        description:
+          "**Associated Cave:** [Atun Valley Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278001)",
+        latitude: "0.60029907113120",
+        longitude: "-0.62418079544506",
+        media: [
+          {
+            title: "2023050723102300_c",
+            fileName: "c8507871-4713-4596-abf7-166fa6dc3ff3.jpg",
+            url: "https://media.mapgenie.io/storage/media/c8507871-4713-4596-abf7-166fa6dc3ff3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Dunsel Cave Entrance",
+        description:
+          "**Associated Cave:** [Mount Dunsel Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278019)\r\n\r\nSwim through the pond to access.",
+        latitude: "0.59683506683456",
+        longitude: "-0.59720417689306",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Dunsel Cave Entrance",
+        description:
+          "**Associated Cave:** [Mount Dunsel Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278019)",
+        latitude: "0.60581212184702",
+        longitude: "-0.59935556682265",
+        media: [
+          {
+            title: "2023050800050000_c",
+            fileName: "c133d301-9e86-4bad-a7d0-32d452100ac8.jpg",
+            url: "https://media.mapgenie.io/storage/media/c133d301-9e86-4bad-a7d0-32d452100ac8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tarrey Town Tunnel Entrance",
+        description:
+          "**Associated Cave:** [Tarrey Town Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278091)",
+        latitude: "0.75388426514397",
+        longitude: "-0.57684991875368",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oakle's Navel Cave Entrance",
+        description:
+          "**Associated Cave:** [Oakle's Navel Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278116)",
+        latitude: "0.63564667431433",
+        longitude: "-0.62228844559837",
+        media: [
+          {
+            title: "2023050820242300_c",
+            fileName: "658c6afa-b8e9-45d9-bcf4-7844b112e465.jpg",
+            url: "https://media.mapgenie.io/storage/media/658c6afa-b8e9-45d9-bcf4-7844b112e465.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain East Tunnel Entrance",
+        description:
+          "**Associated Cave:** [Death Mountain East Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278221)",
+        latitude: "0.79241622005524",
+        longitude: "-0.61476328112053",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain West Tunnel Entrance",
+        description:
+          "**Associated Cave:** [Death Mountain West Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278326)",
+        latitude: "0.78954682131595",
+        longitude: "-0.63123944344818",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pondside Cave Entrance",
+        description:
+          "**Associated Cave:** [Pondside Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279219)",
+        latitude: "0.99367710770068",
+        longitude: "-0.69779343903178",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pondside Cave Entrance",
+        description:
+          "**Associated Cave:** [Pondside Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279219)",
+        latitude: "0.99623493989614",
+        longitude: "-0.69459419832378",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Passeri Greenbelt Cave Entrance",
+        description:
+          "**Associated Cave:** [Passeri Greenbelt Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279579)",
+        latitude: "0.70735888121730",
+        longitude: "-0.71959485369985",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koukot Plateau Cave Entrance",
+        description:
+          "**Associated Cave:** [Koukot Plateau Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279613)",
+        latitude: "0.64374581746428",
+        longitude: "-0.77313629756149",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koukot Plateau Cave Entrance",
+        description:
+          "**Associated Cave:** [Koukot Plateau Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279613)",
+        latitude: "0.64674970106551",
+        longitude: "-0.77592579493697",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lower Spectacle Rock Cave Entrance",
+        description:
+          "**Associated Cave:** [Lower Spectacle Rock Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279628)",
+        latitude: "0.62598497176862",
+        longitude: "-0.75927527225221",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shrine of Resurrection Entrance",
+        description: "**Associated Cave:** Shrine of Resurrection",
+        latitude: "0.64464481352330",
+        longitude: "-0.73721818806476",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Byroad Entrance",
+        description:
+          "**Associated Cave:** [Upland Zorana Byroad ](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281819)",
+        latitude: "0.71413948792322",
+        longitude: "-0.61099357346373",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Crenel Peak Cave Entrance",
+        description:
+          "**Associated Cave:** [Crenel Peak Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277820)",
+        latitude: "0.71098143083690",
+        longitude: "-0.66649405226050",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bon\u00e9 Pond East Cave Entrance",
+        description:
+          "**Associated Cave:** [Bon\u00e9 Pond East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279756)",
+        latitude: "0.70364006614225",
+        longitude: "-0.63061487985045",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bon\u00e9 Pond East Cave Entrance",
+        description:
+          "**Associated Cave:** [Bon\u00e9 Pond East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279756)\n\n**Location:** High up on the side of the mountain, guarded by enemies",
+        latitude: "0.70665722226470",
+        longitude: "-0.63170940174185",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Woods Cave Entrance",
+        description:
+          "**Associated Cave:** [Tabahl Woods Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279778)\n\n**Location:** Nestled in the rock-covered path",
+        latitude: "0.71236212552683",
+        longitude: "-0.61668237406455",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tarm Point Cave Entrance",
+        description:
+          "**Associated Cave:** [Tarm Point Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279803)",
+        latitude: "0.67644983971455",
+        longitude: "-0.55916968046338",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Brightcap Cave Entrance",
+        description:
+          "**Associated Cave:** [Brightcap Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279995)",
+        latitude: "0.75586748974322",
+        longitude: "-0.79980120063021",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Talonto Peak Cave Entrance",
+        description:
+          "**Associated Cave:** [Talonto Peak Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280047)",
+        latitude: "0.78231034686658",
+        longitude: "-0.80666899681106",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Hills Cave Entrance",
+        description:
+          "**Associated Cave:** [Tabantha Hills Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280103)",
+        latitude: "0.76002970806661",
+        longitude: "-0.79459594138842",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rospro Pass Cave Entrance",
+        description:
+          "**Associated Cave:** [Rospro Pass Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280282)",
+        latitude: "0.78295949552133",
+        longitude: "-0.81795486332544",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kopeeki Drifts Cave Entrance",
+        description:
+          "**Associated Cave:** [Kopeeki Drifts Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280387)",
+        latitude: "0.77634980052412",
+        longitude: "-0.78018212857017",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rauru Hillside Cave Entrance",
+        description:
+          "**Associated Cave:** [Rauru Hillside Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281961)",
+        latitude: "0.74766650474720",
+        longitude: "-0.68148864675669",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deplian Badlands Cave Entrance",
+        description:
+          "**Associated Cave:** [Deplian Badlands Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280399)",
+        latitude: "0.81840469609643",
+        longitude: "-0.69323750811558",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Mountains Northwest Cave",
+        description:
+          "**Associated Cave:** [Hebra Mountains Northwest Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280276)",
+        latitude: "0.80648626373488",
+        longitude: "-0.79964172726161",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Lake Totori Cave Entrance",
+        description:
+          "**Associated Cave:** [West Lake Totori Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279660)\n\n**Location:** Tucked into the mountainside above the path below",
+        latitude: "0.76838536342659",
+        longitude: "-0.83063468844063",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tanagar Cave Entrance",
+        description:
+          "**Associated Cave:** [Tanagar Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280456)",
+        latitude: "0.75583650640465",
+        longitude: "-0.76889398132460",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Biron Snowshelf Cave Entrance",
+        description:
+          "**Associated Cave:** [North Biron Snowshelf Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280464)\n\nMelt the massive ice block to gain entry.",
+        latitude: "0.80761170873667",
+        longitude: "-0.83072764287701",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sturnida Springs Cave Entrance",
+        description:
+          "**Associated Cave:** [Sturnida Springs Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280478)",
+        latitude: "0.78925847924834",
+        longitude: "-0.83364007254900",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ranch Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ranch Ruins Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279553)",
+        latitude: "0.69657267522355",
+        longitude: "-0.70211385742590",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pikida Stonegrove Northwest Cave Entrance",
+        description:
+          "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** Deepest part of the cave in the flight room. Destroy the rocks facing east on the way up. Inside the small room  \n**Inside the Cave:**\n- ??",
+        latitude: "0.80837100393595",
+        longitude: "-0.78843259683302",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thundra Plateau Cave Entrance",
+        description:
+          "How to open - [Column](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280861)\n\n**Associated Cave:** [Thundra Plateau Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280862)",
+        latitude: "0.73206153913563",
+        longitude: "-0.77616088092506",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Coliseum Ruins Cave Entrance",
+        description:
+          "How to Open - In the back of the Coliseum on the bottom floor there is a small indent in the ground, behind that is a swordsman with no sword. Put the sword to the right of him in his hand.\n\n**Associated Cave:** [Coliseum Ruins Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280866)",
+        latitude: "0.66090004326429",
+        longitude: "-0.74112200657513",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Statue of the Eighth Heroine Cave Entrance",
+        description:
+          "Use a Mirror to reflect the light and open the gate\n\n**Associated Cave:** [Statue of the Eighth Heroine Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280871)",
+        latitude: "0.68642657996676",
+        longitude: "-0.84381289780225",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cape Cales Cliffbase Cave Entrance",
+        description:
+          "Whistle to open the door\n\n**Associated Cave:** [Cape Cales Cliffbase Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280873)\n\n**Coordinates:** 3650,3211,0000",
+        latitude: "0.59949928164133",
+        longitude: "-0.58666998557814",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Byroad to Lanayru Wetlands Cave Entrance",
+        description:
+          "**Associated Cave:** [Byroad to Lanayru Wetlands](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281202)",
+        latitude: "0.66244779465528",
+        longitude: "-0.65086369231028",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Walnot Mountain Cave Entrance",
+        description:
+          "**Associated Cave:** [Walnot Mountain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279728)",
+        latitude: "0.63624165917058",
+        longitude: "-0.57712964353815",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Walnot Mountain Cave Entrance",
+        description:
+          "**Associated Cave:** [Walnot Mountain Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279728)",
+        latitude: "0.64723916760862",
+        longitude: "-0.56728587395895",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Ferona Cave Entrance",
+        description:
+          "**Associated Cave:** [Lake Ferona Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282529)",
+        latitude: "0.74428509995590",
+        longitude: "-0.64101321728077",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Docks Entrance",
+        description:
+          "Enter here to access the [Docks](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281046)\n\n**Note:** Not marked as an entrance or cave on the in-game map - but runs underground.",
+        latitude: "0.73959848359270",
+        longitude: "-0.71288913137124",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Southern Mine Entrance",
+        description: "**Associated Cave:** Southern Mine Cave",
+        latitude: "0.76691558156058",
+        longitude: "-0.64511208793755",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gorko Tunnel Entrance",
+        description:
+          "**Associated Cave:** [Gorko Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281082)",
+        latitude: "0.76889117654268",
+        longitude: "-0.63852161412692",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Biron Snowshelf Cave Entrance",
+        description:
+          "**Associated Cave:** [East Biron Snowshelf Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281623)",
+        latitude: "0.80239259437867",
+        longitude: "-0.81741138918110",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Isle of Rabac Gallery Entrance",
+        description:
+          "**Associated Cave:** [Isle of Rabac Gallery](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282020)",
+        latitude: "0.80316526753843",
+        longitude: "-0.65339397040105",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Hidden Passage Entrance",
+        description:
+          "**Associated Cave:** [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483)\n\nJust inside the Observation Room, use Ultrahand to open the metal floor grate near the base of the stairs. Inside is one of the entrances to the Royal Hidden Passage.",
+        latitude: "0.72779673230043",
+        longitude: "-0.71082007755385",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Mountainside Cave Entrance",
+        description:
+          "**Associated Cave:** [Upland Zorana Mountainside Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281655)",
+        latitude: "0.72004380573350",
+        longitude: "-0.61880583422305",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Mountainside Cave Entrance",
+        description:
+          "**Associated Cave:** [Upland Zorana Mountainside Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281655)",
+        latitude: "0.71985244445673",
+        longitude: "-0.62050970358797",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calora Lake Cave Entrance",
+        description:
+          "**Associated Cave:** [Calora Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277995)",
+        latitude: "0.60494162305015",
+        longitude: "-0.63989057650509",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Docks Entrance",
+        description:
+          "**Associated Cave:** Docks\n\n**Note:** Not marked as an entrance or cave on the in-game map - but runs underground.",
+        latitude: "0.73808049377336",
+        longitude: "-0.70779491872450",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Byroad Entrance",
+        description:
+          "**Associated Cave:** [Upland Zorana Byroad ](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281819)",
+        latitude: "0.71856302714984",
+        longitude: "-0.61622436287183",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ralis Channel Entrance",
+        description:
+          "**Associated Cave:** [Ralis Channel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280974)",
+        latitude: "0.71126466975451",
+        longitude: "-0.60817345976855",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ralis Channel Entrance",
+        description:
+          "**Associated Cave:** [Ralis Channel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280974)",
+        latitude: "0.70856255160078",
+        longitude: "-0.60953468084293",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Open Bridge Cave Entrance",
+        description:
+          "**Associated Cave:** [Open Bridge Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282052)",
+        latitude: "0.70098489378991",
+        longitude: "-0.60953249701822",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road East Cave Entrance",
+        description:
+          "**Associated Cave:** [Lanayru Road East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281188)",
+        latitude: "0.66636907770622",
+        longitude: "-0.60324490070548",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road East Cave Entrance",
+        description:
+          "**Associated Cave:** [Lanayru Road East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281188)",
+        latitude: "0.67221589442202",
+        longitude: "-0.59175699949435",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Maritta Branch Entrance",
+        description:
+          "**Associated Cave:** [Yiga Clan Maritta Branch](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279435)",
+        latitude: "0.76848671548165",
+        longitude: "-0.72379589782780",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sarjon Woods Cave Entrance",
+        description:
+          "**Associated Cave:** [Sarjon Woods Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282073)",
+        latitude: "0.60100510565083",
+        longitude: "-0.66455142083521",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Akkala Beach Cave Entrance",
+        description:
+          "**Associated Cave:** [North Akkala Beach Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280989)",
+        latitude: "0.81839085341126",
+        longitude: "-0.55333146386556",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Akkala Beach Cave Entrance",
+        description:
+          "**Associated Cave:** [North Akkala Beach Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280989)",
+        latitude: "0.80618388450598",
+        longitude: "-0.55353756554932",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Blademaster Station Entrance",
+        description:
+          "**Associated Cave:** [Yiga Blademaster Station](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282170)",
+        latitude: "0.64446354212208",
+        longitude: "-0.78064992570825",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Nabooru Cave Entrance",
+        description:
+          "**Associated Cave:** [Mount Nabooru Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282680)",
+        latitude: "0.63686406136739",
+        longitude: "-0.76649287106613",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Nabooru Cave Entrance",
+        description:
+          "**Associated Cave:** [Mount Nabooru Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282680)",
+        latitude: "0.64005244629081",
+        longitude: "-0.76109962942522",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tanagar Canyon West Cave Entrance",
+        description:
+          "**Associated Cave:** [Tanagar Canyon West Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278229)",
+        latitude: "0.72852457116178",
+        longitude: "-0.80949461617212",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Quicksand Cave Entrance",
+        description:
+          "**Associated Cave:** [Quicksand Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282501)",
+        latitude: "0.60858946591951",
+        longitude: "-0.80742092978787",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Floria Cave Entrance",
+        description:
+          "**Associated Cave:** [Mount Floria Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282162)\n\nHalfway up the cliff.",
+        latitude: "0.61965727592539",
+        longitude: "-0.64031389509566",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Floria Cave Entrance",
+        description:
+          "**Associated Cave:** [Mount Floria Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282162)\n\nBehind the waterfall.",
+        latitude: "0.60627838023971",
+        longitude: "-0.64561622027043",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat East Chasm Entrance",
+        description:
+          "Entrance to **Hyrule Castle Moat East Chasm:**\n\nThe entrance is at water level on the side of the cliff.\n\nThis leads to the chasm going down into the depths' hidden area.",
+        latitude: "0.73046077893952",
+        longitude: "-0.69969548520021",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Foothill Cave Entrance",
+        description:
+          "**Associated Cave:** [Upland Zorana Foothill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283273)",
+        latitude: "0.72443807640039",
+        longitude: "-0.60186729102600",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Whistling Hill Cave",
+        description:
+          "**Associated Cave:** Whistling Cave\n\nDestroy cracked wall at the base of the hill, north of [Teniten Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277024).",
+        latitude: "0.66947754672645",
+        longitude: "-0.70552423596365",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulria Grotto East Cave",
+        description:
+          "**Associated Cave:** [Ulria Grotto East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282158)",
+        latitude: "0.72522633214035",
+        longitude: "-0.55805663547002",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Kilsie Cave Entance",
+        description:
+          "**Associated Cave:** [Lake Kilsie Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280462)  \n**Coordinates:** 3930 2846 -0016",
+        latitude: "0.79420750003226",
+        longitude: "-0.82995392382203",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construction Site Cave Entrance",
+        description:
+          "**Associated Cave:** [Construction Site Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280582)",
+        latitude: "0.75241172154228",
+        longitude: "-0.58273135779396",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construction Site Cave Entrance",
+        description:
+          "**Associated Cave:** [Construction Site Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280582)",
+        latitude: "0.75283011004937",
+        longitude: "-0.58504878638205",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pagos Woods Excavation Site",
+        description:
+          "**Associated Cave:** [Pagos Woods Excavation Site](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282151)",
+        latitude: "0.60309279852288",
+        longitude: "-0.68160790166445",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Sanctuary Cave Entrance (North)",
+        description:
+          "**Associated Cave:** [Gerudo Sanctuary](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282584)",
+        latitude: "0.62521076582489",
+        longitude: "-0.82424293885944",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cora Lakefront Cave Entrance",
+        description:
+          "**Associated Cave:** [Cora Lakefront Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281666)",
+        latitude: "0.60415076844677",
+        longitude: "-0.70855000020109",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rassla Lake Cave Entrance",
+        description:
+          "**Associated Cave:** [Rassla Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284428)",
+        latitude: "0.58312982705445",
+        longitude: "-0.64475255737634",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lizard's Burrow Entrance",
+        description:
+          "**Associated Cave:** [Lizard's Burrow](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280779)",
+        latitude: "0.80220094290739",
+        longitude: "-0.63223094161864",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Mine Entrance",
+        description:
+          "**Associated Cave:** [Gerudo Canyon Mine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282664)",
+        latitude: "0.61917602714621",
+        longitude: "-0.78720123654779",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Mine Entrance",
+        description: "**Associated Cave:**  Gerudo Canyon Mine",
+        latitude: "0.62584701440518",
+        longitude: "-0.78920369484797",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Biron Snowshelf Cave Entrance",
+        description:
+          "**Location:** [East Biron Snowshelf Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281338)",
+        latitude: "0.80227659216601",
+        longitude: "-0.83147612068535",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Restaurant Cave Entrance",
+        description:
+          "**Associated Cave:** [West Restaurant Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277832)",
+        latitude: "0.75867557745771",
+        longitude: "-0.65026119611269",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cephla Lake Cave Entrance",
+        description:
+          "**Associated Cave:** [Cephla Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280697)",
+        latitude: "0.74592944909517",
+        longitude: "-0.62002809594551",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Prison Ruins Entrance",
+        description:
+          "**Associated Cave:** [Ancient Prison Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281621)\n\nFall into the sand sinkhole.",
+        latitude: "0.60448219772609",
+        longitude: "-0.80286338647527",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Horon Lagoon Cave Entrance",
+        description:
+          "**Associated Cave:** [Horon Lagoon](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280514)\n\n**Coordinates:** 4245 -0263 0004",
+        latitude: "0.69466372865115",
+        longitude: "-0.56648625441377",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bon\u00e9 Pond East Cave Entrance",
+        description:
+          "**Associated Cave:** [Bon\u00e9 Pond East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279756)\n\n**Location:** Inside the skull at the top of the mountain, down the hole.",
+        latitude: "0.70653691822680",
+        longitude: "-0.63035078774749",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gisa Crater Cave Entrance",
+        description:
+          "**Associated Cave:** [Gisa Crater Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278230)",
+        latitude: "0.73826430739993",
+        longitude: "-0.82964345812874",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gisa Crater Cave Entrance",
+        description:
+          "**Associated Cave:** [Gisa Crater Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278230)",
+        latitude: "0.73573385255187",
+        longitude: "-0.82757547497766",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulria Gotto South Cave Entrance",
+        description:
+          "**Associated Cave:** [Ulria Grotto South Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284338)",
+        latitude: "0.72409305373655",
+        longitude: "-0.57104970024363",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ulria Grotto East Cave",
+        description:
+          "**Associated Cave:** [Ulria Grotto East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282158)",
+        latitude: "0.72788515197547",
+        longitude: "-0.56578399373530",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Upland Zorana Summit Cave Entrance",
+        description:
+          "**Associated Cave:** [Upland Zorana Summit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278101)",
+        latitude: "0.71851242226585",
+        longitude: "-0.61089915108363",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Woods Cave Entrance",
+        description:
+          "**Associated Cave:** [Tabahl Woods Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279778)",
+        latitude: "0.71013069956460",
+        longitude: "-0.61692137977226",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bon\u00e9 Pond East Cave Entrance [North]",
+        description:
+          "**Associated Cave:** [Bon\u00e9 Pond East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279756)",
+        latitude: "0.70764167833237",
+        longitude: "-0.63278357780007",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Entrance to Rito Village Chasm",
+        description:
+          "**Cave Entrances:** -3600, 1763, 0134\n\nIt's a small opening up on the cliffside, closer to the top. Not at the bottom.",
+        latitude: "0.75957760257478",
+        longitude: "-0.81915888140551",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Drena Foothill Cave Entrance",
+        description: null,
+        latitude: "0.79528072732954",
+        longitude: "-0.74774334256927",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Sanctuary Cave Entrance (South)",
+        description:
+          "**Associated Cave:** [Gerudo Sanctuary](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282584)",
+        latitude: "0.61626323127885",
+        longitude: "-0.82429801192728",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Valley of Silent Statues Cave Entrance",
+        description: null,
+        latitude: "0.61782480748248",
+        longitude: "-0.82621878001387",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58635403862729",
+        longitude: "-0.78470087310296",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58598927729135",
+        longitude: "-0.78628874083998",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58370875671937",
+        longitude: "-0.78699952372628",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58257397950385",
+        longitude: "-0.78585714140317",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58179081490259",
+        longitude: "-0.78455895223988",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58489102299019",
+        longitude: "-0.78206945321517",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58367899238633",
+        longitude: "-0.78286379614261",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58217703307479",
+        longitude: "-0.78298181333855",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58486956643574",
+        longitude: "-0.78417230508211",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58459698274817",
+        longitude: "-0.78567879294636",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ancient Altar Ruins Cave Entrance",
+        description:
+          "**Associated Cave:** [Ancient Altar Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280847)",
+        latitude: "0.58630715538072",
+        longitude: "-0.78295994660769",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Komo Shoreline Cave Entrance",
+        description:
+          "**Associated Cave:** [Komo Shoreline Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281708)",
+        latitude: "0.57986075862978",
+        longitude: "-0.68766181299829",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hebra Headspring Cave Entrance",
+        description:
+          "**Associated Cave:** [Hebra Headspring Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280710)",
+        latitude: "0.78379470780560",
+        longitude: "-0.79629385715373",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Skull Lake Cave Entrance",
+        description:
+          "**Associated Cave:** [Skull Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280701)\n\nAt the top of the pillar",
+        latitude: "0.81317852263911",
+        longitude: "-0.59593084326695",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road South Cave Entrance",
+        description:
+          "**Associated Cave:** [Lanayru Road South Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282358)",
+        latitude: "0.66175538097502",
+        longitude: "-0.61707168575990",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Woods Cave Entrance",
+        description:
+          "**Associated Cave:** [Tabahl Woods Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279778)",
+        latitude: "0.71036367280682",
+        longitude: "-0.61932958383593",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Death Mountain Foothill Cave Entrance",
+        description:
+          "**Associated Cave:** [Death Mountain Foothill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281064)",
+        latitude: "0.78960737983974",
+        longitude: "-0.64007993229700",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goronbi River Cave Entrance",
+        description:
+          "**Associated Cave:** [Goronbi River Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280705)",
+        latitude: "0.77035628823035",
+        longitude: "-0.65744995577842",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Foothill Monster Den Cave Entrance",
+        description:
+          "**Associated Cave:** [Foothill Monster Den](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282019)",
+        latitude: "0.75191398998408",
+        longitude: "-0.63021672422227",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal Hidden Passage Entrance",
+        description:
+          "**Associated Cave:** [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483)  \n**Location:** In the bunker, in the middle of the square",
+        latitude: "0.70719971299233",
+        longitude: "-0.71129032716300",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Retsam Forest Cave Entrance",
+        description:
+          "**Associated Cave:** [Retsam Forest Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278227)\n\nA second entrance to the cave, behind some rocks.",
+        latitude: "0.63655825193638",
+        longitude: "-0.58247944730718",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Cave Entrance",
+  },
   { locations: [], groupSlug: "totk_other", title: "Cooking Pot" },
   { locations: [], groupSlug: "totk_other", title: "Easter Egg" },
   { locations: [], groupSlug: "totk_other", title: "Falling Platform" },

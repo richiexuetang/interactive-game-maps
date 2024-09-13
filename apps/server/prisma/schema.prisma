@@ -69,12 +69,13 @@ model Region {
 }
 
 model SubRegion {
-  id             Int     @id @default(autoincrement())
+  id             Int                     @id @default(autoincrement())
   name           String
   latitude       Decimal
   longitude      Decimal
-  parentRegion   Region? @relation(fields: [parentRegionId], references: [id])
+  parentRegion   Region?                 @relation(fields: [parentRegionId], references: [id])
   parentRegionId Int?
+  polygon        Unsupported("POLYGON")?
 }
 
 model MarkerGroup {
