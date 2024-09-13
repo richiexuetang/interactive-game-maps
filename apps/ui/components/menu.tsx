@@ -1,7 +1,6 @@
 import { MarkerGroup, MarkerLocation } from "@/app/__generated__/graphql";
-import { hiddenCategoriesAtom } from "@/store/category";
-import { hiddenGroupsAtom } from "@/store/group";
-import { showMarkerAtom } from "@/store/marker";
+import { hiddenCategoriesAtom } from "@/src/store/category";
+import { showMarkerAtom } from "@/src/store/marker";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useAtom, useAtomValue } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
@@ -10,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@nextui-org/theme";
 import { Divider } from "@nextui-org/react";
-import { regionsAtom } from "@/store/region";
+import { regionsAtom } from "@/src/store/region";
 import { buttonVariants } from "./ui/button";
 import React from "react";
 import {
@@ -31,7 +30,6 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
 
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-  const [hiddenGroups, setHiddenGroups] = useAtom(hiddenGroupsAtom);
   const currentRegions = useAtomValue(regionsAtom);
 
   const toggleShowMarker = () => {
@@ -54,15 +52,6 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
       );
     } else {
       setHiddenCategories((prev) => [...prev, category]);
-    }
-  };
-
-  const handleHideGroup = (group: string) => {
-    if (hiddenGroups.includes(group)) {
-      const newGroups = hiddenGroups.filter((group) => group != group);
-      setHiddenGroups(newGroups);
-    } else {
-      setHiddenGroups((prev) => [...prev, group]);
     }
   };
 
@@ -143,12 +132,7 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
 
               return (
                 <React.Fragment key={group.id}>
-                  <h1
-                    className="text-lg uppercase w-full"
-                    onClick={() => handleHideGroup(group.title)}
-                  >
-                    {group.title}
-                  </h1>
+                  <h1 className="text-lg uppercase w-full">{group.title}</h1>
                   <div key={group.title} className="grid grid-cols-2 gap-2">
                     {group.categories?.map((category) => {
                       const count = markers?.filter(

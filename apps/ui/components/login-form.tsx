@@ -1,10 +1,8 @@
 "use client";
 
-import { authenticate } from "@/lib/actions";
 import { Button } from "@/components/ui/button";
 import {
   ArrowRightIcon,
-  ExclamationTriangleIcon as ExclamationCircleIcon,
   AccessibilityIcon as AtSymbolIcon,
   KeyboardIcon as KeyIcon,
 } from "@radix-ui/react-icons";

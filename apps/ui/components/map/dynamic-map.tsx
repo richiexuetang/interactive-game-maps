@@ -8,7 +8,7 @@ import "@/leaflet/smooth-wheel-zoom";
 import { MarkerLocation, Region } from "@/app/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { useAtom } from "jotai";
-import { regionsAtom } from "@/store/region";
+import { regionsAtom } from "@/src/store/region";
 
 const { MapContainer } = ReactLeaflet;
 

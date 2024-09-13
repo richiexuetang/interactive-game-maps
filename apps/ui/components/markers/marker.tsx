@@ -22,6 +22,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Media } from "@/app/__generated__/graphql";
 
 export const Marker = ({
   title,
@@ -116,10 +117,11 @@ export const Marker = ({
           {description ? <Divider /> : null}
           <CardContent className="leading-5">
             {media.length > 0 &&
-              media.map((m: any) => (
+              media.map((m: Media) => (
                 <Image
-                  src={m.url}
-                  alt={m.url}
+                  key={m.url}
+                  src={m.url!}
+                  alt={m.url!}
                   width={300}
                   height={300}
                   className="py-3"

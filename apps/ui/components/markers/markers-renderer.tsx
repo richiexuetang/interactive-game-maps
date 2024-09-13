@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Marker } from "./marker";
 import { useAtomValue } from "jotai";
-import { showMarkerAtom } from "@/store/marker";
-import { hiddenCategoriesAtom } from "@/store/category";
+import { showMarkerAtom } from "@/src/store/marker";
+import { hiddenCategoriesAtom } from "@/src/store/category";
 
 export const MarkerRenderer = ({ markers, gameSlug }: any) => {
   const showMarker = useAtomValue(showMarkerAtom);
