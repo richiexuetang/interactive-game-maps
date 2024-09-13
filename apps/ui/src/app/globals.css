@@ -59,6 +59,299 @@
   border: none !important;
 }
 
+.leaflet-popup-content ul {
+  list-style: circle;
+}
+
+.leaflet-popup-content li {
+  margin-left: 10px;
+}
+
+.leaflet-popup-content p {
+  margin: 16px 0 !important;
+}
+
+/*  Witcher 3 */
+.abandoned_site {
+  background-position: 0 0;
+}
+
+.bandit_camp {
+  background-position: -132px -0px;
+
+}
+
+.contract {
+  background-position: -66px -44px;
+
+}
+
+.entrance {
+  background-position: -132px -44px;
+
+}
+
+.guarded_treasure {
+  background-position: -231px -44px;
+
+}
+
+.hanse_base {
+  background-position: -132px -86px;
+
+}
+
+.harbor {
+  background-position: -165px -86px;
+
+}
+
+.knight_in_distress {
+  background-position: -66px -132px;
+
+}
+
+.lebioda_monument {
+  background-position: -99px -132px;
+
+}
+
+.magic_lamp {
+  background-position: -132px -132px;
+
+}
+
+.monster_den {
+  background-position: -231px -132px;
+
+}
+
+.monster_nest {
+  background-position: 0 -176px;
+
+}
+
+.notice_board {
+  background-position: -66px -176px;
+
+}
+
+.person_in_distress {
+  background-position: -165px -176px;
+
+}
+
+.place_of_power {
+  background-position: -198px -176px;
+
+}
+
+.point_of_interest {
+  background-position: -231px -176px;
+
+}
+
+.portal {
+  background-position: 0 -220px;
+
+}
+
+.signal_fire {
+  background-position: -231px -220px;
+
+}
+
+.signpost {
+  background-position: 0 -264px;
+
+}
+
+.smugglers_cache {
+  background-position: -33px -264px;
+
+}
+
+.spoils_of_war {
+  background-position: -66px -264px;
+
+}
+
+.stash {
+  background-position: -99px -264px;
+
+}
+
+.vineyard_infestation {
+  background-position: -165px -264px;
+
+}
+
+.vinters_contract {
+  background-position: -198px -264px;
+
+}
+
+.alchemy_supplies {
+  background-position: -33px -0px;
+
+}
+
+.armorer {
+  background-position: -66px -0px;
+
+}
+
+.armorers_table {
+  background-position: -99px -0px;
+
+}
+
+.barber {
+  background-position: -165px -0px;
+
+}
+
+.blacksmith {
+  background-position: -198px -0px;
+
+}
+
+.brothel {
+  background-position: 0 -44px;
+
+}
+
+.dye_merchant {
+  background-position: -99px -44px;
+
+}
+
+.grindstone {
+  background-position: -198px -44px;
+
+}
+
+.gwent_merchant {
+  background-position: -33px -86px;
+
+}
+
+.gwent_player {
+  background-position: -66px -86px;
+
+}
+
+.herbalist {
+  background-position: -198px -86px;
+
+}
+
+.innkeep {
+  background-position: -33px -132px;
+
+}
+
+.runewright {
+  background-position: -132px -220px;
+
+}
+
+.shopkeeper {
+  background-position: -198px -220px;
+
+}
+
+.fistfight {
+  background-position: -165px -44px;
+
+}
+
+.gwent_quest {
+  background-position: -99px -86px;
+
+}
+
+.hidden_treasure {
+  background-position: -231px -86px;
+
+}
+
+.horse_race {
+  background-position: 0 -132px;
+
+}
+
+.main_quest {
+  background-position: -165px -132px;
+
+}
+
+.secondary_quest {
+  background-position: -165px -220px;
+
+}
+
+.treasure_chest {
+  background-position: -132px -264px;
+
+}
+
+.book {
+  background-position: -231px -0px;
+
+}
+
+.chest {
+  background-position: -33px -44px;
+
+}
+
+.gwent_card {
+  background-position: 0 -86px;
+
+}
+
+.mutagen {
+  background-position: -33px -176px;
+
+}
+
+.oil {
+  background-position: -132px -176px;
+
+}
+
+.quest_item {
+  background-position: -33px -220px;
+
+}
+
+.recipe {
+  background-position: -66px -220px;
+
+}
+
+.relic_item {
+  background-position: -99px -220px;
+
+}
+
+.witcher_gear {
+  background-position: -231px -264px;
+
+}
+
+.miscellaneous {
+  background-position: -198px -132px;
+
+}
+
+.npc {
+  background-position: -99px -176px;
+
+}
+
+/* Tears of the kingdom */
 .area {
   background-position: 0 0;
 }

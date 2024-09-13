@@ -13,20 +13,25 @@ async function main() {
   await prisma.markerGroup.deleteMany({});
   await prisma.region.deleteMany({});
   await prisma.game.deleteMany({});
-
-  console.log("Seeding Games...");
+  await prisma.subRegion.deleteMany({});
 
   await prisma.game.createMany({ data: games });
 
-  console.log("Seeding Regions...");
-
-  await prisma.region.createMany({ data: regions });
-
-  console.log("Seeding Marker Groups...");
+  for (let i = 0; i < regions.length; i++) {
+    const region = regions[i];
+    const { subRegions = [], ...rest } = region;
+    const newRegion = await prisma.region.create({ data: rest });
+    if (subRegions?.length) {
+      for (let j = 0; j < subRegions.length; j++) {
+        const subRegion = subRegions[j];
+        await prisma.subRegion.create({
+          data: { parentRegionId: newRegion.id, ...subRegion },
+        });
+      }
+    }
+  }
 
   await prisma.markerGroup.createMany({ data: markerGroups });
-
-  console.log("Seeding Marker Categories...");
 
   for (let i = 0; i < markerCategories.length; i++) {
     const category = markerCategories[i];
@@ -54,29 +59,6 @@ async function main() {
       }
     }
   }
-
-  console.log("Seeding Marker Locations...");
-
-  // for (let i = 0; i < locations.length; i++) {
-  //   const { categoryTitle, regionSlug, media = [], ...rest } = locations[i];
-
-  //   const cats = await prisma.markerCategory.findFirst({
-  //     where: { title: categoryTitle },
-  //   });
-  //   if (!cats) {
-  //     console.log("Category does not exist for:", categoryTitle);
-  //   }
-  //   const newLocation = await prisma.markerLocation.create({
-  //     data: { ...rest, regionSlug, media: {}, categoryId: cats.id },
-  //   });
-  //   if (media.length) {
-  //     for (let j = 0; j < media.length; j++) {
-  //       await prisma.media.create({
-  //         data: { ...media[j], markerLocationId: newLocation.id },
-  //       });
-  //     }
-  //   }
-  // }
 }
 
 main()

@@ -164,6 +164,11 @@ export const FETCH_REGION_BY_GAME = gql`
       thumbnailUrl
       tilePath
       title
+      subRegions {
+        name
+        latitude
+        longitude
+      }
     }
   }
 `;

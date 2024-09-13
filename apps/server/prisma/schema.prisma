@@ -109,6 +109,13 @@ model MarkerLocation {
   Region      Region?         @relation(fields: [regionSlug], references: [slug])
   regionSlug  String?
   media       Media[]
+  type        LocationType    @default(Marker)
+}
+
+enum LocationType {
+  Marker
+  Text
+  Line
 }
 
 model Media {

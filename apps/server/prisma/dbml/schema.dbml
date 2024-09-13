@@ -94,6 +94,7 @@ Table MarkerLocation {
   Region Region
   regionSlug String
   media Media [not null]
+  type LocationType [not null, default: 'Marker']
 }
 
 Table Media {
@@ -110,6 +111,12 @@ Table Media {
 Enum Role {
   ADMIN
   USER
+}
+
+Enum LocationType {
+  Marker
+  Text
+  Line
 }
 
 Ref: Region.gameSlug > Game.slug

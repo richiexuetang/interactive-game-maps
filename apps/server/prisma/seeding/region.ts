@@ -134,6 +134,13 @@ export const regions = [
     tilePath: "totk/hyrule",
     gameSlug: "totk",
     order: 1,
+    subRegions: [
+      {
+        name: "Great Zora Bridge",
+        latitude: 0.71287060403682,
+        longitude: -0.59935403317326,
+      },
+    ],
   },
   //#endregion
 

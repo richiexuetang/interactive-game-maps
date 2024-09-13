@@ -159,15 +159,11 @@ enum OrderDirection {
 }
 
 type Query {
-  findCategoryById(id: Float!): MarkerCategory!
-  findOne(id: Float!): MarkerCategory!
   findRegionsByGame(orderBy: RegionOrder, slug: String!): [Region!]!
   game(slug: String!): Game!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
-  getLocationByRegion(slug: String!): [MarkerLocation!]!
   getUser(email: String!): AppUser!
-  groups: [MarkerGroup!]!
   locations(regionSlug: String): [MarkerLocation!]!
   me: User!
   regionDetails(slug: String!): Region!
@@ -184,6 +180,7 @@ type Region {
   minZoom: Float!
   order: Float
   slug: String!
+  subRegions: [SubRegion!]
   thumbnailUrl: String!
   tilePath: String!
   title: String!
@@ -216,6 +213,19 @@ input SignupInput {
   firstName: String
   lastName: String
   password: String!
+}
+
+type SubRegion {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: ID!
+  latitude: Float!
+  longitude: Float!
+  name: String!
+  parentRegionId: Float
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 type Token {

@@ -40,7 +40,7 @@ export default async function RegionPage({
 }) {
   revalidatePath("/region");
   const regions = await getRegionsByGame(params.slug);
-  const fontClassName = getFontClassName(regions[0].gameSlug);
+  const fontClassName = getFontClassName(params.slug);
 
   return (
     <div

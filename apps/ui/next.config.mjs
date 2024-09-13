@@ -13,6 +13,18 @@ const nextConfig = {
                 protocol: 'https',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                hostname: "www.ign.com",
+                protocol: 'https',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                hostname: "ign.com",
+                protocol: 'https',
+                port: '',
+                pathname: '/**',
             }
         ],
     },

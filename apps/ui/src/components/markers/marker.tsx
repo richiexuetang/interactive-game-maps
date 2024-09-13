@@ -14,7 +14,6 @@ import { useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "usehooks-ts";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
-import Image from "next/image";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
   Tooltip,
@@ -35,6 +34,7 @@ import {
 import { UserRecord } from "firebase-admin/auth";
 import { hideFoundAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
+import { ZoomImage } from "../zoom-image";
 
 interface MarkerProps {
   gameSlug: string;
@@ -143,9 +143,9 @@ export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
       <RL.Popup>
         <Card className="shadow-none -mx-7 -my-4">
           <CardHeader>
-            <div className="flex justify-between">
+            <div className="flex justify-between gap-4">
               <div>
-                <CardTitle className="text-lg">{title}</CardTitle>
+                <CardTitle className="text-large">{title}</CardTitle>
                 <CardDescription className="text-xs">
                   {category?.title}
                 </CardDescription>
@@ -169,18 +169,23 @@ export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
           </CardHeader>
           {description ? <Divider /> : null}
           <CardContent className="leading-5">
-            {media &&
-              media?.length > 0 &&
-              media.map((m) => (
-                <Image
-                  key={m.url}
-                  src={m.url!}
-                  alt={m.url!}
-                  width={300}
-                  height={300}
-                  className="py-3"
-                />
-              ))}
+            <div className="flex flex-wrap gap-2">
+              {media &&
+                media?.length > 0 &&
+                media.map((m) => {
+                  if (m.mimeType === "mp4") {
+                    return (
+                      <video
+                        src={m.url ?? ""}
+                        width="750"
+                        height="500"
+                        controls
+                      ></video>
+                    );
+                  }
+                  return <ZoomImage src={m.url ?? ""} key={m.url} />;
+                })}
+            </div>
             {description && (
               <div dangerouslySetInnerHTML={{ __html: description }} />
             )}

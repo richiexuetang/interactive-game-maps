@@ -2,7 +2,7 @@ import "server-only";
 
 import { cookies } from "next/headers";
 
-import { initializeApp, getApps, applicationDefault } from "firebase-admin/app";
+import { initializeApp, getApps, cert } from "firebase-admin/app";
 import { SessionCookieOptions, getAuth } from "firebase-admin/auth";
 
 export const firebaseApp =
@@ -11,7 +11,11 @@ export const firebaseApp =
   ) ||
   initializeApp(
     {
-      credential: applicationDefault(),
+      credential: cert({
+        clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
+        projectId: process.env.FIREBASE_PROJECT_ID,
+        privateKey: process.env.FIREBASE_SERVICE_ACCOUNT_PRIVATE_KEY,
+      }),
     },
     process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
   );

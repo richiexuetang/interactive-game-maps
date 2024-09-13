@@ -110,7 +110,7 @@ export const Menu = ({ groups, markers, gameSlug, regions }: MenuProps) => {
               />
             </Link>
 
-            <Divider />
+            <Divider className="bg-[#c8b494]" />
             <div className="grid grid-cols-3 gap-4">
               {regions?.map((region, index) => (
                 <div key={`${region}${index}`}>

@@ -26,6 +26,7 @@ export class RegionsResolver {
       where: {
         gameSlug: slug,
       },
+      include: { subRegions: true },
       orderBy: orderBy ? { [orderBy.field]: orderBy.direction } : undefined,
     });
   }

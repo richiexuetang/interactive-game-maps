@@ -1,5 +1,6 @@
 import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "src/common/models/base.model";
+import { SubRegion } from "./sub-region.model";
 
 @ObjectType()
 export class Region extends BaseModel {
@@ -32,4 +33,7 @@ export class Region extends BaseModel {
 
   @Field(() => Number, { nullable: true })
   order: number | null;
+
+  @Field(() => [SubRegion], { nullable: true })
+  subRegions: SubRegion[] | null;
 }
