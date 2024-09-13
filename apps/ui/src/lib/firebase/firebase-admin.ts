@@ -13,7 +13,7 @@ export const firebaseApp =
     {
       credential: cert(require("./serviceAccountKey.json")),
     },
-    "ritcher-map"
+    process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
   );
 export const auth = getAuth(firebaseApp);
 

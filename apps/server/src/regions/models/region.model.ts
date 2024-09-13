@@ -19,7 +19,7 @@ export class Region extends BaseModel {
   maxZoom: number;
 
   @Field()
-  defaultZoom: number;
+  zoom: number;
 
   @Field()
   tilePath: string;

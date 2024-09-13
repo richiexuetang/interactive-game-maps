@@ -3,8 +3,20 @@ import { Marker } from "./marker";
 import { useAtomValue } from "jotai";
 import { showMarkerAtom } from "@/store/marker";
 import { hiddenCategoriesAtom } from "@/store/category";
+import { MarkerLocation } from "@/__generated__/graphql";
+import { UserRecord } from "firebase-admin/auth";
 
-export const MarkerRenderer = ({ markers, gameSlug }: any) => {
+interface MarkerRendererProps {
+  markers: MarkerLocation[];
+  gameSlug: string;
+  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
+}
+
+export const MarkerRenderer = ({
+  markers,
+  gameSlug,
+  user,
+}: MarkerRendererProps) => {
   const showMarker = useAtomValue(showMarkerAtom);
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
 
@@ -12,34 +24,19 @@ export const MarkerRenderer = ({ markers, gameSlug }: any) => {
 
   return (
     <>
-      {markers.map(
-        ({
-          title,
-          longitude,
-          latitude,
-          category,
-          description,
-          id,
-          media,
-        }: any) => {
-          if (hiddenCategories.includes(category.id)) return null;
+      {markers.map((marker) => {
+        const categoryId = marker.categoryId ?? 0;
+        if (!hiddenCategories.includes(categoryId.toString())) {
           return (
             <Marker
-              key={id}
-              title={title}
-              longitude={longitude}
-              latitude={latitude}
-              icon={category.icon}
-              category={category.title}
-              description={description}
+              key={marker.id}
               gameSlug={gameSlug}
-              info={category.info}
-              id={id}
-              media={media}
+              user={user}
+              marker={marker}
             />
           );
         }
-      )}
+      })}
     </>
   );
 };

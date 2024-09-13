@@ -64,6 +64,7 @@ export async function createAppUser(input: {
   email: string;
   firstName?: string;
   lastName?: string;
+  photoUrl?: string;
 }) {
   const { data } = await getClient().mutate({
     mutation: CREATE_APP_USER,

@@ -1,9 +1,5 @@
 import { PrismaService } from "nestjs-prisma";
 import { Resolver, Query, Mutation, Args } from "@nestjs/graphql";
-import { UseGuards } from "@nestjs/common";
-import { UserEntity } from "../common/decorators/user.decorator";
-import { GqlAuthGuard } from "../auth/gql-auth.guard";
-import { UpdateUserInput } from "./dto/update-user.input";
 import { AppUser } from "./models/app-user.model";
 import { AppUsersService } from "./app-users.service";
 import { CreateUserInput } from "./dto/create-user.input";

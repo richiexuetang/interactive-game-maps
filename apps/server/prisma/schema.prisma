@@ -28,23 +28,14 @@ enum Role {
 }
 
 model AppUser {
-  id                  String                @id @default(cuid())
-  createdAt           DateTime              @default(now())
-  updatedAt           DateTime              @updatedAt
-  email               String                @unique
-  firstName           String?
-  lastName            String?
-  foundLocations      Int[]
-  AppUsersOnLocations AppUsersOnLocations[]
-}
-
-model AppUsersOnLocations {
-  user       AppUser        @relation(fields: [userId], references: [id])
-  userId     String // relation scalar field (used in the `@relation` attribute above)
-  location   MarkerLocation @relation(fields: [locationId], references: [id])
-  locationId Int // relation scalar field (used in the `@relation` attribute above)
-
-  @@id([userId, locationId])
+  id             String   @id @default(cuid())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  email          String   @unique
+  firstName      String?
+  lastName       String?
+  photoUrl       String?
+  foundLocations Int[]
 }
 
 model Game {
@@ -67,7 +58,7 @@ model Region {
   thumbnailUrl String
   minZoom      Int
   maxZoom      Int
-  defaultZoom  Int
+  zoom         Int
   center       Decimal[]
   tilePath     String
   Game         Game?            @relation(fields: [gameSlug], references: [slug])
@@ -107,17 +98,16 @@ model MarkerCategory {
 }
 
 model MarkerLocation {
-  id                  Int                   @id @default(autoincrement())
-  title               String
-  description         String?
-  latitude            Decimal
-  longitude           Decimal
-  category            MarkerCategory?       @relation(fields: [categoryId], references: [id])
-  categoryId          Int?
-  Region              Region?               @relation(fields: [regionSlug], references: [slug])
-  regionSlug          String?
-  media               Media[]
-  AppUsersOnLocations AppUsersOnLocations[]
+  id          Int             @id @default(autoincrement())
+  title       String
+  description String?
+  latitude    Decimal
+  longitude   Decimal
+  category    MarkerCategory? @relation(fields: [categoryId], references: [id])
+  categoryId  Int?
+  Region      Region?         @relation(fields: [regionSlug], references: [slug])
+  regionSlug  String?
+  media       Media[]
 }
 
 model Media {

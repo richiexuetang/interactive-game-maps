@@ -20,19 +20,8 @@ Table AppUser {
   email String [unique, not null]
   firstName String
   lastName String
+  photoUrl String
   foundLocations Int[] [not null]
-  AppUsersOnLocations AppUsersOnLocations [not null]
-}
-
-Table AppUsersOnLocations {
-  user AppUser [not null]
-  userId String [not null]
-  location MarkerLocation [not null]
-  locationId Int [not null]
-
-  indexes {
-    (userId, locationId) [pk]
-  }
 }
 
 Table Game {
@@ -55,7 +44,7 @@ Table Region {
   thumbnailUrl String [not null]
   minZoom Int [not null]
   maxZoom Int [not null]
-  defaultZoom Int [not null]
+  zoom Int [not null]
   center Decimal[] [not null]
   tilePath String [not null]
   Game Game
@@ -105,7 +94,6 @@ Table MarkerLocation {
   Region Region
   regionSlug String
   media Media [not null]
-  AppUsersOnLocations AppUsersOnLocations [not null]
 }
 
 Table Media {
@@ -123,10 +111,6 @@ Enum Role {
   ADMIN
   USER
 }
-
-Ref: AppUsersOnLocations.userId > AppUser.id
-
-Ref: AppUsersOnLocations.locationId > MarkerLocation.id
 
 Ref: Region.gameSlug > Game.slug
 

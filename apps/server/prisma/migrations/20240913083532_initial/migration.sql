@@ -16,11 +16,24 @@ CREATE TABLE "User" (
 );
 
 -- CreateTable
-CREATE TABLE "UsersOnLocations" (
+CREATE TABLE "AppUser" (
+    "id" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+    "email" TEXT NOT NULL,
+    "firstName" TEXT,
+    "lastName" TEXT,
+    "foundLocations" INTEGER[],
+
+    CONSTRAINT "AppUser_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "AppUsersOnLocations" (
     "userId" TEXT NOT NULL,
     "locationId" INTEGER NOT NULL,
 
-    CONSTRAINT "UsersOnLocations_pkey" PRIMARY KEY ("userId","locationId")
+    CONSTRAINT "AppUsersOnLocations_pkey" PRIMARY KEY ("userId","locationId")
 );
 
 -- CreateTable
@@ -30,6 +43,9 @@ CREATE TABLE "Game" (
     "title" TEXT NOT NULL,
     "thumbnailUrl" TEXT NOT NULL,
     "logo" TEXT,
+    "previewUrl" TEXT,
+    "iconUrl" TEXT,
+    "description" TEXT,
 
     CONSTRAINT "Game_pkey" PRIMARY KEY ("id")
 );
@@ -114,6 +130,9 @@ CREATE TABLE "Media" (
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 
 -- CreateIndex
+CREATE UNIQUE INDEX "AppUser_email_key" ON "AppUser"("email");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "Game_slug_key" ON "Game"("slug");
 
 -- CreateIndex
@@ -122,14 +141,11 @@ CREATE UNIQUE INDEX "Region_slug_key" ON "Region"("slug");
 -- CreateIndex
 CREATE UNIQUE INDEX "MarkerGroup_slug_key" ON "MarkerGroup"("slug");
 
--- CreateIndex
-CREATE UNIQUE INDEX "MarkerCategory_title_key" ON "MarkerCategory"("title");
+-- AddForeignKey
+ALTER TABLE "AppUsersOnLocations" ADD CONSTRAINT "AppUsersOnLocations_userId_fkey" FOREIGN KEY ("userId") REFERENCES "AppUser"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "UsersOnLocations" ADD CONSTRAINT "UsersOnLocations_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "UsersOnLocations" ADD CONSTRAINT "UsersOnLocations_locationId_fkey" FOREIGN KEY ("locationId") REFERENCES "MarkerLocation"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "AppUsersOnLocations" ADD CONSTRAINT "AppUsersOnLocations_locationId_fkey" FOREIGN KEY ("locationId") REFERENCES "MarkerLocation"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Region" ADD CONSTRAINT "Region_gameSlug_fkey" FOREIGN KEY ("gameSlug") REFERENCES "Game"("slug") ON DELETE SET NULL ON UPDATE CASCADE;

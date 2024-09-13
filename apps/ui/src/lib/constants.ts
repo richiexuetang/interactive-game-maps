@@ -34,6 +34,7 @@ export const CREATE_APP_USER = gql(
       firstName
       foundLocations
       lastName
+      photoUrl
     }
   }
   `
@@ -42,12 +43,9 @@ export const CREATE_APP_USER = gql(
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {
-      groups {
-        title
-      }
       id
       regions {
-        defaultZoom
+        zoom
         gameSlug
         maxZoom
         minZoom
@@ -81,6 +79,7 @@ export const FETCH_GROUPS_BY_GAME_SLUG = gql`
   query GetGroupsByGameSlug($slug: String!) {
     getGroupsByGameSlug(slug: $slug) {
       title
+      id
       categories {
         title
         icon
@@ -119,7 +118,7 @@ export const FETCH_REGION_MARKERS = gql`
 export const FETCH_REGION_DETAILS = gql`
   query RegionDetails($slug: String!) {
     regionDetails(slug: $slug) {
-      defaultZoom
+      zoom
       gameSlug
       id
       maxZoom
@@ -155,7 +154,7 @@ export const FETCH_REGION_BY_GAME = gql`
   query FindRegionByGame($slug: String!) {
     findRegionsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
       center
-      defaultZoom
+      zoom
       gameSlug
       id
       maxZoom

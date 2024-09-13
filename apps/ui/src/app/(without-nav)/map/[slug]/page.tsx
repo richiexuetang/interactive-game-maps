@@ -62,12 +62,16 @@ export default async function MapPage({
   ).regions;
 
   const appUser = await getAppUser(currentUser?.email ?? "");
-  const foundLocations = appUser ? appUser.foundLocations : [];
   if (!appUser && currentUser?.email) {
-    await createAppUser({ email: currentUser?.email });
+    const displayName = currentUser?.displayName;
+    const name = displayName?.split(" ");
+    await createAppUser({
+      email: currentUser?.email,
+      photoUrl: currentUser?.photoURL,
+      firstName: name ? name[0] : "",
+      lastName: name ? name[1] : "",
+    });
   }
-
-  console.log(foundLocations);
 
   return (
     <Map
@@ -75,7 +79,11 @@ export default async function MapPage({
       groups={groupData}
       markers={markers}
       regions={regions}
-      user={currentUser}
+      user={{
+        email: currentUser?.email,
+        photoURL: currentUser?.photoURL,
+        displayName: currentUser?.displayName,
+      }}
     />
   );
 }

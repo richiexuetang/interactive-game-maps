@@ -7,53 +7,18 @@ import "leaflet/dist/leaflet.css";
 import "@/leaflet/smooth-wheel-zoom";
 import { MarkerLocation, Region } from "@/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
-import { useAtom } from "jotai";
-import { regionsAtom } from "@/store/region";
 import { UserRecord } from "firebase-admin/auth";
-import { userAtom } from "@/store/auth";
 
 const { MapContainer } = ReactLeaflet;
 
-const Map = ({
-  region,
-  markers,
-  regions,
-  user,
-}: {
+interface MapProps {
   region: Region;
   markers: MarkerLocation[];
-  regions: Region[];
-  user: UserRecord | null;
-}) => {
-  const {
-    tilePath,
-    gameSlug,
-    id,
-    slug,
-    thumbnailUrl,
-    defaultZoom: zoom,
-    ...rest
-  } = region;
+  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
+}
 
-  const [currentRegions, setCurrentRegions] = useAtom(regionsAtom);
-  const [appUser, setAppUser] = useAtom(userAtom);
-
-  useEffect(() => {
-    if (!appUser && user) {
-      setAppUser({
-        email: user.email ?? "",
-      });
-    }
-  }, [user]);
-
-  useEffect(() => {
-    if (!currentRegions.gameSlug || currentRegions.gameSlug !== gameSlug) {
-      setCurrentRegions({
-        gameSlug: gameSlug as any,
-        regions: [...regions],
-      });
-    }
-  });
+const Map = ({ region, markers, user }: MapProps) => {
+  const { tilePath, gameSlug, id, slug, thumbnailUrl, zoom, ...rest } = region;
 
   useEffect(() => {
     (async function init() {
@@ -84,7 +49,7 @@ const Map = ({
       <ReactLeaflet.TileLayer
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{${first}}/{${second}}.${mimeType}`}
       />
-      <MarkerRenderer markers={markers} gameSlug={gameSlug} />
+      <MarkerRenderer markers={markers} gameSlug={gameSlug} user={user!} />
     </MapContainer>
   );
 };

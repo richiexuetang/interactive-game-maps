@@ -15,6 +15,9 @@ export class AppUser extends BaseModel {
   @Field(() => String, { nullable: true })
   lastName?: string;
 
+  @Field(() => String, { nullable: true })
+  photoUrl?: string;
+
   @Field(() => [Int], { nullable: true })
   foundLocations?: number[] | null;
 }

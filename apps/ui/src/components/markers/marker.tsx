@@ -22,29 +22,50 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { Media } from "@/__generated__/graphql";
-import { useAtomValue } from "jotai";
-import { userAtom } from "@/store/auth";
+import { MarkerLocation } from "@/__generated__/graphql";
 import { Button } from "../ui/button";
 import { signInWithGoogle } from "@/lib/firebase/auth";
 import { useRouter } from "next/navigation";
+import { useQuery, useMutation } from "@apollo/client";
+import {
+  ADD_TO_USER_FOUND,
+  GET_APP_USER,
+  REMOVE_FROM_USER_FOUND,
+} from "@/lib/constants";
+import { UserRecord } from "firebase-admin/auth";
+import { hideFoundAtom } from "@/store/marker";
+import { useAtomValue } from "jotai";
 
-export const Marker = ({
-  title,
-  latitude,
-  longitude,
-  icon,
-  category,
-  description,
-  gameSlug,
-  info,
-  id,
-  media,
-}: any) => {
-  const appUser = useAtomValue(userAtom);
+interface MarkerProps {
+  gameSlug: string;
+  marker: MarkerLocation;
+  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
+}
 
-  const [markerFound, setMarkerFound] = useState(false);
-  const [copiedText, copy] = useCopyToClipboard();
+export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
+  const {
+    id,
+    title,
+    media = [],
+    latitude,
+    longitude,
+    category,
+    description,
+  } = marker;
+
+  const { icon, info } = category!;
+
+  const { data: userData } = useQuery(GET_APP_USER, {
+    variables: { email: user?.email },
+  });
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+
+  const hideFound = useAtomValue(hideFoundAtom);
+  const [markerFound, setMarkerFound] = useState(
+    userData?.foundLocations?.includes(id)
+  );
+  const [_, copy] = useCopyToClipboard();
 
   const router = useRouter();
 
@@ -68,9 +89,7 @@ export const Marker = ({
   };
 
   const handleLogin = async () => {
-    const isOk = await signInWithGoogle();
-
-    if (isOk) router.back();
+    await signInWithGoogle();
   };
 
   useEffect(() => {
@@ -83,17 +102,30 @@ export const Marker = ({
     }
   }, [searchParams]);
 
+  useEffect(() => {
+    if (userData?.getUser.foundLocations) {
+      setMarkerFound(userData.getUser.foundLocations?.includes(parseInt(id)));
+    }
+  }, [userData]);
+
   const handleMarkerFound = () => {
-    // if (appUser?.email) {
-    //   if (markerFound) {
-    //     await addToUserFound({ email: appUser?.email, location: id });
-    //   } else {
-    //     await removeFromUserFound({ email: appUser?.email, location: id });
-    //   }
-    // }
+    if (user?.email) {
+      if (markerFound) {
+        removeLocation({
+          variables: { data: { email: user.email, location: parseInt(id) } },
+        });
+      } else {
+        addLocation({
+          variables: { data: { email: user.email, location: parseInt(id) } },
+        });
+      }
+    }
 
     setMarkerFound(!markerFound);
   };
+
+  if (markerFound && hideFound) return null;
+
   return (
     <RL.Marker
       ref={markerRef}
@@ -115,7 +147,7 @@ export const Marker = ({
               <div>
                 <CardTitle className="text-lg">{title}</CardTitle>
                 <CardDescription className="text-xs">
-                  {category}
+                  {category?.title}
                 </CardDescription>
               </div>
               <div className="flex px-5">
@@ -137,8 +169,9 @@ export const Marker = ({
           </CardHeader>
           {description ? <Divider /> : null}
           <CardContent className="leading-5">
-            {media.length > 0 &&
-              media.map((m: Media) => (
+            {media &&
+              media?.length > 0 &&
+              media.map((m) => (
                 <Image
                   key={m.url}
                   src={m.url!}
@@ -148,15 +181,17 @@ export const Marker = ({
                   className="py-3"
                 />
               ))}
-            <div dangerouslySetInnerHTML={{ __html: description }} />
-            <div dangerouslySetInnerHTML={{ __html: info }} />
+            {description && (
+              <div dangerouslySetInnerHTML={{ __html: description }} />
+            )}
+            {info && <div dangerouslySetInnerHTML={{ __html: info }} />}
           </CardContent>
           {description ? <Divider /> : null}
           <CardFooter
             className="py-2 justify-center hover:bg-secondary cursor-pointer"
             onClick={handleMarkerFound}
           >
-            {appUser?.email ? (
+            {user?.email ? (
               <>
                 <Checkbox checked={markerFound} />
                 <div className="ml-2 space-y-1 leading-none">

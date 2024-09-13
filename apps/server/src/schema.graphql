@@ -10,6 +10,7 @@ type AppUser {
   foundLocations: [Int!]
   id: ID!
   lastName: String
+  photoUrl: String
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
@@ -39,6 +40,7 @@ input CreateUserInput {
   email: String!
   firstName: String
   lastName: String
+  photoUrl: String
 }
 
 """
@@ -176,7 +178,6 @@ type Region {
 
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  defaultZoom: Float!
   gameSlug: String!
   id: ID!
   maxZoom: Float!
@@ -189,6 +190,7 @@ type Region {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+  zoom: Float!
 }
 
 input RegionOrder {

@@ -1,15 +1,14 @@
-import { MarkerGroup, MarkerLocation } from "@/__generated__/graphql";
+import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
 import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
-import { showMarkerAtom } from "@/store/marker";
+import { hideFoundAtom, showMarkerAtom } from "@/store/marker";
 import { Checkbox } from "@/components/ui/checkbox";
-import { useAtom, useAtomValue } from "jotai";
+import { useAtom } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@nextui-org/theme";
 import { Divider } from "@nextui-org/react";
-import { regionsAtom } from "@/store/region";
 import { buttonVariants } from "./ui/button";
 import React from "react";
 import {
@@ -23,15 +22,16 @@ interface MenuProps {
   groups: MarkerGroup[];
   markers: MarkerLocation[];
   gameSlug: string;
+  regions: Region[];
 }
 
-export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
+export const Menu = ({ groups, markers, gameSlug, regions }: MenuProps) => {
   const [collapseMenu, setCollapseMenu] = useState(false);
 
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
+  const [hideFound, setHideFound] = useAtom(hideFoundAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
   const [hiddenGroups, setHiddenGroups] = useAtom(hiddenGroupsAtom);
-  const currentRegions = useAtomValue(regionsAtom);
 
   const toggleShowMarker = () => {
     if (!showMarker) {
@@ -112,8 +112,8 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
 
             <Divider />
             <div className="grid grid-cols-3 gap-4">
-              {currentRegions.regions.map((region, index) => (
-                <div key={`${region.id}${index}`}>
+              {regions?.map((region, index) => (
+                <div key={`${region}${index}`}>
                   <Link
                     href={`/map/${region.slug}`}
                     className={cn(buttonVariants({ variant: "link" }))}
@@ -124,20 +124,33 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               ))}
             </div>
             <Divider />
-            <div className="flex gap-2 align-middle contents-center">
-              <Checkbox
-                id="hideShowCheckbox"
-                checked={!showMarker}
-                onCheckedChange={toggleShowMarker}
-              />
-              <label htmlFor="hideShowCheckbox" className="-mt-1">
-                {showMarker ? "Hide All" : "Show All"}
-              </label>
+            <div className="flex gap-5">
+              <div className="flex gap-2 align-middle contents-center">
+                <Checkbox
+                  id="hideShowCheckbox"
+                  checked={!showMarker}
+                  onCheckedChange={toggleShowMarker}
+                />
+                <label htmlFor="hideShowCheckbox" className="-mt-1">
+                  Hide All
+                </label>
+              </div>
+              <div className="flex gap-2 align-middle contents-center">
+                <Checkbox
+                  id="showFoundCheckbox"
+                  checked={hideFound}
+                  onCheckedChange={() => setHideFound(!hideFound)}
+                />
+                <label htmlFor="showFoundCheckbox" className="-mt-1">
+                  Hide Found
+                </label>
+              </div>
             </div>
+
             <Divider />
             {groups?.map((group, index) => {
               const counts: any = {};
-
+              console.log(group);
               group.categories?.map((category) => {
                 const count = markers?.filter(
                   ({ categoryId }) => categoryId == parseInt(category.id)
@@ -155,7 +168,10 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               return (
                 <React.Fragment key={`${group.id}_${index}`}>
                   <h1
-                    className="text-lg uppercase w-full cursor-pointer"
+                    className={cn(
+                      "text-lg uppercase w-full cursor-pointer",
+                      hiddenGroups.includes(group.id) && "line-through"
+                    )}
                     onClick={() => toggleHideShowGroup(group.id)}
                   >
                     {group.title}

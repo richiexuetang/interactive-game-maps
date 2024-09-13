@@ -5,7 +5,7 @@ const config: CodegenConfig = {
   // this assumes that all your source files are in a top-level `src/` directory - you might need to adjust this to your file structure
   documents: ["src/**/*.{ts,tsx}"],
   generates: {
-    "./app/__generated__/": {
+    "./src/__generated__/": {
       preset: "client",
       plugins: [],
       presetConfig: {

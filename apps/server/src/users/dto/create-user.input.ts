@@ -10,4 +10,7 @@ export class CreateUserInput {
 
   @Field({ nullable: true })
   lastName?: string;
+
+  @Field({ nullable: true })
+  photoUrl?: string;
 }
