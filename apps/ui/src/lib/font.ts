@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 export const hyliaRegular = localFont({
   src: [
     {
-      path: "../public/fonts/HyliaSerifBeta-Regular.otf",
+      path: "../../public/fonts/HyliaSerifBeta-Regular.otf",
       weight: "500",
       style: "normal",
     },
@@ -14,7 +14,7 @@ export const hyliaRegular = localFont({
 export const masonRegular = localFont({
   src: [
     {
-      path: "../public/fonts/Mason-Regular.ttf",
+      path: "../../public/fonts/Mason-Regular.ttf",
       weight: "500",
       style: "normal",
     },
@@ -25,7 +25,7 @@ export const masonRegular = localFont({
 export const crimsonPro = localFont({
   src: [
     {
-      path: "../public/fonts/CrimsonPro.woff2",
+      path: "../../public/fonts/CrimsonPro.woff2",
       weight: "500",
       style: "normal",
     },
@@ -36,7 +36,7 @@ export const crimsonPro = localFont({
 export const mantiniaRegular = localFont({
   src: [
     {
-      path: "../public/fonts/Mantinia-Regular.otf",
+      path: "../../public/fonts/Mantinia-Regular.otf",
       weight: "500",
       style: "normal",
     },

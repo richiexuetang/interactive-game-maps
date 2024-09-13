@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Leaflet from "leaflet";
 import * as ReactLeaflet from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "@/leaflet/smooth-wheel-zoom";
+import "@/src/leaflet/smooth-wheel-zoom";
 import { MarkerLocation, Region } from "@/src/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { useAtom } from "jotai";
