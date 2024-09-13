@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { FETCH_GAMES } from "@/src/lib/constants";
-import { getClient } from "@/src/lib/apollo-client";
+import { FETCH_GAMES } from "@/lib/constants";
+import { getClient } from "@/lib/apollo-client";
 import Link from "next/link";
 import { revalidatePath } from "next/cache";
 
@@ -31,7 +31,7 @@ export default async function Page() {
             width={360}
             height={202.5}
             alt={`${game.title} thumbnail`}
-            priority={true}
+            priority
           />
           <h2 className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-secondary-200 rounded-b-lg">
             {game.title}

@@ -1,7 +1,7 @@
 import "../globals.css";
-import { MainNav } from "@/src/components/main-nav";
+import { MainNav } from "@/components/main-nav";
 import { ReactNode } from "react";
-import { RootLayout } from "@/src/components/layout";
+import { RootLayout } from "@/components/layout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

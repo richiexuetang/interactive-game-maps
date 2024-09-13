@@ -2,7 +2,7 @@ import "../globals.css";
 import "../icon.css";
 import { ReactNode } from "react";
 import { Toaster } from "sonner";
-import { RootLayout } from "@/src/components/layout";
+import { RootLayout } from "@/components/layout";
 
 export default function Layout({
   children,

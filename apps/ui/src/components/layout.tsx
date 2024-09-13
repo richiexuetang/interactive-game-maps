@@ -1,13 +1,7 @@
-import type { Metadata } from "next";
 import clsx from "clsx";
-import { ThemeSwitcher } from "@/src/components/theme-switcher";
+import { ThemeSwitcher } from "@/components/theme-switcher";
 import { ReactNode } from "react";
-import { ThemeProvider } from "@/src/components/theme-provider";
-
-export const metadata: Metadata = {
-  title: "Ritcher Map",
-  description: "",
-};
+import { ThemeProvider } from "@/components/theme-provider";
 
 export function RootLayout({
   children,

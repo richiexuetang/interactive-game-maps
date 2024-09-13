@@ -1,4 +1,4 @@
-import { Region } from "@/app/__generated__/graphql";
+import { Region } from "@/__generated__/graphql";
 import { atom } from "jotai";
 
 interface RegionsAtom {

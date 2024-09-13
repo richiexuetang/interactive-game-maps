@@ -11,11 +11,21 @@ Table User {
   firstName String
   lastName String
   role Role [not null]
-  UsersOnLocations UsersOnLocations [not null]
 }
 
-Table UsersOnLocations {
-  user User [not null]
+Table AppUser {
+  id String [pk]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  email String [unique, not null]
+  firstName String
+  lastName String
+  foundLocations Int[] [not null]
+  AppUsersOnLocations AppUsersOnLocations [not null]
+}
+
+Table AppUsersOnLocations {
+  user AppUser [not null]
   userId String [not null]
   location MarkerLocation [not null]
   locationId Int [not null]
@@ -95,7 +105,7 @@ Table MarkerLocation {
   Region Region
   regionSlug String
   media Media [not null]
-  UsersOnLocations UsersOnLocations [not null]
+  AppUsersOnLocations AppUsersOnLocations [not null]
 }
 
 Table Media {
@@ -114,9 +124,9 @@ Enum Role {
   USER
 }
 
-Ref: UsersOnLocations.userId > User.id
+Ref: AppUsersOnLocations.userId > AppUser.id
 
-Ref: UsersOnLocations.locationId > MarkerLocation.id
+Ref: AppUsersOnLocations.locationId > MarkerLocation.id
 
 Ref: Region.gameSlug > Game.slug
 

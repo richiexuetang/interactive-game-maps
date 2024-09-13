@@ -1,14 +1,42 @@
 import { remark } from "remark";
 import html from "remark-html";
-import { getClient } from "@/src/lib/apollo-client";
+import { getClient } from "@/lib/apollo-client";
 import {
+  ADD_TO_USER_FOUND,
+  CREATE_APP_USER,
   FETCH_GAME_META_DATA,
   FETCH_GROUPS_BY_GAME_SLUG,
   FETCH_REGION_BY_GAME,
   FETCH_REGION_DETAILS,
   FETCH_REGION_MARKERS,
+  GET_APP_USER,
   LOGIN,
-} from "@/src/lib/constants";
+  REMOVE_FROM_USER_FOUND,
+} from "@/lib/constants";
+
+export async function addToUserFound(input: {
+  email: string;
+  location: number;
+}) {
+  const { data } = await getClient().mutate({
+    mutation: ADD_TO_USER_FOUND,
+    variables: { data: input },
+  });
+
+  return data.addFoundLocations;
+}
+
+export async function removeFromUserFound(input: {
+  email: string;
+  location: number;
+}) {
+  const { data } = await getClient().mutate({
+    mutation: REMOVE_FROM_USER_FOUND,
+    variables: { data: input },
+  });
+
+  return data.removeFoundLocation;
+}
 
 export async function getRegionDetails(slug: string) {
   const { data } = await getClient().query({
@@ -17,6 +45,32 @@ export async function getRegionDetails(slug: string) {
   });
 
   return data.regionDetails;
+}
+
+export async function getAppUser(email: string) {
+  try {
+    const { data } = await getClient().query({
+      query: GET_APP_USER,
+      variables: { email },
+    });
+    return data.regionDetails;
+  } catch (error) {
+    console.error("ops");
+    return null;
+  }
+}
+
+export async function createAppUser(input: {
+  email: string;
+  firstName?: string;
+  lastName?: string;
+}) {
+  const { data } = await getClient().mutate({
+    mutation: CREATE_APP_USER,
+    variables: { data: input },
+  });
+
+  return data.createUser;
 }
 
 export async function getMetaData(slug: string) {

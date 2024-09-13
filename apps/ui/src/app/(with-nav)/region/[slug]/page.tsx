@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { revalidatePath } from "next/cache";
-import { Region } from "@/src/__generated__/graphql";
-import { getMetaData, getRegionsByGame } from "@/src/lib/api";
+import { Region } from "@/__generated__/graphql";
+import { getMetaData, getRegionsByGame } from "@/lib/api";
 import { Metadata } from "next";
-import { getFontClassName } from "@/src/lib/font";
-import { cn } from "@/src/lib/utils";
+import { getFontClassName } from "@/lib/font";
+import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
   params,
@@ -53,12 +53,13 @@ export default async function RegionPage({
         <Link
           key={title}
           href={`/map/${slug}`}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center h-auto w-auto"
         >
           <Image
             src={process.env.CDN_BASE_URL + thumbnailUrl}
             width={320}
             height={320}
+            className="w-auto h-full"
             alt={`${title} thumbnail`}
           />
           <span className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-primary-400 rounded-b-lg">

@@ -5,6 +5,11 @@ import {
   InMemoryCache,
 } from "@apollo/experimental-nextjs-app-support";
 
+export const client = new ApolloClient({
+  uri: `${process.env.API_BASE_URL}/graphql`,
+  cache: new InMemoryCache(),
+});
+
 export const { getClient, query, PreloadQuery } = registerApolloClient(() => {
   return new ApolloClient({
     cache: new InMemoryCache({

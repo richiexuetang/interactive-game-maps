@@ -1,5 +1,44 @@
 import { gql } from "@apollo/client";
 
+export const ADD_TO_USER_FOUND = gql`
+  mutation AddFoundLocations($data: UpdateFoundLocationInput!) {
+    addFoundLocations(data: $data) {
+      email
+      foundLocations
+    }
+  }
+`;
+
+export const REMOVE_FROM_USER_FOUND = gql`
+  mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
+    removeFoundLocation(data: $data) {
+      email
+      foundLocations
+    }
+  }
+`;
+
+export const GET_APP_USER = gql(`
+query GetUser($email: String!) {
+  getUser(email: $email) {
+    email,
+    foundLocations
+  }
+}`);
+
+export const CREATE_APP_USER = gql(
+  `
+  mutation CreateUser($data: CreateUserInput!) {
+    createUser(data: $data) {
+      email
+      firstName
+      foundLocations
+      lastName
+    }
+  }
+  `
+);
+
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {

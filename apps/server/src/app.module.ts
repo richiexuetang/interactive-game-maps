@@ -10,6 +10,7 @@ import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
 import { RegionsModule } from "./regions/regions.module";
 import { MarkersModule } from "./markers/marker.module";
+import { AppUsersModule } from "./users/app-users.module";
 
 @Module({
   imports: [
@@ -36,6 +37,7 @@ import { MarkersModule } from "./markers/marker.module";
     GamesModule,
     RegionsModule,
     MarkersModule,
+    AppUsersModule,
   ],
   controllers: [],
   providers: [],

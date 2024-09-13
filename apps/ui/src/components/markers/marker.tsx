@@ -8,21 +8,26 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/src/components/ui/card";
+} from "@/components/ui/card";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "usehooks-ts";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
 import Image from "next/image";
-import { Checkbox } from "@/src/components/ui/checkbox";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/src/components/ui/tooltip";
-import { Media } from "@/src/__generated__/graphql";
+} from "@/components/ui/tooltip";
+import { Media } from "@/__generated__/graphql";
+import { useAtomValue } from "jotai";
+import { userAtom } from "@/store/auth";
+import { Button } from "../ui/button";
+import { signInWithGoogle } from "@/lib/firebase/auth";
+import { useRouter } from "next/navigation";
 
 export const Marker = ({
   title,
@@ -36,8 +41,12 @@ export const Marker = ({
   id,
   media,
 }: any) => {
+  const appUser = useAtomValue(userAtom);
+
   const [markerFound, setMarkerFound] = useState(false);
   const [copiedText, copy] = useCopyToClipboard();
+
+  const router = useRouter();
 
   // build div icon
   const div = document.createElement("div");
@@ -58,6 +67,12 @@ export const Marker = ({
     });
   };
 
+  const handleLogin = async () => {
+    const isOk = await signInWithGoogle();
+
+    if (isOk) router.back();
+  };
+
   useEffect(() => {
     const markerId = searchParams.get("marker");
     if (markerId && id == markerId) {
@@ -68,6 +83,17 @@ export const Marker = ({
     }
   }, [searchParams]);
 
+  const handleMarkerFound = () => {
+    // if (appUser?.email) {
+    //   if (markerFound) {
+    //     await addToUserFound({ email: appUser?.email, location: id });
+    //   } else {
+    //     await removeFromUserFound({ email: appUser?.email, location: id });
+    //   }
+    // }
+
+    setMarkerFound(!markerFound);
+  };
   return (
     <RL.Marker
       ref={markerRef}
@@ -81,11 +107,6 @@ export const Marker = ({
         html: div,
       })}
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
-      eventHandlers={{
-        click: (e) => {
-          console.log("marker clicked", e);
-        },
-      }}
     >
       <RL.Popup>
         <Card className="shadow-none -mx-7 -my-4">
@@ -131,14 +152,26 @@ export const Marker = ({
             <div dangerouslySetInnerHTML={{ __html: info }} />
           </CardContent>
           {description ? <Divider /> : null}
-          <CardFooter className="mt-4 justify-center">
-            <Checkbox
-              checked={markerFound}
-              onCheckedChange={() => setMarkerFound(!markerFound)}
-            />
-            <div className="ml-2 space-y-1 leading-none">
-              <label>Found</label>
-            </div>
+          <CardFooter
+            className="py-2 justify-center hover:bg-secondary cursor-pointer"
+            onClick={handleMarkerFound}
+          >
+            {appUser?.email ? (
+              <>
+                <Checkbox checked={markerFound} />
+                <div className="ml-2 space-y-1 leading-none">
+                  <label>Found</label>
+                </div>
+              </>
+            ) : (
+              <Button
+                variant="link"
+                className="uppercase"
+                onClick={handleLogin}
+              >
+                Login to track found locations
+              </Button>
+            )}
           </CardFooter>
         </Card>
       </RL.Popup>

@@ -1,7 +1,7 @@
 import urllib.request
 import os
 
-zoom_start = 9
+zoom_start = 10
 zoom_end = 13
 
 x_low_map = {
@@ -29,7 +29,7 @@ x_high_map = {
 y_low_map = x_low_map
 y_high_map = x_high_map
 
-regions = ["05_huoyanshan"]
+regions = ["06_huaguoshan", "04_zhujiadayuan", "04_pansidongshangceng", "04_pansidongxiaceng", "04_huanghuaguan", "04_ziyunshan"]
 
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
 for region in regions:

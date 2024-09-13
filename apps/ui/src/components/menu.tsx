@@ -1,7 +1,7 @@
-import { MarkerGroup, MarkerLocation } from "@/src/__generated__/graphql";
-import { hiddenCategoriesAtom } from "@/src/store/category";
-import { showMarkerAtom } from "@/src/store/marker";
-import { Checkbox } from "@/src/components/ui/checkbox";
+import { MarkerGroup, MarkerLocation } from "@/__generated__/graphql";
+import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
+import { showMarkerAtom } from "@/store/marker";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useAtom, useAtomValue } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@nextui-org/theme";
 import { Divider } from "@nextui-org/react";
-import { regionsAtom } from "@/src/store/region";
+import { regionsAtom } from "@/store/region";
 import { buttonVariants } from "./ui/button";
 import React from "react";
 import {
@@ -17,7 +17,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/src/components/ui/tooltip";
+} from "@/components/ui/tooltip";
 
 interface MenuProps {
   groups: MarkerGroup[];
@@ -30,6 +30,7 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
 
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
+  const [hiddenGroups, setHiddenGroups] = useAtom(hiddenGroupsAtom);
   const currentRegions = useAtomValue(regionsAtom);
 
   const toggleShowMarker = () => {
@@ -55,6 +56,23 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
     }
   };
 
+  const toggleHideShowGroup = (groupId: string) => {
+    const group = groups.find((group) => group.id === groupId);
+    const groupCategories = group?.categories?.map((category) => category.id);
+    if (hiddenGroups.includes(groupId)) {
+      setHiddenGroups(hiddenGroups.filter((group) => group !== groupId));
+      setHiddenCategories(
+        hiddenCategories.filter(
+          (category) => !groupCategories?.includes(category)
+        )
+      );
+    } else {
+      setHiddenGroups((prev) => [...prev, groupId]);
+      groupCategories?.map((category) =>
+        setHiddenCategories((prev) => [...prev, category])
+      );
+    }
+  };
   const ChevronIcon = collapseMenu ? ChevronRightIcon : ChevronLeftIcon;
   const chevronText = collapseMenu ? "Expand" : "Collapse";
 
@@ -88,13 +106,14 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
                 height="70"
                 alt="sidebar logo"
                 className="cursor-pointer"
+                priority
               />
             </Link>
 
             <Divider />
             <div className="grid grid-cols-3 gap-4">
-              {currentRegions.regions.map((region) => (
-                <div key={region.id}>
+              {currentRegions.regions.map((region, index) => (
+                <div key={`${region.id}${index}`}>
                   <Link
                     href={`/map/${region.slug}`}
                     className={cn(buttonVariants({ variant: "link" }))}
@@ -105,15 +124,18 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               ))}
             </div>
             <Divider />
-            <div className="flex gap-2">
+            <div className="flex gap-2 align-middle contents-center">
               <Checkbox
+                id="hideShowCheckbox"
                 checked={!showMarker}
                 onCheckedChange={toggleShowMarker}
               />
-              <label>{showMarker ? "Hide All" : "Show All"}</label>
+              <label htmlFor="hideShowCheckbox" className="-mt-1">
+                {showMarker ? "Hide All" : "Show All"}
+              </label>
             </div>
             <Divider />
-            {groups?.map((group) => {
+            {groups?.map((group, index) => {
               const counts: any = {};
 
               group.categories?.map((category) => {
@@ -131,9 +153,17 @@ export const Menu = ({ groups, markers, gameSlug }: MenuProps) => {
               if (sumValues === 0) return null;
 
               return (
-                <React.Fragment key={group.id}>
-                  <h1 className="text-lg uppercase w-full">{group.title}</h1>
-                  <div key={group.title} className="grid grid-cols-2 gap-2">
+                <React.Fragment key={`${group.id}_${index}`}>
+                  <h1
+                    className="text-lg uppercase w-full cursor-pointer"
+                    onClick={() => toggleHideShowGroup(group.id)}
+                  >
+                    {group.title}
+                  </h1>
+                  <div
+                    key={`${group.id}_${index}`}
+                    className="grid grid-cols-2 gap-2"
+                  >
                     {group.categories?.map((category) => {
                       const count = markers?.filter(
                         ({ categoryId }) => categoryId == parseInt(category.id)

@@ -4,11 +4,13 @@ import { useEffect } from "react";
 import Leaflet from "leaflet";
 import * as ReactLeaflet from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "@/src/leaflet/smooth-wheel-zoom";
-import { MarkerLocation, Region } from "@/src/__generated__/graphql";
+import "@/leaflet/smooth-wheel-zoom";
+import { MarkerLocation, Region } from "@/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { useAtom } from "jotai";
-import { regionsAtom } from "@/src/store/region";
+import { regionsAtom } from "@/store/region";
+import { UserRecord } from "firebase-admin/auth";
+import { userAtom } from "@/store/auth";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -16,10 +18,12 @@ const Map = ({
   region,
   markers,
   regions,
+  user,
 }: {
   region: Region;
   markers: MarkerLocation[];
   regions: Region[];
+  user: UserRecord | null;
 }) => {
   const {
     tilePath,
@@ -32,6 +36,15 @@ const Map = ({
   } = region;
 
   const [currentRegions, setCurrentRegions] = useAtom(regionsAtom);
+  const [appUser, setAppUser] = useAtom(userAtom);
+
+  useEffect(() => {
+    if (!appUser && user) {
+      setAppUser({
+        email: user.email ?? "",
+      });
+    }
+  }, [user]);
 
   useEffect(() => {
     if (!currentRegions.gameSlug || currentRegions.gameSlug !== gameSlug) {

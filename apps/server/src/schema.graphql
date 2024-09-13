@@ -2,6 +2,19 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+type AppUser {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  email: String!
+  firstName: String
+  foundLocations: [Int!]
+  id: ID!
+  lastName: String
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
 type Auth {
   """JWT access token"""
   accessToken: JWT!
@@ -20,6 +33,12 @@ input CreateGameInput {
   slug: String!
   thumbnailUrl: String!
   title: String!
+}
+
+input CreateUserInput {
+  email: String!
+  firstName: String
+  lastName: String
 }
 
 """
@@ -118,10 +137,13 @@ type Media {
 }
 
 type Mutation {
+  addFoundLocations(data: UpdateFoundLocationInput!): AppUser!
   changePassword(data: ChangePasswordInput!): User!
   createGame(data: CreateGameInput!): Game!
+  createUser(data: CreateUserInput!): AppUser
   login(data: LoginInput!): Auth!
   refreshToken(token: JWT!): Token!
+  removeFoundLocation(data: UpdateFoundLocationInput!): AppUser!
   signup(data: SignupInput!): Auth!
   updateUser(data: UpdateUserInput!): User!
 }
@@ -142,6 +164,7 @@ type Query {
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
   getLocationByRegion(slug: String!): [MarkerLocation!]!
+  getUser(email: String!): AppUser!
   groups: [MarkerGroup!]!
   locations(regionSlug: String): [MarkerLocation!]!
   me: User!
@@ -199,6 +222,11 @@ type Token {
 
   """JWT refresh token"""
   refreshToken: JWT!
+}
+
+input UpdateFoundLocationInput {
+  email: String!
+  location: Float!
 }
 
 input UpdateUserInput {

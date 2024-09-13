@@ -4,7 +4,7 @@ import * as React from "react";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 
-import { useLoaded } from "@/src/hooks/use-loaded";
+import { useLoaded } from "@/hooks/use-loaded";
 import { Button } from "./ui/button";
 
 export function ModeToggle() {

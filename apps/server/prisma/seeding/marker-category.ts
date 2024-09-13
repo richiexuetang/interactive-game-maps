@@ -5,6 +5,229 @@ export const markerCategories = [
     title: "Keeper Shrine",
     locations: [
       {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "兰喜村-朱家大院",
+        longitude: -0.8637105373165923,
+        latitude: 0.2402583410530923,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "盘丝洞-碎玉池",
+        longitude: -0.5023285862474438,
+        latitude: 0.9117178154397152,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "盘丝洞-上层",
+        longitude: -1.0168663084234026,
+        latitude: 0.3971912275075198,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-濯垢泉",
+        longitude: -0.7933173824029609,
+        latitude: 0.713794567647895,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-万慈窟",
+        longitude: -0.9185666143716844,
+        latitude: 0.8857208639566352,
+      },
+      {
+        description:
+          "<p>从旁边可以跳(跳加右键跳批可以类似二段跳)上去打波里个波,</p><p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-底层",
+        longitude: -1.1630788919822237,
+        latitude: 0.7245840844819895,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-堕龙壁",
+        longitude: -1.0617166896387857,
+        latitude: 0.14131476093800188,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-绝想崖",
+        longitude: -0.7413439597906404,
+        latitude: 0.3271039908500626,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-中层",
+        longitude: -0.5760859747490485,
+        latitude: 0.7530213724829053,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-千红窟",
+        longitude: -0.5912063167671135,
+        latitude: 0.5546205574224956,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-花间桥",
+        longitude: -0.5039493793658778,
+        latitude: 1.007309900519516,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞-若仙庵",
+        longitude: -0.9547732888636062,
+        latitude: 0.49988641822898217,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "黄花观-山道",
+        longitude: -1.1166488060933943,
+        latitude: 0.4693229560587895,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "黄花观-虎蛇虫林",
+        longitude: -0.6809955033229471,
+        latitude: 0.44971972026742435,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "黄花观-观门",
+        longitude: -1.0272792969543048,
+        latitude: 0.3345686811200892,
+      },
+      {
+        description:
+          "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>到这里先别去找百眼(开阔大平地),先走上山的阶梯过四妹剧情(会大喊一声快走)图1为通向四妹剧情的路口</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "黄花观-金光苑",
+        longitude: -0.7601227230618406,
+        latitude: 1.031437709344715,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "隐-紫云山-绕仙居",
+        longitude: -0.7501547805505879,
+        latitude: 0.3438639138905444,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "隐·紫云山-巢云顶",
+        longitude: -0.30966604764438443,
+        latitude: 1.1111036541522594,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "隐·紫云山-落花庄",
+        longitude: -0.7910028974121133,
+        latitude: 0.7617912950899637,
+      },
+      {
+        description: "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "隐·紫云山-千花谷",
+        longitude: -1.0167097474457023,
+        latitude: 0.48543713271411093,
+      },
+      {
+        description:
+          "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>取景点：安徽安庆天柱山惜字亭<br></p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "山脚-青嶂道",
+        longitude: -0.33985756269075296,
+        latitude: 0.49269348020980885,
+      },
+      {
+        description:
+          "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>打完金角犀用青符即可见</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "山脚-望犀坡",
+        longitude: -0.40831484721638844,
+        latitude: 0.8441820587621862,
+      },
+      {
+        description:
+          "<p>可以远处看到红树林,前面大片空地是BOSS战斗场地</p><p>————————————————————————</p><p>山脚只是区域名！不是真的要往山脚跑！看到红树林过去就对了,地图上的标点有点歪。</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "山脚-见鹿林",
+        longitude: -0.7059927047016572,
+        latitude: 0.9873427736903011,
+      },
+      {
+        description: "<p>黄色的树下就是土地庙</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "山脚-捕螂汀",
+        longitude: -0.7083767912719168,
+        latitude: 0.43828579973596504,
+      },
+      {
+        description: "<p>拿完金箍棒后上山,山顶上</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "水帘洞-天真顶",
+        longitude: -1.267962892360913,
+        latitude: 0.22889755675394952,
+      },
+      {
+        description:
+          "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p><br></p><p>PS：这玩意儿得拿了金箍棒才有路去开,没做前置就别找了</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "水帘洞-峰回路",
+        longitude: -0.9142298270904519,
+        latitude: 0.295904511666663,
+      },
+      {
+        description:
+          "<p>类似篝火,建议每个土地庙都看下商店和铸造有没有新货</p><p>可以在这调整打大圣的打法</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "石卵-石中境",
+        longitude: -1.3244751152346907,
+        latitude: 0.1847169235076649,
+      },
+      {
         regionSlug: "chapter-1",
         title: "Snake Trail",
         description: "",
@@ -339,12 +562,213 @@ export const markerCategories = [
         longitude: "-0.61628020506586",
         media: [],
       },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "灰烬林-春秋寨",
+        longitude: -1.1826390355814738,
+        latitude: 0.14627554017030775,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "火光地-火燎三关",
+        longitude: -0.5641107862948047,
+        latitude: 0.8921899784550504,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "丹灶谷-谷口",
+        longitude: -0.5962041954960853,
+        latitude: 0.4562388081873081,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "灰烬林-火燎二关",
+        longitude: -0.828885130420133,
+        latitude: 0.5682206871844926,
+      },
+      {
+        description:
+          "<p>一上来就有一个火牛和焰蝠还有三个焦尸,打完才能上香,提前做好准备</p><p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "灰烬林-灰烬台",
+        longitude: -0.7811527027766942,
+        latitude: 0.33095166505400186,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "火光地-清凉坡",
+        longitude: -0.5363349117486678,
+        latitude: 0.5302483934301847,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "火光地-陨砖坑",
+        longitude: -0.12469640609197086,
+        latitude: 1.2567769648173481,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "隐·璧水洞-水火道",
+        longitude: -0.6563886440130489,
+        latitude: 0.9853137090894535,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "隐·璧水洞-洞天深处",
+        longitude: -0.920819752068553,
+        latitude: 0.7534985701826145,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p><p>(土地庙左边过去一点之后,直接踩岩浆上去即可到达下一个土地庙)</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "丹灶谷-罗刹宫",
+        longitude: -0.34621844074808905,
+        latitude: 0.7386629977435888,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p>",
+        regionSlug: "05_huoyanshan",
+        media: [],
+        title: "灰烬林-火燎一关",
+        longitude: -1.2468759054004295,
+        latitude: 0.15123577753149675,
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p><p>建议提前做马哥支线再来</p>",
+        regionSlug: "05_huoyanshan",
+        title: "丹灶谷-翠云殿",
+        longitude: -0.2836515768207448,
+        latitude: 0.7840633617984594,
+        media: [],
+      },
+      {
+        description:
+          "<p>Similar to site of grace, recommend to check shop for new items</p><p>最后一张隐藏图的商店,卖锻造材料虹霓云绦</p>",
+        regionSlug: "05_huoyanshan",
+        title: "隐·璧水洞-炼魔坑",
+        longitude: -1.0556573068637647,
+        latitude: 0.6573218586953544,
+        media: [],
+      },
     ],
   },
   {
     groupSlug: "bmw_locations",
     title: "Meditation Spot",
     locations: [
+      {
+        description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "碎玉池摩崖前",
+        longitude: -0.3609423677166319,
+        latitude: 0.9473380007631107,
+      },
+      {
+        description:
+          "<p>打坐蒲团,地下传送点往茧那边走,刚进门左边有缝,上去就是</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "底层洞天深处",
+        longitude: -1.2224150322872163,
+        latitude: 0.5858231862128633,
+      },
+      {
+        description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "中层幽阴树下",
+        longitude: -0.5306394857078089,
+        latitude: 0.8253243616733243,
+      },
+      {
+        description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "虎蛇虫林崖头",
+        longitude: -0.6128862720607913,
+        latitude: 0.4404494145939566,
+      },
+      {
+        description: "<p>[地点描述]:进门左手树下边</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "黄花观松柟间",
+        longitude: -0.2333499572024209,
+        latitude: 0.8541336972819664,
+      },
+      {
+        description:
+          "<p>[地点描述]:坐上去欣赏风景可得一个技能点(桥旁边的大树下)</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "紫云山巉岩上",
+        longitude: -0.6627439405035318,
+        latitude: 0.4421693802421913,
+      },
+      {
+        description: "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "春秋寨崖像前",
+        longitude: -0.9745577702252319,
+        latitude: 0.1594393559642242,
+      },
+      {
+        description:
+          "<p>[地点描述]:传送点后面的右侧方,坐上去欣赏风景可得一个技能点</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "火燎三关崖前",
+        longitude: -0.5616475415368711,
+        latitude: 0.9261784759868164,
+      },
+      {
+        description:
+          "<p>[地点描述]:坐上去欣赏风景可得一个技能点</p><p>土地庙上台阶后左转后再右转一直走即可</p><p>[有bug]我打坐了之后,画面横过来了,如图3</p><p>在二楼别在楼下找了</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "翠云殿坐佛前",
+        longitude: -0.3355819319482123,
+        latitude: 0.8689985520909858,
+      },
+      {
+        description: "<p>向后走,拐个弯儿。解锁第五五难。</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "炼魔坑石屏前",
+        longitude: -0.9751529725855619,
+        latitude: 0.6377645575019955,
+      },
       {
         regionSlug: "chapter-2",
         title: "The Altar, Sandgate Village",
@@ -568,6 +992,23 @@ export const markerCategories = [
     title: "Awaken Wine Worm",
     locations: [
       {
+        description: "<p>在发光的罐子里</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "三冬虫",
+        longitude: -0.40695301229195024,
+        latitude: 0.8866368972772563,
+      },
+      {
+        description:
+          "<p>金晴兽一阶段破冰后进,在左边发光的罐子里。二周目只给灵蕴,不用特意进来。</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "三冬虫",
+        longitude: -0.6046241374049259,
+        latitude: 1.0276529899533386,
+      },
+      {
         regionSlug: "chapter-1",
         title: "Awaken Wine Worm",
         description: "**Location:** Inside the pots",
@@ -604,6 +1045,56 @@ export const markerCategories = [
     groupSlug: "bmw_key_items",
     title: "Celestial Pill",
     locations: [
+      {
+        description: "<p>[注意事项]:大幅提升气力上限</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "九转金丹",
+        longitude: -0.979604964310397,
+        latitude: 1.1569621281120277,
+      },
+      {
+        description: "<p>别跳下去,就在虫子桥头部位置向左转弯</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "太乙紫金丹",
+        longitude: -0.9299680900580256,
+        latitude: 0.3620148398841252,
+      },
+      {
+        description: "<p>提升血量上限</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "碧藕金丹",
+        longitude: -1.3333421404579724,
+        latitude: 0.3343048456000588,
+      },
+      {
+        description: "<p>[注意事项]:就在土地庙旁边,很好找</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "太乙紫金丹",
+        longitude: -0.3452265483594772,
+        latitude: 0.7538268574105587,
+      },
+      {
+        description:
+          "<p>[注意事项]:土地庙转头的坡上就是,别被狐狸精勾了魂忘了拿</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "碧藕金丹",
+        longitude: -0.840464871306267,
+        latitude: 0.5224364711343839,
+      },
+      {
+        description:
+          "<p>加力气上限,这颗很容易错过,记得回来找</p><p>在两只小怪的左手边、解锁新土地庙之前。</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "九转金丹",
+        longitude: -0.9336604567210998,
+        latitude: 0.7348272052206539,
+      },
       {
         regionSlug: "chapter-3",
         title: "Celestial Jade Lotus Pill",
@@ -689,6 +1180,51 @@ export const markerCategories = [
   {
     locations: [
       {
+        description:
+          "<p>桌子上面,就是铁扇公主座位后面</p><p>酒品多周目无法重复获取</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "龙膏",
+        longitude: -0.22719366125812712,
+        latitude: 0.8874978829945945,
+      },
+      {
+        description:
+          "<p>位置是在宫殿正路左侧第一个金色灯左转在右转效果是减少所有法术回转时间,但一段时间内艰难行走</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "瞌睡虫蜕",
+        longitude: -0.27919164727924795,
+        latitude: 0.8834899314059612,
+      },
+      {
+        description:
+          "要先把默认葫芦升级到9口酒【药师佛葫芦】才能互动<div>与葫芦仙人对话后就可以吸收此处红色精魄,升级为10口酒的【上清宝葫芦】</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "上清宝葫芦",
+        longitude: -0.3993870585219099,
+        latitude: 0.8805090841363921,
+      },
+      {
+        description:
+          "<p>打火焰石头人概率掉落,不行就去土地庙调息刷新。</p><p>------</p><p>全场石头人都会爆,不用一直刷新</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "火焰丹头(概率)",
+        longitude: -0.6323912662610667,
+        latitude: 0.46840854261118636,
+      },
+      {
+        description:
+          "<p>[注意事项]:</p><p>少许提高下次使用身外身法时召唤的毛猴的持续时间</p><p>二周目不能重复获得&nbsp;可略过</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "灵台药苗",
+        longitude: -0.892212150723708,
+        latitude: 0.22007702490763847,
+      },
+      {
         regionSlug: "chapter-1",
         title: "3-Year-Old Coconut Wine",
         description:
@@ -751,6 +1287,39 @@ export const markerCategories = [
   },
   {
     locations: [
+      {
+        description: "<p>[注意事项]:击败头目王灵官获得</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "[丹方]登仙散",
+        longitude: -0.32982257454662545,
+        latitude: 0.5328929178011066,
+      },
+      {
+        description: "<p>[注意事项]:回神力的丹药,加速化身技能冷却</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "[丹方]镜中丹",
+        longitude: -0.16034166034759778,
+        latitude: 0.8957830485797871,
+      },
+      {
+        description: "<p>加味参势丸*3</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "[丹方]加味参势丸",
+        longitude: -0.5516325121885757,
+        latitude: 1.2356814585032936,
+      },
+      {
+        description:
+          "<p>[注意事项]看到左侧石门右边丹方</p><p><br></p><p>不是宝箱是一个棺材</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "[丹方]七返火丹",
+        longitude: -1.0751513948913214,
+        latitude: 0.6302518158280179,
+      },
       {
         regionSlug: "chapter-3",
         title: "Enhanced Tiger Subduing Pellets Formula",
@@ -1009,6 +1578,23 @@ export const markerCategories = [
   {
     locations: [
       {
+        description:
+          '<p>[获得方式]:门楼正对枯木跳下去,图中所站位置走下去右转走到底,就可以看到。(<span style="font-family: var(--van-base-font);">有好几节楼梯的,靠左一直走在最底下。</span><span style="font-family: var(--van-base-font);">)</span></p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "落伽香藤",
+        longitude: -1.0866944317244815,
+        latitude: 0.2594365518670685,
+      },
+      {
+        description: "<p>[获得方式]:boss左边树,会有石头怪跳脸注意躲闪</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "落伽香藤",
+        longitude: -0.21790723395429268,
+        latitude: 0.6290703526046997,
+      },
+      {
         regionSlug: "chapter-1",
         title: "Luojia Fragrant Vine",
         description:
@@ -1039,6 +1625,101 @@ export const markerCategories = [
   },
   {
     locations: [
+      {
+        description: "<p>采集碧藕概率获得</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "嫩玉藕(概率)",
+        longitude: -0.45388500559849376,
+        latitude: 0.9422163388136227,
+      },
+      {
+        description:
+          "<p>[注意事项]:击杀黄花观内和这紫云山内的道士都有概率掉落</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "清虚道果(概率)",
+        longitude: -0.2712537346887416,
+        latitude: 1.0510764560543464,
+      },
+      {
+        description:
+          "<p>大树怪掉落,概率获得</p><p>好像概率很低 我打了半个小时才出</p><p><br></p><p>看运气把,我打了两次出了2个,最多能拿3个。应该是效果可以叠加</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "不老藤(概率)",
+        longitude: -0.9328641073001904,
+        latitude: 0.41146680789893253,
+      },
+      {
+        description:
+          "<p>[注意事项]泡酒物:清虚道果 (饮酒后一定时间内,少许延长闪避的无敌时间)还是人形的道士概率掉落</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "清虚道果(概率)",
+        longitude: -0.8050345025287129,
+        latitude: 0.7780228316119491,
+      },
+      {
+        description: "<p>就在桌子上面 二周目没有</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "九霞清醑",
+        longitude: -0.2708945019017506,
+        latitude: 0.9712159775350386,
+      },
+      {
+        description:
+          "<p>[获取方法]:</p><p>先击败一个道人和剑客就可以开了</p><p>[酒物功能]:</p><p>饮酒时,一定概率不消耗葫芦中的酒量</p><p>只能获取一个,二周目以后获取会变为灵蕴</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "蜂山石髓",
+        longitude: -0.9772493083690961,
+        latitude: 0.4752287514543241,
+      },
+      {
+        description: "<p>房子左侧草药位置采集概率获得青山骨</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "青山骨(概率)",
+        longitude: -0.4338059676353794,
+        latitude: 1.1362648676778377,
+      },
+      {
+        description:
+          "<p>[奖励] 血杞子 x 1</p><p>[注意事项] 进那个大门扭头就能找到</p><p>二周目无视</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "血杞子",
+        longitude: -1.0887453413297123,
+        latitude: 0.16981688846885845,
+      },
+      {
+        description:
+          "<p>[注意事项]在屋内的火上的一个酒壶里</p><p>二周目无法重复获得</p><p>效果:恢复二成四的血量,生命危急时,大大增加恢复量</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "酒品-无忧醑",
+        longitude: -0.2379948830359524,
+        latitude: 0.8569016001904259,
+      },
+      {
+        description: "<p>泡酒物,只能获得一个,二周目来会变为灵蕴</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "紫纹缃核",
+        longitude: -0.5253683215148612,
+        latitude: 1.257391483533283,
+      },
+      {
+        description:
+          "<p>[注意事项]击败蝎太子获得(总之是4只蝎太子的其中一只掉落的),只能获得一个,二周目来不会再获取(即使打完四只蝎太子)</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "倒马毒钩",
+        longitude: -0.12158244423056885,
+        latitude: 1.0652740598660273,
+      },
       {
         regionSlug: "chapter-1",
         title: "Celestial Lotus Seeds",
@@ -1120,6 +1801,197 @@ export const markerCategories = [
   },
   {
     locations: [
+      {
+        description: "<p>[获取方式]:击败百足虫</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "百足虫精魄",
+        longitude: -0.7922613204857782,
+        latitude: 0.4282043257330628,
+      },
+      {
+        description: "<p>[获取方式]:击败蓝光蝎太子</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "蝎太子精魄",
+        longitude: -0.1124364772819888,
+        latitude: 1.0834617245738798,
+      },
+      {
+        description:
+          "<p>[获取方式]:在桥下方虫茧挡着的洞里有精英傀蛛士+蚕怪,小心别被群殴死。</p><p>旁边一个大茧出来的蚕怪会掉一个玲珑内丹</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "傀蛛士精魄(隐藏)",
+        longitude: -0.30485664433570037,
+        latitude: 0.871840924985122,
+      },
+      {
+        description:
+          '<p>[获取方式]:</p><p>击败此处琴螂仙,获得【琴螂原体】后交付给如意画轴中的辰龙,土地庙调息后,六六村药篓右边会多一个小琴螂,喂食3次【茧圆】(盘丝洞里打白色的茧概率掉落)后,土地庙调息后,在<span style="font-family: var(--van-base-font);">小琴螂</span><span style="font-family: var(--van-base-font);">原来的位置吸取精魄即可获得</span></p><p><span style="font-family: var(--van-base-font);">注:多周目不会出现可炼化精魄</span></p>',
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "琴螂仙精魄",
+        longitude: -0.4433624916873953,
+        latitude: 1.3043256161038386,
+      },
+      {
+        description: "<p>[获取方式]:往左上去有宝箱,往右是精魄</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "儡蜱士精魄",
+        longitude: -0.9528606505930668,
+        latitude: 0.20824886589169012,
+      },
+      {
+        description: "<p>[获取方式]:优先打,会在和蝎子怪打架的时候搞偷袭</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "蜻蜓精精魄",
+        longitude: -0.8562006434520129,
+        latitude: 0.8849253771713137,
+      },
+      {
+        description: "<p>[获取方式]:击杀此处头目虫总兵获得</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "虫总兵精魄",
+        longitude: -0.7255957051780513,
+        latitude: 0.3439817165759962,
+      },
+      {
+        description: "<p>[获取方式]:打蓝火蛇捕头获得,低概率掉珍玩虎筋绦子</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "蛇捕头精魄",
+        longitude: -0.15290810754768813,
+        latitude: 0.8093552562031476,
+      },
+      {
+        description: "<p>[获取方式]:采集此处蘑菇触发头目菇女,击败后获得</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "蘑女精魄",
+        longitude: -0.2616029865309315,
+        latitude: 0.9301820848001796,
+      },
+      {
+        description: "<p>[获取方式]:</p><p>小心两边弓箭手</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "蛇司药精魄",
+        longitude: -0.9211936472472644,
+        latitude: 0.6851717459085478,
+      },
+      {
+        description: "<p>[获取方式]:击杀此处蓝火精英大树精青冉冉掉落</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "青冉冉精魄",
+        longitude: -0.9301351954953248,
+        latitude: 0.4311631042236854,
+      },
+      {
+        description: "<p>[获取方式]:击杀棺材前蓝火精英虫校尉</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "虫校尉精魄",
+        longitude: -0.6983965088724062,
+        latitude: 1.0400396362706772,
+      },
+      {
+        description:
+          "<p>[获取方式]:打完二姐进入盘丝洞后传送出来能看到一个幽灯鬼,打掉即可获得</p><p>被动增加灵韵掉落,刷钱套装必备</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "幽灯鬼精魂",
+        longitude: -0.9149631876630053,
+        latitude: 0.32007931017102464,
+      },
+      {
+        description: "<p>通道往右下方跳 旁边还有一个宝箱</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "鳖宝精魄",
+        longitude: -0.5153587120536542,
+        latitude: 0.49228551621609995,
+      },
+      {
+        description:
+          '<div>获得方式:</div><div><span style="font-family: var(--van-base-font);">&nbsp;击杀</span>燧统领获得<br></div>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "燧统领精魄",
+        longitude: -0.5276051539700006,
+        latitude: 0.6756430248740344,
+      },
+      {
+        description: "<p>[获取方式]:击杀此处看宝箱的蓝火地罗刹</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "地罗刹精魄",
+        longitude: -0.5363471272415268,
+        latitude: 0.7024571371911463,
+      },
+      {
+        description:
+          "<p>[获取方式]:小心自爆,会刷很多吐火+自爆的小怪,周围精魄不要打,直接大技能按死,拿会回法力的葫芦,打完喝酒把法喝满再吸收精魄</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "黑脸鬼精魄",
+        longitude: -1.0370982896507144,
+        latitude: 0.49029428261943053,
+      },
+      {
+        description: "<p>[获取方式]:击败石父掉落</p><p>无脑立棍随便杀</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "石父精魄",
+        longitude: -0.8831795328680698,
+        latitude: 0.3680422064070541,
+      },
+      {
+        description:
+          "<p>[获取方式]:打败燧先锋获得,和之前的燧统领不是一个,别忘了</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "燧先锋精魄",
+        longitude: -0.2145084336638945,
+        latitude: 0.653611373658805,
+      },
+      {
+        description: "<p>[获取方式]:蓝火牯都督掉落,这里犀牛精很多,一点点打</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "牯都督精魄",
+        longitude: -0.8903828146328294,
+        latitude: 0.8001149980590156,
+      },
+      {
+        description:
+          "<p>[获取方式]:</p><p>主线进度到灭火,大铁球和八戒坠落后返回来就能捡到,</p><p>如果已拥有二周目无法重复获得</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "兴烘掀·掀烘兴精魄(大铁球)",
+        longitude: -0.32305079369095324,
+        latitude: 0.9001263302292983,
+      },
+      {
+        description: "<p>[获取方式]:击败BOSS云里雾·雾里云后吸取</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "云里雾·雾里云精魄",
+        longitude: -0.39041263030608775,
+        latitude: 0.6822647041885403,
+      },
+      {
+        description: "<p>必出地灵伞盖</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "九叶灵芝精精魄",
+        longitude: -0.5815753601930851,
+        latitude: 0.9253320375529341,
+      },
       {
         regionSlug: "chapter-3",
         title: "Captain Lotus-Vision Spirit",
@@ -1403,6 +2275,472 @@ export const markerCategories = [
   },
   {
     locations: [
+      {
+        description: "<p>[奖励物品]:小金片,镔铁砂</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.45492039296019016,
+        latitude: 0.8929224762604946,
+      },
+      {
+        description:
+          "<p>[奖励物品]:</p><p>彩云葫芦</p><p>毒敌大王喝酒亭子下面的宝箱里,可以直接获取。</p><p>必须要打了再开 不然是丹药【龙光倍力丸】。</p><p>补充:先开宝箱给丹药,葫芦会从毒敌大王身上掉</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "彩玉葫芦",
+        longitude: -0.5339764140949228,
+        latitude: 0.39271436530442827,
+      },
+      {
+        description: "<p>[奖励物品]:铁中血</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.34135960624021777,
+        latitude: 0.9030959057779029,
+      },
+      {
+        description: "<p>[奖励物品]:解毒药*3</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "宝箱",
+        longitude: -1.2240778825313043,
+        latitude: 0.332020105726329,
+      },
+      {
+        description:
+          "<p>[奖励物品]:铁中血,金片.&nbsp;</p><p>不注意被偷袭,2只蜘蛛精</p><p>补充一下,进门右侧埋伏了一只,正前方掉下来一只<br></p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.4023477999345175,
+        latitude: 1.2677628754048555,
+      },
+      {
+        description:
+          '<p>[奖励物品]:碎金片*3 小金片*3</p><p>or&nbsp;<span style="font-family: var(--van-base-font);">小金片*1 镔铁砂*2</span></p>',
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.35177941217250464,
+        latitude: 1.0862848336091133,
+      },
+      {
+        description:
+          '<p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">[获取方式]:在亭子里的盒子里</p><p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">效果是提高打杀获得的经验值(提高10%),此效果可堆叠</p><p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">多周目可多次获得</p>',
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "仙箓",
+        longitude: -0.6944803329167826,
+        latitude: 0.5785427847286826,
+      },
+      {
+        description: "<p>[奖励物品]:几枚丹药</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "丹药盒",
+        longitude: -1.0436375561279192,
+        latitude: 0.27254509633816326,
+      },
+      {
+        description:
+          "<p>[奖励物品]: 镔铁砂x2</p><p>[注意]:走过崖边后不需要上楼梯,直接左转,小心掉下去。里面有几个怪物还有琴螂幼虫</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.8651113666513481,
+        latitude: 0.4095566861428921,
+      },
+      {
+        description: "<p>[奖励物品]:铁中血+碎金片</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "宝箱",
+        longitude: -0.5916717624539558,
+        latitude: 0.43832684011661627,
+      },
+      {
+        description: "<p>[奖励物品]:金称心+玲珑内丹</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.641619365997542,
+        latitude: 1.0511705556142346,
+      },
+      {
+        description: "<p>[奖励物品]:小金叶+寒铁片</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "宝箱",
+        longitude: -1.0758886526402307,
+        latitude: 0.49750661253234796,
+      },
+      {
+        description:
+          "<p>[奖励物品]:灵蕴*1600+ 镔铁砂*2</p><p>百眼房间进门右边有个小路两只怪</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.7007574711660425,
+        latitude: 1.0695220215829977,
+      },
+      {
+        description:
+          '<p>[奖励物品]:寒铁叶(随机)、<span style="font-family: var(--van-base-font);">碎金片,旁边有个躺着的虫头道士会起来问候你&nbsp;</span></p>',
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "宝箱(有埋伏)",
+        longitude: -0.5924058348866197,
+        latitude: 0.8518418909139314,
+      },
+      {
+        description:
+          "<p>宝箱旁边有小怪,慢慢走过去蓄力3段一棍打死</p><p>[奖励物品]:铁中血</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.4869837114909785,
+        latitude: 0.7637700887802197,
+      },
+      {
+        description:
+          '<div>左边楼梯尽头,有两个小怪</div>龙光倍力丸,镜中丹,铁中血<div><span style="font-family: var(--van-base-font);">或是七反火丹,虚空结,铁中血,</span></div><div><span style="font-family: var(--van-base-font);">两个小怪在我刚把镜头转到石板路上时喊着“mimimi”就下来了</span><br></div>',
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "丹药宝箱",
+        longitude: -1.0012274054287786,
+        latitude: 0.958838261442267,
+      },
+      {
+        description: "<p>[奖励物品]:小金片 碎金片 细金线</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.7618062932751002,
+        latitude: 0.5818503072589891,
+      },
+      {
+        description: "<p>[奖励物品]:玲珑内丹 细金线 寒铁叶</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "玲珑内丹",
+        longitude: -0.7303347008535184,
+        latitude: 0.40756466735116703,
+      },
+      {
+        description:
+          '<p>从台阶往左看可以直接跳下去,跳跃加重击可以再跳上来。</p><p>地图没画出来,但确实有</p><p>从这里直走即可</p><p>没啥用,碎金片,小金片</p><p>~~~~~~~~~~~~~~~~~~~~</p><p>#编辑:面对虫总兵,左边的房子附近有一条路可以</p><p><span style="font-family: var(--van-base-font);">过去</span><br></p><p><span style="font-family: var(--van-base-font);"><br></span></p><p><span style="font-family: var(--van-base-font);">沿着总兵房子旁边下楼梯也可以走过来</span></p>',
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "这里有宝箱",
+        longitude: -0.863769596479699,
+        latitude: 0.33997490772846106,
+      },
+      {
+        description:
+          "保命丹药。服用后长时间内,遭遇丧命之难,优先触发此药,还魂复生。<div>打完黑手道人后面的大树再往上走有个宝箱</div>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "九转还魂丹",
+        longitude: -0.5586073636514186,
+        latitude: 1.0954958569693076,
+      },
+      {
+        description: "<p>[奖励物品]:金吻兽</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "金稳兽",
+        longitude: -0.5444371038502425,
+        latitude: 1.2454131777489437,
+      },
+      {
+        description:
+          "<p>[奖励物品]:寒铁叶*4&nbsp; &nbsp; &nbsp;过独木桥后沿着路走,在两个蛇骨头怪之间,朝右后方回头看,在一堆木头架子后面有个棺材宝箱{面朝独木桥(图一)向右后方看(图二)木头架子后面}</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.9777691893378346,
+        latitude: 0.23156115347065054,
+      },
+      {
+        description:
+          "<p>[奖励物品]:小金片、镔铁砂</p><p>就在土地庙旁边,二战老猪后一进山洞就能看见,正对洞口。</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "宝箱",
+        longitude: -0.7685691766716047,
+        latitude: 0.7259328439172208,
+      },
+      {
+        description:
+          "<p>[奖励物品]:虚空结</p><p>七返火丹(重制法术cd的消耗药)或龙光倍力丸</p><p>这里少画一条路</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "宝箱",
+        longitude: -0.9972714077899809,
+        latitude: 0.2692373830460326,
+      },
+      {
+        description:
+          "<p>有小怪偷袭,开宝箱前先扫荡下小怪,内容物:铁中血,镔铁沙</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "宝箱",
+        longitude: -0.7412915841002246,
+        latitude: 0.3694795194997056,
+      },
+      {
+        description:
+          '<p>在坑里边,<span style="font-family: var(--van-base-font);">记得隐身,怪很多&nbsp;金称心+玲珑内丹(附近的怪物可以掉落玲珑内丹)</span></p><p><span style="font-family: var(--van-base-font);">定风丹可以秒杀飞虫,建议聚怪之后一个定风丹全秒</span></p>',
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -1.2661123567184802,
+        latitude: 0.5143676126730696,
+      },
+      {
+        description: "<p>[奖励物品]:寒铁叶或镔铁砂</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.5597763083687539,
+        latitude: 0.6936234508938242,
+      },
+      {
+        description: "<p>[奖励物品]:材料宝箱</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "细金线*2",
+        longitude: -0.5240808611871444,
+        latitude: 1.2156874839585896,
+      },
+      {
+        description:
+          "<p>可以喝八次,饮酒加火焚耐性,且无视熔岩地面焚伤</p><div>之后第五回火焰山非常有用的葫芦</div>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "湘妃葫芦",
+        longitude: -0.5141245013242326,
+        latitude: 1.2320774054705907,
+      },
+      {
+        description:
+          "<p>[奖励物品]:出洞口后不上台阶右手边,寒铁叶x4/兵铁砂x2</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.8637795362746203,
+        latitude: 0.8345650338320212,
+      },
+      {
+        description: "<p>[奖励物品]:镔铁砂</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "棺材宝箱",
+        longitude: -0.9058823207226112,
+        latitude: 0.56212047887918,
+      },
+      {
+        description: "<p>[奖励物品]:寒铁叶,小金片</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.6701183445326535,
+        latitude: 0.6837032300157517,
+      },
+      {
+        description: "石蛛看守,奖励碎金片+小金片",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.711118504530333,
+        latitude: 0.36358938750625214,
+      },
+      {
+        description: "<p>[奖励物品]:小金片 镔铁砂</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.9630714180445636,
+        latitude: 0.5116927023894959,
+      },
+      {
+        description:
+          '<p>[奖励物品]:</p><p>七反火丹+保命丸/镜中丹 或&nbsp;<span style="text-align: center;">龙光倍力丸+虚空结</span></p>',
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "宝箱",
+        longitude: -0.6737522991733158,
+        latitude: 0.9419498668129194,
+      },
+      {
+        description:
+          "<p>[奖励物品]:寒铁叶*4、铁中血,宝箱旁会出一堆自爆小蜘蛛</p><p>ps:刚来带着猪八戒有特殊互动然后出小蜘蛛,若先打二姐猪八戒离队后过来就无法打开宝箱,需白天后再来才能打开</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "宝箱(有埋伏)",
+        longitude: -0.49195422001227485,
+        latitude: 0.5679639510053676,
+      },
+      {
+        description: "<p>[奖励物品]:霓虹云绦、玲珑内丹</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "虹霓云绦",
+        longitude: -0.5449750295124431,
+        latitude: 0.7008494268688708,
+      },
+      {
+        description: "<p>[奖励物品]:铁中血,大小金片</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "宝箱",
+        longitude: -0.33907988021624647,
+        latitude: 0.8970810221613306,
+      },
+      {
+        description: "<p>[奖励物品]:随机的,我的是宾铁砂,看见火盆走出外面</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "加味参试丹(棺材宝箱)",
+        longitude: -1.0979336023075064,
+        latitude: 0.40210934174619695,
+      },
+      {
+        description:
+          "<p>[奖励物品]:细金线+玲珑内丹</p><p>上台阶之前左手边走到底</p><p>由于细金线每周目也是限量的,故名称处特意加注</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "棺材宝箱(细金线)",
+        longitude: -0.8781891571824758,
+        latitude: 0.24139702774577643,
+      },
+      {
+        description:
+          "<p>[奖励物品]:登仙散、加味参势丸、虚空结随机获取</p><p>----------</p><p>有鳖宝守护,概率掉落头冠鳖宝头骨</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "随机药",
+        longitude: -1.0747560496051278,
+        latitude: 0.2974994033518641,
+      },
+      {
+        description:
+          "有鳖宝看守,在岩浆上<div>宝箱给先天锟钢 虚空结(概率)</div><div>注:从这里开始的岩浆地形可以带湘妃葫芦</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "先天锟钢",
+        longitude: -0.5221376144832561,
+        latitude: 0.4802246417337557,
+      },
+      {
+        description: "<p>[奖励物品]:寒铁叶x5</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "棺材宝箱",
+        longitude: -1.048590557600221,
+        latitude: 0.1978245802144869,
+      },
+      {
+        description: "<p>[奖励物品]:镔铁砂x5</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: " 棺材宝箱",
+        longitude: -1.1780179751862363,
+        latitude: 0.24409595714446652,
+      },
+      {
+        description: "<p>[奖励物品]:细金线,玲珑内丹</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "棺材宝箱(细金线)",
+        longitude: -0.3887113847964372,
+        latitude: 0.40231670698958055,
+      },
+      {
+        description:
+          '<p><span style="font-family: var(--van-base-font);">[奖励物品]:大力铁角+虹霓云绦+虚空结, 大力铁角一个周目算上这个宝箱加BOSS的产出只有4个,不然错过材料不够又要多开一周目专门拿这个材料</span></p><p><span style="font-family: var(--van-base-font);">---</span></p><p>只要装备没做完,<span style="font-family: var(--van-base-font);">三周目也会给</span>大力铁角<span style="font-family: var(--van-base-font);">,BOSS就给材料,不过一个周目一共最多获得4个,两个周目8个正好做完全套装备(漏了这个箱子就需要3周目才能集齐套装)</span></p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "[重点]大力铁角+虹霓云绦",
+        longitude: -0.9270659850202776,
+        latitude: 0.7909218312199755,
+      },
+      {
+        description: "<p>[奖励物品]:金趁心,铁中血</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "滑冰的路到头后往右下去",
+        longitude: -0.8057740537701079,
+        latitude: 0.8812122967059679,
+      },
+      {
+        description: "<p>[奖励物品]:铁中血、小金片、大金片</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "普通宝箱",
+        longitude: -0.3341979212440549,
+        latitude: 0.7584598106731022,
+      },
+      {
+        description:
+          "<p>[奖励物品]:细金线,铁中血。</p><p>在外面的岩浆里,不是平台上</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "宝箱(细金线)",
+        longitude: -0.45115469926815877,
+        latitude: 0.8545282015279696,
+      },
+      {
+        description: "<p>[奖励物品]:登仙散 细金线&nbsp; 铁中血</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "宝箱(细金线)",
+        longitude: -0.4360440247248789,
+        latitude: 0.5927521196602612,
+      },
+      {
+        description: "<p>[奖励物品]:金称心+玲珑内丹</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "棺材宝箱",
+        longitude: -1.1445074822706545,
+        latitude: 0.23206734590245048,
+      },
+      {
+        description: "<p>[奖励物品]:碎金片x5</p><p>也会掉寒铁叶,镔铁砂等</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "棺材宝箱",
+        longitude: -1.1549131287718524,
+        latitude: 0.23357054768132457,
+      },
+      {
+        description: "<p>[奖励物品]:虹霓云绦＋玲珑内丹</p><p>概率 金趁心</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "虹霓云绦(棺材宝箱)",
+        longitude: -0.7246261967236478,
+        latitude: 0.9125266290417215,
+      },
+      {
+        description: "<p>[奖励物品]:镔铁砂*5</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "棺材宝箱",
+        longitude: -0.21130466222115274,
+        latitude: 0.50709118441155,
+      },
+      {
+        description:
+          "<div>有鳖宝看守 概率出鳖宝头骨,不想打就引到路上用铁球秒</div><div>-----------</div><div>拿到了登仙散,虚空结<br></div><div>----------</div><div>随机出药,我出了加味参势丸和虚空结</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "宝箱",
+        longitude: -0.2869616604896805,
+        latitude: 0.7034337167222731,
+      },
       {
         regionSlug: "chapter-3",
         title: "Chest",
@@ -2401,6 +3739,58 @@ export const markerCategories = [
   {
     locations: [
       {
+        description:
+          "<p>[获取方式]:</p><p>初见九叶灵芝精必定掉落,二周目无法重复获得</p><p>在这附近采集就会摸出九叶灵芝精了</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "[头冠]地灵伞盖",
+        longitude: -0.588996417320601,
+        latitude: 0.9009501348678697,
+      },
+      {
+        description: "<p>[获取方式]:刷火长老掉,第三章刷过就不用再刷了</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "雷火印(概率)",
+        longitude: -0.38436296702050754,
+        latitude: 0.7870655006831697,
+      },
+      {
+        description:
+          "<p>[奖励物品]:琥珀念珠,数量限制一个,多周目只能拿到灵蕴</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "琥珀念珠",
+        longitude: -0.9620810686786854,
+        latitude: 0.5138638247370437,
+      },
+      {
+        description: "<p>[获取方式]:打死鳖宝概率掉</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "鳖宝头骨(概率)",
+        longitude: -1.0624854171505262,
+        latitude: 0.28837892009886446,
+      },
+      {
+        description:
+          "<p>[获取方式]:打犀牛精(概率)掉落 打后面的地罗刹也掉,不用着急刷,后面壁水洞里这种怪扎堆,刷起来更方便。</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "白贝腰链(概率)",
+        longitude: -1.1526351454885457,
+        latitude: 0.21187161221234874,
+      },
+      {
+        description:
+          "<p>[获取方式]:击杀两个海罗刹掉落,不用刷。限定一个。</p><p>二周目不会掉了,可以留着吉祥物</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "金钮",
+        longitude: -0.3454261780858303,
+        latitude: 0.8099435587139538,
+      },
+      {
         regionSlug: "chapter-3",
         title: "Mani Bead",
         description:
@@ -2503,6 +3893,15 @@ export const markerCategories = [
         longitude: "-0.52412405157850",
         media: [],
       },
+      {
+        description:
+          "<p>[获取方式]:击败小黄龙获得</p><p>能够提高打杀掉落材料的概率(提升率大概10%,稀有掉落照样稀有)</p><p>多周目可以重复获得</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "金色鲤",
+        longitude: -1.0105874784380262,
+        latitude: 0.09758862525244183,
+      },
     ],
     groupSlug: "bmw_equipment",
     title: "Curio",
@@ -2601,7 +4000,6 @@ export const markerCategories = [
         longitude: "-0.42554855346586",
         media: [],
       },
-
       {
         regionSlug: "chapter-1",
         title: "Fireproof Mantle Vessel",
@@ -2609,6 +4007,15 @@ export const markerCategories = [
           "**Location:** Rewarded for defeating [Elder Jinchi](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397381) in the [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)",
         latitude: "0.83704384201968",
         longitude: "-0.69957721156376",
+      },
+      {
+        description:
+          "<p>[Obtain]: By defeating main story boss Red Boy</p><p>Can provide a long during of crowd control,缺点是BOSS被控后会一直后退不能打棍花,对付后续BOSS王灵官有奇效</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "Plantain Fan",
+        longitude: -0.2796005958002752,
+        latitude: 1.3230924845087344,
       },
     ],
     groupSlug: "bmw_equipment",
@@ -4490,6 +5897,123 @@ export const markerCategories = [
   {
     locations: [
       {
+        description:
+          "<p>[奖励]:</p><p>业火晶、虚空节</p><p>[攻略要点]:</p><p>类似以前打的石先锋,用定很好大,杂兵</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "燧统领",
+        longitude: -0.5350976970733257,
+        latitude: 0.6853262547022467,
+      },
+      {
+        description:
+          "<p>[奖励]:</p><p>金趁心</p><p>[攻略要点]:</p><p>比较简单,带上避火罩,先打在地上的,两段棍势击中会有很大的硬直</p><p>注意从设置查关闭锁敌</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "急如火 快如风",
+        longitude: -0.9031862773076682,
+        latitude: 0.5241909614926925,
+      },
+      {
+        description:
+          "<p>[奖励]:业火精,这附近还有落伽香藤</p><p><br></p><p>[攻略要点]:优先清理小怪避免控到死</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "燧先锋",
+        longitude: -0.23566678734707125,
+        latitude: 0.634969582995879,
+      },
+      {
+        description:
+          '<p>注意看地上有红色的印记,实际点位为左面那个交互点,上交四个火灵砂触发战斗</p><p>[奖励]:业火精</p><p><span style="font-family: var(--van-base-font);">[攻略要点]:</span><br></p><p>需要4个火灵砂解锁挑战<br></p><p>火灵砂可以在土地庙买</p><p>他打半血会招小怪,可以用变身来抗伤害打小怪</p><p>如果一次没打过,再战又需要4个火灵砂</p><p>(小心火焚伤害,带上带上避火罩好打很多)</p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "火灵元母",
+        longitude: -0.235864825029779,
+        latitude: 0.4760360290105865,
+      },
+      {
+        description:
+          "<p>[奖励]:金趁心</p><p><br></p><p>[攻略要点]:双boss交替进攻</p><p>击败获得成就【两双一对五十六难】</p><p>—————————-</p><p>千万别用任何有毒伤火伤打这两个boss,会有锁血卡死bug,若触发bug重启游戏卸下相关装备即可</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "兴烘掀 掀烘兴",
+        longitude: -0.9949319920729067,
+        latitude: 0.684128996907404,
+      },
+      {
+        description:
+          "<p>[奖励]:打完和牛哥对话进行(在下次就在碧云洞口了)</p><p><br></p><p>[攻略要点]:如果发现牛哥不在,记得返回春秋寨再次对话；</p><p>1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；</p><p>可以站在地图外用仇恨把BOSS拉出来。然后就会被卡在地图外。一直蓄力戳棍可以无伤过</p><p>如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br></p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "红银战车",
+        longitude: -0.34544303784556973,
+        latitude: 0.9566101066992019,
+      },
+      {
+        description:
+          "<p>[奖励]:</p><p><br></p><p>[攻略要点]:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤。离屁股太近的话会被后喷火秒<br></p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "褐铁战车",
+        longitude: -1.1949097751573845,
+        latitude: 0.16961014531599972,
+      },
+      {
+        description:
+          '<p><span style="font-family: var(--van-base-font);">[攻略要点]:躲在离他最近的石壁凹陷处,劈棍蓄力后出去打出硬直然后接着打,要攻击了就马上退回凹陷,如此反复即可。并不难打(也可以三段立棍反复敲,不耗血不耗蓝)</span></p><p><span style="font-family: var(--van-base-font);">[攻略方法2]:</span>没必要上面那么磨叽,直接用精魄冻结/定身+棍花回转,很快就能打死</p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "灰铜战车",
+        longitude: -0.9378476966145683,
+        latitude: 0.4547490103912679,
+      },
+      {
+        description:
+          "<p>[奖励]:阳遂珠+玲珑内丹</p><p><br></p><p>[攻略要点]:需要做前面牛哥的对话</p><p><br></p><p>打法建议:铜头铁臂+无限重击</p><p>打法建议: 先轻击+重击磨血到60%,存3段棍势,隐身→放猴毛→化身赤尻马猴→放马猴技能→砍砍砍→放马猴大招</p><p>如果没有刷新去牛哥2号任务点找,土地庙不显示的话</p><p>打完后记得和牛哥对话</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "赤金战车",
+        longitude: -0.6069396324251102,
+        latitude: 0.5812839057369672,
+      },
+      {
+        description:
+          "<p>[奖励]:</p><p>云里雾·雾里云精魄、细金线、虚空结</p><p>[攻略要点]:</p><p>用定身棍花快速攒棍势,或者聚形散气三段重击可轻松过,出招不难</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "云里雾·雾里云",
+        longitude: -0.40903212940762046,
+        latitude: 0.670129171169819,
+      },
+      {
+        description:
+          "<p>[奖励]:虚空结+石父精魄</p><p><br></p><p>[攻略要点]:弱,没啥要点</p><p>如果手贱打碎了他手里抱着的骷髅,就会狂暴化,可以感受一下愤怒的真·BOSS石父</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "石父",
+        longitude: -0.897798871568483,
+        latitude: 0.3496504959384623,
+      },
+      {
+        description:
+          "<p>[奖励]:</p><p>九叶灵芝精精魄、地灵伞盖。概率给九叶灵芝种子&nbsp; 还有概率给虚空结</p><p>[攻略要点]:</p><p>关系到一个成就&nbsp; &nbsp;&nbsp;</p><p>注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断</p><p>聚形散气、变身可以解蘑菇异常</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "九叶灵芝精",
+        longitude: -0.5834652412309538,
+        latitude: 0.9129993741331646,
+      },
+      {
+        description:
+          "<p>注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br></p><p>[奖励]:</p><p>小活师</p><p>[攻略要点]:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打。</p><p>BOSS火伤,建议带法宝避火罩</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "波浪浪",
+        longitude: -1.0795285595006305,
+        latitude: 0.6304682383994447,
+      },
+      {
         regionSlug: "chapter-1",
         title: "Bullguard",
         description:
@@ -4768,6 +6292,33 @@ export const markerCategories = [
   },
   {
     locations: [
+      {
+        description:
+          "<p>[奖励]:法宝·芭蕉扇、细金线、虹霓云绦、金趁心、先天锟钢、玲珑内丹</p><p>[攻略要点]:</p><p>半血会飞到天上放一个技能,按节奏躲避即可,只要不是全部中就死不掉,打完进入二阶段夜叉王,会给你恢复满状态,boss连贯技能多,范围广,但大技能40米大刀5连前摇大,可用定风珠打断,打完进入cg</p><p>---</p><p>残血不杀只需要三点一线既可(牛魔王-红孩儿-天命人)</p><p>红孩儿低于20%血量既可触发(意义不大,就是多个两人打斗的CG,主要打死和打残的结局CG是一样的)</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "红孩儿",
+        longitude: -0.23208141877927346,
+        latitude: 1.3148131814448902,
+      },
+      {
+        description:
+          '<p>[奖励]:阴阳法衣、细金线x2、<span style="font-family: var(--van-base-font);">虹霓云绦</span></p><p><br></p><p>[攻略要点]:重点！！！先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身。</span></p><p>在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span></p><p><span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span></p><p><span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上。</span></p><p><span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span></p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "火焰山土地",
+        longitude: -0.24355521737027175,
+        latitude: 0.879215489056179,
+      },
+      {
+        description:
+          '<p>[奖励]:</p><p>大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、细金线、玲珑内丹、珍玩【水火蓝】</span></p><p>[攻略要点]:</p><p>第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理。</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿三冬虫。</span></p><p><span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打。</span></p><p><span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span></p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "璧水金睛兽",
+        longitude: -0.6260214051914943,
+        latitude: 0.9932906427740846,
+      },
       {
         regionSlug: "chapter-2",
         title: "Tiger Vanguard",
@@ -5084,6 +6635,182 @@ export const markerCategories = [
   {
     locations: [
       {
+        description:
+          "<div><div>打完了红孩儿进了花果山也是可以传送回来继续任务。会分为两种情况:</div><div>1.打完第二辆车,后面有跟牛哥对话,打第三辆车的时候会有牛哥帮你,然后在门口自动触发剧情。</div><div>2.你自己打完第三辆车,这个时候来到门口是不会触发剧情的。你要回到第三辆车那里,牛哥在那里。对话完过来解锁隐藏地图。(第三辆车在翠云殿往山上走的路,牛哥在那)</div></div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "隐藏地图入口",
+        longitude: -0.6576701051815235,
+        latitude: 0.6622345612727969,
+      },
+      {
+        description:
+          "<div>这里也是璧水金睛兽的战斗场地,在最开始的战斗中引诱它使用火属性攻击打碎冰墙能直接进入下一个场地,在第二个场地再引诱它使用冰属性攻击熄灭火墙就可以进入第三个场地,在那里辟水金睛兽会同时使用冰火双属性与玩家战斗。推荐想要挑战高难的天命人尝试。</div><div>打完之后会有关于红孩儿身世的CG,观看完毕之后会传送出去</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "璧水金睛兽双属性场地",
+        longitude: -0.4949855357822628,
+        latitude: 1.1328690624750664,
+      },
+      {
+        description:
+          "<p>打完两个boss,救出狐狸精</p><p>---</p><p>小狐狸可爱捏,质疑纣王,理解纣王,成为纣王！</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "满口哥哥的狐狸精",
+        longitude: -0.891364097903022,
+        latitude: 0.5428554253715134,
+      },
+      {
+        description: "刷珍品【白贝腰链】建议到这里刷,大概有6头,其中一个是老六",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "此地一大群犀牛精",
+        longitude: -0.9009072207556414,
+        latitude: 0.7768176819278096,
+      },
+      {
+        description:
+          "杀了会掉珍玩,黑神话的巨大野怪都菜的,别看他远看吓死人,修脚随便一下就死了",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "两只海罗刹",
+        longitude: -0.3588246613797139,
+        latitude: 0.8400870205675943,
+      },
+      {
+        description:
+          "<p>跑跳的时候当心贴图石头里卡bug动弹不得,弄不好就得回档了</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "贴图石头里有bug",
+        longitude: -0.5110064562167054,
+        latitude: 0.6855355354753669,
+      },
+      {
+        description:
+          "吸引到这里后壁水金晴兽的属性攻击会切换为冰,相较于火属性较简单,如果继续前进会切换双属性,变得比较难打。",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "壁水金晴兽冰属性场地",
+        longitude: -0.5346224284778316,
+        latitude: 1.0418316485593664,
+      },
+      {
+        description: "小心石头人会把你撞下去,下面是岩浆地形,记得提前装备避火罩",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "这段路没有空气墙",
+        longitude: -0.511287143301729,
+        latitude: 0.5154624954204934,
+      },
+      {
+        description:
+          "<p>跟着小狐狸前往下一个地点 丹炉谷谷口。</p><p>你要是站在这里不下去小狐狸还会红温,可以调戏一下。</p><div>注:前面被火拦着的是去清凉坡的路,等芭蕉扇灭火后 可以过<br></div><div>(这里也会遇到赤金战车,然后进入隐藏地图入口)<br></div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "跳下去吧 不会死的",
+        longitude: -0.6409634456019546,
+        latitude: 0.4917262221253793,
+      },
+      {
+        description:
+          "<p>芭蕉扇灭火后,可以通过火燎二关免打怪直达隐藏图,绕过一大段路和2个BOSS,多周目可以这么走速通</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "可以通过火燎二关直通",
+        longitude: -0.1761282462603333,
+        latitude: 0.7487987638610605,
+      },
+      {
+        description:
+          "灭火剧情后从此处可以直接到隐藏图门前<div>------------</div><div>需要先完成皓斧力士的任务,进去之后直接打赤金战车</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "灭火后从此步行可到隐藏图前",
+        longitude: -0.6475464349337301,
+        latitude: 0.5356694327681879,
+      },
+      {
+        description:
+          "<p>全图火伤害 场景有岩浆</p><p>或者带老婆给的葫芦【湘妃葫芦】 喝了就不怕火了。</p><p>老婆真好！</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "火焰山起点:建议带辟火罩",
+        longitude: -1.1837397630806095,
+        latitude: 0.082787632802507,
+      },
+      {
+        description:
+          "<p>石父→灰铜战车→急如火快如风</p><div>这是三场BOSS连战,中途没有土地庙,合理利用路上的灵蕴和精魄恢复状态。有压力大不了重新跑图。</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "BOSS RUSH 注意状态",
+        longitude: -0.8025758718805491,
+        latitude: 0.34875696136856504,
+      },
+      {
+        description:
+          '吸的时候下面的战车会炸你一炮,真掉下去了记得还是往回走一下把洞里的东西捡了,<span style="font-family: var(--van-base-font);">在战车的反方向。</span><div><span style="font-family: var(--van-base-font);">前有诱敌头盖骨,事实证明吸引不死人的光球对猴头也有效</span></div>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "吸灵韵小心被炸",
+        longitude: -0.9625768100160315,
+        latitude: 0.43504021018829064,
+      },
+      {
+        description: "此处火枣概率掉种子,刷种子可以来此",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "此处火枣密集,概率掉种子",
+        longitude: -0.5065544332442755,
+        latitude: 0.631231434510255,
+      },
+      {
+        description: "土地庙就卖火灵砂,注意如果不小心死了,下次挑战需要重新交付",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "需要4个火灵砂开启BOSS战",
+        longitude: -0.21633260393076625,
+        latitude: 0.48141421256272565,
+      },
+      {
+        description:
+          "隐藏图有重要的大力王套装材料、每周目限量的三冬虫(都是要2个周目集齐),千万别错过了",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "隐·壁水洞 起点",
+        longitude: -1.1140864406371804,
+        latitude: 0.6622871651213416,
+      },
+      {
+        description:
+          "<p>车轮滚滚 碰到便死。定身、铜头都没用。</p><p>可带加移速的物品,装备行者套2件套效果,精魄百足虫,酒鲜酿蓝桥风月,加速通过。</p><div>注:不要相信地形,左右固定位置可以躲(一般有个小怪的位置),路径石头会被撞碎。</div><div>车轮可以压死小怪,不用硬打</div><div>注:bug已经修改,不能用寅虎</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "当心秒杀铁球",
+        longitude: -0.539295229813149,
+        latitude: 0.8494271778832854,
+      },
+      {
+        description:
+          "故事从此开始……<div>小心别被二师兄拱了,他撞怪一点不注意自己人的</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "第五回 起点",
+        longitude: -1.1796932154377942,
+        latitude: 0.06035785942985683,
+      },
+      {
+        description:
+          "<p>建议对照游民官方路线进行攻略,确保不错过任何道具！</p><div>(点击左下角查看攻略即可进入)</div>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "建议对照官方路线攻略",
+        longitude: -1.2351691895314616,
+        latitude: 0.10782799305864899,
+      },
+      {
         regionSlug: "chapter-2",
         title: "Locked Gate",
         description:
@@ -5161,12 +6888,800 @@ export const markerCategories = [
         longitude: "-0.96574659217907",
         media: [],
       },
+      {
+        description: "从盘丝洞上层到此",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "花间桥 起点",
+        longitude: -0.5215244804662404,
+        latitude: 0.910751792134576,
+      },
+      {
+        description:
+          "打完紫珠儿,逃离蜘蛛潮的时候坠崖被蜘蛛丝拉起来后到达的地方<div><br></div>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "击败紫珠儿后起始点",
+        longitude: -1.193406533144156,
+        latitude: 0.24578214899935347,
+      },
+      {
+        description: "从此进入紫云山",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "隐·紫云山-起点",
+        longitude: -1.2171718572897703,
+        latitude: 0.15448951230902708,
+      },
+      {
+        description: "切换到下一张地图,盘丝洞下花间桥",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "通往花间桥",
+        longitude: -1.026843261718568,
+        latitude: 0.6869546909674114,
+      },
+      {
+        description: "<p>切换到下一张地图,盘丝洞下花间桥</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "通往花间桥",
+        longitude: -0.39201322739813804,
+        latitude: 0.7109945153097073,
+      },
+      {
+        description: "跟着火盆木板提示往下跳就行(下面这一片白色都是碎玉池)",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "向下前往碎玉池",
+        longitude: -0.8407373323443892,
+        latitude: 0.6193353081664128,
+      },
+      {
+        description: "初次进入盘丝洞时的起点",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "盘丝洞 起点",
+        longitude: -1.0460415672911267,
+        latitude: 0.28985376818583575,
+      },
+      {
+        description:
+          "<p>建议对照游民官方路线进行攻略,确保不错过任何道具！</p><div>(点击左下角查看攻略即可进入)</div>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "建议对照官方路线攻略",
+        longitude: -0.3224598047642644,
+        latitude: 0.838345753868353,
+      },
+      {
+        description:
+          "<div>第四回,二师兄会和你一起进图陪你打一段路</div>周围很多药草,可以拾取一下,二师兄还会吐槽你喜欢捡破烂从来不用",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "第四回 起点",
+        longitude: -0.21351404651190364,
+        latitude: 0.9869417058685599,
+      },
+      {
+        description:
+          "回头走,从树下走过去第一个路口左拐回头就是大圣套装(需要获得筋斗云)<div>------</div><div>解锁筋斗云后,周围的空气墙会消失,可以直接跳过起始点后面树桩旁边的石头台阶去拿装备</div>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "第六章 起点",
+        longitude: -0.3105848262664779,
+        latitude: 0.44732466779248625,
+      },
+      {
+        description:
+          "这图建议速通后白天回来拿资源,掉入盘丝洞后再回来白天没有怪,放心领取所有宝箱资源。",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "这图建议速通后白天回来拿资源",
+        longitude: -0.21303830619604014,
+        latitude: 1.0910596719367618,
+      },
+      {
+        description: "",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "有几率掉淑玉花种子",
+        longitude: -1.3311698831459466,
+        latitude: 0.42360470087051283,
+      },
+      {
+        description: "跳进洞后再回来会变成白天",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "进盘丝洞后再次前来会变白天",
+        longitude: -1.1524299234419288,
+        latitude: 0.3790914340830369,
+      },
+      {
+        description: "进村后有一排灯笼,站在旁边八戒会说话",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "八戒剧情对话",
+        longitude: -0.5130711922768114,
+        latitude: 0.747266180746081,
+      },
+      {
+        description: "",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "小心弓箭手",
+        longitude: -0.8369441252098397,
+        latitude: 0.41356489427037957,
+      },
+      {
+        description: "慢慢接近不要触发战斗有对话小彩蛋",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "有对话小彩蛋",
+        longitude: -0.701494216904905,
+        latitude: 0.8624329012283596,
+      },
+      {
+        description: "<p>打死给内丹(概率掉落)</p>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "葛覃精",
+        longitude: -0.6308038944391683,
+        latitude: 0.8157317632391283,
+      },
+      {
+        description: "确实有个怪(快走出去的时候按闪避)",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "此处门路大开,必有埋伏!",
+        longitude: -0.6705948641094324,
+        latitude: 0.5907992944909921,
+      },
+      {
+        description:
+          "很多蜘蛛和葛根精小心。<div>八戒会触发摘果子的对话,没有奖励</div>",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "八戒剧情对话",
+        longitude: -0.6404497270368381,
+        latitude: 0.4172690870606317,
+      },
+      {
+        description: "可以白天再来,白天这些怪物会消失",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "门后当心有偷袭",
+        longitude: -0.9608312606100355,
+        latitude: 0.4335235016171026,
+      },
+      {
+        description: "这里的葛覃拔出来是个妖怪",
+        regionSlug: "04_zhujiadayuan",
+        media: [],
+        title: "葛覃精",
+        longitude: -0.6671233758601147,
+        latitude: 0.3932823313320313,
+      },
+      {
+        description:
+          "第二次下去会到另一个地方,有个紫酒食拿<div>蜘蛛恐惧症下去前闭上眼睛,视频有蜘蛛精福利</div>",
+        regionSlug: "04_zhujiadayuan",
+        title: "盘丝洞入口",
+        longitude: -1.2074189048050243,
+        latitude: 0.34228052728904856,
+      },
+      {
+        description:
+          "<p>[获取方式]:</p><p>击杀虫卵孵出蜘蛛后掉落 或者 击破虫卵掉落<br></p><p>[用途]:喂养琴螂幼虫</p><p>可重复获得,上限3个</p>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "茧圆(概率)",
+        longitude: -0.854216077974769,
+        latitude: 0.37459874602107845,
+      },
+      {
+        description:
+          "<p>黑手道人手太多、血太少,务必只打后背上的手,打断4条手臂会获得【下毒手】</p><p>建议打法:定身or冻结后用棍花打背后的手臂,打到背上只有2条手臂后击杀。</p><div>另外黑手道人是去紫云山的关键boss,务必要打</div>",
+        regionSlug: "04_pansidongshangceng",
+        title: "黑手道人",
+        longitude: -0.6294214493287882,
+        latitude: 1.2176359071385292,
+        media: [],
+      },
+      {
+        description:
+          '盘丝洞上:兰喜村朱家大院→打二姐→进入盘丝洞→上层土地庙→碎玉池土地庙→土地庙旁水中【打坐蒲团】→第一次打黑手道人→花间桥土地庙<div><br></div><div><span style="font-family: var(--van-base-font);">盘丝洞下:花间桥土地庙</span>→大喜大喜房子里一堆宝箱→打琴螂仙→打蝎太子得精魄→发紫光的小塔处遇到四姐,揭第一张符纸→【打坐蒲团】→中层土地庙→打百足虫(从千红窟土地庙也能来到打百足虫的地方)→打破超大号茧救出马哥→小塔处揭第二张符纸→绝想崖土地庙→打右手虫→岔路口过左边的桥→堕龙壁土地庙→打小黄龙→进洞往高处走揭第三张符纸→猪八戒蜘蛛精长段剧情→底层土地庙→土地庙附近钻过狭缝,右边有个【打坐蒲团】→打波里个波→若仙庵土地庙→打两次猪八戒→濯垢泉土地庙→水池边佛头上拿到【行蕴】→万慈窟土地庙→打紫蛛儿</div>',
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "盘丝洞攻略路线",
+        longitude: -0.3510509275943434,
+        latitude: 0.43344246420299726,
+      },
+      {
+        description: "旁边的宝箱藏在一排悬挂茧后面",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "悬挂茧区域",
+        longitude: -0.6407959518817847,
+        latitude: 0.5022115966784924,
+      },
+      {
+        description: "注意这里会跳出来一个怪",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "跳出个青灯鬼吓人",
+        longitude: -1.1447609404842183,
+        latitude: 0.3292900877283387,
+      },
+      {
+        description:
+          "打太子之引怪,在之前的洞穴里有几只在天花板,出来之后在这里3只在地里,一个人打4只小怪加太子就可以在里无限猫车了",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "有一万只小怪会偷袭",
+        longitude: -0.17137488725674643,
+        latitude: 0.8137402406796923,
+      },
+      {
+        description:
+          '<p>这个地方有大量蜘蛛卵,使用双头鼠变身自爆可20秒刷2000+灵蕴(不能全打死可以补用一个定风珠,或者升级一下双头鼠的伤害)</p><p>隐身过去定风珠然后变鼠人自爆,然后直接青符传送,如此重复。<br></p><div>【可以增加掉落的装备】</div><div>珍玩金花玉萼(石中人处购买)、珍玩【仙箓】、百戏套装(豪华版赠礼),精魄带【幽灯鬼】,</div><div>全部装备,每20秒可刷3300+灵韵(一周目)；</div><div>实测二周目也能刷,带两个<span style="font-family: var(--van-base-font);">金花玉萼+百戏套+幽灯鬼,每趟9500+灵韵</span></div><div><br></div>',
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "刷钱点(玉碎池银行)",
+        longitude: -0.4956096937793859,
+        latitude: 1.0102954581529104,
+      },
+      {
+        description: "第二次之后来,从朱家大宅洞里跳下来回<div>会到这里</div>",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "盘丝洞起点(非剧情)",
+        longitude: -0.4488960081251605,
+        latitude: 0.17970993256565748,
+      },
+      {
+        description: "从火盆处往下蹦就好",
+        regionSlug: "04_pansidongshangceng",
+        media: [],
+        title: "有火盆的地方是正路",
+        longitude: -0.8506890191580965,
+        latitude: 0.5594457720361987,
+      },
+      {
+        description: "打蛤蟆省的绕路了,具体操作是跳跃+重攻击,直接跳不行。",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "这里有个三级台阶可以跳上去",
+        longitude: -1.150845483147208,
+        latitude: 0.7382367924297171,
+      },
+      {
+        description:
+          "好多人不知道小黄龙掉变身,其实CG剧情很明显了,刀就插在地上,和广智的一样,要自己去捡起来才会获得。<div>可能是场景太暗了好多人打完没看到,就忘了拿了。</div>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "打完小黄龙别忘了拔刀",
+        longitude: -1.0216195506026509,
+        latitude: 0.11406129015503552,
+      },
+      {
+        description:
+          "小黄龙在进行原地蓄力准备进入雷电状态时,当它第一段对你进行突刺时,快速使用聚形散气,有一定几率他会直接卡到头顶的石头那,这个时候走到他下面,用定风珠,能直接秒杀,不要质疑可行性,因为我就是这么过的,反正我也觉得挺离谱的",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "是个几率挺低的BUG",
+        longitude: -1.0633256039990613,
+        latitude: 0.0828973085383069,
+      },
+      {
+        description: "记得带上隐身,后面有个很恶心的独木桥",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "过木桥是堕龙壁",
+        longitude: -0.9337021745163554,
+        latitude: 0.3113237124091057,
+      },
+      {
+        description:
+          "<p>打完boss会有真·漫山遍野的蜘蛛</p><div>如果有密集或蜘蛛恐惧症的,务必做好心理准备</div><div>具体细节:打完boss后会有一个过场动画,最后一幕是满山遍野的蜘蛛追了出来,挺过这一幕不看之后一直按住shift往前跑就能在看不到这些蜘蛛的情况下进入下一个场景</div>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "蜘!蛛!潮!",
+        longitude: -1.1712844955283686,
+        latitude: 0.8787722319904248,
+      },
+      {
+        description:
+          "<p>打完八戒出屋子其实很好找&nbsp; 这一回的主线路径都是火盆指引</p>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "打完猪八戒才有路",
+        longitude: -0.8973711683393617,
+        latitude: 0.5505386683962854,
+      },
+      {
+        description:
+          "·推荐用隐身通过,有很多个镰刀虫蛹守桥<div>·虫蛹有碰撞箱,小心别被推了</div><div>·有耐心用戳棍一个个戳掉也行(注意戳棍有概率在收招的时候一脚踏空掉下去)</div><div>·对面还有个弓箭手埋伏你,所以还是建议隐身</div><div>·桥上的魂吸的时候,强制位移可能卡下去</div><div>·变身为暴躁(双头鼠),用自爆可清理所有虫蛹</div>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "逆天虫蛹独木桥",
+        longitude: -1.0895394546334103,
+        latitude: 0.24048037339284178,
+      },
+      {
+        description: "这个卵出来的螳螂可以刷 长须面具(概率)",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "这里的卵会打人",
+        longitude: -0.4916315762588397,
+        latitude: 1.0464425373206296,
+      },
+      {
+        description: "往左是紫符,往右是宝箱",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "分叉路口",
+        longitude: -1.0194454309188643,
+        latitude: 0.28217967103159936,
+      },
+      {
+        description: "躲过蜘蛛潮之后,跳下就可以进入黄花观",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "跳下进入黄花观",
+        longitude: -1.3114093900871922,
+        latitude: 0.8364129777270222,
+      },
+      {
+        description:
+          '<div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 从花间桥土地庙</span><span style="font-family: var(--van-base-font);">→大喜大喜房子里一堆宝箱→打琴螂仙→打蝎太子得精魄→发紫光的小塔处遇到四姐,揭第一张符纸</span></div><div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; 【打坐蒲团】→中层土地庙→打百足虫(从千红窟土地庙也能来到打百足虫的地方)→打破超大号茧救出马哥→小塔处揭第二张符纸</span></div><div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;绝想崖土地庙→打右手虫→岔路口过左边的桥→堕龙壁土地庙→打小黄龙→进洞往高处走揭第三张符纸</span></div><div><span style="font-family: var(--van-base-font);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 猪八戒蜘蛛精长段剧情→底层土地庙→土地庙附近钻过狭缝,右边有个【打坐蒲团】→打波里个波→若仙庵土地庙→打两次猪八戒→濯垢泉土地庙→水池边佛头上拿到【行蕴】→万慈窟土地庙→打紫蛛儿</span><br></div>',
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "盘丝洞下攻略路线",
+        longitude: -0.2668706008292645,
+        latitude: 0.6084313786382012,
+      },
+      {
+        description:
+          "沟里全是大肉虫,两边是蜻蜓,一堆粪怪还有天上飞的骚扰你,掉下去一直挨揍",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "别掉到这个沟里面",
+        longitude: -1.1941455025375376,
+        latitude: 0.46443790241255556,
+      },
+      {
+        description: "面对虫子头右手边有个火盆,往上走能找到金丹",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "过了虫子桥先别下去！",
+        longitude: -0.913884833950533,
+        latitude: 0.3681420695850619,
+      },
+      {
+        description:
+          '<p>不必担心,不会就进BOSS战<br></p><p>剧情<span style="font-family: var(--van-base-font);">CG</span><span style="font-family: var(--van-base-font);">结束后,并不能直接跳下去找八戒,看完剧情回头左手边才是路。</span></p>',
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "猪八戒被俘虏(结婚)剧情",
+        longitude: -1.095498466608035,
+        latitude: 0.36024473860938144,
+      },
+      {
+        description:
+          "<p>老龙就是六六村的那个画卷里的辰龙。在那三个花盆旁边能看到它,投喂三个茧圆可以获得它的魂魄</p><div>在老龙院子门口三个簸箕旁边,给老龙后需要在土地庙调息后才会出现,精魄也需要在投喂三个茧圆调息后出现</div>",
+        regionSlug: "04_pansidongxiaceng",
+        media: [],
+        title: "打完虫子拿到原体回画卷给老龙",
+        longitude: -0.46102244945174675,
+        latitude: 1.3276885022314389,
+      },
+      {
+        description:
+          '<p>需要先撕了前三个符才能互动:<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822213&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第1个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822209&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第2个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822255&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第3个紫符</a></p><div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div><p>互动完成后初见BOSS王灵官,打一点血后进剧情后飞走。</p><div>打完百眼魔君后任务(紫符)会消失</div>',
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "四姐剧情-最后的紫符",
+        longitude: -0.9412669579062936,
+        latitude: 1.1384045430814496,
+      },
+      {
+        description: "又来惩罚喜欢采集的猴了",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: " 葛蕈精",
+        longitude: -0.6692955655691151,
+        latitude: 0.37080670751701916,
+      },
+      {
+        description:
+          "我当时打到这儿的时候,我以为下面有路,然后在这里就一直往前走,然后他就在那里停了一个动作,最后还是摔下去死了",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "这里有bug会摔死",
+        longitude: -0.7559373582120088,
+        latitude: 0.5174037205101456,
+      },
+      {
+        description:
+          "第一次来可能被吓一跳,会跳出来一个剑门弟子,有语音“来者何人！”",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "小心埋伏",
+        longitude: -0.7390699050933165,
+        latitude: 0.47386331840320395,
+      },
+      {
+        description: "估计是这个,找不到的注意一下就在路边",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "葛蕈精",
+        longitude: -0.8932944861776093,
+        latitude: 0.48069986259184816,
+      },
+      {
+        description:
+          "建议先触发完4妹剧情再来打,打完百眼之后,4妹支线就不能撕符了,会少一段剧情。<div>注意先去紫云山打晦月魔君拿法宝,再回来打百眼魔君会轻松很多。<br><div>想捡宝箱的注意！！！进门就会触发剧情</div></div>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "先做4妹支线再进这个门",
+        longitude: -0.7400590861175544,
+        latitude: 1.0862825520255228,
+      },
+      {
+        description: "楼梯右边草丛藏着一个蛇司药,会和正前方的蛇司药包夹打你",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "小心背刺",
+        longitude: -0.7437744499886776,
+        latitude: 0.7902341257494783,
+      },
+      {
+        description:
+          "不是地图起点,地图起点在左边,叫起始点,是过了盘丝洞剧情四妹救你起来的地方",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "黄花观观门",
+        longitude: -0.4615922745018395,
+        latitude: 0.450108442276715,
+      },
+      {
+        description: "为避免地图块之间互相覆盖,这里的地图断开了",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "移动到右侧地图观门",
+        longitude: -1.0206990823485853,
+        latitude: 0.36911415592392416,
+      },
+      {
+        description: "<p>需要完成黑手道人支线</p>",
+        regionSlug: "04_huanghuaguan",
+        media: [],
+        title: "紫云山入口",
+        longitude: -0.4940130758852206,
+        latitude: 1.007949338217415,
+      },
+      {
+        description: "",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "旁边树上有个蜘蛛怪偷袭",
+        longitude: -0.29523307757582984,
+        latitude: 0.9610760901924209,
+      },
+      {
+        description: "找路提醒:此处是一条枯木,可以攀爬,没有空气墙",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "枯木桩路",
+        longitude: -0.9053047779138694,
+        latitude: 0.6065185815373013,
+      },
+      {
+        description:
+          '<p>彩玉葫芦需要先击杀毒敌大王获得,直接打晦月魔君逃课是没有的。</p><p>补充:好像只要把毒敌大王骗下来了,宝箱里会换成葫芦,然后你可以逃课它不打,直接找<span style="font-family: var(--van-base-font);">晦月魔君,它就来送了。</span></p>',
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "宝箱里是丹药",
+        longitude: -0.5118310303624867,
+        latitude: 0.41125302237816186,
+      },
+      {
+        description: "又来骚扰爱收集的天命人了",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "葛蕈精",
+        longitude: -0.9061646201645033,
+        latitude: 0.4110002402274091,
+      },
+      {
+        description: "这个断桥能助跑直接跳过去",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "断桥",
+        longitude: -0.3898003211789671,
+        latitude: 1.0851641793560134,
+      },
+      {
+        description: "从此处上拐找到有珍玩的宝箱",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "上坡有宝箱(日金乌)",
+        longitude: -0.9482483814463762,
+        latitude: 0.7099269518283791,
+      },
+      {
+        description: "找地提辨识提醒:此处为吊桥<div>桥上有射毒箭的老六</div>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "吊桥",
+        longitude: -0.6601988742542915,
+        latitude: 0.5035888392606438,
+      },
+      {
+        description: "水道只有几个莲藕,死胡同里一点灵韵,不用特意下来",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "水里有六只小蛤蟆埋伏",
+        longitude: -0.3914355116772583,
+        latitude: 0.9894202507532981,
+      },
+      {
+        description:
+          "靡道人的任务做吗？如果击败晦月魔君,靡道人就消失了,会少一个变身。<div>毒敌大王打败了吗？如果接触了晦月魔君,无论是否击败BOSS,毒敌大王都会消失,会少一个衣甲制作材料。</div>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "[重要事项]进门前必读",
+        longitude: -0.259836660666366,
+        latitude: 1.1197172068468149,
+      },
+      {
+        description:
+          "这里是死路,断桥正下方,但是重击可以上去,哪怕是没有落脚点,但判定都会成功。",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "此处可以重击上墙",
+        longitude: -0.4392574474997275,
+        latitude: 1.1335080818602847,
+      },
+      {
+        description: "<p>打完晦月魔君靡道人会消失</p>",
+        regionSlug: "04_ziyunshan",
+        media: [],
+        title: "建议优先完成靡道人任务",
+        longitude: -0.6047103328646131,
+        latitude: 1.0520026247434942,
+      },
+      {
+        description:
+          "在石子后面,其他地方都有空气墙<div>看到一个V字形的山崖中间,一直往里飞</div>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "前往大石敢当的山涧",
+        longitude: -0.8727509859193106,
+        latitude: 0.6959386212988363,
+      },
+      {
+        description:
+          "从侧面飞到波浪浪身边(它一开始在的位置不是会触发BOSS战的场地),不会加载BOSS的AI,一棍一棍打,不要连击,一直能打死。蛤蟆掉地上就开始反击了。",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "有可利用的BUG",
+        longitude: -0.44015755103231413,
+        latitude: 0.9883257645270049,
+      },
+      {
+        description:
+          '<p>山脚:青嶂道土地庙→打王灵官,得到筋斗云→回到本关起点处,筋斗云飞到高处树下开宝箱,得到凡品大圣套→回到得到筋斗云的地方→到面前悬崖下的水池,打跳浪蛟→望犀坡土地庙→打金甲犀→附近河边空地,打浪波波→见鹿林土地庙→打步云鹿→捕螂汀土地庙→抓凤翅将军(大蚂蚱),得凤翅紫金冠→捕螂汀土地庙触发猪八戒剧情,打碧臂螂</p><p>*记得打水木兽和毒统领 影响成就收集</p><div><br></div><div>水帘洞:河对岸悬崖边打石子→击败大石敢当化作岩石,到岩石上拿【识蕴】→到如意画轴,找戌狗炼制【五蕴丹】→水帘洞拿如意金箍棒→峰回路土地庙→天真顶土地庙→进入石卵→最终BOSS战→普通结局</div><div><br></div><div>隐藏结局:<span style="font-family: var(--van-base-font);">天真顶土地庙→小西天-浮屠界-浮屠塔→正中间壁画处见到弥勒,来到最后的隐藏关卡梅山→打二郎神→花果山-水帘洞-天真顶→再次进入石卵→最终BOSS战→隐藏结局</span></div>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "花果山攻略顺序(含剧透)",
+        longitude: -0.3814703824795913,
+        latitude: 0.5561222710402234,
+      },
+      {
+        description:
+          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p><span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记！</span><span style="font-family: var(--van-base-font);">)</span><br></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "风翅将军-落点4",
+        longitude: -0.5381335285224793,
+        latitude: 0.7151922143115712,
+      },
+      {
+        description:
+          '<p>[奖励]:<span style="font-family: var(--van-base-font);">玲珑内丹(概率)</span></p><p>[攻略要点]:水木兽不止一只,水里到处能找到,会重复刷新,可以刷内丹</p>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "水木兽",
+        longitude: -0.6637847948076967,
+        latitude: 0.5380156019033819,
+      },
+      {
+        description:
+          "水木兽周边可刷出天将,持盾的天兵,在刚进花果山时被八戒抢了人头导致图鉴未解锁的可以过来这里刷,顺便一提水木兽是反复刷新的",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "天将图鉴解锁点",
+        longitude: -0.6266554596042226,
+        latitude: 0.5415855718443936,
+      },
+      {
+        description:
+          "<p>水边有金龟,打了会反弹,多打几下天上就会下来天兵</p><p>纯属彩蛋,不影响任何头目、影神图收集</p>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "无敌金龟",
+        longitude: -0.6637158347256786,
+        latitude: 0.47231157591336626,
+      },
+      {
+        description: "这边有个黄色的树 很显眼很好找",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "黄色的树",
+        longitude: -0.7087920890320163,
+        latitude: 0.4557277747585715,
+      },
+      {
+        description:
+          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "凤翅将军-落点3",
+        longitude: -0.5903982783507047,
+        latitude: 0.575444029782048,
+      },
+      {
+        description:
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[奖励]:</p><p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br></p><p style="white-space-collapse: collapse;">[攻略要点]:</p><p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p></div>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "凤翅将军-落点6(无法捕捉)",
+        longitude: -0.410940596443254,
+        latitude: 0.9345775700868302,
+      },
+      {
+        description:
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[奖励]:</p><p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br></p><p style="white-space-collapse: collapse;">[攻略要点]:</p><p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p></div>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "凤翅将军-落点7(无法捕捉)",
+        longitude: -0.3884011619591661,
+        latitude: 1.041463897292786,
+      },
+      {
+        description:
+          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p><span style="font-family: var(--van-base-font);">【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span></p>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "凤翅将军-落点5(无法捕捉)",
+        longitude: -0.3867032912872901,
+        latitude: 0.8151262443650893,
+      },
+      {
+        description:
+          '<p>[奖励]:</p><p>神珍【凤翅紫金冠】<br></p><p>[攻略要点]:</p><p>一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span></p><p><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上！</span></p><p>【重点】:不推荐在落点5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span></p>',
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "凤翅将军-落点2",
+        longitude: -0.6199587924042191,
+        latitude: 0.4266667179389003,
+      },
+      {
+        description:
+          "<div>算是个彩蛋吧,强化后变成游戏唯一神品精魄【波波浪浪】</div>效果是随机化身5个不同属性的蛤蟆,高贵属性攻击伤害很炸裂",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "击败6只蛤蟆,可把波里个浪强化到神品",
+        longitude: -0.48425727436864463,
+        latitude: 1.0138343619481134,
+      },
+      {
+        description:
+          "<p>在筋斗云上无法触发boss战,但是你直接跳下去稳定挨1口,这个可以避免:只要在快落地时重新上云就行</p><div><div>[注意]这个位置不是王灵官前面的水坑</div></div>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "一定要落水池里跳浪蛟才会出现",
+        longitude: -0.45204881998529345,
+        latitude: 0.6211038713001074,
+      },
+      {
+        description:
+          "1.进来时筋斗云贴地走,飞太高被吼下来会摔死。<div>2.进场看左边(BOSS面向的右前方)有个长木头桩子,木桩和BOSS连线中间有个石头,如下图所示。这石头后无敌,BOSS什么招式和地震波都不会打到。</div><div>3.站这石头后,等BOSS双手砸地2次,上去打BOSS手部的水晶。或者BOSS手砸在眼前不动,也可以去打。轻松过。(可以用禁字法提高伤害)</div><div>4.BOSS最后一小格血会连续砸地,赶紧跑这石头后等着别被砸死。</div>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "大石敢当超轻松攻略",
+        longitude: -0.9262170134096266,
+        latitude: 0.8743129530271432,
+      },
+      {
+        description:
+          "先完成收集大圣套剧情再走这条路,不然前方触发不了剧情,是一条死路。<div>你需要和大圣当年一样,跳进瀑布,跑起来,使劲跳。</div><div>如果重开轮回每周目都需要打4BOSS集齐套装,不然不触发剧情</div>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "水帘洞:需集齐大圣套",
+        longitude: -0.8575827418204938,
+        latitude: 0.4492039336620195,
+      },
+      {
+        description:
+          "<p>拿完金箍棒往前走就能打最终战了,这时候返回小西天浮屠塔打完二郎神有隐藏剧情</p><div>感觉棍子实在不好打的,可以考虑用三尖两刃刀</div><div>同一周目可以2个结局都解锁:</div><div>先打最终战,解锁坏结局,打完看完CG回到主界面后不要选择再入轮回,而是继续游戏后,会回到水帘洞的土地庙。然后去浮屠塔打杨戬,再打第二次大圣解锁好结局。</div><div>多周目也要先打杨戬再来打这个,不然打完就直接开三周目了,会少拿个根器点。</div>",
+        regionSlug: "06_huaguoshan",
+        media: [],
+        title: "结局提醒(含剧透)",
+        longitude: -1.2651948321719715,
+        latitude: 0.2578590166952779,
+      },
     ],
     groupSlug: "bmw_other",
     title: "Miscellaneous",
   },
   {
     locations: [
+      {
+        description:
+          "<p>[相关事件]:</p><p>先要跟他打一架,打完触发对话</p><p><br></p><p>打完两个五行战车回来触发第二个对话(注意回来时的位置,他走到另一边看风景),会帮你打第三个五行战车,还涉及到后续隐藏任务<br></p><p><br></p><p>第二个对话打完第三个铜车也可以触发,再上第三铜车处,可触发下一段对话</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "皓斧力士(位置1)",
+        longitude: -1.127629679588381,
+        latitude: 0.21192469454166485,
+      },
+      {
+        description:
+          "<p>[相关事件]:<br></p><p>牛哥在这里被战车打成重伤,干掉赤金战车,完事后会帮你打开隐藏图的入口</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "皓斧卫士(位置3)",
+        longitude: -0.5917931341508336,
+        latitude: 0.5905877999196747,
+      },
+      {
+        description:
+          "<p>[相关事件]:做完皓斧卫士任务一后来此处<br></p><p>打红银战车可以先回春秋寨对话,然后在回来这个点他会在此助战。</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "皓斧卫士(位置2)",
+        longitude: -0.36612345214066977,
+        latitude: 0.9572562795060122,
+      },
+      {
+        description:
+          "<p>有NPC,但不能互动,疑似是BUG</p><p>----</p><p>哥哥~哥哥~哥哥~</p>",
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "小狐狸(萍萍)",
+        longitude: -0.18230223853510097,
+        latitude: 1.3081525331560897,
+      },
+      {
+        description:
+          '<p>[相关事件]:</p><p>马哥支线,在这里一个五行战车里,记得拉3次对完话<br></p><p>马哥被火焰山土地算计了,落得如此下场。<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走。</span></p><p>[奖励]:<span style="font-family: var(--van-base-font);">马哥的变身</span></p><p>[注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span></p><p>马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a></p><p>回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面</p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "马哥(位置5)",
+        longitude: -0.45072482637738176,
+        latitude: 0.5765828032666462,
+      },
+      {
+        description:
+          '<p>[相关事件]:小狐狸芭蕉扇灭火</p><p>到地点自动触发,再往前开了土地庙以后不建议继续往前了,建议先回头<span style="font-family: var(--van-base-font);">去打隐藏关,</span><span style="font-family: var(--van-base-font);">关系到重要的配方解锁和剧情CG</span><span style="font-family: var(--van-base-font);">。</span></p><p>记得去取和师叔一起摔下悬崖的铁球精魄。</p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "小狐狸-灭火剧情",
+        longitude: -0.2446161199684127,
+        latitude: 0.984923685701034,
+      },
+      {
+        description:
+          '<p>[相关事件]:<br></p><p>初始葫芦满级后【药师佛葫芦】吸收该处红精魄可将葫芦升级至神珍品质</p><p>[奖励]:</p><p>葫芦升级【上清宝葫芦】</p><p>[图鉴]:</p><p><span style="font-family: var(--van-base-font);">葫芦仙人支线做完后解锁其他所有图鉴自动解锁袁守诚</span></p>',
+        media: [],
+        regionSlug: "05_huoyanshan",
+        title: "葫芦仙人(位置5)",
+        longitude: -0.39264229265270956,
+        latitude: 0.8890292147991943,
+      },
       {
         regionSlug: "chapter-1",
         title: "Keeper of Black Wind Mountain",
@@ -22190,7 +24705,6 @@ export const markerCategories = [
           "**Location:** On the altar next to the [Minor Erdtree](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164009).  \n**Granted effect:** Raises the player's maximum Stamina by 15%.",
         latitude: "0.62335051201872",
         longitude: "-0.69008007645456",
-
         media: [
           {
             title: "",
@@ -22208,7 +24722,6 @@ export const markerCategories = [
           "**Location:** On the altar next to the [Minor Erdtree](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164009).  \n**Effect granted:** Raises the player's charged attacks damage by 15%.",
         latitude: "0.62332637356681",
         longitude: "-0.68876445293569",
-
         media: [
           {
             title: "61561e37-a402-4353-82e8-fa7b3a61b223",
@@ -22226,7 +24739,6 @@ export const markerCategories = [
           "**Location:** Dropped by the [Erdtree Avatar](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165321) at the [Minor Erdtree in Weeping Peninsula](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163990)  \n**Effect granted:** Restores 7 HP per second to the player.",
         latitude: "0.58145940584365",
         longitude: "-0.71736350655701",
-
         media: [
           {
             title: "",
@@ -22244,7 +24756,6 @@ export const markerCategories = [
           "**Location:** Dropped by the [Erdtree Avatar](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165321).  \n**Effect granted:** Raises the player's Damage Negation by 90%. Only lasts for 1 hit.",
         latitude: "0.58143660824084",
         longitude: "-0.71587756276216",
-
         media: [
           {
             title: "",
@@ -22262,7 +24773,6 @@ export const markerCategories = [
           "**Location:** On a small altar near the edge of the cliffs north-west of the [Demi-Human Forest Ruins](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163991).  \n**Effect granted:** Raises the player's Faith by 10.",
         latitude: "0.59611958616836",
         longitude: "-0.71397051215183",
-
         media: [
           {
             title: "20220228001034_1",
@@ -22280,7 +24790,6 @@ export const markerCategories = [
           "**Location:** Found inside a stone receptacle near the edge of the cliffs.  \n**Effect granted:** Raises the player's Strength by 10.",
         latitude: "0.64444211269199",
         longitude: "-0.72898551821572",
-
         media: [
           {
             title: "20220303015740_1",
@@ -22298,7 +24807,6 @@ export const markerCategories = [
           "**Location:** [Third Church of Marika](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164016) - in the large bowl with the [Flask of Wonderous Physick](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164723).  \n**Effect granted:** Instantly restores 50% of the player's maximum HP.",
         latitude: "0.63969355980696",
         longitude: "-0.68500936031231",
-
         media: [
           {
             title: "54cc1ad3-b8a6-4fe7-b5fe-6f2ca410adab",
@@ -22356,7 +24864,6 @@ export const markerCategories = [
           "**Location:** At the base of the Minor Erdtree.  \n**Effect granted:** Prevents rune loss.",
         latitude: "0.80311290981273",
         longitude: "-0.70045217871555",
-
         media: [
           {
             title: "",
@@ -22374,7 +24881,6 @@ export const markerCategories = [
           "**Location:** East of [Hermit Merchant's Shack](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167003) in the graveyard near the wall.  \n**Effect granted:** Raises the player's maximum equip load by 450%.",
         latitude: "0.80564600657709",
         longitude: "-0.70340529084228",
-
         media: [
           {
             title: "",
@@ -22392,7 +24898,6 @@ export const markerCategories = [
           "**Location:** Found in stone receptacle at the base of the cliff.  \n**Effect granted:** Raises the player's Intelligence by 10.",
         latitude: "0.76014255676236",
         longitude: "-0.80707266926561",
-
         media: [
           {
             title: "",
@@ -22458,7 +24963,6 @@ export const markerCategories = [
           "**Location:** Down a small path with several small hands, starting [here](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170213).  \n**Effect granted:** When hit, restores 5% of the player's maximum HP. Only lasts 15 seconds.",
         latitude: "0.81507973314243",
         longitude: "-0.61574399471158",
-
         media: [
           {
             title: "",
@@ -22653,7 +25157,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Flying Dragon Agheel](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164484).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22662,7 +25165,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Glintstone Dragon Smarag](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165267).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22671,7 +25173,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Borealis The Freezing Fog](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165642).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22680,7 +25181,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Flying Dragon Greyll](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166013)  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22689,7 +25189,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "5x Dragon Heart",
         description:
           "**Location:** Dropped by [Elder Dragon Greyol](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166189).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22698,7 +25197,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Magma Wyrm](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167222).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22707,7 +25205,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Magma Wyrm](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167377).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22725,7 +25222,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Magma Wyrm Makar](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166245).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22734,7 +25230,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Decaying Ekzykes](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165933).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22743,7 +25238,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "3x Dragon Heart",
         description:
           "Dropped by [Great Wyrm Theodorix](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168186).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22752,7 +25246,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "3x Dragon Heart",
         description:
           "**Location:** Dropped by the [three](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170242) [Glintstone](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170243) [Dragons](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170244) nearby.  \n**Utility:** Can be traded for Dragon Communion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22761,7 +25254,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dragon Heart",
         description:
           "**Location:** Dropped by [Magma Wyrm](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168769).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22770,7 +25262,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "3x Dragon Heart",
         description:
           "**Location:** Dropped by [Glintstone Dragon Adula](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167576).  \n**Utility:** Can be traded for Dragon Comminion incantations at either the [Church of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163996) or the [Cathedral of Dragon Communion](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165442).",
@@ -22785,7 +25276,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-lands-between",
-
         title: "Triumphant Delight",
         description:
           "**Location:** Given by [Alexander Iron Fist](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164117) as part of [Alexander Iron Fist's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170547).",
@@ -22794,7 +25284,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Sitting Sideways",
         description:
           "**Location:** Given by the [Red Cloaked Woman](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163944).",
@@ -22803,7 +25292,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Strength!",
         description:
           "**Location:** [Stranded Graveyard](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163931) - after defeating the [Soldier of Godrick](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164420), before you drop off the cliff edge",
@@ -22821,7 +25309,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Nod In Thought",
         description:
           "**Location:** Given by [Sorceress Sellen](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164616) upon starting [Sorceress Sellen's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164621).",
@@ -22830,7 +25317,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Dozing Crossed-Legged",
         description:
           "**Location:** On the [rooftops](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165157); access by jumping across from the top floor.",
@@ -22848,7 +25334,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Grovel For Mercy",
         description:
           "**Location:** Dropped by [Patches](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504), or given by him if spared.",
@@ -22857,7 +25342,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Crossed Legs",
         description:
           "**Location:** Found on a sitting corpse, at the top of a tall chunk of ruin. Use Torrent and climb up the rubble side.",
@@ -22875,7 +25359,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Bravo!",
         description:
           "**Location:** Read the message under [Varr\u00e9](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164440)'s original location, after advancing [Varr\u00e9's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=174930). The gesture is only available after you beat at least the first demi-god.",
@@ -22884,7 +25367,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Spread Out",
         description:
           "**Location:** Given by [Blackguard](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166187) after buying prawns from him for the first time.",
@@ -22893,7 +25375,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Fancy Spin",
         description:
           "**Location:** Given after summoning [Spirit Jellyfish Ashes](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165103) within [Stargazer Ruins](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166217).",
@@ -22911,7 +25392,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Finger Snap",
         description:
           "**Location:** Learned from [Merchant Kal\u00e9](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164446).  \n**Unlock condition:**\n- Speak with him after hearing the wolf's howl in [Mistwood Ruins](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164003).",
@@ -22920,7 +25400,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "What Do You Want?",
         description:
           "**Location:** Given by [Ensha](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=182164) after interacting with him.  \n**Note:** Make sure to obtain this before receiving [Haligtree Secret Medallion (Right)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167191) or [Haligtree Secret Medallion (Left)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167291)",
@@ -22938,7 +25417,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "By My Sword",
         description:
           "**Location:** Inside the manor, in the small room in the south wing first floor.",
@@ -22956,7 +25434,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Fire Spur Me",
         description:
           "**Location:** Beside the brazier, in the middle of the camp.",
@@ -22974,7 +25451,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Polite Bow",
         description:
           "**Location:** Given by [Finger Maiden Thorelina](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168094) before fighting [Starscourge Radahn](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165444).",
@@ -22983,7 +25459,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Heartening Cry",
         description:
           "**Location:** Given by [Jerren](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168920).",
@@ -22992,7 +25467,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "My Thanks",
         description:
           "**Location:** In the hallway, after defeating [Rykard, Lord of Blasphemy](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167571).",
@@ -23001,7 +25475,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Inner Order",
         description:
           "**Location:** Given by [D\u2019s Brother](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168405) after giving him the [Twinned Set](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170979) as part of [D's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167218).",
@@ -23010,7 +25483,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Calm Down!",
         description:
           "**Location:** [Murkwater Cave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164022) - spare [Patches'](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504) life, then use [Patches' Trap Chest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165137). Return to speak with him to receive the gesture.  \n**Note:** Unobtainable after meeting [Patches at the Scenic Isle Site of Grace](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166734)",
@@ -23019,7 +25491,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "My Lord",
         description:
           "**Location:** Given by Boc after giving him the [Golden Sewing Needle](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165648), as part of [Boc's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165122).",
@@ -23028,7 +25499,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "As You Wish",
         description:
           "**Location:** Given by [Hyetta (First Location)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166502) as part of [Hyetta's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169804).",
@@ -23037,7 +25507,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Casual Greeting",
         description:
           "**Location:** Summon [Great Horned Tragoth](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167550) before fighting [Magma Wyrm Makar](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166245).",
@@ -23046,7 +25515,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Reverential Bow",
         description:
           "**Location:** Given by [Mad Tongue Alberich](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168844); let him complete his gesture to receive.",
@@ -23055,7 +25523,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Outer Order",
         description:
           "**Location:** Given by Melina after speaking to her at the [Minor Erdtree Church](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165473) Site of Grace.",
@@ -23064,7 +25531,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Curtsy",
         description:
           "**Location:** Given by [Roderika](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170232), after upgrading a single Spirit Ashes to +4 or higher.",
@@ -23073,7 +25539,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hoslow's Oath",
         description:
           "**Location:** Received upon invading [Juno Hoslow, Knight of Blood](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168540).",
@@ -23082,7 +25547,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "The Ring",
         description:
           "Gained on startup if pre-ordered. Can also be obtained by completing a boss as a summon with someone who pre-ordered the game.",
@@ -23091,7 +25555,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Erudition",
         description:
           "**Location:** Given by [Sorcerer Thops](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165263) after completing [Sorcerer Thops' quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165848).",
@@ -23100,7 +25563,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Desperate Prayer",
         description:
           "**Location:** Given by [Gowry](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166841) as part of [Gowry's Request](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166842).",
@@ -23109,7 +25571,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Rapture",
         description:
           "**Location:** Acquired by greeting the Two Fingers beside [Finger Reader Enia](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170553)",
@@ -23118,7 +25579,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Balled Up",
         description:
           "**Location:** Given by [Rennala](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165895) after rebirthing for the first time.",
@@ -23127,7 +25587,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Extreme Repentance",
         description:
           "**Location:** Given by [Patches](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504) under the following conditions:\n1. Befriend him by sparring his life. Doing so will reward you with [Grovel For Mercy](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165136).\n2. Reinitiate the fight by attacking him 3 times.\n3. Let yourself get hit. When your HP is low enough, Patches will offer you to surrender.\n4. Perform the Grovel for Mercy gesture you obtained earlier. Doing so will grant you Extreme Repentance. Use it to end the fight.",
@@ -23136,7 +25595,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Order Totality",
         description:
           "**Location:** Given by [Goldmask](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168528) as part of [Brother Corhyn's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=178950).",
@@ -23145,7 +25603,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Patches' Crouch",
         description:
           "**Location:** Given by [Patches](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504) once he returns to [Murkwater Cave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164022), at the end of [Patches' Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166248). Hitting him once will cause him to surrender and give you this emote.",
@@ -23163,7 +25620,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Prayer",
         description:
           "**Location:** Given by [Brother Corhyn](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167781) when first speaking with him.",
@@ -23172,7 +25628,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Fire Spur Me",
         description: "In the center of the camp",
         latitude: "0.67117206040098",
@@ -23195,7 +25650,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune (2)",
         description: "On the corpse by the ruin",
         latitude: "0.63612644291717",
@@ -23212,7 +25666,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "",
         latitude: "0.61747486017938",
@@ -23229,7 +25682,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "On a corpse inside the camp",
         latitude: "0.60332342644338",
@@ -23246,7 +25698,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description:
           "**Location:** In [Groveside Cave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164028)",
@@ -23264,7 +25715,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3], Golden Rune [2] & 3x Golden Rune [1]",
         description: "Found on top of the open tombs on the hill.",
         latitude: "0.61333170372613",
@@ -23281,7 +25731,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "At the base of the crucifix on top of the mountain",
         latitude: "0.60125841808829",
@@ -23298,7 +25747,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "**Location:** On a corpse, by the Martyr Effigy.",
         latitude: "0.63585421547343",
@@ -23315,7 +25763,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On a corpse by the side of the road",
         latitude: "0.58566623247475",
@@ -23323,7 +25770,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** In a corpse, on the scaffolding past the entrance door.",
@@ -23341,7 +25787,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On the 2nd floor; drop from the 3rd floor to access.",
@@ -23359,7 +25804,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On the top floor; on a wooden platform.",
         latitude: "0.64060008987096",
@@ -23376,7 +25820,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** In a body, slumped on the roof.",
         latitude: "0.64452391489344",
@@ -23393,7 +25836,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "2x Golden Rune [2]",
         description:
           "**Location:** On the 3rd floor; on a corpse, sitting in a room.",
@@ -23411,7 +25853,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "**Location:** Beside the large flesh mound.",
         latitude: "0.64057326945799",
@@ -23428,7 +25869,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "At the very top level of the castle - on a corpse hanging over the edge.",
@@ -23446,7 +25886,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On the eastern upper rampart",
         latitude: "0.55708335261345",
@@ -23463,7 +25902,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** Past the [Imp Seal Statue](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164846), near a ledge overlooking the main courtyard.",
@@ -23481,7 +25919,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description:
           "**Location:** On a corpse in the courtyard (5th corpse on the screenshot).",
@@ -23499,7 +25936,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On a corpse in the courtyard (4th corpse on the screenshot).",
@@ -23517,7 +25953,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On a corpse, near wooden crates.",
         latitude: "0.64563159700661",
@@ -23534,7 +25969,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "4x golden rune [1], 2x golden rune [2], 1x golden rune [3], 1x golden rune [5]",
         description: "On the graves",
@@ -23543,7 +25977,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On body west of cellar entrance.",
         latitude: "0.62092862006290",
@@ -23551,7 +25984,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On a corpse, near the doorway to the main courtyard.",
@@ -23569,7 +26001,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse, near the doorway to the main courtyard.",
@@ -23587,7 +26018,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** On a corpse, in the [Gateside Chamber](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164043) Site of Grace room.",
@@ -23605,7 +26035,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description:
           "**Location:** On one of 3 corpses, just past the castle's main gate.",
@@ -23623,7 +26052,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On one of 3 corpses, just past the castle's main gate.",
@@ -23641,7 +26069,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** In the [Underground Crypt](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165158); on a corpse, in the corner of the room.",
@@ -23659,7 +26086,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "On top of the peak",
         latitude: "0.56424450780902",
@@ -23667,7 +26093,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "Dropped by the [Singing Bat](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165329)",
@@ -23676,7 +26101,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "On a corpse behind the trunk of the uprooted tree.",
         latitude: "0.58280714630652",
@@ -23684,7 +26108,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On a corpse on the beach",
         latitude: "0.59014662675752",
@@ -23701,7 +26124,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On a corpse beside the Miranda Flowers",
         latitude: "0.58502924107594",
@@ -23709,7 +26131,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "6x Golden Rune [1]",
         description: "On 2 corpses by the poisonous flowers",
         latitude: "0.58945197143122",
@@ -23717,7 +26138,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "3 x Golden Rune [1], Golden Rune [2], 2 x Golden Rune [4], & Golden Rune [6]",
         description: "On the sarcophagi",
@@ -23735,7 +26155,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "On the top of the cliff overlooking the bridge, by one of the stakes of the crucified bodies. Guarded by a small band of enemies.",
@@ -23753,7 +26172,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On a corpse, in an alcove of the church.",
         latitude: "0.71691430423000",
@@ -23770,7 +26188,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** At the bottom of a descending slope, on the side.",
@@ -23788,7 +26205,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a ledge near the top of the wheel.  Can be accessed from the lower ledge via a passageway at the rear of the area.",
@@ -23813,7 +26229,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On the [2nd floor](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165699); on a corpse dangling from the balcony.",
@@ -23822,7 +26237,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** Around the corner from the giant Crab, on a corpse sitting by the ledge.",
@@ -23840,7 +26254,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On the far left side of the courtyard; a [Giant Crab](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165714) will ambush you.",
@@ -23858,7 +26271,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: null,
         latitude: "0.60878830005588",
@@ -23875,7 +26287,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On the stone balconies; access from the main courtyard.",
@@ -23893,7 +26304,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse slumped over the ledge, overlooking the [rooftops](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165823).",
@@ -23911,7 +26321,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On the [rooftops](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165823), on a corpse sitting on the corner of the tower.",
@@ -23929,7 +26338,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On the [rooftops](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165823); on a corpse laying on a slanted roof.",
@@ -23947,7 +26355,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On the rafters of the church; access from the [rooftops](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165823).",
@@ -23965,7 +26372,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "At the foot of the crucifix.",
         latitude: "0.62520112638609",
@@ -23982,7 +26388,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** In the small garden, to the right of the stairs.  \n**Note:** To the right of the corpse is a narrow ledge; use it to access the 2nd floor.",
@@ -24000,7 +26405,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** On a slanted roof. Drop from the 2nd floor, accessed from [this ledge](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165881).",
@@ -24018,7 +26422,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "On a corpse on top of the rock",
         latitude: "0.60778585919947",
@@ -24035,7 +26438,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "On a corpse hanging over the edge of the ruin",
         latitude: "0.62656226624755",
@@ -24052,7 +26454,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "In the middle of a small pond guarded by 2 Colossal Bears. \n\nThrowing Daggers & Gold-Tinged Excrement nearby.",
@@ -24070,7 +26471,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse in a small tower west of the main structure.",
@@ -24088,7 +26488,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Gold Rune [5]",
         description: "On a dead body surrounded by Putrid Corpses.",
         latitude: "0.58204677933847",
@@ -24105,7 +26504,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "4x Golden Rune [1], Golden Rune [2], Golden Rune [3] & Golden Rune [4]",
         description:
@@ -24115,7 +26513,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "On a corpse right next to the fire.",
         latitude: "0.68578289595681",
@@ -24123,7 +26520,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "**Location:** On a corpse, south of the bridge's support beam.",
@@ -24132,7 +26528,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "2x Golden Rune [1], 3x Golden Rune [2], 2x Golden Rune [3], 2x Golden Rune [4] & Golden Rune [5]",
         description: "On the sarcophagi guarded by the Miranda",
@@ -24141,7 +26536,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On corpse directly behind the Troll Knight Summon.",
@@ -24159,7 +26553,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On corpse on the road in front of the Troll Knight Summon.",
@@ -24177,7 +26570,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "Golden Rune [1], Golden Rune [2], 4x Golden Rune [3], Golden Rune [4] & Golden Runes [5]",
         description:
@@ -24187,7 +26579,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "At the base of the crucifix",
         latitude: "0.60377821412366",
@@ -24204,7 +26595,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "Guarded by several white wolves and a Red Wolf of Radagon",
@@ -24213,7 +26603,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "4x Gold Rune [1], Gold Rune [2], Gold Rune [3]",
         description: "On top of the tombs surrounded by a pack of wolves",
         latitude: "0.56937993051611",
@@ -24230,7 +26619,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "Corpse lower level on right after entering large room \n\n**Warning:** You may be ambushed by spirits",
@@ -24239,7 +26627,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "Next to campfire on corpse",
         latitude: "0.58108355961733",
@@ -24256,7 +26643,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "On a body propped up against a pillar",
         latitude: "0.27468493402812",
@@ -24264,7 +26650,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On a body in the shallow stream",
         latitude: "0.27590800721964",
@@ -24272,7 +26657,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "On a corpse hanging over the stairs. \n\n**NB:** You must jump on the railing to collect it.",
@@ -24290,7 +26674,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** On a corpse at the bottom of the mini waterfall.",
@@ -24299,7 +26682,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "On ledge alongside and below the staircase",
         latitude: "0.27621009740956",
@@ -24307,7 +26689,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "On a corpse by the giant Land Octupi",
         latitude: "0.28563487150657",
@@ -24315,7 +26696,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On a body in the center of the ruins",
         latitude: "0.61271080788204",
@@ -24332,7 +26712,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: null,
         latitude: "0.37382590610180",
@@ -24340,7 +26719,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: null,
         latitude: "0.37290324579129",
@@ -24348,7 +26726,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: null,
         latitude: "0.37414776432715",
@@ -24356,7 +26733,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "**Location:** On a corpse in the mounds of bodies",
         latitude: "0.37287565793673",
@@ -24364,7 +26740,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "**Location:** In a tomb at the river's edge",
         latitude: "0.37725910395666",
@@ -24381,7 +26756,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1] [2] 4x [3] [4] [7]",
         description: "On sarcophagi",
         latitude: "0.74783955115637",
@@ -24389,7 +26763,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "5 x Golden Rune [1], Golden Rune [2] & Golden Rune [5]",
         description: "On the tombs",
         latitude: "0.64512053017340",
@@ -24406,7 +26779,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1] [3] [6] & [8]",
         description: "On sarcophagi",
         latitude: "0.66780890641505",
@@ -24414,7 +26786,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "Gold Rune [1], 2x Gold Rune [2], 2x Gold Rune [3], Gold Rune [6]",
         description: "Graveyard south beyond the Jarburg Site of Grace.",
@@ -24423,7 +26794,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "On a branch beside the big pile of mushrooms, guarded by a big raven.",
@@ -24432,7 +26802,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** In Nokron, On a corpse on the bridge after Mimic Tear.",
@@ -24441,7 +26810,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse in the guard tower above path, near Black-Key Bolts.",
@@ -24459,7 +26827,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: null,
         latitude: "0.38699078311750",
@@ -24467,7 +26834,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune x5",
         description:
           'From the rightmost "BIG" branch, you can jump down to another branch that\'ll lead into a small cave, in the cave a Giant Ant Queen drops this rune. A little further, there is an entire colony of Ants with 4 more Queens. Each gives 12500 runes.',
@@ -24476,7 +26842,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "Next to Dragonkin",
         latitude: "0.36713039091129",
@@ -24484,7 +26849,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "Corpse on ruins",
         latitude: "0.37135972148118",
@@ -24492,7 +26856,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "Found at the back of a high building ledge.",
         latitude: "0.35856958803005",
@@ -24500,7 +26863,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "On a corpse near a tree",
         latitude: "0.27999243433823",
@@ -24508,7 +26870,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [5]",
         description: "On a corpse",
         latitude: "0.78149926526964",
@@ -24525,7 +26886,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: null,
         latitude: "0.37680059078443",
@@ -24533,7 +26893,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: null,
         latitude: "0.37714390610789",
@@ -24541,7 +26900,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: null,
         latitude: "0.37891957822733",
@@ -24549,7 +26907,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: null,
         latitude: "0.38201185543434",
@@ -24557,7 +26914,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse on a wooden floor when you drop inside the fort from the top.",
@@ -24566,7 +26922,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse in the ruin of a Church, guarded by three Albinauric.",
@@ -24575,7 +26930,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** on a corpse in te bridge, guarded by four Albinauric.",
@@ -24584,7 +26938,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse in the lower south-west corner of the ruins (near the Ghost).",
@@ -24602,7 +26955,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** On a corpse in the pond near the two Dragons.",
@@ -24611,7 +26963,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description:
           "**Location:** From the Center Site of Grace, go down the right ladder and jump on the left cornice. Follow it and jump on the next platform to find the rune on a corpse.",
@@ -24620,7 +26971,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse inside the tower, under the collapsed pillar.",
@@ -24629,7 +26979,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "On a body near the Runebear, inside Dragonbarrow Cave.",
         latitude: "0.66343635925512",
@@ -24637,7 +26986,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1], Golden Rune [2], Golden Rune [3]",
         description: "On the sarcophagi",
         latitude: "0.65262494825495",
@@ -24654,7 +27002,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "On a corpse by the rot river.",
         latitude: "0.35728516218681",
@@ -24662,7 +27009,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse upstairs in a wooden structure in the Redmane Castle courtyard. Just behind the Martyr Effigy",
@@ -24680,7 +27026,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "Behind the wall on the hanging platform",
         latitude: "0.29700937087451",
@@ -24688,7 +27033,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description: "End of broken bridge",
         latitude: "0.29812515477562",
@@ -24696,7 +27040,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** Drop down from the corpse holding the smithing stone to lower outcrop to find another corpse with the stones on the wall ledge",
@@ -24714,7 +27057,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden rune [2]",
         description:
           "**Location:** In the [hidden area](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169128) above the living jars. On a body.",
@@ -24732,7 +27074,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "In front of the crucifix, near the dogs",
         latitude: "0.56463955433716",
@@ -24740,7 +27081,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description:
           "Found on corpse on the North side of the poisonous liquid",
@@ -24749,7 +27089,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "Inside the cave before you take the first lift down jump down to the left",
@@ -24767,7 +27106,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: 'Right beside the ruin; guarded by three "Giant Bats".',
         latitude: "0.61857470274319",
@@ -24784,7 +27122,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On the corpse found on the East side of the Arch above",
         latitude: "0.63181664428402",
@@ -24792,7 +27129,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune 2x [1] [2] [5]",
         description: "On sarcophagi",
         latitude: "0.62108906337251",
@@ -24800,7 +27136,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** Atop a broken column on a corpse",
         latitude: "0.63637424499032",
@@ -24817,7 +27152,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "5x Golden Rune [9]",
         description:
           "Dropped from the 5 Chanting Winged Dames encountered on the road (only on first kill).",
@@ -24826,7 +27160,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [2]",
         description: "End of fallen pillar, by Lesser Runebear clawing at tree",
         latitude: "0.83457533065386",
@@ -24843,7 +27176,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "Behind a large tombstone.",
         latitude: "0.80096869380436",
@@ -24851,7 +27183,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "**Location:** On a corpse on the battlefield.",
         latitude: "0.79891985300375",
@@ -24868,7 +27199,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "Shoot down the hot air balloon with either magic or a bow and arrow for an instant drop.",
@@ -24877,7 +27207,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse hanging over the wall, near the Stake of Marika.",
@@ -24886,7 +27215,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "**Location:** Under the stairs on the ramparts.",
         latitude: "0.76459709185909",
@@ -24894,7 +27222,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse in the garden under the bridge, guarded by Giant Hand.",
@@ -24903,7 +27230,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "2x Golden Rune [1], 3x Golden Rune [2], 5x Golden Rune [3], 2x Golden Rune [4] & Golden Rune [5]",
         description:
@@ -24922,7 +27248,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "**Location:** On a corpse in the small ruined building",
         latitude: "0.63983568013113",
@@ -24930,7 +27255,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "Corpse in front of waterfall in Soifra aquaduct",
         latitude: "0.30203039754092",
@@ -24938,7 +27262,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "**Location:** Found on a corpse.",
         latitude: "0.29806558802369",
@@ -24946,7 +27269,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** In Nokron, On a corpse near the ledge in a garden before the Mimic Tear boss.",
@@ -24955,7 +27277,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "Inside the cave on a corpse.  Past the grace.",
         latitude: "0.65851986830914",
@@ -24963,7 +27284,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse in a circular stone platform in the building before the Nokron Site of Grace.",
@@ -24981,7 +27301,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** In Nokron, On a corpse in a little square after the Stake of Marika.",
@@ -24990,7 +27309,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse in front of a collapsed buidling with a Crimson Scarab.",
@@ -24999,7 +27317,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** On a corpse in the path accessible by the crater south of Mistwood after deafeating Radahn.",
@@ -25008,7 +27325,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse in the circular balcony after the two elevator.",
@@ -25017,7 +27333,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "On a dead body near the lake.",
         latitude: "0.79245468809962",
@@ -25025,7 +27340,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "On a corpse in the [Lunar Estate Ruins](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167579)",
@@ -25034,7 +27348,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "On a corpse hanging over the edge.",
         latitude: "0.67892508387516",
@@ -25042,7 +27355,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Runes",
         description: "- 2x Golden Rune [8]\n- 1x Golden Rune [9]",
         latitude: "0.43211173273036",
@@ -25050,7 +27362,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [5]",
         description:
           "**Location:** On a corpse in front of a big tree, beside a Knight and a puddle.",
@@ -25059,7 +27370,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "On a corpse near the Ghost Glovewort",
         latitude: "0.43734944736025",
@@ -25067,7 +27377,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse below the Frenzy-Flaming Tower.",
@@ -25076,7 +27385,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse in the lower corner of the ruins",
@@ -25094,7 +27402,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "Golden Rune [3], found on a corpse in the centre of a destroyed building.",
@@ -25103,7 +27410,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "Corpse in ruin",
         latitude: "0.79234763621406",
@@ -25111,7 +27417,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "In a small alley, on a corpse.",
         latitude: "0.79264801488786",
@@ -25119,7 +27424,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "On one of the 3 corpses scattered in the area",
         latitude: "0.77459702572204",
@@ -25127,7 +27431,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description: "On one of the 3 corpses scattered in the area",
         latitude: "0.77429716532313",
@@ -25135,7 +27438,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "In a dead end alley on a corpse hidden behind a pillar",
         latitude: "0.77455500331166",
@@ -25143,7 +27445,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** On a corpse on the road, with many Silver Tears around.",
@@ -25152,7 +27453,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** On a corpse against a building near two Silver Tears.",
@@ -25161,7 +27461,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a large platform to the north as the water wheel descends (about half way down). Some enemies will attack you when you approach it. Near the [Avionette Soldier Ashes](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168042)",
@@ -25179,7 +27478,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "Behind some barrels in the back of the stables.",
         latitude: "0.81749036271084",
@@ -25196,7 +27494,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "Golden Rune [2], 2x Golden Rune [3], Golden Rune [4], Golden Rune [7]",
         description: "Scattered around on the coffins",
@@ -25214,7 +27511,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: null,
         latitude: "0.81482118265193",
@@ -25222,7 +27518,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "On a corpse.",
         latitude: "0.29268564230762",
@@ -25230,7 +27525,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "On a corpse located up structure.",
         latitude: "0.28681224715335",
@@ -25238,7 +27532,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "",
         latitude: "0.36736087628634",
@@ -25246,7 +27539,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse in the river.",
         latitude: "0.38852804191555",
@@ -25263,7 +27555,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse laying on the guard-rail of the stairs.",
@@ -25272,7 +27563,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse in the middle of the bridge.",
         latitude: "0.38787549677100",
@@ -25280,7 +27570,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse in the corner of the corridor.",
         latitude: "0.38684555204767",
@@ -25288,7 +27577,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse laying in a corridor, guarded by a Shielded Silver Tear.",
@@ -25297,7 +27585,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse laying on a broken pillar in the water.",
@@ -25306,7 +27593,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "Reward for defeating the Ant Queen.",
         latitude: "0.37130563449730",
@@ -25314,7 +27600,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "**Location:** On a corpse at the end of a branch.",
         latitude: "0.43914540858063",
@@ -25322,7 +27607,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** At the top of a branch with various Basilisk.",
@@ -25331,7 +27615,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse in a cave, guarded by a Runebear.",
@@ -25340,7 +27623,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "**Location:** On a corpse at the end of the branch.",
         latitude: "0.44034175328218",
@@ -25348,7 +27630,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** On a corpse on the branch.",
         latitude: "0.43364781952995",
@@ -25356,7 +27637,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "**Location:** On a corpse on the branch.",
         latitude: "0.43330450660159",
@@ -25364,7 +27644,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** On a corpse guarded by seven Flying Ants.",
         latitude: "0.42295895239249",
@@ -25372,7 +27651,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** On a corpse at the end of a branch.",
         latitude: "0.41983848610334",
@@ -25380,7 +27658,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse laying on a stone, right of the Brazier with the Singing Ancestral Follower.",
@@ -25389,7 +27666,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Runes",
         description: "Golden Runes [2, 4, 6] among the sarcophagi.",
         latitude: "0.79322835011226",
@@ -25406,7 +27682,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: null,
         latitude: "0.85047666686995",
@@ -25423,7 +27698,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description: null,
         latitude: "0.85573321380298",
@@ -25431,7 +27705,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description:
           "**Location:** By the dead body at the right side of the main path.",
@@ -25449,7 +27722,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "On a corpse after riding up the elevator.",
         latitude: "0.77099812919698",
@@ -25466,7 +27738,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "In a shack next to the road.",
         latitude: "0.65725709554829",
@@ -25474,7 +27745,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "Held by a cowering npc surrounded in gold sparks",
         latitude: "0.79125418572134",
@@ -25482,7 +27752,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** On the ground - guarded by two bats.",
         latitude: "0.79355312712205",
@@ -25499,7 +27768,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "On a corpse leaning against the Large Grave Marker",
         latitude: "0.79480369102029",
@@ -25507,7 +27775,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "Between 2 Large Grave Markers",
         latitude: "0.80482638639383",
@@ -25515,7 +27782,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "South Facing Cliff-top",
         latitude: "0.80135058497352",
@@ -25523,7 +27789,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "on a corpse next to the road",
         latitude: "0.80338936490404",
@@ -25540,7 +27805,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** On a corpse in Seethewater River.",
         latitude: "0.80703231788451",
@@ -25557,7 +27821,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse a the end of the collapsed rock accessible by Hermit Village.",
@@ -25575,7 +27838,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse in the mddle of the magma lake.",
@@ -25584,7 +27846,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** On a rock pillar in the magma lake.",
         latitude: "0.79801813244852",
@@ -25592,7 +27853,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "**Location:** On a corpse at the top of the forth.",
         latitude: "0.80566882154949",
@@ -25609,7 +27869,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "On a corpse near two Marionette soldiers",
         latitude: "0.81167990682688",
@@ -25626,7 +27885,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** Near the singing bat, guarded by two regular bats.",
@@ -25635,7 +27893,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** Up the path from the Ruin-Strewn Precipice grace.",
@@ -25644,7 +27901,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** On a corpse on the rock on the upper cliffside.",
@@ -25653,7 +27909,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On a corpse against a large tree.",
         latitude: "0.28272168986959",
@@ -25661,7 +27916,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "**Location:** Guarded by 3 Ancestral Followers",
         latitude: "0.27819417529334",
@@ -25669,7 +27923,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "**Location:** On a corpse on ground level",
         latitude: "0.28260109083625",
@@ -25677,7 +27930,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** In a little pit on the ground, guarded by a Harpy.",
@@ -25695,7 +27947,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse in front of a large tomb near the great wall.",
@@ -25713,7 +27964,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description: "On a corpse near a tree",
         latitude: "0.27900015185213",
@@ -25730,7 +27980,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse beside a tree on the road, guarded by a Wormface.",
@@ -25739,7 +27988,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** Dropped by an Aristocrat holding a trunk (only the first time he's killed), in front of the cliff after the big tombs.",
@@ -25748,7 +27996,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** On a corpse in the corner of the ruin, behind a Big Slime.",
@@ -25757,7 +28004,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a corpse on a stone, guarded by several Soldiers.",
@@ -25766,7 +28012,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse laying on a wooden structure in the poison pond.",
@@ -25775,7 +28020,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse on the rampart, guarded by a Perfumer.",
@@ -25784,7 +28028,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse against the wall, guarded by four Slug.",
@@ -25793,7 +28036,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse laying a the end of a tilted rock, east of Old Altus Tunnel.",
@@ -25802,7 +28044,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** On a corpse in the bottom ruin.  It is hanging off the edge.",
@@ -25811,7 +28052,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "**Location:** On a corpse inside the ruin.",
         latitude: "0.78087734657225",
@@ -25819,7 +28059,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse guarded by two Abductor Virgin.",
@@ -25837,7 +28076,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** On a Soldier body against a palisade, near the Minor Erdtree.",
@@ -25855,7 +28093,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse on a flat strone, guarded by two Spider Hand.",
@@ -25873,7 +28110,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** On a corpse laying on the cliff below the massive tilted rock.",
@@ -25891,7 +28127,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a rock in front of the tower, guarded by a Mad Pumpkin.",
@@ -25900,7 +28135,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** On a corpse in front of a tomb in the poison pond, guarded by four Ghoul.",
@@ -25909,7 +28143,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "You can find it near Smithing Stone [2], behind the waterfall",
@@ -25927,7 +28160,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3], 2x Golden Rune [4], 2x Golden Rune [6]",
         description: "**Location:** On the sarcopahgi",
         latitude: "0.78802816192773",
@@ -25944,7 +28176,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse in the area with the Living Jars.",
@@ -25953,7 +28184,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse on the fountain-like structure.",
@@ -25962,7 +28192,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "**Location:** On a corpse behind the stairs.",
         latitude: "0.79658320111105",
@@ -25970,7 +28199,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse hanging over the balcony. After obtaining the Albinauric Mask, take the south exit, then up the ladder.",
@@ -25979,7 +28207,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** By the fire, next to the Omenkiller.",
         latitude: "0.80173304860854",
@@ -25987,7 +28214,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** Across the rooftops, guarded by a Man Serpent.",
@@ -25996,7 +28222,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** On a corpse on the small wooden bridge.",
         latitude: "0.80108887429539",
@@ -26004,7 +28229,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** Old Altus Tunnel, on a corpse.",
         latitude: "0.79684824001018",
@@ -26012,7 +28236,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "2x Golden Rune [5]",
         description:
           "**Location:** Perfumer's Grotto, on two corpses just before the boss room.",
@@ -26021,7 +28244,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "Shoot down the balloon",
         latitude: "0.66767066703957",
@@ -26038,7 +28260,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "Shoot down a balloon.\n\n**Note:** 3 Marionette Soldiers will drop after shooting the balloon.",
@@ -26047,7 +28268,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "Behind the structure of the chest that holds the Somber Ancient Dragon Smithing Stone",
@@ -26056,7 +28276,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [4]",
         description:
           "**Location:** On a corpse against some stone bricks, guarded by two Albinaurics.",
@@ -26065,7 +28284,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [3]",
         description:
           "Base of the tree-like pillar surrounded by red albinaurics",
@@ -26083,7 +28301,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "**Location:** On a corpse in the water.",
         latitude: "0.28661940662538",
@@ -26091,7 +28308,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "**Location:** On a corpse by the Broken Statue enemy.",
         latitude: "0.77698583099267",
@@ -26099,7 +28315,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse near the Large Oracle Envoy.",
         latitude: "0.77910406363493",
@@ -26107,7 +28322,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [2]",
         description: "**Location:** On a corpse on the ground",
         latitude: "0.63090353829472",
@@ -26115,7 +28329,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "**Location:** On a corpse on the ground",
         latitude: "0.63191198764639",
@@ -26123,7 +28336,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "On corpse leaning against wall",
         latitude: "0.38521503584330",
@@ -26131,7 +28343,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse in front of the houses, guarded by three Ghouls.",
@@ -26140,7 +28351,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [2]",
         description:
           "**Location:** On corpse in the area after the Lion Guardian.",
@@ -26158,7 +28368,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse in the area after the Lion Guardian.",
@@ -26176,7 +28385,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "**Location:** On a corpse against a fence of the upper road, with two Leyndell Knight patrolling nearby.",
@@ -26194,7 +28402,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse next to a tree, left of the stairs.",
@@ -26203,7 +28410,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "**Location:** On a corpse hanging on a fence.",
         latitude: "0.78023316910860",
@@ -26211,7 +28417,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse laying on the stairs, guarded by two Leyndell Soldiers and a Leyndell Knight.",
@@ -26229,7 +28434,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse laying on the stairs, guarded by two Leyndell Soldiers and a Leyndell Knight.",
@@ -26247,7 +28451,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse against the wall at the ground floor of the building.",
@@ -26256,7 +28459,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse against a carriage on the avenue.",
@@ -26265,7 +28467,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "**Location:** On a corpse in front of many tombs.",
         latitude: "0.78232660460385",
@@ -26273,7 +28474,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** On a corpse between two tombs.",
         latitude: "0.78198331385882",
@@ -26281,7 +28481,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1], [3], [4], [6] & [8]",
         description: "**Location:** On the sarcophagi.",
         latitude: "0.79566390130904",
@@ -26289,7 +28488,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "In the same room as the altar with the spear wielding Crucible Knight.",
@@ -26307,7 +28505,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse in the sewer, guarded by two Rats.",
@@ -26316,7 +28513,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse on a balcony of the rampart, guarded by two Envoys.",
@@ -26325,7 +28521,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "**Location:** On a corpse inside the tower of the rampart, guarded by a Soldier.",
@@ -26334,7 +28529,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "**Location:** On a corpse on a ledge accessible from Root-Facing Cliffs, guarded by three Ants.",
@@ -26343,7 +28537,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse on a tree branch accessible from Root-Facing Cliffs.",
@@ -26352,7 +28545,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse on a tree branch accessible from Root-Facing Cliffs.",
@@ -26361,7 +28553,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description:
           "**Location:** Reward for killing the Ant Queen on the ledge, accessible from Root-Facing Cliffs.",
@@ -26370,7 +28561,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [1]",
         description:
           '**Location:** On a corpse on the bed next to "By my Sword" Gesture.',
@@ -26388,7 +28578,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "**Location:** On a corpse hanging on a wooden roof.",
         latitude: "0.77225363649399",
@@ -26396,7 +28585,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse hanging on a fence, in a court accessible by the roof nearby.",
@@ -26405,7 +28593,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse laying on a roof, accessible by dropping from the east rampart.",
@@ -26414,7 +28601,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse laying on a roof, accessible by dropping from the east rampart.",
@@ -26423,7 +28609,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "**Location:** On a corpse in Subterranean Shunning Grounds, in the sewer pipes full of Scarab.",
@@ -26432,7 +28617,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "**Location:** On a corpse in Subterranean Shunning Grounds, inside a sewer pipe accessible by an exit of the large room full of pipes.",
@@ -26441,7 +28625,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse in Subterranean Shunning Grounds, On a wooden bridge near an exit of the large room full of pipes.",
@@ -26450,7 +28633,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description: "On a corpse on the edge of the hill.",
         latitude: "0.84918176448399",
@@ -26467,7 +28649,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** Shoot the floating balloon to obtain",
         latitude: "0.73490667997043",
@@ -26484,7 +28665,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** Shoot the floating balloon to obtain",
         latitude: "0.73835947077272",
@@ -26501,7 +28681,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** Shoot the floating balloon to obtain",
         latitude: "0.74103740079626",
@@ -26509,7 +28688,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** Shoot the floating balloon to obtain",
         latitude: "0.74334988148218",
@@ -26517,7 +28695,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "**Location:** Shoot the floating balloon to obtain",
         latitude: "0.74398342557902",
@@ -26525,7 +28702,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description: "Dropped by the Singing Bat",
         latitude: "0.71758846360489",
@@ -26533,7 +28709,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "Destroy the hot-air balloon that drops the marionette soldiers.",
@@ -26551,7 +28726,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "On a body near the center of the circle where the dragon sits",
@@ -26569,7 +28743,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "On a body hanging off the ledge.\n\nFrom the Dragon Temple site of grace, jump down onto the stairs and continue straight up the second set of stars and the item will be at the edge.",
@@ -26587,7 +28760,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "**Location:** On a corpse where you jump down",
         latitude: "0.72878867419632",
@@ -26595,7 +28767,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [2]",
         description:
           "On a corpse behind some pots, down the stairs into the courtyard",
@@ -26604,7 +28775,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse in Temple of Eiglay. Take the elevator up after the boss to the upper level.",
@@ -26622,7 +28792,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "Dropped by the singing bat",
         latitude: "0.60807327582429",
@@ -26630,7 +28799,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "Undead Aristocrat with chest. Use stealth spell when far enough from player.",
@@ -26639,7 +28807,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description:
           "**Location:** On a corpse beside a house, guarded by two Dogs.",
@@ -26657,7 +28824,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "**Location:** On a corpse on the floor.",
         latitude: "0.85275782580847",
@@ -26674,7 +28840,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse in the corner of the wall, guarded by two Soldiers.",
@@ -26692,7 +28857,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse on the rampart, guarded by a ballista.",
@@ -26701,7 +28865,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse in the courtyard, guarded by a Lion Guardian.",
@@ -26719,7 +28882,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4], [5] & [10]",
         description: "**Location:** On the sarcophagi.",
         latitude: "0.85418811835565",
@@ -26727,7 +28889,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse on the slope.",
         latitude: "0.84369465666890",
@@ -26735,7 +28896,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse between several tombs.",
         latitude: "0.84379349078847",
@@ -26743,7 +28903,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description: "**Location:** On a corpse beside several tombs.",
         latitude: "0.84248853383990",
@@ -26751,7 +28910,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse on a pillar structure, guarded by two Demi-Humans.",
@@ -26760,7 +28918,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "**Location:** On a coprse hanging on the ledge behind the Golem.",
@@ -26769,7 +28926,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "**Location:** On a corpse against the stone bridge.",
         latitude: "0.82198508564534",
@@ -26777,7 +28933,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse on the cliff, behind a tree.",
         latitude: "0.80372656500259",
@@ -26785,7 +28940,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "**Location:** On a corpse on a fallen pillar, guarded by two Militia.",
@@ -26794,7 +28948,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: null,
         latitude: "0.83801773222264",
@@ -26802,7 +28955,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "Reward for destroying the floating balloon",
         latitude: "0.83644938520550",
@@ -26810,7 +28962,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "2x Golden Rune [7], 1x Golden Rune [10]",
         description: "**Location:** On the sarcophagi.",
         latitude: "0.82999321646966",
@@ -26818,7 +28969,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a wooden path behind the fort.",
         latitude: "0.82768489060220",
@@ -26826,7 +28976,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description:
           "**Location:** Below the bridge - on a corpse under a column.",
@@ -26844,7 +28993,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description:
           "**Location:** At the base of the crucifixes, guarded by two dogs",
@@ -26862,7 +29010,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "**Location:** On top of the large mushroom",
         latitude: "0.63069131414833",
@@ -26870,7 +29017,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [3]",
         description: "**Location:** South of the large mushroom",
         latitude: "0.62996179744449",
@@ -26878,7 +29024,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "Shoot down the hot air balloon to receive the rune.",
         latitude: "0.83976869412965",
@@ -26886,7 +29031,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "6x Golden Rune [1]",
         description: "On a corpse by a rock, behind the sleeping Rune Bear.",
         latitude: "0.84208554830943",
@@ -26894,7 +29038,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "On a corpse leading into the next area with wolves.",
         latitude: "0.82623536866095",
@@ -26902,7 +29045,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description: "On a sarcophagus near the Golden Seed.",
         latitude: "0.82071568478266",
@@ -26910,7 +29052,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "Kill the Wandering Noble carrying a chest to get the rune.",
@@ -26919,7 +29060,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title:
           "Golden Rune [1], Golden Rune [3], Golden Rune [6], Golden Rune [9], and Golden Rune [11]",
         description:
@@ -26929,7 +29069,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "Turn right after exiting Hidden Path to the Haligtree, and at the end of the path will be a corpse with the rune.",
@@ -26938,7 +29077,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "Inside of the building, on corpse. \n\nJump from first roof to second roof and jump toward inside of the building underneath of first roof that you jump from.\n\nin the same building as  you find Viridian Amber Talisman +2 in a chest",
@@ -26947,7 +29085,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse hanging on a ledge, guarded by three Misbegotten.",
@@ -26956,7 +29093,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** Just after jumping off the Temple of Eiglay balcony to the lava area, turn right and down the ledge.",
@@ -26965,7 +29101,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "On top of a boulder next to a sleeping Misbegotten.",
         latitude: "0.77248631960452",
@@ -26973,7 +29108,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse on the bridge, in front of the Draconic Tree Sentinel.",
@@ -26991,7 +29125,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "**Location:** On a corpse on a balcony with a Falcon.",
         latitude: "0.74390173324680",
@@ -26999,7 +29132,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "**Location:** On a corpse beside Alexander Iron Fist.",
         latitude: "0.73754268026380",
@@ -27007,7 +29139,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse beside a tree with two hanging Skeletal Beastman.",
@@ -27025,7 +29156,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Lord's Rune",
         description:
           "**Location:** On a large crucible after Dragon Temple Lift.",
@@ -27034,7 +29164,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [5]",
         description: "**Location:** On a corpse on a ledge behind a wall.",
         latitude: "0.74073814109035",
@@ -27042,7 +29171,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "**Location:** On a corpse hanging on a ledge, near a Dog.",
@@ -27051,7 +29179,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse hanging a the top of a broken stairs.",
@@ -27060,7 +29187,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description: "**Location:** On a corpse against a broken pillar.",
         latitude: "0.73938255412268",
@@ -27068,7 +29194,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse hanging on a ledge, guarded by a Big Beastman.\n\nFrom the Dragon Temple site of grace, jump down onto the stairs and go through the doorway on the right at the top of the stairs.",
@@ -27086,7 +29211,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "**Location:** On a corpse against a pillar.",
         latitude: "0.73466776223408",
@@ -27094,7 +29218,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse hanging on the ledge of a floating ruin.",
@@ -27112,7 +29235,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "**Location:** On a corpse on a small stone.",
         latitude: "0.80916245234319",
@@ -27120,7 +29242,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse on the slope, in front of a giant's corpse.",
@@ -27129,7 +29250,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse inside the hill, guarded by three Hands.",
@@ -27138,7 +29258,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description: "On a corpse between two ruined buildings.",
         latitude: "0.84625133303905",
@@ -27146,7 +29265,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description: "On a corpse in the main courtyard.",
         latitude: "0.84514322241499",
@@ -27154,7 +29272,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description: "On an corpse next to the pilar",
         latitude: "0.82234395588456",
@@ -27162,7 +29279,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description: "On a corpse in the ruins.",
         latitude: "0.82422231299897",
@@ -27170,7 +29286,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description: "On a body against the cliffside.",
         latitude: "0.84964790088968",
@@ -27178,7 +29293,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description:
           "**Location:** On a corpse laying on a stone, guarded by three Kindred of Rot.",
@@ -27187,7 +29301,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse inside a small room before Drainage Channel Site of Grace.",
@@ -27196,7 +29309,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description: "**Location:** On a corpse hanging on the rampart.",
         latitude: "0.89045113390057",
@@ -27204,7 +29316,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse in front of the Imp Seal Statue.",
@@ -27213,7 +29324,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Lord's Rune",
         description:
           "**Location:** On a corpse inside a small room, near the Royal Revenant.",
@@ -27222,7 +29332,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [5]",
         description:
           "**Location:** On a corpse behind a big chalice at the end of the corridor behind Elphael Inner Wall Site of Grace.",
@@ -27231,7 +29340,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "**Location:** On a corpse on the bridge in front of the Putrid Avatar.",
@@ -27240,7 +29348,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse hanging on a balcony behind a building.",
@@ -27249,7 +29356,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse inside a small room, guarded by two Soldiers.",
@@ -27258,7 +29364,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [4]",
         description:
           "**Location:** On a corpse inside the small gazebo, guarded by a Battle Mage.",
@@ -27267,7 +29372,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse on a roof, next to a Spiritual Snail.",
@@ -27276,7 +29380,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse in front of Haligtree Town Plaza Site of Grace.",
@@ -27285,7 +29388,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "**Location:** On a corpse on a balcony behind a building.",
@@ -27294,7 +29396,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "**Location:** On a corpse on the branch, before the Giant Oracle Envoy.",
@@ -27303,7 +29404,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description:
           "**Location:** On a corpse on the big branch, in front of a Giant Oracle Envoy higher on another branch.",
@@ -27312,7 +29412,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse on the large branch with the Ant patrol.",
@@ -27321,7 +29420,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [10]",
         description:
           "**Location:** On a corpse on a mushroom, guarded by a Big Oracle Envoy.",
@@ -27330,7 +29428,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Lord's Rune",
         description:
           "**Location:** On a corpse inside a large cave, in front of a massive engraved pillar.",
@@ -27348,7 +29445,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description: "**Location:** On a corpse hanging on the ledge.",
         latitude: "0.28267015442188",
@@ -27356,7 +29452,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "**Location:** On a corpse against a pillar, guarded by a Rotten Raven.",
@@ -27365,7 +29460,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description:
           "**Location:** On a corpse in a bush, guarded by a Big Albinauric.",
@@ -27374,7 +29468,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "**Location:** On a corpse in front of the rock wall.",
         latitude: "0.28922421515566",
@@ -27382,7 +29475,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description:
           "**Location:** On a corpse inside a small grotto, guarded by four Red Albinaurics.",
@@ -27400,7 +29492,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "**Location:** On a corpse on the slope with many Albinaurics.",
@@ -27418,7 +29509,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "On a corpse sitting just outside a window in a ruin",
         latitude: "0.65503749803523",
@@ -27426,7 +29516,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1], [2] and [6]",
         description: "Among the sarcophagi.",
         latitude: "0.65769807483719",
@@ -27434,7 +29523,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune [4]",
         description: "On a roof, after defeating Maliketh.",
         latitude: "0.77301281966886",
@@ -27442,7 +29530,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "**Location:** On a corpse against the cliff wall, guarded by a Snail.",
@@ -27460,7 +29547,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: null,
         latitude: "0.65098386340418",
@@ -27468,7 +29554,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "On a corpse hanging off a broken balcony.",
         latitude: "0.73162941744907",
@@ -27476,7 +29561,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [13]",
         description: "On a corpse on the roof where it's broken.",
         latitude: "0.84646634190352",
@@ -27484,7 +29568,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [12]",
         description: "On a corpse on the roof of the building with the tower.",
         latitude: "0.84663798454405",
@@ -27492,7 +29575,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description:
           "**Location:** [Limgrave Tunnels](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164025), on a platform accessible from the lift by the boss room, on a corpse.",
@@ -27510,7 +29592,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Runes - 3x [2], 3x [4], 1x [5]",
         description:
           "**Location:** [Gaol Cave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165722)",
@@ -27519,7 +29600,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description: "On a corpse",
         latitude: "0.29990700212454",
@@ -27527,7 +29607,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description:
           "In the tunnel after the room with the crystal snakes after dropping down in the cave",
@@ -27536,7 +29615,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5] x2",
         description: "In the sage's cave.",
         latitude: "0.78713828869107",
@@ -27553,7 +29631,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [7]",
         description:
           "In the [Perfumer's Grotto](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164408). (Can be seen from [Altus Tunnel](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167589))",
@@ -27562,7 +29639,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "On a corpse in Subterranean Shunning Grounds, leaning against a sarcophagus.",
@@ -27571,7 +29647,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [9]",
         description: "Dropped by the Harpy in the camp",
         latitude: "0.79312571430735",
@@ -27579,7 +29654,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description:
           "Inside Dragonbarrow Cave, on a corpse guarded by several wolves",
@@ -27588,7 +29662,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Numen's Rune",
         description:
           "Found on completion of Diallos's quest, after Jar-Bairn has returned to his original position",
@@ -27597,7 +29670,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Hero's Rune",
         description: "**Location:** After Killing Tree Sentinal Duo",
         latitude: "0.77782417146105",
@@ -27605,7 +29677,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1], Golden Rune [5] x2, Golden Rune [9]",
         description: "All Located Within The Sealed Tunnel",
         latitude: "0.77152546207147",
@@ -27613,7 +29684,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "**Location:** Up the passage after the giant tombstone with the Carian Knight set, on a corpse beside some tombstones",
@@ -27622,7 +29692,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [8]",
         description: "On a body leaning against barricade",
         latitude: "0.82508090142612",
@@ -27630,7 +29699,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [4]",
         description:
           "Ona corpse at the base of the waterfall next to the smithing stone [4]",
@@ -27639,7 +29707,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [1]",
         description: "On a dead body hanging over the edge of a tree branch.",
         latitude: "0.43270435489009",
@@ -27647,7 +29714,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [5]",
         description: "On the narrow bridge in Fringefolk Hero's Grave",
         latitude: "0.61394723539095",
@@ -27655,7 +29721,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [11]",
         description:
           "In the sewers next to the [Bloodsoaked Set](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175444)",
@@ -27664,7 +29729,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Rune [6]",
         description:
           "**Location:** [Volcano Cave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166784) - at the end of path to the right, after the site of grace",
@@ -27679,7 +29743,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "By the golden tree in West Limgrave beside the path from the Storm Gate to the Stormhill Shack.",
@@ -27697,7 +29760,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Dropped by the [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164143) in [Fringefolk Hero's Grave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164088)",
@@ -27715,7 +29777,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Under a glowing tree in the open near [Fort Haight](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164002) in East Limgrave.",
@@ -27733,7 +29794,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Given as a reward for completing [Roderika's Task](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163950) at Stormhill Shack.",
@@ -27751,7 +29811,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "At the base of the golden tree along the path just outside of the Bestial Sanctum where Gurranq resides.",
@@ -27769,7 +29828,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "At the base of a golden tree along the path that leads south to Castle Redmane.",
@@ -27787,7 +29845,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a golden tree on the path to Godrick the Grafted near the end of Stormveil Castle.",
@@ -27805,7 +29862,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of the golden tree on the ledge overlooking Castle Morne in the Weeping Peninsula.",
@@ -27823,7 +29879,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Dropped by [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165164) under Stormveil Castle.",
@@ -27841,7 +29896,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of the golden tree in the middle of Liurna's sunken town below Raya Lucaria.",
@@ -27859,7 +29913,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a golden tree, at the end of the broken bridge just outside the lift up to the Academy of Raya Lucaria.",
@@ -27877,7 +29930,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a golden tree. In the north-western part of the courtyard, past the Debate Parlor site of grace.",
@@ -27895,7 +29947,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Up the stairs, at the golden tree near the large door in Sellia.",
@@ -27913,7 +29964,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "2x Golden Seed",
         description:
           "At the base of the golden tree on the southwestern edge of the Capital Outskirts.",
@@ -27931,7 +29981,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a Golden Tree deep in the northern ravine of Liurnia, surrounded by giant Land Squirts.",
@@ -27949,7 +29998,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "2x Golden Seed",
         description:
           "Under the larger Golden Tree in the center of the courtyard.",
@@ -27967,7 +30015,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           '**Location:** At the base of the golden tree on the side of the road when headed North from "Altus Highway Junction" Site of Grace.',
@@ -27985,7 +30032,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "At the foot of a Golden Tree in the far north of the mountain past a summit with a Fallingstar Beast, on the road down towards the Volcano Manor.",
@@ -28003,7 +30049,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a Golden Tree on the western side of the Altus Plateau, leading toward the Abandoned Coffins and exit to the Ruin-Strewn Precipice dungeon.",
@@ -28021,7 +30066,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the base of a golden tree in the foggy woods where a Minor Erdtree is located, east of a broken great bridge.",
@@ -28039,7 +30083,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Near a golden tree after going down the steps from the Manor Upper Level Site of Grace.",
@@ -28057,7 +30100,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Dropped by [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167141) in the lower part of Leyndell, the Royal Capital.",
@@ -28075,7 +30117,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a Golden Tree on the path through to the Mountaintops of the Giants, just past a Black Blade Kindred.",
@@ -28093,7 +30134,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the Gargoyle Boss location under the tree along the ramparts of Leyndell, the Royal Capital.",
@@ -28111,7 +30151,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Under the Golden Tree on a roof of a Dragon Temple accessed by an Imp Seal barrier. The tree is guarded by several skeletal beastmen.",
@@ -28129,7 +30168,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Near the massive castle-like structure protruding from the rocks along the northern side of the underground Siofra River, below the lift leading up to Caelid.\n\nCan be easily accessed from the [Below The Well](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167491) Site of Grace.",
@@ -28147,7 +30185,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Directly South of [Outer Wall Phantom Tree](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165475) site of grace. It drops from the [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167586).",
@@ -28165,7 +30202,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the base of a golden tree guarded by multiple trebuchets near the northern entrance to the Capital Outskirts.",
@@ -28183,7 +30219,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Golden Seed found after defeating a Farum dragon guarding the entrance to the greatbridge. It is located in some nearby ruins where Stormhawks have gathered.",
@@ -28201,7 +30236,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Reward for defeating Ulcerated Tree Spirit at Giants' Mountaintop Catacombs",
@@ -28219,7 +30253,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the foot of a Golden Tree by a frozen river to the west of Ordina, the Liturgical Town leading to Miquella's Haligtree.",
@@ -28237,7 +30270,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Dropped by [Putrid Tree Spirit](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167378) in the War Dead Catacombs.",
@@ -28255,7 +30287,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** At the base of the Golden Tree in the ravine to the south of a burnt up Minor Erdtree.",
@@ -28273,7 +30304,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Base of a Golden Tree across the large chain leading to the southeast portion of the Mountaintops of the Giants, among large frozen corpses.",
@@ -28291,7 +30321,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** In the secret Consecrated Snowfield region, Though hard to see due to the snow, ride north from the dungeon the exits into the snowfield to find a large tree with the seed at the base.",
@@ -28309,7 +30338,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Found by progressing Ranni the Witch's questline. Access from the north part of Nokstella. Found along the upper river through the city near a lift to the Lake of Rot.",
@@ -28327,7 +30355,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Next to the huge birds in the middle of the lake.",
@@ -28345,7 +30372,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Under a golden tree - guarded by a giant Golem by a frozen river in the Mountaintops of the Giants.",
@@ -28363,7 +30389,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Drops from [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168910) found in the Lake of Rot's temple.",
@@ -28381,7 +30406,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description: "Dropped by Kenneth Haight if you kill him.",
         latitude: "0.63551627793861",
@@ -28389,7 +30413,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "Dropped by the Ulcerated Tree Spirit in a pond of rot before the Drainage Channel site of grace.",
@@ -28407,7 +30430,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-lands-between",
-
         title: "Golden Seed",
         description:
           "**Location:** Behind the structure with the Somber Ancient Dragon Smithing Stone, drop below on some rocks. A corpse is hanging on one of them.\n\n**Note:** the Golden Seed doesn't appear if the other one in the middle of the blood lake has already been collected and the area has been reset, but can be claimed if the area has not been reloaded.",
@@ -28446,7 +30468,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furlcalling Finger Remedy x2",
         description: "**Location:** Pillage the corpse lying on the roof",
         latitude: "0.64689715925405",
@@ -28454,7 +30475,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furlcalling Finger Remedy",
         description:
           "**Location:** [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345) - At the top of the room, on a corpse on a wooden railing.",
@@ -28463,7 +30483,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ember of Messmer x2",
         description: "**Location:** On a corpse, in the curved hallway.",
         latitude: "0.71568058450178",
@@ -28486,7 +30505,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rune Arc",
         description:
           "**Location:** On a corpse slumped over a broken column.  \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
@@ -28495,7 +30513,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rune Arc",
         description:
           "**Location:** On the corpse in the room just west of the [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345) site of grace   \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
@@ -28513,7 +30530,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rune Arc",
         description:
           "**Location:** On a corpse, sitting on the stone ledge. From [Moorth Highway, South](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380349), head southwest and follow the edge.",
@@ -28531,7 +30547,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rune Arc",
         description:
           "**Location:** In a bench\n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
@@ -28549,7 +30564,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "3x Rune Arc",
         description:
           "**Location:** Sold by [Moore](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380751) for 8,000 Runes each.   \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
@@ -28565,7 +30579,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Demi-Human Swordsman Yosh",
         description:
           "**Location:** Dropped by [Demi-Human Swordmaster Onze](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380889) inside the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)  \n**Summoned creature(s):** Demi-Human Swordsman Yosh  \n**Cost:** 95  \n**Upgrade Material:** ??",
@@ -28574,7 +30587,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bloodfiend Hexer's Ashes",
         description:
           "**Location:** Dropped by [Chief Bloodfiend](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381006)  \n**Summoned creature(s):** Bloodfiend hexer spirit  \n**Cost:** 110 FP  \n**Upgrade Material:** ??",
@@ -28592,7 +30604,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Curseblade Meera",
         description:
           "**Location:** Dropped by [Curseblade Labirith](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381240)  \n**Summoned creature(s):** ??  \n**Cost:** 127 FP  \n**Upgrade Material:** ??",
@@ -28601,7 +30612,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Taylew the Golem Smith",
         description:
           "**Location:** Inside [Taylew's Ruined Forge](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381768) - after pulling the [Pipe Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381875), find this item in the altar at the top of the pipe on the southern platform   \n**Summoned creature(s):** Summons the spirit of Taylew the Golem Smith  \n**Cost:** 115 FP  \n**Upgrade Material:** ??",
@@ -28610,7 +30620,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Knight Commander Andreas",
         description:
           "**Location:** [Fog Rift Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381172) - if you let the black spikes come down, you can jump on top of them and get up to a new room. You'll find the ashes and a great ghost glovewort  up there  ??   \n**Summoned creature(s):** ??  \n**Cost:** ??  \n**Upgrade Material:** ??",
@@ -28619,7 +30628,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fire Knight Hilde",
         description:
           "**Location:** On a ledge jutting out from the wall at the very top of the loft area. To get to it, follow these steps:\n1. Send the elevator closest to the wall down, stepping back onto the platform so you don't descend with it.\n2. Wait for the elevator furthest from the wall to ascend, then do the same thing \u2014 sending it down and stepping back to stay on the platform.\n3. Quickly hurry over to the first elevator and jump down onto the top of the elevator as it's ascending.\n4. Carefully jump from the top of the elevator onto the ledge.",
@@ -28628,7 +30636,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Bird Warrior Ornis",
         description:
           "**Location:** Chest in a mausoleum. Reach it by going up the spiritspring to the northwest and then through a small cave.\n**FP Cost:** 131\n**Upgrade Material:** Ghost Glovewort",
@@ -28646,7 +30653,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Messmer Soldier Ashes",
         description:
           "**Location:** In front of a gravestone, on a rocky ledge. Access by jumping in the hole in [Fort of Reprimand](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381844)'s courtyard.  \n**Summoned creature(s):** Soldier of Messmer x2  \n**Cost:** 72 FP  \n**Upgrade Material:** Grave Glovewort",
@@ -28664,7 +30670,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravebird Ashes",
         description:
           "**Location:** On a corpse amidst the gravestone. Access the area through the Spiritspring Jump near the [Furnace Golem](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381946).\n**Summoned creature(s):** Gravebird Spirit\n**Cost:** 65  \n**Upgrade Material:** Grave Glovewort",
@@ -28673,7 +30678,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Man-Fly Ashes",
         description:
           "**Location:** At the altar in the [Village of Flies](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382347)  \n**Summoned creature(s):** Man-Fly x3  \n**Cost:** 29 FP  \n**Upgrade Material:** Grave Glovewort",
@@ -28682,7 +30686,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bigmouth Imp Ashes",
         description:
           "**Location:** [Darklight Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382019) - In the room with the 2nd bigmouth imp, activate the lever in the northern room to drop down the pedestal. The ashes are in a chest beyond that pedestal.  \n**Summoned creature(s):** Summons bigmouth imp spirit  \n**Cost:** 60 FP  \n**Upgrade Material:** ??",
@@ -28691,7 +30694,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spider Scorpion Ashes",
         description:
           "**Location:** On a corpse, below the hanging scorpion inside the dungeon  \n**Summoned creature(s):** Summons a Spider Scorpion Spirit  \n**Cost:** 41 FP \n**Upgrade Material:** ??",
@@ -28700,7 +30702,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Knight Captain Huw",
         description:
           "**Location:** [Scorpion River Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381982) - In the room with two spiked ceiling traps. On the alter, guarded by several knights.\n**Summoned creature(s):** Black Knight Huw\n**Cost:** 105 FP  \n**Upgrade Material:** Ghost Glovewort",
@@ -28718,7 +30719,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fingercreeper Ashes",
         description:
           "**Location:** On a corpse inside the cave with the Very Large Fingers  \n**Summoned creature(s):** Summons Fingercreeper spirit  \n**Cost:** 80 FP  \n**Upgrade Material:** ??",
@@ -28727,7 +30727,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fire Knight Queelign",
         description:
           "**Location:** Inside the [Prayer Room (Locked Door)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381765).  Give [Fire Knight Queelign](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382892) an [Iris of Grace](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381354) to receive the ashes.    \n**Summoned creature(s):** ??  \n**Cost:** ??  \n**Upgrade Material:** ??",
@@ -28745,7 +30744,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Horned Warrior Ashes",
         description:
           "**Location:** After the Spiral Rise Site of Grace jump from the stairs after the roof down on the other stairs. In the next room on a corpse .  \n**Summoned creature(s):** Summons 1 horned warrior spirit   \n**Cost:** 112 FP  \n**Upgrade Material:** ??",
@@ -28763,7 +30761,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Inquisitor Ashes",
         description:
           "**Location:** After the electric lion head and the ranged caster, turn right and go down the stairs ??  \n**Summoned creature(s):** two inquisitor spirits  \n**Cost:** 93",
@@ -28781,7 +30778,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Jol\u00e1n and Anna",
         description:
           "**Location:** from Shaman Village travel down cliffside, then interact with the puppet body of Anna at the secret top part of Rabbath's Rise while in the possession of Swordhand of Night Jol\u00e1n\n\n_(warning dont upgrade Jol\u00e1n until you have both, possibly bugged making them weaker)_\n\n**Summoned creature(s):** Summons spirits of Jol\u00e1n and Anna\n\n**Cost:** 144 FP\n\n**Upgrade Material:** ??",
@@ -28790,7 +30786,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Swordhand of Night Jol\u00e1n",
         description:
           "**Location:** Cathedral of Manus Metyr, if Iris of Grace is given to [Jol\u00e1n](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382004), after [Count Ymir's quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214).  \n**Summoned creature(s):** Summons spirit of Swordhand of Night Jol\u00e1n  \n**Cost:** 90 FP  \n**Upgrade Material:** ??",
@@ -28799,7 +30794,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ancient Dragon Florissax Ashes",
         description:
           "**Location:** Given by [Dragon Communion Priestess](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382198) at the end of Moore's questline.  \n**Summoned creature(s):** 1x Ancient Dragon Florissax  \n**Cost:** 85  \n**Upgrade Material:** ??",
@@ -28814,7 +30808,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Highland (?) Set",
         description:
           "**Location:** On a corpse, laying beside the lake's shore.  \n**Armor:**\n- Leather Crown\n- Highland Attire\n- Leather Arm Wraps\n- Leather Leg Wraps",
@@ -28823,7 +30816,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Pelt of Ralva",
         description:
           "**Location:** Dropped by [Ralva the Great Red Bear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380320)",
@@ -28832,7 +30824,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Solitude Set",
         description:
           "**Location:** Dropped by the [Blackgaol Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380578)  \n**Armor:**\n- Helm of Solitude\n- Armor of Solitude\n- Greaves of Solitude\n- Gauntlets of Solitude",
@@ -28841,7 +30832,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Beast Head",
         description:
           "**Location:** Dropped by [Divine Beast Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380798)  \n**Armor:**\n- ??",
@@ -28850,7 +30840,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravebird Armor",
         description:
           "**Location:** On the corpse on the ground in front of the stone arch",
@@ -28868,7 +30857,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravebird Bracelets",
         description: "**Location:** On the seated corpse   \n**Armor:**\n- ??",
         latitude: "0.65768817419628",
@@ -28885,7 +30873,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Oathseeker Set",
         description:
           "**Location:** On the corpse hanging over the cliff edge behind the [Church of Benediction](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381293)  \n**Armor:**\n- Oathseeker Knight Greaves\n- Oathseeker Knight Gauntlets\n- Oathseeker Knight Armor\n- Oathseeker Knight Helm",
@@ -28903,7 +30890,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Messmer Soldier Set",
         description:
           "**Location:** Randomly Dropped by the [Messmer Soldiers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381330)  \n**Armor:**\n- Messmer Soldier Greaves\n- Messmer Soldier Helm\n- Messmer Soldier Gauntlets\n- Messmer Soldier Armor",
@@ -28912,7 +30898,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Knight Armor",
         description:
           "**Location:** Randomly Dropped by the [Black Knight Archer](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381336)",
@@ -28921,7 +30906,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Common Soldier Set",
         description:
           "**Location:** Chance to drop from common soldiers  \n**Armor:**\n- Common Soldier Helm\n- Common Soldier Cloth Armor\n- Common Soldier Gauntlets\n- Common Soldier Greaves",
@@ -28930,7 +30914,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Winged Serpent Helm",
         description:
           "**Location:** [Elite Fire Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381735)",
@@ -28939,7 +30922,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Mask Helm",
         description:
           "**Location:** Dropped by [Elite Fire Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381778)  \n**Armor:**\n- ??",
@@ -28948,7 +30930,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dancing Set",
         description:
           "**Location:** Dropped by [Dancer of Ranah](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381922)  \n**Armor:**\n- Dancer's Hood\n- Dancer's Dress\n- Dancer's Bracer\n- Dancer's Trousers",
@@ -28957,7 +30938,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dane's Hat",
         description:
           "**Location:** Given by [Dryleaf Dane](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381363) upon defeating him.",
@@ -28966,7 +30946,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Iron Rivet Set",
         description:
           "**Location:** Dropped by [Red Bear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381977)  \n**Armor:**\n- [Pelt of Ralva](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380321)\n- Fang Helm\n- Iron Rivet Armor\n- Iron Rivet Gauntlets\n- Iron Rivet Greaves",
@@ -28975,7 +30954,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "High Priest Set",
         description:
           "**Location:** Dropped by [Count Ymir, High Priest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272) at the end of ??.    \n\n**Armor:**\n- High Priest Hat\n- High Priest Robe\n- High Priest Gloves\n- High Priest Undergarments",
@@ -28984,7 +30962,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rakshasa Set",
         description:
           "**Location:** Dropped by [Rakshasa](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382014)  \n**Armor:**\n- Rakshasa Helm\n- Rakshasa Armor\n- Rakshasa Gauntlets\n- Rakshasa Greaves",
@@ -28993,7 +30970,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Salza's Hood",
         description:
           "**Location:** Dropped by [Salza, Fire Knight Sage](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382027)",
@@ -29002,7 +30978,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Crucible Hammer-Helm",
         description:
           "**Location:** Dropped by [Crucible Knight Devonia](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382030)",
@@ -29011,7 +30986,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Night Set",
         description:
           '**Location:** [Bonny Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381230) - when dropping down on the "elevator" pot shortly before the boss room, stay on the pot after it went all the way down. It will lift you up higher than before and you can grab this set off a corpse on the new level.\n\n**Armor:**\n- Helm of Night\n- Armor of Night\n- Gauntlets of Night\n- Greaves of Night',
@@ -29029,7 +31003,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravebird Anklets",
         description: "**Location:** On a corpse in front of the statue.",
         latitude: "0.70535822631774",
@@ -29037,7 +31010,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Igon's Armor Set",
         description:
           "**Location:** On the ground, after defeating [Bayle the Dread](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381971)\n\n**Armor:**\n- Igon's Helm\n- Igon's Armor\n- Igon's Gauntlets\n- Igon's Loincloth",
@@ -29046,7 +31018,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Greatjar",
         description:
           "**Location:** [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867) - Just before fighting the boss, ride the jar on the right side up. The helm is at the end of the path, on top of an altar.",
@@ -29055,7 +31026,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dryleaf Set",
         description:
           "**Location:** On a corpse, at the base of the waterfall  \n**Armor:**\n- [Dane's Hat](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381931)\n- Dryleaf Robe\n- Dryleaf Arm Wraps\n- Dryleaf Cuissardes",
@@ -29073,7 +31043,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravebird's Blackquill Armor",
         description:
           "**Location:** On a corpse, up a hill path lined with bird statues (some turn into enemies).",
@@ -29091,7 +31060,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gloried Set",
         description:
           "**Location:** On a corpse near [Rugalea the Great Red Bear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381980)\n\n**Armor:**\n- Leather Headband\n- Gloried Attire\n- Leather Arm Wraps\n- Leather Leg Wraps",
@@ -29109,7 +31077,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Knight Set",
         description:
           "**Location:** [Darklight Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382019) - Down the stone elevator, after activating the lever up the wooden ladder, drop down to the staircase, and again to a very narrow stone ledge. The set is on a corpse beyond that ledge.  \n**Armor:**\n- Death Knight Helm\n- Death Knight Armor\n- Death Knight Gauntlets\n- Death Knight Greaves",
@@ -29118,7 +31085,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gaius's Greaves",
         description:
           "**Location:** Dropped from Albinauric Wolf Rider, near Albinaruic's shack.",
@@ -29127,7 +31093,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Imp Head (Lion)",
         description:
           "**Location:** On the bridge with the death-blight statue, go behind it and jump on the slamming trap, on the top you can drop off to a small platform with a corpse.",
@@ -29136,7 +31101,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravebird Helm",
         description:
           "**Location:** Above the room with the Site of Grace. You have to take the elevator down and jump off mid way through.    \n**Armor:**\n- Gravebird Helm",
@@ -29154,7 +31118,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Horned Warrior Gauntlets",
         description:
           "**Location:** Temple Town Ruins\n**Armor:** Horned Warrior Gauntlets\n_Chance to drop from any Horned Warrior_",
@@ -29163,7 +31126,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Thiollier's Set",
         description:
           "**Location** : On Thiollier's dead body near the site of grace after progressing his quest and defeating [Radahn Consort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382044).\n\n**Set** :\n- Thiollier's Mask\n- Thiollier's Garb\n- Thiollier's Gloves\n- Thiollier's Trousers",
@@ -29172,7 +31134,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "St. Trina's Blossom",
         description:
           "**Location:** In front of St. Trina after progressing her quest and defeating Radahn Consort.  \n**Armor:** Head  \n**Effect:** Slightly boost max FP",
@@ -29181,7 +31142,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ascetic's Set",
         description:
           "**Location:** Potential drop from Curseblades  \n**Armor:**  \n- Curseblade Mask\n- Ascetic's Loincloth\n- Ascetic's Wrist Guards\n- Ascetic's Ankle Guards",
@@ -29190,7 +31150,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ansbach's Set",
         description:
           "**Location:** Dropped by Ansbach during [Leda's Questline (2nd battle)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381988).  \n**Armor Set:** \n- Wise Man's Mask\n- Ansbach's Attire\n- Ansbach's Manchettes\n- Ansbach's Boots",
@@ -29199,7 +31158,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Bird Warrior Gauntlets",
         description:
           "**Location:** Dropped by [Divine Bird Warrior](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=386869)  \n**Armor:**\n- ??",
@@ -29208,7 +31166,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hornsent's Armor",
         description:
           "**Location:** Dropped by Hornsent during [Leda's Questline (1st battle)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381987)  \n**Armor:**\n- Caterpillar Mask\n- Braided Cord Robe\n- Braided Arm Wraps\n- Soiled Loincloth",
@@ -29217,7 +31174,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Circlet of Light",
         description:
           "**Location:** Found on the ground after viewing the memory that appears after defeating [Promised Consort Radahn](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382044)  \n**Armor:** Helm",
@@ -29232,7 +31188,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Shriek of Sorrow",
         description:
           "**Location:** Pillage the corpse on the backside of the tree in the circular planter   \n**Granted Affinity:** Occult  \n**Appliable to:**\n- All melee weapons",
@@ -29250,7 +31205,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Savage Lion's Claw",
         description:
           "**Location:** On the ground in the ruined camp   \n**Granted Affinity:** Savage Lion's Claw  \n**Appliable to:**\n- Swords, Axes, Hammers",
@@ -29268,7 +31222,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lost Ashes of War",
         description:
           "**Location:** On the corpse on the ground inside the maze of jars, in the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)  \n**Utility:** Used to duplicate Ashes of War",
@@ -29277,7 +31230,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lost Ashes of War",
         description: null,
         latitude: "0.67257938764038",
@@ -29285,7 +31237,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Carian Sovereignty",
         description:
           "**Location:** On a scarab, hanging from the ceiling of a small cave.  \n**Granted Affinity:** Magic  \n**Appliable to:**\n- Swords (except Colossal weapons)",
@@ -29294,7 +31245,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Wall of Sparks",
         description:
           "**Location:** On the corpse seated on the railing above the large chamber with living jars below   \n**Granted Affinity:** None  \n**Appliable to:**\n- Perfume Bottles",
@@ -29312,7 +31262,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Wing Stance",
         description:
           "**Location:** In the chest on top of the tower.  To get here, jump over the balcony directly east from the [Castle-Lord's Chamber](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381219) Site of Grace and down to the rocks below.  Follow the rocks down to the tower, then climb the stairs/ladders to the tower roof  \n**Granted Affinity:** Quality  \n**Appliable to:**\n- Light Greatswords",
@@ -29330,7 +31279,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Flame Spear",
         description:
           "**Location:** Dropped by [Elite Fire Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381735)  \n**Granted Affinity:** Flame Art  \n**Appliable to:**\n- Any thrusting weapon (except claws and backhand blades)",
@@ -29339,7 +31287,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Aspects of the Crucible: Wings",
         description:
           "**Location:** Dropped by [Black Knight Edredd](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381872)  \n**Granted Affinity:** Sacred  \n**Appliable to:**\n- Swords\n- Polearms (except Colossal weapons)",
@@ -29348,7 +31295,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Flame Skewer",
         description:
           "**Location:** Dropped by [Fire Knight Queelign](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380262) (after defeating him twice)  \n**Granted Affinity:** Flame Art  \n**Appliable to:**\n- Thursting weapons (except Colossal weapons)",
@@ -29357,7 +31303,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Ghostflame Call",
         description:
           "**Location:** Dropped by [Death Rite Bird](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381939)  \n**Granted Affinity:** Cold  \n**Appliable to:**\n- Swords\n- Spears",
@@ -29366,7 +31311,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Blinkbolt",
         description:
           "**Location:** [Fog Rift Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381172) - Starting from the room with the falling spiked ceiling, head to the raised dais on the other side (with the stone coffin). Trigger the trap, then jump in the alcove to ride the trap back up to a treasure chest.  \n**Granted Affinity:** Lightning  \n**Appliable to:**\n- All melee weapons",
@@ -29375,7 +31319,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Piercing Throw",
         description:
           "**Location:** The scarab is located between the two pillar debris guarded by three harpy.    \n**Granted Affinity:** Keen  \n**Appliable to:** Throwing Blades",
@@ -29393,7 +31336,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash Of War: Raging Beast",
         description:
           "**Location:** North-east of [Bridge Leading to Village Grace](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380462), found by killing a teleporting scarab. Kill the teleporting scarab by using ranged attacks, it teleports away when you get close to it.     \n**Granted Affinity:** Keen  \n**Appliable to:** Beast Claws",
@@ -29402,7 +31344,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: The Poison Flower Blooms Twice",
         description:
           "**Location:** Silver Scarab \n\n**Granted Affinity:** Poison\n\n**Appliable to:** All melee armaments",
@@ -29411,7 +31352,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Scattershot Throw",
         description:
           "**Location:** Dropped by a Teardrop Scarab hanging on the side of a broken pillar.    \n**Granted Affinity:** Keen  \n**Appliable to:**\n- ??",
@@ -29420,7 +31360,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Dryleaf Whirlwind",
         description:
           "**Location:** On the edge, besides a column and near a waterfall.  \n**Granted Affinity:** Standard\n**Appliable to:**\n- Hand-To-Hand Arts",
@@ -29438,7 +31377,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lost Ashes of War",
         description: "**Location:** On a corpse by the sparking enemies.",
         latitude: "0.61702861583849",
@@ -29446,7 +31384,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Rolling Sparks",
         description:
           "**Location:** Dropped by a flying scarab  \n**Granted Affinity:** None  \n**Appliable to:** \n- Perfume Bottles",
@@ -29455,7 +31392,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lost Ash of War",
         description:
           "**Location:**   On top of the wall  \n**Granted Affinity:** ??  \n**Appliable to:**\n- ??",
@@ -29473,7 +31409,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lost Ashes of War",
         description:
           "**Location:** [Bonny Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381230) - Through the southern sewer path, jump down into room with pot enemies. On the ground near one of the sewer waterfalls.\n_Used to duplicate Ashes of War_",
@@ -29491,7 +31426,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Divine Beast Frost Stomp",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380799)  \n**Granted Affinity:** Frost  \n**Appliable to:**\n- All melee",
@@ -29500,7 +31434,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ash of War: Swift Slash",
         description:
           "**Location:** Dropped by Leda during [Leda's Questline (1st battle)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381987)  \n**Granted Affinity:** Keen  \n**Appliable to:**\n- Backhand Blades",
@@ -29515,7 +31448,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Golden Arcs",
         description:
           "**Location:** In a chest, at the bottom of the ravine.  \n**Spell Type:** Inquisitors of the Tower (?)",
@@ -29524,7 +31456,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Aspects of the Crucible: Thorns",
         description:
           "**Location:** Dropped by [Golden Hippopotamus](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381323)  \n**Spell Type:** ??  \n**Effect:** Creates a mass of bristling thorns on back to scour the area",
@@ -29542,7 +31473,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Heal from Afar",
         description:
           "**Location:** On the ground in the tunnel (accessed near the [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381364)), in front of the yellow tree, guarded by three enemies   \n**Spell Type:** Erdtree  \n**Effect:** Greatly heals HP for distant allies the spell reaches",
@@ -29560,7 +31490,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fire Serpent",
         description:
           "**Location:** [Storehouse, Back Section](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381795) - At the top of the section, on a corpse on  the northern balcony.  \n**Spell Type:** Fire Knight",
@@ -29569,7 +31498,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Wrath from Afar",
         description:
           "**Location:** [Storehouse, Loft](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381804) - Up the lift, on a large gear. Access by jumping from the 2nd level of rafters.  \n**Spell Type:** Erdree",
@@ -29578,7 +31506,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Roar of Rugalea",
         description:
           "**Location:** Dropped by [Rugalea the Great Red Bear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381980)  \n**Spell Type:** Bestial",
@@ -29587,7 +31514,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rain of Fire",
         description:
           "**Location:** Dropped by [Salza, Fire Knight Sage](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382027)  \n**Spell Type:** Messmer Fire",
@@ -29596,7 +31522,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Beast Tornado",
         description:
           "**Location:** Dropped by [Divine Beast Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382038)  \n**Spell Type:** Unique (?)\n\nSummons a storm that launches a tornado forward",
@@ -29605,7 +31530,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Watchful Spirit",
         description:
           "**Location:** Given from [Hornsent Grandam](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380811) if you come back and speak to her again while wearing the helmet you receive after defeating [Divine Beast: Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380798)  \n**Spell Type:** Incantation\n\nSummons a guardian spirit above the caster's head. Requires FAI 26",
@@ -29614,7 +31538,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Electrocharge",
         description:
           "**Location:** Inside the [Fog Rift Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381172) - located at the drop off safe point on the left from the impaling ceiling before the mage with 4 imps",
@@ -29623,7 +31546,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Multilayered Ring of Light",
         description:
           "**Location:** Just up the hill from[Fissure Waypoint](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381958), past some skeletons and slimes, acquired after killing the ghostly Misbegotten Warrior.\n\n**Spell Type:** Golden Order",
@@ -29632,7 +31554,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Aspect of the Crucible: Bloom",
         description:
           "**Location:** Protected by a Miranda Flower at the base of the tower. Reached with an elevator from the Rauh Ancient Ruins, West grace. Go straight down the stairs past the two Horned Warriors to an area with Bloodfiends and Rotten Dogs, guarding an elevator down to the item.\n\n**Spell Type:** Erdtree",
@@ -29641,7 +31562,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Minor Erdtree",
         description:
           "**Location:** Entrance to Shaman village, in front of small Erdtree  \n**Spell Type:** Erdtree  \n**Effect:** Continuously heals allies in the area",
@@ -29659,7 +31579,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Giant Golden Arc",
         description:
           "**Location:** Inside the [Ruins of Unte](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382011), in a chest.  \n**Spell Type:** Inquisitors of the Tower",
@@ -29668,7 +31587,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Bird Feathers",
         description:
           "**Location:** On the corpse in the middle of the lake.  \n**Spell Type:** Divine Bird Warriors",
@@ -29677,7 +31595,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Pest-Thread Spears",
         description:
           "**Location:** From [Church of the Bud, Main Entrance](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382062), head north, down the stairs and to the left left. The spell is on a corpse.\n**Spell Type:** Saint of the Bud",
@@ -29695,7 +31612,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Knight's Lightning Spear",
         description:
           "**Location:** [Scorpion River Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381982) - Up the wooden ladder in the spiked ceiling room, beyond the blight statues. Follow the stone ledge to the north-east; the spell is on a corpse, sitting against the far wall.  \n**Spell Type:** Dragon Cult",
@@ -29704,7 +31620,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bayle's Tyranny",
         description:
           "**Location:** Dragon Communion Altar after defeating [Bayle the Dread](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381971)",
@@ -29713,7 +31628,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghostflame Breath",
         description:
           "**Location:** Dragon Communion Altar  \n**Spell Type:** ??",
@@ -29722,7 +31636,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spira",
         description:
           'On altar, drop down to golden tree and climb across the branch, drop down onto platform with one enemy front of altar\n\n"Summons a spiral of light that erupts at the enemy\'s feet"',
@@ -29740,7 +31653,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bayle's Flame Lightning",
         description:
           "**Location:** Dragon Communion Altar after defeating [Bayle the Dread](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381971)",
@@ -29749,7 +31661,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furious Blade of Ansbach",
         description:
           "**Location:** Follow Ansbach's questline and summon him once for the fight with Promised Consort Radahn.   \n**Spell Type:** Blood Flame incantation  \n\nFai 19 Arc 27",
@@ -29758,7 +31669,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rotten Butterflies",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Saint of the Bud](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382043)  \n**Spell Type:** Romina",
@@ -29767,7 +31677,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Land of Shadow",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Shadow Sunflower](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381993)  \n**Spell Type:** Scardutree",
@@ -29776,7 +31685,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Messmer's Orb",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Impaler](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381742)  \n**Spell Type:** Messmer",
@@ -29785,7 +31693,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Midra's Flame of Frenzy",
         description:
           "**Location:** Traded to Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Lord of Frenzied Flame](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382026)  \n**Spell Type:** Frenzied Flame",
@@ -29794,7 +31701,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Light of Miquella",
         description:
           "**Location:** Traded to Finger Reader Enia in the Roundtable Hold for the [Remembrance of a God and a Lord](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382045)  \n**Spell Type:** Miquella",
@@ -29803,7 +31709,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dragonbolt of Florissax",
         description:
           "**Location:** Given by [Dragon Communion Priestess](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382198) at the end of Moore's questline.  \n**Spell Type:** Dragon",
@@ -29818,7 +31723,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Steel Greatshield",
         description:
           "**Location:** Dropped by [Black Knight Garrew](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381539)  \n**Type:** Greatshield   \n**Skill:** Shield Bash",
@@ -29827,7 +31731,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Wolf Crest Shield",
         description:
           "**Location:** In front of the blue flames in the chest, in the side room down the path. Located directly after dropping down from [Glintblade Trio](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381380).\n\n**Type:** Medium Shield   \n**Skill:** None",
@@ -29845,7 +31748,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dueling Shield",
         description:
           "**Location:** [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345) - At the top of the room, in an alcove. Jump on the struts from the wooden railings to access.  \n**Type:** Thrusting Shield  \n**Skill:** Shield Strike",
@@ -29854,7 +31756,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Carian Thrusting Shield",
         description:
           "**Location:** [Storehouse, Back Section](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381795) - At the end of the hallway  \n**Type:** Thrusting Shield  \n**Skill:** Shield Strike",
@@ -29863,7 +31764,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithscript Shield",
         description:
           "**Location:** Inside [Taylew's Ruined Forge](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381768) - to the south at the top of the pipe, in the room with the magma blob throwing golem  \n**Type:** Small Shield  \n**Skill:** Strike",
@@ -29881,7 +31781,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Serpent Crest Shield",
         description:
           '**Location:** Reward for finding the ["Incursion" Painting](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381299) location (you must find the painting first)     \n**Type:** Medium Shield - Strike   \n**Skill:** None',
@@ -29890,7 +31789,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Shield of Night",
         description:
           "**Location:** Near [Armor of the Night](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382212) - guarded by a pot blob",
@@ -29899,7 +31797,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Verdigris Greatshield",
         description:
           "**Location:** Moore's corpse after beating Leda and her allies.\n\n**Type:** Greatshield\n\n**Skill:** Moore's Charge",
@@ -29908,7 +31805,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Golden Lion Shield",
         description:
           "**Location:** Given by Freyja after handing her the Letter from Sir Ansbach  \n**Type:** Medium Shield  \n**Unique Skill:** Roaring Bash - Roar like a golden lion and deliver a shield bash from a guarding position. Knocks back and staggers foes over a wide radius",
@@ -29923,7 +31819,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Miriam's Vanishing",
         description:
           "**Location:** Sold by [Ymir](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272) for 10,000 Runes  \n**Spell Type:** Carian",
@@ -29932,7 +31827,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Glintblade Trio",
         description:
           "**Location:** On the corpse hanging over the ledge.  To get here take the [Cliffside Path](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381378) up to the chapel roof, then drop off the ledge on the west side to the corpse below   \n**Spell Type:** Carian  \n**Effect:** Creates a sigil that forms three projectile glintblades after delay",
@@ -29957,7 +31851,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Mantle of Thorns",
         description:
           "**Location:** Dropped by the [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381824)  \n**Spell Type:** Scadutree",
@@ -29966,7 +31859,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gravitational Missile",
         description:
           "**Location:** Dropped by [Fallingstar Beast](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382000)  \n**Spell Type:** Gravity",
@@ -29975,7 +31867,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Glintstone Nail",
         description:
           "**Location:** Sold by [Count Ymir](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272) after sounding the first bell in [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214)  \n**Spell Type:** Finger",
@@ -29984,7 +31875,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Mass of Putrescence",
         description:
           "**Location:** Just north of the Fissure Waypoint site of Grace, jump down some rocks before the skeletons and it'll be resting right next to a stone pillar on the other side of the bridge.\n\n**Spell Type:** Death",
@@ -30002,7 +31892,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rings of Spectral Light",
         description:
           "**Location:** In front of the giant bird statue.  Ascend via the hill to the east of the [Charo's Hidden Grave](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382051) grace.  \n**Spell Type:** Death",
@@ -30020,7 +31909,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fleeting Microcosm",
         description:
           "**Location:** Sold by [Count Ymir, High Priest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272) after sounding the 2nd bell in [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214)\n**Spell Type:** Finger",
@@ -30029,7 +31917,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Cherishing Fingers",
         description:
           "**Location:** Infront of one of the graves. Appears after completing [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214)  \n**Spell Type:** Finger",
@@ -30047,7 +31934,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Impenetrable Thorns",
         description:
           "**Location:** [Storehouse, Seventh Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381732) - On the elevated walkway, accessible by the specimens after activating the Specimen Lever, once you scale the Specimen walk out to the balcony and drop down to the ledge with the bat below.  \n**Spell Type:** Thorn Sorcery",
@@ -30065,7 +31951,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Glintstone Nails",
         description:
           "**Location:** Sold by [Count Ymir](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272) after sounding the first bell in [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214)  \n**Spell Type:** Finger\n\n**Note:** This is a different spell from [Glintstone Nail](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382215)",
@@ -30074,7 +31959,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rellena's Twin Moons",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Twin Moon Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380246)  \n**Spell Type:** Rellena",
@@ -30083,7 +31967,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Vortex of Putrescence",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of Putrescence](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381962)  \n**Spell Type:** Putrescent Knight",
@@ -30092,7 +31975,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Blades of Stone",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Wild Boar Rider](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381990)  \n**Spell Type:** Gravity",
@@ -30107,7 +31989,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Crusade Insignia",
         description:
           "**Location:** Dropped by [Fire Knight Queelign](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380262), if killed for the first time.",
@@ -30116,7 +31997,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithing Talisman",
         description:
           "**Location:** [Ruined Forge of Starfall Past](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380333) - At the end of the path above the ladder, on a corpse at the end of the room.",
@@ -30134,7 +32014,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Blade of Mercy",
         description:
           "**Location:** In a chest, behind a door, inside the highest tower of [Scorched Ruins](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380512) that's draped in fabric  \n**Effect:** Raises attack power after each critical hit",
@@ -30152,7 +32031,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Crusade Insignia",
         description:
           "**Location:** Dropped by [Fire Knight Queelign](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380812) the first time you kill them  \n**Effect:** Raises attack power after defeating an enemy",
@@ -30161,7 +32039,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Immunizing Horn Charm +2",
         description:
           "**Location:** Dropped by [Ulcerated Tree Spirit](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380833)",
@@ -30170,7 +32047,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ailment Talisman",
         description:
           "**Location:** On the corpse at the end of the wooden platform  \n**Effect**: Raises resistance to the last ailment suffered",
@@ -30188,7 +32064,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Two-Headed Turtle Talisman",
         description:
           "**Location:** On the corpse inside the cave behind the waterfall below, guarded by three spectral worms  \n**Effect:** Greatly raises stamina recovery speed",
@@ -30206,7 +32081,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spelldrake Talisman +3",
         description:
           "**Location:** Inside the castle building on the bottom level. Starting from [Castel Front](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380904), take the ramp down from the west, under the main castle bridge, then jump across the gap to access the building   \n**Effect:** Boosts magic damage negation by the utmost",
@@ -30224,7 +32098,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rellana's Cameo",
         description:
           "**Location:** On the altar in front of the [Ghost](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381212)  \n**Effect:** Enhances attacks executed after maintaining the same stance for a while",
@@ -30242,7 +32115,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Stalwart Horn Charm +2",
         description:
           "**Location:** [Bonny Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381230) - On a corpse, in a raised room on the first level. To access. jump down the sewers and take the ladder at the end of the northern path.  \n**Effect:** Vastly raises robustness",
@@ -30251,7 +32123,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Blessed Blue Dew Talisman",
         description:
           "**Location:** At the base of the headless statue in the [Church of Benediction](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381293)  \n**Effect:** Slowly restores FP",
@@ -30269,7 +32140,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Outer God Heirloom",
         description:
           "**Location:** In the chest inside the tower entrance   \n**Effect:** Raises arcane",
@@ -30287,7 +32157,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Arrow's Soaring Sting Talisman",
         description:
           "**Location:** On top of the tallest tower in the [Fog Rift Fort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381507).  First find your way inside the fort, then drop down the cliff via the small gap east of the building with the [Black Knight Garrew](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381539) and climb to the top of the tower   \n**Effect:** Increases the effective range of bows and raises attack power of arrows and bolts",
@@ -30296,7 +32165,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Pearldrake Talisman +3",
         description:
           "**Location:** [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345) - On the 3rd floor, hanging from the face of the crucified specimen. Only accessible after pulling the [Specimen Level](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381729)  \n**Effect:** Boosts non-physical damage negation to the upmost.",
@@ -30305,7 +32173,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Boltdrake Talisman +3",
         description:
           "**Location:** On a corpse, sitting against a wooden wall. To access, take the [Elevator](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381793) from the Church District, then jump down.  \n**Effect:** Boosts lightning damage negation by the upmost.",
@@ -30314,7 +32181,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Flamedrake Talisman +3",
         description:
           "**Location:** In the basement, in a treasure chest. Before taking the stairs up to the ramparts, jump over the knocked down cages.  \n**Effect:** Boosts fire damage negation by the upmost.",
@@ -30332,7 +32198,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Pearl Shield Talisman",
         description:
           "**Location:** In the chest at the Mesmer soldier camp   \n**Effect:** Boosts all non-physical damage negation while guarding",
@@ -30350,7 +32215,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Crimson Amber Medallion +3",
         description:
           "**Location:** Dropped by [Death Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381925)  \n**Effect:** Raises maximum HP to the utmost.",
@@ -30359,7 +32223,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "St. Trina's Smile",
         description:
           "**Location:** Dropped by [Thiollier (Garden of Deep Purple)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381963).  \n**Effect:** Sleep in the vicinity increases attack power",
@@ -30368,7 +32231,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Cerulean Amber Medallion +3",
         description:
           "**Location:** Dropped by [Death Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381984)  \n**Effect:** Boost maximum FP by the upmost.",
@@ -30377,7 +32239,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Talisman of Lord's Bestowal",
         description:
           "**Location:** In front of the giant golden tree  \n**Effect:** Increases poise after using a flask of tears",
@@ -30386,7 +32247,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Shattered Stone Talisman",
         description:
           "**Location:** In a broken down tower, top the left on a corpse atop some rubble  \n**Effect:** Raises potency of kicking and stomping skills",
@@ -30404,7 +32264,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Talisman of the Dread",
         description:
           "**Location:** At the [Elder's Hovel](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382232), beside the ghost out back.  \n**Effect:** Raises potency of magma",
@@ -30422,7 +32281,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dried Bouquet Talisman",
         description:
           "**Location:** Just past the Scadutree Fragment in a small pavilion outside (when coming from Miquella's Cross - turn left)  \n**Effect:** Raises attack power after summon dies.",
@@ -30440,7 +32298,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Cerulean Seed Talisman +1",
         description:
           "**Location:** Sound the bell as part of [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214)  \n**Effect:** Greatly boosts FP restoration from the Flask of Cerulean Tears",
@@ -30449,7 +32306,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fine Crucible Feather Talisman",
         description:
           "**Location:** Inside the dungeon with flies, going up the ramp from the 2 spiritsprings  \n**Effect:** Improves Backsteps but increases damage taken",
@@ -30467,7 +32323,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Clarifying Horn Charm +2",
         description:
           "**Location:** [Lamenter's Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381949) - At the end of the rat-infested tunnels.  \n**Effect:** Vastly raises focus.",
@@ -30485,7 +32340,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Two-Handed Sword Talisman",
         description:
           "**Location:** Top floor of the ruins, in a chest.  \n**Effect:** Enhances attacks with two-handed weapons",
@@ -30503,7 +32357,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sharpshot Talisman",
         description:
           "**Location:** In the shack  \n**Effect:** Boosts attack power of precision-aimed shots",
@@ -30512,7 +32365,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Golden Braid",
         description:
           "**Location:** Found inside the trunk of a tree on a corpse     \n**Effect:** Boosts holy damage negation by the utmost",
@@ -30530,7 +32382,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Mottled Necklace +2",
         description:
           "**Location:** At the top of the ruins. Use the nearby Spiritspring Jumps to access.  \n**Effect:** Vastly raises immunity, robustness, and focus.",
@@ -30539,7 +32390,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Verdigris Discus",
         description:
           "**Location:** In a chest, behind a waterfall. Accessible through [Portal to Ancient Ruins of Ruah](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381311)  \n**Effect:** Raises defense with higher equipment load.",
@@ -30557,7 +32407,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Crimson Seed Talisman +1",
         description:
           "**Location:** Sound the bell as part of [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214).  \n**Effect:** Greatly boosts HP restoration from the Flask of Crimson Tears",
@@ -30566,7 +32415,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Aged One's Exultation",
         description:
           "**Location:** Obtained by killing a Winter Latern, you cannot damage them unless you parry them beforehand  \n**Effect:** Madness in the vicinity increases attack power",
@@ -30575,7 +32423,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Viridian Amber Medallion +3",
         description:
           "**Location:** [Darklight Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382019) - After flipping the lever to activate the torches, jump over the railing and circle the edge to find a hidden chest.  \n**Effect:** Boosts maximum stamina by the utmost.",
@@ -30584,7 +32431,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Talisman of All Crucibles",
         description:
           "**Location:** From the elevator on the lowest level, jump through the tops of the pillars on the south side and enter the building.  \n**Effect:** Grants effects of all crucible talismans",
@@ -30593,7 +32439,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Beloved Stardust",
         description:
           "**Location:** Given by Count Ymir during [his quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214).\n\n**Effect:** Shortens casting speed for sorcery and incantations by the utmost, but increases damage taken.",
@@ -30602,7 +32447,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Retaliatory Crossed-Tree Talisman",
         description:
           "**Location:** Reward from [Needle Knight Leda](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380252) after progressing [her questine](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=387453).  \n**Effect:** Enhances attacks executed after rolling or backstepping",
@@ -30611,7 +32455,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lacerating Crossed-Tree",
         description:
           "**Location:** Reward from [Needle Knight Leda](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380252) after progressing [her questine](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=387453).  \n**Effect:** Enhances dash attacks.",
@@ -30620,7 +32463,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Enraged Divine Beast",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380799)  \n**Effect:** Raises potency of storms",
@@ -30635,7 +32477,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Steel Twinblade",
         description:
           "**Location:** Dropped by [Black Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380280)  \n**Type:** Twinblade  \n**Weapon Skill:** Spinning Slash",
@@ -30653,7 +32494,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithscript Spear",
         description:
           "**Location:** [Ruined Forge of Starfall Past](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380333) - In the first room, beyond the bridge, on a corpse on the right.  \n**Type:** Spear  \n**Weapon Skill:** Impaling Thrust",
@@ -30671,7 +32511,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithscript Cirque",
         description:
           "**Location:** [Ruined Forge of Starfall Past](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380333) - In the 3rd room, on a corpse. To access, follow the path up the ladder then back down to the higher ledges to open the level.  \n**Type:** Backhand Blade  \n**Weapon Skill:** Blind Spot",
@@ -30689,7 +32528,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Repeating Crossbow",
         description:
           "**Location:** On a corpse, beside a broken barricade.  \n**Type:** Crossbow  \n**Weapon Skill:** Repeating Fire",
@@ -30707,7 +32545,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Greatsword of Solitude",
         description:
           "**Location:** Dropped from the [Blackgaol Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380578)  \n**Type:** Greatsword  \n**Weapon Skill:** Solitary Moon Slash",
@@ -30725,7 +32562,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Backhand Blade",
         description:
           "**Location:** On the ground in front of the sarcophagus   \n**Type:** Backhand Blade  \n**Weapon Skill:** Blind Spot",
@@ -30743,7 +32579,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bone Bow",
         description:
           "**Location:** On the corpse in the circular room guarded by the giant poisonous spider-scorpion   \n**Type:** Light Bow  \n**Weapon Skill:** Rancor Shot",
@@ -30761,7 +32596,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Horned Warrior's Sword",
         description:
           "**Location:** Dropped by the [Horned Warrior](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380829)  \n**Type:** Curved Sword  \n**Weapon Skill:** Horn Calling",
@@ -30779,7 +32613,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Poisoned Hand",
         description:
           "**Location:** Pillage the corpse slumped over in the poison   \n**Type:** Fist  \n**Weapon Skill:** Poison Spear-Hand Strike",
@@ -30797,7 +32630,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Great Katana",
         description:
           "**Location:** On the corpse in the water just in front of the [Ghostflame Dragon](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380856)     \n**Type:** Great Katana  \n**Weapon Skill:** Overhead Stance",
@@ -30815,7 +32647,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Firespark Perfume Bottle",
         description: "**Location:** Inside the chest",
         latitude: "0.67443124608616",
@@ -30832,7 +32663,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spread Crossbow",
         description:
           "**Location:** On the corpse in the ruined camp, guarded by three footsoldiers   \n**Type:** Crossbow  \n**Weapon Skill:** Kick",
@@ -30850,7 +32680,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithscript Dagger",
         description:
           "**Location:** Inside the [Ruined Forge Lava Intake](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380915), on the corpse on the platform with the fourth stone golem, above the lava lake  \n**Type:** Throwing Dagger  \n**Weapon Skill:** Piercing Throw",
@@ -30868,7 +32697,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Anvil Hammer",
         description:
           "**Location:** Inside the [Ruined Forge Lava Intake](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380915) - examine the altar after ascending the pipe to the uppermost room  \n**Type:** Colossal Weapon  \n**Weapon Skill:** Smithing Art Spears",
@@ -30886,7 +32714,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Swift Spear",
         description:
           "**Location:** On the corpse in the road   \n**Type:** Spear   \n**Weapon Skill:** Impaling Thrust",
@@ -30904,7 +32731,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dragon-Hunter's Great Katana",
         description:
           "**Location:** Dropped by [Ancient Dragon-Man](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381039)  \n**Type:** Great Katana  \n**Weapon Skill:** Dragonwound Slash",
@@ -30922,7 +32748,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Milady",
         description:
           "**Location:** In the chest in the tower   \n**Type:** Light Greatsword  \n**Weapon Skill:** Impaling Thrust",
@@ -30940,7 +32765,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Moonrithyll's Knight Sword",
         description:
           "**Location:** Dropped by [Moonrithyll, Carian Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381210)  \n**Type:** Colossal Sword  \n**Weapon Skill:** Tremendous Phalanx",
@@ -30958,7 +32782,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bonny Butchering Knife",
         description:
           "**Location:** On a corpse, against a pillar of the burned-down house.  \n**Type:** Greataxe  \n**Weapon Skill:** Hone Edge",
@@ -30976,7 +32799,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Tooth Whip",
         description:
           "**Location:** On a corpse in the corner of the [Whipping Hut](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381250)  \n**Type:** Whip  \n**Weapon Skill:** Strike",
@@ -30994,7 +32816,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rabbath's Cannon",
         description:
           "**Location:** At the top of [Rabbath's Rise](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381257); use the [Sealed Spiritspring Jump](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381258) to access\u00e9  \n**Type:** Ballista  \n**Weapon Skill:** Kick",
@@ -31003,7 +32824,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Pata",
         description:
           "**Location:** On the corpse hanging over the cliff edge behind the [Church of Benediction](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381293)  \n**Type:** Fist  \n**Weapon Skill:** Impaling Thrust",
@@ -31021,7 +32841,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bloodfiend's Arm",
         description:
           "**Location:** Dropped by the [Bloodfiends](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381308)   \n**Type:** Colossal Weapon  \n**Weapon Skill:** Endure",
@@ -31039,7 +32858,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Carian Sorcery Sword",
         description:
           "**Location:** In the chest on the castle roof.  To get here first gain access to the [Highroad Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380251) site of grace, then head southwest and drop down to the roof just west of the waterfall   \n**Type:** Thrusting Sword  \n**Weapon Skill:** Impaling Thrust",
@@ -31064,7 +32882,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Messmer Soldier's Axe",
         description:
           "**Location:** Randomly Dropped by the [Messmer Soldiers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381330)  \n**Type:** Axe  \n**Weapon Skill:** War Cry",
@@ -31082,7 +32899,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Main-gauche",
         description:
           "**Location:** On the corpse in the upper room, guarded by two soldiers and a black knight   \n**Type:** Dagger  \n**Weapon Skill:** Parry",
@@ -31100,7 +32916,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Beast Claw",
         description:
           "**Location:** Dropped by [Logur, the Beast Claw](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381373)  \n**Type:** Beast Claw  \n**Weapon Skill:** Savage Claws",
@@ -31118,7 +32933,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Serpent Flail",
         description:
           "**Location:** In the chest on the ground under the tattered canopy inside [Fog Rift Fort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381507)  \n**Type:** Flail  \n**Weapon Skill:** Flare, O Serpent",
@@ -31127,7 +32941,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fire Knight's Seal",
         description:
           "**Location:** On a corpse behind the main statue; requires opening [The Dam Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381776)  \n**Type:** Sacred Seal  \n**Weapon Skill:** Strike",
@@ -31145,7 +32958,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithscript Axe",
         description:
           "**Location:** Inside [Taylew's Ruined Forge](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381768) - in the room beyond the collapsed floor with the golem   \n**Type:** Axe  \n**Weapon Skill:** Wild Strikes",
@@ -31163,7 +32975,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Smithscript Greathammer",
         description:
           "**Location:** Inside [Taylew's Ruined Forge](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381768) - on the corpse on the opposite platform over the lava lake   \n**Type:** ??  \n**Weapon Skill:** ??",
@@ -31181,7 +32992,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Star-Lined Sword",
         description:
           "**Location:** Dropped by [Demi-Human Queen Marigga](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381919)  \n**Type:** Katana  \n**Weapon Skill:** Once's Line of Stars",
@@ -31199,7 +33009,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dancing Blade of Ranah",
         description:
           "**Location:** Dropped by [Dancer of Ranah](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381922)  \n**Type:** Curved Sword  \n**Weapon Skill:** Unending Dance",
@@ -31217,7 +33026,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Knight's Twin Axes",
         description:
           "**Location:** Dropped by [Death Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381925)  \n**Type:** Axe  \n**Weapon Skill:** Blinkbolt: Twinaxe",
@@ -31235,7 +33043,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dryleaf Arts",
         description:
           '**Location:** Given by [Dryleaf Dane](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381363) upon defeating him (use the "May the Best Win" emote in front of him to initiate combat).  \n**Type:** Hand-to-Hand Arts  \n**Weapon Skill:** Palm Blast',
@@ -31253,7 +33060,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Claws of Night",
         description:
           "**Location:** Dropped by [Swordhand of Night Anna](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381974)  \n**Type:** Beast Claw  \n**Weapon Skill:** Scattershot Throw",
@@ -31262,7 +33068,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Red Bear's Claw",
         description:
           "**Location:** Dropped by [Red Bear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381977)  \n**Type:** Beast Claw  \n**Weapon Skill:** Red Bear Hunt",
@@ -31271,7 +33076,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Knight's Longhaft Axe",
         description:
           "**Location:** Dropped by [Death Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381984)  \n**Type:** Greataxe  \n**Weapon Skill:** Blinkbolt: Long-hafted Axe",
@@ -31280,7 +33084,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Maternal Staff",
         description:
           "**Location:** Dropped by [Count Ymir, High Priest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272) at the end of ??.  \n**Type:** Glintstone Staff  \n**Weapon Skill:** None",
@@ -31289,7 +33092,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rakshasa's Great Katana",
         description:
           "**Location:** Dropped by [Rakshasa](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382014)  \n**Type:** Great Katana  \n**Weapon Skill:** Weed Cutter",
@@ -31298,7 +33100,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Barbed Staff-Spear",
         description:
           "**Location:** Dropped by [Jori, Elder Inquisitor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382021)  \n**Type:** Great Spear  \n**Weapon Skill:** Jori's Inquisition",
@@ -31316,7 +33117,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Madding Hand",
         description:
           "**Location:** Dropped by [Madding Hand](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382023)  \n**Type:** Fist  \n**Weapon Skill:** Madding Spear-Hand Strike",
@@ -31334,7 +33134,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Devonia's Hammer",
         description:
           "**Location:** Dropped by [Crucible Knight Devonia](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382030)  \n**Type:** Colossal Weapon  \n**Weapon Skill:** Devonia's Vortex",
@@ -31343,7 +33142,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Stone-Sheathed Sword",
         description:
           "**Location:** [Fog Rift Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381172) - From the [Ash of War: Blinkbolt](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382154), turn around and walk across the spiked ceiling to an alcove on the right. The weapon sits on a stone altar.  \n**Type:** Straight Sword  \n**Weapon Skill:** Square Off\n\n**Note:** This weapon can be upgraded to either the [Sword of Darkness](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382161) or the [Sword of Light](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382518). You may change freely between the two versions by returning to their respective altars.",
@@ -31361,7 +33159,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sword of Darkness",
         description:
           "**Location:** Inside the [Ruins of Unte](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382011)  \n**Type:** Straight Sword  \n**Weapon Skill:** Darkness\n\n**Note:** This location is an altar that upgrades the [Stone-Sheathed Sword](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382155) to the Sword of Darkness. If you find this location first, then the Stone-Sheathed Sword and Sword of Darkness locations will swap. If you obtain the [Sword of Light](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382518), you may return here to turn it back into the Sword of Darkness.",
@@ -31379,7 +33176,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Steel Greathammer",
         description:
           "**Location:** Drops from [Black Steel Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380449)  \n**Type:** Greathammer  \n**Weapon Skill:** Endure",
@@ -31388,7 +33184,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ancient Meteoric Ore Greatsword",
         description:
           "**Location:** [Ruined Forge of Starfall Past](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380333). Interact with the forge to get the weapon.  \n**Type:** Colossal Weapon  \n**Weapon Skill:** White Light Charge",
@@ -31406,7 +33201,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lightning Perfume Bottle",
         description:
           "**Location:** On a corpse in the water, guarded by a lightning ram    \n**Type:** Perfume Bottle    \n**Weapon Skill:** Kick",
@@ -31415,7 +33209,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spirit Sword",
         description:
           "**Location:** Northeast of [Cerulean Coast West](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382047), in front of a gravestone.\n**Type:** Curved Sword  \n**Weapon Skill:** Rancor Slash",
@@ -31433,7 +33226,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spirit Glaive",
         description:
           "**Location:** On a corpse, sitting against a gravestone.  \n**Type:** Halberd  \n**Weapon Skill:** Rancor Slash",
@@ -31451,7 +33243,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dryleaf Seal",
         description:
           "**Location:** On the cliffs below the stone birds.  \n**Type:** Sacred Seal  \n**Weapon Skill:** No Skill",
@@ -31469,7 +33260,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Nanaya's Torch",
         description:
           "**Location:** On the corpse sitting in the chair, on the wooden balcony.  \n**Type:** Torch  \n**Weapon Skill:** Feeble Lord's Frenzied Flame",
@@ -31478,7 +33268,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sword of Light",
         description:
           "**Location:** In the center of the shrine. Access by walking across the [Invisible Bridge](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382596).\n**Type:** Straight Sword  \n**Weapon Skill:** Light\n\n**Note:** This location is an altar that upgrades the [Stone-Sheathed Sword](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382155) to the Sword of Light. If you find this location first, then the Stone-Sheathed Sword and Sword of Light locations will swap. If you obtain the [Sword of Darkness](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382161), you may return here to turn it back into the Sword of Darkness.",
@@ -31496,7 +33285,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Chilling Perfume Bottle",
         description:
           "**Location:** [Lamenter's Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381949) - Down the ladder beyond the locked door, in a cell filled with Living Jars  \n**Type:** Perfume Bottle  \n**Weapon Skill:** Kick",
@@ -31505,7 +33293,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lamenting Visage",
         description:
           "**Location:** [Lamenter's Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381949) - On the lower level of the dungeon, behind the locked door.  After falling down the collapsing floor, follow the stairs halfway up, go down the hallway and there will be an illusory wall with the locked door behind it.\n**Type:** Torch  \n**Weapon Skill:** Blindfold of Happiness",
@@ -31514,7 +33301,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spiraltree Seal",
         description:
           '**Location:** South of the Northern Nameless Mausoleum, reward for ["The Sacred Tower" Painting](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380733). \n**Type:** Seal  \n**Weapon Skill:** No skill\n\n**Note:** Requires the removal of the "shadow" before the painter appears (late game)',
@@ -31532,7 +33318,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Deadly Poison Perfume Bottle",
         description:
           "**Location:** Sold by [Thiollier](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381018) for 6,000 Runes.  \n**Type:** Perfume Bottle  \n**Weapon Skill:** Deadly Poison Spray",
@@ -31541,7 +33326,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Frenzyflame Perfume Bottle",
         description:
           "**Location:** [Church Ruins](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382080) - Behind a pillar.  \n**Type:** Perfume Bottle  \n**Weapon Skill:** Kick",
@@ -31559,7 +33343,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Velvet Sword of St. Trina",
         description:
           "**Location:** From [Fissure Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381956), walk northwest to the tilted brick platform. Climb down to a ledge that passes underneath the brick platform; the sword is in a small cave network there and guarded by several putrescent oozes.  \n**Type:** Straight Sword  \n**Weapon Skill:** Mists of Eternal Sleep",
@@ -31568,7 +33351,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Flowerstone Gavel",
         description:
           "**Location:** On the ground, after defeating [Bayle the Dread](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381971)  \n**Type:** Hammer  \n**Weapon Skill:** Flowerstone Bolt",
@@ -31577,7 +33359,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Igon's Greatbow",
         description:
           "**Location:** On the ground, after defeating [Bayle the Dread](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381971)  \n**Type:** Greatbow  \n**Weapon Skill:** Igon's Drake Hunt",
@@ -31586,7 +33367,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lizard Greatsword",
         description:
           "**Location:** Fog Rift Catacombs - Random drop from imps  \n**Type:** Greatsword  \n**Weapon Skill:** Stamp (Upward Cut)",
@@ -31595,7 +33375,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Forked-Tongue Hatchet",
         description:
           '**Location:** Fog Rift Catacombs - Random drop from "Flower Statues"  \n**Type:** Axe  \n**Weapon Skill:** Dragonform Flame',
@@ -31613,7 +33392,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bloodfiend's Sacred Spear",
         description:
           "**Location:** Pond north of [Ancient Ruins Base](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381371). Drops from Bloodfiend with large spear, casting blood spells.  \n**Type:** Great Spear  \n**Weapon Skill:** Bloodfiends' Bloodboon",
@@ -31631,7 +33409,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sword of Night",
         description:
           "**Location:** Give [Jol\u00e1n, Swordhand of Night](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382004) and Iris of Occultation after defeating as part of [Count Ymir's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382214).  \n**Type:** Katana  \n**Weapon Skill:** Witching Hour Slash",
@@ -31640,7 +33417,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Queelign's Greatsword",
         description:
           "**Location:** In the [prayer room](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381765). Give an [Iris of Occultation](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381817) to [Queelign](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382892).  \n**Type:** Heavy Thrusting Sword  \n**Weapon Skill:** Impaling Thrust",
@@ -31658,7 +33434,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Euporia",
         description:
           "**Location:** At the end of a platforming puzzle.  Enter the settlement from Enir-Ilim north of the location, starting at the Spiral Rise site of grace.  \n**Type:** Twinblade  \n**Weapon Skill:** Euporia Vortex - Using the power of the vortex, violently twirl the armament, dealing multiple slashes directly ahead. The greater the restored luster of blades, the greater the power of this skill. However, use of this skill will fully consume the blades' luster. Luster is restored passively through damaging foes.",
@@ -31676,7 +33451,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Thiollier's Hidden Needle",
         description:
           "**Location:** On Thiollier's dead body near the site of grace after progressing his quest and defeating Radahn Consort.  \n**Type:** Fist  \n**Weapon Skill:** Sleep Evermore",
@@ -31685,7 +33459,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Golem Fist",
         description:
           "**Location:** [Taylew's Ruined Forge](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381768) - potential drop from the golems with stone projectile attacks    \n**Type:** Fist \n**Weapon Skill:** Endure",
@@ -31694,7 +33467,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Horned Warrior's Greatsword",
         description:
           "**Location:** Dropped by the Horned Warrior  \n**Type:** Curved Greatsword  \n**Weapon Skill:** Horn Calling: Storm",
@@ -31712,7 +33484,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Curseblade's Cirque",
         description:
           "**Location:** Potential drop from Curseblades  \n**Type:** Backhand Blade  \n**Weapon Skill:** Deadly Dance",
@@ -31721,7 +33492,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bloodfiend's Fork",
         description:
           "**Location:** Prospect Town - Drops randomly from the Bloodfiends holding the spear.   \n**Type:** Spear - Standard/Pierce   \n**Weapon Skill:** Barbaric Roar",
@@ -31739,7 +33509,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Obsidian Lamina",
         description:
           "**Location:** Follow Ansbach's questline and summon him once for the fight against Promised Consort Radahn  \n**Type:** Scythe  \n**Weapon Skill:** Dynastic Sickleplay\n\nA finessed evasive skill that creates space to maneuver. Inputs dictated direction of the backstep. Follow up with strong attack to perform an advancing upward slash. Press strong attack again to bring the weapon back down.",
@@ -31748,7 +33517,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dane's Footwork",
         description:
           "**Location:** Dropped by Dryleaf Dane.  \n**Type:** Hand-to-Hand  \n**Weapon Skill:** Palm Blase",
@@ -31757,7 +33525,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Falx",
         description:
           "**Location:** Dropped by [Hornsent](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381987)  \n**Type:** Curved Sword  \n**Weapon Skill:** Revenger's Blade",
@@ -31766,7 +33533,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Leda's Sword",
         description:
           "**Location:** Dropped by Leda  \n**Type:** Light Greatsword  \n**Weapon Skill:** Needle Piercer",
@@ -31775,7 +33541,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rellena's Twinblade",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Twin Moon Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380246)  \n**Type:** Light Greatsword  \n**Weapon Skill:** Moon-and-Fire Stance",
@@ -31784,7 +33549,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Poleblade of the Bud",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Saint of the Bud](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382043)  \n**Type:** Halberd  \n**Weapon Skill:** Romina's Purification",
@@ -31793,7 +33557,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Putrescence Cleaver",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of Putrescence](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381962)  \n**Type:** Greataxe  \n**Weapon Skill:** Spinning Guillotine",
@@ -31802,7 +33565,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Shadow Sunflower Blossom",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Shadow Sunflower](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381993)  \n**Type:** Colossal Weapon  \n**Weapon Skill:** Shadow Sunflower Headbutt",
@@ -31811,7 +33573,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sword Lance",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Wild Boar Rider](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381990)  \n**Type:** Heavy Thrusting Sword  \n**Weapon Skill:** Spinning Gravity Thrust",
@@ -31820,7 +33581,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Staff of the Great Beyond",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Mother of Fingers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382003)  \n**Type:** Glinstone Staff  \n**Weapon Skill:** None",
@@ -31829,7 +33589,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Gazing Finger",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Mother of Fingers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382003)  \n**Type:** Colossal Weapon  \n**Weapon Skill:** Kowtower's Resentment",
@@ -31838,7 +33597,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Spear of the Impaler",
         description:
           "**Location:** Traded by Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Impaler](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381742)  \n**Type:** Great Spear  \n**Weapon Skill:** Messmer's Assault",
@@ -31847,7 +33605,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Greatsword of Damnation",
         description:
           "**Location:** Traded to Finger Reader Enia at the Roundtable Hold for the [Remembrance of the Lord of Frenzied Flame](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382026).  \n**Type:** Greatsword  \n**Weapon Skill:** Golden Crux",
@@ -31856,7 +33613,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Greatsword of Radahn (Lord)",
         description:
           "**Location:** Traded to Finger Reader Enia in the Roundtable Hold for the [Remembrance of a God and a Lord](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382045)  \n**Type:** Colossal Sword  \n**Weapon Skill:** Promised Consort",
@@ -31865,7 +33621,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Greatsword of Radahn (Light)",
         description:
           "**Location:** Traded to Finger Reader Enia in the Roundtable Hold for the [Remembrance of a God and a Lord](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382045)  \n**Type:** Colossal Sword  \n**Weapon Skill:** Lightspeed Slash",
@@ -31874,7 +33629,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ansbach's Longbow",
         description:
           "**Location:** Dropped or given by Ansbach during [Leda's Questline (2nd battle)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381988)  \n**Type:** Bow  \n**Weapon Skill:** Fan Shot",
@@ -31889,7 +33643,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Needle Knight Leda",
         description:
           "**Location:** Beside the Site of Grace  \n**Quest:** [Needle Knight Leda's questline](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=387453)",
@@ -31907,7 +33660,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hornsent (2nd location)",
         description:
           "**Location:** At the [Highroad Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380251) site of grace   \n**Quest:** ??",
@@ -31925,7 +33677,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Redmane Freyja",
         description:
           "**Location:** At the [Three-Path Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380734) Site of Grace  \n**Quest:** ??\n\nSpeak to her after defeating the [Divine Beast Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380798) and she'll have new dialog available.",
@@ -31943,7 +33694,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hornsent",
         description:
           "**Location:** At the [Three-Path Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380734) Site of Grace  \n**Quest:** [Hornsent's Questline](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=387464)",
@@ -31961,7 +33711,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sir Ansbach",
         description:
           "**Location:** At the [Main Gate Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380749) Site of Grace   \n**Quest:** ??",
@@ -31979,7 +33728,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hornsent Grandam",
         description:
           "**Location:** Inside the [Storeroom](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380810)  \n**Quest:** ??",
@@ -31997,7 +33745,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Igon (1st Location)",
         description:
           "Speak to this character here. He will reappear in his second location after you defeat the two Drakes fighting in Jagged Peak.",
@@ -32015,7 +33762,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dryleaf Dane",
         description:
           "**Location:** At the [Moorth Ruins](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380350) Site of Grace   \n**Quest:** ??\n\n**Notes:** Perform the [May the Best Win](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380253) gesture in front of him to trigger a combat; win the combat to earn the [Dryleaf Arts](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381930)",
@@ -32024,7 +33770,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Thiollier (Garden of Deep Purple)",
         description:
           "**Location:** Near the [Garden of Deep Purple](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381960)  \n**Quest:** ??\n\n**Notes:** Becomes hostile after progressing through his quest. Drops [St. Trina's Smile](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381964).",
@@ -32033,7 +33778,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Swordhand of Night Jol\u00e1n",
         description:
           "**Location:** [Cathedral of Manus Metyr](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381271)  \n**Quest:** After defeating [Mityr, Mother of Fingers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382002), becomes an Invader.\n\nAfter defeating her, find her on the ground and either give her an Iris of Grace or an Iris of Occultation for a different reward.",
@@ -32042,7 +33786,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Igon (2nd Location)",
         description: "Moves here after defeating the Double Dragon",
         latitude: "0.63264054850707",
@@ -32050,7 +33793,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dragon Communion Priestess",
         description:
           "**Location:** Next to the [Dragon Communion Grace](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382053)  \n**Quest:** ??",
@@ -32068,7 +33810,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Sir Ansbach (2nd Location)",
         description:
           "**Location:** In the Shadow Keep Library, after the [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345)\n**Quest:** Sir Ansbach Quest",
@@ -32077,7 +33818,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "St. Trina",
         description:
           "**Location:** Just after beating [Putrescent Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381961), near Thiollier.\n\n**Quest:** [St. Trina's Quest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382317)",
@@ -32095,7 +33835,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Queelign",
         description:
           "**How to Begin:** Once you open the room with the [Prayer Room Key](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381928), Queelign will be found on the floor praying to Marika.\n\nYou can choose to give him either:\n\n1. The [Iris of Grace](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381354), and receive the [Fire Knight Queelign](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382894) Spirit Ashes.\n\n2. Or give him one of the 3 [Iris of Occultation](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381817)s, and receive [Queelign's Greatsword](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382893).\n\n**Important:** As the [Iris of Grace](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381354) is only found once and therefore limited compared to the 3 Iris of Occulation and being able to use them on [Jol\u00e1n](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382004) too, you may want to consider which Iris of Grace reward you want to obtain.",
@@ -32104,7 +33843,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Redmane Freyja (2nd location)",
         description:
           "**Location:** Next to site of grace, Storehouse, Seventh Floor\n**Quest:** Part of Redmane Freyja quest",
@@ -32113,7 +33851,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Puppet Anna",
         description:
           "Accessible from the Shaman Village southern part. Jump to the balcony of Rabbath's Rise.",
@@ -32122,7 +33859,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hornsent",
         description: "He appears here after you defeat Messmer the Impaler.",
         latitude: "0.72263737374378",
@@ -32136,7 +33872,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description:
           "**Location:** In the room to the left of the [Main Gate Plaza](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381326)",
@@ -32154,7 +33889,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: null,
         latitude: "0.64738208252083",
@@ -32162,7 +33896,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "Mentions a character named 'Exalted Mother'",
         latitude: "0.61888422590373",
@@ -32170,7 +33903,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description:
           "At the rear of [Elder's Hovel](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382232)",
@@ -32179,7 +33911,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: null,
         latitude: "0.70574664199104",
@@ -32187,7 +33918,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description:
           "**Location:** Outside the Whipping Hut  \n\n_For pity's sake, your place is in the jar.\nNigh-sainthood itself awaits you within.\nFor shamans like you, this is your lot.\nLife were you accorded for this alone._",
@@ -32196,7 +33926,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "Talking about St. Trina",
         latitude: "0.59339796121030",
@@ -32213,7 +33942,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: null,
         latitude: "0.58449366387067",
@@ -32230,7 +33958,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "In a cell inside Lamenter's Gaol, on his knees.",
         latitude: "0.63585957956170",
@@ -32238,7 +33965,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "Second floor of Manse Hall, after climbing ladder.",
         latitude: "0.63962505935031",
@@ -32246,7 +33972,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "In front of the first bonfire in Mildra's Manse.",
         latitude: "0.63990665373004",
@@ -32255,7 +33980,6 @@ export const markerCategories = [
 
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "**Location:** On his knees by the roadside",
         latitude: "0.64443808963469",
@@ -32263,7 +33987,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "**Location:** On their knees in the road",
         latitude: "0.65036962465861",
@@ -32280,7 +34003,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "**Location:** Kneeling on the staircase",
         latitude: "0.68060174155606",
@@ -32297,7 +34019,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: null,
         latitude: "0.67698100309681",
@@ -32314,7 +34035,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description:
           "**Location:** Inside the passage in the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)",
@@ -32323,7 +34043,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description:
           "**Location:** Just beyond the [Ruined Forge Lava Intake](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380916) Site of Grace, in the dungeon",
@@ -32341,7 +34060,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: "**Location:** Kneeling in front of the altar",
         latitude: "0.67732313673808",
@@ -32358,7 +34076,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghost",
         description: null,
         latitude: "0.67573783383274",
@@ -32372,7 +34089,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Moore",
         description:
           "**Location:** At the [Main Gate Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380749) Site of Grace  \n\n**Inventory (other):**\n- 3 x Rune Arc @ 8000\n- 2 x Spellproof Pickled Liver @ 4000\n- 2 x Fireproof Pickled Liver @ 4000\n- 2 x Lightningproof Pickled Liver @ 4000\n- 2 x Holyproof Pickled Liver @ 4000\n- 1 x Well-Pickled Turtle Neck @ 2000\n- 8 x Black Pyrefly @ 1800\n- 10 x Rada Fruit @ 800\n- 8 x Redflesh Mushroom @ 1500\n- 6 x Whiteflesh Mushroom @ 2000\n- 4 x Sanguine Amaryllis @ 1800\n- 5 x Knot Resin @ 1500\n- Arrow @ 20\n- Great Arrow @ 300\n- Bolt @ 40\n- Ballista Bolt @ 300\n\n**Other:**\n- Note: Sealed Spiritsprings",
@@ -32390,7 +34106,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Thiollier",
         description:
           "**Location:** At the [Pillar Path Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381014) Site of Grace  \n**Inventory (unique):**\n- [Deadly Poison Perfume Bottle](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382522) @ 6000\n\n**Inventory (other):**\n- 20x Poisonbone Dart @ 120\n- 10 x Poison Stone @ 150\n- 5 x Poison Stone Clump @ 250\n- 5 x Poison Grease @ 1000\n- 5 x Drawstring Poison Grease @ 800\n- 5 x Toxic Mossling @ 2000\n- 10 x Toxic Mushroom @ 500\n- 10 x Poisonbloom @ 1000\n- 20 x Altus Bloom @500\n- 3 x Trina's Lily @ 1000\n- 10 x Miranda Powder @ 800\n\n**Other:**\n- ??",
@@ -32408,7 +34123,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Count Ymir, High Priest",
         description:
           "**Location:** [Cathedral of Manus Metyr](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381271)  \n**Inventory (unique):**\n- Glintstone Pebble @ 1,000\n- Great Glinstone Shard @ 2,000\n- Glintblade Phalanx @ 2,500\n- Carian Phalanx @ 12,000\n- Carian Retaliation @ 9,000\n- [Miriam's Vanishing](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381274) @ 10,000\n\n**Inventory (other):**\n- Glintstone Nails @ 12,000\n- Fleeting Microcosm @ 20,000\n\n**Other:**\n- ??",
@@ -32423,7 +34137,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ralva the Great Red Bear",
         description:
           "**Location:** Prowling in the middle of the lake.  \n**Loot:**\n- 180,000 Runes\n- [Pelt of Ralva](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380321)",
@@ -32432,7 +34145,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghostflame Dragon",
         description:
           "**Location:** Battling a few soldiers near a burnt-down road.  \n**Reward:**\n- 120,000 Runes\n- [Somber Ancient Dragon Smithing Stone](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380347)\n- [Dragon Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380346)",
@@ -32441,7 +34153,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Blackgaol Knight",
         description:
           "**Location:** [Western Nameless Mausoleum](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380577)  \n**Loot:**\n- 70,000 Runes\n- [Greatsword of Solitude](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380579)\n- [Solitude Set](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380580)",
@@ -32459,7 +34170,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghostflame Dragon",
         description:
           "**Location:** Slumbering in the middle of the lake  \n**Reward:** \n- 100,000 Runes\n- [Dragon Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380857)\n- [Somber Ancient Dragon Smithing Stone](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380858)",
@@ -32468,7 +34178,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Demi-Human Swordmaster Onze",
         description:
           "**Location:** In the depths of the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)  \n**Loot:**\n- 80,000 Runes\n- [Demi-Human Swordsman Yosh](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380890) Spirit Ash",
@@ -32486,7 +34195,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Chief Bloodfiend",
         description:
           "**Location:** Inside [Rivermouth Cave](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380994), in the blood lake   \n**Loot:**\n- [Bloodfiend Hexer's Ashes](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381007)",
@@ -32495,7 +34203,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ancient Dragon-Man",
         description:
           "**Location:** Inside [Dragon's Pit](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381027) - at the bottom of the [Dragon's Pit Abyss](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381038)  \n**Loot:**\n- 130,000 Runes\n- [Dragon-Hunter's Great Katana](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381040)",
@@ -32504,7 +34211,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Curseblade Labirith",
         description:
           "**Location:** At the end of [Bonny Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381230)  \n**Loot:**\n- 100,000 Runes\n- [Curseblade Meera](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381241)",
@@ -32513,7 +34219,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Knight Garrew",
         description:
           "**Location:** Patrols near the building entryway in the upper area of [Fog Rift Fort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381507)  \n**Loot:**\n- 80,000 Runes\n- [Black Steel Greatshield](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380450)",
@@ -32522,7 +34227,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Knight Edredd",
         description:
           "**Location:** On the 2nd floor, in the room next to the Site of Grace.  \n**Loot:**\n- 80,000 Runes\n- [Ash of War: Aspects of the Crucible: Wings](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381873)",
@@ -32531,7 +34235,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Demi-Human Queen Marigga",
         description:
           "**Location:** In the northwest section of Cerulean Coast West, out in the open.  \n**Loot:**\n- 100,000 Runes\n- [Star-Lined Sword](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381920)",
@@ -32549,7 +34252,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dancer of Ranah",
         description:
           "**Location:** [Southern Nameless Mausoleum](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381921)  \n**Loot:**\n- 80,000 Runes\n- [Dancing Blade of Ranah](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381923)\n- [Dancing Set](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381924)",
@@ -32567,7 +34269,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Knight",
         description:
           "**Location:** [Fog Rift Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381172) - In the final room.  \n**Loot:**\n- 110,000 Runes\n- [Death Knight's Twin Axes](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381926)\n- [Crimson Amber Medallion +3](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381927)",
@@ -32576,7 +34277,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Jagged Peak Drake",
         description:
           "**Location:** At the foot of Jagged Peak  \n**Loot:**\n- 90,000 Runes\n- [Dragon Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381933)\n- [Dragonscale Flesh](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381934)",
@@ -32585,7 +34285,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Tibia Mariner",
         description:
           "**Location:** Floating around Charo's Hidden Grave  \n**Loot:**\n- 9,959 Runes\n- [Tibia's Cookbook](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381936)",
@@ -32594,7 +34293,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Rite Bird",
         description:
           "**Location:** In the center of the flooded graveyard.  \n**Loot:**\n- [Ash of War: Ghostflame Call](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381941)",
@@ -32612,7 +34310,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Lamenter",
         description:
           "**Location:** [Lamenter's Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381949)  \n**Loot:**\n- 160,000 Runes",
@@ -32621,7 +34318,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Jagged Peak Drake x2",
         description:
           "**Location:** Battling each other in the crater.  \n**Loot:**\n- 240,000 Runes\n- [Dragonscale Flesh x2](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381967)\n- [Dragon Heart x2](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381966)",
@@ -32630,7 +34326,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ancient Dragon Senessax",
         description:
           "**Location:** Sleeping in a cavern.  \n**Loot:**\n- 200,000 Runes\n- [Ancient Dragon Smithing Stone](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381969)\n- [Somber Ancient Dragon Smithing Stone](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381970)",
@@ -32639,7 +34334,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Bayle the Dread",
         description:
           "**Location:** In the center of the crater.  \n**Loot:**\n- 490,000 Runes\n- [Heart of Bayle](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381972)",
@@ -32648,7 +34342,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Red Bear",
         description:
           "**Location:** [Northern Nameless Mausoleum](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381976)  \n**Loot:**\n- 80,000 Runes",
@@ -32657,7 +34350,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rugalea the Great Red Bear",
         description:
           "**Location:** Prowling the ghostly graveyard.  \n**Loot:**\n- 210,000 runes\n- [Roar of Rugalea](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381981)",
@@ -32675,7 +34367,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Death Knight",
         description:
           "**Location:** [Scorpion River Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381982)  \n**Loot:**\n- 130,000 Runes\n- [Death Knight's Longhaft Axe](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381985)\n- [Cerulean Amber Medallion +3](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381986)",
@@ -32684,7 +34375,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Tree Sentinel",
         description:
           "**Location:** Patrolling the hinterlands  \n**Loot:**\n- 120,000 Runes\n- [Blessing of Marika](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381996)",
@@ -32693,7 +34383,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Tree Sentinel",
         description:
           "**Location:** Patrolling the hinterlands  \n**Loot:**\n- 120,000 Runes\n- [Blessing of Marika](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381998)",
@@ -32702,7 +34391,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Fallingstar Beast",
         description:
           "**Location:** In the middle of the crater.  \n**Loot:**\n- 170,000 Runes\n- [Gravitational Missile](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382001)",
@@ -32711,7 +34399,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Rakshasa",
         description:
           "**Location:** [Eastern Nameless Mausoleum](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382013)  \n**Loot:**\n- [Rakshasa Set](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382016)\n- [Rakshasa's Great Katana](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382015)",
@@ -32729,7 +34416,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Jori, Elder Inquisitor",
         description:
           "**Location:** [Darklight Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382019)  \n**Loot:**\n- 260,000 Runes\n- [Barbed Staff-Spear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382022)",
@@ -32738,7 +34424,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Madding Hand",
         description:
           "**Location:** Stalks the path leading southeast.  \n**Loot:**\n- [Madding Hand](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382024)",
@@ -32756,7 +34441,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Beast Dancing Lion",
         description:
           "**Location:** Inside the temple, on the hill.  \n**Loot:**\n- [Divine Beast Tornado](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382039)",
@@ -32765,7 +34449,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ghostflame Dragon",
         description:
           "**Location:** \nUpon first arrival, the dragon will fly in from above\n\n**Loot:**\n- [Dragon Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382237)\n- Somber Ancient Dragon Smithing Stone",
@@ -32783,7 +34466,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Dryleaf Dane",
         description:
           'Can be fought here by using the "May the Best Win" gesture in front of him. Will not be available if you progress the story too far.',
@@ -32792,7 +34474,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Count Ymir, Mother of Fingers",
         description:
           "**Location:** Cathedral of Manus Metyr   \n**Loot:** \n- [Ymir's Bell Bearing](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382005)\n- [Maternal Staff](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382006)\n- [High Priest Set](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382007)",
@@ -32807,7 +34488,6 @@ export const markerCategories = [
     locations: [
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Patrolling the road between the village and Shadow Keep.  \n**Loot:**\n- 10,714 Runes\n- [Crimsonburst Dried Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380272)\n- Furnace Visage",
@@ -32816,7 +34496,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Black Knight",
         description:
           "**Location:** Guarding the camp atop the cliff.  \n**Loot:**\n- 4,446 Runes\n- [Black Steel Twinblade](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380281)",
@@ -32825,7 +34504,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Patrols the road   \n**Loot:** \n- 9,524 Runes\n- [Deflecting Hardtear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380708)\n- [Furnace Visage](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380709)",
@@ -32834,7 +34512,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ulcerated Tree Spirit",
         description:
           "**Location:** In the poison lake   \n**Loot:**\n- 18,346 Runes\n- [Immunizing Horn Charm +2](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380834)",
@@ -32843,7 +34520,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ulcerated Tree Spirit",
         description:
           "**Location:** In the water  \n**Loot:**\n- 18,522 Runes\n- [Horned Bairn](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380970)",
@@ -32852,7 +34528,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Magma Wyrm",
         description:
           "**Location:** Inside [Dragon's Pit](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381027)  \n**Loot:** \n- 7,718 Runes\n- [Ancient Dragon Smithing Stone](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381034)\n- [Dragon Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381033)",
@@ -32861,7 +34536,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Troll Knight",
         description:
           "**Location:** Guarding entry to [Castle Ensis](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381183) through the bridge   \n**Loot:** \n- [Somber Smithing Stone [9]](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381185)\n- [Royal Magic Grease](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381186)",
@@ -32879,7 +34553,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Patrolling the road.  \n**Loot:**\n- 10,714 Runes\n- [Cerulean-Sapping Cracked Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381253)\n- Furnace Visage",
@@ -32888,7 +34561,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Troll Knight Echo",
         description:
           "**Location:** Patrols the river above the [Castle Ensis](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381183)  \n**Loot:** [Smithing Stone [8] x9](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381310)",
@@ -32906,7 +34578,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Elite Fire Knight",
         description:
           "**Location:** [Storehouse, Seventh Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381732) - On the elevated walkway, accessible by the specimens after activating the [Specimen Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381729)  \n**Loot:** ??",
@@ -32915,7 +34586,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Elite Fire Knight",
         description: null,
         latitude: "0.71463951785108",
@@ -32923,7 +34593,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ulcerated Tree Spirit",
         description:
           "**Location:** Swimming in the water; can be fought after opening [The Dam Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381776)  \n**Loot:** [Iris of Occultation](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381817)",
@@ -32932,7 +34601,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Ulcerated Tree Spirit",
         description:
           "**Location:** Emerges from the tree after opening [The Dam Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381776)  \n**Loot:** [Mantle of Thorns](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381825)",
@@ -32941,7 +34609,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Archer Giant",
         description:
           "**Location:** On the rocky hill.  Fires giant arrows from his location; uses melee and fire attacks up close",
@@ -32950,7 +34617,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Battleaxe Giant",
         description:
           "**Location:** In the valley.  Uses melee and fire attacks",
@@ -32959,7 +34625,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Prowling the large clearing.  \n**Loot:**\n- 10,238 Runes\n- [Viridian Hidden Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381918)",
@@ -32968,7 +34633,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hippopotamus",
         description:
           "**Location:** Floating around the pool  \n**Loot:**\n- 9,576 Runes\n- [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381945)",
@@ -32977,7 +34641,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Prowling the western side of Charo's Hidden Grave.  \n**Loot:**\n- 10,857 Runes\n- [Glovewort Crystal Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381947)",
@@ -32986,7 +34649,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Patrolling the watering hole.  \n**Loot:**\n- 13,773 Runes\n- [Oil-Soaked Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382009)\n- Furnace Visage",
@@ -32995,7 +34657,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** Blocking the passageway into the [Ruins of Unte](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382011). Craft a Hefty Furnace Pot (requires [Greater Potentate's Cookbook [2]](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380901)) and throw it into its furnace to wake him up, then defeat him.  \n**Loot:**\n- [Bloodsucking Cracked Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382012)\n- Furnace Visage",
@@ -33013,7 +34674,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hippopotamus",
         description:
           "**Location:** Floating in the river.  \n**Loot:** [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382018)",
@@ -33022,7 +34682,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Crucible Knight Devonia",
         description:
           "**Location:** Patrolling the area.\n\n**Loot:**\n- [Devonia's Hammer\n](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382031)\n- [Crucible Hammer-Helm\n](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382032)",
@@ -33031,7 +34690,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hippopotamus",
         description:
           "**Location:** In the center of the pond.  \n**Loot:** [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382034)",
@@ -33049,7 +34707,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Furnace Golem",
         description:
           "**Location:** In the center of the pond.  \n**Loot:**\n- 14,921 Runes\n- [Crimson-Sapping Cracked Tear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382037)\n- Furnace Visage",
@@ -33058,7 +34715,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Hippopotamus",
         description:
           "**Location:** Prowling the edge of the lake.  \n**Loot:** [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382134)",
@@ -33067,7 +34723,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Demi Human Swordsman",
         description:
           "Go through the opening in the cliff near the Cerulean Coast West sight of grace, then hang a left and keep running until you see another opening leading to a beach. \nStar-lined Sword",
@@ -33076,7 +34731,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Troll",
         description:
           "**Location:** ??  \n**Loot:** [Hefty Cracked Pot](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381353)",
@@ -33085,7 +34739,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Bird Warrior",
         description:
           "**Loot:**\n- Divine Bird Warrior Armor\n- Divine Bird Warrior Greaves",
@@ -33094,7 +34747,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Very Large Fingers",
         description: "**Location:** In the cave accessible from west",
         latitude: "0.72070652787828",
@@ -33102,7 +34754,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Greater Potentate x3",
         description:
           "**Location:**  Bonny Village - found throughout the village  \n**Loot:** Runes",
@@ -33111,7 +34762,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Horned Warrior",
         description:
           "**Location:** Pacing a large platform, just after the staircase.   \n**Loot:** \n- [Horned Warrior's Greatsword](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=384457)",
@@ -33120,7 +34770,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Aging Untouchable",
         description:
           "**Location:** Found within the fog, locking onto it will help find it.  You must parry it to damage it.   \n**Drops:** \n- Swollen grape",
@@ -33129,7 +34778,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Archer Golem",
         description:
           "**Location:** On the platform next to the path to Dancing Divine Beast",
@@ -33138,7 +34786,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Elite Spider Scorpion",
         description: "Hanging over corpse, guarding Spider Scorpion Ashes",
         latitude: "0.71695392364725",
@@ -33146,7 +34793,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Demi-Human Chief",
         description:
           "**Location:** In the cave, guarding the [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382128)",
@@ -33155,7 +34801,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Divine Bird Warrior",
         description: null,
         latitude: "0.69815100240422",
@@ -33163,7 +34808,6 @@ export const markerCategories = [
       },
       {
         regionSlug: "the-shadow-realm",
-
         title: "Aged Untouchable",
         description: "Must be parried and a critical hit used to kill",
         latitude: "0.65091829544966",

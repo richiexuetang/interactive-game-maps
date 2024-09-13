@@ -1,16 +1,19 @@
 import {
+  createAppUser,
+  getAppUser,
   getGroupDetails,
   getMarkerLocations,
   getMetaData,
   getRegionDetails,
-} from "@/src/lib/api";
-import Map from "@/src/components/map/map";
+} from "@/lib/api";
+import Map from "@/components/map/map";
 import { revalidatePath } from "next/cache";
-import { getClient } from "@/src/lib/apollo-client";
-import { FETCH_GAMES } from "@/src/lib/constants";
-import { Game } from "@/src/__generated__/graphql";
+import { getClient } from "@/lib/apollo-client";
+import { FETCH_GAMES } from "@/lib/constants";
+import { Game } from "@/__generated__/graphql";
 
 import type { Metadata } from "next";
+import { getCurrentUser } from "@/lib/firebase/firebase-admin";
 
 export async function generateMetadata({
   params,
@@ -45,6 +48,8 @@ export default async function MapPage({
   params: { slug: string };
 }) {
   revalidatePath("/map");
+  const currentUser = await getCurrentUser();
+
   const { data } = await getClient().query({
     query: FETCH_GAMES,
   });
@@ -56,12 +61,21 @@ export default async function MapPage({
     (game: Game) => game.slug === region.gameSlug
   ).regions;
 
+  const appUser = await getAppUser(currentUser?.email ?? "");
+  const foundLocations = appUser ? appUser.foundLocations : [];
+  if (!appUser && currentUser?.email) {
+    await createAppUser({ email: currentUser?.email });
+  }
+
+  console.log(foundLocations);
+
   return (
     <Map
       region={region}
       groups={groupData}
       markers={markers}
       regions={regions}
+      user={currentUser}
     />
   );
 }
