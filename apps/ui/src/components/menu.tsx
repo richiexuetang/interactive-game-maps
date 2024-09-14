@@ -124,6 +124,7 @@ export const Menu = ({ groups, markers, gameSlug, regions }: MenuProps) => {
               ))}
             </div>
             <Divider />
+
             <div className="flex gap-5">
               <div className="flex gap-2 align-middle contents-center">
                 <Checkbox

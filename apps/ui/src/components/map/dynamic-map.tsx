@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Leaflet from "leaflet";
 import * as ReactLeaflet from "react-leaflet";
 import "leaflet/dist/leaflet.css";
@@ -8,6 +8,7 @@ import "@/leaflet/smooth-wheel-zoom";
 import { MarkerLocation, Region } from "@/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
+import { MarkerSearch } from "../markers/marker-search";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -19,7 +20,6 @@ interface MapProps {
 
 const Map = ({ region, markers, user }: MapProps) => {
   const { tilePath, gameSlug, id, slug, thumbnailUrl, zoom, ...rest } = region;
-
   useEffect(() => {
     (async function init() {
       Leaflet.Icon.Default.mergeOptions({
@@ -46,6 +46,7 @@ const Map = ({ region, markers, user }: MapProps) => {
         url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
       />
       <MarkerRenderer markers={markers} gameSlug={gameSlug} user={user!} />
+      <MarkerSearch markers={markers} />
     </MapContainer>
   );
 };

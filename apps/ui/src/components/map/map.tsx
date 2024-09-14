@@ -50,7 +50,7 @@ const RitcherMap = ({ region, groups, markers, regions, user }: MapProps) => {
             regions={regions}
           />
           <Map region={region} markers={markers} user={user} />
-          {user && (
+          {user?.email && (
             <div className="z-[1000] absolute top-2 right-2">
               <UserAvatar
                 imageSrc={user.photoURL ?? ""}

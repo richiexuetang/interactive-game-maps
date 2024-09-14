@@ -32,7 +32,7 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/constants";
 import { UserRecord } from "firebase-admin/auth";
-import { hideFoundAtom } from "@/store/marker";
+import { hideFoundAtom, triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
 import { ZoomImage } from "../zoom-image";
 
@@ -61,13 +61,19 @@ export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
+  const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
+
+  useEffect(() => {
+    if (triggeredMarkerId == id && markerRef) {
+      markerRef.current.openPopup();
+    }
+  }, [triggeredMarkerId]);
+
   const hideFound = useAtomValue(hideFoundAtom);
   const [markerFound, setMarkerFound] = useState(
     userData?.foundLocations?.includes(id)
   );
   const [_, copy] = useCopyToClipboard();
-
-  const router = useRouter();
 
   // build div icon
   const div = document.createElement("div");

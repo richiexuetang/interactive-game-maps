@@ -7,7 +7,6 @@ import {
   getRegionDetails,
 } from "@/lib/api";
 import Map from "@/components/map/map";
-import { revalidatePath } from "next/cache";
 import { getClient } from "@/lib/apollo-client";
 import { FETCH_GAMES } from "@/lib/constants";
 import { Game } from "@/__generated__/graphql";
@@ -47,9 +46,7 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
-  revalidatePath("/map");
   const currentUser = await getCurrentUser();
-
   const { data } = await getClient().query({
     query: FETCH_GAMES,
   });

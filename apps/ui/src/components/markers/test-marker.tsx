@@ -3,6 +3,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 
 export const TestMarker = ({ center }: any) => {
   const map = useMap();
+
   const [draggable, setDraggable] = React.useState(false);
   const [position, setPosition] = React.useState(center);
   const markerRef = React.useRef<any>(null);
