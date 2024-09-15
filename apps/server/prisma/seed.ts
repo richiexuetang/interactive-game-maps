@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import { games } from "./seeding/games";
 import { regions } from "./seeding/region";
 import { markerGroups } from "./seeding/marker-group";
-import { markerCategories } from "./seeding/marker-category";
+import { categoryLocations } from "./seeding/categories";
 
 const prisma = new PrismaClient();
 
@@ -14,6 +14,7 @@ async function main() {
   await prisma.region.deleteMany({});
   await prisma.game.deleteMany({});
   await prisma.subRegion.deleteMany({});
+  await prisma.appUser.deleteMany({});
 
   await prisma.game.createMany({ data: games });
 
@@ -33,21 +34,23 @@ async function main() {
 
   await prisma.markerGroup.createMany({ data: markerGroups });
 
-  for (let i = 0; i < markerCategories.length; i++) {
-    const category = markerCategories[i];
+  for (let i = 0; i < categoryLocations.length; i++) {
+    const category = categoryLocations[i];
     const { locations, ...rest } = category;
-    const icon = markerCategories[i].title?.toLowerCase().replaceAll(" ", "_");
+    const icon = categoryLocations[i].title?.toLowerCase().replaceAll(" ", "_");
     const newCategory = await prisma.markerCategory.create({
       data: { ...rest, icon: icon, template: "", info: "" },
     });
 
     for (let j = 0; j < locations.length; j++) {
-      // @ts-ignore
       const { media, ...rest } = locations[j];
       if (newCategory?.id) {
         const newLocation = await prisma.markerLocation.create({
-          // @ts-ignore
-          data: { ...rest, media: {}, categoryId: newCategory.id },
+          data: {
+            ...rest,
+            media: {},
+            categoryId: newCategory.id,
+          },
         });
         if (media?.length) {
           for (let k = 0; k < media.length; k++) {

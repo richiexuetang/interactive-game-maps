@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
 import { Region } from "@/__generated__/graphql";
 import { getMetaData, getRegionsByGame } from "@/lib/api";
 import { Metadata } from "next";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
+import { ImageCard } from "@/components/image-card";
 
 export async function generateMetadata({
   params,
@@ -48,22 +47,28 @@ export default async function RegionPage({
       )}
     >
       {regions.map(({ slug, thumbnailUrl, title }: Region) => (
-        <Link
-          key={title}
+        <ImageCard
+          key={slug}
+          imageSrc={process.env.CDN_BASE_URL + thumbnailUrl}
           href={`/map/${slug}`}
-          className="flex flex-col items-center h-auto w-auto"
-        >
-          <Image
-            src={process.env.CDN_BASE_URL + thumbnailUrl}
-            width={320}
-            height={320}
-            className="w-auto h-full"
-            alt={`${title} thumbnail`}
-          />
-          <span className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-primary-400 rounded-b-lg">
-            {title}
-          </span>
-        </Link>
+          content={title}
+        />
+        // <Link
+        //   key={title}
+        //   href={`/map/${slug}`}
+        //   className="flex flex-col items-center h-auto w-auto"
+        // >
+        //   <Image
+        //     src={process.env.CDN_BASE_URL + thumbnailUrl}
+        //     width={320}
+        //     height={320}
+        //     className="w-auto h-full"
+        //     alt={`${title} thumbnail`}
+        //   />
+        //   <span className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-primary-400 rounded-b-lg">
+        //     {title}
+        //   </span>
+        // </Link>
       ))}
     </div>
   );

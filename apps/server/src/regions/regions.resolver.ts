@@ -9,7 +9,10 @@ export class RegionsResolver {
 
   @Query(() => Region)
   async regionDetails(@Args("slug") slug: string) {
-    return this.prisma.region.findUnique({ where: { slug: slug } });
+    return this.prisma.region.findUnique({
+      where: { slug: slug },
+      include: { subRegions: true },
+    });
   }
 
   @Query(() => [Region])

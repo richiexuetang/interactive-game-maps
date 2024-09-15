@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FETCH_GAMES } from "@/lib/constants";
 import { getClient } from "@/lib/apollo-client";
 import Link from "next/link";
+import { ImageCard } from "@/components/image-card";
 
 export type Game = {
   slug: string;
@@ -14,27 +15,16 @@ export default async function Page() {
   const { data } = await getClient().query({
     query: FETCH_GAMES,
   });
-  const { games } = data;
 
   return (
     <div className="flex gap-5 p-8 flex-wrap content-center justify-center">
-      {games?.map((game: Game) => (
-        <Link
+      {data?.games?.map((game: Game) => (
+        <ImageCard
           key={game.slug}
           href={`/region/${game.slug}`}
-          className="flex flex-col items-center"
-        >
-          <Image
-            src={process.env.CDN_BASE_URL + game.thumbnailUrl}
-            width={360}
-            height={202.5}
-            alt={`${game.title} thumbnail`}
-            priority
-          />
-          <h2 className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-secondary-200 rounded-b-lg">
-            {game.title}
-          </h2>
-        </Link>
+          imageSrc={process.env.CDN_BASE_URL + game.thumbnailUrl}
+          content={game.title}
+        />
       ))}
     </div>
   );

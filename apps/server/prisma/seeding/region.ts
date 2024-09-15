@@ -11,6 +11,13 @@ export const regions = [
     tilePath: "black-myth-wukong/chapter-1",
     gameSlug: "black-myth-wukong",
     order: 1,
+    subRegions: [
+      {
+        name: "Ancient Guanyin Temple",
+        latitude: 0.88748241485041,
+        longitude: -0.74017861950489,
+      },
+    ],
   },
   {
     slug: "chapter-2",
@@ -236,7 +243,7 @@ export const regions = [
   {
     slug: "fablesphere",
     title: "Fablesphere",
-    thumbnailUrl: "thumbnails/fablesphere",
+    thumbnailUrl: "thumbnails/fablesphere.png",
     minZoom: 8,
     maxZoom: 12,
     zoom: 9,

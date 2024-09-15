@@ -128,6 +128,11 @@ export const FETCH_REGION_DETAILS = gql`
       tilePath
       title
       center
+      subRegions {
+        name
+        latitude
+        longitude
+      }
     }
   }
 `;
