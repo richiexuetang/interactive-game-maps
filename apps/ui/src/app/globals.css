@@ -54,6 +54,13 @@
   background-color: transparent !important;
 }
 
+.map-label {
+  white-space: pre;
+  font-size: large;
+  color: rgb(var(--tw-color-primary-200));
+  letter-spacing: 1px;
+}
+
 .leaflet-div-icon {
   background: none !important;
   border: none !important;

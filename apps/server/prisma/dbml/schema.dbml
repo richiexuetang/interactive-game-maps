@@ -68,8 +68,8 @@ Table MarkerLocation {
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
-  category MarkerCategory [not null]
-  categoryId Int [not null]
+  category MarkerCategory
+  categoryId Int
   Region Region [not null]
   regionSlug String [not null]
   media Media [not null]

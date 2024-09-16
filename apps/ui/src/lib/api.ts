@@ -113,17 +113,21 @@ export async function getMarkerLocations(regionSlug: string) {
   const processedMarkers = [];
   for (let i = 0; i < markers.length; i++) {
     const category = markers[i].category;
-    const processedInfo = await remark().use(html).process(category.info);
+    if (!category) {
+      processedMarkers.push(markers[i]);
+    } else {
+      const processedInfo = await remark().use(html).process(category.info);
 
-    const processedDescription = await remark()
-      .use(html)
-      .process(markers[i].description);
+      const processedDescription = await remark()
+        .use(html)
+        .process(markers[i].description);
 
-    processedMarkers.push({
-      ...markers[i],
-      description: processedDescription.toString(),
-      category: { ...category, info: processedInfo.toString() },
-    });
+      processedMarkers.push({
+        ...markers[i],
+        description: processedDescription.toString(),
+        category: { ...category, info: processedInfo.toString() },
+      });
+    }
   }
 
   return processedMarkers;

@@ -2,7 +2,7 @@ import { atom } from "jotai";
 
 interface User {
   email: string;
-  foundLocations: number[];
+  foundLocations: number[] | string[];
   photoUrl: string;
 }
 

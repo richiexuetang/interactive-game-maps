@@ -8124,7 +8124,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "·推荐用隐身通过,有很多个镰刀虫蛹守桥<div>·虫蛹有碰撞箱,小心别被推了</div><div>·有耐心用戳棍一个个戳掉也行(注意戳棍有概率在收招的时候一脚踏空掉下去)</div><div>·对面还有个弓箭手埋伏你,所以还是建议隐身</div><div>·桥上的魂吸的时候,强制位移可能卡下去</div><div>·变身为暴躁(双头鼠),用自爆可清理所有虫蛹</div>",
+          "推荐用隐身通过,有很多个镰刀虫蛹守桥<div>·虫蛹有碰撞箱,小心别被推了</div><div>·有耐心用戳棍一个个戳掉也行(注意戳棍有概率在收招的时候一脚踏空掉下去)</div><div>·对面还有个弓箭手埋伏你,所以还是建议隐身</div><div>·桥上的魂吸的时候,强制位移可能卡下去</div><div>·变身为暴躁(双头鼠),用自爆可清理所有虫蛹</div>",
         regionSlug: "04_pansidongxiaceng",
         title: "逆天虫蛹独木桥",
         longitude: -1.0895394546334103,
@@ -8133,14 +8133,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         description: "这个卵出来的螳螂可以刷 长须面具(概率)",
         regionSlug: "04_pansidongxiaceng",
-        title: "这里的卵会打人",
+        title: "The sack can swing",
         longitude: -0.4916315762588397,
         latitude: 1.0464425373206296,
       },
       {
-        description: "往左是紫符,往右是Chest",
+        description: "Left side is purple seal, right side is a Chest",
         regionSlug: "04_pansidongxiaceng",
-        title: "分叉路口",
+        title: "Intersection",
         longitude: -1.0194454309188643,
         latitude: 0.28217967103159936,
       },

@@ -22,6 +22,9 @@ import {
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
 import data from "@/data/geo.json";
+import { useQuery } from "@apollo/client";
+import { GET_APP_USER } from "@/lib/constants";
+import { userAtom } from "@/store/auth";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -38,9 +41,24 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
   const { tilePath, gameSlug, id, slug, thumbnailUrl, ...rest } = region;
 
   const [game, setGame] = useAtom(gameSlugAtom);
+  const [appUser, setAppUser] = useAtom(userAtom);
   const [currentRegion, setCurrentRegion] = useAtom(currentRegionAtom);
   const setCurrentMarkers = useSetAtom(currentMarkersAtom);
   const setCurrentGroups = useSetAtom(currentGroupsAtom);
+
+  const { data: userData } = useQuery(GET_APP_USER, {
+    variables: { email: user?.email },
+  });
+
+  useEffect(() => {
+    if (userData && !appUser) {
+      setAppUser({
+        email: userData?.getUser?.email ?? "",
+        photoUrl: userData?.getUser?.photoURL ?? "",
+        foundLocations: userData?.getUser?.foundLocations,
+      });
+    }
+  }, [userData, appUser, setAppUser]);
 
   useEffect(() => {
     if (!game || game !== gameSlug) {

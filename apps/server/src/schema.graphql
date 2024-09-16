@@ -45,6 +45,13 @@ type Game {
   updatedAt: DateTime!
 }
 
+"""Marker Location Type"""
+enum LocationType {
+  Line
+  Marker
+  Text
+}
+
 type MarkerCategory {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -87,6 +94,7 @@ type MarkerLocation {
   region: Region
   regionSlug: String
   title: String!
+  type: LocationType
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!

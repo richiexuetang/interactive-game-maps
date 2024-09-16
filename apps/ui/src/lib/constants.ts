@@ -111,6 +111,7 @@ export const FETCH_REGION_MARKERS = gql`
       longitude
       title
       id
+      type
     }
   }
 `;

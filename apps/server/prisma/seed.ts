@@ -3,6 +3,7 @@ import { games } from "./seeding/games";
 import { regions } from "./seeding/region";
 import { markerGroups } from "./seeding/marker-group";
 import { categoryLocations } from "./seeding/categories";
+import { textLocations } from "./seeding/categories";
 
 const prisma = new PrismaClient();
 
@@ -20,6 +21,8 @@ async function main() {
   await prisma.region.createMany({ data: regions });
 
   await prisma.markerGroup.createMany({ data: markerGroups });
+
+  await prisma.markerLocation.createMany({ data: textLocations });
 
   for (let i = 0; i < categoryLocations.length; i++) {
     const category = categoryLocations[i];

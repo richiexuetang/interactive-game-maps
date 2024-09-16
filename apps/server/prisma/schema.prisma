@@ -72,17 +72,17 @@ model MarkerCategory {
 }
 
 model MarkerLocation {
-  id          Int            @id @default(autoincrement())
+  id          Int             @id @default(autoincrement())
   title       String
   description String?
   latitude    Decimal
   longitude   Decimal
-  category    MarkerCategory @relation(fields: [categoryId], references: [id])
-  categoryId  Int
-  Region      Region         @relation(fields: [regionSlug], references: [slug])
+  category    MarkerCategory? @relation(fields: [categoryId], references: [id])
+  categoryId  Int?
+  Region      Region          @relation(fields: [regionSlug], references: [slug])
   regionSlug  String
   media       Media[]
-  type        LocationType   @default(Marker)
+  type        LocationType    @default(Marker)
 }
 
 enum LocationType {

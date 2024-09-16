@@ -1,35 +1,12 @@
 import Image from "next/image";
 import * as React from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 interface ZoomImageProps {
   src: string;
 }
 
 export const ZoomImage = ({ src }: ZoomImageProps) => {
-  // State variable for managing zoomed image
-  const [zoomedImage, setZoomedImage] = React.useState<string | null>(null);
-  // Function to open zoomed image
-  const openZoomedImage = (imageUrl: string) => {
-    setZoomedImage(imageUrl);
-  };
-  // Function to close zoomed image
-  const closeZoomedImage = () => {
-    setZoomedImage(null);
-  };
-
-  //   .zoomed-image {
-  //     max-width: 90vw;
-  //     max-height: 90vh;
-  //   }
   return (
     <Dialog>
       <DialogTrigger asChild>
