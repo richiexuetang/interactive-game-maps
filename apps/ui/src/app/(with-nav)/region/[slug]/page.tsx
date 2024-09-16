@@ -53,22 +53,6 @@ export default async function RegionPage({
           href={`/map/${slug}`}
           content={title}
         />
-        // <Link
-        //   key={title}
-        //   href={`/map/${slug}`}
-        //   className="flex flex-col items-center h-auto w-auto"
-        // >
-        //   <Image
-        //     src={process.env.CDN_BASE_URL + thumbnailUrl}
-        //     width={320}
-        //     height={320}
-        //     className="w-auto h-full"
-        //     alt={`${title} thumbnail`}
-        //   />
-        //   <span className="p-2 w-full h-16 text-center inline-block content-center text-sm bg-primary-400 rounded-b-lg">
-        //     {title}
-        //   </span>
-        // </Link>
       ))}
     </div>
   );

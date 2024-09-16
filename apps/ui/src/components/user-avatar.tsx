@@ -42,6 +42,7 @@ export function UserAvatar({ imageSrc, name }: UserAvatarProps) {
       <DropdownMenuContent className="z-[1000]">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
+        <DropdownMenuItem>Manage Settings</DropdownMenuItem>
         <DropdownMenuItem onClick={handleSignOut}>Log out</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -22,6 +22,7 @@ Table AppUser {
   lastName String
   photoUrl String
   foundLocations Int[] [not null]
+  username String
 }
 
 Table Game {

@@ -24,7 +24,6 @@ import {
 import { MarkerLocation } from "@/__generated__/graphql";
 import { Button } from "../ui/button";
 import { signInWithGoogle } from "@/lib/firebase/auth";
-import { useRouter } from "next/navigation";
 import { useQuery, useMutation } from "@apollo/client";
 import {
   ADD_TO_USER_FOUND,
@@ -35,14 +34,16 @@ import { UserRecord } from "firebase-admin/auth";
 import { hideFoundAtom, triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
 import { ZoomImage } from "../zoom-image";
+import { gameSlugAtom } from "@/store";
 
 interface MarkerProps {
-  gameSlug: string;
   marker: MarkerLocation;
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
 }
 
-export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
+export const Marker = ({ marker, user }: MarkerProps) => {
+  const gameSlug = useAtomValue(gameSlugAtom);
+
   const {
     id,
     title,
@@ -67,12 +68,13 @@ export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
     if (triggeredMarkerId == id && markerRef) {
       markerRef.current.openPopup();
     }
-  }, [triggeredMarkerId]);
+  }, [id, triggeredMarkerId]);
 
   const hideFound = useAtomValue(hideFoundAtom);
   const [markerFound, setMarkerFound] = useState(
     userData?.foundLocations?.includes(id)
   );
+  // eslint-disable-next-line no-unused-vars
   const [_, copy] = useCopyToClipboard();
 
   // build div icon
@@ -106,13 +108,13 @@ export const Marker = ({ gameSlug, marker, user }: MarkerProps) => {
         markerRef.current.openPopup();
       }
     }
-  }, [searchParams]);
+  }, [id, latitude, longitude, map, searchParams]);
 
   useEffect(() => {
     if (userData?.getUser.foundLocations) {
       setMarkerFound(userData.getUser.foundLocations?.includes(parseInt(id)));
     }
-  }, [userData]);
+  }, [id, userData]);
 
   const handleMarkerFound = () => {
     if (user?.email) {

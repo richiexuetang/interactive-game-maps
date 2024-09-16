@@ -36,6 +36,7 @@ model AppUser {
   lastName       String?
   photoUrl       String?
   foundLocations Int[]
+  username       String?
 }
 
 model Game {

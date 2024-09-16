@@ -2,7 +2,7 @@ import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
 import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
 import { hideFoundAtom, showMarkerAtom } from "@/store/marker";
 import { Checkbox } from "@/components/ui/checkbox";
-import { useAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import Image from "next/image";
@@ -17,17 +17,18 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { gameSlugAtom } from "@/store";
 
 interface MenuProps {
   groups: MarkerGroup[];
   markers: MarkerLocation[];
-  gameSlug: string;
   regions: Region[];
 }
 
-export const Menu = ({ groups, markers, gameSlug, regions }: MenuProps) => {
+export const Menu = ({ groups, markers, regions }: MenuProps) => {
   const [collapseMenu, setCollapseMenu] = useState(false);
 
+  const gameSlug = useAtomValue(gameSlugAtom);
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
   const [hideFound, setHideFound] = useAtom(hideFoundAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);

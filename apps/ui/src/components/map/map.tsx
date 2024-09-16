@@ -3,11 +3,7 @@
 import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
 import { Provider } from "jotai";
 import dynamic from "next/dynamic";
-import { Menu } from "../menu";
-import { getFontClassName } from "@/lib/font";
-import { cn } from "@/lib/utils";
 import { useMemo } from "react";
-import { UserAvatar } from "../user-avatar";
 import { UserRecord } from "firebase-admin/auth";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 
@@ -28,7 +24,6 @@ const RitcherMap = ({ region, groups, markers, regions, user }: MapProps) => {
   const Map = useMemo(
     () =>
       dynamic(() => import("./dynamic-map"), {
-        loading: () => <p>A map is loading</p>,
         ssr: false,
       }),
     []
@@ -37,28 +32,13 @@ const RitcherMap = ({ region, groups, markers, regions, user }: MapProps) => {
   return (
     <ApolloProvider client={client}>
       <Provider>
-        <div
-          className={cn(
-            getFontClassName(region.gameSlug),
-            "h-[calc(100vh-1rem)] overflow-hidden"
-          )}
-        >
-          <Menu
-            groups={groups}
-            markers={markers}
-            gameSlug={region.gameSlug}
-            regions={regions}
-          />
-          <Map region={region} markers={markers} user={user} />
-          {user?.email && (
-            <div className="z-[1000] absolute top-2 right-2">
-              <UserAvatar
-                imageSrc={user.photoURL ?? ""}
-                name={user.displayName ?? ""}
-              />
-            </div>
-          )}
-        </div>
+        <Map
+          region={region}
+          markers={markers}
+          user={user}
+          groups={groups}
+          regions={regions}
+        />
       </Provider>
     </ApolloProvider>
   );

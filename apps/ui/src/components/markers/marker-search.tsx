@@ -1,26 +1,21 @@
 import { useState } from "react";
 import { SearchIcon } from "../icons/search-icon";
 import { Button } from "../ui/button";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "../ui/tooltip";
 import { Input } from "../ui/input";
-import { useAtom, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
 import { useDebounceCallback } from "@/hooks/use-debounce-callback";
-import { MarkerLocation } from "@/__generated__/graphql";
 import { useMap } from "react-leaflet";
+import { currentMarkersAtom } from "@/store/map";
 
-export const MarkerSearch = ({ markers }: { markers: MarkerLocation[] }) => {
+export const MarkerSearch = () => {
   const [showInput, setShowInput] = useState(false);
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchFilterMarker, setSearchFilterMarker] = useAtom(
     searchFilterMarkerAtom
   );
   const [showFiltered, setShowFiltered] = useState(false);
+  const markers = useAtomValue(currentMarkersAtom);
 
   const setTriggeredMarkerId = useSetAtom(triggeredMarkerIdAtom);
   const map = useMap();
@@ -28,9 +23,10 @@ export const MarkerSearch = ({ markers }: { markers: MarkerLocation[] }) => {
 
   const inputSearchChange = (input: string) => {
     setSearchKeyword(input);
-    let filtered = markers.filter((marker) =>
-      marker.title.toLowerCase().includes(input.toLowerCase())
-    );
+    let filtered =
+      markers?.filter((marker) =>
+        marker.title.toLowerCase().includes(input.toLowerCase())
+      ) ?? [];
     if (input === "") {
       filtered = [];
     }
@@ -48,20 +44,13 @@ export const MarkerSearch = ({ markers }: { markers: MarkerLocation[] }) => {
           onChange={(e) => inputSearchChange(e.target.value)}
         />
       ) : (
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger>
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={() => setShowInput(!showInput)}
-              >
-                <SearchIcon className="h-4 w-4" />
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent>Search...</TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={() => setShowInput(!showInput)}
+        >
+          <SearchIcon className="h-5 w-5" />
+        </Button>
       )}
       {searchFilterMarker?.length > 0 && showFiltered && (
         <div className="flex flex-col gap-5 bg-slate-400">

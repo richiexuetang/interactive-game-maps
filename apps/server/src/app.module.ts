@@ -2,8 +2,6 @@ import { GraphQLModule } from "@nestjs/graphql";
 import { Logger, Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { PrismaModule, loggingMiddleware } from "nestjs-prisma";
-import { AuthModule } from "./auth/auth.module";
-import { UsersModule } from "./users/users.module";
 import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
@@ -14,7 +12,11 @@ import { AppUsersModule } from "./users/app-users.module";
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, load: [config] }),
+    ConfigModule.forRoot({
+      isGlobal: true,
+      load: [config],
+      envFilePath: ".env",
+    }),
     PrismaModule.forRoot({
       isGlobal: true,
       prismaServiceOptions: {
@@ -32,8 +34,6 @@ import { AppUsersModule } from "./users/app-users.module";
       useClass: GqlConfigService,
     }),
 
-    AuthModule,
-    UsersModule,
     GamesModule,
     RegionsModule,
     MarkersModule,

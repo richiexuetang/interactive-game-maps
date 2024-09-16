@@ -16,20 +16,6 @@ type AppUser {
   updatedAt: DateTime!
 }
 
-type Auth {
-  """JWT access token"""
-  accessToken: JWT!
-
-  """JWT refresh token"""
-  refreshToken: JWT!
-  user: User!
-}
-
-input ChangePasswordInput {
-  newPassword: String!
-  oldPassword: String!
-}
-
 input CreateGameInput {
   slug: String!
   thumbnailUrl: String!
@@ -63,16 +49,6 @@ type Game {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-}
-
-"""
-A field whose value is a JSON Web Token (JWT): https://jwt.io/introduction.
-"""
-scalar JWT
-
-input LoginInput {
-  email: String!
-  password: String!
 }
 
 type MarkerCategory {
@@ -140,14 +116,9 @@ type Media {
 
 type Mutation {
   addFoundLocations(data: UpdateFoundLocationInput!): AppUser!
-  changePassword(data: ChangePasswordInput!): User!
   createGame(data: CreateGameInput!): Game!
   createUser(data: CreateUserInput!): AppUser
-  login(data: LoginInput!): Auth!
-  refreshToken(token: JWT!): Token!
   removeFoundLocation(data: UpdateFoundLocationInput!): AppUser!
-  signup(data: SignupInput!): Auth!
-  updateUser(data: UpdateUserInput!): User!
 }
 
 """
@@ -165,7 +136,6 @@ type Query {
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
   getUser(email: String!): AppUser!
   locations(regionSlug: String): [MarkerLocation!]!
-  me: User!
   regionDetails(slug: String!): Region!
 }
 
@@ -202,19 +172,6 @@ enum RegionOrderField {
   title
 }
 
-"""User role"""
-enum Role {
-  ADMIN
-  USER
-}
-
-input SignupInput {
-  email: String!
-  firstName: String
-  lastName: String
-  password: String!
-}
-
 type SubRegion {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -228,34 +185,7 @@ type SubRegion {
   updatedAt: DateTime!
 }
 
-type Token {
-  """JWT access token"""
-  accessToken: JWT!
-
-  """JWT refresh token"""
-  refreshToken: JWT!
-}
-
 input UpdateFoundLocationInput {
   email: String!
   location: Float!
-}
-
-input UpdateUserInput {
-  firstName: String
-  lastName: String
-}
-
-type User {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  email: String!
-  firstName: String
-  id: ID!
-  lastName: String
-  locations: [MarkerLocation!]
-  role: Role!
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
 }

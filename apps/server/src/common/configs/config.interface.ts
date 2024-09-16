@@ -4,6 +4,19 @@ export interface Config {
   swagger: SwaggerConfig;
   graphql: GraphqlConfig;
   security: SecurityConfig;
+  google: GoogleConfig;
+  jwt: JwtConfig;
+}
+
+export interface JwtConfig {
+  secret: string;
+}
+
+export interface GoogleConfig {
+  clientID: string;
+  clientSecret: string;
+  scopes: string[];
+  callbackURL: string;
 }
 
 export interface NestConfig {
