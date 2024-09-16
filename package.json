@@ -13,7 +13,7 @@
     "migrate:reset": "pnpm --filter server migrate:reset",
     "seed": "pnpm --filter server seed",
     "server:build": "pnpm --filter server build",
-    "server:prod": "pnpm --filter server start:db && pnpm --filter server start:prod"
+    "server:prod": "pnpm --filter server start:prod"
   },
   "dependencies": {
     "@apollo/server": "^4.7.5",
