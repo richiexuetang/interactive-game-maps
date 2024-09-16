@@ -24,7 +24,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "start:db": "pnpm run migrate:up && pnpm run prisma:generate && pnpm run seed",
+    "start:db": "pnpm run migrate:deploy && pnpm run prisma:generate && pnpm run seed",
     "seed": "prisma db seed",
     "postinstall": "pnpm run prisma:generate",
     "docker:migrate": "docker-compose -f docker-compose.migrate.yml up -d",
