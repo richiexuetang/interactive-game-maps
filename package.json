@@ -13,7 +13,13 @@
     "migrate:reset": "pnpm --filter server migrate:reset",
     "seed": "pnpm --filter server seed",
     "server:build": "pnpm --filter server build",
-    "server:prod": "pnpm --filter server start:prod"
+    "server:prod": "pnpm --filter server start:prod",
+    "ui:build": "pnpm --filter ui build",
+    "ui:prod": "pnpm --filter ui start"
+  },
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "pnpm": "9.9.0"
   },
   "dependencies": {
     "@apollo/server": "^4.7.5",
@@ -70,6 +76,5 @@
     "ts-node": "10.9.1",
     "tsconfig-paths": "4.2.0",
     "typescript": "^5.1.6"
-  },
-  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+  }
 }
