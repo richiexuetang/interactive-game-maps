@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import { ThemeSwitcher } from "@/components/theme-switcher";
 import { ReactNode } from "react";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -20,7 +19,6 @@ export function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <ThemeSwitcher />
         </ThemeProvider>
       </body>
     </html>
