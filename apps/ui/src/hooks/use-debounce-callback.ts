@@ -41,7 +41,6 @@ type ControlFunctions = {
  * Note: If there are no previous invocations, the result will be undefined.
  * Ensure proper handling in your code.
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type DebouncedState<T extends (...args: any) => ReturnType<T>> = ((
   ...args: Parameters<T>
 ) => ReturnType<T> | undefined) &
@@ -70,7 +69,6 @@ export type DebouncedState<T extends (...args: any) => ReturnType<T>> = ((
  * debouncedCallback('react hooks'); // Will invoke the callback after 500 milliseconds of inactivity.
  * ```
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function useDebounceCallback<T extends (...args: any) => ReturnType<T>>(
   func: T,
   delay = 500,
