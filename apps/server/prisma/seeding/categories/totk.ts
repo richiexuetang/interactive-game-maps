@@ -6856,7 +6856,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Nachoyah Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-nachoyah-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6882,7 +6881,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gutanbac Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gutanbac-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6908,7 +6906,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ukouh Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukouh-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6934,7 +6931,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom In Isa Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-in-isa-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6960,7 +6956,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Yamiyo Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-yamiyo-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6986,7 +6981,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayachin Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayachin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7029,7 +7023,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jiosin Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jiosin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7055,7 +7048,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Zanmik Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zanmik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7081,7 +7073,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Turakawak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-turakawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7107,7 +7098,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayatat Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayatat-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7157,7 +7147,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ishodag Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ishodag-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7183,7 +7172,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jonsau Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jonsau-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7209,7 +7197,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Morok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-morok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7235,7 +7222,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Teniten Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-teniten-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7261,7 +7247,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tukarok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tukarok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7287,7 +7272,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Eutoum Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eutoum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7337,7 +7321,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ijo O Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ijo-o-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7356,7 +7339,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayaumekis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayaumekis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7389,7 +7371,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Runakit Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-runakit-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7415,7 +7396,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sahirow Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sahirow-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7473,7 +7453,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tajikats Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tajikats-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7499,7 +7478,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tauyosipun Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tauyosipun-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7532,7 +7510,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kyononis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kyononis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7558,7 +7535,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Susuyai Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-susuyai-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7584,7 +7560,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sonapan Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sonapan-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7682,7 +7657,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Orochium Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-orochium-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7708,7 +7682,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kiuyoyou Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kiuyoyou-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7727,7 +7700,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayausiy Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayausiy-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7770,7 +7742,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Nouda Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-nouda-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7813,7 +7784,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taki Ihaban Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taki-ihaban-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7839,7 +7809,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Oshozan U Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-oshozan-u-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7858,7 +7827,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kahatanaum Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kahatanaum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7884,7 +7852,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marakuguc Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marakuguc-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7951,7 +7918,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jogou Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jogou-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8001,7 +7967,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Turakawak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-turakawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8027,7 +7992,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ikatak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ikatak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8053,7 +8017,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Iun Orok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-iun-orok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8072,7 +8035,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Makurukis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-makurukis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8098,7 +8060,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Usazum Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-usazum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8117,7 +8078,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tsutsu Um Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tsutsu-um-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8160,7 +8120,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kudanisar Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kudanisar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8193,7 +8152,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayamats Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayamats-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8226,7 +8184,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Otutsum Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-otutsum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8252,7 +8209,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rakashog Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rakashog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8295,7 +8251,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ren Iz Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ren-iz-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8321,7 +8276,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kyokugon Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kyokugon-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8364,7 +8318,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Riogok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-riogok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8390,7 +8343,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jojon Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jojon-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8416,7 +8368,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayachideg Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayachideg-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8452,7 +8403,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Timawak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-timawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8471,7 +8421,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Isisim Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-isisim-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8497,7 +8446,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taunhiy Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taunhiy-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8523,7 +8471,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Utsushok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-utsushok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8549,7 +8496,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gemimik Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gemimik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8568,7 +8514,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igashuk Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igashuk-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8601,7 +8546,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marari In Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marari-in-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8644,7 +8588,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Zakusu Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zakusu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8709,7 +8652,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jikais Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jikais-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8752,7 +8694,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Joju U U Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joju-u-u-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8778,7 +8719,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sifumim Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sifumim-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8804,7 +8744,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ekochiu Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ekochiu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8847,7 +8786,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Yomizuk Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-yomizuk-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8873,7 +8811,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tadarok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tadarok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8892,7 +8829,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Motsusis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-motsusis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8925,7 +8861,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kimayat Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kimayat-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8951,7 +8886,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kamatukis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kamatukis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8970,7 +8904,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayaotaki Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayaotaki-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8996,7 +8929,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Domizuin Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-domizuin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9022,7 +8954,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Eshos Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eshos-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9096,7 +9027,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Siwakama Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-siwakama-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9170,7 +9100,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kitawak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kitawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9237,7 +9166,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Miryotanog Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-miryotanog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9263,7 +9191,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Minetak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-minetak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9289,7 +9216,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Momosik Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-momosik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9322,7 +9248,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Makasura Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-makasura-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9372,7 +9297,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sepapa Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sepapa-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9391,7 +9315,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Serutabomac Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-serutabomac-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9410,7 +9333,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sihajog Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sihajog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9484,7 +9406,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kadaunar Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kadaunar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9510,7 +9431,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Josiu Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-josiu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9577,7 +9497,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gikaku Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gikaku-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9603,7 +9522,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kumamayn Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kumamayn-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9653,7 +9571,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ukoojisi Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukoojisi-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9672,7 +9589,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayasiar Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayasiar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9698,7 +9614,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jinodok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jinodok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9724,7 +9639,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Joku Usin Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joku-usin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9750,7 +9664,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Simosiwak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-simosiwak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9769,7 +9682,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tenbez Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tenbez-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9795,7 +9707,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taninoud Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taninoud-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9821,7 +9732,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ga Ahisas Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ga-ahisas-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9854,7 +9764,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ganos Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ganos-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9880,7 +9789,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Siyamotsus Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-siyamotsus-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9968,7 +9876,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jirutagumac Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jirutagumac-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10042,7 +9949,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mogisari Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mogisari-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10068,7 +9974,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Otak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-otak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10101,7 +10006,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sisuran Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sisuran-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10127,7 +10031,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rutafu Um Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rutafu-um-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10159,7 +10062,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title: "Zelda Tears Of The Kingdom How To Tame The Giant Horse",
             fileName: "",
-
             url: "https://www.ign.com/videos/zelda-tears-of-the-kingdom-how-to-tame-the-giant-horse",
             type: "ign_video",
             mimeType: "mp4",
@@ -10281,7 +10183,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jochi Ihiga Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jochi-ihiga-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10331,7 +10232,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ninjis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ninjis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10357,7 +10257,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Musanokir Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-musanokir-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10383,7 +10282,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Pupunke Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pupunke-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10409,7 +10307,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sakunbomar Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sakunbomar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10442,7 +10339,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tenmaten Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tenmaten-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10468,7 +10364,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Wao Os Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-wao-os-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10494,7 +10389,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Joniu Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joniu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10568,7 +10462,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Maoikes Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-maoikes-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10624,7 +10517,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Lookout Landing Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lookout-landing-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10650,7 +10542,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hyrule Field Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hyrule-field-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10676,7 +10567,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sahasra Slope Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sahasra-slope-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10702,7 +10592,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Upland Zorana Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-upland-zorana-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10728,7 +10617,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ulri Mountains Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ulri-mountains-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10754,7 +10642,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mount Lanayru Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mount-lanayru-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10780,7 +10667,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rabella Wetlands Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rabella-wetlands-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10806,7 +10692,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Popla Foothills Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-popla-foothills-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10832,7 +10717,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gerudo Canyon Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gerudo-canyon-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10858,7 +10742,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gerudo Highlands Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gerudo-highlands-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10884,7 +10767,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Lindors Brow Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lindors-brow-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10910,7 +10792,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rospro Pass Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rospro-pass-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10936,7 +10817,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Pikida Stonegrove Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pikida-stonegrove-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10962,7 +10842,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Thyphlo Ruins Skyview Tower Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-thyphlo-ruins-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -11139,7 +11018,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Camera Work In The Depths Where To Find Robbie",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
             type: "ign_video",
             mimeType: "mp4",
@@ -11989,7 +11867,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sihajog Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sihajog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -32169,7 +32046,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title: "How To Get The Master Sword In Tears Of The Kingdom",
             fileName: "",
-
             url: "https://www.ign.com/videos/how-to-get-the-master-sword-in-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -32697,7 +32573,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Filling Out The Compendium Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-filling-out-the-compendium-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -42092,7 +41967,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Silver Rupee [Chest]",
-        description: null,
+
         latitude: "0.69103001330555",
         longitude: "-0.64591855225746",
       },
@@ -42406,7 +42281,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Shield [Chest]",
-        description: null,
+
         latitude: "0.82271690511188",
         longitude: "-0.55512173775415",
       },
@@ -42490,7 +42365,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Shield",
-        description: null,
+
         latitude: "0.45775821930454",
         longitude: "-0.42157929238829",
       },
@@ -42505,7 +42380,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Shield [Chest]",
-        description: null,
+
         latitude: "1.11548658900490",
         longitude: "-0.65489420609146",
       },
@@ -42520,7 +42395,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Radiant Shield",
-        description: null,
+
         latitude: "0.64873642617471",
         longitude: "-0.82605078135447",
       },
@@ -42588,7 +42463,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Royal Guard's Shield",
-        description: null,
+
         latitude: "0.76526628125396",
         longitude: "-0.45133757650609",
       },
@@ -42602,7 +42477,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Rusty Shield [Chest]",
-        description: null,
+
         latitude: "0.76622601846896",
         longitude: "-0.65878745210193",
       },
@@ -42632,14 +42507,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Shield [Chest]",
-        description: null,
+
         latitude: "0.93378665469977",
         longitude: "-0.66303905593534",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Shield [Chest]",
-        description: null,
+
         latitude: "0.93163329028292",
         longitude: "-0.76086586814426",
       },
@@ -42661,14 +42536,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zoanite Shield [Chest]",
-        description: null,
+
         latitude: "1.16094739080800",
         longitude: "-0.55078677199244",
       },
       {
         regionSlug: "hyrule",
         title: "Zora Shield [Chest]",
-        description: null,
+
         latitude: "1.07800692394750",
         longitude: "-0.43846930545635",
       },
@@ -42691,7 +42566,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Gerudo Shield [Chest]",
-        description: null,
+
         latitude: "0.58457643989982",
         longitude: "-0.78523897133553",
       },
@@ -42705,7 +42580,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Topaz Shield [Chest]",
-        description: null,
+
         latitude: "0.66075555426168",
         longitude: "-0.62673055680489",
       },
@@ -42726,28 +42601,28 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knight Sheild [Chest]",
-        description: null,
+
         latitude: "0.77536311793645",
         longitude: "-0.59159090712387",
       },
       {
         regionSlug: "hyrule",
         title: "Zora Shield [Chest]",
-        description: null,
+
         latitude: "0.71279242007186",
         longitude: "-0.58286451108782",
       },
       {
         regionSlug: "hyrule",
         title: "Lizal Shield [Chest]",
-        description: null,
+
         latitude: "0.62022327023291",
         longitude: "-0.61384835352171",
       },
       {
         regionSlug: "hyrule",
         title: "Shield of the Mind's Eye [Chest]",
-        description: null,
+
         latitude: "0.63176812102839",
         longitude: "-0.67918448415900",
       },
@@ -42769,7 +42644,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Shield [Chest]",
-        description: null,
+
         latitude: "1.15964616084830",
         longitude: "-0.72848023822850",
       },
@@ -42814,7 +42689,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zora Shield",
-        description: null,
+
         latitude: "1.06481332603260",
         longitude: "-0.59757845502730",
       },
@@ -42828,7 +42703,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Shield",
-        description: null,
+
         latitude: "0.82129645973676",
         longitude: "-0.55645510515254",
       },
@@ -42901,7 +42776,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Rusty Broadsword",
-        description: null,
+
         latitude: "0.99653463135911",
         longitude: "-0.68952968423878",
       },
@@ -43022,7 +42897,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Torch",
-        description: null,
+
         latitude: "0.72938785491242",
         longitude: "-0.71477397333874",
       },
@@ -43112,7 +42987,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Rusty Claymore",
-        description: null,
+
         latitude: "0.77777030510661",
         longitude: "-0.73773623362220",
       },
@@ -43255,7 +43130,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonaite Sword",
-        description: null,
+
         latitude: "1.08388809970110",
         longitude: "-0.64801328233184",
       },
@@ -43270,7 +43145,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Wooden Stick",
-        description: null,
+
         latitude: "1.00489421637550",
         longitude: "-0.68669114308182",
       },
@@ -43290,7 +43165,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Stone Axe",
-        description: null,
+
         latitude: "1.00411991865690",
         longitude: "-0.70282390590091",
       },
@@ -43511,7 +43386,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Royal Guard's Spear [Chest]",
-        description: null,
+
         latitude: "0.75197774764173",
         longitude: "-0.59669742382400",
       },
@@ -43558,7 +43433,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword [Chest]",
-        description: null,
+
         latitude: "0.76426118531229",
         longitude: "-0.72878456934032",
       },
@@ -43579,14 +43454,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Spiked Iron Ball Hammer [Chest]",
-        description: null,
+
         latitude: "0.75328207290310",
         longitude: "-0.79874239899902",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword [Chest]",
-        description: null,
+
         latitude: "0.76362484315138",
         longitude: "-0.77756354442667",
       },
@@ -43646,7 +43521,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonaite Bow",
-        description: null,
+
         latitude: "1.16417491047780",
         longitude: "-0.54953864798546",
       },
@@ -43661,7 +43536,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Construct Bow",
-        description: null,
+
         latitude: "0.82347791285177",
         longitude: "-0.55728356848599",
       },
@@ -43699,21 +43574,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonaite Spear",
-        description: null,
+
         latitude: "1.08483407015740",
         longitude: "-0.64812614976668",
       },
       {
         regionSlug: "hyrule",
         title: "Zonaite Sword [Chest]",
-        description: null,
+
         latitude: "1.08446021093490",
         longitude: "-0.65241203546577",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword*",
-        description: null,
+
         latitude: "0.35152623144150",
         longitude: "-0.72845266113330",
       },
@@ -43736,7 +43611,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Lizal Blade [Chest]",
-        description: null,
+
         latitude: "0.74261604904535",
         longitude: "-0.77243731175216",
       },
@@ -43765,7 +43640,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonaite Spear [Chest]",
-        description: null,
+
         latitude: "0.79385729164295",
         longitude: "-0.79089612859585",
       },
@@ -43780,35 +43655,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword*",
-        description: null,
+
         latitude: "0.46838207872577",
         longitude: "-0.64233951769228",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore*",
-        description: null,
+
         latitude: "0.47245173440294",
         longitude: "-0.62988134532591",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Sword*",
-        description: null,
+
         latitude: "0.47450680500937",
         longitude: "-0.62781141936156",
       },
       {
         regionSlug: "hyrule",
         title: "Strong Construct Bow [Chest]",
-        description: null,
+
         latitude: "0.47064469458091",
         longitude: "-0.65133254635714",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword*",
-        description: null,
+
         latitude: "0.47155661481956",
         longitude: "-0.65059225666869",
       },
@@ -43829,7 +43704,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Royal Claymore",
-        description: null,
+
         latitude: "0.63160313334407",
         longitude: "-0.74451465380790",
       },
@@ -43934,7 +43809,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Sword [Chest]",
-        description: null,
+
         latitude: "0.68375348303518",
         longitude: "-0.71966486571293",
       },
@@ -43977,7 +43852,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Claymore",
-        description: null,
+
         latitude: "0.45503504098829",
         longitude: "-0.70293821180053",
       },
@@ -44007,21 +43882,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Spear [Chest]",
-        description: null,
+
         latitude: "0.93603564530912",
         longitude: "-0.76193189354171",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Sword [Chest]",
-        description: null,
+
         latitude: "0.93605710011738",
         longitude: "-0.75986122818171",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Longsword [Chest]",
-        description: null,
+
         latitude: "0.93396525565684",
         longitude: "-0.76196408004920",
       },
@@ -44246,14 +44121,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier II Reaper [Chest]",
-        description: null,
+
         latitude: "1.07359243566940",
         longitude: "-0.59323701085788",
       },
       {
         regionSlug: "hyrule",
         title: "Captain II Spear [Chest]",
-        description: null,
+
         latitude: "1.07430041446200",
         longitude: "-0.59200319470975",
       },
@@ -44296,14 +44171,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Sea-Breeze Boomerang",
-        description: null,
+
         latitude: "0.47308457506720",
         longitude: "-0.79115552899586",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Sword [Chest]",
-        description: null,
+
         latitude: "0.82240580092882",
         longitude: "-0.55225713852644",
       },
@@ -44358,7 +44233,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier III Blade [Chest]",
-        description: null,
+
         latitude: "1.06303194441530",
         longitude: "-0.59552406939707",
       },
@@ -44423,49 +44298,49 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Traveler's Sword",
-        description: null,
+
         latitude: "0.39729938730960",
         longitude: "-0.70069163962759",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Spear",
-        description: null,
+
         latitude: "0.39869410234729",
         longitude: "-0.69906085654605",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Spear",
-        description: null,
+
         latitude: "0.39315498607107",
         longitude: "-0.71616159014897",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword",
-        description: null,
+
         latitude: "0.39051492808736",
         longitude: "-0.73581482107733",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore",
-        description: null,
+
         latitude: "0.31606016078753",
         longitude: "-0.72055946650607",
       },
       {
         regionSlug: "hyrule",
         title: "Throwing Spear",
-        description: null,
+
         latitude: "0.31624041000320",
         longitude: "-0.71850854821832",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Sword",
-        description: null,
+
         latitude: "0.31471693837717",
         longitude: "-0.71935612626680",
       },
@@ -44592,14 +44467,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword",
-        description: null,
+
         latitude: "0.31658044168252",
         longitude: "-0.70652294052243",
       },
       {
         regionSlug: "hyrule",
         title: "Knight's Broadsword",
-        description: null,
+
         latitude: "0.31509359744693",
         longitude: "-0.58825541378383",
       },
@@ -44635,14 +44510,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Cobble Crusher*",
-        description: null,
+
         latitude: "0.46951753009699",
         longitude: "-0.61274465460872",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore",
-        description: null,
+
         latitude: "0.45023192646670",
         longitude: "-0.62484838589174",
       },
@@ -44672,7 +44547,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword*",
-        description: null,
+
         latitude: "0.44123230779579",
         longitude: "-0.60205531507600",
       },
@@ -44700,35 +44575,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonaite Bow [Chest]",
-        description: null,
+
         latitude: "0.49814239783862",
         longitude: "-0.55201159264183",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier IV Spear",
-        description: null,
+
         latitude: "0.49808949982375",
         longitude: "-0.55456865994722",
       },
       {
         regionSlug: "hyrule",
         title: "Cobble Crusher",
-        description: null,
+
         latitude: "0.45205596975745",
         longitude: "-0.61625772250332",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Construct Bow",
-        description: null,
+
         latitude: "0.81839299771099",
         longitude: "-0.55385757057888",
       },
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Spear",
-        description: null,
+
         latitude: "0.82347114465048",
         longitude: "-0.54926650181832",
       },
@@ -44742,7 +44617,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knight's Halberd",
-        description: null,
+
         latitude: "0.34369425957827",
         longitude: "-0.66242625491483",
       },
@@ -44799,7 +44674,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Traveler's Spear",
-        description: null,
+
         latitude: "0.45271862029585",
         longitude: "-0.63180120429382",
       },
@@ -44814,7 +44689,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soup Ladle",
-        description: null,
+
         latitude: "0.73022181796314",
         longitude: "-0.71416291185389",
       },
@@ -44955,21 +44830,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Torch",
-        description: null,
+
         latitude: "0.82192891670765",
         longitude: "-0.55354791041398",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Longsword",
-        description: null,
+
         latitude: "1.15961412255110",
         longitude: "-0.73248373755132",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Sword",
-        description: null,
+
         latitude: "1.16284283897430",
         longitude: "-0.72895395049005",
       },
@@ -45000,7 +44875,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Broadsword",
-        description: null,
+
         latitude: "0.49376962088026",
         longitude: "-0.69953148838223",
       },
@@ -45044,35 +44919,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knights Claymore [Chest]",
-        description: null,
+
         latitude: "0.82163766655985",
         longitude: "-0.69557172644193",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Spear",
-        description: null,
+
         latitude: "0.95664861546358",
         longitude: "-0.67486725851720",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Guard's Sword*",
-        description: null,
+
         latitude: "0.34875267212055",
         longitude: "-0.81145521847378",
       },
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Longsword [Chest]",
-        description: null,
+
         latitude: "1.14645933828310",
         longitude: "-0.63556014572231",
       },
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Spear [Chest]",
-        description: null,
+
         latitude: "1.13925956091920",
         longitude: "-0.64351325085599",
       },
@@ -45087,14 +44962,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Gerudo Bow",
-        description: null,
+
         latitude: "0.64867929391303",
         longitude: "-0.82570796581271",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Broadsword [Chest]",
-        description: null,
+
         latitude: "0.65295376261139",
         longitude: "-0.73452142258364",
       },
@@ -45108,14 +44983,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Spiked Iron Ball Hammer [Chest]",
-        description: null,
+
         latitude: "0.79655933564156",
         longitude: "-0.67352106121071",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Bow [Chest]",
-        description: null,
+
         latitude: "0.80393087930575",
         longitude: "-0.56903521925335",
       },
@@ -45137,7 +45012,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knight's Broadsword [Chest]",
-        description: null,
+
         latitude: "0.72091893409593",
         longitude: "-0.61880126327318",
       },
@@ -45182,21 +45057,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Forest Dweller's Sword [Chest]",
-        description: null,
+
         latitude: "0.65086009081598",
         longitude: "-0.67574411275433",
       },
       {
         regionSlug: "hyrule",
         title: "Giant Boomerang [Chest]",
-        description: null,
+
         latitude: "0.63939087268729",
         longitude: "-0.69040719839182",
       },
       {
         regionSlug: "hyrule",
         title: "Strong Construct Bow 2x",
-        description: null,
+
         latitude: "0.47660315092952",
         longitude: "-0.63978921047479",
       },
@@ -45210,7 +45085,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore",
-        description: null,
+
         latitude: "0.48126121238026",
         longitude: "-0.70396512292362",
       },
@@ -45259,7 +45134,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knight Sword",
-        description: null,
+
         latitude: "0.25726598602836",
         longitude: "-0.84608191976994",
       },
@@ -45362,7 +45237,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore",
-        description: null,
+
         latitude: "0.40165308903788",
         longitude: "-0.59822963634591",
       },
@@ -45390,14 +45265,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Strong Zonaite Longsword [Chest]",
-        description: null,
+
         latitude: "0.46009906241743",
         longitude: "-0.50014007807690",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier II Reaper [Chest]",
-        description: null,
+
         latitude: "0.46079307504418",
         longitude: "-0.42945532415408",
       },
@@ -45434,7 +45309,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Strengthened Lizal Bow",
-        description: null,
+
         latitude: "0.77495738344146",
         longitude: "-0.49160229075130",
       },
@@ -45476,14 +45351,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Bow",
-        description: null,
+
         latitude: "0.78243181380381",
         longitude: "-0.49755762768729",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Guard's Bow [Chest]",
-        description: null,
+
         latitude: "0.77831232288219",
         longitude: "-0.49737523747365",
       },
@@ -45497,42 +45372,42 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Royal Claymore",
-        description: null,
+
         latitude: "0.77363368209396",
         longitude: "-0.37066974856145",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Claymore",
-        description: null,
+
         latitude: "0.77713545539184",
         longitude: "-0.37103777420890",
       },
       {
         regionSlug: "hyrule",
         title: "Knight's Claymore",
-        description: null,
+
         latitude: "0.78029646611863",
         longitude: "-0.37465425092697",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Guard's Spear",
-        description: null,
+
         latitude: "0.77665150260131",
         longitude: "-0.37295078011331",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Halberd [Chest]",
-        description: null,
+
         latitude: "0.76682967014337",
         longitude: "-0.45189827285247",
       },
       {
         regionSlug: "hyrule",
         title: "Knight's Broadsword",
-        description: null,
+
         latitude: "0.76444023919322",
         longitude: "-0.45278725426189",
       },
@@ -45611,7 +45486,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knight's Bow [Chest]",
-        description: null,
+
         latitude: "0.76607582819265",
         longitude: "-0.65892692697091",
       },
@@ -45655,7 +45530,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore*",
-        description: null,
+
         latitude: "0.35344035223301",
         longitude: "-0.67182382848870",
       },
@@ -45677,77 +45552,77 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Cobble Crusher [Chest]",
-        description: null,
+
         latitude: "0.77542160322069",
         longitude: "-0.64941272835296",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Construct Bow [Chest]",
-        description: null,
+
         latitude: "0.46353087558838",
         longitude: "-0.63880574386496",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Construct Bow [Chest]",
-        description: null,
+
         latitude: "0.46712050189619",
         longitude: "-0.64226087313352",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Construct Bow [Chest]",
-        description: null,
+
         latitude: "0.45031975648436",
         longitude: "-0.61714525760777",
       },
       {
         regionSlug: "hyrule",
         title: "Cobble Crusher [Chest]",
-        description: null,
+
         latitude: "0.77395277495305",
         longitude: "-0.61591620891542",
       },
       {
         regionSlug: "hyrule",
         title: "Zora Spear",
-        description: null,
+
         latitude: "0.40491211660327",
         longitude: "-0.60708265875328",
       },
       {
         regionSlug: "hyrule",
         title: "Gerudo Scimitar*",
-        description: null,
+
         latitude: "0.26359591772373",
         longitude: "-0.80003450486598",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Claymore*",
-        description: null,
+
         latitude: "0.26611716726565",
         longitude: "-0.80237339112409",
       },
       {
         regionSlug: "hyrule",
         title: "Gerudo Claymore",
-        description: null,
+
         latitude: "0.59838673984706",
         longitude: "-0.91048504271720",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier's Spear*",
-        description: null,
+
         latitude: "0.26346717307477",
         longitude: "-0.80424020860653",
       },
       {
         regionSlug: "hyrule",
         title: "Traveler's Spear*",
-        description: null,
+
         latitude: "0.45298017618866",
         longitude: "-0.56662154741701",
       },
@@ -45806,21 +45681,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier IV Blade [Chest]",
-        description: null,
+
         latitude: "1.16289105597020",
         longitude: "-0.55494956038356",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier IV Spear [Chest]",
-        description: null,
+
         latitude: "1.16451146701510",
         longitude: "-0.55641391799938",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier IV Sword [Chest]",
-        description: null,
+
         latitude: "1.16592770462550",
         longitude: "-0.55210100363371",
       },
@@ -45841,28 +45716,28 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier Blade [Chest]",
-        description: null,
+
         latitude: "0.26601475735234",
         longitude: "-0.76140661557582",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier Spear [Chest]",
-        description: null,
+
         latitude: "0.26773135250099",
         longitude: "-0.76171775182038",
       },
       {
         regionSlug: "hyrule",
         title: "Zonaite Bow",
-        description: null,
+
         latitude: "0.26784936840895",
         longitude: "-0.76009769757562",
       },
       {
         regionSlug: "hyrule",
         title: "Soldier Reaper [Chest]",
-        description: null,
+
         latitude: "0.26953377714828",
         longitude: "-0.76031227429729",
       },
@@ -45936,7 +45811,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Soldier's Claymore [Chest]",
-        description: null,
+
         latitude: "0.70579099362429",
         longitude: "-0.82922103024524",
       },
@@ -45950,7 +45825,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Royal Halberd [Chest]",
-        description: null,
+
         latitude: "0.65899144524823",
         longitude: "-0.85620763584950",
       },
@@ -45972,7 +45847,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Gnarled Thick Stick [Chest]",
-        description: null,
+
         latitude: "0.80890793730934",
         longitude: "-0.56893413113977",
       },
@@ -46002,14 +45877,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Royal Bow [Chest]",
-        description: null,
+
         latitude: "0.78344911723681",
         longitude: "-0.74400573681655",
       },
       {
         regionSlug: "hyrule",
         title: "Knight's Claymore [Chest]",
-        description: null,
+
         latitude: "0.79369400272083",
         longitude: "-0.54854934839938",
       },
@@ -46031,21 +45906,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Gerudo Scimitar [Chest]",
-        description: null,
+
         latitude: "0.58410439566369",
         longitude: "-0.78277133904226",
       },
       {
         regionSlug: "hyrule",
         title: "Gerudo Bow [Chest]",
-        description: null,
+
         latitude: "0.58250687498148",
         longitude: "-0.78516836290180",
       },
       {
         regionSlug: "hyrule",
         title: "Zora Longsword*",
-        description: null,
+
         latitude: "0.37793182037106",
         longitude: "-0.64787444934882",
       },
@@ -46081,14 +45956,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonaite Longsword [Chest]",
-        description: null,
+
         latitude: "0.58955535636277",
         longitude: "-0.76259376308167",
       },
       {
         regionSlug: "hyrule",
         title: "Bow [Chest]",
-        description: null,
+
         latitude: "0.61830273861493",
         longitude: "-0.82512390549869",
       },
@@ -46108,7 +45983,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Knight's Bow [Chest]",
-        description: null,
+
         latitude: "0.63423764944350",
         longitude: "-0.82106922233770",
       },
@@ -46127,21 +46002,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Lizal Bow [Chest]",
-        description: null,
+
         latitude: "0.70688248055924",
         longitude: "-0.63918914011109",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Bow [Chest]",
-        description: null,
+
         latitude: "0.73941180997606",
         longitude: "-0.61769963450990",
       },
       {
         regionSlug: "hyrule",
         title: "Royal Claymore [Chest]",
-        description: null,
+
         latitude: "0.77572786494518",
         longitude: "-0.59144070341833",
       },
@@ -46163,7 +46038,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zora Sword [Chest]",
-        description: null,
+
         latitude: "0.70823932542406",
         longitude: "-0.58502917815858",
       },
@@ -46198,42 +46073,42 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Spiked Iron-ball Hammer [Chest]",
-        description: null,
+
         latitude: "0.75243028730368",
         longitude: "-0.63867487001451",
       },
       {
         regionSlug: "hyrule",
         title: "Eightfold Blade - Halberd [Chest]",
-        description: null,
+
         latitude: "0.66786746680576",
         longitude: "-0.65309301081541",
       },
       {
         regionSlug: "hyrule",
         title: "Lynel Bow [Chest]",
-        description: null,
+
         latitude: "0.66962764342306",
         longitude: "-0.63137815093407",
       },
       {
         regionSlug: "hyrule",
         title: "Boko Reaper [Chest]",
-        description: null,
+
         latitude: "0.62661854196508",
         longitude: "-0.60433363330896",
       },
       {
         regionSlug: "hyrule",
         title: "Lynel Bow [Chest]",
-        description: null,
+
         latitude: "0.61566117518665",
         longitude: "-0.63923317152272",
       },
       {
         regionSlug: "hyrule",
         title: "Claymore [Chest]",
-        description: null,
+
         latitude: "0.62509088588718",
         longitude: "-0.65606888454819",
       },
@@ -46247,49 +46122,49 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Lizal Bow [Chest]",
-        description: null,
+
         latitude: "0.60164849695715",
         longitude: "-0.66672952657294",
       },
       {
         regionSlug: "hyrule",
         title: "Lynel Bow [Chest]",
-        description: null,
+
         latitude: "0.58863258397927",
         longitude: "-0.67804088580043",
       },
       {
         regionSlug: "hyrule",
         title: "Gnarled Wooden Stick",
-        description: null,
+
         latitude: "0.60125785613451",
         longitude: "-0.68211226502001",
       },
       {
         regionSlug: "hyrule",
         title: "Gnarled Thick Stick [Chest]",
-        description: null,
+
         latitude: "0.62661592135174",
         longitude: "-0.68484374291259",
       },
       {
         regionSlug: "hyrule",
         title: "Bomb-Barrel Spear [Chest]",
-        description: null,
+
         latitude: "0.58863086049294",
         longitude: "-0.71488740512886",
       },
       {
         regionSlug: "hyrule",
         title: "Zonaite Spear",
-        description: null,
+
         latitude: "0.61080336550491",
         longitude: "-0.72885704341009",
       },
       {
         regionSlug: "hyrule",
         title: "Gerudo Bow",
-        description: null,
+
         latitude: "0.60671833950453",
         longitude: "-0.78865728216428",
       },
@@ -46310,7 +46185,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Spear [Chest]",
-        description: null,
+
         latitude: "1.16048470135430",
         longitude: "-0.73248705023886",
       },
@@ -46325,21 +46200,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Sword [Chest]",
-        description: null,
+
         latitude: "0.59353837613723",
         longitude: "-0.76195156553152",
       },
       {
         regionSlug: "hyrule",
         title: "Knight's Broadsword [Chest]",
-        description: null,
+
         latitude: "0.64900970591609",
         longitude: "-0.71049335294931",
       },
       {
         regionSlug: "hyrule",
         title: "Mighty Zonaite Spear [Chest]",
-        description: null,
+
         latitude: "0.82194043852504",
         longitude: "-0.55733151987518",
       },
@@ -46413,21 +46288,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Bomb Flowers x10 [Chest]",
-        description: null,
+
         latitude: "0.80958068765511",
         longitude: "-0.54822083232116",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.34262609290312",
         longitude: "-0.63276172454769",
       },
       {
         regionSlug: "hyrule",
         title: "Two-Handed Sword*",
-        description: null,
+
         latitude: "0.34293585298957",
         longitude: "-0.62967631714818",
       },
@@ -46448,35 +46323,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Two-Handed Sword*",
-        description: null,
+
         latitude: "0.32265103596096",
         longitude: "-0.63931368709905",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.32215751731519",
         longitude: "-0.64229630352364",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.32387410380464",
         longitude: "-0.64069770695082",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.31573407248557",
         longitude: "-0.64379084351702",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.31487280235305",
         longitude: "-0.64535503855618",
       },
@@ -46490,21 +46365,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.32188234635588",
         longitude: "-0.62920398062744",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.32284792631731",
         longitude: "-0.62894648856170",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.32251127865000",
         longitude: "-0.62178602176024",
       },
@@ -46525,147 +46400,147 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.27009066618062",
         longitude: "-0.66740496969419",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.34406646344156",
         longitude: "-0.60513667405993",
       },
       {
         regionSlug: "hyrule",
         title: "Two-Handed Sword",
-        description: null,
+
         latitude: "0.34894659845071",
         longitude: "-0.61432622610943",
       },
       {
         regionSlug: "hyrule",
         title: "Two-Handed Sword*",
-        description: null,
+
         latitude: "0.42563656181721",
         longitude: "-0.56348721955504",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.43409912692015",
         longitude: "-0.56825608651974",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.43373369892582",
         longitude: "-0.55666927259128",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.43259175844454",
         longitude: "-0.60546496849204",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.44034038772800",
         longitude: "-0.58870608671998",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.43598971281196",
         longitude: "-0.58257216842367",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.47914169950776",
         longitude: "-0.55262298941415",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.47681432690943",
         longitude: "-0.64108011986755",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.48330123634237",
         longitude: "-0.65454740288976",
       },
       {
         regionSlug: "hyrule",
         title: "Two-Handed Sword",
-        description: null,
+
         latitude: "0.40894171993760",
         longitude: "-0.55891031031953",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword",
-        description: null,
+
         latitude: "0.40543258660915",
         longitude: "-0.56503322897896",
       },
       {
         regionSlug: "hyrule",
         title: "One-Handed Sword*",
-        description: null,
+
         latitude: "0.47805892848032",
         longitude: "-0.79774111769589",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.41778544322635",
         longitude: "-0.82637075145260",
       },
       {
         regionSlug: "hyrule",
         title: "Claymore*",
-        description: null,
+
         latitude: "0.42397143309981",
         longitude: "-0.80162168805435",
       },
       {
         regionSlug: "hyrule",
         title: "One Handed Sword*",
-        description: null,
+
         latitude: "0.39109972803541",
         longitude: "-0.81922503489102",
       },
       {
         regionSlug: "hyrule",
         title: "One Handed Sword*",
-        description: null,
+
         latitude: "0.39267534213749",
         longitude: "-0.75040912508015",
       },
       {
         regionSlug: "hyrule",
         title: "One Handed Sword*",
-        description: null,
+
         latitude: "0.39721353197307",
         longitude: "-0.74942207216316",
       },
       {
         regionSlug: "hyrule",
         title: "Spear*",
-        description: null,
+
         latitude: "0.41746217993851",
         longitude: "-0.74916173296057",
       },
@@ -46693,7 +46568,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Korok Spear*",
-        description: null,
+
         latitude: "0.44364584904326",
         longitude: "-0.68390817656925",
       },
@@ -46822,28 +46697,28 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.13621217977240",
         longitude: "-0.69044210807974",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.00345685371900",
         longitude: "-0.72505501088901",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.29871531867217",
         longitude: "-0.80652355904346",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.81903772131061",
         longitude: "-0.55630248892629",
         media: [
@@ -46866,28 +46741,28 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.07783811284210",
         longitude: "-0.64514868310394",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.07819601972390",
         longitude: "-0.64392092045489",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.07778839611080",
         longitude: "-0.64602377232257",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.08407164628800",
         longitude: "-0.64060087269328",
       },
@@ -46922,7 +46797,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "2x Zonai Charge",
-        description: null,
+
         latitude: "1.00798084522530",
         longitude: "-0.69520186848846",
       },
@@ -46944,7 +46819,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.70904083806637",
         longitude: "-0.69328446749137",
       },
@@ -46966,7 +46841,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.67444251656057",
         longitude: "-0.72635371380647",
         media: [
@@ -46997,7 +46872,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge",
-        description: null,
+
         latitude: "1.04492242910410",
         longitude: "-0.67275014687667",
       },
@@ -47026,7 +46901,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge",
-        description: null,
+
         latitude: "1.04046555123760",
         longitude: "-0.68410720488262",
       },
@@ -47048,21 +46923,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.00654869018330",
         longitude: "-0.68190812979682",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.45519775184866",
         longitude: "-0.65075578585370",
       },
       {
         regionSlug: "hyrule",
         title: "Crystallized Charge x20 [Chest]",
-        description: null,
+
         latitude: "0.38717252909417",
         longitude: "-0.73460222235408",
       },
@@ -47083,21 +46958,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.99605217841497",
         longitude: "-0.74398187574275",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.99533345493998",
         longitude: "-0.74419645246437",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.99595523617221",
         longitude: "-0.74541953977624",
       },
@@ -47110,7 +46985,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.61587498632606",
         longitude: "-0.55806702205800",
       },
@@ -47132,35 +47007,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge",
-        description: null,
+
         latitude: "1.06196748010890",
         longitude: "-0.58866213075987",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.01381473156210",
         longitude: "-0.64286725075175",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.01021836140560",
         longitude: "-0.64390071503834",
       },
       {
         regionSlug: "hyrule",
         title: "Crystallized Charge x20 [Chest]",
-        description: null,
+
         latitude: "0.39640156237101",
         longitude: "-0.60039399244468",
       },
       {
         regionSlug: "hyrule",
         title: "Crystallized Charge x20 [Chest]",
-        description: null,
+
         latitude: "0.32852827635810",
         longitude: "-0.71521876142506",
       },
@@ -47189,7 +47064,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.80256434846660",
         longitude: "-0.78138255443309",
       },
@@ -47225,7 +47100,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge",
-        description: null,
+
         latitude: "0.30054626244124",
         longitude: "-0.80610160856403",
       },
@@ -47239,21 +47114,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.26971408882106",
         longitude: "-0.74761620581970",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.26290858145371",
         longitude: "-0.74889225223615",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.15514150810200",
         longitude: "-0.75991244296267",
       },
@@ -47267,7 +47142,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.99159501214608",
         longitude: "-0.68920979781214",
       },
@@ -47331,7 +47206,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge",
-        description: null,
+
         latitude: "0.28051731671873",
         longitude: "-0.82892341793556",
       },
@@ -47345,7 +47220,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.31072498327883",
         longitude: "-0.67600197339220",
       },
@@ -47374,21 +47249,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.44029709558062",
         longitude: "-0.81337733831336",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.31614686487009",
         longitude: "-0.56637658439470",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.02119663130280",
         longitude: "-0.54973108117738",
       },
@@ -47403,28 +47278,28 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.99105460296218",
         longitude: "-0.73517913550529",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.99070877301098",
         longitude: "-0.73216355482575",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.81953013816101",
         longitude: "-0.55275250046475",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.81954086589990",
         longitude: "-0.55386829941523",
       },
@@ -47462,21 +47337,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge",
-        description: null,
+
         latitude: "0.44631987368433",
         longitude: "-0.58494497411198",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.03478427922370",
         longitude: "-0.64971181793442",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai charge",
-        description: null,
+
         latitude: "1.03538499600290",
         longitude: "-0.64991566581998",
       },
@@ -47497,21 +47372,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.01840846826170",
         longitude: "-0.55275340138445",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge",
-        description: null,
+
         latitude: "0.27233616086404",
         longitude: "-0.60269207796961",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.97839733857150",
         longitude: "-0.76226112605059",
       },
@@ -47526,14 +47401,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.33406920710351",
         longitude: "-0.60767954118467",
       },
       {
         regionSlug: "hyrule",
         title: "Large Battery",
-        description: null,
+
         latitude: "1.16142802360620",
         longitude: "-0.73036754351810",
       },
@@ -47554,21 +47429,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.40521616697006",
         longitude: "-0.78941131499525",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge",
-        description: null,
+
         latitude: "0.40766517242692",
         longitude: "-0.79552667922198",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.36139002647488",
         longitude: "-0.73807621696849",
       },
@@ -47605,14 +47480,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.45876057182058",
         longitude: "-0.35910487035684",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge",
-        description: null,
+
         latitude: "0.36590667553352",
         longitude: "-0.77683301750707",
       },
@@ -47627,28 +47502,28 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge",
-        description: null,
+
         latitude: "0.26092998533649",
         longitude: "-0.68965396064141",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.06951286718550",
         longitude: "-0.83091875285501",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.07054265583850",
         longitude: "-0.83007117480656",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "1.06023886971280",
         longitude: "-0.82109506707693",
       },
@@ -47662,35 +47537,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge",
-        description: null,
+
         latitude: "0.26449835329359",
         longitude: "-0.71513758642871",
       },
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge",
-        description: null,
+
         latitude: "0.33265739841926",
         longitude: "-0.59815024446644",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge",
-        description: null,
+
         latitude: "0.39388349716106",
         longitude: "-0.58053079242873",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.30851160283328",
         longitude: "-0.62611819799685",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.29916222560578",
         longitude: "-0.62226640403290",
       },
@@ -47704,7 +47579,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Crystallized Charge x20 [Chest]",
-        description: null,
+
         latitude: "0.45257991365418",
         longitude: "-0.58694011461031",
       },
@@ -47718,14 +47593,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai charge",
-        description: null,
+
         latitude: "0.93792125060540",
         longitude: "-0.66149219553699",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.26900734431337",
         longitude: "-0.60955086369057",
       },
@@ -47746,35 +47621,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "1.08012402763400",
         longitude: "-0.46137593006094",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.26661556568156",
         longitude: "-0.76119203885418",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.26953377714779",
         longitude: "-0.76112766583776",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.93967334120089",
         longitude: "-0.66108282957552",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.93952243750080",
         longitude: "-0.66154721109561",
       },
@@ -47796,35 +47671,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.31015054386772",
         longitude: "-0.76171655802338",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.38830471004706",
         longitude: "-0.68521669982506",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.32463934858738",
         longitude: "-0.73400780869528",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.29891571762868",
         longitude: "-0.59626900296277",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.29292387944639",
         longitude: "-0.62213357618978",
       },
@@ -47839,7 +47714,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.37735150602518",
         longitude: "-0.59664165118747",
       },
@@ -47854,35 +47729,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.74326667113648",
         longitude: "-0.66274065171568",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.29666527122798",
         longitude: "-0.73365031027069",
       },
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.46835944986714",
         longitude: "-0.64622748877849",
       },
       {
         regionSlug: "hyrule",
         title: "Large Zonai Charge [Chest]",
-        description: null,
+
         latitude: "0.35982700524894",
         longitude: "-0.85531675636638",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.35878874029206",
         longitude: "-0.85493578227462",
       },
@@ -47897,14 +47772,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.39846754672034",
         longitude: "-0.66544272049066",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.40149586117322",
         longitude: "-0.65365028524673",
       },
@@ -47919,14 +47794,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.35541373373769",
         longitude: "-0.76293119404480",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.40044763991074",
         longitude: "-0.81207267021892",
       },
@@ -47941,7 +47816,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.32820253985955",
         longitude: "-0.80208492915639",
       },
@@ -47956,14 +47831,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge",
-        description: null,
+
         latitude: "0.37735117992283",
         longitude: "-0.59660392113946",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystallized Charge [Chest]",
-        description: null,
+
         latitude: "0.49439198101866",
         longitude: "-0.81244587269589",
       },
@@ -47978,14 +47853,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge",
-        description: null,
+
         latitude: "0.28885462007629",
         longitude: "-0.64160039944684",
       },
       {
         regionSlug: "hyrule",
         title: "Huge Crystalized Charge",
-        description: null,
+
         latitude: "0.37656523121518",
         longitude: "-0.64994035497131",
       },
@@ -48007,14 +47882,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.30836492464546",
         longitude: "-0.60220316947300",
       },
       {
         regionSlug: "hyrule",
         title: "Large Crystalized Charge [Chest]",
-        description: null,
+
         latitude: "0.31333242057356",
         longitude: "-0.60019292280472",
       },
@@ -48044,7 +47919,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Zonai Charge",
-        description: null,
+
         latitude: "0.49615255572381",
         longitude: "-0.55329629279973",
       },
@@ -48223,7 +48098,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Flame Emitter",
-        description: null,
+
         latitude: "0.74407396160521",
         longitude: "-0.75016167827025",
       },
@@ -48262,14 +48137,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Flame Emitter [Chest]",
-        description: null,
+
         latitude: "1.13753531096970",
         longitude: "-0.82774576623530",
       },
       {
         regionSlug: "hyrule",
         title: "Balloon [Chest]",
-        description: null,
+
         latitude: "1.13653772568640",
         longitude: "-0.82834658105452",
       },
@@ -48319,7 +48194,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Spring x3",
-        description: null,
+
         latitude: "0.65695538979719",
         longitude: "-0.63046352310201",
       },
@@ -48333,7 +48208,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Cannon x3 [Chest]",
-        description: null,
+
         latitude: "0.64750756341603",
         longitude: "-0.64171013295484",
       },
@@ -48391,35 +48266,35 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Rocket x3 [Chest]",
-        description: null,
+
         latitude: "0.68594654190079",
         longitude: "-0.67458255301509",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Component Stash",
-        description: null,
+
         latitude: "0.40257770830094",
         longitude: "-0.79958896597705",
       },
       {
         regionSlug: "hyrule",
         title: "Zonai Component Stash",
-        description: null,
+
         latitude: "0.40993245085026",
         longitude: "-0.78522750239952",
       },
       {
         regionSlug: "hyrule",
         title: "Big Battery [Chest]",
-        description: null,
+
         latitude: "0.93508141087849",
         longitude: "-0.76089158489895",
       },
       {
         regionSlug: "hyrule",
         title: "Rocket x5 [Chest]",
-        description: null,
+
         latitude: "0.81843956194400",
         longitude: "-0.84034826298424",
       },
@@ -48447,14 +48322,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Hover Stone x3",
-        description: null,
+
         latitude: "1.07068653316620",
         longitude: "-0.58684180066459",
       },
       {
         regionSlug: "hyrule",
         title: "Big Battery [Chest]",
-        description: null,
+
         latitude: "0.82007357085712",
         longitude: "-0.55330233187436",
       },
@@ -48516,7 +48391,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Steering Stick x5 [Chest]",
-        description: null,
+
         latitude: "0.82316026233326",
         longitude: "-0.66959732779847",
       },
@@ -48544,7 +48419,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Mirror x3 [Chest]",
-        description: null,
+
         latitude: "1.08099716352510",
         longitude: "-0.81804341847851",
       },
@@ -48566,42 +48441,42 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Cart x3 [Chest]",
-        description: null,
+
         latitude: "0.81329398936676",
         longitude: "-0.83624673491025",
       },
       {
         regionSlug: "hyrule",
         title: "Mirror x3 [Chest]",
-        description: null,
+
         latitude: "0.68824290795897",
         longitude: "-0.84357147005517",
       },
       {
         regionSlug: "hyrule",
         title: "Steering Stick x5 [Chest]",
-        description: null,
+
         latitude: "0.81812846114298",
         longitude: "-0.60325878589407",
       },
       {
         regionSlug: "hyrule",
         title: "Rocket x3 [Chest]",
-        description: null,
+
         latitude: "0.72783683073568",
         longitude: "-0.61444011154896",
       },
       {
         regionSlug: "hyrule",
         title: "Spring x3 [Chest]",
-        description: null,
+
         latitude: "0.65173174091629",
         longitude: "-0.68858179241747",
       },
       {
         regionSlug: "hyrule",
         title: "Hydrant x2",
-        description: null,
+
         latitude: "0.43658192153569",
         longitude: "-0.49770719318477",
       },
@@ -48622,14 +48497,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Hydrant",
-        description: null,
+
         latitude: "0.45137777508062",
         longitude: "-0.42559124441470",
       },
       {
         regionSlug: "hyrule",
         title: "Hydrant",
-        description: null,
+
         latitude: "0.45133486106836",
         longitude: "-0.42407847853053",
       },
@@ -48656,7 +48531,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Shock Emitter x3 [Chest]",
-        description: null,
+
         latitude: "0.93695133385329",
         longitude: "-0.66103753039980",
       },
@@ -48699,7 +48574,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Frost Emitter [Chest]",
-        description: null,
+
         latitude: "0.65436535514007",
         longitude: "-0.84187626955551",
       },
@@ -48720,7 +48595,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Big Battery [Chest]",
-        description: null,
+
         latitude: "0.79189108241029",
         longitude: "-0.60820473063785",
       },
@@ -48781,7 +48656,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Big Battery [Chest]",
-        description: null,
+
         latitude: "0.59289721087670",
         longitude: "-0.75983108779903",
       },
@@ -48803,7 +48678,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Spring x3",
-        description: null,
+
         latitude: "0.65620145226292",
         longitude: "-0.63095069791011",
       },
@@ -48817,21 +48692,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Hydrant 3x",
-        description: null,
+
         latitude: "0.69127693371037",
         longitude: "-0.65701521170800",
       },
       {
         regionSlug: "hyrule",
         title: "Cannon x3 [Chest]",
-        description: null,
+
         latitude: "0.57660207606564",
         longitude: "-0.63545210310301",
       },
       {
         regionSlug: "hyrule",
         title: "Big Battery [Chest]",
-        description: null,
+
         latitude: "0.93795315689660",
         longitude: "-0.66955763750042",
       },
@@ -48845,7 +48720,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "hyrule",
         title: "Stake x3 [Chest]",
-        description: null,
+
         latitude: "0.62475323903945",
         longitude: "-0.74776425978931",
       },
@@ -49609,7 +49484,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Josiu Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-josiu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49683,7 +49557,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Momosik Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-momosik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49716,7 +49589,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jochi Ihiga Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jochi-ihiga-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49742,7 +49614,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ikatak Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ikatak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49768,7 +49639,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Usazum Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-usazum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49811,7 +49681,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jinodok Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jinodok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49844,7 +49713,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taninoud Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taninoud-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49887,7 +49755,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Zakusu Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zakusu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49951,7 +49818,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rutafu Um Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rutafu-um-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49983,11 +49849,9 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title: "Zelda Tears Of The Kingdom How To Tame The Giant Horse",
             fileName: "",
-
             url: "https://www.ign.com/videos/zelda-tears-of-the-kingdom-how-to-tame-the-giant-horse",
             type: "ign_video",
             mimeType: "mp4",
-            order: 30,
           },
         ],
       },
@@ -50075,7 +49939,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Wao Os Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-wao-os-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50118,7 +49981,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Pupunke Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pupunke-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50151,7 +50013,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sakunbomar Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sakunbomar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50177,7 +50038,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ninjis Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ninjis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50203,7 +50063,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gikaku Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gikaku-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50253,11 +50112,9 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ganos Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ganos-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
-            order: 30,
           },
         ],
       },
@@ -50311,7 +50168,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ukoojisi Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukoojisi-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50337,7 +50193,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kumamayn Shrine Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kumamayn-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50369,7 +50224,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Where To Find Hestu And Expand Your Inventory With Korok Seeds",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-hestu-and-expand-your-inventory-with-korok-seeds",
             type: "ign_video",
             mimeType: "mp4",
@@ -50395,7 +50249,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Messages From An Ancient Era Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-messages-from-an-ancient-era-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50421,7 +50274,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50471,7 +50323,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50497,7 +50348,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ruffian Infested Village Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ruffian-infested-village-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50547,7 +50397,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Infiltrating The Yiga Clan Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-infiltrating-the-yiga-clan-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50573,7 +50422,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Honey Bee Mine Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-honey-bee-mine-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50599,7 +50447,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Team Cece Or Team Reede Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-team-cece-or-team-reede-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50625,7 +50472,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ceces Secret Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ceces-secret-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50651,7 +50497,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Reedes Secret Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-reedes-secret-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50677,7 +50522,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A New Signature Food Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-new-signature-food-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50703,7 +50547,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Serenade To A Great Fairy Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-serenade-to-a-great-fairy-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50777,7 +50620,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Beast And The Princess Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-beast-and-the-princess-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50803,7 +50645,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom White Goats Gone Missing Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-white-goats-gone-missing-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50949,7 +50790,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mattisons Independence Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mattisons-independence-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50975,7 +50815,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Beckoning Woman Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-beckoning-woman-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51001,7 +50840,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The All Clucking Cucco Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-all-clucking-cucco-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51027,7 +50865,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom For Our Princess Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-for-our-princess-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51053,7 +50890,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Necluda Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-necluda-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51079,7 +50915,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Master Kohga Of The Yiga Clan Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-of-the-yiga-clan-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51122,7 +50957,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gourmets Gone Missing Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gourmets-gone-missing-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51148,7 +50982,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Missing Farm Tools Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-missing-farm-tools-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -51174,7 +51007,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Deal With The Statue Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-deal-with-the-statue-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51200,7 +51032,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Who Goes There Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-who-goes-there-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51226,7 +51057,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Owl Protected By Dragons Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-owl-protected-by-dragons-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -51252,7 +51082,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Investigate The Thyphlo Ruins Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-investigate-the-thyphlo-ruins-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51278,7 +51107,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Princess Zelda Kidnapped Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-princess-zelda-kidnapped-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51304,7 +51132,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Legend Of The Great Sky Island Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-legend-of-the-great-sky-island-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51330,7 +51157,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough The Travel Medallion",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-the-travel-medallion",
             type: "ign_video",
             mimeType: "mp4",
@@ -51356,7 +51182,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Letter To Koyin Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-letter-to-koyin-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51382,7 +51207,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Lurelin Village Restoration Project Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lurelin-village-restoration-project-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51408,7 +51232,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Blocked Well Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-blocked-well-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51434,7 +51257,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Hateno Village Research Lab",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-hateno-village-research-lab",
             type: "ign_video",
             mimeType: "mp4",
@@ -51460,7 +51282,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Faron Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-faron-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51486,7 +51307,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Akkala Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-akkala-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51512,7 +51332,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Heros Path Mode",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-heros-path-mode",
             type: "ign_video",
             mimeType: "mp4",
@@ -51538,7 +51357,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Sensor",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-sensor",
             type: "ign_video",
             mimeType: "mp4",
@@ -51564,7 +51382,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Filling Out The Compendium Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-filling-out-the-compendium-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51590,7 +51407,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Yiga Clan Exam Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-yiga-clan-exam-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51609,7 +51425,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Mayoral Election Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-mayoral-election-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51635,7 +51450,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection I Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-i-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51661,7 +51475,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection Ii Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-ii-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51687,7 +51500,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection Iii Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-iii-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51713,7 +51525,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Hebra Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-hebra-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51739,7 +51550,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection Iv Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-iv-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51765,7 +51575,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection V Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-v-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51791,7 +51600,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Long Dragon Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-long-dragon-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51817,7 +51625,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Six Dragons Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-six-dragons-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51843,7 +51650,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Corridor Between Two Dragons Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-corridor-between-two-dragons-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -51869,7 +51675,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Eldin Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-eldin-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -52682,7 +52487,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
             fileName: "",
-
             url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -52871,7 +52675,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -52897,7 +52700,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -53348,7 +53150,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Mysterious Eighth Side Quest Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-mysterious-eighth-side-quest-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -54105,7 +53906,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -54277,7 +54077,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ruffian Infested Village Gameplay Walkthrough Side Adventure",
             fileName: "",
-
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ruffian-infested-village-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -54362,21 +54161,8981 @@ export const totkCategoryLocations: CategoryLocation[] = [
     groupSlug: "totk_enemies",
     title: "Dragon",
   },
-  { locations: [], groupSlug: "totk_enemies", title: "Enemy Camp" },
-  { locations: [], groupSlug: "totk_enemies", title: "Flux Construct" },
-  { locations: [], groupSlug: "totk_enemies", title: "Frox" },
-  { locations: [], groupSlug: "totk_enemies", title: "Gleeok" },
-  { locations: [], groupSlug: "totk_enemies", title: "Hinox" },
-  { locations: [], groupSlug: "totk_enemies", title: "Lynel" },
-  { locations: [], groupSlug: "totk_enemies", title: "Miniboss" },
-  { locations: [], groupSlug: "totk_enemies", title: "Molduga" },
-  { locations: [], groupSlug: "totk_enemies", title: "Octorok" },
-  { locations: [], groupSlug: "totk_enemies", title: "Stalnox" },
-  { locations: [], groupSlug: "totk_enemies", title: "Stronghold" },
-  { locations: [], groupSlug: "totk_enemies", title: "Talus" },
-  { locations: [], groupSlug: "totk_enemies", title: "Wizzrobe" },
-  { locations: [], groupSlug: "totk_enemies", title: "Yiga" },
-  { locations: [], groupSlug: "totk_enemies", title: "Zonai" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Large Enemy",
+        description: "Patrolling the beach",
+        latitude: "0.60798241273133",
+        longitude: "-0.59579991779566",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Tower",
+        description:
+          "**Enemies:** \n- 3 Lizalfos\n\n**Rewards:** Zora Shield [Chest]",
+        latitude: "0.72704671570875",
+        longitude: "-0.60297095667502",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Tower",
+        description: "**Enemies:** \n- Lizalfos",
+        latitude: "0.71556467658027",
+        longitude: "-0.57860088990819",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** [Lynel Boomerang [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282542)",
+        latitude: "0.72876138909307",
+        longitude: "-0.58466945899843",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai / Bobokin Battle",
+        description: "**Enemies:** \n- ??",
+        latitude: "0.74404746921776",
+        longitude: "-0.74849251709833",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Tower",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Rewards:**\n- Arrows x10 [Chest]\n- Zonaite Deposits",
+        latitude: "0.43776271134726",
+        longitude: "-0.73922270152539",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Tower",
+        description:
+          "Shoot the ropes to lower the bridge.\n\n**Enemies:** \n- Bokoblins\n\n**Treasure:** Topaz",
+        latitude: "0.61977656354559",
+        longitude: "-0.65430391705382",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Tower",
+        description: "**Enemies:** \n- ??",
+        latitude: "0.61155107194944",
+        longitude: "-0.65592025494513",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??",
+        latitude: "0.60720691774819",
+        longitude: "-0.64768540191480",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lurelin Village Monsters",
+        description: "**Enemies:** \n- Boss Bokoblin\n- Bokoblins \n- Lizalfos",
+        latitude: "0.59269608776259",
+        longitude: "-0.60685050373544",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Monster Forces Occupiers Of Lurelin Village Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-occupiers-of-lurelin-village-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Boss Bokoblin\n- 8x Bokoblin\n\n**Reward:** ??",
+        latitude: "0.58245528118572",
+        longitude: "-0.58244509532909",
+        media: [
+          {
+            title: "2023050723335300_c",
+            fileName: "dbfa5dc0-3a05-4acc-be78-12c00a6fa002.jpg",
+            url: "https://media.mapgenie.io/storage/media/dbfa5dc0-3a05-4acc-be78-12c00a6fa002.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin \n- Bokoblins\n\n**Reward:** [Lynel Bow [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284327)",
+        latitude: "0.63600957086928",
+        longitude: "-0.62800531743216",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:** Zonaite Deposits",
+        latitude: "0.28998913411364",
+        longitude: "-0.64401074068795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Hideout",
+        description:
+          "**Enemies:** \n- Yiga Clan Members\n\n**Reward:** \n- Large Crystallized Charge\n- Yiga Schematic",
+        latitude: "0.28572646582241",
+        longitude: "-0.79096612044643",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??",
+        latitude: "0.28438006259266",
+        longitude: "-0.81087951711768",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins \n- Bokoblins\n\n**Rewards:**\n- Bomb-Barrel Spear\n- Amber",
+        latitude: "0.58875781975561",
+        longitude: "-0.71521558020839",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pirate Ship",
+        description: "**Enemies:** \n- ??",
+        latitude: "0.59122336842880",
+        longitude: "-0.70515792583720",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin and Bokoblins\n\n**Reward:** [Topaz](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289735)",
+        latitude: "0.58874074884073",
+        longitude: "-0.69803811198855",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Zonai Constructs\n\n**Rewards:** Cannon x3 [Chest]",
+        latitude: "0.57746438369263",
+        longitude: "-0.63576613243208",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Zonai Warriors\n- 2x Zonai Archers\n\n**Reward:** [Opal [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279214)",
+        latitude: "1.00566408667320",
+        longitude: "-0.69916069507630",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Construct Captains\n\n**Reward:** [Opal [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276727)",
+        latitude: "0.99945530466589",
+        longitude: "-0.67657557898016",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 3 x Lizalfos\n- 1 x Moblin",
+        latitude: "0.69357750117032",
+        longitude: "-0.67553445697084",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 x Bokoblin\n\n**Reward:** 5x Arrow (Chest)",
+        latitude: "0.63650461106300",
+        longitude: "-0.65071262419349",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp Treasure x2",
+        description:
+          "**Enemies:** \n- 5x Red Bokoblin (2x Archers with fire arrows)\n\n**Reward:** 2x Chests - Moblin Sledge (8) & Amber\n\n**Coordinates:** -0131, -0536, 0023",
+        latitude: "0.68609098862044",
+        longitude: "-0.70728666792803",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Blue Boss Bokoblin\n- 6x Red Bokoblin\n\n**Reward:** \n- Hinox Hammer (Chest)\n- Bomb flower x3 (Chest on the second floor inside)",
+        latitude: "0.71533637556686",
+        longitude: "-0.68812118686904",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Horriblin\n\n**Reward:** [Spiky Spear [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279581)",
+        latitude: "0.70779750992098",
+        longitude: "-0.72027839720187",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai / Bobokin Battle",
+        description:
+          "**Enemies:** \n\n- 3 Soldier Construct II\n- 1 Soldier Construct III\n- 2 Lizalfos\n- 1 Blue Bokoblin\n- 1 Black Bokoblin\n\n**Reward:** \n- Strengthened Lizal Bow \n- Large Zonai Charge.",
+        latitude: "0.70642935233094",
+        longitude: "-0.64024566344103",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin\n- Moblin\n\n**Reward:** Amber",
+        latitude: "0.67496095860224",
+        longitude: "-0.72243323039092",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 x Bokoblin\n- 2 x Blue Bokoblin\n\n**Reward:** [Lizal Reaper](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280044)",
+        latitude: "0.77000918315302",
+        longitude: "-0.81525876885220",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Horriblin\n\n**Reward:** [Soldier's-Claymore Spear](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280105)",
+        latitude: "0.76207036826197",
+        longitude: "-0.79556534049743",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins and Moblin\n\n**Reward:** \n- [Amber [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281331)",
+        latitude: "0.78212753488268",
+        longitude: "-0.73599983823652",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos, Bokoblin\n\n**Reward:** \n- Brightbloom Seed 5x",
+        latitude: "0.35121341666655",
+        longitude: "-0.72089489146902",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 5 x Lizalfos\n\n**Reward:** [Lizal Boomerang](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280234)",
+        latitude: "0.68183237251503",
+        longitude: "-0.66251824018942",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins and Bokoblins\n\n**Reward:** Soldier's Claymore [Chest]",
+        latitude: "0.70580933657479",
+        longitude: "-0.82890115244390",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construct Camp",
+        description:
+          "**Enemies:** \n-  Captain Construct\n- 3x Soldier Construct\n- 2x Electric Chuchu\n\n**Reward:** Portable Pot x5",
+        latitude: "0.65505273575381",
+        longitude: "-0.75368365439954",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Aerocuda\n- 3 x Bokoblin\n- 1 x Moblin\n\n**Reward:** Blue Lizal Blade",
+        latitude: "0.67920876302952",
+        longitude: "-0.64113319791889",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Moblin\n- 3x Bokoblin\n\n**Reward:** ??",
+        latitude: "0.64323654951102",
+        longitude: "-0.65834590299116",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 x Red Bokoblin\n- 1 x Blue Bokoblin\n\n**Reward:** [Spiked Iron Ball Hammer [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280441)",
+        latitude: "0.76661779126076",
+        longitude: "-0.83186856311380",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 4 Bokoblins\n\n**Reward:** Lynel Bow",
+        latitude: "0.61602695582209",
+        longitude: "-0.63926925954490",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblins\n\n**Reward:** None",
+        latitude: "0.60204126407029",
+        longitude: "-0.60793351004762",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin\n\n**Reward:** 1 chest with rusted sword",
+        latitude: "0.66109031482820",
+        longitude: "-0.69576313567632",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.68324232821925",
+        longitude: "-0.71759088059437",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblin\n- 1x Moblin\n- 2x Evermean \n\n**Reward:** [Arrow x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280618)",
+        latitude: "0.70410268015302",
+        longitude: "-0.76711404117839",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.71524866543124",
+        longitude: "-0.79449873662866",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:** Opal in Chest on Ground Level, Bomb Flower x5 in Chest On Upper Floor",
+        latitude: "0.70615131236915",
+        longitude: "-0.78842621541894",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 x Red Bokoblin\n- 1 x Blue Bokoblin\n\n**Reward:** N/A",
+        latitude: "0.73419526783287",
+        longitude: "-0.80869793451390",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy camp",
+        description:
+          "**Enemies:** \n- 3 Bokoblins\n\n**Reward:** Opal (Wooden Chest)",
+        latitude: "0.71671407581463",
+        longitude: "-0.82942102564087",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lizalfos Camp",
+        description:
+          "**Enemies:** \n- 1x Black Lizalfos\n- 3x Blue Lizalfos\n- 1x Black Bokoblin\n\n**Reward:**  Multiple Zonaite deposits",
+        latitude: "0.41299592284639",
+        longitude: "-0.78682078787287",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Soldier Construct\n- 1x Captain Construct I\n\n**Reward:** 1x Opal (Chest)",
+        latitude: "0.99460263675428",
+        longitude: "-0.68837256189383",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Red Moblin [Gloom)\n- 2x Red Bokoblin (Gloom)\n\n**Reward:** 8x Zonaite Veins",
+        latitude: "0.31111192832964",
+        longitude: "-0.74217625333736",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblins\n\n**Reward:** 5x Arrows",
+        latitude: "0.74233248584795",
+        longitude: "-0.62728215465145",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 Bokoblins\n- 1 Moblin\n- 2 Treants\n\n**Reward:** Emblazoned Shield [Chest]",
+        latitude: "0.65265049604679",
+        longitude: "-0.71426335352655",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 x Bokoblin\n- 1 x Blue Bokoblin\n\n**Reward:** Spiked Boko Bow",
+        latitude: "0.78036197684488",
+        longitude: "-0.80726178300321",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin x2\n- Blue Bokoblin x4\n\n**Reward:** Sapphire",
+        latitude: "0.65532784290779",
+        longitude: "-0.71023276162128",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin\n- Lizarfos",
+        latitude: "0.34418435257076",
+        longitude: "-0.69857064773859",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy camp",
+        description:
+          "**Enemies:** \n- Bokoblin x5\n- Moblin x2\n\n**Reward:** Giant Brightbloom Seed x5",
+        latitude: "0.33273211753614",
+        longitude: "-0.71146527610082",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin\n- Moblin\n\n**Reward:** Amber",
+        latitude: "0.68502714031528",
+        longitude: "-0.72655087023361",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblin\n- 1x Moblin\n\n**Reward:** Phrenic Bow [Chest]",
+        latitude: "0.65329550044419",
+        longitude: "-0.66013721103738",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Enemy Camp",
+        description:
+          "**Enemies:** \n- Yiga Clan Members\n\n**Reward:** \n- Large Crystallized Charge\n- Yiga Schematic",
+        latitude: "0.40799699293437",
+        longitude: "-0.79490503850295",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Electric Enemy Based Camp\n\n**Reward:** Ore Deposits",
+        latitude: "0.39754551220047",
+        longitude: "-0.79854379207785",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Blue Bokoblins\n\n**Reward:** [Claymore [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290023)",
+        latitude: "0.63609475603788",
+        longitude: "-0.71117674218684",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Red Moblin\n- 4x Red Bokoblin\n\n**Reward:** [Spiked Boko Bow [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280610)",
+        latitude: "0.69271171713316",
+        longitude: "-0.74124107359754",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 3x Bokoblin\n\n**Reward:** Lizal Blade",
+        latitude: "0.74174392287955",
+        longitude: "-0.77165652790129",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n- Moblin\n\n**Reward:** Traveler's Bow",
+        latitude: "0.67538556271982",
+        longitude: "-0.68476694913923",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4 x Lizalfos\n\n**Reward:** Chest containing Lizal Boomerang.",
+        latitude: "0.69350564599061",
+        longitude: "-0.66926499348034",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 5x Bokoblin\n\n**Reward:** [Throwing Spear [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279538)",
+        latitude: "0.69816653063879",
+        longitude: "-0.68491435001144",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x4",
+        latitude: "0.75635298068208",
+        longitude: "-0.73847795452937",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin x3\n- Moblin x1\n\n**Reward:** Throwing Spear",
+        latitude: "0.75067247983129",
+        longitude: "-0.75148320243486",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblin\n- 2x Aerocuda\n\n**Reward:** [Sapphire [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281853)",
+        latitude: "0.81516249157738",
+        longitude: "-0.75180248327927",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Red Bokoblin\n- 1x Blue Bokoblin\n\n**Reward:** None",
+        latitude: "0.72460031693231",
+        longitude: "-0.69646687075868",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x2\n- Lizalfos x2",
+        latitude: "0.36017592509012",
+        longitude: "-0.74348868012015",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+
+        latitude: "0.39638596508806",
+        longitude: "-0.73373153349954",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+
+        latitude: "0.39195927941104",
+        longitude: "-0.72628823143071",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Blue Bokoblin x2\n- Black Bokoblin x 3\n- Black Moblin x2\n\n**Reward:** Giant Brightbloom Seed x5",
+        latitude: "0.45350097739511",
+        longitude: "-0.73951255704708",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bokoblin Camp",
+        description:
+          "**Enemies:** \n- Blue Bokoblin x2\n- Black Bokoblin x4\n\n**Reward:** Sundelion x1",
+        latitude: "0.42352491282078",
+        longitude: "-0.73468126012466",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Blue Bokoblin x3\n- Electric Lizalfos x1\n- Electric Keese x2\n- Electric Chuchu x1",
+        latitude: "0.42115683881569",
+        longitude: "-0.72998533131531",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 2x Red Bokoblins\n\n**Reward:** None",
+        latitude: "0.70366692504980",
+        longitude: "-0.72138695947672",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Soldier Constructs",
+        description:
+          "**Enemies:** \n- 2 Soldier Construct III\n- 1 Soldier Construct II \n\n**Reward:** Soldier III Blade",
+        latitude: "1.06331267597930",
+        longitude: "-0.59562130814899",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 Bokoblins\n- 1 Moblin\n\n**Reward:** Opal [Unlocked Chest]",
+        latitude: "0.79654736210880",
+        longitude: "-0.69293876335925",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- 3x Bokoblins\n- 1 Lizalfos\n\n**Reward:** [Eightfold Longblade [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282065)",
+        latitude: "0.64477568099866",
+        longitude: "-0.62257366215144",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Like Like\n- Rock Like\n- Bokoblin x3\n\n**Reward:**\n- Arrows x10 [Chest]\n- Zonaite Deposits",
+        latitude: "0.42137829439079",
+        longitude: "-0.78318894789442",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x3",
+        latitude: "0.36764575535325",
+        longitude: "-0.74145278706817",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Bokoblin\n- 1x Blue Bokoblin\n\n**Reward:** \n- 5 Zonaite Deposits",
+        latitude: "0.32607402487606",
+        longitude: "-0.73809410378217",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x black boss boko\n- 5 x black boko\n\n**Reward:** none",
+        latitude: "0.81048926132694",
+        longitude: "-0.57812778759330",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n- Lizalfos\n\n**Reward:** None",
+        latitude: "0.34891621023645",
+        longitude: "-0.73941365607007",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Lizalfos\n\n**Reward:** Zora's Bow",
+        latitude: "0.70336817590697",
+        longitude: "-0.61125075702665",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Ice Lizalfos\n- Aerocuda\n\n**Reward:** Blue-Maned Lynel Reaper",
+        latitude: "0.64942548331133",
+        longitude: "-0.57316748140002",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Moblin\n- 2x Bokoblin\n\n**Reward:** [Arrows x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279683)",
+        latitude: "0.69208421727812",
+        longitude: "-0.68915060661971",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblin\n\n**Reward:** [Opal [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281099)",
+        latitude: "0.69925853446989",
+        longitude: "-0.69590617381482",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4x Bokoblin\n\n**Reward:** [5x Arrows [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280962)",
+        latitude: "0.70620373185955",
+        longitude: "-0.70248827450402",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Reward:** [Topaz](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282469)",
+        latitude: "0.59857456522928",
+        longitude: "-0.62959229600860",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.31707784142350",
+        longitude: "-0.69756495336947",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construct Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** 3x Frost Emitter",
+        latitude: "0.66661850083744",
+        longitude: "-0.81417023732840",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 red Bokoblin\n- 1 Blue Bokoblin\n1 - Red Bokoblin Boss\n\n**Reward:** \nSpiked-Iron-Ball Hammer (Thick Stick)",
+        latitude: "0.75344162482689",
+        longitude: "-0.79870525234668",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bokoblin Camp",
+        description:
+          "**Enemies:** \n- Black and Red Bokoblins\n- Aerocudas\n\n**Reward:** ??",
+        latitude: "0.67272986588728",
+        longitude: "-0.65923981006534",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.30792471297433",
+        longitude: "-0.73209414167889",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy camp",
+        description:
+          "**Enemies:** \n- 2x Blue Bokoblin (Armored, Gloom)\n- 4x Red Bokoblin (Gloom)\n\n**Reward:** 5x Giant Brightbloom Seed",
+        latitude: "0.38425816895688",
+        longitude: "-0.70521812992996",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+
+        latitude: "0.38009059083102",
+        longitude: "-0.82264393247758",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- Moblins and Bokoblins\n\n**Rewards:**\n- [Sundelion](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290030)\n- Zonaite Deposits",
+        latitude: "0.38471461618130",
+        longitude: "-0.81912487424987",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+
+        latitude: "0.39313915744289",
+        longitude: "-0.81978553681370",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Red Boss Bokoblin (Gloom)\n- 6x Red Bokoblin (Gloom)\n\n**Reward:** None",
+        latitude: "0.37821857731184",
+        longitude: "-0.70894652701645",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos\n- Bokoblins \n\n**Reward:** \n- Sundelion [Chest]\n- 10 Zonaite deposits",
+        latitude: "0.32776700352260",
+        longitude: "-0.71774755729228",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.28107073917397",
+        longitude: "-0.60589989050169",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**   \n- 6x Red Bokoblin (Gloom)  \n- 1x Aerocuda (Gloom)  \n\n**Reward:** 10x Arrow",
+        latitude: "0.37872603530511",
+        longitude: "-0.71962095532487",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+
+        latitude: "0.28840159557542",
+        longitude: "-0.60534830476334",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Red Bokoblin\n- 1x Red Moblin\n\n**Reward:** None",
+        latitude: "0.72946231157506",
+        longitude: "-0.69672004464329",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Red Boss Bokoblin\n- 5x Red Bokoblin\n\n**Reward:** 1x Spiked Boko Bow [Chest]",
+        latitude: "0.71045057192185",
+        longitude: "-0.74188562258237",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos \n- Bokoblins\n\n**Reward:** Halberd",
+        latitude: "0.59865921546535",
+        longitude: "-0.59477392679017",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Captain Construct II\n- Soldier Construct x4\n\n**Reward:** [Zonai Charge](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282026)",
+        latitude: "0.80214418663983",
+        longitude: "-0.78139655527772",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 5 Bokoblins\n- 1 King Bokoblin\n\n**Reward:** Spiked-Iron-Ball Sledge [Chest]",
+        latitude: "0.66189567286931",
+        longitude: "-0.70214865723844",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+
+        latitude: "0.32571217497718",
+        longitude: "-0.68726812445587",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins and a Boss Bokoblin\n\n**Reward:** Lizal Boomerang",
+        latitude: "0.65994874444702",
+        longitude: "-0.73165034113936",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.30992724614731",
+        longitude: "-0.72360436895721",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins \n- Bokoblin\n\n**Reward:**  Knight's Bow",
+        latitude: "0.68535661730344",
+        longitude: "-0.76101087319324",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Camp",
+        description: "**Enemies:** \n- 3 Bokoblins\n\n**Reward:** 5 arrows",
+        latitude: "0.61942461652271",
+        longitude: "-0.59509281002130",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 6 Bokoblins\n- 1 Boss Bokoblin\n\n**Reward:**\n- Knight's Claymore [Unlocked Chest]",
+        latitude: "0.82128740811921",
+        longitude: "-0.69543907671414",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Construct Camp",
+        description:
+          "**Enemies:** \n- 4x different Zonai Constructs\n\n**Reward:** Large Zonai Charge",
+        latitude: "0.70903748486364",
+        longitude: "-0.69351462819805",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Boss Bokoblin\n- 5x Bokoblins\n\n**Reward:** ??",
+        latitude: "0.73656868779359",
+        longitude: "-0.74301247072228",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Boss Bokoblin\n\n**Reward:** Spiked Iron Ball Hammer [Chest].",
+        latitude: "0.79658615513955",
+        longitude: "-0.67395021465310",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4 Bokoblins\n- 1 Moblin\n\n**Reward:** [Knight's Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290428)",
+        latitude: "0.78277710384410",
+        longitude: "-0.64292396206824",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n\n- 4 Bokoblins\n- 1 Moblin\n\n**Reward:** Blue Lizal Blade [Chest]",
+        latitude: "0.75424392061778",
+        longitude: "-0.65531622080383",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins \n- Bokoblin\n\n**Reward:** Spiked-Iron-Ball Hammer",
+        latitude: "0.80876088983702",
+        longitude: "-0.56864683493487",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Bokoblin\n- 3 x Aerocuda\n\n**Reward:** [Arrows 5x [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283282)",
+        latitude: "0.72719428553741",
+        longitude: "-0.68000045286846",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Blue Bokoblin x2\n- Black Bokoblin x1\n- Blue Lizalfos x1\n- Aerocuda x1\n\n**Reward:** [Dragonbone Boko Bow [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284356)",
+        latitude: "0.64140841222597",
+        longitude: "-0.60076610799462",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Bokoblins\n\n**Reward:** Sheild of the Mind's Eye",
+        latitude: "0.63175841412227",
+        longitude: "-0.67960681027932",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblins x3",
+        latitude: "0.72400045558369",
+        longitude: "-0.81828854326801",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bokoblin Camp",
+        description:
+          "**Enemies:** \n- 4 Bokoblins\n\n**Reward:** Knight's Claymore [Chest]",
+        latitude: "0.82001519453976",
+        longitude: "-0.67403812088835",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Lizalfos\n- Lizalfos\n\n**Reward:** Lizal Shield",
+        latitude: "0.68837926417937",
+        longitude: "-0.65179645181809",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 5 x Bokoblin\n- 2 x Moblin\n\n**Reward:** Silver Rupee (In a chest on the camp's highest platform. It's NOT necessary to clear the camp of enemies to open the chest.))",
+        latitude: "0.69110596367074",
+        longitude: "-0.64600822688334",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 Bokoblins\n\n**Reward:** Arrow x10 [Chest]",
+        latitude: "0.57864923365682",
+        longitude: "-0.85225889971011",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.33265255679210",
+        longitude: "-0.81083438419827",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 5x Soldier construct\n\n**Reward:** [Time Bomb x3 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280542)",
+        latitude: "0.72211853730974",
+        longitude: "-0.64904956682798",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 6 Bokoblins\n\n**Reward:** [Dragonbone Boko Bow](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284290)",
+        latitude: "0.71508341233424",
+        longitude: "-0.65426011895812",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins\n\n**Reward:** \n- Spiked-Iron-Ball Hammer (Chest)\n- Five Bomb Flowers (Chest)",
+        latitude: "0.69057030257707",
+        longitude: "-0.59571453115055",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- x4 Moblins\n\n**Reward:** [Red Rupee [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284335)",
+        latitude: "0.76616165120859",
+        longitude: "-0.65820809495443",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n- Moblin\n\n**Reward:** [5x Bomb Flowers (Chest)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282140)",
+        latitude: "0.77537003044512",
+        longitude: "-0.65925183218857",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Aerocuda\n- 4 x Bokoblin\n\n**Reward:** [Dragonbone Boko Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284365)",
+        latitude: "0.68239560805276",
+        longitude: "-0.66982607891944",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Ice Enemies\n\n**Reward:** ??",
+        latitude: "0.49470503287945",
+        longitude: "-0.72528319113690",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bokoblin Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:** [Blue Lizal Reaper [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287809)",
+        latitude: "0.76838807445425",
+        longitude: "-0.79260726244374",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- Bokoblins\n- Ice Keese\n- Ice Chuchus\n- Ice-Breath Lizalfos\n\n**Rewards:* Zonaite Deposits",
+        latitude: "0.49322317623472",
+        longitude: "-0.73956081228621",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 x Bokoblin\n- 1 x Aerocuda\n- 1 x Moblin\n\n**Reward:** [Opal [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280221)",
+        latitude: "0.75170938154696",
+        longitude: "-0.73229186647626",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 x Blue Bokoblins\n\n**Reward:** \n- [Cobble Crusher [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282013)",
+        latitude: "0.74134453740446",
+        longitude: "-0.65480892182802",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins x2\n- Armored Bokoblins x2\n\n**Reward:**\n- Lizal Boomerang\n- Arrows x5\n- Brightbloom Seed x5",
+        latitude: "0.76686021551228",
+        longitude: "-0.61980460624193",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x3",
+        latitude: "0.40334530380400",
+        longitude: "-0.68216302353750",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Monster Camp",
+        description:
+          "**Enemies:** \n- Blue Lizalfos x1\n- Blue Bokoblin x1\n- Silver Bokoblin x3\n- Silver Lizalfos x2\n\n**Reward:** \n- Sundelion x1",
+        latitude: "0.41198344151428",
+        longitude: "-0.67875632576767",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x3",
+        latitude: "0.39855352773996",
+        longitude: "-0.68195648134105",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Ice ChuChu x2\n- Ice Keese x2\n- Ice Lizalfos x1\n- Bokoblin x3\n\n**Reward:** Zonaite",
+        latitude: "0.34441638113709",
+        longitude: "-0.59105687300345",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblin (on the ground)\n- 1x Bokoblin (on the higher platform)\n\n**Reward:** Part of [Codgers' Quarrel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279463)",
+        latitude: "0.66550144169595",
+        longitude: "-0.64996160566923",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- Ice-Breath Lizalfos\n- Ice Chuchu\n- Bokoblins\n\n**Rewards:** Zonaite Deposits",
+        latitude: "0.48338273204116",
+        longitude: "-0.80108168876296",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- Moblin and Bokoblins\n\n**Rewards:** Zonaite Deposits",
+        latitude: "0.47948644341483",
+        longitude: "-0.79544409124006",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construct Soldier Camp",
+        description:
+          "**Enemies:** \n- Soldier Construct III\n- Soldier Construct IV\n\n**Reward:**\n- Soldier Construct III Horn\n- Soldier Construct IV Horn\n\n**Note:** Varies with main story progression",
+        latitude: "0.63480664007234",
+        longitude: "-0.83793453573568",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:** [Dragonbone Boko Bow [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289734)",
+        latitude: "0.63153104891032",
+        longitude: "-0.67102776842503",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Black Moblin\n- 1x Silver Bokoblin\n- 1x Black Bokoblin\n\n**Reward:** Zonite Deposits",
+        latitude: "0.41368798667465",
+        longitude: "-0.79790089333449",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Black Moblin\n- 2x Black Bokoblin\n\n**Reward:** Zonite Deposits",
+        latitude: "0.42165858793558",
+        longitude: "-0.82115749418622",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos\n\n**Reward:**\n- Time Bombs x3\n- Large Zonaite [Chest]",
+        latitude: "0.62550863272065",
+        longitude: "-0.85228084446049",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Reward:** Arrows x5 [Chest]",
+        latitude: "0.60800334868779",
+        longitude: "-0.81473727418467",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:**\n- Sundelion [Chest]\n- A lot of zonaite ore deposits",
+        latitude: "0.28441914720425",
+        longitude: "-0.78156480363157",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Reward:** Arrow x10 [Chest]",
+        latitude: "0.29726745992083",
+        longitude: "-0.81588974118270",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins and Bokoblins\n\n**Reward:** Sundelion [Chest]",
+        latitude: "0.29225932028247",
+        longitude: "-0.80789707779326",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin and Bokoblins\n\n**Reward:** [Bomb Flower x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289737)",
+        latitude: "0.65139531104070",
+        longitude: "-0.80174322198522",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin and Bokoblins\n\n**Reward:** [Radiant Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289738)",
+        latitude: "0.64663994346279",
+        longitude: "-0.81259752633937",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin and Bokoblins\n\n**Reward:** Royal Halberd [Chest]",
+        latitude: "0.65929567379347",
+        longitude: "-0.85622198346258",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Tower",
+        description:
+          "Enter from above.\n\n**Enemies:** \n- Bokoblins\n- Ice Like\n- Moblins\n\n**Reward:**\n- Bomb Flower x5 [Chest]\n- Ice-Breath Lizal Blade [Chest]",
+        latitude: "0.67121347624578",
+        longitude: "-0.85045909717070",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construct Camp",
+        description:
+          "**Enemies:** \n- Constructs\n\n**Reward:** Zonaite x3 [Chest]",
+        latitude: "0.73494709926403",
+        longitude: "-0.56941739121717",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Fortress",
+        description:
+          "**Enemies:** \n- Boss Bokoblin and his posse\n\n**Reward:**\n- Rock Salt\n- Amber\n- Arrow x5\n- Lynel Reaper",
+        latitude: "0.70617181004222",
+        longitude: "-0.56860401570185",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Ice-Like (Frost)\n- 4x Bokoblin\n- 1x Ice-Breath Lizalfos\n\n**Reward:** Sundelion (Unlocked Chest)",
+        latitude: "0.49812677399208",
+        longitude: "-0.75225706231311",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Boss Blue Bokoblin\n- 3 Bokoblins\n\n**Reward:** Broadsword [Chest] and rescuing Hino [Food x3]",
+        latitude: "0.70634358799888",
+        longitude: "-0.63055197989926",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Ice-Breath Lizalfos\n- Ice Keese.\n\n**Reward:** ??",
+        latitude: "0.79786128730176",
+        longitude: "-0.84490926724106",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 Lower Ranked\n- 1 Higher Ranked\n\n**Reward:** N/A",
+        latitude: "0.73827726387655",
+        longitude: "-0.80514982403537",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 x Bokoblin\n- 1 x Blue Bokoblin\n\n**Reward:** No Reward",
+        latitude: "0.80908313050061",
+        longitude: "-0.82029855040105",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 3 x Green Lizalfos\n\n**Reward:** N/A",
+        latitude: "0.73449647229562",
+        longitude: "-0.82092033779026",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:** \n- Shock fruit\n- Arrows\n- Topaz sword",
+        latitude: "0.73092848066379",
+        longitude: "-0.81973749133232",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** ??",
+        latitude: "0.61187950015248",
+        longitude: "-0.84139323405751",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 Bokoblin\n- 1 Moblin\n\n**Reward:** N/A",
+        latitude: "0.78576188238937",
+        longitude: "-0.60814137584359",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1x Red Moblin\n- 4x Red Bokoblins\n- 1x Silver Bokoblin\n\n**Reward:** ??",
+        latitude: "0.69428001161708",
+        longitude: "-0.79763985546623",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 Captain\n- 2 Soldiers\n\n**Reward:** N/A",
+        latitude: "0.75731725228805",
+        longitude: "-0.78440244718939",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Bokoblin\n- 2 x Blue Bokoblin\n\n**Reward:** N/A",
+        latitude: "0.77332483688633",
+        longitude: "-0.77414839970527",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Ice Chuchu\n- 2 x Bokoblin\n- 1 x Blue Bokoblin\n\n**Reward:** N/A",
+        latitude: "0.77962539926826",
+        longitude: "-0.81331038463628",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Bokoblin\n- 1x Aerocuda\n\n**Reward:** N/A",
+        latitude: "0.77968344667043",
+        longitude: "-0.77614284894284",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Aerocuda\n- 2x Bokoblin\n\n**Reward:** N/A",
+        latitude: "0.78033238586079",
+        longitude: "-0.76803773076404",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Soldier Construct I\n- 1x Captain Construct II\n\n**Reward:** N/A",
+        latitude: "0.77195568264391",
+        longitude: "-0.76686711831076",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Pirate Ships",
+        description:
+          "Clear all enemies to advance [The Gathering Pirates](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278287).\n\n**Enemies:** \n- Aerocudas\n- Bokoblins\n- 2 Moblins\n- ! Boss Bokoblin\n\n**Reward:**\n\n- Blue Hinox Hammer [Locked Chest]\n- Steel Lizal Bow [Unlocked Chest]",
+        latitude: "0.79237344365761",
+        longitude: "-0.54683548803510",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin x 3\n- Armored Bokoblin x2\n- Lizalfos x1\n\n**Reward:** Giant Brightbloom Seed x5",
+        latitude: "0.37808419960868",
+        longitude: "-0.61984550478297",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Aerocuda\n- 2 x Bokoblin\n- 1 x Moblin\n\n**Reward:** Arrows x10 (in unlocked chest)",
+        latitude: "0.73105563749712",
+        longitude: "-0.68179757350967",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 x Aerocuda\n- 2 x Bokoblin\n- 1 x Moblin\n\n**Reward:** N/A",
+        latitude: "0.72177858365191",
+        longitude: "-0.66890106536053",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 Bokoblin\n- 1 Moblin\n\n**Reward:** N/A",
+        latitude: "0.73387483430027",
+        longitude: "-0.66971898163567",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Blue Moblin\n- Red Moblin\n- Bokoblins \n\n**Reward:** ??",
+        latitude: "0.74381995635382",
+        longitude: "-0.65874221115166",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \n- [5x Arrow [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290018)\n- Zonaite Deposits",
+        latitude: "0.32502309140386",
+        longitude: "-0.72450938742492",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Soldier Constructs\n- Bokoblins\n\n**Reward:** ??",
+        latitude: "0.79650229967594",
+        longitude: "-0.79472028242398",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblins\n- Aerocuda\n\n**Reward:** ??",
+        latitude: "0.78726781401046",
+        longitude: "-0.74569556328595",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 Black Bokoblin\n- 1 Black Moblin\n\n**Reward:**\n- Knight's Bow [Chest]",
+        latitude: "0.63447469064758",
+        longitude: "-0.82130915824501",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \nForest Dwellers Spear",
+        latitude: "0.81620466098356",
+        longitude: "-0.69176187825607",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \nSoldiers Claymore-Stick",
+        latitude: "0.81755655282109",
+        longitude: "-0.69126784783086",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin x1\n- Moblin x 1\n\n**Reward:** N/A",
+        latitude: "0.81455864008581",
+        longitude: "-0.61023843002900",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 Blue Bokoblin\n- 1 Lizalfos\n\n**Reward:** N/A",
+        latitude: "0.70647399346652",
+        longitude: "-0.64326543489872",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 2x Lizalfos\n- Bokoblin\n- Aerocuda",
+        latitude: "0.70473384926922",
+        longitude: "-0.63668493398293",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 x Bokoblin\n- 1 x Moblin\n\n**Reward:**\n- 5x Arrow [Chest] - on the lower platform\n- Opal [Chest] - on the highest platform",
+        latitude: "0.71646547683783",
+        longitude: "-0.66054896260010",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblin\n\n**Reward:** \n- Bomb Flower [Chest]",
+        latitude: "0.71333856026406",
+        longitude: "-0.66500567191414",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos x1\n- Bokoblins\n\n**Reward:** Topaz Shield",
+        latitude: "0.66032870189721",
+        longitude: "-0.62659289057945",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Construct Camp",
+        description:
+          "**Enemies:** \n- 4x Zonai Construct\n\n**Reward:** 3x Spring",
+        latitude: "0.65604155154681",
+        longitude: "-0.63123354916164",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** Phrenic Bow",
+        latitude: "0.64986226706920",
+        longitude: "-0.62719672631175",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin x1\n- Moblin x 2\n\n**Reward:** Arrows x10",
+        latitude: "0.79824033770373",
+        longitude: "-0.57736227817793",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Goblin Camp",
+        description:
+          "**Enemies:** \n- 2 Black Moblin\n- 1 Aerocuda\n- 1 Archer Blue Bokoblin\n\n**Reward:**  N/A",
+        latitude: "0.79213843137444",
+        longitude: "-0.57919630036926",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "Enter through top skull - one eye is not boarded up. \n**Enemies:** \n- Aerocuda x2\n- Fire Like x1\n- Moblin x3\n\n**Reward:** \n- Royal Shield\n- Royal Claymore",
+        latitude: "0.77544952887780",
+        longitude: "-0.59123181107589",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 Bokoblin\n- 1 Moblin\n\n**Reward:** Cobble Crusher (Leaning against the back wall of the shack)",
+        latitude: "0.78618908093179",
+        longitude: "-0.63471958365614",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 Bokoblin\n- 1 Moblin\n\n**Reward:** None",
+        latitude: "0.79399934685985",
+        longitude: "-0.64499687306221",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** \nCobble Crusher",
+        latitude: "0.77423696060711",
+        longitude: "-0.61566429456403",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \nCobble Crusher- Halbert",
+        latitude: "0.78892989175672",
+        longitude: "-0.63929381773710",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 Bokoblins\n- Moblin\n\n**Reward:** Spiny-Bone Spear [Chest]",
+        latitude: "0.78957026905765",
+        longitude: "-0.65163478474429",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- 3 Bokoblins\n- 1 Moblin\n\n**Reward:** No Reward",
+        latitude: "0.76979086291159",
+        longitude: "-0.65662250229403",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 Bokoblin\n- 3 Lizalfos\n\n**Reward:** Black Lizal Reaper [Chest]",
+        latitude: "0.76146996744602",
+        longitude: "-0.64995391917861",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2 x Bokoblins\n- 1 x Moblin\n\n**Reward:** Arrow x5 (Found in chest on top of stone column)",
+        latitude: "0.75692067690955",
+        longitude: "-0.72597748412292",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "Inside Irch Plain Well.\n\n**Enemies:** \n- 4 Horriblins\n\n**Reward:** Soldier's-Broadsowrd Halberd",
+        latitude: "0.75565534899770",
+        longitude: "-0.73248806384248",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x3\n\n**Reward:** N/A",
+        latitude: "0.76070376919910",
+        longitude: "-0.73833326234541",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \nSpiked Iron-ball Hammer",
+        latitude: "0.75266919676905",
+        longitude: "-0.63883616648633",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4 Bokoblins\n\n**Reward:** Arrow x5 [Unlocked Chest]",
+        latitude: "0.75522676462397",
+        longitude: "-0.62378590071870",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Lizalfos \n\n**Reward:** 5x Arrows",
+        latitude: "0.72699082077823",
+        longitude: "-0.60996011085416",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 5x Bokoblin\n- 2x Blue Moblin\n\n**Reward:** Gnarled Wooden Stick (In a chest on camp's highest platform. It is not necessary to clear the enemies to open the chest.)",
+        latitude: "0.69108548630835",
+        longitude: "-0.62735230394239",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4 x Bokoblin\n- 1 x Lizalfos\n\nWhen you approach the camp will be attacked by:\n\n- 3 x Soldier Construct II\n- 1 x Captain Construct II\n\n**Reward:** Frost Emitter (In a chest on top of the stone structure to the northwest of the camp)",
+        latitude: "0.67659991331621",
+        longitude: "-0.62250845699563",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:**  Opal [Chest]",
+        latitude: "0.72794751463451",
+        longitude: "-0.75501901739864",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "At the end of the rail in the West Passage.\n\n**Enemies:** \n- 5x Bokoblins\n- Bokoblin Chief\n\n**Reward:** ??",
+        latitude: "0.73234395812966",
+        longitude: "-0.71805829636133",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin\n\n**Reward:** \n- x5 Arrows\n- Luminous stone",
+        latitude: "0.72566898343111",
+        longitude: "-0.67026429450773",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \n3 bomb Flowers in water",
+        latitude: "0.74062998368682",
+        longitude: "-0.67700371671333",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 1x Aerocuda\n- 2x Lizalfos",
+        latitude: "0.70447628061966",
+        longitude: "-0.65728292450700",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:**\n- 5 x Bokoblin\n- 1 x Boss Bokoblin\n\nThese enemies patrol clockwise around the ruined village.\n\n**Reward:** No Reward",
+        latitude: "0.69801507108505",
+        longitude: "-0.65676853953389",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n-  4 Bokoblins\n\n**Reward:** ??",
+        latitude: "0.70637866973814",
+        longitude: "-0.68821851503947",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4x Zonai Construct\n\n**Reward:** \n- 2x Flame Emitter",
+        latitude: "0.70334756449705",
+        longitude: "-0.68663427152083",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:**  5x Bomb Flower [Chest]",
+        latitude: "0.70481800536830",
+        longitude: "-0.67653358755283",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin Boss\n- 3x Bokoblin\n\n**Reward:** ??",
+        latitude: "0.70099555520198",
+        longitude: "-0.70569303441394",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x2\n\n**Reward:** N/A",
+        latitude: "0.68976385408925",
+        longitude: "-0.72086714217380",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Moblin\n- 3x Bokoblin\n\n**Reward:** ??",
+        latitude: "0.68616471047710",
+        longitude: "-0.72154144970202",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokoblin x3\n\n**Reward:** N/A",
+        latitude: "0.68978883057164",
+        longitude: "-0.72498317837298",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 2x Bokoblin\n- Aerocuda\n\n**Reward:** ??",
+        latitude: "0.68849061890498",
+        longitude: "-0.73364165238618",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3x Bokoblins\n\n**Reward:**  \n- Meat\n- Mushrooms\n- Arrows",
+        latitude: "0.68536383082936",
+        longitude: "-0.73586873709885",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 3x Lizalfos\n\n**Reward:** 10x Arrows",
+        latitude: "0.64974738695495",
+        longitude: "-0.58079873359886",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4 x Lizalfos\n\n**Reward:** Opal [Unlocked Chest]",
+        latitude: "0.68025953352953",
+        longitude: "-0.64954342280849",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Small Enemy Camp",
+        description: "**Enemies:** \n- 2 x Lizalfos\n\n**Reward:** No Reward",
+        latitude: "0.67801860136947",
+        longitude: "-0.66874417002623",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 3x Lizalfos",
+        latitude: "0.67653502889151",
+        longitude: "-0.65829072680850",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** \nEightfold Blade - Halberd",
+        latitude: "0.66783559794092",
+        longitude: "-0.65337581609401",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Boss Bokoblin\n- 5x Bokoblins\n\n**Reward:** Lynel Bow",
+        latitude: "0.66996019270297",
+        longitude: "-0.63155728646104",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos\n- Bokoblins\n\n**Reward:** Lizal Shield [Chest]",
+        latitude: "0.62022429151284",
+        longitude: "-0.61348747460968",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos\n- Bokoblins\n\n**Reward:** Boko Reaper [Chest]",
+        latitude: "0.62674830157547",
+        longitude: "-0.60454138270808",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 3 x Blue Bokoblin\n- 4 x Black Bokoblin\n- 1 x Blue Moblin\n\n**Reward:** No Reward\n\nThis is the camp which must be cleared to complete the [Bring Peace to Necluda!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280745) quest.",
+        latitude: "0.64393364548920",
+        longitude: "-0.62879060567001",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 4x Soldier Construct\n- Captain Construct\n\n**Reward:** [Cannon x3 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280528)",
+        latitude: "0.64726194847814",
+        longitude: "-0.64153386906626",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfoes \n- Bokoblins\n\n**Reward:** Claymore",
+        latitude: "0.62494171239823",
+        longitude: "-0.65635173579972",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- 3x Bokoblin\n\n**Reward:** ??",
+        latitude: "0.64489201953984",
+        longitude: "-0.66728717838066",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "The only entrance is at the top, through one of the eyes. Bomb your way through the barriers to get to the bottom\n\n**Enemies:** \n- 5x Bokoblin\n\n**Reward:** \n- Bomb Flower x5\n- Explosive Spear",
+        latitude: "0.65851066461732",
+        longitude: "-0.67078173593865",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** Lizal Bow [Chest]",
+        latitude: "0.60154424166939",
+        longitude: "-0.66718827513171",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Boss Bokoblin \n- Bokoblins\n\n**Reward:** Lynel Bow",
+        latitude: "0.58898763815958",
+        longitude: "-0.67807697382261",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin \n- Bokoblins\n\n**Reward:** Gnarled Wooden Stick",
+        latitude: "0.60088408481553",
+        longitude: "-0.68224250892076",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- 1 Boss Bokoblin\n- 5 Bokoblins\n\n**Reward:** N/A",
+        latitude: "0.60815067862292",
+        longitude: "-0.70678571876977",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** Zonaite Spear",
+        latitude: "0.61104040776260",
+        longitude: "-0.72908625048134",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** Arrow x10",
+        latitude: "0.59406149784031",
+        longitude: "-0.72943223194650",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** Gerudo Bow",
+        latitude: "0.60671936078708",
+        longitude: "-0.78833931859648",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- ??\n\n**Reward:** \n- Claymore\n- Opal",
+        latitude: "0.59820360835438",
+        longitude: "-0.78874285722404",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- ??\n\n**Reward:** [Arrows x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=287086)",
+        latitude: "0.79702535497752",
+        longitude: "-0.72923053360171",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblin x3\n- Lizalfos x3\n\n**Reward:** Sundelion in the chest",
+        latitude: "0.37740858342474",
+        longitude: "-0.58356941796342",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Like Like x1\n- Rock Like x1\n- Bokoblin x4\n- Armored Bokoblin x1\n\n**Reward:** [Arrows x10](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289437)",
+        latitude: "0.42814729070560",
+        longitude: "-0.81789562259590",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins and Bokoblins\n\n**Rewards:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289997)\n- Zonaite Deposits",
+        latitude: "0.38280853808234",
+        longitude: "-0.65965608430108",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Rewards:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289999)\n- Zonaite Deposits",
+        latitude: "0.36248535624303",
+        longitude: "-0.66796748327121",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Fire Likes\n- Bokoblins\n\n**Rewards:**\n- [Arrows x10 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290002)\n- Zonaite Deposits",
+        latitude: "0.42457997774979",
+        longitude: "-0.62171841644584",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Rewards:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290004)\n- Zonaite Deposits",
+        latitude: "0.34738765367638",
+        longitude: "-0.81162510994790",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins and Bokoblins\n\n**Rewards:**\n- [Arrow x10 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290006)\n- Zonaite Deposits",
+        latitude: "0.34055283393701",
+        longitude: "-0.83196274981682",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins and Bokoblins\n\n**Rewards:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290008)\n- Zonaite Deposits",
+        latitude: "0.26762729506672",
+        longitude: "-0.83163022709209",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos x1\n- Bokoblin x3\n- Armored Bokoblin x2\n\n**Reward:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290010)\n- Zonaite Deposits",
+        latitude: "0.42109680223155",
+        longitude: "-0.57765488397547",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Mobins and Bokoblins\n\n**Rewards:**\n- [Giant Brightbloom Seeds x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290012)\n- Zonaite Deposits",
+        latitude: "0.49945663544946",
+        longitude: "-0.69036474222776",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblin and Bokoblins\n\n**Reward:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290014)\n- Zonaite Deposits",
+        latitude: "0.47990172032459",
+        longitude: "-0.71526456431260",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n- Ice Keese\n- Ice-Breath Lizalfos\n- Ice Like\n\n**Reward:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290017)\n- Zonaite Deposits",
+        latitude: "0.47257158447911",
+        longitude: "-0.80239514958780",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Rewards:**\n- [Giant Brightbloom Seeds x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290020)\n- Zonaite Deposits",
+        latitude: "0.35870548326878",
+        longitude: "-0.61375914430678",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Reward:**\n- [Arrows x10 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290022)\n- Zonaite Deposits",
+        latitude: "0.44789499065975",
+        longitude: "-0.82564222265867",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Like Like\n- Rock Like\n- Bokoblins\n\n**Rewards:**\n- [Sundelion [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290025)\n- Zonaite Deposits",
+        latitude: "0.26320622805275",
+        longitude: "-0.66229429607532",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Lizalfos and Bokoblins\n\n**Rewards:**\n- [Sundelion](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290027)\n- Zonaite Deposits",
+        latitude: "0.30244889776390",
+        longitude: "-0.55316335193052",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:**\n- [Giant Brightbloom Seed x5 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290029)\n- Zonaite Desposits",
+        latitude: "0.40821591788516",
+        longitude: "-0.81152199646786",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Moblins and Bokoblins\n\n**Reward:**\n- [Arrow x10 [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290032)\n- Zonaite Deposits",
+        latitude: "0.38929961895732",
+        longitude: "-0.78559485387956",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description: "**Enemies:** \n- Bokobin x5\n- Boss Bokoblin x1",
+        latitude: "0.27156446751344",
+        longitude: "-0.68797950104599",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Hideout",
+        description:
+          "**Enemies:** \n- Yiga Clan Members\n\n**Reward:** \n- Large Crystallized Charge\n- Yiga Schematic",
+        latitude: "0.26596436023014",
+        longitude: "-0.78070503281515",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Camp",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Reward:** [Giant Brightbloom Seed x5](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290036)",
+        latitude: "0.28833838941124",
+        longitude: "-0.83602126256233",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Enemy Camp",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I (Great Sky Island)",
+        description: "**Location:** On the large circular floating platform",
+        latitude: "0.99745717157521",
+        longitude: "-0.68729808633844",
+        media: [
+          {
+            title: "Screenshot 2023-04-29 00-06-20",
+            fileName: "96ca1e2c-b47d-4a08-b50d-3b51dd08b87b.png",
+            url: "https://media.mapgenie.io/storage/media/96ca1e2c-b47d-4a08-b50d-3b51dd08b87b.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I (Guardian of North Hyrule Sky Archipelago)",
+
+        latitude: "1.12564090583130",
+        longitude: "-0.68887689283909",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "2023050601472500_c",
+            fileName: "d358960e-ce6b-48f0-bd94-b5878650f37c.jpg",
+            url: "https://media.mapgenie.io/storage/media/d358960e-ce6b-48f0-bd94-b5878650f37c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "1.03308025510450",
+        longitude: "-0.77722072285257",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+        description: "**Location:** ??",
+        latitude: "0.99629582191209",
+        longitude: "-0.74669059461698",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II (Guardian of Sokkala Sky Archipelago)",
+
+        latitude: "1.10418666949200",
+        longitude: "-0.58530516301048",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346116634_809447710785341_4228656790570412586_n",
+            fileName: "79f6b377-c7e9-4a9d-aa6d-8437d79c0d77.jpg",
+            url: "https://media.mapgenie.io/storage/media/79f6b377-c7e9-4a9d-aa6d-8437d79c0d77.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.93033144628747",
+        longitude: "-0.62095866685908",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+        description:
+          "Shrine quest objective for [The Necluda Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286698)",
+        latitude: "0.95732143177737",
+        longitude: "-0.60518954807503",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+        description:
+          "Side Quest Objective for [Unknown Sky Giant](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286583)",
+        latitude: "1.06778652874940",
+        longitude: "-0.81352970257547",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I",
+
+        latitude: "1.13371207633880",
+        longitude: "-0.82660688612509",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I (Rising Island Chain)",
+
+        latitude: "1.15954802653330",
+        longitude: "-0.81484741501086",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II (Guardian of Wellspring Island)",
+
+        latitude: "1.06558642060400",
+        longitude: "-0.59310376622788",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.96299941738586",
+        longitude: "-0.71318058633685",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "1.15701103058300",
+        longitude: "-0.59684348829478",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I",
+
+        latitude: "0.35850297198623",
+        longitude: "-0.68012467287681",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II (Lanayru Sky Archipelago)",
+
+        latitude: "1.03752029267220",
+        longitude: "-0.60660743649592",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.26010599974558",
+        longitude: "-0.59817120970465",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+
+        latitude: "0.34914657865929",
+        longitude: "-0.61805052714823",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+        description:
+          "**Reward:** Large Crystallized Charge, Zonai Devices, Zonaite, Flux Core III",
+        latitude: "0.40100872046898",
+        longitude: "-0.67541058681329",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.45126401892203",
+        longitude: "-0.84486433213831",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+
+        latitude: "0.33800879159611",
+        longitude: "-0.62201299538276",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+
+        latitude: "0.33603102548861",
+        longitude: "-0.58963467208690",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.94099187003357",
+        longitude: "-0.66660832916034",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.49665037704032",
+        longitude: "-0.55329814553244",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+
+        latitude: "0.28396002523512",
+        longitude: "-0.83654964290593",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+        description: "Within arena through cave",
+        latitude: "0.49076287904334",
+        longitude: "-0.61696935964341",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.34858188844477",
+        longitude: "-0.83452990530750",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+        description: "In the middle of the circular platform",
+        latitude: "0.49734181694718",
+        longitude: "-0.69590249990026",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+        description:
+          "North of the Abandoned Lanayru Mine, on a circular platform",
+        latitude: "0.41174313823767",
+        longitude: "-0.60008126323027",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I",
+        description: "North East of Kawiraus Lightroot, on a circular platform",
+        latitude: "0.33069381064877",
+        longitude: "-0.77326121149196",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+        description:
+          "South East of Sikutamak Lightroot, on a circular platform",
+        latitude: "0.47223150260963",
+        longitude: "-0.58390827095212",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct I",
+
+        latitude: "0.25959548709193",
+        longitude: "-0.69993486493149",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+        description:
+          "East of Kawumoro Lightroot, South of Aduon Lightroot, on a circular platform",
+        latitude: "0.43393682654508",
+        longitude: "-0.78741479191464",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct II",
+        description: "South of Netamnet Lightroot",
+        latitude: "0.41971623896330",
+        longitude: "-0.72654171367955",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.26756134639976",
+        longitude: "-0.76089973734392",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flux Construct III",
+
+        latitude: "0.49293568057581",
+        longitude: "-0.72920151316453",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Flux Construct",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Frox (Scourge of the Depths)",
+
+        latitude: "0.27910259111914",
+        longitude: "-0.78245209795142",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox (Scourge of the Depths)",
+
+        latitude: "0.27764475178037",
+        longitude: "-0.81303763630791",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.47122810708377",
+        longitude: "-0.71040934655844",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox (Scourge of the Depths)",
+
+        latitude: "0.34461252788364",
+        longitude: "-0.72753471077075",
+        media: [
+          {
+            title: "",
+            fileName: "1301e74a-0095-446b-93e4-65b9da01099a.jpg",
+            url: "https://media.mapgenie.io/storage/media/1301e74a-0095-446b-93e4-65b9da01099a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.40613499702492",
+        longitude: "-0.72840721785306",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+        description:
+          "Side quest objective for [Unknown Huge Silhouette](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286582)",
+        latitude: "0.35189045011595",
+        longitude: "-0.69742693954913",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.41002839270512",
+        longitude: "-0.82733759610994",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.43525460775449",
+        longitude: "-0.63420144147773",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.26854817698681",
+        longitude: "-0.67675188973979",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.27913717039029",
+        longitude: "-0.71382029342726",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.45036771979088",
+        longitude: "-0.57422636775090",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.46986569892211",
+        longitude: "-0.73363233267335",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.37709546251179",
+        longitude: "-0.66868064704357",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox (Scourge of the Depths)",
+
+        latitude: "0.27166814184176",
+        longitude: "-0.79234656127909",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+        description: "**Reward:** Zonaite, Frox Parts",
+        latitude: "0.40869083723200",
+        longitude: "-0.69586182882716",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.29523145788033",
+        longitude: "-0.83473771017938",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.46403992694457",
+        longitude: "-0.84486433213831",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.33965054656166",
+        longitude: "-0.85435935936877",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue White Frox",
+
+        latitude: "0.46525062924586",
+        longitude: "-0.80527004040587",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.31548450860163",
+        longitude: "-0.77465964968951",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.26699544000404",
+        longitude: "-0.63515979784914",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.49646752691967",
+        longitude: "-0.76099398113928",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.49067743137178",
+        longitude: "-0.68564545671958",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.26647979385672",
+        longitude: "-0.85354828800274",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.35393817800637",
+        longitude: "-0.60587386325355",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.32809914897550",
+        longitude: "-0.81860872814954",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.40895639766025",
+        longitude: "-0.62214549733204",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.28743457439315",
+        longitude: "-0.73054678811359",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.44191553409664",
+        longitude: "-0.77609674283750",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.41155897521638",
+        longitude: "-0.56970930013244",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.45661764865375",
+        longitude: "-0.76224804014069",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.43499096977126",
+        longitude: "-0.73075902207211",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.41008768396100",
+        longitude: "-0.74623599396591",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.36688272047616",
+        longitude: "-0.75632480442587",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.39365182065970",
+        longitude: "-0.77556680474743",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-White Frox",
+
+        latitude: "0.39557467725341",
+        longitude: "-0.82661305782136",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Obsidian Frox",
+
+        latitude: "0.29270269442732",
+        longitude: "-0.80003826103601",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.29483702021035",
+        longitude: "-0.76452016615619",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.32138039875915",
+        longitude: "-0.71281362350197",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frox",
+
+        latitude: "0.38682790336090",
+        longitude: "-0.72197096609779",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Frox",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Gleeok (Coliseum Ruins)",
+        description:
+          "**Location:** [Coliseum Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277324)",
+        latitude: "0.66285841507522",
+        longitude: "-0.74025902366492",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Thunder Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flame Gleeok",
+        description: "**Location:** Atop ruins on Spectacle Rock",
+        latitude: "0.61824790890265",
+        longitude: "-0.77105998992968",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Gleeok (Gerudo Mountain)",
+        description:
+          "**Location:** Top of [Gerudo Summit](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277337)",
+        latitude: "0.67243960330137",
+        longitude: "-0.83274476690247",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Frost Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Gleeok (Herin Lake South)",
+        description: "**Location:** On the hill south of Herin Lake",
+        latitude: "0.58649759501702",
+        longitude: "-0.66918107565178",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Thunder Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Gleeok",
+
+        latitude: "0.74557941124364",
+        longitude: "-0.59292902137642",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Thunder Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flame Gleeok (Bridge of Hylia)",
+        description:
+          "**Location:** In the middle of the Bridge of Hylia\n\n**Note:** Side Quest Objective for [Unknown Three-Headed Monster](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286581)",
+        latitude: "0.62248049127795",
+        longitude: "-0.70449230144740",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Gleeok (Tabantha Tundra)",
+
+        latitude: "0.79639142017834",
+        longitude: "-0.76533306330478",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Frost Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "King Gleeok (Hebra Sky)",
+        description:
+          "Gleeok but each head is a different element (Fire, Ice, Lightning). Final phase will have a combination of all 3 elements.",
+        latitude: "1.11961908817680",
+        longitude: "-0.84698066122161",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flame Gleeok",
+
+        latitude: "0.71715857138366",
+        longitude: "-0.81931071864767",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "King Gleeok",
+
+        latitude: "0.92626503921448",
+        longitude: "-0.55342634137730",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "King Gleeok",
+        description:
+          "**Reward:** [Cap of Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280822)",
+        latitude: "0.47960123175218",
+        longitude: "-0.69239277210534",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "King Gleeok",
+
+        latitude: "0.96174653347786",
+        longitude: "-0.84622024236552",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Gleeok",
+
+        latitude: "0.79779227894515",
+        longitude: "-0.82466252846902",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Frost Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flame Gleeok",
+        description:
+          "Jump from South Eldin Sky Archipelago toward Tribly Valley. On the way down, the Flame Gleeok is flying around the sky. Close to coordinates 2240, 0700",
+        latitude: "1.06911191393040",
+        longitude: "-0.63120573455857",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Gleeok",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Hinox (Carok Bridge)",
+        description: "**Location:** Sleeping on Carok Bridge",
+        latitude: "0.71835185549608",
+        longitude: "-0.73799908161138",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346174295_922614655634007_2060963866277433454_n",
+            fileName: "856d1e7b-444a-452a-b62b-5569bb91bb54.jpg",
+            url: "https://media.mapgenie.io/storage/media/856d1e7b-444a-452a-b62b-5569bb91bb54.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox (Rowan Plain)",
+        description: "**Location:** Rowan Plain",
+        latitude: "0.77087982212241",
+        longitude: "-0.74298463761806",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346147546_1404749763657805_8950129361431030921_n",
+            fileName: "2b737b4d-4cbd-4570-a8ac-c765f1ba143c.jpg",
+            url: "https://media.mapgenie.io/storage/media/2b737b4d-4cbd-4570-a8ac-c765f1ba143c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Eldest Hinox Brother",
+        description:
+          "**Location:** [Calora Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277995) - down the platforms near the entrance. Part of [Ousting the Giants](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281892).",
+        latitude: "0.60504951045922",
+        longitude: "-0.63800230622448",
+        media: [
+          {
+            title: "346116893_961737255188581_7718552599090228343_n",
+            fileName: "045c4474-717d-4504-b374-44ffc6e215d6.jpg",
+            url: "https://media.mapgenie.io/storage/media/045c4474-717d-4504-b374-44ffc6e215d6.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+        description: "**Location:** Forest Colliseum",
+        latitude: "0.45779255202119",
+        longitude: "-0.70687003433767",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+        description:
+          "**Location:** South of [Sijotu Lightroot](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277860)",
+        latitude: "0.29355325708174",
+        longitude: "-0.66452750244412",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox (Aris Beach)",
+
+        latitude: "0.57830670290508",
+        longitude: "-0.64808961316157",
+        media: [
+          {
+            title: "346115852_649269563709461_4725243698605817399_n",
+            fileName: "3a78f6b8-fc09-4bbc-bccc-c17291effe1b.jpg",
+            url: "https://media.mapgenie.io/storage/media/3a78f6b8-fc09-4bbc-bccc-c17291effe1b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.81187114329183",
+        longitude: "-0.67637525985806",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346148606_1343296812921753_2654321399026518769_n",
+            fileName: "d34c1ffa-d843-4fd8-b390-b117450942a8.jpg",
+            url: "https://media.mapgenie.io/storage/media/d34c1ffa-d843-4fd8-b390-b117450942a8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.66074788896111",
+        longitude: "-0.65592167799132",
+        media: [
+          {
+            title: "346116336_794494338526036_7464570232673775103_n",
+            fileName: "9a42e72b-a058-4b3b-8c9c-818b7eff433b.jpg",
+            url: "https://media.mapgenie.io/storage/media/9a42e72b-a058-4b3b-8c9c-818b7eff433b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.72791025762488",
+        longitude: "-0.77475697518705",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346149115_265001089400743_7781239709636909207_n",
+            fileName: "8fab466e-e448-40a7-8400-6e7d9db36da0.jpg",
+            url: "https://media.mapgenie.io/storage/media/8fab466e-e448-40a7-8400-6e7d9db36da0.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.71136792684396",
+        longitude: "-0.59366941452089",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346117924_1168290197197779_7167409440134009005_n",
+            fileName: "f6f8cafd-9f2c-4100-881e-2e8e1b9a11f4.jpg",
+            url: "https://media.mapgenie.io/storage/media/f6f8cafd-9f2c-4100-881e-2e8e1b9a11f4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox (Trilby Plain)",
+        description:
+          "Objective for [WANTED: Hinox](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281480) side quest.",
+        latitude: "0.73241209729398",
+        longitude: "-0.66085235486655",
+        media: [
+          {
+            title: "346116453_943993926801662_3361775358131720748_n",
+            fileName: "81c94226-8158-4f5b-be75-933681238f93.jpg",
+            url: "https://media.mapgenie.io/storage/media/81c94226-8158-4f5b-be75-933681238f93.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.82598161550686",
+        longitude: "-0.82089445981239",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346115097_565970225653104_4108473857619792482_n",
+            fileName: "5b05b1b9-40fe-4ca7-9500-467898056020.jpg",
+            url: "https://media.mapgenie.io/storage/media/5b05b1b9-40fe-4ca7-9500-467898056020.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.63871818576423",
+        longitude: "-0.63689955177065",
+        media: [
+          {
+            title: "346116885_778512690565560_1256349608364411371_n",
+            fileName: "2c8e3dd9-f635-4d76-b5e2-a94237acfe5c.jpg",
+            url: "https://media.mapgenie.io/storage/media/2c8e3dd9-f635-4d76-b5e2-a94237acfe5c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.74535012135105",
+        longitude: "-0.79067548759380",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346150683_1058712195534234_6390497263656700338_n",
+            fileName: "1b10bb81-0be3-4869-a71a-01ca8a4ff468.jpg",
+            url: "https://media.mapgenie.io/storage/media/1b10bb81-0be3-4869-a71a-01ca8a4ff468.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.42079493692599",
+        longitude: "-0.79008860315386",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.33661702095200",
+        longitude: "-0.70159106342635",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+        description:
+          "**Location:** [North Akkala Beach Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280989)",
+        latitude: "0.81705884204023",
+        longitude: "-0.55506095035886",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346148835_1221450508764565_7918865783124324001_n",
+            fileName: "2516fbdf-a1b3-429a-8bc8-cd5a6c4e10c1.jpg",
+            url: "https://media.mapgenie.io/storage/media/2516fbdf-a1b3-429a-8bc8-cd5a6c4e10c1.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.63316689903839",
+        longitude: "-0.66223133736608",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346174932_3591696331074465_8471246501483773410_n",
+            fileName: "7f3ced15-ea05-4376-96f7-70ac8af07e71.jpg",
+            url: "https://media.mapgenie.io/storage/media/7f3ced15-ea05-4376-96f7-70ac8af07e71.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.74381650677618",
+        longitude: "-0.72719497568440",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346117913_3296387407340178_3162559433863964312_n",
+            fileName: "02c71c9b-0cef-4589-a2b7-017aee5fad88.jpg",
+            url: "https://media.mapgenie.io/storage/media/02c71c9b-0cef-4589-a2b7-017aee5fad88.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.78161450763751",
+        longitude: "-0.79415901641991",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346154559_1258148901735414_5640379147203348527_n",
+            fileName: "b0f0b417-c0f2-45a8-9f23-127d8c67100d.jpg",
+            url: "https://media.mapgenie.io/storage/media/b0f0b417-c0f2-45a8-9f23-127d8c67100d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.28681577946352",
+        longitude: "-0.66766438826355",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.60606544677987",
+        longitude: "-0.72919712010093",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346112691_598990675657818_4855123355007595640_n",
+            fileName: "d36de5ae-6bcc-4822-89ff-e3cc69a0d3b6.jpg",
+            url: "https://media.mapgenie.io/storage/media/d36de5ae-6bcc-4822-89ff-e3cc69a0d3b6.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.66824601983998",
+        longitude: "-0.68104342956656",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346102286_1210527399664027_7577377428993206101_n",
+            fileName: "b3db082e-63c2-4088-bf7c-983a5c7ad483.jpg",
+            url: "https://media.mapgenie.io/storage/media/b3db082e-63c2-4088-bf7c-983a5c7ad483.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.25580637740866",
+        longitude: "-0.64718673270224",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+        description:
+          "Inside the [Ulria Grotto East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282158)\n\n**Coordinates:** 4426, 0740, 0111",
+        latitude: "0.72727674479859",
+        longitude: "-0.56099948726765",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.76086290207817",
+        longitude: "-0.55391604298822",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Middle Hinox Brother",
+        description:
+          "**Location:** [Corta Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281893) - From the southern entrance, fall down the hole, then destroy the rock pile at the end to reveal an updraft. Glide it up to the Hinox. Part of [Ousting the Giants](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281892).",
+        latitude: "0.60913330485980",
+        longitude: "-0.65001653610176",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Youngest Hinox Brother",
+        description:
+          "**Location:** [Rodai Lakefront Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282070) - Fall down the hole into the water, then follow the cave north to the Hinox. Part of [Ousting the Giants](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281892).",
+        latitude: "0.60755187135594",
+        longitude: "-0.64213693141909",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.43659279600979",
+        longitude: "-0.55353394264188",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.35251485519689",
+        longitude: "-0.73776106891475",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.66161268753308",
+        longitude: "-0.83843194961554",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.62564093323240",
+        longitude: "-0.65276010395441",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.66481749593322",
+        longitude: "-0.76702234698368",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.76775585393014",
+        longitude: "-0.71633675200604",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.33743974259293",
+        longitude: "-0.83840225299053",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+
+        latitude: "0.30303326402721",
+        longitude: "-0.74944565165160",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+        description:
+          "Shrine quest objective. Found inside the [Satori Mountain Foothill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277791). Defeat it to get [The Satori Mountain Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281693).",
+        latitude: "0.67981481673830",
+        longitude: "-0.77575350654891",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.26794904884260",
+        longitude: "-0.84232773542345",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.31432580380257",
+        longitude: "-0.63714806447646",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.33650755739116",
+        longitude: "-0.65586526364072",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.61068910375714",
+        longitude: "-0.66773357633323",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.61958565209068",
+        longitude: "-0.60143297068069",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox (Gloom)",
+
+        latitude: "0.37865125797158",
+        longitude: "-0.69137873794972",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.28544785526672",
+        longitude: "-0.64999968414071",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+
+        latitude: "0.40842737451589",
+        longitude: "-0.66118008102249",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+        description: "Black Hinox",
+        latitude: "0.44549692758177",
+        longitude: "-0.79261397970066",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Black Hinox",
+
+        latitude: "0.50151764633611",
+        longitude: "-0.82061835256562",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue Hinox",
+        description: "Found in the middle of the 3 buildings",
+        latitude: "0.30126692392444",
+        longitude: "-0.65301464607091",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hinox",
+        description: 'Part of the Main Story Quest "Crisis at Hyrule Castle"',
+        latitude: "0.78053561191223",
+        longitude: "-0.37247765844913",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "",
+            fileName: "79453932-4713-49f5-93ea-9bd2e2ff431c.jpg",
+            url: "https://media.mapgenie.io/storage/media/79453932-4713-49f5-93ea-9bd2e2ff431c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Hinox",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Red-Maned Lynel",
+
+        latitude: "0.79776778889540",
+        longitude: "-0.58500856161160",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "White-Maned Lynel",
+
+        latitude: "0.60466536595447",
+        longitude: "-0.65587123404455",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-Maned Lynel",
+
+        latitude: "0.67317386371526",
+        longitude: "-0.61771848833288",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored White/Silver Lynel",
+        description: "**Location:** ??\n\nHas a shield.",
+        latitude: "0.40437419810698",
+        longitude: "-0.71107224036152",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-Maned Lynel",
+
+        latitude: "0.69319672595455",
+        longitude: "-0.63759577007590",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue/White/Silver-Maned Lynel",
+
+        latitude: "0.76293762941854",
+        longitude: "-0.79315159897470",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-Maned Lynel",
+
+        latitude: "0.78960729577624",
+        longitude: "-0.84960145922898",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Red-Maned Lynel",
+
+        latitude: "0.70896300777832",
+        longitude: "-0.75398139335289",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Red-Maned Lynel",
+
+        latitude: "0.70337705144908",
+        longitude: "-0.81066830344932",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Red-Maned Lynel",
+
+        latitude: "0.75166697759042",
+        longitude: "-0.77268162814397",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Silver Lynel",
+
+        latitude: "0.30729185392653",
+        longitude: "-0.79278497159765",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "White-Maned Lynel",
+
+        latitude: "0.73372477929826",
+        longitude: "-0.57787536200354",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue/White/Silver-Maned Lynel",
+
+        latitude: "0.57858216395594",
+        longitude: "-0.72319563635685",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Red Lynel",
+
+        latitude: "0.33853718838188",
+        longitude: "-0.74937008881355",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored White/Silver Lynel",
+
+        latitude: "0.46202153049333",
+        longitude: "-0.75416174817397",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue / White / Silver Lynel",
+
+        latitude: "0.68581285245861",
+        longitude: "-0.62375389610534",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Red Lynel",
+
+        latitude: "0.34205585720851",
+        longitude: "-0.69495242183916",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "White-Maned Lynel",
+
+        latitude: "0.67144089537082",
+        longitude: "-0.84830855714077",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-Maned Lynel",
+
+        latitude: "0.59515794590543",
+        longitude: "-0.70011747503167",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored White-Maned Lynel",
+
+        latitude: "0.40414762747993",
+        longitude: "-0.74119132324785",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Silver Lynel",
+
+        latitude: "0.37030554707017",
+        longitude: "-0.67019218891093",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue/White/Silver-Maned Lynel",
+
+        latitude: "0.46636125042653",
+        longitude: "-0.56811496803795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-Maned Lynel",
+
+        latitude: "0.61615641642729",
+        longitude: "-0.75288172029104",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Silver Lynel",
+
+        latitude: "0.41547605712999",
+        longitude: "-0.66963528714763",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored White-Maned Lynel",
+
+        latitude: "0.31712249064019",
+        longitude: "-0.64659272038799",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Blue-Maned Lynel",
+
+        latitude: "0.41614232475020",
+        longitude: "-0.61919008267441",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Blue Lynel",
+
+        latitude: "0.43382074339051",
+        longitude: "-0.60159619462820",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Silver-Maned Lynel",
+
+        latitude: "0.33953137958810",
+        longitude: "-0.74127671163470",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Silver-Maned Lynel",
+
+        latitude: "0.33808570634780",
+        longitude: "-0.74159338845220",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "White-Maned Lynel",
+
+        latitude: "0.33709438742984",
+        longitude: "-0.74054697809783",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blue-Maned Lynel",
+
+        latitude: "0.33745236371735",
+        longitude: "-0.73915635381013",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Red Lynel",
+
+        latitude: "0.33880165883657",
+        longitude: "-0.73882590843519",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored White Lynel",
+
+        latitude: "0.26832876835107",
+        longitude: "-0.68659134569862",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armored Blue Lynel",
+
+        latitude: "0.26627880861092",
+        longitude: "-0.65256262349681",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Lynel",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description:
+          "**Location:** Inside [Lindor's Brow Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277702)",
+        latitude: "0.74006754708678",
+        longitude: "-0.75901413975416",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "Near the stone gate.",
+        latitude: "0.71721594044389",
+        longitude: "-0.72350037268819",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description:
+          "**Location:** Inside the [Docks](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281046) on the walkway",
+        latitude: "0.74127204226205",
+        longitude: "-0.70945116496084",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description:
+          "Chasm inside Deku Tree. Phantom Ganon will spawn after the Hands are defeated.",
+        latitude: "0.44949621477940",
+        longitude: "-0.68983306579202",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.75719193086862",
+        longitude: "-0.76049811402889",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Colgera",
+        description: "**Reward:** Huge Crystallized Charge",
+        latitude: "0.26412371180696",
+        longitude: "-0.73799280292394",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Colgera Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Marbled Gohma",
+        description: "**Reward:** Huge Crystallized Charge",
+        latitude: "0.35880748099471",
+        longitude: "-0.63397398522602",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Marbled Gohma Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Queen Gibdo",
+        description: "**Reward:** Huge Crystallized Charge",
+        latitude: "0.35202932301576",
+        longitude: "-0.81988443895145",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Queen Gibdo Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Colgera (Scourge of the Depths)",
+        description:
+          "Only appears here after completing the [Wind Temple](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278233)",
+        latitude: "0.48687662004710",
+        longitude: "-0.77530786404353",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Colgera Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.81773021496252",
+        longitude: "-0.72966589837324",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Colgera (Scourge of The Depths)",
+        description: "Will spawn here once you have beaten the Wind Temple.",
+        latitude: "0.48021412693723",
+        longitude: "-0.84285706883432",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Colgera Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "**Note:** Sages are unusable in this fight",
+        latitude: "0.41223744028315",
+        longitude: "-0.71106432921616",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.69057543048601",
+        longitude: "-0.72706776825223",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.73397093911493",
+        longitude: "-0.69828319933427",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.65124192949224",
+        longitude: "-0.74591683200487",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.65828112345011",
+        longitude: "-0.57262425071607",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.64157508733004",
+        longitude: "-0.71303377370907",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "A Phantom Ganon will spawn after defeating the Hands.",
+        latitude: "0.77366289090595",
+        longitude: "-0.71117032776448",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mucktorok",
+        description: "**Reward:** Huge Crystallized Charge",
+        latitude: "0.44392927707445",
+        longitude: "-0.74314545547449",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Mucktorok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.79350946490739",
+        longitude: "-0.65463673349848",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mucktorok",
+        description: "**Reward:** Huge Crystallized Charge",
+        latitude: "0.43316472215639",
+        longitude: "-0.58501676857193",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Mucktorok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mucktorok",
+
+        latitude: "0.39878688953408",
+        longitude: "-0.61180441469736",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Mucktorok Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.71394702390752",
+        longitude: "-0.77594251651922",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "In the Forest.",
+        latitude: "0.63609451986014",
+        longitude: "-0.61081746454965",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.78418020423814",
+        longitude: "-0.58508007260943",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Marbled Gohma",
+
+        latitude: "0.35475518446948",
+        longitude: "-0.79296104143961",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Marbled Gohma Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Queen Gibdo",
+
+        latitude: "0.36412426595399",
+        longitude: "-0.67251953323859",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Queen Gibdo Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Marbled Gohma",
+        description: "**Reward:** Huge Crystallized Charge",
+        latitude: "0.37706476263260",
+        longitude: "-0.65142189014085",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Marbled Gohma Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.75149959650501",
+        longitude: "-0.59618425962927",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Queen Gibdo",
+
+        latitude: "0.37663362069122",
+        longitude: "-0.79057924882250",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Queen Gibdo Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description:
+          "Lower level of maze, guards a chest with a Zonai component",
+        latitude: "0.82078877931523",
+        longitude: "-0.55328555008390",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "Inside the tunnel along the main path",
+        latitude: "0.76311451911667",
+        longitude: "-0.61532497142733",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.71505897760619",
+        longitude: "-0.70601121859201",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description:
+          "Inside [Tamio River Downstream Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280845)",
+        latitude: "0.67167628575403",
+        longitude: "-0.79801724572903",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "Among Deya Village Ruins, above ground.",
+        latitude: "0.64014150004515",
+        longitude: "-0.69452476038171",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.66170878154583",
+        longitude: "-0.71582710392161",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.71054642601565",
+        longitude: "-0.62088423993426",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.66373368511444",
+        longitude: "-0.59884996809529",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.25999468084206",
+        longitude: "-0.84910523831138",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description:
+          "Guarding the [Royal Hyrulean Fabric](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280927)",
+        latitude: "0.73544415405877",
+        longitude: "-0.71891946201345",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "After defeating Gloom Hands, Phantom Ganon may appear",
+        latitude: "0.72736244493399",
+        longitude: "-0.67843660405177",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "Close to the skull of the Eldin Dark Skeleton",
+        latitude: "0.49901068756263",
+        longitude: "-0.65095255421033",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.39894759318486",
+        longitude: "-0.55355174340477",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.59066844762286",
+        longitude: "-0.76088227254587",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.67807213984509",
+        longitude: "-0.66676960445500",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "In the middle of the Great Cliffs rocks in the sand.",
+        latitude: "0.63234695524986",
+        longitude: "-0.80962631992486",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.58476883276443",
+        longitude: "-0.64623436253815",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.59939197535495",
+        longitude: "-0.65818837721827",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.57926279953884",
+        longitude: "-0.67409122258016",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+        description: "Between big trees near the end of the road",
+        latitude: "0.61766697471300",
+        longitude: "-0.74188702436635",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.40283529051842",
+        longitude: "-0.71110630813385",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Hands",
+
+        latitude: "0.44257093468241",
+        longitude: "-0.67847048023756",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Miniboss",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Molduga (East Barrens)",
+        description:
+          "Side quest objective for [WANTED: Molduga](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281481)",
+        latitude: "0.59563163046379",
+        longitude: "-0.77637412032331",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Molduga",
+
+        latitude: "0.61319136552652",
+        longitude: "-0.86098324371794",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Molduga",
+        description: "Palu Wasteland South",
+        latitude: "0.59501326525445",
+        longitude: "-0.81378323070808",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Molduga",
+
+        latitude: "0.61991636031279",
+        longitude: "-0.83224963485301",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Molduga",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+        description:
+          "Can repair one of your weapons or shield and add a random modifier to it. Must be sucked by it and spit out.",
+        latitude: "0.79120972173550",
+        longitude: "-0.65074056351028",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Octorok",
+        description: "In the forest",
+        latitude: "0.80187839376232",
+        longitude: "-0.59597303022176",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octoroks",
+        description: "Surrounding the lake",
+        latitude: "0.77717627926268",
+        longitude: "-0.65629773289766",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.75060646848817",
+        longitude: "-0.64287112371065",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+        description: "On top of Skull.",
+        latitude: "0.79119600913531",
+        longitude: "-0.64239732297534",
+        media: [
+          {
+            title: "",
+            fileName: "036a206f-cd1f-40dd-89c6-045b29be031e.jpeg",
+            url: "https://media.mapgenie.io/storage/media/036a206f-cd1f-40dd-89c6-045b29be031e.jpeg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77320354187445",
+        longitude: "-0.65660590658948",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.76778924155602",
+        longitude: "-0.65668951798614",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+        description: "Just south of the Korok friend.",
+        latitude: "0.75956246350155",
+        longitude: "-0.65392026328115",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79066208536328",
+        longitude: "-0.60971867341212",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79396847723486",
+        longitude: "-0.61087717731795",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79716183660659",
+        longitude: "-0.61632075851963",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77517685452551",
+        longitude: "-0.66354675581030",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77630769763996",
+        longitude: "-0.61466960393312",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77793973086489",
+        longitude: "-0.62270971497688",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.78126090001574",
+        longitude: "-0.63339764579715",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.80572918950988",
+        longitude: "-0.65259682077908",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.80483867483147",
+        longitude: "-0.63333139676143",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.80761797075883",
+        longitude: "-0.62823551640534",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.75756486767708",
+        longitude: "-0.65635851338479",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.74960420585926",
+        longitude: "-0.65067545209434",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.80145731806297",
+        longitude: "-0.64925430767281",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.80654645470585",
+        longitude: "-0.65886721472205",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81901371482631",
+        longitude: "-0.66119474610093",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79718667847678",
+        longitude: "-0.65101484826499",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Treasure Octorok",
+
+        latitude: "0.63721729959519",
+        longitude: "-0.85722097044035",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.82349608860368",
+        longitude: "-0.66629194542264",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.82410138795430",
+        longitude: "-0.66419956719358",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.80867517833160",
+        longitude: "-0.66505093233710",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77875005840875",
+        longitude: "-0.65746852632313",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81283443885867",
+        longitude: "-0.65014333799834",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81309674406376",
+        longitude: "-0.63725407986499",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "2x Rock Octorok",
+
+        latitude: "0.81447048337220",
+        longitude: "-0.63281494577785",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "2x Rock Octorok",
+
+        latitude: "0.82053698893918",
+        longitude: "-0.63298205760822",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.82147944197368",
+        longitude: "-0.62657223434354",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81891758028560",
+        longitude: "-0.62734272057924",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81528071975772",
+        longitude: "-0.62694536066570",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81411139484609",
+        longitude: "-0.62549696779723",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79274862705370",
+        longitude: "-0.61269925961540",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.78793388341840",
+        longitude: "-0.61511731103761",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81413858654561",
+        longitude: "-0.61687988765019",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.82161858789151",
+        longitude: "-0.61069428300846",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77627786692717",
+        longitude: "-0.61486655856697",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79406715611944",
+        longitude: "-0.63642642916190",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.79151554657572",
+        longitude: "-0.65047596857266",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77694160033596",
+        longitude: "-0.64884835111451",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.77225771387867",
+        longitude: "-0.64436976661301",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.81328109621842",
+        longitude: "-0.65115730619235",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorock",
+
+        latitude: "0.79948237135606",
+        longitude: "-0.65864731579632",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.74495727147466",
+        longitude: "-0.63275681061629",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rock Octorok",
+
+        latitude: "0.73691862236184",
+        longitude: "-0.63227890908422",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Octorok",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.26627425804021",
+        longitude: "-0.82054579485714",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.69930325000117",
+        longitude: "-0.74088828481322",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+        description:
+          "Buried under the large pile of rocks inside the Tanagar Canyon East cave. You will have to destroy enough of the large rocks for it to then get up to start the battle.",
+        latitude: "0.75344016961336",
+        longitude: "-0.76955028765165",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.75325035355104",
+        longitude: "-0.82507257116981",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346115870_225484236859741_6838595920474008104_n",
+            fileName: "27887980-a706-40e7-a3a4-d524bee283dd.jpg",
+            url: "https://media.mapgenie.io/storage/media/27887980-a706-40e7-a3a4-d524bee283dd.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+        description:
+          "Found in Royal Hidden Passage, which accessible via Hyrule Castle, or via a door in the Emergency Shelter (unlocked after completing one Regional Phenomena).",
+        latitude: "0.71724330302470",
+        longitude: "-0.71428219741696",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.49004109467873",
+        longitude: "-0.59825908499573",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.38067118515995",
+        longitude: "-0.73805507864117",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.37537612879045",
+        longitude: "-0.74071005164785",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+        description:
+          "**Location:** [Skull Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280701) - in the main chamber",
+        latitude: "0.81014893284420",
+        longitude: "-0.59277905711414",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.64036217336874",
+        longitude: "-0.67842341076428",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.79997725345690",
+        longitude: "-0.63419180141071",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+        description:
+          "Inside the [Zauz Island Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279328), behind the breakable rocks.",
+        latitude: "0.69875135585561",
+        longitude: "-0.65663646542131",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.61585360312807",
+        longitude: "-0.61413741837563",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.66526195773905",
+        longitude: "-0.62535412437063",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.47596752937098",
+        longitude: "-0.63519052700616",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.30246179371814",
+        longitude: "-0.61084674571632",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.31625285399957",
+        longitude: "-0.67829548210925",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.47263504736010",
+        longitude: "-0.67371095475562",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.42948996972240",
+        longitude: "-0.82511414871490",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalnox",
+
+        latitude: "0.34290912259527",
+        longitude: "-0.63119878906923",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Stalnox",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Stronghold",
+        description:
+          "**Enemies:** \n- Bokoblins\n\n**Rewards:**\n- Bomb Flower x5",
+        latitude: "0.59100757011730",
+        longitude: "-0.55634245276653",
+        media: [
+          {
+            title: "",
+            fileName: "nCg5J4A0NTQ",
+            url: "https://youtu.be/nCg5J4A0NTQ",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Toronbo Beach South Stronghold",
+        description:
+          "**Enemies:** \n- Moblin and Bokoblins\n\n**Rewards:** Arrows x10 [Chest]",
+        latitude: "0.58245713612835",
+        longitude: "-0.55973276495840",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Monster Forces Toronbo Beach South Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-toronbo-beach-south-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koholit Rock Stronghold",
+        description: "**Enemies:** \n- Lizalfos and Bokoblins",
+        latitude: "0.58322018511272",
+        longitude: "-0.55381983518566",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Monster Forces Koholit Rock Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-koholit-rock-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Enemy Stronghold",
+        description:
+          "**Enemies:** \n- Boss Bokoblin\n- 5x Bokoblin\n\n**Rewards:**\n- Luminous Stone [Chest]\n- Amber [Chest]\n- Opal [Chest]\n- Gnarled Wooden Stick [Chest]\n- Hino's Rewards",
+        latitude: "0.63083308872794",
+        longitude: "-0.61366438494099",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stronghold",
+
+        latitude: "0.77469812068145",
+        longitude: "-0.76091148719320",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stronghold",
+
+        latitude: "0.70061645938135",
+        longitude: "-0.73215205385861",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stronghold",
+        description:
+          "**Enemies:** \n- Boss Bokoblin\n- Bokoblins\n\n**Reward:** \n- Opal [Chest]\n- Gnarled Thick Stick [Chest]\n- Amber [Chest]\n- Luminous Stone [Chest]\n- 3x Meals from Hino for saving him",
+        latitude: "0.62560951296618",
+        longitude: "-0.68422561003857",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Stronghold",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Sahasra Slope)",
+        description:
+          "**Location:** Patrolling north-west of [Sahasra Slope Skyview Tower](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276820)",
+        latitude: "0.66608478277021",
+        longitude: "-0.66224142908857",
+        media: [
+          {
+            title: "346118668_809492924038659_4065794911895102149_n",
+            fileName: "a707e3d6-01b8-426c-98ef-f92c120f4901.jpg",
+            url: "https://media.mapgenie.io/storage/media/a707e3d6-01b8-426c-98ef-f92c120f4901.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (North Hyrule Plain)",
+        description:
+          "**Reward:** [Lizal Reaper](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279643)",
+        latitude: "0.73606507804212",
+        longitude: "-0.74962243437773",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus (Death Mountain East Tunnel)",
+        description:
+          "**Location:** [Death Mountain East Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278221)",
+        latitude: "0.79117438738027",
+        longitude: "-0.61688892847775",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Romani Plains)",
+        description: "Found a battle Talus here guarding a chest.",
+        latitude: "0.72067089016154",
+        longitude: "-0.69650781954775",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "346116434_2430657983768316_986769968301113173_n",
+            fileName: "2726619a-45f6-49f5-98cd-76bc9e429f4f.jpg",
+            url: "https://media.mapgenie.io/storage/media/2726619a-45f6-49f5-98cd-76bc9e429f4f.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus (Crenel Hills Cave)",
+
+        latitude: "0.72689468226849",
+        longitude: "-0.68411685526590",
+        media: [
+          {
+            title: "346115841_518157197036090_7029740173188333857_n",
+            fileName: "a70d2b20-ed00-4744-bb4b-8eb935462543.jpg",
+            url: "https://media.mapgenie.io/storage/media/a70d2b20-ed00-4744-bb4b-8eb935462543.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Hyrule Castle West)",
+
+        latitude: "0.72877434560428",
+        longitude: "-0.72787181718380",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Crenel Road)",
+        description: "**Location:** Crenel Road",
+        latitude: "0.72049348749333",
+        longitude: "-0.68290520763050",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "13E5C049-A502-49F0-BC40-B6A1E9C2B13A",
+            fileName: "b2642a2a-b209-4a9c-8b45-de609395f7db.jpg",
+            url: "https://media.mapgenie.io/storage/media/b2642a2a-b209-4a9c-8b45-de609395f7db.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.67787260325431",
+        longitude: "-0.74697354072126",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Windvane Meadow)",
+        description:
+          "**Enemies:** \nBokoblins and Battle Talus\n\n**Reward:** \nRuby",
+        latitude: "0.67743329999776",
+        longitude: "-0.70659964387445",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+
+        latitude: "0.34728633322743",
+        longitude: "-0.71916533271718",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+
+        latitude: "0.81197874640161",
+        longitude: "-0.84589300689825",
+        media: [
+          {
+            title: "B9E3C6FE-A8E4-4469-9577-260F7798A6D6",
+            fileName: "42675898-a451-4c2e-87a3-1ab36ce7edf8.jpg",
+            url: "https://media.mapgenie.io/storage/media/42675898-a451-4c2e-87a3-1ab36ce7edf8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+        description: "**Location:** Under the bridge.",
+        latitude: "0.74461758392169",
+        longitude: "-0.80311138686247",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "D6D3916B-5A51-4703-AA3A-17FB2FB7EA88",
+            fileName: "c3dc0826-4f31-4720-b127-0f60022cfa99.jpg",
+            url: "https://media.mapgenie.io/storage/media/c3dc0826-4f31-4720-b127-0f60022cfa99.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.69827159706708",
+        longitude: "-0.78584904635127",
+        media: [
+          {
+            title: "AEBA4201-8099-4CB9-A4C2-1C815DAB01CF",
+            fileName: "57cfca0d-cf66-415c-997a-3cf7553c9100.jpg",
+            url: "https://media.mapgenie.io/storage/media/57cfca0d-cf66-415c-997a-3cf7553c9100.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Hills of Baumer)",
+
+        latitude: "0.64200713210609",
+        longitude: "-0.68491862448880",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "A92745FB-41A4-4E78-BE40-CF46FB5D154C",
+            fileName: "8d65be9c-9bd3-4c08-b179-162ff4f67039.jpg",
+            url: "https://media.mapgenie.io/storage/media/8d65be9c-9bd3-4c08-b179-162ff4f67039.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus (Tanagar Canyon)",
+
+        latitude: "0.70928584271452",
+        longitude: "-0.81443263854408",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "2191F888-C59B-4494-807F-60B642AA8C3B",
+            fileName: "d24d9ec6-bec8-47fa-b5d2-ac463e32b79d.jpg",
+            url: "https://media.mapgenie.io/storage/media/d24d9ec6-bec8-47fa-b5d2-ac463e32b79d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus",
+
+        latitude: "0.76028522116013",
+        longitude: "-0.63164509126594",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus (Deya Village Ruins Well)",
+        description:
+          "- Stone talus (Luminous)  \n- On the island inside the [Deya Village Ruins Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279311)",
+        latitude: "0.64033288862845",
+        longitude: "-0.69292632601139",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "455D4A97-31DC-4DCF-9FC9-380645E5C707",
+            fileName: "b839e0b6-ace1-435a-854c-9a49f8ad91b7.jpg",
+            url: "https://media.mapgenie.io/storage/media/b839e0b6-ace1-435a-854c-9a49f8ad91b7.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus",
+        description:
+          "Inside [Taafei Hill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282681).",
+        latitude: "0.64490049651481",
+        longitude: "-0.78839995447913",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+        description:
+          "First fight will give the crystal for the [Sisuran Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278368)",
+        latitude: "0.81183604012810",
+        longitude: "-0.78909161216910",
+        media: [
+          {
+            title: "",
+            fileName: "a7962bf5-a65b-4d9d-a66b-6b2f2953da9a.jpg",
+            url: "https://media.mapgenie.io/storage/media/a7962bf5-a65b-4d9d-a66b-6b2f2953da9a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.76475060901849",
+        longitude: "-0.84439192152448",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "3C8A41DF-333B-41DD-96E1-1B54B82660AD",
+            fileName: "60b109af-3dda-4163-822f-d4e2dba7e230.jpg",
+            url: "https://media.mapgenie.io/storage/media/60b109af-3dda-4163-822f-d4e2dba7e230.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+
+        latitude: "0.73786188998280",
+        longitude: "-0.81225829492121",
+        media: [
+          {
+            title: "7462FEFA-5F05-475E-A246-0E7ADF787D0E",
+            fileName: "f23efa0c-910f-47a9-aed3-9a2b542fecae.jpg",
+            url: "https://media.mapgenie.io/storage/media/f23efa0c-910f-47a9-aed3-9a2b542fecae.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Batrea Lake East)",
+
+        latitude: "0.66303966095293",
+        longitude: "-0.67864914112880",
+        media: [
+          {
+            title: "59AF5953-6BF9-42EE-ACC1-45A21A01264B",
+            fileName: "dca121ba-fc1a-48f3-996a-fc054ad5de40.jpg",
+            url: "https://media.mapgenie.io/storage/media/dca121ba-fc1a-48f3-996a-fc054ad5de40.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus",
+
+        latitude: "0.68470107859526",
+        longitude: "-0.77472466179924",
+        media: [
+          {
+            title: "429B518A-EA0A-44A1-820F-4EDF4CAC8598",
+            fileName: "84e8e6a7-9cef-45b1-856f-28503dc4d4ea.jpg",
+            url: "https://media.mapgenie.io/storage/media/84e8e6a7-9cef-45b1-856f-28503dc4d4ea.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus - Lake Darman",
+
+        latitude: "0.80609684408216",
+        longitude: "-0.64047208127306",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+        description:
+          "**Related Quest:** [None Shall Pass?](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283439)",
+        latitude: "0.77937311826402",
+        longitude: "-0.70020483196610",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus",
+
+        latitude: "0.82250394169644",
+        longitude: "-0.68025219237697",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Igneo Talus",
+
+        latitude: "0.46151888649565",
+        longitude: "-0.60945780900369",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.26937248911133",
+        longitude: "-0.59785733565442",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus - Eldin Eastern Highlands",
+
+        latitude: "0.81980731167336",
+        longitude: "-0.62330961271462",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Talus",
+
+        latitude: "0.49609687575385",
+        longitude: "-0.62328275375074",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus",
+
+        latitude: "0.48090739210379",
+        longitude: "-0.65584971459509",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus (North Akkala Beach)",
+
+        latitude: "0.80096514493762",
+        longitude: "-0.55239380000651",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+
+        latitude: "0.72389416320686",
+        longitude: "-0.80933910996001",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+          {
+            title: "641BF82A-DFE2-42F3-B932-4B4CBF9489F2",
+            fileName: "b5055024-230d-4d4d-8101-13c68464a5af.jpg",
+            url: "https://media.mapgenie.io/storage/media/b5055024-230d-4d4d-8101-13c68464a5af.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Luminous)",
+
+        latitude: "0.26888854378167",
+        longitude: "-0.66902990907300",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Frost Talus",
+
+        latitude: "0.45058150808100",
+        longitude: "-0.81929475632759",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Great Plateau)",
+        description:
+          "**Reward:** [Ruby [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286540)",
+        latitude: "0.64935435190644",
+        longitude: "-0.73831834726965",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Rare)",
+
+        latitude: "0.62414238088856",
+        longitude: "-0.77751873053577",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus",
+
+        latitude: "0.34725367481589",
+        longitude: "-0.65561792170346",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+
+        latitude: "0.36705592602451",
+        longitude: "-0.85483463825702",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (Gama Cove)",
+
+        latitude: "0.59317775252190",
+        longitude: "-0.59764436558999",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+        description: "**Reward:** Sapphire [Chest]",
+        latitude: "0.77410206376575",
+        longitude: "-0.56849364826934",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Gloom)",
+
+        latitude: "0.37903417714044",
+        longitude: "-0.70327536227143",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Rare)",
+
+        latitude: "0.48810893843938",
+        longitude: "-0.84648831743036",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus",
+
+        latitude: "0.43122070573096",
+        longitude: "-0.64932929215760",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+
+        latitude: "0.78154165179689",
+        longitude: "-0.84811093243849",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gloom Luminous Talus",
+
+        latitude: "0.49769505812061",
+        longitude: "-0.67211531102600",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+
+        latitude: "0.30008315529732",
+        longitude: "-0.81481864343334",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus",
+
+        latitude: "0.41332464294726",
+        longitude: "-0.81311828618377",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus",
+
+        latitude: "0.47403552903681",
+        longitude: "-0.71578962351833",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus (Ovli Plain)",
+
+        latitude: "0.64574533636916",
+        longitude: "-0.60559799008828",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+
+        latitude: "0.27229206673594",
+        longitude: "-0.73014668247311",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus - Goro Cove",
+
+        latitude: "0.78057409384323",
+        longitude: "-0.63837354721025",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Igneo Talus (Goronbi River West)",
+
+        latitude: "0.75815586850489",
+        longitude: "-0.66173098488196",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+
+        latitude: "0.66466357718384",
+        longitude: "-0.84209675803595",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (North Akkala Foothill)",
+        description:
+          "Part of the side quest [WANTED: Stone Talus](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281482)",
+        latitude: "0.79887784503123",
+        longitude: "-0.57239855094747",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Talus (Ancient Zora Waterworks)",
+        description: "Located in the Ancient Zora Waterworks",
+        latitude: "0.70913611721966",
+        longitude: "-0.58739820621710",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus (Lanayru Range North)",
+
+        latitude: "0.66915576171269",
+        longitude: "-0.57258424847589",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus (Horse God Bridge West)",
+
+        latitude: "0.58393523012830",
+        longitude: "-0.68616515920323",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus",
+
+        latitude: "0.45723994472897",
+        longitude: "-0.84780778873542",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus",
+
+        latitude: "0.42648772491584",
+        longitude: "-0.78736197226863",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus (Trilby Valley)",
+
+        latitude: "0.73157875359270",
+        longitude: "-0.62340885842565",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus (Guchini Plain)",
+
+        latitude: "0.59438519454996",
+        longitude: "-0.67035137377439",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Rare)",
+
+        latitude: "0.39576446731857",
+        longitude: "-0.68071341457215",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+
+        latitude: "0.65938441654201",
+        longitude: "-0.79478597721749",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rare Stone Talus (Lake Floria)",
+        description: "Lake Floria Stone Talus",
+        latitude: "0.59047288687266",
+        longitude: "-0.64331320359508",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus (South Akkala Plains West)",
+
+        latitude: "0.75113289716711",
+        longitude: "-0.60790280921384",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Luminous) - Ulria Grotto South Cave",
+        description:
+          "Inside [Ulria Grotto South Cave](), to the right of blue breakable rocks.",
+        latitude: "0.72177439530421",
+        longitude: "-0.56969363455835",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+        description:
+          "**Reward:** [Gnarled Wooden Stick [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289750)",
+        latitude: "0.74102199362082",
+        longitude: "-0.57644507997392",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Talus (Loshlo Harbor West)",
+
+        latitude: "0.60800047250885",
+        longitude: "-0.60034681458177",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+        description: "Has 3 Gloom Blue Bokoblins ontop.",
+        latitude: "0.44047324289051",
+        longitude: "-0.84423343063080",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Gloom Stone Talus",
+
+        latitude: "0.47418461427587",
+        longitude: "-0.55243761946375",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Luminous) - Tal Tal Peak",
+        description: "On the plateau",
+        latitude: "0.71984504243441",
+        longitude: "-0.56778144811034",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus",
+
+        latitude: "0.39589437045888",
+        longitude: "-0.56816683043408",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus (Tamio River)",
+
+        latitude: "0.68608906010597",
+        longitude: "-0.79544586771198",
+        media: [
+          {
+            title: "",
+            fileName: "bf9ac1c9-9d89-4d96-84f6-6482a7be180d.jpg",
+            url: "https://media.mapgenie.io/storage/media/bf9ac1c9-9d89-4d96-84f6-6482a7be180d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+        description: "On top of the cliff",
+        latitude: "0.64850827926855",
+        longitude: "-0.83139839182726",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.35357691085798",
+        longitude: "-0.70659852598291",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Talus (Byroad to Lanayru Wetlands)",
+        description:
+          "Found underground, through the [Byroad to Lanayru Wetlands](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281202) tunnel.",
+        latitude: "0.67230248106587",
+        longitude: "-0.65536860401636",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Frost Talus",
+
+        latitude: "0.31645735575646",
+        longitude: "-0.61797453027339",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Rare)",
+
+        latitude: "0.79825517985743",
+        longitude: "-0.71581314874351",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Luminous) - Gut Check Rock",
+
+        latitude: "0.80933113361488",
+        longitude: "-0.61601242004818",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.37566592584747",
+        longitude: "-0.78462492974222",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.42096460502404",
+        longitude: "-0.80321970972489",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus",
+
+        latitude: "0.32188472717117",
+        longitude: "-0.60566684034842",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battle Talus",
+
+        latitude: "0.42613661605104",
+        longitude: "-0.60727005593182",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone Talus",
+
+        latitude: "0.34496326364385",
+        longitude: "-0.57250546538404",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus",
+
+        latitude: "0.32466256547947",
+        longitude: "-0.83226307089928",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stone Talus (Luminous)",
+        description: "**Coordinates**: -2237, -0564, -0716",
+        latitude: "0.36059781774792",
+        longitude: "-0.77481153609543",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Talus",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.71831561385132",
+        longitude: "-0.58386297835207",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Wizzrobe",
+        description: "On the cliffs",
+        latitude: "0.73771653231877",
+        longitude: "-0.71923189737473",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+        description: "On top of the platform",
+        latitude: "0.60598543899953",
+        longitude: "-0.64023437518063",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+
+        latitude: "0.59286639719188",
+        longitude: "-0.67545017630593",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+
+        latitude: "0.76095543624670",
+        longitude: "-0.64001616508210",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.63411349351157",
+        longitude: "-0.64323008577687",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.74561297086807",
+        longitude: "-0.82429724177868",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ice Wizzrobe",
+
+        latitude: "0.78662102392636",
+        longitude: "-0.74972513144655",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+
+        latitude: "0.72011279482280",
+        longitude: "-0.75387268579331",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.75132302744183",
+        longitude: "-0.78723444765672",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Wizzrobe",
+
+        latitude: "0.73019505474313",
+        longitude: "-0.70473283826567",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.72577260572955",
+        longitude: "-0.69057241602331",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+        description: "Electric",
+        latitude: "0.76623548903352",
+        longitude: "-0.75986087463735",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+        description: "**Type:** Ice",
+        latitude: "0.79820869752670",
+        longitude: "-0.85046613553956",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ice Wizzrobe",
+
+        latitude: "0.79323777579769",
+        longitude: "-0.80690113815311",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ice Wizzrobe",
+
+        latitude: "0.77058823942127",
+        longitude: "-0.82018953016552",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shock Wizzrobe",
+
+        latitude: "0.77943009259825",
+        longitude: "-0.67722769500867",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ice Wizzrobe",
+
+        latitude: "0.78036830928122",
+        longitude: "-0.75837491458225",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.73254526063707",
+        longitude: "-0.67037960526932",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.65206440144924",
+        longitude: "-0.74800962627739",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.65320320377522",
+        longitude: "-0.70454071240641",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.71559445791654",
+        longitude: "-0.83642360377735",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.81976578493951",
+        longitude: "-0.59115204869298",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ice Wizzrobe",
+
+        latitude: "0.70006582064877",
+        longitude: "-0.63958035667588",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.69976058327474",
+        longitude: "-0.56227280074268",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.67978432311517",
+        longitude: "-0.73621571702935",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.67544828865523",
+        longitude: "-0.75947303864839",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blizzrobe",
+
+        latitude: "0.65259867490302",
+        longitude: "-0.80917193510467",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blizzrobe",
+
+        latitude: "0.66432435201723",
+        longitude: "-0.84997900102212",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.72181342265421",
+        longitude: "-0.61455572560376",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meteo Wizzrobe",
+
+        latitude: "0.73579589068662",
+        longitude: "-0.55312503155400",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.72138865195311",
+        longitude: "-0.61917398655436",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ice Wizzrobe",
+
+        latitude: "0.76223999959520",
+        longitude: "-0.83807057912972",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+
+        latitude: "0.66796104255386",
+        longitude: "-0.82773869143477",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meteo Wizzrobe",
+
+        latitude: "0.60011817320158",
+        longitude: "-0.75973914968091",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.69398949835283",
+        longitude: "-0.77065276002378",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meteo Wizzrobe",
+
+        latitude: "0.63720576601183",
+        longitude: "-0.81936496624360",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.80553036358125",
+        longitude: "-0.67806264656687",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.80236921154210",
+        longitude: "-0.70781010547665",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.65213375768056",
+        longitude: "-0.61651378756426",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.76193908574538",
+        longitude: "-0.56154771105466",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meteo Wizzrobe",
+        description: "**Coordinates:** 3808, 1100, 0239",
+        latitude: "0.73944111422109",
+        longitude: "-0.58133867189980",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+
+        latitude: "0.72339688575752",
+        longitude: "-0.61445708923705",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wizzrobe",
+
+        latitude: "0.73287090017894",
+        longitude: "-0.63290143384040",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fire Wizzrobe",
+
+        latitude: "0.73173750808876",
+        longitude: "-0.64651687738396",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.73841635968681",
+        longitude: "-0.70317610565996",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.69314097971358",
+        longitude: "-0.65800128518626",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Blizzrobe",
+
+        latitude: "0.64316267750920",
+        longitude: "-0.56780387919105",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.62897550077666",
+        longitude: "-0.57406134539838",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Wizzrobe",
+
+        latitude: "0.62087818730100",
+        longitude: "-0.62758609525227",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.59047428142749",
+        longitude: "-0.65835341926558",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Electric Wizzrobe",
+
+        latitude: "0.61492478011291",
+        longitude: "-0.67645614163862",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lightning Wizzrobe",
+
+        latitude: "0.62827875133404",
+        longitude: "-0.69365491717576",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Thunder Wizzrobe",
+
+        latitude: "0.63454455689060",
+        longitude: "-0.73281608198911",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Wizzrobe",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Researcher",
+
+        latitude: "0.28298541854107",
+        longitude: "-0.75424250923504",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Member",
+        description:
+          "Disguised as a merchant selling Roasted Bananas.\n\n**Reward:**\n- Mighty Banana\n- Eightfold Blade\n- Rupees",
+        latitude: "0.63809911775658",
+        longitude: "-0.73490783572174",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Sneak Attack",
+        description:
+          "**Enemies:** \n- 1 Yiga Clan member dressed as NPC. \n\n**Reward:** Eightfold Blade & Rupes",
+        latitude: "0.64920830591227",
+        longitude: "-0.73221276026609",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Master Kohga",
+        description:
+          "**Location:** Great Abandoned Central Mine\n\nFirst fight against Master Kohga.",
+        latitude: "0.31943741030890",
+        longitude: "-0.72650636391588",
+        media: [
+          {
+            title: "",
+            fileName: "QGsAhst7GNA",
+            url: "https://youtu.be/QGsAhst7GNA",
+            type: "youtube",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Researcher",
+
+        latitude: "0.41595743918201",
+        longitude: "-0.78702803210001",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Member",
+
+        latitude: "0.64919670383982",
+        longitude: "-0.74423886338406",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Master Kohga",
+        description:
+          "**Location:** Abandoned Lanayru Mine\n\nThird fight against Master Kohga.",
+        latitude: "0.39781053153908",
+        longitude: "-0.59693944183860",
+        media: [
+          {
+            title: "",
+            fileName: "17d47861-d888-4e74-861a-bdcedb14706a.jpg",
+            url: "https://media.mapgenie.io/storage/media/17d47861-d888-4e74-861a-bdcedb14706a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Master Kohga Abandoned Lanayru Mine Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-lanayru-mine-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Camp",
+        description:
+          "**Enemies:** \n- Yiga\n\n**Reward:** \n- Large Crystalized Charge\n- Yiga Schematic: Monocycle",
+        latitude: "0.29453963060410",
+        longitude: "-0.74259340918723",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Camp",
+
+        latitude: "0.39907570961346",
+        longitude: "-0.81153756512006",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga",
+        description:
+          "*Location*\n- Found in front of a statue and a camp fire disguised as a researcher who talks about the different directions the statues are pointing.",
+        latitude: "0.30165651799656",
+        longitude: "-0.74120520188239",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga",
+        description:
+          "**Location**\n- Located near the camp fire and tent near Nuzimak Lightroot. He appears as a friendly researcher until you talk to him and he turns into a Yiga Clan Member.",
+        latitude: "0.32762974889606",
+        longitude: "-0.71072060865419",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "3x Yiga Footsoldiers",
+        description: "Standing right next to the Steward Construct",
+        latitude: "0.33981496109233",
+        longitude: "-0.64573105486880",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Footsoldier",
+        description: 'Disguised as a "Researcher".',
+        latitude: "0.30663166590350",
+        longitude: "-0.58912681618278",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Master Kohga",
+        description:
+          "**Location:** Abandoned Gerudo Mine\n\nSecond fight against Master Kohga.",
+        latitude: "0.28732938821879",
+        longitude: "-0.82483343167783",
+        media: [
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Master Kohga Abandoned Gerudo Mine Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-gerudo-mine-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Camp",
+        description: "-4520, -2151, -0489",
+        latitude: "0.30998033963000",
+        longitude: "-0.84887386960443",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Encounter",
+        description:
+          "Drop down the hole at the back of the Shrine of Resurrection. interact with the banana's to trigger the encounter.",
+        latitude: "0.64145459674626",
+        longitude: "-0.73987777625355",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Hideout",
+        description:
+          "Reward:\n- 1x Large Crystalized Charge\n- Yiga Schematic (Water Freezer)",
+        latitude: "0.26045797864856",
+        longitude: "-0.69080404409467",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Hideout",
+        description:
+          "**Enemies:** \n- Yiga\n\n**Reward:** \n- Large Crystalized Charge\n- Yiga Schematic",
+        latitude: "0.31001363729833",
+        longitude: "-0.69554198042528",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Hideout",
+        description:
+          "**Enemies:** \n- Yiga\n\n**Reward:** \n- Large Crystalized Charge\n- Yiga Schematic",
+        latitude: "0.34728756445875",
+        longitude: "-0.84745447218597",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Master Kohga",
+        description:
+          "**Location:** Abandoned Hebra Mine\n\nFinal fight against Master Kohga.",
+        latitude: "0.43852767451092",
+        longitude: "-0.81642572304267",
+        media: [
+          {
+            title: "",
+            fileName: "3583b60e-7633-46db-bb72-d8b341c2af4d.jpg",
+            url: "https://media.mapgenie.io/storage/media/3583b60e-7633-46db-bb72-d8b341c2af4d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title:
+              "The Legend Of Zelda Tears Of The Kingdom Master Kohga Abandoned Hebra Mine Boss Gameplay Walkthrough",
+            fileName: "",
+
+            url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-hebra-mine-boss-gameplay-walkthrough",
+            type: "ign_video",
+            mimeType: "mp4",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Hideout",
+        description:
+          "**Enemies:** \n- Yiga\n\n**Reward:** \n- Large Crystalized Charge\n- Yiga Schematic",
+        latitude: "0.32892033272717",
+        longitude: "-0.80329751757657",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Ambush",
+        description:
+          'Same place where you met the "Old Man" in Breath of the Wild.',
+        latitude: "0.64251279657978",
+        longitude: "-0.73345583751072",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Assassin",
+        description: "Disguised as a researcher.",
+        latitude: "0.29987549502555",
+        longitude: "-0.80870094471692",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Assassin",
+        description: 'Disguised as a "Stylish Person."',
+        latitude: "0.65322297041743",
+        longitude: "-0.83055470170518",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Ambush",
+        description: "Banana bait.",
+        latitude: "0.77779859131967",
+        longitude: "-0.73798800211330",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Researcher",
+
+        latitude: "0.43726185936596",
+        longitude: "-0.80915180695635",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Assassin",
+        description: "Disguised as a _Traveler_.",
+        latitude: "0.76623309341380",
+        longitude: "-0.72354908512185",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Assassin",
+        description: "Disguised as a _Researcher_",
+        latitude: "0.79031322851830",
+        longitude: "-0.56311477692739",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Ambush",
+        description:
+          "Collect the banana in the center of the ruins and defeat the Yiga member.",
+        latitude: "0.78283195853020",
+        longitude: "-0.56519105819359",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Assassins",
+        description: 'Disguised as three "trees" and using a banana as bait.',
+        latitude: "0.74301873872861",
+        longitude: "-0.69023775109844",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Ambush",
+        description: "Interact with the banana in front of the dead tree.",
+        latitude: "0.65720345321658",
+        longitude: "-0.64383931379319",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Ambush",
+
+        latitude: "0.63325884397005",
+        longitude: "-0.72698740121950",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Ambush",
+        description: "Banana bait",
+        latitude: "0.64477906263647",
+        longitude: "-0.77542923299805",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Yiga",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Captain Construct",
+
+        latitude: "0.99986710971467",
+        longitude: "-0.68123002031612",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Captain Construct",
+
+        latitude: "0.99155439242516",
+        longitude: "-0.69420101698537",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai x2",
+        description: "Carrying Shock emitter on a stick",
+        latitude: "0.80039689616737",
+        longitude: "-0.70058628376819",
+      },
+    ],
+    groupSlug: "totk_enemies",
+    title: "Zonai",
+  },
   {
     locations: [
       {
@@ -55567,22 +64326,4427 @@ export const totkCategoryLocations: CategoryLocation[] = [
     groupSlug: "totk_other",
     title: "Cave Entrance",
   },
-  { locations: [], groupSlug: "totk_other", title: "Cooking Pot" },
-  { locations: [], groupSlug: "totk_other", title: "Easter Egg" },
-  { locations: [], groupSlug: "totk_other", title: "Falling Platform" },
-  { locations: [], groupSlug: "totk_other", title: "Hudson Sign" },
-  { locations: [], groupSlug: "totk_other", title: "Lore" },
-  { locations: [], groupSlug: "totk_other", title: "Mechanism" },
-  { locations: [], groupSlug: "totk_other", title: "Other Miscellaneous" },
-  { locations: [], groupSlug: "totk_other", title: "NPCs" },
-  { locations: [], groupSlug: "totk_other", title: "Quest Objective" },
-  { locations: [], groupSlug: "totk_other", title: "Satori Tree" },
-  { locations: [], groupSlug: "totk_other", title: "Unique Horse" },
-  { locations: [], groupSlug: "totk_other", title: "Vehicle" },
-  { locations: [], groupSlug: "totk_other", title: "Well" },
-  { locations: [], groupSlug: "totk_ore_deposits", title: "Luminous Stone" },
-  { locations: [], groupSlug: "totk_ore_deposits", title: "Ore Deposit" },
-  { locations: [], groupSlug: "totk_ore_deposits", title: "Rare Ore Deposit" },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "**Location:** In the ruin",
+        latitude: "1.00849916586130",
+        longitude: "-0.68472421891568",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "Use the nearby flint to start the fire",
+        latitude: "1.00157111378820",
+        longitude: "-0.67758110520739",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+
+        latitude: "0.99630365415076",
+        longitude: "-0.68215643254757",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description:
+          "Just inside the entrance to [Pit Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276628)",
+        latitude: "0.99408138987592",
+        longitude: "-0.68388953804846",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+        description: "Flint beside pot",
+        latitude: "0.99662044906432",
+        longitude: "-0.68943312471453",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.99480050938190",
+        longitude: "-0.69851281840857",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "1.00275599717630",
+        longitude: "-0.67545617254649",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+
+        latitude: "1.00695347126260",
+        longitude: "-0.68084193081231",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "1.00198893704670",
+        longitude: "-0.68343934907881",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "In a ruin below",
+        latitude: "0.99983050502347",
+        longitude: "-0.68025447428320",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+        description: "In the small camp outside the chasm",
+        latitude: "0.69240271913502",
+        longitude: "-0.71397204317748",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description:
+          "Outside [New Serenne Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276878)",
+        latitude: "0.72710607586633",
+        longitude: "-0.74709640739638",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.63564458356201",
+        longitude: "-0.59509962378743",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.59056637018651",
+        longitude: "-0.55810871512415",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.63130288717791",
+        longitude: "-0.79273698113073",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.71540993717096",
+        longitude: "-0.57878377801481",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.72844020841826",
+        longitude: "-0.58442534194793",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        latitude: "0.71919786887726",
+        longitude: "-0.59667910766086",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.72993698999366",
+        longitude: "-0.71398822404535",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.59668392719202",
+        longitude: "-0.68641386610287",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.79177708680862",
+        longitude: "-0.56641371562063",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.79748215975930",
+        longitude: "-0.56641623175969",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.78494340692734",
+        longitude: "-0.75684447673544",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.78067478992837",
+        longitude: "-0.64812412988431",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.79310994459094",
+        longitude: "-0.65076826291232",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "1.00855564738490",
+        longitude: "-0.69932778060976",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        latitude: "0.67084135671513",
+        longitude: "-0.64165078103377",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.67048732937985",
+        longitude: "-0.64515926272705",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.69773078353616",
+        longitude: "-0.67327059201426",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.64045779608774",
+        longitude: "-0.64695551220419",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.69395929089849",
+        longitude: "-0.67531460202443",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.73996167425915",
+        longitude: "-0.66804123654563",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "In ruined house",
+        latitude: "0.71731933706474",
+        longitude: "-0.71387594108919",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+        description: "In settlement",
+        latitude: "0.71645036936685",
+        longitude: "-0.71016376381368",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "Unlit.",
+        latitude: "0.71632630698510",
+        longitude: "-0.70557724346554",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.72440571999513",
+        longitude: "-0.66420630341734",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+        description: "Strike the nearby flint to light the fire.",
+        latitude: "0.61287606623516",
+        longitude: "-0.62580665924693",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.61065532376558",
+        longitude: "-0.62524875977252",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.76031250633551",
+        longitude: "-0.80822591558157",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.75739752345659",
+        longitude: "-0.79870126333816",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+
+        latitude: "0.71984192719351",
+        longitude: "-0.74493009451595",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.66170301796491",
+        longitude: "-0.74916176498235",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.75745097358477",
+        longitude: "-0.60250918119368",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.79773794992640",
+        longitude: "-0.64667266765048",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+
+        latitude: "0.63866236029799",
+        longitude: "-0.73646457052479",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+
+        latitude: "0.62966444366664",
+        longitude: "-0.59587065838332",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.74138778746666",
+        longitude: "-0.73785680167481",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "**Location:** Inside the Deku tree.",
+        latitude: "0.77277999478791",
+        longitude: "-0.68942561745675",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.68488860373964",
+        longitude: "-0.72623914066330",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.69825744716293",
+        longitude: "-0.74806316601860",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.75847907307930",
+        longitude: "-0.65088641188993",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.69588590846089",
+        longitude: "-0.70454363194864",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.75516031370462",
+        longitude: "-0.57625514331431",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        latitude: "0.62033521613324",
+        longitude: "-0.80868467688435",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "Found in the center of a small enemy camp.",
+        latitude: "0.80905888273756",
+        longitude: "-0.82057842813029",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.73041957205405",
+        longitude: "-0.82940484946787",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+        description: "Cooking pot in the center of an enemy camp.",
+        latitude: "0.74365903737149",
+        longitude: "-0.65844180374222",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.69340452515218",
+        longitude: "-0.76883269029901",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot (Unlit)",
+
+        latitude: "0.81643246759002",
+        longitude: "-0.69300749876925",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.70371458363563",
+        longitude: "-0.63888063338950",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "1.15372903054080",
+        longitude: "-0.81040223570477",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Camp Fire",
+        description: "**Location:** To the south side of the structure",
+        latitude: "1.01503853800600",
+        longitude: "-0.69824871584780",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "1.01153867789450",
+        longitude: "-0.69787017729223",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.69326408570012",
+        longitude: "-0.74164992057231",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot",
+
+        latitude: "0.71687465355726",
+        longitude: "-0.73662218517171",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot [Lit]",
+
+        latitude: "0.74783489456134",
+        longitude: "-0.67167901402507",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cooking Pot [Lit]",
+
+        latitude: "0.64371193207637",
+        longitude: "-0.62772713674386",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Cooking Pot",
+  },
+  {
+    locations: [
+      {
+        title: "Heart Pool",
+        regionSlug: "hyrule",
+        latitude: "0.58948256639286",
+        longitude: "-0.61979088656773",
+        media: [
+          {
+            title: "2023050912381900_c",
+            fileName: "f4b6c526-e468-4524-b2ae-cbbbff38f8ef.jpg",
+            url: "https://media.mapgenie.io/storage/media/f4b6c526-e468-4524-b2ae-cbbbff38f8ef.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Easter Egg",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Falling Platform",
+        description:
+          "Use to access [Floating Scales Island](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277490)",
+        latitude: "0.71977108522141",
+        longitude: "-0.56914185453348",
+        media: [
+          {
+            title: "2023050420540800_c",
+            fileName: "8b69e839-05a7-4d4e-afa3-48adb525d290.jpg",
+            url: "https://media.mapgenie.io/storage/media/8b69e839-05a7-4d4e-afa3-48adb525d290.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.68288398270613",
+        longitude: "-0.83664970481408",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Falling Platform",
+        description: "On top of the hill by the lake",
+        latitude: "0.58979478588569",
+        longitude: "-0.62531953812109",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.57663288525340",
+        longitude: "-0.62510459388028",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.69079538638842",
+        longitude: "-0.64826041947492",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Falling Platform",
+        latitude: "0.64506434578551",
+        longitude: "-0.64820945263006",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.70123138254436",
+        longitude: "-0.67294508118654",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.59249073661192",
+        longitude: "-0.68360610109536",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Falling Platform",
+        description:
+          "This is the [Zonai Relief](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279243) location when it falls from the North Gerudo Sky Archipelago.",
+        latitude: "0.67296334999189",
+        longitude: "-0.81928033254485",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.65037134772270",
+        longitude: "-0.56704598142630",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.76784322091181",
+        longitude: "-0.55934233680185",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Falling Platform",
+        description:
+          "Leads to a [Zonaite Longsword](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283182) above",
+        latitude: "0.80343764491433",
+        longitude: "-0.63559956294566",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonaite Shield [Chest]",
+        description:
+          "Just behind the flint and ruby vendor. Take the fallen platform up to the island above.",
+        latitude: "0.77189933442673",
+        longitude: "-0.65522182309329",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.69271060008843",
+        longitude: "-0.80946270269641",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Falling Platform",
+        description:
+          "Use Recall to get to the island with the [Big Battery](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282340)",
+        latitude: "0.71115968104679",
+        longitude: "-0.65484190185651",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+
+        description:
+          "Use Ascend to get the [Large Zonai Charge](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280466)",
+        latitude: "0.69757630386975",
+        longitude: "-0.68364416073388",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.69295194630574",
+        longitude: "-0.72143843601162",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.70191536021343",
+        longitude: "-0.74247720283628",
+      },
+      {
+        title: "Falling Platform",
+        regionSlug: "hyrule",
+        latitude: "0.64166672778811",
+        longitude: "-0.69820949659240",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Falling Platform",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** At the crossroads  \n**Rewards:**\n- 20 Rupees\n- 1x Hasty Veggie Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.71093880645773",
+        longitude: "-0.72730176150674",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** South side of Hyrule Central Square  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.71541181212531",
+        longitude: "-0.71170540766269",
+        media: [
+          {
+            title: "2023050421173800_c",
+            fileName: "447cc497-e257-4faf-acde-cbc8dc24a12c.jpg",
+            url: "https://media.mapgenie.io/storage/media/447cc497-e257-4faf-acde-cbc8dc24a12c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** By the water  \n**Reward:**\n- 20 Rupees\n- 1x Spicy Veggie Rice Balls\n- 1x Puffshroom",
+        latitude: "0.72445511036247",
+        longitude: "-0.76043637549438",
+        media: [
+          {
+            title: "2023050600405800_c",
+            fileName: "0fc1add9-041d-49dc-b659-b79e34e3d00c.jpg",
+            url: "https://media.mapgenie.io/storage/media/0fc1add9-041d-49dc-b659-b79e34e3d00c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** By the roadside\n\n**Reward:** \n- Red Rupee (20 Rupees)\n- Energizing Mushroom Rice Balls\n- Sleepover Ticket",
+        latitude: "0.74091813210902",
+        longitude: "-0.74994698166651",
+        media: [
+          {
+            title: "2023050600574500_c",
+            fileName: "e7c0fbf0-675e-447c-b696-747711fe9e7a.jpg",
+            url: "https://media.mapgenie.io/storage/media/e7c0fbf0-675e-447c-b696-747711fe9e7a.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** On the side of the hill  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.59526456925570",
+        longitude: "-0.73769772911132",
+        media: [
+          {
+            title: "2023050911520200_c",
+            fileName: "2401bdc6-f900-4ca1-95df-328f2f307d06.jpg",
+            url: "https://media.mapgenie.io/storage/media/2401bdc6-f900-4ca1-95df-328f2f307d06.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description: "**Location:** Under the tree by the road",
+        latitude: "0.59072235352426",
+        longitude: "-0.70988365869823",
+        media: [
+          {
+            title: "2023050912055600_c",
+            fileName: "8376fc73-b710-476f-a603-391772c58921.jpg",
+            url: "https://media.mapgenie.io/storage/media/8376fc73-b710-476f-a603-391772c58921.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Just down the hill from the [Akkala Ancient Tech Lab](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277103)  \n**Coordinates:** 4449, 3074, 0215\n\n**Reward:**\n- 20 Rupees\n- 1x Rapid Meaty Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.80213555459926",
+        longitude: "-0.55986137379995",
+        media: [
+          {
+            title: "2023050913370800_c",
+            fileName: "f599396c-7472-46a4-88f1-787199ea74e5.jpg",
+            url: "https://media.mapgenie.io/storage/media/f599396c-7472-46a4-88f1-787199ea74e5.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** High up on the snowy plateau  \n**Coordinates:** -2211 2929 0390  \n**Reward:**\n- 20 Rupees\n- Biting Meaty Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.79728382739981",
+        longitude: "-0.77432838348605",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description: "**Location:** By the roadside",
+        latitude: "0.77231192274498",
+        longitude: "-0.65220696372066",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Rewards:**\n* 20 Rupies\n* Meaty Rice Balls\n* Bomb Flower",
+        latitude: "0.79308449733472",
+        longitude: "-0.73791635453742",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.67114531640014",
+        longitude: "-0.67338830811664",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Reward:**\n- 20 Rupees\n- Energizing Mushroom Rice Balls\n- Sleepover Ticket",
+        latitude: "0.66230111064564",
+        longitude: "-0.63559301197563",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Rewards:**\n- 20 Rupees\n- Chilly Veggie Rice Balls\n- Sleepover Ticket",
+        latitude: "0.74240097414194",
+        longitude: "-0.66117288317739",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Romani Plains\n\n**Rewards:**\n- 20 Rupees\n- 1x Energizing Veggie Rice Balls\n- 1x Puffshroom",
+        latitude: "0.71195190309970",
+        longitude: "-0.69717207095994",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Applean Plains\n\n**Reward:**\n- 20 Rupees\n- 1x Veggie Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.71534317624636",
+        longitude: "-0.68316570402135",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Energizing Mushroom Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.70897508447639",
+        longitude: "-0.78358559277902",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Rewards:**\n- 20 Rupees\n- Spicy Veggie Rice Ball\n- Sleepover Ticket",
+        latitude: "0.71950879511022",
+        longitude: "-0.81043516701246",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- Rupees\n- 1x Chilly Veggie Rice Balls\n- 1x Puffhsroom",
+        latitude: "0.63052473301766",
+        longitude: "-0.75550508263986",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** -3612, 2188, 0144  \n**Reward:**\n- 20 Rupees\n- 1x Biting Meaty Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.77352480949081",
+        longitude: "-0.81913678131642",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** 1708, 0096, 0047  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.70621095096061",
+        longitude: "-0.64805012640196",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Just west of the cave entrance  \n**Reward:**\n- 20 Rupees\n- 1x Spicy Mushroom Rice Balls\n- 1x Puffhsroom\n\n***Hint:** Use Ultrahand with the nearby stone block to secure it in place.*",
+        latitude: "0.78564589921423",
+        longitude: "-0.80790701250424",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** By the roadside  \n**Reward:**\n- 20 Rupees\n- 1x Mushroom Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.65583592144447",
+        longitude: "-0.73122966482003",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.72789002880222",
+        longitude: "-0.65887824903159",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** West of Rebonia Bridge.  \n**Reward:**\n- Red Rupee\n- 1x Veggie rice balls\n- 1x Rare Ingredient",
+        latitude: "0.70298490151184",
+        longitude: "-0.68146917686778",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** -2087, -1951, 0139\n\n**Reward:**\n- Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.64097608084037",
+        longitude: "-0.77082396049647",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Reward:**\n- 20x Rupees\n- 1x Spicy Veggie Rice Balls\n- 1x Sleepover Ticket",
+        latitude: "0.77788314871013",
+        longitude: "-0.76316933069336",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Tabantha Frontier\n**Reward:**\n- 20 Rupees\n- 1x Spicy Mushroom Rice Balls\n- 1x Puffshroom",
+        latitude: "0.75293273215709",
+        longitude: "-0.81759327074568",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** By the road  \n**Reward:**\n- Rupees\n- 1x Veggie Rice Balls\n- 1x Sleepover Ticket",
+        latitude: "0.66911567141524",
+        longitude: "-0.74931349969583",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.73843041429798",
+        longitude: "-0.62036426889466",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** At the south end of the bridge  \n**Reward:**\n- 20 Rupees\n- 1x Spicy Veggie Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.74260994629068",
+        longitude: "-0.80394581624458",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Drenan Highlands  \n**Reward:**\n- 20 Rupees\n- 1x Meaty Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.80098619168670",
+        longitude: "-0.71717866212754",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Sneaky Mushroom Rice Balls\n- 1x Bomb Flower\n\n**Coordinates:** 1490 -0989 0154",
+        latitude: "0.67138736549484",
+        longitude: "-0.65508883351387",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Reward:**\n- 20 Rupees\n- 1x Electro Mushroom Rice Balls\n- 1 x Muddle Bud",
+        latitude: "0.61955176674816",
+        longitude: "-0.61896934069787",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Standing on top of a boulder.\n\n**Reward:**\n- 20 Rupees\n- 1 x Sneaky Mushroom Rice Balls\n- 1 x Bomb Flower",
+        latitude: "0.64196644206261",
+        longitude: "-0.63970579174358",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Death Mountain Foothills  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.78857338495226",
+        longitude: "-0.63943715896295",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** On top of the mountain  \n**Reward:**\n- 20 Rupees\n- 1x Hasty Mushroom Rice Balls\n- 1x Puffshroom",
+        latitude: "0.72776860346291",
+        longitude: "-0.79000784943563",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** 0824, -2326, 0120  \n**Reward:**\n- Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.62818490426606",
+        longitude: "-0.67652572100818",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** -0677, -0862, 0041  \n**Reward:**\n- 20 Rupees\n- 1x Meaty Rice Balls\n- 1x Puffshroom",
+        latitude: "0.67531126550550",
+        longitude: "-0.72489333027389",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** North of the chasm, near a grove  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.78284197908916",
+        longitude: "-0.57847724973553",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** -1605, -0489, 0114\n\n**Reward:**\n- 20 Rupees\n- 1x Energizing Mushroom Rice Balls\n- 1x Puffshroom",
+        latitude: "0.68730940853339",
+        longitude: "-0.75471779184525",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Red Rupees\n- 1x Spicy Seafood Rice Balls\n- 1x Puffshroom",
+        latitude: "0.69568498060580",
+        longitude: "-0.81234707402578",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Owlan Bridge\n \n**Reward:**\n- 20 Rupees\n- 1x Sneaky Mushroom Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.66219860805586",
+        longitude: "-0.69101504759670",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:**  -1010 2022 0115  \n**Reward:**\n- 20 Rupees\n- 1x Sneaky Mushroom Rice Balls\n- 1x Puffshroom",
+        latitude: "0.76808000477700",
+        longitude: "-0.73568640834867",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  3141 -2137 0062  \n\n**Reward:**\n- 20 Rupees\n- 1x Electro mushroom rice balls\n- 1x Muddle bud",
+        latitude: "0.63458494818326",
+        longitude: "-0.60224576545647",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** ?? \n\n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.63087000503443",
+        longitude: "-0.79053689856804",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Just outside of Lakeside Stable\n**Coordinates:** 1595 -3470 0060\n\n**Reward:**\n- 20 Rupees\n- 1x Stormy Meaty Rice Balls\n- 1x Sleepover Ticket",
+        latitude: "0.59152639005907",
+        longitude: "-0.65183263584879",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Reward:**\n- 20 Rupees\n- 1x Bright Seafood Rice Balls\n- 1 x Muddle Bud",
+        latitude: "0.59067946191188",
+        longitude: "-0.59520289682109",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.64757056863105",
+        longitude: "-0.61592181488444",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** In the open near the geoglyph  \n**Reward:**\n- 20 Rupees\n- 1x Meal, Biting Meaty Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.80994681905986",
+        longitude: "-0.75472892988049",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Sturnida Secret Hotspring  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.79225631963021",
+        longitude: "-0.83534678044649",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** 2932, 0706, 0353\n\n**Reward:**\n- 20 Rupees\n- 1x Rapid Meaty Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.72570732620466",
+        longitude: "-0.60879127980050",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.63363130984629",
+        longitude: "-0.78029149157069",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Reward:**\n- 20 Rupees\n- Energizing Seafood Rice Balls\n- Sleepover Ticket",
+        latitude: "0.75546277685382",
+        longitude: "-0.60129851777685",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.78831773077738",
+        longitude: "-0.56675087523453",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Near a construction material pile by the crossroad  \n**Reward:**\n- 20 Rupees\n- 1x Energizing Seafood Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.76331503134024",
+        longitude: "-0.57107481330007",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.70986302164108",
+        longitude: "-0.63609351956293",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.79784847323006",
+        longitude: "-0.68760259753662",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Southwest of Scout's Hill \n\n**Reward:**\n- 20 Rupees\n- 1x Rapid Meaty Rice Balls\n- 1x Puffshroom",
+        latitude: "0.63466771037312",
+        longitude: "-0.70797733918860",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Energizing Mushroom Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.61704218734569",
+        longitude: "-0.70005708785229",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** Next to the road\n**Coordinates:** 2213 -3368 0029\n\n\n**Reward:**\n- 20 Rupees\n- 1x Sunny Veggie Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.59469201700621",
+        longitude: "-0.63192167090520",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Reward:**\n- 20 Rupees\n- 1x Scorching Meaty Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.80322039012336",
+        longitude: "-0.67024864435356",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.78849729451629",
+        longitude: "-0.61311261329021",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** 2819, 3550, 0238  \n**Reward:**\n- 20 Rupees\n- 1x Chilly Veggie Rice Balls\n- 1x Sleepover Ticket",
+        latitude: "0.81731468209836",
+        longitude: "-0.61242352062382",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** 3421, 3525, 0209  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.81656873418133",
+        longitude: "-0.59293543168837",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Spicy Veggie Rice Balls\n- 1x Puffshroom",
+        latitude: "0.69001526515470",
+        longitude: "-0.79008589717466",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.62819563361217",
+        longitude: "-0.55348187685001",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** On the western side of the path, one island before Great Zora Bridge.  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.70734981595277",
+        longitude: "-0.59976162819612",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Spicy Seafood Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.66630109150601",
+        longitude: "-0.57100978371957",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Rapid Meaty Rice Balls\n- 1x Muddle Bud\n\n**Coordinates:** -0479, 3136, 0120",
+        latitude: "0.68171641669201",
+        longitude: "-0.62661901456551",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** 4333, -0571, 0059  \n\n**Reward:**\n- 20 Rupees\n- 1x Bright Seafood Rice Balls\n- 1x Muddle Bud",
+        latitude: "0.68468401276603",
+        longitude: "-0.56356553987402",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.68187623889544",
+        longitude: "-0.59902001450109",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.60283212160614",
+        longitude: "-0.81390469108803",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.64451734273653",
+        longitude: "-0.60165464561109",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.65855595131241",
+        longitude: "-0.83529848871586",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Chilly Mushroom Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.61863679605779",
+        longitude: "-0.76085248080261",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Coordinates:** 4295, 0578, 0275\n\n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.72175599987491",
+        longitude: "-0.56493530294969",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.58100949236693",
+        longitude: "-0.79858975260549",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.59179725267202",
+        longitude: "-0.69494465050485",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Rapid Meaty Rice Balls\n- 1x Bomb Flower",
+        latitude: "0.69334078993008",
+        longitude: "-0.57530852385671",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** ??  \n**Reward:**\n- 20 Rupees\n- 1x Meal\n- 1x Rare Ingredient",
+        latitude: "0.77763439800627",
+        longitude: "-0.63024714488807",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hudson Sign",
+        description:
+          "**Location:** North of Castle Docks Entrance  \n**Reward:**\n- 20 Rupees\n- 1x Sunny Veggie Rice Balls\n- 1x Sleepover Ticket",
+        latitude: "0.74656201069304",
+        longitude: "-0.71432267291570",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Hudson Sign",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Riju's Diary",
+        description: "**Location:** In Riju's bedroom at the foot of the bed.",
+        latitude: "0.60783505112113",
+        longitude: "-0.82803522306460",
+      },
+      {
+        title: "Zelda Memorial",
+        regionSlug: "hyrule",
+        latitude: "0.71487856275283",
+        longitude: "-0.71074373552239",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.81735514314607",
+        longitude: "-0.55334541980278",
+        media: [
+          {
+            title: "2023050913513200_c",
+            fileName: "f042a39e-b3b8-4035-bec9-bb8ac68979d4.jpg",
+            url: "https://media.mapgenie.io/storage/media/f042a39e-b3b8-4035-bec9-bb8ac68979d4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deciphered Slabs",
+        description: "**Location:** On the wooden platform beside Gordi",
+        latitude: "0.67417980640751",
+        longitude: "-0.64736455679045",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Note on the Table",
+        description: "**Location:** On the wooden platform beside Gordi",
+        latitude: "0.67405106928534",
+        longitude: "-0.64745038747915",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Message in a Bottle",
+        description:
+          "**Location:** Floating down the stream inside the [Gerudo Shelter Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279350)",
+        latitude: "0.61134092949705",
+        longitude: "-0.82692868036369",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.61328373866655",
+        longitude: "-0.62461575844432",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Help Wanted",
+        latitude: "0.63923694216236",
+        longitude: "-0.59457734226856",
+      },
+      {
+        title: "Deciphered Slabs",
+        regionSlug: "hyrule",
+        latitude: "0.66527543170268",
+        longitude: "-0.65050061079481",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelda Memorial",
+        description:
+          "**How to get:** Destroy the boulders, to dry the entrance.  Then examine the stone with the face.",
+        latitude: "0.65430749773630",
+        longitude: "-0.72192720771696",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelda Memorial",
+        description: "Reward: Silent Princess",
+        latitude: "0.74323276748682",
+        longitude: "-0.68008367192812",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelda Memorial",
+        description: "Silent Princess",
+        latitude: "0.75503326856665",
+        longitude: "-0.75675178533828",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelda Monument",
+        description:
+          "Monument erected by princess Zelda to honor those lost to the Calamity.",
+        latitude: "0.64420679307307",
+        longitude: "-0.62865599210460",
+      },
+      {
+        title: "Learnings of the Zora, Anecdote One",
+        regionSlug: "hyrule",
+        latitude: "0.72019310722300",
+        longitude: "-0.58336051255847",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelda's Journal",
+        description:
+          "**Location:** On the second floor of the house on the desk.",
+        latitude: "0.62937044262887",
+        longitude: "-0.59655133390152",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Purah's Diary",
+        description: "On the top floor of the Lab on the ground.",
+        latitude: "0.63456106892789",
+        longitude: "-0.58152960149931",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Notebook",
+        description:
+          "Inside of the Yiga Clan tent, next to the [Large Crystalized Charge Chest]()",
+        latitude: "0.34145110179669",
+        longitude: "-0.64440704642757",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Clan Notebook",
+        description:
+          "Inside of the Yiga Clan tent, next to the [Large Chrystalized Charge Chest]().",
+        latitude: "0.30756317409669",
+        longitude: "-0.58786143305596",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.43937625519305",
+        longitude: "-0.81325634110624",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.82275611587662",
+        longitude: "-0.55416858177708",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.82174682788268",
+        longitude: "-0.55309885128645",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aurie Notepad",
+        description:
+          "Inside [Carok Bridge Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277710).",
+        latitude: "0.71706240165150",
+        longitude: "-0.73696651902563",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Temporarily Fallen - Aurie Taamu Notepad",
+        description:
+          "In [Goponga Village Ruins Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279326)",
+        latitude: "0.69283897030506",
+        longitude: "-0.65442684525283",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construct Horn - Aurie Taamu",
+        description:
+          "At the bottom of [Tabah Woods Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279337), behind the boulder.",
+        latitude: "0.70879057325288",
+        longitude: "-0.61556831891227",
+      },
+      {
+        title: "Deciphered Slabs",
+        regionSlug: "hyrule",
+        latitude: "0.67684276365584",
+        longitude: "-0.64182149317543",
+      },
+      {
+        title: "Deciphered Slabs",
+        regionSlug: "hyrule",
+        latitude: "0.66836881937409",
+        longitude: "-0.64070647411435",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.32884698807327",
+        longitude: "-0.80363958283175",
+      },
+      {
+        title: "Prince Sidon Writings",
+        regionSlug: "hyrule",
+        latitude: "0.70194950887294",
+        longitude: "-0.59793109113733",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Note on the Table - Aurie Taamu",
+        description:
+          "**Location:**  In the [Outskirt Hill Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279317)",
+        latitude: "0.66021781837107",
+        longitude: "-0.75718005612700",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lookout Post Logbook",
+        description: "Inside the building, ground floor.",
+        latitude: "0.60205926819779",
+        longitude: "-0.81387479870315",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lightning Helm Journal",
+        description:
+          "Before entering the room with the large column in the middle, continue down the hall and take the ladder. Follow the hall to the end.",
+        latitude: "0.66093663352011",
+        longitude: "-0.81816950864186",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.26540468441351",
+        longitude: "-0.78072896402094",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.28554158123792",
+        longitude: "-0.78963298412194",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.28466982661833",
+        longitude: "-0.82745021243730",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.31053367856696",
+        longitude: "-0.84901998647254",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.25664873348779",
+        longitude: "-0.80905228693399",
+      },
+      {
+        title: "Learnings of the Zora, Part Six",
+        regionSlug: "hyrule",
+        latitude: "0.72677056830182",
+        longitude: "-0.59997277057334",
+      },
+      {
+        title: "Mipha Court Security Report",
+        regionSlug: "hyrule",
+        latitude: "0.72194931891414",
+        longitude: "-0.57918227817350",
+      },
+      {
+        title: "Research Log, Day Four",
+        regionSlug: "hyrule",
+        latitude: "0.81692662256120",
+        longitude: "-0.72906722632919",
+      },
+      {
+        title: "Zelda Memorial",
+        regionSlug: "hyrule",
+        latitude: "0.64258018457021",
+        longitude: "-0.67871289029787",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stormwind Ark Story",
+        description:
+          "Book telling the story of the Stormwind Ark, and the associated song.",
+        latitude: "0.77585037732172",
+        longitude: "-0.81827491627243",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "ZST: Three Big Ideas",
+        description: "In the blue tent.",
+        latitude: "0.63776519411424",
+        longitude: "-0.75727994090551",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.39953422737270",
+        longitude: "-0.66633699519483",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.32813338277305",
+        longitude: "-0.63560150982198",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.29741562840655",
+        longitude: "-0.60685495479200",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.43154162612521",
+        longitude: "-0.61890273976806",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.40366547851730",
+        longitude: "-0.65312715880469",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.35639811412678",
+        longitude: "-0.76260590085710",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.34686708356199",
+        longitude: "-0.84790533898197",
+      },
+      {
+        title: "Base Construction Manual, Vol. 1",
+        regionSlug: "hyrule",
+        latitude: "0.25939792772739",
+        longitude: "-0.69020016625413",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.26919077407616",
+        longitude: "-0.60959453602652",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.33257467750889",
+        longitude: "-0.59863147167709",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.36288536565807",
+        longitude: "-0.62094178244308",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.36079008784660",
+        longitude: "-0.58564759392635",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.39914092444079",
+        longitude: "-0.56205057454861",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.45318804605854",
+        longitude: "-0.58583786857247",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.48348381236532",
+        longitude: "-0.56952209192121",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.49887730028884",
+        longitude: "-0.68189969057701",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.47102745138550",
+        longitude: "-0.69871246703008",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.42595851996873",
+        longitude: "-0.74563886562268",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.44772516648072",
+        longitude: "-0.76433415793474",
+      },
+      {
+        title: "Base Construction Manual, Vol. 2",
+        regionSlug: "hyrule",
+        latitude: "0.48085255604458",
+        longitude: "-0.75913313608524",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.47166651150503",
+        longitude: "-0.79520738652499",
+      },
+      {
+        title: "Yiga Clan Notebook x2",
+        regionSlug: "hyrule",
+        latitude: "0.47944650948669",
+        longitude: "-0.82250179295272",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.40766158306698",
+        longitude: "-0.79512467972486",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.39898624105818",
+        longitude: "-0.81173508219428",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.37160744495746",
+        longitude: "-0.81044682301936",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.38677915455891",
+        longitude: "-0.75395333395835",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.49984939177092",
+        longitude: "-0.59814780189498",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.43638032680359",
+        longitude: "-0.71425341610555",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Demon King Lore",
+        description:
+          "At the bottom of the circular staircase in the [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483)",
+        latitude: "0.72774220336062",
+        longitude: "-0.71127244179144",
+      },
+      {
+        title: "Research Log, Day Two",
+        regionSlug: "hyrule",
+        latitude: "0.81605104130632",
+        longitude: "-0.72873655790369",
+      },
+      {
+        title: "Reseach Log, Day One",
+        regionSlug: "hyrule",
+        latitude: "0.81694144428062",
+        longitude: "-0.73388639921217",
+      },
+      {
+        title: "Research Log, Day Three",
+        regionSlug: "hyrule",
+        latitude: "0.81988084546904",
+        longitude: "-0.72979871267393",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.59180389869191",
+        longitude: "-0.76009441090827",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.59000155008827",
+        longitude: "-0.76127458287462",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.59173772282688",
+        longitude: "-0.76294828129951",
+      },
+      {
+        title: "Note on the Table",
+        regionSlug: "hyrule",
+        latitude: "0.59580373334285",
+        longitude: "-0.76098490430221",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Note on the Table",
+        description:
+          "Written by Chef Aurie Taamu, the Lonely Cook. Found in [Popla Foothills South Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277809)",
+        latitude: "0.63162472090643",
+        longitude: "-0.68400792459195",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Purah's Diary",
+        description: "Under the bed on the 2nd floor.",
+        latitude: "0.67138799875340",
+        longitude: "-0.64608438461880",
+      },
+      {
+        title: "Yiga Clan Notebook",
+        regionSlug: "hyrule",
+        latitude: "0.29274695608524",
+        longitude: "-0.74294955479454",
+      },
+      {
+        title: "Learnings of the Zora, Anecdote Two",
+        regionSlug: "hyrule",
+        latitude: "0.72134630551095",
+        longitude: "-0.59548521620968",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Lore",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Crank",
+        description:
+          "**Location:** At the end of the corridor, on the upper floor above the rubble.  \n**How to solve:** Attach the debris to the rotating axel, then use Tulin's Gust to push the debris, rotating the axel and opening the door.",
+        latitude: "1.13294107387270",
+        longitude: "-0.95040724632102",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Loose Cog",
+        description:
+          "**Location:** On the side of the hallway.  \n**How to Solve:** Shoot an icicle off the ceiling, then Attach it to link the loose cog to the moving one.",
+        latitude: "1.14288187128950",
+        longitude: "-0.94871575878619",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Red Pillar",
+        description:
+          "**Location:** Just a little southeast of [Miryotanog Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278162).\n  \n**How to Solve:** Part of the [Red Pillars Across a Vast Sea](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281150). Locate the nearby turnstile just west of the main tower and use it to elevate the tower so that the light hits the mirror.",
+        latitude: "0.59746680877535",
+        longitude: "-0.84920000075542",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Red Pillar",
+        description:
+          "**Location:** North of the [Arbitor's Grounds](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283873) and [Irasak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278159).\n\n**Solution:** Break the floor and grab one (or all if desired) of the stone handles. Get it to the roof of the pillar in any manner that works and attach it to the turnstile. Rotate the tower until it points at [the starting light](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281150).",
+        latitude: "0.58620911017195",
+        longitude: "-0.83774118506932",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Switch",
+        description:
+          "In The Guard's Chamber. Put a Metal Box on this (can be found under the stairs, behind some burnable leaves) to open the outside access door, to come back later.",
+        latitude: "0.72915451662867",
+        longitude: "-0.71518301121981",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Mechanism",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Waterfall Cave Access",
+        description: "Drop down here to access the cave behind the waterfall",
+        latitude: "0.99834344623324",
+        longitude: "-0.70044144988117",
+        media: [
+          {
+            title: "Screenshot 2023-04-29 00-34-10",
+            fileName: "6b98aed0-8b42-4e7c-a3a1-2121676406ec.png",
+            url: "https://media.mapgenie.io/storage/media/6b98aed0-8b42-4e7c-a3a1-2121676406ec.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Seared Steak",
+        latitude: "0.58236003933108",
+        longitude: "-0.55919676207415",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Launchpad",
+        description:
+          "On the ramp near the Korok camp - good place to launch a flying machine.",
+        latitude: "0.72047831611462",
+        longitude: "-0.57579581615417",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lockup Access Cave",
+        description:
+          "A small cave on the side of the cliff can be used to access the lockup.  You can use a boat then climb the cliff to access.",
+        latitude: "0.73841653780443",
+        longitude: "-0.71758080405294",
+        media: [
+          {
+            title: "2023050421430900_c",
+            fileName: "7b05ce1f-3479-4ff6-9d5c-6bc6da4127c8.jpg",
+            url: "https://media.mapgenie.io/storage/media/7b05ce1f-3479-4ff6-9d5c-6bc6da4127c8.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "2023050421442200_c",
+            fileName: "cee0214d-f521-49f9-a87b-1448f52c7792.jpg",
+            url: "https://media.mapgenie.io/storage/media/cee0214d-f521-49f9-a87b-1448f52c7792.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Launcher",
+        latitude: "1.13735009470310",
+        longitude: "-0.69119660467791",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Camp",
+        description: "(?)",
+        latitude: "0.62037266156356",
+        longitude: "-0.64829715936438",
+        media: [
+          {
+            title: "2023050722415800_c",
+            fileName: "94c83445-8f1d-40d4-bf94-2bd666a09af3.jpg",
+            url: "https://media.mapgenie.io/storage/media/94c83445-8f1d-40d4-bf94-2bd666a09af3.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Shelter Entrance",
+        latitude: "0.61134099140025",
+        longitude: "-0.82655487869192",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Guard's Chamber Entrance",
+        latitude: "0.72778152995703",
+        longitude: "-0.71326814017493",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Healing Pool",
+        description:
+          "At the back of the Shrine of Resurrection cave, where you start your adventure in Breath of the Wild. Swim in the water to heal yourself.",
+        latitude: "0.64184188400220",
+        longitude: "-0.73962206715646",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Secret Shop Entrance",
+        latitude: "0.60956877876416",
+        longitude: "-0.82526206970064",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Button",
+        description:
+          "On top of the column - opens up [Ancient Columns Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280853)  \n\n**Coordinates:** -3484, 0421, 0292",
+        latitude: "0.71650491615715",
+        longitude: "-0.81565985900306",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Column",
+        description:
+          "Make a tall structure(4-5 logs long) and place it vertically on the south pillar at noon, to make the shadow touch the north pillar to open",
+        latitude: "0.73135363863263",
+        longitude: "-0.77612871518392",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sword",
+        description:
+          "Place the sword in the knight statue's hands to open [Coliseum Ruins Cave Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280867)",
+        latitude: "0.66114679007158",
+        longitude: "-0.74132585446051",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Great Deku Tree",
+        description:
+          "To speak to the Great Deku Tree, stand on a cut stump on one of the large roots. It is marked by a thin leafy branch.\n\n**Note:** Unavailable until Korok Forest is cleared of gloom.",
+        latitude: "0.77166697914542",
+        longitude: "-0.68919226527328",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lightning Temple Entrance",
+        latitude: "0.61978640993684",
+        longitude: "-0.93836829119933",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Button",
+        description:
+          "**Location:** Under the sand pile, use a [Korok-Frond Guster](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281210) to blow the sand away",
+        latitude: "0.61708401823810",
+        longitude: "-0.93835539938481",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Fireball Tunnel",
+        description: "**Hint:** You can use Ultrahand to stop the ball",
+        latitude: "0.59522361157532",
+        longitude: "-0.92179426000798",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Moat West Chasm Entrance",
+        description:
+          "The entrance to the Hyrule Castle Moat West Chasm. It is located inside the rock wall of the mountain, among some trees,",
+        latitude: "0.72532598283055",
+        longitude: "-0.73184888687118",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Light",
+        description:
+          "**Location:** Behind the bricked up wall.\n\n**Tip:** You can remove the bricks using Ultrahand  \n\n**Tip 2:** Use Recall to sync the spinning cogs nearby to let the light through",
+        latitude: "0.60986298706872",
+        longitude: "-1.02102793737170",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Secret Passage",
+        description:
+          "**Solution:** Shine the Light opposite on the statue here to unlock the passage",
+        latitude: "0.59949381205279",
+        longitude: "-1.02099175621560",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mirror",
+        description: "**Location:** Under the sand pile",
+        latitude: "0.59242057037100",
+        longitude: "-1.01562757681060",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mirror",
+        description: "**Location:** Lower level - in a sand pile",
+        latitude: "0.59164487790384",
+        longitude: "-1.01766809418880",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Timed Snowboard Run",
+        description:
+          "**Associated Shrine:** [Zakusu Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277954)\n\nThe quest is unlisted, but it is necessary to unlock the shrine.\n\n**Solution:** \n- Examine the green panel. Jump off the island, do a full dive, land on the slope, and snowboard through the green rings within the timers to unlock the shrine.",
+        latitude: "0.99708091116742",
+        longitude: "-0.57603294227474",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Armor Shop Shortcut",
+        description:
+          "Alley entrance for the [Gerudo Secret Club](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284929). Initially blocked by a wooden crate inside the armor shop.\n\nAfter using the [Secret Shop Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279712) to Ascend into the shop the first time, walk down a hallway and look for a breakable crate. Destroy it to unblock the door for future use.",
+        latitude: "0.60839940169207",
+        longitude: "-0.82480072975289",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Other Miscellaneous",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Josha",
+        description:
+          "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)",
+        latitude: "0.70776331436443",
+        longitude: "-0.71141973137867",
+        media: [
+          {
+            title: "2023042922444800_c",
+            fileName: "2ef57107-446b-4e41-b6cb-2fd29aaef050.jpg",
+            url: "https://media.mapgenie.io/storage/media/2ef57107-446b-4e41-b6cb-2fd29aaef050.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Suzuna",
+        description:
+          "In the small camp outside the chasm. Speak to her and she'll give you a random Elixir",
+        latitude: "0.69260655213101",
+        longitude: "-0.71428317942357",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zumi",
+        description:
+          "**Location:** Outside [New Serenne Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276878)",
+        latitude: "0.72596086900609",
+        longitude: "-0.74618648713715",
+        media: [
+          {
+            title: "2023042923232600_c",
+            fileName: "0a666407-de99-42dc-96fe-47c1094a294f.jpg",
+            url: "https://media.mapgenie.io/storage/media/0a666407-de99-42dc-96fe-47c1094a294f.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Impa",
+        description: "**Location:** On a platform in the open",
+        latitude: "0.72956303973852",
+        longitude: "-0.74535545575742",
+        media: [
+          {
+            title: "2023042923343200_c",
+            fileName: "09a2b3bc-217d-4064-93ae-e8ceacb4e6bc.jpg",
+            url: "https://media.mapgenie.io/storage/media/09a2b3bc-217d-4064-93ae-e8ceacb4e6bc.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pikango",
+        description: "Near the Tower - painting a picture of a floating island",
+        latitude: "0.63343772871642",
+        longitude: "-0.78100883512550",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Robbie",
+        description: "**Location:**",
+        latitude: "0.70775795035563",
+        longitude: "-0.71109853684956",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bazz",
+        description:
+          "**Location:** In front of [Upland Zorana Skyview Tower](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276831), stuck in the mud.",
+        latitude: "0.72183845183298",
+        longitude: "-0.61158455908270",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Prince Sidon",
+        latitude: "0.72139412089712",
+        longitude: "-0.57934346311072",
+        media: [
+          {
+            title: "2023050415552400_c",
+            fileName: "68cbd04a-8027-424d-92f8-5903a83f776f.jpg",
+            url: "https://media.mapgenie.io/storage/media/68cbd04a-8027-424d-92f8-5903a83f776f.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mei",
+        description: "**Location:** Standing by the water",
+        latitude: "0.72379759928837",
+        longitude: "-0.58179570818510",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dunma",
+        description:
+          "**Location:** On a pillar by [Toto Lake](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277082)",
+        latitude: "0.73023692001397",
+        longitude: "-0.59226496412066",
+        media: [
+          {
+            title: "2023050416020600_c",
+            fileName: "5bd953ce-61c2-4b6a-8f74-dba6bff8a80c.jpg",
+            url: "https://media.mapgenie.io/storage/media/5bd953ce-61c2-4b6a-8f74-dba6bff8a80c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Jiahto",
+        latitude: "0.73150784892690",
+        longitude: "-0.59327787659825",
+        media: [
+          {
+            title: "2023050416024900_c",
+            fileName: "4e69032d-9ce5-48f7-9498-51c7e7ffae4c.jpg",
+            url: "https://media.mapgenie.io/storage/media/4e69032d-9ce5-48f7-9498-51c7e7ffae4c.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tula",
+        latitude: "0.71958691550327",
+        longitude: "-0.59654809534572",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Trello",
+        latitude: "0.71708268662866",
+        longitude: "-0.59727478551758",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Finlan",
+        description: "**Location:** Inside the water chamber.",
+        latitude: "0.71914773839335",
+        longitude: "-0.59582792222525",
+        media: [
+          {
+            title: "2023050416151400_c",
+            fileName: "38c43b20-f97d-474e-9e55-581f7ca5ff61.jpg",
+            url: "https://media.mapgenie.io/storage/media/38c43b20-f97d-474e-9e55-581f7ca5ff61.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gruve",
+        latitude: "0.71674541558689",
+        longitude: "-0.58249237741612",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wadder",
+        description:
+          "Help him defeat the Bokoblin and he'll give you an _Energizing Cooked Stambulb_.  He'll also tell you about the various Insecta of Hyrule.",
+        latitude: "0.71515215477315",
+        longitude: "-0.56898071641933",
+        media: [
+          {
+            title: "2023050420532700_c",
+            fileName: "c45e2a66-b72d-4518-961c-be7ccef2a7e4.jpg",
+            url: "https://media.mapgenie.io/storage/media/c45e2a66-b72d-4518-961c-be7ccef2a7e4.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Oliff",
+        latitude: "0.72307491705575",
+        longitude: "-0.71165979364949",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gladis",
+        description:
+          "***Note:** Gladis talks to you about Bubbulfrogs. She explains they live in caves and tells you there are two people in a cave near the Woodland Stable in Eldin who will trade for the Bubbul gems.*",
+        latitude: "0.72324382892799",
+        longitude: "-0.74106473052987",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Traysi",
+        latitude: "0.75953173737554",
+        longitude: "-0.80791488289809",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Konora",
+        latitude: "0.72035827429197",
+        longitude: "-0.69268686451298",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Koltin",
+        description:
+          "**Location:** In [Tarrey Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278088)",
+        latitude: "0.75604674652499",
+        longitude: "-0.57562867520750",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meeshy",
+        description: "Speak to them to mark the locations of Misko's Treasures",
+        latitude: "0.64812336012855",
+        longitude: "-0.68559472031177",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Savrey",
+        latitude: "0.61147261561314",
+        longitude: "-0.78167675544302",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Ambush",
+        description:
+          'He wants you to give him a Sundelion to "help" cure the Gloom.',
+        latitude: "0.27218356042626",
+        longitude: "-0.77658019863500",
+        media: [
+          {
+            title: "2023050821420700_c",
+            fileName: "98510c5a-5758-4f35-bb3e-42a84b16ac53.jpg",
+            url: "https://media.mapgenie.io/storage/media/98510c5a-5758-4f35-bb3e-42a84b16ac53.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Canolo",
+        description:
+          "**Location:** At the small camp\n\nSpeak to her and she'll give you a Mighty Simmered Fruit",
+        latitude: "0.59678204760966",
+        longitude: "-0.68649797387994",
+        media: [
+          {
+            title: "2023050912152200_c",
+            fileName: "c7e2bade-d799-4efb-b4d1-5da53ec05cd1.jpg",
+            url: "https://media.mapgenie.io/storage/media/c7e2bade-d799-4efb-b4d1-5da53ec05cd1.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calissa",
+        description:
+          "**Location:** At the small camp\n\nSpeak to her to receive Rapid Simmered Fruit",
+        latitude: "0.59046888189989",
+        longitude: "-0.67002230575690",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yiga Assassin",
+        description: "Disguised as a 'Researcher'.",
+        latitude: "0.80810780497221",
+        longitude: "-0.55847440640738",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rohan",
+        latitude: "0.78331261155232",
+        longitude: "-0.64870404985905",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Yona",
+        description: 'Gives quest "Restoring the Zora Armor"',
+        latitude: "0.71775041735903",
+        longitude: "-0.59690617024884",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Stable Trotters",
+        description:
+          "A musical troupe comprised of Mastro, Violynne, Beetz, Eustus, and Pyper.\n\nYou will need to reunite all members of the musical troupe though a series of Side Adventures in order to unlock Great Fairies and armor upgrades:\n- [Great Fairy Tera](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279490)\n    - [Potential Princess Sightings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846)\n    - [Serenade to a Great Fairy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279983)\n- [Great Fairy Mija](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279257)\n    - [The Hornist's Dramatic Escape](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280076)\n    - [Serenade to Mija](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280073)\n- [Great Fairy Cotera](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279483)\n    - [Honey, Bee Mine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279476)\n    - [Serenade to Cotera](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279990)\n- [Great Fairy Kaysa](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279489)\n    - [The Flute Player's Plan](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280107)\n    - [Serenade to Kaysa](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280108)",
+        latitude: "0.73997407337507",
+        longitude: "-0.66932916641119",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Garill",
+        description:
+          "**Location:** At a small campfire by the cliff.\nRequires spicy pepper",
+        latitude: "0.64307755111083",
+        longitude: "-0.77385671774887",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ariane",
+        description:
+          "**Location:** Sweeping the broom by [New Serenne Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276878).",
+        latitude: "0.72720786188339",
+        longitude: "-0.74729738781465",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Giro",
+        description:
+          "**Location:** At the small campfire in the canyon.\n\nRequests a Splash Fruit",
+        latitude: "0.62726695970355",
+        longitude: "-0.76397022790158",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Naia",
+        latitude: "0.63720945842357",
+        longitude: "-0.75634185396985",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Carl",
+        description:
+          "**Note:** You can also beign [Impa and the Geoglyphs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276885) by speaking to Carl",
+        latitude: "0.65171276609620",
+        longitude: "-0.64677468181995",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Stable Trotters",
+        latitude: "0.64003283809120",
+        longitude: "-0.64660951495213",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Daval",
+        description: "He speaks about his research.",
+        latitude: "0.69295708976028",
+        longitude: "-0.71165842350257",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cado",
+        description:
+          "If spoken to, starts [Impa and the Geoglyphs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276885).",
+        latitude: "0.73224688528805",
+        longitude: "-0.69618375055643",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Stable Trotters",
+        latitude: "0.78651364499811",
+        longitude: "-0.75572445988672",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Juney",
+        latitude: "0.76082357985044",
+        longitude: "-0.75260151897456",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cado",
+        description:
+          "Location: Across the path from the stable.\n\nCado gives you the location of Impa and the quest [Impa and the Geoglyphs](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276885).",
+        latitude: "0.72703744590699",
+        longitude: "-0.74559582673217",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Stable Trotters",
+        latitude: "0.66249689882193",
+        longitude: "-0.74831418693219",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Budder",
+        description: "Will give you a _Tough Prime Meat & Seafood Fry_",
+        latitude: "0.79764139975982",
+        longitude: "-0.64681214251925",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calisa",
+        description: "Very basic treasure hunting tips.",
+        latitude: "0.74243406950026",
+        longitude: "-0.77836927734612",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ornest",
+        description: "Training mini-game",
+        latitude: "0.71736126342640",
+        longitude: "-0.81049592784311",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabaga",
+        description:
+          "Free him and he will reward you\n\n**Rewards:**\n- 1x Salt Grilled Meat\n- 1x Sneaky Meat and Seafood Fry\n- 1x Fairy Tonic",
+        latitude: "0.70175656943195",
+        longitude: "-0.73250359417884",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Savrey",
+        description: "Gives tips on cave locations and a meal",
+        latitude: "0.69791719337546",
+        longitude: "-0.74766617380030",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Pikango",
+        latitude: "0.79367370246248",
+        longitude: "-0.73502761815740",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ponnick",
+        description:
+          "Teaches you about Lightbloom Seeds and how to deploy them in the dark.",
+        latitude: "0.37008042003673",
+        longitude: "-0.71061297874274",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sasan",
+        description: "2279, 0275, 0022",
+        latitude: "0.71188480899072",
+        longitude: "-0.62943052132894",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Huck",
+        description:
+          "Supply-Eyeing Flyers Side mission. Kill the flying enemies get a purple ruppee reward.",
+        latitude: "0.76834201382180",
+        longitude: "-0.77306856048274",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Cima",
+        description:
+          "Quest objective for the Side Adventure: [The Beast and the Princess](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280074)",
+        latitude: "0.59494116253791",
+        longitude: "-0.65363583052044",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Benny",
+        latitude: "0.69827772095459",
+        longitude: "-0.79199951616800",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bedoli",
+        description:
+          "**Location:** On a small plateau.  \n**Note:** After completing [Fish for Fletching](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280980), Bedoli will repeat his quest, offering 10 Arrows for 3 of a certain material. He can ask for:\n- Glowing Cave Fish\n- Chillfin Trout\n- Brightcap",
+        latitude: "0.75987334606957",
+        longitude: "-0.82093375169879",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ramella",
+        description:
+          "**Location:** Roaming around the entrance to [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852).  \n**Note:** After completing [Amber Dealer](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279944), Ramella will start asking for different ores. Bring the requested quantity to her, and she will purchase them at a slightly higher rate than shops.",
+        latitude: "0.77979194935388",
+        longitude: "-0.65484119567552",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Botrick",
+        description:
+          "**Location:** In [Stalry Plateau Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282042), hiding behind a rock.",
+        latitude: "0.63198308778352",
+        longitude: "-0.75194758639196",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Steen",
+        latitude: "0.66690698165408",
+        longitude: "-0.65012241308904",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Olkin",
+        latitude: "0.66691770976405",
+        longitude: "-0.65001512472813",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ollie",
+        latitude: "0.67411083186427",
+        longitude: "-0.64728307376708",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kaffi",
+        latitude: "0.67849540963081",
+        longitude: "-0.79479485813661",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nars",
+        latitude: "0.79931203535315",
+        longitude: "-0.77857206523456",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Budder",
+        description:
+          "Part of Captain Toran's squad for [Bring Peace to Akkala!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282619).\n\nHe gives you an Energizing Mushroom Omelet.",
+        latitude: "0.73426656333355",
+        longitude: "-0.60795734456823",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nars",
+        latitude: "0.73764472366226",
+        longitude: "-0.57521049489375",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Savrey",
+        latitude: "0.73043132127512",
+        longitude: "-0.82915125891643",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hino",
+        description:
+          "Can be saved in the above Enemy camp. He will give you multiple meals.",
+        latitude: "0.70596193511182",
+        longitude: "-0.63062623708828",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nars",
+        latitude: "0.69041455866360",
+        longitude: "-0.76938701222323",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nars",
+        latitude: "0.70167666043622",
+        longitude: "-0.61257365752508",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kaffi",
+        latitude: "0.79014299962860",
+        longitude: "-0.64925549662610",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bahni",
+        latitude: "0.69203610045037",
+        longitude: "-0.71178091518365",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Coppora",
+        latitude: "0.70618203386623",
+        longitude: "-0.71308726367505",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Burwar",
+        latitude: "0.70425098964829",
+        longitude: "-0.71111315784560",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Drozer",
+        latitude: "0.70417589346799",
+        longitude: "-0.71147793827177",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lester",
+        latitude: "0.70468011066133",
+        longitude: "-0.71088785228289",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mondi",
+        latitude: "0.70647169042820",
+        longitude: "-0.70950383243101",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gagaim",
+        latitude: "0.71001860829189",
+        longitude: "-0.71049523580999",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Grunyon",
+        latitude: "0.70991132816745",
+        longitude: "-0.71051669348230",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Benny",
+        latitude: "0.69238800770961",
+        longitude: "-0.56981203501732",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Utric",
+        latitude: "0.71326741266033",
+        longitude: "-0.76501059773918",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Benny",
+        latitude: "0.59190128178170",
+        longitude: "-0.59095377585356",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Nars",
+        latitude: "0.63319912811704",
+        longitude: "-0.61922010764843",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Canolo",
+        description:
+          "Part of Captain Flaxel's Monster-Control Crew. She offers Mighty Steamed Meat.",
+        latitude: "0.78110471576660",
+        longitude: "-0.76221413163401",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Benny",
+        latitude: "0.80712769660431",
+        longitude: "-0.68232869975080",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Redhran",
+        latitude: "0.64235454858571",
+        longitude: "-0.75639650679219",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Guspar",
+        latitude: "0.64650934908650",
+        longitude: "-0.75853437800663",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Meeshy",
+        description:
+          "Provides Information About Misko's Treasure/Outfit Locations",
+        latitude: "0.64345559330856",
+        longitude: "-0.75745990128715",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Calisa",
+        description:
+          "Legendary Treasure Hunter. You discuss the falling rocks from the sky and she tells you about a dream she has.",
+        latitude: "0.71235916866749",
+        longitude: "-0.69211852132480",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Patricia - Riju's Sand Seal",
+        description:
+          "Feed Splash Fruit and she will give you coordinates to the orbs needed for The Heroines' Secret quest",
+        latitude: "0.60668405929839",
+        longitude: "-0.82727617715787",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Savrey",
+        latitude: "0.72405630277269",
+        longitude: "-0.66484971511449",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Penn",
+        description:
+          "After completing [Potential Princess Sightings!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277846), you can find Penn here.",
+        latitude: "0.69655400476515",
+        longitude: "-0.79226391734630",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wadder",
+        description:
+          "Save him from the bokoblin and he gives you a meal and a lesson about insects.",
+        latitude: "0.66168852952643",
+        longitude: "-0.59607955441015",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mylle",
+        latitude: "0.71841867370526",
+        longitude: "-0.70949919885533",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "NPCs",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: '"Droplet"',
+        description:
+          "**Related Quest:** [Clues to the Sky](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277444)",
+        latitude: "1.06213221054780",
+        longitude: "-0.57314694746015",
+        media: [
+          {
+            title: "2023050420582100_c",
+            fileName: "4c679fb5-95db-4aa1-92c7-3fdb0cec582f.jpg",
+            url: "https://media.mapgenie.io/storage/media/4c679fb5-95db-4aa1-92c7-3fdb0cec582f.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Eldin Skeleton Eye",
+        description:
+          "**Related Quest:** [Eldin's Colossal Fossil](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278285)\r\n\r\n**Location:** Covered in breakable rocks inside the head of the Eldin Skeleton.  Place it inside the northern eye socket of the skeleton.",
+        latitude: "0.82184548426635",
+        longitude: "-0.65130250490918",
+        media: [
+          {
+            title: "2023050923282300_c",
+            fileName: "7c94c7a7-df8b-42ac-b298-e13c38bfc76b.jpg",
+            url: "https://media.mapgenie.io/storage/media/7c94c7a7-df8b-42ac-b298-e13c38bfc76b.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "2023050923302600_c",
+            fileName: "1859c8ad-ff08-4391-bbe5-5cd79a5eafcb.jpg",
+            url: "https://media.mapgenie.io/storage/media/1859c8ad-ff08-4391-bbe5-5cd79a5eafcb.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Shrine Crystal",
+        description:
+          "**Location:** At the small camp behind some rocks\n\n**Related Quest:** [The Gerudo Canyon Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279622)",
+        latitude: "0.62774785860945",
+        longitude: "-0.76429192415812",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "NE Terminal",
+        description:
+          "**Related Quest:** [The Lomei Labyrinth Island Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278299)",
+        latitude: "1.16665213274290",
+        longitude: "-0.54922923445690",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "SE Terminal",
+        description:
+          "**Related Quest:** [The Lomei Labyrinth Island Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278299)",
+        latitude: "1.16222203850000",
+        longitude: "-0.55031150579350",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "SW Terminal",
+        description:
+          "**Related Quest:** [The Lomei Labyrinth Island Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278299)",
+        latitude: "1.16337783252380",
+        longitude: "-0.55499330162905",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "NW Terminal",
+        description:
+          "**Related Quest:** [The Lomei Labyrinth Island Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278299)",
+        latitude: "1.16663872447780",
+        longitude: "-0.55733218789018",
+      },
+      {
+        regionSlug: "hyrule",
+        title: '"Red Pillars Across A Vast Sea"',
+        description:
+          "**Related Quest:** [Riju of Gerudo Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279576)\n\nAfter viewing the mural you'll be given a riddle:\n\n_Standing back-to-back with the throne, witness red pillars across a vast sea. Unite the pillars in light to reveal the lightning stone and open the way. You who can hear my voice come to me. I await you_",
+        latitude: "0.60178939578627",
+        longitude: "-0.83366321719383",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [The South Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283073)  \n**Location:** ??",
+        latitude: "0.93736584319664",
+        longitude: "-0.75986122818157",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [The South Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283073)  \n**Location:** ??",
+        latitude: "0.93736584319646",
+        longitude: "-0.76193189354148",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [The South Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283073)  \n**Location:** ??",
+        latitude: "0.93266898730476",
+        longitude: "-0.75985361874698",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [The South Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283073)  \n**Location:** ??",
+        latitude: "0.93269044213447",
+        longitude: "-0.76195647061460",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battery",
+        description:
+          "**Related Quest:** [Riju of Gerudo Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279576)  \n**Location:** ??",
+        latitude: "0.60202456880076",
+        longitude: "-0.95942259350574",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Battery",
+        description:
+          "**Related Quest:** [Riju of Gerudo Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279576)  \n**Location:** ??",
+        latitude: "0.59258919915440",
+        longitude: "-1.02393955306780",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Hyrule Sky Crystal",
+        description:
+          "**Related Quest:** [The South Hyrule Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281926)",
+        latitude: "1.00176500917140",
+        longitude: "-0.74642315735096",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Windmill",
+        description:
+          "**Related Quest:** [Tulin of Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279570)  \n**Location:** At the very bottom of the ark; access by gliding from a side window.",
+        latitude: "1.13918743432110",
+        longitude: "-0.98356895385903",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Central Terminal",
+        description:
+          "**Related Quest:** [The North Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281125)",
+        latitude: "1.16003246143700",
+        longitude: "-0.72970496901241",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Terminal",
+        description:
+          "**Related Quest:** [The North Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281125)",
+        latitude: "1.16365806247470",
+        longitude: "-0.72965132482906",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Terminal",
+        description:
+          "**Related Quest:** [The North Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281125)",
+        latitude: "1.15637467579410",
+        longitude: "-0.72966205366774",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Terminal",
+        description:
+          "**Related Quest:** [The North Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281125)",
+        latitude: "1.16002173479470",
+        longitude: "-0.72614299544199",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lake Hylia Crystal",
+        description:
+          "**Related Quest:** [The Lake Hylia Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279719)",
+        latitude: "0.96576626515494",
+        longitude: "-0.69901522370711",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [The High Spring and the Light Rings](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282373)",
+        latitude: "0.99699188064146",
+        longitude: "-0.57583270504679",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Road Crystal",
+        description:
+          "**Related Quest:** [The Lanayru Road Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283078) \n\n**Location:** Go through the brown breakable wall at the back of the cave's first chamber to find a second large chamber containing the crystal. The second chamger also contains 2 Rocket, 2 Fan and 1 Steering Stick zonai devices. They can be used, along with the Wing found encased in the blue rock wall in the cave's first chamber, to move the crystal to the shrine.",
+        latitude: "0.65820217783836",
+        longitude: "-0.61673000985343",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Ralis Channel Crystal",
+        description:
+          "**Related Quest:** [The Ralis Channel Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281822)  \n**Location:** Underwater, just by the southern shore.",
+        latitude: "0.71038353352226",
+        longitude: "-0.60895339934999",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Hebra Sky Crystal",
+        description:
+          "**Related Quest:** [The East Hebra Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282166)  \n**Location:** In a vine-blocked alcove, near the bottom of the island.",
+        latitude: "1.15977952840380",
+        longitude: "-0.75877295271971",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sky Mine Crystal",
+        description:
+          "**Related Quest:** [The Sky Mine Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283446)",
+        latitude: "1.11368700431630",
+        longitude: "-0.55749758059969",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sokkala Sky Crystal",
+        description:
+          "**Related Quest:** [The Sokkala Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283448)",
+        latitude: "1.09732768908900",
+        longitude: "-0.58007335102965",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [Ga-ahisas Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278356)",
+        latitude: "1.08064246939140",
+        longitude: "-0.82179164032428",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Lanayru Shrine Crystal",
+        description:
+          "**Related Quest:** [The South Lanayru Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284234)  \n**Location:** Under the island, behind a few breakable vines.",
+        latitude: "1.02064669581840",
+        longitude: "-0.54735449401326",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "North Necluda Sky Crystal",
+        description:
+          "**Related Quest:** [The North Necluda Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278328)  \n**Location:** On the altar, on the platform.",
+        latitude: "1.00230417217160",
+        longitude: "-0.64432868769546",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [Tulin of Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279570)  \n**Location:** On the main deck of the temple, just in front of the hatch. Activate it to reveal the other windmills.",
+        latitude: "1.13757070505870",
+        longitude: "-0.91457150477640",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Windmill",
+        description:
+          "**Related Quest:** [Tulin of Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279570)  \n**Location:** In the locked room. To open, Attach an icicle to the lever, then move it to the other side. Use Tulin's Gust to activate it.",
+        latitude: "1.14489902608730",
+        longitude: "-0.91173288794822",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Windmill",
+        description:
+          "**Related Quest:** [Tulin of Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279570)  \n**Location:** Near the main turbine, down the vent past the lasers. From the [Terminal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284370), ride the air current to the top of the temple, then Ultrahand the massive doors and glide down. Use Tulin's Gust to activate it.",
+        latitude: "1.15138469881820",
+        longitude: "-0.94912951895954",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Windmill",
+        description:
+          "**Related Quest:** [Tulin of Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279570)  \n**Location:** In a locked room on the main deck. Access from the trap to the lower level, beyond the [Crank](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284375). Use Tulin's Gust to activate it.",
+        latitude: "1.13119712282770",
+        longitude: "-0.91424344694090",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Windmill",
+        description:
+          "**Related Quest:** [Tulin of Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279570)  \n**Location:** In a locked room, beyond the [Loose Cog](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284376).",
+        latitude: "1.14271737405000",
+        longitude: "-0.94970293857725",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [Yunobo of Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279572)  \n**Location:** On the side of the door to the arena.",
+        latitude: "0.45527856020811",
+        longitude: "-0.50065641456243",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Marbled Rock Roast",
+        description:
+          "**Related Quest:** [Meat For Meat](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279494)  \n**Location:** [West Restaurant Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277832) - At the far end of the cavern.",
+        latitude: "0.76194877668271",
+        longitude: "-0.65030346558783",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gong",
+        description: "**Related Quest:** Yunobo of Goron City",
+        latitude: "0.46695921615066",
+        longitude: "-0.39118151425302",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gong",
+        description: "**Related Quest:** Yunobo of Goron City",
+        latitude: "0.44686125509617",
+        longitude: "-0.36563445068259",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Gisa Crater Crystal",
+        description:
+          "**Related Quest:** [The Gisa Crater Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281683)\n\n**Location:** Inside [Gisa Crater Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278230), near the northwest entrance. Attach a rocket to the crystal, place it beneath the cave opening, and launch it out of the cave.",
+        latitude: "0.73790559171147",
+        longitude: "-0.83035424351803",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gong",
+        description:
+          "**Related Quest:** [Yunobo of Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279572)\n \n**Location:** At back of room. Use Yunobo's ability to ring gong. Opens one of temple's locks.",
+        latitude: "0.46048878810404",
+        longitude: "-0.50142214421135",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lightning Stone",
+        description:
+          "**Related Quest:** [Riju of Gerudo Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279576) and [Red Pillars Across a Vast Sea](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281150).\n  \n**Location:** Northeast of the [Lightning Temple](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281197).",
+        latitude: "0.59512718418118",
+        longitude: "-0.84030335990380",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Terminal",
+        description:
+          "**Related Quest:** [The South Lomei Prophecy](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283073)  \n**Location:** ??  \nAvailable after the other four terminals have been activated.",
+        latitude: "0.93279186614390",
+        longitude: "-0.76090478343019",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Forgotten Sword",
+        description:
+          "**Related Quest:** [A Picture for the Closed Stable II](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276951)\n\n**Location:** Gerudo Highlands right next to the [Frost Gleeok](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278165)",
+        latitude: "0.67220029683430",
+        longitude: "-0.83137797058387",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gong",
+
+        latitude: "0.43393743443579",
+        longitude: "-0.49655129691786",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gong",
+        description:
+          "**Related Quest:** [Yunobo of Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279572)\n\n**Location:** Against back wall of chamber. Use Yunobo's ability to ring gong and unlock one of temple's five locks.",
+        latitude: "0.43357049432363",
+        longitude: "-0.49656084229545",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "West Necluda Sky Crystal",
+        description:
+          "**Related Quest:** [The West Necluda Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284644)  \n**Location:** Down on middle cave in island ,there are root closing the way. Use zoanite device to bring it.",
+        latitude: "0.98617162273834",
+        longitude: "-0.64836300269121",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tail",
+        description:
+          "**Related Quest:** [Gerudo's Colossal Fossil](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284462).\n\n**Location:** [Gerudo Great Skeleton](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282322).\n- Tail is on ground level, buried beneath some sand mounds. Use a fan to blow the sand away.",
+        latitude: "0.58040336103763",
+        longitude: "-0.86202459208315",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Torso",
+        description:
+          "**Related Quest:** [Gerudo's Colossal Fossil](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284462).\n\n**Location:** [Gerudo Great Skeleton](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282322).\n- The torso is above the head of the Colossal Fossil stuck in some breakable rocks.",
+        latitude: "0.58074666616609",
+        longitude: "-0.86128430239572",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gong",
+        description:
+          "**Related Quest:** [Yunobo of Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279572)\n\n**Location:** Against back wall of chamber. Ring with Yunobo's ability to open one of temple's five locks.",
+        latitude: "0.46972742361858",
+        longitude: "-0.46200808090609",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Two Dragons",
+        description:
+          "**Related Quest:** [The Corridor between Two Dragons](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284344)\n\n**Location:** Stand at western end of corridor between two rows of stone blocks. Use Vow of Yunobo and aim him to east so he travels between the two rows.",
+        latitude: "0.80371624397425",
+        longitude: "-0.69768752902911",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Owl Statue",
+        description:
+          "**Related Quest:** [The Owl Protected by Dragons](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281466)\n\n**Location:** Stand facing owl statue from north. Use Vow of Tulin and aim him so that the gust of wind hits the owl statue.",
+        latitude: "0.80106425801668",
+        longitude: "-0.69140241668813",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zonai Ruins Altar",
+        description:
+          "**Related Quest:** [Secret of the Ring Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=290118)  \n**Location:** Through a glowing door in the cliff-face.\nWear the full Charged Armor Set and drop a Zonai Charge onto the altar at the very back of the chamber.",
+        latitude: "0.61501450330535",
+        longitude: "-0.68165899499007",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "The Six Dragons",
+        description:
+          "**Related Quest:** [The Six Dragons](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284343)  \n**Location:** ??",
+        latitude: "0.80554209534483",
+        longitude: "-0.69718764411649",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Long Dragon's Tail",
+        description:
+          "**Related Quest:** [The Long Dragon](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284342)  \n**Location:** Thyphlo Ruins.  A stone square on the ground that looks like it's at the end of a chain of stone blocks, embedded in the ground. Shoot it with Riju's Sage power to raise the stone building up.",
+        latitude: "0.80242738286088",
+        longitude: "-0.68855943273107",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Quest Objective",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Cherry Blossom Shrine",
+        description:
+          "**Location:** In the open, north of [Yamiyo Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276756)\r\n\r\n**Reward:** Reveals the locations of nearby caves",
+        latitude: "0.72038351703688",
+        longitude: "-0.69287993571140",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Cherry Blossom Tree",
+        description:
+          "East of Dragon Bone Mire, southwest from Rito Village, north of Passer Hill, top the hill",
+        latitude: "0.75754857587084",
+        longitude: "-0.83338785229165",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Cherry Blossom Tree",
+
+        latitude: "0.63360075239650",
+        longitude: "-0.77755344441658",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Cherry Blossom Tree",
+
+        latitude: "0.79834322772284",
+        longitude: "-0.66321392449089",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Tree",
+
+        latitude: "0.62316637059530",
+        longitude: "-0.59498457433273",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Tree",
+
+        latitude: "0.59039482749040",
+        longitude: "-0.67732989796727",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Tree",
+
+        latitude: "0.69207516457028",
+        longitude: "-0.77711030002831",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Satori Tree",
+
+        latitude: "0.70307495276269",
+        longitude: "-0.62174352450529",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Satori Tree",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Golden Horse",
+        description:
+          "Required: [Zelda's Golden Horse](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280101) (Side Adventure)",
+        latitude: "0.81307775891371",
+        longitude: "-0.76298073662355",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Giant White Stallion",
+        description:
+          "**Related Quest:** [Ride the Giant Horse](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282428)",
+        latitude: "0.58334471637345",
+        longitude: "-0.67757673146673",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Giant Horse (Ganon's Horse)",
+        description:
+          "Giant black and red horse. Tamable, but requires 3 circles of stamina.",
+        latitude: "0.62473301683596",
+        longitude: "-0.56941249919279",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Stalhorse",
+        description: "**Note:** Only appears at night.",
+        latitude: "0.67993206548633",
+        longitude: "-0.75533774943634",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Royal White Stallion",
+        description:
+          "This horse was tamable in Breath of the Wild. If a save file is found on the same Nintendo Switch, the horse will be automatically transferred to the stables in Tears of the Kingdom. **If you already caught this horse in Breath of the Wild, it WILL NOT appear again in Tears of the Kingdom.**",
+        latitude: "0.82329467841430",
+        longitude: "-0.59855054884034",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Spot",
+        description:
+          "**Required:** [Spotting Spot](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284885) (Side Quest)\n\nA white horse covered in black spots. After taming this horse, it unlocks the spot pattern on wild horses in different color variations.",
+        latitude: "0.70171386684937",
+        longitude: "-0.71704896500543",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Unique Horse",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "Hanging Rail Train",
+        description: "Can be assembled using the hooks & planks nearby",
+        latitude: "1.01559951359870",
+        longitude: "-0.69288103209431",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Glider",
+        description:
+          "You can make a glider using the wings scattered around (+a fan from the nearby Device Dispenser).  Use the railway tracks to launch the glider.",
+        latitude: "1.00565572238410",
+        longitude: "-0.67981451307634",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hanging Rail Train",
+
+        latitude: "0.99076024069369",
+        longitude: "-0.68549045372669",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hanging Rail Cart [Powered]",
+        description: "Can be assembled using a hook, railway cart & fan",
+        latitude: "0.98900097416890",
+        longitude: "-0.68811901856071",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Railway Train",
+        description: "Create using the railway cart and a fan",
+        latitude: "0.99457280883551",
+        longitude: "-0.69001737442917",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+        description: "Assembled from some wooden logs and a fan",
+        latitude: "0.99625572380285",
+        longitude: "-0.69369247263154",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+        description: "Pre-assembled on the bank of the river",
+        latitude: "1.00238754956160",
+        longitude: "-0.68226749060631",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+        description:
+          "Just outside the lab with [Josha](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276865)",
+        latitude: "0.70741130127878",
+        longitude: "-0.71111530065701",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+        description: "Assembled from parts on the beach",
+        latitude: "0.60293378891288",
+        longitude: "-0.59029202065190",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+        description: "Assembled from parts on the beach",
+        latitude: "0.60244203958828",
+        longitude: "-0.59019366534568",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Boat",
+
+        latitude: "0.60686125313713",
+        longitude: "-0.57364049764007",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.58107264535913",
+        longitude: "-0.55764108084500",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+        description: "Fan + wood near the water",
+        latitude: "0.73963796922874",
+        longitude: "-0.71513709392360",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sailboat",
+
+        latitude: "0.72050818154528",
+        longitude: "-0.73427885770863",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+        description: "2 Fans + planks",
+        latitude: "0.73154363043732",
+        longitude: "-0.76025261519649",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+
+        latitude: "0.72483078134232",
+        longitude: "-0.76091454043834",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rocketship (?)",
+        description: "2 Rockets + Platform",
+        latitude: "1.00309162899730",
+        longitude: "-0.72492447920945",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+
+        latitude: "0.58402016327794",
+        longitude: "-0.59501696619958",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.28643292476070",
+        longitude: "-0.80750700575615",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.29939255740882",
+        longitude: "-0.80106140751843",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.25976231486651",
+        longitude: "-0.82769883642692",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Car",
+
+        latitude: "0.58047622423231",
+        longitude: "-0.65515242081563",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+
+        latitude: "0.57921279923180",
+        longitude: "-0.63817084073182",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Boat",
+
+        latitude: "0.58295863806499",
+        longitude: "-0.62940016263096",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.28256186622527",
+        longitude: "-0.75390916856318",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.26670966596890",
+        longitude: "-0.75793498580012",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Railway Train",
+
+        latitude: "1.08398185853630",
+        longitude: "-0.64867452337576",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Motorboat",
+
+        latitude: "0.64446700255455",
+        longitude: "-0.76901882316211",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Car",
+
+        latitude: "0.62981839927871",
+        longitude: "-0.76552574030497",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot Air Balloon",
+
+        latitude: "0.71847406228052",
+        longitude: "-0.69248792566835",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Flying Machines",
+
+        latitude: "1.01106810897540",
+        longitude: "-0.57680375268728",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Raft",
+        description: "Can be assembled using the logs and sails nearby",
+        latitude: "1.00407175991600",
+        longitude: "-0.70113040454706",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rocket Platform",
+
+        latitude: "0.99646047900200",
+        longitude: "-0.73009655829355",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rocket Platform",
+
+        latitude: "0.99350236510077",
+        longitude: "-0.72997036379098",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hot-Air Balloon",
+
+        latitude: "0.99375860105424",
+        longitude: "-0.75005394177654",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sand Sled",
+        description: "- Sled\n- Fan\n- Rocket",
+        latitude: "0.60647625688827",
+        longitude: "-0.81879987115698",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Sand Sled",
+        description: "- Sled\n- Fan\n- Rocket\n- Springs",
+        latitude: "0.61232112616376",
+        longitude: "-0.81830108076520",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Air Balloon x1",
+
+        latitude: "0.79065472515339",
+        longitude: "-0.73857371516141",
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Vehicle",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "New Serenne Stable Well",
+        description:
+          "**Location:** At the rear of [New Serenne Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276878)  \n**Contents:**\n- [Purple Rupee](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279616)",
+        latitude: "0.72565761275038",
+        longitude: "-0.74727348983322",
+        media: [
+          {
+            title: "2023042923312500_c",
+            fileName: "adb147f4-298a-4a13-8982-2d4722d2df01.jpg",
+            url: "https://media.mapgenie.io/storage/media/adb147f4-298a-4a13-8982-2d4722d2df01.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "2023042923292900_c",
+            fileName: "67491aa1-9ccd-487e-afb2-eb6bbadafdca.jpg",
+            url: "https://media.mapgenie.io/storage/media/67491aa1-9ccd-487e-afb2-eb6bbadafdca.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lookout Landing Well",
+        description:
+          "**Location:** In [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752) - just east of the lab with [Josha](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276865)\r\n\r\n**Puzzle Solution:** Break the rocks then walk upstream through the tunnel by crouching\r\n\r\n**Treasure:** Royal Claymore",
+        latitude: "0.70730066858853",
+        longitude: "-0.71003437042265",
+        media: [
+          {
+            title: "2023042923570200_c",
+            fileName: "6899f92e-0416-48d0-81c0-c001c60ef718.jpg",
+            url: "https://media.mapgenie.io/storage/media/6899f92e-0416-48d0-81c0-c001c60ef718.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+          {
+            title: "2023042923590200_c",
+            fileName: "7d94b640-6533-44d5-bb6a-16d482ec6426.jpg",
+            url: "https://media.mapgenie.io/storage/media/7d94b640-6533-44d5-bb6a-16d482ec6426.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Village East Well",
+        description:
+          "**Location:** Just outside the eastern gate of [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)\n\n**Puzzle Solution:** ??  \n\n**Treasure:**  Shield of the MInd's Eye",
+        latitude: "0.63364823393756",
+        longitude: "-0.59004507958903",
+        media: [
+          {
+            title: "2023043000081100_c",
+            fileName: "71f99152-24cc-4225-aac9-4492d84a0699.jpg",
+            url: "https://media.mapgenie.io/storage/media/71f99152-24cc-4225-aac9-4492d84a0699.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Village North Well",
+        description:
+          "**Location:** On the hillside north of [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)",
+        latitude: "0.63773969195209",
+        longitude: "-0.59296131134016",
+        media: [
+          {
+            title: "2023043000280800_c",
+            fileName: "e807a5b5-16f3-4bfa-b4be-e5f3daa3f455.jpg",
+            url: "https://media.mapgenie.io/storage/media/e807a5b5-16f3-4bfa-b4be-e5f3daa3f455.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Village West Well",
+        description:
+          "**Location:** On the hillside to the north-west of [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)",
+        latitude: "0.63705040689017",
+        longitude: "-0.59502393007335",
+        media: [
+          {
+            title: "2023043000291800_c",
+            fileName: "4a422686-5f54-4dfb-9ac7-29bc66f7b606.jpg",
+            url: "https://media.mapgenie.io/storage/media/4a422686-5f54-4dfb-9ac7-29bc66f7b606.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gerudo Canyon Well",
+        description:
+          "**Location:** Around the back of [Gerudo Canyon Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276946)",
+        latitude: "0.63140028907276",
+        longitude: "-0.79383629782794",
+        media: [
+          {
+            title: "2023043023142500_c",
+            fileName: "fe11a66f-1740-41b9-877f-9debd4d3cf69.jpg",
+            url: "https://media.mapgenie.io/storage/media/fe11a66f-1740-41b9-877f-9debd4d3cf69.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Carok Bridge Well",
+        description:
+          "**Location:** Beside [Carok Bridge](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277419)  \n**Contents:**\n- 3x Fortified Pumpkin\n- Cooking Pot",
+        latitude: "0.71648786636239",
+        longitude: "-0.73659360408826",
+        media: [
+          {
+            title: "2023050523540700_c",
+            fileName: "a36cee1a-887f-440b-b71e-3f5813d621b5.jpg",
+            url: "https://media.mapgenie.io/storage/media/a36cee1a-887f-440b-b71e-3f5813d621b5.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rowan Plain Well",
+        description:
+          "**Location:** By a ruined house on Rown Plain\n\n**Note:** Leads to [Rowan Plain Well Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281915) in The Depths",
+        latitude: "0.77812836106237",
+        longitude: "-0.73754279061467",
+        media: [
+          {
+            title: "2023050601144400_c",
+            fileName: "0ea5e727-5e5f-4e66-8fd9-ffe1bca352df.jpg",
+            url: "https://media.mapgenie.io/storage/media/0ea5e727-5e5f-4e66-8fd9-ffe1bca352df.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Popla Foothills South Well",
+        description:
+          "**Location:** In centre of ruined buildings.\n\n**Contents:**\n- Aurie Taamu Notes",
+        latitude: "0.63030712641476",
+        longitude: "-0.68363038591579",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Popla Foothills North Well",
+        description:
+          "**Location:** Just in front of the entrance to [Popla Foothills Skyview Tower](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276835)\r\n\r\n**Puzzle Solution:** ??\r\n\r\n**Treasure:** ??",
+        latitude: "0.63551279020623",
+        longitude: "-0.68400028408871",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lurelin Village Well",
+        description:
+          "**Location:** On the outskirts of [Lurelin Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278007)\r\n\r\n**Puzzle Solution:** ??\r\n\r\n**Treasure:** ??",
+        latitude: "0.59435529825610",
+        longitude: "-0.60854081820176",
+        media: [
+          {
+            title: "2023050723280800_c",
+            fileName: "7d159203-f301-4069-8ec7-7d3ac2faf75d.jpg",
+            url: "https://media.mapgenie.io/storage/media/7d159203-f301-4069-8ec7-7d3ac2faf75d.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Riverside Stable Well",
+        description: "**Location:** ??  \n**Contents:**\n- ??",
+        latitude: "0.66684815539308",
+        longitude: "-0.69139840250244",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mabe Village Well",
+        description:
+          "**Location:** Mabe Village Ruins  \n**Contents:**\n- 4x Ore Deposits",
+        latitude: "0.69787689856815",
+        longitude: "-0.70533305746252",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Highland Stable Well",
+        description:
+          "**Location:** Outside [Highland Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278247)\n\n**Puzzle Solution:** Breakable walls and a Bubblefrog. Connects to [Komo Shoreline Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281708)\n\n**Treasure:**\n- Ancient Blade [Chest]\n- Broadsword [Chest]",
+        latitude: "0.59278714341930",
+        longitude: "-0.68583912962060",
+        media: [
+          {
+            title: "2023050912141500_c",
+            fileName: "2995d3e7-dea8-44a4-bded-3726b9c04681.jpg",
+            url: "https://media.mapgenie.io/storage/media/2995d3e7-dea8-44a4-bded-3726b9c04681.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "East Akkala Stable Well",
+        description:
+          "**Location:** Just outside [East Akkala Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277827)\n\n**Puzzle Solution:** ??\n\n**Treasure:** ??",
+        latitude: "0.79253966112299",
+        longitude: "-0.56700274816117",
+        media: [
+          {
+            title: "2023050913442600_c",
+            fileName: "e2fab0fd-282a-42e9-b0ec-8684c1d10017.jpg",
+            url: "https://media.mapgenie.io/storage/media/e2fab0fd-282a-42e9-b0ec-8684c1d10017.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Snowfield Stable Well",
+        description:
+          "**Location:** Behind Snowfield Stable. Melt the ice atop the well to access it.  \n**Contents:**\n- 1 x Rare Ore Deposit\n- 4 x Ore Deposit\n- 3 x Fairy\n- 1 x Glowing Cave Fish\n- 1 x Bomb Flower\n- 3 x Sticky Lizard\n- 2 x Brightcap",
+        latitude: "0.78645211061266",
+        longitude: "-0.75683618637541",
+        media: [
+          {
+            title: "2023050914582700_c",
+            fileName: "d74c1bd8-c89f-4968-b536-c2b168ee7315.jpg",
+            url: "https://media.mapgenie.io/storage/media/d74c1bd8-c89f-4968-b536-c2b168ee7315.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Maritta Exchange Ruins Well",
+        description:
+          "**Entry:** To gain entry to this location you need to fuse a nearby metal crate to your sword then jump attack in the well until all the rubble is broken. \n\n**Enemies:** Inside there will be one Like Like\n\n**Loot:** There are five common ore deposits and one rare ore deposit. You will also find Giant Brightbloom Seeds, Glowing Cave Fish, and a Tireless Frog.",
+        latitude: "0.75533649592107",
+        longitude: "-0.76139857524791",
+        media: [
+          {
+            title: "",
+            fileName: "5710c453-806d-48d3-92fc-23595469f164.png",
+            url: "https://media.mapgenie.io/storage/media/5710c453-806d-48d3-92fc-23595469f164.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Village Ruins Well",
+        description:
+          "**Location:** Tabantha Village Ruins    \n**Coordinates:** -2360, 1872, 0279  \n**Contents:**\n- [Purple Rupee](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280200)",
+        latitude: "0.76336490955887",
+        longitude: "-0.77904995867797",
+        media: [
+          {
+            title: "",
+            fileName: "e3023661-f8fe-4a74-9cb6-536c9f10342b.png",
+            url: "https://media.mapgenie.io/storage/media/e3023661-f8fe-4a74-9cb6-536c9f10342b.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dronoc's Pass Well",
+        description:
+          "**Location:** Beside the crossroads.  \n**Contents:**\n- Luminous Stone Deposit",
+        latitude: "0.77088685763070",
+        longitude: "-0.82645356181365",
+        media: [
+          {
+            title: "",
+            fileName: "f96492b3-3b62-4bac-b085-893ac8f70ef5.png",
+            url: "https://media.mapgenie.io/storage/media/f96492b3-3b62-4bac-b085-893ac8f70ef5.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabantha Bridge Stable Well",
+        description:
+          "**Location:** Behind Tabantha Bridge Stable  \n**Contents:**\n- [Purple Rupee](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280626)",
+        latitude: "0.72024241003918",
+        longitude: "-0.79834544332823",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Elma Knolls Well",
+        description:
+          "**Location:** ??  \n**Contents:**\n- 2x Horriblin\n- 1x Fire Like\n- Multiple Luminous Stone deposits",
+        latitude: "0.74662612450385",
+        longitude: "-0.72469574282809",
+        media: [
+          {
+            title: "",
+            fileName: "78471be5-25dc-4e1e-867d-f86508f921c6.jpg",
+            url: "https://media.mapgenie.io/storage/media/78471be5-25dc-4e1e-867d-f86508f921c6.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Irch Plain Well",
+        description:
+          "**Location:** ??  \n**Coordinates:** -0912, 1614, 0107  \n**Contents:**\n\n- 3 x Horriblins\n- Locked chest containing Soldier's-Broadsword Spear (Unlocks when all Horriblins are killed)\n- Chest containing Bomb-Barrel Spear (Found on wood platform in first chamber at bottom of well.\n- 2 x Rare Ore Deposits\n- 4 x Ore Deposits",
+        latitude: "0.75514789611236",
+        longitude: "-0.73247553850288",
+        media: [
+          {
+            title: "",
+            fileName: "d1a0acfe-0aee-49ee-b2e7-8a292bbf166d.png",
+            url: "https://media.mapgenie.io/storage/media/d1a0acfe-0aee-49ee-b2e7-8a292bbf166d.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rauru Settlement Ruins Well",
+        description:
+          "**Location:** East of [Helmhead Bridge](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278103)\n\n**Contents:**  Lots of Brightbloom Seeds",
+        latitude: "0.74386977128957",
+        longitude: "-0.68182663829899",
+        media: [
+          {
+            title: "",
+            fileName: "2d85e435-f656-4883-816a-4ff092a2816e.png",
+            url: "https://media.mapgenie.io/storage/media/2d85e435-f656-4883-816a-4ff092a2816e.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Woodland Stable Well",
+        description:
+          "**Location:** ??  \n**Contents:**\n- Small hotspring inside behind a rock wall that will heal you slowly to full.",
+        latitude: "0.74023677547740",
+        longitude: "-0.66795294090423",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Foothill Stable Well",
+        description:
+          "**Location:**  On the north side of Foothill Stable  \n**Coordinates:** 2608, 1153, 0127\n\n**Contents:**\n- Purple Rupee [Chest]\n- Soldier\u2019s Shield [Chest]\n- Luminous Stone Ore Deposit\n- Ore Deposit\n- Brightcap\n- Glowing Cave Fish",
+        latitude: "0.74069744551851",
+        longitude: "-0.61876220638837",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Shadow Hamlet Ruins Well",
+        description:
+          "**Location:** West of Shadow Pass\n\n**Contents:**\n- 1x Chest (Ruby x1)\n- 1x Fire Like Monster\n\n**Note**: Be careful, because there is lava down there.",
+        latitude: "0.77748886870712",
+        longitude: "-0.60468615214890",
+        media: [
+          {
+            title: "",
+            fileName: "fcdc096a-398a-4a59-a416-7f288d128976.png",
+            url: "https://media.mapgenie.io/storage/media/fcdc096a-398a-4a59-a416-7f288d128976.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Akkala Stable Well",
+
+        latitude: "0.75833165753087",
+        longitude: "-0.60032880428028",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Construction Site Well",
+        description:
+          "**Contents:**\n- 6x Zonai Components (Break through the rock barriers)",
+        latitude: "0.75421401016662",
+        longitude: "-0.58339598831273",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hateno Village South Well",
+        description:
+          "**Location:** ??\n\n**Puzzle Solution:** ??\n\n**Treasure:** ??",
+        latitude: "0.63194915816023",
+        longitude: "-0.59417232871067",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zelda's Secret Well",
+        description:
+          "**Location:** Under an apple tree to the south-west of [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)\n\n**Puzzle Solution:** ??\n\n**Side Quest:** [A New Champion's Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280934)\n\n**Treasure:** \n- ??\n- [Well-Worn Hair Band](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279422)",
+        latitude: "0.62903109143562",
+        longitude: "-0.59685453772468",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Dueling Peaks Stable Well",
+        description:
+          "**Location:** ??\n\n**Puzzle Solution:** ??\n\n**Treasure:** ??",
+        latitude: "0.64039490664152",
+        longitude: "-0.64537069049646",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deya Village Ruins East Well",
+        description: "**Location:** ??  \n**Contents:**\n- ??",
+        latitude: "0.63736889951481",
+        longitude: "-0.68948529660796",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deya Village Ruins South Well",
+        latitude: "0.63556053166548",
+        longitude: "-0.69220505654908",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hills of Baumer Well",
+
+        latitude: "0.63462739854182",
+        longitude: "-0.69298837813514",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deya Village Ruins North Well",
+
+        latitude: "0.64334844914715",
+        longitude: "-0.69294546279059",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Deya Village Ruins Well",
+        latitude: "0.64108486882719",
+        longitude: "-0.69276295602268",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "South Nabi Lake Well",
+        description:
+          "**Location:** ??  \n**Contents:**\n- ??\n\n**Note:** A way to reach the depths",
+        latitude: "0.65492789251488",
+        longitude: "-0.67793731352538",
+        media: [
+          {
+            title: "",
+            fileName: "6b782292-1d08-4f14-ad10-7e96a6f56de7.png",
+            url: "https://media.mapgenie.io/storage/media/6b782292-1d08-4f14-ad10-7e96a6f56de7.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Bottomless Pond Well",
+
+        latitude: "0.67844029100047",
+        longitude: "-0.68103516356442",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Gustaf Well",
+        description:
+          "**Location:** Amidst the ruins of the village.  \n**Contents:**\n- 2x Like Like\n- 4x Ore Deposits\n- 3x Bomb Flower",
+        latitude: "0.71370998474457",
+        longitude: "-0.73253475129414",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Hyrule Castle Town Ruins Well",
+        description:
+          "**Location:** South of Hyrule Cathedral  \n**Contents:**\n- [Knight's Halberd](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279923)\n\n**Coordinates:** 0061, 0545, 0028",
+        latitude: "0.72075621878957",
+        longitude: "-0.70121317722268",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Outskirt Hill Well",
+
+        latitude: "0.65959977771641",
+        longitude: "-0.75722769816196",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Outskirt Stable Well",
+        description: "**Location:** ??  \n**Contents:**\n- 3x Fairy",
+        latitude: "0.66140933565326",
+        longitude: "-0.75038217008273",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Nabooru Well",
+        description:
+          "**Location:** ??  \n**Contents:**\n- Diamond\n- 4 Fairies\n- ??",
+        latitude: "0.63105988290866",
+        longitude: "-0.75847888288470",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kara Kara Bazaar Well",
+
+        latitude: "0.61930625008107",
+        longitude: "-0.80726949845655",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Haran Lakefront Well",
+
+        latitude: "0.59411101430965",
+        longitude: "-0.69040147269712",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lakeside Stable Well",
+        description:
+          "Water rises and falls depending on whether it's raining or not.",
+        latitude: "0.58858579096086",
+        longitude: "-0.65357708936449",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Kakariko Village Well",
+        description:
+          "**Location:** ??\n\n**Puzzle Solution:** ??\n\n**Treasure:** \n- [Eightfold Blade [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281199)",
+        latitude: "0.66955934851646",
+        longitude: "-0.64267672598154",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rikoha Hills Well",
+        description:
+          "Related to [The Ultimate Dish](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282522) side quest - bring Dubious Food to transform it.",
+        latitude: "0.68196097574344",
+        longitude: "-0.64770928753927",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Gopongo Village Ruins Well",
+        description:
+          "**Contains**:\n\n- [Chef Aurie Taamu Note - Temprorarily Fallen](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283917)\n- 1 x Cooking Pot [Unlit]\n- 4 x Sticky Frogs\n- 1 x Sticky Lizard\n- 1 x Brightcap",
+        latitude: "0.69261434531241",
+        longitude: "-0.65388288071111",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Lanayru Wetlands Well",
+
+        latitude: "0.69052550031236",
+        longitude: "-0.66385514005395",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Zauz Island Well",
+        description:
+          "**Location:** Found in the northern part of Zauz Island next to a ruined cabin.\n\n**Contents:**\n- 1 x Stalnox (Buried in breakable rocks in center of cave at bottom of well.)\n- 1 x Bomb Flower\n- 2 x Brightcap\n- 6 x Brightbloom Seed",
+        latitude: "0.69875058357114",
+        longitude: "-0.65695131226610",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Moor Garrison Ruins Well",
+        description:
+          "**Location:** Moor Garrison Ruins  \n**Contents:**\n- [Knight's Shield [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283285)",
+        latitude: "0.70861423821555",
+        longitude: "-0.65339496012962",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Rebonae Bridge Well",
+        description:
+          "**Location:** Beside the bridge, on a hill.  \n**Contents:**\n- [Fell Into a Well!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280039)",
+        latitude: "0.70336044222263",
+        longitude: "-0.67801200211431",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wetland Stable Well",
+        description:
+          "**Location:** ??\n\n**Puzzle Solution:** N/A\n\n**Treasure:** ??\n\nConnects with [Wetland Stable South Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279333).",
+        latitude: "0.69681720074941",
+        longitude: "-0.67465715505094",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Wetland Stable South Well",
+        description:
+          "**Location:** ??\n\n**Puzzle Solution:** N/A\n\n**Treasure:** ??\n\nConnects with [Wetland Stable Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279331).",
+        latitude: "0.69463611823483",
+        longitude: "-0.67532101171315",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Aquame Lake Well",
+        description: "Near a patrolling Moblin",
+        latitude: "0.66784543614156",
+        longitude: "-0.73158750161605",
+        media: [
+          {
+            title: "",
+            fileName: "3e2ffb12-7d60-44e6-a6de-458f5dc4d895.png",
+            url: "https://media.mapgenie.io/storage/media/3e2ffb12-7d60-44e6-a6de-458f5dc4d895.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Mount Daphnes Well",
+        description:
+          "**Leads To:** [Mount Daphnes Well Chasm (Exit)](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282181)",
+        latitude: "0.68309884194748",
+        longitude: "-0.74538582964797",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Tabahl Woods Well",
+        description: "**Location:** ??  \n**Contents:**\n- ??",
+        latitude: "0.70881918201795",
+        longitude: "-0.61479652055033",
+        media: [
+          {
+            title: "",
+            fileName: "b4cf6828-f9cc-4e13-8e44-044ed7c0bb77.png",
+            url: "https://media.mapgenie.io/storage/media/b4cf6828-f9cc-4e13-8e44-044ed7c0bb77.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
+      },
+    ],
+    groupSlug: "totk_other",
+    title: "Well",
+  },
+  {
+    locations: [
+      {
+        regionSlug: "hyrule",
+        title: "8x Luminous Stone Deposit",
+
+        latitude: "1.01162206262980",
+        longitude: "-0.64130168596628",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone",
+
+        latitude: "0.72542992368309",
+        longitude: "-0.66998817899442",
+      },
+      {
+        regionSlug: "hyrule",
+        title: "Luminous Stone [Chest]",
+        latitude: "0.62616698327836",
+        longitude: "-0.68518426880035",
+      },
+    ],
+    groupSlug: "totk_ore_deposits",
+    title: "Luminous Stone",
+  },
   { locations: [], groupSlug: "totk_ore_deposits", title: "Zonaite" },
   { locations: [], groupSlug: "totk_materials", title: "Ancient" },
   { locations: [], groupSlug: "totk_materials", title: "Ancient Blade" },

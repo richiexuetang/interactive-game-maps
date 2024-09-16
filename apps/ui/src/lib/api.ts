@@ -10,7 +10,6 @@ import {
   FETCH_REGION_DETAILS,
   FETCH_REGION_MARKERS,
   GET_APP_USER,
-  LOGIN,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/constants";
 
@@ -83,15 +82,6 @@ export async function getMetaData(slug: string) {
   return data.game;
 }
 
-export async function login(email: string, password: string) {
-  const { data } = await getClient().mutate({
-    mutation: LOGIN,
-    variables: { data: { email, password } },
-  });
-
-  return data.login;
-}
-
 export async function getRegionsByGame(slug: string) {
   const { data } = await getClient().query({
     query: FETCH_REGION_BY_GAME,
@@ -107,7 +97,9 @@ export async function getGroupDetails(slug: string) {
     variables: { slug },
   });
 
-  return data.getGroupsByGameSlug;
+  const groups = data.getGroupsByGameSlug;
+
+  return groups;
 }
 
 export async function getMarkerLocations(regionSlug: string) {
@@ -120,6 +112,9 @@ export async function getMarkerLocations(regionSlug: string) {
 
   const processedMarkers = [];
   for (let i = 0; i < markers.length; i++) {
+    const category = markers[i].category;
+    const processedInfo = await remark().use(html).process(category.info);
+
     const processedDescription = await remark()
       .use(html)
       .process(markers[i].description);
@@ -127,6 +122,7 @@ export async function getMarkerLocations(regionSlug: string) {
     processedMarkers.push({
       ...markers[i],
       description: processedDescription.toString(),
+      category: { ...category, info: processedInfo.toString() },
     });
   }
 

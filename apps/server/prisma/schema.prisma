@@ -11,22 +11,6 @@ generator dbml {
   provider = "prisma-dbml-generator"
 }
 
-model User {
-  id        String   @id @default(cuid())
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  email     String   @unique
-  password  String
-  firstName String?
-  lastName  String?
-  role      Role
-}
-
-enum Role {
-  ADMIN
-  USER
-}
-
 model AppUser {
   id             String   @id @default(cuid())
   createdAt      DateTime @default(now())
@@ -44,12 +28,12 @@ model Game {
   slug         String        @unique
   title        String
   thumbnailUrl String
-  logo         String?
+  logo         String
   regions      Region[]
   groups       MarkerGroup[]
-  previewUrl   String?
-  iconUrl      String?
-  description  String?
+  previewUrl   String
+  iconUrl      String
+  description  String
 }
 
 model Region {
@@ -62,29 +46,18 @@ model Region {
   zoom         Int
   center       Decimal[]
   tilePath     String
-  Game         Game?            @relation(fields: [gameSlug], references: [slug])
-  gameSlug     String?
+  Game         Game             @relation(fields: [gameSlug], references: [slug])
+  gameSlug     String
   locations    MarkerLocation[]
-  subRegions   SubRegion[]
   order        Int              @default(1)
-}
-
-model SubRegion {
-  id             Int                     @id @default(autoincrement())
-  name           String
-  latitude       Decimal
-  longitude      Decimal
-  parentRegion   Region?                 @relation(fields: [parentRegionId], references: [id])
-  parentRegionId Int?
-  polygon        Unsupported("POLYGON")?
 }
 
 model MarkerGroup {
   id         Int              @id @default(autoincrement())
   title      String
   slug       String           @unique
-  Game       Game?            @relation(fields: [gameSlug], references: [slug])
-  gameSlug   String?
+  Game       Game             @relation(fields: [gameSlug], references: [slug])
+  gameSlug   String
   categories MarkerCategory[]
 }
 
@@ -92,25 +65,24 @@ model MarkerCategory {
   id          Int              @id @default(autoincrement())
   title       String
   icon        String
-  template    String?
   info        String?
   locations   MarkerLocation[]
   groupSlug   String
-  MarkerGroup MarkerGroup?     @relation(fields: [groupSlug], references: [slug])
+  MarkerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
 }
 
 model MarkerLocation {
-  id          Int             @id @default(autoincrement())
+  id          Int            @id @default(autoincrement())
   title       String
   description String?
   latitude    Decimal
   longitude   Decimal
-  category    MarkerCategory? @relation(fields: [categoryId], references: [id])
-  categoryId  Int?
-  Region      Region?         @relation(fields: [regionSlug], references: [slug])
-  regionSlug  String?
+  category    MarkerCategory @relation(fields: [categoryId], references: [id])
+  categoryId  Int
+  Region      Region         @relation(fields: [regionSlug], references: [slug])
+  regionSlug  String
   media       Media[]
-  type        LocationType    @default(Marker)
+  type        LocationType   @default(Marker)
 }
 
 enum LocationType {
@@ -123,7 +95,6 @@ model Media {
   id               Int             @id @default(autoincrement())
   title            String
   url              String
-  fileName         String?
   type             String
   mimeType         String
   MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])

@@ -21,6 +21,7 @@ import {
 } from "@/store/map";
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
+import data from "@/data/geo.json";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -80,7 +81,7 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
         "h-[calc(100vh-1rem)] overflow-hidden"
       )}
     >
-      <Menu groups={groups} markers={markers} regions={regions} />
+      <Menu regions={regions} />
       <MapContainer
         {...rest}
         attributionControl={false}
@@ -97,6 +98,10 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
         <MarkerRenderer user={user!} />
         <MarkerSearch />
         <ProgressTracker />
+        <ReactLeaflet.GeoJSON
+          data={data as any}
+          style={{ color: "transparent", weight: 0, opacity: 0 }}
+        />
       </MapContainer>
       {user?.email && (
         <div className="z-[1000] absolute top-2 right-2">

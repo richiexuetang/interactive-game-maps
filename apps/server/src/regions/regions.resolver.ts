@@ -11,7 +11,6 @@ export class RegionsResolver {
   async regionDetails(@Args("slug") slug: string) {
     return this.prisma.region.findUnique({
       where: { slug: slug },
-      include: { subRegions: true },
     });
   }
 
@@ -29,7 +28,6 @@ export class RegionsResolver {
       where: {
         gameSlug: slug,
       },
-      include: { subRegions: true },
       orderBy: orderBy ? { [orderBy.field]: orderBy.direction } : undefined,
     });
   }
