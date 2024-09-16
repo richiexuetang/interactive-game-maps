@@ -17,10 +17,7 @@ async function main() {
 
   await prisma.game.createMany({ data: games });
 
-  for (let i = 0; i < regions.length; i++) {
-    const region = regions[i];
-    await prisma.region.create({ data: region });
-  }
+  await prisma.region.createMany({ data: regions });
 
   await prisma.markerGroup.createMany({ data: markerGroups });
 
