@@ -4,6 +4,8 @@ import { AppUser } from "./models/app-user.model";
 import { AppUsersService } from "./app-users.service";
 import { CreateUserInput } from "./dto/create-user.input";
 import { UpdateFoundLocationInput } from "./dto/update-found-location.input";
+import { UpdateTrackingCategoryInput } from "./dto/update-tracking-category.input";
+import { UpdateHideFoundInput } from "./dto/update-hide-found.input";
 
 @Resolver(() => AppUser)
 export class AppUsersResolver {
@@ -36,6 +38,46 @@ export class AppUsersResolver {
     const newLocations = [...locations, data.location];
     return await this.prisma.appUser.update({
       data: { foundLocations: newLocations },
+      where: {
+        email: data.email,
+      },
+    });
+  }
+
+  @Mutation(() => AppUser)
+  async addTrackingCategory(@Args("data") data: UpdateTrackingCategoryInput) {
+    const user = await this.usersService.findUserByEmail(data.email);
+    const categories = user.trackingCategories;
+    const newTrackings = [...categories, data.categoryId];
+    return await this.prisma.appUser.update({
+      data: { trackingCategories: newTrackings },
+      where: {
+        email: data.email,
+      },
+    });
+  }
+
+  @Mutation(() => AppUser)
+  async toggleHideFoundSetting(@Args("data") data: UpdateHideFoundInput) {
+    return await this.prisma.appUser.update({
+      data: { hideFound: data.hide },
+      where: {
+        email: data.email,
+      },
+    });
+  }
+
+  @Mutation(() => AppUser)
+  async removeTrackingCategory(
+    @Args("data") data: UpdateTrackingCategoryInput
+  ) {
+    const user = await this.usersService.findUserByEmail(data.email);
+    const categories = user.trackingCategories;
+    const newTrackings = categories.filter(
+      (category) => category !== data.categoryId
+    );
+    return await this.prisma.appUser.update({
+      data: { trackingCategories: newTrackings },
       where: {
         email: data.email,
       },

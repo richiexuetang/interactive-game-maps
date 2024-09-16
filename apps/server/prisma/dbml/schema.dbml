@@ -12,6 +12,8 @@ Table AppUser {
   photoUrl String
   foundLocations Int[] [not null]
   username String
+  trackingCategories Int[] [not null]
+  hideFound Boolean [not null, default: false]
 }
 
 Table Game {
@@ -59,7 +61,8 @@ Table MarkerCategory {
   info String
   locations MarkerLocation [not null]
   groupSlug String [not null]
-  MarkerGroup MarkerGroup [not null]
+  markerGroup MarkerGroup [not null]
+  appUserId String
 }
 
 Table MarkerLocation {

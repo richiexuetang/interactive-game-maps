@@ -1,6 +1,6 @@
 import { Region } from "@/__generated__/graphql";
 import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
-import { hideFoundAtom, showMarkerAtom } from "@/store/marker";
+import { showMarkerAtom } from "@/store/marker";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useAtom, useAtomValue } from "jotai";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
@@ -21,15 +21,14 @@ import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import { SelectChangeEvent } from "@mui/material/Select";
 import { useParams, useRouter } from "next/navigation";
-import {
-  currentGroupsAtom,
-  currentMarkersAtom,
-  currentRegionAtom,
-} from "@/store/map";
+import { currentGroupsAtom, currentMarkersAtom } from "@/store/map";
 import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import { cn } from "@/lib/utils";
+import { userAtom } from "@/store/auth";
+import { useMutation } from "@apollo/client";
+import { TOGGLE_HIDE_FOUND } from "@/lib/constants";
 
 interface MenuProps {
   regions: Region[];
@@ -52,15 +51,16 @@ export const Menu = ({ regions }: MenuProps) => {
   const params = useParams<{ slug: string }>();
   const [collapseMenu, setCollapseMenu] = useState(false);
   const groups = useAtomValue(currentGroupsAtom);
-  const currentRegion = useAtomValue(currentRegionAtom);
   const markers = useAtomValue(currentMarkersAtom);
 
   const router = useRouter();
   const gameSlug = useAtomValue(gameSlugAtom);
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
-  const [hideFound, setHideFound] = useAtom(hideFoundAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
   const [hiddenGroups, setHiddenGroups] = useAtom(hiddenGroupsAtom);
+  const [appUser, setAppUser] = useAtom(userAtom);
+
+  const [toggleHideFound] = useMutation(TOGGLE_HIDE_FOUND);
 
   const toggleShowMarker = () => {
     if (!showMarker) {
@@ -107,6 +107,16 @@ export const Menu = ({ regions }: MenuProps) => {
 
   const handleChange = (event: SelectChangeEvent) => {
     router.push(`/map/${event.target.value}`);
+  };
+
+  const handleHideFound = () => {
+    if (appUser?.email) {
+      const hide = !appUser.hideFound;
+      toggleHideFound({
+        variables: { data: { email: appUser.email, hide } },
+      });
+      setAppUser({ ...appUser, hideFound: hide });
+    }
   };
 
   return (
@@ -173,8 +183,8 @@ export const Menu = ({ regions }: MenuProps) => {
               <div className="flex gap-2 align-middle contents-center">
                 <Checkbox
                   id="showFoundCheckbox"
-                  checked={hideFound}
-                  onCheckedChange={() => setHideFound(!hideFound)}
+                  checked={appUser?.hideFound}
+                  onCheckedChange={handleHideFound}
                 />
                 <label htmlFor="showFoundCheckbox" className="-mt-1">
                   Hide Found

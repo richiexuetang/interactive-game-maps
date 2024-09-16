@@ -12,15 +12,17 @@ generator dbml {
 }
 
 model AppUser {
-  id             String   @id @default(cuid())
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
-  email          String   @unique
-  firstName      String?
-  lastName       String?
-  photoUrl       String?
-  foundLocations Int[]
-  username       String?
+  id                 String   @id @default(cuid())
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  email              String   @unique
+  firstName          String?
+  lastName           String?
+  photoUrl           String?
+  foundLocations     Int[]
+  username           String?
+  trackingCategories Int[]
+  hideFound          Boolean  @default(false)
 }
 
 model Game {
@@ -68,7 +70,8 @@ model MarkerCategory {
   info        String?
   locations   MarkerLocation[]
   groupSlug   String
-  MarkerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
+  markerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
+  appUserId   String?
 }
 
 model MarkerLocation {

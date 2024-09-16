@@ -21,7 +21,6 @@ import {
 } from "@/store/map";
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
-import data from "@/data/geo.json";
 import { useQuery } from "@apollo/client";
 import { GET_APP_USER } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
@@ -52,10 +51,9 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
 
   useEffect(() => {
     if (userData && !appUser) {
+      const data = userData?.getUser;
       setAppUser({
-        email: userData?.getUser?.email ?? "",
-        photoUrl: userData?.getUser?.photoURL ?? "",
-        foundLocations: userData?.getUser?.foundLocations,
+        ...data,
       });
     }
   }, [userData, appUser, setAppUser]);
@@ -116,10 +114,6 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
         <MarkerRenderer user={user!} />
         <MarkerSearch />
         <ProgressTracker />
-        <ReactLeaflet.GeoJSON
-          data={data as any}
-          style={{ color: "transparent", weight: 0, opacity: 0 }}
-        />
       </MapContainer>
       {user?.email && (
         <div className="z-[1000] absolute top-2 right-2">

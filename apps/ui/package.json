@@ -19,6 +19,7 @@
     "@emotion/styled": "^11.13.0",
     "@graphql-codegen/cli": "^5.0.2",
     "@graphql-tools/schema": "^10.0.6",
+    "@mui/icons-material": "^6.1.0",
     "@mui/material": "^6.1.0",
     "@mui/material-nextjs": "^6.1.0",
     "@radix-ui/react-avatar": "^1.1.0",

@@ -30,13 +30,14 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/constants";
 import { UserRecord } from "firebase-admin/auth";
-import { hideFoundAtom, triggeredMarkerIdAtom } from "@/store/marker";
+import { triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
 import { ZoomImage } from "../zoom-image";
 import { gameSlugAtom } from "@/store";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox/Checkbox";
+import { userAtom } from "@/store/auth";
 
 interface MarkerProps {
   marker: MarkerLocation;
@@ -72,7 +73,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
     }
   }, [id, triggeredMarkerId]);
 
-  const hideFound = useAtomValue(hideFoundAtom);
+  const appUser = useAtomValue(userAtom);
   const [markerFound, setMarkerFound] = useState(
     userData?.foundLocations?.includes(id)
   );
@@ -137,7 +138,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
     setMarkerFound(!markerFound);
   };
 
-  if (markerFound && hideFound) return null;
+  if (markerFound && appUser?.hideFound) return null;
 
   return (
     <RL.Marker

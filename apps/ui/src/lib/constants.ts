@@ -22,7 +22,10 @@ export const GET_APP_USER = gql(`
 query GetUser($email: String!) {
   getUser(email: $email) {
     email,
-    foundLocations
+    foundLocations,
+    hideFound,
+    trackingCategories,
+    photoUrl
   }
 }`);
 
@@ -40,6 +43,17 @@ export const CREATE_APP_USER = gql(
   `
 );
 
+export const TOGGLE_HIDE_FOUND = gql(
+  `
+mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
+  toggleHideFoundSetting(data: $data) {
+    hideFound
+    trackingCategories
+    email
+  }
+}
+`
+);
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {
