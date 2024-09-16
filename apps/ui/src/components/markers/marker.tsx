@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { useEffect, useRef, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "@/hooks";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
@@ -45,7 +45,7 @@ interface MarkerProps {
 
 export const Marker = ({ marker, user }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
-
+  const router = useRouter();
   const {
     id,
     title,
@@ -99,7 +99,10 @@ export const Marker = ({ marker, user }: MarkerProps) => {
   };
 
   const handleLogin = async () => {
-    await signInWithGoogle();
+    const ok = await signInWithGoogle();
+    if (ok) {
+      router.refresh();
+    }
   };
 
   useEffect(() => {
@@ -225,7 +228,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
                 className="uppercase"
                 onClick={handleLogin}
               >
-                Login to track found locations
+                Login to track progress
               </Button>
             )}
           </CardFooter>
