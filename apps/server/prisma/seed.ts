@@ -13,23 +13,13 @@ async function main() {
   await prisma.markerGroup.deleteMany({});
   await prisma.region.deleteMany({});
   await prisma.game.deleteMany({});
-  await prisma.subRegion.deleteMany({});
   await prisma.appUser.deleteMany({});
 
   await prisma.game.createMany({ data: games });
 
   for (let i = 0; i < regions.length; i++) {
     const region = regions[i];
-    const { subRegions = [], ...rest } = region;
-    const newRegion = await prisma.region.create({ data: rest });
-    if (subRegions?.length) {
-      for (let j = 0; j < subRegions.length; j++) {
-        const subRegion = subRegions[j];
-        await prisma.subRegion.create({
-          data: { parentRegionId: newRegion.id, ...subRegion },
-        });
-      }
-    }
+    await prisma.region.create({ data: region });
   }
 
   await prisma.markerGroup.createMany({ data: markerGroups });
@@ -39,7 +29,7 @@ async function main() {
     const { locations, ...rest } = category;
     const icon = categoryLocations[i].title?.toLowerCase().replaceAll(" ", "_");
     const newCategory = await prisma.markerCategory.create({
-      data: { ...rest, icon: icon, template: "", info: "" },
+      data: { ...rest, icon: icon },
     });
 
     for (let j = 0; j < locations.length; j++) {

@@ -128,29 +128,6 @@ export const FETCH_REGION_DETAILS = gql`
       tilePath
       title
       center
-      subRegions {
-        name
-        latitude
-        longitude
-      }
-    }
-  }
-`;
-
-export const LOGIN = gql`
-  mutation Login($data: LoginInput!) {
-    login(data: $data) {
-      accessToken
-      refreshToken
-      user {
-        email
-        firstName
-        lastName
-        role
-        locations {
-          title
-        }
-      }
     }
   }
 `;
@@ -169,11 +146,6 @@ export const FETCH_REGION_BY_GAME = gql`
       thumbnailUrl
       tilePath
       title
-      subRegions {
-        name
-        latitude
-        longitude
-      }
     }
   }
 `;

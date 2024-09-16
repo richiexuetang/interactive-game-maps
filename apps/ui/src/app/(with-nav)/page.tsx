@@ -1,7 +1,5 @@
-import Image from "next/image";
 import { FETCH_GAMES } from "@/lib/constants";
 import { getClient } from "@/lib/apollo-client";
-import Link from "next/link";
 import { ImageCard } from "@/components/image-card";
 
 export type Game = {

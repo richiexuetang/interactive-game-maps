@@ -15,7 +15,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 01_21_09",
-            fileName: "6e73b7d3-01e4-4208-9407-ff3d6e8e6de6.png",
             url: "https://media.mapgenie.io/storage/media/6e73b7d3-01e4-4208-9407-ff3d6e8e6de6.png",
             type: "image",
             mimeType: "image/png",
@@ -32,7 +31,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.26 - 23.05.12.35",
-            fileName: "51b83172-e92a-4eec-bd2c-4b6687cf4d76.png",
             url: "https://media.mapgenie.io/storage/media/51b83172-e92a-4eec-bd2c-4b6687cf4d76.png",
             type: "image",
             mimeType: "image/png",
@@ -55,7 +53,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_15_53",
-            fileName: "f42d46e0-f4fd-410c-85f2-6003f1d0e7c6.png",
             url: "https://media.mapgenie.io/storage/media/f42d46e0-f4fd-410c-85f2-6003f1d0e7c6.png",
             type: "image",
             mimeType: "image/png",
@@ -71,7 +68,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_32_14",
-            fileName: "80eca430-7795-4b50-9a0a-3633454c5b47.png",
             url: "https://media.mapgenie.io/storage/media/80eca430-7795-4b50-9a0a-3633454c5b47.png",
             type: "image",
             mimeType: "image/png",
@@ -88,7 +84,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.28 - 23.23.22.98",
-            fileName: "e56278b4-8932-4803-91af-87206d6d560e.png",
             url: "https://media.mapgenie.io/storage/media/e56278b4-8932-4803-91af-87206d6d560e.png",
             type: "image",
             mimeType: "image/png",
@@ -118,7 +113,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.29 - 00.11.03.33",
-            fileName: "c41250d6-45ea-4b84-b072-03dd214f08de.png",
             url: "https://media.mapgenie.io/storage/media/c41250d6-45ea-4b84-b072-03dd214f08de.png",
             type: "image",
             mimeType: "image/png",
@@ -149,7 +143,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 18_49_19",
-            fileName: "f92f27d3-7183-4107-85ea-44d51d6c7577.png",
             url: "https://media.mapgenie.io/storage/media/f92f27d3-7183-4107-85ea-44d51d6c7577.png",
             type: "image",
             mimeType: "image/png",
@@ -172,7 +165,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 19_17_39",
-            fileName: "38d9726d-6707-4962-a737-6188c2cc9efe.png",
             url: "https://media.mapgenie.io/storage/media/38d9726d-6707-4962-a737-6188c2cc9efe.png",
             type: "image",
             mimeType: "image/png",
@@ -187,7 +179,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "524177c5-9d92-4d92-828c-8a2e2ca1390a.png",
             url: "https://media.mapgenie.io/storage/media/524177c5-9d92-4d92-828c-8a2e2ca1390a.png",
             type: "image",
             mimeType: "image/png",
@@ -210,7 +201,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "40fbfe76-f4f2-4479-938f-601f919dd868.png",
             url: "https://media.mapgenie.io/storage/media/40fbfe76-f4f2-4479-938f-601f919dd868.png",
             type: "image",
             mimeType: "image/png",
@@ -238,7 +228,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_43_45",
-            fileName: "d3b65668-1419-4014-b9a8-a0814b045260.png",
             url: "https://media.mapgenie.io/storage/media/d3b65668-1419-4014-b9a8-a0814b045260.png",
             type: "image",
             mimeType: "image/png",
@@ -371,7 +360,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "44235387-7ab1-4924-8e22-052679d5bbf3.png",
             url: "https://media.mapgenie.io/storage/media/44235387-7ab1-4924-8e22-052679d5bbf3.png",
             type: "image",
             mimeType: "image/png",
@@ -709,6 +697,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     groupSlug: "bmw_locations",
     title: "Meditation Spot",
+    info: "*Meditation Spots unlock 1 free Skill Point. Finding all Meditation Spots awards the Scenic Seeker achievement*",
     locations: [
       {
         regionSlug: "chapter-1",
@@ -720,7 +709,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7d7378a1-8f2b-4594-842f-5363dcfbcb12.jpg",
             url: "https://media.mapgenie.io/storage/media/7d7378a1-8f2b-4594-842f-5363dcfbcb12.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -735,7 +723,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "36f87e28-b836-4d56-8095-71cbc9509cfa.jpg",
             url: "https://media.mapgenie.io/storage/media/36f87e28-b836-4d56-8095-71cbc9509cfa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -752,7 +739,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f6724c0e-98a8-4111-8c18-0c1876430620.jpg",
             url: "https://media.mapgenie.io/storage/media/f6724c0e-98a8-4111-8c18-0c1876430620.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -775,7 +761,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5a2b04d-6b45-4aca-bf98-89eb9ebb84dd.jpg",
             url: "https://media.mapgenie.io/storage/media/e5a2b04d-6b45-4aca-bf98-89eb9ebb84dd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -790,7 +775,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "20dcd69d-ab99-4ce4-a625-d29e35535601.png",
             url: "https://media.mapgenie.io/storage/media/20dcd69d-ab99-4ce4-a625-d29e35535601.png",
             type: "image",
             mimeType: "image/png",
@@ -806,7 +790,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_44_27",
-            fileName: "44266fb1-e693-4a79-9d62-f7f1d20f03f5.png",
             url: "https://media.mapgenie.io/storage/media/44266fb1-e693-4a79-9d62-f7f1d20f03f5.png",
             type: "image",
             mimeType: "image/png",
@@ -821,7 +804,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 23_32_28",
-            fileName: "6299033e-d104-4590-9cb5-24149d826bdd.png",
             url: "https://media.mapgenie.io/storage/media/6299033e-d104-4590-9cb5-24149d826bdd.png",
             type: "image",
             mimeType: "image/png",
@@ -843,7 +825,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "29be05e7-9dcc-4ce2-8cf0-393a41541fda.jpg",
             url: "https://media.mapgenie.io/storage/media/29be05e7-9dcc-4ce2-8cf0-393a41541fda.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -1032,7 +1013,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3b0d4ee0-2885-4b3d-b212-9d8e6de5d61e.jpg",
             url: "https://media.mapgenie.io/storage/media/3b0d4ee0-2885-4b3d-b212-9d8e6de5d61e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -1047,7 +1027,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ecaae64c-d469-43d6-a020-28184541460b.jpg",
             url: "https://media.mapgenie.io/storage/media/ecaae64c-d469-43d6-a020-28184541460b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -1124,7 +1103,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         description: "从此进入紫云山",
         regionSlug: "04_ziyunshan",
-        title: "隐·紫云山-starting point",
+        title: "Purple Cloud Mountain Starting point",
         longitude: -1.2171718572897703,
         latitude: 0.15448951230902708,
       },
@@ -1173,7 +1152,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.29 - 00.08.31.23",
-            fileName: "230637da-b40a-4706-9e91-472a166a6b3b.png",
             url: "https://media.mapgenie.io/storage/media/230637da-b40a-4706-9e91-472a166a6b3b.png",
             type: "image",
             mimeType: "image/png",
@@ -1190,14 +1168,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 18_51_32",
-            fileName: "9dcaaab0-25a3-40c2-ae39-2593345bc585.png",
             url: "https://media.mapgenie.io/storage/media/9dcaaab0-25a3-40c2-ae39-2593345bc585.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "b1   30_08_2024 18_53_37",
-            fileName: "abff83ea-1b41-44a0-92da-e47573d66155.png",
             url: "https://media.mapgenie.io/storage/media/abff83ea-1b41-44a0-92da-e47573d66155.png",
             type: "image",
             mimeType: "image/png",
@@ -1258,7 +1234,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "acc39ee7-68d0-4a19-b6f2-eb8dc0353402.jpg",
             url: "https://media.mapgenie.io/storage/media/acc39ee7-68d0-4a19-b6f2-eb8dc0353402.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -1275,7 +1250,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.28 - 23.35.49.99",
-            fileName: "23e6194c-7004-4fe8-9672-9c5cc2b3f1bc.png",
             url: "https://media.mapgenie.io/storage/media/23e6194c-7004-4fe8-9672-9c5cc2b3f1bc.png",
             type: "image",
             mimeType: "image/png",
@@ -1291,7 +1265,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.29 - 00.18.49.82",
-            fileName: "1b6d7da2-62a5-47a8-b524-768293c396d7.png",
             url: "https://media.mapgenie.io/storage/media/1b6d7da2-62a5-47a8-b524-768293c396d7.png",
             type: "image",
             mimeType: "image/png",
@@ -1308,7 +1281,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 19_15_30",
-            fileName: "84dfd528-a34b-4608-ab34-b8bab5820dca.png",
             url: "https://media.mapgenie.io/storage/media/84dfd528-a34b-4608-ab34-b8bab5820dca.png",
             type: "image",
             mimeType: "image/png",
@@ -1323,7 +1295,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "33472d0e-b647-477f-9c2f-217f389cb940.png",
             url: "https://media.mapgenie.io/storage/media/33472d0e-b647-477f-9c2f-217f389cb940.png",
             type: "image",
             mimeType: "image/jpeg",
@@ -1346,7 +1317,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1a6b18d0-ad25-4033-a9b8-2f39ab93174b.jpg",
             url: "https://media.mapgenie.io/storage/media/1a6b18d0-ad25-4033-a9b8-2f39ab93174b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -1368,7 +1338,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3f03484c-83ed-4b0a-b0df-35d3823f23d3.png",
             url: "https://media.mapgenie.io/storage/media/3f03484c-83ed-4b0a-b0df-35d3823f23d3.png",
             type: "image",
             mimeType: "image/png",
@@ -1629,7 +1598,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "562ffd49-6625-4f27-b808-406e93d66b04.jpg",
             url: "https://media.mapgenie.io/storage/media/562ffd49-6625-4f27-b808-406e93d66b04.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -1662,7 +1630,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_41_15",
-            fileName: "4e091cac-d890-4c58-9cf5-3a63bf03eea3.png",
             url: "https://media.mapgenie.io/storage/media/4e091cac-d890-4c58-9cf5-3a63bf03eea3.png",
             type: "image",
             mimeType: "image/png",
@@ -1687,7 +1654,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_42_56",
-            fileName: "084a1d7a-2329-4ba4-87d1-951051734953.png",
             url: "https://media.mapgenie.io/storage/media/084a1d7a-2329-4ba4-87d1-951051734953.png",
             type: "image",
             mimeType: "image/png",
@@ -1704,7 +1670,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_56_21",
-            fileName: "843095ba-1f99-4301-aaf3-ab65838186cf.png",
             url: "https://media.mapgenie.io/storage/media/843095ba-1f99-4301-aaf3-ab65838186cf.png",
             type: "image",
             mimeType: "image/png",
@@ -1721,7 +1686,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_03_07",
-            fileName: "402914cb-c3d7-4b89-9f38-054b84ae4317.png",
             url: "https://media.mapgenie.io/storage/media/402914cb-c3d7-4b89-9f38-054b84ae4317.png",
             type: "image",
             mimeType: "image/png",
@@ -1737,7 +1701,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_23_11",
-            fileName: "557a6778-3b09-4882-a723-a0e0160b05c8.png",
             url: "https://media.mapgenie.io/storage/media/557a6778-3b09-4882-a723-a0e0160b05c8.png",
             type: "image",
             mimeType: "image/png",
@@ -1754,7 +1717,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_33_03",
-            fileName: "20dd1347-cd8e-4c64-9152-1f3ab2e7501a.png",
             url: "https://media.mapgenie.io/storage/media/20dd1347-cd8e-4c64-9152-1f3ab2e7501a.png",
             type: "image",
             mimeType: "image/png",
@@ -1779,14 +1741,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_46_57",
-            fileName: "1b130869-633c-474f-8093-730911144195.png",
             url: "https://media.mapgenie.io/storage/media/1b130869-633c-474f-8093-730911144195.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "b1   30_08_2024 22_47_49",
-            fileName: "d69171bc-38d2-4bfb-8999-c9bbfe748d2e.png",
             url: "https://media.mapgenie.io/storage/media/d69171bc-38d2-4bfb-8999-c9bbfe748d2e.png",
             type: "image",
             mimeType: "image/png",
@@ -1870,7 +1830,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df91aeb1-dd31-4ad9-9e05-598d1a6819c0.png",
             url: "https://media.mapgenie.io/storage/media/df91aeb1-dd31-4ad9-9e05-598d1a6819c0.png",
             type: "image",
             mimeType: "image/png",
@@ -1996,7 +1955,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "478a224d-fdbd-4865-99c4-7ba0dfd99168.jpg",
             url: "https://media.mapgenie.io/storage/media/478a224d-fdbd-4865-99c4-7ba0dfd99168.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2127,7 +2085,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "478a224d-fdbd-4865-99c4-7ba0dfd99168.jpg",
             url: "https://media.mapgenie.io/storage/media/478a224d-fdbd-4865-99c4-7ba0dfd99168.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2219,7 +2176,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 18_47_13",
-            fileName: "491ed4b8-e6fc-4e8b-b651-67618a7d3bac.png",
             url: "https://media.mapgenie.io/storage/media/491ed4b8-e6fc-4e8b-b651-67618a7d3bac.png",
             type: "image",
             mimeType: "image/png",
@@ -2268,7 +2224,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 19_12_01",
-            fileName: "d56e9c58-2137-4bb2-ab0c-318d26985c48.png",
             url: "https://media.mapgenie.io/storage/media/d56e9c58-2137-4bb2-ab0c-318d26985c48.png",
             type: "image",
             mimeType: "image/png",
@@ -2285,7 +2240,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_40_01",
-            fileName: "4620ea04-bab1-448a-a631-707d2a01a7f6.png",
             url: "https://media.mapgenie.io/storage/media/4620ea04-bab1-448a-a631-707d2a01a7f6.png",
             type: "image",
             mimeType: "image/png",
@@ -2302,7 +2256,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 23_21_30",
-            fileName: "0ecc5d81-7180-466c-babe-b9c7f80e8359.png",
             url: "https://media.mapgenie.io/storage/media/0ecc5d81-7180-466c-babe-b9c7f80e8359.png",
             type: "image",
             mimeType: "image/png",
@@ -2653,7 +2606,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_18_59",
-            fileName: "4e369043-efeb-43f0-b0c1-83dc7a7e0c2f.png",
             url: "https://media.mapgenie.io/storage/media/4e369043-efeb-43f0-b0c1-83dc7a7e0c2f.png",
             type: "image",
             mimeType: "image/png",
@@ -2669,7 +2621,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_30_49",
-            fileName: "6470293d-a98d-4e8e-aed4-ed2b1cf3feb0.png",
             url: "https://media.mapgenie.io/storage/media/6470293d-a98d-4e8e-aed4-ed2b1cf3feb0.png",
             type: "image",
             mimeType: "image/png",
@@ -2685,7 +2636,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_36_39",
-            fileName: "d8bf5e1b-ec36-4289-99a0-d0a4d58732a3.png",
             url: "https://media.mapgenie.io/storage/media/d8bf5e1b-ec36-4289-99a0-d0a4d58732a3.png",
             type: "image",
             mimeType: "image/png",
@@ -2710,7 +2660,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73b297ed-a43c-446a-9bf5-d9cdfac063d8.jpg",
             url: "https://media.mapgenie.io/storage/media/73b297ed-a43c-446a-9bf5-d9cdfac063d8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2727,7 +2676,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   27_08_2024 23_31_25",
-            fileName: "51e30b7b-a428-4866-b23e-224ad1038037.png",
             url: "https://media.mapgenie.io/storage/media/51e30b7b-a428-4866-b23e-224ad1038037.png",
             type: "image",
             mimeType: "image/png",
@@ -2743,7 +2691,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.29 - 00.15.36.78",
-            fileName: "ea51183b-23f1-4280-9c67-67ce203c87ae.png",
             url: "https://media.mapgenie.io/storage/media/ea51183b-23f1-4280-9c67-67ce203c87ae.png",
             type: "image",
             mimeType: "image/png",
@@ -2760,7 +2707,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.28 - 23.24.56.08",
-            fileName: "3350e237-d2b7-4111-b228-9925aad57c99.png",
             url: "https://media.mapgenie.io/storage/media/3350e237-d2b7-4111-b228-9925aad57c99.png",
             type: "image",
             mimeType: "image/png",
@@ -2777,7 +2723,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.28 - 23.26.38.84",
-            fileName: "7d895765-4902-42dd-b484-526715d7e974.png",
             url: "https://media.mapgenie.io/storage/media/7d895765-4902-42dd-b484-526715d7e974.png",
             type: "image",
             mimeType: "image/png",
@@ -2801,7 +2746,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_24_37",
-            fileName: "90013fb3-2f2c-44b3-86a7-7172d323c681.png",
             url: "https://media.mapgenie.io/storage/media/90013fb3-2f2c-44b3-86a7-7172d323c681.png",
             type: "image",
             mimeType: "image/png",
@@ -2825,7 +2769,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_43_34",
-            fileName: "fbc40b78-3d6a-4802-a76a-d06b7d14d540.png",
             url: "https://media.mapgenie.io/storage/media/fbc40b78-3d6a-4802-a76a-d06b7d14d540.png",
             type: "image",
             mimeType: "image/png",
@@ -2842,7 +2785,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_03_51",
-            fileName: "3bb9e75a-0241-46ca-9167-9fc291a3039a.png",
             url: "https://media.mapgenie.io/storage/media/3bb9e75a-0241-46ca-9167-9fc291a3039a.png",
             type: "image",
             mimeType: "image/png",
@@ -2859,7 +2801,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_57_09",
-            fileName: "2f1656c6-78d5-4727-b943-06a394f2dd3b.png",
             url: "https://media.mapgenie.io/storage/media/2f1656c6-78d5-4727-b943-06a394f2dd3b.png",
             type: "image",
             mimeType: "image/png",
@@ -2876,7 +2817,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_00_14",
-            fileName: "bb58cd9b-d84a-4301-b232-32545afac222.png",
             url: "https://media.mapgenie.io/storage/media/bb58cd9b-d84a-4301-b232-32545afac222.png",
             type: "image",
             mimeType: "image/png",
@@ -2892,7 +2832,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_04_10",
-            fileName: "5b14b49a-e3ed-4560-a885-ba650e6810ce.png",
             url: "https://media.mapgenie.io/storage/media/5b14b49a-e3ed-4560-a885-ba650e6810ce.png",
             type: "image",
             mimeType: "image/png",
@@ -2908,7 +2847,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_05_47",
-            fileName: "121beedb-d815-4288-83d6-37c3c175f232.png",
             url: "https://media.mapgenie.io/storage/media/121beedb-d815-4288-83d6-37c3c175f232.png",
             type: "image",
             mimeType: "image/png",
@@ -2954,7 +2892,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "351b4d76-ee6f-4fa7-bc8f-52e5305a0c29.png",
             url: "https://media.mapgenie.io/storage/media/351b4d76-ee6f-4fa7-bc8f-52e5305a0c29.png",
             type: "image",
             mimeType: "image/jpeg",
@@ -3007,7 +2944,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b7c92d5d-8e3b-4a26-9ac5-7f87216e3255.jpg",
             url: "https://media.mapgenie.io/storage/media/b7c92d5d-8e3b-4a26-9ac5-7f87216e3255.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3023,7 +2959,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd6f2415-d2cf-400c-ac93-790db3bc9f76.jpg",
             url: "https://media.mapgenie.io/storage/media/fd6f2415-d2cf-400c-ac93-790db3bc9f76.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3039,7 +2974,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "868ba4b2-8de4-48bc-99be-d4d20ab2d09a.jpg",
             url: "https://media.mapgenie.io/storage/media/868ba4b2-8de4-48bc-99be-d4d20ab2d09a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3115,7 +3049,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4ba65232-5ff8-4c98-8cfe-9dc225f73465.jpg",
             url: "https://media.mapgenie.io/storage/media/4ba65232-5ff8-4c98-8cfe-9dc225f73465.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3131,7 +3064,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3eeaa96e-b223-47b9-98f5-cc3e7c2479b2.jpeg",
             url: "https://media.mapgenie.io/storage/media/3eeaa96e-b223-47b9-98f5-cc3e7c2479b2.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3175,7 +3107,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d58da380-96de-4ef5-b0cb-4c007f8dacdf.jpeg",
             url: "https://media.mapgenie.io/storage/media/d58da380-96de-4ef5-b0cb-4c007f8dacdf.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3196,7 +3127,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a6e5b6ec-7118-4a92-bf71-c53d9d283bde.png",
             url: "https://media.mapgenie.io/storage/media/a6e5b6ec-7118-4a92-bf71-c53d9d283bde.png",
             type: "image",
             mimeType: "image/jpeg",
@@ -3239,7 +3169,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9d639022-64b7-48fc-8634-902962d4e050.jpg",
             url: "https://media.mapgenie.io/storage/media/9d639022-64b7-48fc-8634-902962d4e050.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3254,7 +3183,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "82a705b9-cf28-4ba4-882e-648efb5aa1a1.jpg",
             url: "https://media.mapgenie.io/storage/media/82a705b9-cf28-4ba4-882e-648efb5aa1a1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3748,7 +3676,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b7c92d5d-8e3b-4a26-9ac5-7f87216e3255.jpg",
             url: "https://media.mapgenie.io/storage/media/b7c92d5d-8e3b-4a26-9ac5-7f87216e3255.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3764,7 +3691,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd6f2415-d2cf-400c-ac93-790db3bc9f76.jpg",
             url: "https://media.mapgenie.io/storage/media/fd6f2415-d2cf-400c-ac93-790db3bc9f76.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3779,7 +3705,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "868ba4b2-8de4-48bc-99be-d4d20ab2d09a.jpg",
             url: "https://media.mapgenie.io/storage/media/868ba4b2-8de4-48bc-99be-d4d20ab2d09a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3853,7 +3778,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4ba65232-5ff8-4c98-8cfe-9dc225f73465.jpg",
             url: "https://media.mapgenie.io/storage/media/4ba65232-5ff8-4c98-8cfe-9dc225f73465.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3869,7 +3793,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3eeaa96e-b223-47b9-98f5-cc3e7c2479b2.jpeg",
             url: "https://media.mapgenie.io/storage/media/3eeaa96e-b223-47b9-98f5-cc3e7c2479b2.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -3920,7 +3843,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_24_37",
-            fileName: "90013fb3-2f2c-44b3-86a7-7172d323c681.png",
             url: "https://media.mapgenie.io/storage/media/90013fb3-2f2c-44b3-86a7-7172d323c681.png",
             type: "image",
             mimeType: "image/png",
@@ -3944,7 +3866,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_43_34",
-            fileName: "fbc40b78-3d6a-4802-a76a-d06b7d14d540.png",
             url: "https://media.mapgenie.io/storage/media/fbc40b78-3d6a-4802-a76a-d06b7d14d540.png",
             type: "image",
             mimeType: "image/png",
@@ -3961,7 +3882,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_03_51",
-            fileName: "3bb9e75a-0241-46ca-9167-9fc291a3039a.png",
             url: "https://media.mapgenie.io/storage/media/3bb9e75a-0241-46ca-9167-9fc291a3039a.png",
             type: "image",
             mimeType: "image/png",
@@ -3978,7 +3898,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_57_09",
-            fileName: "2f1656c6-78d5-4727-b943-06a394f2dd3b.png",
             url: "https://media.mapgenie.io/storage/media/2f1656c6-78d5-4727-b943-06a394f2dd3b.png",
             type: "image",
             mimeType: "image/png",
@@ -3995,7 +3914,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_00_14",
-            fileName: "bb58cd9b-d84a-4301-b232-32545afac222.png",
             url: "https://media.mapgenie.io/storage/media/bb58cd9b-d84a-4301-b232-32545afac222.png",
             type: "image",
             mimeType: "image/png",
@@ -4011,7 +3929,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_04_10",
-            fileName: "5b14b49a-e3ed-4560-a885-ba650e6810ce.png",
             url: "https://media.mapgenie.io/storage/media/5b14b49a-e3ed-4560-a885-ba650e6810ce.png",
             type: "image",
             mimeType: "image/png",
@@ -4027,7 +3944,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_05_47",
-            fileName: "121beedb-d815-4288-83d6-37c3c175f232.png",
             url: "https://media.mapgenie.io/storage/media/121beedb-d815-4288-83d6-37c3c175f232.png",
             type: "image",
             mimeType: "image/png",
@@ -4080,7 +3996,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "351b4d76-ee6f-4fa7-bc8f-52e5305a0c29.png",
             url: "https://media.mapgenie.io/storage/media/351b4d76-ee6f-4fa7-bc8f-52e5305a0c29.png",
             type: "image",
             mimeType: "image/jpeg",
@@ -4330,7 +4245,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_01_12",
-            fileName: "9ecc67f3-19ed-4dfe-80c1-7cfb7ea707fa.png",
             url: "https://media.mapgenie.io/storage/media/9ecc67f3-19ed-4dfe-80c1-7cfb7ea707fa.png",
             type: "image",
             mimeType: "image/png",
@@ -4354,7 +4268,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_12_11",
-            fileName: "18414896-4962-4e6e-8154-c0f98d6cd7ec.png",
             url: "https://media.mapgenie.io/storage/media/18414896-4962-4e6e-8154-c0f98d6cd7ec.png",
             type: "image",
             mimeType: "image/png",
@@ -4405,7 +4318,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_07_32",
-            fileName: "be338749-15ae-4d33-a653-5020a3778322.png",
             url: "https://media.mapgenie.io/storage/media/be338749-15ae-4d33-a653-5020a3778322.png",
             type: "image",
             mimeType: "image/png",
@@ -4427,7 +4339,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_40_05",
-            fileName: "299bd94b-3b49-4f57-8e58-500cc7c4ea63.png",
             url: "https://media.mapgenie.io/storage/media/299bd94b-3b49-4f57-8e58-500cc7c4ea63.png",
             type: "image",
             mimeType: "image/png",
@@ -4443,7 +4354,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_10_42",
-            fileName: "567aff37-7d97-4bf9-b944-489e706cf0d2.png",
             url: "https://media.mapgenie.io/storage/media/567aff37-7d97-4bf9-b944-489e706cf0d2.png",
             type: "image",
             mimeType: "image/png",
@@ -4459,7 +4369,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_29_45",
-            fileName: "f5244bdc-9326-4674-8c5f-f09b37cc982c.png",
             url: "https://media.mapgenie.io/storage/media/f5244bdc-9326-4674-8c5f-f09b37cc982c.png",
             type: "image",
             mimeType: "image/png",
@@ -4577,7 +4486,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.28 - 23.25.40.100",
-            fileName: "58b40244-b0ee-4c34-ae31-4b2a209d0ffd.png",
             url: "https://media.mapgenie.io/storage/media/58b40244-b0ee-4c34-ae31-4b2a209d0ffd.png",
             type: "image",
             mimeType: "image/png",
@@ -4704,7 +4612,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B1 Screenshot 2024.08.29 - 00.09.39.05",
-            fileName: "a3c846d8-d682-47a8-b9cd-7e3f719f497d.png",
             url: "https://media.mapgenie.io/storage/media/a3c846d8-d682-47a8-b9cd-7e3f719f497d.png",
             type: "image",
             mimeType: "image/png",
@@ -4777,7 +4684,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a996ef5c-43be-42ef-93fa-8b3b5b3821d0.jpeg",
             url: "https://media.mapgenie.io/storage/media/a996ef5c-43be-42ef-93fa-8b3b5b3821d0.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4963,7 +4869,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_02_27",
-            fileName: "d3bda50e-6467-46d7-9644-f13f6c3fd481.png",
             url: "https://media.mapgenie.io/storage/media/d3bda50e-6467-46d7-9644-f13f6c3fd481.png",
             type: "image",
             mimeType: "image/png",
@@ -5205,7 +5110,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_31_08",
-            fileName: "d015841e-0b83-4864-8848-6e7edcf1e3d9.png",
             url: "https://media.mapgenie.io/storage/media/d015841e-0b83-4864-8848-6e7edcf1e3d9.png",
             type: "image",
             mimeType: "image/png",
@@ -5223,7 +5127,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 23_14_32",
-            fileName: "2e6947ce-1341-4334-8caf-fd309e23fa5a.png",
             url: "https://media.mapgenie.io/storage/media/2e6947ce-1341-4334-8caf-fd309e23fa5a.png",
             type: "image",
             mimeType: "image/png",
@@ -5314,7 +5217,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d7ccf072-211e-445b-84d9-3ab38eb0f1b7.jpg",
             url: "https://media.mapgenie.io/storage/media/d7ccf072-211e-445b-84d9-3ab38eb0f1b7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6319,7 +6221,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e717affc-98f4-4491-a40e-f606e5ff01ab.jpeg",
             url: "https://media.mapgenie.io/storage/media/e717affc-98f4-4491-a40e-f606e5ff01ab.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6711,7 +6612,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73f33cf3-970c-4f5d-9b92-f647ac054646.jpg",
             url: "https://media.mapgenie.io/storage/media/73f33cf3-970c-4f5d-9b92-f647ac054646.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6738,7 +6638,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   27_08_2024 23_39_52",
-            fileName: "20442328-b85c-4a78-90ab-b0d0f490d8d5.png",
             url: "https://media.mapgenie.io/storage/media/20442328-b85c-4a78-90ab-b0d0f490d8d5.png",
             type: "image",
             mimeType: "image/png",
@@ -6819,7 +6718,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_41_14",
-            fileName: "ed09a790-cb21-4415-997d-3910a559c00b.png",
             url: "https://media.mapgenie.io/storage/media/ed09a790-cb21-4415-997d-3910a559c00b.png",
             type: "image",
             mimeType: "image/png",
@@ -6837,7 +6735,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_54_42",
-            fileName: "08269884-7063-469b-83df-8ab577601b81.png",
             url: "https://media.mapgenie.io/storage/media/08269884-7063-469b-83df-8ab577601b81.png",
             type: "image",
             mimeType: "image/png",
@@ -7246,7 +7143,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7b5b151c-aa15-48a0-b90d-1141b109cead.jpg",
             url: "https://media.mapgenie.io/storage/media/7b5b151c-aa15-48a0-b90d-1141b109cead.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7264,7 +7160,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3d060490-4d9f-4997-8cbd-1caee8b372ef.jpg",
             url: "https://media.mapgenie.io/storage/media/3d060490-4d9f-4997-8cbd-1caee8b372ef.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7300,7 +7195,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "33699d16-5feb-48aa-859b-5604e02f8462.jpg",
             url: "https://media.mapgenie.io/storage/media/33699d16-5feb-48aa-859b-5604e02f8462.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7336,7 +7230,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_46_18",
-            fileName: "fd1ced57-5959-4336-a062-93aa553e5091.png",
             url: "https://media.mapgenie.io/storage/media/fd1ced57-5959-4336-a062-93aa553e5091.png",
             type: "image",
             mimeType: "image/png",
@@ -7354,7 +7247,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_35_19",
-            fileName: "fe1c2ab6-6b5b-4145-ab10-c3355cb07d9e.png",
             url: "https://media.mapgenie.io/storage/media/fe1c2ab6-6b5b-4145-ab10-c3355cb07d9e.png",
             type: "image",
             mimeType: "image/png",
@@ -7408,7 +7300,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "10594f4c-235f-4656-af3e-e76b6e2951b0.jpeg",
             url: "https://media.mapgenie.io/storage/media/10594f4c-235f-4656-af3e-e76b6e2951b0.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7444,7 +7335,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f4ba339a-825f-4f61-b645-b3c80a0b38ee.jpg",
             url: "https://media.mapgenie.io/storage/media/f4ba339a-825f-4f61-b645-b3c80a0b38ee.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7574,7 +7464,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_35_01",
-            fileName: "c658aeff-4a2b-4f68-9d07-64e094a1b9a8.png",
             url: "https://lh3.googleusercontent.com/9t3JW2L8AwKgixbiqls60Ci8ptQJKJ3kvfDwM1qSSVtODuTdq4KUqoiAj-aj-qu4t72QmNfB5esSHqwl8R6EST0LNeRVlWTLOO4aJhUwo7ko8j8=s0",
             type: "image",
             mimeType: "image/png",
@@ -7628,7 +7517,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   28_08_2024 00_07_34",
-            fileName: "4871358e-29a1-4394-9bfd-f3c32268c75a.png",
             url: "https://media.mapgenie.io/storage/media/4871358e-29a1-4394-9bfd-f3c32268c75a.png",
             type: "image",
             mimeType: "image/png",
@@ -7655,7 +7543,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d855bc0f-d243-4eae-96ca-a44db1ff0e6e.jpg",
             url: "https://media.mapgenie.io/storage/media/d855bc0f-d243-4eae-96ca-a44db1ff0e6e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7682,7 +7569,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 22_50_26",
-            fileName: "bd8fa5bb-4507-4ea0-8ba6-29a521acb048.png",
             url: "https://media.mapgenie.io/storage/media/bd8fa5bb-4507-4ea0-8ba6-29a521acb048.png",
             type: "image",
             mimeType: "image/png",
@@ -7700,14 +7586,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 20_35_01",
-            fileName: "c658aeff-4a2b-4f68-9d07-64e094a1b9a8.png",
             url: "https://media.mapgenie.io/storage/media/c658aeff-4a2b-4f68-9d07-64e094a1b9a8.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "b1   30_08_2024 20_40_49",
-            fileName: "7fea91c8-84d0-48ee-b3dc-083a7742696e.png",
             url: "https://media.mapgenie.io/storage/media/7fea91c8-84d0-48ee-b3dc-083a7742696e.png",
             type: "image",
             mimeType: "image/png",
@@ -7725,7 +7609,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 23_14_32",
-            fileName: "2e6947ce-1341-4334-8caf-fd309e23fa5a.png",
             url: "https://media.mapgenie.io/storage/media/2e6947ce-1341-4334-8caf-fd309e23fa5a.png",
             type: "image",
             mimeType: "image/png",
@@ -7957,7 +7840,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_13_05",
-            fileName: "7a2e69c6-24a2-4f94-8b91-7b74b483e605.png",
             url: "https://media.mapgenie.io/storage/media/7a2e69c6-24a2-4f94-8b91-7b74b483e605.png",
             type: "image",
             mimeType: "image/png",
@@ -8319,7 +8201,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         description: "又来惩罚喜欢采集的猴了",
         regionSlug: "04_huanghuaguan",
-        title: " 葛蕈精",
+        title: "Verdant Glow",
         longitude: -0.6692955655691151,
         latitude: 0.37080670751701916,
       },
@@ -8342,7 +8224,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         description: "估计是这个,找不到的注意一下就在路边",
         regionSlug: "04_huanghuaguan",
-        title: "葛蕈精",
+        title: "Verdant Glow",
         longitude: -0.8932944861776093,
         latitude: 0.48069986259184816,
       },
@@ -8377,9 +8259,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: 0.36911415592392416,
       },
       {
-        description: " 需要完成黑手道人支线 ",
+        description: "需要完成黑手道人支线 ",
         regionSlug: "04_huanghuaguan",
-        title: "紫云山入口",
+        title: "Purple cloud mountain entrance",
         longitude: -0.4940130758852206,
         latitude: 1.007949338217415,
       },
@@ -8398,16 +8280,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 彩玉葫芦需要先击杀毒敌大王获得,直接打晦月魔君逃课是没有的。  补充:好像只要把毒敌大王骗下来了,Chest里会换成葫芦,然后你可以逃课它不打,直接找<span style="font-family: var(--van-base-font);">晦月魔君,它就来送了。</span> ',
+          "彩玉葫芦需要先击杀毒敌大王获得,直接打晦月魔君逃课是没有的。  补充:好像只要把毒敌大王骗下来了,Chest里会换成葫芦,然后你可以逃课它不打,直接找<span>晦月魔君,它就来送了。</span> ",
         regionSlug: "04_ziyunshan",
-        title: "Chest里是丹药",
+        title: "Chest has 丹药",
         longitude: -0.5118310303624867,
         latitude: 0.41125302237816186,
       },
       {
-        description: "又来骚扰爱收集的天命人了",
+        description: "Once again, harrasing the destined one",
         regionSlug: "04_ziyunshan",
-        title: "葛蕈精",
+        title: "Verdant Glow",
         longitude: -0.9061646201645033,
         latitude: 0.4110002402274091,
       },
@@ -8747,15 +8629,18 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-        title: "Keeper of Black Wind Mountain",
-        latitude: "0.68334036211387",
-        longitude: "-0.91454374961626",
-      },
-      {
-        regionSlug: "chapter-1",
         title: "Horse Guai",
+        description: "",
         latitude: "0.75142065659566",
         longitude: "-0.71358195101905",
+        media: [
+          {
+            title: "b1   28_08_2024 00_34_42",
+            url: "https://media.mapgenie.io/storage/media/2b6139a3-aa64-4aef-be5b-28cc61eb5d36.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
@@ -8815,7 +8700,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_20_18",
-            fileName: "d682622c-d4e2-424e-8801-6a6a70bbfefd.png",
             url: "https://media.mapgenie.io/storage/media/d682622c-d4e2-424e-8801-6a6a70bbfefd.png",
             type: "image",
             mimeType: "image/png",
@@ -8832,7 +8716,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_54_42",
-            fileName: "08269884-7063-469b-83df-8ab577601b81.png",
             url: "https://media.mapgenie.io/storage/media/08269884-7063-469b-83df-8ab577601b81.png",
             type: "image",
             mimeType: "image/png",
@@ -8849,7 +8732,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 23_30_50",
-            fileName: "c2ca4dcc-957e-4340-a035-667c403bb2a1.png",
             url: "https://media.mapgenie.io/storage/media/c2ca4dcc-957e-4340-a035-667c403bb2a1.png",
             type: "image",
             mimeType: "image/png",
@@ -8865,7 +8747,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a82a27ec-63e3-4e40-ab5f-5c2484e6c599.jpg",
             url: "https://media.mapgenie.io/storage/media/a82a27ec-63e3-4e40-ab5f-5c2484e6c599.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8882,7 +8763,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae8d1795-d965-4fed-a783-cd41bc1d8887.jpeg",
             url: "https://media.mapgenie.io/storage/media/ae8d1795-d965-4fed-a783-cd41bc1d8887.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9080,7 +8960,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 18_54_42",
-            fileName: "6f1f1644-f750-4530-bd0f-e22eea45acf9.png",
             url: "https://media.mapgenie.io/storage/media/6f1f1644-f750-4530-bd0f-e22eea45acf9.png",
             type: "image",
             mimeType: "image/png",
@@ -9181,7 +9060,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cd444331-f99d-47bd-bc8a-99b7196703be.jpeg",
             url: "https://media.mapgenie.io/storage/media/cd444331-f99d-47bd-bc8a-99b7196703be.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9218,7 +9096,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "b1   30_08_2024 21_04_33",
-            fileName: "85508de0-ccc7-47bf-98d6-1983cad904e2.png",
             url: "https://media.mapgenie.io/storage/media/85508de0-ccc7-47bf-98d6-1983cad904e2.png",
             type: "image",
             mimeType: "image/png",
@@ -9772,25 +9649,8 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     title: "Tree Pearl",
     groupSlug: "bmw_materials",
+    info: "*Grows on pearl trees, casting a luxurious glow. This can be used to make medicines.*",
     locations: [
-      {
-        regionSlug: "chapter-3",
-        title: "Tree Pearl",
-        latitude: "0.82301118996310",
-        longitude: "-0.57720439838758",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Tree Pearl",
-        latitude: "0.97050709964886",
-        longitude: "-0.69138707652161",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Tree Pearl",
-        latitude: "1.00076375223660",
-        longitude: "-0.71810995399750",
-      },
       {
         regionSlug: "chapter-3",
         title: "Tree Pearl",
@@ -9808,6 +9668,18 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Tree Pearl",
         latitude: "0.92673782204005",
         longitude: "-0.78873933664642",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Tree pearl",
+        latitude: "0.86095865783250",
+        longitude: "-0.52328479864150",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Tree Pearl",
+        latitude: "0.84281567958031",
+        longitude: "-0.53909601344910",
       },
       {
         regionSlug: "04_ziyunshan",
@@ -9842,509 +9714,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
     ],
   },
-  // {
-  //   groupSlug: "placeholder",
-  //   title: "Temp",
-  //   locations: [
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Keeper of Black Wind Mountain",
-  //       description:
-  //         "Appears after activating the [Front Hills](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397271) shrine",
-  //       latitude: "0.65677715080875",
-  //       longitude: "-0.81638707679434",
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Mandrill Chief",
-  //       description: "Seen placing something on the Buddha head.",
-  //       latitude: "0.62211392612812",
-  //       longitude: "-0.91884165591193",
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Keeper of Black Wind Mountain",
-  //       description: "",
-  //       latitude: "0.68334036211387",
-  //       longitude: "-0.91454374961626",
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Horse Guai",
-  //       description: "",
-  //       latitude: "0.75142065659566",
-  //       longitude: "-0.71358195101905",
-  //       media: [
-  //         {
-  //           title: "b1   28_08_2024 00_34_42",
-  //           fileName: "2b6139a3-aa64-4aef-be5b-28cc61eb5d36.png",
-  //           url: "https://media.mapgenie.io/storage/media/2b6139a3-aa64-4aef-be5b-28cc61eb5d36.png",
-  //           type: "image",
-  //           mimeType: "image/png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Zhong Kui",
-  //       description: "",
-  //       latitude: "0.73815937751937",
-  //       longitude: "-0.56658660011240",
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Shen Monkey",
-  //       description:
-  //         "**Chapter 1 Stock**\n- [Celestial Lotus Seeds](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398187) (Soak) - 2400 Will\n\n**Chapter 3 Stock**\n- [Jade Lotus Gourd](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398925) - 7200 Will\n- Awaken Wine Worm - 1500 Will\n- Luojia Fragrant Vine - 2000 Will\n- [Thunderbolt Horn](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398926) (Soak) - 3600 Will",
-  //       latitude: "0.71549820851233",
-  //       longitude: "-0.59031665325298",
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Keeper of Black Wind Mountain",
-  //       description: "",
-  //       latitude: "0.88662594822890",
-  //       longitude: "-0.92262823539878",
-  //     },
-  //     {
-  //       regionSlug: "chapter-1",
-  //       categoryId: 11575,
-  //       title: "Keeper of Black Wind Mountain",
-  //       description: "",
-  //       latitude: "0.44273281414087",
-  //       longitude: "-0.74467576397572",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11558,
-  //       title: "Evil Repelling Medicant",
-  //       description:
-  //         "**Location:** Reward for defeating [Lang-Li-Guhh-Baw](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397429)",
-  //       latitude: "0.51858745780614",
-  //       longitude: "-0.67390841850306",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11564,
-  //       title: "Loongwreathe Staff",
-  //       description:
-  //         "**Location:** Craftable after defeating [Black Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397647) or [Red Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398284) (in Chapter 1)  \n\n**Damage:** 70  \n**Critical Chance:** 0  \n\n**Unique Effect:** Moderately increases the damage dealt by all Pillar Stance moves\t\n\n**Crafting Ingredients:** \n- 1 Thunder Tail\n- 1 Thunderbone\n- 4 Refined Iron Sand\n- 21,000 Will",
-  //       latitude: "0.75331357209689",
-  //       longitude: "-0.51492143288252",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11564,
-  //       title: "Rat Sage Staff",
-  //       description:
-  //         "**Location:** Craftable upon defeating the [Yellow Wind Sage](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397641)   \n\n**Damage:** 66  \n**Critical Chance:** 7% Critical Hit Chance  \n\n**Unique Effect:** The fourth move of light attack combo and mobile staff spin can stir up a whirlwind of sands, increases attack range and damage\n\n**Crafting Ingredients:** \n- 1 Samadhi Wind Agate\n- 4 Refined Iron Sand\n- 8 Yaoguai Core\n- 21,000 Will",
-  //       latitude: "0.68117938825047",
-  //       longitude: "-0.95423929453511",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11564,
-  //       title: "Cloud-Patterned Stone Staff",
-  //       description:
-  //         "**Location:** Craftable upon defeating [Shigandang](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397642)  \n\n**Atack:** 60\n\n**Defense:** 30\n\n**Critical Chance:** ??\n\n**Unique Effect:** Moderately increases the Damage executed by charged Smash Heavy Attacks.\n\n**Crafting Ingredients:**   \n- Heart of Stone (1x) (Dropped by [Shingandang](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397642))\n- Yaoguai Core (4x)\n- Stone Spirit (8x)\n- Will (8,100)",
-  //       latitude: "0.82242287161856",
-  //       longitude: "-0.76232671737628",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11579,
-  //       title: "Yellow-Robed Squire",
-  //       description:
-  //         "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398924)",
-  //       latitude: "0.93424878783188",
-  //       longitude: "-0.70666538820186",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11579,
-  //       title: "Bodhisattva Lingji",
-  //       description: "Input to journal upon defeating Fuban.",
-  //       latitude: "1.08721121838460",
-  //       longitude: "-0.41375532448035",
-  //     },
-
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11572,
-  //       title: "Xu Dog's Quest",
-  //       description:
-  //         "**How To Begin:** Speak to [Xu Dog](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398476) in the cave in Sandgate Village\n\n**Steps:**\n0.  ??",
-  //       latitude: "0.50263516298259",
-  //       longitude: "-0.68737126115891",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11572,
-  //       title: "Drunken Boar's Quest",
-  //       description:
-  //         "**How To Begin:** Speak to the [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398863)\n\n**Steps:**\n\n1. Give [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398863) the [Sobering Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399634) (purchase from Man in Rock).\n2. Find the [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399827) in the Tiger's Temple and give him the Jade Lotus.\n3. Return to he was originally and defeat the [Yellow-Robed Squire](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397644)",
-  //       latitude: "0.92749735183827",
-  //       longitude: "-0.70356364529886",
-  //     },
-
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Locked Gate",
-  //       description:
-  //         "**Requires:** \n- [Sterness of Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398923)\n- [Keeness of Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398770)",
-  //       latitude: "0.48897149668854",
-  //       longitude: "-0.79247474670365",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Cave",
-  //       latitude: "0.47166145139946",
-  //       longitude: "-0.82584412313025",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Ashen Slumber Transformation Interaction",
-  //       description:
-  //         '**Location:** Inside the barricaded house.\n\nSpeak with the two headed rat inside "Ashen Slumber", and listen to their dialog completely by interacting with them until you exhaust unique dialog. They will mention they are going to head West and find the "Prince". You will meet back up with their dead body in the same cell as The Third Prince.  This interaction will make it so you do not have to fight Ashen Slumber.',
-  //       latitude: "0.35018702872709",
-  //       longitude: "-0.76470851898281",
-  //       media: [
-  //         {
-  //           title: "b1   30_08_2024 21_13_05",
-  //           fileName: "7a2e69c6-24a2-4f94-8b91-7b74b483e605.png",
-  //           url: "https://media.mapgenie.io/storage/media/7a2e69c6-24a2-4f94-8b91-7b74b483e605.png",
-  //           type: "image",
-  //           mimeType: "image/png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Locked Gate",
-  //       description:
-  //         "Can only be opened from the rear after defeating the [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430)",
-  //       latitude: "0.40940890001028",
-  //       longitude: "-0.70321083068777",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Locked Gate",
-  //       description:
-  //         "Requires [Keeness of Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398770)",
-  //       latitude: "0.64170329110955",
-  //       longitude: "-0.85218129194763",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Pluck of Many",
-  //       description:
-  //         "Alternative location for obtaining the [Pluck of Many](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399176) - whichever area you reach first.",
-  //       latitude: "0.64337255394345",
-  //       longitude: "-0.83288356863045",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Locked Gate",
-  //       description:
-  //         "Open from the eastern side, where you first encounter Withered Corpses and Weasel Captains",
-  //       latitude: "0.50801625874512",
-  //       longitude: "-0.83002527020454",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11573,
-  //       title: "Mind Core",
-  //       description: "Talk to Xu Dog after saving him (finishing his quest)",
-  //       latitude: "0.59788930733160",
-  //       longitude: "-0.96574659217907",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Xu Dog",
-  //       description:
-  //         "**Location:** Inside the cave. \n\nDefeat [Lang-Li-Guhh-Baw](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397429) and then return to him with the [Evil Repelling Medicant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398788) formula.  He will teach you how to brew them at Shrines\n\n**Related Quest:** [Xu Dog's Quest](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398921)",
-  //       latitude: "0.50180861033366",
-  //       longitude: "-0.69197652573223",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Horse Gui",
-  //       description: "**Location:** Tied up inside the temple",
-  //       latitude: "0.38181499172062",
-  //       longitude: "-0.69651603698728",
-  //       media: [
-  //         {
-  //           title: "b1   30_08_2024 21_20_18",
-  //           fileName: "d682622c-d4e2-424e-8801-6a6a70bbfefd.png",
-  //           url: "https://media.mapgenie.io/storage/media/d682622c-d4e2-424e-8801-6a6a70bbfefd.png",
-  //           type: "image",
-  //           mimeType: "image/png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Rock NPC",
-  //       description:
-  //         "**Location:** At the end of the ravine.  Bring him the [Stone Essence](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398843) from the [Mother Of Stones](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397639) to free him",
-  //       latitude: "0.72393040835266",
-  //       longitude: "-0.66469967365384",
-  //       media: [
-  //         {
-  //           title: "b1   30_08_2024 21_54_42",
-  //           fileName: "08269884-7063-469b-83df-8ab577601b81.png",
-  //           url: "https://media.mapgenie.io/storage/media/08269884-7063-469b-83df-8ab577601b81.png",
-  //           type: "image",
-  //           mimeType: "image/png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Drunken Boar",
-  //       description:
-  //         "**Location:** Lying drunk beside a rock\n\n**Related Quest:** [Drunken Boar's Quest](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398922)",
-  //       latitude: "0.92763900944172",
-  //       longitude: "-0.70875970390111",
-  //       media: [
-  //         {
-  //           title: "b1   30_08_2024 23_30_50",
-  //           fileName: "c2ca4dcc-957e-4340-a035-667c403bb2a1.png",
-  //           url: "https://media.mapgenie.io/storage/media/c2ca4dcc-957e-4340-a035-667c403bb2a1.png",
-  //           type: "image",
-  //           mimeType: "image/png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Old Man",
-  //       description: "2nd location ??",
-  //       latitude: "0.59399215619564",
-  //       longitude: "-0.85561982708413",
-  //       media: [
-  //         {
-  //           title: "",
-  //           fileName: "a82a27ec-63e3-4e40-ab5f-5c2484e6c599.jpg",
-  //           url: "https://media.mapgenie.io/storage/media/a82a27ec-63e3-4e40-ab5f-5c2484e6c599.jpg",
-  //           type: "image",
-  //           mimeType: "image/jpeg",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Xu Dog (2nd Location)",
-  //       description:
-  //         "Create Celestial and Mortal Medicines. The NPC (Xu Dog) will come here after its quest is completed. Gives Mind Core after choosing the TALK option.",
-  //       latitude: "0.59683954910405",
-  //       longitude: "-0.96773720419193",
-  //       media: [
-  //         {
-  //           title: "",
-  //           fileName: "ae8d1795-d965-4fed-a783-cd41bc1d8887.jpeg",
-  //           url: "https://media.mapgenie.io/storage/media/ae8d1795-d965-4fed-a783-cd41bc1d8887.jpeg",
-  //           type: "image",
-  //           mimeType: "image/jpeg",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Headless Monk",
-  //       description:
-  //         "Grants [Pluck of Many](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399176) after cutscene.",
-  //       latitude: "0.64438266655648",
-  //       longitude: "-0.84109822202893",
-  //     },
-  //     {
-  //       regionSlug: "chapter-2",
-  //       categoryId: 11575,
-  //       title: "Yellow-Robed Squire",
-  //       description:
-  //         "Found here after giving the [Drunken Boar](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398863) the [Sobering Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399634)",
-  //       latitude: "0.57844073117383",
-  //       longitude: "-0.96255885987748",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11558,
-  //       title: "Enhanced Tiger Subduing Pellets Formula",
-  //       description:
-  //         "**Location:** At the end of the path coming from the shrine\n\n**Rewards:** 3x  Enhanced Tiger Subduing Pellets",
-  //       latitude: "0.99463830124640",
-  //       longitude: "-0.65231025525671",
-  //     },
-
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11580,
-  //       title: "Ring of Fire",
-  //       description:
-  //         "**Location:** Reward for defeating the [Macaque Chief](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397824) for the 2nd time.",
-  //       latitude: "0.83743630247965",
-  //       longitude: "-0.52262037992401",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11580,
-  //       title: "Ashen Slumber",
-  //       description:
-  //         "**Location:** Inside Alcove blocked by purple seal. If you interacted with [Ashen Slumber in Chapter 2](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398780), then you will find them dead in the prison cell with The Third Prince.\n\n**Effect:** Blow forth flames where ash is laid, for days of glory soon shall fade. Transform into a rat guar, slashing at the enemy while blowing fierce flames at them, inflicting Scorch Bane. Focus built up before transformation can be converted for use afterward.",
-  //       latitude: "0.46043057361337",
-  //       longitude: "-0.63274518931163",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11580,
-  //       title: "Hoarfrost",
-  //       description: "Transformation Hoarfrost",
-  //       latitude: "1.13551796654700",
-  //       longitude: "-0.61381572592032",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11564,
-  //       title: "Kang-Jin Staff",
-  //       description:
-  //         "**Location:** Craftable upon defeating [Kang-Jin Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397821)  \n\n**Damage:** ??  \n**Critical Chance:** ??  \n\n**Unique Effect:** ??\n\n**Crafting Ingredients:**   \n- ??",
-  //       latitude: "0.37239294849927",
-  //       longitude: "-0.63391270903833",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11564,
-  //       title: "Golden Loong Staff",
-  //       description:
-  //         "**Location:** Craftable upon defeating [Cyan Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397826)  \n\n**Damage:**  108\n**Critical Chance:** 0\n\n**Unique Effect:** Moderately increases the damage dealt by all pillar stances. A loong can be summoned to execute thunder at the enemy at pillar stance Heavy attacks that cost 3 or 4 focus points.\n\n**Crafting Ingredients:**   \n- ??",
-  //       latitude: "0.86561236648188",
-  //       longitude: "-0.75637447202982",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11579,
-  //       title: "Chen Loong",
-  //       description:
-  //         "**Location:** Bitter Lake - North Shore Of The Bitter Lake  \n\n**Reward:** ??",
-  //       latitude: "0.98040415453539",
-  //       longitude: "-0.72172343730941",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11579,
-  //       title: "Green-Capped Martialist",
-  //       description:
-  //         "**Location:** Valley Of Ecstasy - Melon Field\n  \n\n**Reward:** ??",
-  //       latitude: "1.09100404701390",
-  //       longitude: "-0.64200918043923",
-  //     },
-
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11575,
-  //       title: "Keeper of the New West",
-  //       latitude: "0.39503846703253",
-  //       longitude: "-0.78733895053989",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11575,
-  //       title: "Old Man",
-  //       latitude: "1.00838673963370",
-  //       longitude: "-0.72394123603141",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11575,
-  //       title: "Keeper of the New West",
-  //       description:
-  //         "You encounter him once you go to the tree in the middle of the area. taking you to the next area",
-  //       latitude: "0.39451122133877",
-  //       longitude: "-0.75578225062571",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11575,
-  //       title: "The Third Prince - Lower Pagoda Realm",
-  //       description:
-  //         "Blinded and deafened NPC in the cell blocked by purple seal.\n\nDefeat Captain Lotus-Vision to enter the cell.\nDefeat Captain Wise-Voice, Captain Kalpa-Wave, and Captain Void-Illusion and return to him to finish his questline.\n\nReceive Chubai Spearhead for completion and absorb Ashen Slumber transformation from his dead cell mate.",
-  //       latitude: "0.46012162697782",
-  //       longitude: "-0.63120040629155",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11575,
-  //       title: "NPC",
-  //       description:
-  //         "Will be there after completed the treasure hunter quests line (Chapter 1, 2, 4 and 5). \nDon't need to come here before completed all the quests in Chapter 5!",
-  //       latitude: "0.81898211459317",
-  //       longitude: "-0.66003840725313",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11575,
-  //       title: "Baby Buddha",
-  //       latitude: "0.99905344150257",
-  //       longitude: "-0.64720611556902",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11597,
-  //       title: "Tree Pearl",
-  //       latitude: "0.84772899185872",
-  //       longitude: "-0.57057970538503",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11597,
-  //       title: "Tree Pearl",
-  //       latitude: "1.00282941554410",
-  //       longitude: "-0.63815097789109",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11597,
-  //       title: "Tree Pearl",
-  //       latitude: "0.92673782204005",
-  //       longitude: "-0.78873933664642",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11597,
-  //       title: "Tree pearl",
-  //       latitude: "0.86095865783250",
-  //       longitude: "-0.52328479864150",
-  //     },
-  //     {
-  //       regionSlug: "chapter-3",
-  //       categoryId: 11597,
-  //       title: "Tree Pearl",
-  //       latitude: "0.84281567958031",
-  //       longitude: "-0.53909601344910",
-  //     },
-  //   ],
-  // },
 ];
 
 const temp = [];

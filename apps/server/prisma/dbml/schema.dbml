@@ -2,17 +2,6 @@
 //// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 //// ------------------------------------------------------
 
-Table User {
-  id String [pk]
-  createdAt DateTime [default: `now()`, not null]
-  updatedAt DateTime [not null]
-  email String [unique, not null]
-  password String [not null]
-  firstName String
-  lastName String
-  role Role [not null]
-}
-
 Table AppUser {
   id String [pk]
   createdAt DateTime [default: `now()`, not null]
@@ -30,12 +19,12 @@ Table Game {
   slug String [unique, not null]
   title String [not null]
   thumbnailUrl String [not null]
-  logo String
+  logo String [not null]
   regions Region [not null]
   groups MarkerGroup [not null]
-  previewUrl String
-  iconUrl String
-  description String
+  previewUrl String [not null]
+  iconUrl String [not null]
+  description String [not null]
 }
 
 Table Region {
@@ -48,28 +37,18 @@ Table Region {
   zoom Int [not null]
   center Decimal[] [not null]
   tilePath String [not null]
-  Game Game
-  gameSlug String
+  Game Game [not null]
+  gameSlug String [not null]
   locations MarkerLocation [not null]
-  subRegions SubRegion [not null]
   order Int [not null, default: 1]
-}
-
-Table SubRegion {
-  id Int [pk, increment]
-  name String [not null]
-  latitude Decimal [not null]
-  longitude Decimal [not null]
-  parentRegion Region
-  parentRegionId Int
 }
 
 Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
   slug String [unique, not null]
-  Game Game
-  gameSlug String
+  Game Game [not null]
+  gameSlug String [not null]
   categories MarkerCategory [not null]
 }
 
@@ -77,11 +56,10 @@ Table MarkerCategory {
   id Int [pk, increment]
   title String [not null]
   icon String [not null]
-  template String
   info String
   locations MarkerLocation [not null]
   groupSlug String [not null]
-  MarkerGroup MarkerGroup
+  MarkerGroup MarkerGroup [not null]
 }
 
 Table MarkerLocation {
@@ -90,10 +68,10 @@ Table MarkerLocation {
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
-  category MarkerCategory
-  categoryId Int
-  Region Region
-  regionSlug String
+  category MarkerCategory [not null]
+  categoryId Int [not null]
+  Region Region [not null]
+  regionSlug String [not null]
   media Media [not null]
   type LocationType [not null, default: 'Marker']
 }
@@ -102,16 +80,10 @@ Table Media {
   id Int [pk, increment]
   title String [not null]
   url String [not null]
-  fileName String
   type String [not null]
   mimeType String [not null]
   MarkerLocation MarkerLocation
   markerLocationId Int
-}
-
-Enum Role {
-  ADMIN
-  USER
 }
 
 Enum LocationType {
@@ -121,8 +93,6 @@ Enum LocationType {
 }
 
 Ref: Region.gameSlug > Game.slug
-
-Ref: SubRegion.parentRegionId > Region.id
 
 Ref: MarkerGroup.gameSlug > Game.slug
 

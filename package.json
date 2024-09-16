@@ -11,7 +11,9 @@
     "prisma:generate": "pnpm --filter server prisma:generate",
     "migrate:dev": "pnpm --filter server migrate:dev",
     "migrate:reset": "pnpm --filter server migrate:reset",
-    "seed": "pnpm --filter server seed"
+    "seed": "pnpm --filter server seed",
+    "server:build": "pnpm --filter server build",
+    "server:prod": "pnpm --filter server start:prod"
   },
   "packageManager": "pnpm@9.9.0",
   "engines": {

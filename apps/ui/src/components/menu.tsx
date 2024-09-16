@@ -1,4 +1,4 @@
-import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
+import { Region } from "@/__generated__/graphql";
 import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
 import { hideFoundAtom, showMarkerAtom } from "@/store/marker";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -7,9 +7,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { cn } from "@nextui-org/theme";
-import { Divider } from "@nextui-org/react";
-import { buttonVariants } from "./ui/button";
+import Divider from "@mui/material/Divider";
 import React from "react";
 import {
   Tooltip,
@@ -18,16 +16,46 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { gameSlugAtom } from "@/store";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
+import { SelectChangeEvent } from "@mui/material/Select";
+import { useParams, useRouter } from "next/navigation";
+import {
+  currentGroupsAtom,
+  currentMarkersAtom,
+  currentRegionAtom,
+} from "@/store/map";
+import Grid from "@mui/material/Grid2";
+import { styled } from "@mui/material/styles";
+import Paper from "@mui/material/Paper";
+import { cn } from "@/lib/utils";
 
 interface MenuProps {
-  groups: MarkerGroup[];
-  markers: MarkerLocation[];
   regions: Region[];
 }
 
-export const Menu = ({ groups, markers, regions }: MenuProps) => {
-  const [collapseMenu, setCollapseMenu] = useState(false);
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: "#fff",
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  display: "flex",
+  width: "100%",
+  justifyContent: "space-between",
+  color: theme.palette.text.secondary,
+  ...theme.applyStyles("dark", {
+    backgroundColor: "#1A2027",
+  }),
+}));
 
+export const Menu = ({ regions }: MenuProps) => {
+  const params = useParams<{ slug: string }>();
+  const [collapseMenu, setCollapseMenu] = useState(false);
+  const groups = useAtomValue(currentGroupsAtom);
+  const currentRegion = useAtomValue(currentRegionAtom);
+  const markers = useAtomValue(currentMarkersAtom);
+
+  const router = useRouter();
   const gameSlug = useAtomValue(gameSlugAtom);
   const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
   const [hideFound, setHideFound] = useAtom(hideFoundAtom);
@@ -38,7 +66,7 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
     if (!showMarker) {
       setHiddenCategories([]);
     } else {
-      groups.map((group) => {
+      groups?.map((group) => {
         group.categories?.map((category) => {
           setHiddenCategories((prev) => [...prev, category.id]);
         });
@@ -58,7 +86,7 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
   };
 
   const toggleHideShowGroup = (groupId: string) => {
-    const group = groups.find((group) => group.id === groupId);
+    const group = groups?.find((group) => group.id === groupId);
     const groupCategories = group?.categories?.map((category) => category.id);
     if (hiddenGroups.includes(groupId)) {
       setHiddenGroups(hiddenGroups.filter((group) => group !== groupId));
@@ -76,6 +104,10 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
   };
   const ChevronIcon = collapseMenu ? ChevronRightIcon : ChevronLeftIcon;
   const chevronText = collapseMenu ? "Expand" : "Collapse";
+
+  const handleChange = (event: SelectChangeEvent) => {
+    router.push(`/map/${event.target.value}`);
+  };
 
   return (
     <>
@@ -110,21 +142,22 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
                 priority
               />
             </Link>
+            <Divider orientation="horizontal" flexItem />
 
-            <Divider className="bg-[#c8b494]" />
-            <div className="grid grid-cols-3 gap-4">
-              {regions?.map((region, index) => (
-                <div key={`${region}${index}`}>
-                  <Link
-                    href={`/map/${region.slug}`}
-                    className={cn(buttonVariants({ variant: "link" }))}
-                  >
+            <FormControl fullWidth>
+              <Select
+                value={params.slug || "chapter-1"}
+                onChange={handleChange}
+              >
+                {regions?.map((region, index) => (
+                  <MenuItem key={`${region}${index}`} value={region.slug}>
                     {region.title}
-                  </Link>
-                </div>
-              ))}
-            </div>
-            <Divider />
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+
+            <Divider orientation="horizontal" flexItem />
 
             <div className="flex gap-5">
               <div className="flex gap-2 align-middle contents-center">
@@ -149,7 +182,8 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
               </div>
             </div>
 
-            <Divider />
+            <Divider orientation="horizontal" flexItem />
+
             {groups?.map((group, index) => {
               const counts: any = {};
               group.categories?.map((category) => {
@@ -177,10 +211,7 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
                   >
                     {group.title}
                   </h1>
-                  <div
-                    key={`${group.id}_${index}`}
-                    className="grid grid-cols-2 gap-2"
-                  >
+                  <Grid container spacing={1} sx={{ minWidth: 350 }}>
                     {group.categories?.map((category) => {
                       const count = markers?.filter(
                         ({ categoryId }) => categoryId == parseInt(category.id)
@@ -188,28 +219,31 @@ export const Menu = ({ groups, markers, regions }: MenuProps) => {
 
                       if (count === 0) return null;
                       return (
-                        <div
+                        <Grid
+                          size={6}
                           key={category.title}
                           className={cn(
-                            "flex min-w-44 w-full cursor-pointer justify-between pr-2",
+                            "cursor-pointer",
                             hiddenCategories.includes(category.id) &&
                               "line-through"
                           )}
                           onClick={() => handleHiddenCategory(category.id)}
                         >
-                          <span
-                            className={cn(
-                              `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
-                            )}
-                          />
-                          <span className="pl-5 text-sm text-ellipsis whitespace-nowrap">
-                            {category.title}
-                          </span>
-                          <span className="text-sm">{count}</span>
-                        </div>
+                          <Item>
+                            <span
+                              className={cn(
+                                `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
+                              )}
+                            />
+                            <span className="text-sm text-ellipsis whitespace-nowrap">
+                              {category.title}
+                            </span>
+                            <span className="text-sm"> {" " + count}</span>
+                          </Item>
+                        </Grid>
                       );
                     })}
-                  </div>
+                  </Grid>
                 </React.Fragment>
               );
             })}

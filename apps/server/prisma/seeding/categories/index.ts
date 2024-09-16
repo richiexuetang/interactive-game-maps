@@ -6,7 +6,7 @@ import { witcherCategoryLocations } from "./witcher";
 
 export const categoryLocations: CategoryLocation[] = [
   ...bmwCategoryLocations,
-  ...eldenRingCategoryLocations,
-  ...totkCategoryLocations,
-  ...witcherCategoryLocations,
+  // ...eldenRingCategoryLocations,
+  // ...totkCategoryLocations,
+  // ...witcherCategoryLocations,
 ];

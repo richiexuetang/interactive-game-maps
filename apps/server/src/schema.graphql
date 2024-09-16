@@ -16,12 +16,6 @@ type AppUser {
   updatedAt: DateTime!
 }
 
-input CreateGameInput {
-  slug: String!
-  thumbnailUrl: String!
-  title: String!
-}
-
 input CreateUserInput {
   email: String!
   firstName: String
@@ -116,7 +110,6 @@ type Media {
 
 type Mutation {
   addFoundLocations(data: UpdateFoundLocationInput!): AppUser!
-  createGame(data: CreateGameInput!): Game!
   createUser(data: CreateUserInput!): AppUser
   removeFoundLocation(data: UpdateFoundLocationInput!): AppUser!
 }
@@ -140,7 +133,7 @@ type Query {
 }
 
 type Region {
-  center: [Float!]
+  center: [Float!]!
 
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -148,9 +141,8 @@ type Region {
   id: ID!
   maxZoom: Float!
   minZoom: Float!
-  order: Float
+  order: Float!
   slug: String!
-  subRegions: [SubRegion!]
   thumbnailUrl: String!
   tilePath: String!
   title: String!
@@ -170,19 +162,6 @@ enum RegionOrderField {
   id
   order
   title
-}
-
-type SubRegion {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  id: ID!
-  latitude: Float!
-  longitude: Float!
-  name: String!
-  parentRegionId: Float
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
 }
 
 input UpdateFoundLocationInput {

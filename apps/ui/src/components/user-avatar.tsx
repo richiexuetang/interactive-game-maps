@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,6 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { signOut } from "@/lib/firebase/auth";
 import { userAtom } from "@/store/auth";
+import Avatar from "@mui/material/Avatar";
 import { useSetAtom } from "jotai";
 import { useRouter } from "next/navigation";
 
@@ -34,10 +34,7 @@ export function UserAvatar({ imageSrc, name }: UserAvatarProps) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger>
-        <Avatar className="cursor-pointer">
-          <AvatarImage src={imageSrc} alt="user profile image" />
-          <AvatarFallback>{name}</AvatarFallback>
-        </Avatar>
+        <Avatar alt={name} src={imageSrc} />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="z-[1000]">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>

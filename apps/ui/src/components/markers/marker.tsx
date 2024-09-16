@@ -1,6 +1,6 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
-import { Divider } from "@nextui-org/react";
+import Divider from "@mui/material/Divider";
 import {
   Card,
   CardContent,
@@ -14,7 +14,6 @@ import { useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "@/hooks";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
-import { Checkbox } from "@/components/ui/checkbox";
 import {
   Tooltip,
   TooltipContent,
@@ -35,6 +34,9 @@ import { hideFoundAtom, triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
 import { ZoomImage } from "../zoom-image";
 import { gameSlugAtom } from "@/store";
+import FormGroup from "@mui/material/FormGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox/Checkbox";
 
 interface MarkerProps {
   marker: MarkerLocation;
@@ -149,7 +151,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
     >
       <RL.Popup>
-        <Card className="shadow-none -mx-7 -my-4">
+        <Card className="shadow-none -mx-7 -my-4 min-w-96">
           <CardHeader>
             <div className="flex justify-between gap-4">
               <div>
@@ -203,15 +205,20 @@ export const Marker = ({ marker, user }: MarkerProps) => {
           {description ? <Divider /> : null}
           <CardFooter
             className="py-2 justify-center hover:bg-secondary cursor-pointer"
-            onClick={handleMarkerFound}
+            // onClick={handleMarkerFound}
           >
             {user?.email ? (
-              <>
-                <Checkbox checked={markerFound} />
-                <div className="ml-2 space-y-1 leading-none">
-                  <label>Found</label>
-                </div>
-              </>
+              <FormGroup>
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={markerFound}
+                      onChange={handleMarkerFound}
+                    />
+                  }
+                  label="Found"
+                />
+              </FormGroup>
             ) : (
               <Button
                 variant="link"
