@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Tooltip from "@mui/material/Tooltip";
 import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
-import { useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import {
   currentGroupsAtom,
   currentMarkersAtom,
@@ -27,20 +27,29 @@ import { userAtom } from "@/store/auth";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavigationIcon from "@mui/icons-material/Navigation";
 import { triggeredMarkerIdAtom } from "@/store/marker";
+import { useMutation } from "@apollo/client";
+import {
+  ADD_TO_USER_FOUND,
+  ADD_TRACKING_CATEGORY,
+  REMOVE_FROM_USER_FOUND,
+  REMOVE_TRACKING_CATEGORY,
+} from "@/lib/constants";
 
 export const ProgressTracker = () => {
-  const [tracking, setTracking] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState("");
   const currentGroups = useAtomValue(currentGroupsAtom);
   const currentMarkers = useAtomValue(currentMarkersAtom);
   const setTriggerMarkerId = useSetAtom(triggeredMarkerIdAtom);
   const gameSlug = useAtomValue(gameSlugAtom);
 
-  const appUser = useAtomValue(userAtom);
+  const [appUser, setAppUser] = useAtom(userAtom);
 
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
     null
   );
+
+  const [addTrackingCategory] = useMutation(ADD_TRACKING_CATEGORY);
+  const [removeTrackingCategory] = useMutation(REMOVE_TRACKING_CATEGORY);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
@@ -54,9 +63,45 @@ export const ProgressTracker = () => {
   const id = open ? "simple-popover" : undefined;
 
   const handleChange = (e: SelectChangeEvent) => {
-    if (!tracking.includes(e.target.value)) {
-      setTracking((prev) => [...prev, e.target.value]);
+    if (appUser) {
+      if (
+        appUser.trackingCategories &&
+        !appUser.trackingCategories?.includes(parseInt(e.target.value))
+      ) {
+        addTrackingCategory({
+          variables: {
+            data: {
+              email: appUser?.email ?? "",
+              categoryId: parseInt(e.target.value),
+            },
+          },
+        });
+        setAppUser({
+          ...appUser,
+          trackingCategories: [
+            ...appUser?.trackingCategories,
+            parseInt(e.target.value),
+          ],
+        });
+      } else {
+        removeTrackingCategory({
+          variables: {
+            data: {
+              email: appUser.email,
+              categoryId: parseInt(e.target.value),
+            },
+          },
+        });
+        const newTracking = appUser.trackingCategories.filter(
+          (category) => category !== parseInt(e.target.value)
+        );
+        setAppUser({
+          ...appUser,
+          trackingCategories: newTracking,
+        });
+      }
     }
+
     setSelectedCategory(e.target.value);
   };
 
@@ -91,6 +136,29 @@ export const ProgressTracker = () => {
     return result;
   };
 
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+
+  const handleMarkerFound = (markerId: number) => {
+    if (appUser?.email) {
+      if (appUser?.foundLocations?.includes(markerId)) {
+        removeLocation({
+          variables: { data: { email: appUser.email, location: markerId } },
+        });
+        const newFoundLocations = appUser.foundLocations.filter(
+          (location) => location !== markerId
+        );
+        setAppUser({ ...appUser, foundLocations: newFoundLocations });
+      } else {
+        addLocation({
+          variables: { data: { email: appUser.email, location: markerId } },
+        });
+        const newFoundLocations = [...appUser.foundLocations, markerId];
+        setAppUser({ ...appUser, foundLocations: newFoundLocations });
+      }
+    }
+  };
+
   return (
     <div className="absolute top-36 right-2 z-[1000]">
       <Tooltip title="Progress Tracker" placement="left">
@@ -111,18 +179,18 @@ export const ProgressTracker = () => {
         <Typography sx={{ p: 2 }}>Progress Tracker</Typography>
         <Divider />
         <div className="flex flex-col">
-          {tracking.map((category) => (
+          {appUser?.trackingCategories?.map((category) => (
             <div key={category}>
               <Accordion>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <span>{getCategoryInfoById(category)?.title}</span>
+                  <span>{getCategoryInfoById(category.toString())?.title}</span>
                   <span>
-                    {totalFoundForCategory(category)}/
-                    {totalForCategory(category)}
+                    {totalFoundForCategory(category.toString())}/
+                    {totalForCategory(category.toString())}
                   </span>
                 </AccordionSummary>
                 {currentMarkers?.map((marker) => {
-                  if (marker.categoryId?.toString() !== category) return null;
+                  if (marker.categoryId !== category) return null;
 
                   return (
                     <AccordionDetails
@@ -137,6 +205,7 @@ export const ProgressTracker = () => {
                         checked={appUser?.foundLocations?.includes(
                           parseInt(marker.id)
                         )}
+                        onChange={() => handleMarkerFound(parseInt(marker.id))}
                       />
                       <div className="flex items-center gap-2">
                         <span

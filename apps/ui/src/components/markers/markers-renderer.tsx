@@ -39,6 +39,7 @@ export const MarkerRenderer = ({ user }: MarkerRendererProps) => {
                 key={marker.title}
                 position={[marker.latitude, marker.longitude]}
                 icon={text}
+                zIndexOffset={-1000}
               />
             );
           }

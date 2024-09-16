@@ -23,15 +23,11 @@ import {
 import { MarkerLocation } from "@/__generated__/graphql";
 import { Button } from "../ui/button";
 import { signInWithGoogle } from "@/lib/firebase/auth";
-import { useQuery, useMutation } from "@apollo/client";
-import {
-  ADD_TO_USER_FOUND,
-  GET_APP_USER,
-  REMOVE_FROM_USER_FOUND,
-} from "@/lib/constants";
+import { useMutation } from "@apollo/client";
+import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
 import { UserRecord } from "firebase-admin/auth";
 import { triggeredMarkerIdAtom } from "@/store/marker";
-import { useAtomValue } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import { ZoomImage } from "../zoom-image";
 import { gameSlugAtom } from "@/store";
 import FormGroup from "@mui/material/FormGroup";
@@ -59,9 +55,8 @@ export const Marker = ({ marker, user }: MarkerProps) => {
 
   const { icon, info } = category!;
 
-  const { data: userData } = useQuery(GET_APP_USER, {
-    variables: { email: user?.email },
-  });
+  const [appUser, setAppUser] = useAtom(userAtom);
+
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
@@ -73,10 +68,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
     }
   }, [id, triggeredMarkerId]);
 
-  const appUser = useAtomValue(userAtom);
-  const [markerFound, setMarkerFound] = useState(
-    userData?.foundLocations?.includes(id)
-  );
+  const [markerFound, setMarkerFound] = useState(false);
   // eslint-disable-next-line no-unused-vars
   const [_, copy] = useCopyToClipboard();
 
@@ -117,21 +109,27 @@ export const Marker = ({ marker, user }: MarkerProps) => {
   }, [id, latitude, longitude, map, searchParams]);
 
   useEffect(() => {
-    if (userData?.getUser.foundLocations) {
-      setMarkerFound(userData.getUser.foundLocations?.includes(parseInt(id)));
+    if (appUser?.foundLocations) {
+      setMarkerFound(appUser.foundLocations?.includes(parseInt(id)));
     }
-  }, [id, userData]);
+  }, [id, appUser]);
 
   const handleMarkerFound = () => {
-    if (user?.email) {
+    if (appUser?.email) {
       if (markerFound) {
         removeLocation({
-          variables: { data: { email: user.email, location: parseInt(id) } },
+          variables: { data: { email: appUser.email, location: parseInt(id) } },
         });
+        const newFoundLocations = appUser.foundLocations.filter(
+          (location) => location !== parseInt(id)
+        );
+        setAppUser({ ...appUser, foundLocations: newFoundLocations });
       } else {
         addLocation({
-          variables: { data: { email: user.email, location: parseInt(id) } },
+          variables: { data: { email: appUser.email, location: parseInt(id) } },
         });
+        const newFoundLocations = [...appUser.foundLocations, parseInt(id)];
+        setAppUser({ ...appUser, foundLocations: newFoundLocations });
       }
     }
 

@@ -54,6 +54,28 @@ mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
 }
 `
 );
+
+export const ADD_TRACKING_CATEGORY = gql(
+  `
+  mutation AddTrackingCategory($data: UpdateTrackingCategoryInput!) {
+    addTrackingCategory(data: $data) {
+      email
+      hideFound
+      trackingCategories
+    }
+  }
+  `
+);
+
+export const REMOVE_TRACKING_CATEGORY = gql(`
+mutation RemoveTrackingCategory($data: UpdateTrackingCategoryInput!) {
+  removeTrackingCategory(data: $data) {
+    email
+    trackingCategories
+    hideFound
+  }
+}
+`);
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {

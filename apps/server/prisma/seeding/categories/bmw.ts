@@ -4558,9 +4558,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "**Strategy**:打蚱蜢怪概率掉,盘丝洞里也有很多这种怪,不用急着死磕 ",
+          "**Info**:打蚱蜢怪概率掉,盘丝洞里也有很多这种怪,不用急着死磕",
         regionSlug: "04_zhujiadayuan",
-        title: "[头冠]长须头面(概率)",
+        title: "[Head] Locust Antennae Mask (Chance)",
         longitude: -0.7255277174755577,
         latitude: 0.9256355752964538,
       },
@@ -7932,9 +7932,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "这图建议速通后白天回来拿资源,掉入盘丝洞后再回来白天没有怪,放心领取所有Chest资源。",
+          "After falling into the Web Hollow, there are no guais and can loot safely",
         regionSlug: "04_zhujiadayuan",
-        title: "这图建议速通后白天回来拿资源",
+        title: "Recommend gathering resource during day time",
         longitude: -0.21303830619604014,
         latitude: 1.0910596719367618,
       },
@@ -7972,31 +7972,30 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: 0.8624329012283596,
       },
       {
-        description: " 打死给内丹(概率掉落) ",
+        description: "打死给内丹(概率掉落) ",
         regionSlug: "04_zhujiadayuan",
         title: "葛覃精",
         longitude: -0.6308038944391683,
         latitude: 0.8157317632391283,
       },
       {
-        description: "确实有个怪(快走出去的时候按闪避)",
         regionSlug: "04_zhujiadayuan",
-        title: "此处门路大开,必有埋伏!",
+        title: "Ambush!",
         longitude: -0.6705948641094324,
         latitude: 0.5907992944909921,
       },
       {
         description:
-          "很多蜘蛛和葛根精小心。<div>八戒会触发摘果子的对话,没有Reward</div>",
+          "Watch out for spiders and 葛根精. 八戒 will trigger a cut scene, no reward",
         regionSlug: "04_zhujiadayuan",
-        title: "八戒剧情对话",
+        title: "Zhu Bajie cut scene",
         longitude: -0.6404497270368381,
         latitude: 0.4172690870606317,
       },
       {
-        description: "可以白天再来,白天这些怪物会消失",
+        description: "Can come back during day time",
         regionSlug: "04_zhujiadayuan",
-        title: "门后当心有偷袭",
+        title: "Ambush behind door",
         longitude: -0.9608312606100355,
         latitude: 0.4335235016171026,
       },
