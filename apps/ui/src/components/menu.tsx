@@ -35,16 +35,15 @@ interface MenuProps {
 }
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: "#fff",
   ...theme.typography.body2,
   padding: theme.spacing(1),
   display: "flex",
   width: "100%",
   justifyContent: "space-between",
   color: theme.palette.text.secondary,
-  ...theme.applyStyles("dark", {
-    backgroundColor: "#1A2027",
-  }),
+  "&:hover": {
+    opacity: 0.8,
+  },
 }));
 
 export const Menu = ({ regions }: MenuProps) => {

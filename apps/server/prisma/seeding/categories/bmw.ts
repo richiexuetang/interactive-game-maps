@@ -552,7 +552,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 可以远处看到红树林,前面大片空地是BOSS战斗场地  ————————————————————————  山脚只是区域名!不是真的要往山脚跑!看到红树林过去就对了,地图上的标点有点歪。 ",
+          " 可以远处看到红树林,前面大片空地是BOSS战斗场地  ————————————————————————  山脚只是区域名!不是真的要往山脚跑!看到红树林过去就对了,地图上的标点有点歪. ",
         regionSlug: "06_huaguoshan",
         title: "山脚-见鹿林",
         longitude: -0.7059927047016572,
@@ -926,7 +926,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: 0.8689985520909858,
       },
       {
-        description: "**Location**: 向后走,拐个弯儿。解锁第五五难。 ",
+        description: "**Location**: 向后走,拐个弯儿.解锁第五五难. ",
         regionSlug: "05_huoyanshan",
         title: "炼魔坑石屏前",
         longitude: -0.9751529725855619,
@@ -1211,7 +1211,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "金晴兽一阶段破冰后进,在左边发光的罐子里。二周目只给灵蕴,不用特意进来。 ",
+          "金晴兽一阶段破冰后进,在左边发光的罐子里.二周目只给灵蕴,不用特意进来. ",
         regionSlug: "05_huoyanshan",
         title: "Awaken Wine Worm",
         longitude: -0.6046241374049259,
@@ -1480,7 +1480,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 打火焰石头人概率掉落,不行就去土地庙调息刷新。  ------  全场石头人都会爆,不用一直刷新 ",
+          " 打火焰石头人概率掉落,不行就去土地庙调息刷新.  ------  全场石头人都会爆,不用一直刷新 ",
         regionSlug: "05_huoyanshan",
         title: "火焰丹头(概率)",
         longitude: -0.6323912662610667,
@@ -1873,7 +1873,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [获得方式]:门楼正对枯木跳下去,图中所站位置走下去右转走到底,就可以看到。(<span style="font-family: var(--van-base-font);">有好几节楼梯的,靠左一直走在最底下。</span><span style="font-family: var(--van-base-font);">)</span> ',
+          ' [获得方式]:门楼正对枯木跳下去,图中所站位置走下去右转走到底,就可以看到.(<span style="font-family: var(--van-base-font);">有好几节楼梯的,靠左一直走在最底下.</span><span style="font-family: var(--van-base-font);">)</span> ',
         regionSlug: "05_huoyanshan",
         title: "落伽香藤",
         longitude: -1.0866944317244815,
@@ -1985,7 +1985,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 大树怪掉落,概率获得  好像概率很低 我打了半个小时才出  <br>  看运气把,我打了两次出了2个,最多能拿3个。应该是效果可以叠加 ",
+          " 大树怪掉落,概率获得  好像概率很低 我打了半个小时才出  <br>  看运气把,我打了两次出了2个,最多能拿3个.应该是效果可以叠加 ",
         regionSlug: "04_ziyunshan",
         title: "不老藤(概率)",
         longitude: -0.9328641073001904,
@@ -3259,7 +3259,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " **Reward**:  彩云葫芦  毒敌大王喝酒亭子下面的Chest里,可以直接获取。  必须要打了再开 不然是丹药【龙光倍力丸】。  补充:先开Chest给丹药,葫芦会从毒敌大王身上掉 ",
+          " **Reward**:  彩云葫芦  毒敌大王喝酒亭子下面的Chest里,可以直接获取.  必须要打了再开 不然是丹药【龙光倍力丸】.  补充:先开Chest给丹药,葫芦会从毒敌大王身上掉 ",
         regionSlug: "04_ziyunshan",
         title: "彩玉葫芦",
         longitude: -0.5339764140949228,
@@ -3312,7 +3312,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " **Reward**: 镔铁砂x2  [注意]:走过崖边后不需要上楼梯,直接左转,小心掉下去。里面有几个怪物还有琴螂幼虫 ",
+          " **Reward**: 镔铁砂x2  [注意]:走过崖边后不需要上楼梯,直接左转,小心掉下去.里面有几个怪物还有琴螂幼虫 ",
         regionSlug: "04_pansidongshangceng",
         title: "Coffin Chest",
         longitude: -0.8651113666513481,
@@ -3387,7 +3387,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 从台阶往左看可以直接跳下去,跳跃加重击可以再跳上来。  地图没画出来,但确实有  从这里直走即可  没啥用,碎金片,小金片  ~~~~~~~~~~~~~~~~~~~~  #编辑:面对虫总兵,左边的房子附近有一条路可以  <span style="font-family: var(--van-base-font);">过去</span><br>  <span style="font-family: var(--van-base-font);"><br></span>  <span style="font-family: var(--van-base-font);">沿着总兵房子旁边下楼梯也可以走过来</span> ',
+          ' 从台阶往左看可以直接跳下去,跳跃加重击可以再跳上来.  地图没画出来,但确实有  从这里直走即可  没啥用,碎金片,小金片  ~~~~~~~~~~~~~~~~~~~~  #编辑:面对虫总兵,左边的房子附近有一条路可以  <span style="font-family: var(--van-base-font);">过去</span><br>  <span style="font-family: var(--van-base-font);"><br></span>  <span style="font-family: var(--van-base-font);">沿着总兵房子旁边下楼梯也可以走过来</span> ',
         regionSlug: "04_huanghuaguan",
         title: "这里有Chest",
         longitude: -0.863769596479699,
@@ -3395,7 +3395,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "保命丹药。服用后长时间内,遭遇丧命之难,优先触发此药,还魂复生。<div>打完黑手道人后面的大树再往上走有个Chest</div>",
+          "保命丹药.服用后长时间内,遭遇丧命之难,优先触发此药,还魂复生.<div>打完黑手道人后面的大树再往上走有个Chest</div>",
         regionSlug: "04_huanghuaguan",
         title: "九转还魂丹",
         longitude: -0.5586073636514186,
@@ -3418,7 +3418,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " **Reward**:小金片、镔铁砂  就在土地庙旁边,二战老猪后一进山洞就能看见,正对洞口。 ",
+          " **Reward**:小金片、镔铁砂  就在土地庙旁边,二战老猪后一进山洞就能看见,正对洞口. ",
         regionSlug: "04_pansidongxiaceng",
         title: "Chest",
         longitude: -0.7685691766716047,
@@ -3610,7 +3610,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " **Reward**:Fine Gold Thread,铁中血。  在外面的岩浆里,不是平台上 ",
+          " **Reward**:Fine Gold Thread,铁中血.  在外面的岩浆里,不是平台上 ",
         regionSlug: "05_huoyanshan",
         title: "Chest(Fine Gold Thread)",
         longitude: -0.45115469926815877,
@@ -4107,360 +4107,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     locations: [
       {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.32416885110371",
-        longitude: "-0.94875463017829",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp",
-        latitude: "0.34684499286897",
-        longitude: "-0.874982915508",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.34367524527308",
-        longitude: "-0.76308928622475",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.37197079422221",
-        longitude: "-0.78785435540615",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp",
-        latitude: "0.86068850114272",
-        longitude: "-0.46853899955687",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (720)",
-        latitude: "0.42538138490548",
-        longitude: "-0.76547913007059",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp",
-        latitude: "0.73764919239595",
-        longitude: "-0.58896017505143",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Will",
-        description: "Location: On the bridge",
-        latitude: "0.98315837879869",
-        longitude: "-0.66745162010392",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp",
-        latitude: "0.81914650508192",
-        longitude: "-0.54501906433470",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.46708355148081",
-        longitude: "-0.64153286894287",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (720)",
-        latitude: "0.52871139364179",
-        longitude: "-0.63535521187208",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.53995773321253",
-        longitude: "-0.60540447695641",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.46179686582002",
-        longitude: "-0.61522804578203",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.97865685226338",
-        longitude: "-0.71012203228392",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (720)",
-        latitude: "0.60252091426059",
-        longitude: "-0.57161959837632",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (720)",
-        latitude: "0.46588532905241",
-        longitude: "-0.52315016710139",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.53176851136804",
-        longitude: "-0.51230980578163",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Green Wisp (360)",
-        latitude: "0.49479486226026",
-        longitude: "-0.45662924368889",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp (360)",
-        description: "**Location:** Under the rock arch",
-        latitude: "0.44962622225845",
-        longitude: "-0.66363504164493",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp",
-        description: "**Location:** Just inside the cave entrance",
-        latitude: "0.47719418500741",
-        longitude: "-0.70311721010063",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp",
-        description: "**Location:** Under the wooden platform",
-        latitude: "0.45321566812601",
-        longitude: "-0.71826686044812",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp (360)",
-        description: "**Location:** Inside the building.  Enter from the rear",
-        latitude: "0.42404332040244",
-        longitude: "-0.78018901581521",
-        media: [
-          {
-            title: "b1   30_08_2024 21_01_12",
-            url: "https://media.mapgenie.io/storage/media/9ecc67f3-19ed-4dfe-80c1-7cfb7ea707fa.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp",
-        description: "**Location:** On top of the building",
-        latitude: "0.39541937467346",
-        longitude: "-0.75760030484932",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp",
-        description:
-          "**Location:** Inside the house.  Be careful of the Rat Solider",
-        latitude: "0.36761107501721",
-        longitude: "-0.79613743061949",
-        media: [
-          {
-            title: "b1   30_08_2024 21_12_11",
-            url: "https://media.mapgenie.io/storage/media/18414896-4962-4e6e-8154-c0f98d6cd7ec.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp (360)",
-        description: "**Location:** Inside the building",
-        latitude: "0.70447517583661",
-        longitude: "-1.05359315871960",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Will (360)",
-        description: "**Location:** Inside the hut",
-        latitude: "0.76379540239709",
-        longitude: "-0.94928741454862",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Will (540)",
-        description: "**Location:** In front of the house",
-        latitude: "0.79417665759151",
-        longitude: "-1.05378627776950",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Will (360)",
-        description: "**Location:** Inside the cave",
-        latitude: "0.81962293289551",
-        longitude: "-1.01216912269490",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Will",
-        latitude: "0.75717638891998",
-        longitude: "-0.86057368172731",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Wisp (1200)",
-        description:
-          "**Location:** Inside the small cave underneath the nearby [Blazebone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398820) platform",
-        latitude: "0.69010508898692",
-        longitude: "-0.70157883400537",
-        media: [
-          {
-            title: "b1   30_08_2024 22_07_32",
-            url: "https://media.mapgenie.io/storage/media/be338749-15ae-4d33-a653-5020a3778322.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Will (540)",
-        latitude: "0.63097301323891",
-        longitude: "-0.81435079506411",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp",
-        description: "**Location:** In the open by the cliff edge",
-        latitude: "0.56066972045352",
-        longitude: "-0.75884399647466",
-        media: [
-          {
-            title: "b1   30_08_2024 21_40_05",
-            url: "https://media.mapgenie.io/storage/media/299bd94b-3b49-4f57-8e58-500cc7c4ea63.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green wisp (540)",
-        description: "**Location:** Inside the darker section of cave",
-        latitude: "0.74403457881976",
-        longitude: "-0.71302650208059",
-        media: [
-          {
-            title: "b1   30_08_2024 22_10_42",
-            url: "https://media.mapgenie.io/storage/media/567aff37-7d97-4bf9-b944-489e706cf0d2.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp",
-        description: "**Location:** Inside the cave",
-        latitude: "0.77982270972566",
-        longitude: "-0.69957254166360",
-        media: [
-          {
-            title: "b1   30_08_2024 22_29_45",
-            url: "https://media.mapgenie.io/storage/media/f5244bdc-9326-4674-8c5f-f09b37cc982c.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Will",
-        latitude: "0.78440351633824",
-        longitude: "-0.72809881160418",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Green Wisp (360)",
-        description: "**Location:** In the open",
-        latitude: "0.73759783373984",
-        longitude: "-1.10633611679020",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (18)",
-        description: "**Location:** In a small alcove by the river",
-        latitude: "0.70150378719362",
-        longitude: "-0.83814374980702",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (18)",
-        latitude: "0.74127059131237",
-        longitude: "-0.65715779924201",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (18)",
-        description: "**Location:** In the water under the bridge",
-        latitude: "0.74427783490221",
-        longitude: "-0.63419913775041",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (18)",
-        description: "**Location:** Under the small wooden gate",
-        latitude: "1.03896645590200",
-        longitude: "-0.87852001189941",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (18)",
-        description:
-          "**Location:** Inside the small shrine\n\n**Note:** 360 will with upgraded Gourd",
-        latitude: "0.85370481052324",
-        longitude: "-0.78126311302276",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (360)",
-        latitude: "0.83902964358505",
-        longitude: "-0.52948216545266",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (540)",
-        latitude: "0.76719621809814",
-        longitude: "-0.52972188678095",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (540)",
-        latitude: "0.71121806722981",
-        longitude: "-0.59746775502714",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will (360)",
-        latitude: "0.59121542541949",
-        longitude: "-0.60317416786268",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Will",
-        description: "At end of broken bridge",
-        latitude: "0.37380764104971",
-        longitude: "-0.78383719700059",
-      },
-    ],
-    groupSlug: "bmw_items",
-    title: "Will",
-  },
-  {
-    locations: [
-      {
         regionSlug: "chapter-1",
         title: "Grey Wolf Mask",
         description:
@@ -4579,6 +4225,35 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "佛手·左",
         longitude: -1.0863444779657243,
         latitude: 0.7287038120796581,
+      },
+      {
+        description: "**Strategy**: Can only get it once, cannot obtain in NG+",
+        regionSlug: "05_huoyanshan",
+        title: "[Headgear]Earth Spirit Cap",
+        longitude: -0.588996417320601,
+        latitude: 0.9009501348678697,
+      },
+      {
+        description: "**Strategy**: 打死鳖宝概率掉 ",
+        regionSlug: "05_huoyanshan",
+        title: "Skull of Turtle Treasure (Chance)",
+        longitude: -1.0624854171505262,
+        latitude: 0.28837892009886446,
+      },
+      {
+        description: "**Strategy**:打双刀螳螂怪掉 ",
+        regionSlug: "04_pansidongxiaceng",
+        title: "[Headgear] Locust Antennae Mask (Chance) ",
+        longitude: -0.5044761977230223,
+        latitude: 1.0402871651123178,
+      },
+      {
+        description:
+          "**Strategy**:可以使用定身术,定住后绕后打断它的手后获得(只需要累计四次,不用全打掉,也就是要定4次)<br>由于这个BOSS非常脆皮,不建议打手以外任何部位,建议用棍花打,断手判定看打击次数而不是打击伤害.(BOSS很容易被打死,建议用出生给的那把武器打)<br><br>建议先备份存档,以免失败后无法获得下毒手 ",
+        regionSlug: "04_pansidongshangceng",
+        title: "[Arms] Venomous Armguard",
+        longitude: -0.7104777756525493,
+        latitude: 1.2240161482835106,
       },
     ],
     groupSlug: "bmw_equipment",
@@ -4699,45 +4374,30 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64402391834560",
       },
       {
-        description:
-          "**Strategy**:  初见九叶灵芝精必定掉落,二周目无法重复获得  在这附近采集就会摸出九叶灵芝精了 ",
+        description: "**Strategy**: 刷火长老掉,第三章刷过就不用再刷了",
         regionSlug: "05_huoyanshan",
-        title: "[头冠]地灵伞盖",
-        longitude: -0.588996417320601,
-        latitude: 0.9009501348678697,
-      },
-      {
-        description: "**Strategy**:刷火长老掉,第三章刷过就不用再刷了 ",
-        regionSlug: "05_huoyanshan",
-        title: "雷火印(概率)",
+        title: "Tiger Tendon Belt (Chance)",
         longitude: -0.38436296702050754,
         latitude: 0.7870655006831697,
       },
       {
-        description: " **Reward**:琥珀念珠,数量限制一个,多周目只能拿到灵蕴 ",
+        description: " **Reward**: Can only get one, NG+ rewards spirit",
         regionSlug: "05_huoyanshan",
-        title: "琥珀念珠",
+        title: "Amber Prayer Beads",
         longitude: -0.9620810686786854,
         latitude: 0.5138638247370437,
       },
       {
-        description: "**Strategy**:打死鳖宝概率掉 ",
-        regionSlug: "05_huoyanshan",
-        title: "鳖宝头骨(概率)",
-        longitude: -1.0624854171505262,
-        latitude: 0.28837892009886446,
-      },
-      {
         description:
-          "**Strategy**:打犀牛精(概率)掉落 打后面的地罗刹也掉,不用着急刷,后面壁水洞里这种怪扎堆,刷起来更方便。 ",
+          "**Strategy**:打犀牛精(Chance)掉落 打后面的地罗刹也掉,不用着急刷,后面壁水洞里这种怪扎堆,刷起来更方便. ",
         regionSlug: "05_huoyanshan",
-        title: "白贝腰链(概率)",
+        title: "White Seashell Waist Chain (Chance)",
         longitude: -1.1526351454885457,
         latitude: 0.21187161221234874,
       },
       {
         description:
-          "**Strategy**:击杀两个海罗刹掉落,不用刷。限定一个。  二周目不会掉了,可以留着吉祥物 ",
+          "**Strategy**:击杀两个海罗刹掉落,不用刷.限定一个.  二周目不会掉了,可以留着吉祥物 ",
         regionSlug: "05_huoyanshan",
         title: "Gold Button",
         longitude: -0.3454261780858303,
@@ -4747,22 +4407,15 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           "**Strategy**:击败小黄龙获得  能够提高打杀掉落材料的概率(提升率大概10%,稀有掉落照样稀有)  多周目可以重复获得 ",
         regionSlug: "04_pansidongxiaceng",
-        title: "金色鲤",
+        title: "Golden Carp",
         longitude: -1.0105874784380262,
         latitude: 0.09758862525244183,
       },
       {
-        description: "**Strategy**:打双刀螳螂怪掉 ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "[头冠]长须头面(概率) ",
-        longitude: -0.5044761977230223,
-        latitude: 1.0402871651123178,
-      },
-      {
         description:
-          " [效果]:少许增加“赋毒伤害”。 **Strategy**:  打掉全图虫卵概率性获得  可获得多个(不知道是不是bug) ",
+          "**Effect**:少许增加“赋毒伤害”. **Strategy**:  打掉全图虫卵概率性获得  可获得多个(not sure if it's a bug)",
         regionSlug: "04_pansidongxiaceng",
-        title: "卵中骨(概率)",
+        title: "Spine in the Sack (Chance)",
         longitude: -0.6008687216385908,
         latitude: 1.220369560305187,
       },
@@ -4770,15 +4423,15 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           '<p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">**Strategy**::有个蛇捕头(样子虎皮)概率爆虎筋绦子,这里旁边就有一只,方便刷 ',
         regionSlug: "04_huanghuaguan",
-        title: "虎筋绦子(概率)",
+        title: "Tiger Tendon Belt (Chance)",
         longitude: -0.677459969483948,
         latitude: 0.9704457988075461,
       },
       {
         description:
-          '**Strategy**:  黑手道人打完之后后面的树背后桌子上的小箱子里<br>要打完百眼魔君之后才会出现<br>这碑是猪八戒的老情人紫珠儿的墓碑,定颜珠应该是八戒放在这里的供品。<span style="font-family: var(--van-base-font);">二周目在猪八戒面前出定颜珠效果(八戒跟随状态,走到土地庙边带上珠子,使用缩地青符),会触发一句“好个宝贝,可还能还回去？”</span>  一周目拿过就没了,二周目无法重复获得,转化为灵蕴。  <br> ',
+          '**Strategy**:  黑手道人打完之后后面的树背后桌子上的小箱子里<br>要打完百眼魔君之后才会出现<br>这碑是猪八戒的老情人紫珠儿的墓碑,定颜珠应该是八戒放在这里的供品.<span style="font-family: var(--van-base-font);">二周目在猪八戒面前出定颜珠效果(八戒跟随状态,走到土地庙边带上珠子,使用缩地青符),会触发一句“好个宝贝,可还能还回去？”</span>  一周目拿过就没了,二周目无法重复获得,转化为灵蕴.  <br> ',
         regionSlug: "04_huanghuaguan",
-        title: "定颜珠",
+        title: "Preservation Orb",
         longitude: -0.5860172508691619,
         latitude: 1.0620429737580537,
       },
@@ -4786,7 +4439,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           "**Strategy**:虫总兵后边箱子获取  [补充]:获取一次后多周目会转化为灵蕴<br> ",
         regionSlug: "04_huanghuaguan",
-        title: "三清令",
+        title: "Tablet of the Three Supreme",
         longitude: -0.7060109550162679,
         latitude: 0.34689222251935803,
       },
@@ -4794,7 +4447,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           '<p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">**Strategy**::道人随机掉落 头部比较奇怪的那个 不是人形的(就是那个头像爬虫躺地上的) <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">推荐在此刷,带自爆鼠AOE清怪群 <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">珍玩效果是增加神力的回复速度 <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;"><br> <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">可重复获得,最大3个 ',
         regionSlug: "04_huanghuaguan",
-        title: "君子牌(概率)",
+        title: "Virtuos Bamboo Engraving (Chance)",
         longitude: -0.2313908252674537,
         latitude: 0.7972847694391163,
       },
@@ -4802,7 +4455,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           '<p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">增加1%伤害,配套月玉兔翻倍 <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">**Strategy**::Coffin Chest,要从一棵树上走过 <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">仙箓亭子,往回看直接走上去也能到 <p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">PS:只能获得一次,多周目可以不用拿 ',
         regionSlug: "04_ziyunshan",
-        title: "日金乌",
+        title: "Gold Sun Crow",
         longitude: -0.8919181205947666,
         latitude: 0.6381568581510777,
       },
@@ -4810,14 +4463,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           '**Strategy**:击败浪波<span style="font-family: var(--van-base-font);">波</span><span style="font-family: var(--van-base-font);">掉落</span>  攻击无视对手的四灾抗性 ',
         regionSlug: "06_huaguoshan",
-        title: "仙胞石片",
+        title: "Celestian Birth Stone Fragment",
         longitude: -0.5123206739229147,
         latitude: 0.98080270686674,
       },
       {
         description: "**Strategy**:打死跳浪蛟获得,已获得多周目可忽略 ",
         regionSlug: "06_huaguoshan",
-        title: "避水珠",
+        title: "Waterward Orb",
         longitude: -0.4477132388737459,
         latitude: 0.5926195438178326,
       },
@@ -4825,7 +4478,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           "**Strategy**:击打虫卵概率掉落(第三章所有虫卵都会概率掉落,可重复获得,上限3个)  [用途]:些微增加赋毒伤害<br> ",
         regionSlug: "04_pansidongshangceng",
-        title: " 卵中骨(概率)",
+        title: "Spine in the Sack(Chance)",
         longitude: -0.8895315848604071,
         latitude: 0.3837804071069968,
       },
@@ -4833,17 +4486,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description:
           "**Strategy**:跳进盘丝洞面对床左边然后回头走进去有个箱子  多周目可重复领取 ",
         regionSlug: "04_pansidongshangceng",
-        title: "错金银带钩",
+        title: "Cuo Jin-Yin Belt Hook",
         longitude: -0.9814423083080897,
         latitude: 0.2501956520206221,
-      },
-      {
-        description:
-          "**Strategy**:可以使用定身术,定住后绕后打断它的手后获得(只需要累计四次,不用全打掉,也就是要定4次)<br>由于这个BOSS非常脆皮,不建议打手以外任何部位,建议用棍花打,断手判定看打击次数而不是打击伤害。(BOSS很容易被打死,建议用出生给的那把武器打)<br><br>建议先备份存档,以免失败后无法获得下毒手 ",
-        regionSlug: "04_pansidongshangceng",
-        title: "[手甲][战斗前必看]下毒手",
-        longitude: -0.7104777756525493,
-        latitude: 1.2240161482835106,
       },
     ],
     groupSlug: "bmw_equipment",
@@ -5043,7 +4688,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
-
         title: "Bandit Chief",
         description: "**Location:** Guarding the chest",
         latitude: "0.96086953639707",
@@ -5051,7 +4695,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Fungiling",
         description: "",
         latitude: "0.78444652666475",
@@ -5059,7 +4702,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Crow Diviner",
         description: "Only once, upon first visit.",
         latitude: "0.75140696641255",
@@ -5067,7 +4709,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Rat Archer + 3x Rat Archer",
         description:
           "**Location:** On top of the gate.  Will jump down once the [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430) is defeated.\n\nThe Elite Rat Archer will drop [Rat Archer Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398492)",
@@ -5076,7 +4717,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Rat Captain",
         description: "",
         latitude: "0.42913727637555",
@@ -5084,7 +4724,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Rat Captain",
         description: "",
         latitude: "0.40172795530726",
@@ -5092,7 +4731,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Swift Bat",
         description:
           "**Location:** Inside the cave - through a small crack. \n\n**Drops:** [Swift Bat Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398760)",
@@ -5101,7 +4739,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Poisestone",
         description:
           "**Location:** Next to the Will Wisp inside the cave\n\n**Drops:**",
@@ -5118,7 +4755,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Spearbone",
         description:
           "**Location:** Guarding the [Sand Waterfall](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398854)",
@@ -5135,14 +4771,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Civet Sergeant",
         latitude: "0.62545735565719",
         longitude: "-0.98314126331562",
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Rat Governor",
         description:
           "Drops [Rat Governor Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399178) upon defeat",
@@ -5151,7 +4785,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Elite Rat Imperial Guard",
         description:
           "**Location:** On top of the gate.\n\nFlanked by 2 regular Rat Imperial Guards",
@@ -5160,7 +4793,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Elite Yaksha Patroller",
         description: "**Reward:** ??",
         latitude: "0.40533598149368",
@@ -5168,7 +4800,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "2x Frozen Corpse",
         description: "**Reward:** ??",
         latitude: "0.34775403151620",
@@ -5176,7 +4807,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Ginsengling",
         description: "Reward: Aged Ginseng",
         latitude: "0.27566511107365",
@@ -5184,7 +4814,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Lingzhiling, Fungiman?",
         description:
           "Does not record a separate journal account, but it different.",
@@ -5193,7 +4822,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Enslaved Yaksha",
         description: "**Reward:** ??",
         latitude: "0.52218334862656",
@@ -5201,7 +4829,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Red-haired Yaksha",
         description: "**Reward:** ??",
         latitude: "0.50183149368195",
@@ -5209,7 +4836,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Elite Blade Monk",
         description: "**Location:** ??  \n\n**Reward:** Blade Monk Spirit",
         latitude: "0.63944962643956",
@@ -5225,7 +4851,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Falcon Hermit",
         description: "**Reward:** Spirit",
         latitude: "0.87546309467641",
@@ -5233,68 +4858,28 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "6x Frozen corpse",
         latitude: "0.99880848985856",
         longitude: "-0.71538113786073",
       },
       {
         regionSlug: "chapter-3",
-
         title: "Ginsengling",
         latitude: "0.96849707792374",
         longitude: "-0.67791763473411",
       },
       {
         regionSlug: "chapter-3",
-
         title: "Golden Lotus Guai",
         latitude: "0.93308200732955",
         longitude: "-0.76277927469883",
       },
       {
         regionSlug: "chapter-3",
-
-        title: "Golden Lotus Guai",
-        latitude: "0.94391007481926",
-        longitude: "-0.76324018081294",
-      },
-      {
-        regionSlug: "chapter-3",
-
-        title: "Cyan Bat & Golden Lotus Guai",
-        latitude: "0.93539121074963",
-        longitude: "-0.76767000266460",
-      },
-      {
-        regionSlug: "chapter-3",
-
-        title: "Golden Lotus Guai",
-        description: "**Reward:** ??",
-        latitude: "0.91667722673797",
-        longitude: "-0.78407802334249",
-      },
-      {
-        regionSlug: "chapter-3",
-
         title: "Ginsengling",
         description: "Reward: Aged Ginseng",
         latitude: "0.94849640511413",
         longitude: "-0.76027234151644",
-      },
-      {
-        regionSlug: "chapter-3",
-
-        title: "2x Frozen Corpse",
-        latitude: "0.89793736847220",
-        longitude: "-0.79358277863579",
-      },
-      {
-        regionSlug: "chapter-3",
-
-        title: "Golden Lotus Guai",
-        latitude: "0.89828064904934",
-        longitude: "-0.78984914368738",
       },
     ],
     groupSlug: "bmw_enemies",
@@ -5304,52 +4889,10 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
-        title: "Wolf Scout & Wolf Swornsword",
-        latitude: "0.56149537623324",
-        longitude: "-0.82562685012888",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Wolf Scout",
-        latitude: "0.59376053852894",
-        longitude: "-0.82229224539151",
-      },
-      {
-        regionSlug: "chapter-1",
         title: "Crow Diviner",
         description: "**Reward:**\n- ??",
         latitude: "0.69571357865416",
         longitude: "-0.84772641913327",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Wolf Scout",
-        latitude: "0.63371409407627",
-        longitude: "-0.82537718194664",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Wolf Stalwart",
-        latitude: "0.63477400867556",
-        longitude: "-0.80870619293410",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "2x Wolf Soldier",
-        latitude: "0.68130033639682",
-        longitude: "-0.83758252359166",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Wolf Soldier",
-        latitude: "0.66495277708708",
-        longitude: "-0.86246110097488",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Croaky",
-        latitude: "0.66131336542622",
-        longitude: "-0.85177061256178",
       },
       {
         regionSlug: "chapter-1",
@@ -5383,12 +4926,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "**Location:** On the bridge",
         latitude: "0.75090249715950",
         longitude: "-0.56128711726555",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "3x Skeletal Snake",
-        latitude: "0.78555137334494",
-        longitude: "-0.55153980141401",
       },
       {
         regionSlug: "chapter-1",
@@ -5454,18 +4991,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "Scattered around the area.",
         latitude: "0.79123884690888",
         longitude: "-0.50156920042900",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Skeletal Snake",
-        latitude: "0.83409073933575",
-        longitude: "-0.49739801599389",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "3x Croaky",
-        latitude: "0.81970024616531",
-        longitude: "-0.58412870458591",
       },
       {
         regionSlug: "chapter-1",
@@ -6145,12 +5670,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.35290928452739",
-        longitude: "-0.81303253099384",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Yaksha Patroller & Cyan Bat",
         latitude: "0.34810299101741",
         longitude: "-0.77123165130538",
@@ -6160,18 +5679,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Yaksha Patroller & 2x Withered Corpse",
         latitude: "0.37467440351811",
         longitude: "-0.79339043481332",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.32285660035220",
-        longitude: "-0.95242264491546",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.29675163402368",
-        longitude: "-0.94720157528070",
       },
       {
         regionSlug: "chapter-3",
@@ -6187,121 +5694,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "2x Frozen Corpse",
-        latitude: "0.35373858906051",
-        longitude: "-0.88766897472732",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "3x Frozen Corpse",
-        description: "**Note:** Possible to drop Tiger Tally",
-        latitude: "0.33979096534576",
-        longitude: "-0.88409232571638",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        description: "**Location:** ??  \n\n**Effect:** ??",
-        latitude: "0.81872009596800",
-        longitude: "-0.56415813373914",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "2x Frozen Corpse",
-        description: "Two in general area.",
-        latitude: "0.26146933430137",
-        longitude: "-0.63839068291517",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "2x Frozen Corpse",
-        description: "Two in general area.",
-        latitude: "0.25883896117119",
-        longitude: "-0.61521028074966",
-        media: [
-          {
-            title: "",
-            url: "https://media.mapgenie.io/storage/media/e717affc-98f4-4491-a40e-f606e5ff01ab.jpeg",
-            type: "image",
-            mimeType: "image/jpeg",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.40138016505506",
-        longitude: "-0.78101503077113",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.84788666857355",
-        longitude: "-0.58912074252996",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.84912373146197",
-        longitude: "-0.58249289313773",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        description: "**Location:** ??  \n\n**Effect:** ??",
-        latitude: "0.84735649864227",
-        longitude: "-0.57471621651709",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "5x Frozen Corpse",
-        latitude: "0.40063474875326",
-        longitude: "-0.79670218405408",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Ginsengling",
         latitude: "0.40211521401568",
         longitude: "-0.80688063248499",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "3x Frozen Corpse",
-        description: "**Location:** ??  \n\n**Effect:** ??",
-        latitude: "0.26475729993967",
-        longitude: "-0.59893467922856",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "2x Frozen Corpse",
-        description:
-          "The first is in the open area below staircase. Second is at the top and will ambush you.",
-        latitude: "0.35946938252528",
-        longitude: "-0.78875985828577",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "7x Frozen Corpse",
-        latitude: "0.27231351882081",
-        longitude: "-0.64553293533805",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.52284272714435",
-        longitude: "-0.64698901845554",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.47781675601497",
-        longitude: "-0.64990818864771",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.48012974552701",
-        longitude: "-0.64589075069767",
       },
       {
         regionSlug: "chapter-3",
@@ -6311,53 +5706,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.46425929651164",
-        longitude: "-0.62663311772110",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        description: "**Location:** ??  \n\n**Effect:** ??",
-        latitude: "0.81895287458978",
-        longitude: "-0.57192906674007",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.81890869343971",
-        longitude: "-0.57736390324183",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse x3",
-        latitude: "0.82180968410924",
-        longitude: "-0.57377117084854",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        description: "**Location:** ??  \n\n**Effect:** ??",
-        latitude: "0.82571258468373",
-        longitude: "-0.57908714408435",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.82774491357983",
-        longitude: "-0.57873365878339",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Yaksha Patroller",
         latitude: "0.83105849108259",
         longitude: "-0.57528717710056",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.84276644255294",
-        longitude: "-0.57170813842603",
       },
       {
         regionSlug: "chapter-3",
@@ -6380,15 +5731,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Frozen Corpse & Lantern Warden",
+        title: "Lantern Warden",
         latitude: "0.63622299648873",
         longitude: "-0.59940397739607",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.64066223214979",
-        longitude: "-0.63104426311190",
       },
       {
         regionSlug: "chapter-3",
@@ -6467,21 +5812,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Cyan Bat & Enslaved Yaksha",
-        latitude: "0.52309078639252",
-        longitude: "-0.53044701945814",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Blade Monk & Withered Corpse",
         latitude: "0.50563450374159",
         longitude: "-0.53816491396736",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.51110151387276",
-        longitude: "-0.46074090456054",
       },
       {
         regionSlug: "chapter-3",
@@ -6498,12 +5831,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.53468159707116",
-        longitude: "-0.60912489947515",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "2x Lantern Warden",
         latitude: "0.53389521395810",
         longitude: "-0.60531313804461",
@@ -6514,12 +5841,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "Will ambush if coming from the west.",
         latitude: "0.53975205372079",
         longitude: "-0.61307611559749",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Starved Abomination & Cyan Bat",
-        latitude: "0.53976637035248",
-        longitude: "-0.60407227067250",
       },
       {
         regionSlug: "chapter-3",
@@ -6579,18 +5900,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Cyan Bat & Withered Corpse",
-        latitude: "0.51560744414988",
-        longitude: "-0.45782266115194",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Cyan Bat",
-        latitude: "0.51954905767839",
-        longitude: "-0.46619115326894",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Blade Monk",
         latitude: "0.52469868515827",
         longitude: "-0.47039685700432",
@@ -6603,7 +5912,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
-
         title: "Bullguard",
         description:
           "**Location:** Guarding the gate  \n\n**Reward:** \n- [Immobilize Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397909)\n- Stone Spirit\n- 396x Will",
@@ -6620,7 +5928,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Wandering Wight",
         description:
           "**Location:** Wandering around  the area\n\n**Reward:** \n- [Wandering Wight Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397324)\n- [Cat's Eye Beads](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397325)\n- Stone Spirit x1\n- 1,049 Experience\n- 691 Will",
@@ -6629,7 +5936,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Guangzhi",
         description:
           "**Location:** Forest  \n\n**Reward:** \n- [Red Tides](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398168) (Transformation Spell)\n- Stone Spirit x1\n- 700 Experience\n- 528 Will",
@@ -6646,7 +5952,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Guangmou",
         description:
           "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Guangmou Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397478)\n- Blood of the Iron Bull\n- 524 Will\n- Stone Spirit",
@@ -6655,7 +5960,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Baw-Li-Guhh-Lang",
         description:
           "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Baw-Li-Guhh-Lang Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397477)\n- Tadpole\n- 400 Will\n- 2 Yarn",
@@ -6664,7 +5968,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Lang-Li-Guhh-Baw",
         description:
           "**Location:** Sandgate Village - Village Entrance  \n\n**Reward:** \n- [Evil Repelling Medicament Formula](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398788)\n- Tadpole\n- Silk x2\n- Yarn x2",
@@ -6673,7 +5976,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Earth Wolf",
         description:
           "**Location:** Sandgate Village - Village Entrance\n  \n**Reward:** \n- [Earth Wolf Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397841)\n- Stone Spirit x1",
@@ -6682,7 +5984,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "King of Flowing Sands + Second Rat Prince",
         description:
           "**Location:** Sandgate Village - Valley Of Despair\n  \n**Reward:** \n- [Second Rat Prince Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397842)\n- Pungent Flesh Chunk\n- Blood of the Iron Bull x2\n- Silk x2\n- Yaoguai Core x2\n- Stone Spirit x1",
@@ -6691,7 +5992,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Tiger's Acolyte",
         description:
           "**Location:** Yellow Wind Formation - Windrest Hamlet\n  \n\n**Reward:** \n- [Tiger's Acolyte Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397845)\n- [Old-Rattle Drum](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399043)\n- Silk x2\n- Yarn x2\n- 758 Experience\n- 779 Will",
@@ -6700,7 +6000,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Gore-Eye Daoist",
         description:
           "**Location:** Sandgate Village - Valley Of Despair\n  \n\n**Reward:** ??",
@@ -6709,7 +6008,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Mother Of Stones",
         description:
           "**Location:** Fright Cliff - Squall Hideout\n\n**Reward:** \n- [Stone Essence](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398843)\n- Yaoguai Core x1\n- Stone Spirit x1",
@@ -6726,7 +6024,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Man-In-Stone",
         description:
           "**Location:** Fright Cliff - Squall Hideout   \n\n**Reward:** \n- [Azure Dust Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398189)",
@@ -6743,7 +6040,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Mad Tiger",
         description:
           "**Location:** Sandgate Village - Bottom Of The Well\n  \n\n**Reward:** \n- [Mad Tiger Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397847)\n- Blood of the Iron Bull\n- Yaoguai Core\n- Stone Spirit \n- 1102 Experience\n- 1023 Will",
@@ -6752,7 +6048,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: '"Tiger Vanguard"',
         description:
           "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Tiger Tally](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397848)\n- Silk x2\n- Yarn x2",
@@ -6761,7 +6056,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "First Prince of Flowing Sands",
         description:
           "**Location:** Sandgate Village - Valley of Despair.  Inside the cave - you must throw the [Pungent Flesh Chunk](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398750) into the chasm to summon him.  \n\n**Reward:** \n- Arhat Gold Piece\n- Silk x2\n- Yarn x2",
@@ -6770,7 +6064,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Macaque Chief #1",
         description:
           "**Location:** Snowhill Path - Frost-Clad Path  \n\n**Reward:** ??",
@@ -6779,7 +6072,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Captain Lotus-Vision",
         description:
           "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:** \n- [Spirit of Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398918) \n- [Frostsprout Twig](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399852)\n- Mind Core",
@@ -6788,7 +6080,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Macaque Chief #2",
         description:
           "**Location:** Pagoda Realm - Warding Temple\n\n**Reward:** ??",
@@ -6797,7 +6088,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Apramana Bat",
         description:
           "**Location:** Bitter Lake - North Shore Of The Bitter Lake\n\n**Reward:** ??",
@@ -6806,7 +6096,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Yin Tiger",
         description:
           "**Location:** Zodiac Village\n\n**Reward:** \n- Ebon Flow Spell\n- Iron Set Armour\n- Yin Tiger Spirit\n- Extra Curio Slot (speak to him afterJ",
@@ -6815,7 +6104,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Non-White #1",
         description:
           "**Location:** Valley Of Ecstasy - Mindfulness Cliff\n(Frist encounter)\n\n**Reward:** \n- [Non-White Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398920)",
@@ -6824,7 +6112,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Lang-Li-Guhh-Lang",
         description:
           "**Location:** Valley Of Ecstasy - Forest Of Felicity\n  \n\n**Reward:** \n- Tadpole\n- Refined Iron Sand \n- Yaoguai Core.",
@@ -6833,7 +6120,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Old Ginseng Guai",
         description:
           "**Location:** Valley Of Ecstasy - Forest Of Felicity\n  \n\n**Reward:** \n- [Old Ginseng Guai Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399046)",
@@ -6842,7 +6128,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Non-Able",
         description:
           "**Location:** Valley Of Ecstasy - Brook Of Bliss  \n  \n\n**Reward:** \n- [Non-Able Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399047)",
@@ -6851,7 +6136,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Captain Void-Illusion",
         description:
           "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Void-Illusion Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399048)",
@@ -6860,7 +6144,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Captain Kalpa-Wave",
         description:
           "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Kalpa-Wave Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399049)",
@@ -6869,7 +6152,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Non-Pure",
         description:
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Pure Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399050)",
@@ -6878,7 +6160,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Non-Void",
         description:
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Void Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399051)",
@@ -6887,12 +6168,19 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Monk From The Sea",
         description:
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** ??",
         latitude: "1.13507951557510",
         longitude: "-0.61436533928003",
+        media: [
+          {
+            title: "",
+            url: "https://lh3.googleusercontent.com/_Vvz0QfzBfZBy_uqte6GXHcJVMjEhAB9L4wkiFEr_ZMA2lk68fj8go9dYWSx6wv6xJd6pQJwCI9gyNc3tBKF_MZ6Vn0ubxeYOYzEptVWULfe7ao=s0",
+            type: "image",
+            mimeType: "",
+          },
+        ],
       },
       {
         description:
@@ -6936,7 +6224,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:打完和牛哥对话进行(在下次就在碧云洞口了)  <br>  [Strategy]:如果发现牛哥不在,记得返回春秋寨再次对话；  1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；  可以站在地图外用仇恨把BOSS拉出来。然后就会被卡在地图外。一直蓄力戳棍可以无伤过  如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br> ",
+          " [Reward]:打完和牛哥对话进行(在下次就在碧云洞口了)  <br>  [Strategy]:如果发现牛哥不在,记得返回春秋寨再次对话；  1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；  可以站在地图外用仇恨把BOSS拉出来.然后就会被卡在地图外.一直蓄力戳棍可以无伤过  如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br> ",
         regionSlug: "05_huoyanshan",
         title: "红银战车",
         longitude: -0.34544303784556973,
@@ -6944,7 +6232,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  <br>  [Strategy]:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤。离屁股太近的话会被后喷火秒<br> ",
+          " [Reward]:  <br>  [Strategy]:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤.离屁股太近的话会被后喷火秒<br> ",
         regionSlug: "05_huoyanshan",
         title: "褐铁战车",
         longitude: -1.1949097751573845,
@@ -6952,7 +6240,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' <span style="font-family: var(--van-base-font);">[Strategy]:躲在离他最近的石壁凹陷处,劈棍蓄力后出去打出硬直然后接着打,要攻击了就马上退回凹陷,如此反复即可。并不难打(也可以三段立棍反复敲,不耗血不耗蓝)</span>  <span style="font-family: var(--van-base-font);">[攻略方法2]:</span>没必要上面那么磨叽,直接用精魄冻结/定身+棍花回转,很快就能打死 ',
+          ' <span style="font-family: var(--van-base-font);">[Strategy]:躲在离他最近的石壁凹陷处,劈棍蓄力后出去打出硬直然后接着打,要攻击了就马上退回凹陷,如此反复即可.并不难打(也可以三段立棍反复敲,不耗血不耗蓝)</span>  <span style="font-family: var(--van-base-font);">[攻略方法2]:</span>没必要上面那么磨叽,直接用精魄冻结/定身+棍花回转,很快就能打死 ',
         regionSlug: "05_huoyanshan",
         title: "灰铜战车",
         longitude: -0.9378476966145683,
@@ -6984,7 +6272,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  九叶灵芝精精魄、地灵伞盖。概率给九叶灵芝种子&nbsp; 还有概率给虚空结  [Strategy]:  关系到一个成就&nbsp; &nbsp;&nbsp;  注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断  聚形散气、变身可以解蘑菇异常 ",
+          " [Reward]:  九叶灵芝精精魄、地灵伞盖.概率给九叶灵芝种子&nbsp; 还有概率给虚空结  [Strategy]:  关系到一个成就&nbsp; &nbsp;&nbsp;  注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断  聚形散气、变身可以解蘑菇异常 ",
         regionSlug: "05_huoyanshan",
         title: "九叶灵芝精",
         longitude: -0.5834652412309538,
@@ -6992,7 +6280,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br>  [Reward]:  小活师  [Strategy]:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打。  BOSS火伤,建议带法宝避火罩 ",
+          " 注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br>  [Reward]:  小活师  [Strategy]:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打.  BOSS火伤,建议带法宝避火罩 ",
         regionSlug: "05_huoyanshan",
         title: "波浪浪",
         longitude: -1.0795285595006305,
@@ -7032,7 +6320,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 靠近后低飞,接近会强制降落,太高了会摔不少血  [Reward]:  小活师、Fine Gold Thread、<span style="font-family: var(--van-base-font);">珍玩【仙胞石片】:无视对手四灾耐性</span>  [Strategy]:在地图最角落那块土色空地上,和背景颜色差不多,打的时候会刷天兵(天兵会攻击BOSS但是没有伤害,只能吸引BOSS攻击)。  关联成就【蛙声一片六十六难】,这是最后一只青蛙  其他青蛙BOSS位置:  <a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821482&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个浪</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821510&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个波(雷)</a>、<a href="https://app.gamersky.com/map/?mapId=54&amp;landmarkId=821851&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个浪(冰)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822231&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个波(毒)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=61&amp;landmarkId=822290&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波浪浪(火)</a> ',
+          ' 靠近后低飞,接近会强制降落,太高了会摔不少血  [Reward]:  小活师、Fine Gold Thread、<span style="font-family: var(--van-base-font);">珍玩【仙胞石片】:无视对手四灾耐性</span>  [Strategy]:在地图最角落那块土色空地上,和背景颜色差不多,打的时候会刷天兵(天兵会攻击BOSS但是没有伤害,只能吸引BOSS攻击).  关联成就【蛙声一片六十六难】,这是最后一只青蛙  其他青蛙BOSS位置:  <a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821482&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个浪</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821510&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个波(雷)</a>、<a href="https://app.gamersky.com/map/?mapId=54&amp;landmarkId=821851&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个浪(冰)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822231&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个波(毒)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=61&amp;landmarkId=822290&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波浪浪(火)</a> ',
         regionSlug: "06_huaguoshan",
         title: "浪波波",
         longitude: -0.47573168463125626,
@@ -7040,7 +6328,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:寒铁叶、Fine Gold Thread、Mind Core  [Strategy]:跟步云鹿,金甲犀在一条直线上。按照我图三的位置定位,图二是地图边缘三个小山尖,图二是 Poison Chief二的样子 ",
+          " [Reward]:寒铁叶、Fine Gold Thread、Mind Core  [Strategy]:跟步云鹿,金甲犀在一条直线上.按照我图三的位置定位,图二是地图边缘三个小山尖,图二是 Poison Chief二的样子 ",
         regionSlug: "06_huaguoshan",
         title: " Poison Chief-第三只",
         longitude: -0.19467858192902554,
@@ -7088,7 +6376,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 中间大水池靠章节开始的边上,里面的大湖中间一直冒水花,靠近怪就出来了。  这个是boss  [Reward]:Mind Core、镔铁砂x2  [注意]:水木兽有很多只,别的可以解锁图鉴,但这只有血条的关系到70难的成就!!!特别注意!!!  [Strategy]:残血后会频繁潜水折磨你,建议穿上水中回血那套,免得被他耗死 ",
+          " 中间大水池靠章节开始的边上,里面的大湖中间一直冒水花,靠近怪就出来了.  这个是boss  [Reward]:Mind Core、镔铁砂x2  [注意]:水木兽有很多只,别的可以解锁图鉴,但这只有血条的关系到70难的成就!!!特别注意!!!  [Strategy]:残血后会频繁潜水折磨你,建议穿上水中回血那套,免得被他耗死 ",
         regionSlug: "06_huaguoshan",
         title: "水木兽[BOSS]",
         longitude: -0.554727766066037,
@@ -7134,7 +6422,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
-
         title: "Lingxuzi",
         description:
           "**Reward:**\n- [Grey Wolf Mask](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397300)\n- [Mind Core](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397301)\n- 700 Will",
@@ -7151,7 +6438,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Elder Jinchi",
         description:
           "**Location:** Found in the secret [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380) (only accessible by ringing the 3 bells)\n\n**Reward:**\n- Fireproof Mantle Vessel\n- 2,000 Will",
@@ -7168,7 +6454,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Black Wind King",
         description:
           "**Location:** Black Wind Cave - Cave Interior\n\n**Reward:**\n- [Cloud Step Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398307)",
@@ -7177,7 +6462,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Black Bear Guai",
         description:
           "**Location:** Black Wind Cave - Bodhi Peak\n\n**Reward:**\n- Craving Eyes Relic\n- Flame Ebongold\n- Mind Core",
@@ -7186,7 +6470,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Whiteclad Noble",
         description:
           "**Location:** Bamboo Grove - Marsh of the White Mist\n\n**Reward:**\n- [Twin Serpents Staff](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398196)\n- Jade Fang",
@@ -7203,7 +6486,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Erlang, The Sacred Divinity",
         description:
           "**Location:** Prologue  \n\n**Note:** This is a tutorial boss fight - you cannot lose it",
@@ -7212,7 +6494,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Red Loong",
         description:
           "**Location:** Inside the hidden [Waterfall Cave](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398283).  You must first obtain the [Loong Scales](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398767) from Chapter 2 to pass through the waterfall.\n\n**Reward:**\n- Boshan Censer\n- Thunder Tail\n- Loong Pearl\n- Mind Core\n- Silk\n- 1652 Experience\n- 1376 Will",
@@ -7221,7 +6502,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Tiger Vanguard",
         description:
           "**Location:** Crouching Tiger Temple - Temple Entrance  \n\n**Reward:**\n- [Rock Solid Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398769)\n- [Keeness of Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398770)\n- Mind Core x1\n- Silk x3\n- 1652 Exp\n-",
@@ -7238,7 +6518,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Stone Vanguard",
         description:
           "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Galeguard Set](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399052)\n- Sterness of Stone\n- Mind Core x1\n- Yaoguai Core x2",
@@ -7255,7 +6534,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Yellow Wind Sage",
         description:
           "**Location:** Crouching Tiger Temple - Cellar\n  \n\n**Reward:**\n- [Rat Sage Staff](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399056)\n\n**Reward at Conclusion of Chapter 2:**\n- 1x Samadhi Wind Agate\n- 2x Cold Iron Leaves\n- 5x Silk\n- 2x Yaoguai Core\n- 1x Refined Iron Sand\n- 1x Mind Core",
@@ -7264,7 +6542,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Shigandang",
         description:
           "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Cloud-Patterned Stone Staff](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399057)\n- Heart of Stone\n- Skhanda of Feeling\n- Mind Core x1\n- Yaoguai Core x2",
@@ -7273,7 +6550,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Fuban",
         description:
           "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Wind Tamer](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399060)\n- Sky-Piercing Horn",
@@ -7282,7 +6558,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Black Loong",
         description:
           "**Location:** Fright Cliff - Hidden Loong Cavern\n\n**Reward:**\n- [Tridacna Pendant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399054)\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
@@ -7291,7 +6566,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Kang-Jin Loong",
         description:
           "**Location:** Snowhill Path - Mirrormere\n  \n\n**Reward:**\n- Starlit Cloud-Bidden Antler",
@@ -7308,7 +6582,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Captain Wise-Voice",
         description:
           "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:**\n- [Spirit of Captain Wise-Voice](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398919)\n- Mind Core",
@@ -7317,7 +6590,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Kang-Jin Star",
         description:
           "**Location:** Bitter Lake - Turtle Island\n\n**Reward:**\n- Loong Pearl\n- Mind Core",
@@ -7326,7 +6598,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Cyan Loong",
         description:
           "**Location:** Bitter Lake - Turtle Island - You must interact with the dragon statue using the [Loong Scales](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398767)\n\n**Reward:**\n- Tridacna Pendant\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
@@ -7343,7 +6614,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-
         title: "Yellowbrow + Macaque Chief",
         description:
           "**Location:** New Thunderclap Temple - Mahavira Hall\n\n  \n\n**Reward:** ??",
@@ -7360,7 +6630,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:阴阳法衣、Fine Gold Threadx2、<span style="font-family: var(--van-base-font);">虹霓云绦</span>  <br>  [Strategy]:重点!!!先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身。</span>  在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span>  <span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span>  <span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上。</span>  <span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span> ',
+          ' [Reward]:阴阳法衣、Fine Gold Threadx2、<span style="font-family: var(--van-base-font);">虹霓云绦</span>  <br>  [Strategy]:重点!!!先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身.</span>  在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span>  <span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span>  <span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上.</span>  <span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span> ',
         regionSlug: "05_huoyanshan",
         title: "火焰山土地",
         longitude: -0.24355521737027175,
@@ -7368,7 +6638,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、Fine Gold Thread、Mind Core、珍玩【水火蓝】</span>  [Strategy]:  第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理。</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿Awaken Wine Worm。</span>  <span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打。</span>  <span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span> ',
+          ' [Reward]:  大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、Fine Gold Thread、Mind Core、珍玩【水火蓝】</span>  [Strategy]:  第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理.</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿Awaken Wine Worm.</span>  <span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打.</span>  <span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span> ',
         regionSlug: "05_huoyanshan",
         title: "璧水金睛兽",
         longitude: -0.6260214051914943,
@@ -7384,7 +6654,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:龙珠、珍玩-金色鲤、法术-金岚(变身龙)  [提醒]:需要把前面章节的三龙打完,到这里才会出现小黄龙,不然这里就是空的。【一般经过能打的龙都会念一段词:无有因,……】  <br>  [Strategy]:  这是目前为止打过最粪的怪,建议在远处蓄力棍一下一下敲,定风珠和三蓄棍可打断他进入飞天状态,若进入飞天状态可用寅虎挡一下,铜头铁臂后注意他的投技,可以配合回棍势的丹药一下一下蓄力敲死吧  他飞天的时候 躲过第一下俯冲后直接用隐身术, 可以站着看看他表演, 蓄好棍等他下来  可以尝试用禁字法配合戳棍,这怪很喜欢二人转,趁他逛街的时候蓄力,蓄满3段或者他要冲过来了就放 ",
+          " [Reward]:龙珠、珍玩-金色鲤、法术-金岚(变身龙)  [提醒]:需要把前面章节的三龙打完,到这里才会出现小黄龙,不然这里就是空的.【一般经过能打的龙都会念一段词:无有因,……】  <br>  [Strategy]:  这是目前为止打过最粪的怪,建议在远处蓄力棍一下一下敲,定风珠和三蓄棍可打断他进入飞天状态,若进入飞天状态可用寅虎挡一下,铜头铁臂后注意他的投技,可以配合回棍势的丹药一下一下蓄力敲死吧  他飞天的时候 躲过第一下俯冲后直接用隐身术, 可以站着看看他表演, 蓄好棍等他下来  可以尝试用禁字法配合戳棍,这怪很喜欢二人转,趁他逛街的时候蓄力,蓄满3段或者他要冲过来了就放 ",
         regionSlug: "04_pansidongxiaceng",
         title: "小黄龙",
         longitude: -1.0384971238538867,
@@ -7392,7 +6662,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]  根器【舌长思】、虹霓云绦、Fine Gold Threadx2、金趁心x2、先天锟钢、Mind Core  [打法秘诀]  建议关闭战斗自动锁定,锁定会对准天上的准星,导致很多攻击打不到,脱锁就可以敲腿了。  注意先去紫云山拿法宝·绣花针再来打,能好打很多。(boss进入金色二阶段时用绣花针会变回一阶段,不要开局就给用了)  用完绣花针后一段会进一下剧情,在进剧情前别用变身,进剧情会把变身取消。  注意:千万要首先完成蜘蛛精四妹支线然后击杀百眼魔君,若过早击杀百眼魔君会导致该支线直接中断。  战斗过程使用虫变身有特殊对话。 ",
+          " [Reward]  根器【舌长思】、虹霓云绦、Fine Gold Threadx2、金趁心x2、先天锟钢、Mind Core  [打法秘诀]  建议关闭战斗自动锁定,锁定会对准天上的准星,导致很多攻击打不到,脱锁就可以敲腿了.  注意先去紫云山拿法宝·绣花针再来打,能好打很多.(boss进入金色二阶段时用绣花针会变回一阶段,不要开局就给用了)  用完绣花针后一段会进一下剧情,在进剧情前别用变身,进剧情会把变身取消.  注意:千万要首先完成蜘蛛精四妹支线然后击杀百眼魔君,若过早击杀百眼魔君会导致该支线直接中断.  战斗过程使用虫变身有特殊对话. ",
         regionSlug: "04_huanghuaguan",
         title: "百眼魔君",
         longitude: -0.6049839146306226,
@@ -7400,7 +6670,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 想全收集的不要直接去找魔君,先杀毒敌大王,关系到获得武器材料,去了没打死他毒敌大王也会消失。  [Reward]:  昆崎毒敌甲材料【毒敌钩】、金称心、Mind Core、彩云葫芦、通天角  [Strategy]:&nbsp;  如果不打毒敌大王,最终BOSS他会和晦月魔君互殴。进入<span style="font-family: var(--van-base-font);">晦月魔君二阶段过场动画完成后</span><span style="font-family: var(--van-base-font);">毒敌大王会被</span>晦月魔君击杀<span style="font-family: var(--van-base-font);">。</span>  单挑毒敌大王会获得材料【毒敌钩】,建议提前击杀。  注意 打<span style="font-family: var(--van-base-font);">晦月魔君一阶段,毒敌不死,进入2阶段也会触发【</span>齐齐整整四十五难<span style="font-family: var(--van-base-font);">&nbsp;】,所以不一定为了成就非得杀</span>  毒敌大王的四个儿子:<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822091&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子1</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822235&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子2</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822236&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子3</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822240&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子4</a><br> ',
+          ' 想全收集的不要直接去找魔君,先杀毒敌大王,关系到获得武器材料,去了没打死他毒敌大王也会消失.  [Reward]:  昆崎毒敌甲材料【毒敌钩】、金称心、Mind Core、彩云葫芦、通天角  [Strategy]:&nbsp;  如果不打毒敌大王,最终BOSS他会和晦月魔君互殴.进入<span style="font-family: var(--van-base-font);">晦月魔君二阶段过场动画完成后</span><span style="font-family: var(--van-base-font);">毒敌大王会被</span>晦月魔君击杀<span style="font-family: var(--van-base-font);">.</span>  单挑毒敌大王会获得材料【毒敌钩】,建议提前击杀.  注意 打<span style="font-family: var(--van-base-font);">晦月魔君一阶段,毒敌不死,进入2阶段也会触发【</span>齐齐整整四十五难<span style="font-family: var(--van-base-font);">&nbsp;】,所以不一定为了成就非得杀</span>  毒敌大王的四个儿子:<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822091&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子1</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822235&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子2</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822236&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子3</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822240&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子4</a><br> ',
         regionSlug: "04_ziyunshan",
         title: "毒敌大王",
         longitude: -0.596209147236749,
@@ -7424,7 +6694,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:识蕴  [Strategy]:需要 色蕴,想蕴,受蕴,行蕴解锁boss战  此boss拳头从天降这招好像是秒的,建议卡在他横扫攻击范围往外站一点点,只要闪避捶地的地震波,等他停下来暴露蓝色结晶就可以拉满输出秒杀,临死之前会疯狂砸地,所以打完记得后撤到攻击范围外只要躲地震波就行。打完后从胳膊上上去,拿到第五<span style="font-family: var(--van-base-font);">蕴</span><span style="font-family: var(--van-base-font);">(识蕴)</span>  五蕴可以拿去找戌狗<span style="font-family: var(--van-base-font);">炼</span><span style="font-family: var(--van-base-font);">五蕴</span><span style="font-family: var(--van-base-font);">丹</span><span style="font-family: var(--van-base-font);">,可以同时加生命、法力和气力</span>  <br>  地点:看到水帘洞后背对着水帘洞飞到两个山中间有一山洞,飞进去就触发BOSS,记得先下云,不然会被吼下来摔掉血 ',
+          ' [Reward]:识蕴  [Strategy]:需要 色蕴,想蕴,受蕴,行蕴解锁boss战  此boss拳头从天降这招好像是秒的,建议卡在他横扫攻击范围往外站一点点,只要闪避捶地的地震波,等他停下来暴露蓝色结晶就可以拉满输出秒杀,临死之前会疯狂砸地,所以打完记得后撤到攻击范围外只要躲地震波就行.打完后从胳膊上上去,拿到第五<span style="font-family: var(--van-base-font);">蕴</span><span style="font-family: var(--van-base-font);">(识蕴)</span>  五蕴可以拿去找戌狗<span style="font-family: var(--van-base-font);">炼</span><span style="font-family: var(--van-base-font);">五蕴</span><span style="font-family: var(--van-base-font);">丹</span><span style="font-family: var(--van-base-font);">,可以同时加生命、法力和气力</span>  <br>  地点:看到水帘洞后背对着水帘洞飞到两个山中间有一山洞,飞进去就触发BOSS,记得先下云,不然会被吼下来摔掉血 ',
         regionSlug: "06_huaguoshan",
         title: "大石敢当",
         longitude: -0.9749979473096744,
@@ -7440,7 +6710,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span>  (<span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
+          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  (<span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军-Landing Spot 1",
         longitude: -0.6352323742729311,
@@ -7448,7 +6718,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:神珍【藕丝步云履】,Mind Core  <br>  [Strategy]:记得带定风珠  这B有二阶段!泡酒物记得放喝酒消除负面状态的。  二阶段打不过可以选择摸鱼,二师叔会全程助战,单刷BOSS  挂机要是觉得二师叔打的慢,可以选择立棍挂在天上,BOSS读指令,立棍的时候只会放血球,站着不动二师叔输出空间比较大  <br>  猴毛分身+定身打死第一阶段,boss bug直接金身无法选中,一会就死掉了 ",
+          " [Reward]:神珍【藕丝步云履】,Mind Core  <br>  [Strategy]:记得带定风珠  这B有二阶段!泡酒物记得放喝酒消除负面状态的.  二阶段打不过可以选择摸鱼,二师叔会全程助战,单刷BOSS  挂机要是觉得二师叔打的慢,可以选择立棍挂在天上,BOSS读指令,立棍的时候只会放血球,站着不动二师叔输出空间比较大  <br>  猴毛分身+定身打死第一阶段,boss bug直接金身无法选中,一会就死掉了 ",
         regionSlug: "06_huaguoshan",
         title: "Cloudtreading Deer",
         longitude: -0.741836175065572,
@@ -7456,7 +6726,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:根器【意见欲】(开启轮回功能)、毫毛·救命毫毛(二周目轮回自动获得)  <br>  [Strategy]:  BOSS分4个阶段,4个阶段都是水场地,可以为此配装。  1阶段无属性石猿,很简单,自己体会就好；  2阶段光炎、冰霜属性石猿,期间会使用分身2打1,注意跳躲范围伤害；  2阶段结束后会有记录点,后续死了就不用重新打前2个阶段了；  3阶段大圣残躯,还是较为好打的阶段,可以用4蓄力重击轻松过关；  4阶段是有6根的大圣残躯,是真正的难点,新增了很多技能和针对天命人的机制,会有较大消耗,尽量在3阶段保留资源投入到4阶段攻略中；  没有进入二周目轮回的话BOSS会复原,可以再度挑战,恢复打石猿前进度 ",
+          " [Reward]:根器【意见欲】(开启轮回功能)、毫毛·救命毫毛(二周目轮回自动获得)  <br>  [Strategy]:  BOSS分4个阶段,4个阶段都是水场地,可以为此配装.  1阶段无属性石猿,很简单,自己体会就好；  2阶段光炎、冰霜属性石猿,期间会使用分身2打1,注意跳躲范围伤害；  2阶段结束后会有记录点,后续死了就不用重新打前2个阶段了；  3阶段大圣残躯,还是较为好打的阶段,可以用4蓄力重击轻松过关；  4阶段是有6根的大圣残躯,是真正的难点,新增了很多技能和针对天命人的机制,会有较大消耗,尽量在3阶段保留资源投入到4阶段攻略中；  没有进入二周目轮回的话BOSS会复原,可以再度挑战,恢复打石猿前进度 ",
         regionSlug: "06_huaguoshan",
         title: "Stone Monkey",
         longitude: -1.336302545409751,
@@ -7508,7 +6778,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
-
         title: "Bell #1",
         description:
           "Interact with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)",
@@ -7525,7 +6794,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Ancient Guanyin Temple",
         description:
           "A secret area that can only be accessed by ringing the 3 Bells:\n\n- [Bell #1](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397298)\n- [Bell #2](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397473)\n- [Bell #3](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397472)",
@@ -7534,7 +6802,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Bell #3",
         description:
           "Interact with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)",
@@ -7551,7 +6818,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Bell #2",
         description:
           "**Location:** Up the stairs from the [Guangmou](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397385) arena\n\nInteract with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)",
@@ -7560,7 +6826,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
-
         title: "Secret: Waterfall Cave",
         description:
           "**Location:** Behind the waterfall.  You must first obtain the [Loong Scales](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398767) from Chapter 2 and return here.",
@@ -7577,7 +6842,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Hidden Chamber",
         description:
           "**Location:** Break open the stone wall in the [First Prince of Flowing Sands](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397843) arena using the Wandering Wight spirit",
@@ -7600,7 +6864,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Sand Waterfall - Hidden Loong Cavern",
         description:
           "**Location:** Requires the [Loong Scales](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398767) to access [Black Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397647)'s hidden chamber behind",
@@ -7617,7 +6880,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-
         title: "Tiger Temple Secret Passage",
         description:
           "A hidden underground passage, accessible by placing the [Sterness of Stone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398923) in the statue",
@@ -7687,7 +6949,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         description:
-          "<div><div>打完了红孩儿进了花果山也是可以传送回来继续任务。会分为两种情况:</div><div>1.打完第二辆车,后面有跟牛哥对话,打第三辆车的时候会有牛哥帮你,然后在门口自动触发剧情。</div><div>2.你自己打完第三辆车,这个时候来到门口是不会触发剧情的。你要回到第三辆车那里,牛哥在那里。对话完过来解锁隐藏地图。(第三辆车在翠云殿往山上走的路,牛哥在那)</div></div>",
+          "<div><div>打完了红孩儿进了花果山也是可以传送回来继续任务.会分为两种情况:</div><div>1.打完第二辆车,后面有跟牛哥对话,打第三辆车的时候会有牛哥帮你,然后在门口自动触发剧情.</div><div>2.你自己打完第三辆车,这个时候来到门口是不会触发剧情的.你要回到第三辆车那里,牛哥在那里.对话完过来解锁隐藏地图.(第三辆车在翠云殿往山上走的路,牛哥在那)</div></div>",
         regionSlug: "05_huoyanshan",
         title: "隐藏地图入口",
         longitude: -0.6576701051815235,
@@ -7695,7 +6957,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "<div>这里也是璧水金睛兽的战斗场地,在最开始的战斗中引诱它使用火属性攻击打碎冰墙能直接进入下一个场地,在第二个场地再引诱它使用冰属性攻击熄灭火墙就可以进入第三个场地,在那里辟水金睛兽会同时使用冰火双属性与玩家战斗。推荐想要挑战高难的天命人尝试。</div><div>打完之后会有关于红孩儿身世的CG,观看完毕之后会传送出去</div>",
+          "<div>这里也是璧水金睛兽的战斗场地,在最开始的战斗中引诱它使用火属性攻击打碎冰墙能直接进入下一个场地,在第二个场地再引诱它使用冰属性攻击熄灭火墙就可以进入第三个场地,在那里辟水金睛兽会同时使用冰火双属性与玩家战斗.推荐想要挑战高难的天命人尝试.</div><div>打完之后会有关于红孩儿身世的CG,观看完毕之后会传送出去</div>",
         regionSlug: "05_huoyanshan",
         title: "璧水金睛兽双属性场地",
         longitude: -0.4949855357822628,
@@ -7733,7 +6995,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "吸引到这里后壁水金晴兽的属性攻击会切换为冰,相较于火属性较简单,如果继续前进会切换双属性,变得比较难打。",
+          "吸引到这里后壁水金晴兽的属性攻击会切换为冰,相较于火属性较简单,如果继续前进会切换双属性,变得比较难打.",
         regionSlug: "05_huoyanshan",
         title: "壁水金晴兽冰属性场地",
         longitude: -0.5346224284778316,
@@ -7748,7 +7010,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "跟着小狐狸前往下一个地点 丹炉谷谷口。  你要是站在这里不下去小狐狸还会红温,可以调戏一下。 <div>注:前面被火拦着的是去清凉坡的路,等芭蕉扇灭火后 可以过<br></div><div>(这里也会遇到赤金战车,然后进入隐藏地图入口)<br></div>",
+          "跟着小狐狸前往下一个地点 丹炉谷谷口.  你要是站在这里不下去小狐狸还会红温,可以调戏一下. <div>注:前面被火拦着的是去清凉坡的路,等芭蕉扇灭火后 可以过<br></div><div>(这里也会遇到赤金战车,然后进入隐藏地图入口)<br></div>",
         regionSlug: "05_huoyanshan",
         title: "跳下去吧 不会死的",
         longitude: -0.6409634456019546,
@@ -7772,7 +7034,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 石父→灰铜战车→急如火快如风 <div>这是三场BOSS连战,中途没有土地庙,合理利用路上的灵蕴和精魄恢复状态。有压力大不了重新跑图。</div>",
+          " 石父→灰铜战车→急如火快如风 <div>这是三场BOSS连战,中途没有土地庙,合理利用路上的灵蕴和精魄恢复状态.有压力大不了重新跑图.</div>",
         regionSlug: "05_huoyanshan",
         title: "BOSS RUSH 注意状态",
         longitude: -0.8025758718805491,
@@ -7780,7 +7042,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '吸的时候下面的战车会炸你一炮,真掉下去了记得还是往回走一下把洞里的东西捡了,<span style="font-family: var(--van-base-font);">在战车的反方向。</span><div><span style="font-family: var(--van-base-font);">前有诱敌头盖骨,事实证明吸引不死人的光球对猴头也有效</span></div>',
+          '吸的时候下面的战车会炸你一炮,真掉下去了记得还是往回走一下把洞里的东西捡了,<span style="font-family: var(--van-base-font);">在战车的反方向.</span><div><span style="font-family: var(--van-base-font);">前有诱敌头盖骨,事实证明吸引不死人的光球对猴头也有效</span></div>',
         regionSlug: "05_huoyanshan",
         title: "吸灵韵小心被炸",
         longitude: -0.9625768100160315,
@@ -7802,7 +7064,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 车轮滚滚 碰到便死。定身、铜头都没用。  可带加移速的物品,装备行者套2件套效果,精魄百足虫,酒鲜酿蓝桥风月,加速通过。 <div>注:不要相信地形,左右固定位置可以躲(一般有个小怪的位置),路径石头会被撞碎。</div><div>车轮可以压死小怪,不用硬打</div><div>注:bug已经修改,不能用寅虎</div>",
+          " 车轮滚滚 碰到便死.定身、铜头都没用.  可带加移速的物品,装备行者套2件套效果,精魄百足虫,酒鲜酿蓝桥风月,加速通过. <div>注:不要相信地形,左右固定位置可以躲(一般有个小怪的位置),路径石头会被撞碎.</div><div>车轮可以压死小怪,不用硬打</div><div>注:bug已经修改,不能用寅虎</div>",
         regionSlug: "05_huoyanshan",
         title: "当心秒杀铁球",
         longitude: -0.539295229813149,
@@ -8024,7 +7286,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 黑手道人手太多、血太少,务必只打后背上的手,打断4条手臂会获得【下毒手】  建议打法:定身or冻结后用棍花打背后的手臂,打到背上只有2条手臂后击杀。 <div>另外黑手道人是去紫云山的关键boss,务必要打</div>",
+          " 黑手道人手太多、血太少,务必只打后背上的手,打断4条手臂会获得【下毒手】  建议打法:定身or冻结后用棍花打背后的手臂,打到背上只有2条手臂后击杀. <div>另外黑手道人是去紫云山的关键boss,务必要打</div>",
         regionSlug: "04_pansidongshangceng",
         title: "黑手道人",
         longitude: -0.6294214493287882,
@@ -8062,7 +7324,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 这个地方有大量蜘蛛卵,使用双头鼠变身自爆可20秒刷2000+灵蕴(不能全打死可以补用一个定风珠,或者升级一下双头鼠的伤害)  隐身过去定风珠然后变鼠人自爆,然后直接青符传送,如此重复。<br> <div>【可以增加掉落的装备】</div><div>珍玩金花玉萼(石中人处购买)、珍玩【仙箓】、百戏套装(豪华版赠礼),精魄带【幽灯鬼】,</div><div>全部装备,每20秒可刷3300+灵韵(一周目)；</div><div>实测二周目也能刷,带两个<span style="font-family: var(--van-base-font);">金花玉萼+百戏套+幽灯鬼,每趟9500+灵韵</span></div><div><br></div>',
+          ' 这个地方有大量蜘蛛卵,使用双头鼠变身自爆可20秒刷2000+灵蕴(不能全打死可以补用一个定风珠,或者升级一下双头鼠的伤害)  隐身过去定风珠然后变鼠人自爆,然后直接青符传送,如此重复.<br> <div>【可以增加掉落的装备】</div><div>珍玩金花玉萼(石中人处购买)、珍玩【仙箓】、百戏套装(豪华版赠礼),精魄带【幽灯鬼】,</div><div>全部装备,每20秒可刷3300+灵韵(一周目)；</div><div>实测二周目也能刷,带两个<span style="font-family: var(--van-base-font);">金花玉萼+百戏套+幽灯鬼,每趟9500+灵韵</span></div><div><br></div>',
         regionSlug: "04_pansidongshangceng",
         title: "刷钱点(玉碎池银行)",
         longitude: -0.4956096937793859,
@@ -8076,7 +7338,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: 0.5594457720361987,
       },
       {
-        description: "打蛤蟆省的绕路了,具体操作是跳跃+重攻击,直接跳不行。",
+        description: "打蛤蟆省的绕路了,具体操作是跳跃+重攻击,直接跳不行.",
         regionSlug: "04_pansidongxiaceng",
         title: "这里有个三级台阶可以跳上去",
         longitude: -1.150845483147208,
@@ -8084,7 +7346,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "好多人不知道小黄龙掉变身,其实CG剧情很明显了,刀就插在地上,和广智的一样,要自己去捡起来才会获得。<div>可能是场景太暗了好多人打完没看到,就忘了拿了。</div>",
+          "好多人不知道小黄龙掉变身,其实CG剧情很明显了,刀就插在地上,和广智的一样,要自己去捡起来才会获得.<div>可能是场景太暗了好多人打完没看到,就忘了拿了.</div>",
         regionSlug: "04_pansidongxiaceng",
         title: "打完小黄龙别忘了拔刀",
         longitude: -1.0216195506026509,
@@ -8175,7 +7437,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 不必担心,不会就进BOSS战<br>  剧情<span style="font-family: var(--van-base-font);">CG</span><span style="font-family: var(--van-base-font);">结束后,并不能直接跳下去找八戒,看完剧情回头左手边才是路。</span> ',
+          ' 不必担心,不会就进BOSS战<br>  剧情<span style="font-family: var(--van-base-font);">CG</span><span style="font-family: var(--van-base-font);">结束后,并不能直接跳下去找八戒,看完剧情回头左手边才是路.</span> ',
         regionSlug: "04_pansidongxiaceng",
         title: "猪八戒被俘虏(结婚)剧情",
         longitude: -1.095498466608035,
@@ -8183,7 +7445,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 老龙就是六六村的那个画卷里的辰龙。在那三个花盆旁边能看到它,投喂三个茧圆可以获得它的魂魄 <div>在老龙院子门口三个簸箕旁边,给老龙后需要在土地庙调息后才会出现,精魄也需要在投喂三个茧圆调息后出现</div>",
+          " 老龙就是六六村的那个画卷里的辰龙.在那三个花盆旁边能看到它,投喂三个茧圆可以获得它的魂魄 <div>在老龙院子门口三个簸箕旁边,给老龙后需要在土地庙调息后才会出现,精魄也需要在投喂三个茧圆调息后出现</div>",
         regionSlug: "04_pansidongxiaceng",
         title: "打完虫子拿到原体回画卷给老龙",
         longitude: -0.46102244945174675,
@@ -8191,7 +7453,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 需要先撕了前三个符才能互动:<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822213&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第1个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822209&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第2个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822255&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第3个紫符</a> <div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div> 互动完成后初见BOSS王灵官,打一点血后进剧情后飞走。 <div>打完百眼魔君后任务(紫符)会消失</div>',
+          ' 需要先撕了前三个符才能互动:<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822213&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第1个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822209&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第2个紫符</a><span style="white-space-collapse: preserve;">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822255&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">第3个紫符</a> <div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div><div style="white-space-collapse: preserve;"></div> 互动完成后初见BOSS王灵官,打一点血后进剧情后飞走. <div>打完百眼魔君后任务(紫符)会消失</div>',
         regionSlug: "04_huanghuaguan",
         title: "四姐剧情-最后的紫符",
         longitude: -0.9412669579062936,
@@ -8229,7 +7491,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "建议先触发完4妹剧情再来打,打完百眼之后,4妹支线就不能撕符了,会少一段剧情。<div>注意先去紫云山打晦月魔君拿法宝,再回来打百眼魔君会轻松很多。<br><div>想捡Chest的注意!!!进门就会触发剧情</div></div>",
+          "建议先触发完4妹剧情再来打,打完百眼之后,4妹支线就不能撕符了,会少一段剧情.<div>注意先去紫云山打晦月魔君拿法宝,再回来打百眼魔君会轻松很多.<br><div>想捡Chest的注意!!!进门就会触发剧情</div></div>",
         regionSlug: "04_huanghuaguan",
         title: "先做4妹支线再进这个门",
         longitude: -0.7400590861175544,
@@ -8279,7 +7541,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "彩玉葫芦需要先击杀毒敌大王获得,直接打晦月魔君逃课是没有的。  补充:好像只要把毒敌大王骗下来了,Chest里会换成葫芦,然后你可以逃课它不打,直接找<span>晦月魔君,它就来送了。</span> ",
+          "彩玉葫芦需要先击杀毒敌大王获得,直接打晦月魔君逃课是没有的.  补充:好像只要把毒敌大王骗下来了,Chest里会换成葫芦,然后你可以逃课它不打,直接找<span>晦月魔君,它就来送了.</span> ",
         regionSlug: "04_ziyunshan",
         title: "Chest has 丹药",
         longitude: -0.5118310303624867,
@@ -8322,7 +7584,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "靡道人的任务做吗？如果击败晦月魔君,靡道人就消失了,会少一个变身。<div>毒敌大王打败了吗？如果接触了晦月魔君,无论是否击败BOSS,毒敌大王都会消失,会少一个衣甲制作材料。</div>",
+          "靡道人的任务做吗？如果击败晦月魔君,靡道人就消失了,会少一个变身.<div>毒敌大王打败了吗？如果接触了晦月魔君,无论是否击败BOSS,毒敌大王都会消失,会少一个衣甲制作材料.</div>",
         regionSlug: "04_ziyunshan",
         title: "[重要事项]进门前必读",
         longitude: -0.259836660666366,
@@ -8330,7 +7592,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "这里是死路,断桥正下方,但是重击可以上去,哪怕是没有落脚点,但判定都会成功。",
+          "这里是死路,断桥正下方,但是重击可以上去,哪怕是没有落脚点,但判定都会成功.",
         regionSlug: "04_ziyunshan",
         title: "此处可以重击上墙",
         longitude: -0.4392574474997275,
@@ -8353,7 +7615,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "从侧面飞到波浪浪身边(它一开始在的位置不是会触发BOSS战的场地),不会加载BOSS的AI,一棍一棍打,不要连击,一直能打死。蛤蟆掉地上就开始反击了。",
+          "从侧面飞到波浪浪身边(它一开始在的位置不是会触发BOSS战的场地),不会加载BOSS的AI,一棍一棍打,不要连击,一直能打死.蛤蟆掉地上就开始反击了.",
         regionSlug: "06_huaguoshan",
         title: "有可利用的BUG",
         longitude: -0.44015755103231413,
@@ -8369,7 +7631,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span><br>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
+          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span><br>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
         regionSlug: "06_huaguoshan",
         title: "风翅将军- Landing Point4",
         longitude: -0.5381335285224793,
@@ -8408,7 +7670,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
+          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point3",
         longitude: -0.5903982783507047,
@@ -8416,7 +7678,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">[Strategy]: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">[Strategy]: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point6 (Can't capture)",
         longitude: -0.410940596443254,
@@ -8424,7 +7686,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">[Strategy]: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">[Strategy]: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point7 (Can't capture)",
         longitude: -0.3884011619591661,
@@ -8432,7 +7694,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '**Reward**: 神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
+          '**Reward**: 神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point5 (Can't capture)",
         longitude: -0.3867032912872901,
@@ -8440,7 +7702,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死。</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画。记得气力一定要380以上!</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
+          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point2",
         longitude: -0.6199587924042191,
@@ -8464,7 +7726,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "1.进来时筋斗云贴地走,飞太高被吼下来会摔死。<div>2.进场看左边(BOSS面向的右前方)有个长木头桩子,木桩和BOSS连线中间有个石头,如下图所示。这石头后无敌,BOSS什么招式和地震波都不会打到。</div><div>3.站这石头后,等BOSS双手砸地2次,上去打BOSS手部的水晶。或者BOSS手砸在眼前不动,也可以去打。轻松过。(可以用禁字法提高伤害)</div><div>4.BOSS最后一小格血会连续砸地,赶紧跑这石头后等着别被砸死。</div>",
+          "1.进来时筋斗云贴地走,飞太高被吼下来会摔死.<div>2.进场看左边(BOSS面向的右前方)有个长木头桩子,木桩和BOSS连线中间有个石头,如下图所示.这石头后无敌,BOSS什么招式和地震波都不会打到.</div><div>3.站这石头后,等BOSS双手砸地2次,上去打BOSS手部的水晶.或者BOSS手砸在眼前不动,也可以去打.轻松过.(可以用禁字法提高伤害)</div><div>4.BOSS最后一小格血会连续砸地,赶紧跑这石头后等着别被砸死.</div>",
         regionSlug: "06_huaguoshan",
         title: "大石敢当超轻松攻略",
         longitude: -0.9262170134096266,
@@ -8472,7 +7734,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "先完成收集大圣套剧情再走这条路,不然前方触发不了剧情,是一条死路。<div>你需要和大圣当年一样,跳进瀑布,跑起来,使劲跳。</div><div>如果重开轮回每周目都需要打4BOSS集齐套装,不然不触发剧情</div>",
+          "先完成收集大圣套剧情再走这条路,不然前方触发不了剧情,是一条死路.<div>你需要和大圣当年一样,跳进瀑布,跑起来,使劲跳.</div><div>如果重开轮回每周目都需要打4BOSS集齐套装,不然不触发剧情</div>",
         regionSlug: "06_huaguoshan",
         title: "水帘洞:需集齐大圣套",
         longitude: -0.8575827418204938,
@@ -8480,7 +7742,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 拿完金箍棒往前走就能打最终战了,这时候返回小西天浮屠塔打完二郎神有隐藏剧情 <div>感觉棍子实在不好打的,可以考虑用三尖两刃刀</div><div>同一周目可以2个结局都解锁:</div><div>先打最终战,解锁坏结局,打完看完CG回到主界面后不要选择再入轮回,而是继续游戏后,会回到水帘洞的土地庙。然后去浮屠塔打杨戬,再打第二次大圣解锁好结局。</div><div>多周目也要先打杨戬再来打这个,不然打完就直接开三周目了,会少拿个根器点。</div>",
+          " 拿完金箍棒往前走就能打最终战了,这时候返回小西天浮屠塔打完二郎神有隐藏剧情 <div>感觉棍子实在不好打的,可以考虑用三尖两刃刀</div><div>同一周目可以2个结局都解锁:</div><div>先打最终战,解锁坏结局,打完看完CG回到主界面后不要选择再入轮回,而是继续游戏后,会回到水帘洞的土地庙.然后去浮屠塔打杨戬,再打第二次大圣解锁好结局.</div><div>多周目也要先打杨戬再来打这个,不然打完就直接开三周目了,会少拿个根器点.</div>",
         regionSlug: "06_huaguoshan",
         title: "结局提醒(含剧透)",
         longitude: -1.2651948321719715,
@@ -8544,7 +7806,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "**Strategy**:<br>来到花果山后,右手边的石壁处,找斜坡跳上去,上去之后在一棵大树下面就是凡品大圣套。没解锁筋斗云的时候这儿有空气墙,先去打败BOSS王灵官再来取。  [用途]:  这套随根器被动完整度强度增强,初始阶段很弱  [补充一]:  大圣套就在起始点后面山上一棵斜脖子大树下面。  如果已经获得,二周目再来箱子是空的。  <br> ",
+          "**Strategy**:<br>来到花果山后,右手边的石壁处,找斜坡跳上去,上去之后在一棵大树下面就是凡品大圣套.没解锁筋斗云的时候这儿有空气墙,先去打败BOSS王灵官再来取.  [用途]:  这套随根器被动完整度强度增强,初始阶段很弱  [补充一]:  大圣套就在起始点后面山上一棵斜脖子大树下面.  如果已经获得,二周目再来箱子是空的.  <br> ",
         regionSlug: "06_huaguoshan",
         title: "凡品·大圣套",
         longitude: -0.2847176374754383,
@@ -8574,7 +7836,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [相关事件]:做完皓斧卫士任务一后来此处<br>  打红银战车可以先回春秋寨对话,然后在回来这个点他会在此助战。 ",
+          " [相关事件]:做完皓斧卫士任务一后来此处<br>  打红银战车可以先回春秋寨对话,然后在回来这个点他会在此助战. ",
         regionSlug: "05_huoyanshan",
         title: "皓斧卫士(位置2)",
         longitude: -0.36612345214066977,
@@ -8589,7 +7851,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [相关事件]:  马哥支线,在这里一个五行战车里,记得拉3次对完话<br>  马哥被火焰山土地算计了,落得如此下场。<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走。</span>  [Reward]:<span style="font-family: var(--van-base-font);">马哥的变身</span>  [注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span>  马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a>  回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面 ',
+          ' [相关事件]:  马哥支线,在这里一个五行战车里,记得拉3次对完话<br>  马哥被火焰山土地算计了,落得如此下场.<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走.</span>  [Reward]:<span style="font-family: var(--van-base-font);">马哥的变身</span>  [注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span>  马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a>  回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面 ',
         regionSlug: "05_huoyanshan",
         title: "马哥(位置5)",
         longitude: -0.45072482637738176,
@@ -8597,7 +7859,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [相关事件]:小狐狸芭蕉扇灭火  到地点自动触发,再往前开了土地庙以后不建议继续往前了,建议先回头<span style="font-family: var(--van-base-font);">去打隐藏关,</span><span style="font-family: var(--van-base-font);">关系到重要的配方解锁和剧情CG</span><span style="font-family: var(--van-base-font);">。</span>  记得去取和师叔一起摔下悬崖的铁球精魄。 ',
+          ' [相关事件]:小狐狸芭蕉扇灭火  到地点自动触发,再往前开了土地庙以后不建议继续往前了,建议先回头<span style="font-family: var(--van-base-font);">去打隐藏关,</span><span style="font-family: var(--van-base-font);">关系到重要的配方解锁和剧情CG</span><span style="font-family: var(--van-base-font);">.</span>  记得去取和师叔一起摔下悬崖的铁球精魄. ',
         regionSlug: "05_huoyanshan",
         title: "小狐狸-灭火剧情",
         longitude: -0.2446161199684127,
