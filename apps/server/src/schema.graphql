@@ -47,21 +47,13 @@ type Game {
   updatedAt: DateTime!
 }
 
-"""Marker Location Type"""
-enum LocationType {
-  Line
-  Marker
-  Text
-}
-
 type MarkerCategory {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  icon: String
+  icon: String!
   id: ID!
   info: String
   locations: [MarkerLocation!]
-  template: String
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -94,9 +86,8 @@ type MarkerLocation {
   longitude: Float!
   media: [Media!]
   region: Region
-  regionSlug: String
+  regionSlug: String!
   title: String!
-  type: LocationType
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
@@ -105,17 +96,16 @@ type MarkerLocation {
 type Media {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  fileName: String
   id: ID!
   markerLocation: MarkerLocation
   markerLocationId: Float
   mimeType: String
-  title: String!
-  type: String
+  title: String
+  type: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-  url: String
+  url: String!
 }
 
 type Mutation {
@@ -140,6 +130,7 @@ type Query {
   game(slug: String!): Game!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
+  getSubRegionsByRegion(slug: String!): [SubRegion!]!
   getUser(email: String!): AppUser!
   locations(regionSlug: String): [MarkerLocation!]!
   regionDetails(slug: String!): Region!
@@ -156,6 +147,7 @@ type Region {
   minZoom: Float!
   order: Float!
   slug: String!
+  subRegions: [SubRegion!]
   thumbnailUrl: String!
   tilePath: String!
   title: String!
@@ -175,6 +167,19 @@ enum RegionOrderField {
   id
   order
   title
+}
+
+type SubRegion {
+  coordinates: [[[Float!]!]!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: ID!
+  regionSlug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 input UpdateFoundLocationInput {

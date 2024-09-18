@@ -22,8 +22,10 @@ import {
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
 import { useQuery } from "@apollo/client";
-import { GET_APP_USER } from "@/lib/constants";
+import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
+import { TestMarker } from "../markers/test-marker";
+import { SubRegion } from "../layers/sub-region";
 
 const { MapContainer } = ReactLeaflet;
 
@@ -47,6 +49,9 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
 
   const { data: userData } = useQuery(GET_APP_USER, {
     variables: { email: user?.email },
+  });
+  const { data: subRegionData } = useQuery(GET_SUB_REGIONS, {
+    variables: { slug: region?.slug ?? "" },
   });
 
   useEffect(() => {
@@ -97,7 +102,10 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
         "h-[calc(100vh-1rem)] overflow-hidden"
       )}
     >
-      <Menu regions={regions} />
+      <Menu
+        regions={regions}
+        subRegions={subRegionData?.getSubRegionsByRegion}
+      />
       <MapContainer
         {...rest}
         attributionControl={false}
@@ -114,6 +122,14 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
         <MarkerRenderer user={user!} />
         <MarkerSearch />
         <ProgressTracker />
+        {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
+          <SubRegion
+            key={sub.title}
+            positions={sub.coordinates}
+            id={sub.title}
+          />
+        ))}
+        <TestMarker center={[0.74848668660222, -0.47232627868885]} />
       </MapContainer>
       {user?.email && (
         <div className="z-[1000] absolute top-2 right-2">

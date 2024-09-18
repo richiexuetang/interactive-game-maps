@@ -67,6 +67,17 @@ export const ADD_TRACKING_CATEGORY = gql(
   `
 );
 
+export const GET_SUB_REGIONS = gql(
+  `
+  query GetSubRegionsByRegion($slug: String!) {
+    getSubRegionsByRegion(slug: $slug) {
+      title
+      coordinates
+    }
+  }
+  `
+);
+
 export const REMOVE_TRACKING_CATEGORY = gql(`
 mutation RemoveTrackingCategory($data: UpdateTrackingCategoryInput!) {
   removeTrackingCategory(data: $data) {
@@ -120,7 +131,6 @@ export const FETCH_GROUPS_BY_GAME_SLUG = gql`
         title
         icon
         info
-        template
         id
       }
     }
@@ -147,7 +157,6 @@ export const FETCH_REGION_MARKERS = gql`
       longitude
       title
       id
-      type
     }
   }
 `;

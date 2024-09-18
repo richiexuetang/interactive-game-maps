@@ -5,11 +5,11 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     groupSlug: "bmw_locations",
     title: "Keeper Shrine",
+    info: "Similar to site of grace, check shops for new items",
     locations: [
       {
         regionSlug: "chapter-1",
         title: "Snake Trail",
-        description: "",
         latitude: "0.75452650172841",
         longitude: "-0.58213591575498",
         media: [
@@ -40,14 +40,24 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-1",
         title: "Outside the Forest",
-        description: "**Location:** Just outside the small cave",
+        description:
+          "**Location:** Defeat the Bullguard, then head up the hill and proceed through the cave on your left.",
         latitude: "0.88310749622674",
         longitude: "-0.91830909234253",
+        media: [
+          {
+            title: "",
+            mimeType: "",
+            type: "image",
+            url: "https://lh3.googleusercontent.com/1PolZSeopVmwnUsE1l_7WWt4-qFAVJylmJ1aBywn8RWZXDUBWt0SJdXBScHApwxo7WdJgdnfmoX67yIPR03obcBAd34KDnA6XEZb4nKxuUU-5c3LaA=s0",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
         title: "Guanyin Temple",
-        description: "",
+        description:
+          "**Location:** From the Wandering Wight boss location, head down the wooden platform. The shrine is next to a large tree.",
         latitude: "0.84251068136295",
         longitude: "-0.78730456225531",
         media: [
@@ -62,7 +72,8 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-1",
         title: "Back Hills",
-        description: "",
+        description:
+          "**Location:** Head through the back exit of the Lingxuzi boss arena to reach this shrine.",
         latitude: "0.74282052262677",
         longitude: "-0.76472660959229",
         media: [
@@ -96,6 +107,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "**Location:** By the edge of the path",
         latitude: "0.73069975846236",
         longitude: "-0.54159164428478",
+        media: [
+          {
+            title: "",
+            url: "https://lh3.googleusercontent.com/vwxsc9xhd3JDYrOvHjaYB47q1ulEaIsJ6GK1-uYvfrZSQgaR8o1gBalFIa8awUW_NOxvlr-HkSX5mRN0gbqXdXu7G0-Ra0vr9oZrs2L69c1E7u_H=s0",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
@@ -104,6 +123,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
         latitude: "0.52036335626630",
         longitude: "-0.88384964193304",
+        media: [
+          {
+            title: "",
+            url: "https://lh3.googleusercontent.com/Renmn9XaVwVtfNBYcbI12I0KEzWP7dZL3GvngP0icgoqt8fqk-xNB5orDweMYKtSgaOBpSuAXKbJXkU4qlTdB7e0di8yYG0XhXq0WScYVVTNGrrk=s0",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
@@ -125,13 +152,30 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "**Location:** Inside the cavern",
         latitude: "0.46541002162454",
         longitude: "-0.71174613730850",
+        media: [
+          {
+            title: "B1 Screenshot 2024.08.29 - 00.11.03.33",
+            url: "https://media.mapgenie.io/storage/media/c41250d6-45ea-4b84-b072-03dd214f08de.png",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
       },
-
       {
         regionSlug: "chapter-2",
         title: "Village Entrance",
+        description:
+          "**Location** Cross the river near the spawn location, head up, and find the shrine on the left side of the bridge.",
         latitude: "0.46904917301740",
         longitude: "-0.67935424765775",
+        media: [
+          {
+            title: "",
+            url: "https://lh3.googleusercontent.com/I6M_Lvujmo-hnFnOgXuGrxDjOGHdZbeQ7rlowJnIZm7Q6G0PsC2jW_7EOsPvt2ZIOgGzPZJCJlvgy-0D_RSdGz1VOPANGGJ_5mzmMrzqWhkxKZR8Nw=s0",
+            type: "image",
+            mimeType: "image/png",
+          },
+        ],
       },
       {
         regionSlug: "chapter-2",
@@ -195,7 +239,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-2",
         title: "Windrest Hamlet",
-        description: "",
         latitude: "0.80128918645043",
         longitude: "-0.97756862640452",
         media: [
@@ -271,7 +314,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Upper Pagoda Shrine",
-        description: "",
         latitude: "0.63831485248824",
         longitude: "-0.61187624931031",
       },
@@ -296,21 +338,18 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Precept Corridor",
-        description: "",
         latitude: "0.98673859875865",
         longitude: "-0.66381454467415",
       },
       {
         regionSlug: "chapter-3",
         title: "Forest of Felicity",
-        description: "",
         latitude: "1.07428514140730",
         longitude: "-0.64297378063029",
       },
       {
         regionSlug: "chapter-3",
         title: "The Great Pagoda",
-        description: "",
         latitude: "0.82019465453480",
         longitude: "-0.65038744344997",
       },
@@ -323,7 +362,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Snow-Veiled Trail",
-        description: "",
         latitude: "0.84024695627429",
         longitude: "-0.56179672479692",
       },
@@ -459,48 +497,48 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         description: "Similar to site of grace, check shops for new items",
         regionSlug: "04_pansidongxiaceng",
-        title: "盘丝洞-千红窟",
+        title: "千红窟",
         longitude: -0.5912063167671135,
         latitude: 0.5546205574224956,
       },
       {
         description: "Similar to site of grace, check shops for new items",
         regionSlug: "04_pansidongxiaceng",
-        title: "盘丝洞-花间桥",
+        title: "花间桥",
         longitude: -0.5039493793658778,
         latitude: 1.007309900519516,
       },
       {
         description: "Similar to site of grace, check shops for new items",
         regionSlug: "04_pansidongxiaceng",
-        title: "盘丝洞-若仙庵",
+        title: "若仙庵",
         longitude: -0.9547732888636062,
         latitude: 0.49988641822898217,
       },
       {
         description: "Similar to site of grace, check shops for new items",
         regionSlug: "04_huanghuaguan",
-        title: "黄花观-山道",
+        title: "山道",
         longitude: -1.1166488060933943,
         latitude: 0.4693229560587895,
       },
       {
         description: "Similar to site of grace, check shops for new items",
         regionSlug: "04_huanghuaguan",
-        title: "黄花观-虎蛇虫林",
+        title: "虎蛇虫林",
         longitude: -0.6809955033229471,
         latitude: 0.44971972026742435,
       },
       {
         description: "Similar to site of grace, check shops for new items",
         regionSlug: "04_huanghuaguan",
-        title: "黄花观-观门",
+        title: "Temple Entrance",
         longitude: -1.0272792969543048,
         latitude: 0.3345686811200892,
       },
       {
         description:
-          "Similar to site of grace, check shops for new items 到这里先别去找百眼(开阔大平地),先走上山的阶梯过四妹剧情(会大喊一声快走)图1为通向四妹剧情的路口 ",
+          "到这里先别去找百眼(开阔大平地),先走上山的阶梯过四妹剧情(会大喊一声快走)图1为通向四妹剧情的路口 ",
         regionSlug: "04_huanghuaguan",
         title: "黄花观-金光苑",
         longitude: -0.7601227230618406,
@@ -784,7 +822,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-2",
         title: "The Sculpture, Couching Tiger Temple",
-        description: "",
         latitude: "0.55031209022974",
         longitude: "-0.96732091557749",
         media: [
@@ -849,7 +886,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "The Bottom, Pagoda Realm",
-        description: "",
         latitude: "0.81434488217062",
         longitude: "-0.53590536117758",
       },
@@ -941,7 +977,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-1",
         title: "Start",
-        description: "",
         latitude: "0.54937236117050",
         longitude: "-0.82408189773636",
       },
@@ -995,7 +1030,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Purple Sealed Gate",
-        description: "",
         latitude: "0.59188594676564",
         longitude: "-0.65380185842594",
       },
@@ -2023,7 +2057,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward] 血杞子 x 1  [注意事项] 进那个大门扭头就能找到  二周目无视 ",
+          " **Reward** 血杞子 x 1  [注意事项] 进那个大门扭头就能找到  二周目无视 ",
         regionSlug: "04_pansidongshangceng",
         title: "血杞子",
         longitude: -1.0887453413297123,
@@ -2281,7 +2315,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-2",
         title: "Rat Imperial Guard Spirit",
-        description: "",
         latitude: "0.78459671629149",
         longitude: "-1.03410959243880",
       },
@@ -2404,7 +2437,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Falcon Hermit",
-        description: "",
         latitude: "0.87558109809464",
         longitude: "-0.51274180412136",
       },
@@ -2593,9 +2625,17 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         regionSlug: "chapter-1",
         title: "Chest",
         description:
-          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 5x Tiny Piece of Gold",
+          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 2x Tiny Piece of Gold\n- 2x Stone Spirit",
         latitude: "0.63978624028628",
         longitude: "-0.83063415692880",
+        media: [
+          {
+            title: "",
+            mimeType: "",
+            type: "image",
+            url: "https://lh3.googleusercontent.com/6y8npd3MvfBj3KygqqbZIBNwoG_4fCTCxL8-pKE4MfH0UX4QIgU9N9nSYm1h27meircJTM4eTRjO4OTJP6esEkDqDdObD8aGAh2mLFWUTdWUtUPQKA=s0",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
@@ -2968,7 +3008,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Chest",
-        description: "",
         latitude: "0.39990875263223",
         longitude: "-0.78485190868278",
         media: [
@@ -3002,7 +3041,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Treasure Chest",
-        description: "",
         latitude: "1.00758961553060",
         longitude: "-0.72777986526418",
       },
@@ -3150,7 +3188,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Chest",
-        description: "",
         latitude: "0.83928951050139",
         longitude: "-0.51552861928744",
       },
@@ -3233,7 +3270,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Chest",
-        description: "",
         latitude: "1.08406810430180",
         longitude: "-0.63324004411621",
       },
@@ -4696,7 +4732,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-1",
         title: "Fungiling",
-        description: "",
         latitude: "0.78444652666475",
         longitude: "-0.49777507781945",
       },
@@ -4718,14 +4753,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-2",
         title: "Rat Captain",
-        description: "",
         latitude: "0.42913727637555",
         longitude: "-0.77299987358378",
       },
       {
         regionSlug: "chapter-2",
         title: "Rat Captain",
-        description: "",
         latitude: "0.40172795530726",
         longitude: "-0.77692744965250",
       },
@@ -5377,18 +5410,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-        title: "2x Croaky",
-        latitude: "0.55491187417319",
-        longitude: "-0.64101849209320",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Croaky",
-        latitude: "0.55594367460805",
-        longitude: "-0.66371916828052",
-      },
-      {
-        regionSlug: "chapter-2",
         title: "Rat Governor",
         description: "Just adjacent to licorice near large pool.",
         latitude: "0.53707938358238",
@@ -5588,18 +5609,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
-        title: "2x Withered Corpse",
-        latitude: "0.78680845911074",
-        longitude: "-1.05540299183840",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "5x Withered Corpse",
-        latitude: "0.76974876073798",
-        longitude: "-1.01522703724230",
-      },
-      {
-        regionSlug: "chapter-2",
         title: "Lingzhiling",
         description: "**Location:** At the large dead tree",
         latitude: "0.80141843672737",
@@ -5628,13 +5637,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "4x Civet Sergeant",
         latitude: "0.62062951845503",
         longitude: "-0.98569335673815",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "3x Withered Corpse",
-        description: "**Location:** ??  \n\n**Effect:** ??",
-        latitude: "0.63833299843324",
-        longitude: "-1.01426911929390",
       },
       {
         regionSlug: "chapter-2",
@@ -5682,18 +5684,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Supporter Monk",
-        latitude: "0.27180436988435",
-        longitude: "-0.94674861482255",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Supporter Monk",
-        latitude: "0.29958773221068",
-        longitude: "-0.95300276376250",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Ginsengling",
         latitude: "0.40211521401568",
         longitude: "-0.80688063248499",
@@ -5722,12 +5712,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.52737949447923",
         longitude: "-0.59208981508743",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Swift Bat",
-        latitude: "0.64067980398505",
-        longitude: "-0.59982227568722",
       },
       {
         regionSlug: "chapter-3",
@@ -5844,21 +5828,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
-        title: "Withered Corpse",
-        latitude: "0.53289222403218",
-        longitude: "-0.58811868584547",
-      },
-      {
-        regionSlug: "chapter-3",
         title: "Blade Monk; Withered Corpse; Frozen Corpse",
         latitude: "0.52554792385151",
         longitude: "-0.58058813277597",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Withered Corpse",
-        latitude: "0.49082567424226",
-        longitude: "-0.57704513864758",
       },
       {
         regionSlug: "chapter-3",
@@ -5867,36 +5839,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "In snake head mushroom, doesn't appear to be different Lesser Yaoguai than normal.",
         latitude: "0.49928175330936",
         longitude: "-0.57167716634095",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Yaksha Archer & Withered Corpse",
-        latitude: "0.47984996060795",
-        longitude: "-0.45558968620759",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse & Withered Corpse",
-        latitude: "0.47022532958853",
-        longitude: "-0.47409513770100",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.47596820495997",
-        longitude: "-0.46914971531953",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Withered Corpse",
-        latitude: "0.47506423415264",
-        longitude: "-0.46431064610695",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Frozen Corpse",
-        latitude: "0.48306678264520",
-        longitude: "-0.46401488879243",
       },
       {
         regionSlug: "chapter-3",
@@ -6184,7 +6126,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          "**Reward**:  业火晶、虚空节  [Strategy]:  类似以前打的石先锋,用定很好大,杂兵 ",
+          "**Reward**:  业火晶、虚空节  **Strategy**:  类似以前打的石先锋,用定很好大,杂兵 ",
         regionSlug: "05_huoyanshan",
         title: "燧统领",
         longitude: -0.5350976970733257,
@@ -6192,15 +6134,15 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  金趁心  [Strategy]:  比较简单,带上避火罩,先打在地上的,两段棍势击中会有很大的硬直  注意从设置查关闭锁敌 ",
+          " **Reward**:  金趁心  **Strategy**:  比较简单,带上避火罩,先打在地上的,两段棍势击中会有很大的硬直  注意从设置查关闭锁敌 ",
         regionSlug: "05_huoyanshan",
-        title: "急如火 快如风",
+        title: "Fast As Wind + Quick As Fire",
         longitude: -0.9031862773076682,
         latitude: 0.5241909614926925,
       },
       {
         description:
-          " [Reward]:业火精,这附近还有落伽香藤  <br>  [Strategy]:优先清理小怪避免控到死 ",
+          " **Reward**:业火精,这附近还有落伽香藤  <br>  **Strategy**:优先清理小怪避免控到死 ",
         regionSlug: "05_huoyanshan",
         title: "燧先锋",
         longitude: -0.23566678734707125,
@@ -6208,7 +6150,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 注意看地上有红色的印记,实际点位为左面那个交互点,上交四个火灵砂触发战斗  [Reward]:业火精  <span style="font-family: var(--van-base-font);">[Strategy]:</span><br>  需要4个火灵砂解锁挑战<br>  火灵砂可以在土地庙买  他打半血会招小怪,可以用变身来抗伤害打小怪  如果一次没打过,再战又需要4个火灵砂  (小心火焚伤害,带上带上避火罩好打很多) ',
+          ' 注意看地上有红色的印记,实际点位为左面那个交互点,上交四个火灵砂触发战斗  **Reward**:业火精  <span style="font-family: var(--van-base-font);">**Strategy**:</span><br>  需要4个火灵砂解锁挑战<br>  火灵砂可以在土地庙买  他打半血会招小怪,可以用变身来抗伤害打小怪  如果一次没打过,再战又需要4个火灵砂  (小心火焚伤害,带上带上避火罩好打很多) ',
         regionSlug: "05_huoyanshan",
         title: "火灵元母",
         longitude: -0.235864825029779,
@@ -6216,7 +6158,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:金趁心  <br>  [Strategy]:双boss交替进攻  击败获得成就【两双一对五十六难】  —————————-  千万别用任何有毒伤火伤打这两个boss,会有锁血卡死bug,若触发bug重启游戏卸下相关装备即可 ",
+          " **Reward**:金趁心  <br>  **Strategy**:双boss交替进攻  击败获得成就【两双一对五十六难】  —————————-  千万别用任何有毒伤火伤打这两个boss,会有锁血卡死bug,若触发bug重启游戏卸下相关装备即可 ",
         regionSlug: "05_huoyanshan",
         title: "兴烘掀 掀烘兴",
         longitude: -0.9949319920729067,
@@ -6224,7 +6166,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:打完和牛哥对话进行(在下次就在碧云洞口了)  <br>  [Strategy]:如果发现牛哥不在,记得返回春秋寨再次对话；  1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；  可以站在地图外用仇恨把BOSS拉出来.然后就会被卡在地图外.一直蓄力戳棍可以无伤过  如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br> ",
+          " **Reward**:打完和牛哥对话进行(在下次就在碧云洞口了)  <br>  **Strategy**:如果发现牛哥不在,记得返回春秋寨再次对话；  1、如果传动春风寨发现没有,需要往回找找(本图出发点方向),他在悬崖边站着；  可以站在地图外用仇恨把BOSS拉出来.然后就会被卡在地图外.一直蓄力戳棍可以无伤过  如果自己单刷后再叫牛,他说会我不仗义,只顾着自己威风不给他留一辆<br> ",
         regionSlug: "05_huoyanshan",
         title: "红银战车",
         longitude: -0.34544303784556973,
@@ -6232,7 +6174,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  <br>  [Strategy]:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤.离屁股太近的话会被后喷火秒<br> ",
+          " **Reward**:  <br>  **Strategy**:在他没有喷火的时候速度从右边斜坡上去,到车身后就可以用戳棍慢慢戳了,完全不会受伤.离屁股太近的话会被后喷火秒<br> ",
         regionSlug: "05_huoyanshan",
         title: "褐铁战车",
         longitude: -1.1949097751573845,
@@ -6240,7 +6182,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' <span style="font-family: var(--van-base-font);">[Strategy]:躲在离他最近的石壁凹陷处,劈棍蓄力后出去打出硬直然后接着打,要攻击了就马上退回凹陷,如此反复即可.并不难打(也可以三段立棍反复敲,不耗血不耗蓝)</span>  <span style="font-family: var(--van-base-font);">[攻略方法2]:</span>没必要上面那么磨叽,直接用精魄冻结/定身+棍花回转,很快就能打死 ',
+          ' <span style="font-family: var(--van-base-font);">**Strategy**:躲在离他最近的石壁凹陷处,劈棍蓄力后出去打出硬直然后接着打,要攻击了就马上退回凹陷,如此反复即可.并不难打(也可以三段立棍反复敲,不耗血不耗蓝)</span>  <span style="font-family: var(--van-base-font);">[攻略方法2]:</span>没必要上面那么磨叽,直接用精魄冻结/定身+棍花回转,很快就能打死 ',
         regionSlug: "05_huoyanshan",
         title: "灰铜战车",
         longitude: -0.9378476966145683,
@@ -6248,7 +6190,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:阳遂珠+Mind Core  <br>  [Strategy]:需要做前面牛哥的对话  <br>  打法建议:铜头铁臂+无限重击  打法建议: 先轻击+重击磨血到60%,存3段棍势,隐身→放猴毛→化身赤尻马猴→放马猴技能→砍砍砍→放马猴大招  如果没有刷新去牛哥2号任务点找,土地庙不显示的话  打完后记得和牛哥对话 ",
+          " **Reward**:阳遂珠+Mind Core  <br>  **Strategy**:需要做前面牛哥的对话  <br>  打法建议:铜头铁臂+无限重击  打法建议: 先轻击+重击磨血到60%,存3段棍势,隐身→放猴毛→化身赤尻马猴→放马猴技能→砍砍砍→放马猴大招  如果没有刷新去牛哥2号任务点找,土地庙不显示的话  打完后记得和牛哥对话 ",
         regionSlug: "05_huoyanshan",
         title: "赤金战车",
         longitude: -0.6069396324251102,
@@ -6256,7 +6198,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  云里雾·雾里云精魄、Fine Gold Thread、虚空结  [Strategy]:  用定身棍花快速攒棍势,或者聚形散气三段重击可轻松过,出招不难 ",
+          " **Reward**:  云里雾·雾里云精魄、Fine Gold Thread、虚空结  **Strategy**:  用定身棍花快速攒棍势,或者聚形散气三段重击可轻松过,出招不难 ",
         regionSlug: "05_huoyanshan",
         title: "云里雾·雾里云",
         longitude: -0.40903212940762046,
@@ -6264,39 +6206,39 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:虚空结+石父精魄  <br>  [Strategy]:弱,没啥要点  如果手贱打碎了他手里抱着的骷髅,就会狂暴化,可以感受一下愤怒的真·BOSS石父 ",
+          " **Reward**:虚空结+石父精魄  <br>  **Strategy**:弱,没啥要点  如果手贱打碎了他手里抱着的骷髅,就会狂暴化,可以感受一下愤怒的真·BOSS石父 ",
         regionSlug: "05_huoyanshan",
-        title: "石父",
+        title: "Father of Stones",
         longitude: -0.897798871568483,
         latitude: 0.3496504959384623,
       },
       {
         description:
-          " [Reward]:  九叶灵芝精精魄、地灵伞盖.概率给九叶灵芝种子&nbsp; 还有概率给虚空结  [Strategy]:  关系到一个成就&nbsp; &nbsp;&nbsp;  注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断  聚形散气、变身可以解蘑菇异常 ",
+          " **Reward**:  九叶灵芝精精魄、地灵伞盖.概率给九叶灵芝种子&nbsp; 还有概率给虚空结  **Strategy**:  关系到一个成就&nbsp; &nbsp;&nbsp;  注意躲开地上的蘑菇,不然会爬满你全身动弹不得,如果中招只能找机会吃解毒药,注意:解毒药会被打断  聚形散气、变身可以解蘑菇异常 ",
         regionSlug: "05_huoyanshan",
-        title: "九叶灵芝精",
+        title: "Nine-Capped Lingzhi Guai",
         longitude: -0.5834652412309538,
         latitude: 0.9129993741331646,
       },
       {
         description:
-          " 注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br>  [Reward]:  小活师  [Strategy]:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打.  BOSS火伤,建议带法宝避火罩 ",
+          " 注:浪浪浪需要进入隐藏入口后靠着左边走,入口在在冰湖的左边墙壁上<br>  **Reward**:  小活师  **Strategy**:建议先不打,因为一般这时候没状态,可以打完避水金晶兽传送回来时满状态打.  BOSS火伤,建议带法宝避火罩 ",
         regionSlug: "05_huoyanshan",
-        title: "波浪浪",
+        title: "Baw-Lang-Lang",
         longitude: -1.0795285595006305,
         latitude: 0.6304682383994447,
       },
       {
         description:
-          " [Reward]:Fine Gold Thread、Mind Core  <br>  [Strategy]:在一处大空地中间,有一块未激活的巨石 ",
+          " **Reward**:Fine Gold Thread、Mind Core  <br>  **Strategy**:在一处大空地中间,有一块未激活的巨石 ",
         regionSlug: "06_huaguoshan",
-        title: " Poison Chief-第四只",
+        title: " Poison Chief 4",
         longitude: -0.5561781477532861,
         latitude: 0.46278839245472625,
       },
       {
         description:
-          " Can spot it while riding the somersault cloud, the entrance to the Water Curtain Cave is on its <br>  【建议一周目打了】不然图鉴不全啊,虽然傻乎乎的<br>  [Reward]:  寒铁叶、Fine Gold Thread、Mind Core  [Strategy]:  躲避他的蓄力全屏雷击,只有这招是致命的,接下来他会睡好久,使劲抽他 ",
+          " Can spot it while riding the somersault cloud, the entrance to the Water Curtain Cave is on its <br>  【建议一周目打了】不然图鉴不全啊,虽然傻乎乎的<br>  **Reward**:  寒铁叶、Fine Gold Thread、Mind Core  **Strategy**:  躲避他的蓄力全屏雷击,只有这招是致命的,接下来他会睡好久,使劲抽他 ",
         regionSlug: "06_huaguoshan",
         title: "Son of Stones",
         longitude: -0.7033755554746222,
@@ -6304,39 +6246,39 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 这里才是第二个  [Reward]:寒铁叶、Fine Gold Thread、Mind Core ",
+          " 这里才是第二个  **Reward**:寒铁叶、Fine Gold Thread、Mind Core ",
         regionSlug: "06_huaguoshan",
-        title: " Poison Chief-第二个",
+        title: " Poison Chief 2",
         longitude: -0.5966347577355293,
         latitude: 1.0464132658282779,
       },
       {
         description:
-          " [Reward]:  [Strategy]:这只在步云鹿正对着的平台上  图示为在望犀坡土地庙升高的视角 ",
+          " **Reward**:  **Strategy**:这只在步云鹿正对着的平台上  图示为在望犀坡土地庙升高的视角 ",
         regionSlug: "06_huaguoshan",
-        title: "Poison Chief-First one",
+        title: "Poison Chief 1",
         longitude: -0.606585486195911,
         latitude: 0.8003326702853997,
       },
       {
         description:
-          ' 靠近后低飞,接近会强制降落,太高了会摔不少血  [Reward]:  小活师、Fine Gold Thread、<span style="font-family: var(--van-base-font);">珍玩【仙胞石片】:无视对手四灾耐性</span>  [Strategy]:在地图最角落那块土色空地上,和背景颜色差不多,打的时候会刷天兵(天兵会攻击BOSS但是没有伤害,只能吸引BOSS攻击).  关联成就【蛙声一片六十六难】,这是最后一只青蛙  其他青蛙BOSS位置:  <a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821482&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个浪</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821510&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个波(雷)</a>、<a href="https://app.gamersky.com/map/?mapId=54&amp;landmarkId=821851&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个浪(冰)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822231&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个波(毒)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=61&amp;landmarkId=822290&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波浪浪(火)</a> ',
+          ' 靠近后低飞,接近会强制降落,太高了会摔不少血  **Reward**:  小活师、Fine Gold Thread、<span style="font-family: var(--van-base-font);">珍玩【仙胞石片】:无视对手四灾耐性</span>  **Strategy**:在地图最角落那块土色空地上,和背景颜色差不多,打的时候会刷天兵(天兵会攻击BOSS但是没有伤害,只能吸引BOSS攻击).  关联成就【蛙声一片六十六难】,这是最后一只青蛙  其他青蛙BOSS位置:  <a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821482&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个浪</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821510&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个波(雷)</a>、<a href="https://app.gamersky.com/map/?mapId=54&amp;landmarkId=821851&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">浪里个浪(冰)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822231&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波里个波(毒)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=61&amp;landmarkId=822290&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">波浪浪(火)</a> ',
         regionSlug: "06_huaguoshan",
-        title: "浪波波",
+        title: "Lang-Baw-Baw",
         longitude: -0.47573168463125626,
         latitude: 0.9864855957824545,
       },
       {
         description:
-          " [Reward]:寒铁叶、Fine Gold Thread、Mind Core  [Strategy]:跟步云鹿,金甲犀在一条直线上.按照我图三的位置定位,图二是地图边缘三个小山尖,图二是 Poison Chief二的样子 ",
+          " **Reward**:寒铁叶、Fine Gold Thread、Mind Core  **Strategy**:跟步云鹿,金甲犀在一条直线上.按照我图三的位置定位,图二是地图边缘三个小山尖,图二是 Poison Chief二的样子 ",
         regionSlug: "06_huaguoshan",
-        title: " Poison Chief-第三只",
+        title: " Poison Chief 3",
         longitude: -0.19467858192902554,
         latitude: 0.8425486869411856,
       },
       {
         description:
-          ' [Reward]:琴螂原体  <br>  [Strategy]:拿到<span style="font-family: var(--van-base-font);">琴螂原体,再收集三个“茧圆”(切记不可卖掉,上限就三个)回到画册中交付给辰龙,遁地符刷新下在辰龙外面“右边三个箩筐的右边箩筐”可以看到蚕宝宝,喂食三次茧圆,再次遁地符刷新,回来可以捡到精魄</span>琴螂仙  [补充]:“<span style="font-family: var(--van-base-font);">茧圆”在地图中任意</span><span style="font-family: var(--van-base-font);">茧里也能概率获取,没必要先打原体在打</span><span style="font-family: var(--van-base-font);">茧</span> ',
+          ' **Reward**:琴螂原体  <br>  **Strategy**:拿到<span style="font-family: var(--van-base-font);">琴螂原体,再收集三个“茧圆”(切记不可卖掉,上限就三个)回到画册中交付给辰龙,遁地符刷新下在辰龙外面“右边三个箩筐的右边箩筐”可以看到蚕宝宝,喂食三次茧圆,再次遁地符刷新,回来可以捡到精魄</span>琴螂仙  [补充]:“<span style="font-family: var(--van-base-font);">茧圆”在地图中任意</span><span style="font-family: var(--van-base-font);">茧里也能概率获取,没必要先打原体在打</span><span style="font-family: var(--van-base-font);">茧</span> ',
         regionSlug: "04_pansidongxiaceng",
         title: "琴螂仙",
         longitude: -0.47802923867203617,
@@ -6344,7 +6286,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:金称心、精魄-百足虫、虚空结  <br>  [Strategy]:很菜,半血注意躲一下自爆虫潮即可 ",
+          " **Reward**:金称心、精魄-百足虫、虚空结  <br>  **Strategy**:很菜,半血注意躲一下自爆虫潮即可 ",
         regionSlug: "04_pansidongxiaceng",
         title: "百足虫",
         longitude: -0.8117228136541144,
@@ -6352,7 +6294,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  <span style="font-family: var(--van-base-font);">照骨镜、佛手·右</span>  [Strategy]:  二阶段回下来它的头喷毒打出巨额伤害,可以定住它快速移动到它身后躲避,或立棍躲避毒水  打完虫往前走,虫头前面先别跳下去,虫头左边有火盆,火盆方向上去有太乙紫金丹  ［对应成就］:脸上有泥三十九难 ',
+          ' **Reward**:  <span style="font-family: var(--van-base-font);">照骨镜、佛手·右</span>  **Strategy**:  二阶段回下来它的头喷毒打出巨额伤害,可以定住它快速移动到它身后躲避,或立棍躲避毒水  打完虫往前走,虫头前面先别跳下去,虫头左边有火盆,火盆方向上去有太乙紫金丹  ［对应成就］:脸上有泥三十九难 ',
         regionSlug: "04_pansidongxiaceng",
         title: "右手虫",
         longitude: -0.8233371309445943,
@@ -6360,7 +6302,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  佛手·左、小活狮  [近路]:  不用跟着地图跑,从底层土地庙可以直接二段跳到通道  [Strategy]:  这个青蛙在打坐处那个洞里面,直接在打坐洞外找是找不到的  剧毒很痛,留意躲避  用定风珠可以把毒池净化 ",
+          " **Reward**:  佛手·左、小活狮  [近路]:  不用跟着地图跑,从底层土地庙可以直接二段跳到通道  **Strategy**:  这个青蛙在打坐处那个洞里面,直接在打坐洞外找是找不到的  剧毒很痛,留意躲避  用定风珠可以把毒池净化 ",
         regionSlug: "04_pansidongxiaceng",
         title: "波里个波",
         longitude: -1.0981857143245861,
@@ -6368,7 +6310,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  珍玩【避水珠】、Fine Gold Thread、Mind Core  [Strategy]:  获得筋斗云后往前一点下面的水潭里,一定会在你下来的时候咬你一口,可以躲开 ",
+          " **Reward**:  珍玩【避水珠】、Fine Gold Thread、Mind Core  **Strategy**:  获得筋斗云后往前一点下面的水潭里,一定会在你下来的时候咬你一口,可以躲开 ",
         regionSlug: "06_huaguoshan",
         title: "跳浪蛟",
         longitude: -0.43349856493495054,
@@ -6376,15 +6318,15 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " 中间大水池靠章节开始的边上,里面的大湖中间一直冒水花,靠近怪就出来了.  这个是boss  [Reward]:Mind Core、镔铁砂x2  [注意]:水木兽有很多只,别的可以解锁图鉴,但这只有血条的关系到70难的成就!!!特别注意!!!  [Strategy]:残血后会频繁潜水折磨你,建议穿上水中回血那套,免得被他耗死 ",
+          "中间大水池靠章节开始的边上,里面的大湖中间一直冒水花,靠近怪就出来了.  这个是boss  **Reward**:Mind Core、镔铁砂x2  [注意]:水木兽有很多只,别的可以解锁图鉴,但这只有血条的关系到70难的成就!!!特别注意!!!  **Strategy**:残血后会频繁潜水折磨你,建议穿上水中回血那套,免得被他耗死 ",
         regionSlug: "06_huaguoshan",
-        title: "水木兽[BOSS]",
+        title: "Water-Wood Beast",
         longitude: -0.554727766066037,
         latitude: 0.2965650659789958,
       },
       {
         description:
-          " [相关事件]:&nbsp;<br>  要你帮他收集道士掉的藕雹(四周大范围的黄衣道士掉落),交付后和你打架  有2条血,打完会变大肉虫<br>[注意]:<br>打完魔君后会消失,不要先去打魔君  [Reward]:  法术:变身·藕雹 ",
+          " [相关事件]:&nbsp;<br>  要你帮他收集道士掉的藕雹(四周大范围的黄衣道士掉落),交付后和你打架  有2条血,打完会变大肉虫<br>[注意]:<br>打完魔君后会消失,不要先去打魔君  **Reward**:  法术:变身·藕雹 ",
         regionSlug: "04_ziyunshan",
         title: "靡道人",
         longitude: -0.5882414376805514,
@@ -6392,7 +6334,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:蘑女精魄、猴头菌种子、概率出虚空结  三个葛草中靠近崖边最近的的葛草是蘑女  [Strategy]:  被蘑女远程打中会让她恢复大量生命,尽量躲开或者直接灌伤害将其灌死 ",
+          " **Reward**:蘑女精魄、猴头菌种子、概率出虚空结  三个葛草中靠近崖边最近的的葛草是蘑女  **Strategy**:  被蘑女远程打中会让她恢复大量生命,尽量躲开或者直接灌伤害将其灌死 ",
         regionSlug: "04_huanghuaguan",
         title: "蘑女",
         longitude: -0.2996723512018775,
@@ -6400,7 +6342,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:虚空结  还有个虫总兵的精魄  [Strategy]:有较多道士些许棘手,开身外分身清理&nbsp;&nbsp;  也可進場變身自爆鼠&nbsp; 打到神力快消耗完自爆清場 ",
+          " **Reward**:虚空结  还有个虫总兵的精魄  **Strategy**:有较多道士些许棘手,开身外分身清理&nbsp;&nbsp;  也可進場變身自爆鼠&nbsp; 打到神力快消耗完自爆清場 ",
         regionSlug: "04_huanghuaguan",
         title: "虫总兵",
         longitude: -0.7161968512244812,
@@ -6408,7 +6350,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [相关事件]:  boss有第二形态(两条血)<br>  要先在<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822078&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">盘丝洞</a>遇到一次才会到这里  杀完跟你说去紫云山找那根针  [Reward]:  开启紫云山入口,金趁心(武器材料)  <br>  注意:第一次打没有打掉他后面四条胳膊的,这是最后一次机会,还没拿到毒手,只能下周目了,还是一样,定身术定住,然后棍花击打,胳膊不单独算血量,只算被击打次数,建议再没有打完他胳膊之前,躲着点,等定身术CD,打完胳膊会触发CG,就算成功了,不想多周目麻烦就切记!!已经拿到了的可以直接秒了 ',
+          ' [相关事件]:  boss有第二形态(两条血)<br>  要先在<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822078&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">盘丝洞</a>遇到一次才会到这里  杀完跟你说去紫云山找那根针  **Reward**:  开启紫云山入口,金趁心(武器材料)  <br>  注意:第一次打没有打掉他后面四条胳膊的,这是最后一次机会,还没拿到毒手,只能下周目了,还是一样,定身术定住,然后棍花击打,胳膊不单独算血量,只算被击打次数,建议再没有打完他胳膊之前,躲着点,等定身术CD,打完胳膊会触发CG,就算成功了,不想多周目麻烦就切记!!已经拿到了的可以直接秒了 ',
         regionSlug: "04_huanghuaguan",
         title: "黑手道人(二回战)",
         longitude: -0.5145762465283781,
@@ -6622,7 +6564,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:法宝·芭蕉扇、Fine Gold Thread、虹霓云绦、金趁心、先天锟钢、Mind Core  [Strategy]:  半血会飞到天上放一个技能,按节奏躲避即可,只要不是全部中就死不掉,打完进入二阶段夜叉王,会给你恢复满状态,boss连贯技能多,范围广,但大技能40米大刀5连前摇大,可用定风珠打断,打完进入cg  ---  残血不杀只需要三点一线既可(牛魔王-红孩儿-天命人)  红孩儿低于20%血量既可触发(意义不大,就是多个两人打斗的CG,主要打死和打残的结局CG是一样的) ",
+          " **Reward**:法宝·芭蕉扇、Fine Gold Thread、虹霓云绦、金趁心、先天锟钢、Mind Core  **Strategy**:  半血会飞到天上放一个技能,按节奏躲避即可,只要不是全部中就死不掉,打完进入二阶段夜叉王,会给你恢复满状态,boss连贯技能多,范围广,但大技能40米大刀5连前摇大,可用定风珠打断,打完进入cg  ---  残血不杀只需要三点一线既可(牛魔王-红孩儿-天命人)  红孩儿低于20%血量既可触发(意义不大,就是多个两人打斗的CG,主要打死和打残的结局CG是一样的) ",
         regionSlug: "05_huoyanshan",
         title: "红孩儿",
         longitude: -0.23208141877927346,
@@ -6630,7 +6572,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:阴阳法衣、Fine Gold Threadx2、<span style="font-family: var(--van-base-font);">虹霓云绦</span>  <br>  [Strategy]:重点!!!先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身.</span>  在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span>  <span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span>  <span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上.</span>  <span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span> ',
+          ' **Reward**:阴阳法衣、Fine Gold Threadx2、<span style="font-family: var(--van-base-font);">虹霓云绦</span>  <br>  **Strategy**:重点!!!先去马哥那对话过支线剧情再打土地,<span style="font-family: var(--van-base-font);">打完土地拿马哥的变身.</span>  在这里触发剧情会进火焰山土地的领域里战斗,三个阶段,第一阶段召唤8个小怪,第二阶段<span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">马哥,第三阶段</span><span style="font-family: var(--van-base-font);">召唤</span><span style="font-family: var(--van-base-font);">阴阳鱼,前面两阶段有八戒帮你打,偷偷蓄力慢摸即可,技能都留到鱼身上</span>  <span style="font-family: var(--van-base-font);">Boss及怪物机制:战场会浮出黑白两色水泡,走过水泡可为自己染色,当天命人与怪物颜色相反时会有额外增伤</span>  <span style="font-family: var(--van-base-font);">穿蛇哥的衣服,在水上回血速度快如喝药,推荐穿上.</span>  <span style="font-family: var(--van-base-font);">补充bug:开局放定会操作不了游戏,只能alt+f4,天命人血条空了死不掉</span> ',
         regionSlug: "05_huoyanshan",
         title: "火焰山土地",
         longitude: -0.24355521737027175,
@@ -6638,7 +6580,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、Fine Gold Thread、Mind Core、珍玩【水火蓝】</span>  [Strategy]:  第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理.</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿Awaken Wine Worm.</span>  <span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打.</span>  <span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span> ',
+          ' **Reward**:  大力铁角x3 、兽棍·金晴配方材料【金晴兽嚼】、大力王套装配方(<span style="font-family: var(--van-base-font);">大力铁角一周目只有4个,所以至少2周目才能做全套</span><span style="font-family: var(--van-base-font);">)、虹霓云绦、Fine Gold Thread、Mind Core、珍玩【水火蓝】</span>  **Strategy**:  第一阶段需要把壁水金睛兽引到冰碴子那边引它喷火融冰即可进入下一场景(推荐使用聚形<font face="var(--van-base-font)">散气),第二阶段同理.</font><span style="font-family: var(--van-base-font);">可以从那个门缝直接走到下一个场景同时可以拿Awaken Wine Worm.</span>  <span style="font-family: var(--van-base-font);">结局的过场剧情是一样的,无论在那个场地击败都能触发,但是第三个场地BOSS会双属性交叉使用,难度较高,攻略建议没有准备火抗配置或者永冻流配置就在第二个冰场地打.</span>  <span style="font-family: var(--van-base-font);">逃课:小黄龙变身可以站火上稳定触发闪身攒豆,打出3豆巨额雷灾伤害</span> ',
         regionSlug: "05_huoyanshan",
         title: "璧水金睛兽",
         longitude: -0.6260214051914943,
@@ -6646,7 +6588,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  连理肢<br>  [Strategy]:  boss会乱动,不好打到,多用三段棍势打倒地在去输出  重点:  1.半血钻地时是有一个范围的,要尽快往远处跑  2.眼睛发光马上把视角移开看地面不要看boss  只要做到上面两点就不会进入非常难打的二阶段 ",
+          " **Reward**:  连理肢<br>  **Strategy**:  boss会乱动,不好打到,多用三段棍势打倒地在去输出  重点:  1.半血钻地时是有一个范围的,要尽快往远处跑  2.眼睛发光马上把视角移开看地面不要看boss  只要做到上面两点就不会进入非常难打的二阶段 ",
         regionSlug: "04_pansidongxiaceng",
         title: "紫蛛儿",
         longitude: -1.112373522643793,
@@ -6654,7 +6596,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:龙珠、珍玩-金色鲤、法术-金岚(变身龙)  [提醒]:需要把前面章节的三龙打完,到这里才会出现小黄龙,不然这里就是空的.【一般经过能打的龙都会念一段词:无有因,……】  <br>  [Strategy]:  这是目前为止打过最粪的怪,建议在远处蓄力棍一下一下敲,定风珠和三蓄棍可打断他进入飞天状态,若进入飞天状态可用寅虎挡一下,铜头铁臂后注意他的投技,可以配合回棍势的丹药一下一下蓄力敲死吧  他飞天的时候 躲过第一下俯冲后直接用隐身术, 可以站着看看他表演, 蓄好棍等他下来  可以尝试用禁字法配合戳棍,这怪很喜欢二人转,趁他逛街的时候蓄力,蓄满3段或者他要冲过来了就放 ",
+          " **Reward**:龙珠、珍玩-金色鲤、法术-金岚(变身龙)  [提醒]:需要把前面章节的三龙打完,到这里才会出现小黄龙,不然这里就是空的.【一般经过能打的龙都会念一段词:无有因,……】  <br>  **Strategy**:  这是目前为止打过最粪的怪,建议在远处蓄力棍一下一下敲,定风珠和三蓄棍可打断他进入飞天状态,若进入飞天状态可用寅虎挡一下,铜头铁臂后注意他的投技,可以配合回棍势的丹药一下一下蓄力敲死吧  他飞天的时候 躲过第一下俯冲后直接用隐身术, 可以站着看看他表演, 蓄好棍等他下来  可以尝试用禁字法配合戳棍,这怪很喜欢二人转,趁他逛街的时候蓄力,蓄满3段或者他要冲过来了就放 ",
         regionSlug: "04_pansidongxiaceng",
         title: "小黄龙",
         longitude: -1.0384971238538867,
@@ -6662,7 +6604,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]  根器【舌长思】、虹霓云绦、Fine Gold Threadx2、金趁心x2、先天锟钢、Mind Core  [打法秘诀]  建议关闭战斗自动锁定,锁定会对准天上的准星,导致很多攻击打不到,脱锁就可以敲腿了.  注意先去紫云山拿法宝·绣花针再来打,能好打很多.(boss进入金色二阶段时用绣花针会变回一阶段,不要开局就给用了)  用完绣花针后一段会进一下剧情,在进剧情前别用变身,进剧情会把变身取消.  注意:千万要首先完成蜘蛛精四妹支线然后击杀百眼魔君,若过早击杀百眼魔君会导致该支线直接中断.  战斗过程使用虫变身有特殊对话. ",
+          " **Reward**  根器【舌长思】、虹霓云绦、Fine Gold Threadx2、金趁心x2、先天锟钢、Mind Core  [打法秘诀]  建议关闭战斗自动锁定,锁定会对准天上的准星,导致很多攻击打不到,脱锁就可以敲腿了.  注意先去紫云山拿法宝·绣花针再来打,能好打很多.(boss进入金色二阶段时用绣花针会变回一阶段,不要开局就给用了)  用完绣花针后一段会进一下剧情,在进剧情前别用变身,进剧情会把变身取消.  注意:千万要首先完成蜘蛛精四妹支线然后击杀百眼魔君,若过早击杀百眼魔君会导致该支线直接中断.  战斗过程使用虫变身有特殊对话. ",
         regionSlug: "04_huanghuaguan",
         title: "百眼魔君",
         longitude: -0.6049839146306226,
@@ -6670,7 +6612,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 想全收集的不要直接去找魔君,先杀毒敌大王,关系到获得武器材料,去了没打死他毒敌大王也会消失.  [Reward]:  昆崎毒敌甲材料【毒敌钩】、金称心、Mind Core、彩云葫芦、通天角  [Strategy]:&nbsp;  如果不打毒敌大王,最终BOSS他会和晦月魔君互殴.进入<span style="font-family: var(--van-base-font);">晦月魔君二阶段过场动画完成后</span><span style="font-family: var(--van-base-font);">毒敌大王会被</span>晦月魔君击杀<span style="font-family: var(--van-base-font);">.</span>  单挑毒敌大王会获得材料【毒敌钩】,建议提前击杀.  注意 打<span style="font-family: var(--van-base-font);">晦月魔君一阶段,毒敌不死,进入2阶段也会触发【</span>齐齐整整四十五难<span style="font-family: var(--van-base-font);">&nbsp;】,所以不一定为了成就非得杀</span>  毒敌大王的四个儿子:<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822091&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子1</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822235&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子2</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822236&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子3</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822240&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子4</a><br> ',
+          ' 想全收集的不要直接去找魔君,先杀毒敌大王,关系到获得武器材料,去了没打死他毒敌大王也会消失.  **Reward**:  昆崎毒敌甲材料【毒敌钩】、金称心、Mind Core、彩云葫芦、通天角  **Strategy**:&nbsp;  如果不打毒敌大王,最终BOSS他会和晦月魔君互殴.进入<span style="font-family: var(--van-base-font);">晦月魔君二阶段过场动画完成后</span><span style="font-family: var(--van-base-font);">毒敌大王会被</span>晦月魔君击杀<span style="font-family: var(--van-base-font);">.</span>  单挑毒敌大王会获得材料【毒敌钩】,建议提前击杀.  注意 打<span style="font-family: var(--van-base-font);">晦月魔君一阶段,毒敌不死,进入2阶段也会触发【</span>齐齐整整四十五难<span style="font-family: var(--van-base-font);">&nbsp;】,所以不一定为了成就非得杀</span>  毒敌大王的四个儿子:<a href="https://app.gamersky.com/map/?mapId=57&amp;landmarkId=822091&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子1</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822235&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子2</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822236&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子3</a>,<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822240&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">儿子4</a><br> ',
         regionSlug: "04_ziyunshan",
         title: "毒敌大王",
         longitude: -0.596209147236749,
@@ -6678,7 +6620,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:&nbsp;  法宝【绣花针】、酒食【双冠血】、材料【妖生角】、Mind Core、金趁心x2  [Strategy]:  <span style="font-family: var(--van-base-font);">前面不打毒敌大王此处会前来协助战斗(但是毒敌大王会在</span>晦月魔君<span style="font-family: var(--van-base-font);">二阶段死亡,无法复活,也无法获得武器材料毒敌钩)</span>  击杀后,BOSS会进入2阶段,只能自己单挑了  毒敌大王死在帮战的第一阶段也可以拿成就 ',
+          ' **Reward**:&nbsp;  法宝【绣花针】、酒食【双冠血】、材料【妖生角】、Mind Core、金趁心x2  **Strategy**:  <span style="font-family: var(--van-base-font);">前面不打毒敌大王此处会前来协助战斗(但是毒敌大王会在</span>晦月魔君<span style="font-family: var(--van-base-font);">二阶段死亡,无法复活,也无法获得武器材料毒敌钩)</span>  击杀后,BOSS会进入2阶段,只能自己单挑了  毒敌大王死在帮战的第一阶段也可以拿成就 ',
         regionSlug: "04_ziyunshan",
         title: "晦月魔君",
         longitude: -0.16371718641252642,
@@ -6686,7 +6628,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 飞到这块会进入剧情动画  [Reward]:  <span style="font-family: var(--van-base-font);">神珍【</span><span style="font-family: var(--van-base-font);">锁子黄金甲】</span>  [Strategy]:三蓄力的重棍可以打破它的角(定风珠没用),然后就好打了  拉开距离蓄力,它会慢慢跟过来,近距离会一直乱跑  破隐一击好像也能断角  大头磕头也可以破角(可以打出大硬直的精魄都可以) ',
+          ' 飞到这块会进入剧情动画  **Reward**:  <span style="font-family: var(--van-base-font);">神珍【</span><span style="font-family: var(--van-base-font);">锁子黄金甲】</span>  **Strategy**:三蓄力的重棍可以打破它的角(定风珠没用),然后就好打了  拉开距离蓄力,它会慢慢跟过来,近距离会一直乱跑  破隐一击好像也能断角  大头磕头也可以破角(可以打出大硬直的精魄都可以) ',
         regionSlug: "06_huaguoshan",
         title: "Gold Armored Rhino",
         longitude: -0.41125961975353675,
@@ -6694,7 +6636,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:识蕴  [Strategy]:需要 色蕴,想蕴,受蕴,行蕴解锁boss战  此boss拳头从天降这招好像是秒的,建议卡在他横扫攻击范围往外站一点点,只要闪避捶地的地震波,等他停下来暴露蓝色结晶就可以拉满输出秒杀,临死之前会疯狂砸地,所以打完记得后撤到攻击范围外只要躲地震波就行.打完后从胳膊上上去,拿到第五<span style="font-family: var(--van-base-font);">蕴</span><span style="font-family: var(--van-base-font);">(识蕴)</span>  五蕴可以拿去找戌狗<span style="font-family: var(--van-base-font);">炼</span><span style="font-family: var(--van-base-font);">五蕴</span><span style="font-family: var(--van-base-font);">丹</span><span style="font-family: var(--van-base-font);">,可以同时加生命、法力和气力</span>  <br>  地点:看到水帘洞后背对着水帘洞飞到两个山中间有一山洞,飞进去就触发BOSS,记得先下云,不然会被吼下来摔掉血 ',
+          ' **Reward**:识蕴  **Strategy**:需要 色蕴,想蕴,受蕴,行蕴解锁boss战  此boss拳头从天降这招好像是秒的,建议卡在他横扫攻击范围往外站一点点,只要闪避捶地的地震波,等他停下来暴露蓝色结晶就可以拉满输出秒杀,临死之前会疯狂砸地,所以打完记得后撤到攻击范围外只要躲地震波就行.打完后从胳膊上上去,拿到第五<span style="font-family: var(--van-base-font);">蕴</span><span style="font-family: var(--van-base-font);">(识蕴)</span>  五蕴可以拿去找戌狗<span style="font-family: var(--van-base-font);">炼</span><span style="font-family: var(--van-base-font);">五蕴</span><span style="font-family: var(--van-base-font);">丹</span><span style="font-family: var(--van-base-font);">,可以同时加生命、法力和气力</span>  <br>  地点:看到水帘洞后背对着水帘洞飞到两个山中间有一山洞,飞进去就触发BOSS,记得先下云,不然会被吼下来摔掉血 ',
         regionSlug: "06_huaguoshan",
         title: "大石敢当",
         longitude: -0.9749979473096744,
@@ -6702,7 +6644,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  <span style="text-align: center;">臂甲【点翠飞龙釬】</span><br>  [Strategy]:  打完步云鹿、凤翅将军(拔触须)、打完金甲犀先获得这三件披挂之后,回到捕螂汀触发剧情；在八戒肚子里  (下面是轮椅)  一阶段定身棍花四豆,F地狼撞+A几下  二阶段躲第一刀,定身棍花四豆,倒地的时候用芭蕉扇可以A一整套,定身棍花四豆就差不多了 ',
+          ' **Reward**:  <span style="text-align: center;">臂甲【点翠飞龙釬】</span><br>  **Strategy**:  打完步云鹿、凤翅将军(拔触须)、打完金甲犀先获得这三件披挂之后,回到捕螂汀触发剧情；在八戒肚子里  (下面是轮椅)  一阶段定身棍花四豆,F地狼撞+A几下  二阶段躲第一刀,定身棍花四豆,倒地的时候用芭蕉扇可以A一整套,定身棍花四豆就差不多了 ',
         regionSlug: "06_huaguoshan",
         title: "碧臂螂(需完成前置)",
         longitude: -0.7312181680775893,
@@ -6710,7 +6652,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  (<span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
+          ' **Reward**:  神珍【凤翅紫金冠】<br>  **Strategy**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  (<span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军-Landing Spot 1",
         longitude: -0.6352323742729311,
@@ -6718,7 +6660,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:神珍【藕丝步云履】,Mind Core  <br>  [Strategy]:记得带定风珠  这B有二阶段!泡酒物记得放喝酒消除负面状态的.  二阶段打不过可以选择摸鱼,二师叔会全程助战,单刷BOSS  挂机要是觉得二师叔打的慢,可以选择立棍挂在天上,BOSS读指令,立棍的时候只会放血球,站着不动二师叔输出空间比较大  <br>  猴毛分身+定身打死第一阶段,boss bug直接金身无法选中,一会就死掉了 ",
+          " **Reward**:神珍【藕丝步云履】,Mind Core  <br>  **Strategy**:记得带定风珠  这B有二阶段!泡酒物记得放喝酒消除负面状态的.  二阶段打不过可以选择摸鱼,二师叔会全程助战,单刷BOSS  挂机要是觉得二师叔打的慢,可以选择立棍挂在天上,BOSS读指令,立棍的时候只会放血球,站着不动二师叔输出空间比较大  <br>  猴毛分身+定身打死第一阶段,boss bug直接金身无法选中,一会就死掉了 ",
         regionSlug: "06_huaguoshan",
         title: "Cloudtreading Deer",
         longitude: -0.741836175065572,
@@ -6726,7 +6668,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:根器【意见欲】(开启轮回功能)、毫毛·救命毫毛(二周目轮回自动获得)  <br>  [Strategy]:  BOSS分4个阶段,4个阶段都是水场地,可以为此配装.  1阶段无属性石猿,很简单,自己体会就好；  2阶段光炎、冰霜属性石猿,期间会使用分身2打1,注意跳躲范围伤害；  2阶段结束后会有记录点,后续死了就不用重新打前2个阶段了；  3阶段大圣残躯,还是较为好打的阶段,可以用4蓄力重击轻松过关；  4阶段是有6根的大圣残躯,是真正的难点,新增了很多技能和针对天命人的机制,会有较大消耗,尽量在3阶段保留资源投入到4阶段攻略中；  没有进入二周目轮回的话BOSS会复原,可以再度挑战,恢复打石猿前进度 ",
+          " **Reward**:根器【意见欲】(开启轮回功能)、毫毛·救命毫毛(二周目轮回自动获得)  <br>  **Strategy**:  BOSS分4个阶段,4个阶段都是水场地,可以为此配装.  1阶段无属性石猿,很简单,自己体会就好；  2阶段光炎、冰霜属性石猿,期间会使用分身2打1,注意跳躲范围伤害；  2阶段结束后会有记录点,后续死了就不用重新打前2个阶段了；  3阶段大圣残躯,还是较为好打的阶段,可以用4蓄力重击轻松过关；  4阶段是有6根的大圣残躯,是真正的难点,新增了很多技能和针对天命人的机制,会有较大消耗,尽量在3阶段保留资源投入到4阶段攻略中；  没有进入二周目轮回的话BOSS会复原,可以再度挑战,恢复打石猿前进度 ",
         regionSlug: "06_huaguoshan",
         title: "Stone Monkey",
         longitude: -1.336302545409751,
@@ -6742,7 +6684,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          " [Reward]:  金趁心、青丝刺  [Strategy]:  方法一:金身挡一挡就行了  方法二:用禁字法无脑c就行了  打完二师兄会被二姐激怒自己一个人冲下去,暂时脱离 ",
+          " **Reward**:  金趁心、青丝刺  **Strategy**:  方法一:金身挡一挡就行了  方法二:用禁字法无脑c就行了  打完二师兄会被二姐激怒自己一个人冲下去,暂时脱离 ",
         regionSlug: "04_zhujiadayuan",
         title: "Second Sister",
         longitude: -0.9686948910710953,
@@ -7071,14 +7013,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: 0.8494271778832854,
       },
       {
-        description:
-          " 建议对照游民官方路线进行攻略,确保不错过任何道具! <div>(点击左下角查看攻略即可进入)</div>",
-        regionSlug: "05_huoyanshan",
-        title: "建议对照官方路线攻略",
-        longitude: -1.2351691895314616,
-        latitude: 0.10782799305864899,
-      },
-      {
         regionSlug: "chapter-2",
         title: "Locked Gate",
         description:
@@ -7175,14 +7109,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "向下前往碎玉池",
         longitude: -0.8407373323443892,
         latitude: 0.6193353081664128,
-      },
-      {
-        description:
-          " 建议对照游民官方路线进行攻略,确保不错过任何道具! <div>(点击左下角查看攻略即可进入)</div>",
-        regionSlug: "04_zhujiadayuan",
-        title: "建议对照官方路线攻略",
-        longitude: -0.3224598047642644,
-        latitude: 0.838345753868353,
       },
       {
         description:
@@ -7437,7 +7363,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' 不必担心,不会就进BOSS战<br>  剧情<span style="font-family: var(--van-base-font);">CG</span><span style="font-family: var(--van-base-font);">结束后,并不能直接跳下去找八戒,看完剧情回头左手边才是路.</span> ',
+          '不必担心,不会就进BOSS战<br>  剧情<span style="font-family: var(--van-base-font);">CG</span><span style="font-family: var(--van-base-font);">结束后,并不能直接跳下去找八戒,看完剧情回头左手边才是路.</span> ',
         regionSlug: "04_pansidongxiaceng",
         title: "猪八戒被俘虏(结婚)剧情",
         longitude: -1.095498466608035,
@@ -7631,7 +7557,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span><br>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
+          ' **Reward**:  神珍【凤翅紫金冠】<br>  **Strategy**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span><br>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
         regionSlug: "06_huaguoshan",
         title: "风翅将军- Landing Point4",
         longitude: -0.5381335285224793,
@@ -7639,7 +7565,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:<span style="font-family: var(--van-base-font);">Mind Core(概率)</span>  [Strategy]:水木兽不止一只,水里到处能找到,会重复刷新,可以刷内丹 ',
+          ' **Reward**:<span style="font-family: var(--van-base-font);">Mind Core(概率)</span>  **Strategy**:水木兽不止一只,水里到处能找到,会重复刷新,可以刷内丹 ',
         regionSlug: "06_huaguoshan",
         title: "水木兽",
         longitude: -0.6637847948076967,
@@ -7670,7 +7596,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
+          ' **Reward**:  神珍【凤翅紫金冠】<br>  **Strategy**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point3",
         longitude: -0.5903982783507047,
@@ -7678,7 +7604,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">[Strategy]: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">**Reward**: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">**Strategy**: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point6 (Can't capture)",
         longitude: -0.410940596443254,
@@ -7686,7 +7612,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">[Reward]: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">[Strategy]: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
+          '<div data-zone-id="0" data-line-index="0" data-line="true" style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">**Reward**: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】<br> <p style="white-space-collapse: collapse;">**Strategy**: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> </div>',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point7 (Can't capture)",
         longitude: -0.3884011619591661,
@@ -7694,7 +7620,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          '**Reward**: 神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
+          '**Reward**: 神珍【凤翅紫金冠】<br>  **Strategy**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point5 (Can't capture)",
         longitude: -0.3867032912872901,
@@ -7702,7 +7628,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [Reward]:  神珍【凤翅紫金冠】<br>  [Strategy]:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
+          ' **Reward**:  神珍【凤翅紫金冠】<br>  **Strategy**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);"><br></span> ',
         regionSlug: "06_huaguoshan",
         title: "凤翅将军- Landing Point2",
         longitude: -0.6199587924042191,
@@ -7851,7 +7777,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [相关事件]:  马哥支线,在这里一个五行战车里,记得拉3次对完话<br>  马哥被火焰山土地算计了,落得如此下场.<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走.</span>  [Reward]:<span style="font-family: var(--van-base-font);">马哥的变身</span>  [注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span>  马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a>  回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面 ',
+          ' [相关事件]:  马哥支线,在这里一个五行战车里,记得拉3次对完话<br>  马哥被火焰山土地算计了,落得如此下场.<span style="font-family: var(--van-base-font);">打完火焰山土地后,可以来这把马哥的魂武拿走.</span>  **Reward**:<span style="font-family: var(--van-base-font);">马哥的变身</span>  [注意]:<span style="font-family: var(--van-base-font);">前面如果对话没完成,到这里拉拽鞭子会没有反应,回之前的位置也找不到马哥了,这代表马哥任务进入BAD END,建议回档(只需要回档到拉鞭子之前即可,</span><span style="font-family: var(--van-base-font);">见过马哥但拉鞭子没反应的,</span><span style="font-family: var(--van-base-font);">再去前几回的位置继续对话,需要让他没有新对话为止)</span>  马哥前面几回的位置:<a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821477&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置1</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821601&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置2</a>、<a href="https://app.gamersky.com/map/?mapId=55&amp;landmarkId=821869&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置3</a>、<a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822220&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar" target="_blank">位置4</a>  回档方法:根目录里blankmythwukong&gt;b1&gt;saved&gt;savegamesbackup,这里面有很多以前的存档,自己替换到savegames里面那个文档的里面 ',
         regionSlug: "05_huoyanshan",
         title: "马哥(位置5)",
         longitude: -0.45072482637738176,
@@ -7867,7 +7793,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         description:
-          ' [相关事件]:<br>  初始葫芦满级后【药师佛葫芦】吸收该处红精魄可将葫芦升级至神珍品质  [Reward]:  葫芦升级【上清宝葫芦】  [图鉴]:  <span style="font-family: var(--van-base-font);">葫芦仙人支线做完后解锁其他所有图鉴自动解锁袁守诚</span> ',
+          ' [相关事件]:<br>  初始葫芦满级后【药师佛葫芦】吸收该处红精魄可将葫芦升级至神珍品质  **Reward**:  葫芦升级【上清宝葫芦】  [图鉴]:  <span style="font-family: var(--van-base-font);">葫芦仙人支线做完后解锁其他所有图鉴自动解锁袁守诚</span> ',
         regionSlug: "05_huoyanshan",
         title: "葫芦仙人(位置5)",
         longitude: -0.39264229265270956,
@@ -7880,6 +7806,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "Appears after activating the [Front Hills](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397271) shrine",
         latitude: "0.65677715080875",
         longitude: "-0.81638707679434",
+        media: [
+          {
+            title: "",
+            type: "image",
+            mimeType: "",
+            url: "https://lh3.googleusercontent.com/ecQnkuNSovP1slRzlsfGMwLbwxAb9l7GXJicg09oae5-A4mJeCzI44D2FXmdLSvXSSNJBRedEgOcRf88WbWlUEegEpzyjGA2MJLSduCTKw=s0",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
@@ -7891,7 +7825,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-1",
         title: "Horse Guai",
-        description: "",
         latitude: "0.75142065659566",
         longitude: "-0.71358195101905",
         media: [
@@ -8100,6 +8033,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "**Location:** On the path on the right hand side",
         latitude: "0.57784393870710",
         longitude: "-0.82395954775922",
+        media: [
+          {
+            title: "",
+            type: "image",
+            mimeType: "",
+            url: "https://lh3.googleusercontent.com/AbNv5MmtLIJAjitqd_c5bCrvl1ww0wR6rmfQwafxE74Gd2Z2X-9iNA0tRbh_zsRTHhHmGfO91p7rjEwf7bBVkkBxj6tvkfrgnKhQxTKcpHo=s0",
+          },
+        ],
       },
       {
         regionSlug: "chapter-1",
@@ -8588,9 +8529,24 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: "0.47154077633355",
         longitude: "-0.70306798072892",
       },
+      {
+        regionSlug: "chapter-1",
+        title: "Jade Lotus",
+        latitude: 0.9431846852179114,
+        longitude: -0.9013381515201526,
+        media: [
+          {
+            title: "",
+            url: "https://lh3.googleusercontent.com/2LW12e90p7fU1vPz4k0o0QjwNuqHrySSFlR2Vzo-IJzUPjaBHZ6YWvnh2ApGmIpsNCbjgVWIQlhKOgm-0eMjonYYMiqNQgz5x9_sV3EiT7I=s0",
+            type: "image",
+            mimeType: "",
+          },
+        ],
+      },
     ],
     groupSlug: "bmw_materials",
     title: "Jade Lotus",
+    info: "*Originating from the Celestial Realms, this divine plant is the gods' possession. This can be used to make medicines.*",
   },
   {
     locations: [

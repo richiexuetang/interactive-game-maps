@@ -106,7 +106,7 @@ export const MarkerSearch = () => {
                     edge="end"
                     aria-label="navigate"
                     onClick={() => {
-                      map.panTo([marker.latitude, marker.longitude]);
+                      map.setView([marker.latitude, marker.longitude], 13);
                       setTriggeredMarkerId(marker.id);
                       setShowFiltered(false);
                     }}

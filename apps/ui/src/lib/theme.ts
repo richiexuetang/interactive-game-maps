@@ -8,6 +8,11 @@ const theme = createTheme({
   palette: {
     mode: "dark",
   },
+  typography: {
+    button: {
+      textTransform: "none",
+    },
+  },
 });
 
 export default theme;

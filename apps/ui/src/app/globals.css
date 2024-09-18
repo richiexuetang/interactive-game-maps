@@ -57,7 +57,7 @@
 .map-label {
   white-space: pre;
   font-size: large;
-  color: rgb(var(--tw-color-primary-200));
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -250,52 +250,42 @@
 
 .herbalist {
   background-position: -198px -86px;
-
 }
 
 .innkeep {
   background-position: -33px -132px;
-
 }
 
 .runewright {
   background-position: -132px -220px;
-
 }
 
 .shopkeeper {
   background-position: -198px -220px;
-
 }
 
 .fistfight {
   background-position: -165px -44px;
-
 }
 
 .gwent_quest {
   background-position: -99px -86px;
-
 }
 
 .hidden_treasure {
   background-position: -231px -86px;
-
 }
 
 .horse_race {
   background-position: 0 -132px;
-
 }
 
 .main_quest {
   background-position: -165px -132px;
-
 }
 
 .secondary_quest {
   background-position: -165px -220px;
-
 }
 
 .treasure_chest {
@@ -305,57 +295,46 @@
 
 .book {
   background-position: -231px -0px;
-
 }
 
 .chest {
   background-position: -33px -44px;
-
 }
 
 .gwent_card {
   background-position: 0 -86px;
-
 }
 
 .mutagen {
   background-position: -33px -176px;
-
 }
 
 .oil {
   background-position: -132px -176px;
-
 }
 
 .quest_item {
   background-position: -33px -220px;
-
 }
 
 .recipe {
   background-position: -66px -220px;
-
 }
 
 .relic_item {
   background-position: -99px -220px;
-
 }
 
 .witcher_gear {
   background-position: -231px -264px;
-
 }
 
 .miscellaneous {
   background-position: -198px -132px;
-
 }
 
 .npc {
   background-position: -99px -176px;
-
 }
 
 /* Tears of the kingdom */

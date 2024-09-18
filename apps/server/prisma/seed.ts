@@ -1,13 +1,14 @@
+import { subRegions } from "./seeding/sub-regions";
 import { PrismaClient } from "@prisma/client";
 import { games } from "./seeding/games";
 import { regions } from "./seeding/region";
 import { markerGroups } from "./seeding/marker-group";
 import { categoryLocations } from "./seeding/categories";
-import { textLocations } from "./seeding/categories";
 
 const prisma = new PrismaClient();
 
 async function main() {
+  await prisma.subRegion.deleteMany({});
   await prisma.media.deleteMany({});
   await prisma.markerLocation.deleteMany({});
   await prisma.markerCategory.deleteMany({});
@@ -20,9 +21,19 @@ async function main() {
 
   await prisma.region.createMany({ data: regions });
 
-  await prisma.markerGroup.createMany({ data: markerGroups });
+  for (let i = 0; i < subRegions.length; i++) {
+    const subRegion = subRegions[i];
+    const coordinatesString = subRegion.coordinates
+      .map((coord: any) => coord.join(" "))
+      .join(", ");
+    const coord = `POLYGON((${coordinatesString}))`;
+    await prisma.$queryRaw`
+              INSERT INTO "SubRegion" (coordinates, title, "regionSlug")
+              VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${subRegion.regionSlug})
+            `;
+  }
 
-  await prisma.markerLocation.createMany({ data: textLocations });
+  await prisma.markerGroup.createMany({ data: markerGroups });
 
   for (let i = 0; i < categoryLocations.length; i++) {
     const category = categoryLocations[i];

@@ -1,37 +1,36 @@
 import { Region } from "@/__generated__/graphql";
-import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
+import { hiddenCategoriesAtom } from "@/store/category";
 import { showMarkerAtom } from "@/store/marker";
-import { Checkbox } from "@/components/ui/checkbox";
-import { useAtom, useAtomValue } from "jotai";
-import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Divider from "@mui/material/Divider";
 import React from "react";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { gameSlugAtom } from "@/store";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import { SelectChangeEvent } from "@mui/material/Select";
 import { useParams, useRouter } from "next/navigation";
-import { currentGroupsAtom, currentMarkersAtom } from "@/store/map";
+import {
+  currentGroupsAtom,
+  currentMarkersAtom,
+  triggerSubRegionIdAtom,
+} from "@/store/map";
 import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import { cn } from "@/lib/utils";
-import { userAtom } from "@/store/auth";
-import { useMutation } from "@apollo/client";
-import { TOGGLE_HIDE_FOUND } from "@/lib/constants";
+import Tooltip from "@mui/material/Tooltip";
+import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/Button";
 
 interface MenuProps {
   regions: Region[];
+  subRegions: any[];
 }
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -46,33 +45,15 @@ const Item = styled(Paper)(({ theme }) => ({
   },
 }));
 
-export const Menu = ({ regions }: MenuProps) => {
+export const Menu = ({ regions, subRegions }: MenuProps) => {
   const params = useParams<{ slug: string }>();
   const [collapseMenu, setCollapseMenu] = useState(false);
   const groups = useAtomValue(currentGroupsAtom);
   const markers = useAtomValue(currentMarkersAtom);
-
   const router = useRouter();
   const gameSlug = useAtomValue(gameSlugAtom);
-  const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
+  const setShowMarker = useSetAtom(showMarkerAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-  const [hiddenGroups, setHiddenGroups] = useAtom(hiddenGroupsAtom);
-  const [appUser, setAppUser] = useAtom(userAtom);
-
-  const [toggleHideFound] = useMutation(TOGGLE_HIDE_FOUND);
-
-  const toggleShowMarker = () => {
-    if (!showMarker) {
-      setHiddenCategories([]);
-    } else {
-      groups?.map((group) => {
-        group.categories?.map((category) => {
-          setHiddenCategories((prev) => [...prev, category.id]);
-        });
-      });
-    }
-    setShowMarker(!showMarker);
-  };
 
   const handleHiddenCategory = (category: string) => {
     if (hiddenCategories.includes(category)) {
@@ -84,23 +65,6 @@ export const Menu = ({ regions }: MenuProps) => {
     }
   };
 
-  const toggleHideShowGroup = (groupId: string) => {
-    const group = groups?.find((group) => group.id === groupId);
-    const groupCategories = group?.categories?.map((category) => category.id);
-    if (hiddenGroups.includes(groupId)) {
-      setHiddenGroups(hiddenGroups.filter((group) => group !== groupId));
-      setHiddenCategories(
-        hiddenCategories.filter(
-          (category) => !groupCategories?.includes(category)
-        )
-      );
-    } else {
-      setHiddenGroups((prev) => [...prev, groupId]);
-      groupCategories?.map((category) =>
-        setHiddenCategories((prev) => [...prev, category])
-      );
-    }
-  };
   const ChevronIcon = collapseMenu ? ChevronRightIcon : ChevronLeftIcon;
   const chevronText = collapseMenu ? "Expand" : "Collapse";
 
@@ -108,38 +72,34 @@ export const Menu = ({ regions }: MenuProps) => {
     router.push(`/map/${event.target.value}`);
   };
 
-  const handleHideFound = () => {
-    if (appUser?.email) {
-      const hide = !appUser.hideFound;
-      toggleHideFound({
-        variables: { data: { email: appUser.email, hide } },
-      });
-      setAppUser({ ...appUser, hideFound: hide });
-    }
-  };
+  // const handleHideFound = () => {
+  //   if (appUser?.email) {
+  //     const hide = !appUser.hideFound;
+  //     toggleHideFound({
+  //       variables: { data: { email: appUser.email, hide } },
+  //     });
+  //     setAppUser({ ...appUser, hideFound: hide });
+  //   }
+  // };
 
+  const setSubRegionId = useSetAtom(triggerSubRegionIdAtom);
   return (
     <>
-      <div
+      <Paper
         className={cn(
-          "absolute z-[1000] top-20 bg-neutral-500 h-12 transition-all duration-200 opacity-100 border-1 border-l-0",
+          "absolute z-[1000] top-20 h-10 transition-all duration-200 opacity-100",
           !collapseMenu && "left-96"
         )}
+        elevation={0}
       >
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger>
-              <ChevronIcon
-                onClick={() => setCollapseMenu(!collapseMenu)}
-                className="mt-3 w-6 h-6 cursor-pointer"
-              />
-            </TooltipTrigger>
-            <TooltipContent>{chevronText}</TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
-      </div>
+        <Tooltip title={chevronText}>
+          <IconButton onClick={() => setCollapseMenu(!collapseMenu)}>
+            <ChevronIcon />
+          </IconButton>
+        </Tooltip>
+      </Paper>
       {!collapseMenu && (
-        <div className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform bg-neutral-600 h-full">
+        <Paper className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform h-full">
           <div className="relative flex flex-col p-5 gap-4 items-center">
             <Link href={`/region/${gameSlug}`}>
               <Image
@@ -154,10 +114,7 @@ export const Menu = ({ regions }: MenuProps) => {
             <Divider orientation="horizontal" flexItem />
 
             <FormControl fullWidth>
-              <Select
-                value={params.slug || "chapter-1"}
-                onChange={handleChange}
-              >
+              <Select value={params.slug} onChange={handleChange}>
                 {regions?.map((region, index) => (
                   <MenuItem key={`${region}${index}`} value={region.slug}>
                     {region.title}
@@ -168,27 +125,29 @@ export const Menu = ({ regions }: MenuProps) => {
 
             <Divider orientation="horizontal" flexItem />
 
+            <Grid
+              container
+              spacing={1}
+              justifyContent="center"
+              alignContent="center"
+            >
+              {subRegions?.map((region) => (
+                <Grid key={region.title} size={5} flexGrow={1}>
+                  <Button
+                    onClick={() => setSubRegionId(region.title)}
+                    sx={{ fontSize: 12, whiteSpace: "nowrap" }}
+                    variant="text"
+                  >
+                    {region.title}
+                  </Button>
+                </Grid>
+              ))}
+            </Grid>
+            <Divider orientation="horizontal" flexItem />
+
             <div className="flex gap-5">
-              <div className="flex gap-2 align-middle contents-center">
-                <Checkbox
-                  id="hideShowCheckbox"
-                  checked={!showMarker}
-                  onCheckedChange={toggleShowMarker}
-                />
-                <label htmlFor="hideShowCheckbox" className="-mt-1">
-                  Hide All
-                </label>
-              </div>
-              <div className="flex gap-2 align-middle contents-center">
-                <Checkbox
-                  id="showFoundCheckbox"
-                  checked={appUser?.hideFound}
-                  onCheckedChange={handleHideFound}
-                />
-                <label htmlFor="showFoundCheckbox" className="-mt-1">
-                  Hide Found
-                </label>
-              </div>
+              <Button onClick={() => setShowMarker(true)}>SHOW ALL</Button>
+              <Button onClick={() => setShowMarker(false)}>HIDE ALL</Button>
             </div>
 
             <Divider orientation="horizontal" flexItem />
@@ -211,13 +170,7 @@ export const Menu = ({ regions }: MenuProps) => {
 
               return (
                 <React.Fragment key={`${group.id}_${index}`}>
-                  <h1
-                    className={cn(
-                      "text-lg uppercase w-full cursor-pointer",
-                      hiddenGroups.includes(group.id) && "line-through"
-                    )}
-                    onClick={() => toggleHideShowGroup(group.id)}
-                  >
+                  <h1 className={cn("text-lg uppercase w-full cursor-pointer")}>
                     {group.title}
                   </h1>
                   <Grid container spacing={1} sx={{ minWidth: 350 }}>
@@ -257,7 +210,7 @@ export const Menu = ({ regions }: MenuProps) => {
               );
             })}
           </div>
-        </div>
+        </Paper>
       )}
     </>
   );

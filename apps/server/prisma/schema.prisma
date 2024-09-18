@@ -1,10 +1,12 @@
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [pg_trgm, postgis]
 }
 
 generator client {
-  provider = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+  provider        = "prisma-client-js"
 }
 
 generator dbml {
@@ -52,6 +54,17 @@ model Region {
   gameSlug     String
   locations    MarkerLocation[]
   order        Int              @default(1)
+  subRegions   SubRegion[]
+}
+
+model SubRegion {
+  id          Int                                    @id @default(autoincrement())
+  region      Region                                 @relation(fields: [regionSlug], references: [slug])
+  regionSlug  String
+  coordinates Unsupported("geometry(Polygon, 4326)")
+  title       String
+
+  @@index([coordinates], type: Gist)
 }
 
 model MarkerGroup {
@@ -71,7 +84,6 @@ model MarkerCategory {
   locations   MarkerLocation[]
   groupSlug   String
   markerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
-  appUserId   String?
 }
 
 model MarkerLocation {
@@ -85,18 +97,11 @@ model MarkerLocation {
   Region      Region          @relation(fields: [regionSlug], references: [slug])
   regionSlug  String
   media       Media[]
-  type        LocationType    @default(Marker)
-}
-
-enum LocationType {
-  Marker
-  Text
-  Line
 }
 
 model Media {
   id               Int             @id @default(autoincrement())
-  title            String
+  title            String?
   url              String
   type             String
   mimeType         String

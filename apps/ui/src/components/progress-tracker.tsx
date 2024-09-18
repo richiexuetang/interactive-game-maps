@@ -2,7 +2,6 @@ import { CheckListIcon } from "./icons/check-list-icon";
 import Fab from "@mui/material/Fab";
 import React, { useState } from "react";
 import Tooltip from "@mui/material/Tooltip";
-import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import {
@@ -20,6 +19,7 @@ import {
   IconButton,
   InputLabel,
   MenuItem,
+  Popper,
   Select,
   SelectChangeEvent,
 } from "@mui/material";
@@ -50,16 +50,13 @@ export const ProgressTracker = () => {
 
   const [addTrackingCategory] = useMutation(ADD_TRACKING_CATEGORY);
   const [removeTrackingCategory] = useMutation(REMOVE_TRACKING_CATEGORY);
+  const [open, setOpen] = React.useState(false);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
+    setOpen((prevOpen) => !prevOpen);
   };
 
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-
-  const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
 
   const handleChange = (e: SelectChangeEvent) => {
@@ -160,31 +157,35 @@ export const ProgressTracker = () => {
   };
 
   return (
-    <div className="absolute top-36 right-2 z-[1000]">
+    <div className="absolute top-36 right-2 z-[1000] flex flex-col gap-5">
       <Tooltip title="Progress Tracker" placement="left">
         <Fab onClick={handleClick}>
           <CheckListIcon className="h-6 w-6" />
         </Fab>
       </Tooltip>
-      <Popover
+      <Popper
+        disablePortal={true}
         id={id}
         open={open}
         anchorEl={anchorEl}
-        onClose={handleClose}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "left",
+        sx={{
+          width: 275,
+          borderColor: "white",
+          borderWidth: 1,
+          borderRadius: 1,
+          bgcolor: "black",
+          p: 2,
         }}
       >
         <Typography sx={{ p: 2 }}>Progress Tracker</Typography>
-        <Divider />
-        <div className="flex flex-col">
-          {appUser?.trackingCategories?.map((category) => (
-            <div key={category}>
-              <Accordion>
+        <Divider sx={{ mb: 2 }} />
+        {appUser ? (
+          <div className="flex flex-col mb-3">
+            {appUser?.trackingCategories?.map((category) => (
+              <Accordion key={category}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                   <span>{getCategoryInfoById(category.toString())?.title}</span>
-                  <span>
+                  <span className="ml-5">
                     {totalFoundForCategory(category.toString())}/
                     {totalForCategory(category.toString())}
                   </span>
@@ -223,28 +224,28 @@ export const ProgressTracker = () => {
                   );
                 })}
               </Accordion>
-            </div>
-          ))}
-        </div>
-        <FormControl fullWidth>
-          <InputLabel id="category-select-label">Track category</InputLabel>
-          <Select
-            labelId="category-select-label"
-            id="category-select"
-            value={selectedCategory}
-            label="Track category"
-            onChange={handleChange}
-          >
-            {currentGroups?.map((group) =>
-              group.categories?.map((category) => (
-                <MenuItem value={category.id} key={category.id}>
-                  {category.title}
-                </MenuItem>
-              ))
-            )}
-          </Select>
-        </FormControl>
-      </Popover>
+            ))}
+            <FormControl fullWidth sx={{ mt: 2 }}>
+              <InputLabel id="category-select-label">Track category</InputLabel>
+              <Select
+                labelId="category-select-label"
+                id="category-select"
+                value={selectedCategory}
+                label="Track category"
+                onChange={handleChange}
+              >
+                {currentGroups?.map((group) =>
+                  group.categories?.map((category) => (
+                    <MenuItem value={category.id} key={category.id}>
+                      {category.title}
+                    </MenuItem>
+                  ))
+                )}
+              </Select>
+            </FormControl>
+          </div>
+        ) : null}
+      </Popper>
     </div>
   );
 };

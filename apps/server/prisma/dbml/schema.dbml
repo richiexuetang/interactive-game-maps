@@ -43,6 +43,14 @@ Table Region {
   gameSlug String [not null]
   locations MarkerLocation [not null]
   order Int [not null, default: 1]
+  subRegions SubRegion [not null]
+}
+
+Table SubRegion {
+  id Int [pk, increment]
+  region Region [not null]
+  regionSlug String [not null]
+  title String [not null]
 }
 
 Table MarkerGroup {
@@ -62,7 +70,6 @@ Table MarkerCategory {
   locations MarkerLocation [not null]
   groupSlug String [not null]
   markerGroup MarkerGroup [not null]
-  appUserId String
 }
 
 Table MarkerLocation {
@@ -76,12 +83,11 @@ Table MarkerLocation {
   Region Region [not null]
   regionSlug String [not null]
   media Media [not null]
-  type LocationType [not null, default: 'Marker']
 }
 
 Table Media {
   id Int [pk, increment]
-  title String [not null]
+  title String
   url String [not null]
   type String [not null]
   mimeType String [not null]
@@ -89,13 +95,9 @@ Table Media {
   markerLocationId Int
 }
 
-Enum LocationType {
-  Marker
-  Text
-  Line
-}
-
 Ref: Region.gameSlug > Game.slug
+
+Ref: SubRegion.regionSlug > Region.slug
 
 Ref: MarkerGroup.gameSlug > Game.slug
 
