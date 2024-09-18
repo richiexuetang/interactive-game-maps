@@ -1,8 +1,8 @@
 import urllib.request
 import os
 
-zoom_start = 11
-zoom_end = 13
+zoom_start = 10
+zoom_end = 12
 
 x_low_map = {
     8: 127,
@@ -30,9 +30,10 @@ y_low_map = x_low_map
 y_high_map = x_high_map
 
 # "fablesphere"
-regions = [ "04_ziyunshan"]
-game = "elden-ring"
+regions = [ "04_zhujiadayuan"]
+game = ""
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
+
 for z in range(zoom_start, zoom_end+1):
     for x in range(x_low_map[z], x_high_map[z] + 1):
         for y in range(y_low_map[z], y_high_map[z] + 1):

@@ -26,7 +26,7 @@ export type AppUser = {
   firstName?: Maybe<Scalars['String']['output']>;
   foundLocations?: Maybe<Array<Scalars['Int']['output']>>;
   hideFound: Scalars['Boolean']['output'];
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   lastName?: Maybe<Scalars['String']['output']>;
   photoUrl?: Maybe<Scalars['String']['output']>;
   trackingCategories?: Maybe<Array<Scalars['Int']['output']>>;
@@ -48,7 +48,7 @@ export type Game = {
   description?: Maybe<Scalars['String']['output']>;
   groups?: Maybe<Array<MarkerGroup>>;
   iconUrl?: Maybe<Scalars['String']['output']>;
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   previewUrl?: Maybe<Scalars['String']['output']>;
   regions?: Maybe<Array<Region>>;
   slug: Scalars['String']['output'];
@@ -63,7 +63,7 @@ export type MarkerCategory = {
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   icon: Scalars['String']['output'];
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   info?: Maybe<Scalars['String']['output']>;
   locations?: Maybe<Array<MarkerLocation>>;
   title: Scalars['String']['output'];
@@ -78,7 +78,7 @@ export type MarkerGroup = {
   createdAt: Scalars['DateTime']['output'];
   game?: Maybe<Game>;
   gameSlug?: Maybe<Scalars['String']['output']>;
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
@@ -91,7 +91,7 @@ export type MarkerLocation = {
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   description?: Maybe<Scalars['String']['output']>;
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   latitude: Scalars['Float']['output'];
   longitude: Scalars['Float']['output'];
   media?: Maybe<Array<Media>>;
@@ -106,7 +106,7 @@ export type Media = {
   __typename?: 'Media';
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   markerLocation?: Maybe<MarkerLocation>;
   markerLocationId?: Maybe<Scalars['Float']['output']>;
   mimeType?: Maybe<Scalars['String']['output']>;
@@ -217,7 +217,7 @@ export type Region = {
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   gameSlug: Scalars['String']['output'];
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   maxZoom: Scalars['Float']['output'];
   minZoom: Scalars['Float']['output'];
   order: Scalars['Float']['output'];
@@ -248,7 +248,7 @@ export type SubRegion = {
   coordinates?: Maybe<Array<Array<Array<Scalars['Float']['output']>>>>;
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
-  id: Scalars['ID']['output'];
+  id: Scalars['Float']['output'];
   regionSlug: Scalars['String']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
@@ -338,28 +338,28 @@ export type GetGroupsByGameSlugQueryVariables = Exact<{
 }>;
 
 
-export type GetGroupsByGameSlugQuery = { __typename?: 'Query', getGroupsByGameSlug: Array<{ __typename?: 'MarkerGroup', title: string, id: string, categories?: Array<{ __typename?: 'MarkerCategory', title: string, icon: string, info?: string | null, id: string }> | null }> };
+export type GetGroupsByGameSlugQuery = { __typename?: 'Query', getGroupsByGameSlug: Array<{ __typename?: 'MarkerGroup', title: string, id: number, categories?: Array<{ __typename?: 'MarkerCategory', title: string, icon: string, info?: string | null, id: number }> | null }> };
 
 export type LocationsQueryVariables = Exact<{
   regionSlug?: InputMaybe<Scalars['String']['input']>;
 }>;
 
 
-export type LocationsQuery = { __typename?: 'Query', locations: Array<{ __typename?: 'MarkerLocation', categoryId?: number | null, description?: string | null, latitude: number, longitude: number, title: string, id: string, category?: { __typename?: 'MarkerCategory', title: string, id: string, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, mimeType?: string | null, type: string }> | null }> };
+export type LocationsQuery = { __typename?: 'Query', locations: Array<{ __typename?: 'MarkerLocation', categoryId?: number | null, description?: string | null, latitude: number, longitude: number, title: string, id: number, category?: { __typename?: 'MarkerCategory', title: string, id: number, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, mimeType?: string | null, type: string }> | null }> };
 
 export type RegionDetailsQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
-export type RegionDetailsQuery = { __typename?: 'Query', regionDetails: { __typename?: 'Region', zoom: number, gameSlug: string, id: string, maxZoom: number, minZoom: number, slug: string, thumbnailUrl: string, tilePath: string, title: string, center: Array<number> } };
+export type RegionDetailsQuery = { __typename?: 'Query', regionDetails: { __typename?: 'Region', zoom: number, gameSlug: string, id: number, maxZoom: number, minZoom: number, slug: string, thumbnailUrl: string, tilePath: string, title: string, center: Array<number> } };
 
 export type FindRegionByGameQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
-export type FindRegionByGameQuery = { __typename?: 'Query', findRegionsByGame: Array<{ __typename?: 'Region', center: Array<number>, zoom: number, gameSlug: string, id: string, maxZoom: number, minZoom: number, order: number, slug: string, thumbnailUrl: string, tilePath: string, title: string }> };
+export type FindRegionByGameQuery = { __typename?: 'Query', findRegionsByGame: Array<{ __typename?: 'Region', center: Array<number>, zoom: number, gameSlug: string, id: number, maxZoom: number, minZoom: number, order: number, slug: string, thumbnailUrl: string, tilePath: string, title: string }> };
 
 
 export const AddFoundLocationsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"AddFoundLocations"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"UpdateFoundLocationInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"addFoundLocations"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}}]}}]}}]} as unknown as DocumentNode<AddFoundLocationsMutation, AddFoundLocationsMutationVariables>;

@@ -9,7 +9,7 @@ type AppUser {
   firstName: String
   foundLocations: [Int!]
   hideFound: Boolean!
-  id: ID!
+  id: Float!
   lastName: String
   photoUrl: String
   trackingCategories: [Int!]
@@ -36,7 +36,7 @@ type Game {
   description: String
   groups: [MarkerGroup!]
   iconUrl: String
-  id: ID!
+  id: Float!
   previewUrl: String
   regions: [Region!]
   slug: String!
@@ -51,7 +51,7 @@ type MarkerCategory {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   icon: String!
-  id: ID!
+  id: Float!
   info: String
   locations: [MarkerLocation!]
   title: String!
@@ -67,7 +67,7 @@ type MarkerGroup {
   createdAt: DateTime!
   game: Game
   gameSlug: String
-  id: ID!
+  id: Float!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -81,7 +81,7 @@ type MarkerLocation {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   description: String
-  id: ID!
+  id: Float!
   latitude: Float!
   longitude: Float!
   media: [Media!]
@@ -96,7 +96,7 @@ type MarkerLocation {
 type Media {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  id: ID!
+  id: Float!
   markerLocation: MarkerLocation
   markerLocationId: Float
   mimeType: String
@@ -142,7 +142,7 @@ type Region {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   gameSlug: String!
-  id: ID!
+  id: Float!
   maxZoom: Float!
   minZoom: Float!
   order: Float!
@@ -174,7 +174,7 @@ type SubRegion {
 
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  id: ID!
+  id: Float!
   regionSlug: String!
   title: String!
 

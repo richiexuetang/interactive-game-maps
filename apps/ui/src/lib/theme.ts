@@ -5,6 +5,9 @@ const theme = createTheme({
   // typography: {
   //   fontFamily: "var(--font-roboto)",
   // },
+  cssVariables: {
+    cssVarPrefix: "ritcher",
+  },
   palette: {
     mode: "dark",
   },

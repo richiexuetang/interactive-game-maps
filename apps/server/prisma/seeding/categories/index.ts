@@ -1,4 +1,3 @@
-import { LocationType } from "@prisma/client";
 import { bmwCategoryLocations } from "./bmw";
 import { eldenRingCategoryLocations } from "./elden-ring";
 import { CategoryLocation } from "./interface";

@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 import Leaflet from "leaflet";
-import * as ReactLeaflet from "react-leaflet";
+import * as RL from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "@/leaflet/smooth-wheel-zoom";
+import "@/lib/leaflet/smooth-wheel-zoom";
 import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
@@ -24,10 +24,7 @@ import { ProgressTracker } from "../progress-tracker";
 import { useQuery } from "@apollo/client";
 import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
-import { TestMarker } from "../markers/test-marker";
 import { SubRegion } from "../layers/sub-region";
-
-const { MapContainer } = ReactLeaflet;
 
 interface MapProps {
   region: Region;
@@ -96,17 +93,12 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
   }, []);
 
   return (
-    <div
-      className={cn(
-        getFontClassName(gameSlug),
-        "h-[calc(100vh-1rem)] overflow-hidden"
-      )}
-    >
+    <div className={cn(getFontClassName(gameSlug), "h-[calc(100vh-1rem)] ")}>
       <Menu
         regions={regions}
         subRegions={subRegionData?.getSubRegionsByRegion}
       />
-      <MapContainer
+      <RL.MapContainer
         {...rest}
         attributionControl={false}
         zoomControl={false}
@@ -116,7 +108,7 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
         smoothSensitivity={15}
         className="w-full h-full !bg-accent"
       >
-        <ReactLeaflet.TileLayer
+        <RL.TileLayer
           url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
         />
         <MarkerRenderer user={user!} />
@@ -129,8 +121,7 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
             id={sub.title}
           />
         ))}
-        <TestMarker center={[0.74848668660222, -0.47232627868885]} />
-      </MapContainer>
+      </RL.MapContainer>
       {user?.email && (
         <div className="z-[1000] absolute top-2 right-2">
           <UserAvatar

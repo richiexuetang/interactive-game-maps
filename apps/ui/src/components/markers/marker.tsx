@@ -9,17 +9,11 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCopyToClipboard } from "@/hooks";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { toast } from "sonner";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { MarkerLocation } from "@/__generated__/graphql";
 import { Button } from "../ui/button";
 import { signInWithGoogle } from "@/lib/firebase/auth";
@@ -34,6 +28,7 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox/Checkbox";
 import { userAtom } from "@/store/auth";
+import { currentRegionAtom } from "@/store/map";
 
 interface MarkerProps {
   marker: MarkerLocation;
@@ -56,6 +51,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
   const { icon, info } = category!;
 
   const [appUser, setAppUser] = useAtom(userAtom);
+  const currentRegion = useAtomValue(currentRegionAtom);
 
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
@@ -63,12 +59,11 @@ export const Marker = ({ marker, user }: MarkerProps) => {
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   useEffect(() => {
-    if (triggeredMarkerId == id && markerRef) {
+    if (triggeredMarkerId === id && markerRef) {
       markerRef.current.openPopup();
     }
   }, [id, triggeredMarkerId]);
 
-  const [markerFound, setMarkerFound] = useState(false);
   // eslint-disable-next-line no-unused-vars
   const [_, copy] = useCopyToClipboard();
 
@@ -100,7 +95,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
 
   useEffect(() => {
     const markerId = searchParams.get("marker");
-    if (markerId && id == markerId) {
+    if (markerId && id === parseInt(markerId)) {
       map.flyTo([latitude, longitude]);
       if (markerRef) {
         markerRef.current.openPopup();
@@ -108,33 +103,24 @@ export const Marker = ({ marker, user }: MarkerProps) => {
     }
   }, [id, latitude, longitude, map, searchParams]);
 
-  useEffect(() => {
-    if (appUser?.foundLocations) {
-      setMarkerFound(appUser.foundLocations?.includes(parseInt(id)));
-    }
-  }, [id, appUser]);
-
   const handleMarkerFound = () => {
     if (appUser?.email) {
+      const variables = { data: { email: appUser.email, location: id } };
+      let newFoundLocations = [];
       if (markerFound) {
-        removeLocation({
-          variables: { data: { email: appUser.email, location: parseInt(id) } },
-        });
-        const newFoundLocations = appUser.foundLocations.filter(
-          (location) => location !== parseInt(id)
+        removeLocation({ variables });
+        newFoundLocations = appUser.foundLocations.filter(
+          (location) => location !== id
         );
-        setAppUser({ ...appUser, foundLocations: newFoundLocations });
       } else {
-        addLocation({
-          variables: { data: { email: appUser.email, location: parseInt(id) } },
-        });
-        const newFoundLocations = [...appUser.foundLocations, parseInt(id)];
-        setAppUser({ ...appUser, foundLocations: newFoundLocations });
+        addLocation({ variables });
+        newFoundLocations = [...appUser.foundLocations, id];
       }
+      setAppUser({ ...appUser, foundLocations: newFoundLocations });
     }
-
-    setMarkerFound(!markerFound);
   };
+
+  const markerFound = appUser?.foundLocations.includes(id);
 
   if (markerFound && appUser?.hideFound) return null;
 
@@ -163,73 +149,75 @@ export const Marker = ({ marker, user }: MarkerProps) => {
                 </CardDescription>
               </div>
               <div className="flex px-5">
-                <TooltipProvider>
-                  <Tooltip>
-                    <TooltipTrigger>
-                      <Link1Icon
-                        className="cursor-pointer h-5 w-5"
-                        onClick={handleCopy(
-                          `http://localhost:3000/map/chapter-3?marker=${id}`
-                        )}
-                      />
-                    </TooltipTrigger>
-                    <TooltipContent>Copy link</TooltipContent>
-                  </Tooltip>
-                </TooltipProvider>
+                <Link1Icon
+                  className="cursor-pointer h-5 w-5"
+                  onClick={handleCopy(
+                    `${process.env.NEXT_PUBLIC_BASE_URL}map/${currentRegion}?marker=${id}`
+                  )}
+                />
               </div>
             </div>
           </CardHeader>
-          {description ? <Divider /> : null}
           <CardContent className="leading-5">
             <div className="flex flex-wrap gap-2">
               {media &&
                 media?.length > 0 &&
-                media.map((m) => {
-                  if (m.mimeType === "mp4") {
+                media.map(({ url, mimeType }) => {
+                  if (mimeType === "mp4") {
                     return (
                       <video
-                        key={m.url!}
-                        src={m.url ?? ""}
+                        key={url}
+                        src={url}
                         width="750"
                         height="500"
                         controls
                       ></video>
                     );
                   }
-                  return <ZoomImage src={m.url ?? ""} key={m.url} />;
+                  return <ZoomImage src={url} key={url} />;
                 })}
             </div>
             {description && (
-              <div dangerouslySetInnerHTML={{ __html: description }} />
+              <div
+                className="text-md"
+                dangerouslySetInnerHTML={{ __html: description }}
+              />
             )}
-            {info && <div dangerouslySetInnerHTML={{ __html: info }} />}
           </CardContent>
-          {description ? <Divider /> : null}
-          <CardFooter
-            className="py-2 justify-center hover:bg-secondary cursor-pointer"
-            // onClick={handleMarkerFound}
-          >
-            {user?.email ? (
-              <FormGroup>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      checked={markerFound}
-                      onChange={handleMarkerFound}
-                    />
-                  }
-                  label="Found"
+          {description ? <Divider flexItem /> : null}
+          <CardFooter className="justify-center">
+            <div className="flex flex-col">
+              {info && (
+                <div
+                  className="text-xs pb-2"
+                  dangerouslySetInnerHTML={{ __html: info }}
                 />
-              </FormGroup>
-            ) : (
-              <Button
-                variant="link"
-                className="uppercase"
-                onClick={handleLogin}
-              >
-                Login to track progress
-              </Button>
-            )}
+              )}
+
+              <div className="hover:bg-secondary cursor-pointer flex justify-center">
+                {user?.email ? (
+                  <FormGroup>
+                    <FormControlLabel
+                      control={
+                        <Checkbox
+                          checked={markerFound}
+                          onChange={handleMarkerFound}
+                        />
+                      }
+                      label="Found"
+                    />
+                  </FormGroup>
+                ) : (
+                  <Button
+                    variant="link"
+                    className="uppercase"
+                    onClick={handleLogin}
+                  >
+                    Login to track progress
+                  </Button>
+                )}
+              </div>
+            </div>
           </CardFooter>
         </Card>
       </RL.Popup>

@@ -1,6 +1,6 @@
 import { triggerSubRegionIdAtom } from "@/store/map";
 import { useAtom } from "jotai";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Marker, Polygon, useMap } from "react-leaflet";
 import * as L from "leaflet";
 
@@ -10,6 +10,13 @@ export const SubRegion = ({ positions, id }: any) => {
   );
   const polygonRef = useRef<any>(null);
   const map = useMap();
+  const [center, setCenter] = useState(null);
+
+  useEffect(() => {
+    if (polygonRef) {
+      setCenter(polygonRef.current.getBounds().getCenter());
+    }
+  }, [polygonRef]);
 
   useEffect(() => {
     if (triggerSubRegionId && triggerSubRegionId === id) {
@@ -35,13 +42,8 @@ export const SubRegion = ({ positions, id }: any) => {
         positions={positions}
         pathOptions={{ fillColor: "transparent", color: "transparent" }}
       />
-      {polygonRef?.current?.getBounds()?.getCenter() && (
-        <Marker
-          key={id}
-          position={polygonRef?.current?.getBounds()?.getCenter()}
-          icon={text}
-          zIndexOffset={-1000}
-        />
+      {center && (
+        <Marker key={id} position={center} icon={text} zIndexOffset={-1000} />
       )}
     </>
   );

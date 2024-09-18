@@ -1,7 +1,10 @@
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
-import { APIResponse } from "@/types";
 import { auth } from "./firebase";
+
+export type APIResponse<T = object> =
+  | { success: true; data: T }
+  | { success: false; error: string };
 
 export async function signInWithGoogle() {
   const provider = new GoogleAuthProvider();
