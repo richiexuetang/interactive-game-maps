@@ -39,7 +39,7 @@ Table Region {
   zoom Int [not null]
   center Decimal[] [not null]
   tilePath String [not null]
-  Game Game [not null]
+  game Game [not null]
   gameSlug String [not null]
   locations MarkerLocation [not null]
   order Int [not null, default: 1]
@@ -57,7 +57,7 @@ Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
   slug String [unique, not null]
-  Game Game [not null]
+  game Game [not null]
   gameSlug String [not null]
   categories MarkerCategory [not null]
 }
@@ -80,7 +80,7 @@ Table MarkerLocation {
   longitude Decimal [not null]
   category MarkerCategory
   categoryId Int
-  Region Region [not null]
+  region Region [not null]
   regionSlug String [not null]
   media Media [not null]
 }

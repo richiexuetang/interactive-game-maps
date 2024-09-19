@@ -31,19 +31,19 @@
 }
 
 .black-myth-wukong {
-  background: url(../../public/markers/black-myth-wukong.png);
+  background: url(/markers/black-myth-wukong.png);
 }
 
 .totk {
-  background: url(../../public/markers/totk.png);
+  background: url(/markers/totk.png);
 }
 
 .witcher-3 {
-  background: url(../../public/markers/witcher-3.png);
+  background: url(/markers/witcher-3.png);
 }
 
 .elden-ring {
-  background: url(../../public/markers/elden-ring.png);
+  background: url(/markers/elden-ring.png);
 }
 
 .icon {
@@ -59,6 +59,19 @@
   font-size: large;
   color: black;
   letter-spacing: 1px;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.leaflet-popup-content {
+  margin-bottom: 0 !important;
+}
+
+.leaflet-container {
+  background-color: black !important;
 }
 
 .leaflet-div-icon {

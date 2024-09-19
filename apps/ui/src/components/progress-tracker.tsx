@@ -37,27 +37,26 @@ import {
 
 export const ProgressTracker = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
+  const [open, setOpen] = useState(false);
+
   const currentGroups = useAtomValue(currentGroupsAtom);
   const currentMarkers = useAtomValue(currentMarkersAtom);
   const setTriggerMarkerId = useSetAtom(triggeredMarkerIdAtom);
   const gameSlug = useAtomValue(gameSlugAtom);
-
   const [appUser, setAppUser] = useAtom(userAtom);
-
-  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
-    null
-  );
 
   const [addTrackingCategory] = useMutation(ADD_TRACKING_CATEGORY);
   const [removeTrackingCategory] = useMutation(REMOVE_TRACKING_CATEGORY);
-  const [open, setOpen] = React.useState(false);
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+
+  const id = open ? "simple-popover" : undefined;
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
     setOpen((prevOpen) => !prevOpen);
   };
-
-  const id = open ? "simple-popover" : undefined;
 
   const handleChange = (e: SelectChangeEvent) => {
     if (appUser) {
@@ -102,7 +101,7 @@ export const ProgressTracker = () => {
     setSelectedCategory(e.target.value);
   };
 
-  const getCategoryInfoById = (id: string) => {
+  const getCategoryInfoById = (id: number) => {
     const group = currentGroups?.find((group) =>
       group.categories?.find((category) => category.id === id)
     );
@@ -132,9 +131,6 @@ export const ProgressTracker = () => {
     });
     return result;
   };
-
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
   const handleMarkerFound = (markerId: number) => {
     if (appUser?.email) {
@@ -177,14 +173,16 @@ export const ProgressTracker = () => {
           p: 2,
         }}
       >
-        <Typography sx={{ p: 2 }}>Progress Tracker</Typography>
+        <Typography sx={{ p: 2, color: "white", fontFamily: "CrimsonPro" }}>
+          Progress Tracker
+        </Typography>
         <Divider sx={{ mb: 2 }} />
         {appUser ? (
           <div className="flex flex-col mb-3">
             {appUser?.trackingCategories?.map((category) => (
               <Accordion key={category}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <span>{getCategoryInfoById(category.toString())?.title}</span>
+                  <span>{getCategoryInfoById(category)?.title}</span>
                   <span className="ml-5">
                     {totalFoundForCategory(category.toString())}/
                     {totalForCategory(category.toString())}
@@ -203,10 +201,8 @@ export const ProgressTracker = () => {
                       }}
                     >
                       <Checkbox
-                        checked={appUser?.foundLocations?.includes(
-                          parseInt(marker.id)
-                        )}
-                        onChange={() => handleMarkerFound(parseInt(marker.id))}
+                        checked={appUser?.foundLocations?.includes(marker.id)}
+                        onChange={() => handleMarkerFound(marker.id)}
                       />
                       <div className="flex items-center gap-2">
                         <span

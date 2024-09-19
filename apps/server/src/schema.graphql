@@ -126,6 +126,7 @@ enum OrderDirection {
 }
 
 type Query {
+  fetchGameByRegion(slug: String!): Game!
   findRegionsByGame(orderBy: RegionOrder, slug: String!): [Region!]!
   game(slug: String!): Game!
   games: [Game!]!
@@ -143,6 +144,7 @@ type Region {
   createdAt: DateTime!
   gameSlug: String!
   id: Float!
+  locations: [MarkerLocation!]
   maxZoom: Float!
   minZoom: Float!
   order: Float!

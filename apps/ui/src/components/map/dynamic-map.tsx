@@ -5,7 +5,6 @@ import Leaflet from "leaflet";
 import * as RL from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "@/lib/leaflet/smooth-wheel-zoom";
-import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
 import { UserAvatar } from "../user-avatar";
@@ -27,16 +26,14 @@ import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
 
 interface MapProps {
-  region: Region;
-  markers: MarkerLocation[];
+  region: any;
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  groups: MarkerGroup[];
-  regions: Region[];
+  regionData: any;
 }
 
-const Map = ({ region, markers, user, groups, regions }: MapProps) => {
+const Map = ({ region, user, regionData }: MapProps) => {
   // eslint-disable-next-line no-unused-vars
-  const { tilePath, gameSlug, id, slug, thumbnailUrl, ...rest } = region;
+  const { zoom, minZoom, maxZoom, center, tilePath } = region;
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -61,22 +58,21 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
   }, [userData, appUser, setAppUser]);
 
   useEffect(() => {
-    if (!game || game !== gameSlug) {
-      setGame(gameSlug);
+    if (!game || game !== regionData.slug) {
+      setGame(regionData.slug);
     }
-  }, [game, gameSlug, setGame]);
+  }, [game, regionData.slug, setGame]);
 
   useEffect(() => {
     if (!currentRegion || currentRegion.id !== region.id) {
       setCurrentRegion(region);
-      setCurrentMarkers([...markers]);
-      setCurrentGroups([...groups]);
+      setCurrentMarkers([...region.locations]);
+      setCurrentGroups([...regionData.groups]);
     }
   }, [
     currentRegion,
-    groups,
-    markers,
     region,
+    regionData.groups,
     setCurrentGroups,
     setCurrentMarkers,
     setCurrentRegion,
@@ -93,25 +89,33 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
   }, []);
 
   return (
-    <div className={cn(getFontClassName(gameSlug), "h-[calc(100vh-1rem)] ")}>
+    <div
+      className={cn(
+        getFontClassName(regionData.slug),
+        "h-[calc(100vh-1rem)] bg-black"
+      )}
+    >
       <Menu
-        regions={regions}
+        regions={regionData.regions}
         subRegions={subRegionData?.getSubRegionsByRegion}
       />
       <RL.MapContainer
-        {...rest}
+        zoom={zoom}
+        minZoom={minZoom}
+        maxZoom={maxZoom}
+        center={center}
         attributionControl={false}
         zoomControl={false}
         scrollWheelZoom={false}
         // @ts-ignore
         smoothWheelZoom={true}
         smoothSensitivity={15}
-        className="w-full h-full !bg-accent"
+        className="w-full h-full"
       >
         <RL.TileLayer
           url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
         />
-        <MarkerRenderer user={user!} />
+        <MarkerRenderer />
         <MarkerSearch />
         <ProgressTracker />
         {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (

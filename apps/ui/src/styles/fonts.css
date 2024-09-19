@@ -1,0 +1,7 @@
+/* black-myth-wukong */
+@font-face {
+    font-family: CrimsonPro;
+    src: url("/fonts/CrimsonPro.woff2");
+    format: ("woff2");
+    font-display: swap;
+}

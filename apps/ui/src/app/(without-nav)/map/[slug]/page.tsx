@@ -1,5 +1,6 @@
 import {
   createAppUser,
+  fetchGameRegionDetails,
   getAppUser,
   getGroupDetails,
   getMarkerLocations,
@@ -9,7 +10,7 @@ import {
 import Map from "@/components/map/map";
 import { getClient } from "@/lib/apollo-client";
 import { FETCH_GAMES } from "@/lib/constants";
-import { Game } from "@/__generated__/graphql";
+import { Game, Region } from "@/__generated__/graphql";
 
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
@@ -46,17 +47,12 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
+  const gameRegion = await fetchGameRegionDetails(params.slug);
   const currentUser = await getCurrentUser();
-  const { data } = await getClient().query({
-    query: FETCH_GAMES,
-  });
-  const { games } = data;
-  const region = await getRegionDetails(params.slug);
-  const groupData = await getGroupDetails(region.gameSlug);
-  const markers = await getMarkerLocations(region.slug);
-  const regions = games.find(
-    (game: Game) => game.slug === region.gameSlug
-  ).regions;
+
+  const region = gameRegion.regions.find(
+    (region: Region) => region.slug === params.slug
+  );
 
   const appUser = await getAppUser(currentUser?.email ?? "");
   if (!appUser && currentUser?.email) {
@@ -73,9 +69,7 @@ export default async function MapPage({
   return (
     <Map
       region={region}
-      groups={groupData}
-      markers={markers}
-      regions={regions}
+      regionData={gameRegion}
       user={{
         email: currentUser?.email,
         photoURL: currentUser?.photoURL,

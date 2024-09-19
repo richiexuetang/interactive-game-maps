@@ -5,6 +5,7 @@ import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
+  FETCH_GAME_REGION_DETAILS,
   FETCH_GROUPS_BY_GAME_SLUG,
   FETCH_REGION_BY_GAME,
   FETCH_REGION_DETAILS,
@@ -44,6 +45,15 @@ export async function getRegionDetails(slug: string) {
   });
 
   return data.regionDetails;
+}
+
+export async function fetchGameRegionDetails(slug: string) {
+  const { data } = await getClient().query({
+    query: FETCH_GAME_REGION_DETAILS,
+    variables: { slug },
+  });
+
+  return data.fetchGameByRegion;
 }
 
 export async function getAppUser(email: string) {

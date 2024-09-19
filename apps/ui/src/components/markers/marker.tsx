@@ -29,13 +29,13 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox/Checkbox";
 import { userAtom } from "@/store/auth";
 import { currentRegionAtom } from "@/store/map";
+import { PopupCard } from "../cards/popup-card";
 
 interface MarkerProps {
   marker: MarkerLocation;
-  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
 }
 
-export const Marker = ({ marker, user }: MarkerProps) => {
+export const Marker = ({ marker }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
   const router = useRouter();
   const {
@@ -48,10 +48,9 @@ export const Marker = ({ marker, user }: MarkerProps) => {
     description,
   } = marker;
 
-  const { icon, info } = category!;
+  const { icon } = category!;
 
   const [appUser, setAppUser] = useAtom(userAtom);
-  const currentRegion = useAtomValue(currentRegionAtom);
 
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
@@ -139,7 +138,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
     >
       <RL.Popup>
-        <Card className="shadow-none -mx-7 -my-4 min-w-96">
+        {/* <Card className="shadow-none -mx-7 -my-4 min-w-96">
           <CardHeader>
             <div className="flex justify-between gap-4">
               <div>
@@ -186,16 +185,9 @@ export const Marker = ({ marker, user }: MarkerProps) => {
           </CardContent>
           {description ? <Divider flexItem /> : null}
           <CardFooter className="justify-center">
-            <div className="flex flex-col">
-              {info && (
-                <div
-                  className="text-xs pb-2"
-                  dangerouslySetInnerHTML={{ __html: info }}
-                />
-              )}
 
               <div className="hover:bg-secondary cursor-pointer flex justify-center">
-                {user?.email ? (
+                {appUser?.email ? (
                   <FormGroup>
                     <FormControlLabel
                       control={
@@ -219,7 +211,16 @@ export const Marker = ({ marker, user }: MarkerProps) => {
               </div>
             </div>
           </CardFooter>
-        </Card>
+        </Card> */}
+        <PopupCard
+          description={description}
+          title={title}
+          category={category?.title}
+          media={media}
+          info={category?.info}
+          icon={category?.icon}
+          markerId={id}
+        />
       </RL.Popup>
       <RL.Tooltip>{title}</RL.Tooltip>
     </RL.Marker>

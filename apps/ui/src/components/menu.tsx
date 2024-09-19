@@ -1,3 +1,4 @@
+import React from "react";
 import { Region } from "@/__generated__/graphql";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { showMarkerAtom } from "@/store/marker";
@@ -8,7 +9,6 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Divider from "@mui/material/Divider";
-import React from "react";
 import { gameSlugAtom } from "@/store";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
@@ -27,11 +27,30 @@ import { cn } from "@/lib/utils";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import Button from "@mui/material/Button";
+import { Typography } from "@mui/material";
 
 interface MenuProps {
   regions: Region[];
   subRegions: any[];
 }
+
+const UnderlineButton = styled(Button)(({ theme }) => ({
+  boxShadow: "none",
+  borderRadius: theme.shape.borderRadius,
+  backgroundColor: "none",
+  borderColor: "none",
+  color: theme.palette.text.secondary,
+  "&:hover": {
+    backgroundColor: theme.palette.grey[900],
+    borderColor: "#0062cc",
+    boxShadow: "none",
+  },
+  "&:active": {
+    boxShadow: "none",
+    backgroundColor: "#0062cc",
+    borderColor: "#005cbf",
+  },
+}));
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -55,13 +74,14 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
   const setShowMarker = useSetAtom(showMarkerAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
 
-  const handleHiddenCategory = (category: string) => {
-    if (hiddenCategories.includes(category)) {
-      setHiddenCategories(
-        hiddenCategories.filter((category) => category != category)
+  const handleHiddenCategory = (categoryId: number) => {
+    if (hiddenCategories.includes(categoryId)) {
+      const newHidden = hiddenCategories.filter(
+        (category) => category != categoryId
       );
+      setHiddenCategories([...newHidden]);
     } else {
-      setHiddenCategories((prev) => [...prev, category]);
+      setHiddenCategories((prev) => [...prev, categoryId]);
     }
   };
 
@@ -111,6 +131,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                 priority
               />
             </Link>
+            <Typography></Typography>
             <Divider orientation="horizontal" flexItem />
 
             <FormControl fullWidth>
@@ -132,15 +153,15 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
               alignContent="center"
             >
               {subRegions?.map((region) => (
-                <Grid key={region.title} size={5} flexGrow={1}>
-                  <Button
+                <div key={region.title} className="flex flex-start">
+                  <UnderlineButton
                     onClick={() => setSubRegionId(region.title)}
                     sx={{ fontSize: 12, whiteSpace: "nowrap" }}
                     variant="text"
                   >
                     {region.title}
-                  </Button>
-                </Grid>
+                  </UnderlineButton>
+                </div>
               ))}
             </Grid>
             <Divider orientation="horizontal" flexItem />
@@ -156,7 +177,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
               const counts: any = {};
               group.categories?.map((category) => {
                 const count = markers?.filter(
-                  ({ categoryId }) => categoryId == parseInt(category.id)
+                  ({ categoryId }) => categoryId == category.id
                 ).length;
                 counts[`${category.title}`] = count;
               });
@@ -176,7 +197,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                   <Grid container spacing={1} sx={{ minWidth: 350 }}>
                     {group.categories?.map((category) => {
                       const count = markers?.filter(
-                        ({ categoryId }) => categoryId == parseInt(category.id)
+                        ({ categoryId }) => categoryId === category.id
                       ).length;
 
                       if (count === 0) return null;
@@ -189,9 +210,10 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                             hiddenCategories.includes(category.id) &&
                               "line-through"
                           )}
-                          onClick={() => handleHiddenCategory(category.id)}
                         >
-                          <Item>
+                          <Item
+                            onClick={() => handleHiddenCategory(category.id)}
+                          >
                             <span
                               className={cn(
                                 `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`

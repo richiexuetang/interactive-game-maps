@@ -50,7 +50,7 @@ model Region {
   zoom         Int
   center       Decimal[]
   tilePath     String
-  Game         Game             @relation(fields: [gameSlug], references: [slug])
+  game         Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug     String
   locations    MarkerLocation[]
   order        Int              @default(1)
@@ -71,7 +71,7 @@ model MarkerGroup {
   id         Int              @id @default(autoincrement())
   title      String
   slug       String           @unique
-  Game       Game             @relation(fields: [gameSlug], references: [slug])
+  game       Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug   String
   categories MarkerCategory[]
 }
@@ -94,7 +94,7 @@ model MarkerLocation {
   longitude   Decimal
   category    MarkerCategory? @relation(fields: [categoryId], references: [id])
   categoryId  Int?
-  Region      Region          @relation(fields: [regionSlug], references: [slug])
+  region      Region          @relation(fields: [regionSlug], references: [slug])
   regionSlug  String
   media       Media[]
 }

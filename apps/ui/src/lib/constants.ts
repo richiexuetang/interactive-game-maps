@@ -195,3 +195,52 @@ export const FETCH_REGION_BY_GAME = gql`
     }
   }
 `;
+
+export const FETCH_GAME_REGION_DETAILS = gql`
+  query FetchGameByRegion($slug: String!) {
+    fetchGameByRegion(slug: $slug) {
+      title
+      slug
+      groups {
+        id
+        title
+        categories {
+          id
+          icon
+          info
+          title
+        }
+      }
+      regions {
+        slug
+        maxZoom
+        minZoom
+        order
+        tilePath
+        title
+        zoom
+        center
+        locations {
+          categoryId
+          category {
+            title
+            id
+            icon
+            info
+          }
+          media {
+            url
+            mimeType
+            type
+          }
+          description
+          latitude
+          longitude
+          title
+          id
+        }
+      }
+      slug
+    }
+  }
+`;

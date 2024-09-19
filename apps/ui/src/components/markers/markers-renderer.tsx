@@ -3,14 +3,9 @@ import { Marker } from "./marker";
 import { useAtomValue } from "jotai";
 import { showMarkerAtom } from "@/store/marker";
 import { hiddenCategoriesAtom } from "@/store/category";
-import { UserRecord } from "firebase-admin/auth";
 import { currentMarkersAtom } from "@/store/map";
 
-interface MarkerRendererProps {
-  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-}
-
-export const MarkerRenderer = ({ user }: MarkerRendererProps) => {
+export const MarkerRenderer = () => {
   const showMarker = useAtomValue(showMarkerAtom);
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
   const markers = useAtomValue(currentMarkersAtom);
@@ -20,9 +15,11 @@ export const MarkerRenderer = ({ user }: MarkerRendererProps) => {
   return (
     <>
       {markers.map((marker) => {
-        const categoryId = marker.categoryId ?? 0;
-        if (!hiddenCategories.includes(categoryId.toString()))
-          return <Marker key={marker.id} user={user} marker={marker} />;
+        const { id, categoryId } = marker;
+        if (categoryId && hiddenCategories.includes(categoryId)) {
+          return null;
+        }
+        return <Marker key={id} marker={marker} />;
       })}
     </>
   );

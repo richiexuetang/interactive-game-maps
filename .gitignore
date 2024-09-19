@@ -4,3 +4,4 @@ build
 .env
 tiles
 .DS_Store
+.venv

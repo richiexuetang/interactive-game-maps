@@ -2,9 +2,6 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  // typography: {
-  //   fontFamily: "var(--font-roboto)",
-  // },
   cssVariables: {
     cssVarPrefix: "ritcher",
   },
@@ -12,6 +9,7 @@ const theme = createTheme({
     mode: "dark",
   },
   typography: {
+    fontFamily: "Crimson Pro, sans-serif",
     button: {
       textTransform: "none",
     },
