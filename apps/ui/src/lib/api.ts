@@ -6,13 +6,12 @@ import {
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
   FETCH_GAME_REGION_DETAILS,
-  FETCH_GROUPS_BY_GAME_SLUG,
   FETCH_REGION_BY_GAME,
   FETCH_REGION_DETAILS,
-  FETCH_REGION_MARKERS,
   GET_APP_USER,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/constants";
+import { Region } from "@/__generated__/graphql";
 
 export async function addToUserFound(input: {
   email: string;
@@ -53,7 +52,24 @@ export async function fetchGameRegionDetails(slug: string) {
     variables: { slug },
   });
 
-  return data.fetchGameByRegion;
+  const details = data.fetchGameByRegion;
+  const region = details.regions?.find((r: Region) => r.slug === slug);
+  const otherRegions = details.regions?.filter((r: Region) => r.slug !== slug);
+
+  const processedLocations = [];
+  for (let i = 0; i < region.locations.length; i++) {
+    const curr = region.locations[i];
+    const processedDesc = await remark()
+      .use(html)
+      .process(curr?.description ?? "");
+    const location = { ...curr, description: processedDesc.toString() };
+    processedLocations.push(location);
+  }
+
+  return {
+    ...details,
+    regions: [...otherRegions, { ...region, locations: processedLocations }],
+  };
 }
 
 export async function getAppUser(email: string) {
@@ -99,42 +115,4 @@ export async function getRegionsByGame(slug: string) {
   });
 
   return data.findRegionsByGame;
-}
-
-export async function getGroupDetails(slug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_GROUPS_BY_GAME_SLUG,
-    variables: { slug },
-  });
-
-  const groups = data.getGroupsByGameSlug;
-
-  return groups;
-}
-
-export async function getMarkerLocations(regionSlug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_REGION_MARKERS,
-    variables: { regionSlug },
-  });
-
-  const markers = data.locations;
-
-  const processedMarkers = [];
-  for (let i = 0; i < markers.length; i++) {
-    const category = markers[i].category;
-    const processedInfo = await remark().use(html).process(category.info);
-
-    const processedDescription = await remark()
-      .use(html)
-      .process(markers[i].description);
-
-    processedMarkers.push({
-      ...markers[i],
-      description: processedDescription.toString(),
-      category: { ...category, info: processedInfo.toString() },
-    });
-  }
-
-  return processedMarkers;
 }

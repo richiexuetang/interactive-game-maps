@@ -2,15 +2,11 @@ import {
   createAppUser,
   fetchGameRegionDetails,
   getAppUser,
-  getGroupDetails,
-  getMarkerLocations,
   getMetaData,
   getRegionDetails,
 } from "@/lib/api";
 import Map from "@/components/map/map";
-import { getClient } from "@/lib/apollo-client";
-import { FETCH_GAMES } from "@/lib/constants";
-import { Game, Region } from "@/__generated__/graphql";
+import { Region } from "@/__generated__/graphql";
 
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";

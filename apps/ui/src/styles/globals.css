@@ -61,6 +61,10 @@
   letter-spacing: 1px;
 }
 
+.leaflet-container a.leaflet-popup-close-button {
+  top: 18px !important;
+}
+
 .leaflet-popup-content-wrapper {
   background-color: transparent !important;
   box-shadow: none !important;

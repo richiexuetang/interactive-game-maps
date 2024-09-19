@@ -122,45 +122,6 @@ query GetGames($slug: String!) {
   }
 }`);
 
-export const FETCH_GROUPS_BY_GAME_SLUG = gql`
-  query GetGroupsByGameSlug($slug: String!) {
-    getGroupsByGameSlug(slug: $slug) {
-      title
-      id
-      categories {
-        title
-        icon
-        info
-        id
-      }
-    }
-  }
-`;
-
-export const FETCH_REGION_MARKERS = gql`
-  query Locations($regionSlug: String) {
-    locations(regionSlug: $regionSlug) {
-      categoryId
-      category {
-        title
-        id
-        icon
-        info
-      }
-      media {
-        url
-        mimeType
-        type
-      }
-      description
-      latitude
-      longitude
-      title
-      id
-    }
-  }
-`;
-
 export const FETCH_REGION_DETAILS = gql`
   query RegionDetails($slug: String!) {
     regionDetails(slug: $slug) {
