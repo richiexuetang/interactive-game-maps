@@ -18,6 +18,9 @@ export class MarkerLocation extends BaseModel {
   @Field(() => Number)
   longitude: number;
 
+  @Field(() => String, { nullable: true })
+  subRegionSlug?: string | null;
+
   @Field(() => MarkerCategory, { nullable: true })
   category?: MarkerCategory | null;
 

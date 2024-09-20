@@ -63,7 +63,7 @@ export const MarkerSearch = () => {
   return (
     <div className="absolute top-20 right-2 z-[1000]">
       <Tooltip title="Search..." placement="left">
-        <Fab onClick={handleClick}>
+        <Fab color="primary" onClick={handleClick}>
           <SearchIcon className="h-5 w-5" />
         </Fab>
       </Tooltip>

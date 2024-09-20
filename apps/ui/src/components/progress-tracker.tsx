@@ -155,7 +155,7 @@ export const ProgressTracker = () => {
   return (
     <div className="absolute top-36 right-2 z-[1000] flex flex-col gap-5">
       <Tooltip title="Progress Tracker" placement="left">
-        <Fab onClick={handleClick}>
+        <Fab color="primary" onClick={handleClick}>
           <CheckListIcon className="h-6 w-6" />
         </Fab>
       </Tooltip>

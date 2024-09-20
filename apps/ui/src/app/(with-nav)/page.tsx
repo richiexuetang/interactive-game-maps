@@ -16,12 +16,14 @@ export default async function Page() {
 
   return (
     <div className="flex gap-5 p-8 flex-wrap content-center justify-center">
-      {data?.games?.map((game: Game) => (
+      {data?.games?.map(({ title, slug }: Game) => (
         <ImageCard
-          key={game.slug}
-          href={`/region/${game.slug}`}
-          imageSrc={process.env.CDN_BASE_URL + game.thumbnailUrl}
-          content={game.title}
+          key={slug}
+          href={`/region/${slug}`}
+          imageSrc={
+            process.env.CDN_BASE_URL + `images/games/${slug}/thumbnail.png`
+          }
+          content={title}
         />
       ))}
     </div>

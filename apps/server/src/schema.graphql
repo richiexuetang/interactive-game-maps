@@ -31,20 +31,22 @@ A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date
 scalar DateTime
 
 type Game {
+  center: [Float!]!
+
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   description: String
   groups: [MarkerGroup!]
-  iconUrl: String
   id: Float!
-  previewUrl: String
+  maxZoom: Float!
+  minZoom: Float!
   regions: [Region!]
   slug: String!
-  thumbnailUrl: String!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+  zoom: Float!
 }
 
 type MarkerCategory {
@@ -87,6 +89,7 @@ type MarkerLocation {
   media: [Media!]
   region: Region
   regionSlug: String!
+  subRegionSlug: String
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -138,15 +141,11 @@ type Query {
 }
 
 type Region {
-  center: [Float!]!
-
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   gameSlug: String!
   id: Float!
   locations: [MarkerLocation!]
-  maxZoom: Float!
-  minZoom: Float!
   order: Float!
   slug: String!
   subRegions: [SubRegion!]
@@ -156,7 +155,6 @@ type Region {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-  zoom: Float!
 }
 
 input RegionOrder {
@@ -177,7 +175,9 @@ type SubRegion {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   id: Float!
+  locations: [MarkerLocation!]!
   regionSlug: String!
+  slug: String!
   title: String!
 
   """Identifies the date and time when the object was last updated."""

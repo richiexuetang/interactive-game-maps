@@ -9,7 +9,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "bamboo-grove",
         title: "Snake Trail",
+        description: "",
         latitude: "0.75452650172841",
         longitude: "-0.58213591575498",
         media: [
@@ -23,6 +25,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "forest-of-wolves",
         title: "Front Hills",
         description:
           "**Location:** Kill the Wolf Scout and the Wolf Stalwart and the golden trail will lead you here.",
@@ -39,25 +42,17 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "forest-of-wolves",
         title: "Outside the Forest",
-        description:
-          "**Location:** Defeat the Bullguard, then head up the hill and proceed through the cave on your left.",
+        description: "**Location:** Just outside the small cave",
         latitude: "0.88310749622674",
         longitude: "-0.91830909234253",
-        media: [
-          {
-            title: "",
-            mimeType: "",
-            type: "image",
-            url: "https://lh3.googleusercontent.com/1PolZSeopVmwnUsE1l_7WWt4-qFAVJylmJ1aBywn8RWZXDUBWt0SJdXBScHApwxo7WdJgdnfmoX67yIPR03obcBAd34KDnA6XEZb4nKxuUU-5c3LaA=s0",
-          },
-        ],
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "forest-of-wolves",
         title: "Guanyin Temple",
-        description:
-          "**Location:** From the Wandering Wight boss location, head down the wooden platform. The shrine is next to a large tree.",
+        description: "",
         latitude: "0.84251068136295",
         longitude: "-0.78730456225531",
         media: [
@@ -71,9 +66,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "bamboo-grove",
         title: "Back Hills",
-        description:
-          "**Location:** Head through the back exit of the Lingxuzi boss arena to reach this shrine.",
+        description: "",
         latitude: "0.74282052262677",
         longitude: "-0.76472660959229",
         media: [
@@ -87,6 +82,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "ancient-guanyin-temple",
         title: "Ancient Guanyin Temple Shrine",
         description:
           "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)\n\n**Shop:**\n- Evil Repelling Medicament (x2)\n- Longevity Decoction (x2)\n- Silk (x2)\n- Yaoguai Core (x2)",
@@ -103,37 +99,24 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "bamboo-grove",
         title: "Marsh of White Mist",
         description: "**Location:** By the edge of the path",
         latitude: "0.73069975846236",
         longitude: "-0.54159164428478",
-        media: [
-          {
-            title: "",
-            url: "https://lh3.googleusercontent.com/vwxsc9xhd3JDYrOvHjaYB47q1ulEaIsJ6GK1-uYvfrZSQgaR8o1gBalFIa8awUW_NOxvlr-HkSX5mRN0gbqXdXu7G0-Ra0vr9oZrs2L69c1E7u_H=s0",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "black-wind-cave",
         title: "Bodhi Peak",
         description:
           "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
         latitude: "0.52036335626630",
         longitude: "-0.88384964193304",
-        media: [
-          {
-            title: "",
-            url: "https://lh3.googleusercontent.com/Renmn9XaVwVtfNBYcbI12I0KEzWP7dZL3GvngP0icgoqt8fqk-xNB5orDweMYKtSgaOBpSuAXKbJXkU4qlTdB7e0di8yYG0XhXq0WScYVVTNGrrk=s0",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "black-wind-cave",
         title: "Outside the Cave",
         latitude: "0.36939126654569",
         longitude: "-0.77541589737046",
@@ -148,37 +131,22 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        subRegionSlug: "black-wind-cave",
         title: "Cave Interior",
         description: "**Location:** Inside the cavern",
         latitude: "0.46541002162454",
         longitude: "-0.71174613730850",
-        media: [
-          {
-            title: "B1 Screenshot 2024.08.29 - 00.11.03.33",
-            url: "https://media.mapgenie.io/storage/media/c41250d6-45ea-4b84-b072-03dd214f08de.png",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "sandgate-village",
         title: "Village Entrance",
-        description:
-          "**Location** Cross the river near the spawn location, head up, and find the shrine on the left side of the bridge.",
         latitude: "0.46904917301740",
         longitude: "-0.67935424765775",
-        media: [
-          {
-            title: "",
-            url: "https://lh3.googleusercontent.com/I6M_Lvujmo-hnFnOgXuGrxDjOGHdZbeQ7rlowJnIZm7Q6G0PsC2jW_7EOsPvt2ZIOgGzPZJCJlvgy-0D_RSdGz1VOPANGGJ_5mzmMrzqWhkxKZR8Nw=s0",
-            type: "image",
-            mimeType: "image/png",
-          },
-        ],
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "sandgate-village",
         title: "Valley of Despair",
         description:
           "**Location:** In the open after defeating the [King of Flowing Sands + Second Rat Prince](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397456)",
@@ -201,6 +169,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "crouching-tiger-temple",
         title: "Temple Entrance",
         description:
           "**Location:** Crouching Tiger Temple - just outside the temple",
@@ -231,6 +200,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "fright-cliff",
         title: "Rockrest Flat",
         description: "**Location:** Fright Cliff",
         latitude: "0.80901318570002",
@@ -238,7 +208,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "crouching-tiger-temple",
         title: "Windrest Hamlet",
+        description: "",
         latitude: "0.80128918645043",
         longitude: "-0.97756862640452",
         media: [
@@ -252,18 +224,21 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "crouching-tiger-temple",
         title: "Windrest Bridge",
         latitude: "0.66679760739623",
         longitude: "-1.08792496087760",
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "crouching-tiger-temple",
         title: "Cellar",
         latitude: "0.60819415029945",
         longitude: "-0.96845351356413",
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "fright-cliff",
         title: "Squall Hideout",
         description: "**Location:** Fright Cliff",
         latitude: "0.65240642230415",
@@ -295,42 +270,50 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "sandgate-village",
         title: "Bottom Of The Well",
         latitude: "0.34545235385329",
         longitude: "-0.63628818740148",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "snowhill-path",
         title: "Frost-Clad Path",
         latitude: "0.32651013425152",
         longitude: "-0.93020701035329",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "snowhill-path",
         title: "Mirrormere",
         latitude: "0.24607215013974",
         longitude: "-0.63154495933796",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "Upper Pagoda Shrine",
+        description: "",
         latitude: "0.63831485248824",
         longitude: "-0.61187624931031",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "Outside the Wheel",
         latitude: "0.77471967388236",
         longitude: "-0.62088265097609",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "bitter-lake",
         title: "Turtle Island Shrine",
         latitude: "0.87130576904316",
         longitude: "-0.77625018662997",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "bitter-lake",
         title: "North Shore of the Bitter Lake",
         latitude: "0.97574438373253",
         longitude: "-0.70351755279151",
@@ -338,41 +321,50 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Precept Corridor",
-        latitude: "0.98673859875865",
-        longitude: "-0.66381454467415",
+        description: "",
+        latitude: "0.98673859876078",
+        longitude: "-0.66381454467822",
       },
       {
         regionSlug: "chapter-3",
         title: "Forest of Felicity",
+        description: "",
         latitude: "1.07428514140730",
         longitude: "-0.64297378063029",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "The Great Pagoda",
+        description: "",
         latitude: "0.82019465453480",
         longitude: "-0.65038744344997",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "Warding Temple",
         latitude: "0.84433035445817",
         longitude: "-0.52836594021286",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "Snow-Veiled Trail",
+        description: "",
         latitude: "0.84024695627429",
         longitude: "-0.56179672479692",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "Lower Pagoda Shrine",
         latitude: "0.51159291172461",
         longitude: "-0.64786566317036",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "Mani Wheel",
         latitude: "0.67602230439955",
         longitude: "-0.61628020506586",
@@ -387,11 +379,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         regionSlug: "chapter-3",
         title: "Melon Field",
         description: "Need to drop next to the waterfall",
-        latitude: "1.07527470240490",
-        longitude: "-0.62526583671303",
+        latitude: "1.07527470240680",
+        longitude: "-0.62530875206008",
       },
       {
         regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
         title: "South Shore of the Bitter Lake",
         latitude: "0.85725262525422",
         longitude: "-0.46426575959777",
@@ -415,14 +408,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Temple Entrance",
-        latitude: "1.12345949435570",
-        longitude: "-0.62777008484196",
+        description: "",
+        latitude: "1.12393173922540",
+        longitude: "-0.62648355960954",
       },
       {
         regionSlug: "chapter-3",
         title: "Mahavira Hall",
-        latitude: "1.14887174239360",
-        longitude: "-0.62731017744841",
+        description: "",
+        latitude: "1.15402017802330",
+        longitude: "-0.62675178050881",
       },
       {
         regionSlug: "chapter-3",
@@ -431,94 +426,203 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63654452562375",
       },
       {
+        regionSlug: "chapter-3",
+        title: "Longevity Road",
+        description: "",
+        latitude: "1.09528843728910",
+        longitude: "-0.62741965055505",
+      },
+      {
         regionSlug: "chapter-4",
+        subRegionSlug: "village-of-lanxi",
         title: "Estate of the Zhu",
         latitude: "0.81475519857152",
         longitude: "-0.79544110853215",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
         title: "The Gathering Cave",
         latitude: "0.56492203970562",
         longitude: "-0.89260890950956",
       },
       {
         regionSlug: "chapter-4",
-        title: "Keeper Shrine",
+        subRegionSlug: "webbed-hollow",
+        title: "The Purifying Spring",
         latitude: "0.56748234960119",
         longitude: "-0.86813818876635",
       },
       {
         regionSlug: "chapter-4",
-        title: "Keeper Shrine",
+        subRegionSlug: "webbed-hollow",
+        title: "Hut of Immortality",
         latitude: "0.53351099475944",
         longitude: "-0.85214223353830",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
         title: "Lower Hollow",
         latitude: "0.49789136895983",
         longitude: "-0.85214475787814",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
         title: "Bonevault",
         latitude: "0.67912612203401",
         longitude: "-0.94541793147539",
       },
       {
         regionSlug: "chapter-4",
-        title: "Keeper Shrine",
+        subRegionSlug: "webbed-hollow",
+        title: "Middle Hollow",
         latitude: "0.69206378720848",
         longitude: "-0.96076205274466",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
         title: "Verdure Bridge",
         latitude: "0.70763941669036",
         longitude: "-0.98356721924708",
       },
       {
         regionSlug: "chapter-4",
-        title: "Mountain Path",
+        subRegionSlug: "temple-of-yellow-flower",
+        title: "Mountain Trail",
+        description: "Shrine after defeating the Violet Spider.",
         latitude: "0.48992136366934",
         longitude: "-0.60394667787952",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "purple-cloud-mountain",
         title: "Keeper Shrine",
         latitude: "0.76992977002065",
         longitude: "-0.40370493523463",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "purple-cloud-mountain",
         title: "Bounds Of Deity's Abode",
         latitude: "0.80409267369303",
         longitude: "-0.36294432524224",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "purple-cloud-mountain",
         title: "Cloudnest Peak",
         latitude: "0.89508769954955",
         longitude: "-0.43785015002385",
       },
       {
         regionSlug: "chapter-4",
-        title: "Keeper Shrine",
+        subRegionSlug: "temple-of-yellow-flower",
+        title: "Forest of Ferocity",
         latitude: "0.56460639947514",
         longitude: "-0.67012218380370",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "temple-of-yellow-flower",
         title: "Court of Illumination",
         latitude: "0.74037172454878",
         longitude: "-0.65390712145779",
       },
       {
         regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
         title: "Upper Hollow",
         latitude: "0.82702579340329",
         longitude: "-0.96556547319540",
+      },
+      {
+        regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
+        title: "Cliff of Oblivion",
+        latitude: "0.51526171278778",
+        longitude: "-0.98133767068941",
+      },
+      {
+        regionSlug: "chapter-4",
+        subRegionSlug: "temple-of-yellow-flower",
+        title: "Temple Entrance",
+        latitude: "0.65454192035703",
+        longitude: "-0.68367209724494",
+      },
+      {
+        regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
+        title: "Pool of Shattered Jade",
+        description:
+          "In front of a group of hanging spider sacs that guard the Venom Daoist boss room.",
+        latitude: "0.81994476503249",
+        longitude: "-1.05467140674800",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Ashen Pass I",
+        latitude: "0.65907932128300",
+        longitude: "-1.07745409011810",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Keeper Shrine",
+        latitude: "0.63267733356133",
+        longitude: "-1.07440710067690",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Keeper Shrine",
+        latitude: "0.45929433869792",
+        longitude: "-1.03896481849800",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Ashen Pass II",
+        latitude: "0.45296230229557",
+        longitude: "-0.91644404336247",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "bishui-cave",
+        title: "Keeper Shrine",
+        latitude: "0.95708352305789",
+        longitude: "-0.94127865588464",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "furnace-valley",
+        title: "The Emerald Hall",
+        latitude: "0.74396082201868",
+        longitude: "-0.29505146780306",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "furnace-valley",
+        title: "Keeper Shrine",
+        latitude: "0.51064175350540",
+        longitude: "-0.32530728255924",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "furnace-valley",
+        title: "Keeper Shrine",
+        latitude: "0.72544581911778",
+        longitude: "-0.31819207559420",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "field-of-fire",
+        title: "Fallen Furnace Crater",
+        latitude: "0.96151993464392",
+        longitude: "-0.49842450586999",
       },
       {
         description: "Similar to site of grace, check shops for new items",
@@ -828,53 +932,88 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     info: "*Meditation Spots unlock 1 free Skill Point. Finding all Meditation Spots awards the Scenic Seeker achievement*",
     locations: [
       {
-        regionSlug: "chapter-1",
-        title: "The Arbor, Forest of Wolves",
-        description:
-          "**Location:** On the wooden platform overlooking the buildings",
-        latitude: "0.82109599020639",
-        longitude: "-0.87242380590033",
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Meditation Spot",
+        latitude: "0.53298031520086",
+        longitude: "-1.07479723767100",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2998,
+        title: "Meditation Spot",
+        latitude: "0.95539675407578",
+        longitude: "-0.94933878575378",
+      },
+      {
+        regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
+        title: "Meditation Spot",
+        latitude: "0.51129962958788",
+        longitude: "-0.84793265639428",
+      },
+      {
+        regionSlug: "chapter-4",
+        subRegionSlug: "temple-of-yellow-flower",
+        title: "Meditation Spot",
+        latitude: "0.55685148031864",
+        longitude: "-0.69979608339386",
+      },
+      {
+        regionSlug: "chapter-4",
+        subRegionSlug: "webbed-hollow",
+        title: "Meditation Spot",
+        latitude: "0.82742362566920",
+        longitude: "-1.05568299880300",
+      },
+      {
+        regionSlug: "chapter-3",
+        subRegionSlug: "snowhill-path",
+        title: "The Shade, Mirrormere Meditation Spot",
+        description: "**Location:** ??",
+        latitude: "0.27311011072804",
+        longitude: "-0.62668230629703",
         media: [
           {
             title: "",
-            url: "https://media.mapgenie.io/storage/media/7d7378a1-8f2b-4594-842f-5363dcfbcb12.jpg",
+            url: "https://media.mapgenie.io/storage/media/29be05e7-9dcc-4ce2-8cf0-393a41541fda.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
         ],
       },
       {
-        regionSlug: "chapter-1",
-        title: "The Cavern, Bamboo Grove",
-        latitude: "0.75361462964308",
-        longitude: "-0.71887493133275",
-        media: [
-          {
-            title: "",
-            url: "https://media.mapgenie.io/storage/media/36f87e28-b836-4d56-8095-71cbc9509cfa.jpg",
-            type: "image",
-            mimeType: "image/jpeg",
-          },
-        ],
+        regionSlug: "chapter-3",
+        title: "The Track, Mindfulness Cliff",
+        description: "**Location:** ??",
+        latitude: "1.06310222657840",
+        longitude: "-0.64349073947767",
       },
       {
-        regionSlug: "chapter-1",
-        title: "The Cliff, Black Wind Cave",
+        regionSlug: "chapter-3",
+        title: "Meditation Spot",
         description:
-          "**Location:** Near the [Celestial Taiyi Pill](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398153), overlooking the forest.",
-        latitude: "0.50639446907658",
-        longitude: "-0.59201717376766",
-        media: [
-          {
-            title: "",
-            url: "https://media.mapgenie.io/storage/media/f6724c0e-98a8-4111-8c18-0c1876430620.jpg",
-            type: "image",
-            mimeType: "image/jpeg",
-          },
-        ],
+          "On your left before you continue down the path to the recipe",
+        latitude: "0.99351453230418",
+        longitude: "-0.65515756511428",
+      },
+      {
+        regionSlug: "chapter-3",
+        subRegionSlug: "pagoda-realm",
+        title: "The Bottom, Pagoda Realm",
+        description: "",
+        latitude: "0.81434488217062",
+        longitude: "-0.53590536117758",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "The Hall, New Thunderclap Temple",
+        latitude: "1.14824988467670",
+        longitude: "-0.61732482350615",
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "sandgate-village",
         title: "The Altar, Sandgate Village",
         description:
           "**Location:** In front of the pavillion with the large buddha head",
@@ -911,7 +1050,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "crouching-tiger-temple",
         title: "The Sculpture, Couching Tiger Temple",
+        description: "",
         latitude: "0.55031209022974",
         longitude: "-0.96732091557749",
         media: [
@@ -925,6 +1066,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        subRegionSlug: "fright-cliff",
         title: "The Deadwood, Rockrest Flat",
         latitude: "0.97214670066913",
         longitude: "-0.70263401077454",
@@ -944,46 +1086,53 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         longitude: "-0.86262242317486",
       },
       {
-        regionSlug: "chapter-3",
-        title: "The Shade, Mirrormere Meditation Spot",
-        description: "**Location:** ??",
-        latitude: "0.27311011072804",
-        longitude: "-0.62668230629703",
+        regionSlug: "chapter-1",
+        subRegionSlug: "forest-of-wolves",
+        title: "The Arbor, Forest of Wolves",
+        description:
+          "**Location:** On the wooden platform overlooking the buildings",
+        latitude: "0.82109599020639",
+        longitude: "-0.87242380590033",
         media: [
           {
             title: "",
-            url: "https://media.mapgenie.io/storage/media/29be05e7-9dcc-4ce2-8cf0-393a41541fda.jpg",
+            url: "https://media.mapgenie.io/storage/media/7d7378a1-8f2b-4594-842f-5363dcfbcb12.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
         ],
       },
       {
-        regionSlug: "chapter-3",
-        title: "The Track, Mindfulness Cliff",
-        description: "**Location:** ??",
-        latitude: "1.06310222657840",
-        longitude: "-0.64349073947767",
+        regionSlug: "chapter-1",
+        subRegionSlug: "bamboo-grove",
+        title: "The Cavern, Bamboo Grove",
+        latitude: "0.75361462964308",
+        longitude: "-0.71887493133275",
+        media: [
+          {
+            title: "",
+            url: "https://media.mapgenie.io/storage/media/36f87e28-b836-4d56-8095-71cbc9509cfa.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
       },
       {
-        regionSlug: "chapter-3",
-        title: "Meditation Spot",
+        regionSlug: "chapter-1",
+        subRegionSlug: "bamboo-grove",
+        title: "The Cliff, Black Wind Cave",
         description:
-          "On your left before you continue down the path to the recipe",
-        latitude: "0.99351453230418",
-        longitude: "-0.65515756511428",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "The Bottom, Pagoda Realm",
-        latitude: "0.81434488217062",
-        longitude: "-0.53590536117758",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "The Hall, New Thunderclap Temple",
-        latitude: "1.14824988467670",
-        longitude: "-0.61732482350615",
+          "**Location:** Near the [Celestial Taiyi Pill](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398153), overlooking the forest.",
+        latitude: "0.50639446907658",
+        longitude: "-0.59201717376766",
+        media: [
+          {
+            title: "",
+            url: "https://media.mapgenie.io/storage/media/f6724c0e-98a8-4111-8c18-0c1876430620.jpg",
+            type: "image",
+            mimeType: "image/jpeg",
+          },
+        ],
       },
       {
         description: "**Usage**: Gain 1 skill point",
@@ -1083,6 +1232,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
+        title: "Start Location",
+        latitude: "0.25685119391957",
+        longitude: "-0.94701281991155",
+      },
+      {
+        regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Seal",
         description: "Purple Seal blocking access.",
         latitude: "0.63883455921803",
@@ -1090,6 +1247,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Seal",
         description: "Purple Seal",
         latitude: "0.52204847254983",
@@ -1097,12 +1255,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Seal",
         latitude: "0.46389077500893",
         longitude: "-0.63052070176167",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Seal",
         description: "Purple Seal.",
         latitude: "0.48940999921315",
@@ -1110,6 +1270,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Drop Down - Yaksha Archer",
         description:
           "If desired, you can use this area to drop down and kill the Yaksha Archer that was previously unreachable.",
@@ -1118,18 +1279,22 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Purple Sealed Gate",
+        description: "",
         latitude: "0.59188594676564",
         longitude: "-0.65380185842594",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Purple Sealed Gate",
         latitude: "0.57338439193747",
         longitude: "-0.63861771327979",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Awaken Wine Worm",
         latitude: "0.64212012708323",
         longitude: "-0.47676677392408",
@@ -1144,6 +1309,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Seal",
         latitude: "0.64176081646998",
         longitude: "-0.49617070790765",
@@ -1158,6 +1324,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Serpent",
         description:
           "After visiting the skeleton then the [Turtle Tear Soak](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=400488) will drop",
@@ -1199,6 +1366,20 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "Quest from Baby Buddha - Workship at 4 Buddha Statues",
         latitude: "1.00162796971680",
         longitude: "-0.65059642776308",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chapter 4 Start Point",
+        latitude: "0.89669882105017",
+        longitude: "-0.72503316960825",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chapter 5 Start",
+        latitude: "0.62930752608126",
+        longitude: "-1.11736672431260",
       },
       {
         description:
@@ -1268,6 +1449,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Awaken Wine Worm",
         description: "**Location:** Inside the pots",
         latitude: "0.42466914239110",
@@ -1283,6 +1465,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Awaken Wine Worm",
         description:
           "**Location:** Inside the caves - behind some wooden barricades.  You need to go down and around to access.",
@@ -1302,6 +1485,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
             mimeType: "image/png",
           },
         ],
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Awaken Wine Worm",
+        description: "**Location:** ??",
+        latitude: "0.82953055165665",
+        longitude: "-0.79976526721171",
       },
       {
         description: "在室内发光的罐子里",
@@ -1349,6 +1540,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Celestial Jade Lotus Pill",
         description:
           "**Location:** In front of the large statue inside the building",
@@ -1365,6 +1557,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Celestial Taiyi Pill",
         description:
           "**Location:** On the offering table on the wooden platform",
@@ -1381,6 +1574,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Celestial Nonary Pill",
         description: "**Location:** On the offerring table at the shrine",
         latitude: "0.46982655899724",
@@ -1396,6 +1590,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Celestial Nonary Pill",
         description:
           "**Location:** Behind a small ruin in the caves - guarded by [2 Swift Bats](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398762)",
@@ -1412,6 +1607,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Celestial Jade Lotus Pill",
         latitude: "0.63179601915593",
         longitude: "-1.00055598605920",
@@ -1433,6 +1629,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Celestial Jade Lotus Pill",
         description: "**Location:**",
         latitude: "0.87982653678769",
@@ -1455,6 +1652,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Celestial Taiyi Pill",
         latitude: "0.81486509761667",
         longitude: "-0.55802885556494",
@@ -1466,6 +1664,29 @@ export const bmwCategoryLocations: CategoryLocation[] = [
             mimeType: "image/png",
           },
         ],
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Celestial Jade Lotus Pil",
+        description: "**Location:** On the table",
+        latitude: "0.82506678462371",
+        longitude: "-0.83816559421504",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Celestial Pill ??",
+        latitude: "0.49760497645720",
+        longitude: "-1.05494059288990",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Celestial Jade Pill",
+        description: "**Location:** ??",
+        latitude: "0.44734323869781",
+        longitude: "-0.93079471023390",
       },
       {
         description: "Boosts maximum stamina",
@@ -1516,6 +1737,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "3-Year-Old Coconut Wine",
         description:
           "**Location:** Obtained by upgrading the starter Coconut Wine Drink  \n\n**Effect:**  Each sip restores 36% of maximum health",
@@ -1524,15 +1746,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "5-Year-Old Coconut Wine",
         description:
           "**Location:** Obtained by upgrading the starter [3-Year-Old Coconute Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398848)  \n\n**Effect:**  Each sip restores 40% of maximum health",
         latitude: "0.72490421053230",
         longitude: "-0.59080320903740",
       },
-
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "10-Year-Old Coconut Wine",
         description:
           "**Location:** Obtained by upgrading the [5-Year-Old Coconute Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398849)\n\n**Effect:**  Each sip restores 43% of maximum health",
@@ -1541,6 +1764,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "18-Year-Old Coconut Wine",
         description:
           "**Location:** Obtained by upgrading the [10-Year-Old Coconut Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398850)\n\n**Effect:**  Each sip restores 46% of maximum health",
@@ -1549,6 +1773,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "30-Year-Old Coconut Wine",
         description:
           "**Location:** Obtained by upgrading the [18-Year-Old Coconut Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398851)\n\n**Effect:**  Each sip restores 49% of maximum health",
@@ -1557,6 +1782,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Lambbrew",
         description: "**Location:** In front of the obelisk",
         latitude: "0.46762638983259",
@@ -1564,6 +1790,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Bluebridge Romance Drink",
         description:
           "**Location:** On a small table in the water  \n\n**Effect:**  ??",
@@ -1577,6 +1804,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "**Location:** Behind the Statue on the table. \n\n**Effect:** Each sip recovers 36% of Maximum Health and a moderate amount of Mana",
         latitude: "1.08808112081350",
         longitude: "-0.62866803064557",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Drink ??",
+        description: "**Location:** ??  \n\n**Effect:**  ??",
+        latitude: "0.53475549935177",
+        longitude: "-0.98726237946255",
       },
       {
         description: "桌子上面,就是铁扇公主座位后面  酒品多周目无法重复获取",
@@ -1655,12 +1890,19 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         regionSlug: "chapter-3",
         title: "Enhanced Tiger Subduing Pellets Formula",
         description:
-          "**Location:** At the end of the path coming from the shrine",
+          "**Location:** At the end of the path coming from the shrine\n\n**Rewards:** 3x  Enhanced Tiger Subduing Pellets",
         latitude: "0.99463830124640",
         longitude: "-0.65231025525671",
       },
       {
+        regionSlug: "chapter-3",
+        title: "Body Fleeting Powder Recipe",
+        latitude: "1.14919911297850",
+        longitude: "-0.63201706274955",
+      },
+      {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Evil Repelling Medicant",
         description:
           "**Location:** Reward for defeating [Lang-Li-Guhh-Baw](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397429)",
@@ -2016,6 +2258,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Celestial Lotus Seeds",
         description:
           "**Location:** Sold by [Shen Monkey](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397479) for 2,400 Will",
@@ -2024,15 +2267,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Thunderbolt Horn",
         description:
           "**Location:** Sold by [Shen Monkey](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397479) upon reaching Chapter 3",
         latitude: "0.72107676486739",
         longitude: "-0.59005916119926",
       },
-
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Laurel Buds",
         description: "**Location:** On the offering table on the platform",
         latitude: "0.43305461547625",
@@ -2040,6 +2284,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Tiger Relic",
         description:
           "**Location:** On a wooden platform you can jump up to on the way down the hill. After jumping, use the Heavy Attack button for a lift in air.",
@@ -2048,20 +2293,23 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Copper Pill",
         latitude: "0.62005652907636",
         longitude: "-1.09166645904010",
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Goat Skull",
         description:
-          "**Location:** Hidden in a Licorice plant by the cliff edge  \n\n**Effect:** Moderately increases Maximum Health for a short duration.",
+          "**Location:** Hidden in a Licorice plant by the cliff edge  \n\n**Effect:** ??",
         latitude: "0.80532141476313",
         longitude: "-0.77599447889472",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Breath Of Fire",
         description:
           "**Location:** Reward for defeating [Cyan Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397826)",
@@ -2070,6 +2318,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Stranded Loong's Whisker Soak",
         description: "**Location:** Under a tree in a small chest",
         latitude: "0.33117586739209",
@@ -2085,11 +2334,29 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Turtle Tear",
         description:
           "Under the turtle heads after you visit the snake skeleton.",
         latitude: "0.96988337250600",
         longitude: "-0.70651531219633",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Sweet Ice",
+        description:
+          '**Location:** After "[Monk From The Sea](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397839)" boss, turn left as soon as you go down the next stairs and reach the end of the hallway. The soak is on the left, behind the building.\n\n**Effect:** Using the gourd moderately increases Chill Resistance for a short duration.',
+        latitude: "1.13720340748160",
+        longitude: "-0.61250925064184",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Goji Shoots",
+        description:
+          "**Effect:** Using the gourd moderately extends the duration of the next Ring of Fire for a short duration.",
+        latitude: "0.81092004575920",
+        longitude: "-0.96691757440513",
       },
       {
         description:
@@ -2222,6 +2489,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Wandering Wight Spirit",
         description:
           "Reward for defeating the [Wandering Wight](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397294)",
@@ -2230,6 +2498,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Baw-Li-Guhh-Lang Spirit",
         description:
           "**Location:** Reward for defeating [Baw-Li-Guhh-Lang](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397386) in Bamboo Grove",
@@ -2238,6 +2507,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Guangmou Spirit",
         description:
           "**Location:** Reward for defeating [Guangmou](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397385) in Bamboo Grove",
@@ -2246,6 +2516,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Wolf Assassin Spirit",
         description:
           "**Location:** Dropped by the unique [Wolf Assassin](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398310) in Black Mountain",
@@ -2254,6 +2525,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Earth Wolf Spirit",
         description:
           "**Location:** Reward for defaulting [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430)",
@@ -2262,6 +2534,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Second Rat Prince Spirit",
         description:
           "**Location:** Reward for defeating [King of Flowing Sands + Second Rat Prince](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397456)\n\n**Note:** In order to get the Second Rat Prince Spirit you have to kill the King of Flowing Sands first, and then you can take out the Second Rat Prince. This is done easier if you **heavy attack** the pillars the King of Flowing Sands stands on leaving him vulnerable on the ground.",
@@ -2278,6 +2551,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Tiger's Acolyte Spirit",
         description:
           "**Location:** Reward for defeating [Tiger's Acolyte](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397636)",
@@ -2302,6 +2576,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Rat Archer Spirit",
         description:
           "Dropped by one of the [4 Rat Archers](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398460) on top of the gate.\n\n**Note:** The archers will drop down after defeating the [Earth Wolf](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397430)",
@@ -2310,6 +2585,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Swift Bat Spirit",
         description:
           "**Location:** Dropped by the [Elite Swift Bat](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398759)",
@@ -2326,6 +2602,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Poisestone Spirit",
         description:
           "**Location:** Dropped by the [Elite Poisestone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398841)",
@@ -2342,6 +2619,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Spearbone Spirit",
         description:
           "**Location:** Dropped by the [Elite Spearbone](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398855) guarding the [Sand Waterfall](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398854)",
@@ -2358,6 +2636,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Civet Sergeant Spirit",
         description:
           "Reward for defeating the [Elite Civet Sergeant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398970)",
@@ -2374,12 +2653,15 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Rat Imperial Guard Spirit",
+        description: "",
         latitude: "0.78459671629149",
         longitude: "-1.03410959243880",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Captain Lotus-Vision Spirit",
         description:
           "**Location:** Reward for defeating [Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397822)\n\n**Note:** Not a useable seal, but rather a key item.",
@@ -2388,6 +2670,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Captain Wise-Voice Spirit",
         description:
           "**Location:** Reward for defeating [Captain Wise-Voice](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397823)",
@@ -2399,8 +2682,8 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Non-White Spirit",
         description:
           "**Location:** Reward for defeating [Non-White](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397830)",
-        latitude: "1.04428276317780",
-        longitude: "-0.64517331814611",
+        latitude: "1.04428171569260",
+        longitude: "-0.64517319202403",
       },
       {
         regionSlug: "chapter-3",
@@ -2452,6 +2735,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Mountain Patroller Spirit",
         description:
           "**Location:** Reward for defeating the [Elite Yaksha Patroller](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399842)",
@@ -2460,18 +2744,21 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Fungiman Spirit",
         latitude: "0.57867299294338",
         longitude: "-0.57740947735428",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Enslaved Yaksha Spirit",
         latitude: "0.52150896820525",
         longitude: "-0.46098926206724",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Blade Monk Spirit",
         description:
           "Reward for defeating the [Elite Blade Monk](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=400484)",
@@ -2491,12 +2778,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Non-White Spirit",
         description:
           "Bone Spikes\nEquipped Effect: Moderately increases Poison and Frost Damage.",
-        latitude: "1.06302182298440",
-        longitude: "-0.64466893672886",
+        latitude: "1.06302182298550",
+        longitude: "-0.64466893672852",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Falcon Hermit",
+        description: "",
         latitude: "0.87558109809464",
         longitude: "-0.51274180412136",
       },
@@ -2504,8 +2793,23 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         regionSlug: "chapter-3",
         title: "Red Haired Yaksha spirit",
         description: "Dropped by elite red haired yaksha",
-        latitude: "0.99294742025167",
-        longitude: "-0.64738940922516",
+        latitude: "0.99294698603299",
+        longitude: "-0.64738869666954",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Clay Vajra spirit",
+        latitude: "1.14080363858880",
+        longitude: "-0.62510872194568",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Elite Beetle Captain Spirit",
+        description:
+          "**Location:** Reward for defeating [Elite Beetle Captain](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=401918)",
+        latitude: "0.85871932005649",
+        longitude: "-0.99811642426241",
       },
       {
         description: "**How**: 击败百足虫",
@@ -2683,22 +2987,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Chest",
         description:
-          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 2x Tiny Piece of Gold\n- 2x Stone Spirit",
+          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 5x Tiny Piece of Gold",
         latitude: "0.63978624028628",
         longitude: "-0.83063415692880",
-        media: [
-          {
-            title: "",
-            mimeType: "",
-            type: "image",
-            url: "https://lh3.googleusercontent.com/6y8npd3MvfBj3KygqqbZIBNwoG_4fCTCxL8-pKE4MfH0UX4QIgU9N9nSYm1h27meircJTM4eTRjO4OTJP6esEkDqDdObD8aGAh2mLFWUTdWUtUPQKA=s0",
-          },
-        ],
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Chest",
         description: "**Location:** In the corner",
         latitude: "0.83164870941249",
@@ -2714,6 +3012,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Chest",
         description: "**Location:** Inside the small building",
         latitude: "0.76123143764757",
@@ -2729,6 +3028,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Chest",
         description: "**Location:** In the trees",
         latitude: "0.72681623396670",
@@ -2744,6 +3044,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Chest",
         description:
           "**Location:** Found at a small gazebo after crossing the bridge, half way up the stairs.  \n\nContains medical items",
@@ -2752,6 +3053,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Large Chest",
         description:
           "**Contents:**\n- 2x Tiny Piece of Gold\n- 2x Stone Spirit",
@@ -2768,6 +3070,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Chest",
         description:
           "**Contents:**\n- Evil Repellent Medicant\n- Tiny Pieces of Gold",
@@ -2784,6 +3087,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Chest",
         description: "**Contents:** \n- Blood of the Iron Bull\n- Stone Spirit",
         latitude: "0.40541787389770",
@@ -2799,6 +3103,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2959,
         title: "Chest",
         description:
           "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380) - one of three chests surrounding the dead tree",
@@ -2815,6 +3120,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2959,
         title: "Chest",
         description:
           "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380) - one of three chests surrounding the dead tree",
@@ -2832,6 +3138,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
 
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Chest",
         description: "**Location:** In the small building",
         latitude: "0.43171354915906",
@@ -2839,6 +3146,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Chest",
         description: "**Location:** On the cliffside\n\n**Contains:**\n- Gold",
         latitude: "0.42121030962220",
@@ -2861,6 +3169,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Chest",
         description:
           "**Location:** On the right hand side as you ascend the steps of the temple.\n\n**Contains:** Blood of the Iron Bull",
@@ -2877,6 +3186,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Chest",
         description:
           "**Location:** Inside the small hut.\n\n**Contains:**\n- Blood of the Iron Bull",
@@ -2893,6 +3203,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Chest",
         description:
           "**Location:** Up the steps towards the platforms. Guarded by the Spearbone",
@@ -2909,6 +3220,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Chest",
         description:
           "**Location:** Up the hill and by a tree, beside the large canyon",
@@ -2925,6 +3237,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Chest",
         description: "**Location:** Just inside the cave by an obelisk",
         latitude: "0.74449587857745",
@@ -2940,6 +3253,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Chest",
         description: "**Location:** Inside the cave - by some ruined stones",
         latitude: "0.69988530920479",
@@ -2963,6 +3277,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Chest",
         description: "**Location:** ??\n\n**Contents:** Silk x3",
         latitude: "0.51855530341881",
@@ -2970,6 +3285,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Chest",
         description:
           "**Location:** In the corner of the upper area, defended by some rats",
@@ -2978,6 +3294,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Chest",
         description: "**Location:** Inside the house",
         latitude: "0.77347835944038",
@@ -2985,6 +3302,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Chest",
         description: "Inside small shack",
         latitude: "0.72305542519173",
@@ -3006,6 +3324,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Chest",
         description:
           "**Location:** As you approach sunlight after Civet fights, it will be on the righthand side.",
@@ -3022,13 +3341,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Chest",
         description: "**Location:** In the corner area, barricaded by fences",
         latitude: "0.72941240265064",
         longitude: "-1.04226350784470",
       },
+
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.29611827590756",
@@ -3036,6 +3358,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Treasure Chest",
         description:
           "**Location:** Off to the side of the steps heading up to the temple",
@@ -3052,6 +3375,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Chest",
         description: "**Location:** Outside the building on the wooden walkway",
         latitude: "0.42102792433198",
@@ -3067,7 +3391,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Chest",
+        description: "",
         latitude: "0.39990875263223",
         longitude: "-0.78485190868278",
         media: [
@@ -3081,6 +3407,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Treasure Chest",
         description: "**Rewards** Cold Iron Leaves (2x), 900 XP",
         latitude: "0.90391645566442",
@@ -3088,36 +3415,43 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Treasure Chest",
         latitude: "0.94670323689124",
         longitude: "-0.78505229079011",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Treasure Chest",
         latitude: "0.93735980078178",
         longitude: "-0.76093962960789",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Treasure Chest",
+        description: "",
         latitude: "1.00758961553060",
         longitude: "-0.72777986526418",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Treasure Chest",
         latitude: "0.95507200241923",
         longitude: "-0.70097612606060",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Treasure Chest",
         latitude: "0.74206897062992",
         longitude: "-0.64885673258937",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.98609764580770",
@@ -3125,6 +3459,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Chest",
         description:
           "Location: Close to the right wall when you walk out of the cave\n\nContents: Cold Iron Leaves",
@@ -3133,6 +3468,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.82618025756227",
@@ -3140,6 +3476,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Chest",
         description: "**Location:** Near large group of Frozen Corpses",
         latitude: "0.27274744018585",
@@ -3155,6 +3492,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** ??\n\n**Contains:** Refined Iron Sand x1",
         latitude: "0.52640448740441",
@@ -3170,6 +3508,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** In alcove behind purple seal.",
         latitude: "0.64063689132311",
@@ -3177,6 +3516,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** ??  \n\n**Effect:** ??",
         latitude: "0.51921597170467",
@@ -3184,6 +3524,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** Inside alcove with purple seal.",
         latitude: "0.48842137407431",
@@ -3191,6 +3532,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.50578794991088",
@@ -3198,6 +3540,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.59590099795950",
@@ -3213,12 +3556,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         latitude: "0.48479573789743",
         longitude: "-0.57415660834681",
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         latitude: "0.47458788730326",
         longitude: "-0.46515097114428",
@@ -3233,6 +3578,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description:
           "**Location:** Behind the purple seal gate, guarded by two yaogaui",
@@ -3247,7 +3593,9 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
+        description: "",
         latitude: "0.83928951050139",
         longitude: "-0.51552861928744",
       },
@@ -3259,6 +3607,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Treasure Chest",
         description: "**Location:** ??",
         latitude: "0.64571658427803",
@@ -3274,6 +3623,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Treasure Chest",
         latitude: "0.62849637664607",
         longitude: "-0.53071632422606",
@@ -3288,6 +3638,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.97189427176080",
@@ -3295,6 +3646,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location**    At the left side of the slope near cliff",
         latitude: "0.85332435300613",
@@ -3322,6 +3674,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Chest",
         description: "**Location:** ??",
         latitude: "0.86893267245611",
@@ -3330,6 +3683,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Chest",
+        description: "",
         latitude: "1.08406810430180",
         longitude: "-0.63324004411621",
       },
@@ -3345,6 +3699,364 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Chest",
         latitude: "1.10431030569240",
         longitude: "-0.64266599368901",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Chest",
+        description: "",
+        latitude: "1.09432570003470",
+        longitude: "-0.62226712703736",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Chest",
+        latitude: "1.13169345543950",
+        longitude: "-0.61247082573141",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Snake and Turtle general shrine",
+        description:
+          "**Location:**  below the turtle\nLegendary Item - Knot Of voidness",
+        latitude: "1.13221338085640",
+        longitude: "-0.61661675191127",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Chest",
+        latitude: "1.13336270306840",
+        longitude: "-0.63171052621809",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Chest",
+        latitude: "1.14234883991350",
+        longitude: "-0.62787073548881",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Chest",
+        latitude: "1.12263264271550",
+        longitude: "-0.62671818331154",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Wooden Chest",
+        latitude: "1.00202345637370",
+        longitude: "-0.63349101375300",
+      },
+
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chest",
+        description:
+          "**Location:** ??\n\n**Contents:**\n- Blood of the Iron Bull",
+        latitude: "0.83751041830863",
+        longitude: "-0.74717620823509",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.82831557043968",
+        longitude: "-0.77848136747460",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.84748430065282",
+        longitude: "-0.79421652400876",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.84384293619719",
+        longitude: "-0.80383627036679",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.85387385642167",
+        longitude: "-0.77325921943913",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Chest",
+        description: "**Location:** Guarded by 3 enemies",
+        latitude: "0.88166573586660",
+        longitude: "-0.76755354471217",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        latitude: "0.56424594752225",
+        longitude: "-0.88203750122779",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        latitude: "0.57121580021351",
+        longitude: "-0.86856734220805",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        latitude: "0.51057748130752",
+        longitude: "-0.82734179345110",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        latitude: "0.72209692027249",
+        longitude: "-0.99978393646776",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        latitude: "0.53000544479686",
+        longitude: "-0.59274445094022",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2995,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.89334659911464",
+        longitude: "-0.41697873975809",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2995,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.87987279438512",
+        longitude: "-0.40903940107430",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2995,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.86851970835752",
+        longitude: "-0.41492813299180",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        latitude: "0.68329131731210",
+        longitude: "-0.64994668211833",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.71689339411324",
+        longitude: "-0.62294701177447",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        latitude: "0.55132261344406",
+        longitude: "-0.64697732162742",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        latitude: "0.58055358023340",
+        longitude: "-0.60033252703681",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.63410142144255",
+        longitude: "-0.67389266138653",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.74043946156537",
+        longitude: "-0.68602095548195",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.77076835457311",
+        longitude: "-0.67765445284476",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.73473779363748",
+        longitude: "-0.59941990676148",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        description: "**Location:**",
+        latitude: "0.86081920763098",
+        longitude: "-0.99834946015420",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        latitude: "0.83144561092055",
+        longitude: "-0.94964388048743",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.82216396157172",
+        longitude: "-0.97883207723342",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.69197429623954",
+        longitude: "-0.94912102602316",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.63162435908899",
+        longitude: "-1.02544320110840",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.61525667260393",
+        longitude: "-1.02827438255100",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.61242442243542",
+        longitude: "-1.02801689048570",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.55460867439947",
+        longitude: "-1.05454119519080",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.50689962021983",
+        longitude: "-1.06098234347080",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.54867601750790",
+        longitude: "-1.02265972429830",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.50805045765611",
+        longitude: "-0.95863708376476",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.55189781489199",
+        longitude: "-0.99101521023528",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.60331192335890",
+        longitude: "-0.52252152662334",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.67454932282122",
+        longitude: "-0.48850866358970",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.73291486718320",
+        longitude: "-0.57647321030970",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2999,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.80512515244892",
+        longitude: "-0.33084732025276",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2999,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.73172758060012",
+        longitude: "-0.30584284033060",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2999,
+        title: "Chest",
+        description: "**Location:** ??",
+        latitude: "0.79346091277264",
+        longitude: "-0.38175691513032",
       },
       {
         description: "**Reward**: 小金片,镔铁砂",
@@ -4203,7 +4915,61 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     locations: [
       {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2992,
+        title: "Locust Antennae Mask",
+        description:
+          "**Location:** Dropped by the grasshopper guai guarding the chest (potentially drops from any of the grasshopper guai in the area?)\n\n**Type:** Headgear\n\n**Rarity:** Epic \n\n**Defence:** ?? \n   \n**Effect:** Considerably increases power of all jump attacks",
+        latitude: "0.87996735813384",
+        longitude: "-0.76981812720868",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Venomous Armguards",
+        description:
+          "**Type:** Arms\n\n**Rarity:** Legendary\n\n**Defence:** 30,\nCritical Hit Chance: 3%\n   \n**Effect:** Unique: Upon landing a Critical Hit, inflicts the enemy with Posion Bane.",
+        latitude: "0.80536574343391",
+        longitude: "-1.05161100626050",
+      },
+      {
+        regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
+        title: "Ochre Armor Set",
+        description:
+          "**Type:** ??  \n\n**Rarity:** ?? \n\n**Defence:** ?? \n   \n**Effect:** ??",
+        latitude: "0.32904209812777",
+        longitude: "-0.93042158707428",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Ginseng Cape",
+        description:
+          "**Type:** Chest\n\n**Rarity:** Epic \n\n**Defence:** 48\nBonus Stat\tChill Resistance +8\n   \n**Effect:** For a short duration after using the gourd, moderately increases Maximum Stamina.",
+        latitude: "1.08947988014450",
+        longitude: "-0.63210126499868",
+      },
+      {
+        regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
+        title: "Snout Mask",
+        description:
+          "**Location:** Reward for defeating the [Yellow-Robed Squire](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397644)\n\n**Type:** Headgear/Mask\n\n**Rarity:** Rare\n\n**Defence:** 17\n   \n**Effect:** For a short duration after using the gourd, moderately increases attack. Refraining from using Gourd for a relatively long duration moderately reduces attack on the contrary",
+        latitude: "0.93434899155358",
+        longitude: "-0.70325765308593",
+      },
+      {
+        regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
+        title: "Galeguard Set",
+        description:
+          "Craftable upon defeating the [Stone Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397637)\t\n\n**Set Pieces:**\n- Galeguard Beast Mask (headgear)\n- Galeguard Beastmaw Armor (body)\n- Galeguard Bracers (arms)\n- Galeguard Greaves (legs)\n\n**Rarity:** Rare \n\n**Defence:** 18 / 35 / 14 / 21 \n   \n**Effect:** \n- 4% Shock Resistance (body)\t\n- Performing 3 consecutive perfect dodges within a brief moment recovers a moderate amount of Mana (legs)\t\n\n**Set Bonus:**\n- Gale Guardian: Upon perfect dodges, grants considerable additional focus (2 pieces equipped)\n- Perfect dodges slightly reduces cooldown for all spells (4 pieces equipped)",
+        latitude: "0.84272876560387",
+        longitude: "-0.75886591607210",
+      },
+      {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Grey Wolf Mask",
         description:
           "Rewarded for defeating [Lingxuzi](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397299)\n\n**Type:** Headgear  \n\n**Rarity:** Uncommon  \n\n**Defence:** 10  \n   \n**Effect:** Inflicts considerably more bonus damage on enemies at critical health",
@@ -4212,6 +4978,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Folk Set",
         description:
           "Deluxe edition exclusive.  Found in front of the [Front Hills](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397271) shrine.\n\n**Set Pieces:**\n- Folk Opera Mask (Headgear)\n- Folk Opera Almsgiving Armor (Body)\n- Folk Opera Leather Bracers (Arms)\n- Folk Opera, Buskins (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:** 7 / 14 /  5 / 8\n   \n**Set Bonus:** Every Bit Counts: Moderately increases the Will gained from defeating enemies (Requires 4 Pieces Equipped)",
@@ -4220,6 +4987,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2959,
         title: "Guanyin's Prayer Beads",
         description:
           "**Location:** Found in a chest surrounding a dead tree within the secret [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)\n\n**Type:** Arms  \n\n**Rarity:** Uncommon \n\n**Defence:** 10 \n   \n**Effect:** After absorbing lingering will, moderately increase Maximum Health and Mana for a long duration",
@@ -4236,6 +5004,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Pilgrim's Set",
         description:
           "Craftable upon reaching [Guanyin Temple Shrine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397382) in the Forest of Wolves.  \n\n**Set Pieces:**\n- Pilgrim's Headband (Headgear)\n- Pilgrim's Garb (Body)\n- Pilgrim's Wristwraps (Arms)\n- Pilgrim's Legwraps (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:** 7 / 14 /  5 / 8\n   \n**Unique Effect:** Allows using the Gourd while sprinting (headgear)\n\n**Set Bonus:** \n- Swift Pilgrim - Moderately increases sprint speed (2 pieces equipped)\n- When Sprinting, each second moderately increases attack. This effect can stack up to 10 times. (4 pieces equipped)\n\n**Ingredients Required:**\n- 4 Yarn, 1,000 Will (Head)\n- 5 Yarn, 1,200 Will (Body)\n- 1 Yarn, 500 Will (Arms)\n- 2 Yarn, 640 Will (Legs)",
@@ -4244,6 +5013,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Serpentscale Set",
         description:
           "Craftable upon defeating the [Whiteclad Noble](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397389) \n\n**Set Pieces:**\n- Serpentscale Battlerobe (Body)\n- Serpentscale Bracers (Arms)\n- Serpentscale Gaiters (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:**  18 /  7 / 11\n   \n**Unique Effect:** \n- When health is low, slowly recovers a small amount of health; if in water, the effect is enhanced (body)\t\n- 3% Poison Resistance (arms)\n- 2% Poison Resistance (legs)\t\n\n**Set Bonus:** \n- Wave Rider - Massively reduces stamina cost when in water (3 pieces equipped)\n\n**Ingredients Required:**\n- 5 Yarn, 1,350 Will (body)\n- 1 Yarn, 720 Will (arms)\n- 2 Yarn, 720 Will (legs)",
@@ -4252,6 +5022,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2959,
         title: "Bronze Set",
         description:
           "**Location:** Craftable upon defeating [Elder Jinchi](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397381) at the Secret [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)\n\n**Set Pieces:**\n- Bronze Monkey Mask (Headgear)\n- Bronze Brocade Battlerobe (Body)\n- Bronze armguard (Arms)\n- Bronze buskins (Legs)\n\n**Rarity:** Rare \n\n**Defence:**  16 / 29 /  12 / 17\n   \n**Unique Effect:** \n- Performing light attack folling Evanescene directly triggers the finisher of light attack combo (arms)\t\n- 3% Burn Resistance (headgear), 4% Burn Resistance (arms)\n\n**Set Bonus:** \n- Evil Crasher - Deals addition damage to the enemy upon crashing their immobilization (2 pieces equipped)\n- Upon crashing the immobilization of the enemy, massively reduces the cooldown for Immobilize spell (4 pieces equipped)\n\n\n**Ingredients Required:**\n- 4 Yarn, 1 Silk, 810 Will (headgear)\n- 5 Yarn, 2 Silk, 2,000 Will (body)\n- 1 Yarn, 1 Silk, 810 Will (arms)\n- 2 Yarn, 1 Silk, 1,080 Will (legs)",
@@ -4260,43 +5031,12 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Ebongold Set",
         description:
           "**Location:** Craftable upon defeating [Black Bear Guai](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397388) at the end of Chapter 1\n\n**Set Pieces:**\n- Ebongold Silk Robe (Body)\n- Ebongold Armguard (Arms)\n- Ebongold Gaiters (Legs)\n\n**Rarity:** Rare \n\n**Defence:**  31 /  13 / 19\n   \n**Unique Effect:** \n- 4% Burn Resistance (arms)\t\n- After a moment in Cloud Step, considerably increases Unveiling Strike damage (legs)  \n- 2% Poison Resistance (legs)\t\n\n**Set Bonus:** \n- Dance of the Black Wind: In Cloud Step, shrouding black wind will attack enemies nearby the Destined One and the decoy continuously (4 pieces required ?? - Glitch??)\t\n\n**Ingredients Required:**\n- 5 Yarn, 2 Silk, 1,800 Will (body)\n- 1 Yarn, 1 Silk, 810 Will (arms)\n- 4 Yarn, 2 Silk, 1,080 Will (legs)",
         latitude: "0.46704251908976",
         longitude: "-0.89843273162981",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Snout Mask",
-        description:
-          "**Location:** Reward for defeating the [Yellow-Robed Squire](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397644)\n\n**Type:** Headgear/Mask\n\n**Rarity:** Rare\n\n**Defence:** 17\n   \n**Effect:** For a short duration after using the gourd, moderately increases attack. Refraining from using Gourd for a relatively long duration moderately reduces attack on the contrary",
-        latitude: "0.93434899155358",
-        longitude: "-0.70325765308593",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Galeguard Set",
-        description:
-          "Craftable upon defeating the [Stone Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397637)\t\n\n**Set Pieces:**\n- Galeguard Beast Mask (headgear)\n- Galeguard Beastmaw Armor (body)\n- Galeguard Bracers (arms)\n- Galeguard Greaves (legs)\n\n**Rarity:** Rare \n\n**Defence:** 18 / 35 / 14 / 21 \n   \n**Effect:** \n- 4% Shock Resistance (body)\t\n- Performing 3 consecutive perfect dodges within a brief moment recovers a moderate amount of Mana (legs)\t\n\n**Set Bonus:**\n- Gale Guardian: Upon perfect dodges, grants considerable additional focus (2 pieces equipped)\n- Perfect dodges slightly reduces cooldown for all spells (4 pieces equipped)",
-        latitude: "0.84272876560387",
-        longitude: "-0.75886591607210",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Ochre Armor Set",
-        description:
-          "**Type:** ??  \n\n**Rarity:** ?? \n\n**Defence:** ?? \n   \n**Effect:** ??",
-        latitude: "0.32904209812777",
-        longitude: "-0.93042158707428",
-      },
-      {
-        regionSlug: "chapter-3",
-        title: "Ginseng Cape",
-        description:
-          "**Type:** Chest\n\n**Rarity:** Epic \n\n**Defence:** 48\nBonus Stat\tChill Resistance +8\n   \n**Effect:** For a short duration after using the gourd, moderately increases Maximum Stamina.",
-        latitude: "1.08947988014450",
-        longitude: "-0.63210126499868",
       },
       {
         description:
@@ -4359,6 +5099,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Cat's Eye Beads",
         description:
           "Reward for defeating the [Wandering Wight](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397294)",
@@ -4367,6 +5108,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Wind Chime",
         description:
           "**Location:** Deluxe edition exclusive.  Found in front of the [Front Hills](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397271) shrine.",
@@ -4375,6 +5117,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Agate Jar",
         description:
           "**Location:** Inside a chest after defeating the [Black Wind King](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397387)",
@@ -4391,6 +5134,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Boshan Censor",
         description:
           "**Location:** Reward for defeating the [Red Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398284) in the hidden [Waterfall Cave](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398283)",
@@ -4399,6 +5143,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Back Scratcher",
         description:
           "**Location:** Available to purchase for Chapter 1 Shrines after defeating [Black Bear Guai](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397388).  Costs 2,400\n\n**Effect:** Considerably increases maximum stamina",
@@ -4423,6 +5168,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Tridacna Pendant",
         description:
           "**Location:** Reward for defeating [Black Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397647)",
@@ -4431,6 +5177,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Mani Bead",
         description:
           "**Location:** Drops randomly on this level ??  \n\n**Effect:** ??",
@@ -4439,6 +5186,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Frostsprout Twig",
         description:
           "**Location:** Reward for defeating [Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397822)",
@@ -4447,6 +5195,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Fine China Tea Bowl",
         description:
           "**Location:** In chest guarded by Withered Corpse before ascending stairs\n\n**Effect:** Moderately increases Stamina Recovery Rate",
@@ -4468,6 +5217,21 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "**Location:** cant be missed \n\n**Effect:** Land enough successful hits on the enemy to avoid the next fatal blow.",
         latitude: "1.05752913544400",
         longitude: "-0.64402391834560",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Thunderstone",
+        description: "**Location:** ??  \n\n**Effect:** ??",
+        latitude: "1.13831504091710",
+        longitude: "-0.62502289125652",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2993,
+        title: "Cuo Jin-Yin Belt Hook",
+        description: "**Location:** Inside the chest  \n\n**Effect:** ??",
+        latitude: "0.81784614917606",
+        longitude: "-0.95784429397480",
       },
       {
         description: "**Location**: 刷火长老掉,第三章刷过就不用再刷了",
@@ -5930,6 +6694,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Bullguard",
         description:
           "**Location:** Guarding the gate  \n\n**Reward:** \n- [Immobilize Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397909)\n- Stone Spirit\n- 396x Will",
@@ -5946,6 +6711,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Wandering Wight",
         description:
           "**Location:** Wandering around  the area\n\n**Reward:** \n- [Wandering Wight Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397324)\n- [Cat's Eye Beads](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397325)\n- Stone Spirit x1\n- 1,049 Experience\n- 691 Will",
@@ -5954,6 +6720,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Guangzhi",
         description:
           "**Location:** Forest  \n\n**Reward:** \n- [Red Tides](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398168) (Transformation Spell)\n- Stone Spirit x1\n- 700 Experience\n- 528 Will",
@@ -5970,6 +6737,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Guangmou",
         description:
           "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Guangmou Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397478)\n- Blood of the Iron Bull\n- 524 Will\n- Stone Spirit",
@@ -5978,6 +6746,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Baw-Li-Guhh-Lang",
         description:
           "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Baw-Li-Guhh-Lang Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397477)\n- Tadpole\n- 400 Will\n- 2 Yarn",
@@ -5986,6 +6755,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Lang-Li-Guhh-Baw",
         description:
           "**Location:** Sandgate Village - Village Entrance  \n\n**Reward:** \n- [Evil Repelling Medicament Formula](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398788)\n- Tadpole\n- Silk x2\n- Yarn x2",
@@ -5994,6 +6764,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "Earth Wolf",
         description:
           "**Location:** Sandgate Village - Village Entrance\n  \n**Reward:** \n- [Earth Wolf Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397841)\n- Stone Spirit x1",
@@ -6002,6 +6773,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "King of Flowing Sands + Second Rat Prince",
         description:
           "**Location:** Sandgate Village - Valley Of Despair\n  \n**Reward:** \n- [Second Rat Prince Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397842)\n- Pungent Flesh Chunk\n- Blood of the Iron Bull x2\n- Silk x2\n- Yaoguai Core x2\n- Stone Spirit x1",
@@ -6010,6 +6782,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Tiger's Acolyte",
         description:
           "**Location:** Yellow Wind Formation - Windrest Hamlet\n  \n\n**Reward:** \n- [Tiger's Acolyte Spirit](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397845)\n- [Old-Rattle Drum](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399043)\n- Silk x2\n- Yarn x2\n- 758 Experience\n- 779 Will",
@@ -6026,6 +6799,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Mother Of Stones",
         description:
           "**Location:** Fright Cliff - Squall Hideout\n\n**Reward:** \n- [Stone Essence](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398843)\n- Yaoguai Core x1\n- Stone Spirit x1",
@@ -6042,6 +6816,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Man-In-Stone",
         description:
           "**Location:** Fright Cliff - Squall Hideout   \n\n**Reward:** \n- [Azure Dust Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398189)",
@@ -6074,6 +6849,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2960,
         title: "First Prince of Flowing Sands",
         description:
           "**Location:** Sandgate Village - Valley of Despair.  Inside the cave - you must throw the [Pungent Flesh Chunk](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398750) into the chasm to summon him.  \n\n**Reward:** \n- Arhat Gold Piece\n- Silk x2\n- Yarn x2",
@@ -6082,6 +6858,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Macaque Chief #1",
         description:
           "**Location:** Snowhill Path - Frost-Clad Path  \n\n**Reward:** ??",
@@ -6090,6 +6867,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Captain Lotus-Vision",
         description:
           "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:** \n- [Spirit of Captain Lotus-Vision](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398918) \n- [Frostsprout Twig](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=399852)\n- Mind Core",
@@ -6098,6 +6876,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Macaque Chief #2",
         description:
           "**Location:** Pagoda Realm - Warding Temple\n\n**Reward:** ??",
@@ -6106,6 +6885,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Apramana Bat",
         description:
           "**Location:** Bitter Lake - North Shore Of The Bitter Lake\n\n**Reward:** ??",
@@ -6191,14 +6971,199 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** ??",
         latitude: "1.13507951557510",
         longitude: "-0.61436533928003",
-        media: [
-          {
-            title: "",
-            url: "https://lh3.googleusercontent.com/_Vvz0QfzBfZBy_uqte6GXHcJVMjEhAB9L4wkiFEr_ZMA2lk68fj8go9dYWSx6wv6xJd6pQJwCI9gyNc3tBKF_MZ6Vn0ubxeYOYzEptVWULfe7ao=s0",
-            type: "image",
-            mimeType: "",
-          },
-        ],
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Non-White #2",
+        description: "**Reward:** Non-White Spirit",
+        latitude: "1.06310717489110",
+        longitude: "-0.64419557972195",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "The Second Sister",
+        description:
+          "**Location:** Village of Lanxi - Estate of the Zhu\n  \n\n**Reward:** ??",
+        latitude: "0.82479369941952",
+        longitude: "-0.80717325210497",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Elder Amourworm",
+        description:
+          "**Location:** Webbed Hollow - The Verdure Bridge\n  \n\n**Reward:** ??",
+        latitude: "0.73522695681211",
+        longitude: "-0.99915504455345",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Venom Daoist #1",
+        description:
+          "**Location:** Webbed Hollow - Pool Of Shattered Jade\n  \n**Reward:** \n- [Venomous Armguards](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=401907) (if you break his lower four arms on his back before defeating him)\n- Exp\n- Will",
+        latitude: "0.80430369345335",
+        longitude: "-1.05235934257560",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Centipede Guai",
+        description:
+          "**Location:** Webbed Hollow - Middle Hollow  \n  \n\n**Reward:** ??",
+        latitude: "0.52809344359045",
+        longitude: "-0.95672773624764",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Buddha's Right Hand",
+        description:
+          "**Location:** Webbed Hollow - Cliff Of Oblivion  \n  \n\n**Reward:** ??",
+        latitude: "0.52519662818871",
+        longitude: "-0.98193249648111",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Baw-Li-Guhh-Baw",
+        description:
+          "**Location:** Webbed Hollow - Lower Hollow    \n\n**Reward:** ??",
+        latitude: "0.49740404941249",
+        longitude: "-0.86740493774445",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Commander Beetle",
+        description:
+          "**Location:** Temple Of The Yellow Flower - Forest Of Ferocity  \n\n**Reward:** ??",
+        latitude: "0.60987839568190",
+        longitude: "-0.67999166477318",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Fungiwoman",
+        description:
+          "**Location:** Temple Of The Yellow Flower - Court Of Illumination\n\n\n**Reward:** ??",
+        latitude: "0.64835118354836",
+        longitude: "-0.58665275573821",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Venom Daoist 2",
+        description:
+          "**Location:** Temple Of The Yellow Flower - Court Of Illumination\n\n\n**Reward:** ??",
+        latitude: "0.71295163344217",
+        longitude: "-0.58196347873039",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Brown-Iron Cart",
+        description:
+          "**Location:** Woods Of Ember - Ashen Pass I  \n\n**Reward:**\n- ??",
+        latitude: "0.63454403688735",
+        longitude: "-1.06706857681220",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Gray-Bronze Cart",
+        description:
+          "**Location:** Woods Of Ember - Height Of Ember\n\n**Reward:**\n- ??",
+        latitude: "0.48471243719594",
+        longitude: "-0.96962548522814",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Crimson-Silver Cart",
+        description:
+          "**Location:** Furnace Valley - The Emerald Hall\n\n**Reward:**\n- ??",
+        latitude: "0.84818851407617",
+        longitude: "-0.61575272813471",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Father Of Stones",
+        description:
+          "**Location:** Woods Of Ember - Height Of Ember  \n\n**Reward:**\n- ??",
+        latitude: "0.48576905498416",
+        longitude: "-1.02443754673120",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Fast As Wind + Quick As Fire",
+        description:
+          "**Location:** Woods Of Ember - Height Of Ember  \n\n**Reward:**\n- ??",
+        latitude: "0.45480395388385",
+        longitude: "-0.94607986310552",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2999,
+        title: "Flint Chief",
+        description:
+          "**Location:** Furnace Valley - Valley Entrance  \n\n**Reward:**\n- ??",
+        latitude: "0.64745944842093",
+        longitude: "-0.38814002862139",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2999,
+        title: "Cloudy Mist + Misty Cloud",
+        description:
+          "**Location:** Furnace Valley - Valley Entrance  \n\n**Reward:**\n- ??",
+        latitude: "0.67758157968480",
+        longitude: "-0.32776558924445",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Nine-Capped Lingzhi Guai",
+        description:
+          "**Location:** Field Of Fire - Ashen Pass III  \n\n**Reward:** ??",
+        latitude: "0.82865637403093",
+        longitude: "-0.68428844652217",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: null,
+        title: "Baw-Lang-Lang",
+        description: "**Location:** Bishui Cave  \n\n**Reward:** ??",
+        latitude: "0.93482638017245",
+        longitude: "-0.92921376228222",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2998,
+        title: "Top Takes Bottom + Bottom Takes Top",
+        description: "**Location:** Bishui Cave  \n\n**Reward:** ??",
+        latitude: "0.94619637340706",
+        longitude: "-0.95334950328504",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2998,
+        title: "Rusty-Gold Cart",
+        description: "**Location:** ??  \n\n**Reward:** ??",
+        latitude: "0.59780673654376",
+        longitude: "-0.67351530634613",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Flint Vanguard",
+        description: "**Location:** ??  \n\n**Reward:** ??",
+        latitude: "0.72945169526422",
+        longitude: "-0.51988010492150",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Mother Of Flamlings",
+        description: "**Location:** ??  \n\n**Reward:** ??",
+        latitude: "0.84028072125911",
+        longitude: "-0.54608432577498",
       },
       {
         description:
@@ -6440,6 +7405,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
     locations: [
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Lingxuzi",
         description:
           "**Reward:**\n- [Grey Wolf Mask](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397300)\n- [Mind Core](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397301)\n- 700 Will",
@@ -6456,6 +7422,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2959,
         title: "Elder Jinchi",
         description:
           "**Location:** Found in the secret [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380) (only accessible by ringing the 3 bells)\n\n**Reward:**\n- Fireproof Mantle Vessel\n- 2,000 Will",
@@ -6472,6 +7439,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Black Wind King",
         description:
           "**Location:** Black Wind Cave - Cave Interior\n\n**Reward:**\n- [Cloud Step Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398307)",
@@ -6480,6 +7448,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2945,
         title: "Black Bear Guai",
         description:
           "**Location:** Black Wind Cave - Bodhi Peak\n\n**Reward:**\n- Craving Eyes Relic\n- Flame Ebongold\n- Mind Core",
@@ -6488,6 +7457,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2944,
         title: "Whiteclad Noble",
         description:
           "**Location:** Bamboo Grove - Marsh of the White Mist\n\n**Reward:**\n- [Twin Serpents Staff](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398196)\n- Jade Fang",
@@ -6504,6 +7474,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: null,
         title: "Erlang, The Sacred Divinity",
         description:
           "**Location:** Prologue  \n\n**Note:** This is a tutorial boss fight - you cannot lose it",
@@ -6512,6 +7483,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-1",
+        // subRegionSlug: 2943,
         title: "Red Loong",
         description:
           "**Location:** Inside the hidden [Waterfall Cave](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398283).  You must first obtain the [Loong Scales](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398767) from Chapter 2 to pass through the waterfall.\n\n**Reward:**\n- Boshan Censer\n- Thunder Tail\n- Loong Pearl\n- Mind Core\n- Silk\n- 1652 Experience\n- 1376 Will",
@@ -6520,6 +7492,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2962,
         title: "Tiger Vanguard",
         description:
           "**Location:** Crouching Tiger Temple - Temple Entrance  \n\n**Reward:**\n- [Rock Solid Spell](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398769)\n- [Keeness of Tiger](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398770)\n- Mind Core x1\n- Silk x3\n- 1652 Exp\n-",
@@ -6536,6 +7509,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Stone Vanguard",
         description:
           "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Galeguard Set](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399052)\n- Sterness of Stone\n- Mind Core x1\n- Yaoguai Core x2",
@@ -6576,6 +7550,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-2",
+        // subRegionSlug: 2961,
         title: "Black Loong",
         description:
           "**Location:** Fright Cliff - Hidden Loong Cavern\n\n**Reward:**\n- [Tridacna Pendant](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399054)\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
@@ -6584,6 +7559,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2973,
         title: "Kang-Jin Loong",
         description:
           "**Location:** Snowhill Path - Mirrormere\n  \n\n**Reward:**\n- Starlit Cloud-Bidden Antler",
@@ -6600,6 +7576,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2974,
         title: "Captain Wise-Voice",
         description:
           "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:**\n- [Spirit of Captain Wise-Voice](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=398919)\n- Mind Core",
@@ -6608,6 +7585,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Kang-Jin Star",
         description:
           "**Location:** Bitter Lake - Turtle Island\n\n**Reward:**\n- Loong Pearl\n- Mind Core",
@@ -6616,6 +7594,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       },
       {
         regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
         title: "Cyan Loong",
         description:
           "**Location:** Bitter Lake - Turtle Island - You must interact with the dragon statue using the [Loong Scales](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398767)\n\n**Reward:**\n- Tridacna Pendant\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
@@ -6637,6 +7616,84 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "**Location:** New Thunderclap Temple - Mahavira Hall\n\n  \n\n**Reward:** ??",
         latitude: "1.15027839388230",
         longitude: "-0.62585935956017",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Zhu Bajie",
+        description:
+          "**Location:** Webbed Hollow - Hut Of Immortality\n\n**Reward:** ??",
+        latitude: "0.56136250428911",
+        longitude: "-0.86143887662732",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2995,
+        title: "Violet Spider",
+        description:
+          "**Location:** Webbed Hollow - The Gathering Cave\n\n**Reward:** ??",
+        latitude: "0.55583082007873",
+        longitude: "-0.90431613020624",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Hundred-Eyed Daoist Master",
+        description:
+          "**Location:** Temple Of The Yellow Flower - Court Of Illumination\n\n\n**Reward:** ??",
+        latitude: "0.78055677483057",
+        longitude: "-0.60546622398897",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Scorpionlord",
+        description:
+          "**Location:** Purple Cloud Mountain / Bounds Of Deity's Abode  \n\n**Reward:**\n- ??",
+        latitude: "0.82486879349138",
+        longitude: "-0.35965204238875",
+      },
+      {
+        regionSlug: "chapter-4",
+        // subRegionSlug: 2994,
+        title: "Daoist Mi",
+        description:
+          "**Location:** Purple Cloud Mountain / Bounds Of Deity's Abode  \n\n**Reward:**\n- ??",
+        latitude: "0.88234751515306",
+        longitude: "-0.46962261199985",
+      },
+      {
+        regionSlug: "chapter-4",
+        title: "Duskveil",
+        description:
+          "**Location:** Purple Cloud Mountain - Cloudnest Peak\n\n**Reward:**\n- ??",
+        latitude: "0.92229674531136",
+        longitude: "-0.44177055358895",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2999,
+        title: "Keeper Of Flaming Mountains / Yin-Yang Fish",
+        description:
+          "**Location:** Furnace Valley - The Emerald Hall    \n\n**Reward:**\n- ??",
+        latitude: "0.78914531379428",
+        longitude: "-0.27798414230384",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2997,
+        title: "Red Boy + Yaksha King",
+        description:
+          "**Location:** Field Of Fire / Fallen Furnace Crater\n\n**Reward:**\n- ??",
+        latitude: "0.99129499297158",
+        longitude: "-0.53335189819279",
+      },
+      {
+        regionSlug: "chapter-5",
+        // subRegionSlug: 2998,
+        title: "Bishui Golden-Eyed Beast",
+        description: "**Location:** Bishui Cave\t  \n\n**Reward:**\n- ??",
+        latitude: "0.89883032238755",
+        longitude: "-1.07376950815840",
       },
       {
         description:
@@ -7788,6 +8845,47 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   },
   {
     locations: [
+      {
+        regionSlug: "chapter-2",
+        title: "Yellow-Robed Squire",
+        description:
+          "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398924)",
+        latitude: "0.93424878783188",
+        longitude: "-0.70666538820186",
+      },
+      {
+        regionSlug: "chapter-2",
+        title: "Bodhisattva Lingji",
+        description: "Input to journal upon defeating Fuban.",
+        latitude: "1.08721121838460",
+        longitude: "-0.41375532448035",
+      },
+      {
+        regionSlug: "chapter-3",
+        // subRegionSlug: 2975,
+        title: "Chen Loong",
+        description:
+          "**Location:** Bitter Lake - North Shore Of The Bitter Lake  \n\n**Reward:** ??",
+        latitude: "0.98040415453539",
+        longitude: "-0.72172343730941",
+      },
+      {
+        regionSlug: "chapter-3",
+        title: "Green-Capped Martialist",
+        description:
+          "**Location:** Valley Of Ecstasy - Melon Field\n  \n\n**Reward:** ??",
+        latitude: "1.07457575842050",
+        longitude: "-0.62339168284754",
+      },
+      {
+        regionSlug: "chapter-5",
+        subRegionSlug: "woods-of-ember",
+        title: "Pale-Axe Stalwart",
+        description:
+          "**Location:** Woods Of Ember - Ashen Pass I  \n\n**Reward:**\n- ??",
+        latitude: "0.65806014918215",
+        longitude: "-1.06523394584530",
+      },
       {
         description:
           "[相关事件]:  先要跟他打一架,打完触发对话  \n  打完两个五行战车回来触发第二个对话(注意回来时的位置,他走到另一边看风景),会帮你打第三个五行战车,还涉及到后续隐藏任务\n  \n  第二个对话打完第三个铜车也可以触发,再上第三铜车处,可触发下一段对话",

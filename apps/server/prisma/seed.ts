@@ -8,9 +8,9 @@ import { categoryLocations } from "./seeding/categories";
 const prisma = new PrismaClient();
 
 async function main() {
+  await prisma.markerLocation.deleteMany({});
   await prisma.subRegion.deleteMany({});
   await prisma.media.deleteMany({});
-  await prisma.markerLocation.deleteMany({});
   await prisma.markerCategory.deleteMany({});
   await prisma.markerGroup.deleteMany({});
   await prisma.region.deleteMany({});
@@ -28,8 +28,8 @@ async function main() {
       .join(", ");
     const coord = `POLYGON((${coordinatesString}))`;
     await prisma.$queryRaw`
-              INSERT INTO "SubRegion" (coordinates, title, "regionSlug")
-              VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${subRegion.regionSlug})
+              INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
+              VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${subRegion.regionSlug}, ${subRegion.slug})
             `;
   }
 

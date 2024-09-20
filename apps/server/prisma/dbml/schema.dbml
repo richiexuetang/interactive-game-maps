@@ -20,13 +20,13 @@ Table Game {
   id Int [pk, increment]
   slug String [unique, not null]
   title String [not null]
-  thumbnailUrl String [not null]
-  logo String [not null]
   regions Region [not null]
   groups MarkerGroup [not null]
-  previewUrl String [not null]
-  iconUrl String [not null]
   description String [not null]
+  minZoom Int [not null]
+  maxZoom Int [not null]
+  zoom Int [not null]
+  center Decimal[] [not null]
 }
 
 Table Region {
@@ -34,10 +34,6 @@ Table Region {
   slug String [unique, not null]
   title String [not null]
   thumbnailUrl String [not null]
-  minZoom Int [not null]
-  maxZoom Int [not null]
-  zoom Int [not null]
-  center Decimal[] [not null]
   tilePath String [not null]
   game Game [not null]
   gameSlug String [not null]
@@ -51,6 +47,8 @@ Table SubRegion {
   region Region [not null]
   regionSlug String [not null]
   title String [not null]
+  locations MarkerLocation [not null]
+  slug String [unique, not null]
 }
 
 Table MarkerGroup {
@@ -83,6 +81,8 @@ Table MarkerLocation {
   region Region [not null]
   regionSlug String [not null]
   media Media [not null]
+  subRegion SubRegion
+  subRegionSlug String
 }
 
 Table Media {
@@ -106,5 +106,7 @@ Ref: MarkerCategory.groupSlug > MarkerGroup.slug
 Ref: MarkerLocation.categoryId > MarkerCategory.id
 
 Ref: MarkerLocation.regionSlug > Region.slug
+
+Ref: MarkerLocation.subRegionSlug > SubRegion.slug
 
 Ref: Media.markerLocationId > MarkerLocation.id

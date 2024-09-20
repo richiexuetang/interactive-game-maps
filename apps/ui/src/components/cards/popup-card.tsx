@@ -23,6 +23,7 @@ import { signInWithGoogle } from "@/lib/firebase/auth";
 import { useRouter } from "next/navigation";
 import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
 import { useMutation } from "@apollo/client";
+import Tooltip from "@mui/material/Tooltip";
 
 export const PopupCard = ({
   media,
@@ -123,17 +124,29 @@ export const PopupCard = ({
         )}
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
         {appUser?.email ? (
-          <IconButton onClick={handleMarkerFound}>
-            {markerFound ? <CheckCircleIcon /> : <RadioButtonUncheckedIcon />}
-          </IconButton>
+          <>
+            <Tooltip title="Add to favorite">
+              <IconButton onClick={() => console.log("")}>
+                <FavoriteIcon />
+              </IconButton>
+            </Tooltip>
+            <Tooltip title="Found">
+              <IconButton onClick={handleMarkerFound}>
+                {markerFound ? (
+                  <CheckCircleIcon />
+                ) : (
+                  <RadioButtonUncheckedIcon />
+                )}
+              </IconButton>
+            </Tooltip>
+          </>
         ) : (
-          <IconButton aria-label="login" onClick={handleLogin}>
-            <LoginIcon />
-          </IconButton>
+          <Tooltip title="Login">
+            <IconButton aria-label="login" onClick={handleLogin}>
+              <LoginIcon />
+            </IconButton>
+          </Tooltip>
         )}
       </CardActions>
     </Card>

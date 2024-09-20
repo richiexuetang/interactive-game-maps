@@ -28,16 +28,16 @@ model AppUser {
 }
 
 model Game {
-  id           Int           @id @default(autoincrement())
-  slug         String        @unique
-  title        String
-  thumbnailUrl String
-  logo         String
-  regions      Region[]
-  groups       MarkerGroup[]
-  previewUrl   String
-  iconUrl      String
-  description  String
+  id          Int           @id @default(autoincrement())
+  slug        String        @unique
+  title       String
+  regions     Region[]
+  groups      MarkerGroup[]
+  description String
+  minZoom     Int
+  maxZoom     Int
+  zoom        Int
+  center      Decimal[]
 }
 
 model Region {
@@ -45,10 +45,6 @@ model Region {
   slug         String           @unique
   title        String
   thumbnailUrl String
-  minZoom      Int
-  maxZoom      Int
-  zoom         Int
-  center       Decimal[]
   tilePath     String
   game         Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug     String
@@ -63,6 +59,8 @@ model SubRegion {
   regionSlug  String
   coordinates Unsupported("geometry(Polygon, 4326)")
   title       String
+  locations   MarkerLocation[]
+  slug        String                                 @unique
 
   @@index([coordinates], type: Gist)
 }
@@ -87,16 +85,18 @@ model MarkerCategory {
 }
 
 model MarkerLocation {
-  id          Int             @id @default(autoincrement())
-  title       String
-  description String?
-  latitude    Decimal
-  longitude   Decimal
-  category    MarkerCategory? @relation(fields: [categoryId], references: [id])
-  categoryId  Int?
-  region      Region          @relation(fields: [regionSlug], references: [slug])
-  regionSlug  String
-  media       Media[]
+  id            Int             @id @default(autoincrement())
+  title         String
+  description   String?
+  latitude      Decimal
+  longitude     Decimal
+  category      MarkerCategory? @relation(fields: [categoryId], references: [id])
+  categoryId    Int?
+  region        Region          @relation(fields: [regionSlug], references: [slug])
+  regionSlug    String
+  media         Media[]
+  subRegion     SubRegion?      @relation(fields: [subRegionSlug], references: [slug])
+  subRegionSlug String?
 }
 
 model Media {

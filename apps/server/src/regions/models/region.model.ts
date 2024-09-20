@@ -15,22 +15,10 @@ export class Region extends BaseModel {
   thumbnailUrl: string;
 
   @Field()
-  minZoom: number;
-
-  @Field()
-  maxZoom: number;
-
-  @Field()
-  zoom: number;
-
-  @Field()
   tilePath: string;
 
   @Field()
   gameSlug: string;
-
-  @Field(() => [Number])
-  center: number[];
 
   @Field(() => Number)
   order: number;

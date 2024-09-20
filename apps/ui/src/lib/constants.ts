@@ -90,21 +90,7 @@ mutation RemoveTrackingCategory($data: UpdateTrackingCategoryInput!) {
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {
-      id
-      regions {
-        zoom
-        gameSlug
-        maxZoom
-        minZoom
-        slug
-        thumbnailUrl
-        tilePath
-        title
-        center
-        order
-      }
       slug
-      thumbnailUrl
       title
     }
   }
@@ -114,10 +100,7 @@ export const FETCH_GAME_META_DATA = gql(`
 query GetGames($slug: String!) {
   game(slug: $slug) {
     slug
-    thumbnailUrl
     title
-    iconUrl
-    previewUrl
     description
   }
 }`);
@@ -125,16 +108,8 @@ query GetGames($slug: String!) {
 export const FETCH_REGION_DETAILS = gql`
   query RegionDetails($slug: String!) {
     regionDetails(slug: $slug) {
-      zoom
       gameSlug
-      id
-      maxZoom
-      minZoom
-      slug
-      thumbnailUrl
-      tilePath
       title
-      center
     }
   }
 `;
@@ -142,16 +117,9 @@ export const FETCH_REGION_DETAILS = gql`
 export const FETCH_REGION_BY_GAME = gql`
   query FindRegionByGame($slug: String!) {
     findRegionsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
-      center
-      zoom
       gameSlug
-      id
-      maxZoom
-      minZoom
-      order
       slug
       thumbnailUrl
-      tilePath
       title
     }
   }
@@ -162,6 +130,10 @@ export const FETCH_GAME_REGION_DETAILS = gql`
     fetchGameByRegion(slug: $slug) {
       title
       slug
+      minZoom
+      maxZoom
+      zoom
+      center
       groups {
         id
         title
@@ -173,14 +145,10 @@ export const FETCH_GAME_REGION_DETAILS = gql`
         }
       }
       regions {
-        slug
-        maxZoom
-        minZoom
-        order
         tilePath
+        slug
+        order
         title
-        zoom
-        center
         locations {
           categoryId
           category {

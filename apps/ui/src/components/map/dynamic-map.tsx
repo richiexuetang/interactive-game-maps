@@ -32,8 +32,7 @@ interface MapProps {
 }
 
 const Map = ({ region, user, regionData }: MapProps) => {
-  // eslint-disable-next-line no-unused-vars
-  const { zoom, minZoom, maxZoom, center, tilePath } = region;
+  const { zoom, minZoom, maxZoom, center } = regionData;
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -113,7 +112,7 @@ const Map = ({ region, user, regionData }: MapProps) => {
         className="w-full h-full"
       >
         <RL.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region.tilePath}/{z}/{y}/{x}.jpg`}
         />
         <MarkerRenderer />
         <MarkerSearch />

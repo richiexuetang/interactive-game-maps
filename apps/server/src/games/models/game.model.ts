@@ -12,13 +12,16 @@ export class Game extends BaseModel {
   title: string;
 
   @Field()
-  thumbnailUrl: string;
+  minZoom: number;
 
-  @Field(() => String, { nullable: true })
-  previewUrl: string | null;
+  @Field()
+  maxZoom: number;
 
-  @Field(() => String, { nullable: true })
-  iconUrl: string | null;
+  @Field()
+  zoom: number;
+
+  @Field(() => [Number])
+  center: number[];
 
   @Field(() => String, { nullable: true })
   description: string | null;

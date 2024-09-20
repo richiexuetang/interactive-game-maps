@@ -4,9 +4,6 @@ CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 -- CreateExtension
 CREATE EXTENSION IF NOT EXISTS "postgis";
 
--- CreateEnum
-CREATE TYPE "LocationType" AS ENUM ('Marker', 'Text', 'Line');
-
 -- CreateTable
 CREATE TABLE "AppUser" (
     "id" TEXT NOT NULL,
@@ -29,11 +26,11 @@ CREATE TABLE "Game" (
     "id" SERIAL NOT NULL,
     "slug" TEXT NOT NULL,
     "title" TEXT NOT NULL,
-    "thumbnailUrl" TEXT NOT NULL,
-    "logo" TEXT NOT NULL,
-    "previewUrl" TEXT NOT NULL,
-    "iconUrl" TEXT NOT NULL,
     "description" TEXT NOT NULL,
+    "minZoom" INTEGER NOT NULL,
+    "maxZoom" INTEGER NOT NULL,
+    "zoom" INTEGER NOT NULL,
+    "center" DECIMAL(65,30)[],
 
     CONSTRAINT "Game_pkey" PRIMARY KEY ("id")
 );
@@ -44,10 +41,6 @@ CREATE TABLE "Region" (
     "slug" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "thumbnailUrl" TEXT NOT NULL,
-    "minZoom" INTEGER NOT NULL,
-    "maxZoom" INTEGER NOT NULL,
-    "zoom" INTEGER NOT NULL,
-    "center" DECIMAL(65,30)[],
     "tilePath" TEXT NOT NULL,
     "gameSlug" TEXT NOT NULL,
     "order" INTEGER NOT NULL DEFAULT 1,
@@ -61,6 +54,7 @@ CREATE TABLE "SubRegion" (
     "regionSlug" TEXT NOT NULL,
     "coordinates" geometry(Polygon, 4326) NOT NULL,
     "title" TEXT NOT NULL,
+    "slug" TEXT NOT NULL,
 
     CONSTRAINT "SubRegion_pkey" PRIMARY KEY ("id")
 );
@@ -95,7 +89,7 @@ CREATE TABLE "MarkerLocation" (
     "longitude" DECIMAL(65,30) NOT NULL,
     "categoryId" INTEGER,
     "regionSlug" TEXT NOT NULL,
-    "type" "LocationType" NOT NULL DEFAULT 'Marker',
+    "subRegionSlug" TEXT,
 
     CONSTRAINT "MarkerLocation_pkey" PRIMARY KEY ("id")
 );
@@ -122,7 +116,10 @@ CREATE UNIQUE INDEX "Game_slug_key" ON "Game"("slug");
 CREATE UNIQUE INDEX "Region_slug_key" ON "Region"("slug");
 
 -- CreateIndex
-CREATE INDEX "sub_region_idx" ON "SubRegion" USING GIST ("coordinates");
+CREATE UNIQUE INDEX "SubRegion_slug_key" ON "SubRegion"("slug");
+
+-- CreateIndex
+CREATE INDEX "SubRegion_coordinates_idx" ON "SubRegion" USING GIST ("coordinates");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "MarkerGroup_slug_key" ON "MarkerGroup"("slug");
@@ -144,6 +141,9 @@ ALTER TABLE "MarkerLocation" ADD CONSTRAINT "MarkerLocation_categoryId_fkey" FOR
 
 -- AddForeignKey
 ALTER TABLE "MarkerLocation" ADD CONSTRAINT "MarkerLocation_regionSlug_fkey" FOREIGN KEY ("regionSlug") REFERENCES "Region"("slug") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "MarkerLocation" ADD CONSTRAINT "MarkerLocation_subRegionSlug_fkey" FOREIGN KEY ("subRegionSlug") REFERENCES "SubRegion"("slug") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Media" ADD CONSTRAINT "Media_markerLocationId_fkey" FOREIGN KEY ("markerLocationId") REFERENCES "MarkerLocation"("id") ON DELETE SET NULL ON UPDATE CASCADE;
