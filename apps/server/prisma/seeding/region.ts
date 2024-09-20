@@ -3,7 +3,7 @@ export const regions = [
   {
     slug: "chapter-1",
     title: "Chapter 1",
-    thumbnailUrl: "thumbnails/chapter-1.png",
+    thumbnailUrl: "images/games/black-myth-wukong/chapter-1.png",
     tilePath: "black-myth-wukong/chapter-1",
     gameSlug: "black-myth-wukong",
     order: 1,
@@ -11,7 +11,7 @@ export const regions = [
   {
     slug: "chapter-2",
     title: "Chapter 2",
-    thumbnailUrl: "thumbnails/chapter-2.png",
+    thumbnailUrl: "images/games/black-myth-wukong/chapter-2.png",
     tilePath: "black-myth-wukong/chapter-2",
     gameSlug: "black-myth-wukong",
     order: 2,
@@ -19,7 +19,7 @@ export const regions = [
   {
     slug: "chapter-3",
     title: "Chapter 3",
-    thumbnailUrl: "thumbnails/chapter-3.png",
+    thumbnailUrl: "images/games/black-myth-wukong/chapter-3.png",
     tilePath: "black-myth-wukong/chapter-3",
     gameSlug: "black-myth-wukong",
     order: 3,
@@ -27,7 +27,7 @@ export const regions = [
   {
     slug: "chapter-4",
     title: "Chapter 4",
-    thumbnailUrl: "thumbnails/chapter-4.png",
+    thumbnailUrl: "images/games/black-myth-wukong/chapter-4.png",
     tilePath: "black-myth-wukong/chapter-4",
     gameSlug: "black-myth-wukong",
     order: 4,
@@ -35,7 +35,7 @@ export const regions = [
   {
     slug: "chapter-5",
     title: "Chapter 5",
-    thumbnailUrl: "thumbnails/chapter-5.png",
+    thumbnailUrl: "images/games/black-myth-wukong/chapter-5.png",
     tilePath: "black-myth-wukong/chapter-5",
     gameSlug: "black-myth-wukong",
     order: 5,
@@ -43,7 +43,7 @@ export const regions = [
   {
     slug: "04_zhujiadayuan",
     title: "Chapter 4 - Village of Lanxi",
-    thumbnailUrl: "thumbnails/04_zhujiadayuan.png",
+    thumbnailUrl: "images/games/black-myth-wukong/04_zhujiadayuan.png",
     tilePath: "black-myth-wukong/04_zhujiadayuan",
     gameSlug: "black-myth-wukong",
     order: 6,
@@ -51,7 +51,7 @@ export const regions = [
   {
     slug: "04_pansidongshangceng",
     title: "Chapter 4 - Upper Webbed Hollow",
-    thumbnailUrl: "thumbnails/04_pansidongshangceng.png",
+    thumbnailUrl: "images/games/black-myth-wukong/04_pansidongshangceng.png",
     tilePath: "black-myth-wukong/04_pansidongshangceng",
     gameSlug: "black-myth-wukong",
     order: 7,
@@ -59,7 +59,7 @@ export const regions = [
   {
     slug: "04_pansidongxiaceng",
     title: "Chapter 4 - Lower Webbed Hollow",
-    thumbnailUrl: "thumbnails/04_pansidongxiaceng.png",
+    thumbnailUrl: "images/games/black-myth-wukong/04_pansidongxiaceng.png",
     tilePath: "black-myth-wukong/04_pansidongxiaceng",
     gameSlug: "black-myth-wukong",
     order: 8,
@@ -67,7 +67,7 @@ export const regions = [
   {
     slug: "04_huanghuaguan",
     title: "Chapter 4 - Temple of Yellow Flowers",
-    thumbnailUrl: "thumbnails/04_huanghuaguan.png",
+    thumbnailUrl: "images/games/black-myth-wukong/04_huanghuaguan.png",
     tilePath: "black-myth-wukong/04_huanghuaguan",
     gameSlug: "black-myth-wukong",
     order: 9,
@@ -75,7 +75,7 @@ export const regions = [
   {
     slug: "04_ziyunshan",
     title: "Chapter 4 - Purple Cloud Mountain",
-    thumbnailUrl: "thumbnails/04_ziyunshan.png",
+    thumbnailUrl: "images/games/black-myth-wukong/04_ziyunshan.png",
     tilePath: "black-myth-wukong/04_ziyunshan",
     gameSlug: "black-myth-wukong",
     order: 10,
@@ -83,7 +83,7 @@ export const regions = [
   {
     slug: "05_huoyanshan",
     title: "Chapter 5: Flaming Mountains",
-    thumbnailUrl: "thumbnails/05_huoyanshan.png",
+    thumbnailUrl: "images/games/black-myth-wukong/05_huoyanshan.png",
     tilePath: "black-myth-wukong/05_huoyanshan",
     gameSlug: "black-myth-wukong",
     order: 11,
@@ -91,7 +91,7 @@ export const regions = [
   {
     slug: "06_huaguoshan",
     title: "Chapter 6: Mount Huaguo",
-    thumbnailUrl: "thumbnails/06_huaguoshan.png",
+    thumbnailUrl: "images/games/black-myth-wukong/06_huaguoshan.png",
     tilePath: "black-myth-wukong/06_huaguoshan",
     gameSlug: "black-myth-wukong",
     order: 12,

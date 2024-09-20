@@ -13,6 +13,7 @@ import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
+  Button,
   Checkbox,
   Divider,
   FormControl,
@@ -33,7 +34,10 @@ import {
   ADD_TRACKING_CATEGORY,
   REMOVE_FROM_USER_FOUND,
   REMOVE_TRACKING_CATEGORY,
+  TOGGLE_HIDE_FOUND,
 } from "@/lib/constants";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 
 export const ProgressTracker = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -48,6 +52,7 @@ export const ProgressTracker = () => {
 
   const [addTrackingCategory] = useMutation(ADD_TRACKING_CATEGORY);
   const [removeTrackingCategory] = useMutation(REMOVE_TRACKING_CATEGORY);
+  const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
@@ -152,6 +157,17 @@ export const ProgressTracker = () => {
     }
   };
 
+  const toggleHideFound = () => {
+    if (appUser) {
+      const hide = !appUser.hideFound;
+
+      toggleUserHideFound({
+        variables: { data: { email: appUser.email, hide } },
+      });
+      setAppUser({ ...appUser, hideFound: hide });
+    }
+  };
+
   return (
     <div className="absolute top-36 right-2 z-[1000] flex flex-col gap-5">
       <Tooltip title="Progress Tracker" placement="left">
@@ -177,6 +193,14 @@ export const ProgressTracker = () => {
           Progress Tracker
         </Typography>
         <Divider sx={{ mb: 2 }} />
+        <Button
+          startIcon={
+            appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
+          }
+          onClick={toggleHideFound}
+        >
+          {appUser?.hideFound ? "Show Found" : "Hide Found"}
+        </Button>
         {appUser ? (
           <div className="flex flex-col mb-3">
             {appUser?.trackingCategories?.map((category) => (
