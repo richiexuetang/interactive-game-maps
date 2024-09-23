@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    image: nest-pnpm-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: deploy
+    ports:
+      - 5001:5001

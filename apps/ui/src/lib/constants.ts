@@ -172,3 +172,26 @@ export const FETCH_GAME_REGION_DETAILS = gql`
     }
   }
 `;
+
+export const FETCH_LOCATIONS_BY_REGION = gql`
+  query Locations($regionSlug: String) {
+    locations(regionSlug: $regionSlug) {
+      categoryId
+      category {
+        title
+        id
+        icon
+        info
+      }
+      media {
+        url
+        type
+      }
+      description
+      latitude
+      longitude
+      title
+      id
+    }
+  }
+`;

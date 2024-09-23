@@ -151,6 +151,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
               </FormControl>
 
               <SidebarDivider orientation="horizontal" flexItem />
+
               <Grid
                 container
                 spacing={1}
@@ -169,6 +170,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                   </div>
                 ))}
               </Grid>
+
               <SidebarDivider orientation="horizontal" flexItem />
 
               <ShowHideButtons />
@@ -204,8 +206,8 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                         const count = markers?.filter(
                           ({ categoryId }) => categoryId === category.id
                         ).length;
+                        if (!count) return null;
 
-                        if (count === 0) return null;
                         return (
                           <Grid
                             size={6}

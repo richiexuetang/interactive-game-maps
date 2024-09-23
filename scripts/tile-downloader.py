@@ -30,7 +30,7 @@ y_low_map = x_low_map
 y_high_map = x_high_map
 
 # "fablesphere"
-regions = [ "chapter-1"]
+regions = [ "chapter-3"]
 game = ""
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
 

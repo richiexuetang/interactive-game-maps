@@ -62,7 +62,6 @@ export default async function RegionPage({
   const regions = await getRegionsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 
-  console.log(regions);
   return (
     <div
       className={cn(

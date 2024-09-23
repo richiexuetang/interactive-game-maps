@@ -6669,7 +6669,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         media: [
           {
             type: "image",
-
             url: "https://lh3.googleusercontent.com/AbNv5MmtLIJAjitqd_c5bCrvl1ww0wR6rmfQwafxE74Gd2Z2X-9iNA0tRbh_zsRTHhHmGfO91p7rjEwf7bBVkkBxj6tvkfrgnKhQxTKcpHo=s0",
           },
         ],

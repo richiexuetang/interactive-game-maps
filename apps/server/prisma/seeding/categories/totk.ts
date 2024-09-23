@@ -10777,7 +10777,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
       },
     ],
     groupSlug: "totk_services",
-    title: "Mini-Game",
+    title: "Mini Game",
   },
   {
     locations: [

@@ -29,7 +29,9 @@ async function main() {
     const coord = `POLYGON((${coordinatesString}))`;
     await prisma.$queryRaw`
               INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
-              VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${subRegion.regionSlug}, ${subRegion.slug})
+              VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${
+      subRegion.regionSlug
+    }, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})
             `;
   }
 

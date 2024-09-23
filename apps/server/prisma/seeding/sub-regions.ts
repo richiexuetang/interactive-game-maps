@@ -131,7 +131,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-2",
     title: "Kingdom of Sahali",
-    slug: "kingdom-of-sahali",
     coordinates: [
       [0.9290574672572522, -0.5890983951847217],
       [1.128241289541729, -0.5859465182780911],
@@ -143,7 +142,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-3",
     title: "Bitter Lake",
-    slug: "bitter-lake",
     coordinates: [
       [0.9414739692788316, -0.6360302269518741],
       [1.061059598540865, -0.7299128686657355],
@@ -156,7 +154,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-3",
     title: "Pagoda Realm",
-    slug: "pagoda-realm",
     coordinates: [
       [0.6603233794730414, -0.4377648207838831],
       [0.41341474733458483, -0.4129736899763259],
@@ -170,7 +167,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-3",
     title: "Snowhill Path",
-    slug: "snowhill-path",
     coordinates: [
       [0.45988618655850644, -0.9858581143651293],
       [0.4289471085807719, -0.5185011350518209],
@@ -183,7 +179,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-3",
     title: "Valley of Ecstasy",
-    slug: "valley-of-ecstasy",
     coordinates: [
       [1.0250035137223388, -0.6895192862855093],
       [1.1012312484834579, -0.6756842493579996],
@@ -195,7 +190,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-3",
     title: "New Thunderclap Temple",
-    slug: "new-thunderclap-temple",
     coordinates: [
       [1.1136874166926298, -0.6539387924559349],
       [1.1644016834183049, -0.6551610645430573],
@@ -207,7 +201,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-4",
     title: "Purple Cloud Mountain",
-    slug: "purple-cloud-mountain",
     coordinates: [
       [0.953696627969066, -0.44892216673036955],
       [0.850398779267266, -0.333391959656268],
@@ -220,7 +213,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-4",
     title: "Temple of Yellow Flower",
-    slug: "temple-of-yellow-flower",
     coordinates: [
       [0.8283952145362434, -0.6144707966932117],
       [0.7568126748957553, -0.7180870250166151],
@@ -233,7 +225,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-4",
     title: "Village of Lanxi",
-    slug: "village-of-lanxi",
     coordinates: [
       [0.7962287464540765, -0.8677624794162],
       [0.86289040740985, -0.8696672980567826],
@@ -260,7 +251,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-5",
     title: "Bishui Cave",
-    slug: "bishui-cave",
     coordinates: [
       [1.0061721919374662, -1.1612755075989867],
       [1.0061721919374662, -0.8590355100091358],
@@ -272,7 +262,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-5",
     title: "Field of Fire",
-    slug: "field-of-fire",
     coordinates: [
       [0.37940776814539845, -0.6914299546401708],
       [0.6308991992119617, -0.43122628909245464],
@@ -298,7 +287,6 @@ export const subRegions = [
   {
     regionSlug: "chapter-5",
     title: "Woods of Ember",
-    slug: "woods-of-ember",
     coordinates: [
       [0.7370678736946985, -1.1137748575259536],
       [0.6291427633263282, -1.1540697685040868],
@@ -312,7 +300,6 @@ export const subRegions = [
   {
     regionSlug: "hyrule",
     title: "Akkala Highlands",
-    slug: "akkala-highlands",
     coordinates: [
       [0.7693932816696628, -0.6038272732141658],
       [0.7808660861362314, -0.5939293840602389],
@@ -329,6 +316,44 @@ export const subRegions = [
       [0.7281955909594442, -0.6099245675241538],
       [0.7369385534442965, -0.6103971039643907],
       [0.7693932816696628, -0.6038272732141658],
+    ],
+  },
+  {
+    regionSlug: "hyrule",
+    title: "Deep Akkala",
+    coordinates: [
+      [0.8405606946434848, -0.6264216432993996],
+      [0.8058886761625298, -0.622044278187095],
+      [0.8052020985172849, -0.6045348177378762],
+      [0.7938252963871624, -0.5947018602565279],
+      [0.7808660861362314, -0.5939293840602389],
+      [0.7788921631716257, -0.5826855638698092],
+      [0.7693658263433707, -0.5795098283961764],
+      [0.7669627830529447, -0.5679226854518404],
+      [0.7588954135916065, -0.5629445055201998],
+      [0.7589138703028038, -0.5444973684609433],
+      [0.8408862614306697, -0.5451549991274462],
+      [0.8405606946434848, -0.6264216432993996],
+    ],
+  },
+  {
+    regionSlug: "hyrule",
+    title: "East Necluda",
+    coordinates: [
+      [0.5596831658880218, -0.5423310489941113],
+      [0.5596466929481767, -0.6322840447921507],
+      [0.5917043620593672, -0.6332593059078762],
+      [0.6090412092413132, -0.636435041381509],
+      [0.6192451915517468, -0.6394900711979323],
+      [0.628342705319038, -0.6385459336246901],
+      [0.6325791937475781, -0.6325377854313308],
+      [0.640990081724436, -0.6280745896305495],
+      [0.6559205446201402, -0.6181182297672683],
+      [0.6540552532842239, -0.5955796189477192],
+      [0.6464168139357731, -0.583048338430141],
+      [0.646330988709012, -0.5593590684106098],
+      [0.64758988192076, -0.5420259554613938],
+      [0.5596831658880218, -0.5423310489941113],
     ],
   },
 ];

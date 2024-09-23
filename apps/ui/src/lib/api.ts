@@ -6,6 +6,7 @@ import {
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
   FETCH_GAME_REGION_DETAILS,
+  FETCH_LOCATIONS_BY_REGION,
   FETCH_REGION_BY_GAME,
   FETCH_REGION_DETAILS,
   GET_APP_USER,
@@ -75,8 +76,14 @@ export async function fetchGameRegionDetails(slug: string) {
   }
 
   const processedLocations = [];
-  for (let i = 0; i < region.locations.length; i++) {
-    const curr = region.locations[i];
+  const { data: res } = await getClient().query({
+    query: FETCH_LOCATIONS_BY_REGION,
+    variables: { regionSlug: slug },
+  });
+  const locations = res.locations;
+
+  for (let i = 0; i < locations.length; i++) {
+    const curr = locations[i];
     const processedDesc = await remark()
       .use(html)
       .process(curr?.description ?? "");

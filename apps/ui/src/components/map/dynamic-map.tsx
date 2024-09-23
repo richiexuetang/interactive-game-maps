@@ -23,7 +23,6 @@ import { useQuery } from "@apollo/client";
 import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
-import { TestMarker } from "../markers/test-marker";
 
 interface MapProps {
   region: any;
