@@ -25,6 +25,8 @@ import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
 import { MarkerLocation } from "@/__generated__/graphql";
+import { Modal } from "@mui/material";
+import Image from "next/image";
 
 interface PopupCardProps {
   marker: MarkerLocation;
@@ -38,6 +40,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
+  const [open, setOpen] = React.useState(false);
 
   const gameSlug = useAtomValue(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -112,13 +115,28 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         subheader={title}
       />
       {media && media.length > 0 && (
-        <CardMedia
-          component="img"
-          height="350"
-          image={media[0]?.url}
-          alt={title}
-        />
+        <>
+          <CardMedia
+            onClick={() => setOpen(true)}
+            className="cursor-pointer"
+            component="img"
+            height="350"
+            image={media[0]?.url}
+            alt={title}
+          />
+          <Modal open={open} onClose={() => setOpen(false)}>
+            <Image
+              onClick={() => setOpen(false)}
+              src={media[0]?.url}
+              fill
+              objectFit="none"
+              alt={media[0]?.url}
+              className="cursor-pointer"
+            />
+          </Modal>
+        </>
       )}
+
       <CardContent>
         <Typography variant="body2" sx={{ color: "text.secondary" }}>
           <div dangerouslySetInnerHTML={{ __html: description ?? "" }} />
