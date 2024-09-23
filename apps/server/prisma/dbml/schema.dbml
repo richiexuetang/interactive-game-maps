@@ -87,10 +87,8 @@ Table MarkerLocation {
 
 Table Media {
   id Int [pk, increment]
-  title String
   url String [not null]
   type String [not null]
-  mimeType String [not null]
   MarkerLocation MarkerLocation
   markerLocationId Int
 }

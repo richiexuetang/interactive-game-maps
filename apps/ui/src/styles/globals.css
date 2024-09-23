@@ -122,122 +122,98 @@
 
 .guarded_treasure {
   background-position: -231px -44px;
-
 }
 
 .hanse_base {
   background-position: -132px -86px;
-
 }
 
 .harbor {
   background-position: -165px -86px;
-
 }
 
 .knight_in_distress {
   background-position: -66px -132px;
-
 }
 
 .lebioda_monument {
   background-position: -99px -132px;
-
 }
 
 .magic_lamp {
   background-position: -132px -132px;
-
 }
 
 .monster_den {
   background-position: -231px -132px;
-
 }
 
 .monster_nest {
   background-position: 0 -176px;
-
 }
 
 .notice_board {
   background-position: -66px -176px;
-
 }
 
 .person_in_distress {
   background-position: -165px -176px;
-
 }
 
 .place_of_power {
   background-position: -198px -176px;
-
 }
 
 .point_of_interest {
   background-position: -231px -176px;
-
 }
 
 .portal {
   background-position: 0 -220px;
-
 }
 
 .signal_fire {
   background-position: -231px -220px;
-
 }
 
 .signpost {
   background-position: 0 -264px;
-
 }
 
 .smugglers_cache {
   background-position: -33px -264px;
-
 }
 
 .spoils_of_war {
   background-position: -66px -264px;
-
 }
 
 .stash {
   background-position: -99px -264px;
-
 }
 
 .vineyard_infestation {
   background-position: -165px -264px;
-
 }
 
 .vinters_contract {
   background-position: -198px -264px;
-
 }
 
 .alchemy_supplies {
   background-position: -33px -0px;
-
 }
 
 .armorer {
   background-position: -66px -0px;
-
 }
 
 .armorers_table {
   background-position: -99px -0px;
-
 }
 
 .barber {
   background-position: -165px -0px;
-
 }
 
 .blacksmith {
@@ -247,27 +223,22 @@
 
 .brothel {
   background-position: 0 -44px;
-
 }
 
 .dye_merchant {
   background-position: -99px -44px;
-
 }
 
 .grindstone {
   background-position: -198px -44px;
-
 }
 
 .gwent_merchant {
   background-position: -33px -86px;
-
 }
 
 .gwent_player {
   background-position: -66px -86px;
-
 }
 
 .herbalist {
@@ -312,7 +283,6 @@
 
 .treasure_chest {
   background-position: -132px -264px;
-
 }
 
 .book {
@@ -550,7 +520,6 @@
   background-position: -99px 0;
 }
 
-
 .elixir {
   background-position: 0 -88px;
 }
@@ -590,8 +559,6 @@
 .zonai_component {
   background-position: -165px -352px;
 }
-
-
 
 .main_quest {
   background-position: -66px -176px;
@@ -642,7 +609,7 @@
 }
 
 .hinox {
-  background-position: -66px - 132px;
+  background-position: -66px -132px;
 }
 
 .lynel {
@@ -714,7 +681,7 @@ yiga {
 }
 
 .hudson_sign {
-  background-position: -99px - 132px;
+  background-position: -99px -132px;
 }
 
 .lore {
@@ -1343,11 +1310,6 @@ yiga {
     --border: 0 0% 89.8%;
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
 
@@ -1371,11 +1333,28 @@ yiga {
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+  }
+
+  .elden-ring {
+    --text-color: #e4e4e5;
+  }
+
+  .zelda-tears-of-the-kingdom {
+    --text-color: #f8f6e0;
+    --accent-color: #cab586;
+    --title-font-color: var(--accent-color);
+    --border-color: var(--accent-color);
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #231d1b;
+  }
+
+  .black-myth-wukong {
+    --text-color: #deddda;
+    --accent-color: #d3c0a3;
+    --title-font-color: var(--accent-color);
+    --border-color: #757259;
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #090708;
   }
 }
 

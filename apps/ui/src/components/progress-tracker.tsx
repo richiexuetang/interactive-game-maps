@@ -23,6 +23,7 @@ import {
   Popper,
   Select,
   SelectChangeEvent,
+  styled,
 } from "@mui/material";
 import { userAtom } from "@/store/auth";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -38,6 +39,14 @@ import {
 } from "@/lib/constants";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
+
+const SideFab = styled(Fab)(() => ({
+  backgroundColor: "var(--sidebar-background-color)",
+  "&:hover": {
+    opacity: 0.8,
+    backgroundColor: "var(--sidebar-background-color)",
+  },
+}));
 
 export const ProgressTracker = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -171,9 +180,9 @@ export const ProgressTracker = () => {
   return (
     <div className="absolute top-36 right-2 z-[1000] flex flex-col gap-5">
       <Tooltip title="Progress Tracker" placement="left">
-        <Fab color="primary" onClick={handleClick}>
+        <SideFab onClick={handleClick}>
           <CheckListIcon className="h-6 w-6" />
-        </Fab>
+        </SideFab>
       </Tooltip>
       <Popper
         disablePortal={true}

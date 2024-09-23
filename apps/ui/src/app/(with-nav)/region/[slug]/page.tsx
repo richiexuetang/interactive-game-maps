@@ -4,12 +4,14 @@ import { Metadata } from "next";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import { ImageCard } from "@/components/image-card";
+import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
   params,
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
+  revalidatePath("/region");
   const game = await getMetaData(params.slug);
 
   const { title, description } = game;
@@ -60,6 +62,7 @@ export default async function RegionPage({
   const regions = await getRegionsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 
+  console.log(regions);
   return (
     <div
       className={cn(

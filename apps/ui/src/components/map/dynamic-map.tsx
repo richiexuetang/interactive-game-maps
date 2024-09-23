@@ -23,6 +23,7 @@ import { useQuery } from "@apollo/client";
 import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
+import { TestMarker } from "../markers/test-marker";
 
 interface MapProps {
   region: any;
@@ -80,7 +81,8 @@ const Map = ({ region, user, regionData }: MapProps) => {
     <div
       className={cn(
         getFontClassName(regionData.slug),
-        "h-[calc(100vh-1rem)] bg-black"
+        "h-[calc(100vh-1rem)] bg-black",
+        regionData.slug
       )}
     >
       <Menu
@@ -88,6 +90,7 @@ const Map = ({ region, user, regionData }: MapProps) => {
         subRegions={subRegionData?.getSubRegionsByRegion}
       />
       <RL.MapContainer
+        preferCanvas={true}
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}
@@ -105,6 +108,7 @@ const Map = ({ region, user, regionData }: MapProps) => {
         />
         <MarkerRenderer />
         <MarkerSearch />
+        <TestMarker center={[0.59766929759525, -0.86262242317486]} />
         <ProgressTracker />
         {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
           <SubRegion

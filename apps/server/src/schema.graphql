@@ -102,8 +102,6 @@ type Media {
   id: Float!
   markerLocation: MarkerLocation
   markerLocationId: Float
-  mimeType: String
-  title: String
   type: String!
 
   """Identifies the date and time when the object was last updated."""

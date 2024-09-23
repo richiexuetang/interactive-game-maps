@@ -1,34 +1,12 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
-import Divider from "@mui/material/Divider";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import { useEffect, useRef } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { useCopyToClipboard } from "@/hooks";
-import { Link1Icon } from "@radix-ui/react-icons";
-import { toast } from "sonner";
+import { useSearchParams } from "next/navigation";
 import { MarkerLocation } from "@/__generated__/graphql";
-import { Button } from "../ui/button";
-import { signInWithGoogle } from "@/lib/firebase/auth";
-import { useMutation } from "@apollo/client";
-import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
-import { UserRecord } from "firebase-admin/auth";
 import { triggeredMarkerIdAtom } from "@/store/marker";
-import { useAtom, useAtomValue } from "jotai";
-import { ZoomImage } from "../zoom-image";
+import { useAtomValue } from "jotai";
 import { gameSlugAtom } from "@/store";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox/Checkbox";
 import { userAtom } from "@/store/auth";
-import { currentRegionAtom } from "@/store/map";
 import { PopupCard } from "../cards/popup-card";
 
 interface MarkerProps {
@@ -37,24 +15,11 @@ interface MarkerProps {
 
 export const Marker = ({ marker }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
-  const router = useRouter();
-  const {
-    id,
-    title,
-    media = [],
-    latitude,
-    longitude,
-    category,
-    description,
-  } = marker;
+  const { id, title, latitude, longitude, category } = marker;
 
   const { icon } = category!;
 
-  const [appUser, setAppUser] = useAtom(userAtom);
-
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
-
+  const appUser = useAtomValue(userAtom);
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   useEffect(() => {
@@ -62,9 +27,6 @@ export const Marker = ({ marker }: MarkerProps) => {
       markerRef.current.openPopup();
     }
   }, [id, triggeredMarkerId]);
-
-  // eslint-disable-next-line no-unused-vars
-  const [_, copy] = useCopyToClipboard();
 
   // build div icon
   const div = document.createElement("div");
@@ -74,50 +36,18 @@ export const Marker = ({ marker }: MarkerProps) => {
   const searchParams = useSearchParams();
   const markerRef = useRef<any>(null);
 
-  const handleCopy = (text: string) => () => {
-    copy(text).then(() => {
-      toast.success("Copied", {
-        action: {
-          label: "OK",
-          onClick: () => {},
-        },
-      });
-    });
-  };
-
-  const handleLogin = async () => {
-    const ok = await signInWithGoogle();
-    if (ok) {
-      router.refresh();
-    }
-  };
-
   useEffect(() => {
-    const markerId = searchParams.get("marker");
-    if (markerId && id === parseInt(markerId)) {
+    const markerTitle = searchParams.get("marker");
+    if (
+      markerTitle &&
+      title.toLowerCase().replaceAll(" ", "_") === markerTitle
+    ) {
       map.flyTo([latitude, longitude]);
-      if (markerRef) {
+      if (markerRef?.current) {
         markerRef.current.openPopup();
       }
     }
-  }, [id, latitude, longitude, map, searchParams]);
-
-  const handleMarkerFound = () => {
-    if (appUser?.email) {
-      const variables = { data: { email: appUser.email, location: id } };
-      let newFoundLocations = [];
-      if (markerFound) {
-        removeLocation({ variables });
-        newFoundLocations = appUser.foundLocations.filter(
-          (location) => location !== id
-        );
-      } else {
-        addLocation({ variables });
-        newFoundLocations = [...appUser.foundLocations, id];
-      }
-      setAppUser({ ...appUser, foundLocations: newFoundLocations });
-    }
-  };
+  }, [latitude, longitude, map, searchParams, title]);
 
   const markerFound = appUser?.foundLocations.includes(id);
 
@@ -138,89 +68,7 @@ export const Marker = ({ marker }: MarkerProps) => {
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
     >
       <RL.Popup>
-        {/* <Card className="shadow-none -mx-7 -my-4 min-w-96">
-          <CardHeader>
-            <div className="flex justify-between gap-4">
-              <div>
-                <CardTitle className="text-large">{title}</CardTitle>
-                <CardDescription className="text-xs">
-                  {category?.title}
-                </CardDescription>
-              </div>
-              <div className="flex px-5">
-                <Link1Icon
-                  className="cursor-pointer h-5 w-5"
-                  onClick={handleCopy(
-                    `${process.env.NEXT_PUBLIC_BASE_URL}map/${currentRegion}?marker=${id}`
-                  )}
-                />
-              </div>
-            </div>
-          </CardHeader>
-          <CardContent className="leading-5">
-            <div className="flex flex-wrap gap-2">
-              {media &&
-                media?.length > 0 &&
-                media.map(({ url, mimeType }) => {
-                  if (mimeType === "mp4") {
-                    return (
-                      <video
-                        key={url}
-                        src={url}
-                        width="750"
-                        height="500"
-                        controls
-                      ></video>
-                    );
-                  }
-                  return <ZoomImage src={url} key={url} />;
-                })}
-            </div>
-            {description && (
-              <div
-                className="text-md"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
-            )}
-          </CardContent>
-          {description ? <Divider flexItem /> : null}
-          <CardFooter className="justify-center">
-
-              <div className="hover:bg-secondary cursor-pointer flex justify-center">
-                {appUser?.email ? (
-                  <FormGroup>
-                    <FormControlLabel
-                      control={
-                        <Checkbox
-                          checked={markerFound}
-                          onChange={handleMarkerFound}
-                        />
-                      }
-                      label="Found"
-                    />
-                  </FormGroup>
-                ) : (
-                  <Button
-                    variant="link"
-                    className="uppercase"
-                    onClick={handleLogin}
-                  >
-                    Login to track progress
-                  </Button>
-                )}
-              </div>
-            </div>
-          </CardFooter>
-        </Card> */}
-        <PopupCard
-          description={description}
-          title={title}
-          category={category?.title}
-          media={media}
-          info={category?.info}
-          icon={category?.icon}
-          markerId={id}
-        />
+        <PopupCard marker={marker} />
       </RL.Popup>
       <RL.Tooltip>{title}</RL.Tooltip>
     </RL.Marker>

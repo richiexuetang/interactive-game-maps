@@ -56,7 +56,6 @@ export async function fetchGameRegionDetails(slug: string) {
   const region = details.regions?.find((r: Region) => r.slug === slug);
   const otherRegions = details.regions?.filter((r: Region) => r.slug !== slug);
 
-  console.log(details.groups);
   const groups = details.groups;
   const processedGroups = [];
 

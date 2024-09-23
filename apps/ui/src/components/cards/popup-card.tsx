@@ -24,25 +24,29 @@ import { useRouter } from "next/navigation";
 import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
+import { MarkerLocation } from "@/__generated__/graphql";
 
-export const PopupCard = ({
-  media,
-  category,
-  title,
-  description,
-  info,
-  icon,
-  markerId,
-}: any) => {
+interface PopupCardProps {
+  marker: MarkerLocation;
+}
+
+export const PopupCard = ({ marker }: PopupCardProps) => {
+  const {
+    id,
+    category,
+    title: markerTitle,
+    media = [],
+    description = "",
+  } = marker;
+
   const gameSlug = useAtomValue(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
   const currentRegion = useAtomValue(currentRegionAtom);
 
-  const markerFound = appUser?.foundLocations.includes(markerId);
+  const markerFound = appUser?.foundLocations.includes(id);
   const router = useRouter();
 
-  // eslint-disable-next-line no-unused-vars
-  const [_, copy] = useCopyToClipboard();
+  const [copiedText, copy] = useCopyToClipboard();
 
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
@@ -56,7 +60,7 @@ export const PopupCard = ({
 
   const handleCopy = (text: string) => () => {
     copy(text).then(() => {
-      toast.success("Copied", {
+      toast.success(`Copied ${copiedText}`, {
         action: {
           label: "OK",
           onClick: () => {},
@@ -67,20 +71,23 @@ export const PopupCard = ({
 
   const handleMarkerFound = () => {
     if (appUser?.email) {
-      const variables = { data: { email: appUser.email, location: markerId } };
+      const variables = { data: { email: appUser.email, location: id } };
       let newFoundLocations = [];
       if (markerFound) {
         removeLocation({ variables });
         newFoundLocations = appUser.foundLocations.filter(
-          (location) => location !== markerId
+          (location) => location !== id
         );
       } else {
         addLocation({ variables });
-        newFoundLocations = [...appUser.foundLocations, markerId];
+        newFoundLocations = [...appUser.foundLocations, id];
       }
       setAppUser({ ...appUser, foundLocations: newFoundLocations });
     }
   };
+
+  if (!category) return null;
+  const { icon, info, title } = category;
 
   return (
     <Card sx={{ minWidth: 325 }}>
@@ -94,15 +101,17 @@ export const PopupCard = ({
           <IconButton aria-label="settings">
             <LinkIcon
               onClick={handleCopy(
-                `${process.env.NEXT_PUBLIC_BASE_URL}map/${currentRegion}?marker=${markerId}`
+                `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${
+                  currentRegion?.slug
+                }?marker=${markerTitle.toLowerCase().replaceAll(" ", "_")}`
               )}
             />
           </IconButton>
         }
-        title={title}
-        subheader={category}
+        title={markerTitle}
+        subheader={title}
       />
-      {media?.length > 0 && (
+      {media && media.length > 0 && (
         <CardMedia
           component="img"
           height="350"
@@ -112,7 +121,7 @@ export const PopupCard = ({
       )}
       <CardContent>
         <Typography variant="body2" sx={{ color: "text.secondary" }}>
-          <div dangerouslySetInnerHTML={{ __html: description }} />
+          <div dangerouslySetInnerHTML={{ __html: description ?? "" }} />
         </Typography>
         {info && (
           <Typography variant="body2" sx={{ color: "text.secondary" }}>

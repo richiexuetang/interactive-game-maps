@@ -101,10 +101,8 @@ model MarkerLocation {
 
 model Media {
   id               Int             @id @default(autoincrement())
-  title            String?
   url              String
   type             String
-  mimeType         String
   MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])
   markerLocationId Int?
 }

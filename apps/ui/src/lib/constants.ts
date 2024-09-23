@@ -159,7 +159,6 @@ export const FETCH_GAME_REGION_DETAILS = gql`
           }
           media {
             url
-            mimeType
             type
           }
           description
