@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import Leaflet from "leaflet";
 import * as RL from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "@/lib/leaflet/smooth-wheel-zoom";
@@ -76,16 +75,6 @@ const Map = ({ region, user, regionData }: MapProps) => {
     setCurrentMarkers,
     setCurrentRegion,
   ]);
-
-  useEffect(() => {
-    (async function init() {
-      Leaflet.Icon.Default.mergeOptions({
-        iconRetinaUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon-2x.png`,
-        iconUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon.png`,
-        shadowUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-shadow.png`,
-      });
-    })();
-  }, []);
 
   return (
     <div

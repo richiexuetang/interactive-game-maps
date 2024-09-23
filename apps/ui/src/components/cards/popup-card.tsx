@@ -83,7 +83,7 @@ export const PopupCard = ({
   };
 
   return (
-    <Card sx={{ minWidth: 350 }}>
+    <Card sx={{ minWidth: 325 }}>
       <CardHeader
         avatar={
           <Avatar>

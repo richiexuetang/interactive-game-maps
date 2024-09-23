@@ -2477,7 +2477,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5e12e85f-89f8-49d4-9ad7-ff19b1fa1b4d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5e12e85f-89f8-49d4-9ad7-ff19b1fa1b4d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2494,7 +2494,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600102300_c",
-            fileName: "750ef1c2-ef15-4720-9c7b-58d6edd54eec.jpg",
+
             url: "https://media.mapgenie.io/storage/media/750ef1c2-ef15-4720-9c7b-58d6edd54eec.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2519,7 +2519,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Tree-stump-cave-1",
-            fileName: "Tree-stump-cave-1",
+
             url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/c/cd/Tree-stump-cave-1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2584,7 +2584,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723003400_c",
-            fileName: "da65332d-360c-47ad-ac3b-cf8aebc2e8ed.jpg",
+
             url: "https://media.mapgenie.io/storage/media/da65332d-360c-47ad-ac3b-cf8aebc2e8ed.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2633,7 +2633,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050820301300_c",
-            fileName: "b0578d21-a008-4a74-b277-5c47aceb2ae3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b0578d21-a008-4a74-b277-5c47aceb2ae3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2738,7 +2738,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "be0583a1-4fc1-4898-94b8-47138659c79d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/be0583a1-4fc1-4898-94b8-47138659c79d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -2915,7 +2915,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "db6a15eb-fc3a-4e06-8778-57bc0e5adc4b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/db6a15eb-fc3a-4e06-8778-57bc0e5adc4b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4297,7 +4297,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000264400_c",
-            fileName: "45bfa65d-3b4a-4010-8206-6dc8980a9cf5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/45bfa65d-3b4a-4010-8206-6dc8980a9cf5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4322,7 +4322,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416182300_c",
-            fileName: "0d099d7c-6601-41cb-a8f6-c4932af166aa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0d099d7c-6601-41cb-a8f6-c4932af166aa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4338,7 +4338,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050915290100_c",
-            fileName: "e8f3678b-7fa8-4155-b3e8-aad0d67c3268.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e8f3678b-7fa8-4155-b3e8-aad0d67c3268.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4408,7 +4408,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9717c1c0-7536-4624-b017-0a8316231309.png",
+
             url: "https://media.mapgenie.io/storage/media/9717c1c0-7536-4624-b017-0a8316231309.png",
             type: "image",
             mimeType: "image/png",
@@ -4438,7 +4438,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dd843580-6877-41cd-803c-420017c4b0c4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd843580-6877-41cd-803c-420017c4b0c4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4455,7 +4455,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb06211e-ac1a-4818-9881-a29f8c80faa3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bb06211e-ac1a-4818-9881-a29f8c80faa3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4485,7 +4485,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913463100_c",
-            fileName: "dcb464eb-3624-4bf0-9230-d952c7efa7b2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dcb464eb-3624-4bf0-9230-d952c7efa7b2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4526,7 +4526,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d8be88b0-e118-431c-b590-5a50b1514061.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d8be88b0-e118-431c-b590-5a50b1514061.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -4534,7 +4534,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Great Fairy Fountain Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-great-fairy-fountain-locations",
             type: "ign_video",
             mimeType: "mp4",
@@ -6625,7 +6625,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "294ba232-0fa5-4e37-8408-180dad237988.jpg",
+
             url: "https://media.mapgenie.io/storage/media/294ba232-0fa5-4e37-8408-180dad237988.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6633,7 +6633,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Get The Yiga Clan Armor Set",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-yiga-clan-armor-set",
             type: "ign_video",
             mimeType: "mp4",
@@ -6749,7 +6749,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e2c953f3-361f-4360-8d8f-abe134f1eb50.png",
+
             url: "https://media.mapgenie.io/storage/media/e2c953f3-361f-4360-8d8f-abe134f1eb50.png",
             type: "image",
             mimeType: "image/png",
@@ -6765,7 +6765,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "97772597-b481-4455-a134-17180be5a17c.png",
+
             url: "https://media.mapgenie.io/storage/media/97772597-b481-4455-a134-17180be5a17c.png",
             type: "image",
             mimeType: "image/png",
@@ -6794,7 +6794,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c4ce1682-ebab-40e7-933a-91f30bdb86df.png",
+
             url: "https://media.mapgenie.io/storage/media/c4ce1682-ebab-40e7-933a-91f30bdb86df.png",
             type: "image",
             mimeType: "image/png",
@@ -6817,7 +6817,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1d6d16e8-8d35-4045-9b15-55d619cd0e4d.png",
+
             url: "https://media.mapgenie.io/storage/media/1d6d16e8-8d35-4045-9b15-55d619cd0e4d.png",
             type: "image",
             mimeType: "image/png",
@@ -6847,7 +6847,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-20-29",
-            fileName: "b4451938-c1dc-44f9-b997-764f71387e3f.png",
+
             url: "https://media.mapgenie.io/storage/media/b4451938-c1dc-44f9-b997-764f71387e3f.png",
             type: "image",
             mimeType: "image/png",
@@ -6855,7 +6855,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Nachoyah Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-nachoyah-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6872,7 +6872,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "48bb7e60-3cb0-406d-9898-554ed29aa59d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/48bb7e60-3cb0-406d-9898-554ed29aa59d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6880,7 +6880,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gutanbac Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gutanbac-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6897,7 +6897,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "688a3f0d-39ef-47b3-93fd-6147c59f0539.jpg",
+
             url: "https://media.mapgenie.io/storage/media/688a3f0d-39ef-47b3-93fd-6147c59f0539.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6905,7 +6905,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ukouh Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukouh-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6922,7 +6922,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-30-40",
-            fileName: "3b1c46ee-aa55-44b2-b712-5bc23d701999.png",
+
             url: "https://media.mapgenie.io/storage/media/3b1c46ee-aa55-44b2-b712-5bc23d701999.png",
             type: "image",
             mimeType: "image/png",
@@ -6930,7 +6930,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom In Isa Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-in-isa-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6947,7 +6947,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3b7c3efd-6d2b-416b-9f5b-bc755828caec.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3b7c3efd-6d2b-416b-9f5b-bc755828caec.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6955,7 +6955,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Yamiyo Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-yamiyo-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6972,7 +6972,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "457f8271-8a6d-4b65-88eb-a08c57c7a9da.jpg",
+
             url: "https://media.mapgenie.io/storage/media/457f8271-8a6d-4b65-88eb-a08c57c7a9da.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -6980,7 +6980,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayachin Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayachin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -6997,7 +6997,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ee5239a5-53e4-46d9-9dbf-0cf5be65bed6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ee5239a5-53e4-46d9-9dbf-0cf5be65bed6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7014,7 +7014,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d1a1b4c6-8355-4339-b456-ac3f776163c4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d1a1b4c6-8355-4339-b456-ac3f776163c4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7022,7 +7022,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jiosin Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jiosin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7039,7 +7039,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000113800_c",
-            fileName: "ddd6eacb-d657-45a7-b508-52643909ddd7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ddd6eacb-d657-45a7-b508-52643909ddd7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7047,7 +7047,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Zanmik Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zanmik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7064,7 +7064,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cc299cda-23d6-41d9-a585-352c73c7f4af.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cc299cda-23d6-41d9-a585-352c73c7f4af.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7072,7 +7072,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Turakawak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-turakawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7089,7 +7089,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "31260755-5663-43a4-a32e-a16e1a021eaa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/31260755-5663-43a4-a32e-a16e1a021eaa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7097,7 +7097,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayatat Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayatat-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7114,14 +7114,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043023331200_c",
-            fileName: "53e0c80e-4252-46fd-8c57-36999697271a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/53e0c80e-4252-46fd-8c57-36999697271a.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "421ab822-9839-4e01-8c62-1b31e2d91b0f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/421ab822-9839-4e01-8c62-1b31e2d91b0f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7138,7 +7138,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050523520500_c",
-            fileName: "993feb24-8504-4cc9-af7e-dd0d5d04b4c5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/993feb24-8504-4cc9-af7e-dd0d5d04b4c5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7146,7 +7146,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ishodag Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ishodag-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7163,7 +7163,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4feedcad-645e-4a21-b134-1bb1a14c248d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4feedcad-645e-4a21-b134-1bb1a14c248d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7171,7 +7171,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jonsau Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jonsau-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7188,7 +7188,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "40b6630a-dacf-40f1-bb73-45ed41dd4889.jpg",
+
             url: "https://media.mapgenie.io/storage/media/40b6630a-dacf-40f1-bb73-45ed41dd4889.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7196,7 +7196,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Morok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-morok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7213,7 +7213,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6e318618-7807-4b1b-98b1-b78b0bece3db.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6e318618-7807-4b1b-98b1-b78b0bece3db.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7221,7 +7221,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Teniten Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-teniten-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7238,7 +7238,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "E3DD4DB8-3E29-4B8E-AC4A-AF36710504FE",
-            fileName: "bef6664a-e76b-41dd-af13-ac0e2361548b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bef6664a-e76b-41dd-af13-ac0e2361548b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7246,7 +7246,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tukarok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tukarok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7263,7 +7263,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8a3cb345-9c6b-4177-ad3f-fec92b68a58a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8a3cb345-9c6b-4177-ad3f-fec92b68a58a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7271,7 +7271,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Eutoum Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eutoum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7288,14 +7288,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "173ca1a4-0395-4413-9315-5d20a099a444.jpg",
+
             url: "https://media.mapgenie.io/storage/media/173ca1a4-0395-4413-9315-5d20a099a444.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "1K3X9XaNeac",
+
             url: "https://youtu.be/1K3X9XaNeac",
             type: "youtube",
             mimeType: "mp4",
@@ -7312,7 +7312,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7d87f3b3-d8fd-4f36-a8cd-29632c280af8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7d87f3b3-d8fd-4f36-a8cd-29632c280af8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7320,7 +7320,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ijo O Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ijo-o-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7338,7 +7338,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayaumekis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayaumekis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7355,14 +7355,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "181a7806-7984-41f0-805f-74c71c699b75.jpg",
+
             url: "https://media.mapgenie.io/storage/media/181a7806-7984-41f0-805f-74c71c699b75.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "c43f7af2-c954-4788-b784-cb7b67bb6ce7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c43f7af2-c954-4788-b784-cb7b67bb6ce7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7370,7 +7370,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Runakit Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-runakit-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7387,7 +7387,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6b737859-54b9-484b-ae6b-350c407279f4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6b737859-54b9-484b-ae6b-350c407279f4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7395,7 +7395,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sahirow Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sahirow-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7412,14 +7412,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600160900_c",
-            fileName: "31609fa2-1e7a-4514-aee9-7e3b4b90d92b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/31609fa2-1e7a-4514-aee9-7e3b4b90d92b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "87fd2433-1180-4b18-9121-d44f1d0df069.jpg",
+
             url: "https://media.mapgenie.io/storage/media/87fd2433-1180-4b18-9121-d44f1d0df069.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7427,7 +7427,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sinakawak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sinakawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7444,7 +7444,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a20e0341-03de-46d4-a167-0d5e76e513ae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a20e0341-03de-46d4-a167-0d5e76e513ae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7452,7 +7452,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tajikats Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tajikats-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7469,7 +7469,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "644540dd-b9ef-424b-8373-4cfda4e05f77.jpg",
+
             url: "https://media.mapgenie.io/storage/media/644540dd-b9ef-424b-8373-4cfda4e05f77.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7477,7 +7477,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tauyosipun Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tauyosipun-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7494,14 +7494,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421184500_c",
-            fileName: "0f05e846-0aac-47d9-9249-bd5848fbcfb7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0f05e846-0aac-47d9-9249-bd5848fbcfb7.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "6c699c16-6428-4fd7-92ea-ef56b1ed9ca3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6c699c16-6428-4fd7-92ea-ef56b1ed9ca3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7509,7 +7509,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kyononis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kyononis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7526,7 +7526,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "686033ae-633a-4a32-a4f5-815cc11f539d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/686033ae-633a-4a32-a4f5-815cc11f539d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7534,7 +7534,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Susuyai Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-susuyai-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7551,7 +7551,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "78335c87-0194-4e19-b4fc-35acdb318e76.jpg",
+
             url: "https://media.mapgenie.io/storage/media/78335c87-0194-4e19-b4fc-35acdb318e76.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7559,7 +7559,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sonapan Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sonapan-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7576,14 +7576,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f24401a1-e357-4d89-a0bf-dc40b75572ec.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f24401a1-e357-4d89-a0bf-dc40b75572ec.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "_7xmCqSPjhY",
+
             url: "https://www.youtube.com/watch?v=_7xmCqSPjhY",
             type: "youtube",
             mimeType: "mp4",
@@ -7600,14 +7600,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6df3df12-e45b-4fe1-9008-79c1022bf7a9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6df3df12-e45b-4fe1-9008-79c1022bf7a9.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Jn4EAADIqLU",
+
             url: "https://youtu.be/Jn4EAADIqLU",
             type: "youtube",
             mimeType: "mp4",
@@ -7624,14 +7624,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416113400_c",
-            fileName: "9c68785d-3b5d-482b-b99b-2f523ce4d67d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9c68785d-3b5d-482b-b99b-2f523ce4d67d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "VmJbRLDZmT8",
+
             url: "https://youtu.be/VmJbRLDZmT8",
             type: "youtube",
             mimeType: "mp4",
@@ -7648,7 +7648,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050914574000_c",
-            fileName: "dd97634f-905f-4ad9-931c-fb35a0da1f79.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd97634f-905f-4ad9-931c-fb35a0da1f79.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7656,7 +7656,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Orochium Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-orochium-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7673,7 +7673,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050601120400_c",
-            fileName: "895419ed-c852-4ab4-858e-47844e09d33b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/895419ed-c852-4ab4-858e-47844e09d33b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7681,7 +7681,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kiuyoyou Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kiuyoyou-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7699,7 +7699,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayausiy Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayausiy-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7716,7 +7716,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050601504900_c",
-            fileName: "4e7c6a9e-e284-4ea6-8b43-2e9357671e9a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4e7c6a9e-e284-4ea6-8b43-2e9357671e9a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7733,7 +7733,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4ce39bfa-3ea5-4a2a-9643-61b9b9a41392.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4ce39bfa-3ea5-4a2a-9643-61b9b9a41392.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7741,7 +7741,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Nouda Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-nouda-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7758,7 +7758,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a5f1bf6a-70df-4617-871d-d584ccb073aa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a5f1bf6a-70df-4617-871d-d584ccb073aa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7775,7 +7775,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3e3b87fa-e6ad-4f18-9ca9-f918b4414913.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3e3b87fa-e6ad-4f18-9ca9-f918b4414913.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7783,7 +7783,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taki Ihaban Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taki-ihaban-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7800,7 +7800,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c3406fc3-735d-4278-a9e7-2db1e616265c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c3406fc3-735d-4278-a9e7-2db1e616265c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7808,7 +7808,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Oshozan U Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-oshozan-u-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7826,7 +7826,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kahatanaum Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kahatanaum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7843,7 +7843,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050915335400_c",
-            fileName: "785d5141-cd6c-465c-a561-08772d4c18b3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/785d5141-cd6c-465c-a561-08772d4c18b3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7851,7 +7851,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marakuguc Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marakuguc-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7868,14 +7868,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fe7dec5f-25cd-43cd-8f61-ba9c26ca05f6.png",
+
             url: "https://media.mapgenie.io/storage/media/fe7dec5f-25cd-43cd-8f61-ba9c26ca05f6.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "AJoVO9hhZOI",
+
             url: "https://youtu.be/AJoVO9hhZOI",
             type: "youtube",
             mimeType: "mp4",
@@ -7892,7 +7892,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "YX4Tff8D26U",
+
             url: "https://youtu.be/YX4Tff8D26U",
             type: "youtube",
             mimeType: "mp4",
@@ -7909,7 +7909,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7536e192-fa1d-47ed-b349-11ac6c8ca16f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7536e192-fa1d-47ed-b349-11ac6c8ca16f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7917,7 +7917,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jogou Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jogou-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7934,14 +7934,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050601443700_c",
-            fileName: "9ddcd43b-42c7-4bf5-bdbb-5f00418f859f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9ddcd43b-42c7-4bf5-bdbb-5f00418f859f.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ab1b437c-2904-4e5d-bcfa-f0c85a0022a9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ab1b437c-2904-4e5d-bcfa-f0c85a0022a9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7958,7 +7958,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bbf710bd-31dd-46fc-8b71-6104f479e1da.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bbf710bd-31dd-46fc-8b71-6104f479e1da.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7966,7 +7966,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Turakawak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-turakawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -7983,7 +7983,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23228bc9-aea7-4780-85a6-f07ed74b80be.jpg",
+
             url: "https://media.mapgenie.io/storage/media/23228bc9-aea7-4780-85a6-f07ed74b80be.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -7991,7 +7991,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ikatak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ikatak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8008,7 +8008,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "05376748-9a5b-4a02-87a9-f55ca10cfad6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/05376748-9a5b-4a02-87a9-f55ca10cfad6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8016,7 +8016,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Iun Orok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-iun-orok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8034,7 +8034,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Makurukis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-makurukis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8051,7 +8051,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b95457aa-a141-470f-83bc-034653dc4c51.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b95457aa-a141-470f-83bc-034653dc4c51.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8059,7 +8059,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Usazum Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-usazum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8077,7 +8077,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tsutsu Um Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tsutsu-um-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8094,7 +8094,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1e9009a0-8290-4231-87af-1c7550464e19.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1e9009a0-8290-4231-87af-1c7550464e19.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8111,7 +8111,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2c7be4a0-297f-421e-a2da-0868d91440df.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2c7be4a0-297f-421e-a2da-0868d91440df.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8119,7 +8119,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kudanisar Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kudanisar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8136,14 +8136,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "708755bd-948f-47f5-91e3-b662c55cf837.jpg",
+
             url: "https://media.mapgenie.io/storage/media/708755bd-948f-47f5-91e3-b662c55cf837.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "9b57bd40-9588-47b1-b6f8-059028aed15d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9b57bd40-9588-47b1-b6f8-059028aed15d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8151,7 +8151,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayamats Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayamats-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8168,14 +8168,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "acaf4571-0b2b-4627-8651-99a87270d1fd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/acaf4571-0b2b-4627-8651-99a87270d1fd.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "d9692239-869c-4074-aef6-8dbc5a47ffae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d9692239-869c-4074-aef6-8dbc5a47ffae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8183,7 +8183,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Otutsum Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-otutsum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8200,7 +8200,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00e16da9-f260-4a6e-8254-64d36af00ce3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/00e16da9-f260-4a6e-8254-64d36af00ce3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8208,7 +8208,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rakashog Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rakashog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8225,7 +8225,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d610dc7b-23c2-4834-84c6-f2b2ff0ee2d1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d610dc7b-23c2-4834-84c6-f2b2ff0ee2d1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8242,7 +8242,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d4049b12-84ef-4383-9f35-5907610bbf78.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d4049b12-84ef-4383-9f35-5907610bbf78.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8250,7 +8250,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ren Iz Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ren-iz-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8267,7 +8267,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "368f92d6-1f06-47e2-88ff-8b02ddfea5ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/368f92d6-1f06-47e2-88ff-8b02ddfea5ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8275,7 +8275,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kyokugon Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kyokugon-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8292,7 +8292,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "vlMdczazn6w",
+
             url: "https://youtu.be/vlMdczazn6w",
             type: "youtube",
             mimeType: "mp4",
@@ -8309,7 +8309,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fef3f746-4b10-4d4f-987b-e62b3cfa62d6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fef3f746-4b10-4d4f-987b-e62b3cfa62d6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8317,7 +8317,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Riogok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-riogok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8334,7 +8334,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9cc7b0e7-4e92-4010-ae55-29a151646859.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9cc7b0e7-4e92-4010-ae55-29a151646859.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8342,7 +8342,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jojon Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jojon-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8359,7 +8359,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "efdae07a-9bc9-4883-98a9-a347b6367a69.jpg",
+
             url: "https://media.mapgenie.io/storage/media/efdae07a-9bc9-4883-98a9-a347b6367a69.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8367,7 +8367,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayachideg Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayachideg-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8384,7 +8384,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913381000_c",
-            fileName: "65697a7b-ad07-42c0-ac22-acf036c90c4c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/65697a7b-ad07-42c0-ac22-acf036c90c4c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8402,7 +8402,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Timawak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-timawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8420,7 +8420,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Isisim Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-isisim-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8437,7 +8437,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2faa17d3-f41f-4c42-82d8-20ece402cf68.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2faa17d3-f41f-4c42-82d8-20ece402cf68.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8445,7 +8445,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taunhiy Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taunhiy-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8462,7 +8462,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912174500_c",
-            fileName: "15b2e1fe-317d-4e93-a1d0-5d05b53bb41a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/15b2e1fe-317d-4e93-a1d0-5d05b53bb41a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8470,7 +8470,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Utsushok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-utsushok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8487,7 +8487,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5e9d2e45-d0d2-414f-bf99-c56b61f8c29c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5e9d2e45-d0d2-414f-bf99-c56b61f8c29c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8495,7 +8495,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gemimik Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gemimik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8513,14 +8513,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igashuk Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igashuk-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "2023050914011800_c",
-            fileName: "2ce2fcfb-18d3-442b-89bd-272730cee518.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2ce2fcfb-18d3-442b-89bd-272730cee518.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8537,7 +8537,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f48b327-6efb-4d32-bae3-fe0244461992.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4f48b327-6efb-4d32-bae3-fe0244461992.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8545,7 +8545,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marari In Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marari-in-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8562,7 +8562,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "kab_-F9WW2Y",
+
             url: "https://youtu.be/kab_-F9WW2Y",
             type: "youtube",
             mimeType: "mp4",
@@ -8579,7 +8579,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f94c49e-325e-4804-a2bf-3e025c45f429.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4f94c49e-325e-4804-a2bf-3e025c45f429.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8587,14 +8587,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Zakusu Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zakusu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "f8b23c27-4da9-4bfe-bb69-ae7aa6aa62ab.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f8b23c27-4da9-4bfe-bb69-ae7aa6aa62ab.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8619,14 +8619,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d05c72a7-edc0-4a16-96de-a205cf33f336.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d05c72a7-edc0-4a16-96de-a205cf33f336.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "J0U1K_RgkNQ",
+
             url: "https://youtu.be/J0U1K_RgkNQ",
             type: "youtube",
             mimeType: "mp4",
@@ -8643,7 +8643,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b096d08-f727-4bc1-96b8-7e8d086c2890.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0b096d08-f727-4bc1-96b8-7e8d086c2890.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8651,7 +8651,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jikais Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jikais-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8668,14 +8668,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e5dca21-200d-4c8d-afc8-8964148c4371.png",
+
             url: "https://media.mapgenie.io/storage/media/7e5dca21-200d-4c8d-afc8-8964148c4371.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "eJVWAjodiC0",
+
             url: "https://youtu.be/eJVWAjodiC0",
             type: "youtube",
             mimeType: "mp4",
@@ -8693,7 +8693,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Joju U U Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joju-u-u-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8710,7 +8710,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723262200_c",
-            fileName: "33823f57-98c8-4c45-acc6-a4b3151b7398.jpg",
+
             url: "https://media.mapgenie.io/storage/media/33823f57-98c8-4c45-acc6-a4b3151b7398.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8718,7 +8718,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sifumim Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sifumim-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8735,7 +8735,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6085105f-4097-4461-b182-ff28ff768b3c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6085105f-4097-4461-b182-ff28ff768b3c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8743,7 +8743,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ekochiu Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ekochiu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8760,14 +8760,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723542400_c",
-            fileName: "e6f2df50-42e4-4201-81ea-7dc935274743.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e6f2df50-42e4-4201-81ea-7dc935274743.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "xnxrRjLyxwg",
+
             url: "https://youtu.be/xnxrRjLyxwg",
             type: "youtube",
             mimeType: "mp4",
@@ -8785,14 +8785,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Yomizuk Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-yomizuk-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "65c511b7-19e4-42b5-b3ec-970ef1aa05b3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/65c511b7-19e4-42b5-b3ec-970ef1aa05b3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8810,7 +8810,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tadarok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tadarok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8828,14 +8828,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Motsusis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-motsusis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "b7d8b32a-063a-4b5c-bcd3-f831da36cd0e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b7d8b32a-063a-4b5c-bcd3-f831da36cd0e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8852,7 +8852,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4317e382-21f3-4abc-ac8b-7d073dc4aa05.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4317e382-21f3-4abc-ac8b-7d073dc4aa05.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8860,7 +8860,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kimayat Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kimayat-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8877,7 +8877,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bcd08fbc-ff60-4b30-8c83-063f34a33588.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bcd08fbc-ff60-4b30-8c83-063f34a33588.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8885,7 +8885,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kamatukis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kamatukis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8903,7 +8903,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayaotaki Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayaotaki-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8920,7 +8920,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fe70557a-7741-43fd-9ee5-cee04da5f231.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fe70557a-7741-43fd-9ee5-cee04da5f231.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8928,7 +8928,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Domizuin Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-domizuin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8945,7 +8945,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d745be55-db88-4209-901b-75d3585934b2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d745be55-db88-4209-901b-75d3585934b2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -8953,7 +8953,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Eshos Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eshos-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -8970,14 +8970,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bd5b58c2-892a-4936-8e41-76dd0378873e.png",
+
             url: "https://media.mapgenie.io/storage/media/bd5b58c2-892a-4936-8e41-76dd0378873e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "lhI7T_PJWus",
+
             url: "https://youtu.be/lhI7T_PJWus",
             type: "youtube",
             mimeType: "mp4",
@@ -8994,14 +8994,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1ed0e10d-20f7-454e-8a4a-74e95d675aa0.png",
+
             url: "https://media.mapgenie.io/storage/media/1ed0e10d-20f7-454e-8a4a-74e95d675aa0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "vT5oImFvcnw",
+
             url: "https://youtu.be/vT5oImFvcnw",
             type: "youtube",
             mimeType: "mp4",
@@ -9018,7 +9018,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050821302600_c",
-            fileName: "62bb4943-a1a1-4cc9-bda3-2a6e36b45def.jpg",
+
             url: "https://media.mapgenie.io/storage/media/62bb4943-a1a1-4cc9-bda3-2a6e36b45def.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9026,7 +9026,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Siwakama Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-siwakama-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9043,14 +9043,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f053c9c5-e442-4b89-8236-01076ef25d9a.png",
+
             url: "https://media.mapgenie.io/storage/media/f053c9c5-e442-4b89-8236-01076ef25d9a.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "yMxgXCtzw1o",
+
             url: "https://youtu.be/yMxgXCtzw1o",
             type: "youtube",
             mimeType: "mp4",
@@ -9067,14 +9067,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a64aa4c9-c169-4dd9-b0cc-5f4813b1c94e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a64aa4c9-c169-4dd9-b0cc-5f4813b1c94e.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "XI8nTlex4so",
+
             url: "https://youtu.be/XI8nTlex4so",
             type: "youtube",
             mimeType: "mp4",
@@ -9091,7 +9091,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "669bb135-bca9-47fa-823e-5dcae329f0f8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/669bb135-bca9-47fa-823e-5dcae329f0f8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9099,7 +9099,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kitawak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kitawak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9116,14 +9116,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "72dd6cdb-6b6d-415f-a066-100579def363.png",
+
             url: "https://media.mapgenie.io/storage/media/72dd6cdb-6b6d-415f-a066-100579def363.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "tzWVyB396yk",
+
             url: "https://youtu.be/tzWVyB396yk",
             type: "youtube",
             mimeType: "mp4",
@@ -9140,14 +9140,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "39c6119a-549f-4386-91eb-4da0fab7bb44.png",
+
             url: "https://media.mapgenie.io/storage/media/39c6119a-549f-4386-91eb-4da0fab7bb44.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "4w0InqZ24bY",
+
             url: "https://youtu.be/4w0InqZ24bY",
             type: "youtube",
             mimeType: "mp4",
@@ -9165,7 +9165,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Miryotanog Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-miryotanog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9182,7 +9182,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e44ddf06-1bc1-499f-847b-797521c8859d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e44ddf06-1bc1-499f-847b-797521c8859d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9190,7 +9190,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Minetak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-minetak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9207,7 +9207,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f4e3b026-f796-47ea-9985-b17d4c8c5ea7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f4e3b026-f796-47ea-9985-b17d4c8c5ea7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9215,14 +9215,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Momosik Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-momosik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "c6994c3b-33f2-4637-b27d-a8cf20dd4398.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c6994c3b-33f2-4637-b27d-a8cf20dd4398.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9239,7 +9239,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9f556f8e-53a4-4eb0-8ecc-b1ec3d727767.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9f556f8e-53a4-4eb0-8ecc-b1ec3d727767.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9247,7 +9247,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Makasura Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-makasura-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9264,14 +9264,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8ed8c176-69ef-4dfc-8b87-efda39335220.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8ed8c176-69ef-4dfc-8b87-efda39335220.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050923545200_c",
-            fileName: "8d1dcc38-29e9-4366-9c9c-141cdc5057de.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8d1dcc38-29e9-4366-9c9c-141cdc5057de.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9288,7 +9288,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ecf50414-c13c-4890-a79a-44a814f89a31.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ecf50414-c13c-4890-a79a-44a814f89a31.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9296,7 +9296,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sepapa Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sepapa-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9314,7 +9314,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Serutabomac Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-serutabomac-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9332,7 +9332,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sihajog Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sihajog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9349,14 +9349,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1b21ed05-5b81-44be-b3e9-973f5300f60c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1b21ed05-5b81-44be-b3e9-973f5300f60c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "l9aSG52bonM",
+
             url: "https://youtu.be/l9aSG52bonM",
             type: "youtube",
             mimeType: "mp4",
@@ -9373,14 +9373,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73835d70-d3a5-43b5-8a9f-4ae204288a8f.png",
+
             url: "https://media.mapgenie.io/storage/media/73835d70-d3a5-43b5-8a9f-4ae204288a8f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "r0HtjjOSq4s",
+
             url: "https://youtu.be/r0HtjjOSq4s",
             type: "youtube",
             mimeType: "mp4",
@@ -9397,7 +9397,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050915161500_c",
-            fileName: "9e562936-6586-46cc-9160-9232e1fd47ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9e562936-6586-46cc-9160-9232e1fd47ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9405,7 +9405,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kadaunar Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kadaunar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9422,7 +9422,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c6ddc766-3bf8-4309-8500-2c6a38db27ae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c6ddc766-3bf8-4309-8500-2c6a38db27ae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9430,7 +9430,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Josiu Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-josiu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9447,14 +9447,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a539480e-f8d6-49ab-a7db-8c7886aef632.png",
+
             url: "https://media.mapgenie.io/storage/media/a539480e-f8d6-49ab-a7db-8c7886aef632.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ofjq8O8HLm0",
+
             url: "https://youtu.be/ofjq8O8HLm0",
             type: "youtube",
             mimeType: "mp4",
@@ -9471,7 +9471,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df0f6bed-58ba-48e3-a93c-9dc4c6994565.jpg",
+
             url: "https://media.mapgenie.io/storage/media/df0f6bed-58ba-48e3-a93c-9dc4c6994565.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9488,7 +9488,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5e9e029e-d46e-4c21-95b6-193bb21b8088.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5e9e029e-d46e-4c21-95b6-193bb21b8088.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9496,7 +9496,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gikaku Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gikaku-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9513,7 +9513,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8c6dc6a2-b783-4828-9f8e-0b209fbc38fb.png",
+
             url: "https://media.mapgenie.io/storage/media/8c6dc6a2-b783-4828-9f8e-0b209fbc38fb.png",
             type: "image",
             mimeType: "image/png",
@@ -9521,7 +9521,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kumamayn Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kumamayn-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9538,14 +9538,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "36756c19-07a2-4144-b12c-7fef5a7bcd8c.png",
+
             url: "https://media.mapgenie.io/storage/media/36756c19-07a2-4144-b12c-7fef5a7bcd8c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "-KJLhnDAr30",
+
             url: "https://youtu.be/-KJLhnDAr30",
             type: "youtube",
             mimeType: "mp4",
@@ -9562,7 +9562,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cd26415c-0f9b-4a6a-9867-0d462ae969d5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cd26415c-0f9b-4a6a-9867-0d462ae969d5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9570,7 +9570,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ukoojisi Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukoojisi-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9588,7 +9588,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mayasiar Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayasiar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9605,7 +9605,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "29766247-5b5d-48fd-b571-f39c2a0b442b.png",
+
             url: "https://media.mapgenie.io/storage/media/29766247-5b5d-48fd-b571-f39c2a0b442b.png",
             type: "image",
             mimeType: "image/png",
@@ -9613,7 +9613,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jinodok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jinodok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9630,7 +9630,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e1dccfde-ee54-4790-b667-b932d3cce93f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e1dccfde-ee54-4790-b667-b932d3cce93f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9638,7 +9638,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Joku Usin Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joku-usin-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9655,7 +9655,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "77668f62-d467-4b20-b84c-fe0802ee7dca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/77668f62-d467-4b20-b84c-fe0802ee7dca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9663,7 +9663,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Simosiwak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-simosiwak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9681,7 +9681,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tenbez Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tenbez-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9698,7 +9698,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ea2010d4-162c-476d-9e3b-1321557b95b5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ea2010d4-162c-476d-9e3b-1321557b95b5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9706,7 +9706,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taninoud Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taninoud-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9723,7 +9723,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5076345e-952d-4fc7-b324-9de5b67a0448.png",
+
             url: "https://media.mapgenie.io/storage/media/5076345e-952d-4fc7-b324-9de5b67a0448.png",
             type: "image",
             mimeType: "image/png",
@@ -9731,7 +9731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ga Ahisas Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ga-ahisas-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9748,14 +9748,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e055e9ca-b203-438f-bf1e-596e12038d0d.png",
+
             url: "https://media.mapgenie.io/storage/media/e055e9ca-b203-438f-bf1e-596e12038d0d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "80a21843-10c5-4865-bf8e-05d9a47289c9.png",
+
             url: "https://media.mapgenie.io/storage/media/80a21843-10c5-4865-bf8e-05d9a47289c9.png",
             type: "image",
             mimeType: "image/png",
@@ -9763,7 +9763,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ganos Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ganos-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9780,7 +9780,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "abfac615-e6f4-459f-9949-35876a29dc70.jpg",
+
             url: "https://media.mapgenie.io/storage/media/abfac615-e6f4-459f-9949-35876a29dc70.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9788,7 +9788,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Siyamotsus Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-siyamotsus-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9805,14 +9805,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c5e8be18-49ea-4da6-9790-c8ad3648784d.png",
+
             url: "https://media.mapgenie.io/storage/media/c5e8be18-49ea-4da6-9790-c8ad3648784d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "i9mzMm5sU_c",
+
             url: "https://youtu.be/i9mzMm5sU_c",
             type: "youtube",
             mimeType: "mp4",
@@ -9829,21 +9829,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "776dd9f1-d64d-4484-824d-c50e0122d2e9.png",
+
             url: "https://media.mapgenie.io/storage/media/776dd9f1-d64d-4484-824d-c50e0122d2e9.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c7dbc0a9-8b8a-4933-b54d-8bc9fc36da32.png",
+
             url: "https://media.mapgenie.io/storage/media/c7dbc0a9-8b8a-4933-b54d-8bc9fc36da32.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "PzCKGOezOjo",
+
             url: "https://youtu.be/PzCKGOezOjo",
             type: "youtube",
             mimeType: "mp4",
@@ -9860,14 +9860,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aa04a82c-c8ff-4232-89ac-7572c8abc280.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aa04a82c-c8ff-4232-89ac-7572c8abc280.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "81df47a2-ec3d-408c-b7ad-1874a51d1dcd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/81df47a2-ec3d-408c-b7ad-1874a51d1dcd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9875,7 +9875,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jirutagumac Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jirutagumac-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9892,14 +9892,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "80873d4a-e67b-4fe9-9d94-49f296786563.png",
+
             url: "https://media.mapgenie.io/storage/media/80873d4a-e67b-4fe9-9d94-49f296786563.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "bK0Lt-0wjU8",
+
             url: "https://youtu.be/bK0Lt-0wjU8",
             type: "youtube",
             mimeType: "mp4",
@@ -9916,14 +9916,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f6b08c1d-d683-41ef-88ce-1ace5dc7fd06.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f6b08c1d-d683-41ef-88ce-1ace5dc7fd06.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "8ba715a3-c976-42cb-950a-a27c86018264.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8ba715a3-c976-42cb-950a-a27c86018264.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9940,7 +9940,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "784b8206-fe58-4b62-ab7d-a6cc3409b59f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/784b8206-fe58-4b62-ab7d-a6cc3409b59f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9948,7 +9948,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mogisari Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mogisari-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9965,7 +9965,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d1d0a685-3aaf-4db8-8a64-459846aa8bfa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d1d0a685-3aaf-4db8-8a64-459846aa8bfa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -9973,7 +9973,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Otak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-otak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -9990,14 +9990,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2d79eb7d-2b08-4f1f-8f88-9d518dc5b452.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2d79eb7d-2b08-4f1f-8f88-9d518dc5b452.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "8a61f6e7-96aa-4ed8-92d5-3f6f6f5de39d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8a61f6e7-96aa-4ed8-92d5-3f6f6f5de39d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10005,7 +10005,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sisuran Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sisuran-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10022,7 +10022,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5411543b-7b7a-4c9f-b8ed-3cfc95a6de6b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5411543b-7b7a-4c9f-b8ed-3cfc95a6de6b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10030,7 +10030,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rutafu Um Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rutafu-um-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10047,21 +10047,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a0ee0148-cc0d-48ef-bfa8-6aaccfc6e6b3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a0ee0148-cc0d-48ef-bfa8-6aaccfc6e6b3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "6ba4c688-ba58-443a-a331-29fdc4d4fb5d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6ba4c688-ba58-443a-a331-29fdc4d4fb5d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Zelda Tears Of The Kingdom How To Tame The Giant Horse",
-            fileName: "",
+
             url: "https://www.ign.com/videos/zelda-tears-of-the-kingdom-how-to-tame-the-giant-horse",
             type: "ign_video",
             mimeType: "mp4",
@@ -10078,14 +10078,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "15032a9c-8336-4b6b-8dbf-28bd767e3ba6.png",
+
             url: "https://media.mapgenie.io/storage/media/15032a9c-8336-4b6b-8dbf-28bd767e3ba6.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "sPewZMThbWk",
+
             url: "https://youtu.be/sPewZMThbWk",
             type: "youtube",
             mimeType: "mp4",
@@ -10102,14 +10102,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "34e7ba16-b510-4dc5-9248-de48facd6ce7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/34e7ba16-b510-4dc5-9248-de48facd6ce7.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Ae4s_RS03LY",
+
             url: "https://youtu.be/Ae4s_RS03LY",
             type: "youtube",
             mimeType: "mp4",
@@ -10126,14 +10126,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8ed82906-59cc-48c8-9503-ec3694bcacf9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8ed82906-59cc-48c8-9503-ec3694bcacf9.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2Y89XGiSDuo",
+
             url: "https://youtu.be/2Y89XGiSDuo",
             type: "youtube",
             mimeType: "mp4",
@@ -10150,14 +10150,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "63010139-fadd-4c1f-85cd-6c346d197ca8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/63010139-fadd-4c1f-85cd-6c346d197ca8.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ZN-fqVwilyo",
+
             url: "https://youtu.be/ZN-fqVwilyo",
             type: "youtube",
             mimeType: "mp4",
@@ -10174,7 +10174,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "811f8b3d-6d72-4321-be14-9de81b71c0f6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/811f8b3d-6d72-4321-be14-9de81b71c0f6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10182,7 +10182,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jochi Ihiga Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jochi-ihiga-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10199,14 +10199,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9fdec3b7-afb4-4fbe-9072-d388c40b2cef.png",
+
             url: "https://media.mapgenie.io/storage/media/9fdec3b7-afb4-4fbe-9072-d388c40b2cef.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "IFBTDipMteI",
+
             url: "https://youtu.be/IFBTDipMteI",
             type: "youtube",
             mimeType: "mp4",
@@ -10223,7 +10223,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9464ab72-f4cf-4396-8be5-0d77c76da85f.png",
+
             url: "https://media.mapgenie.io/storage/media/9464ab72-f4cf-4396-8be5-0d77c76da85f.png",
             type: "image",
             mimeType: "image/png",
@@ -10231,7 +10231,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ninjis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ninjis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10248,7 +10248,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3129bbeb-66ea-45d9-a004-445aff70f2ac.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3129bbeb-66ea-45d9-a004-445aff70f2ac.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10256,7 +10256,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Musanokir Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-musanokir-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10273,7 +10273,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a90245bd-e859-4fd2-b7a6-c70fa6fdf68c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a90245bd-e859-4fd2-b7a6-c70fa6fdf68c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10281,7 +10281,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Pupunke Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pupunke-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10298,7 +10298,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d684163b-f9d7-4a69-a419-3b4e4df360ae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d684163b-f9d7-4a69-a419-3b4e4df360ae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10306,7 +10306,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sakunbomar Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sakunbomar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10323,14 +10323,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d3623f92-633a-444d-98e7-0abada6e66a2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d3623f92-633a-444d-98e7-0abada6e66a2.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "a944774b-843a-4883-8078-349e790acec4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a944774b-843a-4883-8078-349e790acec4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10338,7 +10338,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Tenmaten Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tenmaten-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10355,7 +10355,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bd843c6-83b6-4582-a576-754a140f6146.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1bd843c6-83b6-4582-a576-754a140f6146.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10363,7 +10363,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Wao Os Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-wao-os-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10380,7 +10380,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b0f27cbf-6031-4e7f-ba68-0e2cb1526406.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b0f27cbf-6031-4e7f-ba68-0e2cb1526406.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10388,7 +10388,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Joniu Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joniu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10405,14 +10405,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c2b19513-5792-4593-96da-9d8fd53e38f1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c2b19513-5792-4593-96da-9d8fd53e38f1.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "qg4BXjWEHPA",
+
             url: "https://youtu.be/qg4BXjWEHPA",
             type: "youtube",
             mimeType: "mp4",
@@ -10429,14 +10429,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ce9b66b8-797b-4d2a-88d3-d3bc7b7cbb67.png",
+
             url: "https://media.mapgenie.io/storage/media/ce9b66b8-797b-4d2a-88d3-d3bc7b7cbb67.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "uTlgdFbJJmQ",
+
             url: "https://youtu.be/uTlgdFbJJmQ",
             type: "youtube",
             mimeType: "mp4",
@@ -10453,7 +10453,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68cc92bb-311d-4f15-bbb1-951b8b21c0ce.png",
+
             url: "https://media.mapgenie.io/storage/media/68cc92bb-311d-4f15-bbb1-951b8b21c0ce.png",
             type: "image",
             mimeType: "image/png",
@@ -10461,7 +10461,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Maoikes Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-maoikes-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10478,14 +10478,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b912bca-2fbc-417f-b034-024cb99d2700.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b912bca-2fbc-417f-b034-024cb99d2700.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "b9vzf7sOq5Q",
+
             url: "https://youtu.be/b9vzf7sOq5Q",
             type: "youtube",
             mimeType: "mp4",
@@ -10508,7 +10508,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e6f007f2-1e5e-4d11-9b5d-0768c26f749a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e6f007f2-1e5e-4d11-9b5d-0768c26f749a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10516,7 +10516,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Lookout Landing Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lookout-landing-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10533,7 +10533,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "078990da-a9f5-4f12-89b6-c989fb6598d7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/078990da-a9f5-4f12-89b6-c989fb6598d7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10541,7 +10541,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hyrule Field Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hyrule-field-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10558,7 +10558,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "22a7799b-143c-415a-af20-1a746eb95fd4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/22a7799b-143c-415a-af20-1a746eb95fd4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10566,7 +10566,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sahasra Slope Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sahasra-slope-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10583,7 +10583,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e6bda668-dc81-4b33-836c-7d562e5a760e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e6bda668-dc81-4b33-836c-7d562e5a760e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10591,7 +10591,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Upland Zorana Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-upland-zorana-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10608,7 +10608,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fb834c60-15e0-4d8a-9f1c-558456a02f94.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fb834c60-15e0-4d8a-9f1c-558456a02f94.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10616,7 +10616,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ulri Mountains Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ulri-mountains-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10633,7 +10633,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3191decc-281e-4ebc-9d83-eae7d6cc52c9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3191decc-281e-4ebc-9d83-eae7d6cc52c9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10641,7 +10641,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mount Lanayru Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mount-lanayru-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10658,7 +10658,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e88fb63-da76-4f89-af6e-3e3f0229e2bb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7e88fb63-da76-4f89-af6e-3e3f0229e2bb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10666,7 +10666,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rabella Wetlands Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rabella-wetlands-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10683,7 +10683,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2d5ad96e-23fb-4692-af5a-4ebc502171e3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2d5ad96e-23fb-4692-af5a-4ebc502171e3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10691,7 +10691,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Popla Foothills Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-popla-foothills-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10708,7 +10708,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5e16493-6de9-4f38-bfd8-55f21801dd9f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5e16493-6de9-4f38-bfd8-55f21801dd9f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10716,7 +10716,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gerudo Canyon Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gerudo-canyon-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10733,7 +10733,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9718b25a-5ed4-471b-88a1-a60705a7b951.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9718b25a-5ed4-471b-88a1-a60705a7b951.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10741,7 +10741,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gerudo Highlands Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gerudo-highlands-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10758,7 +10758,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "24ffa21b-8e21-49e7-aaa1-8e032c8f1deb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/24ffa21b-8e21-49e7-aaa1-8e032c8f1deb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10766,7 +10766,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Lindors Brow Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lindors-brow-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10783,7 +10783,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "489f1e9a-a1dd-493c-96a3-f291a0b30534.jpg",
+
             url: "https://media.mapgenie.io/storage/media/489f1e9a-a1dd-493c-96a3-f291a0b30534.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10791,7 +10791,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rospro Pass Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rospro-pass-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10808,7 +10808,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dddfc548-0e36-4082-8e22-b05b41eff129.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dddfc548-0e36-4082-8e22-b05b41eff129.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10816,7 +10816,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Pikida Stonegrove Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pikida-stonegrove-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10833,7 +10833,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "62a7c718-4131-4e69-89dd-026a926901c5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/62a7c718-4131-4e69-89dd-026a926901c5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10841,7 +10841,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Thyphlo Ruins Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-thyphlo-ruins-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -10858,7 +10858,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4eab3172-7960-4400-9634-81f7e15a07ef.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4eab3172-7960-4400-9634-81f7e15a07ef.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -10866,7 +10866,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Eldin Canyon Skyview Tower Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eldin-canyon-skyview-tower-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -11017,7 +11017,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Camera Work In The Depths Where To Find Robbie",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
             type: "ign_video",
             mimeType: "mp4",
@@ -11362,7 +11362,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-00-16",
-            fileName: "02005564-09bd-4e51-96d0-890f2c4e443f.png",
+
             url: "https://media.mapgenie.io/storage/media/02005564-09bd-4e51-96d0-890f2c4e443f.png",
             type: "image",
             mimeType: "image/png",
@@ -11451,7 +11451,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050822023900_c",
-            fileName: "f6c7b515-00ae-4f53-8339-c0c3d5a3b54e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f6c7b515-00ae-4f53-8339-c0c3d5a3b54e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -11623,7 +11623,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050313345300_c",
-            fileName: "d8918995-8dcc-4faf-96af-50e827b22688.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d8918995-8dcc-4faf-96af-50e827b22688.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -11767,14 +11767,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "504148ee-a5ac-44bb-83c7-d9e5c59b77d4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/504148ee-a5ac-44bb-83c7-d9e5c59b77d4.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "EPSQOwLxXNM",
+
             url: "https://youtu.be/EPSQOwLxXNM",
             type: "youtube",
             mimeType: "mp4",
@@ -11866,7 +11866,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sihajog Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sihajog-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -11990,7 +11990,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923225500_c",
-            fileName: "b86451d3-2667-4dfd-904a-8711ca93b2b5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b86451d3-2667-4dfd-904a-8711ca93b2b5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12055,7 +12055,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913401400_c",
-            fileName: "8914525e-a908-4b08-af53-3cfbec67ec5d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8914525e-a908-4b08-af53-3cfbec67ec5d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12071,7 +12071,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912121300_c",
-            fileName: "b5a21857-77db-4ec0-8af3-c34e57fe9339.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b5a21857-77db-4ec0-8af3-c34e57fe9339.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12308,7 +12308,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e1be54b6-d23e-4b34-8531-f1b276619534.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e1be54b6-d23e-4b34-8531-f1b276619534.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12325,7 +12325,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "501cb318-9fe3-4d71-92c0-d6259e631d65.jpg",
+
             url: "https://media.mapgenie.io/storage/media/501cb318-9fe3-4d71-92c0-d6259e631d65.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12342,7 +12342,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "832a736d-2e94-447c-84a0-c76d2c5c41a0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/832a736d-2e94-447c-84a0-c76d2c5c41a0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12359,7 +12359,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "778f1c5f-fd58-48f8-a386-4c0b57d4d280.jpg",
+
             url: "https://media.mapgenie.io/storage/media/778f1c5f-fd58-48f8-a386-4c0b57d4d280.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12376,7 +12376,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "46792157-18c8-4fd5-9707-26e163d0b8ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/46792157-18c8-4fd5-9707-26e163d0b8ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12391,7 +12391,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "601e04db-8c4a-4583-8f63-4eb8b6f670eb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/601e04db-8c4a-4583-8f63-4eb8b6f670eb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12408,7 +12408,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "18d41a02-1ded-4884-a61d-2b35d4321319.jpg",
+
             url: "https://media.mapgenie.io/storage/media/18d41a02-1ded-4884-a61d-2b35d4321319.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12424,7 +12424,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b891d5df-0ff9-4b7c-8231-fb13bbb478c3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b891d5df-0ff9-4b7c-8231-fb13bbb478c3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12441,7 +12441,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2c907de9-19dc-474c-ae1b-5092e97f3b17.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2c907de9-19dc-474c-ae1b-5092e97f3b17.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12458,7 +12458,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d0dbaf4b-fa07-4fb0-9e32-446fb682c955.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d0dbaf4b-fa07-4fb0-9e32-446fb682c955.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12475,7 +12475,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4a2ef3de-568e-4bd0-9c3b-f5772c8f8140.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4a2ef3de-568e-4bd0-9c3b-f5772c8f8140.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12492,7 +12492,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c0521c73-87fe-4d56-a892-f90596abdd2b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c0521c73-87fe-4d56-a892-f90596abdd2b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -12515,7 +12515,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=2401",
             type: "youtube",
             mimeType: "mp4",
@@ -12532,14 +12532,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "be19cdfd-d3d0-4b07-9937-3980b44f4e3f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/be19cdfd-d3d0-4b07-9937-3980b44f4e3f.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=3247",
             type: "youtube",
             mimeType: "mp4",
@@ -12556,14 +12556,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "65d2d95b-9807-4243-8376-83d057ad4a4b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/65d2d95b-9807-4243-8376-83d057ad4a4b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=1658",
             type: "youtube",
             mimeType: "mp4",
@@ -12580,14 +12580,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2a1f6364-4b50-46cc-9813-99339e659f84.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2a1f6364-4b50-46cc-9813-99339e659f84.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=2974",
             type: "youtube",
             mimeType: "mp4",
@@ -12604,14 +12604,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9af696ed-8f9c-4bac-afba-a0623380a851.png",
+
             url: "https://media.mapgenie.io/storage/media/9af696ed-8f9c-4bac-afba-a0623380a851.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=2206",
             type: "youtube",
             mimeType: "mp4",
@@ -12628,14 +12628,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2aa61a08-9bff-4cb1-8a50-fc84e9f9c712.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2aa61a08-9bff-4cb1-8a50-fc84e9f9c712.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=1921",
             type: "youtube",
             mimeType: "mp4",
@@ -12652,14 +12652,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7d1f9605-b1b9-4263-b6e3-8d2fbd4de56c.png",
+
             url: "https://media.mapgenie.io/storage/media/7d1f9605-b1b9-4263-b6e3-8d2fbd4de56c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=234",
             type: "youtube",
             mimeType: "mp4",
@@ -12676,14 +12676,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "65f53663-be95-4a74-b07c-b33e1317c9c6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/65f53663-be95-4a74-b07c-b33e1317c9c6.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=3516",
             type: "youtube",
             mimeType: "mp4",
@@ -12700,14 +12700,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "422fb805-43c3-4e45-9aed-fe8505384bfd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/422fb805-43c3-4e45-9aed-fe8505384bfd.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=1140",
             type: "youtube",
             mimeType: "mp4",
@@ -12724,14 +12724,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6f5f028d-76c7-4dc6-be24-98c0b52824a3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6f5f028d-76c7-4dc6-be24-98c0b52824a3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=906",
             type: "youtube",
             mimeType: "mp4",
@@ -12748,14 +12748,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1cdf6547-458e-4c5f-867d-75277bbb6a7e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1cdf6547-458e-4c5f-867d-75277bbb6a7e.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=2730",
             type: "youtube",
             mimeType: "mp4",
@@ -12772,14 +12772,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e8eddfb9-a504-40da-95d3-6d665020ec9c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e8eddfb9-a504-40da-95d3-6d665020ec9c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Y4Wc4ETZu6I",
+
             url: "https://youtu.be/Y4Wc4ETZu6I?t=1417",
             type: "youtube",
             mimeType: "mp4",
@@ -12802,7 +12802,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913122100_c",
-            fileName: "f073ff29-aa0a-4102-9e4a-d98824c81ce2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f073ff29-aa0a-4102-9e4a-d98824c81ce2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13144,7 +13144,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-28 23-39-51",
-            fileName: "1e448e3f-61ef-4a00-b97c-75ee1c70f4d6.png",
+
             url: "https://media.mapgenie.io/storage/media/1e448e3f-61ef-4a00-b97c-75ee1c70f4d6.png",
             type: "image",
             mimeType: "image/png",
@@ -13162,7 +13162,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cc223288-a3a7-4184-9e5c-dafe9cf6081b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cc223288-a3a7-4184-9e5c-dafe9cf6081b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13180,14 +13180,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e7bcad66-563a-4101-8716-06378db05195.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e7bcad66-563a-4101-8716-06378db05195.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-28 17-43-49",
-            fileName: "c37cd37e-eb1e-4278-9df5-5d5fc2d84394.png",
+
             url: "https://media.mapgenie.io/storage/media/c37cd37e-eb1e-4278-9df5-5d5fc2d84394.png",
             type: "image",
             mimeType: "image/png",
@@ -13205,14 +13205,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "64d06e47-89ee-4a84-a1a9-2f71e5560ba9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/64d06e47-89ee-4a84-a1a9-2f71e5560ba9.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-28 22-14-35",
-            fileName: "d785309a-2326-4dd2-8708-7c8d490d0236.png",
+
             url: "https://media.mapgenie.io/storage/media/d785309a-2326-4dd2-8708-7c8d490d0236.png",
             type: "image",
             mimeType: "image/png",
@@ -13230,14 +13230,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e319bea6-e53c-46a1-a8ec-6f4ae11a5ce8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e319bea6-e53c-46a1-a8ec-6f4ae11a5ce8.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-28 22-31-52",
-            fileName: "bd169751-2810-4074-9cc5-58eb05255c55.png",
+
             url: "https://media.mapgenie.io/storage/media/bd169751-2810-4074-9cc5-58eb05255c55.png",
             type: "image",
             mimeType: "image/png",
@@ -13255,7 +13255,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8c506005-db24-492c-9cbe-17300929657a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8c506005-db24-492c-9cbe-17300929657a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13273,7 +13273,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ac6916a1-a897-4375-aa4b-55c25ad87cde.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ac6916a1-a897-4375-aa4b-55c25ad87cde.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13291,7 +13291,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae176c80-4fb1-48d2-96ee-4288744ece72.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ae176c80-4fb1-48d2-96ee-4288744ece72.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13309,14 +13309,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8a266fe0-ba15-43ef-94d7-c066a679522c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8a266fe0-ba15-43ef-94d7-c066a679522c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-29 00-12-59",
-            fileName: "3644782e-3257-4163-ac6e-60bb9c90e56f.png",
+
             url: "https://media.mapgenie.io/storage/media/3644782e-3257-4163-ac6e-60bb9c90e56f.png",
             type: "image",
             mimeType: "image/png",
@@ -13334,7 +13334,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5f134e80-c28f-41eb-98d8-bbea550d2302.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5f134e80-c28f-41eb-98d8-bbea550d2302.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13352,14 +13352,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "54e67eef-6f2a-499f-9a77-cd3a5127d03b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/54e67eef-6f2a-499f-9a77-cd3a5127d03b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-29 00-32-13",
-            fileName: "9d6c644c-3a87-4180-a647-19eec1aed77c.png",
+
             url: "https://media.mapgenie.io/storage/media/9d6c644c-3a87-4180-a647-19eec1aed77c.png",
             type: "image",
             mimeType: "image/png",
@@ -13377,21 +13377,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "77bc3d55-df45-48c7-a0b7-580ab29de41f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/77bc3d55-df45-48c7-a0b7-580ab29de41f.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-29 00-38-15",
-            fileName: "0e2ce883-de34-42e8-97c4-0f6a0fb4737e.png",
+
             url: "https://media.mapgenie.io/storage/media/0e2ce883-de34-42e8-97c4-0f6a0fb4737e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "Screenshot 2023-04-29 00-42-20",
-            fileName: "b057e7f5-1d07-495e-bf5a-a65427137ecc.png",
+
             url: "https://media.mapgenie.io/storage/media/b057e7f5-1d07-495e-bf5a-a65427137ecc.png",
             type: "image",
             mimeType: "image/png",
@@ -13409,14 +13409,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-47-37",
-            fileName: "f89defd4-0a67-4161-acee-ee1b833d07be.png",
+
             url: "https://media.mapgenie.io/storage/media/f89defd4-0a67-4161-acee-ee1b833d07be.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "Screenshot 2023-04-29 00-47-13",
-            fileName: "81804aac-9b50-42db-bb37-c13a9dee2146.png",
+
             url: "https://media.mapgenie.io/storage/media/81804aac-9b50-42db-bb37-c13a9dee2146.png",
             type: "image",
             mimeType: "image/png",
@@ -13434,7 +13434,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "36574e28-740a-4f90-8039-f4c0c6ed9bc5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/36574e28-740a-4f90-8039-f4c0c6ed9bc5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13452,14 +13452,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6a3d88a9-24cc-4b02-bc6d-303b38264b62.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6a3d88a9-24cc-4b02-bc6d-303b38264b62.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-29 01-04-37",
-            fileName: "724e7af8-a5c9-449a-bd3a-58569336ed99.png",
+
             url: "https://media.mapgenie.io/storage/media/724e7af8-a5c9-449a-bd3a-58569336ed99.png",
             type: "image",
             mimeType: "image/png",
@@ -13477,14 +13477,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c640be0e-b97e-4a94-922a-396637b0dc4e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c640be0e-b97e-4a94-922a-396637b0dc4e.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Screenshot 2023-04-29 01-28-35",
-            fileName: "9e3c27be-9b47-4bfd-9908-0c8c3a42dd7f.png",
+
             url: "https://media.mapgenie.io/storage/media/9e3c27be-9b47-4bfd-9908-0c8c3a42dd7f.png",
             type: "image",
             mimeType: "image/png",
@@ -13502,14 +13502,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 01-33-54",
-            fileName: "62ce2550-ea01-4554-afc6-d03e3daca935.png",
+
             url: "https://media.mapgenie.io/storage/media/62ce2550-ea01-4554-afc6-d03e3daca935.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "Screenshot 2023-04-29 01-35-50",
-            fileName: "e3bc080f-9920-4b2a-b997-09a72d0be343.png",
+
             url: "https://media.mapgenie.io/storage/media/e3bc080f-9920-4b2a-b997-09a72d0be343.png",
             type: "image",
             mimeType: "image/png",
@@ -13527,14 +13527,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4b0f318f-f7aa-4d12-9c49-5e598d006d82.png",
+
             url: "https://media.mapgenie.io/storage/media/4b0f318f-f7aa-4d12-9c49-5e598d006d82.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023043000575500_c",
-            fileName: "e2bce4c5-811a-4876-861a-f202eb038840.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e2bce4c5-811a-4876-861a-f202eb038840.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13552,14 +13552,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fee2060e-8da9-43bd-bbd1-eb69c62884bc.png",
+
             url: "https://media.mapgenie.io/storage/media/fee2060e-8da9-43bd-bbd1-eb69c62884bc.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023043001031800_c",
-            fileName: "cc89e98b-bdf9-4041-9d6e-6b07315b2351.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cc89e98b-bdf9-4041-9d6e-6b07315b2351.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13577,14 +13577,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "248de944-f49e-4743-b45c-2ca37df1d9c7.png",
+
             url: "https://media.mapgenie.io/storage/media/248de944-f49e-4743-b45c-2ca37df1d9c7.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023043001060900_c",
-            fileName: "cca62473-9fc6-4019-891f-e4d44d4648a4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cca62473-9fc6-4019-891f-e4d44d4648a4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13602,14 +13602,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "32523223-8562-42da-a970-1f659e96e065.png",
+
             url: "https://media.mapgenie.io/storage/media/32523223-8562-42da-a970-1f659e96e065.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023043001093600_c",
-            fileName: "42f00ad1-f3a4-4bb1-8a98-f4cbbfe2a16f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/42f00ad1-f3a4-4bb1-8a98-f4cbbfe2a16f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13627,21 +13627,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "588af60c-dc4f-4883-80e4-f06831733375.png",
+
             url: "https://media.mapgenie.io/storage/media/588af60c-dc4f-4883-80e4-f06831733375.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "701d41e8-5268-4497-a3c5-6bae03fcf77a.png",
+
             url: "https://media.mapgenie.io/storage/media/701d41e8-5268-4497-a3c5-6bae03fcf77a.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023043023243000_c",
-            fileName: "6ce3c2eb-8973-4042-9c4e-fb0b5d5350fe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6ce3c2eb-8973-4042-9c4e-fb0b5d5350fe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13659,7 +13659,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416131000_c",
-            fileName: "9fa37819-96d5-4ba7-a1ea-1ab6b9c41a6f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9fa37819-96d5-4ba7-a1ea-1ab6b9c41a6f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13677,14 +13677,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c0c6b522-db3e-4ff4-85e9-37c44981ca66.png",
+
             url: "https://media.mapgenie.io/storage/media/c0c6b522-db3e-4ff4-85e9-37c44981ca66.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050420384000_c",
-            fileName: "04e2b2ea-2a0f-41da-8a15-e622cfc5fde3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/04e2b2ea-2a0f-41da-8a15-e622cfc5fde3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13702,14 +13702,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0990a810-2214-448d-9a34-4718fb6387f4.png",
+
             url: "https://media.mapgenie.io/storage/media/0990a810-2214-448d-9a34-4718fb6387f4.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050420411900_c",
-            fileName: "c1e662a5-0f76-49df-a772-90aa5e321ddf.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c1e662a5-0f76-49df-a772-90aa5e321ddf.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13727,14 +13727,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "725126a6-1dca-481d-9a7c-4d482a6efbe4.png",
+
             url: "https://media.mapgenie.io/storage/media/725126a6-1dca-481d-9a7c-4d482a6efbe4.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050420503000_c",
-            fileName: "0afb36f8-c2a4-49c6-b4b8-58d7f3e41029.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0afb36f8-c2a4-49c6-b4b8-58d7f3e41029.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13752,14 +13752,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "67802de0-d40a-4a26-9dda-534463899030.jpg",
+
             url: "https://media.mapgenie.io/storage/media/67802de0-d40a-4a26-9dda-534463899030.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050421122200_c",
-            fileName: "d31d5cdc-3447-4427-9543-88287e0387ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d31d5cdc-3447-4427-9543-88287e0387ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13777,7 +13777,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b86eb0ac-df61-46f9-8d16-40ec96d12e41.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b86eb0ac-df61-46f9-8d16-40ec96d12e41.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13795,7 +13795,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421255600_c",
-            fileName: "f5c6b54c-f9ca-489d-bb47-771bd64259e6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f5c6b54c-f9ca-489d-bb47-771bd64259e6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13813,14 +13813,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6235ae70-4996-47b8-938a-5d2e9b116df3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6235ae70-4996-47b8-938a-5d2e9b116df3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050421303600_c",
-            fileName: "39c9ea64-00dc-4af3-ac2c-805a01defbee.jpg",
+
             url: "https://media.mapgenie.io/storage/media/39c9ea64-00dc-4af3-ac2c-805a01defbee.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13838,14 +13838,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73ea7a7b-2aa0-49e0-9526-d8da6c93cfc2.png",
+
             url: "https://media.mapgenie.io/storage/media/73ea7a7b-2aa0-49e0-9526-d8da6c93cfc2.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050421443500_c",
-            fileName: "a00ce763-45ea-4488-b4f7-9e450bbdbdcf.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a00ce763-45ea-4488-b4f7-9e450bbdbdcf.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13863,14 +13863,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17856998-5855-4b69-9c6d-f6e818747acb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/17856998-5855-4b69-9c6d-f6e818747acb.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050601530500_c",
-            fileName: "f93ac4ff-7547-4b72-a02a-5d2593d28b01.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f93ac4ff-7547-4b72-a02a-5d2593d28b01.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13888,14 +13888,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0f5be473-7ba7-4c4b-9d17-b802d0c25ee0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0f5be473-7ba7-4c4b-9d17-b802d0c25ee0.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050719572500_c",
-            fileName: "2ba52ef5-1e30-47f9-b49b-359d3eef3dc7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2ba52ef5-1e30-47f9-b49b-359d3eef3dc7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13913,7 +13913,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "cloud simulator  Screen Shot 5-7-23, 12.17 PM 2",
-            fileName: "96084c82-f20f-4a71-b78c-a30bc9a2bbd4.png",
+
             url: "https://media.mapgenie.io/storage/media/96084c82-f20f-4a71-b78c-a30bc9a2bbd4.png",
             type: "image",
             mimeType: "image/png",
@@ -13931,7 +13931,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050722341700_c",
-            fileName: "b86fb38a-0330-4545-b4f1-03fb611219ef.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b86fb38a-0330-4545-b4f1-03fb611219ef.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13949,7 +13949,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050722485700_c",
-            fileName: "0a44c115-3397-429c-8423-e9d1fe27f120.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0a44c115-3397-429c-8423-e9d1fe27f120.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13967,14 +13967,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a6c484f4-7e24-4035-bd39-90197ead22de.png",
+
             url: "https://media.mapgenie.io/storage/media/a6c484f4-7e24-4035-bd39-90197ead22de.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "8cb6fa1f-6b3c-4eea-b13f-5dd42d337b75.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8cb6fa1f-6b3c-4eea-b13f-5dd42d337b75.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -13992,14 +13992,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b814d821-9ccf-4ad4-a83c-a2e32f571905.png",
+
             url: "https://media.mapgenie.io/storage/media/b814d821-9ccf-4ad4-a83c-a2e32f571905.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050723393000_c",
-            fileName: "b1fd95b2-7e47-4dbc-b835-c749380df00e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b1fd95b2-7e47-4dbc-b835-c749380df00e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14017,7 +14017,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4fa38069-f161-4133-95c6-c8166c901b2f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4fa38069-f161-4133-95c6-c8166c901b2f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14035,14 +14035,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fe8aecbd-4d17-4e27-bb3e-688adfc5de93.png",
+
             url: "https://media.mapgenie.io/storage/media/fe8aecbd-4d17-4e27-bb3e-688adfc5de93.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050820192600_c",
-            fileName: "209bdc66-99d8-4990-a9dc-6377f3ee1871.jpg",
+
             url: "https://media.mapgenie.io/storage/media/209bdc66-99d8-4990-a9dc-6377f3ee1871.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14060,14 +14060,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "445d2498-7ad2-4f0f-949d-73b9217614ef.png",
+
             url: "https://media.mapgenie.io/storage/media/445d2498-7ad2-4f0f-949d-73b9217614ef.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050821184400_c",
-            fileName: "0b3a610a-c914-4704-9bcf-ec63983dfff3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0b3a610a-c914-4704-9bcf-ec63983dfff3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14085,14 +14085,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "94e8bf93-abb5-46c8-8282-579938bbf6ec.png",
+
             url: "https://media.mapgenie.io/storage/media/94e8bf93-abb5-46c8-8282-579938bbf6ec.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050912102000_c",
-            fileName: "6d4615ae-534e-4dbe-b237-bd276dc6140c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6d4615ae-534e-4dbe-b237-bd276dc6140c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14110,7 +14110,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6dd9d9b2-e985-46f4-949a-590bbe4cf0f7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6dd9d9b2-e985-46f4-949a-590bbe4cf0f7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14128,7 +14128,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912253300_c",
-            fileName: "e87a813c-1f6c-4e1f-ba78-658d657048df.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e87a813c-1f6c-4e1f-ba78-658d657048df.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14146,14 +14146,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "487e58ea-b23e-4eae-bb69-a211bc9c3023.png",
+
             url: "https://media.mapgenie.io/storage/media/487e58ea-b23e-4eae-bb69-a211bc9c3023.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050912311100_c",
-            fileName: "1b5092e6-4c5e-49b6-8609-2b37ebe2d70f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1b5092e6-4c5e-49b6-8609-2b37ebe2d70f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14171,14 +14171,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "031a2b48-ddf2-4c9b-9ce7-f4cfc841b237.png",
+
             url: "https://media.mapgenie.io/storage/media/031a2b48-ddf2-4c9b-9ce7-f4cfc841b237.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050912372500_c",
-            fileName: "9ac8bd2c-4112-4134-94ef-699edb774f5f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9ac8bd2c-4112-4134-94ef-699edb774f5f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14196,7 +14196,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0d28b3a4-78d7-4118-a0cc-13ed35f0ba96.png",
+
             url: "https://media.mapgenie.io/storage/media/0d28b3a4-78d7-4118-a0cc-13ed35f0ba96.png",
             type: "image",
             mimeType: "image/png",
@@ -14214,14 +14214,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1d9d1063-8446-4315-9cea-b9f57817966a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1d9d1063-8446-4315-9cea-b9f57817966a.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050913430100_c",
-            fileName: "cc230f5c-f7b3-4f9c-ace7-dca7c704c679.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cc230f5c-f7b3-4f9c-ace7-dca7c704c679.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14239,7 +14239,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fe88f207-920e-473e-b243-029c91b777b0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fe88f207-920e-473e-b243-029c91b777b0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14257,7 +14257,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "88eedf6b-6ecb-46f2-bd96-23ff82ee06c1.png",
+
             url: "https://media.mapgenie.io/storage/media/88eedf6b-6ecb-46f2-bd96-23ff82ee06c1.png",
             type: "image",
             mimeType: "image/png",
@@ -14275,21 +14275,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e7926bfd-d2cf-4cdd-88a2-f5577a8b700d.png",
+
             url: "https://media.mapgenie.io/storage/media/e7926bfd-d2cf-4cdd-88a2-f5577a8b700d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "4667c5a9-d3b1-4a0d-9f66-41ac4b6fce99.png",
+
             url: "https://media.mapgenie.io/storage/media/4667c5a9-d3b1-4a0d-9f66-41ac4b6fce99.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f214f3db-56e4-4e52-8931-b80dc5145f2b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f214f3db-56e4-4e52-8931-b80dc5145f2b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14307,14 +14307,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050923240700_c",
-            fileName: "d8d578ab-0071-45d4-a1d2-1366ec083d5f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d8d578ab-0071-45d4-a1d2-1366ec083d5f.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "eea5ca3a-9d05-4e0d-a305-4eb31f694b45.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eea5ca3a-9d05-4e0d-a305-4eb31f694b45.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14332,7 +14332,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e6162599-ed6a-487c-992f-7b31272c2b58.png",
+
             url: "https://media.mapgenie.io/storage/media/e6162599-ed6a-487c-992f-7b31272c2b58.png",
             type: "image",
             mimeType: "image/png",
@@ -14350,7 +14350,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c896b409-ab39-4e37-8caf-82bbd7e21e0b.png",
+
             url: "https://media.mapgenie.io/storage/media/c896b409-ab39-4e37-8caf-82bbd7e21e0b.png",
             type: "image",
             mimeType: "image/png",
@@ -14368,14 +14368,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f54cab2c-d439-4221-b7fd-413ea3ac6552.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f54cab2c-d439-4221-b7fd-413ea3ac6552.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "22e9d27e-24fe-40d4-8f1b-ec3c39408e84.jpg",
+
             url: "https://media.mapgenie.io/storage/media/22e9d27e-24fe-40d4-8f1b-ec3c39408e84.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14393,7 +14393,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5d7b4e3c-6078-4da4-ae98-19ffaf6ab512.png",
+
             url: "https://media.mapgenie.io/storage/media/5d7b4e3c-6078-4da4-ae98-19ffaf6ab512.png",
             type: "image",
             mimeType: "image/png",
@@ -14411,14 +14411,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "84ace24f-a6f0-444a-a49b-5bc8555c786a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/84ace24f-a6f0-444a-a49b-5bc8555c786a.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "133425a4-4d05-4355-bbdd-830118c75892.png",
+
             url: "https://media.mapgenie.io/storage/media/133425a4-4d05-4355-bbdd-830118c75892.png",
             type: "image",
             mimeType: "image/png",
@@ -14436,7 +14436,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a8078fe1-21cc-47f5-821f-532413c8ceef.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a8078fe1-21cc-47f5-821f-532413c8ceef.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14454,7 +14454,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "daf82c23-d1d3-4e71-bfb6-cea0f9fa53cd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/daf82c23-d1d3-4e71-bfb6-cea0f9fa53cd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14472,7 +14472,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "50d68f1a-6d3a-4776-bc5c-ba5f51fabd9a.png",
+
             url: "https://media.mapgenie.io/storage/media/50d68f1a-6d3a-4776-bc5c-ba5f51fabd9a.png",
             type: "image",
             mimeType: "image/png",
@@ -14490,7 +14490,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "34103aaf-f102-4754-b83b-6ee9baece166.jpg",
+
             url: "https://media.mapgenie.io/storage/media/34103aaf-f102-4754-b83b-6ee9baece166.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14508,14 +14508,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8955aaef-09bf-4f26-8a56-4036e467759a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8955aaef-09bf-4f26-8a56-4036e467759a.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "068e8dfc-42ed-4336-b7fd-fe27a0223a52.jpg",
+
             url: "https://media.mapgenie.io/storage/media/068e8dfc-42ed-4336-b7fd-fe27a0223a52.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14533,7 +14533,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b42a130b-9206-4ad2-845b-2b201ff1ad6d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b42a130b-9206-4ad2-845b-2b201ff1ad6d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14551,14 +14551,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f80fc65d-f56a-4754-9113-bec34f1315bd.png",
+
             url: "https://media.mapgenie.io/storage/media/f80fc65d-f56a-4754-9113-bec34f1315bd.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "45acf1f0-13fe-48b7-b7dc-7bd1369b743c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/45acf1f0-13fe-48b7-b7dc-7bd1369b743c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14576,7 +14576,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "48b6f2f4-1f84-446d-9614-53a79c8fce53.jpg",
+
             url: "https://media.mapgenie.io/storage/media/48b6f2f4-1f84-446d-9614-53a79c8fce53.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14594,7 +14594,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2f324dda-ec6b-412e-a3f8-ab8892ab55c9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2f324dda-ec6b-412e-a3f8-ab8892ab55c9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14612,14 +14612,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b88fb0e1-b90e-43a4-975d-ccf148e2349f.png",
+
             url: "https://media.mapgenie.io/storage/media/b88fb0e1-b90e-43a4-975d-ccf148e2349f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "65fdbeb0-9f9f-4544-870a-5a2fdbe7e47b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/65fdbeb0-9f9f-4544-870a-5a2fdbe7e47b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14637,21 +14637,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "77379fef-78fd-4494-bd3d-415252fa288c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/77379fef-78fd-4494-bd3d-415252fa288c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "8ea92ef2-083b-427f-9255-e950f10e94a3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8ea92ef2-083b-427f-9255-e950f10e94a3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2146e7e0-e5a8-44f0-9bf0-7a49b8f9f052.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2146e7e0-e5a8-44f0-9bf0-7a49b8f9f052.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14669,7 +14669,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a9800568-02c1-4e8f-affd-886a467253fa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a9800568-02c1-4e8f-affd-886a467253fa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14687,7 +14687,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e2d0cb09-70a6-4b4e-a9ed-f7168f865897.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e2d0cb09-70a6-4b4e-a9ed-f7168f865897.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14705,7 +14705,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0aacf6bc-be10-49ab-8a02-28353e4d76bc.png",
+
             url: "https://media.mapgenie.io/storage/media/0aacf6bc-be10-49ab-8a02-28353e4d76bc.png",
             type: "image",
             mimeType: "image/png",
@@ -14723,7 +14723,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8837a150-c864-453b-b754-875bb10d7d15.png",
+
             url: "https://media.mapgenie.io/storage/media/8837a150-c864-453b-b754-875bb10d7d15.png",
             type: "image",
             mimeType: "image/png",
@@ -14741,7 +14741,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ac16f7e5-1246-4326-9f30-017173f87db7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ac16f7e5-1246-4326-9f30-017173f87db7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14759,14 +14759,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "862b2b84-f8ad-487a-ad5d-564310a6e04c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/862b2b84-f8ad-487a-ad5d-564310a6e04c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "a93ac965-4bca-4a5b-bb39-22e2f9fac233.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a93ac965-4bca-4a5b-bb39-22e2f9fac233.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14784,14 +14784,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "a009dfe7-3aa2-4922-b0fe-1fa1759f02ff",
-            fileName: "19f59e46-259e-43ea-a0e8-fe02e2d45382.png",
+
             url: "https://media.mapgenie.io/storage/media/19f59e46-259e-43ea-a0e8-fe02e2d45382.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "49b76c12-f851-4c2f-a163-7e194982db87.png",
+
             url: "https://media.mapgenie.io/storage/media/49b76c12-f851-4c2f-a163-7e194982db87.png",
             type: "image",
             mimeType: "image/png",
@@ -14809,7 +14809,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bc2c7061-326c-4852-969e-a5e5d298d1a9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bc2c7061-326c-4852-969e-a5e5d298d1a9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14827,7 +14827,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "91707530-56ed-45a1-ba18-75ac85feefed.png",
+
             url: "https://media.mapgenie.io/storage/media/91707530-56ed-45a1-ba18-75ac85feefed.png",
             type: "image",
             mimeType: "image/png",
@@ -14845,7 +14845,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3435b5be-c34f-4370-8c33-769501b19543.png",
+
             url: "https://media.mapgenie.io/storage/media/3435b5be-c34f-4370-8c33-769501b19543.png",
             type: "image",
             mimeType: "image/png",
@@ -14863,7 +14863,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "97b050ac-17c0-4e97-a5bb-1dec6604ee39.jpg",
+
             url: "https://media.mapgenie.io/storage/media/97b050ac-17c0-4e97-a5bb-1dec6604ee39.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14881,7 +14881,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "59bbf665-ed0d-4acf-9bcc-3cdd56444dad.jpg",
+
             url: "https://media.mapgenie.io/storage/media/59bbf665-ed0d-4acf-9bcc-3cdd56444dad.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14908,14 +14908,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eef536fe-02b9-4c30-9a69-b57367d420f9.png",
+
             url: "https://media.mapgenie.io/storage/media/eef536fe-02b9-4c30-9a69-b57367d420f9.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "056c9de2-da90-4826-8865-4abddbe1bccb.png",
+
             url: "https://media.mapgenie.io/storage/media/056c9de2-da90-4826-8865-4abddbe1bccb.png",
             type: "image",
             mimeType: "image/png",
@@ -14933,7 +14933,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "310482fe-e727-46ab-9c4d-994216d80364.jpg",
+
             url: "https://media.mapgenie.io/storage/media/310482fe-e727-46ab-9c4d-994216d80364.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14951,7 +14951,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3d453bd6-5f98-49ea-b32c-25fa28e45522.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3d453bd6-5f98-49ea-b32c-25fa28e45522.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -14969,7 +14969,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1847efb1-0796-4d38-b0ce-4f925122b8b4.png",
+
             url: "https://media.mapgenie.io/storage/media/1847efb1-0796-4d38-b0ce-4f925122b8b4.png",
             type: "image",
             mimeType: "image/png",
@@ -14987,7 +14987,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "444b055d-44cb-44a9-a065-be06f3337e37.png",
+
             url: "https://media.mapgenie.io/storage/media/444b055d-44cb-44a9-a065-be06f3337e37.png",
             type: "image",
             mimeType: "image/png",
@@ -15005,7 +15005,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0e51ca73-5fef-42be-ad04-c0958b0fd742.png",
+
             url: "https://media.mapgenie.io/storage/media/0e51ca73-5fef-42be-ad04-c0958b0fd742.png",
             type: "image",
             mimeType: "image/png",
@@ -15023,7 +15023,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "acc55294-e9ab-4d4c-8b3e-91fabcbe555b.png",
+
             url: "https://media.mapgenie.io/storage/media/acc55294-e9ab-4d4c-8b3e-91fabcbe555b.png",
             type: "image",
             mimeType: "image/png",
@@ -15041,7 +15041,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4e7eb5b1-c957-46d9-ba6a-9cf692392ead.png",
+
             url: "https://media.mapgenie.io/storage/media/4e7eb5b1-c957-46d9-ba6a-9cf692392ead.png",
             type: "image",
             mimeType: "image/png",
@@ -15059,7 +15059,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b6b8fd3c-94a7-4311-a169-b12f86dcd2d1.png",
+
             url: "https://media.mapgenie.io/storage/media/b6b8fd3c-94a7-4311-a169-b12f86dcd2d1.png",
             type: "image",
             mimeType: "image/png",
@@ -15077,7 +15077,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fa79ddaa-1242-4783-92a5-c26ceecad6d4.png",
+
             url: "https://media.mapgenie.io/storage/media/fa79ddaa-1242-4783-92a5-c26ceecad6d4.png",
             type: "image",
             mimeType: "image/png",
@@ -15095,7 +15095,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "665b8360-1ed8-4249-84c8-c75ca5fe4f70.png",
+
             url: "https://media.mapgenie.io/storage/media/665b8360-1ed8-4249-84c8-c75ca5fe4f70.png",
             type: "image",
             mimeType: "image/png",
@@ -15113,7 +15113,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f06f0813-e70f-4dd0-9a8a-84e1e6dca711.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f06f0813-e70f-4dd0-9a8a-84e1e6dca711.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15131,7 +15131,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6f8ed127-874a-4bb6-b75d-b794c089ccd6.png",
+
             url: "https://media.mapgenie.io/storage/media/6f8ed127-874a-4bb6-b75d-b794c089ccd6.png",
             type: "image",
             mimeType: "image/png",
@@ -15149,7 +15149,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b3b33fb6-d03f-4406-982b-c65460325bc3.png",
+
             url: "https://media.mapgenie.io/storage/media/b3b33fb6-d03f-4406-982b-c65460325bc3.png",
             type: "image",
             mimeType: "image/png",
@@ -15167,7 +15167,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1fb3f383-61d0-4d2f-a761-dae00446c62e.png",
+
             url: "https://media.mapgenie.io/storage/media/1fb3f383-61d0-4d2f-a761-dae00446c62e.png",
             type: "image",
             mimeType: "image/png",
@@ -15185,7 +15185,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f2281358-8384-472d-9efc-ff0c4625b7b6.png",
+
             url: "https://media.mapgenie.io/storage/media/f2281358-8384-472d-9efc-ff0c4625b7b6.png",
             type: "image",
             mimeType: "image/png",
@@ -15203,7 +15203,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d5f612f1-9e0d-4414-9bf1-8a8b1a2b7fb4.png",
+
             url: "https://media.mapgenie.io/storage/media/d5f612f1-9e0d-4414-9bf1-8a8b1a2b7fb4.png",
             type: "image",
             mimeType: "image/png",
@@ -15221,7 +15221,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f7db9521-e98e-4672-a218-cdb179cfced2.png",
+
             url: "https://media.mapgenie.io/storage/media/f7db9521-e98e-4672-a218-cdb179cfced2.png",
             type: "image",
             mimeType: "image/png",
@@ -15239,7 +15239,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1c6c7dde-39aa-4a33-88ed-d7a415ab6de1.png",
+
             url: "https://media.mapgenie.io/storage/media/1c6c7dde-39aa-4a33-88ed-d7a415ab6de1.png",
             type: "image",
             mimeType: "image/png",
@@ -15257,7 +15257,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "31fc3e12-10b9-45c6-b149-965b118f8332.jpg",
+
             url: "https://media.mapgenie.io/storage/media/31fc3e12-10b9-45c6-b149-965b118f8332.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15275,7 +15275,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "84308e43-5863-42be-aed7-3210d2d0ef0c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/84308e43-5863-42be-aed7-3210d2d0ef0c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15293,7 +15293,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1681004d-e955-4a6e-9653-e3e285dfba68.png",
+
             url: "https://media.mapgenie.io/storage/media/1681004d-e955-4a6e-9653-e3e285dfba68.png",
             type: "image",
             mimeType: "image/png",
@@ -15311,7 +15311,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1b9a781b-0f08-42be-8b83-b10d08dbf911.png",
+
             url: "https://media.mapgenie.io/storage/media/1b9a781b-0f08-42be-8b83-b10d08dbf911.png",
             type: "image",
             mimeType: "image/png",
@@ -15329,7 +15329,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1a83befb-4575-4608-adfb-03d8a6aed9e0.png",
+
             url: "https://media.mapgenie.io/storage/media/1a83befb-4575-4608-adfb-03d8a6aed9e0.png",
             type: "image",
             mimeType: "image/png",
@@ -15347,7 +15347,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bc205df4-93e1-4bcb-9776-8f8df0397c15.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bc205df4-93e1-4bcb-9776-8f8df0397c15.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15365,7 +15365,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cd0dca21-87f9-4152-ab97-3ec185fa5560.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cd0dca21-87f9-4152-ab97-3ec185fa5560.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15383,7 +15383,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1edd295f-c989-4f4a-8e70-b8672af0af05.png",
+
             url: "https://media.mapgenie.io/storage/media/1edd295f-c989-4f4a-8e70-b8672af0af05.png",
             type: "image",
             mimeType: "image/png",
@@ -15401,7 +15401,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d12798c6-bd74-4fd4-b1f0-9e4db62b57c1.png",
+
             url: "https://media.mapgenie.io/storage/media/d12798c6-bd74-4fd4-b1f0-9e4db62b57c1.png",
             type: "image",
             mimeType: "image/png",
@@ -15419,7 +15419,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1d98c6c0-cd8d-473b-b2b5-be93a1ffcc4c.png",
+
             url: "https://media.mapgenie.io/storage/media/1d98c6c0-cd8d-473b-b2b5-be93a1ffcc4c.png",
             type: "image",
             mimeType: "image/png",
@@ -15437,7 +15437,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5c336b6d-c4f5-4b77-9844-668021c5806f.png",
+
             url: "https://media.mapgenie.io/storage/media/5c336b6d-c4f5-4b77-9844-668021c5806f.png",
             type: "image",
             mimeType: "image/png",
@@ -15455,7 +15455,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aff77d5d-20ed-4b3e-88cb-3bbf24bddff4.png",
+
             url: "https://media.mapgenie.io/storage/media/aff77d5d-20ed-4b3e-88cb-3bbf24bddff4.png",
             type: "image",
             mimeType: "image/png",
@@ -15473,7 +15473,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e55a4c31-529c-41c6-a176-00910412ed43.png",
+
             url: "https://media.mapgenie.io/storage/media/e55a4c31-529c-41c6-a176-00910412ed43.png",
             type: "image",
             mimeType: "image/png",
@@ -15491,7 +15491,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "307d2cd4-3896-4a30-bdf8-649274397655.png",
+
             url: "https://media.mapgenie.io/storage/media/307d2cd4-3896-4a30-bdf8-649274397655.png",
             type: "image",
             mimeType: "image/png",
@@ -15509,7 +15509,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d4359966-99d8-40c8-a133-0d2738ecc1bc.png",
+
             url: "https://media.mapgenie.io/storage/media/d4359966-99d8-40c8-a133-0d2738ecc1bc.png",
             type: "image",
             mimeType: "image/png",
@@ -15527,7 +15527,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ab86576b-0794-44c3-9556-60d04338b7da.png",
+
             url: "https://media.mapgenie.io/storage/media/ab86576b-0794-44c3-9556-60d04338b7da.png",
             type: "image",
             mimeType: "image/png",
@@ -15545,7 +15545,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e8f6f91f-080f-4519-a3ab-accfb8a665f1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e8f6f91f-080f-4519-a3ab-accfb8a665f1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15563,7 +15563,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e35b5cab-7562-4232-a59d-7771abd2ca9d.png",
+
             url: "https://media.mapgenie.io/storage/media/e35b5cab-7562-4232-a59d-7771abd2ca9d.png",
             type: "image",
             mimeType: "image/png",
@@ -15581,7 +15581,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8761019a-13c7-459f-adbd-459a110bb851.png",
+
             url: "https://media.mapgenie.io/storage/media/8761019a-13c7-459f-adbd-459a110bb851.png",
             type: "image",
             mimeType: "image/png",
@@ -15599,7 +15599,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b6b914b2-973b-479b-b3fc-bd9b703eadd5.png",
+
             url: "https://media.mapgenie.io/storage/media/b6b914b2-973b-479b-b3fc-bd9b703eadd5.png",
             type: "image",
             mimeType: "image/png",
@@ -15617,7 +15617,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "557889f5-f83d-4ee2-b68a-c71ec90c2002.png",
+
             url: "https://media.mapgenie.io/storage/media/557889f5-f83d-4ee2-b68a-c71ec90c2002.png",
             type: "image",
             mimeType: "image/png",
@@ -15635,7 +15635,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ec7e4faf-3a57-4243-90ca-7a8545de0aee.png",
+
             url: "https://media.mapgenie.io/storage/media/ec7e4faf-3a57-4243-90ca-7a8545de0aee.png",
             type: "image",
             mimeType: "image/png",
@@ -15653,14 +15653,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4c81ad54-e0bb-40f6-97e1-c11c34ab9f84.png",
+
             url: "https://media.mapgenie.io/storage/media/4c81ad54-e0bb-40f6-97e1-c11c34ab9f84.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "3519d3e5-acf1-4a6e-9cb1-c189a8581b34.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3519d3e5-acf1-4a6e-9cb1-c189a8581b34.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15678,7 +15678,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8d32f159-aa6b-4211-8c9c-e0f9e5777ab7.png",
+
             url: "https://media.mapgenie.io/storage/media/8d32f159-aa6b-4211-8c9c-e0f9e5777ab7.png",
             type: "image",
             mimeType: "image/png",
@@ -15696,7 +15696,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0e178a5f-cb21-4af1-8e5d-84e6e9e7de27.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0e178a5f-cb21-4af1-8e5d-84e6e9e7de27.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15714,14 +15714,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "21dcf683-f98d-4581-81a4-2caef23f0c30.jpg",
+
             url: "https://media.mapgenie.io/storage/media/21dcf683-f98d-4581-81a4-2caef23f0c30.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "8169f1eb-7cc0-4be5-a015-5d07916c1504.png",
+
             url: "https://media.mapgenie.io/storage/media/8169f1eb-7cc0-4be5-a015-5d07916c1504.png",
             type: "image",
             mimeType: "image/png",
@@ -15739,7 +15739,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9d9f39e6-50bc-4d9d-8f57-69c5a27aca65.png",
+
             url: "https://media.mapgenie.io/storage/media/9d9f39e6-50bc-4d9d-8f57-69c5a27aca65.png",
             type: "image",
             mimeType: "image/png",
@@ -15757,7 +15757,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cbf125ee-5e89-4135-929e-d537321d3aeb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cbf125ee-5e89-4135-929e-d537321d3aeb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15775,7 +15775,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9f6fbc89-dc4b-441a-a6f4-111bdc831f83.png",
+
             url: "https://media.mapgenie.io/storage/media/9f6fbc89-dc4b-441a-a6f4-111bdc831f83.png",
             type: "image",
             mimeType: "image/png",
@@ -15793,7 +15793,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f413d50c-2219-44c1-a6e3-dba49d25ee28.png",
+
             url: "https://media.mapgenie.io/storage/media/f413d50c-2219-44c1-a6e3-dba49d25ee28.png",
             type: "image",
             mimeType: "image/png",
@@ -15811,7 +15811,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68c4f4d2-e131-4bec-abb0-8500aaede64a.png",
+
             url: "https://media.mapgenie.io/storage/media/68c4f4d2-e131-4bec-abb0-8500aaede64a.png",
             type: "image",
             mimeType: "image/png",
@@ -15829,7 +15829,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "11c321b1-0ff9-4e84-91b8-3b59ead24213.png",
+
             url: "https://media.mapgenie.io/storage/media/11c321b1-0ff9-4e84-91b8-3b59ead24213.png",
             type: "image",
             mimeType: "image/png",
@@ -15847,7 +15847,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b017f329-d559-46c3-8e5a-9dd4daedb04f.png",
+
             url: "https://media.mapgenie.io/storage/media/b017f329-d559-46c3-8e5a-9dd4daedb04f.png",
             type: "image",
             mimeType: "image/png",
@@ -15865,7 +15865,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "15fc207f-26fa-4844-a8e2-944e3b542753.jpg",
+
             url: "https://media.mapgenie.io/storage/media/15fc207f-26fa-4844-a8e2-944e3b542753.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15882,7 +15882,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e1c73857-9585-4e8d-975a-07611c1d5c4b.png",
+
             url: "https://media.mapgenie.io/storage/media/e1c73857-9585-4e8d-975a-07611c1d5c4b.png",
             type: "image",
             mimeType: "image/png",
@@ -15900,7 +15900,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6f69a43b-f2e8-48b0-a836-2beefc31396a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6f69a43b-f2e8-48b0-a836-2beefc31396a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15918,7 +15918,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c828b0b1-0834-4668-968a-b54bdfa7ac2e.png",
+
             url: "https://media.mapgenie.io/storage/media/c828b0b1-0834-4668-968a-b54bdfa7ac2e.png",
             type: "image",
             mimeType: "image/png",
@@ -15936,7 +15936,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f71783bb-de76-4b5b-82b0-b11ab47dfa56.png",
+
             url: "https://media.mapgenie.io/storage/media/f71783bb-de76-4b5b-82b0-b11ab47dfa56.png",
             type: "image",
             mimeType: "image/png",
@@ -15954,7 +15954,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d7396cdf-8173-4034-8e8a-7bd4004269a8.png",
+
             url: "https://media.mapgenie.io/storage/media/d7396cdf-8173-4034-8e8a-7bd4004269a8.png",
             type: "image",
             mimeType: "image/png",
@@ -15972,7 +15972,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45df4f49-3088-410b-8773-17739e0d2d23.jpg",
+
             url: "https://media.mapgenie.io/storage/media/45df4f49-3088-410b-8773-17739e0d2d23.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -15990,7 +15990,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "42f8b36c-92fb-47ac-ab3d-cd8ccdacdb29.png",
+
             url: "https://media.mapgenie.io/storage/media/42f8b36c-92fb-47ac-ab3d-cd8ccdacdb29.png",
             type: "image",
             mimeType: "image/png",
@@ -16008,7 +16008,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0be9169f-b4b5-4e87-a151-fdeb924e656c.png",
+
             url: "https://media.mapgenie.io/storage/media/0be9169f-b4b5-4e87-a151-fdeb924e656c.png",
             type: "image",
             mimeType: "image/png",
@@ -16026,7 +16026,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8181a056-3199-4d13-b97d-0762606a9140.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8181a056-3199-4d13-b97d-0762606a9140.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16044,14 +16044,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cd24e3d0-d127-4277-8dba-6a3d58133d56.png",
+
             url: "https://media.mapgenie.io/storage/media/cd24e3d0-d127-4277-8dba-6a3d58133d56.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "e99728ff-3a8d-494a-a4e4-ec4ad5735f77.png",
+
             url: "https://media.mapgenie.io/storage/media/e99728ff-3a8d-494a-a4e4-ec4ad5735f77.png",
             type: "image",
             mimeType: "image/png",
@@ -16069,7 +16069,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "89b48dc2-ac62-4d6e-8b48-844e91d755fd.png",
+
             url: "https://media.mapgenie.io/storage/media/89b48dc2-ac62-4d6e-8b48-844e91d755fd.png",
             type: "image",
             mimeType: "image/png",
@@ -16087,7 +16087,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b906a730-0421-4550-b921-8c526975b649.png",
+
             url: "https://media.mapgenie.io/storage/media/b906a730-0421-4550-b921-8c526975b649.png",
             type: "image",
             mimeType: "image/png",
@@ -16105,7 +16105,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4b94c29d-e4b3-4d31-bcf0-98e173827464.png",
+
             url: "https://media.mapgenie.io/storage/media/4b94c29d-e4b3-4d31-bcf0-98e173827464.png",
             type: "image",
             mimeType: "image/png",
@@ -16123,7 +16123,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a5955802-f678-491e-8154-7043f077a786.png",
+
             url: "https://media.mapgenie.io/storage/media/a5955802-f678-491e-8154-7043f077a786.png",
             type: "image",
             mimeType: "image/png",
@@ -16141,7 +16141,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1cc92a4-0e42-444b-8a93-dedca102f098.png",
+
             url: "https://media.mapgenie.io/storage/media/f1cc92a4-0e42-444b-8a93-dedca102f098.png",
             type: "image",
             mimeType: "image/png",
@@ -16159,7 +16159,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9abdddb9-e459-4cd9-a5c4-d8027b2bb6b8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9abdddb9-e459-4cd9-a5c4-d8027b2bb6b8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16177,7 +16177,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "49a1d4f6-f8da-482a-b3a2-5aa6c0359489.jpg",
+
             url: "https://media.mapgenie.io/storage/media/49a1d4f6-f8da-482a-b3a2-5aa6c0359489.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16195,7 +16195,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c339f804-df06-4e3c-8c14-9b8fec4c7310.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c339f804-df06-4e3c-8c14-9b8fec4c7310.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16213,7 +16213,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9df13b89-dec3-4e9f-a995-a11cc8be524b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9df13b89-dec3-4e9f-a995-a11cc8be524b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16231,7 +16231,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "36a42fa2-df3e-4782-927d-55e4ce968dac.jpg",
+
             url: "https://media.mapgenie.io/storage/media/36a42fa2-df3e-4782-927d-55e4ce968dac.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16249,7 +16249,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4d6d0bc5-656f-4122-b370-81e1e6345fbc.png",
+
             url: "https://media.mapgenie.io/storage/media/4d6d0bc5-656f-4122-b370-81e1e6345fbc.png",
             type: "image",
             mimeType: "image/png",
@@ -16267,7 +16267,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb332c19-04ad-4d6f-a8bb-10fc949d0f6d.png",
+
             url: "https://media.mapgenie.io/storage/media/bb332c19-04ad-4d6f-a8bb-10fc949d0f6d.png",
             type: "image",
             mimeType: "image/png",
@@ -16285,7 +16285,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "27e650a0-597d-4af5-8534-45d4a3b5d6fc.png",
+
             url: "https://media.mapgenie.io/storage/media/27e650a0-597d-4af5-8534-45d4a3b5d6fc.png",
             type: "image",
             mimeType: "image/png",
@@ -16303,7 +16303,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6405bf8c-9375-4d1c-9652-fc66a473bfcb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6405bf8c-9375-4d1c-9652-fc66a473bfcb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16321,7 +16321,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "57927378-5092-4960-8ca9-3ccf6cd5600a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/57927378-5092-4960-8ca9-3ccf6cd5600a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16339,14 +16339,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cfca68b1-471f-4527-b734-25246716971c.png",
+
             url: "https://media.mapgenie.io/storage/media/cfca68b1-471f-4527-b734-25246716971c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "b5e49f95-45aa-41c3-b09f-fdb3a3a72e9c.png",
+
             url: "https://media.mapgenie.io/storage/media/b5e49f95-45aa-41c3-b09f-fdb3a3a72e9c.png",
             type: "image",
             mimeType: "image/png",
@@ -16364,7 +16364,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8c8dc50e-42cb-4a53-bc35-8f2fd508b92f.png",
+
             url: "https://media.mapgenie.io/storage/media/8c8dc50e-42cb-4a53-bc35-8f2fd508b92f.png",
             type: "image",
             mimeType: "image/png",
@@ -16382,7 +16382,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dc608f1e-fe6a-46eb-99a9-31184d61724f.png",
+
             url: "https://media.mapgenie.io/storage/media/dc608f1e-fe6a-46eb-99a9-31184d61724f.png",
             type: "image",
             mimeType: "image/png",
@@ -16400,7 +16400,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e74be547-112a-4c1f-8ab4-0b07f86fa5cd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e74be547-112a-4c1f-8ab4-0b07f86fa5cd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16418,7 +16418,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "99c8be8d-ee8c-4e84-892e-d51d2ad746c9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/99c8be8d-ee8c-4e84-892e-d51d2ad746c9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16436,7 +16436,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2735074c-04de-49f4-8741-00b23244ae04.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2735074c-04de-49f4-8741-00b23244ae04.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16454,7 +16454,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "244fec5a-5b72-4477-8b1a-89cf2252c440.jpg",
+
             url: "https://media.mapgenie.io/storage/media/244fec5a-5b72-4477-8b1a-89cf2252c440.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16472,14 +16472,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9b071e84-18ba-4a71-ba7e-08a39ef32ceb.png",
+
             url: "https://media.mapgenie.io/storage/media/9b071e84-18ba-4a71-ba7e-08a39ef32ceb.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "6e5da3be-4487-4f93-a476-26a779e7255f.png",
+
             url: "https://media.mapgenie.io/storage/media/6e5da3be-4487-4f93-a476-26a779e7255f.png",
             type: "image",
             mimeType: "image/png",
@@ -16497,7 +16497,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8e237418-974b-4dab-a7b8-5c97ac026c1e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8e237418-974b-4dab-a7b8-5c97ac026c1e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16515,7 +16515,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f5affc59-adc4-4284-a4e5-10f65ccfff41.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f5affc59-adc4-4284-a4e5-10f65ccfff41.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16533,7 +16533,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e17e0143-6332-4ee8-8e43-e6860e577924.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e17e0143-6332-4ee8-8e43-e6860e577924.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16551,7 +16551,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "67104714-99d0-4b34-9cb3-f702d1d5441a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/67104714-99d0-4b34-9cb3-f702d1d5441a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16569,7 +16569,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7bc178ac-9026-491e-902c-3baa3b671d28.png",
+
             url: "https://media.mapgenie.io/storage/media/7bc178ac-9026-491e-902c-3baa3b671d28.png",
             type: "image",
             mimeType: "image/png",
@@ -16587,7 +16587,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "27fc927a-3441-4738-a27a-55696b905227.jpg",
+
             url: "https://media.mapgenie.io/storage/media/27fc927a-3441-4738-a27a-55696b905227.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16605,7 +16605,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0160861b-d09a-4682-aea7-ed5cf42c66c5.png",
+
             url: "https://media.mapgenie.io/storage/media/0160861b-d09a-4682-aea7-ed5cf42c66c5.png",
             type: "image",
             mimeType: "image/png",
@@ -16623,7 +16623,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "efb03437-5396-48ce-9711-07a3ccc0878b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/efb03437-5396-48ce-9711-07a3ccc0878b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16641,14 +16641,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1ddd2d7e-2d47-4fb4-b3cf-9afc2f8f9194.png",
+
             url: "https://media.mapgenie.io/storage/media/1ddd2d7e-2d47-4fb4-b3cf-9afc2f8f9194.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "9bed56fd-2e37-40f6-8e6d-b969029f793d.png",
+
             url: "https://media.mapgenie.io/storage/media/9bed56fd-2e37-40f6-8e6d-b969029f793d.png",
             type: "image",
             mimeType: "image/png",
@@ -16666,7 +16666,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "59edfae4-59b7-412b-9844-c787f3108fb7.png",
+
             url: "https://media.mapgenie.io/storage/media/59edfae4-59b7-412b-9844-c787f3108fb7.png",
             type: "image",
             mimeType: "image/png",
@@ -16684,7 +16684,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "841ce5e8-5613-4900-8099-def0728e137c.png",
+
             url: "https://media.mapgenie.io/storage/media/841ce5e8-5613-4900-8099-def0728e137c.png",
             type: "image",
             mimeType: "image/png",
@@ -16702,14 +16702,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "84a5b61d-733e-48aa-b16b-4bc3a2babae0.png",
+
             url: "https://media.mapgenie.io/storage/media/84a5b61d-733e-48aa-b16b-4bc3a2babae0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c6e93be4-640a-46a8-90ef-cc60601ca2e2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c6e93be4-640a-46a8-90ef-cc60601ca2e2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16727,7 +16727,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e616a979-6bd6-4a08-ac6f-78dcf63881dc.png",
+
             url: "https://media.mapgenie.io/storage/media/e616a979-6bd6-4a08-ac6f-78dcf63881dc.png",
             type: "image",
             mimeType: "image/png",
@@ -16745,7 +16745,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4b79aaf8-f427-4eb2-afd9-c2cf7d9cada6.png",
+
             url: "https://media.mapgenie.io/storage/media/4b79aaf8-f427-4eb2-afd9-c2cf7d9cada6.png",
             type: "image",
             mimeType: "image/png",
@@ -16763,7 +16763,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9ccc64bf-13ea-4e67-9b15-2908cf57890c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9ccc64bf-13ea-4e67-9b15-2908cf57890c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16781,7 +16781,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "09eaf89b-cf68-4e70-9cee-e83293944c5e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/09eaf89b-cf68-4e70-9cee-e83293944c5e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -16799,7 +16799,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0eab7504-4b96-468f-a83a-8f13919b1673.png",
+
             url: "https://media.mapgenie.io/storage/media/0eab7504-4b96-468f-a83a-8f13919b1673.png",
             type: "image",
             mimeType: "image/png",
@@ -16817,7 +16817,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e99cd608-072b-4d10-94eb-691e4854a381.png",
+
             url: "https://media.mapgenie.io/storage/media/e99cd608-072b-4d10-94eb-691e4854a381.png",
             type: "image",
             mimeType: "image/png",
@@ -16835,7 +16835,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b62b7384-982f-45ee-ba77-d04bf79b397a.png",
+
             url: "https://media.mapgenie.io/storage/media/b62b7384-982f-45ee-ba77-d04bf79b397a.png",
             type: "image",
             mimeType: "image/png",
@@ -16853,7 +16853,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "222ce503-799f-4984-af70-2459221a3499.png",
+
             url: "https://media.mapgenie.io/storage/media/222ce503-799f-4984-af70-2459221a3499.png",
             type: "image",
             mimeType: "image/png",
@@ -16871,7 +16871,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "280a573d-ef96-4da2-9ffb-7b32897e0d85.png",
+
             url: "https://media.mapgenie.io/storage/media/280a573d-ef96-4da2-9ffb-7b32897e0d85.png",
             type: "image",
             mimeType: "image/png",
@@ -16889,7 +16889,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "62f49f77-b5eb-4551-a67d-5ec98b4a816c.png",
+
             url: "https://media.mapgenie.io/storage/media/62f49f77-b5eb-4551-a67d-5ec98b4a816c.png",
             type: "image",
             mimeType: "image/png",
@@ -16907,7 +16907,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e31e7b46-aede-4989-a012-18f49ca5be28.png",
+
             url: "https://media.mapgenie.io/storage/media/e31e7b46-aede-4989-a012-18f49ca5be28.png",
             type: "image",
             mimeType: "image/png",
@@ -16925,7 +16925,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0a684e5a-6004-4100-b1e4-84f5b6861a9d.png",
+
             url: "https://media.mapgenie.io/storage/media/0a684e5a-6004-4100-b1e4-84f5b6861a9d.png",
             type: "image",
             mimeType: "image/png",
@@ -16943,7 +16943,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b1955894-cdde-48b8-8cfe-e868b6d34cd1.png",
+
             url: "https://media.mapgenie.io/storage/media/b1955894-cdde-48b8-8cfe-e868b6d34cd1.png",
             type: "image",
             mimeType: "image/png",
@@ -16961,7 +16961,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "533d3f63-97c2-48a3-a9c1-d790923d185b.png",
+
             url: "https://media.mapgenie.io/storage/media/533d3f63-97c2-48a3-a9c1-d790923d185b.png",
             type: "image",
             mimeType: "image/png",
@@ -16979,7 +16979,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7f170c97-2b52-4fc6-9d78-5e10fae65e93.png",
+
             url: "https://media.mapgenie.io/storage/media/7f170c97-2b52-4fc6-9d78-5e10fae65e93.png",
             type: "image",
             mimeType: "image/png",
@@ -16997,7 +16997,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a4f51a58-68cd-4461-93ed-e264ad302a33.png",
+
             url: "https://media.mapgenie.io/storage/media/a4f51a58-68cd-4461-93ed-e264ad302a33.png",
             type: "image",
             mimeType: "image/png",
@@ -17015,7 +17015,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8489f1d3-6312-4f4e-bdb1-b27c4f6affc9.png",
+
             url: "https://media.mapgenie.io/storage/media/8489f1d3-6312-4f4e-bdb1-b27c4f6affc9.png",
             type: "image",
             mimeType: "image/png",
@@ -17033,7 +17033,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ec789fde-5ab9-4752-847f-8bf7bb15828e.png",
+
             url: "https://media.mapgenie.io/storage/media/ec789fde-5ab9-4752-847f-8bf7bb15828e.png",
             type: "image",
             mimeType: "image/png",
@@ -17051,7 +17051,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d9916ce0-82f8-42c4-a02f-45249aa9e601.png",
+
             url: "https://media.mapgenie.io/storage/media/d9916ce0-82f8-42c4-a02f-45249aa9e601.png",
             type: "image",
             mimeType: "image/png",
@@ -17069,7 +17069,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8e62c208-b10e-4c1e-8b08-b9ad68b3b365.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8e62c208-b10e-4c1e-8b08-b9ad68b3b365.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17087,14 +17087,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5276d49c-87c2-462e-9488-51a5abd947ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5276d49c-87c2-462e-9488-51a5abd947ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2a5a4a66-3f72-4f58-9ab9-401a46cf49be.png",
+
             url: "https://media.mapgenie.io/storage/media/2a5a4a66-3f72-4f58-9ab9-401a46cf49be.png",
             type: "image",
             mimeType: "image/png",
@@ -17112,7 +17112,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e42acca2-22d5-4ad0-8935-ca9183422eee.png",
+
             url: "https://media.mapgenie.io/storage/media/e42acca2-22d5-4ad0-8935-ca9183422eee.png",
             type: "image",
             mimeType: "image/png",
@@ -17130,7 +17130,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "742dd787-f6ac-47c9-ae3c-e58ee3a7296a.png",
+
             url: "https://media.mapgenie.io/storage/media/742dd787-f6ac-47c9-ae3c-e58ee3a7296a.png",
             type: "image",
             mimeType: "image/png",
@@ -17148,7 +17148,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ebab2683-bd71-4656-82d5-5b97fb0ba93a.png",
+
             url: "https://media.mapgenie.io/storage/media/ebab2683-bd71-4656-82d5-5b97fb0ba93a.png",
             type: "image",
             mimeType: "image/png",
@@ -17166,7 +17166,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "864a076d-ebb4-4c6f-8d67-759407c5fa8c.png",
+
             url: "https://media.mapgenie.io/storage/media/864a076d-ebb4-4c6f-8d67-759407c5fa8c.png",
             type: "image",
             mimeType: "image/png",
@@ -17184,7 +17184,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ce3e59d-a8d4-4869-b405-22e12a92b1a7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0ce3e59d-a8d4-4869-b405-22e12a92b1a7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17202,7 +17202,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e2d41480-d2e1-4715-ab9c-aea959ec9e1b.png",
+
             url: "https://media.mapgenie.io/storage/media/e2d41480-d2e1-4715-ab9c-aea959ec9e1b.png",
             type: "image",
             mimeType: "image/png",
@@ -17220,7 +17220,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b2258913-c292-44e6-aa15-4f901483bdb1.png",
+
             url: "https://media.mapgenie.io/storage/media/b2258913-c292-44e6-aa15-4f901483bdb1.png",
             type: "image",
             mimeType: "image/png",
@@ -17238,14 +17238,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "549c4878-230f-4375-9830-d8e533327296.png",
+
             url: "https://media.mapgenie.io/storage/media/549c4878-230f-4375-9830-d8e533327296.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "3770d26c-6a84-49bd-8ecd-7a5b4dd10424.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3770d26c-6a84-49bd-8ecd-7a5b4dd10424.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17263,7 +17263,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5011729c-091e-4f44-b976-a7e3eaa1c769.png",
+
             url: "https://media.mapgenie.io/storage/media/5011729c-091e-4f44-b976-a7e3eaa1c769.png",
             type: "image",
             mimeType: "image/png",
@@ -17281,14 +17281,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "92c9ded8-da9e-4c1a-8530-0da727189759.png",
+
             url: "https://media.mapgenie.io/storage/media/92c9ded8-da9e-4c1a-8530-0da727189759.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "5e8c664d-e73b-41ad-afea-d682d74c24ee.png",
+
             url: "https://media.mapgenie.io/storage/media/5e8c664d-e73b-41ad-afea-d682d74c24ee.png",
             type: "image",
             mimeType: "image/png",
@@ -17306,14 +17306,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f832c5dd-2a17-45e3-abdb-ed58c7eca4aa.png",
+
             url: "https://media.mapgenie.io/storage/media/f832c5dd-2a17-45e3-abdb-ed58c7eca4aa.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "65821811-05ee-411a-b26d-bd0041e47445.png",
+
             url: "https://media.mapgenie.io/storage/media/65821811-05ee-411a-b26d-bd0041e47445.png",
             type: "image",
             mimeType: "image/png",
@@ -17331,7 +17331,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bd1c4040-6e1e-4a19-9b49-f1e8b58bf783.png",
+
             url: "https://media.mapgenie.io/storage/media/bd1c4040-6e1e-4a19-9b49-f1e8b58bf783.png",
             type: "image",
             mimeType: "image/png",
@@ -17349,7 +17349,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb418982-beab-4bcf-a021-d2128aaf22ee.png",
+
             url: "https://media.mapgenie.io/storage/media/bb418982-beab-4bcf-a021-d2128aaf22ee.png",
             type: "image",
             mimeType: "image/png",
@@ -17367,7 +17367,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bf749991-d71a-44e5-80e4-0dfc110c5c8d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bf749991-d71a-44e5-80e4-0dfc110c5c8d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17385,7 +17385,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "32b3d087-0933-48b7-be89-36d7d71208c8.png",
+
             url: "https://media.mapgenie.io/storage/media/32b3d087-0933-48b7-be89-36d7d71208c8.png",
             type: "image",
             mimeType: "image/png",
@@ -17403,7 +17403,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f518c26e-d398-4a5c-b410-fa10b53c5beb.png",
+
             url: "https://media.mapgenie.io/storage/media/f518c26e-d398-4a5c-b410-fa10b53c5beb.png",
             type: "image",
             mimeType: "image/png",
@@ -17421,7 +17421,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4e58e617-bd87-45ab-985e-f5ffa6e885c3.png",
+
             url: "https://media.mapgenie.io/storage/media/4e58e617-bd87-45ab-985e-f5ffa6e885c3.png",
             type: "image",
             mimeType: "image/png",
@@ -17439,7 +17439,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7026d85d-580e-4d00-bdef-7713a57dfbcd.png",
+
             url: "https://media.mapgenie.io/storage/media/7026d85d-580e-4d00-bdef-7713a57dfbcd.png",
             type: "image",
             mimeType: "image/png",
@@ -17457,7 +17457,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a626ee70-82ee-4a2a-96d4-f77c7c04ad0b.png",
+
             url: "https://media.mapgenie.io/storage/media/a626ee70-82ee-4a2a-96d4-f77c7c04ad0b.png",
             type: "image",
             mimeType: "image/png",
@@ -17475,7 +17475,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3d24ca6-6a17-4a7d-a707-2ecbb53a8d0e.png",
+
             url: "https://media.mapgenie.io/storage/media/e3d24ca6-6a17-4a7d-a707-2ecbb53a8d0e.png",
             type: "image",
             mimeType: "image/png",
@@ -17493,14 +17493,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "29159da8-8486-4715-9628-535df2a764ad.png",
+
             url: "https://media.mapgenie.io/storage/media/29159da8-8486-4715-9628-535df2a764ad.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "5ff229a1-5016-49b6-8dcc-361c9a6ecf8c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5ff229a1-5016-49b6-8dcc-361c9a6ecf8c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17518,7 +17518,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00c3c4aa-4149-480e-bb0e-69cc3da08737.png",
+
             url: "https://media.mapgenie.io/storage/media/00c3c4aa-4149-480e-bb0e-69cc3da08737.png",
             type: "image",
             mimeType: "image/png",
@@ -17536,7 +17536,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3a023304-c2ff-4a8f-b577-598da3167f03.png",
+
             url: "https://media.mapgenie.io/storage/media/3a023304-c2ff-4a8f-b577-598da3167f03.png",
             type: "image",
             mimeType: "image/png",
@@ -17554,7 +17554,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1cb96334-7e5f-4ee6-980d-2a45cc36a71c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1cb96334-7e5f-4ee6-980d-2a45cc36a71c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17572,7 +17572,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4e10219b-f361-4fe0-8041-220bc5badfef.png",
+
             url: "https://media.mapgenie.io/storage/media/4e10219b-f361-4fe0-8041-220bc5badfef.png",
             type: "image",
             mimeType: "image/png",
@@ -17590,7 +17590,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "40451f8c-3655-4f07-9e44-b80dc13fd140.png",
+
             url: "https://media.mapgenie.io/storage/media/40451f8c-3655-4f07-9e44-b80dc13fd140.png",
             type: "image",
             mimeType: "image/png",
@@ -17608,7 +17608,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d0e71d20-27cf-4bfc-b673-ce9825ea0cc5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d0e71d20-27cf-4bfc-b673-ce9825ea0cc5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17626,7 +17626,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ad652602-dc15-4a7f-8db8-f63fd8a468d1.png",
+
             url: "https://media.mapgenie.io/storage/media/ad652602-dc15-4a7f-8db8-f63fd8a468d1.png",
             type: "image",
             mimeType: "image/png",
@@ -17644,21 +17644,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6c459d66-0314-4204-9dcc-c25f2c7fbe4f.png",
+
             url: "https://media.mapgenie.io/storage/media/6c459d66-0314-4204-9dcc-c25f2c7fbe4f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "52c2cc2f-3b79-40c7-91a9-afd92ec9bf33.png",
+
             url: "https://media.mapgenie.io/storage/media/52c2cc2f-3b79-40c7-91a9-afd92ec9bf33.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "5bfa4d0d-d3bc-489d-a230-f7f0d4a6c837.png",
+
             url: "https://media.mapgenie.io/storage/media/5bfa4d0d-d3bc-489d-a230-f7f0d4a6c837.png",
             type: "image",
             mimeType: "image/png",
@@ -17676,7 +17676,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "522bc76d-2860-4907-ab45-795e93ff376b.png",
+
             url: "https://media.mapgenie.io/storage/media/522bc76d-2860-4907-ab45-795e93ff376b.png",
             type: "image",
             mimeType: "image/png",
@@ -17694,7 +17694,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "74cbda18-207e-4961-b3d4-8b1cd03ed0a1.png",
+
             url: "https://media.mapgenie.io/storage/media/74cbda18-207e-4961-b3d4-8b1cd03ed0a1.png",
             type: "image",
             mimeType: "image/png",
@@ -17712,7 +17712,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "422e1a48-ad3f-4d9a-a00b-81b9f4d09ca7.png",
+
             url: "https://media.mapgenie.io/storage/media/422e1a48-ad3f-4d9a-a00b-81b9f4d09ca7.png",
             type: "image",
             mimeType: "image/png",
@@ -17730,7 +17730,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "349a800b-50fa-46aa-b4a3-c907c0649fde.png",
+
             url: "https://media.mapgenie.io/storage/media/349a800b-50fa-46aa-b4a3-c907c0649fde.png",
             type: "image",
             mimeType: "image/png",
@@ -17748,14 +17748,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e239186b-12ac-4141-95e7-960d903f53e4.png",
+
             url: "https://media.mapgenie.io/storage/media/e239186b-12ac-4141-95e7-960d903f53e4.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f15a1bef-d8ab-4683-b654-907e8429af53.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f15a1bef-d8ab-4683-b654-907e8429af53.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17773,14 +17773,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b9d645cd-ff94-4b0a-8b19-0084b028b3b8.png",
+
             url: "https://media.mapgenie.io/storage/media/b9d645cd-ff94-4b0a-8b19-0084b028b3b8.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "de0c1db8-953f-4d8d-a7aa-fa72c24179f6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/de0c1db8-953f-4d8d-a7aa-fa72c24179f6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17798,14 +17798,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eae8c473-02d8-4964-a9c9-5571831eca94.png",
+
             url: "https://media.mapgenie.io/storage/media/eae8c473-02d8-4964-a9c9-5571831eca94.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "39f3e303-c701-4188-82a3-5d803758d636.jpg",
+
             url: "https://media.mapgenie.io/storage/media/39f3e303-c701-4188-82a3-5d803758d636.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17823,7 +17823,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b18c8a3-e7ee-427b-9519-e351eebb3642.png",
+
             url: "https://media.mapgenie.io/storage/media/0b18c8a3-e7ee-427b-9519-e351eebb3642.png",
             type: "image",
             mimeType: "image/png",
@@ -17841,7 +17841,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "422ae56a-453f-4534-88c7-d4194691fed3.png",
+
             url: "https://media.mapgenie.io/storage/media/422ae56a-453f-4534-88c7-d4194691fed3.png",
             type: "image",
             mimeType: "image/png",
@@ -17859,7 +17859,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f9a50edb-1bdd-448f-b39a-5df152f3da83.png",
+
             url: "https://media.mapgenie.io/storage/media/f9a50edb-1bdd-448f-b39a-5df152f3da83.png",
             type: "image",
             mimeType: "image/png",
@@ -17877,7 +17877,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bcee2105-6098-4ab3-b6b1-a371113d4e91.png",
+
             url: "https://media.mapgenie.io/storage/media/bcee2105-6098-4ab3-b6b1-a371113d4e91.png",
             type: "image",
             mimeType: "image/png",
@@ -17895,14 +17895,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fb4c0879-d5fa-4571-a75f-547f8a5d89f0.png",
+
             url: "https://media.mapgenie.io/storage/media/fb4c0879-d5fa-4571-a75f-547f8a5d89f0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "dbf30361-2511-432f-83ad-ad5ba3c4a590.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dbf30361-2511-432f-83ad-ad5ba3c4a590.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17920,7 +17920,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8f8995e7-9d37-4e6b-9254-4d9848e0a622.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8f8995e7-9d37-4e6b-9254-4d9848e0a622.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17938,7 +17938,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a9ea0858-0b63-46b1-b53f-5354bf591661.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a9ea0858-0b63-46b1-b53f-5354bf591661.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -17956,14 +17956,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "703bebdf-f445-42c3-85f6-0a4c9725a269.png",
+
             url: "https://media.mapgenie.io/storage/media/703bebdf-f445-42c3-85f6-0a4c9725a269.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "156f8b00-b7af-4e92-9108-254b8d14878c.png",
+
             url: "https://media.mapgenie.io/storage/media/156f8b00-b7af-4e92-9108-254b8d14878c.png",
             type: "image",
             mimeType: "image/png",
@@ -17981,7 +17981,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8ed05030-c237-487a-a271-8376329acef5.png",
+
             url: "https://media.mapgenie.io/storage/media/8ed05030-c237-487a-a271-8376329acef5.png",
             type: "image",
             mimeType: "image/png",
@@ -17999,14 +17999,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fed41d19-5f3b-4ccd-90b4-6ef53012e5e7.png",
+
             url: "https://media.mapgenie.io/storage/media/fed41d19-5f3b-4ccd-90b4-6ef53012e5e7.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "4e7f1291-2f69-4d91-ba33-40bb89857791.png",
+
             url: "https://media.mapgenie.io/storage/media/4e7f1291-2f69-4d91-ba33-40bb89857791.png",
             type: "image",
             mimeType: "image/png",
@@ -18024,14 +18024,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1767edbf-85e6-48b6-aed5-7b9023cbfc05.png",
+
             url: "https://media.mapgenie.io/storage/media/1767edbf-85e6-48b6-aed5-7b9023cbfc05.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "a36ae4d0-c695-43f8-b5a5-37a2b53dfa96.png",
+
             url: "https://media.mapgenie.io/storage/media/a36ae4d0-c695-43f8-b5a5-37a2b53dfa96.png",
             type: "image",
             mimeType: "image/png",
@@ -18049,7 +18049,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45ecd27a-d295-4e4a-9a02-34a8dee4bbc9.png",
+
             url: "https://media.mapgenie.io/storage/media/45ecd27a-d295-4e4a-9a02-34a8dee4bbc9.png",
             type: "image",
             mimeType: "image/png",
@@ -18067,7 +18067,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "221d245c-e4ff-42f1-9da3-30727d8f85b3.png",
+
             url: "https://media.mapgenie.io/storage/media/221d245c-e4ff-42f1-9da3-30727d8f85b3.png",
             type: "image",
             mimeType: "image/png",
@@ -18085,7 +18085,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0e8d425f-baa6-4888-9342-a59ab035dd9d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0e8d425f-baa6-4888-9342-a59ab035dd9d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18103,7 +18103,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9fdcc524-f281-41e0-989e-ace2bc3bae30.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9fdcc524-f281-41e0-989e-ace2bc3bae30.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18121,7 +18121,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e4c9ae02-0e00-4956-b8d8-f53ec93468b1.png",
+
             url: "https://media.mapgenie.io/storage/media/e4c9ae02-0e00-4956-b8d8-f53ec93468b1.png",
             type: "image",
             mimeType: "image/png",
@@ -18139,7 +18139,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "578e49ee-639b-408c-bf48-f24f1d237b88.jpg",
+
             url: "https://media.mapgenie.io/storage/media/578e49ee-639b-408c-bf48-f24f1d237b88.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18157,7 +18157,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ac2216c3-6f3d-4f71-86e4-968a4f39c495.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ac2216c3-6f3d-4f71-86e4-968a4f39c495.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18175,7 +18175,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "74c78953-4933-43ff-85f9-450735402946.jpg",
+
             url: "https://media.mapgenie.io/storage/media/74c78953-4933-43ff-85f9-450735402946.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18193,7 +18193,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dfaee00e-f36e-4801-bb9a-c9975a02432f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dfaee00e-f36e-4801-bb9a-c9975a02432f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18211,7 +18211,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fe608fdb-924b-454d-8398-36707d2b0188.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fe608fdb-924b-454d-8398-36707d2b0188.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18229,7 +18229,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1ac0142e-0eca-413c-a953-d7712b7afbfb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1ac0142e-0eca-413c-a953-d7712b7afbfb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18247,7 +18247,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6844f8f8-4dc0-4f9f-801c-ed78756557b4.png",
+
             url: "https://media.mapgenie.io/storage/media/6844f8f8-4dc0-4f9f-801c-ed78756557b4.png",
             type: "image",
             mimeType: "image/png",
@@ -18265,7 +18265,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ba59760d-701e-4f1c-ac44-137761a6227c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ba59760d-701e-4f1c-ac44-137761a6227c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18283,14 +18283,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f3320e58-8fe6-4e36-affb-00b0b3d97821.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f3320e58-8fe6-4e36-affb-00b0b3d97821.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "541b7cb7-45a4-416c-a8eb-b403f97076f3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/541b7cb7-45a4-416c-a8eb-b403f97076f3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18308,7 +18308,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2658633e-f88c-4876-8902-ff7ca56fd417.png",
+
             url: "https://media.mapgenie.io/storage/media/2658633e-f88c-4876-8902-ff7ca56fd417.png",
             type: "image",
             mimeType: "image/png",
@@ -18326,7 +18326,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c5e91ad0-ca06-4de6-8c40-c0d6756cd006.png",
+
             url: "https://media.mapgenie.io/storage/media/c5e91ad0-ca06-4de6-8c40-c0d6756cd006.png",
             type: "image",
             mimeType: "image/png",
@@ -18344,7 +18344,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "82805e54-e848-4409-b073-3af2b2daa704.jpg",
+
             url: "https://media.mapgenie.io/storage/media/82805e54-e848-4409-b073-3af2b2daa704.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18362,7 +18362,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c79ba8c6-870b-4dfe-919e-e9151db1af97.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c79ba8c6-870b-4dfe-919e-e9151db1af97.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18380,7 +18380,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "014b487f-9600-4538-bed3-76d7f645c65b.png",
+
             url: "https://media.mapgenie.io/storage/media/014b487f-9600-4538-bed3-76d7f645c65b.png",
             type: "image",
             mimeType: "image/png",
@@ -18398,7 +18398,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "053ab013-e237-481c-8890-3ca12787cad9.png",
+
             url: "https://media.mapgenie.io/storage/media/053ab013-e237-481c-8890-3ca12787cad9.png",
             type: "image",
             mimeType: "image/png",
@@ -18416,7 +18416,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "85aed81d-91e8-4752-ae60-7f097bfab9f6.png",
+
             url: "https://media.mapgenie.io/storage/media/85aed81d-91e8-4752-ae60-7f097bfab9f6.png",
             type: "image",
             mimeType: "image/png",
@@ -18434,7 +18434,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e12430f9-c7e5-447e-bdf4-e3b8e921ddb1.png",
+
             url: "https://media.mapgenie.io/storage/media/e12430f9-c7e5-447e-bdf4-e3b8e921ddb1.png",
             type: "image",
             mimeType: "image/png",
@@ -18452,7 +18452,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bc795eb0-fa69-4c7c-b430-cda0c2af66da.png",
+
             url: "https://media.mapgenie.io/storage/media/bc795eb0-fa69-4c7c-b430-cda0c2af66da.png",
             type: "image",
             mimeType: "image/png",
@@ -18470,7 +18470,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e504bdf-c294-4022-a85a-488427eb1008.png",
+
             url: "https://media.mapgenie.io/storage/media/7e504bdf-c294-4022-a85a-488427eb1008.png",
             type: "image",
             mimeType: "image/png",
@@ -18488,14 +18488,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d5c697ec-9a83-42a3-876a-e0a47101fc31.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d5c697ec-9a83-42a3-876a-e0a47101fc31.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "5e20ea14-2358-4d7a-bb81-0063778fbd6d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5e20ea14-2358-4d7a-bb81-0063778fbd6d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18513,7 +18513,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e8eec4a9-c9c9-42d4-ab47-8b86aebc96a5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e8eec4a9-c9c9-42d4-ab47-8b86aebc96a5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18531,7 +18531,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bf42849-01bd-4d00-812a-6fd2ede7759e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1bf42849-01bd-4d00-812a-6fd2ede7759e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18549,14 +18549,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "71e8f9f2-a444-4cb5-b3af-a4d023a745af.png",
+
             url: "https://media.mapgenie.io/storage/media/71e8f9f2-a444-4cb5-b3af-a4d023a745af.png",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "db486c21-a5a1-4377-8423-034cdeb46cbe.png",
+
             url: "https://media.mapgenie.io/storage/media/db486c21-a5a1-4377-8423-034cdeb46cbe.png",
             type: "image",
             mimeType: "image/png",
@@ -18574,7 +18574,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6b6d1354-ad09-404e-9f7f-7434e2d00440.png",
+
             url: "https://media.mapgenie.io/storage/media/6b6d1354-ad09-404e-9f7f-7434e2d00440.png",
             type: "image",
             mimeType: "image/png",
@@ -18592,7 +18592,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9a3fe9e9-b74d-4c9a-b0a1-c097bfec3329.png",
+
             url: "https://media.mapgenie.io/storage/media/9a3fe9e9-b74d-4c9a-b0a1-c097bfec3329.png",
             type: "image",
             mimeType: "image/png",
@@ -18610,7 +18610,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3b25bc78-50c0-4a71-a5c1-1978be978b5c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3b25bc78-50c0-4a71-a5c1-1978be978b5c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18628,7 +18628,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aab66b4e-0e34-4f63-904f-17daacf9be9b.png",
+
             url: "https://media.mapgenie.io/storage/media/aab66b4e-0e34-4f63-904f-17daacf9be9b.png",
             type: "image",
             mimeType: "image/png",
@@ -18646,7 +18646,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a1c5eff9-e473-4a96-84bd-1e9fad610e7e.png",
+
             url: "https://media.mapgenie.io/storage/media/a1c5eff9-e473-4a96-84bd-1e9fad610e7e.png",
             type: "image",
             mimeType: "image/png",
@@ -18664,7 +18664,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8bd6ed25-fcb0-4fed-955f-3c8740b2b345.jpeg",
+
             url: "https://media.mapgenie.io/storage/media/8bd6ed25-fcb0-4fed-955f-3c8740b2b345.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18682,14 +18682,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23980067-39bf-4f15-9f65-04ba562a2f69.png",
+
             url: "https://media.mapgenie.io/storage/media/23980067-39bf-4f15-9f65-04ba562a2f69.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "886b374e-b60c-4d07-81e8-a038ba285547.png",
+
             url: "https://media.mapgenie.io/storage/media/886b374e-b60c-4d07-81e8-a038ba285547.png",
             type: "image",
             mimeType: "image/png",
@@ -18707,7 +18707,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b864d256-a1ca-4f14-9a67-21c03b9d3644.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b864d256-a1ca-4f14-9a67-21c03b9d3644.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18725,7 +18725,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b2636235-ee2e-4fd8-9bfd-610d636d203f.png",
+
             url: "https://media.mapgenie.io/storage/media/b2636235-ee2e-4fd8-9bfd-610d636d203f.png",
             type: "image",
             mimeType: "image/png",
@@ -18743,7 +18743,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1dd93832-4611-4836-9a9b-af23cd3646ff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1dd93832-4611-4836-9a9b-af23cd3646ff.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18761,7 +18761,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f627b5a1-7963-4eac-9be3-bf62cb5ad4d3.png",
+
             url: "https://media.mapgenie.io/storage/media/f627b5a1-7963-4eac-9be3-bf62cb5ad4d3.png",
             type: "image",
             mimeType: "image/png",
@@ -18779,7 +18779,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "06e2e2d5-5aa6-4c3a-9a08-8700c03c000e.png",
+
             url: "https://media.mapgenie.io/storage/media/06e2e2d5-5aa6-4c3a-9a08-8700c03c000e.png",
             type: "image",
             mimeType: "image/png",
@@ -18797,7 +18797,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d91d84f1-5f72-476e-a70a-082e4eec37a5.png",
+
             url: "https://media.mapgenie.io/storage/media/d91d84f1-5f72-476e-a70a-082e4eec37a5.png",
             type: "image",
             mimeType: "image/png",
@@ -18815,7 +18815,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9e779474-68bd-4efc-9df0-f490c95bc1e3.png",
+
             url: "https://media.mapgenie.io/storage/media/9e779474-68bd-4efc-9df0-f490c95bc1e3.png",
             type: "image",
             mimeType: "image/png",
@@ -18833,7 +18833,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23fe7986-b42a-4330-96a6-c43e7c4a7fb4.png",
+
             url: "https://media.mapgenie.io/storage/media/23fe7986-b42a-4330-96a6-c43e7c4a7fb4.png",
             type: "image",
             mimeType: "image/png",
@@ -18851,7 +18851,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a8108d9e-a8f2-429e-85c6-85e9d81e53fe.png",
+
             url: "https://media.mapgenie.io/storage/media/a8108d9e-a8f2-429e-85c6-85e9d81e53fe.png",
             type: "image",
             mimeType: "image/png",
@@ -18869,7 +18869,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23c41a49-2c4c-4e65-b2e0-a3c54eb800a0.png",
+
             url: "https://media.mapgenie.io/storage/media/23c41a49-2c4c-4e65-b2e0-a3c54eb800a0.png",
             type: "image",
             mimeType: "image/png",
@@ -18887,7 +18887,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "93a6fa40-a8be-4386-b39b-369b7b2cfc5b.png",
+
             url: "https://media.mapgenie.io/storage/media/93a6fa40-a8be-4386-b39b-369b7b2cfc5b.png",
             type: "image",
             mimeType: "image/png",
@@ -18905,7 +18905,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "97fe330c-a092-41db-a31d-b6e27ef89e6e.png",
+
             url: "https://media.mapgenie.io/storage/media/97fe330c-a092-41db-a31d-b6e27ef89e6e.png",
             type: "image",
             mimeType: "image/png",
@@ -18923,7 +18923,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "81b82f7a-82b5-423a-b932-2884ca0044b4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/81b82f7a-82b5-423a-b932-2884ca0044b4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -18941,7 +18941,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "49edd307-b8a0-4cd8-ad8d-3425b54dac1b.png",
+
             url: "https://media.mapgenie.io/storage/media/49edd307-b8a0-4cd8-ad8d-3425b54dac1b.png",
             type: "image",
             mimeType: "image/png",
@@ -18959,7 +18959,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6029a8b4-f9b7-4987-8449-dae6479d1abe.png",
+
             url: "https://media.mapgenie.io/storage/media/6029a8b4-f9b7-4987-8449-dae6479d1abe.png",
             type: "image",
             mimeType: "image/png",
@@ -18977,7 +18977,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "06007a8f-7ff0-4847-acc6-334e9b2ad131.png",
+
             url: "https://media.mapgenie.io/storage/media/06007a8f-7ff0-4847-acc6-334e9b2ad131.png",
             type: "image",
             mimeType: "image/png",
@@ -18995,7 +18995,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9fe78556-9ce3-4198-996a-05bbd514dbcd.png",
+
             url: "https://media.mapgenie.io/storage/media/9fe78556-9ce3-4198-996a-05bbd514dbcd.png",
             type: "image",
             mimeType: "image/png",
@@ -19013,7 +19013,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dd76b829-71b0-4788-a631-54b6798d2731.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd76b829-71b0-4788-a631-54b6798d2731.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19031,7 +19031,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3c45351-c6d7-4a0a-b054-13591836c206.png",
+
             url: "https://media.mapgenie.io/storage/media/e3c45351-c6d7-4a0a-b054-13591836c206.png",
             type: "image",
             mimeType: "image/png",
@@ -19049,7 +19049,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "26e2e0aa-26e7-450f-a6bf-f266d8dedb93.jpg",
+
             url: "https://media.mapgenie.io/storage/media/26e2e0aa-26e7-450f-a6bf-f266d8dedb93.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19067,7 +19067,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45d3f985-9936-4a89-909e-3c195cd64b39.png",
+
             url: "https://media.mapgenie.io/storage/media/45d3f985-9936-4a89-909e-3c195cd64b39.png",
             type: "image",
             mimeType: "image/png",
@@ -19085,7 +19085,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3671e47f-137a-4e9a-a8db-873f7719e2a9.png",
+
             url: "https://media.mapgenie.io/storage/media/3671e47f-137a-4e9a-a8db-873f7719e2a9.png",
             type: "image",
             mimeType: "image/png",
@@ -19103,7 +19103,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3d0587e6-4d93-47ee-9cd0-ec87bec9f4ee.png",
+
             url: "https://media.mapgenie.io/storage/media/3d0587e6-4d93-47ee-9cd0-ec87bec9f4ee.png",
             type: "image",
             mimeType: "image/png",
@@ -19121,7 +19121,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8cb9f074-fe29-4305-aeb1-f6752931e9b9.png",
+
             url: "https://media.mapgenie.io/storage/media/8cb9f074-fe29-4305-aeb1-f6752931e9b9.png",
             type: "image",
             mimeType: "image/png",
@@ -19139,7 +19139,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1cc1fd22-5d19-49af-8fb4-0511eb469c41.png",
+
             url: "https://media.mapgenie.io/storage/media/1cc1fd22-5d19-49af-8fb4-0511eb469c41.png",
             type: "image",
             mimeType: "image/png",
@@ -19157,7 +19157,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4029eefe-2a43-4e19-afda-f52922216b99.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4029eefe-2a43-4e19-afda-f52922216b99.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19175,7 +19175,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "03053d0e-ea93-49c8-b3fa-1cc0ed8b904b.png",
+
             url: "https://media.mapgenie.io/storage/media/03053d0e-ea93-49c8-b3fa-1cc0ed8b904b.png",
             type: "image",
             mimeType: "image/png",
@@ -19193,7 +19193,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f075c0c1-d30a-415b-8409-8b5d9ef86b19.png",
+
             url: "https://media.mapgenie.io/storage/media/f075c0c1-d30a-415b-8409-8b5d9ef86b19.png",
             type: "image",
             mimeType: "image/png",
@@ -19211,7 +19211,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f50a2397-2847-48c8-b4bc-4af881a41a80.png",
+
             url: "https://media.mapgenie.io/storage/media/f50a2397-2847-48c8-b4bc-4af881a41a80.png",
             type: "image",
             mimeType: "image/png",
@@ -19229,7 +19229,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "37ad9bd2-61a1-4c86-9b60-faa85827bfb5.png",
+
             url: "https://media.mapgenie.io/storage/media/37ad9bd2-61a1-4c86-9b60-faa85827bfb5.png",
             type: "image",
             mimeType: "image/png",
@@ -19247,7 +19247,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bbc7a440-c24e-4718-aef1-ccd25b33395b.png",
+
             url: "https://media.mapgenie.io/storage/media/bbc7a440-c24e-4718-aef1-ccd25b33395b.png",
             type: "image",
             mimeType: "image/png",
@@ -19265,14 +19265,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1996c195-0475-4cd1-a3bb-54874db2f3ae.png",
+
             url: "https://media.mapgenie.io/storage/media/1996c195-0475-4cd1-a3bb-54874db2f3ae.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "71a98fe5-08f8-4dad-aa6b-70dbaf10904d.png",
+
             url: "https://media.mapgenie.io/storage/media/71a98fe5-08f8-4dad-aa6b-70dbaf10904d.png",
             type: "image",
             mimeType: "image/png",
@@ -19290,7 +19290,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "41f8edca-5073-4f1e-9195-723809a68fb9.png",
+
             url: "https://media.mapgenie.io/storage/media/41f8edca-5073-4f1e-9195-723809a68fb9.png",
             type: "image",
             mimeType: "image/png",
@@ -19308,7 +19308,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a4417b5f-6718-4016-ad4d-c79bd3675726.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a4417b5f-6718-4016-ad4d-c79bd3675726.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19326,7 +19326,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "522d9944-6507-483f-842c-1e2c1b8bf3d3.png",
+
             url: "https://media.mapgenie.io/storage/media/522d9944-6507-483f-842c-1e2c1b8bf3d3.png",
             type: "image",
             mimeType: "image/png",
@@ -19344,7 +19344,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7c6945f7-7877-42e7-acd3-a1491bf46646.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7c6945f7-7877-42e7-acd3-a1491bf46646.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19362,7 +19362,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b24d4f73-dfa0-4d47-a1cf-a3db14e48e8d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b24d4f73-dfa0-4d47-a1cf-a3db14e48e8d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19380,7 +19380,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17390341-417f-4004-8420-914212172a8e.png",
+
             url: "https://media.mapgenie.io/storage/media/17390341-417f-4004-8420-914212172a8e.png",
             type: "image",
             mimeType: "image/png",
@@ -19398,7 +19398,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "326defd2-cc81-4098-85d1-e01d730d31a9.png",
+
             url: "https://media.mapgenie.io/storage/media/326defd2-cc81-4098-85d1-e01d730d31a9.png",
             type: "image",
             mimeType: "image/png",
@@ -19416,7 +19416,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aa360d79-05c8-4863-852d-b49e0a275cd3.png",
+
             url: "https://media.mapgenie.io/storage/media/aa360d79-05c8-4863-852d-b49e0a275cd3.png",
             type: "image",
             mimeType: "image/png",
@@ -19434,7 +19434,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "164217ea-cbf2-42c4-b384-71dfcf1c1fe8.png",
+
             url: "https://media.mapgenie.io/storage/media/164217ea-cbf2-42c4-b384-71dfcf1c1fe8.png",
             type: "image",
             mimeType: "image/png",
@@ -19452,7 +19452,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73e41127-c55a-4a07-9711-cc393ea31962.png",
+
             url: "https://media.mapgenie.io/storage/media/73e41127-c55a-4a07-9711-cc393ea31962.png",
             type: "image",
             mimeType: "image/png",
@@ -19470,7 +19470,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1db403b3-5591-4cbb-a4c9-4848f4b42a62.png",
+
             url: "https://media.mapgenie.io/storage/media/1db403b3-5591-4cbb-a4c9-4848f4b42a62.png",
             type: "image",
             mimeType: "image/png",
@@ -19488,7 +19488,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7bace3e2-c5e1-47e5-8158-382f9201ccdf.png",
+
             url: "https://media.mapgenie.io/storage/media/7bace3e2-c5e1-47e5-8158-382f9201ccdf.png",
             type: "image",
             mimeType: "image/png",
@@ -19506,7 +19506,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f9e9b65-9324-4d31-aaeb-429c6ba7d4ee.png",
+
             url: "https://media.mapgenie.io/storage/media/4f9e9b65-9324-4d31-aaeb-429c6ba7d4ee.png",
             type: "image",
             mimeType: "image/png",
@@ -19524,7 +19524,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5e9a9836-1fad-4a8a-b4a6-445d147ac47b.png",
+
             url: "https://media.mapgenie.io/storage/media/5e9a9836-1fad-4a8a-b4a6-445d147ac47b.png",
             type: "image",
             mimeType: "image/png",
@@ -19542,7 +19542,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "854deee4-73d6-4272-80c7-3441e4831e6c.png",
+
             url: "https://media.mapgenie.io/storage/media/854deee4-73d6-4272-80c7-3441e4831e6c.png",
             type: "image",
             mimeType: "image/png",
@@ -19560,7 +19560,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "51d55f19-9a72-44cb-a1d7-4c4f89ab5f9f.png",
+
             url: "https://media.mapgenie.io/storage/media/51d55f19-9a72-44cb-a1d7-4c4f89ab5f9f.png",
             type: "image",
             mimeType: "image/png",
@@ -19578,7 +19578,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "504d9acc-68ff-4e73-a185-4a523c9eb526.png",
+
             url: "https://media.mapgenie.io/storage/media/504d9acc-68ff-4e73-a185-4a523c9eb526.png",
             type: "image",
             mimeType: "image/png",
@@ -19596,7 +19596,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7b44b0b9-40a1-4b70-be00-70c0058ae828.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7b44b0b9-40a1-4b70-be00-70c0058ae828.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19614,7 +19614,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8cc1faf4-af7e-4b1e-818c-3ddb43451803.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8cc1faf4-af7e-4b1e-818c-3ddb43451803.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19632,7 +19632,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "afdd4703-6f53-4a01-8af9-08c563f86a98.png",
+
             url: "https://media.mapgenie.io/storage/media/afdd4703-6f53-4a01-8af9-08c563f86a98.png",
             type: "image",
             mimeType: "image/png",
@@ -19650,7 +19650,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8b3a88ec-0c17-40d9-9105-ba4d17a8b053.png",
+
             url: "https://media.mapgenie.io/storage/media/8b3a88ec-0c17-40d9-9105-ba4d17a8b053.png",
             type: "image",
             mimeType: "image/png",
@@ -19668,7 +19668,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f5d51886-eb7c-474f-8011-8db8fc24a674.png",
+
             url: "https://media.mapgenie.io/storage/media/f5d51886-eb7c-474f-8011-8db8fc24a674.png",
             type: "image",
             mimeType: "image/png",
@@ -19686,7 +19686,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4a43d3e6-dacf-48fa-8411-0ef22d0662ad.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4a43d3e6-dacf-48fa-8411-0ef22d0662ad.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19704,7 +19704,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "65a7a3c3-1061-4ae4-8854-43e04fd3f50e.png",
+
             url: "https://media.mapgenie.io/storage/media/65a7a3c3-1061-4ae4-8854-43e04fd3f50e.png",
             type: "image",
             mimeType: "image/png",
@@ -19722,14 +19722,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c9bbbaa6-2b1b-4fdb-9cd4-31aa70ca7133.png",
+
             url: "https://media.mapgenie.io/storage/media/c9bbbaa6-2b1b-4fdb-9cd4-31aa70ca7133.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "14509a21-bb30-4b83-bbac-199cbb0d1852.png",
+
             url: "https://media.mapgenie.io/storage/media/14509a21-bb30-4b83-bbac-199cbb0d1852.png",
             type: "image",
             mimeType: "image/png",
@@ -19747,7 +19747,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4dad3c64-d60d-409b-a7e3-47abe101e57e.png",
+
             url: "https://media.mapgenie.io/storage/media/4dad3c64-d60d-409b-a7e3-47abe101e57e.png",
             type: "image",
             mimeType: "image/png",
@@ -19765,7 +19765,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b7d78f1d-e3c0-4706-8897-eb33d9020e3b.png",
+
             url: "https://media.mapgenie.io/storage/media/b7d78f1d-e3c0-4706-8897-eb33d9020e3b.png",
             type: "image",
             mimeType: "image/png",
@@ -19783,7 +19783,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5fd8cd4a-202d-4244-a1c2-f2ec3e164c80.png",
+
             url: "https://media.mapgenie.io/storage/media/5fd8cd4a-202d-4244-a1c2-f2ec3e164c80.png",
             type: "image",
             mimeType: "image/png",
@@ -19801,7 +19801,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0d92a77a-ffb5-4746-ac54-ee9b0a5f2b93.png",
+
             url: "https://media.mapgenie.io/storage/media/0d92a77a-ffb5-4746-ac54-ee9b0a5f2b93.png",
             type: "image",
             mimeType: "image/png",
@@ -19819,7 +19819,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "1dtt",
-            fileName: "fde307d5-bba7-4671-9931-04c10d460628.png",
+
             url: "https://media.mapgenie.io/storage/media/fde307d5-bba7-4671-9931-04c10d460628.png",
             type: "image",
             mimeType: "image/png",
@@ -19837,7 +19837,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "98ab8689-8724-4310-9928-b02c5bac45cb.png",
+
             url: "https://media.mapgenie.io/storage/media/98ab8689-8724-4310-9928-b02c5bac45cb.png",
             type: "image",
             mimeType: "image/png",
@@ -19855,7 +19855,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f22b0d3-7f01-4d35-867f-cab36b4bc14e.png",
+
             url: "https://media.mapgenie.io/storage/media/4f22b0d3-7f01-4d35-867f-cab36b4bc14e.png",
             type: "image",
             mimeType: "image/png",
@@ -19873,7 +19873,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f274c66e-218f-4479-9385-91a9cd813461.png",
+
             url: "https://media.mapgenie.io/storage/media/f274c66e-218f-4479-9385-91a9cd813461.png",
             type: "image",
             mimeType: "image/png",
@@ -19891,7 +19891,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d8da8ac2-1cb5-4d25-bab9-b55bde2acdf7.png",
+
             url: "https://media.mapgenie.io/storage/media/d8da8ac2-1cb5-4d25-bab9-b55bde2acdf7.png",
             type: "image",
             mimeType: "image/png",
@@ -19909,21 +19909,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f06d089e-91d2-4d92-af7a-2e02cb495371.png",
+
             url: "https://media.mapgenie.io/storage/media/f06d089e-91d2-4d92-af7a-2e02cb495371.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "accaaa73-0ef9-40eb-9d88-24553e673ce8.png",
+
             url: "https://media.mapgenie.io/storage/media/accaaa73-0ef9-40eb-9d88-24553e673ce8.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "54804109-1d6e-457c-9246-d8932c810862.jpg",
+
             url: "https://media.mapgenie.io/storage/media/54804109-1d6e-457c-9246-d8932c810862.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19941,7 +19941,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6b28991a-68cf-4cfa-9cf0-3a4de9cb413b.png",
+
             url: "https://media.mapgenie.io/storage/media/6b28991a-68cf-4cfa-9cf0-3a4de9cb413b.png",
             type: "image",
             mimeType: "image/png",
@@ -19959,7 +19959,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "46f3d31d-a64d-457c-8af2-fb993ae7506c.png",
+
             url: "https://media.mapgenie.io/storage/media/46f3d31d-a64d-457c-8af2-fb993ae7506c.png",
             type: "image",
             mimeType: "image/png",
@@ -19977,7 +19977,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fa8444b3-efd5-4896-acc2-a2a41e060b05.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fa8444b3-efd5-4896-acc2-a2a41e060b05.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -19995,7 +19995,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d513a3d1-9a1e-4ff0-b219-71bd87b2323e.png",
+
             url: "https://media.mapgenie.io/storage/media/d513a3d1-9a1e-4ff0-b219-71bd87b2323e.png",
             type: "image",
             mimeType: "image/png",
@@ -20013,7 +20013,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ff84494-4bcf-4293-b843-a2e4d4103a20.png",
+
             url: "https://media.mapgenie.io/storage/media/0ff84494-4bcf-4293-b843-a2e4d4103a20.png",
             type: "image",
             mimeType: "image/png",
@@ -20031,7 +20031,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e581bbe0-dc66-4ea6-b683-9e9ed3af340b.png",
+
             url: "https://media.mapgenie.io/storage/media/e581bbe0-dc66-4ea6-b683-9e9ed3af340b.png",
             type: "image",
             mimeType: "image/png",
@@ -20049,7 +20049,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8748c0ae-fb43-48cf-8ace-085834371b56.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8748c0ae-fb43-48cf-8ace-085834371b56.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20067,7 +20067,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9a700638-8c7a-45bc-9727-ee04a5d503d2.png",
+
             url: "https://media.mapgenie.io/storage/media/9a700638-8c7a-45bc-9727-ee04a5d503d2.png",
             type: "image",
             mimeType: "image/png",
@@ -20085,7 +20085,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "adc60927-11b3-4cae-85a2-417499fbe341.png",
+
             url: "https://media.mapgenie.io/storage/media/adc60927-11b3-4cae-85a2-417499fbe341.png",
             type: "image",
             mimeType: "image/png",
@@ -20103,7 +20103,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "785e6c46-9d03-4093-bdda-9a63e872db76.png",
+
             url: "https://media.mapgenie.io/storage/media/785e6c46-9d03-4093-bdda-9a63e872db76.png",
             type: "image",
             mimeType: "image/png",
@@ -20121,14 +20121,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eaea9e84-ba80-4773-b155-d26257d2ed6a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eaea9e84-ba80-4773-b155-d26257d2ed6a.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "f2feb901-d951-489b-9767-d354b19b7546.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f2feb901-d951-489b-9767-d354b19b7546.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20146,7 +20146,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f8d7afd6-2701-456b-bfb5-79af2ceea579.png",
+
             url: "https://media.mapgenie.io/storage/media/f8d7afd6-2701-456b-bfb5-79af2ceea579.png",
             type: "image",
             mimeType: "image/png",
@@ -20164,7 +20164,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "83839b8f-63fe-4348-b5d6-450bca280598.png",
+
             url: "https://media.mapgenie.io/storage/media/83839b8f-63fe-4348-b5d6-450bca280598.png",
             type: "image",
             mimeType: "image/png",
@@ -20182,7 +20182,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "720c7c02-75e0-4add-a785-0a91db0c6115.png",
+
             url: "https://media.mapgenie.io/storage/media/720c7c02-75e0-4add-a785-0a91db0c6115.png",
             type: "image",
             mimeType: "image/png",
@@ -20200,14 +20200,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9938c430-2fb7-4050-a44f-14fe7d0d4fd8.png",
+
             url: "https://media.mapgenie.io/storage/media/9938c430-2fb7-4050-a44f-14fe7d0d4fd8.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "bcb6c970-03ce-477c-9ce5-716f6c29e58e.png",
+
             url: "https://media.mapgenie.io/storage/media/bcb6c970-03ce-477c-9ce5-716f6c29e58e.png",
             type: "image",
             mimeType: "image/png",
@@ -20225,7 +20225,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6698bd96-b1b8-4000-89f5-6e5d231df9bb.png",
+
             url: "https://media.mapgenie.io/storage/media/6698bd96-b1b8-4000-89f5-6e5d231df9bb.png",
             type: "image",
             mimeType: "image/png",
@@ -20243,7 +20243,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0f7d2d0f-53a8-481b-95a7-8296534a2386.png",
+
             url: "https://media.mapgenie.io/storage/media/0f7d2d0f-53a8-481b-95a7-8296534a2386.png",
             type: "image",
             mimeType: "image/png",
@@ -20261,7 +20261,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "97be633b-0925-4620-a625-131193dc7d02.png",
+
             url: "https://media.mapgenie.io/storage/media/97be633b-0925-4620-a625-131193dc7d02.png",
             type: "image",
             mimeType: "image/png",
@@ -20279,7 +20279,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7cae8e45-02fe-4bc4-b9dd-e59c717d9b2c.png",
+
             url: "https://media.mapgenie.io/storage/media/7cae8e45-02fe-4bc4-b9dd-e59c717d9b2c.png",
             type: "image",
             mimeType: "image/png",
@@ -20297,7 +20297,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5305584c-7c5d-4211-92e3-403a524a4492.png",
+
             url: "https://media.mapgenie.io/storage/media/5305584c-7c5d-4211-92e3-403a524a4492.png",
             type: "image",
             mimeType: "image/png",
@@ -20315,7 +20315,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9d8cd4b5-4046-4d43-815c-770c7505ff26.png",
+
             url: "https://media.mapgenie.io/storage/media/9d8cd4b5-4046-4d43-815c-770c7505ff26.png",
             type: "image",
             mimeType: "image/png",
@@ -20333,7 +20333,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23d65532-e4d5-41fc-9a59-d89a969310d2.png",
+
             url: "https://media.mapgenie.io/storage/media/23d65532-e4d5-41fc-9a59-d89a969310d2.png",
             type: "image",
             mimeType: "image/png",
@@ -20351,7 +20351,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cf4a369b-3b3d-4ddc-9b96-75e4fd57c017.png",
+
             url: "https://media.mapgenie.io/storage/media/cf4a369b-3b3d-4ddc-9b96-75e4fd57c017.png",
             type: "image",
             mimeType: "image/png",
@@ -20369,7 +20369,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1c49c85-beca-4514-b4bd-50206a8691c0.png",
+
             url: "https://media.mapgenie.io/storage/media/f1c49c85-beca-4514-b4bd-50206a8691c0.png",
             type: "image",
             mimeType: "image/png",
@@ -20387,7 +20387,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e807324a-ce0d-4950-94b0-7743fd8a73d9.png",
+
             url: "https://media.mapgenie.io/storage/media/e807324a-ce0d-4950-94b0-7743fd8a73d9.png",
             type: "image",
             mimeType: "image/png",
@@ -20405,7 +20405,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "db006dbc-8486-404c-8a90-7a712341c3a4.png",
+
             url: "https://media.mapgenie.io/storage/media/db006dbc-8486-404c-8a90-7a712341c3a4.png",
             type: "image",
             mimeType: "image/png",
@@ -20423,7 +20423,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c71813b8-3198-4443-9e89-bc2da944e20e.png",
+
             url: "https://media.mapgenie.io/storage/media/c71813b8-3198-4443-9e89-bc2da944e20e.png",
             type: "image",
             mimeType: "image/png",
@@ -20441,7 +20441,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e069c824-eeec-4764-bc17-3f9b3d231e5f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e069c824-eeec-4764-bc17-3f9b3d231e5f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20459,7 +20459,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c28fb84c-7444-4cf7-baed-a8a6f5f1b03c.png",
+
             url: "https://media.mapgenie.io/storage/media/c28fb84c-7444-4cf7-baed-a8a6f5f1b03c.png",
             type: "image",
             mimeType: "image/png",
@@ -20477,7 +20477,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7ce3d933-9680-4fbe-89f0-840748e723bc.png",
+
             url: "https://media.mapgenie.io/storage/media/7ce3d933-9680-4fbe-89f0-840748e723bc.png",
             type: "image",
             mimeType: "image/png",
@@ -20495,7 +20495,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c43171db-01f2-41dd-ac26-e9963372d820.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c43171db-01f2-41dd-ac26-e9963372d820.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20513,7 +20513,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cf632535-8058-4baa-bbd0-db762e6bc70b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cf632535-8058-4baa-bbd0-db762e6bc70b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20531,7 +20531,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e6729ea5-e66e-4119-8759-c34889d6e3f1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e6729ea5-e66e-4119-8759-c34889d6e3f1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20549,7 +20549,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fdac3133-b56e-4232-b203-8aa93138c73a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fdac3133-b56e-4232-b203-8aa93138c73a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20567,7 +20567,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d8719e0b-152d-4f6f-8e95-40bb9e4f92ca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d8719e0b-152d-4f6f-8e95-40bb9e4f92ca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20585,7 +20585,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68bd3456-38bf-41fa-b1e4-190c77e3a8f4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/68bd3456-38bf-41fa-b1e4-190c77e3a8f4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20603,7 +20603,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "74cf2f94-b8b8-47c6-b935-9d059c019488.jpg",
+
             url: "https://media.mapgenie.io/storage/media/74cf2f94-b8b8-47c6-b935-9d059c019488.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20621,7 +20621,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1cd4e102-4bff-4bb5-8843-f84383746330.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1cd4e102-4bff-4bb5-8843-f84383746330.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20639,7 +20639,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "21839c32-64b9-4942-a5d9-867a71e9ebb6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/21839c32-64b9-4942-a5d9-867a71e9ebb6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20657,7 +20657,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d781cb63-c011-4d0b-a1d0-276c35e2f1b1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d781cb63-c011-4d0b-a1d0-276c35e2f1b1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20675,7 +20675,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "131b12f0-9744-49f9-b34b-88e7c70dd8a9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/131b12f0-9744-49f9-b34b-88e7c70dd8a9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20693,7 +20693,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f81579e6-b252-48a5-9e1c-bad25521c15b.png",
+
             url: "https://media.mapgenie.io/storage/media/f81579e6-b252-48a5-9e1c-bad25521c15b.png",
             type: "image",
             mimeType: "image/png",
@@ -20711,7 +20711,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5115c207-5792-4998-ae15-cbe3c534ce82.png",
+
             url: "https://media.mapgenie.io/storage/media/5115c207-5792-4998-ae15-cbe3c534ce82.png",
             type: "image",
             mimeType: "image/png",
@@ -20729,7 +20729,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "638d097b-fe9f-4e18-a718-d4d3a3e8427c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/638d097b-fe9f-4e18-a718-d4d3a3e8427c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20747,7 +20747,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7fe3b2d0-70f9-4974-b82b-64a625c1cdce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7fe3b2d0-70f9-4974-b82b-64a625c1cdce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20765,7 +20765,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68f683a8-d417-49c7-9828-1fa7b77d8673.jpg",
+
             url: "https://media.mapgenie.io/storage/media/68f683a8-d417-49c7-9828-1fa7b77d8673.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20783,7 +20783,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "667a53ca-f149-47ce-967c-dc577113d0b6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/667a53ca-f149-47ce-967c-dc577113d0b6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20801,7 +20801,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "436dc3df-3ac9-4463-9a18-27f5e0ff1c8d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/436dc3df-3ac9-4463-9a18-27f5e0ff1c8d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20819,7 +20819,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df93e11a-5616-43ba-8a61-23cadfac2870.jpg",
+
             url: "https://media.mapgenie.io/storage/media/df93e11a-5616-43ba-8a61-23cadfac2870.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20837,7 +20837,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a6d1cca7-554b-4410-b20c-bfdefe9b9f31.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a6d1cca7-554b-4410-b20c-bfdefe9b9f31.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20855,7 +20855,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ff7933ed-a681-43e8-9ebc-59e398dd5d68.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ff7933ed-a681-43e8-9ebc-59e398dd5d68.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20873,7 +20873,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3c3fb35c-eb55-467b-8cb3-0dd6be3387ba.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3c3fb35c-eb55-467b-8cb3-0dd6be3387ba.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20891,7 +20891,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "19b65658-8244-4a7e-8424-8b413221c8d3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/19b65658-8244-4a7e-8424-8b413221c8d3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20909,7 +20909,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9912c0ee-9d07-4d70-b013-e8c131cb2bb8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9912c0ee-9d07-4d70-b013-e8c131cb2bb8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20927,7 +20927,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4469a8ea-befc-4489-bc30-47b42046b52b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4469a8ea-befc-4489-bc30-47b42046b52b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20945,7 +20945,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a6d6ec51-f41c-438b-b2c8-b1af07f8a8d5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a6d6ec51-f41c-438b-b2c8-b1af07f8a8d5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20963,7 +20963,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "16d88a0a-a520-4604-9a23-bc4901260bbc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/16d88a0a-a520-4604-9a23-bc4901260bbc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20981,7 +20981,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a1a6b636-5169-478e-8664-f3bfc5a01ee1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a1a6b636-5169-478e-8664-f3bfc5a01ee1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -20999,7 +20999,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "60d12212-8fbb-4728-945a-ab6be1d5ddea.jpg",
+
             url: "https://media.mapgenie.io/storage/media/60d12212-8fbb-4728-945a-ab6be1d5ddea.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21017,7 +21017,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "10b86cb9-3dad-4b0b-8909-ce06cee5e69f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/10b86cb9-3dad-4b0b-8909-ce06cee5e69f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21035,7 +21035,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "208422c1-ba89-4d86-81f5-e12d47994f71.jpg",
+
             url: "https://media.mapgenie.io/storage/media/208422c1-ba89-4d86-81f5-e12d47994f71.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21053,7 +21053,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ab99994-deee-478d-b72b-7bd4ad6c6671.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0ab99994-deee-478d-b72b-7bd4ad6c6671.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21071,7 +21071,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a141ca9-8551-4e0d-9ed4-1507c648b5a4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7a141ca9-8551-4e0d-9ed4-1507c648b5a4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21089,7 +21089,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b79d0f4f-4468-4935-91b6-95be08a3790c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b79d0f4f-4468-4935-91b6-95be08a3790c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21107,7 +21107,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "22c74228-2690-4d63-b213-f0a7737dc342.jpg",
+
             url: "https://media.mapgenie.io/storage/media/22c74228-2690-4d63-b213-f0a7737dc342.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21125,7 +21125,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "28b77cad-7aa5-4fba-baa3-896fa803a288.jpg",
+
             url: "https://media.mapgenie.io/storage/media/28b77cad-7aa5-4fba-baa3-896fa803a288.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21143,7 +21143,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5edea91-a6ac-4a9c-ab62-2d81ecf50080.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5edea91-a6ac-4a9c-ab62-2d81ecf50080.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21161,7 +21161,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1746058d-3c7c-44dc-ab8f-6cf4ac2b1a3a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1746058d-3c7c-44dc-ab8f-6cf4ac2b1a3a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21179,7 +21179,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7281cb59-e966-4823-af68-d48ed8369524.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7281cb59-e966-4823-af68-d48ed8369524.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21197,7 +21197,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aaea2df3-08c0-4698-99f1-359deb50cf2c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aaea2df3-08c0-4698-99f1-359deb50cf2c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21215,7 +21215,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "272bc7df-dba7-4867-af78-623802b6e561.jpg",
+
             url: "https://media.mapgenie.io/storage/media/272bc7df-dba7-4867-af78-623802b6e561.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21233,7 +21233,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4380da29-cc1e-4178-83e8-66659e9b2c28.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4380da29-cc1e-4178-83e8-66659e9b2c28.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21251,7 +21251,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "49bc5f4b-452b-4666-be75-958e5808fbd3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/49bc5f4b-452b-4666-be75-958e5808fbd3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21269,7 +21269,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fb370ccf-3fdb-4bcf-aa72-cffdd5a52f7a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fb370ccf-3fdb-4bcf-aa72-cffdd5a52f7a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21287,7 +21287,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b31a9ea-2a0c-40a8-8df8-a5a8a2bad465.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0b31a9ea-2a0c-40a8-8df8-a5a8a2bad465.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21305,7 +21305,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "86b9d624-b48e-4726-8af6-91dc572929ca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/86b9d624-b48e-4726-8af6-91dc572929ca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21323,7 +21323,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "30b046bf-6dc2-401a-9940-452f1ddf1b41.jpg",
+
             url: "https://media.mapgenie.io/storage/media/30b046bf-6dc2-401a-9940-452f1ddf1b41.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21341,7 +21341,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "de35f5eb-0379-48b9-8da0-962d9fc4a199.png",
+
             url: "https://media.mapgenie.io/storage/media/de35f5eb-0379-48b9-8da0-962d9fc4a199.png",
             type: "image",
             mimeType: "image/png",
@@ -21359,14 +21359,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dc3e19d9-ea56-420f-8228-925a93da68cd.png",
+
             url: "https://media.mapgenie.io/storage/media/dc3e19d9-ea56-420f-8228-925a93da68cd.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "b0da3b65-fe43-4414-b721-f7de83f06c2d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b0da3b65-fe43-4414-b721-f7de83f06c2d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21384,7 +21384,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8583553e-c280-4fff-b811-b09f1a263e5c.png",
+
             url: "https://media.mapgenie.io/storage/media/8583553e-c280-4fff-b811-b09f1a263e5c.png",
             type: "image",
             mimeType: "image/png",
@@ -21402,7 +21402,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9c621ba8-44f9-4c85-808e-b4b240ad2661.png",
+
             url: "https://media.mapgenie.io/storage/media/9c621ba8-44f9-4c85-808e-b4b240ad2661.png",
             type: "image",
             mimeType: "image/png",
@@ -21420,7 +21420,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "31c06862-24c4-43ec-ad1a-bb43c1fb5228.png",
+
             url: "https://media.mapgenie.io/storage/media/31c06862-24c4-43ec-ad1a-bb43c1fb5228.png",
             type: "image",
             mimeType: "image/png",
@@ -21438,7 +21438,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8da696fd-359c-4a15-b2e5-5157c9fd4faa.png",
+
             url: "https://media.mapgenie.io/storage/media/8da696fd-359c-4a15-b2e5-5157c9fd4faa.png",
             type: "image",
             mimeType: "image/png",
@@ -21456,14 +21456,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3e266d63-1f62-4579-9783-7293e3f19bc9.png",
+
             url: "https://media.mapgenie.io/storage/media/3e266d63-1f62-4579-9783-7293e3f19bc9.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "7bbabfb6-eba1-47fb-8532-c0fbe185ba09.png",
+
             url: "https://media.mapgenie.io/storage/media/7bbabfb6-eba1-47fb-8532-c0fbe185ba09.png",
             type: "image",
             mimeType: "image/png",
@@ -21481,7 +21481,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "381c4c23-b96a-4474-adce-a3b3d1840205.png",
+
             url: "https://media.mapgenie.io/storage/media/381c4c23-b96a-4474-adce-a3b3d1840205.png",
             type: "image",
             mimeType: "image/png",
@@ -21499,7 +21499,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "70cb1e9c-eca2-4d8d-bcd5-ed757ae9a336.png",
+
             url: "https://media.mapgenie.io/storage/media/70cb1e9c-eca2-4d8d-bcd5-ed757ae9a336.png",
             type: "image",
             mimeType: "image/png",
@@ -21517,14 +21517,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bf7a9d53-572a-4187-9f7e-359cc78b7796.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bf7a9d53-572a-4187-9f7e-359cc78b7796.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ab19c7d3-6346-4170-8e75-3539271c74c8.png",
+
             url: "https://media.mapgenie.io/storage/media/ab19c7d3-6346-4170-8e75-3539271c74c8.png",
             type: "image",
             mimeType: "image/png",
@@ -21542,7 +21542,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00600fec-e906-4f9f-947b-9541f993b314.png",
+
             url: "https://media.mapgenie.io/storage/media/00600fec-e906-4f9f-947b-9541f993b314.png",
             type: "image",
             mimeType: "image/png",
@@ -21560,7 +21560,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "07c479ec-7c3e-4bab-b601-b2b9a3970a5d.png",
+
             url: "https://media.mapgenie.io/storage/media/07c479ec-7c3e-4bab-b601-b2b9a3970a5d.png",
             type: "image",
             mimeType: "image/png",
@@ -21578,7 +21578,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "80b3e802-3c9a-4636-83b1-e3197dbd4a5b.png",
+
             url: "https://media.mapgenie.io/storage/media/80b3e802-3c9a-4636-83b1-e3197dbd4a5b.png",
             type: "image",
             mimeType: "image/png",
@@ -21596,7 +21596,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "26dbb9fa-e7d3-405a-af9c-8471f36608ba.png",
+
             url: "https://media.mapgenie.io/storage/media/26dbb9fa-e7d3-405a-af9c-8471f36608ba.png",
             type: "image",
             mimeType: "image/png",
@@ -21614,7 +21614,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d30f72c5-4ed3-4145-8980-2625c3a6705f.png",
+
             url: "https://media.mapgenie.io/storage/media/d30f72c5-4ed3-4145-8980-2625c3a6705f.png",
             type: "image",
             mimeType: "image/png",
@@ -21632,7 +21632,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c997e8f4-8a50-4982-ba4d-3f98659c1592.png",
+
             url: "https://media.mapgenie.io/storage/media/c997e8f4-8a50-4982-ba4d-3f98659c1592.png",
             type: "image",
             mimeType: "image/png",
@@ -21650,7 +21650,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00d78862-94a6-4c0f-ab0d-b4e69c39c0ff.png",
+
             url: "https://media.mapgenie.io/storage/media/00d78862-94a6-4c0f-ab0d-b4e69c39c0ff.png",
             type: "image",
             mimeType: "image/png",
@@ -21668,7 +21668,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0a81c522-2ef8-465d-8dbc-6602927d70ba.png",
+
             url: "https://media.mapgenie.io/storage/media/0a81c522-2ef8-465d-8dbc-6602927d70ba.png",
             type: "image",
             mimeType: "image/png",
@@ -21686,7 +21686,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9c2929dd-bd49-444d-a332-7bf19800fb56.png",
+
             url: "https://media.mapgenie.io/storage/media/9c2929dd-bd49-444d-a332-7bf19800fb56.png",
             type: "image",
             mimeType: "image/png",
@@ -21704,7 +21704,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6018446f-74f7-45e0-8f39-8a652995090c.png",
+
             url: "https://media.mapgenie.io/storage/media/6018446f-74f7-45e0-8f39-8a652995090c.png",
             type: "image",
             mimeType: "image/png",
@@ -21722,14 +21722,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b92d005-f0cc-462f-a262-1071bca8396f.png",
+
             url: "https://media.mapgenie.io/storage/media/2b92d005-f0cc-462f-a262-1071bca8396f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ccc3f5bc-4c4e-425b-91d7-e2999941b06f.png",
+
             url: "https://media.mapgenie.io/storage/media/ccc3f5bc-4c4e-425b-91d7-e2999941b06f.png",
             type: "image",
             mimeType: "image/png",
@@ -21747,14 +21747,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aabb3c0d-1c39-4251-832f-cb55c39f3ee3.png",
+
             url: "https://media.mapgenie.io/storage/media/aabb3c0d-1c39-4251-832f-cb55c39f3ee3.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "a039bed1-fe12-4a52-b1ce-6f6ec1c52b03.png",
+
             url: "https://media.mapgenie.io/storage/media/a039bed1-fe12-4a52-b1ce-6f6ec1c52b03.png",
             type: "image",
             mimeType: "image/png",
@@ -21772,7 +21772,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "18df5dbf-7f78-415d-a9f2-d6054bca2969.png",
+
             url: "https://media.mapgenie.io/storage/media/18df5dbf-7f78-415d-a9f2-d6054bca2969.png",
             type: "image",
             mimeType: "image/png",
@@ -21790,14 +21790,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e9c088b0-c536-40ff-94c1-d8d1602b5f86.png",
+
             url: "https://media.mapgenie.io/storage/media/e9c088b0-c536-40ff-94c1-d8d1602b5f86.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "965d7773-5209-4dab-83b7-f62f04f5f01e.png",
+
             url: "https://media.mapgenie.io/storage/media/965d7773-5209-4dab-83b7-f62f04f5f01e.png",
             type: "image",
             mimeType: "image/png",
@@ -21815,7 +21815,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd1d8156-c640-47d6-82c7-f7619aaf1950.png",
+
             url: "https://media.mapgenie.io/storage/media/fd1d8156-c640-47d6-82c7-f7619aaf1950.png",
             type: "image",
             mimeType: "image/png",
@@ -21833,7 +21833,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3db7ed2c-c48a-430b-a5a2-b02148d602cb.png",
+
             url: "https://media.mapgenie.io/storage/media/3db7ed2c-c48a-430b-a5a2-b02148d602cb.png",
             type: "image",
             mimeType: "image/png",
@@ -21851,14 +21851,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bbd5d863-ab64-4e14-be16-010f7aec478d.png",
+
             url: "https://media.mapgenie.io/storage/media/bbd5d863-ab64-4e14-be16-010f7aec478d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "e8737fb1-9747-442c-9663-9251edad256d.png",
+
             url: "https://media.mapgenie.io/storage/media/e8737fb1-9747-442c-9663-9251edad256d.png",
             type: "image",
             mimeType: "image/png",
@@ -21876,7 +21876,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae1956ae-6e32-4f22-b225-5f33b43adfd0.png",
+
             url: "https://media.mapgenie.io/storage/media/ae1956ae-6e32-4f22-b225-5f33b43adfd0.png",
             type: "image",
             mimeType: "image/png",
@@ -21894,7 +21894,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f63818fc-6f6e-4fc1-89ae-b33148976a54.png",
+
             url: "https://media.mapgenie.io/storage/media/f63818fc-6f6e-4fc1-89ae-b33148976a54.png",
             type: "image",
             mimeType: "image/png",
@@ -21912,14 +21912,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ba297fcd-9af0-4c6d-900c-3787573b0ee9.png",
+
             url: "https://media.mapgenie.io/storage/media/ba297fcd-9af0-4c6d-900c-3787573b0ee9.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "1b38d766-106e-461d-a7f3-f832a3cf2e3d.png",
+
             url: "https://media.mapgenie.io/storage/media/1b38d766-106e-461d-a7f3-f832a3cf2e3d.png",
             type: "image",
             mimeType: "image/png",
@@ -21937,7 +21937,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aaf33236-3344-4942-b671-41036844f4e8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aaf33236-3344-4942-b671-41036844f4e8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21955,7 +21955,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb6d3638-3d2c-4d6b-a76b-6798b4ca3b6f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bb6d3638-3d2c-4d6b-a76b-6798b4ca3b6f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21973,7 +21973,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e0912b7d-cbe7-45dd-ba7f-774be40c966b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e0912b7d-cbe7-45dd-ba7f-774be40c966b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -21991,7 +21991,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5488f305-e05c-426e-bf89-eae6a415ce13.png",
+
             url: "https://media.mapgenie.io/storage/media/5488f305-e05c-426e-bf89-eae6a415ce13.png",
             type: "image",
             mimeType: "image/png",
@@ -22009,14 +22009,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c34ae846-19d3-4392-868c-a445ebe54bc4.png",
+
             url: "https://media.mapgenie.io/storage/media/c34ae846-19d3-4392-868c-a445ebe54bc4.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ec278ed8-af8a-40a6-b332-83637832811d.png",
+
             url: "https://media.mapgenie.io/storage/media/ec278ed8-af8a-40a6-b332-83637832811d.png",
             type: "image",
             mimeType: "image/png",
@@ -22034,7 +22034,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e87aaec3-b6b9-4615-a3aa-7691bcf2aa6c.png",
+
             url: "https://media.mapgenie.io/storage/media/e87aaec3-b6b9-4615-a3aa-7691bcf2aa6c.png",
             type: "image",
             mimeType: "image/png",
@@ -22052,7 +22052,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8d9b8842-9e97-4447-ac4d-3d56a02fa2c2.png",
+
             url: "https://media.mapgenie.io/storage/media/8d9b8842-9e97-4447-ac4d-3d56a02fa2c2.png",
             type: "image",
             mimeType: "image/png",
@@ -22070,7 +22070,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "011e20a7-4842-4e8d-b109-521bb082b6da.png",
+
             url: "https://media.mapgenie.io/storage/media/011e20a7-4842-4e8d-b109-521bb082b6da.png",
             type: "image",
             mimeType: "image/png",
@@ -22088,7 +22088,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b3f5ceed-cc14-40c5-a253-688cb7eb481d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b3f5ceed-cc14-40c5-a253-688cb7eb481d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22106,7 +22106,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eec45120-1189-4f26-ba76-ed7a96e797ff.png",
+
             url: "https://media.mapgenie.io/storage/media/eec45120-1189-4f26-ba76-ed7a96e797ff.png",
             type: "image",
             mimeType: "image/png",
@@ -22124,7 +22124,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0e661e26-ff68-4dec-aeb0-a0da4b727a65.png",
+
             url: "https://media.mapgenie.io/storage/media/0e661e26-ff68-4dec-aeb0-a0da4b727a65.png",
             type: "image",
             mimeType: "image/png",
@@ -22142,7 +22142,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "266201b5-af3f-45c3-9014-dc1ed38c618e.png",
+
             url: "https://media.mapgenie.io/storage/media/266201b5-af3f-45c3-9014-dc1ed38c618e.png",
             type: "image",
             mimeType: "image/png",
@@ -22160,7 +22160,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e9ed9eea-c8dc-4b24-a68f-92ed528ddfea.png",
+
             url: "https://media.mapgenie.io/storage/media/e9ed9eea-c8dc-4b24-a68f-92ed528ddfea.png",
             type: "image",
             mimeType: "image/png",
@@ -22178,7 +22178,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "74bad6f0-b247-4705-a291-44875a645af8.png",
+
             url: "https://media.mapgenie.io/storage/media/74bad6f0-b247-4705-a291-44875a645af8.png",
             type: "image",
             mimeType: "image/png",
@@ -22196,7 +22196,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "89a1e76a-c806-43fc-8c41-1dafe2b55f1c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/89a1e76a-c806-43fc-8c41-1dafe2b55f1c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22214,14 +22214,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "82a6c771-db51-4c1c-831a-24b09f437f03.jpg",
+
             url: "https://media.mapgenie.io/storage/media/82a6c771-db51-4c1c-831a-24b09f437f03.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "1cc7c9f9-4250-4143-a55d-7f8470ba0cab.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1cc7c9f9-4250-4143-a55d-7f8470ba0cab.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22239,7 +22239,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "274b788f-cb79-4e9f-9d98-ae68b807c205.png",
+
             url: "https://media.mapgenie.io/storage/media/274b788f-cb79-4e9f-9d98-ae68b807c205.png",
             type: "image",
             mimeType: "image/png",
@@ -22257,7 +22257,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0c4728b6-b3ff-4912-9a21-39e5e5292258.png",
+
             url: "https://media.mapgenie.io/storage/media/0c4728b6-b3ff-4912-9a21-39e5e5292258.png",
             type: "image",
             mimeType: "image/png",
@@ -22275,7 +22275,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e247b181-cbbb-4ed2-9a6e-f9216db61801.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e247b181-cbbb-4ed2-9a6e-f9216db61801.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22293,7 +22293,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a502a08b-938f-4510-a4d3-f37a1f06d199.png",
+
             url: "https://media.mapgenie.io/storage/media/a502a08b-938f-4510-a4d3-f37a1f06d199.png",
             type: "image",
             mimeType: "image/png",
@@ -22311,7 +22311,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ce1614a2-e095-47db-8b9a-a65ce1d6014a.png",
+
             url: "https://media.mapgenie.io/storage/media/ce1614a2-e095-47db-8b9a-a65ce1d6014a.png",
             type: "image",
             mimeType: "image/png",
@@ -22329,7 +22329,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e579a4bc-563d-4996-8d72-683178d68a77.png",
+
             url: "https://media.mapgenie.io/storage/media/e579a4bc-563d-4996-8d72-683178d68a77.png",
             type: "image",
             mimeType: "image/png",
@@ -22347,7 +22347,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c1527ddc-a688-46c4-8712-910397c8c736.png",
+
             url: "https://media.mapgenie.io/storage/media/c1527ddc-a688-46c4-8712-910397c8c736.png",
             type: "image",
             mimeType: "image/png",
@@ -22365,7 +22365,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "21474c5e-43f8-4dd6-898b-10c3cbd4f218.png",
+
             url: "https://media.mapgenie.io/storage/media/21474c5e-43f8-4dd6-898b-10c3cbd4f218.png",
             type: "image",
             mimeType: "image/png",
@@ -22383,14 +22383,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "38dd2cc3-5e1f-4ca8-9b13-c3ce6875ac48.png",
+
             url: "https://media.mapgenie.io/storage/media/38dd2cc3-5e1f-4ca8-9b13-c3ce6875ac48.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "115df1ae-2d38-49d4-8bd3-f02954976b0b.png",
+
             url: "https://media.mapgenie.io/storage/media/115df1ae-2d38-49d4-8bd3-f02954976b0b.png",
             type: "image",
             mimeType: "image/png",
@@ -22408,7 +22408,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a7d1a7d1-64bc-41b3-9253-bd506ff54133.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a7d1a7d1-64bc-41b3-9253-bd506ff54133.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22426,7 +22426,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "181dd206-d7b2-41fc-b3cb-2c47044a0f51.png",
+
             url: "https://media.mapgenie.io/storage/media/181dd206-d7b2-41fc-b3cb-2c47044a0f51.png",
             type: "image",
             mimeType: "image/png",
@@ -22444,7 +22444,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ede9cffe-a504-4ae1-a61e-7eb38a954868.png",
+
             url: "https://media.mapgenie.io/storage/media/ede9cffe-a504-4ae1-a61e-7eb38a954868.png",
             type: "image",
             mimeType: "image/png",
@@ -22462,7 +22462,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f7dd2ccf-8f41-461f-9682-dfa990d13b5c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f7dd2ccf-8f41-461f-9682-dfa990d13b5c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22480,7 +22480,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "81ec97a8-b27d-4d8d-80a6-453a2c858a3c.png",
+
             url: "https://media.mapgenie.io/storage/media/81ec97a8-b27d-4d8d-80a6-453a2c858a3c.png",
             type: "image",
             mimeType: "image/png",
@@ -22498,14 +22498,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1dfdcafd-1c59-47ac-9312-bef77c743195.png",
+
             url: "https://media.mapgenie.io/storage/media/1dfdcafd-1c59-47ac-9312-bef77c743195.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "20df859c-25a7-4bc3-b39a-bc087be02e3e.png",
+
             url: "https://media.mapgenie.io/storage/media/20df859c-25a7-4bc3-b39a-bc087be02e3e.png",
             type: "image",
             mimeType: "image/png",
@@ -22523,7 +22523,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "486b6b64-5ecf-4dc3-a013-99f01842ec5c.png",
+
             url: "https://media.mapgenie.io/storage/media/486b6b64-5ecf-4dc3-a013-99f01842ec5c.png",
             type: "image",
             mimeType: "image/png",
@@ -22541,7 +22541,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e0261504-0170-4375-b285-4313d6a0a458.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e0261504-0170-4375-b285-4313d6a0a458.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22559,7 +22559,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb06ed8d-8dbd-499f-9f13-c26159898890.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bb06ed8d-8dbd-499f-9f13-c26159898890.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22577,7 +22577,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b015f056-03ea-4024-81a9-e84f6acfc313.png",
+
             url: "https://media.mapgenie.io/storage/media/b015f056-03ea-4024-81a9-e84f6acfc313.png",
             type: "image",
             mimeType: "image/png",
@@ -22595,7 +22595,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "edf4fdc6-9c59-497d-a8c1-ce58413b7107.png",
+
             url: "https://media.mapgenie.io/storage/media/edf4fdc6-9c59-497d-a8c1-ce58413b7107.png",
             type: "image",
             mimeType: "image/png",
@@ -22613,7 +22613,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ea45dfd2-7d9b-4006-8523-ab5d0bd65218.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ea45dfd2-7d9b-4006-8523-ab5d0bd65218.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22631,7 +22631,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d3f02148-3918-4eeb-b05b-ef36f50d7c5c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d3f02148-3918-4eeb-b05b-ef36f50d7c5c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22649,7 +22649,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7c503e13-651f-4d29-a599-6d3c5621f4fa.png",
+
             url: "https://media.mapgenie.io/storage/media/7c503e13-651f-4d29-a599-6d3c5621f4fa.png",
             type: "image",
             mimeType: "image/png",
@@ -22667,7 +22667,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ffaabb50-a091-4890-a720-da909f370c48.png",
+
             url: "https://media.mapgenie.io/storage/media/ffaabb50-a091-4890-a720-da909f370c48.png",
             type: "image",
             mimeType: "image/png",
@@ -22685,7 +22685,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1463f526-f0b9-480e-b444-e8ddeb3f971a.png",
+
             url: "https://media.mapgenie.io/storage/media/1463f526-f0b9-480e-b444-e8ddeb3f971a.png",
             type: "image",
             mimeType: "image/png",
@@ -22703,7 +22703,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "546a8b08-491e-4317-91d0-148fd1565be7.png",
+
             url: "https://media.mapgenie.io/storage/media/546a8b08-491e-4317-91d0-148fd1565be7.png",
             type: "image",
             mimeType: "image/png",
@@ -22721,14 +22721,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "27a48852-57f2-45b0-a15a-2b592aa65240.png",
+
             url: "https://media.mapgenie.io/storage/media/27a48852-57f2-45b0-a15a-2b592aa65240.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "8eb8fc3e-9d31-4328-83e0-dcab446057c2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8eb8fc3e-9d31-4328-83e0-dcab446057c2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22746,7 +22746,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e446d9e4-8870-4df8-9116-5031dc2c67f1.png",
+
             url: "https://media.mapgenie.io/storage/media/e446d9e4-8870-4df8-9116-5031dc2c67f1.png",
             type: "image",
             mimeType: "image/png",
@@ -22764,7 +22764,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2167ebbd-5c12-4d41-9a6c-a5d20488367e.png",
+
             url: "https://media.mapgenie.io/storage/media/2167ebbd-5c12-4d41-9a6c-a5d20488367e.png",
             type: "image",
             mimeType: "image/png",
@@ -22782,7 +22782,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c329d972-6987-440e-9794-6a53f019fd15.png",
+
             url: "https://media.mapgenie.io/storage/media/c329d972-6987-440e-9794-6a53f019fd15.png",
             type: "image",
             mimeType: "image/png",
@@ -22800,14 +22800,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "268f311e-e7ee-4fbc-9050-3e0e8efd8679.png",
+
             url: "https://media.mapgenie.io/storage/media/268f311e-e7ee-4fbc-9050-3e0e8efd8679.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "529bc2ee-91f8-40fd-b97f-74a3695e5e12.jpg",
+
             url: "https://media.mapgenie.io/storage/media/529bc2ee-91f8-40fd-b97f-74a3695e5e12.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22825,7 +22825,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9d8c84d6-4765-484b-9166-ed80e0e95bce.png",
+
             url: "https://media.mapgenie.io/storage/media/9d8c84d6-4765-484b-9166-ed80e0e95bce.png",
             type: "image",
             mimeType: "image/png",
@@ -22843,7 +22843,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ab8aec37-acba-42dc-a105-89f3761b6e7c.png",
+
             url: "https://media.mapgenie.io/storage/media/ab8aec37-acba-42dc-a105-89f3761b6e7c.png",
             type: "image",
             mimeType: "image/png",
@@ -22861,7 +22861,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "229ad5af-07ca-4f40-83fb-cf5332ba5998.png",
+
             url: "https://media.mapgenie.io/storage/media/229ad5af-07ca-4f40-83fb-cf5332ba5998.png",
             type: "image",
             mimeType: "image/png",
@@ -22879,14 +22879,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dcca7782-bce1-4850-9550-7ddf4240e759.png",
+
             url: "https://media.mapgenie.io/storage/media/dcca7782-bce1-4850-9550-7ddf4240e759.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "22084867-70a4-4fd7-b44a-a6e545e994e6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/22084867-70a4-4fd7-b44a-a6e545e994e6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22904,7 +22904,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1dee53ab-2c55-4503-9ebf-79eb6de6003a.png",
+
             url: "https://media.mapgenie.io/storage/media/1dee53ab-2c55-4503-9ebf-79eb6de6003a.png",
             type: "image",
             mimeType: "image/png",
@@ -22922,14 +22922,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fa258418-a591-4f65-997d-84248ad834a9.png",
+
             url: "https://media.mapgenie.io/storage/media/fa258418-a591-4f65-997d-84248ad834a9.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "47c1a000-a322-4bcf-9b97-69fc26c43280.jpg",
+
             url: "https://media.mapgenie.io/storage/media/47c1a000-a322-4bcf-9b97-69fc26c43280.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -22947,7 +22947,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3c806095-fb78-4181-9143-01dc813f1f25.png",
+
             url: "https://media.mapgenie.io/storage/media/3c806095-fb78-4181-9143-01dc813f1f25.png",
             type: "image",
             mimeType: "image/png",
@@ -22965,7 +22965,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8f0feca9-9f38-42d9-a4e3-09b70d76d9c0.png",
+
             url: "https://media.mapgenie.io/storage/media/8f0feca9-9f38-42d9-a4e3-09b70d76d9c0.png",
             type: "image",
             mimeType: "image/png",
@@ -22983,7 +22983,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "19ff34a0-0b59-4ac4-86ef-1e8e3ec1f337.png",
+
             url: "https://media.mapgenie.io/storage/media/19ff34a0-0b59-4ac4-86ef-1e8e3ec1f337.png",
             type: "image",
             mimeType: "image/png",
@@ -23001,7 +23001,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7200dcfa-794b-4f4c-86ee-fc337c8f9a74.png",
+
             url: "https://media.mapgenie.io/storage/media/7200dcfa-794b-4f4c-86ee-fc337c8f9a74.png",
             type: "image",
             mimeType: "image/png",
@@ -23019,7 +23019,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ab7474eb-785f-4bbf-aab8-6826349be1ea.png",
+
             url: "https://media.mapgenie.io/storage/media/ab7474eb-785f-4bbf-aab8-6826349be1ea.png",
             type: "image",
             mimeType: "image/png",
@@ -23037,7 +23037,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "781130c6-29dc-4230-a0b0-08c886796860.png",
+
             url: "https://media.mapgenie.io/storage/media/781130c6-29dc-4230-a0b0-08c886796860.png",
             type: "image",
             mimeType: "image/png",
@@ -23055,7 +23055,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "da4d9797-5661-4d03-8093-6a2c0bbee27d.png",
+
             url: "https://media.mapgenie.io/storage/media/da4d9797-5661-4d03-8093-6a2c0bbee27d.png",
             type: "image",
             mimeType: "image/png",
@@ -23073,7 +23073,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1623a498-cf8e-403b-ae11-148aacb9819b.png",
+
             url: "https://media.mapgenie.io/storage/media/1623a498-cf8e-403b-ae11-148aacb9819b.png",
             type: "image",
             mimeType: "image/png",
@@ -23091,7 +23091,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b6002ed6-87dc-40ed-83cc-3cf07f99b6f5.png",
+
             url: "https://media.mapgenie.io/storage/media/b6002ed6-87dc-40ed-83cc-3cf07f99b6f5.png",
             type: "image",
             mimeType: "image/png",
@@ -23109,7 +23109,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "91c0855d-6bf9-4393-9387-f55079ec7645.png",
+
             url: "https://media.mapgenie.io/storage/media/91c0855d-6bf9-4393-9387-f55079ec7645.png",
             type: "image",
             mimeType: "image/png",
@@ -23127,7 +23127,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bc6a02c-bca3-4bb5-b965-3540f102f7ef.png",
+
             url: "https://media.mapgenie.io/storage/media/1bc6a02c-bca3-4bb5-b965-3540f102f7ef.png",
             type: "image",
             mimeType: "image/png",
@@ -23145,7 +23145,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9923287c-8b25-4502-b2a1-a1bf90a860ef.png",
+
             url: "https://media.mapgenie.io/storage/media/9923287c-8b25-4502-b2a1-a1bf90a860ef.png",
             type: "image",
             mimeType: "image/png",
@@ -23163,7 +23163,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bc1bf1f3-5c01-4b6d-a6d7-08a1496787d6.png",
+
             url: "https://media.mapgenie.io/storage/media/bc1bf1f3-5c01-4b6d-a6d7-08a1496787d6.png",
             type: "image",
             mimeType: "image/png",
@@ -23181,7 +23181,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7fd01441-89b3-4ec0-b05a-24716f5de708.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7fd01441-89b3-4ec0-b05a-24716f5de708.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23199,7 +23199,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f684a278-c8d1-41b7-b489-bf747809d062.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f684a278-c8d1-41b7-b489-bf747809d062.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23217,7 +23217,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b71e906-1781-456d-b2b4-7e58db5e74d6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0b71e906-1781-456d-b2b4-7e58db5e74d6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23235,7 +23235,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0df9e2a2-a2b1-4fb1-89c7-aa4ef27306f8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0df9e2a2-a2b1-4fb1-89c7-aa4ef27306f8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23253,7 +23253,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e38c28fb-a361-4e61-8f60-7947cada2027.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e38c28fb-a361-4e61-8f60-7947cada2027.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23271,7 +23271,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "94be17a2-2c09-4b64-a052-2839c8c6d35d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/94be17a2-2c09-4b64-a052-2839c8c6d35d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23289,7 +23289,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bce0ea0d-a3f2-4a4a-9651-0d9ff9810f7b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bce0ea0d-a3f2-4a4a-9651-0d9ff9810f7b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23307,7 +23307,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e36be7e1-2312-4064-a4a8-eb88940cfb42.png",
+
             url: "https://media.mapgenie.io/storage/media/e36be7e1-2312-4064-a4a8-eb88940cfb42.png",
             type: "image",
             mimeType: "image/png",
@@ -23325,14 +23325,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ebbd5a30-ebae-4bbc-aa61-993d69fc6bf3.png",
+
             url: "https://media.mapgenie.io/storage/media/ebbd5a30-ebae-4bbc-aa61-993d69fc6bf3.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "98e6d8e9-f3ec-4e39-b6b9-11596169a953.jpg",
+
             url: "https://media.mapgenie.io/storage/media/98e6d8e9-f3ec-4e39-b6b9-11596169a953.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23350,7 +23350,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "403fd18a-269c-4057-adfc-3da775338e9b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/403fd18a-269c-4057-adfc-3da775338e9b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23368,7 +23368,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ccf5b1b4-496b-4164-930b-e998052473d1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ccf5b1b4-496b-4164-930b-e998052473d1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23386,7 +23386,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "50e382e5-1727-4522-ac76-e7a5197a03ba.jpg",
+
             url: "https://media.mapgenie.io/storage/media/50e382e5-1727-4522-ac76-e7a5197a03ba.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23404,7 +23404,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a22028a9-21b2-45f7-9584-ab4efa7f37d6.png",
+
             url: "https://media.mapgenie.io/storage/media/a22028a9-21b2-45f7-9584-ab4efa7f37d6.png",
             type: "image",
             mimeType: "image/png",
@@ -23422,14 +23422,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0f24568c-52e8-478d-8441-d02b08fc8fc1.png",
+
             url: "https://media.mapgenie.io/storage/media/0f24568c-52e8-478d-8441-d02b08fc8fc1.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "2b7b3f97-e2d5-44ea-9be8-abbf146b081e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b7b3f97-e2d5-44ea-9be8-abbf146b081e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23447,7 +23447,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7dc24032-b756-4fd2-8fd2-0b4b043e298e.png",
+
             url: "https://media.mapgenie.io/storage/media/7dc24032-b756-4fd2-8fd2-0b4b043e298e.png",
             type: "image",
             mimeType: "image/png",
@@ -23465,7 +23465,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ceb64dc9-27bb-4df8-8000-cc09578fcd42.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ceb64dc9-27bb-4df8-8000-cc09578fcd42.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23483,7 +23483,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c12eef0a-2527-406a-8d26-5838f1de1a06.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c12eef0a-2527-406a-8d26-5838f1de1a06.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23501,7 +23501,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f11fb1e4-b3c9-4e81-b74b-4d20bddc758b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f11fb1e4-b3c9-4e81-b74b-4d20bddc758b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23519,7 +23519,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "14abb1f5-681e-404d-9826-30c2578a5b46.jpg",
+
             url: "https://media.mapgenie.io/storage/media/14abb1f5-681e-404d-9826-30c2578a5b46.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23537,7 +23537,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b00ab880-d8e3-4479-86ed-cb0249cc1896.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b00ab880-d8e3-4479-86ed-cb0249cc1896.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23555,7 +23555,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "363fa5db-d2d3-4e60-adb6-e514915ffdb4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/363fa5db-d2d3-4e60-adb6-e514915ffdb4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23573,7 +23573,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2bb7c12c-c94d-42dc-affa-445e04352724.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2bb7c12c-c94d-42dc-affa-445e04352724.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23591,14 +23591,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c9a5da68-8ac2-4550-9255-8a7d8b65293b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c9a5da68-8ac2-4550-9255-8a7d8b65293b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "f7bb2eaa-d26f-45f3-9662-733806bcaa10.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f7bb2eaa-d26f-45f3-9662-733806bcaa10.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23616,7 +23616,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "08e3244d-bf16-4660-8b4e-0c5967eeeb51.png",
+
             url: "https://media.mapgenie.io/storage/media/08e3244d-bf16-4660-8b4e-0c5967eeeb51.png",
             type: "image",
             mimeType: "image/png",
@@ -23634,7 +23634,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ef9fddaa-fd09-46f1-98e8-fbe1f5563f13.png",
+
             url: "https://media.mapgenie.io/storage/media/ef9fddaa-fd09-46f1-98e8-fbe1f5563f13.png",
             type: "image",
             mimeType: "image/png",
@@ -23652,7 +23652,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6bd97cad-7732-4e3c-beae-d7f068943580.png",
+
             url: "https://media.mapgenie.io/storage/media/6bd97cad-7732-4e3c-beae-d7f068943580.png",
             type: "image",
             mimeType: "image/png",
@@ -23670,7 +23670,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "52ce6c7c-fa43-469f-8e55-fd76ed8530b8.png",
+
             url: "https://media.mapgenie.io/storage/media/52ce6c7c-fa43-469f-8e55-fd76ed8530b8.png",
             type: "image",
             mimeType: "image/png",
@@ -23688,7 +23688,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bc2568a3-854a-4ec2-b1df-07072c034024.png",
+
             url: "https://media.mapgenie.io/storage/media/bc2568a3-854a-4ec2-b1df-07072c034024.png",
             type: "image",
             mimeType: "image/png",
@@ -23706,7 +23706,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a2068800-19e9-47ff-b142-02b5e2be74c0.png",
+
             url: "https://media.mapgenie.io/storage/media/a2068800-19e9-47ff-b142-02b5e2be74c0.png",
             type: "image",
             mimeType: "image/png",
@@ -23724,14 +23724,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0adf833d-cad0-48f9-91ad-f50927ad5c6f.png",
+
             url: "https://media.mapgenie.io/storage/media/0adf833d-cad0-48f9-91ad-f50927ad5c6f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "7220e688-a9fc-4ce8-bfd1-178423396660.png",
+
             url: "https://media.mapgenie.io/storage/media/7220e688-a9fc-4ce8-bfd1-178423396660.png",
             type: "image",
             mimeType: "image/png",
@@ -23749,7 +23749,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ce37c873-8b11-4221-8df3-9c21bbefb9f8.png",
+
             url: "https://media.mapgenie.io/storage/media/ce37c873-8b11-4221-8df3-9c21bbefb9f8.png",
             type: "image",
             mimeType: "image/png",
@@ -23767,7 +23767,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bbc0223e-2900-4337-8ce8-3eeb52f39806.png",
+
             url: "https://media.mapgenie.io/storage/media/bbc0223e-2900-4337-8ce8-3eeb52f39806.png",
             type: "image",
             mimeType: "image/png",
@@ -23785,7 +23785,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "948e697e-8b30-4cea-9094-fe4c0f497ded.png",
+
             url: "https://media.mapgenie.io/storage/media/948e697e-8b30-4cea-9094-fe4c0f497ded.png",
             type: "image",
             mimeType: "image/png",
@@ -23803,14 +23803,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "da686cf3-eb64-4da3-9849-cb5f993d24c9.png",
+
             url: "https://media.mapgenie.io/storage/media/da686cf3-eb64-4da3-9849-cb5f993d24c9.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f2505b74-8563-4290-8d3d-657946e571f5.png",
+
             url: "https://media.mapgenie.io/storage/media/f2505b74-8563-4290-8d3d-657946e571f5.png",
             type: "image",
             mimeType: "image/png",
@@ -23828,7 +23828,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fdb975d4-3442-4df6-b0eb-715a1a76f5c4.png",
+
             url: "https://media.mapgenie.io/storage/media/fdb975d4-3442-4df6-b0eb-715a1a76f5c4.png",
             type: "image",
             mimeType: "image/png",
@@ -23846,7 +23846,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c663e57e-9e44-4692-8f75-896e068bdca6.png",
+
             url: "https://media.mapgenie.io/storage/media/c663e57e-9e44-4692-8f75-896e068bdca6.png",
             type: "image",
             mimeType: "image/png",
@@ -23864,7 +23864,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "84e63a15-5960-4a10-9fe9-50f995a0da16.png",
+
             url: "https://media.mapgenie.io/storage/media/84e63a15-5960-4a10-9fe9-50f995a0da16.png",
             type: "image",
             mimeType: "image/png",
@@ -23882,7 +23882,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3eae8451-5149-465e-9ce1-aa8c9c3ff12c.png",
+
             url: "https://media.mapgenie.io/storage/media/3eae8451-5149-465e-9ce1-aa8c9c3ff12c.png",
             type: "image",
             mimeType: "image/png",
@@ -23900,7 +23900,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d5863f9f-fba2-4e5e-8d57-4bd354dc209a.png",
+
             url: "https://media.mapgenie.io/storage/media/d5863f9f-fba2-4e5e-8d57-4bd354dc209a.png",
             type: "image",
             mimeType: "image/png",
@@ -23918,7 +23918,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5a82106f-f087-4b26-9c10-f9dbb7e30d12.png",
+
             url: "https://media.mapgenie.io/storage/media/5a82106f-f087-4b26-9c10-f9dbb7e30d12.png",
             type: "image",
             mimeType: "image/png",
@@ -23936,7 +23936,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5ddc140-6aae-40db-a305-caa24d9823c5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5ddc140-6aae-40db-a305-caa24d9823c5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -23954,7 +23954,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "256dc99d-cdd3-41f6-b303-9c4656ceb774.png",
+
             url: "https://media.mapgenie.io/storage/media/256dc99d-cdd3-41f6-b303-9c4656ceb774.png",
             type: "image",
             mimeType: "image/png",
@@ -23972,7 +23972,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3faecfbd-495d-482b-abc4-fd95e4e44d85.png",
+
             url: "https://media.mapgenie.io/storage/media/3faecfbd-495d-482b-abc4-fd95e4e44d85.png",
             type: "image",
             mimeType: "image/png",
@@ -23990,7 +23990,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a1bc643f-c969-4ea4-beb6-9b1aec77bd3f.png",
+
             url: "https://media.mapgenie.io/storage/media/a1bc643f-c969-4ea4-beb6-9b1aec77bd3f.png",
             type: "image",
             mimeType: "image/png",
@@ -24008,7 +24008,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "84cf6a47-dfa0-4103-818d-5625f7789c04.png",
+
             url: "https://media.mapgenie.io/storage/media/84cf6a47-dfa0-4103-818d-5625f7789c04.png",
             type: "image",
             mimeType: "image/png",
@@ -24026,7 +24026,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "499957da-7c15-4fa1-906c-dc6d2bf79636.png",
+
             url: "https://media.mapgenie.io/storage/media/499957da-7c15-4fa1-906c-dc6d2bf79636.png",
             type: "image",
             mimeType: "image/png",
@@ -24044,7 +24044,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "65fb4bb6-551d-43b8-a05c-87c026cef370.png",
+
             url: "https://media.mapgenie.io/storage/media/65fb4bb6-551d-43b8-a05c-87c026cef370.png",
             type: "image",
             mimeType: "image/png",
@@ -24062,7 +24062,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8f362fd5-d772-4d1b-a9cf-c05e1f0f25db.png",
+
             url: "https://media.mapgenie.io/storage/media/8f362fd5-d772-4d1b-a9cf-c05e1f0f25db.png",
             type: "image",
             mimeType: "image/png",
@@ -24080,7 +24080,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "591fa14c-c819-465b-982c-c42f4621249a.png",
+
             url: "https://media.mapgenie.io/storage/media/591fa14c-c819-465b-982c-c42f4621249a.png",
             type: "image",
             mimeType: "image/png",
@@ -24098,7 +24098,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "84c6ebcb-4187-42ee-93af-d9eff55c9f88.png",
+
             url: "https://media.mapgenie.io/storage/media/84c6ebcb-4187-42ee-93af-d9eff55c9f88.png",
             type: "image",
             mimeType: "image/png",
@@ -24116,7 +24116,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "333f1b47-438d-4368-9a4d-76af584fb550.png",
+
             url: "https://media.mapgenie.io/storage/media/333f1b47-438d-4368-9a4d-76af584fb550.png",
             type: "image",
             mimeType: "image/png",
@@ -24134,7 +24134,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e4f8289b-3425-4499-b503-e913ca8724fe.png",
+
             url: "https://media.mapgenie.io/storage/media/e4f8289b-3425-4499-b503-e913ca8724fe.png",
             type: "image",
             mimeType: "image/png",
@@ -24152,7 +24152,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3f16928e-2a6f-4e34-a660-722f211360a6.png",
+
             url: "https://media.mapgenie.io/storage/media/3f16928e-2a6f-4e34-a660-722f211360a6.png",
             type: "image",
             mimeType: "image/png",
@@ -24170,7 +24170,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9c9444ea-dca2-4ce5-85b2-30206f3c3569.png",
+
             url: "https://media.mapgenie.io/storage/media/9c9444ea-dca2-4ce5-85b2-30206f3c3569.png",
             type: "image",
             mimeType: "image/png",
@@ -24188,7 +24188,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "149677ff-18b2-4802-a10e-3f3141d26df4.png",
+
             url: "https://media.mapgenie.io/storage/media/149677ff-18b2-4802-a10e-3f3141d26df4.png",
             type: "image",
             mimeType: "image/png",
@@ -24206,7 +24206,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5e6394e1-d9d5-4e06-b84f-884ce26891f5.png",
+
             url: "https://media.mapgenie.io/storage/media/5e6394e1-d9d5-4e06-b84f-884ce26891f5.png",
             type: "image",
             mimeType: "image/png",
@@ -24224,7 +24224,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "26e08f6e-3de9-453a-9bf7-0efab55185fb.png",
+
             url: "https://media.mapgenie.io/storage/media/26e08f6e-3de9-453a-9bf7-0efab55185fb.png",
             type: "image",
             mimeType: "image/png",
@@ -24242,7 +24242,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8c979de8-5bc4-4a2d-b67b-4d14fd8e50a5.png",
+
             url: "https://media.mapgenie.io/storage/media/8c979de8-5bc4-4a2d-b67b-4d14fd8e50a5.png",
             type: "image",
             mimeType: "image/png",
@@ -24260,7 +24260,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3feb9453-1f35-40ed-b569-246e87f8dfc8.png",
+
             url: "https://media.mapgenie.io/storage/media/3feb9453-1f35-40ed-b569-246e87f8dfc8.png",
             type: "image",
             mimeType: "image/png",
@@ -24278,7 +24278,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bbd5dd9c-e0f0-494b-82ca-5e1ae226f442.png",
+
             url: "https://media.mapgenie.io/storage/media/bbd5dd9c-e0f0-494b-82ca-5e1ae226f442.png",
             type: "image",
             mimeType: "image/png",
@@ -24296,14 +24296,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c6b23d44-80d6-49b8-8aaf-9b9875a6d159.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c6b23d44-80d6-49b8-8aaf-9b9875a6d159.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "76d73fc7-71cf-4764-bfef-62c403e9b7f6.png",
+
             url: "https://media.mapgenie.io/storage/media/76d73fc7-71cf-4764-bfef-62c403e9b7f6.png",
             type: "image",
             mimeType: "image/png",
@@ -24321,7 +24321,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1af3ae9-73c9-4d4e-ab87-12f810754878.png",
+
             url: "https://media.mapgenie.io/storage/media/f1af3ae9-73c9-4d4e-ab87-12f810754878.png",
             type: "image",
             mimeType: "image/png",
@@ -24339,7 +24339,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "05da75af-568a-46dc-811f-4ff7903b5848.png",
+
             url: "https://media.mapgenie.io/storage/media/05da75af-568a-46dc-811f-4ff7903b5848.png",
             type: "image",
             mimeType: "image/png",
@@ -24357,7 +24357,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "301ba5c5-14f0-4d13-8f50-55c687af3e2a.png",
+
             url: "https://media.mapgenie.io/storage/media/301ba5c5-14f0-4d13-8f50-55c687af3e2a.png",
             type: "image",
             mimeType: "image/png",
@@ -24375,7 +24375,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "81c6d88b-30aa-401d-aabc-59d40cf2229a.png",
+
             url: "https://media.mapgenie.io/storage/media/81c6d88b-30aa-401d-aabc-59d40cf2229a.png",
             type: "image",
             mimeType: "image/png",
@@ -24393,7 +24393,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c04dffb0-19ba-47df-b82b-b3e333d0c9d6.png",
+
             url: "https://media.mapgenie.io/storage/media/c04dffb0-19ba-47df-b82b-b3e333d0c9d6.png",
             type: "image",
             mimeType: "image/png",
@@ -24411,7 +24411,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ea9233d3-e7e6-4489-a03d-6ab903d72b2c.png",
+
             url: "https://media.mapgenie.io/storage/media/ea9233d3-e7e6-4489-a03d-6ab903d72b2c.png",
             type: "image",
             mimeType: "image/png",
@@ -24429,7 +24429,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "947d99df-7098-4af8-a401-d19a05e34441.png",
+
             url: "https://media.mapgenie.io/storage/media/947d99df-7098-4af8-a401-d19a05e34441.png",
             type: "image",
             mimeType: "image/png",
@@ -24447,7 +24447,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c7a229a7-bc4e-45d8-9673-def090e6e5ec.png",
+
             url: "https://media.mapgenie.io/storage/media/c7a229a7-bc4e-45d8-9673-def090e6e5ec.png",
             type: "image",
             mimeType: "image/png",
@@ -24465,7 +24465,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "abf8c021-4b42-416e-94d7-8c8dfd82b7b5.png",
+
             url: "https://media.mapgenie.io/storage/media/abf8c021-4b42-416e-94d7-8c8dfd82b7b5.png",
             type: "image",
             mimeType: "image/png",
@@ -24483,7 +24483,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "403aa1c2-9feb-40fe-b9dd-e78d67f12a6b.png",
+
             url: "https://media.mapgenie.io/storage/media/403aa1c2-9feb-40fe-b9dd-e78d67f12a6b.png",
             type: "image",
             mimeType: "image/png",
@@ -24501,7 +24501,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0709cabc-c70f-44fd-abeb-21957527daf3.png",
+
             url: "https://media.mapgenie.io/storage/media/0709cabc-c70f-44fd-abeb-21957527daf3.png",
             type: "image",
             mimeType: "image/png",
@@ -24519,7 +24519,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f811650c-c2ca-47e4-81c4-c141ef2c6d05.png",
+
             url: "https://media.mapgenie.io/storage/media/f811650c-c2ca-47e4-81c4-c141ef2c6d05.png",
             type: "image",
             mimeType: "image/png",
@@ -24537,7 +24537,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6ec08c69-e514-4a0f-962c-397fcc6f9bf5.png",
+
             url: "https://media.mapgenie.io/storage/media/6ec08c69-e514-4a0f-962c-397fcc6f9bf5.png",
             type: "image",
             mimeType: "image/png",
@@ -24555,7 +24555,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5376d8d6-589f-4faa-9907-822a39ac4bcc.png",
+
             url: "https://media.mapgenie.io/storage/media/5376d8d6-589f-4faa-9907-822a39ac4bcc.png",
             type: "image",
             mimeType: "image/png",
@@ -24573,14 +24573,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "41cd1d7c-1642-4b0c-a08e-70404116a24d.png",
+
             url: "https://media.mapgenie.io/storage/media/41cd1d7c-1642-4b0c-a08e-70404116a24d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "516fcb61-e9d2-4191-92be-7a53152df5be.png",
+
             url: "https://media.mapgenie.io/storage/media/516fcb61-e9d2-4191-92be-7a53152df5be.png",
             type: "image",
             mimeType: "image/png",
@@ -24598,7 +24598,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9a139535-4dca-4082-966a-26b257812a66.png",
+
             url: "https://media.mapgenie.io/storage/media/9a139535-4dca-4082-966a-26b257812a66.png",
             type: "image",
             mimeType: "image/png",
@@ -24616,7 +24616,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "db511723-665a-44c2-ab7c-610c7dba316c.png",
+
             url: "https://media.mapgenie.io/storage/media/db511723-665a-44c2-ab7c-610c7dba316c.png",
             type: "image",
             mimeType: "image/png",
@@ -24634,7 +24634,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b6e70c78-6e30-4a21-ae83-11423135f252.png",
+
             url: "https://media.mapgenie.io/storage/media/b6e70c78-6e30-4a21-ae83-11423135f252.png",
             type: "image",
             mimeType: "image/png",
@@ -24652,7 +24652,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "213fe5e0-0cf5-4ca9-94e5-4da39316457c.png",
+
             url: "https://media.mapgenie.io/storage/media/213fe5e0-0cf5-4ca9-94e5-4da39316457c.png",
             type: "image",
             mimeType: "image/png",
@@ -24670,7 +24670,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "561463fc-9532-4e80-8aae-083940159a1d.png",
+
             url: "https://media.mapgenie.io/storage/media/561463fc-9532-4e80-8aae-083940159a1d.png",
             type: "image",
             mimeType: "image/png",
@@ -24688,7 +24688,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e13ff36e-cb34-4de4-9aea-b261ac0d64c7.png",
+
             url: "https://media.mapgenie.io/storage/media/e13ff36e-cb34-4de4-9aea-b261ac0d64c7.png",
             type: "image",
             mimeType: "image/png",
@@ -24706,7 +24706,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "81607743-5242-4e77-9d8a-486a42cc69b0.png",
+
             url: "https://media.mapgenie.io/storage/media/81607743-5242-4e77-9d8a-486a42cc69b0.png",
             type: "image",
             mimeType: "image/png",
@@ -24724,7 +24724,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9884ba52-de3e-4597-b293-60bf67393a8d.png",
+
             url: "https://media.mapgenie.io/storage/media/9884ba52-de3e-4597-b293-60bf67393a8d.png",
             type: "image",
             mimeType: "image/png",
@@ -24742,7 +24742,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d88f9649-d6be-4c0c-98d6-64f3a6a83110.png",
+
             url: "https://media.mapgenie.io/storage/media/d88f9649-d6be-4c0c-98d6-64f3a6a83110.png",
             type: "image",
             mimeType: "image/png",
@@ -24760,14 +24760,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ce43ae91-0a07-48a4-8b72-8efdb854673b.png",
+
             url: "https://media.mapgenie.io/storage/media/ce43ae91-0a07-48a4-8b72-8efdb854673b.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "1fa3107a-71c0-4661-be9a-c77fd95c811f.png",
+
             url: "https://media.mapgenie.io/storage/media/1fa3107a-71c0-4661-be9a-c77fd95c811f.png",
             type: "image",
             mimeType: "image/png",
@@ -24785,14 +24785,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b7d7f4bc-7852-4a3b-bcde-dd29c9edb371.png",
+
             url: "https://media.mapgenie.io/storage/media/b7d7f4bc-7852-4a3b-bcde-dd29c9edb371.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "7aad9f5e-911c-474f-a510-83c02eb395dc.png",
+
             url: "https://media.mapgenie.io/storage/media/7aad9f5e-911c-474f-a510-83c02eb395dc.png",
             type: "image",
             mimeType: "image/png",
@@ -24810,7 +24810,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5543f85b-3e3a-45f7-8a1f-ba501eb0abf3.png",
+
             url: "https://media.mapgenie.io/storage/media/5543f85b-3e3a-45f7-8a1f-ba501eb0abf3.png",
             type: "image",
             mimeType: "image/png",
@@ -24828,7 +24828,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8a26ac97-3048-4695-9c94-3bac7d9c2f79.png",
+
             url: "https://media.mapgenie.io/storage/media/8a26ac97-3048-4695-9c94-3bac7d9c2f79.png",
             type: "image",
             mimeType: "image/png",
@@ -24846,7 +24846,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "37a908bf-af60-4bc9-aeb5-ffdd44f1c5db.png",
+
             url: "https://media.mapgenie.io/storage/media/37a908bf-af60-4bc9-aeb5-ffdd44f1c5db.png",
             type: "image",
             mimeType: "image/png",
@@ -24864,14 +24864,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e76f102-262e-43bc-b602-7deeba363598.png",
+
             url: "https://media.mapgenie.io/storage/media/7e76f102-262e-43bc-b602-7deeba363598.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "9d574f89-7b31-4cea-8971-7f698fbaa2dc.png",
+
             url: "https://media.mapgenie.io/storage/media/9d574f89-7b31-4cea-8971-7f698fbaa2dc.png",
             type: "image",
             mimeType: "image/png",
@@ -24889,7 +24889,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ff9d1125-6dfa-421b-91a1-6f96b1587628.png",
+
             url: "https://media.mapgenie.io/storage/media/ff9d1125-6dfa-421b-91a1-6f96b1587628.png",
             type: "image",
             mimeType: "image/png",
@@ -24907,7 +24907,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9cbf3b8f-e89a-4e7f-a914-72cd9936314b.png",
+
             url: "https://media.mapgenie.io/storage/media/9cbf3b8f-e89a-4e7f-a914-72cd9936314b.png",
             type: "image",
             mimeType: "image/png",
@@ -24925,14 +24925,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "78a7c740-bb1b-4e8a-9473-7b71d8f8b20c.png",
+
             url: "https://media.mapgenie.io/storage/media/78a7c740-bb1b-4e8a-9473-7b71d8f8b20c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "64d555fd-8c5d-4dd7-b35d-78c94ca3bd98.png",
+
             url: "https://media.mapgenie.io/storage/media/64d555fd-8c5d-4dd7-b35d-78c94ca3bd98.png",
             type: "image",
             mimeType: "image/png",
@@ -24950,7 +24950,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "53d79060-9688-435c-9881-669f8ec49c19.png",
+
             url: "https://media.mapgenie.io/storage/media/53d79060-9688-435c-9881-669f8ec49c19.png",
             type: "image",
             mimeType: "image/png",
@@ -24968,7 +24968,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d150a76e-1957-42a8-84f7-1e2d764871ad.png",
+
             url: "https://media.mapgenie.io/storage/media/d150a76e-1957-42a8-84f7-1e2d764871ad.png",
             type: "image",
             mimeType: "image/png",
@@ -24986,7 +24986,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0c1a401a-f322-4d4c-8afc-12eac1d2b356.png",
+
             url: "https://media.mapgenie.io/storage/media/0c1a401a-f322-4d4c-8afc-12eac1d2b356.png",
             type: "image",
             mimeType: "image/png",
@@ -25004,7 +25004,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0839df1f-1caa-4410-a900-2c5e8d6053da.png",
+
             url: "https://media.mapgenie.io/storage/media/0839df1f-1caa-4410-a900-2c5e8d6053da.png",
             type: "image",
             mimeType: "image/png",
@@ -25022,7 +25022,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e4666ab-1caa-4865-926f-952bdeb641a8.png",
+
             url: "https://media.mapgenie.io/storage/media/7e4666ab-1caa-4865-926f-952bdeb641a8.png",
             type: "image",
             mimeType: "image/png",
@@ -25040,7 +25040,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6a4581d6-9d69-4168-964d-3d9cd6184bf0.png",
+
             url: "https://media.mapgenie.io/storage/media/6a4581d6-9d69-4168-964d-3d9cd6184bf0.png",
             type: "image",
             mimeType: "image/png",
@@ -25058,7 +25058,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "627011a7-48bb-4264-9e27-378f8e9069e7.png",
+
             url: "https://media.mapgenie.io/storage/media/627011a7-48bb-4264-9e27-378f8e9069e7.png",
             type: "image",
             mimeType: "image/png",
@@ -25076,7 +25076,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d023876e-5c51-47bc-bb7d-383391ecf8d7.png",
+
             url: "https://media.mapgenie.io/storage/media/d023876e-5c51-47bc-bb7d-383391ecf8d7.png",
             type: "image",
             mimeType: "image/png",
@@ -25094,7 +25094,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "37e69c50-17d6-4751-9cdc-9a5ae4331014.png",
+
             url: "https://media.mapgenie.io/storage/media/37e69c50-17d6-4751-9cdc-9a5ae4331014.png",
             type: "image",
             mimeType: "image/png",
@@ -25112,7 +25112,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6e29cbfb-2e40-426c-844b-6b714694cc96.png",
+
             url: "https://media.mapgenie.io/storage/media/6e29cbfb-2e40-426c-844b-6b714694cc96.png",
             type: "image",
             mimeType: "image/png",
@@ -25130,7 +25130,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "afb11b4c-44bc-4804-92d0-096a5c09d5a9.png",
+
             url: "https://media.mapgenie.io/storage/media/afb11b4c-44bc-4804-92d0-096a5c09d5a9.png",
             type: "image",
             mimeType: "image/png",
@@ -25148,14 +25148,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2cd86d9c-6bb4-4b87-a01e-eca78ab9fe48.png",
+
             url: "https://media.mapgenie.io/storage/media/2cd86d9c-6bb4-4b87-a01e-eca78ab9fe48.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "12998fc9-87a7-42fd-9744-b564d36bb95b.png",
+
             url: "https://media.mapgenie.io/storage/media/12998fc9-87a7-42fd-9744-b564d36bb95b.png",
             type: "image",
             mimeType: "image/png",
@@ -25173,7 +25173,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17f55406-0ee1-478e-b8d8-cef26b17dfcb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/17f55406-0ee1-478e-b8d8-cef26b17dfcb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25191,7 +25191,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d625baaa-581d-4dd0-91bc-3f1bda6b55c1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d625baaa-581d-4dd0-91bc-3f1bda6b55c1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25209,7 +25209,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b8033710-de25-47cf-b13e-76ac49b93cd8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b8033710-de25-47cf-b13e-76ac49b93cd8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25227,7 +25227,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b8f3997d-a330-4d0c-8cae-6714f8ab324d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b8f3997d-a330-4d0c-8cae-6714f8ab324d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25245,7 +25245,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f9a7ec11-3211-495f-a6af-c144372dd714.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f9a7ec11-3211-495f-a6af-c144372dd714.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25263,7 +25263,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d7c1ec6a-20cc-4591-96a2-227e25bdb413.png",
+
             url: "https://media.mapgenie.io/storage/media/d7c1ec6a-20cc-4591-96a2-227e25bdb413.png",
             type: "image",
             mimeType: "image/png",
@@ -25281,7 +25281,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "652407f7-1cc4-494a-845e-c39d84824ed4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/652407f7-1cc4-494a-845e-c39d84824ed4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25299,7 +25299,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3634333a-c668-4583-9f0e-d1a978c12006.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3634333a-c668-4583-9f0e-d1a978c12006.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25317,7 +25317,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5dea9cc-a225-4ceb-b214-fbf8ef6c3ab0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5dea9cc-a225-4ceb-b214-fbf8ef6c3ab0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25335,7 +25335,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae989880-989e-48aa-a463-4e5cc050d462.png",
+
             url: "https://media.mapgenie.io/storage/media/ae989880-989e-48aa-a463-4e5cc050d462.png",
             type: "image",
             mimeType: "image/png",
@@ -25353,7 +25353,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bf88e571-e528-4401-819d-d2d49ae9eb79.png",
+
             url: "https://media.mapgenie.io/storage/media/bf88e571-e528-4401-819d-d2d49ae9eb79.png",
             type: "image",
             mimeType: "image/png",
@@ -25371,7 +25371,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6d9c6b55-4c6e-4d43-af7f-eceb4216b9b7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6d9c6b55-4c6e-4d43-af7f-eceb4216b9b7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25389,7 +25389,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "25b340d0-3eaa-4b1b-b401-a914949f34d2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/25b340d0-3eaa-4b1b-b401-a914949f34d2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25407,7 +25407,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5f0c57ff-cf1c-43d1-b608-faa1d56d7817.png",
+
             url: "https://media.mapgenie.io/storage/media/5f0c57ff-cf1c-43d1-b608-faa1d56d7817.png",
             type: "image",
             mimeType: "image/png",
@@ -25425,7 +25425,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "87fb14db-ffab-428c-a0a2-7f4c7ca55c86.png",
+
             url: "https://media.mapgenie.io/storage/media/87fb14db-ffab-428c-a0a2-7f4c7ca55c86.png",
             type: "image",
             mimeType: "image/png",
@@ -25443,7 +25443,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6d713886-b485-4c4d-a16a-f047e4c1d79c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6d713886-b485-4c4d-a16a-f047e4c1d79c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25461,7 +25461,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2fb16a65-8e0b-4ec8-a34e-45de97736efb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2fb16a65-8e0b-4ec8-a34e-45de97736efb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25479,7 +25479,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c8ceb183-8c41-48c2-a783-6c99670932eb.png",
+
             url: "https://media.mapgenie.io/storage/media/c8ceb183-8c41-48c2-a783-6c99670932eb.png",
             type: "image",
             mimeType: "image/png",
@@ -25497,7 +25497,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2fcae701-8088-441d-8724-0a8642076eb3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2fcae701-8088-441d-8724-0a8642076eb3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25515,7 +25515,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "14ac7162-7fa8-4063-8f04-c2e36bd58a2c.png",
+
             url: "https://media.mapgenie.io/storage/media/14ac7162-7fa8-4063-8f04-c2e36bd58a2c.png",
             type: "image",
             mimeType: "image/png",
@@ -25533,7 +25533,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f7900ff0-1060-4dcb-86b9-ab99a3076774.png",
+
             url: "https://media.mapgenie.io/storage/media/f7900ff0-1060-4dcb-86b9-ab99a3076774.png",
             type: "image",
             mimeType: "image/png",
@@ -25551,7 +25551,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ad212cd2-70b0-4805-83b6-93be74b2c165.png",
+
             url: "https://media.mapgenie.io/storage/media/ad212cd2-70b0-4805-83b6-93be74b2c165.png",
             type: "image",
             mimeType: "image/png",
@@ -25569,7 +25569,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a436f89b-5818-4246-bf8d-2513453055cb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a436f89b-5818-4246-bf8d-2513453055cb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25587,7 +25587,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eec170dc-8e25-4c7e-89f9-0715f4224853.png",
+
             url: "https://media.mapgenie.io/storage/media/eec170dc-8e25-4c7e-89f9-0715f4224853.png",
             type: "image",
             mimeType: "image/png",
@@ -25605,7 +25605,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "35352107-426f-4dff-b3d9-e082b35ed7bd.png",
+
             url: "https://media.mapgenie.io/storage/media/35352107-426f-4dff-b3d9-e082b35ed7bd.png",
             type: "image",
             mimeType: "image/png",
@@ -25623,7 +25623,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68ae8977-f19c-481a-836e-ea6117efb52e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/68ae8977-f19c-481a-836e-ea6117efb52e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25641,7 +25641,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e2c9d21c-04bb-4952-ad8e-3e1230cf84bf.png",
+
             url: "https://media.mapgenie.io/storage/media/e2c9d21c-04bb-4952-ad8e-3e1230cf84bf.png",
             type: "image",
             mimeType: "image/png",
@@ -25659,7 +25659,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "67eee4a6-2783-416d-832d-067286d334a0.png",
+
             url: "https://media.mapgenie.io/storage/media/67eee4a6-2783-416d-832d-067286d334a0.png",
             type: "image",
             mimeType: "image/png",
@@ -25677,7 +25677,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "32a5b42d-c319-45ba-b98d-d70da7b642c8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/32a5b42d-c319-45ba-b98d-d70da7b642c8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25695,7 +25695,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8a34cee5-5d6b-4575-923c-143ee8f26526.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8a34cee5-5d6b-4575-923c-143ee8f26526.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25713,7 +25713,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "145eb857-0130-4780-9282-f2d6716328ca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/145eb857-0130-4780-9282-f2d6716328ca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25731,7 +25731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "72a79acc-8173-494d-b081-2e2cd542b0d8.png",
+
             url: "https://media.mapgenie.io/storage/media/72a79acc-8173-494d-b081-2e2cd542b0d8.png",
             type: "image",
             mimeType: "image/png",
@@ -25749,7 +25749,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6160d587-12d8-4b72-b9c6-53e5b5f5b758.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6160d587-12d8-4b72-b9c6-53e5b5f5b758.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25767,7 +25767,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "884cd67b-97fe-4dd7-8555-2005d605ca47.png",
+
             url: "https://media.mapgenie.io/storage/media/884cd67b-97fe-4dd7-8555-2005d605ca47.png",
             type: "image",
             mimeType: "image/png",
@@ -25785,7 +25785,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "38bba610-8936-450e-8609-532e6d27e585.png",
+
             url: "https://media.mapgenie.io/storage/media/38bba610-8936-450e-8609-532e6d27e585.png",
             type: "image",
             mimeType: "image/png",
@@ -25812,7 +25812,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ba7ef413-97e1-4b15-8360-301cbe2322aa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ba7ef413-97e1-4b15-8360-301cbe2322aa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25830,7 +25830,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3be8b9e8-5b2c-4c0f-882a-4fcb42bc0458.png",
+
             url: "https://media.mapgenie.io/storage/media/3be8b9e8-5b2c-4c0f-882a-4fcb42bc0458.png",
             type: "image",
             mimeType: "image/png",
@@ -25848,7 +25848,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1d021a9f-81d7-439b-9808-2283dfd11b63.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1d021a9f-81d7-439b-9808-2283dfd11b63.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25866,7 +25866,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5231ccec-c0ab-4c8b-a611-fe23b8e4364d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5231ccec-c0ab-4c8b-a611-fe23b8e4364d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25884,7 +25884,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a88f9cc3-f98c-460e-a3e0-af90d45d61dd.png",
+
             url: "https://media.mapgenie.io/storage/media/a88f9cc3-f98c-460e-a3e0-af90d45d61dd.png",
             type: "image",
             mimeType: "image/png",
@@ -25902,7 +25902,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1d0cf4a3-a148-40ac-97d2-752325d07882.png",
+
             url: "https://media.mapgenie.io/storage/media/1d0cf4a3-a148-40ac-97d2-752325d07882.png",
             type: "image",
             mimeType: "image/png",
@@ -25920,7 +25920,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "493f6773-45fe-4d85-a34f-52baf0ba6529.png",
+
             url: "https://media.mapgenie.io/storage/media/493f6773-45fe-4d85-a34f-52baf0ba6529.png",
             type: "image",
             mimeType: "image/png",
@@ -25938,7 +25938,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0bfbf771-edb7-4ec4-bf0d-266d3af4558b.png",
+
             url: "https://media.mapgenie.io/storage/media/0bfbf771-edb7-4ec4-bf0d-266d3af4558b.png",
             type: "image",
             mimeType: "image/png",
@@ -25956,7 +25956,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7bdeac3d-08f3-4b40-aae8-cae04ae2e8ff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7bdeac3d-08f3-4b40-aae8-cae04ae2e8ff.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -25974,7 +25974,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "94d2c3f8-5653-4a25-8890-5f1eb0cd17fb.png",
+
             url: "https://media.mapgenie.io/storage/media/94d2c3f8-5653-4a25-8890-5f1eb0cd17fb.png",
             type: "image",
             mimeType: "image/png",
@@ -25992,7 +25992,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bfa58a03-907d-4496-86fe-d24b3a53471b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bfa58a03-907d-4496-86fe-d24b3a53471b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26010,7 +26010,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "745c78b3-33bd-437e-b130-90918c637cff.png",
+
             url: "https://media.mapgenie.io/storage/media/745c78b3-33bd-437e-b130-90918c637cff.png",
             type: "image",
             mimeType: "image/png",
@@ -26028,7 +26028,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "04d76844-93fc-4d60-91d8-34f4342753d2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/04d76844-93fc-4d60-91d8-34f4342753d2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26046,14 +26046,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6a8ab0dd-8d6d-47bd-8e67-b09786507a1e.png",
+
             url: "https://media.mapgenie.io/storage/media/6a8ab0dd-8d6d-47bd-8e67-b09786507a1e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "bc81aed4-d05a-4b45-9cdc-131abdc8e542.png",
+
             url: "https://media.mapgenie.io/storage/media/bc81aed4-d05a-4b45-9cdc-131abdc8e542.png",
             type: "image",
             mimeType: "image/png",
@@ -26071,7 +26071,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "69a9370a-e33a-4d73-a56d-f671d05b12c9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/69a9370a-e33a-4d73-a56d-f671d05b12c9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26089,7 +26089,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "091caf8f-478f-4d1e-95c3-ff34e2d1addc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/091caf8f-478f-4d1e-95c3-ff34e2d1addc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26107,7 +26107,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5821d86-eeef-4a65-958c-bc92d726d26f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5821d86-eeef-4a65-958c-bc92d726d26f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26125,7 +26125,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b8466fa8-5394-4c1b-9ce6-de7085534750.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b8466fa8-5394-4c1b-9ce6-de7085534750.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26143,7 +26143,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a3ccb2f9-910f-42b6-8b08-1f26e0db85e1.png",
+
             url: "https://media.mapgenie.io/storage/media/a3ccb2f9-910f-42b6-8b08-1f26e0db85e1.png",
             type: "image",
             mimeType: "image/png",
@@ -26161,7 +26161,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1fc227ce-bc6a-4560-8885-d65a283ce95a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1fc227ce-bc6a-4560-8885-d65a283ce95a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26179,7 +26179,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "14feed13-693b-4fe8-8d7d-1cf4b068fe31.jpg",
+
             url: "https://media.mapgenie.io/storage/media/14feed13-693b-4fe8-8d7d-1cf4b068fe31.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26197,7 +26197,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ceb9e08f-fd31-49cb-a164-f9b7ba0688b6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ceb9e08f-fd31-49cb-a164-f9b7ba0688b6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26215,7 +26215,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1864c48d-a7f4-4940-9977-0bdb8acfad6a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1864c48d-a7f4-4940-9977-0bdb8acfad6a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26233,7 +26233,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "08a00dc1-7b63-4ba2-8326-964f1a6a0def.png",
+
             url: "https://media.mapgenie.io/storage/media/08a00dc1-7b63-4ba2-8326-964f1a6a0def.png",
             type: "image",
             mimeType: "image/png",
@@ -26251,7 +26251,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e96d0e51-395c-4970-ba64-97e869f9761f.png",
+
             url: "https://media.mapgenie.io/storage/media/e96d0e51-395c-4970-ba64-97e869f9761f.png",
             type: "image",
             mimeType: "image/png",
@@ -26269,7 +26269,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9397a701-6300-4a3b-9ed7-90b2f6fda49d.png",
+
             url: "https://media.mapgenie.io/storage/media/9397a701-6300-4a3b-9ed7-90b2f6fda49d.png",
             type: "image",
             mimeType: "image/png",
@@ -26287,7 +26287,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ba4c21ee-9c10-4f43-bc56-845a80590d68.png",
+
             url: "https://media.mapgenie.io/storage/media/ba4c21ee-9c10-4f43-bc56-845a80590d68.png",
             type: "image",
             mimeType: "image/png",
@@ -26305,7 +26305,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b94bda5d-4f7d-4255-be5d-f0e017dfba54.png",
+
             url: "https://media.mapgenie.io/storage/media/b94bda5d-4f7d-4255-be5d-f0e017dfba54.png",
             type: "image",
             mimeType: "image/png",
@@ -26323,7 +26323,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "773add0b-4f5e-4a57-b569-14bd75952349.png",
+
             url: "https://media.mapgenie.io/storage/media/773add0b-4f5e-4a57-b569-14bd75952349.png",
             type: "image",
             mimeType: "image/png",
@@ -26341,7 +26341,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9065d4c9-07d4-46d9-9ed8-6e031f28c7f4.png",
+
             url: "https://media.mapgenie.io/storage/media/9065d4c9-07d4-46d9-9ed8-6e031f28c7f4.png",
             type: "image",
             mimeType: "image/png",
@@ -26359,7 +26359,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f966d99e-2082-43ab-9f76-2f12bd296e2f.png",
+
             url: "https://media.mapgenie.io/storage/media/f966d99e-2082-43ab-9f76-2f12bd296e2f.png",
             type: "image",
             mimeType: "image/png",
@@ -26377,7 +26377,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bcf368bc-b950-48c4-a3e3-c89d78bbb08d.png",
+
             url: "https://media.mapgenie.io/storage/media/bcf368bc-b950-48c4-a3e3-c89d78bbb08d.png",
             type: "image",
             mimeType: "image/png",
@@ -26395,7 +26395,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "91f97446-a8e5-447a-9728-7e3fb2062a61.png",
+
             url: "https://media.mapgenie.io/storage/media/91f97446-a8e5-447a-9728-7e3fb2062a61.png",
             type: "image",
             mimeType: "image/png",
@@ -26413,7 +26413,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "76287266-7e6d-44d8-8f64-1207d2379f74.png",
+
             url: "https://media.mapgenie.io/storage/media/76287266-7e6d-44d8-8f64-1207d2379f74.png",
             type: "image",
             mimeType: "image/png",
@@ -26431,7 +26431,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a7f507fa-ac53-44f1-a04e-d43a704c59c2.png",
+
             url: "https://media.mapgenie.io/storage/media/a7f507fa-ac53-44f1-a04e-d43a704c59c2.png",
             type: "image",
             mimeType: "image/png",
@@ -26449,7 +26449,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7fbe5edb-19c2-4e82-a02f-ea463ebaaebb.png",
+
             url: "https://media.mapgenie.io/storage/media/7fbe5edb-19c2-4e82-a02f-ea463ebaaebb.png",
             type: "image",
             mimeType: "image/png",
@@ -26467,7 +26467,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "873a454a-ad3a-4076-95d2-b9cc12860957.png",
+
             url: "https://media.mapgenie.io/storage/media/873a454a-ad3a-4076-95d2-b9cc12860957.png",
             type: "image",
             mimeType: "image/png",
@@ -26485,7 +26485,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3d4befbc-547f-4b17-b929-a9a27416d91f.png",
+
             url: "https://media.mapgenie.io/storage/media/3d4befbc-547f-4b17-b929-a9a27416d91f.png",
             type: "image",
             mimeType: "image/png",
@@ -26503,7 +26503,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "09e8880b-54bb-40bf-8c20-0e6ec995ea62.png",
+
             url: "https://media.mapgenie.io/storage/media/09e8880b-54bb-40bf-8c20-0e6ec995ea62.png",
             type: "image",
             mimeType: "image/png",
@@ -26521,7 +26521,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "461beeb8-7847-43f8-97d2-b31106f773b1.png",
+
             url: "https://media.mapgenie.io/storage/media/461beeb8-7847-43f8-97d2-b31106f773b1.png",
             type: "image",
             mimeType: "image/png",
@@ -26539,7 +26539,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d3f748c0-9724-4ac6-8e6c-17b28e50e750.png",
+
             url: "https://media.mapgenie.io/storage/media/d3f748c0-9724-4ac6-8e6c-17b28e50e750.png",
             type: "image",
             mimeType: "image/png",
@@ -26557,7 +26557,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bcf8ee6f-2921-486b-9e00-1c90190e9ba8.png",
+
             url: "https://media.mapgenie.io/storage/media/bcf8ee6f-2921-486b-9e00-1c90190e9ba8.png",
             type: "image",
             mimeType: "image/png",
@@ -26575,7 +26575,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b3b8846c-4097-45d2-86af-bec021c715ae.png",
+
             url: "https://media.mapgenie.io/storage/media/b3b8846c-4097-45d2-86af-bec021c715ae.png",
             type: "image",
             mimeType: "image/png",
@@ -26593,14 +26593,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17d308e7-f9fa-4ede-9e0a-44af0f49020d.png",
+
             url: "https://media.mapgenie.io/storage/media/17d308e7-f9fa-4ede-9e0a-44af0f49020d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "0e8a6823-83b2-4022-be92-bdca9732f174.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0e8a6823-83b2-4022-be92-bdca9732f174.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26618,14 +26618,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a2f334b-4556-4a76-aaa8-58f054f55195.png",
+
             url: "https://media.mapgenie.io/storage/media/7a2f334b-4556-4a76-aaa8-58f054f55195.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "3c77ac33-51d6-4e84-956b-bef3cdc6366d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3c77ac33-51d6-4e84-956b-bef3cdc6366d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26643,7 +26643,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "93ac3923-1d78-423d-a8a6-8554d3e53d21.png",
+
             url: "https://media.mapgenie.io/storage/media/93ac3923-1d78-423d-a8a6-8554d3e53d21.png",
             type: "image",
             mimeType: "image/png",
@@ -26661,7 +26661,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "88e646ab-fb41-4e51-99ea-ac2c4d9eaf50.png",
+
             url: "https://media.mapgenie.io/storage/media/88e646ab-fb41-4e51-99ea-ac2c4d9eaf50.png",
             type: "image",
             mimeType: "image/png",
@@ -26679,7 +26679,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c14869ad-3650-4889-ad82-a855cb2b8075.png",
+
             url: "https://media.mapgenie.io/storage/media/c14869ad-3650-4889-ad82-a855cb2b8075.png",
             type: "image",
             mimeType: "image/png",
@@ -26697,7 +26697,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3c06e27c-20bb-489e-a7ae-d18f0fa9dd6f.png",
+
             url: "https://media.mapgenie.io/storage/media/3c06e27c-20bb-489e-a7ae-d18f0fa9dd6f.png",
             type: "image",
             mimeType: "image/png",
@@ -26715,7 +26715,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "99aa7c98-4eb6-4e69-a118-71a9cd08e5c7.png",
+
             url: "https://media.mapgenie.io/storage/media/99aa7c98-4eb6-4e69-a118-71a9cd08e5c7.png",
             type: "image",
             mimeType: "image/png",
@@ -26733,7 +26733,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "67f02b6f-02cf-43a9-85fe-e542d6b36c35.png",
+
             url: "https://media.mapgenie.io/storage/media/67f02b6f-02cf-43a9-85fe-e542d6b36c35.png",
             type: "image",
             mimeType: "image/png",
@@ -26751,7 +26751,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "12908ecb-9a6e-4780-8a99-5d2b0fcdc5cd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/12908ecb-9a6e-4780-8a99-5d2b0fcdc5cd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26769,7 +26769,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dc7943bc-de2f-44c3-b426-9eabfd45a763.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dc7943bc-de2f-44c3-b426-9eabfd45a763.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26787,7 +26787,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "35d6008c-11ef-4e89-8f88-ee01baf73b11.png",
+
             url: "https://media.mapgenie.io/storage/media/35d6008c-11ef-4e89-8f88-ee01baf73b11.png",
             type: "image",
             mimeType: "image/png",
@@ -26805,7 +26805,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c16010cd-8492-40ee-aa09-87848a164f39.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c16010cd-8492-40ee-aa09-87848a164f39.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26823,7 +26823,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9153b4ef-6d68-4b74-8f3c-1d8fafaba55c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9153b4ef-6d68-4b74-8f3c-1d8fafaba55c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26841,7 +26841,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd2b47ac-22b9-4b65-b1b7-52f69f83df0c.png",
+
             url: "https://media.mapgenie.io/storage/media/fd2b47ac-22b9-4b65-b1b7-52f69f83df0c.png",
             type: "image",
             mimeType: "image/png",
@@ -26859,7 +26859,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "82a12bc3-634b-4a7d-a280-97f87962e291.jpg",
+
             url: "https://media.mapgenie.io/storage/media/82a12bc3-634b-4a7d-a280-97f87962e291.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26877,7 +26877,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "10ab9533-b2a2-4f21-b473-c9298bf7f5f4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/10ab9533-b2a2-4f21-b473-c9298bf7f5f4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26895,14 +26895,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "745d4f50-6326-409d-807b-0d6a0b3b4d4f.png",
+
             url: "https://media.mapgenie.io/storage/media/745d4f50-6326-409d-807b-0d6a0b3b4d4f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ab68a2b8-6443-4ea9-aec8-f4c80dc8bd53.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ab68a2b8-6443-4ea9-aec8-f4c80dc8bd53.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26920,7 +26920,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb705c0d-a2ee-497f-8dcf-287002f8b691.png",
+
             url: "https://media.mapgenie.io/storage/media/bb705c0d-a2ee-497f-8dcf-287002f8b691.png",
             type: "image",
             mimeType: "image/png",
@@ -26938,7 +26938,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2f55abd7-5bfa-40f3-a580-a37e091ba158.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2f55abd7-5bfa-40f3-a580-a37e091ba158.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26956,7 +26956,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "896038ab-76de-405d-9bfb-64d2ecd424b9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/896038ab-76de-405d-9bfb-64d2ecd424b9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26974,7 +26974,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "26d16310-8d0f-430c-8103-b6618ccb7fec.jpg",
+
             url: "https://media.mapgenie.io/storage/media/26d16310-8d0f-430c-8103-b6618ccb7fec.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -26992,7 +26992,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "85cde757-2b65-4dc2-9886-421320f5fe31.png",
+
             url: "https://media.mapgenie.io/storage/media/85cde757-2b65-4dc2-9886-421320f5fe31.png",
             type: "image",
             mimeType: "image/png",
@@ -27010,7 +27010,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "29234f58-d2aa-40d6-82c5-e2a208b66c08.jpg",
+
             url: "https://media.mapgenie.io/storage/media/29234f58-d2aa-40d6-82c5-e2a208b66c08.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27028,7 +27028,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1a6b9d97-a1eb-4d70-be74-a3a0a55b38a7.png",
+
             url: "https://media.mapgenie.io/storage/media/1a6b9d97-a1eb-4d70-be74-a3a0a55b38a7.png",
             type: "image",
             mimeType: "image/png",
@@ -27046,7 +27046,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "be16c869-2c72-42ec-af13-a82ffcd72fa4.png",
+
             url: "https://media.mapgenie.io/storage/media/be16c869-2c72-42ec-af13-a82ffcd72fa4.png",
             type: "image",
             mimeType: "image/png",
@@ -27064,7 +27064,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8c436eb2-47d1-4791-91d9-9932993a9a05.png",
+
             url: "https://media.mapgenie.io/storage/media/8c436eb2-47d1-4791-91d9-9932993a9a05.png",
             type: "image",
             mimeType: "image/png",
@@ -27082,7 +27082,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5a8fa3a8-10eb-45b9-8571-cc629223af28.png",
+
             url: "https://media.mapgenie.io/storage/media/5a8fa3a8-10eb-45b9-8571-cc629223af28.png",
             type: "image",
             mimeType: "image/png",
@@ -27100,7 +27100,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c2edb8a8-6197-4dae-81da-02c9ed3fdbaf.png",
+
             url: "https://media.mapgenie.io/storage/media/c2edb8a8-6197-4dae-81da-02c9ed3fdbaf.png",
             type: "image",
             mimeType: "image/png",
@@ -27118,7 +27118,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "586cd93b-8590-47ff-be4c-5bbe6a473615.png",
+
             url: "https://media.mapgenie.io/storage/media/586cd93b-8590-47ff-be4c-5bbe6a473615.png",
             type: "image",
             mimeType: "image/png",
@@ -27136,7 +27136,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ffe7e666-6749-4b4e-a4df-c26f7d5769e3.png",
+
             url: "https://media.mapgenie.io/storage/media/ffe7e666-6749-4b4e-a4df-c26f7d5769e3.png",
             type: "image",
             mimeType: "image/png",
@@ -27154,7 +27154,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "319d0e6b-5086-4faf-9514-616514de4ed9.png",
+
             url: "https://media.mapgenie.io/storage/media/319d0e6b-5086-4faf-9514-616514de4ed9.png",
             type: "image",
             mimeType: "image/png",
@@ -27172,14 +27172,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e154fd7e-c944-454a-a04a-78d0a8b821e2.png",
+
             url: "https://media.mapgenie.io/storage/media/e154fd7e-c944-454a-a04a-78d0a8b821e2.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "03d03fb0-c239-4d8d-80bc-9421d3a37c4b.png",
+
             url: "https://media.mapgenie.io/storage/media/03d03fb0-c239-4d8d-80bc-9421d3a37c4b.png",
             type: "image",
             mimeType: "image/png",
@@ -27197,7 +27197,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "da6beca1-680c-4298-be8f-0fbdb6c9b20c.png",
+
             url: "https://media.mapgenie.io/storage/media/da6beca1-680c-4298-be8f-0fbdb6c9b20c.png",
             type: "image",
             mimeType: "image/png",
@@ -27215,7 +27215,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ec706f8c-2a78-4c44-a172-556edd7e7021.png",
+
             url: "https://media.mapgenie.io/storage/media/ec706f8c-2a78-4c44-a172-556edd7e7021.png",
             type: "image",
             mimeType: "image/png",
@@ -27233,7 +27233,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9bdb770e-af28-4ad2-88d3-9a614a9d4da8.png",
+
             url: "https://media.mapgenie.io/storage/media/9bdb770e-af28-4ad2-88d3-9a614a9d4da8.png",
             type: "image",
             mimeType: "image/png",
@@ -27251,7 +27251,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7045739e-9156-4708-8fdf-831f3ea2aee5.png",
+
             url: "https://media.mapgenie.io/storage/media/7045739e-9156-4708-8fdf-831f3ea2aee5.png",
             type: "image",
             mimeType: "image/png",
@@ -27269,7 +27269,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ca9d744b-845c-4b09-8aa6-559407c3b708.png",
+
             url: "https://media.mapgenie.io/storage/media/ca9d744b-845c-4b09-8aa6-559407c3b708.png",
             type: "image",
             mimeType: "image/png",
@@ -27287,7 +27287,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4bb15dc9-494a-46ff-b02b-ad8a55bbbbd4.png",
+
             url: "https://media.mapgenie.io/storage/media/4bb15dc9-494a-46ff-b02b-ad8a55bbbbd4.png",
             type: "image",
             mimeType: "image/png",
@@ -27305,7 +27305,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "263958a7-b60e-4d00-98be-ee37a55f7e51.png",
+
             url: "https://media.mapgenie.io/storage/media/263958a7-b60e-4d00-98be-ee37a55f7e51.png",
             type: "image",
             mimeType: "image/png",
@@ -27323,7 +27323,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0a1463d0-2c5b-4a95-845e-18dedeaf1a2d.png",
+
             url: "https://media.mapgenie.io/storage/media/0a1463d0-2c5b-4a95-845e-18dedeaf1a2d.png",
             type: "image",
             mimeType: "image/png",
@@ -27341,7 +27341,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd265fa2-8f37-4492-b767-bd315dab6888.png",
+
             url: "https://media.mapgenie.io/storage/media/fd265fa2-8f37-4492-b767-bd315dab6888.png",
             type: "image",
             mimeType: "image/png",
@@ -27359,14 +27359,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6de2d15d-5064-4201-a5d4-3f7eb54fb9e0.png",
+
             url: "https://media.mapgenie.io/storage/media/6de2d15d-5064-4201-a5d4-3f7eb54fb9e0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "8daa6d61-fffd-41d3-a9e5-9093136b6609.png",
+
             url: "https://media.mapgenie.io/storage/media/8daa6d61-fffd-41d3-a9e5-9093136b6609.png",
             type: "image",
             mimeType: "image/png",
@@ -27384,7 +27384,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fc75fc74-136b-4209-b9fa-843e6c19f386.png",
+
             url: "https://media.mapgenie.io/storage/media/fc75fc74-136b-4209-b9fa-843e6c19f386.png",
             type: "image",
             mimeType: "image/png",
@@ -27402,7 +27402,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ebfb1c36-e92a-4a13-96a7-7d46ded67c4b.png",
+
             url: "https://media.mapgenie.io/storage/media/ebfb1c36-e92a-4a13-96a7-7d46ded67c4b.png",
             type: "image",
             mimeType: "image/png",
@@ -27420,14 +27420,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d9e95044-6338-4109-921f-ec52be741b7c.png",
+
             url: "https://media.mapgenie.io/storage/media/d9e95044-6338-4109-921f-ec52be741b7c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "875f83ad-2601-420d-9c64-5e97a421bc9b.png",
+
             url: "https://media.mapgenie.io/storage/media/875f83ad-2601-420d-9c64-5e97a421bc9b.png",
             type: "image",
             mimeType: "image/png",
@@ -27445,7 +27445,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a7863e9e-7055-4e6b-82c7-e4220317d1b8.png",
+
             url: "https://media.mapgenie.io/storage/media/a7863e9e-7055-4e6b-82c7-e4220317d1b8.png",
             type: "image",
             mimeType: "image/png",
@@ -27463,7 +27463,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "33fc326a-09dd-4dba-aac7-3e878952ee37.jpg",
+
             url: "https://media.mapgenie.io/storage/media/33fc326a-09dd-4dba-aac7-3e878952ee37.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27481,7 +27481,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a2b103bf-4d38-426c-8314-cfce65d42f0a.png",
+
             url: "https://media.mapgenie.io/storage/media/a2b103bf-4d38-426c-8314-cfce65d42f0a.png",
             type: "image",
             mimeType: "image/png",
@@ -27499,7 +27499,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8daba60c-fc86-483c-90b2-c4e28a27516c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8daba60c-fc86-483c-90b2-c4e28a27516c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27517,7 +27517,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9e57db1f-6180-4e70-86d1-c46328265ad3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9e57db1f-6180-4e70-86d1-c46328265ad3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27535,7 +27535,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2ade06ef-8f8d-4900-ba13-d40b3c7cdb48.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2ade06ef-8f8d-4900-ba13-d40b3c7cdb48.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27553,7 +27553,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a54169f7-f551-48bb-97bc-aef348e8b8a2.png",
+
             url: "https://media.mapgenie.io/storage/media/a54169f7-f551-48bb-97bc-aef348e8b8a2.png",
             type: "image",
             mimeType: "image/png",
@@ -27571,7 +27571,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d489098b-a5cc-4dfd-ad77-ba51f05a8548.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d489098b-a5cc-4dfd-ad77-ba51f05a8548.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27589,7 +27589,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "43096163-a681-429a-86dd-85fb8b7d4143.png",
+
             url: "https://media.mapgenie.io/storage/media/43096163-a681-429a-86dd-85fb8b7d4143.png",
             type: "image",
             mimeType: "image/png",
@@ -27607,7 +27607,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1a7abf69-dc32-45f2-a9e1-d0fceeac88d1.png",
+
             url: "https://media.mapgenie.io/storage/media/1a7abf69-dc32-45f2-a9e1-d0fceeac88d1.png",
             type: "image",
             mimeType: "image/png",
@@ -27625,7 +27625,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "44fb0314-5c19-4fe7-93f2-6576c2fd2fcb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/44fb0314-5c19-4fe7-93f2-6576c2fd2fcb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27643,7 +27643,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b1a8401f-ad71-4b6b-99a7-d0b798f3ca18.png",
+
             url: "https://media.mapgenie.io/storage/media/b1a8401f-ad71-4b6b-99a7-d0b798f3ca18.png",
             type: "image",
             mimeType: "image/png",
@@ -27661,7 +27661,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4e9963b6-67ba-4bdc-ba48-ba446fdf5233.png",
+
             url: "https://media.mapgenie.io/storage/media/4e9963b6-67ba-4bdc-ba48-ba446fdf5233.png",
             type: "image",
             mimeType: "image/png",
@@ -27679,7 +27679,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f0edc720-12f6-492a-b7a5-af5b769122ee.png",
+
             url: "https://media.mapgenie.io/storage/media/f0edc720-12f6-492a-b7a5-af5b769122ee.png",
             type: "image",
             mimeType: "image/png",
@@ -27697,7 +27697,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "76486557-557e-4550-8c6a-65cfa6e700b2.png",
+
             url: "https://media.mapgenie.io/storage/media/76486557-557e-4550-8c6a-65cfa6e700b2.png",
             type: "image",
             mimeType: "image/png",
@@ -27715,7 +27715,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "33b51bd7-31c8-40ee-af99-363a51733357.png",
+
             url: "https://media.mapgenie.io/storage/media/33b51bd7-31c8-40ee-af99-363a51733357.png",
             type: "image",
             mimeType: "image/png",
@@ -27733,7 +27733,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5136262d-3aea-4918-8a12-da69d36cd0b8.png",
+
             url: "https://media.mapgenie.io/storage/media/5136262d-3aea-4918-8a12-da69d36cd0b8.png",
             type: "image",
             mimeType: "image/png",
@@ -27751,7 +27751,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2e8ba13d-2035-42f6-b647-314182d4560d.png",
+
             url: "https://media.mapgenie.io/storage/media/2e8ba13d-2035-42f6-b647-314182d4560d.png",
             type: "image",
             mimeType: "image/png",
@@ -27769,7 +27769,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "52f5f4a0-9000-4605-8186-de4b33499efa.png",
+
             url: "https://media.mapgenie.io/storage/media/52f5f4a0-9000-4605-8186-de4b33499efa.png",
             type: "image",
             mimeType: "image/png",
@@ -27787,7 +27787,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b2410a19-6c52-4384-bd53-f00892d66e2f.png",
+
             url: "https://media.mapgenie.io/storage/media/b2410a19-6c52-4384-bd53-f00892d66e2f.png",
             type: "image",
             mimeType: "image/png",
@@ -27805,7 +27805,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4b336f18-c279-4774-a61d-6f4a163854c4.png",
+
             url: "https://media.mapgenie.io/storage/media/4b336f18-c279-4774-a61d-6f4a163854c4.png",
             type: "image",
             mimeType: "image/png",
@@ -27823,7 +27823,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "28dfdfdf-09fd-4074-a991-b535fbe712fc.png",
+
             url: "https://media.mapgenie.io/storage/media/28dfdfdf-09fd-4074-a991-b535fbe712fc.png",
             type: "image",
             mimeType: "image/png",
@@ -27841,7 +27841,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a37644fd-07e6-4cb3-8c43-ad76116efa20.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a37644fd-07e6-4cb3-8c43-ad76116efa20.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27859,7 +27859,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "827b9bd3-604e-44f4-9fb6-1a8250160db5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/827b9bd3-604e-44f4-9fb6-1a8250160db5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27877,7 +27877,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "76b9c14d-85b2-4089-aa60-a8074a7a870c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/76b9c14d-85b2-4089-aa60-a8074a7a870c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27895,7 +27895,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd009b6d-1144-4d44-9e1f-ed58dba89bf3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fd009b6d-1144-4d44-9e1f-ed58dba89bf3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27913,7 +27913,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2532f2cc-5432-492c-833f-8261cad7fa5f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2532f2cc-5432-492c-833f-8261cad7fa5f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27931,7 +27931,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d4558662-4cbd-4a0c-aa9f-45cbff8e0da8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d4558662-4cbd-4a0c-aa9f-45cbff8e0da8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27949,7 +27949,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2c30ac9e-e203-471b-82e7-9c037ec3ad06.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2c30ac9e-e203-471b-82e7-9c037ec3ad06.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27967,7 +27967,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8479b47c-0c61-4aff-82e3-440c23655cfb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8479b47c-0c61-4aff-82e3-440c23655cfb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -27985,7 +27985,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fa722862-7266-4f5c-85f8-de4e2f5748b7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fa722862-7266-4f5c-85f8-de4e2f5748b7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28003,7 +28003,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6b73e22d-70d2-448b-a949-4f179ebf8e99.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6b73e22d-70d2-448b-a949-4f179ebf8e99.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28021,7 +28021,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a1fe7d33-bb91-434e-829a-12efc2bbfa35.png",
+
             url: "https://media.mapgenie.io/storage/media/a1fe7d33-bb91-434e-829a-12efc2bbfa35.png",
             type: "image",
             mimeType: "image/png",
@@ -28048,7 +28048,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e287be9-7f85-44dd-b94a-db2eb9870634.png",
+
             url: "https://media.mapgenie.io/storage/media/7e287be9-7f85-44dd-b94a-db2eb9870634.png",
             type: "image",
             mimeType: "image/png",
@@ -28066,7 +28066,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d8985e1d-aa2b-4565-b5b0-9b718f746542.png",
+
             url: "https://media.mapgenie.io/storage/media/d8985e1d-aa2b-4565-b5b0-9b718f746542.png",
             type: "image",
             mimeType: "image/png",
@@ -28084,7 +28084,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23af1a1a-4537-4254-abc0-4cce7777950c.png",
+
             url: "https://media.mapgenie.io/storage/media/23af1a1a-4537-4254-abc0-4cce7777950c.png",
             type: "image",
             mimeType: "image/png",
@@ -28102,7 +28102,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "231784be-0e03-4eea-817e-2d3ec140746b.png",
+
             url: "https://media.mapgenie.io/storage/media/231784be-0e03-4eea-817e-2d3ec140746b.png",
             type: "image",
             mimeType: "image/png",
@@ -28120,7 +28120,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0305f739-0677-4a96-a8aa-55f9be42f782.png",
+
             url: "https://media.mapgenie.io/storage/media/0305f739-0677-4a96-a8aa-55f9be42f782.png",
             type: "image",
             mimeType: "image/png",
@@ -28138,7 +28138,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "143336ca-03cc-4e90-b2fd-071d5fdc9004.png",
+
             url: "https://media.mapgenie.io/storage/media/143336ca-03cc-4e90-b2fd-071d5fdc9004.png",
             type: "image",
             mimeType: "image/png",
@@ -28156,7 +28156,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "32a70c89-80ff-487e-87e5-2234da67379c.png",
+
             url: "https://media.mapgenie.io/storage/media/32a70c89-80ff-487e-87e5-2234da67379c.png",
             type: "image",
             mimeType: "image/png",
@@ -28174,7 +28174,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ffbdc658-d775-4d80-9b01-5862c2540c61.png",
+
             url: "https://media.mapgenie.io/storage/media/ffbdc658-d775-4d80-9b01-5862c2540c61.png",
             type: "image",
             mimeType: "image/png",
@@ -28192,7 +28192,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae6493ff-54cf-4135-b104-332c6ddb6dcc.png",
+
             url: "https://media.mapgenie.io/storage/media/ae6493ff-54cf-4135-b104-332c6ddb6dcc.png",
             type: "image",
             mimeType: "image/png",
@@ -28210,7 +28210,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "13007c03-3ef3-40fd-8293-623197c702fe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/13007c03-3ef3-40fd-8293-623197c702fe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28228,7 +28228,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "417532a6-4670-419d-b0a5-ab0862a4384c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/417532a6-4670-419d-b0a5-ab0862a4384c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28246,7 +28246,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e0949946-1d9b-46a6-951b-fb0363596844.png",
+
             url: "https://media.mapgenie.io/storage/media/e0949946-1d9b-46a6-951b-fb0363596844.png",
             type: "image",
             mimeType: "image/png",
@@ -28264,7 +28264,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ca9920d3-8720-4737-a641-13564125392d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ca9920d3-8720-4737-a641-13564125392d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28282,7 +28282,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bcdc73da-b975-4bee-ba66-20af4e310154.png",
+
             url: "https://media.mapgenie.io/storage/media/bcdc73da-b975-4bee-ba66-20af4e310154.png",
             type: "image",
             mimeType: "image/png",
@@ -28300,7 +28300,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b5b4ab24-b6b2-44f3-a6bb-f2934d4be7d8.png",
+
             url: "https://media.mapgenie.io/storage/media/b5b4ab24-b6b2-44f3-a6bb-f2934d4be7d8.png",
             type: "image",
             mimeType: "image/png",
@@ -28318,7 +28318,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "83821524-84ab-45b2-95f2-96c8e11cc135.png",
+
             url: "https://media.mapgenie.io/storage/media/83821524-84ab-45b2-95f2-96c8e11cc135.png",
             type: "image",
             mimeType: "image/png",
@@ -28336,7 +28336,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ab06fd93-5af5-40f8-85c5-78c4353801fd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ab06fd93-5af5-40f8-85c5-78c4353801fd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28354,7 +28354,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "44ce4617-2071-48ae-a44d-8567d0828bfe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/44ce4617-2071-48ae-a44d-8567d0828bfe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28372,7 +28372,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aa8d92a5-cba8-4285-b0ad-66ee6c3e0a24.png",
+
             url: "https://media.mapgenie.io/storage/media/aa8d92a5-cba8-4285-b0ad-66ee6c3e0a24.png",
             type: "image",
             mimeType: "image/png",
@@ -28390,7 +28390,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6f58e9cc-1822-4478-9efc-7b54c6464183.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6f58e9cc-1822-4478-9efc-7b54c6464183.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28408,7 +28408,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "512b032a-8330-4ba0-9ae7-7f9720a21fd4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/512b032a-8330-4ba0-9ae7-7f9720a21fd4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28426,7 +28426,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f170097f-e65d-4960-92ff-4e7bc33c9867.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f170097f-e65d-4960-92ff-4e7bc33c9867.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28444,7 +28444,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "07de4e57-d252-48e2-abcd-fa21469d2991.jpg",
+
             url: "https://media.mapgenie.io/storage/media/07de4e57-d252-48e2-abcd-fa21469d2991.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28462,7 +28462,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5d87359-264a-46fb-82ca-6153700d0192.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5d87359-264a-46fb-82ca-6153700d0192.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28480,7 +28480,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b3ef640-9807-4321-972f-66fe0905e297.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0b3ef640-9807-4321-972f-66fe0905e297.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28498,7 +28498,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ccfa3591-75be-49eb-ada8-58aababbd00a.png",
+
             url: "https://media.mapgenie.io/storage/media/ccfa3591-75be-49eb-ada8-58aababbd00a.png",
             type: "image",
             mimeType: "image/png",
@@ -28516,7 +28516,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "61cc5572-3deb-409f-aa5b-9aa403ef58a5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/61cc5572-3deb-409f-aa5b-9aa403ef58a5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28534,7 +28534,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "91d09d9c-88e0-4f92-9cc0-b123a572f2c9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/91d09d9c-88e0-4f92-9cc0-b123a572f2c9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -28552,14 +28552,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "79bb7358-664d-4561-bd03-f4f57220c9c4.png",
+
             url: "https://media.mapgenie.io/storage/media/79bb7358-664d-4561-bd03-f4f57220c9c4.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ff7599ae-e668-4cd6-b526-445a4b322f5f.png",
+
             url: "https://media.mapgenie.io/storage/media/ff7599ae-e668-4cd6-b526-445a4b322f5f.png",
             type: "image",
             mimeType: "image/png",
@@ -28577,14 +28577,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "63c5ee53-d22d-4883-a817-36129c72fb58.png",
+
             url: "https://media.mapgenie.io/storage/media/63c5ee53-d22d-4883-a817-36129c72fb58.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ea8055b4-2ab5-45d9-b0e8-f7fc02f52d3c.png",
+
             url: "https://media.mapgenie.io/storage/media/ea8055b4-2ab5-45d9-b0e8-f7fc02f52d3c.png",
             type: "image",
             mimeType: "image/png",
@@ -28602,7 +28602,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "71fb90d5-ab70-4a3f-a22f-769f10b62b9d.png",
+
             url: "https://media.mapgenie.io/storage/media/71fb90d5-ab70-4a3f-a22f-769f10b62b9d.png",
             type: "image",
             mimeType: "image/png",
@@ -28620,7 +28620,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "310a72ba-e337-4031-b41a-82c03f6e4f55.png",
+
             url: "https://media.mapgenie.io/storage/media/310a72ba-e337-4031-b41a-82c03f6e4f55.png",
             type: "image",
             mimeType: "image/png",
@@ -28638,14 +28638,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6d8756ce-36dd-4712-98e9-b80cabfd680f.png",
+
             url: "https://media.mapgenie.io/storage/media/6d8756ce-36dd-4712-98e9-b80cabfd680f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "a4d725fe-3b76-4f65-aa4d-78474d08e330.png",
+
             url: "https://media.mapgenie.io/storage/media/a4d725fe-3b76-4f65-aa4d-78474d08e330.png",
             type: "image",
             mimeType: "image/png",
@@ -28663,7 +28663,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4707f020-fe3b-40fb-b69b-f78cc8c90e58.png",
+
             url: "https://media.mapgenie.io/storage/media/4707f020-fe3b-40fb-b69b-f78cc8c90e58.png",
             type: "image",
             mimeType: "image/png",
@@ -28681,7 +28681,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "987a5e85-20c5-45bd-a66c-6c38f1378ae9.png",
+
             url: "https://media.mapgenie.io/storage/media/987a5e85-20c5-45bd-a66c-6c38f1378ae9.png",
             type: "image",
             mimeType: "image/png",
@@ -28699,7 +28699,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3c0444ed-ec01-43d8-8688-a66d9a2183a4.png",
+
             url: "https://media.mapgenie.io/storage/media/3c0444ed-ec01-43d8-8688-a66d9a2183a4.png",
             type: "image",
             mimeType: "image/png",
@@ -28717,7 +28717,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "69cad9f1-db95-46a5-a2b3-afe412c9fef3.png",
+
             url: "https://media.mapgenie.io/storage/media/69cad9f1-db95-46a5-a2b3-afe412c9fef3.png",
             type: "image",
             mimeType: "image/png",
@@ -28735,14 +28735,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "19aed68f-b671-4b54-a318-ab4ed374ed5b.png",
+
             url: "https://media.mapgenie.io/storage/media/19aed68f-b671-4b54-a318-ab4ed374ed5b.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f0f85a35-50c4-49aa-81f9-981d09dfc013.png",
+
             url: "https://media.mapgenie.io/storage/media/f0f85a35-50c4-49aa-81f9-981d09dfc013.png",
             type: "image",
             mimeType: "image/png",
@@ -28760,7 +28760,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0c430b15-8d0b-4983-a442-091f3d6774ca.png",
+
             url: "https://media.mapgenie.io/storage/media/0c430b15-8d0b-4983-a442-091f3d6774ca.png",
             type: "image",
             mimeType: "image/png",
@@ -28778,7 +28778,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4ac81311-c28d-4482-8905-731942223a9c.png",
+
             url: "https://media.mapgenie.io/storage/media/4ac81311-c28d-4482-8905-731942223a9c.png",
             type: "image",
             mimeType: "image/png",
@@ -28796,7 +28796,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "94d27125-0d12-4baa-96d2-85e9daf550e5.png",
+
             url: "https://media.mapgenie.io/storage/media/94d27125-0d12-4baa-96d2-85e9daf550e5.png",
             type: "image",
             mimeType: "image/png",
@@ -28814,7 +28814,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "96289ae6-9276-4b4e-8fce-e9973c1aa5e0.png",
+
             url: "https://media.mapgenie.io/storage/media/96289ae6-9276-4b4e-8fce-e9973c1aa5e0.png",
             type: "image",
             mimeType: "image/png",
@@ -28832,7 +28832,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c5f3270f-92e0-49c5-a915-097661ea8d2c.png",
+
             url: "https://media.mapgenie.io/storage/media/c5f3270f-92e0-49c5-a915-097661ea8d2c.png",
             type: "image",
             mimeType: "image/png",
@@ -28850,7 +28850,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2f1ef5c6-eb2b-4dfd-8c69-32d70032ad96.png",
+
             url: "https://media.mapgenie.io/storage/media/2f1ef5c6-eb2b-4dfd-8c69-32d70032ad96.png",
             type: "image",
             mimeType: "image/png",
@@ -28868,7 +28868,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ee1551ff-bf95-432e-8976-2b08a9bca167.png",
+
             url: "https://media.mapgenie.io/storage/media/ee1551ff-bf95-432e-8976-2b08a9bca167.png",
             type: "image",
             mimeType: "image/png",
@@ -28886,7 +28886,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bfae95b6-d635-4be3-8c0b-913e4bc436c3.png",
+
             url: "https://media.mapgenie.io/storage/media/bfae95b6-d635-4be3-8c0b-913e4bc436c3.png",
             type: "image",
             mimeType: "image/png",
@@ -28904,7 +28904,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "96613fe0-1b9e-4112-9dd9-8da7da39a4f1.png",
+
             url: "https://media.mapgenie.io/storage/media/96613fe0-1b9e-4112-9dd9-8da7da39a4f1.png",
             type: "image",
             mimeType: "image/png",
@@ -28922,7 +28922,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bd112614-fa43-483f-9883-f4ccb2a1dcd3.png",
+
             url: "https://media.mapgenie.io/storage/media/bd112614-fa43-483f-9883-f4ccb2a1dcd3.png",
             type: "image",
             mimeType: "image/png",
@@ -28940,7 +28940,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b71034a-363b-4ce0-be04-cb8ffb3f7f3e.png",
+
             url: "https://media.mapgenie.io/storage/media/0b71034a-363b-4ce0-be04-cb8ffb3f7f3e.png",
             type: "image",
             mimeType: "image/png",
@@ -28958,7 +28958,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "965db64b-099e-4f3e-9c9a-418984730102.png",
+
             url: "https://media.mapgenie.io/storage/media/965db64b-099e-4f3e-9c9a-418984730102.png",
             type: "image",
             mimeType: "image/png",
@@ -28976,7 +28976,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f060fdf9-3add-4357-bd11-931f5dc050c6.png",
+
             url: "https://media.mapgenie.io/storage/media/f060fdf9-3add-4357-bd11-931f5dc050c6.png",
             type: "image",
             mimeType: "image/png",
@@ -28994,7 +28994,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b8abfa81-90a2-4bc0-bce1-15cf6f092c07.png",
+
             url: "https://media.mapgenie.io/storage/media/b8abfa81-90a2-4bc0-bce1-15cf6f092c07.png",
             type: "image",
             mimeType: "image/png",
@@ -29012,7 +29012,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "faa7d1a6-4f34-4678-ab3b-8671464c4d48.png",
+
             url: "https://media.mapgenie.io/storage/media/faa7d1a6-4f34-4678-ab3b-8671464c4d48.png",
             type: "image",
             mimeType: "image/png",
@@ -29030,7 +29030,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "25f42c68-4152-4395-954e-7a4fb9ddb54a.png",
+
             url: "https://media.mapgenie.io/storage/media/25f42c68-4152-4395-954e-7a4fb9ddb54a.png",
             type: "image",
             mimeType: "image/png",
@@ -29048,7 +29048,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "225dc40a-f299-49ca-8c4d-1a8d19f98124.png",
+
             url: "https://media.mapgenie.io/storage/media/225dc40a-f299-49ca-8c4d-1a8d19f98124.png",
             type: "image",
             mimeType: "image/png",
@@ -29066,7 +29066,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "80ea0fa7-7a46-48d1-b8bb-360f63907e8a.png",
+
             url: "https://media.mapgenie.io/storage/media/80ea0fa7-7a46-48d1-b8bb-360f63907e8a.png",
             type: "image",
             mimeType: "image/png",
@@ -29084,7 +29084,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a299e3bd-8df9-4dbb-93a5-ee8af1192b02.png",
+
             url: "https://media.mapgenie.io/storage/media/a299e3bd-8df9-4dbb-93a5-ee8af1192b02.png",
             type: "image",
             mimeType: "image/png",
@@ -29102,7 +29102,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7036e925-d70e-4ad6-b2ce-3094d6320027.png",
+
             url: "https://media.mapgenie.io/storage/media/7036e925-d70e-4ad6-b2ce-3094d6320027.png",
             type: "image",
             mimeType: "image/png",
@@ -29120,7 +29120,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ac1221f9-1022-4404-bc2d-6b958a7041e3.png",
+
             url: "https://media.mapgenie.io/storage/media/ac1221f9-1022-4404-bc2d-6b958a7041e3.png",
             type: "image",
             mimeType: "image/png",
@@ -29138,7 +29138,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a7657428-3ce7-442b-a3a4-25bbf034f466.png",
+
             url: "https://media.mapgenie.io/storage/media/a7657428-3ce7-442b-a3a4-25bbf034f466.png",
             type: "image",
             mimeType: "image/png",
@@ -29156,14 +29156,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0dcdd55d-5984-476d-a937-7973a2fcf0b8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0dcdd55d-5984-476d-a937-7973a2fcf0b8.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "01a55bc2-10fd-4339-ada6-e7c66b6853ac.jpg",
+
             url: "https://media.mapgenie.io/storage/media/01a55bc2-10fd-4339-ada6-e7c66b6853ac.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29181,7 +29181,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "78062b91-f768-49e4-a3f0-7d50c7ea5a15.png",
+
             url: "https://media.mapgenie.io/storage/media/78062b91-f768-49e4-a3f0-7d50c7ea5a15.png",
             type: "image",
             mimeType: "image/png",
@@ -29199,7 +29199,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0c3eb828-9359-423a-9e6f-d22a1efc8bf7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0c3eb828-9359-423a-9e6f-d22a1efc8bf7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29217,14 +29217,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae3a016d-675f-4611-bca5-d4f3866b8e75.png",
+
             url: "https://media.mapgenie.io/storage/media/ae3a016d-675f-4611-bca5-d4f3866b8e75.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "a23d3c29-72c7-4c7c-be8f-5377dcf372f3.png",
+
             url: "https://media.mapgenie.io/storage/media/a23d3c29-72c7-4c7c-be8f-5377dcf372f3.png",
             type: "image",
             mimeType: "image/png",
@@ -29242,7 +29242,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "361e906f-87a5-4d51-bc05-b913d35dddf6.png",
+
             url: "https://media.mapgenie.io/storage/media/361e906f-87a5-4d51-bc05-b913d35dddf6.png",
             type: "image",
             mimeType: "image/png",
@@ -29260,7 +29260,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "786f523d-3d01-48d2-80bd-dfafc7acf105.png",
+
             url: "https://media.mapgenie.io/storage/media/786f523d-3d01-48d2-80bd-dfafc7acf105.png",
             type: "image",
             mimeType: "image/png",
@@ -29278,7 +29278,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c0e442fe-db91-472d-9ce0-aa4f6999b2f3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c0e442fe-db91-472d-9ce0-aa4f6999b2f3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29296,7 +29296,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d36fa71e-fabe-4a04-9d09-25227561d198.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d36fa71e-fabe-4a04-9d09-25227561d198.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29314,7 +29314,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bc0c79b-8b6d-438e-8c1e-8b12076fa084.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1bc0c79b-8b6d-438e-8c1e-8b12076fa084.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29332,7 +29332,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9305c018-f955-4c9b-aa5b-975d71c870e2.png",
+
             url: "https://media.mapgenie.io/storage/media/9305c018-f955-4c9b-aa5b-975d71c870e2.png",
             type: "image",
             mimeType: "image/png",
@@ -29350,14 +29350,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae479198-8b49-4862-b44c-1de9d9f87205.png",
+
             url: "https://media.mapgenie.io/storage/media/ae479198-8b49-4862-b44c-1de9d9f87205.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "9741f75f-2184-4045-8a11-db3aaa164069.png",
+
             url: "https://media.mapgenie.io/storage/media/9741f75f-2184-4045-8a11-db3aaa164069.png",
             type: "image",
             mimeType: "image/png",
@@ -29375,7 +29375,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "39bc564e-e620-4b5a-a6e7-3e107c898381.png",
+
             url: "https://media.mapgenie.io/storage/media/39bc564e-e620-4b5a-a6e7-3e107c898381.png",
             type: "image",
             mimeType: "image/png",
@@ -29393,7 +29393,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "10676b70-7566-4b91-8598-52ae6546f86c.png",
+
             url: "https://media.mapgenie.io/storage/media/10676b70-7566-4b91-8598-52ae6546f86c.png",
             type: "image",
             mimeType: "image/png",
@@ -29411,14 +29411,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "353a975e-da56-442f-99fd-40668b91633a.png",
+
             url: "https://media.mapgenie.io/storage/media/353a975e-da56-442f-99fd-40668b91633a.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "99af3042-fd57-4fbb-9f02-5bb81a99aa0a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/99af3042-fd57-4fbb-9f02-5bb81a99aa0a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29436,7 +29436,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2ac017d5-c1ee-437e-982b-1bb142cccc7e.png",
+
             url: "https://media.mapgenie.io/storage/media/2ac017d5-c1ee-437e-982b-1bb142cccc7e.png",
             type: "image",
             mimeType: "image/png",
@@ -29454,7 +29454,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7dd627bf-32fd-436c-922e-dd94053c4bcc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7dd627bf-32fd-436c-922e-dd94053c4bcc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29472,7 +29472,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5bdfde6f-7e8c-4b14-a5e9-737d6ae05f10.png",
+
             url: "https://media.mapgenie.io/storage/media/5bdfde6f-7e8c-4b14-a5e9-737d6ae05f10.png",
             type: "image",
             mimeType: "image/png",
@@ -29490,7 +29490,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4574e170-66b6-43ae-b085-74086495bb69.png",
+
             url: "https://media.mapgenie.io/storage/media/4574e170-66b6-43ae-b085-74086495bb69.png",
             type: "image",
             mimeType: "image/png",
@@ -29508,7 +29508,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5c492d33-014e-477c-8ac1-b2a11b299382.png",
+
             url: "https://media.mapgenie.io/storage/media/5c492d33-014e-477c-8ac1-b2a11b299382.png",
             type: "image",
             mimeType: "image/png",
@@ -29526,7 +29526,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "da948c5c-be4b-489e-8216-fe9840427170.png",
+
             url: "https://media.mapgenie.io/storage/media/da948c5c-be4b-489e-8216-fe9840427170.png",
             type: "image",
             mimeType: "image/png",
@@ -29544,7 +29544,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "43d7710f-3930-4a7b-81df-85a4b7cb675f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/43d7710f-3930-4a7b-81df-85a4b7cb675f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29562,7 +29562,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1b6b4e9a-c956-4fad-95b6-c762784389d7.png",
+
             url: "https://media.mapgenie.io/storage/media/1b6b4e9a-c956-4fad-95b6-c762784389d7.png",
             type: "image",
             mimeType: "image/png",
@@ -29580,7 +29580,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dbf82303-e7e8-4a8c-a3eb-ac644b30ef3f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dbf82303-e7e8-4a8c-a3eb-ac644b30ef3f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29598,7 +29598,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a51cdff6-4e26-4bf2-8639-7bd4d8472e35.png",
+
             url: "https://media.mapgenie.io/storage/media/a51cdff6-4e26-4bf2-8639-7bd4d8472e35.png",
             type: "image",
             mimeType: "image/png",
@@ -29616,7 +29616,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "75d532ac-a8ba-4153-a2c3-46c9de173296.png",
+
             url: "https://media.mapgenie.io/storage/media/75d532ac-a8ba-4153-a2c3-46c9de173296.png",
             type: "image",
             mimeType: "image/png",
@@ -29634,7 +29634,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2ae61948-c4b3-4f51-8681-4dd9d287da9f.png",
+
             url: "https://media.mapgenie.io/storage/media/2ae61948-c4b3-4f51-8681-4dd9d287da9f.png",
             type: "image",
             mimeType: "image/png",
@@ -29652,7 +29652,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "899a7239-f592-4c96-b67a-d3f7470156b9.png",
+
             url: "https://media.mapgenie.io/storage/media/899a7239-f592-4c96-b67a-d3f7470156b9.png",
             type: "image",
             mimeType: "image/png",
@@ -29670,7 +29670,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4fa425c3-3056-4633-a7f7-0d2552e21833.png",
+
             url: "https://media.mapgenie.io/storage/media/4fa425c3-3056-4633-a7f7-0d2552e21833.png",
             type: "image",
             mimeType: "image/png",
@@ -29688,7 +29688,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8abf75f1-036a-4f60-9fce-a94f5c231788.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8abf75f1-036a-4f60-9fce-a94f5c231788.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29706,7 +29706,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c5736855-2480-4977-929b-1897feee3ace.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c5736855-2480-4977-929b-1897feee3ace.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29724,7 +29724,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d1046f41-ce36-4f5c-8813-4cff4c0631ec.png",
+
             url: "https://media.mapgenie.io/storage/media/d1046f41-ce36-4f5c-8813-4cff4c0631ec.png",
             type: "image",
             mimeType: "image/png",
@@ -29742,7 +29742,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9c6fe9eb-0c6d-4920-aed2-b0219f92a36d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9c6fe9eb-0c6d-4920-aed2-b0219f92a36d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29760,7 +29760,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5eea6e1e-c205-4e45-b76c-6d3ae1031e2c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5eea6e1e-c205-4e45-b76c-6d3ae1031e2c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29778,7 +29778,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aa8a01e4-75eb-4098-92f3-e4d3a03b09cd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aa8a01e4-75eb-4098-92f3-e4d3a03b09cd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29796,14 +29796,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5cafd05b-36c9-44eb-8215-712c9a1ef443.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5cafd05b-36c9-44eb-8215-712c9a1ef443.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ef32b4a2-e32f-4ba3-8ec4-9897111b7944.png",
+
             url: "https://media.mapgenie.io/storage/media/ef32b4a2-e32f-4ba3-8ec4-9897111b7944.png",
             type: "image",
             mimeType: "image/jpeg",
@@ -29821,7 +29821,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "32cb0949-c85d-41c6-98c8-0fa8e97a84f7.png",
+
             url: "https://media.mapgenie.io/storage/media/32cb0949-c85d-41c6-98c8-0fa8e97a84f7.png",
             type: "image",
             mimeType: "image/png",
@@ -29839,7 +29839,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e7ad1910-975f-41ca-aa6d-9dd5712f688a.png",
+
             url: "https://media.mapgenie.io/storage/media/e7ad1910-975f-41ca-aa6d-9dd5712f688a.png",
             type: "image",
             mimeType: "image/png",
@@ -29857,7 +29857,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "306948b4-3f45-4398-90e8-ef08113f4a70.jpg",
+
             url: "https://media.mapgenie.io/storage/media/306948b4-3f45-4398-90e8-ef08113f4a70.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29875,7 +29875,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8505a31f-d71a-4e29-8bc6-ffc73d16dff4.png",
+
             url: "https://media.mapgenie.io/storage/media/8505a31f-d71a-4e29-8bc6-ffc73d16dff4.png",
             type: "image",
             mimeType: "image/png",
@@ -29893,7 +29893,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "18d8270c-0f3b-47ff-bd5e-9707ad5324e7.png",
+
             url: "https://media.mapgenie.io/storage/media/18d8270c-0f3b-47ff-bd5e-9707ad5324e7.png",
             type: "image",
             mimeType: "image/png",
@@ -29911,7 +29911,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ccc5fac8-053d-4184-9695-ad8336162aab.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ccc5fac8-053d-4184-9695-ad8336162aab.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -29929,7 +29929,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9441a5ad-6621-45d8-91d4-d56ec8b46456.png",
+
             url: "https://media.mapgenie.io/storage/media/9441a5ad-6621-45d8-91d4-d56ec8b46456.png",
             type: "image",
             mimeType: "image/png",
@@ -29947,7 +29947,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bd26e616-ff33-4688-9c1a-457f3096d62a.png",
+
             url: "https://media.mapgenie.io/storage/media/bd26e616-ff33-4688-9c1a-457f3096d62a.png",
             type: "image",
             mimeType: "image/png",
@@ -29965,7 +29965,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3e0c4fc4-7331-491f-bff2-67deaafcfa3a.png",
+
             url: "https://media.mapgenie.io/storage/media/3e0c4fc4-7331-491f-bff2-67deaafcfa3a.png",
             type: "image",
             mimeType: "image/png",
@@ -29983,7 +29983,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a2ac630-adf8-4847-963b-001dc628cc35.png",
+
             url: "https://media.mapgenie.io/storage/media/7a2ac630-adf8-4847-963b-001dc628cc35.png",
             type: "image",
             mimeType: "image/png",
@@ -30001,7 +30001,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2f53be54-1fe4-4166-a9a9-7df9abe63899.png",
+
             url: "https://media.mapgenie.io/storage/media/2f53be54-1fe4-4166-a9a9-7df9abe63899.png",
             type: "image",
             mimeType: "image/png",
@@ -30019,7 +30019,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5979304b-73d9-4995-b99f-a5a247b98604.png",
+
             url: "https://media.mapgenie.io/storage/media/5979304b-73d9-4995-b99f-a5a247b98604.png",
             type: "image",
             mimeType: "image/png",
@@ -30037,7 +30037,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "35c33a0a-e381-41fb-9ac8-cb4b2786a8b3.png",
+
             url: "https://media.mapgenie.io/storage/media/35c33a0a-e381-41fb-9ac8-cb4b2786a8b3.png",
             type: "image",
             mimeType: "image/png",
@@ -30055,7 +30055,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2f546f43-06a7-4782-9572-de2084c6ec3a.png",
+
             url: "https://media.mapgenie.io/storage/media/2f546f43-06a7-4782-9572-de2084c6ec3a.png",
             type: "image",
             mimeType: "image/png",
@@ -30073,7 +30073,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "702fedb5-fc43-4ef5-bbf9-438999494bad.png",
+
             url: "https://media.mapgenie.io/storage/media/702fedb5-fc43-4ef5-bbf9-438999494bad.png",
             type: "image",
             mimeType: "image/png",
@@ -30091,7 +30091,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4af1e0fa-ffc1-45da-9477-70831d075c76.png",
+
             url: "https://media.mapgenie.io/storage/media/4af1e0fa-ffc1-45da-9477-70831d075c76.png",
             type: "image",
             mimeType: "image/png",
@@ -30109,7 +30109,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a35fe438-296c-4fbd-bb25-b6649c501dbb.png",
+
             url: "https://media.mapgenie.io/storage/media/a35fe438-296c-4fbd-bb25-b6649c501dbb.png",
             type: "image",
             mimeType: "image/png",
@@ -30127,7 +30127,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c98f73f0-f87e-4299-9061-0845b914aed9.png",
+
             url: "https://media.mapgenie.io/storage/media/c98f73f0-f87e-4299-9061-0845b914aed9.png",
             type: "image",
             mimeType: "image/png",
@@ -30145,7 +30145,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cfd3487a-7e01-48ad-9c85-27ce66f061ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cfd3487a-7e01-48ad-9c85-27ce66f061ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30163,7 +30163,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ed6c885-b268-4186-acaf-6e39f311f975.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0ed6c885-b268-4186-acaf-6e39f311f975.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30181,7 +30181,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b8e8341b-8693-46e0-92d9-18fd3bf6a90a.png",
+
             url: "https://media.mapgenie.io/storage/media/b8e8341b-8693-46e0-92d9-18fd3bf6a90a.png",
             type: "image",
             mimeType: "image/png",
@@ -30199,7 +30199,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c4076ee6-2b32-4dae-85cb-732b07d25089.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c4076ee6-2b32-4dae-85cb-732b07d25089.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30217,7 +30217,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3624868-6cdf-440b-8523-b910872397f7.png",
+
             url: "https://media.mapgenie.io/storage/media/e3624868-6cdf-440b-8523-b910872397f7.png",
             type: "image",
             mimeType: "image/png",
@@ -30235,7 +30235,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a012d0ae-c26a-40f8-a097-cd5893bb10b1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a012d0ae-c26a-40f8-a097-cd5893bb10b1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30253,7 +30253,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6daaaa52-858b-4728-8b43-a701ac5da8e9.png",
+
             url: "https://media.mapgenie.io/storage/media/6daaaa52-858b-4728-8b43-a701ac5da8e9.png",
             type: "image",
             mimeType: "image/png",
@@ -30271,7 +30271,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a813a96-b466-43ec-8c15-32d84e70f00c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7a813a96-b466-43ec-8c15-32d84e70f00c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30289,7 +30289,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "58bf8acc-f350-419c-96f2-dfb3184e5a7a.png",
+
             url: "https://media.mapgenie.io/storage/media/58bf8acc-f350-419c-96f2-dfb3184e5a7a.png",
             type: "image",
             mimeType: "image/png",
@@ -30307,7 +30307,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8f9ea75c-7b3c-4f05-815c-f5ae91b357de.png",
+
             url: "https://media.mapgenie.io/storage/media/8f9ea75c-7b3c-4f05-815c-f5ae91b357de.png",
             type: "image",
             mimeType: "image/png",
@@ -30325,7 +30325,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ab51a12b-8fcd-4303-b82c-18e5e8cab26b.png",
+
             url: "https://media.mapgenie.io/storage/media/ab51a12b-8fcd-4303-b82c-18e5e8cab26b.png",
             type: "image",
             mimeType: "image/png",
@@ -30343,7 +30343,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f0f2cd41-2d5c-4ee1-841a-8ed804baff49.png",
+
             url: "https://media.mapgenie.io/storage/media/f0f2cd41-2d5c-4ee1-841a-8ed804baff49.png",
             type: "image",
             mimeType: "image/png",
@@ -30361,7 +30361,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "29f5bdd9-9ed6-4d4f-ac90-2f556483b9e8.png",
+
             url: "https://media.mapgenie.io/storage/media/29f5bdd9-9ed6-4d4f-ac90-2f556483b9e8.png",
             type: "image",
             mimeType: "image/png",
@@ -30379,7 +30379,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4739535a-06ce-4908-aded-62ccaf3d8ed1.png",
+
             url: "https://media.mapgenie.io/storage/media/4739535a-06ce-4908-aded-62ccaf3d8ed1.png",
             type: "image",
             mimeType: "image/png",
@@ -30397,7 +30397,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "743a172d-7820-4f95-b96f-4da3ce8aa373.png",
+
             url: "https://media.mapgenie.io/storage/media/743a172d-7820-4f95-b96f-4da3ce8aa373.png",
             type: "image",
             mimeType: "image/png",
@@ -30415,7 +30415,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3ffb3ec5-782d-4242-ac38-a57732740965.png",
+
             url: "https://media.mapgenie.io/storage/media/3ffb3ec5-782d-4242-ac38-a57732740965.png",
             type: "image",
             mimeType: "image/png",
@@ -30433,7 +30433,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a60af16b-0b63-49ea-b04b-160e085ae8b8.png",
+
             url: "https://media.mapgenie.io/storage/media/a60af16b-0b63-49ea-b04b-160e085ae8b8.png",
             type: "image",
             mimeType: "image/png",
@@ -30451,7 +30451,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a73bac2-8dff-4036-b10d-affdaff608ed.png",
+
             url: "https://media.mapgenie.io/storage/media/7a73bac2-8dff-4036-b10d-affdaff608ed.png",
             type: "image",
             mimeType: "image/png",
@@ -30469,14 +30469,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3b6fb406-4692-4152-bba4-236112c307fa.png",
+
             url: "https://media.mapgenie.io/storage/media/3b6fb406-4692-4152-bba4-236112c307fa.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f99cf6a1-95dc-4a42-b5c8-858a47305f20.png",
+
             url: "https://media.mapgenie.io/storage/media/f99cf6a1-95dc-4a42-b5c8-858a47305f20.png",
             type: "image",
             mimeType: "image/png",
@@ -30494,14 +30494,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "56bd0b21-41e2-457d-8ceb-723615c6b984.png",
+
             url: "https://media.mapgenie.io/storage/media/56bd0b21-41e2-457d-8ceb-723615c6b984.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ba9a671f-05bf-4f26-9b87-9509b55e0810.png",
+
             url: "https://media.mapgenie.io/storage/media/ba9a671f-05bf-4f26-9b87-9509b55e0810.png",
             type: "image",
             mimeType: "image/png",
@@ -30519,7 +30519,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f4adfccc-b74d-46fe-b43f-9f479761b44e.png",
+
             url: "https://media.mapgenie.io/storage/media/f4adfccc-b74d-46fe-b43f-9f479761b44e.png",
             type: "image",
             mimeType: "image/png",
@@ -30537,7 +30537,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aedd86cd-afb4-4dfc-99a3-d793d96677dc.png",
+
             url: "https://media.mapgenie.io/storage/media/aedd86cd-afb4-4dfc-99a3-d793d96677dc.png",
             type: "image",
             mimeType: "image/png",
@@ -30555,7 +30555,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1475c9d0-d78b-4e7b-b61a-64da1b2656a6.png",
+
             url: "https://media.mapgenie.io/storage/media/1475c9d0-d78b-4e7b-b61a-64da1b2656a6.png",
             type: "image",
             mimeType: "image/png",
@@ -30573,7 +30573,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "51373c51-d750-4bea-b5f4-06fd1dbcdfc9.png",
+
             url: "https://media.mapgenie.io/storage/media/51373c51-d750-4bea-b5f4-06fd1dbcdfc9.png",
             type: "image",
             mimeType: "image/png",
@@ -30591,7 +30591,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "55c7f5f8-1673-4c05-9337-25583faaa3ad.jpg",
+
             url: "https://media.mapgenie.io/storage/media/55c7f5f8-1673-4c05-9337-25583faaa3ad.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30609,7 +30609,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "133242ce-4457-47ab-899a-da48c625a94e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/133242ce-4457-47ab-899a-da48c625a94e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30627,7 +30627,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "db9f052b-8465-4b9d-b4d1-68c7a468c11a.png",
+
             url: "https://media.mapgenie.io/storage/media/db9f052b-8465-4b9d-b4d1-68c7a468c11a.png",
             type: "image",
             mimeType: "image/png",
@@ -30645,7 +30645,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5287fd87-a9ec-4f8c-a1db-ad15ceef468a.png",
+
             url: "https://media.mapgenie.io/storage/media/5287fd87-a9ec-4f8c-a1db-ad15ceef468a.png",
             type: "image",
             mimeType: "image/png",
@@ -30663,7 +30663,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "176ddc3c-8b2f-463a-9b7c-a54bbdc6e09a.png",
+
             url: "https://media.mapgenie.io/storage/media/176ddc3c-8b2f-463a-9b7c-a54bbdc6e09a.png",
             type: "image",
             mimeType: "image/png",
@@ -30681,14 +30681,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a256056b-e622-4f15-bf8a-584245a5da1a.png",
+
             url: "https://media.mapgenie.io/storage/media/a256056b-e622-4f15-bf8a-584245a5da1a.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "3d50d202-9b73-401a-81bd-b67ef0297103.png",
+
             url: "https://media.mapgenie.io/storage/media/3d50d202-9b73-401a-81bd-b67ef0297103.png",
             type: "image",
             mimeType: "image/png",
@@ -30706,14 +30706,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "55e2d662-581a-4259-9957-e331b45ebfd9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/55e2d662-581a-4259-9957-e331b45ebfd9.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "059e70c7-b5fb-46b3-93ae-c163c6c75cbe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/059e70c7-b5fb-46b3-93ae-c163c6c75cbe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30731,7 +30731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "032838f6-24a8-456e-9155-d0ef7be2d71e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/032838f6-24a8-456e-9155-d0ef7be2d71e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30749,7 +30749,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9056846e-b2c5-4cf1-8bdb-b4a4e671e9df.png",
+
             url: "https://media.mapgenie.io/storage/media/9056846e-b2c5-4cf1-8bdb-b4a4e671e9df.png",
             type: "image",
             mimeType: "image/png",
@@ -30767,7 +30767,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ee1fc4e4-d2e1-4b95-9b8a-79c276f1716d.png",
+
             url: "https://media.mapgenie.io/storage/media/ee1fc4e4-d2e1-4b95-9b8a-79c276f1716d.png",
             type: "image",
             mimeType: "image/png",
@@ -30785,7 +30785,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fe2ab839-279c-4e36-a537-4dfa5a489a87.png",
+
             url: "https://media.mapgenie.io/storage/media/fe2ab839-279c-4e36-a537-4dfa5a489a87.png",
             type: "image",
             mimeType: "image/png",
@@ -30803,7 +30803,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "876056f5-89c5-4c33-ba6c-36662a5cd510.png",
+
             url: "https://media.mapgenie.io/storage/media/876056f5-89c5-4c33-ba6c-36662a5cd510.png",
             type: "image",
             mimeType: "image/png",
@@ -30821,7 +30821,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c3711276-d00f-41f8-b00f-7d3abb1a36be.png",
+
             url: "https://media.mapgenie.io/storage/media/c3711276-d00f-41f8-b00f-7d3abb1a36be.png",
             type: "image",
             mimeType: "image/png",
@@ -30839,7 +30839,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e5b90a0d-5e48-42cb-a73e-691afc1f2605.png",
+
             url: "https://media.mapgenie.io/storage/media/e5b90a0d-5e48-42cb-a73e-691afc1f2605.png",
             type: "image",
             mimeType: "image/png",
@@ -30857,7 +30857,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b47e006-bd60-45a7-923e-a9aec2ae5cb7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b47e006-bd60-45a7-923e-a9aec2ae5cb7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30875,7 +30875,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "50a67e74-c184-40a7-92e1-6d24020dfbf5.png",
+
             url: "https://media.mapgenie.io/storage/media/50a67e74-c184-40a7-92e1-6d24020dfbf5.png",
             type: "image",
             mimeType: "image/png",
@@ -30893,7 +30893,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3061155b-fa1b-4a96-9835-be88f61b7cc0.png",
+
             url: "https://media.mapgenie.io/storage/media/3061155b-fa1b-4a96-9835-be88f61b7cc0.png",
             type: "image",
             mimeType: "image/png",
@@ -30911,7 +30911,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e1fcf1c5-f98c-4345-9768-c897d781c8d9.png",
+
             url: "https://media.mapgenie.io/storage/media/e1fcf1c5-f98c-4345-9768-c897d781c8d9.png",
             type: "image",
             mimeType: "image/png",
@@ -30929,7 +30929,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73cbdc01-a3e8-4d1b-be70-f179d150132a.png",
+
             url: "https://media.mapgenie.io/storage/media/73cbdc01-a3e8-4d1b-be70-f179d150132a.png",
             type: "image",
             mimeType: "image/png",
@@ -30947,7 +30947,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "210cdd08-dafa-40ae-a62a-08829df4ddac.jpg",
+
             url: "https://media.mapgenie.io/storage/media/210cdd08-dafa-40ae-a62a-08829df4ddac.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30965,7 +30965,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e601e3e-cd8f-402e-ae98-5386e2be0152.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7e601e3e-cd8f-402e-ae98-5386e2be0152.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -30983,7 +30983,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5eb5dfc8-0db5-40d6-bb6a-85fbfd4573d2.png",
+
             url: "https://media.mapgenie.io/storage/media/5eb5dfc8-0db5-40d6-bb6a-85fbfd4573d2.png",
             type: "image",
             mimeType: "image/png",
@@ -31001,7 +31001,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0891bb62-847d-48fe-b8ee-06f59d9c65c5.png",
+
             url: "https://media.mapgenie.io/storage/media/0891bb62-847d-48fe-b8ee-06f59d9c65c5.png",
             type: "image",
             mimeType: "image/png",
@@ -31019,14 +31019,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5245ef6e-a150-49b8-bd04-a8b76f96f417.png",
+
             url: "https://media.mapgenie.io/storage/media/5245ef6e-a150-49b8-bd04-a8b76f96f417.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "b5a5d2ee-08f9-4a27-9011-353937f7f290.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b5a5d2ee-08f9-4a27-9011-353937f7f290.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31044,7 +31044,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f45625e5-75cd-4665-ae10-56507e82c11d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f45625e5-75cd-4665-ae10-56507e82c11d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31062,7 +31062,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4df8b032-5593-44cc-bb29-70e46e1404d0.png",
+
             url: "https://media.mapgenie.io/storage/media/4df8b032-5593-44cc-bb29-70e46e1404d0.png",
             type: "image",
             mimeType: "image/png",
@@ -31080,7 +31080,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "14eceb48-1049-4379-ad72-b12d3d7ef484.jpg",
+
             url: "https://media.mapgenie.io/storage/media/14eceb48-1049-4379-ad72-b12d3d7ef484.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31098,7 +31098,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68bfc447-231a-4db7-b323-3f53d7b9cf5c.png",
+
             url: "https://media.mapgenie.io/storage/media/68bfc447-231a-4db7-b323-3f53d7b9cf5c.png",
             type: "image",
             mimeType: "image/png",
@@ -31116,7 +31116,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3aeeeb69-ea93-4335-a362-c9e426444b4b.png",
+
             url: "https://media.mapgenie.io/storage/media/3aeeeb69-ea93-4335-a362-c9e426444b4b.png",
             type: "image",
             mimeType: "image/png",
@@ -31134,7 +31134,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d218f17e-ab27-4d40-85ce-24ea39c9a154.png",
+
             url: "https://media.mapgenie.io/storage/media/d218f17e-ab27-4d40-85ce-24ea39c9a154.png",
             type: "image",
             mimeType: "image/png",
@@ -31152,7 +31152,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eb89d8e5-18aa-4dd7-a2b6-32a3175cf36a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eb89d8e5-18aa-4dd7-a2b6-32a3175cf36a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31170,7 +31170,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "54e87a49-b037-48b9-9afe-9680265b9a79.jpg",
+
             url: "https://media.mapgenie.io/storage/media/54e87a49-b037-48b9-9afe-9680265b9a79.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31188,7 +31188,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "996db44b-c5d2-4b85-b005-391e838e362a.png",
+
             url: "https://media.mapgenie.io/storage/media/996db44b-c5d2-4b85-b005-391e838e362a.png",
             type: "image",
             mimeType: "image/png",
@@ -31206,7 +31206,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eacd2466-9688-448f-9258-6944bddfe115.png",
+
             url: "https://media.mapgenie.io/storage/media/eacd2466-9688-448f-9258-6944bddfe115.png",
             type: "image",
             mimeType: "image/png",
@@ -31224,7 +31224,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7fa67567-0b2d-4e2d-91ab-ef9d9b8ab0dc.png",
+
             url: "https://media.mapgenie.io/storage/media/7fa67567-0b2d-4e2d-91ab-ef9d9b8ab0dc.png",
             type: "image",
             mimeType: "image/png",
@@ -31242,7 +31242,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "669f0173-f174-40ef-b04a-4ef51c88739f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/669f0173-f174-40ef-b04a-4ef51c88739f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31260,7 +31260,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f2c4ace2-e488-44ed-add6-ce9165d1a2d2.png",
+
             url: "https://media.mapgenie.io/storage/media/f2c4ace2-e488-44ed-add6-ce9165d1a2d2.png",
             type: "image",
             mimeType: "image/png",
@@ -31278,7 +31278,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b511b27a-d09e-4712-a584-59b59288a26e.png",
+
             url: "https://media.mapgenie.io/storage/media/b511b27a-d09e-4712-a584-59b59288a26e.png",
             type: "image",
             mimeType: "image/png",
@@ -31296,7 +31296,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "da14260b-1432-4962-809f-a4c95866f581.png",
+
             url: "https://media.mapgenie.io/storage/media/da14260b-1432-4962-809f-a4c95866f581.png",
             type: "image",
             mimeType: "image/png",
@@ -31314,7 +31314,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2ba8573b-a1cd-48bb-9505-366c6050d58c.png",
+
             url: "https://media.mapgenie.io/storage/media/2ba8573b-a1cd-48bb-9505-366c6050d58c.png",
             type: "image",
             mimeType: "image/png",
@@ -31332,7 +31332,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b0b1aaf5-f99d-4608-ba65-d5cc127eaf87.png",
+
             url: "https://media.mapgenie.io/storage/media/b0b1aaf5-f99d-4608-ba65-d5cc127eaf87.png",
             type: "image",
             mimeType: "image/png",
@@ -31350,7 +31350,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45e13207-91b0-422a-8f37-048ad890a383.jpg",
+
             url: "https://media.mapgenie.io/storage/media/45e13207-91b0-422a-8f37-048ad890a383.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31368,7 +31368,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6966312c-5414-4ee4-8b7a-a985867ab533.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6966312c-5414-4ee4-8b7a-a985867ab533.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31386,7 +31386,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "35a23e45-3a65-45cd-bb82-6ef0e4f4ab5c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/35a23e45-3a65-45cd-bb82-6ef0e4f4ab5c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31404,14 +31404,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7af498a9-758f-4435-aff1-b0d94da21e07.png",
+
             url: "https://media.mapgenie.io/storage/media/7af498a9-758f-4435-aff1-b0d94da21e07.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "b5595718-aec3-4967-88ad-3b5ddeb2e571.png",
+
             url: "https://media.mapgenie.io/storage/media/b5595718-aec3-4967-88ad-3b5ddeb2e571.png",
             type: "image",
             mimeType: "image/png",
@@ -31429,7 +31429,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45c718ee-6729-4b05-a411-625bca3e0385.png",
+
             url: "https://media.mapgenie.io/storage/media/45c718ee-6729-4b05-a411-625bca3e0385.png",
             type: "image",
             mimeType: "image/png",
@@ -31447,7 +31447,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2ec3dc5e-6a18-4177-a0dd-59c2bf28c524.png",
+
             url: "https://media.mapgenie.io/storage/media/2ec3dc5e-6a18-4177-a0dd-59c2bf28c524.png",
             type: "image",
             mimeType: "image/png",
@@ -31465,7 +31465,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c87c38da-8eae-4b58-b085-6362a83457ee.png",
+
             url: "https://media.mapgenie.io/storage/media/c87c38da-8eae-4b58-b085-6362a83457ee.png",
             type: "image",
             mimeType: "image/png",
@@ -31483,7 +31483,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eb28673e-52c1-465c-9ec0-a62272967a8f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eb28673e-52c1-465c-9ec0-a62272967a8f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31501,7 +31501,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f42840e-b2ee-4553-95e7-3e673e82e888.png",
+
             url: "https://media.mapgenie.io/storage/media/4f42840e-b2ee-4553-95e7-3e673e82e888.png",
             type: "image",
             mimeType: "image/png",
@@ -31519,7 +31519,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d2a9508a-e35d-4956-9bde-116345bc2fa6.png",
+
             url: "https://media.mapgenie.io/storage/media/d2a9508a-e35d-4956-9bde-116345bc2fa6.png",
             type: "image",
             mimeType: "image/png",
@@ -31537,7 +31537,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00dd6b6a-c397-42c9-8600-f98f38be4866.png",
+
             url: "https://media.mapgenie.io/storage/media/00dd6b6a-c397-42c9-8600-f98f38be4866.png",
             type: "image",
             mimeType: "image/png",
@@ -31555,7 +31555,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "79546074-5223-4c7c-8acb-868d060efd3b.png",
+
             url: "https://media.mapgenie.io/storage/media/79546074-5223-4c7c-8acb-868d060efd3b.png",
             type: "image",
             mimeType: "image/png",
@@ -31573,7 +31573,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2dfd267b-f191-4242-808d-c3e22ae5988f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2dfd267b-f191-4242-808d-c3e22ae5988f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31591,7 +31591,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f10655d6-8314-4c3c-8dd3-7b6c30abf1ab.png",
+
             url: "https://media.mapgenie.io/storage/media/f10655d6-8314-4c3c-8dd3-7b6c30abf1ab.png",
             type: "image",
             mimeType: "image/png",
@@ -31609,14 +31609,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "383befa8-7d16-4c4e-a803-72fb33b3f817.png",
+
             url: "https://media.mapgenie.io/storage/media/383befa8-7d16-4c4e-a803-72fb33b3f817.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "31dd657f-292b-4ae8-b082-7868608d0dee.png",
+
             url: "https://media.mapgenie.io/storage/media/31dd657f-292b-4ae8-b082-7868608d0dee.png",
             type: "image",
             mimeType: "image/png",
@@ -31634,7 +31634,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8dcbf436-2c2e-4659-976b-675ebb0392e8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8dcbf436-2c2e-4659-976b-675ebb0392e8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31652,7 +31652,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "04e79a4e-92a0-40ea-9263-d2e15a645cf0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/04e79a4e-92a0-40ea-9263-d2e15a645cf0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31670,7 +31670,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2c0a1d26-efd0-4c14-8463-7b3ca2a1a245.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2c0a1d26-efd0-4c14-8463-7b3ca2a1a245.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31688,14 +31688,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f2daf743-4709-4f76-85c7-2cf3f0866827.jpeg",
+
             url: "https://media.mapgenie.io/storage/media/f2daf743-4709-4f76-85c7-2cf3f0866827.jpeg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "d356ffde-0dd5-4cad-b6a6-0037603f3f4e.png",
+
             url: "https://media.mapgenie.io/storage/media/d356ffde-0dd5-4cad-b6a6-0037603f3f4e.png",
             type: "image",
             mimeType: "image/png",
@@ -31713,7 +31713,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "85c41eed-cf39-47ac-ac0f-3bb0a4f19e1e.png",
+
             url: "https://media.mapgenie.io/storage/media/85c41eed-cf39-47ac-ac0f-3bb0a4f19e1e.png",
             type: "image",
             mimeType: "image/png",
@@ -31731,7 +31731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5c3e3eb1-2e53-40eb-9ace-121c6d350111.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5c3e3eb1-2e53-40eb-9ace-121c6d350111.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31749,7 +31749,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2eafae90-569a-4e14-bee8-f8a432b6c9fa.png",
+
             url: "https://media.mapgenie.io/storage/media/2eafae90-569a-4e14-bee8-f8a432b6c9fa.png",
             type: "image",
             mimeType: "image/png",
@@ -31767,7 +31767,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f03aed56-1c71-4303-a58b-4e7ce4eefbf5.png",
+
             url: "https://media.mapgenie.io/storage/media/f03aed56-1c71-4303-a58b-4e7ce4eefbf5.png",
             type: "image",
             mimeType: "image/png",
@@ -31785,7 +31785,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3a74245c-9d8c-4b50-9c4c-a617c0023ef6.png",
+
             url: "https://media.mapgenie.io/storage/media/3a74245c-9d8c-4b50-9c4c-a617c0023ef6.png",
             type: "image",
             mimeType: "image/png",
@@ -31803,7 +31803,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3f0cc19a-3dbf-4c65-a023-1cc5354e5976.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3f0cc19a-3dbf-4c65-a023-1cc5354e5976.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31821,7 +31821,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "428e5a59-1484-4a65-9dd4-6aef0b729de4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/428e5a59-1484-4a65-9dd4-6aef0b729de4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -31839,7 +31839,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8adb7669-eaf5-484a-981a-a1442ae3c4ae.png",
+
             url: "https://media.mapgenie.io/storage/media/8adb7669-eaf5-484a-981a-a1442ae3c4ae.png",
             type: "image",
             mimeType: "image/png",
@@ -31857,7 +31857,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b8b1d2fa-2570-4081-ae25-1e58eed6f029.png",
+
             url: "https://media.mapgenie.io/storage/media/b8b1d2fa-2570-4081-ae25-1e58eed6f029.png",
             type: "image",
             mimeType: "image/png",
@@ -31875,7 +31875,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eca5db91-abd5-46bb-a6c9-05df4ad30d68.png",
+
             url: "https://media.mapgenie.io/storage/media/eca5db91-abd5-46bb-a6c9-05df4ad30d68.png",
             type: "image",
             mimeType: "image/png",
@@ -31893,7 +31893,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "645f7b76-4e34-4b8a-8a91-6e522f78ceea.png",
+
             url: "https://media.mapgenie.io/storage/media/645f7b76-4e34-4b8a-8a91-6e522f78ceea.png",
             type: "image",
             mimeType: "image/png",
@@ -31911,7 +31911,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7f8e0028-7144-4380-b83f-8cade707e984.png",
+
             url: "https://media.mapgenie.io/storage/media/7f8e0028-7144-4380-b83f-8cade707e984.png",
             type: "image",
             mimeType: "image/png",
@@ -31929,7 +31929,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e4ed7779-e607-4a6c-9edc-a30103620c34.png",
+
             url: "https://media.mapgenie.io/storage/media/e4ed7779-e607-4a6c-9edc-a30103620c34.png",
             type: "image",
             mimeType: "image/png",
@@ -31947,7 +31947,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8ae47f72-a2a4-4c66-8b53-c054dcf35df6.png",
+
             url: "https://media.mapgenie.io/storage/media/8ae47f72-a2a4-4c66-8b53-c054dcf35df6.png",
             type: "image",
             mimeType: "image/png",
@@ -31965,7 +31965,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f0d366dd-d1fc-44b3-b717-fa408d67e40d.png",
+
             url: "https://media.mapgenie.io/storage/media/f0d366dd-d1fc-44b3-b717-fa408d67e40d.png",
             type: "image",
             mimeType: "image/png",
@@ -31983,7 +31983,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f5aa8d4d-b946-4858-83a3-0603efe4d9ce.png",
+
             url: "https://media.mapgenie.io/storage/media/f5aa8d4d-b946-4858-83a3-0603efe4d9ce.png",
             type: "image",
             mimeType: "image/png",
@@ -32001,14 +32001,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e4fd5ea3-5ecf-4c72-8cc2-9531514ba5e3.png",
+
             url: "https://media.mapgenie.io/storage/media/e4fd5ea3-5ecf-4c72-8cc2-9531514ba5e3.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "8c71f136-5e9f-4cce-b906-212f671a0545.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8c71f136-5e9f-4cce-b906-212f671a0545.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32031,21 +32031,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73e594b2-3397-431d-bee3-52666752da33.jpg",
+
             url: "https://media.mapgenie.io/storage/media/73e594b2-3397-431d-bee3-52666752da33.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "4644f44d-56ed-40da-81b6-56bb9b80c1c9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4644f44d-56ed-40da-81b6-56bb9b80c1c9.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "How To Get The Master Sword In Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-master-sword-in-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -32068,7 +32068,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "473bc075-17ef-4cf5-86c6-445bb3c16f98.png",
+
             url: "https://media.mapgenie.io/storage/media/473bc075-17ef-4cf5-86c6-445bb3c16f98.png",
             type: "image",
             mimeType: "image/png",
@@ -32085,14 +32085,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a1cd7981-f100-4f4a-8470-0939723a7dc3.png",
+
             url: "https://media.mapgenie.io/storage/media/a1cd7981-f100-4f4a-8470-0939723a7dc3.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "6ead26e1-ae1c-4871-b93e-ad427a173016.png",
+
             url: "https://media.mapgenie.io/storage/media/6ead26e1-ae1c-4871-b93e-ad427a173016.png",
             type: "image",
             mimeType: "image/png",
@@ -32109,7 +32109,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aad3470e-21cd-4fa0-93d5-7f0e7d794dd7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aad3470e-21cd-4fa0-93d5-7f0e7d794dd7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32126,7 +32126,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d9bc5ff5-2d23-45e7-9d63-4bfe54d1cf77.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d9bc5ff5-2d23-45e7-9d63-4bfe54d1cf77.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32143,14 +32143,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c896b5a8-7391-4190-8d24-af7baad80f0a.png",
+
             url: "https://media.mapgenie.io/storage/media/c896b5a8-7391-4190-8d24-af7baad80f0a.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "6f857fb0-a032-4b1d-a31e-9022fc66a34f.png",
+
             url: "https://media.mapgenie.io/storage/media/6f857fb0-a032-4b1d-a31e-9022fc66a34f.png",
             type: "image",
             mimeType: "image/png",
@@ -32167,14 +32167,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b39be13-db1f-4421-937d-8911014351f7.png",
+
             url: "https://media.mapgenie.io/storage/media/2b39be13-db1f-4421-937d-8911014351f7.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "2cca3827-02e5-4dae-88c0-bc260e850988.png",
+
             url: "https://media.mapgenie.io/storage/media/2cca3827-02e5-4dae-88c0-bc260e850988.png",
             type: "image",
             mimeType: "image/png",
@@ -32191,14 +32191,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7b0465ce-3597-441e-abd4-c9ebf148acec.png",
+
             url: "https://media.mapgenie.io/storage/media/7b0465ce-3597-441e-abd4-c9ebf148acec.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "053836fa-2009-49d3-a87a-84b7a6bdfd79.png",
+
             url: "https://media.mapgenie.io/storage/media/053836fa-2009-49d3-a87a-84b7a6bdfd79.png",
             type: "image",
             mimeType: "image/png",
@@ -32215,14 +32215,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c2dd050e-8172-4683-97fd-46b98bb90e4e.png",
+
             url: "https://media.mapgenie.io/storage/media/c2dd050e-8172-4683-97fd-46b98bb90e4e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c0b6ce47-7889-478f-8f8c-d384dfb7fdb9.png",
+
             url: "https://media.mapgenie.io/storage/media/c0b6ce47-7889-478f-8f8c-d384dfb7fdb9.png",
             type: "image",
             mimeType: "image/png",
@@ -32239,14 +32239,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b39422f8-b2fe-40d7-bf49-39b801cc43cb.png",
+
             url: "https://media.mapgenie.io/storage/media/b39422f8-b2fe-40d7-bf49-39b801cc43cb.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "102a1f44-192d-469b-860f-8389697cf98c.png",
+
             url: "https://media.mapgenie.io/storage/media/102a1f44-192d-469b-860f-8389697cf98c.png",
             type: "image",
             mimeType: "image/png",
@@ -32263,7 +32263,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c27b2d34-01e3-4340-8f22-4c75a5e9aca0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c27b2d34-01e3-4340-8f22-4c75a5e9aca0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32280,14 +32280,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "76e1a243-c589-4f22-8015-dc980be64f02.png",
+
             url: "https://media.mapgenie.io/storage/media/76e1a243-c589-4f22-8015-dc980be64f02.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c5a71fe4-2a3c-4fab-9c83-b97307de323b.png",
+
             url: "https://media.mapgenie.io/storage/media/c5a71fe4-2a3c-4fab-9c83-b97307de323b.png",
             type: "image",
             mimeType: "image/png",
@@ -32304,7 +32304,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f6077174-d1cb-485c-bbc6-3626c12195bc.png",
+
             url: "https://media.mapgenie.io/storage/media/f6077174-d1cb-485c-bbc6-3626c12195bc.png",
             type: "image",
             mimeType: "image/png",
@@ -32321,7 +32321,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5995fcd9-82d3-44ae-bb8c-26ef78b73837.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5995fcd9-82d3-44ae-bb8c-26ef78b73837.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32338,7 +32338,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "062d6b03-80bd-4196-9fe7-17f6d20c3c5b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/062d6b03-80bd-4196-9fe7-17f6d20c3c5b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32355,7 +32355,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "944ca508-b9c3-4fc5-9bc2-ef72f29d65d1.png",
+
             url: "https://media.mapgenie.io/storage/media/944ca508-b9c3-4fc5-9bc2-ef72f29d65d1.png",
             type: "image",
             mimeType: "image/png",
@@ -32372,7 +32372,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ae55e312-42f8-4ca2-a258-0bcd7f04860c.png",
+
             url: "https://media.mapgenie.io/storage/media/ae55e312-42f8-4ca2-a258-0bcd7f04860c.png",
             type: "image",
             mimeType: "image/png",
@@ -32389,7 +32389,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6fcb0127-24ce-4eb3-b88d-73d292fc3271.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6fcb0127-24ce-4eb3-b88d-73d292fc3271.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32406,14 +32406,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eba8724f-be3b-4546-b585-ef0f9ff8337e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eba8724f-be3b-4546-b585-ef0f9ff8337e.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "760e24ba-99e1-4f89-84d8-6e6f5dcb3930.jpg",
+
             url: "https://media.mapgenie.io/storage/media/760e24ba-99e1-4f89-84d8-6e6f5dcb3930.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32430,14 +32430,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4aa5a596-5469-42fc-8816-b2d91a16e414.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4aa5a596-5469-42fc-8816-b2d91a16e414.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "c8af8da5-4c36-4c85-92e0-2aa67e8d365b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c8af8da5-4c36-4c85-92e0-2aa67e8d365b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32454,7 +32454,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1dbd9427-e438-47f8-8221-04045b260b32.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1dbd9427-e438-47f8-8221-04045b260b32.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32471,7 +32471,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8839af6f-3894-4557-a04a-965114762b86.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8839af6f-3894-4557-a04a-965114762b86.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32488,7 +32488,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f404f6a9-af72-4be6-9077-5c3248dc99cc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f404f6a9-af72-4be6-9077-5c3248dc99cc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32505,7 +32505,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f3120e6d-5686-4306-9c4d-55ad8c02b2c2.png",
+
             url: "https://media.mapgenie.io/storage/media/f3120e6d-5686-4306-9c4d-55ad8c02b2c2.png",
             type: "image",
             mimeType: "image/png",
@@ -32522,7 +32522,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b325248c-bbec-4e6a-b4e0-2da6172a253f.png",
+
             url: "https://media.mapgenie.io/storage/media/b325248c-bbec-4e6a-b4e0-2da6172a253f.png",
             type: "image",
             mimeType: "image/png",
@@ -32547,14 +32547,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b60119ec-58e7-4a5d-8188-7c6f3004f315.png",
+
             url: "https://media.mapgenie.io/storage/media/b60119ec-58e7-4a5d-8188-7c6f3004f315.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "31c615d6-4fa5-41f7-ac08-59b5db9cda82.png",
+
             url: "https://media.mapgenie.io/storage/media/31c615d6-4fa5-41f7-ac08-59b5db9cda82.png",
             type: "image",
             mimeType: "image/png",
@@ -32572,7 +32572,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Filling Out The Compendium Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-filling-out-the-compendium-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -32589,7 +32589,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a8ac8f24-d986-4af4-bc0d-bee7003abfbe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a8ac8f24-d986-4af4-bc0d-bee7003abfbe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32612,14 +32612,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050915103100_c",
-            fileName: "a8dff0c8-6032-4a75-9bf3-75d61d2dda4d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a8dff0c8-6032-4a75-9bf3-75d61d2dda4d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050915111700_c",
-            fileName: "2475ece9-a6c2-4c8b-b827-b804778c0c5f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2475ece9-a6c2-4c8b-b827-b804778c0c5f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32635,7 +32635,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b336781-0e08-4ed4-8005-781cee5ab516.png",
+
             url: "https://media.mapgenie.io/storage/media/0b336781-0e08-4ed4-8005-781cee5ab516.png",
             type: "image",
             mimeType: "image/png",
@@ -32651,7 +32651,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0484b4dd-60eb-49bd-ac2d-b0cdf3672050.png",
+
             url: "https://media.mapgenie.io/storage/media/0484b4dd-60eb-49bd-ac2d-b0cdf3672050.png",
             type: "image",
             mimeType: "image/png",
@@ -32667,7 +32667,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df38d65c-5d0b-4cf0-9879-825f64a8121c.png",
+
             url: "https://media.mapgenie.io/storage/media/df38d65c-5d0b-4cf0-9879-825f64a8121c.png",
             type: "image",
             mimeType: "image/png",
@@ -32683,7 +32683,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6266d4c0-53b8-4958-b867-bd79982018fd.png",
+
             url: "https://media.mapgenie.io/storage/media/6266d4c0-53b8-4958-b867-bd79982018fd.png",
             type: "image",
             mimeType: "image/png",
@@ -32699,7 +32699,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "405a0c23-07cd-4327-bc71-5c93c6c8ac9d.png",
+
             url: "https://media.mapgenie.io/storage/media/405a0c23-07cd-4327-bc71-5c93c6c8ac9d.png",
             type: "image",
             mimeType: "image/png",
@@ -32715,7 +32715,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4903dbdd-9d49-4b04-b69c-e1fa9b38fc08.png",
+
             url: "https://media.mapgenie.io/storage/media/4903dbdd-9d49-4b04-b69c-e1fa9b38fc08.png",
             type: "image",
             mimeType: "image/png",
@@ -32731,7 +32731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cc041488-95a3-482e-ae00-40d187ad5759.png",
+
             url: "https://media.mapgenie.io/storage/media/cc041488-95a3-482e-ae00-40d187ad5759.png",
             type: "image",
             mimeType: "image/png",
@@ -32747,7 +32747,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "62a342e8-a053-4e25-b42e-9dbbdbc64c5b.png",
+
             url: "https://media.mapgenie.io/storage/media/62a342e8-a053-4e25-b42e-9dbbdbc64c5b.png",
             type: "image",
             mimeType: "image/png",
@@ -32764,7 +32764,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c9624c30-4a46-4557-a003-2ac29beda252.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c9624c30-4a46-4557-a003-2ac29beda252.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32780,7 +32780,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ff8e53c-6c59-45de-b2df-e97334521c4a.png",
+
             url: "https://media.mapgenie.io/storage/media/0ff8e53c-6c59-45de-b2df-e97334521c4a.png",
             type: "image",
             mimeType: "image/png",
@@ -32797,7 +32797,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dcdbfec2-fb2e-4445-a1ec-d0eed614579c.png",
+
             url: "https://media.mapgenie.io/storage/media/dcdbfec2-fb2e-4445-a1ec-d0eed614579c.png",
             type: "image",
             mimeType: "image/png",
@@ -32814,7 +32814,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "edcd3fd4-7d89-4404-a0a3-38e9f6d7bd98.jpg",
+
             url: "https://media.mapgenie.io/storage/media/edcd3fd4-7d89-4404-a0a3-38e9f6d7bd98.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32831,7 +32831,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "31b90059-e62e-45ee-8dd0-e154fbf9e422.jpg",
+
             url: "https://media.mapgenie.io/storage/media/31b90059-e62e-45ee-8dd0-e154fbf9e422.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32848,7 +32848,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ce16de2-948a-425d-98fd-67a5c6a3044e.png",
+
             url: "https://media.mapgenie.io/storage/media/0ce16de2-948a-425d-98fd-67a5c6a3044e.png",
             type: "image",
             mimeType: "image/png",
@@ -32865,7 +32865,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "13e2a72a-ecc3-4f0d-a63b-db47a75f2564.png",
+
             url: "https://media.mapgenie.io/storage/media/13e2a72a-ecc3-4f0d-a63b-db47a75f2564.png",
             type: "image",
             mimeType: "image/png",
@@ -32882,7 +32882,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1ed800c7-aeac-413b-a4f6-cff848a19b30.png",
+
             url: "https://media.mapgenie.io/storage/media/1ed800c7-aeac-413b-a4f6-cff848a19b30.png",
             type: "image",
             mimeType: "image/png",
@@ -32898,7 +32898,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ef2eafe0-f904-4dab-801b-3cf86888b1bc.png",
+
             url: "https://media.mapgenie.io/storage/media/ef2eafe0-f904-4dab-801b-3cf86888b1bc.png",
             type: "image",
             mimeType: "image/png",
@@ -32914,7 +32914,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9133571b-335f-4de1-944d-aa4509db3624.png",
+
             url: "https://media.mapgenie.io/storage/media/9133571b-335f-4de1-944d-aa4509db3624.png",
             type: "image",
             mimeType: "image/png",
@@ -32931,7 +32931,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1ec14c86-a582-4581-a774-5963f19f42db.png",
+
             url: "https://media.mapgenie.io/storage/media/1ec14c86-a582-4581-a774-5963f19f42db.png",
             type: "image",
             mimeType: "image/png",
@@ -32977,7 +32977,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0379aa06-38e3-41a2-8ca0-c4f9a54aa1cb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0379aa06-38e3-41a2-8ca0-c4f9a54aa1cb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -32994,7 +32994,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ce773e1d-6112-4e6d-b7f4-a8e5ecd7a6d1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ce773e1d-6112-4e6d-b7f4-a8e5ecd7a6d1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33011,7 +33011,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9569cd95-f850-4219-bb7a-f2fceccc5191.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9569cd95-f850-4219-bb7a-f2fceccc5191.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33027,7 +33027,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a347e230-4a5d-4074-8241-05cb53fa46fe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a347e230-4a5d-4074-8241-05cb53fa46fe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33043,7 +33043,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1df410c-77be-49ee-ad98-bedcf06fc0fd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f1df410c-77be-49ee-ad98-bedcf06fc0fd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33059,7 +33059,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "40c34724-987c-4e56-bf55-16a38ff34a54.jpg",
+
             url: "https://media.mapgenie.io/storage/media/40c34724-987c-4e56-bf55-16a38ff34a54.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33075,7 +33075,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b5e7daf-af48-41eb-9749-155f4c1c4067.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b5e7daf-af48-41eb-9749-155f4c1c4067.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33091,7 +33091,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "70ea71b9-6fb8-4443-8139-04c70124b649.jpg",
+
             url: "https://media.mapgenie.io/storage/media/70ea71b9-6fb8-4443-8139-04c70124b649.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33107,7 +33107,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00552dd6-106b-406d-a6ab-c067057e719e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/00552dd6-106b-406d-a6ab-c067057e719e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33123,7 +33123,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3df96afd-0bca-48d9-9d69-1985de43770b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3df96afd-0bca-48d9-9d69-1985de43770b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33140,7 +33140,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b4c01da3-c7ba-4c16-80ba-5bd5fcaf7ebb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b4c01da3-c7ba-4c16-80ba-5bd5fcaf7ebb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33156,7 +33156,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "485a7195-6c1e-4517-beac-8467059c4268.jpg",
+
             url: "https://media.mapgenie.io/storage/media/485a7195-6c1e-4517-beac-8467059c4268.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33173,7 +33173,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7c150816-ea0d-449f-8d89-6fbae53ab03e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7c150816-ea0d-449f-8d89-6fbae53ab03e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33189,7 +33189,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2a3f367f-d7b0-4ca7-a3da-0b4b22877c23.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2a3f367f-d7b0-4ca7-a3da-0b4b22877c23.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33205,7 +33205,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "80e4cfe4-b49a-4cd8-a8e4-bc44c6da21f9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/80e4cfe4-b49a-4cd8-a8e4-bc44c6da21f9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33221,7 +33221,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a17f266-556c-4284-9fe1-fd9919388943.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7a17f266-556c-4284-9fe1-fd9919388943.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33237,7 +33237,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c2449c13-b08a-4d40-b9be-408a62ebc73c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c2449c13-b08a-4d40-b9be-408a62ebc73c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33253,7 +33253,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fdd2d9d0-3105-48ab-bbfe-097ca5071197.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fdd2d9d0-3105-48ab-bbfe-097ca5071197.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33270,7 +33270,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df432318-c858-4214-abe3-039a5eb7175b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/df432318-c858-4214-abe3-039a5eb7175b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33286,7 +33286,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "34f9868b-25d9-4d9e-8a2e-8ca119e54f97.jpg",
+
             url: "https://media.mapgenie.io/storage/media/34f9868b-25d9-4d9e-8a2e-8ca119e54f97.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33302,7 +33302,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "30796add-271e-4572-ad84-89db989cab58.jpg",
+
             url: "https://media.mapgenie.io/storage/media/30796add-271e-4572-ad84-89db989cab58.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33318,7 +33318,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0d7e294c-4029-419e-a07e-a0b27e47ba8e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0d7e294c-4029-419e-a07e-a0b27e47ba8e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33334,7 +33334,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "94d6eacb-997b-4011-b1b5-09c726a7c37e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/94d6eacb-997b-4011-b1b5-09c726a7c37e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33350,7 +33350,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b4df91ef-1efa-45d5-82b6-efd77f84c05b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b4df91ef-1efa-45d5-82b6-efd77f84c05b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33366,7 +33366,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b2791e0-aea1-47c3-9ec6-6a9fb71ed08d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b2791e0-aea1-47c3-9ec6-6a9fb71ed08d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33382,7 +33382,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ed084fc2-e1e6-4b7d-a1b2-56ddc3083846.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ed084fc2-e1e6-4b7d-a1b2-56ddc3083846.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33398,7 +33398,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dbfbd76e-9b75-4af3-987b-1b14028d05b1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dbfbd76e-9b75-4af3-987b-1b14028d05b1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33415,7 +33415,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "96d430cc-a19c-42e1-a769-ff1de5926df5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/96d430cc-a19c-42e1-a769-ff1de5926df5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33431,7 +33431,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bb05bc7-c251-44e2-9dbe-02e2e93fe855.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1bb05bc7-c251-44e2-9dbe-02e2e93fe855.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33447,7 +33447,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ffe5301d-66bb-4216-b3ae-292b82b2f634.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ffe5301d-66bb-4216-b3ae-292b82b2f634.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33464,7 +33464,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a2348c30-590f-4641-b9ee-5d6644be7386.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a2348c30-590f-4641-b9ee-5d6644be7386.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33480,7 +33480,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6d7b1f5e-8609-4703-857d-f9cacd89f0b5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6d7b1f5e-8609-4703-857d-f9cacd89f0b5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33496,7 +33496,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "30474ed5-eabc-438d-aa69-ebf919507ec3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/30474ed5-eabc-438d-aa69-ebf919507ec3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33512,7 +33512,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e4d8e362-6297-47af-b7a5-2f152a17ddd2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e4d8e362-6297-47af-b7a5-2f152a17ddd2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33535,14 +33535,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ea56967a-d18f-4b25-a8cc-1149b27945de.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ea56967a-d18f-4b25-a8cc-1149b27945de.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "4d1fd69b-b95f-42c4-9f0c-f691d5b9cc92.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4d1fd69b-b95f-42c4-9f0c-f691d5b9cc92.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33560,21 +33560,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Climbing Gear Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "dd786438-4cd9-4802-b4f9-955fc7521d2d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd786438-4cd9-4802-b4f9-955fc7521d2d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "56deb9ad-4448-41b1-9e37-f38c0b39826d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/56deb9ad-4448-41b1-9e37-f38c0b39826d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33591,7 +33591,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6a353440-398f-4a0c-904f-a36352833796.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6a353440-398f-4a0c-904f-a36352833796.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33608,14 +33608,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dc9ca7c3-d393-4326-97ce-d7cb47a4d260.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dc9ca7c3-d393-4326-97ce-d7cb47a4d260.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "9c05f915-ae7c-4aba-be4b-5293f9ddb247.png",
+
             url: "https://media.mapgenie.io/storage/media/9c05f915-ae7c-4aba-be4b-5293f9ddb247.png",
             type: "image",
             mimeType: "image/png",
@@ -33632,7 +33632,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "786cf389-5518-4f12-b73d-808231a7a547.jpg",
+
             url: "https://media.mapgenie.io/storage/media/786cf389-5518-4f12-b73d-808231a7a547.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33640,7 +33640,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -33657,14 +33657,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d8617477-a1b0-4c0f-bd67-9f4b0f8eec83.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d8617477-a1b0-4c0f-bd67-9f4b0f8eec83.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "a1f63338-5d44-446d-bcd2-e2367b314cc0.png",
+
             url: "https://media.mapgenie.io/storage/media/a1f63338-5d44-446d-bcd2-e2367b314cc0.png",
             type: "image",
             mimeType: "image/png",
@@ -33672,7 +33672,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Find The Korok Mask",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-find-the-korok-mask",
             type: "ign_video",
             mimeType: "mp4",
@@ -33689,14 +33689,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4fb16f1e-6cdd-4cf2-9ede-b2547e63f929.png",
+
             url: "https://media.mapgenie.io/storage/media/4fb16f1e-6cdd-4cf2-9ede-b2547e63f929.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "45f88c73-4576-4e9f-9552-158ee118b780.png",
+
             url: "https://media.mapgenie.io/storage/media/45f88c73-4576-4e9f-9552-158ee118b780.png",
             type: "image",
             mimeType: "image/png",
@@ -33713,14 +33713,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dddd17c0-dba2-4e3c-bed2-55895a3282e1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dddd17c0-dba2-4e3c-bed2-55895a3282e1.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "c8b09b41-88dc-417b-ac1d-5d2f1a9e498f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c8b09b41-88dc-417b-ac1d-5d2f1a9e498f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33737,14 +33737,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8905ae6c-d3f7-4c8c-a895-b80f66a2e4a5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8905ae6c-d3f7-4c8c-a895-b80f66a2e4a5.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "29bd0e48-457c-4714-a22e-0b5592e5920d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/29bd0e48-457c-4714-a22e-0b5592e5920d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33761,14 +33761,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d6a67d63-2a9a-4093-aef4-1e211ee28024.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d6a67d63-2a9a-4093-aef4-1e211ee28024.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "56ecd3b4-25aa-426a-bd85-d963576742fa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/56ecd3b4-25aa-426a-bd85-d963576742fa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33785,14 +33785,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fb13c2b8-0c6b-49cd-a79b-e5ff68e6a057.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fb13c2b8-0c6b-49cd-a79b-e5ff68e6a057.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "7ab2458c-12aa-4199-9c01-a578a7ff0d03.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7ab2458c-12aa-4199-9c01-a578a7ff0d03.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33809,14 +33809,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0f07575a-f7e7-4f80-8aee-19e5b832f3ca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0f07575a-f7e7-4f80-8aee-19e5b832f3ca.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "6d0aa1c0-c83f-4d2a-9ca6-d96591729c52.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6d0aa1c0-c83f-4d2a-9ca6-d96591729c52.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33833,14 +33833,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "47d594de-a828-4e4e-bb4c-3f6e3a68f197.jpg",
+
             url: "https://media.mapgenie.io/storage/media/47d594de-a828-4e4e-bb4c-3f6e3a68f197.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "1a5395ad-9426-47ee-810e-58191c203577.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1a5395ad-9426-47ee-810e-58191c203577.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33857,7 +33857,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "11fa3192-fe5f-4fc4-bd39-846d41108b66.jpg",
+
             url: "https://media.mapgenie.io/storage/media/11fa3192-fe5f-4fc4-bd39-846d41108b66.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33874,7 +33874,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "16612827-28bd-4ad1-b572-227160620f47.jpg",
+
             url: "https://media.mapgenie.io/storage/media/16612827-28bd-4ad1-b572-227160620f47.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33891,7 +33891,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "833be969-ded5-4ac0-b7b4-5dee25ecb3ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/833be969-ded5-4ac0-b7b4-5dee25ecb3ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33908,14 +33908,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2f5c4131-b440-4053-bca6-e1800bc7df83.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2f5c4131-b440-4053-bca6-e1800bc7df83.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2b9d2829-fac7-45ca-a4dc-f4384980fbc8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b9d2829-fac7-45ca-a4dc-f4384980fbc8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33932,14 +33932,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ebe517b3-22b3-4b20-bb19-225f5944b843.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ebe517b3-22b3-4b20-bb19-225f5944b843.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "3d706a2c-f6bd-47eb-97de-f7dff9b3d656.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3d706a2c-f6bd-47eb-97de-f7dff9b3d656.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33956,14 +33956,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "35d78e19-062e-42d6-8dcd-51582e663959.jpg",
+
             url: "https://media.mapgenie.io/storage/media/35d78e19-062e-42d6-8dcd-51582e663959.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "9854e99c-a247-4381-b293-966cb8bd4ea2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9854e99c-a247-4381-b293-966cb8bd4ea2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -33980,14 +33980,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a9d8dd40-8724-40c0-ba4a-8337001fd94f.png",
+
             url: "https://media.mapgenie.io/storage/media/a9d8dd40-8724-40c0-ba4a-8337001fd94f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "828bb8e6-7965-479e-b0f8-e6826eba9f32.png",
+
             url: "https://media.mapgenie.io/storage/media/828bb8e6-7965-479e-b0f8-e6826eba9f32.png",
             type: "image",
             mimeType: "image/png",
@@ -34004,14 +34004,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dad5cd57-2178-4298-be3a-11d476018a19.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dad5cd57-2178-4298-be3a-11d476018a19.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "3823ad39-76f5-41e2-842e-18b9d5a4eca7.png",
+
             url: "https://media.mapgenie.io/storage/media/3823ad39-76f5-41e2-842e-18b9d5a4eca7.png",
             type: "image",
             mimeType: "image/png",
@@ -34028,14 +34028,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "37e6e1b7-b49d-4cfa-892f-ff46d0852cd0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/37e6e1b7-b49d-4cfa-892f-ff46d0852cd0.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2552eb70-e3f2-4dc0-90d9-88ecc874a795.png",
+
             url: "https://media.mapgenie.io/storage/media/2552eb70-e3f2-4dc0-90d9-88ecc874a795.png",
             type: "image",
             mimeType: "image/png",
@@ -34076,14 +34076,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f5b6006c-387e-4cc5-9bab-28d09aac903d.png",
+
             url: "https://media.mapgenie.io/storage/media/f5b6006c-387e-4cc5-9bab-28d09aac903d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "22a3f76c-4680-450c-9eda-9d40a5e73934.png",
+
             url: "https://media.mapgenie.io/storage/media/22a3f76c-4680-450c-9eda-9d40a5e73934.png",
             type: "image",
             mimeType: "image/png",
@@ -34100,14 +34100,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d472db43-8491-4fa3-b792-d9d8efd9f437.png",
+
             url: "https://media.mapgenie.io/storage/media/d472db43-8491-4fa3-b792-d9d8efd9f437.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "0780ee64-ddc7-4579-ac5c-8d15092eadf4.png",
+
             url: "https://media.mapgenie.io/storage/media/0780ee64-ddc7-4579-ac5c-8d15092eadf4.png",
             type: "image",
             mimeType: "image/png",
@@ -34124,14 +34124,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d31a02c8-a9da-4d2b-b053-116f20f1480c.png",
+
             url: "https://media.mapgenie.io/storage/media/d31a02c8-a9da-4d2b-b053-116f20f1480c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "e0eb338e-5457-45a6-bf7e-8285809d53d1.png",
+
             url: "https://media.mapgenie.io/storage/media/e0eb338e-5457-45a6-bf7e-8285809d53d1.png",
             type: "image",
             mimeType: "image/png",
@@ -34148,14 +34148,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9c76c703-ebdb-41a2-89e6-d93117933f15.png",
+
             url: "https://media.mapgenie.io/storage/media/9c76c703-ebdb-41a2-89e6-d93117933f15.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "aaee24af-0275-4da7-96b4-f4ba50424dcc.png",
+
             url: "https://media.mapgenie.io/storage/media/aaee24af-0275-4da7-96b4-f4ba50424dcc.png",
             type: "image",
             mimeType: "image/png",
@@ -34172,7 +34172,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "976813fe-fa4e-4a78-8cf1-aece9da10c8f.png",
+
             url: "https://media.mapgenie.io/storage/media/976813fe-fa4e-4a78-8cf1-aece9da10c8f.png",
             type: "image",
             mimeType: "image/png",
@@ -34180,7 +34180,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Get The Champions Leathers",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-champions-leathers",
             type: "ign_video",
             mimeType: "mp4",
@@ -34197,14 +34197,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1966325-7de1-4632-b568-a876bd89c150.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f1966325-7de1-4632-b568-a876bd89c150.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "qJHJ3Ag7djc",
+
             url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
             type: "youtube",
             mimeType: "mp4",
@@ -34221,14 +34221,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4d9d62ad-a8a8-49b1-987b-a2bbfe307972.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4d9d62ad-a8a8-49b1-987b-a2bbfe307972.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "qJHJ3Ag7djc",
+
             url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
             type: "youtube",
             mimeType: "mp4",
@@ -34245,14 +34245,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a95f2e32-00f8-43f9-a649-6b5520cdf737.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a95f2e32-00f8-43f9-a649-6b5520cdf737.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "qJHJ3Ag7djc",
+
             url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
             type: "youtube",
             mimeType: "mp4",
@@ -34293,7 +34293,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5cd90e44-7eff-4153-810a-24a36c97e2ea.png",
+
             url: "https://media.mapgenie.io/storage/media/5cd90e44-7eff-4153-810a-24a36c97e2ea.png",
             type: "image",
             mimeType: "image/png",
@@ -34310,7 +34310,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8f8a3534-e692-40cf-9790-93cf9fec9dc2.png",
+
             url: "https://media.mapgenie.io/storage/media/8f8a3534-e692-40cf-9790-93cf9fec9dc2.png",
             type: "image",
             mimeType: "image/png",
@@ -34327,7 +34327,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "411b2669-8591-4aa2-923f-add8ba921cee.png",
+
             url: "https://media.mapgenie.io/storage/media/411b2669-8591-4aa2-923f-add8ba921cee.png",
             type: "image",
             mimeType: "image/png",
@@ -34344,14 +34344,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df444cbe-3ba3-4b12-8f49-4d4e8569dad2.png",
+
             url: "https://media.mapgenie.io/storage/media/df444cbe-3ba3-4b12-8f49-4d4e8569dad2.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "e5ecf3fd-cfa3-46cb-a900-0a575082d2f1.png",
+
             url: "https://media.mapgenie.io/storage/media/e5ecf3fd-cfa3-46cb-a900-0a575082d2f1.png",
             type: "image",
             mimeType: "image/png",
@@ -34359,7 +34359,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Zonaite Armor Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
             type: "ign_video",
             mimeType: "mp4",
@@ -34376,14 +34376,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "82c3cae8-7ae5-4b13-88aa-4437ce6e200d.png",
+
             url: "https://media.mapgenie.io/storage/media/82c3cae8-7ae5-4b13-88aa-4437ce6e200d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "1fbcbafb-e68c-402a-8f52-c82dce675e8d.png",
+
             url: "https://media.mapgenie.io/storage/media/1fbcbafb-e68c-402a-8f52-c82dce675e8d.png",
             type: "image",
             mimeType: "image/png",
@@ -34391,7 +34391,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Zonaite Armor Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
             type: "ign_video",
             mimeType: "mp4",
@@ -34408,14 +34408,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4a892186-962b-4045-a8aa-e2f27bf2cff8.png",
+
             url: "https://media.mapgenie.io/storage/media/4a892186-962b-4045-a8aa-e2f27bf2cff8.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "fcd34b46-138f-4688-91e3-d8d805dc49e2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fcd34b46-138f-4688-91e3-d8d805dc49e2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34423,7 +34423,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Get The Barbarian Armor",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
             type: "ign_video",
             mimeType: "mp4",
@@ -34440,14 +34440,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c345b5bf-bad1-4dc4-9b07-e0eca9268589.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c345b5bf-bad1-4dc4-9b07-e0eca9268589.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "003b693e-49c6-4726-b809-1d73a190e4f2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/003b693e-49c6-4726-b809-1d73a190e4f2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34455,7 +34455,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -34473,21 +34473,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Climbing Gear Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "37dae596-4fc0-4877-95a4-d67485c5db7d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/37dae596-4fc0-4877-95a4-d67485c5db7d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "26e52425-e846-4838-8ca4-7bb935fe51d4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/26e52425-e846-4838-8ca4-7bb935fe51d4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34505,21 +34505,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Climbing Gear Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "5b4957d1-92aa-4466-b546-93392a6e2e5b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5b4957d1-92aa-4466-b546-93392a6e2e5b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "93605fcf-6b86-4e7c-bfff-d31009dcf6a8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/93605fcf-6b86-4e7c-bfff-d31009dcf6a8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34536,14 +34536,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d9bb9e3d-0fa2-4661-a1aa-27a800a354fd.png",
+
             url: "https://media.mapgenie.io/storage/media/d9bb9e3d-0fa2-4661-a1aa-27a800a354fd.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "dd3d5a54-02ae-4131-b8be-c0e7586345ff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd3d5a54-02ae-4131-b8be-c0e7586345ff.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34560,14 +34560,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e84bdbca-ad3a-43a1-aea4-df1a4c3617df.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e84bdbca-ad3a-43a1-aea4-df1a4c3617df.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "229dd502-63dd-4306-9335-1d91257427ad.jpg",
+
             url: "https://media.mapgenie.io/storage/media/229dd502-63dd-4306-9335-1d91257427ad.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34584,14 +34584,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fbf8ecbf-5c2c-410d-865b-d5d8b7fa603e.png",
+
             url: "https://media.mapgenie.io/storage/media/fbf8ecbf-5c2c-410d-865b-d5d8b7fa603e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "09e07670-c95b-452d-a7de-362595a9a16f.png",
+
             url: "https://media.mapgenie.io/storage/media/09e07670-c95b-452d-a7de-362595a9a16f.png",
             type: "image",
             mimeType: "image/png",
@@ -34608,14 +34608,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7592298f-2a0f-43b3-923c-6b42b171d3ca.png",
+
             url: "https://media.mapgenie.io/storage/media/7592298f-2a0f-43b3-923c-6b42b171d3ca.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "aaf43baa-7112-46bb-8999-53017220b464.png",
+
             url: "https://media.mapgenie.io/storage/media/aaf43baa-7112-46bb-8999-53017220b464.png",
             type: "image",
             mimeType: "image/png",
@@ -34632,14 +34632,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00fed31f-4c66-49e9-b818-3f73d70a5e5f.png",
+
             url: "https://media.mapgenie.io/storage/media/00fed31f-4c66-49e9-b818-3f73d70a5e5f.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "b733d634-f6e5-4dca-ad70-eada3f1971fa.png",
+
             url: "https://media.mapgenie.io/storage/media/b733d634-f6e5-4dca-ad70-eada3f1971fa.png",
             type: "image",
             mimeType: "image/png",
@@ -34656,7 +34656,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e2fb06f0-8693-4cac-af88-57e18227e83b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e2fb06f0-8693-4cac-af88-57e18227e83b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34664,7 +34664,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Where To Find The Miners Armor Set",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
             type: "ign_video",
             mimeType: "mp4",
@@ -34681,7 +34681,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eaa757e6-9763-4243-b270-437e3f9f4f68.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eaa757e6-9763-4243-b270-437e3f9f4f68.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34689,7 +34689,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Where To Find The Miners Armor Set",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
             type: "ign_video",
             mimeType: "mp4",
@@ -34706,7 +34706,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d177b077-fd5e-4d87-8ad3-e61c0c22aad4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d177b077-fd5e-4d87-8ad3-e61c0c22aad4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34714,7 +34714,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Where To Find The Miners Armor Set",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
             type: "ign_video",
             mimeType: "mp4",
@@ -34731,14 +34731,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "442af50e-e851-4797-9614-c4122242b30c.png",
+
             url: "https://media.mapgenie.io/storage/media/442af50e-e851-4797-9614-c4122242b30c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c1e3dfb5-289f-450e-b2aa-29e600b29f4d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c1e3dfb5-289f-450e-b2aa-29e600b29f4d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34746,7 +34746,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Get The Barbarian Armor",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
             type: "ign_video",
             mimeType: "mp4",
@@ -34763,14 +34763,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9ebc4f55-f278-4c05-b984-ba68b41c7124.png",
+
             url: "https://media.mapgenie.io/storage/media/9ebc4f55-f278-4c05-b984-ba68b41c7124.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "e1d886e3-dcb5-4b64-85d8-7d3f0f02da8b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e1d886e3-dcb5-4b64-85d8-7d3f0f02da8b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34778,7 +34778,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Get The Barbarian Armor",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
             type: "ign_video",
             mimeType: "mp4",
@@ -34795,14 +34795,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0d4e2fa0-b914-4443-9f6e-4ae9b6fb4745.png",
+
             url: "https://media.mapgenie.io/storage/media/0d4e2fa0-b914-4443-9f6e-4ae9b6fb4745.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f719d3f0-d6e5-4506-9522-d778eb93a23c.png",
+
             url: "https://media.mapgenie.io/storage/media/f719d3f0-d6e5-4506-9522-d778eb93a23c.png",
             type: "image",
             mimeType: "image/png",
@@ -34819,7 +34819,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5a269a6b-79ce-4114-ad6e-cf6b58c6b6d4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5a269a6b-79ce-4114-ad6e-cf6b58c6b6d4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34836,7 +34836,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eac0cdf2-23a3-4e93-9019-e7b9ee23b97a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eac0cdf2-23a3-4e93-9019-e7b9ee23b97a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34853,7 +34853,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f9626a91-2baa-4c9f-8699-e34c8f91efff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f9626a91-2baa-4c9f-8699-e34c8f91efff.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34870,7 +34870,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6f3fa77a-4ca0-4a2d-824c-0f1693633dc5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6f3fa77a-4ca0-4a2d-824c-0f1693633dc5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34887,7 +34887,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d128166b-dad0-4f2f-be8f-c4ab5c6034d3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d128166b-dad0-4f2f-be8f-c4ab5c6034d3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34904,14 +34904,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "175e0dd8-5a53-4d9c-8a2c-4234bcde0917.png",
+
             url: "https://media.mapgenie.io/storage/media/175e0dd8-5a53-4d9c-8a2c-4234bcde0917.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c825f0df-2d0e-4665-a09a-7de900bf2ec8.png",
+
             url: "https://media.mapgenie.io/storage/media/c825f0df-2d0e-4665-a09a-7de900bf2ec8.png",
             type: "image",
             mimeType: "image/png",
@@ -34928,14 +34928,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3f8ff94e-cdb3-4d09-bedf-3b68d7f897b0.png",
+
             url: "https://media.mapgenie.io/storage/media/3f8ff94e-cdb3-4d09-bedf-3b68d7f897b0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "403edb7d-d57d-4015-b803-9c083f41a882.jpg",
+
             url: "https://media.mapgenie.io/storage/media/403edb7d-d57d-4015-b803-9c083f41a882.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34952,14 +34952,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c9a1a4d6-0cf0-4a5a-92d0-74df3435849e.png",
+
             url: "https://media.mapgenie.io/storage/media/c9a1a4d6-0cf0-4a5a-92d0-74df3435849e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "43bf24e6-3c98-409f-abcb-75912e7401eb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/43bf24e6-3c98-409f-abcb-75912e7401eb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -34967,7 +34967,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Frostbite Armor Set In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -34984,14 +34984,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6e0e7fc9-f899-4d1c-8eb0-7d2799d32b06.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6e0e7fc9-f899-4d1c-8eb0-7d2799d32b06.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "e02437d8-8cfe-48fd-a3d0-3437623d5765.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e02437d8-8cfe-48fd-a3d0-3437623d5765.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35008,14 +35008,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dd9c4bf5-6e14-4407-a2b1-d808ff0aefbd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd9c4bf5-6e14-4407-a2b1-d808ff0aefbd.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "01e2f8b2-de8b-41fe-b3c2-84449d5bcdb7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/01e2f8b2-de8b-41fe-b3c2-84449d5bcdb7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35023,7 +35023,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -35041,21 +35041,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Phantom Ganon Miniboss Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-phantom-ganon-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "f89aa7ae-b90f-4145-96ad-4b9ef3579c15.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f89aa7ae-b90f-4145-96ad-4b9ef3579c15.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "d7527ea5-dd35-4c43-8648-0210b1667b9d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d7527ea5-dd35-4c43-8648-0210b1667b9d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35072,7 +35072,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Zonaite Shin Guards",
-            fileName: "5f5f65ed-1869-449c-a845-431ac26f3750.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5f5f65ed-1869-449c-a845-431ac26f3750.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35080,7 +35080,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom All Zonaite Armor Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
             type: "ign_video",
             mimeType: "mp4",
@@ -35097,14 +35097,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4dd5b5df-d483-4a54-bab9-fb7d5c8f6ce0.png",
+
             url: "https://media.mapgenie.io/storage/media/4dd5b5df-d483-4a54-bab9-fb7d5c8f6ce0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "efad7b49-85cc-409c-b6b5-f9d719911e42.png",
+
             url: "https://media.mapgenie.io/storage/media/efad7b49-85cc-409c-b6b5-f9d719911e42.png",
             type: "image",
             mimeType: "image/png",
@@ -35121,14 +35121,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fa8a4bc2-87dc-47dd-a9bf-c4e3c6bea262.png",
+
             url: "https://media.mapgenie.io/storage/media/fa8a4bc2-87dc-47dd-a9bf-c4e3c6bea262.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "5be3fa80-ddf3-42eb-858a-9c48f174e516.png",
+
             url: "https://media.mapgenie.io/storage/media/5be3fa80-ddf3-42eb-858a-9c48f174e516.png",
             type: "image",
             mimeType: "image/png",
@@ -35145,14 +35145,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "48eb3302-53df-4ac1-93b3-e5b2658f6c68.jpg",
+
             url: "https://media.mapgenie.io/storage/media/48eb3302-53df-4ac1-93b3-e5b2658f6c68.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "8b39cc1c-56fd-4348-8da6-93bf6d162faf.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8b39cc1c-56fd-4348-8da6-93bf6d162faf.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35169,14 +35169,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a09024d1-5c35-4ad3-ba52-d2abd315aba3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a09024d1-5c35-4ad3-ba52-d2abd315aba3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "a2b7ed87-0006-40e9-b06f-6484a1fe2997.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a2b7ed87-0006-40e9-b06f-6484a1fe2997.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35184,7 +35184,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -35201,14 +35201,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4490e6e2-aeff-449f-8071-7ba1a93ed337.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4490e6e2-aeff-449f-8071-7ba1a93ed337.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ed6ee27c-c4f8-44ce-9d6c-693c8ea84982.png",
+
             url: "https://media.mapgenie.io/storage/media/ed6ee27c-c4f8-44ce-9d6c-693c8ea84982.png",
             type: "image",
             mimeType: "image/png",
@@ -35225,14 +35225,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bdb2484d-5d97-4e82-9b62-6ae2b9b2fbe6.png",
+
             url: "https://media.mapgenie.io/storage/media/bdb2484d-5d97-4e82-9b62-6ae2b9b2fbe6.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "0b13836c-8326-429b-85a7-922e463f3583.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0b13836c-8326-429b-85a7-922e463f3583.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35240,7 +35240,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Frostbite Armor Set In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -35257,14 +35257,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "85457e1d-906f-4604-b93c-01377adb7590.png",
+
             url: "https://media.mapgenie.io/storage/media/85457e1d-906f-4604-b93c-01377adb7590.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "07417d65-bca4-4a11-9300-81cd177c431e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/07417d65-bca4-4a11-9300-81cd177c431e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35272,7 +35272,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Frostbite Armor Set In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -35289,14 +35289,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "76e57bb9-aca4-4774-bd3f-82a9fbdafff0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/76e57bb9-aca4-4774-bd3f-82a9fbdafff0.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "781061f7-6098-45be-8ec6-2295bbe1ead2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/781061f7-6098-45be-8ec6-2295bbe1ead2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35313,14 +35313,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cb78bced-d5ac-4aac-b218-327b3d7b9e33.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cb78bced-d5ac-4aac-b218-327b3d7b9e33.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "a37c43c1-8c59-4802-bbf1-db8df316421a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a37c43c1-8c59-4802-bbf1-db8df316421a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35337,14 +35337,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dd1560e1-f6a4-4c13-b336-70fd81afefee.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd1560e1-f6a4-4c13-b336-70fd81afefee.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "174c917d-9b4f-443d-82c4-04cf8cb9dbb6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/174c917d-9b4f-443d-82c4-04cf8cb9dbb6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35361,14 +35361,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "334f963a-530e-4fd3-bdc8-a846d03a7ef2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/334f963a-530e-4fd3-bdc8-a846d03a7ef2.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "0acf7ff8-e341-461a-a80f-0496464c6d71.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0acf7ff8-e341-461a-a80f-0496464c6d71.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35385,14 +35385,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8d3fc54a-43d3-4764-860c-566f4c052b99.png",
+
             url: "https://media.mapgenie.io/storage/media/8d3fc54a-43d3-4764-860c-566f4c052b99.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "c7652d84-72dc-454d-bce8-1aed2cf84ef9.png",
+
             url: "https://media.mapgenie.io/storage/media/c7652d84-72dc-454d-bce8-1aed2cf84ef9.png",
             type: "image",
             mimeType: "image/png",
@@ -35409,14 +35409,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bebe6beb-0c73-4506-8441-f4e5727b924b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bebe6beb-0c73-4506-8441-f4e5727b924b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "19d68b41-a930-47b3-a9c8-0227fa825dce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/19d68b41-a930-47b3-a9c8-0227fa825dce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35433,14 +35433,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "421aecef-620f-4836-8623-89dd407470bd.png",
+
             url: "https://media.mapgenie.io/storage/media/421aecef-620f-4836-8623-89dd407470bd.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "bbc78c63-a749-4595-abbb-06b2aa612bcd.png",
+
             url: "https://media.mapgenie.io/storage/media/bbc78c63-a749-4595-abbb-06b2aa612bcd.png",
             type: "image",
             mimeType: "image/png",
@@ -35457,14 +35457,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c57367da-1a23-4471-a901-cc3a19ec6384.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c57367da-1a23-4471-a901-cc3a19ec6384.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "73cc6f3f-fe49-4f23-ae66-a383452782e5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/73cc6f3f-fe49-4f23-ae66-a383452782e5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35481,14 +35481,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "544c6568-b495-4bea-b939-46c09de06b1e.png",
+
             url: "https://media.mapgenie.io/storage/media/544c6568-b495-4bea-b939-46c09de06b1e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "40fcbc35-fd95-47e7-a364-b27e67f38f70.png",
+
             url: "https://media.mapgenie.io/storage/media/40fcbc35-fd95-47e7-a364-b27e67f38f70.png",
             type: "image",
             mimeType: "image/png",
@@ -35505,14 +35505,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f224e27-373d-4dcc-a121-28aaab627470.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4f224e27-373d-4dcc-a121-28aaab627470.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "261a1157-bec8-4de3-b26d-8a5001dc0d27.jpg",
+
             url: "https://media.mapgenie.io/storage/media/261a1157-bec8-4de3-b26d-8a5001dc0d27.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35529,14 +35529,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "35b2e304-2b70-4e65-8082-6dde4bc6072c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/35b2e304-2b70-4e65-8082-6dde4bc6072c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "1091afeb-28c9-44b0-92f6-f813e4cb39fc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1091afeb-28c9-44b0-92f6-f813e4cb39fc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35553,14 +35553,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2b5d2f0f-e1bd-4215-83cd-829c08a9100c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b5d2f0f-e1bd-4215-83cd-829c08a9100c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "91cd1dbd-120f-483b-973e-3ece6f4e12a6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/91cd1dbd-120f-483b-973e-3ece6f4e12a6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35577,14 +35577,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a642419-5ad4-4716-968a-3ce6a29faec4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7a642419-5ad4-4716-968a-3ce6a29faec4.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "d76b6832-daac-46ad-9715-0575dc9f826c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d76b6832-daac-46ad-9715-0575dc9f826c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35601,14 +35601,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "21a3ac81-ca2f-4488-a139-f99b2e4b8e01.jpg",
+
             url: "https://media.mapgenie.io/storage/media/21a3ac81-ca2f-4488-a139-f99b2e4b8e01.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "da95ec97-09c9-4037-b2e4-10dfc29b737a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/da95ec97-09c9-4037-b2e4-10dfc29b737a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35625,14 +35625,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7a197f1b-4953-4066-ba7c-7c4b51372b15.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7a197f1b-4953-4066-ba7c-7c4b51372b15.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "5b92b80c-5258-4ad0-ac68-f7d5ed190262.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5b92b80c-5258-4ad0-ac68-f7d5ed190262.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35649,14 +35649,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cbae301b-9b66-4f53-9e50-f2436cc29b52.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cbae301b-9b66-4f53-9e50-f2436cc29b52.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "f05e8fcd-6956-441a-9b20-075620b1f1fd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f05e8fcd-6956-441a-9b20-075620b1f1fd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35673,14 +35673,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "01e79a65-201c-49b1-abb1-04feacc9f45b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/01e79a65-201c-49b1-abb1-04feacc9f45b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ca7b2bdb-4a54-4b40-8819-ac53ee7b4bc2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ca7b2bdb-4a54-4b40-8819-ac53ee7b4bc2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35697,14 +35697,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "59a8d525-cf2b-4ced-a65e-56bdf37ccec1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/59a8d525-cf2b-4ced-a65e-56bdf37ccec1.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2e10e0b9-4da0-4b63-b034-8f511db7e3d7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2e10e0b9-4da0-4b63-b034-8f511db7e3d7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35721,14 +35721,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1abd9e83-9185-47ee-b337-86d7a29b618e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1abd9e83-9185-47ee-b337-86d7a29b618e.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "bbbbfd2e-8763-4381-a05f-1102d070b67d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bbbbfd2e-8763-4381-a05f-1102d070b67d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35745,14 +35745,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Cap of the Sky",
-            fileName: "0e352b63-da43-43d9-aa79-d40c7364b33b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0e352b63-da43-43d9-aa79-d40c7364b33b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "c21dee4b-64fe-499d-96bc-3465eedebd81.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c21dee4b-64fe-499d-96bc-3465eedebd81.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35769,14 +35769,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e38e7043-8a0b-4400-b35b-925b16acae81.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e38e7043-8a0b-4400-b35b-925b16acae81.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "5be521f7-5149-424d-a3eb-d75d07345afa.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5be521f7-5149-424d-a3eb-d75d07345afa.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35793,14 +35793,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "773265bb-a09c-4da0-af95-cde3eb409420.png",
+
             url: "https://media.mapgenie.io/storage/media/773265bb-a09c-4da0-af95-cde3eb409420.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f95cd9b9-827a-4f6f-86af-71d91450e468.png",
+
             url: "https://media.mapgenie.io/storage/media/f95cd9b9-827a-4f6f-86af-71d91450e468.png",
             type: "image",
             mimeType: "image/png",
@@ -35817,14 +35817,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0c497e74-fe44-42e9-89ed-22108c566824.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0c497e74-fe44-42e9-89ed-22108c566824.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "23da7d1e-9b82-41ff-a732-ce0d30d64d68.jpg",
+
             url: "https://media.mapgenie.io/storage/media/23da7d1e-9b82-41ff-a732-ce0d30d64d68.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35841,14 +35841,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d1ba0e7a-f8b3-41c2-8cdd-83a588877db4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d1ba0e7a-f8b3-41c2-8cdd-83a588877db4.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "28d576d8-7b02-44ac-9812-ab27377299b9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/28d576d8-7b02-44ac-9812-ab27377299b9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35865,14 +35865,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45d1071d-8984-4e16-95e9-21db9bae1280.png",
+
             url: "https://media.mapgenie.io/storage/media/45d1071d-8984-4e16-95e9-21db9bae1280.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "aa3cebc3-71b5-4905-89a8-e67d3a264e30.png",
+
             url: "https://media.mapgenie.io/storage/media/aa3cebc3-71b5-4905-89a8-e67d3a264e30.png",
             type: "image",
             mimeType: "image/png",
@@ -35889,14 +35889,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "38e28fe3-cc31-459c-a2cc-4590e1ae755b.png",
+
             url: "https://media.mapgenie.io/storage/media/38e28fe3-cc31-459c-a2cc-4590e1ae755b.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "2c434605-492a-4ba8-a478-2db8d9c828d9.png",
+
             url: "https://media.mapgenie.io/storage/media/2c434605-492a-4ba8-a478-2db8d9c828d9.png",
             type: "image",
             mimeType: "image/png",
@@ -35913,14 +35913,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17485f7b-4f29-41fe-8f55-1c39b9212d4c.png",
+
             url: "https://media.mapgenie.io/storage/media/17485f7b-4f29-41fe-8f55-1c39b9212d4c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "7277b189-ff57-47bd-9def-3af67e0f0d24.png",
+
             url: "https://media.mapgenie.io/storage/media/7277b189-ff57-47bd-9def-3af67e0f0d24.png",
             type: "image",
             mimeType: "image/png",
@@ -35937,14 +35937,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2af92c5c-d263-40d4-90b3-ecb85886d0fc.png",
+
             url: "https://media.mapgenie.io/storage/media/2af92c5c-d263-40d4-90b3-ecb85886d0fc.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "3e8aa1b3-23f2-413d-a6d4-2de848ee44b1.png",
+
             url: "https://media.mapgenie.io/storage/media/3e8aa1b3-23f2-413d-a6d4-2de848ee44b1.png",
             type: "image",
             mimeType: "image/png",
@@ -35961,14 +35961,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4ab1359f-5480-4f16-95c0-ab55c60fcab3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4ab1359f-5480-4f16-95c0-ab55c60fcab3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2a34a20e-58fb-4474-a934-ecf0d52517f4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2a34a20e-58fb-4474-a934-ecf0d52517f4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -35985,14 +35985,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "de753afb-9b26-4140-960f-cbebca979a3e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/de753afb-9b26-4140-960f-cbebca979a3e.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "96b0b95a-6148-42a2-98f7-58409cc6d306.jpg",
+
             url: "https://media.mapgenie.io/storage/media/96b0b95a-6148-42a2-98f7-58409cc6d306.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36009,14 +36009,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4e18bc99-f3d2-4c12-a1c7-781968551f08.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4e18bc99-f3d2-4c12-a1c7-781968551f08.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "f8971883-2170-4fcf-a7ea-2799b7c991c2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f8971883-2170-4fcf-a7ea-2799b7c991c2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36033,14 +36033,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2387791e-f862-4a71-8529-979264231632.png",
+
             url: "https://media.mapgenie.io/storage/media/2387791e-f862-4a71-8529-979264231632.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "9e28ff04-8809-4a97-987b-d48457492293.png",
+
             url: "https://media.mapgenie.io/storage/media/9e28ff04-8809-4a97-987b-d48457492293.png",
             type: "image",
             mimeType: "image/png",
@@ -36057,14 +36057,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "94bf450e-e4a4-44fb-9e16-4f84d0017c3b.png",
+
             url: "https://media.mapgenie.io/storage/media/94bf450e-e4a4-44fb-9e16-4f84d0017c3b.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "0524cff1-1652-4443-acf4-30a830338ec5.png",
+
             url: "https://media.mapgenie.io/storage/media/0524cff1-1652-4443-acf4-30a830338ec5.png",
             type: "image",
             mimeType: "image/png",
@@ -36081,14 +36081,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0532016f-dcd6-4868-8e9b-86069ff10605.png",
+
             url: "https://media.mapgenie.io/storage/media/0532016f-dcd6-4868-8e9b-86069ff10605.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "159cadbb-c762-4acb-8abb-5f3f75152ec8.png",
+
             url: "https://media.mapgenie.io/storage/media/159cadbb-c762-4acb-8abb-5f3f75152ec8.png",
             type: "image",
             mimeType: "image/png",
@@ -36105,14 +36105,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b50b29cd-4bab-4b9d-b06a-d01173ab0ba2.png",
+
             url: "https://media.mapgenie.io/storage/media/b50b29cd-4bab-4b9d-b06a-d01173ab0ba2.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "eed3e572-b04c-45e9-a042-344e187a8cc9.png",
+
             url: "https://media.mapgenie.io/storage/media/eed3e572-b04c-45e9-a042-344e187a8cc9.png",
             type: "image",
             mimeType: "image/png",
@@ -36129,14 +36129,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4a77ef6f-f031-45c6-b2b8-c64aceb32139.png",
+
             url: "https://media.mapgenie.io/storage/media/4a77ef6f-f031-45c6-b2b8-c64aceb32139.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "6434957b-067a-4d2f-a030-f5b7cd6ac7ed.png",
+
             url: "https://media.mapgenie.io/storage/media/6434957b-067a-4d2f-a030-f5b7cd6ac7ed.png",
             type: "image",
             mimeType: "image/png",
@@ -36153,7 +36153,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "efa4d3ab-c7b8-450b-866e-81e2a4e6fda4.png",
+
             url: "https://media.mapgenie.io/storage/media/efa4d3ab-c7b8-450b-866e-81e2a4e6fda4.png",
             type: "image",
             mimeType: "image/png",
@@ -36161,7 +36161,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36178,7 +36178,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "86b677d3-fb1d-4db2-8058-8702778bb48d.png",
+
             url: "https://media.mapgenie.io/storage/media/86b677d3-fb1d-4db2-8058-8702778bb48d.png",
             type: "image",
             mimeType: "image/png",
@@ -36186,7 +36186,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36203,7 +36203,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e1c8db3b-6447-40ed-8a31-b56bd7311cc8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e1c8db3b-6447-40ed-8a31-b56bd7311cc8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36211,7 +36211,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36228,7 +36228,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c16cc9f5-aefb-4f24-9421-f68699a61fc3.png",
+
             url: "https://media.mapgenie.io/storage/media/c16cc9f5-aefb-4f24-9421-f68699a61fc3.png",
             type: "image",
             mimeType: "image/png",
@@ -36236,7 +36236,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36253,7 +36253,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "822d1a57-e30e-4c42-a922-f85207f5ce16.jpg",
+
             url: "https://media.mapgenie.io/storage/media/822d1a57-e30e-4c42-a922-f85207f5ce16.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36261,7 +36261,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36278,7 +36278,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e7e2777e-2495-49d2-8788-fddb3863b75e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e7e2777e-2495-49d2-8788-fddb3863b75e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36286,7 +36286,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36303,14 +36303,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "45645337-eb38-4310-9f6d-4fbcba974973.png",
+
             url: "https://media.mapgenie.io/storage/media/45645337-eb38-4310-9f6d-4fbcba974973.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36318,7 +36318,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36335,7 +36335,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f6646866-03c6-471a-a4a5-a9c39436cb80.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f6646866-03c6-471a-a4a5-a9c39436cb80.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36343,7 +36343,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36360,7 +36360,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8e1adc88-f641-435d-bbdb-06f0646a6507.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8e1adc88-f641-435d-bbdb-06f0646a6507.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36368,7 +36368,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36385,14 +36385,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3e59f54-7e2d-4cfe-b574-671b3e20efe2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e3e59f54-7e2d-4cfe-b574-671b3e20efe2.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "307d5ae3-8b9c-4284-8ae6-e8f50aca70f0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/307d5ae3-8b9c-4284-8ae6-e8f50aca70f0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36400,7 +36400,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36417,14 +36417,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00e0b332-0c71-4aa8-9d7f-585b24f0ab24.jpg",
+
             url: "https://media.mapgenie.io/storage/media/00e0b332-0c71-4aa8-9d7f-585b24f0ab24.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ca09223e-030a-458c-af62-19afe15b935d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ca09223e-030a-458c-af62-19afe15b935d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36432,7 +36432,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -36449,14 +36449,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "edc7972a-6920-44ac-82f7-df100aa36572.png",
+
             url: "https://media.mapgenie.io/storage/media/edc7972a-6920-44ac-82f7-df100aa36572.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "5df89c52-1f34-4914-b6e7-09630cee4b62.png",
+
             url: "https://media.mapgenie.io/storage/media/5df89c52-1f34-4914-b6e7-09630cee4b62.png",
             type: "image",
             mimeType: "image/png",
@@ -36473,14 +36473,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7acb143d-eafc-4526-93bc-e8d522cfe1f0.png",
+
             url: "https://media.mapgenie.io/storage/media/7acb143d-eafc-4526-93bc-e8d522cfe1f0.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "102df9bc-5eac-4e8e-814d-508b4903a771.png",
+
             url: "https://media.mapgenie.io/storage/media/102df9bc-5eac-4e8e-814d-508b4903a771.png",
             type: "image",
             mimeType: "image/png",
@@ -36497,14 +36497,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d002e65d-080f-458e-b2b0-9e3cf126f749.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d002e65d-080f-458e-b2b0-9e3cf126f749.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "5bdcfc83-d071-44c7-aaa3-d8495fa9144a.png",
+
             url: "https://media.mapgenie.io/storage/media/5bdcfc83-d071-44c7-aaa3-d8495fa9144a.png",
             type: "image",
             mimeType: "image/png",
@@ -36521,14 +36521,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "acfa63f0-0404-4b00-ae1d-91df2f3597ef.jpg",
+
             url: "https://media.mapgenie.io/storage/media/acfa63f0-0404-4b00-ae1d-91df2f3597ef.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ea04ea09-9816-4bc8-8056-b017a8af08ba.png",
+
             url: "https://media.mapgenie.io/storage/media/ea04ea09-9816-4bc8-8056-b017a8af08ba.png",
             type: "image",
             mimeType: "image/png",
@@ -36545,14 +36545,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a42fa1b8-5a99-4320-bb4f-d73cf6f56402.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a42fa1b8-5a99-4320-bb4f-d73cf6f56402.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "d0a137f4-32db-40b4-b493-604a1ea8d17c.png",
+
             url: "https://media.mapgenie.io/storage/media/d0a137f4-32db-40b4-b493-604a1ea8d17c.png",
             type: "image",
             mimeType: "image/png",
@@ -36569,14 +36569,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "df6f5b41-5a21-4168-a53b-ca3138f76b4f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/df6f5b41-5a21-4168-a53b-ca3138f76b4f.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "e2c585a2-8886-4ba0-b8a6-03ce131ae162.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e2c585a2-8886-4ba0-b8a6-03ce131ae162.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36593,14 +36593,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "203926c4-4622-43af-b932-2668a491bca2.png",
+
             url: "https://media.mapgenie.io/storage/media/203926c4-4622-43af-b932-2668a491bca2.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "0a917e7b-8a8c-4dde-9fcb-c5ce7598add4.png",
+
             url: "https://media.mapgenie.io/storage/media/0a917e7b-8a8c-4dde-9fcb-c5ce7598add4.png",
             type: "image",
             mimeType: "image/png",
@@ -36617,14 +36617,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f3f33eae-5656-4984-bf79-57056bc83d81.png",
+
             url: "https://media.mapgenie.io/storage/media/f3f33eae-5656-4984-bf79-57056bc83d81.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "e8772958-fbef-4140-ac77-26e1df34aeed.png",
+
             url: "https://media.mapgenie.io/storage/media/e8772958-fbef-4140-ac77-26e1df34aeed.png",
             type: "image",
             mimeType: "image/png",
@@ -36641,14 +36641,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1c8dd68-5385-489f-8ef1-8047b5d88cc7.png",
+
             url: "https://media.mapgenie.io/storage/media/f1c8dd68-5385-489f-8ef1-8047b5d88cc7.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "adf2e363-3636-4c23-95c6-4df862e20063.png",
+
             url: "https://media.mapgenie.io/storage/media/adf2e363-3636-4c23-95c6-4df862e20063.png",
             type: "image",
             mimeType: "image/png",
@@ -36665,14 +36665,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0da78b6f-b6d5-4374-ac82-8e9f00082063.png",
+
             url: "https://media.mapgenie.io/storage/media/0da78b6f-b6d5-4374-ac82-8e9f00082063.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "2024cf50-80aa-49d5-8bd5-1d5ffcad4736.png",
+
             url: "https://media.mapgenie.io/storage/media/2024cf50-80aa-49d5-8bd5-1d5ffcad4736.png",
             type: "image",
             mimeType: "image/png",
@@ -36689,21 +36689,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0fb76480-6596-401f-a3d3-b88ddf1e4f34.png",
+
             url: "https://media.mapgenie.io/storage/media/0fb76480-6596-401f-a3d3-b88ddf1e4f34.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "f4bf71f8-32c1-48e9-b131-5cb1a36fcd2e.png",
+
             url: "https://media.mapgenie.io/storage/media/f4bf71f8-32c1-48e9-b131-5cb1a36fcd2e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "d8eccd7a-ddf9-4641-968e-21776ac2567d.png",
+
             url: "https://media.mapgenie.io/storage/media/d8eccd7a-ddf9-4641-968e-21776ac2567d.png",
             type: "image",
             mimeType: "image/png",
@@ -36720,7 +36720,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d051354b-36d4-4d81-ac90-c1a7e8bb83cf.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d051354b-36d4-4d81-ac90-c1a7e8bb83cf.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36737,7 +36737,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "de8c8062-f822-46d5-a841-4ec81e37d077.jpg",
+
             url: "https://media.mapgenie.io/storage/media/de8c8062-f822-46d5-a841-4ec81e37d077.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36754,14 +36754,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8b2d27b6-8fb2-4d1a-bd37-fc531140793c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8b2d27b6-8fb2-4d1a-bd37-fc531140793c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "2b8c82b2-6977-4c72-98b2-d53fdaf7cb22.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b8c82b2-6977-4c72-98b2-d53fdaf7cb22.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -36811,7 +36811,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-30-48",
-            fileName: "c605714c-88ac-4ea8-a98f-6d6c975cf64b.png",
+
             url: "https://media.mapgenie.io/storage/media/c605714c-88ac-4ea8-a98f-6d6c975cf64b.png",
             type: "image",
             mimeType: "image/png",
@@ -36827,7 +36827,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 01-21-07",
-            fileName: "4bff2e70-d6e4-4e0a-995c-9f719ef4de95.png",
+
             url: "https://media.mapgenie.io/storage/media/4bff2e70-d6e4-4e0a-995c-9f719ef4de95.png",
             type: "image",
             mimeType: "image/png",
@@ -36843,7 +36843,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600392500_c",
-            fileName: "1573df10-d95d-44dc-b432-b76ed6fd9519.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1573df10-d95d-44dc-b432-b76ed6fd9519.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -37473,7 +37473,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923171700_c",
-            fileName: "a9bd7067-e281-4aa4-9014-5ecbd6c6e943.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a9bd7067-e281-4aa4-9014-5ecbd6c6e943.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -37490,7 +37490,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050314304600_c",
-            fileName: "843e5a7e-ff8d-4747-835b-38cebb22df33.jpg",
+
             url: "https://media.mapgenie.io/storage/media/843e5a7e-ff8d-4747-835b-38cebb22df33.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -37507,7 +37507,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050722582500_c",
-            fileName: "1a3aa599-cd22-4882-8298-06c7e1be318a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1a3aa599-cd22-4882-8298-06c7e1be318a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -37524,7 +37524,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050820230800_c",
-            fileName: "7f513a09-afdc-490d-80fc-87ea6a7d3e73.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7f513a09-afdc-490d-80fc-87ea6a7d3e73.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -38017,7 +38017,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-28 22-18-52",
-            fileName: "1f119b7d-d81e-4648-b27f-12c6106d02ac.png",
+
             url: "https://media.mapgenie.io/storage/media/1f119b7d-d81e-4648-b27f-12c6106d02ac.png",
             type: "image",
             mimeType: "image/png",
@@ -38042,14 +38042,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-28 23-17-06",
-            fileName: "69450d8a-9497-4138-8898-c930bc6ab99c.png",
+
             url: "https://media.mapgenie.io/storage/media/69450d8a-9497-4138-8898-c930bc6ab99c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "Screenshot 2023-04-28 23-17-43",
-            fileName: "9c087ddb-ad3b-40ce-9a71-71fdbb03b26e.png",
+
             url: "https://media.mapgenie.io/storage/media/9c087ddb-ad3b-40ce-9a71-71fdbb03b26e.png",
             type: "image",
             mimeType: "image/png",
@@ -38065,7 +38065,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-10-38",
-            fileName: "82bd1edd-c884-454c-aadf-9c234fba5369.png",
+
             url: "https://media.mapgenie.io/storage/media/82bd1edd-c884-454c-aadf-9c234fba5369.png",
             type: "image",
             mimeType: "image/png",
@@ -38082,7 +38082,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-25-17",
-            fileName: "7fdd9900-df2c-4367-b27f-cbb7ce40a89b.png",
+
             url: "https://media.mapgenie.io/storage/media/7fdd9900-df2c-4367-b27f-cbb7ce40a89b.png",
             type: "image",
             mimeType: "image/png",
@@ -38099,7 +38099,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-34-39",
-            fileName: "321837ab-97f1-490a-8e23-9b9b3f1faafe.png",
+
             url: "https://media.mapgenie.io/storage/media/321837ab-97f1-490a-8e23-9b9b3f1faafe.png",
             type: "image",
             mimeType: "image/png",
@@ -38116,7 +38116,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 01-15-43",
-            fileName: "7b3f04f2-835f-4943-990a-6dd98f41a1ba.png",
+
             url: "https://media.mapgenie.io/storage/media/7b3f04f2-835f-4943-990a-6dd98f41a1ba.png",
             type: "image",
             mimeType: "image/png",
@@ -38146,7 +38146,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723444400_c",
-            fileName: "418cd058-5828-4fd8-8a58-ec76e9946bcb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/418cd058-5828-4fd8-8a58-ec76e9946bcb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -38163,14 +38163,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723565800_c",
-            fileName: "843fb93f-2a10-4c94-b699-19b5ea893b91.jpg",
+
             url: "https://media.mapgenie.io/storage/media/843fb93f-2a10-4c94-b699-19b5ea893b91.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050723591400_c",
-            fileName: "fc154c67-936d-43ac-ab19-d0b618a5786a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fc154c67-936d-43ac-ab19-d0b618a5786a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -38785,7 +38785,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b5e56c1e-ca13-4960-b261-c03e6cef4680.jpeg",
+
             url: "https://media.mapgenie.io/storage/media/b5e56c1e-ca13-4960-b261-c03e6cef4680.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -41621,7 +41621,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912242600_c",
-            fileName: "bb9b762d-b022-4ff0-af54-c4312ff9897f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bb9b762d-b022-4ff0-af54-c4312ff9897f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -41674,7 +41674,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f1ba947c-cfa6-4430-a176-e1cd560f91d5.png",
+
             url: "https://media.mapgenie.io/storage/media/f1ba947c-cfa6-4430-a176-e1cd560f91d5.png",
             type: "image",
             mimeType: "image/png",
@@ -42024,7 +42024,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043001293700_c",
-            fileName: "a39536d3-6737-4f20-8f96-523481d4e56e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a39536d3-6737-4f20-8f96-523481d4e56e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42041,7 +42041,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421320600_c",
-            fileName: "15e0ba66-aac2-4188-8119-ac22e58c50fc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/15e0ba66-aac2-4188-8119-ac22e58c50fc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42058,7 +42058,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421544400_c",
-            fileName: "3111b469-abc3-41ca-a45f-f7b5f68f9cae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3111b469-abc3-41ca-a45f-f7b5f68f9cae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42075,7 +42075,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723524500_c",
-            fileName: "54a8c258-2c20-4f82-b3ff-2a7648820181.jpg",
+
             url: "https://media.mapgenie.io/storage/media/54a8c258-2c20-4f82-b3ff-2a7648820181.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42295,7 +42295,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b595a8a3-90f4-4959-bf25-3f29b93365e1.png",
+
             url: "https://media.mapgenie.io/storage/media/b595a8a3-90f4-4959-bf25-3f29b93365e1.png",
             type: "image",
             mimeType: "image/png",
@@ -42731,7 +42731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723350500_c",
-            fileName: "986c6d35-4b12-48e9-9e8b-7e73a293ec75.jpg",
+
             url: "https://media.mapgenie.io/storage/media/986c6d35-4b12-48e9-9e8b-7e73a293ec75.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42790,7 +42790,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-28-33",
-            fileName: "761f21bf-9216-479b-bc18-6dfe90afada4.png",
+
             url: "https://media.mapgenie.io/storage/media/761f21bf-9216-479b-bc18-6dfe90afada4.png",
             type: "image",
             mimeType: "image/png",
@@ -42911,7 +42911,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421344600_c",
-            fileName: "139cd675-fb8b-4980-a975-98b05a45fe32.jpg",
+
             url: "https://media.mapgenie.io/storage/media/139cd675-fb8b-4980-a975-98b05a45fe32.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42927,7 +42927,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421361200_c",
-            fileName: "b82457b0-251b-4e75-8929-17328f08b773.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b82457b0-251b-4e75-8929-17328f08b773.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42943,7 +42943,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421370700_c",
-            fileName: "b55102ee-5506-49c9-8a7e-2aca1a5f2d8f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b55102ee-5506-49c9-8a7e-2aca1a5f2d8f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42960,7 +42960,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421492200_c",
-            fileName: "963a4c46-110e-4a2e-86bc-be97aee7e6b7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/963a4c46-110e-4a2e-86bc-be97aee7e6b7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -42977,7 +42977,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421544400_c",
-            fileName: "3111b469-abc3-41ca-a45f-f7b5f68f9cae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3111b469-abc3-41ca-a45f-f7b5f68f9cae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43015,7 +43015,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050722472800_c",
-            fileName: "dead9c8c-fc28-4de3-a239-a4f860649d00.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dead9c8c-fc28-4de3-a239-a4f860649d00.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43032,7 +43032,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723155900_c",
-            fileName: "76d6bf51-1324-4d12-a807-8795959c5551.jpg",
+
             url: "https://media.mapgenie.io/storage/media/76d6bf51-1324-4d12-a807-8795959c5551.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43049,7 +43049,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723200200_c",
-            fileName: "01e8a5c7-7370-4d0c-b3da-ddcfdb907863.jpg",
+
             url: "https://media.mapgenie.io/storage/media/01e8a5c7-7370-4d0c-b3da-ddcfdb907863.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43066,7 +43066,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723481200_c",
-            fileName: "d05e828e-2778-4e85-936c-ebf9adc94453.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d05e828e-2778-4e85-936c-ebf9adc94453.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43103,7 +43103,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913562300_c",
-            fileName: "be56c091-19bb-4203-aa6b-900e31098fa9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/be56c091-19bb-4203-aa6b-900e31098fa9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43120,7 +43120,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913572100_c",
-            fileName: "19ab735e-d9ef-4e42-b34e-76533a06854f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/19ab735e-d9ef-4e42-b34e-76533a06854f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -43178,7 +43178,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "754a5a33-56bd-4d31-b078-52532c54d13b.png",
+
             url: "https://media.mapgenie.io/storage/media/754a5a33-56bd-4d31-b078-52532c54d13b.png",
             type: "image",
             mimeType: "image/png",
@@ -43337,7 +43337,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "793beb72-8486-42b0-a88c-5640920914c7.png",
+
             url: "https://media.mapgenie.io/storage/media/793beb72-8486-42b0-a88c-5640920914c7.png",
             type: "image",
             mimeType: "image/png",
@@ -43376,7 +43376,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "13713694-dcf6-46f1-9c12-488b921e3a5f.png",
+
             url: "https://media.mapgenie.io/storage/media/13713694-dcf6-46f1-9c12-488b921e3a5f.png",
             type: "image",
             mimeType: "image/png",
@@ -44192,7 +44192,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5bda42fa-8cab-493b-ad37-b04a1d8509ef.png",
+
             url: "https://media.mapgenie.io/storage/media/5bda42fa-8cab-493b-ad37-b04a1d8509ef.png",
             type: "image",
             mimeType: "image/png",
@@ -46653,7 +46653,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-28 17-51-33",
-            fileName: "f2fb056e-203b-4574-9c70-f9dbddb17d82.png",
+
             url: "https://media.mapgenie.io/storage/media/f2fb056e-203b-4574-9c70-f9dbddb17d82.png",
             type: "image",
             mimeType: "image/png",
@@ -46670,7 +46670,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600325800_c",
-            fileName: "c3573243-5a0e-4748-a423-f4623c1e9f0b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c3573243-5a0e-4748-a423-f4623c1e9f0b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -46687,7 +46687,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600365700_c",
-            fileName: "f9af2987-ce45-4bc2-a345-94f4b6c79a5a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f9af2987-ce45-4bc2-a345-94f4b6c79a5a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -46724,7 +46724,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913535900_c",
-            fileName: "5c57170a-f450-482c-8b67-b9f5fa14888c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5c57170a-f450-482c-8b67-b9f5fa14888c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -46847,7 +46847,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ec52279d-d909-4d8b-94fd-792403f46d60.png",
+
             url: "https://media.mapgenie.io/storage/media/ec52279d-d909-4d8b-94fd-792403f46d60.png",
             type: "image",
             mimeType: "image/jpeg",
@@ -47963,7 +47963,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-28 23-10-45",
-            fileName: "0bdfe6ed-76bc-4814-a873-706e98d983ae.png",
+
             url: "https://media.mapgenie.io/storage/media/0bdfe6ed-76bc-4814-a873-706e98d983ae.png",
             type: "image",
             mimeType: "image/png",
@@ -47980,7 +47980,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-28 23-35-59",
-            fileName: "67f7aadc-228f-4fb4-a289-b165524d6491.png",
+
             url: "https://media.mapgenie.io/storage/media/67f7aadc-228f-4fb4-a289-b165524d6491.png",
             type: "image",
             mimeType: "image/png",
@@ -48004,7 +48004,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 01-25-39",
-            fileName: "990d2a1a-f536-4923-b058-4675eb397c02.png",
+
             url: "https://media.mapgenie.io/storage/media/990d2a1a-f536-4923-b058-4675eb397c02.png",
             type: "image",
             mimeType: "image/png",
@@ -48021,7 +48021,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 01-34-05",
-            fileName: "a99d0353-0754-48d2-ac29-91cf6f10f3a2.png",
+
             url: "https://media.mapgenie.io/storage/media/a99d0353-0754-48d2-ac29-91cf6f10f3a2.png",
             type: "image",
             mimeType: "image/png",
@@ -48038,7 +48038,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000561600_c",
-            fileName: "c1a36540-e90d-4c86-8d61-844ccf635b14.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c1a36540-e90d-4c86-8d61-844ccf635b14.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48055,7 +48055,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000561600_c",
-            fileName: "c1a36540-e90d-4c86-8d61-844ccf635b14.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c1a36540-e90d-4c86-8d61-844ccf635b14.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48071,7 +48071,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600271700_c",
-            fileName: "70ba46ae-005e-4d9a-b459-3c6c0d649394.jpg",
+
             url: "https://media.mapgenie.io/storage/media/70ba46ae-005e-4d9a-b459-3c6c0d649394.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48088,7 +48088,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600311500_c",
-            fileName: "667bc94c-62f9-4187-a382-d7e388839f27.jpg",
+
             url: "https://media.mapgenie.io/storage/media/667bc94c-62f9-4187-a382-d7e388839f27.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48119,7 +48119,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912022200_c",
-            fileName: "57c0d021-3091-4a8e-a48a-28217bf7d72b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/57c0d021-3091-4a8e-a48a-28217bf7d72b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48748,7 +48748,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "36ed7b53-a6a1-4403-9920-9e51c8627384.jpg",
+
             url: "https://media.mapgenie.io/storage/media/36ed7b53-a6a1-4403-9920-9e51c8627384.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48756,7 +48756,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Camera Work In The Depths Where To Find Robbie",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
             type: "ign_video",
             mimeType: "mp4",
@@ -48773,7 +48773,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3f46c61d-05dd-4a5e-82f5-8e675e4ceb75.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3f46c61d-05dd-4a5e-82f5-8e675e4ceb75.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48781,7 +48781,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough All Dragons Tears Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-all-dragons-tears-locations",
             type: "ign_video",
             mimeType: "mp4",
@@ -48798,7 +48798,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "64637f21-2a73-4159-b16b-2ba3d6e87c6b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/64637f21-2a73-4159-b16b-2ba3d6e87c6b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48806,7 +48806,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough All Dragons Tears Locations",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-all-dragons-tears-locations",
             type: "ign_video",
             mimeType: "mp4",
@@ -48823,14 +48823,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c3f11f71-47c7-45c1-b049-f8f882c44cb6.png",
+
             url: "https://media.mapgenie.io/storage/media/c3f11f71-47c7-45c1-b049-f8f882c44cb6.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "HOnHr3y8TNw",
+
             url: "https://youtu.be/HOnHr3y8TNw?t=349",
             type: "youtube",
             mimeType: "mp4",
@@ -48847,14 +48847,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4587e7d6-6ff8-4964-a869-25e8c8052ce5.png",
+
             url: "https://media.mapgenie.io/storage/media/4587e7d6-6ff8-4964-a869-25e8c8052ce5.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "HOnHr3y8TNw",
+
             url: "https://youtu.be/HOnHr3y8TNw?t=865",
             type: "youtube",
             mimeType: "mp4",
@@ -48871,7 +48871,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "de3b79a7-b80e-41f9-9f98-6e588b2cb265.png",
+
             url: "https://media.mapgenie.io/storage/media/de3b79a7-b80e-41f9-9f98-6e588b2cb265.png",
             type: "image",
             mimeType: "image/png",
@@ -48888,7 +48888,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b84a676e-3fab-405b-b4d5-9343b2a45cfe.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b84a676e-3fab-405b-b4d5-9343b2a45cfe.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48896,7 +48896,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough A Mystery In The Depths",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-a-mystery-in-the-depths",
             type: "ign_video",
             mimeType: "mp4",
@@ -48913,14 +48913,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e961da80-c5c5-4ee2-9dc6-b2441977b618.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e961da80-c5c5-4ee2-9dc6-b2441977b618.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "GpIFwo5Qj0U",
+
             url: "https://youtu.be/GpIFwo5Qj0U",
             type: "youtube",
             mimeType: "mp4",
@@ -48937,7 +48937,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "db998268-d0b3-4a55-9bc0-7119b54fd8cd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/db998268-d0b3-4a55-9bc0-7119b54fd8cd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48945,7 +48945,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough To The Kingdom Of Hyrule",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-to-the-kingdom-of-hyrule",
             type: "ign_video",
             mimeType: "mp4",
@@ -48962,14 +48962,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7803ebed-605d-4679-adca-1c85d825fdc9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7803ebed-605d-4679-adca-1c85d825fdc9.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "uJwA0CTOGmE",
+
             url: "https://youtu.be/uJwA0CTOGmE",
             type: "youtube",
             mimeType: "mp4",
@@ -48986,7 +48986,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a36d9b36-e5da-4a3d-8a44-eb5b05bfac58.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a36d9b36-e5da-4a3d-8a44-eb5b05bfac58.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -48994,7 +48994,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Find Princess Zelda",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-find-princess-zelda",
             type: "ign_video",
             mimeType: "mp4",
@@ -49011,7 +49011,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f2090184-aea6-466a-8895-0cc4a60cdfe4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f2090184-aea6-466a-8895-0cc4a60cdfe4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49019,7 +49019,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough The Closed Door",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-the-closed-door",
             type: "ign_video",
             mimeType: "mp4",
@@ -49036,7 +49036,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4fd77d87-688d-439b-acd0-a651e277f893.png",
+
             url: "https://media.mapgenie.io/storage/media/4fd77d87-688d-439b-acd0-a651e277f893.png",
             type: "image",
             mimeType: "image/png",
@@ -49053,14 +49053,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9933a034-7c84-4a29-a957-0ae558816e9c.png",
+
             url: "https://media.mapgenie.io/storage/media/9933a034-7c84-4a29-a957-0ae558816e9c.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "YbNWTYQB8PQ",
+
             url: "https://youtu.be/YbNWTYQB8PQ",
             type: "youtube",
             mimeType: "mp4",
@@ -49077,7 +49077,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9258bb08-5729-4232-b521-67dfbec9c805.png",
+
             url: "https://media.mapgenie.io/storage/media/9258bb08-5729-4232-b521-67dfbec9c805.png",
             type: "image",
             mimeType: "image/png",
@@ -49085,7 +49085,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Yunobo Of Goron City",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-yunobo-of-goron-city",
             type: "ign_video",
             mimeType: "mp4",
@@ -49102,14 +49102,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "512f01e8-fcd4-4b39-b1bc-07a7aaba9de8.png",
+
             url: "https://media.mapgenie.io/storage/media/512f01e8-fcd4-4b39-b1bc-07a7aaba9de8.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "HOnHr3y8TNw",
+
             url: "https://youtu.be/HOnHr3y8TNw?t=130",
             type: "youtube",
             mimeType: "mp4",
@@ -49126,14 +49126,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8b9df270-d54c-4f21-8b79-b584a3f6635a.png",
+
             url: "https://media.mapgenie.io/storage/media/8b9df270-d54c-4f21-8b79-b584a3f6635a.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "-quuqrJ6pdM",
+
             url: "https://youtu.be/-quuqrJ6pdM",
             type: "youtube",
             mimeType: "mp4",
@@ -49150,14 +49150,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e420ad2d-64cc-460f-b28d-3767f4bb2c62.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e420ad2d-64cc-460f-b28d-3767f4bb2c62.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "xwdv_8HLhBA",
+
             url: "https://youtu.be/xwdv_8HLhBA",
             type: "youtube",
             mimeType: "mp4",
@@ -49174,14 +49174,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "63e65583-7eb3-4377-8b58-b3b722b65a88.png",
+
             url: "https://media.mapgenie.io/storage/media/63e65583-7eb3-4377-8b58-b3b722b65a88.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "vdju7WE4em0",
+
             url: "https://youtu.be/vdju7WE4em0",
             type: "youtube",
             mimeType: "mp4",
@@ -49198,14 +49198,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c9d3c8c0-bf54-407b-b0ac-8033ff4da71d.png",
+
             url: "https://media.mapgenie.io/storage/media/c9d3c8c0-bf54-407b-b0ac-8033ff4da71d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "uCK1vxe5ImI",
+
             url: "https://youtu.be/uCK1vxe5ImI",
             type: "youtube",
             mimeType: "mp4",
@@ -49222,14 +49222,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "939acd28-738f-4c88-babf-7e8891a71e39.png",
+
             url: "https://media.mapgenie.io/storage/media/939acd28-738f-4c88-babf-7e8891a71e39.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "b7cDKmLj3Ww",
+
             url: "https://youtu.be/b7cDKmLj3Ww",
             type: "youtube",
             mimeType: "mp4",
@@ -49246,14 +49246,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f5dffd41-07e8-49f6-b029-92d2f6e77a0d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f5dffd41-07e8-49f6-b029-92d2f6e77a0d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "xwdv_8HLhBA",
+
             url: "https://youtu.be/xwdv_8HLhBA",
             type: "youtube",
             mimeType: "mp4",
@@ -49270,14 +49270,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4be791f4-ca99-4c18-b9ab-83d680d8ca78.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4be791f4-ca99-4c18-b9ab-83d680d8ca78.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "_OWbTdIPsZo",
+
             url: "https://youtu.be/_OWbTdIPsZo",
             type: "youtube",
             mimeType: "mp4",
@@ -49300,7 +49300,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923391300_c",
-            fileName: "2420f601-8ca2-4954-850e-b430297bf658.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2420f601-8ca2-4954-850e-b430297bf658.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49427,14 +49427,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050601443700_c",
-            fileName: "9ddcd43b-42c7-4bf5-bdbb-5f00418f859f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9ddcd43b-42c7-4bf5-bdbb-5f00418f859f.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "ab1b437c-2904-4e5d-bcfa-f0c85a0022a9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ab1b437c-2904-4e5d-bcfa-f0c85a0022a9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49451,14 +49451,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050820253900_c",
-            fileName: "728f56d4-b347-442a-8061-60fbc9b074ff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/728f56d4-b347-442a-8061-60fbc9b074ff.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "lhI7T_PJWus",
+
             url: "https://youtu.be/lhI7T_PJWus",
             type: "youtube",
             mimeType: "mp4",
@@ -49475,7 +49475,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f0a7b121-caea-40ea-bf0e-d2675dafe3f7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f0a7b121-caea-40ea-bf0e-d2675dafe3f7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49483,7 +49483,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Josiu Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-josiu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49500,14 +49500,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b9259af4-bfdf-48af-9912-e0b94d4eb749.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b9259af4-bfdf-48af-9912-e0b94d4eb749.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "XI8nTlex4so",
+
             url: "https://youtu.be/XI8nTlex4so",
             type: "youtube",
             mimeType: "mp4",
@@ -49524,14 +49524,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "afaca0ab-eeb3-49d2-a205-9b11e2a603ec.png",
+
             url: "https://media.mapgenie.io/storage/media/afaca0ab-eeb3-49d2-a205-9b11e2a603ec.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "sPewZMThbWk",
+
             url: "https://youtu.be/sPewZMThbWk",
             type: "youtube",
             mimeType: "mp4",
@@ -49548,7 +49548,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "186da0e7-77f5-4e7c-8d82-e7f88a9289c5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/186da0e7-77f5-4e7c-8d82-e7f88a9289c5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49556,14 +49556,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Momosik Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-momosik-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "7561e9da-43c9-4d1d-af1c-71d23fbabc51.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7561e9da-43c9-4d1d-af1c-71d23fbabc51.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49580,7 +49580,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "811f8b3d-6d72-4321-be14-9de81b71c0f6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/811f8b3d-6d72-4321-be14-9de81b71c0f6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49588,7 +49588,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jochi Ihiga Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jochi-ihiga-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49605,7 +49605,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fa4431ef-04eb-4d90-a6d7-ad4d10da39f7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fa4431ef-04eb-4d90-a6d7-ad4d10da39f7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49613,7 +49613,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ikatak Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ikatak-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49630,7 +49630,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b95457aa-a141-470f-83bc-034653dc4c51.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b95457aa-a141-470f-83bc-034653dc4c51.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49638,7 +49638,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Usazum Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-usazum-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49655,14 +49655,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68b092fe-373e-4612-a330-761c2d36caa5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/68b092fe-373e-4612-a330-761c2d36caa5.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "CKO-w5rok00",
+
             url: "https://youtu.be/CKO-w5rok00",
             type: "youtube",
             mimeType: "mp4",
@@ -49680,14 +49680,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Jinodok Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jinodok-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "29766247-5b5d-48fd-b571-f39c2a0b442b.png",
+
             url: "https://media.mapgenie.io/storage/media/29766247-5b5d-48fd-b571-f39c2a0b442b.png",
             type: "image",
             mimeType: "image/png",
@@ -49704,7 +49704,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "537e2c3e-3ebb-4a7f-8416-f6f0e13242f3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/537e2c3e-3ebb-4a7f-8416-f6f0e13242f3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49712,7 +49712,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Taninoud Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taninoud-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49729,14 +49729,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3cdba255-8fa4-4684-888b-80031c0b0e48.png",
+
             url: "https://media.mapgenie.io/storage/media/3cdba255-8fa4-4684-888b-80031c0b0e48.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "uTlgdFbJJmQ",
+
             url: "https://youtu.be/uTlgdFbJJmQ",
             type: "youtube",
             mimeType: "mp4",
@@ -49754,21 +49754,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Zakusu Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zakusu-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "96d8be09-f5df-4e34-a03f-456f15963153.jpg",
+
             url: "https://media.mapgenie.io/storage/media/96d8be09-f5df-4e34-a03f-456f15963153.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "f7fb2b03-f579-40c3-b210-dd0312022002.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f7fb2b03-f579-40c3-b210-dd0312022002.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49785,14 +49785,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4c304b82-d712-4e6c-9454-e16232a1094c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4c304b82-d712-4e6c-9454-e16232a1094c.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "e5e3f71b-09c7-4dbc-8635-5125f093540b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e5e3f71b-09c7-4dbc-8635-5125f093540b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49809,7 +49809,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5411543b-7b7a-4c9f-b8ed-3cfc95a6de6b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5411543b-7b7a-4c9f-b8ed-3cfc95a6de6b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49817,7 +49817,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Rutafu Um Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rutafu-um-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49834,21 +49834,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a0ee0148-cc0d-48ef-bfa8-6aaccfc6e6b3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a0ee0148-cc0d-48ef-bfa8-6aaccfc6e6b3.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "6ba4c688-ba58-443a-a331-29fdc4d4fb5d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6ba4c688-ba58-443a-a331-29fdc4d4fb5d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "Zelda Tears Of The Kingdom How To Tame The Giant Horse",
-            fileName: "",
+
             url: "https://www.ign.com/videos/zelda-tears-of-the-kingdom-how-to-tame-the-giant-horse",
             type: "ign_video",
             mimeType: "mp4",
@@ -49865,14 +49865,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e8d7d6ad-8443-4174-8914-4587e2e1edb2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e8d7d6ad-8443-4174-8914-4587e2e1edb2.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "Ae4s_RS03LY",
+
             url: "https://youtu.be/Ae4s_RS03LY",
             type: "youtube",
             mimeType: "mp4",
@@ -49889,14 +49889,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d18868d7-dfa4-4070-9289-968ca8b40e9d.png",
+
             url: "https://media.mapgenie.io/storage/media/d18868d7-dfa4-4070-9289-968ca8b40e9d.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "vT5oImFvcnw",
+
             url: "https://youtu.be/vT5oImFvcnw",
             type: "youtube",
             mimeType: "mp4",
@@ -49913,7 +49913,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "kab_-F9WW2Y",
+
             url: "https://youtu.be/kab_-F9WW2Y",
             type: "youtube",
             mimeType: "mp4",
@@ -49930,7 +49930,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bd843c6-83b6-4582-a576-754a140f6146.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1bd843c6-83b6-4582-a576-754a140f6146.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -49938,7 +49938,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Wao Os Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-wao-os-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -49955,14 +49955,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "660cf1a3-ff86-48cc-9290-fc24f8cc0492.jpg",
+
             url: "https://media.mapgenie.io/storage/media/660cf1a3-ff86-48cc-9290-fc24f8cc0492.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "YX4Tff8D26U",
+
             url: "https://youtu.be/YX4Tff8D26U",
             type: "youtube",
             mimeType: "mp4",
@@ -49980,14 +49980,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Pupunke Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pupunke-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
           },
           {
             title: "",
-            fileName: "bed061a8-ffdd-4532-aae1-2c3baceb6c41.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bed061a8-ffdd-4532-aae1-2c3baceb6c41.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50004,7 +50004,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1bd6003e-7e97-4b95-8114-c51dfa8162bc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1bd6003e-7e97-4b95-8114-c51dfa8162bc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50012,7 +50012,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Sakunbomar Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sakunbomar-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50029,7 +50029,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "722e5c05-17c0-4b18-be17-ef25a8158f75.png",
+
             url: "https://media.mapgenie.io/storage/media/722e5c05-17c0-4b18-be17-ef25a8158f75.png",
             type: "image",
             mimeType: "image/png",
@@ -50037,7 +50037,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ninjis Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ninjis-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50054,7 +50054,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "69c7adc6-50de-448a-8501-446ca4200705.jpg",
+
             url: "https://media.mapgenie.io/storage/media/69c7adc6-50de-448a-8501-446ca4200705.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50062,7 +50062,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gikaku Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gikaku-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50079,7 +50079,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "af5b9269-af54-4cdf-bfcb-7429f3e74e47.jpg",
+
             url: "https://media.mapgenie.io/storage/media/af5b9269-af54-4cdf-bfcb-7429f3e74e47.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50096,14 +50096,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "366db0da-7d09-420c-9f6d-a0503a2a89a5.png",
+
             url: "https://media.mapgenie.io/storage/media/366db0da-7d09-420c-9f6d-a0503a2a89a5.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "009b2123-6b9e-40a1-9537-03741d13f7f9.png",
+
             url: "https://media.mapgenie.io/storage/media/009b2123-6b9e-40a1-9537-03741d13f7f9.png",
             type: "image",
             mimeType: "image/png",
@@ -50111,7 +50111,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ganos Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ganos-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50128,21 +50128,21 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "99ac652e-c37b-41a0-8bdb-42fb61e29705.png",
+
             url: "https://media.mapgenie.io/storage/media/99ac652e-c37b-41a0-8bdb-42fb61e29705.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "ca241288-8b05-4949-80b0-ce5dad262141.png",
+
             url: "https://media.mapgenie.io/storage/media/ca241288-8b05-4949-80b0-ce5dad262141.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "",
-            fileName: "PzCKGOezOjo",
+
             url: "https://youtu.be/PzCKGOezOjo",
             type: "youtube",
             mimeType: "mp4",
@@ -50159,7 +50159,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cd26415c-0f9b-4a6a-9867-0d462ae969d5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cd26415c-0f9b-4a6a-9867-0d462ae969d5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50167,7 +50167,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ukoojisi Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukoojisi-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50184,7 +50184,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d56f9918-e25c-4636-935d-086a81535616.png",
+
             url: "https://media.mapgenie.io/storage/media/d56f9918-e25c-4636-935d-086a81535616.png",
             type: "image",
             mimeType: "image/png",
@@ -50192,7 +50192,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Kumamayn Shrine Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kumamayn-shrine-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50215,7 +50215,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1e2890f7-bb58-4a80-b9fa-f619e9a4a49e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1e2890f7-bb58-4a80-b9fa-f619e9a4a49e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50223,7 +50223,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Where To Find Hestu And Expand Your Inventory With Korok Seeds",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-hestu-and-expand-your-inventory-with-korok-seeds",
             type: "ign_video",
             mimeType: "mp4",
@@ -50240,7 +50240,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "afaa9b51-7fce-4439-a4c6-0f6afbf7cc8e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/afaa9b51-7fce-4439-a4c6-0f6afbf7cc8e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50248,7 +50248,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Messages From An Ancient Era Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-messages-from-an-ancient-era-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50265,7 +50265,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7d2a55ae-7f5f-44c6-82e3-1718fc6e8c83.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7d2a55ae-7f5f-44c6-82e3-1718fc6e8c83.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50273,7 +50273,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Potential Princess Sightings Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50290,14 +50290,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "504148ee-a5ac-44bb-83c7-d9e5c59b77d4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/504148ee-a5ac-44bb-83c7-d9e5c59b77d4.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "EPSQOwLxXNM",
+
             url: "https://youtu.be/EPSQOwLxXNM?list=PLqBTiHv6qMa65GVKzrDzVQ3QvY_J5Lc-9",
             type: "youtube",
             mimeType: "mp4",
@@ -50314,7 +50314,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50322,7 +50322,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Hunt For Bubbul Gems Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50339,7 +50339,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ec53837e-8875-4699-b59f-f003a3e0cfb0.png",
+
             url: "https://media.mapgenie.io/storage/media/ec53837e-8875-4699-b59f-f003a3e0cfb0.png",
             type: "image",
             mimeType: "image/png",
@@ -50347,7 +50347,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ruffian Infested Village Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ruffian-infested-village-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50364,14 +50364,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1f7b2c02-1d8b-4bed-88ee-4dbf96ecc045.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1f7b2c02-1d8b-4bed-88ee-4dbf96ecc045.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "sDGrPNKhWdo",
+
             url: "https://youtu.be/sDGrPNKhWdo",
             type: "youtube",
             mimeType: "mp4",
@@ -50388,7 +50388,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5403a803-9a8c-4134-85da-139aba27b72c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5403a803-9a8c-4134-85da-139aba27b72c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50396,7 +50396,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Infiltrating The Yiga Clan Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-infiltrating-the-yiga-clan-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50413,7 +50413,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "49225172-ac30-4f4d-9b2a-e134eefa2761.jpg",
+
             url: "https://media.mapgenie.io/storage/media/49225172-ac30-4f4d-9b2a-e134eefa2761.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50421,7 +50421,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Honey Bee Mine Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-honey-bee-mine-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50438,7 +50438,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "652a43a9-9335-4d06-ac12-b19aed0fca78.png",
+
             url: "https://media.mapgenie.io/storage/media/652a43a9-9335-4d06-ac12-b19aed0fca78.png",
             type: "image",
             mimeType: "image/png",
@@ -50446,7 +50446,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Team Cece Or Team Reede Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-team-cece-or-team-reede-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50463,7 +50463,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5dc6c3d1-61bf-44e4-a142-30001a3c4521.png",
+
             url: "https://media.mapgenie.io/storage/media/5dc6c3d1-61bf-44e4-a142-30001a3c4521.png",
             type: "image",
             mimeType: "image/png",
@@ -50471,7 +50471,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ceces Secret Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ceces-secret-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50488,7 +50488,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "328cc321-b0ec-4d5e-a825-cf9755471644.png",
+
             url: "https://media.mapgenie.io/storage/media/328cc321-b0ec-4d5e-a825-cf9755471644.png",
             type: "image",
             mimeType: "image/png",
@@ -50496,7 +50496,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Reedes Secret Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-reedes-secret-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50513,7 +50513,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "874b48f5-9b56-4e67-a7b6-c3b4126360f2.png",
+
             url: "https://media.mapgenie.io/storage/media/874b48f5-9b56-4e67-a7b6-c3b4126360f2.png",
             type: "image",
             mimeType: "image/png",
@@ -50521,7 +50521,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A New Signature Food Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-new-signature-food-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50538,7 +50538,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ca2ff8dd-f725-4ba4-b99b-4e8326e0d9d4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ca2ff8dd-f725-4ba4-b99b-4e8326e0d9d4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50546,7 +50546,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Serenade To A Great Fairy Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-serenade-to-a-great-fairy-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50563,14 +50563,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "835718b3-a651-4aef-bab2-b90ef11393ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/835718b3-a651-4aef-bab2-b90ef11393ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "JyNAErN2bso",
+
             url: "https://youtu.be/JyNAErN2bso",
             type: "youtube",
             mimeType: "mp4",
@@ -50587,14 +50587,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "de91670b-a0ab-46a2-b19e-2fb7af3de388.jpg",
+
             url: "https://media.mapgenie.io/storage/media/de91670b-a0ab-46a2-b19e-2fb7af3de388.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "nZs4v7_ljkY",
+
             url: "https://youtu.be/nZs4v7_ljkY",
             type: "youtube",
             mimeType: "mp4",
@@ -50611,7 +50611,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5b27ec10-82df-4197-bf56-339bb0985e55.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5b27ec10-82df-4197-bf56-339bb0985e55.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50619,7 +50619,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Beast And The Princess Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-beast-and-the-princess-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50636,7 +50636,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "87ab8265-523a-4ac0-adf1-22fa6f1e8db9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/87ab8265-523a-4ac0-adf1-22fa6f1e8db9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50644,7 +50644,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom White Goats Gone Missing Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-white-goats-gone-missing-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50661,14 +50661,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "88f886f6-b9b9-4850-bf80-874822650845.jpg",
+
             url: "https://media.mapgenie.io/storage/media/88f886f6-b9b9-4850-bf80-874822650845.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "AzIeOJI93vA",
+
             url: "https://youtu.be/AzIeOJI93vA",
             type: "youtube",
             mimeType: "mp4",
@@ -50685,14 +50685,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f6c40644-5f1c-43d0-92a2-56e5c9c8cd84.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f6c40644-5f1c-43d0-92a2-56e5c9c8cd84.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "J1aAMAQwIjc",
+
             url: "https://youtu.be/J1aAMAQwIjc",
             type: "youtube",
             mimeType: "mp4",
@@ -50709,14 +50709,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "27762d0a-0982-4dff-9aca-5221ba4e31c0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/27762d0a-0982-4dff-9aca-5221ba4e31c0.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "nBtyK9DZdeE",
+
             url: "https://youtu.be/nBtyK9DZdeE?list=PLqBTiHv6qMa65GVKzrDzVQ3QvY_J5Lc-9",
             type: "youtube",
             mimeType: "mp4",
@@ -50733,14 +50733,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17c37dee-f0f9-461b-801e-e5e362d9ec65.jpg",
+
             url: "https://media.mapgenie.io/storage/media/17c37dee-f0f9-461b-801e-e5e362d9ec65.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "OcePfPkER_Q",
+
             url: "https://youtu.be/OcePfPkER_Q",
             type: "youtube",
             mimeType: "mp4",
@@ -50757,14 +50757,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8622f6dc-f623-445d-b861-6ac57dfba005.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8622f6dc-f623-445d-b861-6ac57dfba005.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "CjV93aZRBE8",
+
             url: "https://youtu.be/CjV93aZRBE8?list=PLqBTiHv6qMa65GVKzrDzVQ3QvY_J5Lc-9",
             type: "youtube",
             mimeType: "mp4",
@@ -50781,7 +50781,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4f0b8b95-43ab-4af1-b9be-d1dfd4c5169c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4f0b8b95-43ab-4af1-b9be-d1dfd4c5169c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50789,7 +50789,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mattisons Independence Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mattisons-independence-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50806,7 +50806,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3abe0007-fdb3-4a78-a214-64623c47ced9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3abe0007-fdb3-4a78-a214-64623c47ced9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50814,7 +50814,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Beckoning Woman Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-beckoning-woman-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50831,7 +50831,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "52b23bd1-3a5f-46f3-ac3a-86ff7ec01a38.jpg",
+
             url: "https://media.mapgenie.io/storage/media/52b23bd1-3a5f-46f3-ac3a-86ff7ec01a38.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50839,7 +50839,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The All Clucking Cucco Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-all-clucking-cucco-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50856,7 +50856,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "487d4592-a964-45f0-8bd7-7be878d83520.jpg",
+
             url: "https://media.mapgenie.io/storage/media/487d4592-a964-45f0-8bd7-7be878d83520.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50864,7 +50864,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom For Our Princess Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-for-our-princess-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50881,7 +50881,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4ae8587e-f297-4c4e-9013-2b677ed88a99.png",
+
             url: "https://media.mapgenie.io/storage/media/4ae8587e-f297-4c4e-9013-2b677ed88a99.png",
             type: "image",
             mimeType: "image/png",
@@ -50889,7 +50889,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Necluda Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-necluda-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50906,7 +50906,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "114f1368-d513-455c-91e0-d11d79e695e0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/114f1368-d513-455c-91e0-d11d79e695e0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50914,7 +50914,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Master Kohga Of The Yiga Clan Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-of-the-yiga-clan-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50931,7 +50931,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dd460f1b-23c1-4359-b259-7b35a1953eb0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dd460f1b-23c1-4359-b259-7b35a1953eb0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50948,7 +50948,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0ba72e45-0c2a-4487-9fd7-ac240f2116d2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0ba72e45-0c2a-4487-9fd7-ac240f2116d2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -50956,7 +50956,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gourmets Gone Missing Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gourmets-gone-missing-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -50973,7 +50973,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "60003ff0-86af-4db4-a2d0-6f356f152b1c.png",
+
             url: "https://media.mapgenie.io/storage/media/60003ff0-86af-4db4-a2d0-6f356f152b1c.png",
             type: "image",
             mimeType: "image/png",
@@ -50981,7 +50981,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Missing Farm Tools Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-missing-farm-tools-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -50998,7 +50998,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "866777a6-d541-4d8d-b093-c626954383e3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/866777a6-d541-4d8d-b093-c626954383e3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51006,7 +51006,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Deal With The Statue Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-deal-with-the-statue-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51023,7 +51023,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a97c6822-54cc-48f1-9180-60fea4323653.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a97c6822-54cc-48f1-9180-60fea4323653.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51031,7 +51031,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Who Goes There Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-who-goes-there-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51048,7 +51048,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9ad35df0-fcbb-4f65-b2e7-7ad7a7702ffb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9ad35df0-fcbb-4f65-b2e7-7ad7a7702ffb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51056,7 +51056,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Owl Protected By Dragons Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-owl-protected-by-dragons-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -51073,7 +51073,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "96e7b735-1974-49c8-9ea1-55bff5abcbce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/96e7b735-1974-49c8-9ea1-55bff5abcbce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51081,7 +51081,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Investigate The Thyphlo Ruins Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-investigate-the-thyphlo-ruins-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51098,7 +51098,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "dbd511e8-604c-461c-931f-302371f8cb45.png",
+
             url: "https://media.mapgenie.io/storage/media/dbd511e8-604c-461c-931f-302371f8cb45.png",
             type: "image",
             mimeType: "image/png",
@@ -51106,7 +51106,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Princess Zelda Kidnapped Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-princess-zelda-kidnapped-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51123,7 +51123,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f006fb2a-aa67-4956-ac06-8d475cb10e70.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f006fb2a-aa67-4956-ac06-8d475cb10e70.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51131,7 +51131,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Legend Of The Great Sky Island Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-legend-of-the-great-sky-island-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51148,7 +51148,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "209f7aec-68bb-4b2b-8c99-8a7b53e0c4ff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/209f7aec-68bb-4b2b-8c99-8a7b53e0c4ff.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51156,7 +51156,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough The Travel Medallion",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-the-travel-medallion",
             type: "ign_video",
             mimeType: "mp4",
@@ -51173,7 +51173,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b9c2977-c0f5-4fe0-8ea5-59cc6feb5c95.png",
+
             url: "https://media.mapgenie.io/storage/media/0b9c2977-c0f5-4fe0-8ea5-59cc6feb5c95.png",
             type: "image",
             mimeType: "image/png",
@@ -51181,7 +51181,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Letter To Koyin Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-letter-to-koyin-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51198,7 +51198,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "68984ced-8013-4f90-87df-327f9d2c805b.png",
+
             url: "https://media.mapgenie.io/storage/media/68984ced-8013-4f90-87df-327f9d2c805b.png",
             type: "image",
             mimeType: "image/png",
@@ -51206,7 +51206,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Lurelin Village Restoration Project Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lurelin-village-restoration-project-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51223,7 +51223,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c7d0d874-8ac3-473e-a4b7-75e576eecb8d.png",
+
             url: "https://media.mapgenie.io/storage/media/c7d0d874-8ac3-473e-a4b7-75e576eecb8d.png",
             type: "image",
             mimeType: "image/png",
@@ -51231,7 +51231,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Blocked Well Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-blocked-well-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51248,7 +51248,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cb5952a0-5ee3-4bea-b5dd-08c28129f45d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cb5952a0-5ee3-4bea-b5dd-08c28129f45d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51256,7 +51256,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Hateno Village Research Lab",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-hateno-village-research-lab",
             type: "ign_video",
             mimeType: "mp4",
@@ -51273,7 +51273,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "afeebf04-e558-4665-a7de-f799951b2930.jpg",
+
             url: "https://media.mapgenie.io/storage/media/afeebf04-e558-4665-a7de-f799951b2930.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51281,7 +51281,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Faron Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-faron-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51298,7 +51298,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "43383e6b-60a4-4ead-a4a3-e6dc5d75787f.png",
+
             url: "https://media.mapgenie.io/storage/media/43383e6b-60a4-4ead-a4a3-e6dc5d75787f.png",
             type: "image",
             mimeType: "image/png",
@@ -51306,7 +51306,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Akkala Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-akkala-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51323,7 +51323,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3d2e51dc-10e4-40c5-aa89-b6adb2c51b32.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3d2e51dc-10e4-40c5-aa89-b6adb2c51b32.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51331,7 +51331,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Heros Path Mode",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-heros-path-mode",
             type: "ign_video",
             mimeType: "mp4",
@@ -51348,7 +51348,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aba18484-ce10-49df-b270-8456041fd34d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aba18484-ce10-49df-b270-8456041fd34d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51356,7 +51356,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Gameplay Walkthrough Sensor",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-sensor",
             type: "ign_video",
             mimeType: "mp4",
@@ -51373,7 +51373,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "81f22cff-4812-4306-8a35-c6983e652b12.jpg",
+
             url: "https://media.mapgenie.io/storage/media/81f22cff-4812-4306-8a35-c6983e652b12.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51381,7 +51381,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Filling Out The Compendium Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-filling-out-the-compendium-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51398,7 +51398,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f8290751-8cb8-4f4d-b846-88b491424c45.png",
+
             url: "https://media.mapgenie.io/storage/media/f8290751-8cb8-4f4d-b846-88b491424c45.png",
             type: "image",
             mimeType: "image/png",
@@ -51406,7 +51406,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Yiga Clan Exam Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-yiga-clan-exam-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51424,7 +51424,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Mayoral Election Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-mayoral-election-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51441,7 +51441,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "be1acd25-01bb-466b-acad-6e82983f463e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/be1acd25-01bb-466b-acad-6e82983f463e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51449,7 +51449,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection I Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-i-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51466,7 +51466,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "32fd8bde-b486-4f7a-ac1f-242a60eda805.jpg",
+
             url: "https://media.mapgenie.io/storage/media/32fd8bde-b486-4f7a-ac1f-242a60eda805.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51474,7 +51474,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection Ii Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-ii-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51491,7 +51491,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ecf5523e-01da-4cbe-aca5-d3a04a85883b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ecf5523e-01da-4cbe-aca5-d3a04a85883b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51499,7 +51499,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection Iii Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-iii-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51516,7 +51516,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3c4fc2de-8526-44e1-835f-99af3f47f7e8.png",
+
             url: "https://media.mapgenie.io/storage/media/3c4fc2de-8526-44e1-835f-99af3f47f7e8.png",
             type: "image",
             mimeType: "image/png",
@@ -51524,7 +51524,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Hebra Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-hebra-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51541,7 +51541,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "73b95abe-3ec2-4fc8-8fea-18fff7474e38.jpg",
+
             url: "https://media.mapgenie.io/storage/media/73b95abe-3ec2-4fc8-8fea-18fff7474e38.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51549,7 +51549,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection Iv Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-iv-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51566,7 +51566,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6813bb61-8e72-48fb-b192-c408ea1549a7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6813bb61-8e72-48fb-b192-c408ea1549a7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51574,7 +51574,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom A Monstrous Collection V Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-v-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51591,7 +51591,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7e54aec1-15fa-4af6-affa-e11883b4007a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7e54aec1-15fa-4af6-affa-e11883b4007a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51599,7 +51599,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Long Dragon Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-long-dragon-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51616,7 +51616,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a566e2ab-1378-4e32-b1d4-38516f4c7261.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a566e2ab-1378-4e32-b1d4-38516f4c7261.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51624,7 +51624,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Six Dragons Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-six-dragons-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51641,7 +51641,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3658e6a-50d2-429e-ac5c-e5ba1f608393.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e3658e6a-50d2-429e-ac5c-e5ba1f608393.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51649,7 +51649,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Corridor Between Two Dragons Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-corridor-between-two-dragons-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -51666,7 +51666,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bdbb6b31-fe11-4046-8771-6321086eb054.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bdbb6b31-fe11-4046-8771-6321086eb054.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51674,7 +51674,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Bring Peace To Eldin Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-eldin-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -51697,7 +51697,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d0377bfa-97d0-4d15-8200-77aa8c072b3e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d0377bfa-97d0-4d15-8200-77aa8c072b3e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51714,7 +51714,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7bab5f83-46ce-4ddf-83fd-91b1ebf52016.png",
+
             url: "https://media.mapgenie.io/storage/media/7bab5f83-46ce-4ddf-83fd-91b1ebf52016.png",
             type: "image",
             mimeType: "image/png",
@@ -51731,7 +51731,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000411800_c",
-            fileName: "0f4bd158-0687-4be1-88f1-18b998363135.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0f4bd158-0687-4be1-88f1-18b998363135.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51748,7 +51748,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9ca563cb-50ed-4ffd-8459-81706e97417d.png",
+
             url: "https://media.mapgenie.io/storage/media/9ca563cb-50ed-4ffd-8459-81706e97417d.png",
             type: "image",
             mimeType: "image/png",
@@ -51765,14 +51765,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "89f94b3a-2598-4b07-b3d2-627d3282e1d7.png",
+
             url: "https://media.mapgenie.io/storage/media/89f94b3a-2598-4b07-b3d2-627d3282e1d7.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023043023163400_c",
-            fileName: "2c88659f-276b-4b9c-b213-5418a7162ed9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2c88659f-276b-4b9c-b213-5418a7162ed9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51789,7 +51789,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0fc8e54c-2500-46d2-a863-e0c247fae8d0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0fc8e54c-2500-46d2-a863-e0c247fae8d0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51806,7 +51806,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e03610ae-3532-497e-a191-8fed5d267a94.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e03610ae-3532-497e-a191-8fed5d267a94.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51823,14 +51823,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7fd794fe-9005-45bd-95ef-22962cb73535.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7fd794fe-9005-45bd-95ef-22962cb73535.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050313433300_c",
-            fileName: "a1036f3b-2237-4fcd-a9ea-5841ada434d0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a1036f3b-2237-4fcd-a9ea-5841ada434d0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51847,7 +51847,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0bf8a620-9be5-4623-9308-79545d05548e.png",
+
             url: "https://media.mapgenie.io/storage/media/0bf8a620-9be5-4623-9308-79545d05548e.png",
             type: "image",
             mimeType: "image/png",
@@ -51864,7 +51864,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c953b362-56c8-45b4-9e8b-25c8bc4b423a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c953b362-56c8-45b4-9e8b-25c8bc4b423a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51881,7 +51881,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "87dc180b-adbd-40f3-bb9d-eaa6271ae78f.png",
+
             url: "https://media.mapgenie.io/storage/media/87dc180b-adbd-40f3-bb9d-eaa6271ae78f.png",
             type: "image",
             mimeType: "image/png",
@@ -51898,7 +51898,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "66af7afe-ff1d-4007-a918-a8d27fa32aa7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/66af7afe-ff1d-4007-a918-a8d27fa32aa7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51915,7 +51915,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e1fc678e-8c5e-4dfa-9631-2bc5ed694e7a.png",
+
             url: "https://media.mapgenie.io/storage/media/e1fc678e-8c5e-4dfa-9631-2bc5ed694e7a.png",
             type: "image",
             mimeType: "image/png",
@@ -51932,14 +51932,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913383200_c",
-            fileName: "9b836f03-97c6-4ea2-bdea-1caaa6e38294.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9b836f03-97c6-4ea2-bdea-1caaa6e38294.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "5d417096-a6eb-4bce-80c5-4f781513c6c7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5d417096-a6eb-4bce-80c5-4f781513c6c7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51956,7 +51956,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "89240ea0-a7a5-4de1-8b78-15ae39566d61.jpg",
+
             url: "https://media.mapgenie.io/storage/media/89240ea0-a7a5-4de1-8b78-15ae39566d61.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51973,7 +51973,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c467d887-330c-4cfc-870a-dd9209450369.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c467d887-330c-4cfc-870a-dd9209450369.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -51990,14 +51990,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "72232b04-de86-4fdc-b96a-d13b409ab83d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/72232b04-de86-4fdc-b96a-d13b409ab83d.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050913590400_c",
-            fileName: "19503cc4-2c8e-404f-bb43-4ce38be3cce6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/19503cc4-2c8e-404f-bb43-4ce38be3cce6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52014,7 +52014,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "25d8867a-2022-435d-b416-7673a53e6404.jpg",
+
             url: "https://media.mapgenie.io/storage/media/25d8867a-2022-435d-b416-7673a53e6404.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52031,14 +52031,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "78dd8607-ba3e-47cb-b6db-184799382f1e.png",
+
             url: "https://media.mapgenie.io/storage/media/78dd8607-ba3e-47cb-b6db-184799382f1e.png",
             type: "image",
             mimeType: "image/png",
           },
           {
             title: "2023050923313300_c",
-            fileName: "aa8c323b-1944-4d89-882d-9e1d72beb4c3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/aa8c323b-1944-4d89-882d-9e1d72beb4c3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52055,7 +52055,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "191bea98-aa87-4f2f-837b-8cfa8aa38819.png",
+
             url: "https://media.mapgenie.io/storage/media/191bea98-aa87-4f2f-837b-8cfa8aa38819.png",
             type: "image",
             mimeType: "image/png",
@@ -52072,7 +52072,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f09f1109-7185-4ea5-91aa-82b2c596ff8b.png",
+
             url: "https://media.mapgenie.io/storage/media/f09f1109-7185-4ea5-91aa-82b2c596ff8b.png",
             type: "image",
             mimeType: "image/png",
@@ -52089,7 +52089,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "573e25fd-6dc8-475d-8bcc-2255d181d54b.png",
+
             url: "https://media.mapgenie.io/storage/media/573e25fd-6dc8-475d-8bcc-2255d181d54b.png",
             type: "image",
             mimeType: "image/png",
@@ -52106,7 +52106,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4d096fb3-19f9-48a8-9af2-cd163a3b25ef.png",
+
             url: "https://media.mapgenie.io/storage/media/4d096fb3-19f9-48a8-9af2-cd163a3b25ef.png",
             type: "image",
             mimeType: "image/png",
@@ -52123,7 +52123,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3099b983-49a1-4600-83e9-ec4af5745589.png",
+
             url: "https://media.mapgenie.io/storage/media/3099b983-49a1-4600-83e9-ec4af5745589.png",
             type: "image",
             mimeType: "image/png",
@@ -52140,7 +52140,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4557e430-8f63-4e71-8274-2210c8c26749.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4557e430-8f63-4e71-8274-2210c8c26749.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52157,7 +52157,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8ee98469-6136-4a11-a2e0-dbae7d752e7b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8ee98469-6136-4a11-a2e0-dbae7d752e7b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52174,7 +52174,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "08b79cb9-55ca-4418-8300-e218fa31d613.png",
+
             url: "https://media.mapgenie.io/storage/media/08b79cb9-55ca-4418-8300-e218fa31d613.png",
             type: "image",
             mimeType: "image/png",
@@ -52191,7 +52191,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7486e410-a7da-4698-8599-d194cc20c3f3.png",
+
             url: "https://media.mapgenie.io/storage/media/7486e410-a7da-4698-8599-d194cc20c3f3.png",
             type: "image",
             mimeType: "image/png",
@@ -52208,7 +52208,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c997a049-bfa5-4938-bd4f-f9300097234d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c997a049-bfa5-4938-bd4f-f9300097234d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52225,7 +52225,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9052b3cc-5ba1-473c-b3cf-0840bedd88e7.png",
+
             url: "https://media.mapgenie.io/storage/media/9052b3cc-5ba1-473c-b3cf-0840bedd88e7.png",
             type: "image",
             mimeType: "image/png",
@@ -52242,7 +52242,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2967e25f-2ee3-45d1-bb84-da903231e582.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2967e25f-2ee3-45d1-bb84-da903231e582.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52259,7 +52259,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ef98c8cb-42d0-4401-aeaf-e538ceddb1ad.png",
+
             url: "https://media.mapgenie.io/storage/media/ef98c8cb-42d0-4401-aeaf-e538ceddb1ad.png",
             type: "image",
             mimeType: "image/png",
@@ -52276,7 +52276,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d5f1980f-f72c-49fc-b299-229cc369d7bd.png",
+
             url: "https://media.mapgenie.io/storage/media/d5f1980f-f72c-49fc-b299-229cc369d7bd.png",
             type: "image",
             mimeType: "image/png",
@@ -52301,7 +52301,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bb2eaaea-974f-45e3-883f-17e9601048ab.png",
+
             url: "https://media.mapgenie.io/storage/media/bb2eaaea-974f-45e3-883f-17e9601048ab.png",
             type: "image",
             mimeType: "image/png",
@@ -52318,7 +52318,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "65b8bc95-66ef-4698-bd06-cc88622954d4.png",
+
             url: "https://media.mapgenie.io/storage/media/65b8bc95-66ef-4698-bd06-cc88622954d4.png",
             type: "image",
             mimeType: "image/png",
@@ -52335,7 +52335,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ac4590fc-ff31-4641-b966-f2fa4f45544e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ac4590fc-ff31-4641-b966-f2fa4f45544e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52352,7 +52352,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a9a05c32-9847-4f4d-ad9f-e0a70781f49f.png",
+
             url: "https://media.mapgenie.io/storage/media/a9a05c32-9847-4f4d-ad9f-e0a70781f49f.png",
             type: "image",
             mimeType: "image/png",
@@ -52369,7 +52369,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "213d4ddf-186f-4ee0-842e-542049c17830.jpg",
+
             url: "https://media.mapgenie.io/storage/media/213d4ddf-186f-4ee0-842e-542049c17830.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52386,7 +52386,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bceeea1c-1cfd-4761-bea1-05b1a1ba35f5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bceeea1c-1cfd-4761-bea1-05b1a1ba35f5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52403,7 +52403,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b82ccac3-54f1-4a14-b9b3-bfd8d9d85408.png",
+
             url: "https://media.mapgenie.io/storage/media/b82ccac3-54f1-4a14-b9b3-bfd8d9d85408.png",
             type: "image",
             mimeType: "image/png",
@@ -52420,7 +52420,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fd1101fc-70d5-48e9-9be7-004e54622c6b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fd1101fc-70d5-48e9-9be7-004e54622c6b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52437,7 +52437,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4b96119c-e3c6-42e9-94c5-50666c89555a.png",
+
             url: "https://media.mapgenie.io/storage/media/4b96119c-e3c6-42e9-94c5-50666c89555a.png",
             type: "image",
             mimeType: "image/png",
@@ -52454,14 +52454,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eb520fd5-039d-416d-b193-9b704528ecae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eb520fd5-039d-416d-b193-9b704528ecae.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "",
-            fileName: "7ffea1bb-7826-4214-8de9-ba0ce79d921d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7ffea1bb-7826-4214-8de9-ba0ce79d921d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52478,7 +52478,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7ab34d34-aba4-4e8c-a5ba-eaa99cf79fbb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7ab34d34-aba4-4e8c-a5ba-eaa99cf79fbb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52486,7 +52486,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "How To Get The Fierce Deity Armor In Zelda Tears Of The Kingdom",
-            fileName: "",
+
             url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
             type: "ign_video",
             mimeType: "mp4",
@@ -52503,7 +52503,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5053a41d-1bec-47f2-88e7-4f451e772820.png",
+
             url: "https://media.mapgenie.io/storage/media/5053a41d-1bec-47f2-88e7-4f451e772820.png",
             type: "image",
             mimeType: "image/png",
@@ -52520,7 +52520,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3a826928-2249-4b0a-a2b4-95855efe6da2.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3a826928-2249-4b0a-a2b4-95855efe6da2.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52537,7 +52537,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "43a9a263-a6a8-41aa-b5d3-3d9d0c911f81.png",
+
             url: "https://media.mapgenie.io/storage/media/43a9a263-a6a8-41aa-b5d3-3d9d0c911f81.png",
             type: "image",
             mimeType: "image/png",
@@ -52554,7 +52554,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a6d3617f-cd6a-4579-874d-ea4207bcddd4.png",
+
             url: "https://media.mapgenie.io/storage/media/a6d3617f-cd6a-4579-874d-ea4207bcddd4.png",
             type: "image",
             mimeType: "image/png",
@@ -52571,7 +52571,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "cff64082-2e2f-4a53-96b0-5b430ce69f7b.png",
+
             url: "https://media.mapgenie.io/storage/media/cff64082-2e2f-4a53-96b0-5b430ce69f7b.png",
             type: "image",
             mimeType: "image/png",
@@ -52588,7 +52588,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8d0c43d3-cb82-48f7-83b9-c46ef47951c1.png",
+
             url: "https://media.mapgenie.io/storage/media/8d0c43d3-cb82-48f7-83b9-c46ef47951c1.png",
             type: "image",
             mimeType: "image/png",
@@ -52605,7 +52605,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e6bbb9ef-bb9e-442f-ada7-7d47b495d1ce.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e6bbb9ef-bb9e-442f-ada7-7d47b495d1ce.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52622,7 +52622,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e8cd1e1b-3237-4f8e-8ebd-b4babfa7d7b6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e8cd1e1b-3237-4f8e-8ebd-b4babfa7d7b6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52639,7 +52639,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "89061841-9db5-45a5-8086-d03fc347b885.png",
+
             url: "https://media.mapgenie.io/storage/media/89061841-9db5-45a5-8086-d03fc347b885.png",
             type: "image",
             mimeType: "image/png",
@@ -52656,7 +52656,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "91e89187-1691-4595-a896-a4b62f10ce52.jpg",
+
             url: "https://media.mapgenie.io/storage/media/91e89187-1691-4595-a896-a4b62f10ce52.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52674,7 +52674,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -52691,7 +52691,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bf4ff953-df30-49b0-a4a9-e3fc72d64469.png",
+
             url: "https://media.mapgenie.io/storage/media/bf4ff953-df30-49b0-a4a9-e3fc72d64469.png",
             type: "image",
             mimeType: "image/png",
@@ -52699,7 +52699,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -52716,7 +52716,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "87d744b4-49d8-4e28-a2fe-ab777c287592.png",
+
             url: "https://media.mapgenie.io/storage/media/87d744b4-49d8-4e28-a2fe-ab777c287592.png",
             type: "image",
             mimeType: "image/png",
@@ -52733,7 +52733,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0b445804-d31f-4ec7-8804-4b16007e0abc.png",
+
             url: "https://media.mapgenie.io/storage/media/0b445804-d31f-4ec7-8804-4b16007e0abc.png",
             type: "image",
             mimeType: "image/png",
@@ -52750,7 +52750,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e20ebc2a-5106-4887-8536-d4abc515384b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e20ebc2a-5106-4887-8536-d4abc515384b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52767,7 +52767,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2a382c79-fa3c-4386-9b5e-ee295b1e625d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2a382c79-fa3c-4386-9b5e-ee295b1e625d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52784,7 +52784,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2067b0d0-ff59-4f6e-a152-43d08a319509.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2067b0d0-ff59-4f6e-a152-43d08a319509.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52801,7 +52801,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b39722fb-6891-481c-bf34-ab3e3b4cf8bc.png",
+
             url: "https://media.mapgenie.io/storage/media/b39722fb-6891-481c-bf34-ab3e3b4cf8bc.png",
             type: "image",
             mimeType: "image/png",
@@ -52818,7 +52818,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "83719ee1-ec5a-4519-a201-9787acad263d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/83719ee1-ec5a-4519-a201-9787acad263d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52835,7 +52835,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3e9fd86-72a1-4f55-bffa-fb6038b6013c.png",
+
             url: "https://media.mapgenie.io/storage/media/e3e9fd86-72a1-4f55-bffa-fb6038b6013c.png",
             type: "image",
             mimeType: "image/png",
@@ -52852,7 +52852,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b90a2f7f-e2a6-440d-95a7-32979c111250.png",
+
             url: "https://media.mapgenie.io/storage/media/b90a2f7f-e2a6-440d-95a7-32979c111250.png",
             type: "image",
             mimeType: "image/png",
@@ -52869,7 +52869,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "135c518c-7d7d-4776-88ab-fc0e025bef8a.png",
+
             url: "https://media.mapgenie.io/storage/media/135c518c-7d7d-4776-88ab-fc0e025bef8a.png",
             type: "image",
             mimeType: "image/png",
@@ -52886,7 +52886,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "eee145e7-780c-45ac-81ad-6aa841552391.jpg",
+
             url: "https://media.mapgenie.io/storage/media/eee145e7-780c-45ac-81ad-6aa841552391.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52903,7 +52903,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5bd879ef-fbf6-41fc-bff8-d693e4bff24d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5bd879ef-fbf6-41fc-bff8-d693e4bff24d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52920,7 +52920,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c8d7075f-4b05-44ba-ba8b-89681941bfff.png",
+
             url: "https://media.mapgenie.io/storage/media/c8d7075f-4b05-44ba-ba8b-89681941bfff.png",
             type: "image",
             mimeType: "image/png",
@@ -52937,7 +52937,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "14132bda-11af-4cfa-82f0-81d60d2d702b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/14132bda-11af-4cfa-82f0-81d60d2d702b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52954,7 +52954,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6d7a70ac-e296-41c0-80bd-c1a729d04085.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6d7a70ac-e296-41c0-80bd-c1a729d04085.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -52971,7 +52971,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ba9a7854-f43e-4a41-b5fa-9269cf94cb16.png",
+
             url: "https://media.mapgenie.io/storage/media/ba9a7854-f43e-4a41-b5fa-9269cf94cb16.png",
             type: "image",
             mimeType: "image/png",
@@ -52988,7 +52988,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17539ba9-2ce6-4d31-974d-e0cc770ad08c.png",
+
             url: "https://media.mapgenie.io/storage/media/17539ba9-2ce6-4d31-974d-e0cc770ad08c.png",
             type: "image",
             mimeType: "image/png",
@@ -53005,7 +53005,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d63f8f9d-f9e7-4ec1-8d16-87cd98e7973c.png",
+
             url: "https://media.mapgenie.io/storage/media/d63f8f9d-f9e7-4ec1-8d16-87cd98e7973c.png",
             type: "image",
             mimeType: "image/png",
@@ -53022,7 +53022,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8f3f267d-b3cb-4a58-8a53-dfd19e8eb65f.png",
+
             url: "https://media.mapgenie.io/storage/media/8f3f267d-b3cb-4a58-8a53-dfd19e8eb65f.png",
             type: "image",
             mimeType: "image/png",
@@ -53039,7 +53039,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a54e6765-4742-4798-ab74-ab878fe9af83.png",
+
             url: "https://media.mapgenie.io/storage/media/a54e6765-4742-4798-ab74-ab878fe9af83.png",
             type: "image",
             mimeType: "image/png",
@@ -53056,7 +53056,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "992daf0c-6469-4f61-b9e6-2bae9af59e35.png",
+
             url: "https://media.mapgenie.io/storage/media/992daf0c-6469-4f61-b9e6-2bae9af59e35.png",
             type: "image",
             mimeType: "image/png",
@@ -53073,7 +53073,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "39d40069-09ff-47e4-96ac-ff09491e3fe4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/39d40069-09ff-47e4-96ac-ff09491e3fe4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53090,7 +53090,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ff736f8f-2549-4793-814c-5987a5dcd8bf.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ff736f8f-2549-4793-814c-5987a5dcd8bf.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53107,7 +53107,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6d1023db-a414-4ae2-a37b-dfcb352b2730.png",
+
             url: "https://media.mapgenie.io/storage/media/6d1023db-a414-4ae2-a37b-dfcb352b2730.png",
             type: "image",
             mimeType: "image/png",
@@ -53124,7 +53124,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "c1d062ce-2e4d-4864-b4de-948710d0ac8d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c1d062ce-2e4d-4864-b4de-948710d0ac8d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53141,7 +53141,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f8238d9a-1109-4351-98a7-f31b3abd3946.png",
+
             url: "https://media.mapgenie.io/storage/media/f8238d9a-1109-4351-98a7-f31b3abd3946.png",
             type: "image",
             mimeType: "image/png",
@@ -53149,7 +53149,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom The Mysterious Eighth Side Quest Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-mysterious-eighth-side-quest-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -53166,7 +53166,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d9c36c66-cc0e-4a1c-8141-043338209776.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d9c36c66-cc0e-4a1c-8141-043338209776.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53183,7 +53183,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0a0f10d1-44e6-46c3-9f6e-c66e27c134b0.png",
+
             url: "https://media.mapgenie.io/storage/media/0a0f10d1-44e6-46c3-9f6e-c66e27c134b0.png",
             type: "image",
             mimeType: "image/png",
@@ -53200,7 +53200,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a2c18459-e946-45e7-aeb2-1b2e5deb5b19.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a2c18459-e946-45e7-aeb2-1b2e5deb5b19.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53217,7 +53217,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aef1ff1d-36f1-4e5d-91ca-923e7b4eb20c.png",
+
             url: "https://media.mapgenie.io/storage/media/aef1ff1d-36f1-4e5d-91ca-923e7b4eb20c.png",
             type: "image",
             mimeType: "image/png",
@@ -53234,7 +53234,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ad64ea41-ea36-4721-b937-2c2b0e82eac2.png",
+
             url: "https://media.mapgenie.io/storage/media/ad64ea41-ea36-4721-b937-2c2b0e82eac2.png",
             type: "image",
             mimeType: "image/png",
@@ -53251,7 +53251,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "34f42b1e-ac97-40d6-88fe-259af40d2ad4.png",
+
             url: "https://media.mapgenie.io/storage/media/34f42b1e-ac97-40d6-88fe-259af40d2ad4.png",
             type: "image",
             mimeType: "image/png",
@@ -53268,7 +53268,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7d2b84bd-ccfe-44f1-96ee-dcabb2c8bb47.png",
+
             url: "https://media.mapgenie.io/storage/media/7d2b84bd-ccfe-44f1-96ee-dcabb2c8bb47.png",
             type: "image",
             mimeType: "image/png",
@@ -53285,7 +53285,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e8ff3399-458d-4cfe-91f2-c5161024c376.png",
+
             url: "https://media.mapgenie.io/storage/media/e8ff3399-458d-4cfe-91f2-c5161024c376.png",
             type: "image",
             mimeType: "image/png",
@@ -53302,7 +53302,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9abacd01-402d-4b70-b89a-187b6beea13f.png",
+
             url: "https://media.mapgenie.io/storage/media/9abacd01-402d-4b70-b89a-187b6beea13f.png",
             type: "image",
             mimeType: "image/png",
@@ -53319,7 +53319,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ea38cf28-649c-4b15-89ae-76c640b085fc.png",
+
             url: "https://media.mapgenie.io/storage/media/ea38cf28-649c-4b15-89ae-76c640b085fc.png",
             type: "image",
             mimeType: "image/png",
@@ -53336,7 +53336,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "00af7b52-68d8-4f95-a7ea-4b37ba3ee289.jpg",
+
             url: "https://media.mapgenie.io/storage/media/00af7b52-68d8-4f95-a7ea-4b37ba3ee289.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53353,7 +53353,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "50536032-a40f-4bdc-9af6-68726ed9aed7.png",
+
             url: "https://media.mapgenie.io/storage/media/50536032-a40f-4bdc-9af6-68726ed9aed7.png",
             type: "image",
             mimeType: "image/png",
@@ -53370,7 +53370,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0cb6e363-d1ac-43cc-84ea-3d3db94271fb.png",
+
             url: "https://media.mapgenie.io/storage/media/0cb6e363-d1ac-43cc-84ea-3d3db94271fb.png",
             type: "image",
             mimeType: "image/png",
@@ -53387,7 +53387,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e2af058f-e977-4ff9-bf5b-7310a1de4929.png",
+
             url: "https://media.mapgenie.io/storage/media/e2af058f-e977-4ff9-bf5b-7310a1de4929.png",
             type: "image",
             mimeType: "image/png",
@@ -53404,7 +53404,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "aeeec3b6-11d3-4717-8684-c999f9e03826.png",
+
             url: "https://media.mapgenie.io/storage/media/aeeec3b6-11d3-4717-8684-c999f9e03826.png",
             type: "image",
             mimeType: "image/png",
@@ -53421,7 +53421,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "109d599e-7247-46c4-8a08-dbe46fe7c16d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/109d599e-7247-46c4-8a08-dbe46fe7c16d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53438,7 +53438,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "da3f832b-9e1b-4410-8c13-ebf662eb54ee.jpg",
+
             url: "https://media.mapgenie.io/storage/media/da3f832b-9e1b-4410-8c13-ebf662eb54ee.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53455,7 +53455,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8a69fda0-05e9-4d41-80fa-60aa32050777.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8a69fda0-05e9-4d41-80fa-60aa32050777.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53472,7 +53472,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "987b254f-787f-4886-994e-db3c58ccdc58.jpg",
+
             url: "https://media.mapgenie.io/storage/media/987b254f-787f-4886-994e-db3c58ccdc58.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53489,7 +53489,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1c443b55-bdc8-47a2-9b64-161873eb0d8c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1c443b55-bdc8-47a2-9b64-161873eb0d8c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53506,7 +53506,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3ebab151-05e0-47ee-bde0-1a279bca1e5c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3ebab151-05e0-47ee-bde0-1a279bca1e5c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53523,7 +53523,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "54296913-2623-48d2-9851-f09e55e5acf1.png",
+
             url: "https://media.mapgenie.io/storage/media/54296913-2623-48d2-9851-f09e55e5acf1.png",
             type: "image",
             mimeType: "image/png",
@@ -53540,7 +53540,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "0f0e0000-1a07-4852-bf23-05499ce1f029.png",
+
             url: "https://media.mapgenie.io/storage/media/0f0e0000-1a07-4852-bf23-05499ce1f029.png",
             type: "image",
             mimeType: "image/png",
@@ -53557,7 +53557,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a5fccac7-862a-41d8-9c72-b8f65160f78d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a5fccac7-862a-41d8-9c72-b8f65160f78d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53574,7 +53574,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b30de1a1-4597-4d93-ac4a-2e988b46ed8b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b30de1a1-4597-4d93-ac4a-2e988b46ed8b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53591,7 +53591,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2022e8d2-0c1d-4b89-8026-9fc70c6be071.png",
+
             url: "https://media.mapgenie.io/storage/media/2022e8d2-0c1d-4b89-8026-9fc70c6be071.png",
             type: "image",
             mimeType: "image/png",
@@ -53608,7 +53608,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "7ca0bc83-f675-4671-8150-dd32f785e0e9.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7ca0bc83-f675-4671-8150-dd32f785e0e9.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53625,7 +53625,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d9ba069e-0895-4a31-8d28-eb8ec74756f3.png",
+
             url: "https://media.mapgenie.io/storage/media/d9ba069e-0895-4a31-8d28-eb8ec74756f3.png",
             type: "image",
             mimeType: "image/png",
@@ -53642,7 +53642,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "77e6d6f5-7590-4568-9761-db907272ab04.png",
+
             url: "https://media.mapgenie.io/storage/media/77e6d6f5-7590-4568-9761-db907272ab04.png",
             type: "image",
             mimeType: "image/png",
@@ -53659,7 +53659,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b0ac2e99-4c6e-4205-b4ee-163b2615eef0.png",
+
             url: "https://media.mapgenie.io/storage/media/b0ac2e99-4c6e-4205-b4ee-163b2615eef0.png",
             type: "image",
             mimeType: "image/png",
@@ -53676,7 +53676,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "4b2e2ade-f6af-4b51-ad67-766e0d615e8a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4b2e2ade-f6af-4b51-ad67-766e0d615e8a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53693,7 +53693,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e7b6b80e-81e5-4bf2-8ad9-bc8626c9891b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e7b6b80e-81e5-4bf2-8ad9-bc8626c9891b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53710,7 +53710,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "92b91b45-9003-40d6-b558-03b9a3e5f9b4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/92b91b45-9003-40d6-b558-03b9a3e5f9b4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53727,7 +53727,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2a5aabef-bcee-43cb-ba8e-e0ba92a4c2f7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2a5aabef-bcee-43cb-ba8e-e0ba92a4c2f7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53744,7 +53744,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "37df16f9-386c-4cf7-a354-c0c3db73ae64.jpg",
+
             url: "https://media.mapgenie.io/storage/media/37df16f9-386c-4cf7-a354-c0c3db73ae64.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53761,7 +53761,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a7acd539-6bd4-4683-8316-3995903fe034.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a7acd539-6bd4-4683-8316-3995903fe034.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53778,7 +53778,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "933348b6-87ec-4806-8edd-faf2cc02e61f.png",
+
             url: "https://media.mapgenie.io/storage/media/933348b6-87ec-4806-8edd-faf2cc02e61f.png",
             type: "image",
             mimeType: "image/png",
@@ -53795,7 +53795,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "711c6682-c7fc-4915-a28c-1c67e8684242.jpg",
+
             url: "https://media.mapgenie.io/storage/media/711c6682-c7fc-4915-a28c-1c67e8684242.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53812,7 +53812,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "70828dcc-262e-4113-957d-39413aeb3dff.jpg",
+
             url: "https://media.mapgenie.io/storage/media/70828dcc-262e-4113-957d-39413aeb3dff.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53829,7 +53829,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "596c1b28-e4e0-496e-a05e-69c1b8ae9c53.jpg",
+
             url: "https://media.mapgenie.io/storage/media/596c1b28-e4e0-496e-a05e-69c1b8ae9c53.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53846,7 +53846,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "9b620631-996f-4469-a337-0de2b9c97b54.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9b620631-996f-4469-a337-0de2b9c97b54.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53863,7 +53863,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "52fc8da9-132c-4107-89f5-177f8a83b43c.png",
+
             url: "https://media.mapgenie.io/storage/media/52fc8da9-132c-4107-89f5-177f8a83b43c.png",
             type: "image",
             mimeType: "image/png",
@@ -53880,7 +53880,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "29114386-5b5a-46ac-ba44-3033c121d4f6.png",
+
             url: "https://media.mapgenie.io/storage/media/29114386-5b5a-46ac-ba44-3033c121d4f6.png",
             type: "image",
             mimeType: "image/png",
@@ -53897,7 +53897,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "23001653-18b2-44a8-b0df-3c3666c1807d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/23001653-18b2-44a8-b0df-3c3666c1807d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53905,7 +53905,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
             mimeType: "mp4",
@@ -53922,7 +53922,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8a1c5be9-854a-4c6d-85ae-e5d959696fca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8a1c5be9-854a-4c6d-85ae-e5d959696fca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53939,7 +53939,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "8fe44f69-11d6-4718-9032-49b02487421e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8fe44f69-11d6-4718-9032-49b02487421e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53956,7 +53956,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "ec926f52-be83-488c-8e93-7b3150058878.jpg",
+
             url: "https://media.mapgenie.io/storage/media/ec926f52-be83-488c-8e93-7b3150058878.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53973,7 +53973,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6e93bef2-5cf9-4583-a44d-ff4a6bb63267.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6e93bef2-5cf9-4583-a44d-ff4a6bb63267.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -53990,7 +53990,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "271dcf28-ff46-4ee3-90b9-d8d5b6ff3eab.jpg",
+
             url: "https://media.mapgenie.io/storage/media/271dcf28-ff46-4ee3-90b9-d8d5b6ff3eab.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54007,7 +54007,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "150f368c-db76-4383-a0d0-4ce4493b5c82.jpg",
+
             url: "https://media.mapgenie.io/storage/media/150f368c-db76-4383-a0d0-4ce4493b5c82.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54024,7 +54024,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2aeaec39-c114-41f2-acb6-cd6ae5319ba8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2aeaec39-c114-41f2-acb6-cd6ae5319ba8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54041,7 +54041,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "957f7e10-7b09-466e-9c9d-eebb3fce114b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/957f7e10-7b09-466e-9c9d-eebb3fce114b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54058,7 +54058,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b2d97be1-c73e-4752-9b13-18653bb06222.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b2d97be1-c73e-4752-9b13-18653bb06222.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54076,7 +54076,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Ruffian Infested Village Gameplay Walkthrough Side Adventure",
-            fileName: "",
+
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ruffian-infested-village-gameplay-walkthrough-side-adventure",
             type: "ign_video",
             mimeType: "mp4",
@@ -54099,7 +54099,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050821452500_c",
-            fileName: "68e62455-ce3a-4a9c-9ad4-c5d0f2c9e384.jpg",
+
             url: "https://media.mapgenie.io/storage/media/68e62455-ce3a-4a9c-9ad4-c5d0f2c9e384.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54116,7 +54116,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fb54d94a-1748-4930-a001-5cae71702c2e.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fb54d94a-1748-4930-a001-5cae71702c2e.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54133,7 +54133,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "165d5489-8df6-4447-b4f8-1d29ff03944b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/165d5489-8df6-4447-b4f8-1d29ff03944b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54150,7 +54150,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "90a38606-6445-4192-aac1-4f1e01cd3138.jpg",
+
             url: "https://media.mapgenie.io/storage/media/90a38606-6445-4192-aac1-4f1e01cd3138.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -54240,7 +54240,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Monster Forces Occupiers Of Lurelin Village Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-occupiers-of-lurelin-village-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -54258,7 +54257,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723335300_c",
-            fileName: "dbfa5dc0-3a05-4acc-be78-12c00a6fa002.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dbfa5dc0-3a05-4acc-be78-12c00a6fa002.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -56349,7 +56348,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-06-20",
-            fileName: "96ca1e2c-b47d-4a08-b50d-3b51dd08b87b.png",
+
             url: "https://media.mapgenie.io/storage/media/96ca1e2c-b47d-4a08-b50d-3b51dd08b87b.png",
             type: "image",
             mimeType: "image/png",
@@ -56357,7 +56356,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56375,7 +56373,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56383,7 +56380,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "2023050601472500_c",
-            fileName: "d358960e-ce6b-48f0-bd94-b5878650f37c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d358960e-ce6b-48f0-bd94-b5878650f37c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -56400,7 +56397,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56418,7 +56414,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56436,7 +56431,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56444,7 +56438,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346116634_809447710785341_4228656790570412586_n",
-            fileName: "79f6b377-c7e9-4a9d-aa6d-8437d79c0d77.jpg",
+
             url: "https://media.mapgenie.io/storage/media/79f6b377-c7e9-4a9d-aa6d-8437d79c0d77.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -56461,7 +56455,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56480,7 +56473,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56499,7 +56491,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56517,7 +56508,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56535,7 +56525,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56553,7 +56542,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56571,7 +56559,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56589,7 +56576,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56607,7 +56593,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56625,7 +56610,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56643,7 +56627,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56661,7 +56644,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56680,7 +56662,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56698,7 +56679,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56716,7 +56696,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56734,7 +56713,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56752,7 +56730,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56770,7 +56747,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56788,7 +56764,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56806,7 +56781,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56824,7 +56798,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56842,7 +56815,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56861,7 +56833,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56879,7 +56850,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56898,7 +56868,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56916,7 +56885,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct I Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56935,7 +56903,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56953,7 +56920,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Ii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56971,7 +56937,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -56989,7 +56954,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flux Construct Iii Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57027,7 +56991,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57044,7 +57007,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "1301e74a-0095-446b-93e4-65b9da01099a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1301e74a-0095-446b-93e4-65b9da01099a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57090,7 +57053,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57115,7 +57077,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57133,7 +57094,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57172,7 +57132,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57232,7 +57191,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57250,7 +57208,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57268,7 +57225,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57293,7 +57249,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57325,7 +57280,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57350,7 +57304,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57368,7 +57321,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57386,7 +57338,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57404,7 +57355,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57429,7 +57379,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Obsidian Frox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57475,7 +57424,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Thunder Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57493,7 +57441,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57512,7 +57459,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Frost Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57530,7 +57476,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Thunder Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57548,7 +57493,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Thunder Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57567,7 +57511,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57585,7 +57528,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Frost Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57604,7 +57546,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -57622,7 +57563,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57640,7 +57580,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -57659,7 +57598,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -57677,7 +57615,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom King Gleeok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -57695,7 +57632,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Frost Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57714,7 +57650,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Flame Gleeok Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57738,7 +57673,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57746,7 +57680,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346174295_922614655634007_2060963866277433454_n",
-            fileName: "856d1e7b-444a-452a-b62b-5569bb91bb54.jpg",
+
             url: "https://media.mapgenie.io/storage/media/856d1e7b-444a-452a-b62b-5569bb91bb54.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57763,7 +57697,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57771,7 +57704,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346147546_1404749763657805_8950129361431030921_n",
-            fileName: "2b737b4d-4cbd-4570-a8ac-c765f1ba143c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2b737b4d-4cbd-4570-a8ac-c765f1ba143c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57788,7 +57721,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346116893_961737255188581_7718552599090228343_n",
-            fileName: "045c4474-717d-4504-b374-44ffc6e215d6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/045c4474-717d-4504-b374-44ffc6e215d6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57796,7 +57729,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57814,7 +57746,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57833,7 +57764,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57850,7 +57780,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346115852_649269563709461_4725243698605817399_n",
-            fileName: "3a78f6b8-fc09-4bbc-bccc-c17291effe1b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3a78f6b8-fc09-4bbc-bccc-c17291effe1b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57858,7 +57788,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57876,7 +57805,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57884,7 +57812,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346148606_1343296812921753_2654321399026518769_n",
-            fileName: "d34c1ffa-d843-4fd8-b390-b117450942a8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d34c1ffa-d843-4fd8-b390-b117450942a8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57900,7 +57828,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346116336_794494338526036_7464570232673775103_n",
-            fileName: "9a42e72b-a058-4b3b-8c9c-818b7eff433b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/9a42e72b-a058-4b3b-8c9c-818b7eff433b.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57908,7 +57836,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57926,7 +57853,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57934,7 +57860,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346149115_265001089400743_7781239709636909207_n",
-            fileName: "8fab466e-e448-40a7-8400-6e7d9db36da0.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8fab466e-e448-40a7-8400-6e7d9db36da0.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57951,7 +57877,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -57959,7 +57884,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346117924_1168290197197779_7167409440134009005_n",
-            fileName: "f6f8cafd-9f2c-4100-881e-2e8e1b9a11f4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f6f8cafd-9f2c-4100-881e-2e8e1b9a11f4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57976,7 +57901,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346116453_943993926801662_3361775358131720748_n",
-            fileName: "81c94226-8158-4f5b-be75-933681238f93.jpg",
+
             url: "https://media.mapgenie.io/storage/media/81c94226-8158-4f5b-be75-933681238f93.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -57984,7 +57909,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58002,7 +57926,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58010,7 +57933,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346115097_565970225653104_4108473857619792482_n",
-            fileName: "5b05b1b9-40fe-4ca7-9500-467898056020.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5b05b1b9-40fe-4ca7-9500-467898056020.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58026,7 +57949,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346116885_778512690565560_1256349608364411371_n",
-            fileName: "2c8e3dd9-f635-4d76-b5e2-a94237acfe5c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2c8e3dd9-f635-4d76-b5e2-a94237acfe5c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58034,7 +57957,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58052,7 +57974,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58060,7 +57981,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346150683_1058712195534234_6390497263656700338_n",
-            fileName: "1b10bb81-0be3-4869-a71a-01ca8a4ff468.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1b10bb81-0be3-4869-a71a-01ca8a4ff468.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58077,7 +57998,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58095,7 +58015,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58114,7 +58033,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58122,7 +58040,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346148835_1221450508764565_7918865783124324001_n",
-            fileName: "2516fbdf-a1b3-429a-8bc8-cd5a6c4e10c1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2516fbdf-a1b3-429a-8bc8-cd5a6c4e10c1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58139,7 +58057,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58147,7 +58064,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346174932_3591696331074465_8471246501483773410_n",
-            fileName: "7f3ced15-ea05-4376-96f7-70ac8af07e71.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7f3ced15-ea05-4376-96f7-70ac8af07e71.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58164,7 +58081,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58172,7 +58088,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346117913_3296387407340178_3162559433863964312_n",
-            fileName: "02c71c9b-0cef-4589-a2b7-017aee5fad88.jpg",
+
             url: "https://media.mapgenie.io/storage/media/02c71c9b-0cef-4589-a2b7-017aee5fad88.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58189,7 +58105,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58197,7 +58112,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346154559_1258148901735414_5640379147203348527_n",
-            fileName: "b0f0b417-c0f2-45a8-9f23-127d8c67100d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b0f0b417-c0f2-45a8-9f23-127d8c67100d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58214,7 +58129,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58232,7 +58146,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58240,7 +58153,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346112691_598990675657818_4855123355007595640_n",
-            fileName: "d36de5ae-6bcc-4822-89ff-e3cc69a0d3b6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d36de5ae-6bcc-4822-89ff-e3cc69a0d3b6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58257,7 +58170,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58265,7 +58177,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346102286_1210527399664027_7577377428993206101_n",
-            fileName: "b3db082e-63c2-4088-bf7c-983a5c7ad483.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b3db082e-63c2-4088-bf7c-983a5c7ad483.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -58282,7 +58194,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58301,7 +58212,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58319,7 +58229,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58338,7 +58247,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58357,7 +58265,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58375,7 +58282,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58393,7 +58299,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58411,7 +58316,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58429,7 +58333,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58447,7 +58350,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58465,7 +58367,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58483,7 +58384,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58501,7 +58401,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58520,7 +58419,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58538,7 +58436,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58556,7 +58453,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58574,7 +58470,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58592,7 +58487,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58610,7 +58504,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58628,7 +58521,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58646,7 +58538,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58664,7 +58555,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58682,7 +58572,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58700,7 +58589,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58718,7 +58606,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58736,7 +58623,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Hinox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -58744,7 +58630,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "",
-            fileName: "79453932-4713-49f5-93ea-9bd2e2ff431c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/79453932-4713-49f5-93ea-9bd2e2ff431c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -59012,7 +58898,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59030,7 +58915,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59049,7 +58933,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59068,7 +58951,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59086,7 +58968,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59104,7 +58985,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Colgera Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59122,7 +59002,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marbled Gohma Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59140,7 +59019,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Queen Gibdo Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59159,7 +59037,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Colgera Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59177,7 +59054,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59195,7 +59071,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Colgera Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59213,7 +59088,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59231,7 +59105,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59249,7 +59122,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59267,7 +59139,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59285,7 +59156,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59303,7 +59173,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59321,7 +59190,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59339,7 +59207,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mucktorok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59357,7 +59224,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59375,7 +59241,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mucktorok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59393,7 +59258,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Mucktorok Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59411,7 +59275,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59429,7 +59292,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59447,7 +59309,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59465,7 +59326,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marbled Gohma Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59483,7 +59343,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Queen Gibdo Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59501,7 +59360,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Marbled Gohma Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59519,7 +59377,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59537,7 +59394,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Queen Gibdo Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -59556,7 +59412,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59574,7 +59429,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59592,7 +59446,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59611,7 +59464,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59629,7 +59481,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59647,7 +59498,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59665,7 +59515,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59683,7 +59532,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59701,7 +59549,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59720,7 +59567,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59738,7 +59584,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59756,7 +59601,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59774,7 +59618,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59792,7 +59635,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59810,7 +59652,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59828,7 +59669,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59846,7 +59686,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59864,7 +59703,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59882,7 +59720,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59900,7 +59737,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59918,7 +59754,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59936,7 +59771,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom How To Defeat Gloom Hands",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
             type: "ign_video",
@@ -59961,7 +59795,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -59979,7 +59812,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -59997,7 +59829,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60015,7 +59846,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Molduga Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60067,7 +59897,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "036a206f-cd1f-40dd-89c6-045b29be031e.jpeg",
+
             url: "https://media.mapgenie.io/storage/media/036a206f-cd1f-40dd-89c6-045b29be031e.jpeg",
             type: "image",
             mimeType: "image/jpeg",
@@ -60405,7 +60235,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60423,7 +60252,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60442,7 +60270,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60460,7 +60287,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60468,7 +60294,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346115870_225484236859741_6838595920474008104_n",
-            fileName: "27887980-a706-40e7-a3a4-d524bee283dd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/27887980-a706-40e7-a3a4-d524bee283dd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -60486,7 +60312,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60504,7 +60329,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60522,7 +60346,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60540,7 +60363,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60559,7 +60381,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60577,7 +60398,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60595,7 +60415,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60614,7 +60433,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60632,7 +60450,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60650,7 +60467,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60668,7 +60484,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60686,7 +60501,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60704,7 +60518,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60722,7 +60535,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60740,7 +60552,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60758,7 +60569,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stalnox Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60782,7 +60592,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "nCg5J4A0NTQ",
+
             url: "https://youtu.be/nCg5J4A0NTQ",
             type: "youtube",
             mimeType: "mp4",
@@ -60800,7 +60610,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Monster Forces Toronbo Beach South Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-toronbo-beach-south-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60818,7 +60627,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Monster Forces Koholit Rock Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-koholit-rock-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60872,7 +60680,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346118668_809492924038659_4065794911895102149_n",
-            fileName: "a707e3d6-01b8-426c-98ef-f92c120f4901.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a707e3d6-01b8-426c-98ef-f92c120f4901.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -60880,7 +60688,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60899,7 +60706,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60918,7 +60724,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60936,7 +60741,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60944,7 +60748,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "346116434_2430657983768316_986769968301113173_n",
-            fileName: "2726619a-45f6-49f5-98cd-76bc9e429f4f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2726619a-45f6-49f5-98cd-76bc9e429f4f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -60960,7 +60764,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "346115841_518157197036090_7029740173188333857_n",
-            fileName: "a70d2b20-ed00-4744-bb4b-8eb935462543.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a70d2b20-ed00-4744-bb4b-8eb935462543.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -60977,7 +60781,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -60995,7 +60798,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61003,7 +60805,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "13E5C049-A502-49F0-BC40-B6A1E9C2B13A",
-            fileName: "b2642a2a-b209-4a9c-8b45-de609395f7db.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b2642a2a-b209-4a9c-8b45-de609395f7db.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61020,7 +60822,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61039,7 +60840,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61057,7 +60857,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61074,7 +60873,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "B9E3C6FE-A8E4-4469-9577-260F7798A6D6",
-            fileName: "42675898-a451-4c2e-87a3-1ab36ce7edf8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/42675898-a451-4c2e-87a3-1ab36ce7edf8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61091,7 +60890,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61099,7 +60897,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "D6D3916B-5A51-4703-AA3A-17FB2FB7EA88",
-            fileName: "c3dc0826-4f31-4720-b127-0f60022cfa99.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c3dc0826-4f31-4720-b127-0f60022cfa99.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61115,7 +60913,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "AEBA4201-8099-4CB9-A4C2-1C815DAB01CF",
-            fileName: "57cfca0d-cf66-415c-997a-3cf7553c9100.jpg",
+
             url: "https://media.mapgenie.io/storage/media/57cfca0d-cf66-415c-997a-3cf7553c9100.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61123,7 +60921,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61141,7 +60938,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61149,7 +60945,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "A92745FB-41A4-4E78-BE40-CF46FB5D154C",
-            fileName: "8d65be9c-9bd3-4c08-b179-162ff4f67039.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8d65be9c-9bd3-4c08-b179-162ff4f67039.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61166,7 +60962,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61174,7 +60969,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "2191F888-C59B-4494-807F-60B642AA8C3B",
-            fileName: "d24d9ec6-bec8-47fa-b5d2-ac463e32b79d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d24d9ec6-bec8-47fa-b5d2-ac463e32b79d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61191,7 +60986,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61210,7 +61004,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61218,7 +61011,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "455D4A97-31DC-4DCF-9FC9-380645E5C707",
-            fileName: "b839e0b6-ace1-435a-854c-9a49f8ad91b7.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b839e0b6-ace1-435a-854c-9a49f8ad91b7.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61236,7 +61029,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61254,7 +61046,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "a7962bf5-a65b-4d9d-a66b-6b2f2953da9a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a7962bf5-a65b-4d9d-a66b-6b2f2953da9a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61271,7 +61063,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61279,7 +61070,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "3C8A41DF-333B-41DD-96E1-1B54B82660AD",
-            fileName: "60b109af-3dda-4163-822f-d4e2dba7e230.jpg",
+
             url: "https://media.mapgenie.io/storage/media/60b109af-3dda-4163-822f-d4e2dba7e230.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61295,7 +61086,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "7462FEFA-5F05-475E-A246-0E7ADF787D0E",
-            fileName: "f23efa0c-910f-47a9-aed3-9a2b542fecae.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f23efa0c-910f-47a9-aed3-9a2b542fecae.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61303,7 +61094,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61320,7 +61110,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "59AF5953-6BF9-42EE-ACC1-45A21A01264B",
-            fileName: "dca121ba-fc1a-48f3-996a-fc054ad5de40.jpg",
+
             url: "https://media.mapgenie.io/storage/media/dca121ba-fc1a-48f3-996a-fc054ad5de40.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61328,7 +61118,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61345,7 +61134,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "429B518A-EA0A-44A1-820F-4EDF4CAC8598",
-            fileName: "84e8e6a7-9cef-45b1-856f-28503dc4d4ea.jpg",
+
             url: "https://media.mapgenie.io/storage/media/84e8e6a7-9cef-45b1-856f-28503dc4d4ea.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61353,7 +61142,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61371,7 +61159,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61390,7 +61177,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61408,7 +61194,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61426,7 +61211,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61444,7 +61228,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61462,7 +61245,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61480,7 +61262,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61498,7 +61279,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61523,7 +61303,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61531,7 +61310,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
           },
           {
             title: "641BF82A-DFE2-42F3-B932-4B4CBF9489F2",
-            fileName: "b5055024-230d-4d4d-8101-13c68464a5af.jpg",
+
             url: "https://media.mapgenie.io/storage/media/b5055024-230d-4d4d-8101-13c68464a5af.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -61548,7 +61327,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61574,7 +61352,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61592,7 +61369,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61610,7 +61386,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61635,7 +61410,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61653,7 +61427,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61671,7 +61444,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61689,7 +61461,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61707,7 +61478,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61732,7 +61502,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61750,7 +61519,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61768,7 +61536,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61786,7 +61553,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61804,7 +61570,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61822,7 +61587,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61840,7 +61604,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61858,7 +61621,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Igneo Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61884,7 +61646,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61902,7 +61663,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61927,7 +61687,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61945,7 +61704,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61963,7 +61721,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61981,7 +61738,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -61999,7 +61755,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62017,7 +61772,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62042,7 +61796,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62060,7 +61813,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62087,7 +61839,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62105,7 +61856,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62123,7 +61873,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62141,7 +61890,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62166,7 +61914,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62183,7 +61930,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "bf9ac1c9-9d89-4d96-84f6-6482a7be180d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/bf9ac1c9-9d89-4d96-84f6-6482a7be180d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -62191,7 +61938,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62209,7 +61955,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62227,7 +61972,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62246,7 +61990,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62278,7 +62021,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62296,7 +62038,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62314,7 +62055,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62332,7 +62072,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62350,7 +62089,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Battle Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62368,7 +62106,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62386,7 +62123,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62404,7 +62140,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Stone Talus Miniboss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
             type: "ign_video",
@@ -62835,7 +62570,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "QGsAhst7GNA",
+
             url: "https://youtu.be/QGsAhst7GNA",
             type: "youtube",
             mimeType: "mp4",
@@ -62866,7 +62601,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "17d47861-d888-4e74-861a-bdcedb14706a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/17d47861-d888-4e74-861a-bdcedb14706a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -62874,7 +62609,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Master Kohga Abandoned Lanayru Mine Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-lanayru-mine-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -62938,7 +62672,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Master Kohga Abandoned Gerudo Mine Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-gerudo-mine-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -62995,7 +62728,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3583b60e-7633-46db-bb72-d8b341c2af4d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/3583b60e-7633-46db-bb72-d8b341c2af4d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -63003,7 +62736,6 @@ export const totkCategoryLocations: CategoryLocation[] = [
           {
             title:
               "The Legend Of Zelda Tears Of The Kingdom Master Kohga Abandoned Hebra Mine Boss Gameplay Walkthrough",
-            fileName: "",
 
             url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-hebra-mine-boss-gameplay-walkthrough",
             type: "ign_video",
@@ -63231,7 +62963,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416291200_c",
-            fileName: "94dfa5fe-00ff-43e8-8d6f-dee684abfd52.jpg",
+
             url: "https://media.mapgenie.io/storage/media/94dfa5fe-00ff-43e8-8d6f-dee684abfd52.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -63327,7 +63059,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050722591300_c",
-            fileName: "f29d78f9-675d-469f-8455-4fdb92bb89cd.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f29d78f9-675d-469f-8455-4fdb92bb89cd.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -63344,7 +63076,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723102300_c",
-            fileName: "c8507871-4713-4596-abf7-166fa6dc3ff3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c8507871-4713-4596-abf7-166fa6dc3ff3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -63369,7 +63101,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050800050000_c",
-            fileName: "c133d301-9e86-4bad-a7d0-32d452100ac8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c133d301-9e86-4bad-a7d0-32d452100ac8.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -63394,7 +63126,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050820242300_c",
-            fileName: "658c6afa-b8e9-45d9-bcf4-7844b112e465.jpg",
+
             url: "https://media.mapgenie.io/storage/media/658c6afa-b8e9-45d9-bcf4-7844b112e465.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -64810,7 +64542,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912381900_c",
-            fileName: "f4b6c526-e468-4524-b2ae-cbbbff38f8ef.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f4b6c526-e468-4524-b2ae-cbbbff38f8ef.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -64833,7 +64565,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050420540800_c",
-            fileName: "8b69e839-05a7-4d4e-afa3-48adb525d290.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8b69e839-05a7-4d4e-afa3-48adb525d290.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -64984,7 +64716,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421173800_c",
-            fileName: "447cc497-e257-4faf-acde-cbc8dc24a12c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/447cc497-e257-4faf-acde-cbc8dc24a12c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -65001,7 +64733,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600405800_c",
-            fileName: "0fc1add9-041d-49dc-b659-b79e34e3d00c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0fc1add9-041d-49dc-b659-b79e34e3d00c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -65018,7 +64750,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050600574500_c",
-            fileName: "e7c0fbf0-675e-447c-b696-747711fe9e7a.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e7c0fbf0-675e-447c-b696-747711fe9e7a.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -65035,7 +64767,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050911520200_c",
-            fileName: "2401bdc6-f900-4ca1-95df-328f2f307d06.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2401bdc6-f900-4ca1-95df-328f2f307d06.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -65051,7 +64783,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912055600_c",
-            fileName: "8376fc73-b710-476f-a603-391772c58921.jpg",
+
             url: "https://media.mapgenie.io/storage/media/8376fc73-b710-476f-a603-391772c58921.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -65068,7 +64800,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913370800_c",
-            fileName: "f599396c-7472-46a4-88f1-787199ea74e5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f599396c-7472-46a4-88f1-787199ea74e5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -65693,7 +65425,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913513200_c",
-            fileName: "f042a39e-b3b8-4035-bec9-bb8ac68979d4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/f042a39e-b3b8-4035-bec9-bb8ac68979d4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66271,7 +66003,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "Screenshot 2023-04-29 00-34-10",
-            fileName: "6b98aed0-8b42-4e7c-a3a1-2121676406ec.png",
+
             url: "https://media.mapgenie.io/storage/media/6b98aed0-8b42-4e7c-a3a1-2121676406ec.png",
             type: "image",
             mimeType: "image/png",
@@ -66302,14 +66034,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050421430900_c",
-            fileName: "7b05ce1f-3479-4ff6-9d5c-6bc6da4127c8.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7b05ce1f-3479-4ff6-9d5c-6bc6da4127c8.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050421442200_c",
-            fileName: "cee0214d-f521-49f9-a87b-1448f52c7792.jpg",
+
             url: "https://media.mapgenie.io/storage/media/cee0214d-f521-49f9-a87b-1448f52c7792.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66331,7 +66063,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050722415800_c",
-            fileName: "94c83445-8f1d-40d4-bf94-2bd666a09af3.jpg",
+
             url: "https://media.mapgenie.io/storage/media/94c83445-8f1d-40d4-bf94-2bd666a09af3.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66487,7 +66219,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042922444800_c",
-            fileName: "2ef57107-446b-4e41-b6cb-2fd29aaef050.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2ef57107-446b-4e41-b6cb-2fd29aaef050.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66512,7 +66244,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923232600_c",
-            fileName: "0a666407-de99-42dc-96fe-47c1094a294f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0a666407-de99-42dc-96fe-47c1094a294f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66528,7 +66260,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923343200_c",
-            fileName: "09a2b3bc-217d-4064-93ae-e8ceacb4e6bc.jpg",
+
             url: "https://media.mapgenie.io/storage/media/09a2b3bc-217d-4064-93ae-e8ceacb4e6bc.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66565,7 +66297,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050415552400_c",
-            fileName: "68cbd04a-8027-424d-92f8-5903a83f776f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/68cbd04a-8027-424d-92f8-5903a83f776f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66589,7 +66321,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416020600_c",
-            fileName: "5bd953ce-61c2-4b6a-8f74-dba6bff8a80c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/5bd953ce-61c2-4b6a-8f74-dba6bff8a80c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66604,7 +66336,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416024900_c",
-            fileName: "4e69032d-9ce5-48f7-9498-51c7e7ffae4c.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4e69032d-9ce5-48f7-9498-51c7e7ffae4c.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66632,7 +66364,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050416151400_c",
-            fileName: "38c43b20-f97d-474e-9e55-581f7ca5ff61.jpg",
+
             url: "https://media.mapgenie.io/storage/media/38c43b20-f97d-474e-9e55-581f7ca5ff61.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66655,7 +66387,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050420532700_c",
-            fileName: "c45e2a66-b72d-4518-961c-be7ccef2a7e4.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c45e2a66-b72d-4518-961c-be7ccef2a7e4.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66719,7 +66451,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050821420700_c",
-            fileName: "98510c5a-5758-4f35-bb3e-42a84b16ac53.jpg",
+
             url: "https://media.mapgenie.io/storage/media/98510c5a-5758-4f35-bb3e-42a84b16ac53.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -66736,7 +66468,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912152200_c",
-            fileName: "c7e2bade-d799-4efb-b4d1-5da53ec05cd1.jpg",
+
             url: "https://media.mapgenie.io/storage/media/c7e2bade-d799-4efb-b4d1-5da53ec05cd1.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -67209,7 +66941,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050420582100_c",
-            fileName: "4c679fb5-95db-4aa1-92c7-3fdb0cec582f.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4c679fb5-95db-4aa1-92c7-3fdb0cec582f.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -67226,14 +66958,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050923282300_c",
-            fileName: "7c94c7a7-df8b-42ac-b298-e13c38bfc76b.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7c94c7a7-df8b-42ac-b298-e13c38bfc76b.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023050923302600_c",
-            fileName: "1859c8ad-ff08-4391-bbe5-5cd79a5eafcb.jpg",
+
             url: "https://media.mapgenie.io/storage/media/1859c8ad-ff08-4391-bbe5-5cd79a5eafcb.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68068,14 +67800,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923312500_c",
-            fileName: "adb147f4-298a-4a13-8982-2d4722d2df01.jpg",
+
             url: "https://media.mapgenie.io/storage/media/adb147f4-298a-4a13-8982-2d4722d2df01.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023042923292900_c",
-            fileName: "67491aa1-9ccd-487e-afb2-eb6bbadafdca.jpg",
+
             url: "https://media.mapgenie.io/storage/media/67491aa1-9ccd-487e-afb2-eb6bbadafdca.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68092,14 +67824,14 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023042923570200_c",
-            fileName: "6899f92e-0416-48d0-81c0-c001c60ef718.jpg",
+
             url: "https://media.mapgenie.io/storage/media/6899f92e-0416-48d0-81c0-c001c60ef718.jpg",
             type: "image",
             mimeType: "image/jpeg",
           },
           {
             title: "2023042923590200_c",
-            fileName: "7d94b640-6533-44d5-bb6a-16d482ec6426.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7d94b640-6533-44d5-bb6a-16d482ec6426.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68116,7 +67848,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000081100_c",
-            fileName: "71f99152-24cc-4225-aac9-4492d84a0699.jpg",
+
             url: "https://media.mapgenie.io/storage/media/71f99152-24cc-4225-aac9-4492d84a0699.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68133,7 +67865,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000280800_c",
-            fileName: "e807a5b5-16f3-4bfa-b4be-e5f3daa3f455.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e807a5b5-16f3-4bfa-b4be-e5f3daa3f455.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68150,7 +67882,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043000291800_c",
-            fileName: "4a422686-5f54-4dfb-9ac7-29bc66f7b606.jpg",
+
             url: "https://media.mapgenie.io/storage/media/4a422686-5f54-4dfb-9ac7-29bc66f7b606.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68167,7 +67899,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023043023142500_c",
-            fileName: "fe11a66f-1740-41b9-877f-9debd4d3cf69.jpg",
+
             url: "https://media.mapgenie.io/storage/media/fe11a66f-1740-41b9-877f-9debd4d3cf69.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68184,7 +67916,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050523540700_c",
-            fileName: "a36cee1a-887f-440b-b71e-3f5813d621b5.jpg",
+
             url: "https://media.mapgenie.io/storage/media/a36cee1a-887f-440b-b71e-3f5813d621b5.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68201,7 +67933,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050601144400_c",
-            fileName: "0ea5e727-5e5f-4e66-8fd9-ffe1bca352df.jpg",
+
             url: "https://media.mapgenie.io/storage/media/0ea5e727-5e5f-4e66-8fd9-ffe1bca352df.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68234,7 +67966,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050723280800_c",
-            fileName: "7d159203-f301-4069-8ec7-7d3ac2faf75d.jpg",
+
             url: "https://media.mapgenie.io/storage/media/7d159203-f301-4069-8ec7-7d3ac2faf75d.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68266,7 +67998,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050912141500_c",
-            fileName: "2995d3e7-dea8-44a4-bded-3726b9c04681.jpg",
+
             url: "https://media.mapgenie.io/storage/media/2995d3e7-dea8-44a4-bded-3726b9c04681.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68283,7 +68015,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050913442600_c",
-            fileName: "e2fab0fd-282a-42e9-b0ec-8684c1d10017.jpg",
+
             url: "https://media.mapgenie.io/storage/media/e2fab0fd-282a-42e9-b0ec-8684c1d10017.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68300,7 +68032,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "2023050914582700_c",
-            fileName: "d74c1bd8-c89f-4968-b536-c2b168ee7315.jpg",
+
             url: "https://media.mapgenie.io/storage/media/d74c1bd8-c89f-4968-b536-c2b168ee7315.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68317,7 +68049,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "5710c453-806d-48d3-92fc-23595469f164.png",
+
             url: "https://media.mapgenie.io/storage/media/5710c453-806d-48d3-92fc-23595469f164.png",
             type: "image",
             mimeType: "image/png",
@@ -68334,7 +68066,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "e3023661-f8fe-4a74-9cb6-536c9f10342b.png",
+
             url: "https://media.mapgenie.io/storage/media/e3023661-f8fe-4a74-9cb6-536c9f10342b.png",
             type: "image",
             mimeType: "image/png",
@@ -68351,7 +68083,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "f96492b3-3b62-4bac-b085-893ac8f70ef5.png",
+
             url: "https://media.mapgenie.io/storage/media/f96492b3-3b62-4bac-b085-893ac8f70ef5.png",
             type: "image",
             mimeType: "image/png",
@@ -68376,7 +68108,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "78471be5-25dc-4e1e-867d-f86508f921c6.jpg",
+
             url: "https://media.mapgenie.io/storage/media/78471be5-25dc-4e1e-867d-f86508f921c6.jpg",
             type: "image",
             mimeType: "image/jpeg",
@@ -68393,7 +68125,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "d1a0acfe-0aee-49ee-b2e7-8a292bbf166d.png",
+
             url: "https://media.mapgenie.io/storage/media/d1a0acfe-0aee-49ee-b2e7-8a292bbf166d.png",
             type: "image",
             mimeType: "image/png",
@@ -68410,7 +68142,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "2d85e435-f656-4883-816a-4ff092a2816e.png",
+
             url: "https://media.mapgenie.io/storage/media/2d85e435-f656-4883-816a-4ff092a2816e.png",
             type: "image",
             mimeType: "image/png",
@@ -68443,7 +68175,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "fcdc096a-398a-4a59-a416-7f288d128976.png",
+
             url: "https://media.mapgenie.io/storage/media/fcdc096a-398a-4a59-a416-7f288d128976.png",
             type: "image",
             mimeType: "image/png",
@@ -68532,7 +68264,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "6b782292-1d08-4f14-ad10-7e96a6f56de7.png",
+
             url: "https://media.mapgenie.io/storage/media/6b782292-1d08-4f14-ad10-7e96a6f56de7.png",
             type: "image",
             mimeType: "image/png",
@@ -68686,7 +68418,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "3e2ffb12-7d60-44e6-a6de-458f5dc4d895.png",
+
             url: "https://media.mapgenie.io/storage/media/3e2ffb12-7d60-44e6-a6de-458f5dc4d895.png",
             type: "image",
             mimeType: "image/png",
@@ -68710,7 +68442,7 @@ export const totkCategoryLocations: CategoryLocation[] = [
         media: [
           {
             title: "",
-            fileName: "b4cf6828-f9cc-4e13-8e44-044ed7c0bb77.png",
+
             url: "https://media.mapgenie.io/storage/media/b4cf6828-f9cc-4e13-8e44-044ed7c0bb77.png",
             type: "image",
             mimeType: "image/png",

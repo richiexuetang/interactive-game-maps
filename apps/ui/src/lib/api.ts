@@ -56,6 +56,25 @@ export async function fetchGameRegionDetails(slug: string) {
   const region = details.regions?.find((r: Region) => r.slug === slug);
   const otherRegions = details.regions?.filter((r: Region) => r.slug !== slug);
 
+  console.log(details.groups);
+  const groups = details.groups;
+  const processedGroups = [];
+
+  for (let i = 0; i < groups.length; i++) {
+    const categories = groups[i].categories;
+    const processedCategories = [];
+    for (let j = 0; j < categories.length; j++) {
+      const processedInfo = await remark()
+        .use(html)
+        .process(categories?.info ?? "");
+      processedCategories.push({
+        ...categories[j],
+        info: processedInfo.toString(),
+      });
+    }
+    processedGroups.push({ ...groups[i], categories: processedCategories });
+  }
+
   const processedLocations = [];
   for (let i = 0; i < region.locations.length; i++) {
     const curr = region.locations[i];
@@ -69,6 +88,7 @@ export async function fetchGameRegionDetails(slug: string) {
   return {
     ...details,
     regions: [...otherRegions, { ...region, locations: processedLocations }],
+    groups: processedGroups,
   };
 }
 

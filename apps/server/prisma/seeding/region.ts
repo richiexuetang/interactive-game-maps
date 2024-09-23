@@ -99,18 +99,14 @@ export const regions = [
   //#endregion
 
   //#region Tears of the Kingdom
-  // {
-  //   slug: "hyrule",
-  //   title: "Hyrule",
-  //   thumbnailUrl: "thumbnails/hyrule.png",
-  //   minZoom: 9,
-  //   maxZoom: 16,
-  //   zoom: 10,
-  //   center: [0.70760348036569, -0.71764231663026],
-  //   tilePath: "totk/hyrule",
-  //   gameSlug: "totk",
-  //   order: 1
-  // },
+  {
+    slug: "hyrule",
+    title: "Hyrule",
+    thumbnailUrl: "images/games/zelda-tears-of-the-kingdom/hyrule.png",
+    tilePath: "zelda-tears-of-the-kingdom/hyrule",
+    gameSlug: "zelda-tears-of-the-kingdom",
+    order: 1,
+  },
   //#endregion
 
   //#region Elden Ring

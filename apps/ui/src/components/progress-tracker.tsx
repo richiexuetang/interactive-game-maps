@@ -193,16 +193,16 @@ export const ProgressTracker = () => {
           Progress Tracker
         </Typography>
         <Divider sx={{ mb: 2 }} />
-        <Button
-          startIcon={
-            appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
-          }
-          onClick={toggleHideFound}
-        >
-          {appUser?.hideFound ? "Show Found" : "Hide Found"}
-        </Button>
         {appUser ? (
           <div className="flex flex-col mb-3">
+            <Button
+              startIcon={
+                appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
+              }
+              onClick={toggleHideFound}
+            >
+              {appUser?.hideFound ? "Show Found" : "Hide Found"}
+            </Button>
             {appUser?.trackingCategories?.map((category) => (
               <Accordion key={category}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>

@@ -34,8 +34,8 @@
   background: url(/markers/black-myth-wukong.png);
 }
 
-.totk {
-  background: url(/markers/totk.png);
+.zelda-tears-of-the-kingdom {
+  background: url(/markers/zelda-tears-of-the-kingdom.png);
 }
 
 .witcher-3 {
@@ -93,6 +93,11 @@
 
 .leaflet-popup-content p {
   margin: 8px 0 !important;
+}
+
+.leaflet-popup-tip {
+  background-color: var(--ritcher-palette-background-paper) !important;
+  box-shadow: none !important;
 }
 
 /*  Witcher 3 */
@@ -772,14 +777,6 @@ yiga {
   background-position: -132px -44px;
 }
 
-/* Totk */
-/* 
-    .creature_fish {
-        background-position: -165 ;
-        y 88,
-        
-    }
-} */
 /* Elden Ring */
 .ammunition {
   background-position: 0 0;
@@ -1323,10 +1320,6 @@ yiga {
 
 .aged_ginseng {
   background-position: -0px -0px;
-}
-
-.leaflet-popup-tip {
-  background-color: hsl(var(--card)) !important;
 }
 
 @layer base {
