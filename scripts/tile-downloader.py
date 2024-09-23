@@ -1,7 +1,7 @@
 import urllib.request
 import os
 
-zoom_start = 14
+zoom_start = 16
 zoom_end = 17
 
 x_low_map = {
@@ -32,7 +32,6 @@ y_high_map = x_high_map
 
 # "fablesphere"
 regions = [ "the-shadow-lands"]
-game = ""
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
 
 for z in range(zoom_start, zoom_end+1):
@@ -40,7 +39,7 @@ for z in range(zoom_start, zoom_end+1):
         for y in range(y_low_map[z], y_high_map[z] + 1):
             for region in regions:
                 uri = "https://tiles.mapgenie.io/games/elden-ring/{region}/asdnlkkveao-v1/{z}/{x}/{y}.jpg".format(region=region, z=z, x=x, y=y)
-                directory = '{dir}/elden-ring/{region}/{z}/{y}'.format(game=game, dir=dir_name, region=region, z=z, y=y)
+                directory = '{dir}/elden-ring/{region}/{z}/{y}'.format(dir=dir_name, region=region, z=z, y=y)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)

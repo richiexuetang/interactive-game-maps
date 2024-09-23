@@ -14,7 +14,6 @@ import {
   Divider,
   FormControl,
   IconButton,
-  InputLabel,
   Menu,
   MenuItem,
   Select,
@@ -258,12 +257,7 @@ export const ProgressTracker = () => {
               </Accordion>
             ))}
             <FormControl fullWidth sx={{ mt: 2, p: 2 }}>
-              <InputLabel id="category-select-label">Track category</InputLabel>
-              <Select
-                labelId="category-select-label"
-                label="Track category"
-                onChange={(e: SelectChangeEvent) => handleChange(e)}
-              >
+              <Select onChange={(e: SelectChangeEvent) => handleChange(e)}>
                 {currentGroups?.map((group) =>
                   group.categories?.map(({ id, title }) => {
                     if (

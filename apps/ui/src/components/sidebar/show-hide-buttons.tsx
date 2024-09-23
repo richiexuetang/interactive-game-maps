@@ -1,8 +1,8 @@
-import { hiddenCategoriesAtom, showMarkerAtom } from "@/store";
+import { hiddenCategoriesAtom } from "@/store";
 import { currentGroupsAtom } from "@/store/map";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",
@@ -24,7 +24,6 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 }));
 
 export const ShowHideButtons = () => {
-  const setShowMarker = useSetAtom(showMarkerAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
   const groups = useAtomValue(currentGroupsAtom);
 
