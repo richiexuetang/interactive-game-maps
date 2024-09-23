@@ -1,0 +1,14 @@
+/* black-myth-wukong */
+@font-face {
+    font-family: CrimsonPro;
+    src: url("/fonts/CrimsonPro.woff2");
+    format: ("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HyliaSerif;
+    src: url("/fonts/HyliaSerif.otf");
+    format: ("otf");
+    font-display: swap;
+}

@@ -6,7 +6,7 @@ import { useDebounceCallback } from "@/hooks/use-debounce-callback";
 import { useMap } from "react-leaflet";
 import { currentMarkersAtom, gameSlugAtom } from "@/store/map";
 import React from "react";
-import { Fab, List, Tooltip } from "@mui/material";
+import { Fab, List, Tooltip, styled } from "@mui/material";
 import Popover from "@mui/material/Popover";
 import IconButton from "@mui/material/IconButton";
 import ListItem from "@mui/material/ListItem";
@@ -18,6 +18,14 @@ import { cn } from "@/lib/utils";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import InputAdornment from "@mui/material/InputAdornment";
+
+const SideFab = styled(Fab)(() => ({
+  backgroundColor: "var(--sidebar-background-color)",
+  "&:hover": {
+    opacity: 0.8,
+    backgroundColor: "var(--sidebar-background-color)",
+  },
+}));
 
 export const MarkerSearch = () => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
@@ -63,9 +71,9 @@ export const MarkerSearch = () => {
   return (
     <div className="absolute top-20 right-2 z-[1000]">
       <Tooltip title="Search..." placement="left">
-        <Fab onClick={handleClick}>
+        <SideFab onClick={handleClick}>
           <SearchIcon className="h-5 w-5" />
-        </Fab>
+        </SideFab>
       </Tooltip>
       <Popover
         id={id}
@@ -106,7 +114,7 @@ export const MarkerSearch = () => {
                     edge="end"
                     aria-label="navigate"
                     onClick={() => {
-                      map.panTo([marker.latitude, marker.longitude]);
+                      map.setView([marker.latitude, marker.longitude], 13);
                       setTriggeredMarkerId(marker.id);
                       setShowFiltered(false);
                     }}

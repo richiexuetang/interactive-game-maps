@@ -7,11 +7,8 @@ export class MarkerCategory extends BaseModel {
   @Field()
   title: string;
 
-  @Field(() => String, { nullable: true })
-  icon?: string | null;
-
-  @Field(() => String, { nullable: true })
-  template?: string | null;
+  @Field(() => String)
+  icon: string;
 
   @Field(() => String, { nullable: true })
   info?: string | null;

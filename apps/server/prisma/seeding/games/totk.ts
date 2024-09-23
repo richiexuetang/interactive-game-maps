@@ -2,15 +2,13 @@ import { Game } from "./interface";
 
 export const totk: Game[] = [
   {
-    slug: "totk",
-    title: "Legends of Zelda: Tears of the Kingdom",
-    thumbnailUrl: "thumbnails/totk.png",
-    logo: "images/games/totk/logo-512.png",
-    previewUrl:
-      "https://cdn.mapgenie.io/images/games/zelda-tears-of-the-kingdom/preview.jpg",
-    iconUrl:
-      "https://cdn.mapgenie.io/favicons/zelda-tears-of-the-kingdom/favicon-32x32.png",
+    slug: "zelda-tears-of-the-kingdom",
+    title: "Zelda: Tears of the Kingdom",
+    minZoom: 9,
+    maxZoom: 17,
+    zoom: 10,
+    center: [0.70760348036569, -0.71764231663026],
     description:
-      "Zelda: TOTK Interactive Map - Shrines, Korok Seeds, Side Quests, Skyview Towers, Bosses, Treasure & more! Includes Sky Map, Depths Map & 100% progress tracker!",
+      "Zelda Tears of the Kingdom Interactive Map - All Hidden Collectibles, Meditation Spots, Bosses, Secret Easter Eggs, Equipment, Gourd Upgrades, Celestial Pill Locations & more! Use the progress tracker to get 100% completion!",
   },
 ];

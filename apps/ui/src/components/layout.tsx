@@ -1,6 +1,10 @@
-import clsx from "clsx";
+import theme from "@/lib/theme";
+import { ThemeProvider } from "@mui/material";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { ReactNode } from "react";
-import { ThemeProvider } from "@/components/theme-provider";
+import "@/styles/fonts.css";
+import "@/styles/globals.css";
+import "@/styles/icon.css";
 
 export function RootLayout({
   children,
@@ -9,17 +13,10 @@ export function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={clsx("min-h-screen bg-background font-sans antialiased")}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+      <body className="min-h-screen bg-black">
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>{children}</ThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );

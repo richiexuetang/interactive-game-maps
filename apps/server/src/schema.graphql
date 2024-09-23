@@ -9,7 +9,7 @@ type AppUser {
   firstName: String
   foundLocations: [Int!]
   hideFound: Boolean!
-  id: ID!
+  id: Float!
   lastName: String
   photoUrl: String
   trackingCategories: [Int!]
@@ -31,37 +31,31 @@ A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date
 scalar DateTime
 
 type Game {
+  center: [Float!]!
+
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   description: String
   groups: [MarkerGroup!]
-  iconUrl: String
-  id: ID!
-  previewUrl: String
+  id: Float!
+  maxZoom: Float!
+  minZoom: Float!
   regions: [Region!]
   slug: String!
-  thumbnailUrl: String!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-}
-
-"""Marker Location Type"""
-enum LocationType {
-  Line
-  Marker
-  Text
+  zoom: Float!
 }
 
 type MarkerCategory {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  icon: String
-  id: ID!
+  icon: String!
+  id: Float!
   info: String
   locations: [MarkerLocation!]
-  template: String
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -75,7 +69,7 @@ type MarkerGroup {
   createdAt: DateTime!
   game: Game
   gameSlug: String
-  id: ID!
+  id: Float!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -89,14 +83,14 @@ type MarkerLocation {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   description: String
-  id: ID!
+  id: Float!
   latitude: Float!
   longitude: Float!
   media: [Media!]
   region: Region
-  regionSlug: String
+  regionSlug: String!
+  subRegionSlug: String
   title: String!
-  type: LocationType
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
@@ -105,17 +99,14 @@ type MarkerLocation {
 type Media {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
-  fileName: String
-  id: ID!
+  id: Float!
   markerLocation: MarkerLocation
   markerLocationId: Float
-  mimeType: String
-  title: String!
-  type: String
+  type: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-  url: String
+  url: String!
 }
 
 type Mutation {
@@ -136,33 +127,32 @@ enum OrderDirection {
 }
 
 type Query {
+  fetchGameByRegion(slug: String!): Game!
   findRegionsByGame(orderBy: RegionOrder, slug: String!): [Region!]!
   game(slug: String!): Game!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
+  getSubRegionsByRegion(slug: String!): [SubRegion!]!
   getUser(email: String!): AppUser!
   locations(regionSlug: String): [MarkerLocation!]!
   regionDetails(slug: String!): Region!
 }
 
 type Region {
-  center: [Float!]!
-
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   gameSlug: String!
-  id: ID!
-  maxZoom: Float!
-  minZoom: Float!
+  id: Float!
+  locations: [MarkerLocation!]
   order: Float!
   slug: String!
+  subRegions: [SubRegion!]
   thumbnailUrl: String!
   tilePath: String!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-  zoom: Float!
 }
 
 input RegionOrder {
@@ -175,6 +165,21 @@ enum RegionOrderField {
   id
   order
   title
+}
+
+type SubRegion {
+  coordinates: [[[Float!]!]!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: Float!
+  locations: [MarkerLocation!]!
+  regionSlug: String!
+  slug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 input UpdateFoundLocationInput {

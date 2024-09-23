@@ -20,13 +20,13 @@ Table Game {
   id Int [pk, increment]
   slug String [unique, not null]
   title String [not null]
-  thumbnailUrl String [not null]
-  logo String [not null]
   regions Region [not null]
   groups MarkerGroup [not null]
-  previewUrl String [not null]
-  iconUrl String [not null]
   description String [not null]
+  minZoom Int [not null]
+  maxZoom Int [not null]
+  zoom Int [not null]
+  center Decimal[] [not null]
 }
 
 Table Region {
@@ -34,22 +34,28 @@ Table Region {
   slug String [unique, not null]
   title String [not null]
   thumbnailUrl String [not null]
-  minZoom Int [not null]
-  maxZoom Int [not null]
-  zoom Int [not null]
-  center Decimal[] [not null]
   tilePath String [not null]
-  Game Game [not null]
+  game Game [not null]
   gameSlug String [not null]
   locations MarkerLocation [not null]
   order Int [not null, default: 1]
+  subRegions SubRegion [not null]
+}
+
+Table SubRegion {
+  id Int [pk, increment]
+  region Region [not null]
+  regionSlug String [not null]
+  title String [not null]
+  locations MarkerLocation [not null]
+  slug String [unique, not null]
 }
 
 Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
   slug String [unique, not null]
-  Game Game [not null]
+  game Game [not null]
   gameSlug String [not null]
   categories MarkerCategory [not null]
 }
@@ -62,7 +68,6 @@ Table MarkerCategory {
   locations MarkerLocation [not null]
   groupSlug String [not null]
   markerGroup MarkerGroup [not null]
-  appUserId String
 }
 
 Table MarkerLocation {
@@ -73,29 +78,24 @@ Table MarkerLocation {
   longitude Decimal [not null]
   category MarkerCategory
   categoryId Int
-  Region Region [not null]
+  region Region [not null]
   regionSlug String [not null]
   media Media [not null]
-  type LocationType [not null, default: 'Marker']
+  subRegion SubRegion
+  subRegionSlug String
 }
 
 Table Media {
   id Int [pk, increment]
-  title String [not null]
   url String [not null]
   type String [not null]
-  mimeType String [not null]
   MarkerLocation MarkerLocation
   markerLocationId Int
 }
 
-Enum LocationType {
-  Marker
-  Text
-  Line
-}
-
 Ref: Region.gameSlug > Game.slug
+
+Ref: SubRegion.regionSlug > Region.slug
 
 Ref: MarkerGroup.gameSlug > Game.slug
 
@@ -104,5 +104,7 @@ Ref: MarkerCategory.groupSlug > MarkerGroup.slug
 Ref: MarkerLocation.categoryId > MarkerCategory.id
 
 Ref: MarkerLocation.regionSlug > Region.slug
+
+Ref: MarkerLocation.subRegionSlug > SubRegion.slug
 
 Ref: Media.markerLocationId > MarkerLocation.id

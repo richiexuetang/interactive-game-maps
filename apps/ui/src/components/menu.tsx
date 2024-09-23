@@ -1,263 +1,245 @@
+import React from "react";
 import { Region } from "@/__generated__/graphql";
-import { hiddenCategoriesAtom, hiddenGroupsAtom } from "@/store/category";
-import { showMarkerAtom } from "@/store/marker";
-import { Checkbox } from "@/components/ui/checkbox";
-import { useAtom, useAtomValue } from "jotai";
-import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
+import { hiddenCategoriesAtom } from "@/store/category";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Divider from "@mui/material/Divider";
-import React from "react";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { gameSlugAtom } from "@/store";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
-import { SelectChangeEvent } from "@mui/material/Select";
 import { useParams, useRouter } from "next/navigation";
-import { currentGroupsAtom, currentMarkersAtom } from "@/store/map";
+import {
+  currentGroupsAtom,
+  currentMarkersAtom,
+  triggerSubRegionIdAtom,
+} from "@/store/map";
 import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import { cn } from "@/lib/utils";
-import { userAtom } from "@/store/auth";
-import { useMutation } from "@apollo/client";
-import { TOGGLE_HIDE_FOUND } from "@/lib/constants";
+import Button from "@mui/material/Button";
+import { Collapse } from "@mui/material";
+import { ShowHideButtons } from "./sidebar/show-hide-buttons";
+import { SidebarClose } from "./sidebar/sidebar-close";
 
 interface MenuProps {
   regions: Region[];
+  subRegions: any[];
 }
+
+const UnderlineButton = styled(Button)(({ theme }) => ({
+  boxShadow: "none",
+  borderRadius: theme.shape.borderRadius,
+  backgroundColor: "none",
+  borderColor: "none",
+  color: theme.palette.text.secondary,
+  "&:hover": {
+    backgroundColor: theme.palette.grey[900],
+    borderColor: "#0062cc",
+    boxShadow: "none",
+  },
+  "&:active": {
+    boxShadow: "none",
+    backgroundColor: "#0062cc",
+    borderColor: "#005cbf",
+  },
+}));
+
+const SidebarDivider = styled(Divider)(() => ({
+  borderColor: "var(--border-color)",
+}));
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(1),
+  color: "var(--text-color)",
   display: "flex",
   width: "100%",
   justifyContent: "space-between",
-  color: theme.palette.text.secondary,
   "&:hover": {
     opacity: 0.8,
   },
 }));
 
-export const Menu = ({ regions }: MenuProps) => {
+export const Menu = ({ regions, subRegions }: MenuProps) => {
+  const router = useRouter();
   const params = useParams<{ slug: string }>();
-  const [collapseMenu, setCollapseMenu] = useState(false);
+
+  const [showMenu, setShowMenu] = useState(true);
   const groups = useAtomValue(currentGroupsAtom);
   const markers = useAtomValue(currentMarkersAtom);
-
-  const router = useRouter();
   const gameSlug = useAtomValue(gameSlugAtom);
-  const [showMarker, setShowMarker] = useAtom(showMarkerAtom);
+  const setSubRegionId = useSetAtom(triggerSubRegionIdAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-  const [hiddenGroups, setHiddenGroups] = useAtom(hiddenGroupsAtom);
-  const [appUser, setAppUser] = useAtom(userAtom);
 
-  const [toggleHideFound] = useMutation(TOGGLE_HIDE_FOUND);
-
-  const toggleShowMarker = () => {
-    if (!showMarker) {
-      setHiddenCategories([]);
-    } else {
-      groups?.map((group) => {
-        group.categories?.map((category) => {
-          setHiddenCategories((prev) => [...prev, category.id]);
-        });
-      });
-    }
-    setShowMarker(!showMarker);
-  };
-
-  const handleHiddenCategory = (category: string) => {
-    if (hiddenCategories.includes(category)) {
-      setHiddenCategories(
-        hiddenCategories.filter((category) => category != category)
+  const handleHiddenCategory = (categoryId: number) => {
+    if (hiddenCategories.includes(categoryId)) {
+      const newHidden = hiddenCategories.filter(
+        (category) => category != categoryId
       );
+      setHiddenCategories([...newHidden]);
     } else {
-      setHiddenCategories((prev) => [...prev, category]);
+      setHiddenCategories((prev) => [...prev, categoryId]);
     }
   };
 
-  const toggleHideShowGroup = (groupId: string) => {
+  const handleGroupHide = (groupId: number) => {
     const group = groups?.find((group) => group.id === groupId);
-    const groupCategories = group?.categories?.map((category) => category.id);
-    if (hiddenGroups.includes(groupId)) {
-      setHiddenGroups(hiddenGroups.filter((group) => group !== groupId));
-      setHiddenCategories(
-        hiddenCategories.filter(
-          (category) => !groupCategories?.includes(category)
-        )
-      );
-    } else {
-      setHiddenGroups((prev) => [...prev, groupId]);
-      groupCategories?.map((category) =>
-        setHiddenCategories((prev) => [...prev, category])
-      );
-    }
-  };
-  const ChevronIcon = collapseMenu ? ChevronRightIcon : ChevronLeftIcon;
-  const chevronText = collapseMenu ? "Expand" : "Collapse";
+    const categories = group?.categories;
 
-  const handleChange = (event: SelectChangeEvent) => {
-    router.push(`/map/${event.target.value}`);
-  };
+    let count = 0;
+    categories?.map((category) => {
+      if (hiddenCategories.includes(category.id)) {
+        count++;
+      }
+    });
 
-  const handleHideFound = () => {
-    if (appUser?.email) {
-      const hide = !appUser.hideFound;
-      toggleHideFound({
-        variables: { data: { email: appUser.email, hide } },
+    if (count !== categories?.length! || count == 0) {
+      categories?.map((category) => {
+        if (!hiddenCategories.includes(category.id)) {
+          setHiddenCategories((prev) => [...prev, category.id]);
+        }
       });
-      setAppUser({ ...appUser, hideFound: hide });
+    } else {
+      categories?.map((category) => {
+        if (hiddenCategories.includes(category.id)) {
+          setHiddenCategories((prev) => prev.filter((c) => c !== category.id));
+        }
+      });
     }
   };
 
   return (
     <>
-      <div
-        className={cn(
-          "absolute z-[1000] top-20 bg-neutral-500 h-12 transition-all duration-200 opacity-100 border-1 border-l-0",
-          !collapseMenu && "left-96"
-        )}
-      >
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger>
-              <ChevronIcon
-                onClick={() => setCollapseMenu(!collapseMenu)}
-                className="mt-3 w-6 h-6 cursor-pointer"
-              />
-            </TooltipTrigger>
-            <TooltipContent>{chevronText}</TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
-      </div>
-      {!collapseMenu && (
-        <div className="overflow-y-scroll absolute left-0 z-[499] w-96 transition-transform bg-neutral-600 h-full">
-          <div className="relative flex flex-col p-5 gap-4 items-center">
-            <Link href={`/region/${gameSlug}`}>
-              <Image
-                src={`/images/games/${gameSlug}/logo-512.png`}
-                width="360"
-                height="70"
-                alt="sidebar logo"
-                className="cursor-pointer"
-                priority
-              />
-            </Link>
-            <Divider orientation="horizontal" flexItem />
+      <SidebarClose showMenu={showMenu} setShowMenu={setShowMenu} />
 
-            <FormControl fullWidth>
-              <Select
-                value={params.slug || "chapter-1"}
-                onChange={handleChange}
+      {showMenu && (
+        <Collapse in={showMenu} orientation="horizontal">
+          <Paper className="overflow-y-scroll absolute left-0 z-[499] w-96 h-full !bg-sidebarBackground">
+            <div className="relative flex flex-col p-5 gap-4 items-center">
+              <Link href={`/region/${gameSlug}`}>
+                <Image
+                  src={`/images/games/${gameSlug}/logo-512.png`}
+                  width="360"
+                  height="70"
+                  alt="sidebar logo"
+                  className="cursor-pointer"
+                  priority
+                />
+              </Link>
+              <h1 className="text-accent">
+                {gameSlug?.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
+              </h1>
+              <SidebarDivider orientation="horizontal" flexItem />
+
+              <FormControl fullWidth>
+                <Select
+                  value={params.slug}
+                  onChange={(event) =>
+                    router.push(`/map/${event.target.value}`)
+                  }
+                >
+                  {regions?.map((region, index) => (
+                    <MenuItem key={`${region}${index}`} value={region.slug}>
+                      {region.title}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+
+              <SidebarDivider orientation="horizontal" flexItem />
+              <Grid
+                container
+                spacing={1}
+                justifyContent="center"
+                alignContent="center"
               >
-                {regions?.map((region, index) => (
-                  <MenuItem key={`${region}${index}`} value={region.slug}>
-                    {region.title}
-                  </MenuItem>
+                {subRegions?.map((region) => (
+                  <div key={region.title} className="flex flex-start">
+                    <UnderlineButton
+                      onClick={() => setSubRegionId(region.title)}
+                      sx={{ fontSize: 12, whiteSpace: "nowrap" }}
+                      variant="text"
+                    >
+                      {region.title}
+                    </UnderlineButton>
+                  </div>
                 ))}
-              </Select>
-            </FormControl>
+              </Grid>
+              <SidebarDivider orientation="horizontal" flexItem />
 
-            <Divider orientation="horizontal" flexItem />
+              <ShowHideButtons />
 
-            <div className="flex gap-5">
-              <div className="flex gap-2 align-middle contents-center">
-                <Checkbox
-                  id="hideShowCheckbox"
-                  checked={!showMarker}
-                  onCheckedChange={toggleShowMarker}
-                />
-                <label htmlFor="hideShowCheckbox" className="-mt-1">
-                  Hide All
-                </label>
-              </div>
-              <div className="flex gap-2 align-middle contents-center">
-                <Checkbox
-                  id="showFoundCheckbox"
-                  checked={appUser?.hideFound}
-                  onCheckedChange={handleHideFound}
-                />
-                <label htmlFor="showFoundCheckbox" className="-mt-1">
-                  Hide Found
-                </label>
-              </div>
+              <SidebarDivider orientation="horizontal" flexItem />
+
+              {groups?.map((group, index) => {
+                const counts: any = {};
+                group.categories?.map((category) => {
+                  const count = markers?.filter(
+                    ({ categoryId }) => categoryId == category.id
+                  ).length;
+                  counts[`${category.title}`] = count;
+                });
+
+                const sumValues = Object.values(counts).reduce(
+                  (a: any, b: any) => a + b,
+                  0
+                );
+
+                if (sumValues === 0) return null;
+
+                return (
+                  <React.Fragment key={`${group.id}_${index}`}>
+                    <h1
+                      className="text-lg uppercase w-full text-text cursor-pointer"
+                      onClick={() => handleGroupHide(group.id)}
+                    >
+                      {group.title}
+                    </h1>
+                    <Grid container spacing={1} sx={{ minWidth: 350 }}>
+                      {group.categories?.map((category) => {
+                        const count = markers?.filter(
+                          ({ categoryId }) => categoryId === category.id
+                        ).length;
+
+                        if (count === 0) return null;
+                        return (
+                          <Grid
+                            size={6}
+                            key={category.title}
+                            className={cn(
+                              "cursor-pointer",
+                              hiddenCategories.includes(category.id) &&
+                                "line-through"
+                            )}
+                          >
+                            <Item
+                              variant="outlined"
+                              onClick={() => handleHiddenCategory(category.id)}
+                            >
+                              <span
+                                className={cn(
+                                  `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
+                                )}
+                              />
+                              <span className="text-sm text-ellipsis whitespace-nowrap">
+                                {category.title}
+                              </span>
+                              <span className="text-sm"> {" " + count}</span>
+                            </Item>
+                          </Grid>
+                        );
+                      })}
+                    </Grid>
+                  </React.Fragment>
+                );
+              })}
             </div>
-
-            <Divider orientation="horizontal" flexItem />
-
-            {groups?.map((group, index) => {
-              const counts: any = {};
-              group.categories?.map((category) => {
-                const count = markers?.filter(
-                  ({ categoryId }) => categoryId == parseInt(category.id)
-                ).length;
-                counts[`${category.title}`] = count;
-              });
-
-              const sumValues = Object.values(counts).reduce(
-                (a: any, b: any) => a + b,
-                0
-              );
-
-              if (sumValues === 0) return null;
-
-              return (
-                <React.Fragment key={`${group.id}_${index}`}>
-                  <h1
-                    className={cn(
-                      "text-lg uppercase w-full cursor-pointer",
-                      hiddenGroups.includes(group.id) && "line-through"
-                    )}
-                    onClick={() => toggleHideShowGroup(group.id)}
-                  >
-                    {group.title}
-                  </h1>
-                  <Grid container spacing={1} sx={{ minWidth: 350 }}>
-                    {group.categories?.map((category) => {
-                      const count = markers?.filter(
-                        ({ categoryId }) => categoryId == parseInt(category.id)
-                      ).length;
-
-                      if (count === 0) return null;
-                      return (
-                        <Grid
-                          size={6}
-                          key={category.title}
-                          className={cn(
-                            "cursor-pointer",
-                            hiddenCategories.includes(category.id) &&
-                              "line-through"
-                          )}
-                          onClick={() => handleHiddenCategory(category.id)}
-                        >
-                          <Item>
-                            <span
-                              className={cn(
-                                `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
-                              )}
-                            />
-                            <span className="text-sm text-ellipsis whitespace-nowrap">
-                              {category.title}
-                            </span>
-                            <span className="text-sm"> {" " + count}</span>
-                          </Item>
-                        </Grid>
-                      );
-                    })}
-                  </Grid>
-                </React.Fragment>
-              );
-            })}
-          </div>
-        </div>
+          </Paper>
+        </Collapse>
       )}
     </>
   );

@@ -1,14 +1,10 @@
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import CardActionArea from "@mui/material/CardActionArea";
 import Link from "next/link";
-import {
-  CardTitle,
-  CardDescription,
-  CardContent,
-  CardHeader,
-  Card,
-  CardFooter,
-} from "./ui/card";
-import Image from "next/image";
-import { Button } from "./ui/button";
 
 interface ImageCardProps {
   imageSrc: string;
@@ -18,24 +14,22 @@ interface ImageCardProps {
 
 export const ImageCard = ({ imageSrc, href, content }: ImageCardProps) => {
   return (
-    <Card>
-      <CardContent className="p-0">
-        <Link href={href} className="flex flex-col items-center">
-          <Image
-            src={imageSrc}
-            width={360}
-            height={202.5}
-            alt={imageSrc}
-            className="w-auto h-full"
-            priority
+    <Link href={href}>
+      <Card sx={{ maxWidth: 345 }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image={imageSrc}
+            alt={content}
           />
-          <div className="">
-            <Button variant="link" className="py-8">
+          <CardContent>
+            <Typography variant="h5" component="div">
               {content}
-            </Button>
-          </div>
-        </Link>
-      </CardContent>
-    </Card>
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </Link>
   );
 };

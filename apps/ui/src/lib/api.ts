@@ -5,13 +5,13 @@ import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
-  FETCH_GROUPS_BY_GAME_SLUG,
+  FETCH_GAME_REGION_DETAILS,
   FETCH_REGION_BY_GAME,
   FETCH_REGION_DETAILS,
-  FETCH_REGION_MARKERS,
   GET_APP_USER,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/constants";
+import { Region } from "@/__generated__/graphql";
 
 export async function addToUserFound(input: {
   email: string;
@@ -44,6 +44,51 @@ export async function getRegionDetails(slug: string) {
   });
 
   return data.regionDetails;
+}
+
+export async function fetchGameRegionDetails(slug: string) {
+  const { data } = await getClient().query({
+    query: FETCH_GAME_REGION_DETAILS,
+    variables: { slug },
+  });
+
+  const details = data.fetchGameByRegion;
+  const region = details.regions?.find((r: Region) => r.slug === slug);
+  const otherRegions = details.regions?.filter((r: Region) => r.slug !== slug);
+
+  const groups = details.groups;
+  const processedGroups = [];
+
+  for (let i = 0; i < groups.length; i++) {
+    const categories = groups[i].categories;
+    const processedCategories = [];
+    for (let j = 0; j < categories.length; j++) {
+      const processedInfo = await remark()
+        .use(html)
+        .process(categories?.info ?? "");
+      processedCategories.push({
+        ...categories[j],
+        info: processedInfo.toString(),
+      });
+    }
+    processedGroups.push({ ...groups[i], categories: processedCategories });
+  }
+
+  const processedLocations = [];
+  for (let i = 0; i < region.locations.length; i++) {
+    const curr = region.locations[i];
+    const processedDesc = await remark()
+      .use(html)
+      .process(curr?.description ?? "");
+    const location = { ...curr, description: processedDesc.toString() };
+    processedLocations.push(location);
+  }
+
+  return {
+    ...details,
+    regions: [...otherRegions, { ...region, locations: processedLocations }],
+    groups: processedGroups,
+  };
 }
 
 export async function getAppUser(email: string) {
@@ -89,46 +134,4 @@ export async function getRegionsByGame(slug: string) {
   });
 
   return data.findRegionsByGame;
-}
-
-export async function getGroupDetails(slug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_GROUPS_BY_GAME_SLUG,
-    variables: { slug },
-  });
-
-  const groups = data.getGroupsByGameSlug;
-
-  return groups;
-}
-
-export async function getMarkerLocations(regionSlug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_REGION_MARKERS,
-    variables: { regionSlug },
-  });
-
-  const markers = data.locations;
-
-  const processedMarkers = [];
-  for (let i = 0; i < markers.length; i++) {
-    const category = markers[i].category;
-    if (!category) {
-      processedMarkers.push(markers[i]);
-    } else {
-      const processedInfo = await remark().use(html).process(category.info);
-
-      const processedDescription = await remark()
-        .use(html)
-        .process(markers[i].description);
-
-      processedMarkers.push({
-        ...markers[i],
-        description: processedDescription.toString(),
-        category: { ...category, info: processedInfo.toString() },
-      });
-    }
-  }
-
-  return processedMarkers;
 }

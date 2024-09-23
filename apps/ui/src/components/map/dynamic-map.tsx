@@ -1,11 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
-import Leaflet from "leaflet";
-import * as ReactLeaflet from "react-leaflet";
+import * as RL from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "@/leaflet/smooth-wheel-zoom";
-import { MarkerGroup, MarkerLocation, Region } from "@/__generated__/graphql";
+import "@/lib/leaflet/smooth-wheel-zoom";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
 import { UserAvatar } from "../user-avatar";
@@ -22,22 +20,19 @@ import {
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
 import { useQuery } from "@apollo/client";
-import { GET_APP_USER } from "@/lib/constants";
+import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
-
-const { MapContainer } = ReactLeaflet;
+import { SubRegion } from "../layers/sub-region";
+import { TestMarker } from "../markers/test-marker";
 
 interface MapProps {
-  region: Region;
-  markers: MarkerLocation[];
+  region: any;
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  groups: MarkerGroup[];
-  regions: Region[];
+  regionData: any;
 }
 
-const Map = ({ region, markers, user, groups, regions }: MapProps) => {
-  // eslint-disable-next-line no-unused-vars
-  const { tilePath, gameSlug, id, slug, thumbnailUrl, ...rest } = region;
+const Map = ({ region, user, regionData }: MapProps) => {
+  const { zoom, minZoom, maxZoom, center } = regionData;
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -47,6 +42,9 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
 
   const { data: userData } = useQuery(GET_APP_USER, {
     variables: { email: user?.email },
+  });
+  const { data: subRegionData } = useQuery(GET_SUB_REGIONS, {
+    variables: { slug: region?.slug ?? "" },
   });
 
   useEffect(() => {
@@ -59,62 +57,67 @@ const Map = ({ region, markers, user, groups, regions }: MapProps) => {
   }, [userData, appUser, setAppUser]);
 
   useEffect(() => {
-    if (!game || game !== gameSlug) {
-      setGame(gameSlug);
+    if (!game || game !== regionData.slug) {
+      setGame(regionData.slug);
     }
-  }, [game, gameSlug, setGame]);
+  }, [game, regionData.slug, setGame]);
 
   useEffect(() => {
     if (!currentRegion || currentRegion.id !== region.id) {
       setCurrentRegion(region);
-      setCurrentMarkers([...markers]);
-      setCurrentGroups([...groups]);
+      setCurrentMarkers([...region.locations]);
+      setCurrentGroups([...regionData.groups]);
     }
   }, [
     currentRegion,
-    groups,
-    markers,
     region,
+    regionData.groups,
     setCurrentGroups,
     setCurrentMarkers,
     setCurrentRegion,
   ]);
 
-  useEffect(() => {
-    (async function init() {
-      Leaflet.Icon.Default.mergeOptions({
-        iconRetinaUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon-2x.png`,
-        iconUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-icon.png`,
-        shadowUrl: `${process.env.NEXT_PUBLIC_CDN_URL}leaflet/marker-shadow.png`,
-      });
-    })();
-  }, []);
-
   return (
     <div
       className={cn(
-        getFontClassName(gameSlug),
-        "h-[calc(100vh-1rem)] overflow-hidden"
+        getFontClassName(regionData.slug),
+        "h-[calc(100vh-1rem)] bg-black",
+        regionData.slug
       )}
     >
-      <Menu regions={regions} />
-      <MapContainer
-        {...rest}
+      <Menu
+        regions={regionData.regions}
+        subRegions={subRegionData?.getSubRegionsByRegion}
+      />
+      <RL.MapContainer
+        preferCanvas={true}
+        zoom={zoom}
+        minZoom={minZoom}
+        maxZoom={maxZoom}
+        center={center}
         attributionControl={false}
         zoomControl={false}
         scrollWheelZoom={false}
         // @ts-ignore
         smoothWheelZoom={true}
         smoothSensitivity={15}
-        className="w-full h-full !bg-accent"
+        className="w-full h-full"
       >
-        <ReactLeaflet.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${tilePath}/{z}/{y}/{x}.jpg`}
+        <RL.TileLayer
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region.tilePath}/{z}/{y}/{x}.jpg`}
         />
-        <MarkerRenderer user={user!} />
+        <MarkerRenderer />
         <MarkerSearch />
+        <TestMarker center={[0.59766929759525, -0.86262242317486]} />
         <ProgressTracker />
-      </MapContainer>
+        {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
+          <SubRegion
+            key={sub.title}
+            positions={sub.coordinates}
+            id={sub.title}
+          />
+        ))}
+      </RL.MapContainer>
       {user?.email && (
         <div className="z-[1000] absolute top-2 right-2">
           <UserAvatar

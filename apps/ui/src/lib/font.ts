@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 export const hyliaRegular = localFont({
   src: [
     {
-      path: "../../public/fonts/HyliaSerifBeta-Regular.otf",
+      path: "../../public/fonts/HyliaSerif.otf",
       weight: "500",
       style: "normal",
     },
@@ -46,7 +46,7 @@ export const mantiniaRegular = localFont({
 
 export const getFontClassName = (font: any) => {
   switch (font) {
-    case "totk":
+    case "zelda-tears-of-the-kingdom":
       return hyliaRegular.className;
     case "witcher-3":
       return masonRegular.className;

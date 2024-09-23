@@ -1,0 +1,1369 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+  width: 33px;
+  height: 44px;
+  background-color: transparent !important;
+}
+
+.black-myth-wukong {
+  background: url(/markers/black-myth-wukong.png);
+}
+
+.zelda-tears-of-the-kingdom {
+  background: url(/markers/zelda-tears-of-the-kingdom.png);
+}
+
+.witcher-3 {
+  background: url(/markers/witcher-3.png);
+}
+
+.elden-ring {
+  background: url(/markers/elden-ring.png);
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+  width: 33px;
+  height: 44px;
+  background-color: transparent !important;
+}
+
+.map-label {
+  white-space: pre;
+  font-size: large;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  top: 18px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.leaflet-popup-content {
+  margin-bottom: 0 !important;
+}
+
+.leaflet-container {
+  background-color: black !important;
+}
+
+.leaflet-div-icon {
+  background: none !important;
+  border: none !important;
+}
+
+.leaflet-popup-content ul {
+  list-style: circle;
+}
+
+.leaflet-popup-content li {
+  margin-left: 10px;
+}
+
+.leaflet-popup-content p {
+  margin: 8px 0 !important;
+}
+
+.leaflet-popup-tip {
+  background-color: var(--ritcher-palette-background-paper) !important;
+  box-shadow: none !important;
+}
+
+/*  Witcher 3 */
+.abandoned_site {
+  background-position: 0 0;
+}
+
+.bandit_camp {
+  background-position: -132px -0px;
+
+}
+
+.contract {
+  background-position: -66px -44px;
+
+}
+
+.entrance {
+  background-position: -132px -44px;
+
+}
+
+.guarded_treasure {
+  background-position: -231px -44px;
+}
+
+.hanse_base {
+  background-position: -132px -86px;
+}
+
+.harbor {
+  background-position: -165px -86px;
+}
+
+.knight_in_distress {
+  background-position: -66px -132px;
+}
+
+.lebioda_monument {
+  background-position: -99px -132px;
+}
+
+.magic_lamp {
+  background-position: -132px -132px;
+}
+
+.monster_den {
+  background-position: -231px -132px;
+}
+
+.monster_nest {
+  background-position: 0 -176px;
+}
+
+.notice_board {
+  background-position: -66px -176px;
+}
+
+.person_in_distress {
+  background-position: -165px -176px;
+}
+
+.place_of_power {
+  background-position: -198px -176px;
+}
+
+.point_of_interest {
+  background-position: -231px -176px;
+}
+
+.portal {
+  background-position: 0 -220px;
+}
+
+.signal_fire {
+  background-position: -231px -220px;
+}
+
+.signpost {
+  background-position: 0 -264px;
+}
+
+.smugglers_cache {
+  background-position: -33px -264px;
+}
+
+.spoils_of_war {
+  background-position: -66px -264px;
+}
+
+.stash {
+  background-position: -99px -264px;
+}
+
+.vineyard_infestation {
+  background-position: -165px -264px;
+}
+
+.vinters_contract {
+  background-position: -198px -264px;
+}
+
+.alchemy_supplies {
+  background-position: -33px -0px;
+}
+
+.armorer {
+  background-position: -66px -0px;
+}
+
+.armorers_table {
+  background-position: -99px -0px;
+}
+
+.barber {
+  background-position: -165px -0px;
+}
+
+.blacksmith {
+  background-position: -198px -0px;
+
+}
+
+.brothel {
+  background-position: 0 -44px;
+}
+
+.dye_merchant {
+  background-position: -99px -44px;
+}
+
+.grindstone {
+  background-position: -198px -44px;
+}
+
+.gwent_merchant {
+  background-position: -33px -86px;
+}
+
+.gwent_player {
+  background-position: -66px -86px;
+}
+
+.herbalist {
+  background-position: -198px -86px;
+}
+
+.innkeep {
+  background-position: -33px -132px;
+}
+
+.runewright {
+  background-position: -132px -220px;
+}
+
+.shopkeeper {
+  background-position: -198px -220px;
+}
+
+.fistfight {
+  background-position: -165px -44px;
+}
+
+.gwent_quest {
+  background-position: -99px -86px;
+}
+
+.hidden_treasure {
+  background-position: -231px -86px;
+}
+
+.horse_race {
+  background-position: 0 -132px;
+}
+
+.main_quest {
+  background-position: -165px -132px;
+}
+
+.secondary_quest {
+  background-position: -165px -220px;
+}
+
+.treasure_chest {
+  background-position: -132px -264px;
+}
+
+.book {
+  background-position: -231px -0px;
+}
+
+.chest {
+  background-position: -33px -44px;
+}
+
+.gwent_card {
+  background-position: 0 -86px;
+}
+
+.mutagen {
+  background-position: -33px -176px;
+}
+
+.oil {
+  background-position: -132px -176px;
+}
+
+.quest_item {
+  background-position: -33px -220px;
+}
+
+.recipe {
+  background-position: -66px -220px;
+}
+
+.relic_item {
+  background-position: -99px -220px;
+}
+
+.witcher_gear {
+  background-position: -231px -264px;
+}
+
+.miscellaneous {
+  background-position: -198px -132px;
+}
+
+.npc {
+  background-position: -99px -176px;
+}
+
+/* Tears of the kingdom */
+.area {
+  background-position: 0 0;
+}
+
+.building {
+  background-position: -264px 0;
+}
+
+.cave {
+  background-position: -330px 0;
+}
+
+.chasm {
+  background-position: 0 -44px;
+}
+
+.goddess_statue {
+  background-position: -264px -88px;
+}
+
+.blupee {
+  background-position: -165px 0;
+}
+
+.chest {
+  background-position: -33px -44px;
+}
+
+.great_fairy {
+  background-position: -297px -88px;
+}
+
+.hateno_school {
+  background-position: -363 -88px;
+}
+
+.landmark {
+  background-position: -297px -132px;
+}
+
+.lighthouse {
+  background-position: -330px -132px;
+}
+
+.lightroot {
+  background-position: -363px -132px;
+}
+
+.point_of_interest {
+  background-position: -264px -220px;
+}
+
+.province {
+  background-position: -297px -220px;
+}
+
+.settlement {
+  background-position: -132px -264px;
+}
+
+.shrine {
+  background-position: -198px -264px;
+}
+
+.skyview_tower {
+  background-position: -330px -264px;
+}
+
+
+.tech_lab {
+  background-position: -99px -313px;
+}
+
+.temple {
+  background-position: -132px -313px;
+}
+
+.zonai_survey_team_base {
+  background-position: -231px -352px;
+}
+
+.armor_shop {
+  background-position: -66px 0;
+}
+
+.bargainer_statue {
+  background-position: -132px 0;
+}
+
+
+.crystal_refinery {
+  background-position: -198px -44px;
+}
+
+.device_dispenser {
+  background-position: -231px -44px;
+}
+
+.dye_shop {
+  background-position: -330px -44px;
+}
+
+.general_store {
+  background-position: -165 -88px;
+}
+
+.hestu {
+  background-position: -33px -132px;
+}
+
+.inn {
+  background-position: -132px -132px;
+}
+
+.jewelry_shop {
+  background-position: -165 -132px;
+}
+
+.koltin {
+  background-position: -231px -132px;
+}
+
+.mini_game {
+  background-position: -231px -176px;
+}
+
+.stable {
+  background-position: -363 -264px;
+}
+
+.travelling_merchant {
+  background-position: -165 -313px
+}
+
+.schema_stone {
+  background-position: -99px -264px;
+}
+
+.dragon_tear {
+  background-position: -297px -44px;
+}
+
+.geoglyph {
+  background-position: -198px -88px;
+}
+
+.heart_container {
+  background-position: 0 -132px;
+}
+
+.key_item {
+  background-position: -198px -132px;
+}
+
+.korok_seed {
+  background-position: -264px -132px;
+}
+
+.master_sword {
+  background-position: -99px -176px;
+}
+
+.paraglider_fabric {
+  background-position: -165px -220px;
+}
+
+.sages_will {
+  background-position: -33px -264px;
+}
+
+.treasure {
+  background-position: -198px -313px
+}
+
+.yiga_schematic {
+  background-position: -66px -352px;
+}
+
+.zonai_relief {
+  background-position: -198px -352px;
+}
+
+.armor {
+  background-position: -33px 0;
+}
+
+.arrows {
+  background-position: -99px 0;
+}
+
+.elixir {
+  background-position: 0 -88px;
+}
+
+.gem {
+  background-position: -132px -88px;
+}
+
+.other_loot {
+  background-position: -132px -220px;
+}
+
+.poe {
+  background-position: -231px -220px;
+}
+
+.rupees {
+  background-position: 0 -264px;
+}
+
+.shield {
+  background-position: -165 -264px;
+}
+
+.treasure_chest {
+  background-position: -231px -313px;
+}
+
+.weapon {
+  background-position: -330px -313px;
+}
+
+.zonai_charge {
+  background-position: -132px -352px;
+}
+
+.zonai_component {
+  background-position: -165px -352px;
+}
+
+.main_quest {
+  background-position: -66px -176px;
+}
+
+.memory {
+  background-position: -198px -176px;
+}
+
+.shrine_quest {
+  background-position: -231px -264px;
+}
+
+.side_adventure {
+  background-position: -264px -264px;
+}
+
+.side_quest {
+  background-position: -297px -264px;
+}
+
+.boss {
+  background-position: -198px 0;
+}
+
+.bubbulfrog {
+  background-position: -231px 0;
+}
+
+.dragon {
+  background-position: -264px -44px;
+}
+
+.enemy_camp {
+  background-position: -33px -88px;
+}
+
+.guardian {
+  background-position: -330px -88px;
+}
+
+.frox {
+  background-position: -99px -88px;
+}
+
+.gleeok {
+  background-position: -231px -88px;
+}
+
+.hinox {
+  background-position: -66px -132px;
+}
+
+.lynel {
+  background-position: -33px -176px;
+}
+
+.miniboss {
+  background-position: -264px -176px;
+}
+
+.molduga {
+  background-position: -330px -176px;
+}
+
+.octorok {
+  background-position: -33px -220px;
+}
+
+.other_enemy {
+  background-position: -99px -220px;
+}
+
+.stalnox {
+  background-position: 0 -313px
+}
+
+.stronghold {
+  background-position: -33px -313px
+}
+
+.talus {
+  background-position: -66px -313px
+}
+
+.wizzrobe {
+  background-position: 0 -352px;
+}
+
+yiga {
+  background-position: -33px -352px;
+}
+
+.zonai {
+  background-position: -99px -352px;
+}
+
+.campfire {
+  background-position: -297px 0;
+}
+
+.cave_entrance {
+  background-position: -363 0;
+}
+
+.cooking_pot {
+  background-position: -66px -44px;
+}
+
+.cracked_wall {
+  background-position: -99px -44px;
+}
+
+.easter_egg {
+  background-position: -363 -44px;
+}
+
+.falling_platform {
+  background-position: -66px -88px;
+}
+
+.hudson_sign {
+  background-position: -99px -132px;
+}
+
+.lore {
+  background-position: 0 -176px;
+}
+
+.mechanism {
+  background-position: -165px -176px;
+}
+
+.miscellaneous {
+  background-position: -297px -176px;
+}
+
+.npc {
+  background-position: 0 -220px;
+}
+
+.puzzle_piece {
+  background-position: -330px -220px;
+}
+
+.quest_objective {
+  background-position: -363 -220px;
+}
+
+.satori_tree {
+  background-position: -66px -264px;
+}
+
+.unique_horse {
+  background-position: -264px -313px
+}
+
+.vehicle {
+  background-position: -297px -313px
+}
+
+.well {
+  background-position: -363 -313px
+}
+
+.ore_deposit {
+  background-position: -66px -220px;
+}
+
+.material {
+  background-position: -132px -176px;
+}
+
+.mushroom {
+  background-position: -363 -176px;
+}
+
+.placeholder {
+  background-position: -198px -220px;
+}
+
+.creature {
+  background-position: -132px -44px;
+}
+
+/* Elden Ring */
+.ammunition {
+  background-position: 0 0;
+}
+
+.ancient_smithing_stone {
+  background-position: -33px 0;
+}
+
+.armor {
+  background-position: -66px 0;
+}
+
+.ash_of_war {
+  background-position: -99px 0;
+}
+
+.bell_bearing {
+  background-position: -132px 0;
+}
+
+.birdseye_telescope {
+  background-position: -165px 0;
+}
+
+.boss {
+  background-position: -198px 0;
+}
+
+.cerulean_scarab {
+  background-position: -231px 0;
+}
+
+.character {
+  background-position: -264px 0;
+}
+
+.consumable {
+  background-position: -297px 0;
+}
+
+.cookbook {
+  background-position: -330px 0;
+}
+
+.cracked_pot {
+  background-position: 0 -44px;
+}
+
+.crafting_material {
+  background-position: -33px -44px;
+}
+
+.crystal_tear {
+  background-position: -66px -44px;
+}
+
+.deathroot {
+  background-position: -99px -44px;
+}
+
+.demigod {
+  background-position: -132px -44px;
+}
+
+.divine_tower {
+  background-position: -165px -44px;
+}
+
+.dragon_heart {
+  background-position: -198px -44px;
+}
+
+.dragon_shrine {
+  background-position: -231px -44px;
+}
+
+.dungeon {
+  background-position: -264px -44px;
+}
+
+.easter_egg {
+  background-position: -297px -44px;
+}
+
+.elevator {
+  background-position: -330px -44px;
+}
+
+.elite_enemy {
+  background-position: 0 -88px;
+}
+
+.enemy {
+  background-position: -33px -88px;
+}
+
+.evergaol {
+  background-position: -66px -88px;
+}
+
+.gesture {
+  background-position: -99px -88px;
+}
+
+.ghost {
+  background-position: -132px -88px;
+}
+
+.ghost_glovewort {
+  background-position: -165px -88px;
+}
+
+.glovewort {
+  background-position: -198px -88px;
+}
+
+.golden_rune {
+  background-position: -231px -88px;
+}
+
+.golden_seed {
+  background-position: -264px -88px;
+}
+
+.great_boss {
+  background-position: -297px -88px;
+}
+
+.great_glovewort {
+  background-position: -330px -88px;
+}
+
+.great_rune {
+  background-position: 0 -132px;
+}
+
+.guiding_statue {
+  background-position: -33px -132px;
+}
+
+.hidden_passage {
+  background-position: -66px -132px;
+}
+
+.imp_seal_statue {
+  background-position: -99px -132px;
+}
+
+.incantation {
+  background-position: -132px -132px;
+}
+
+.invasion {
+  background-position: -165px -132px;
+}
+
+.item {
+  background-position: -198px -132px;
+}
+
+.key_item {
+  background-position: -231px -132px;
+}
+
+.landmark {
+  background-position: -264px -132px;
+}
+
+.legacy_dungeon {
+  background-position: -297px -132px;
+}
+
+.lore {
+  background-position: -330px -132px;
+}
+
+.map_fragment {
+  background-position: 0 -176px;
+}
+
+.martyr_effigy {
+  background-position: -33px -176px;
+}
+
+.memory_stone {
+  background-position: -66px -176px;
+}
+
+.merchant {
+  background-position: -99px -176px;
+}
+
+.minor_erdtree {
+  background-position: -132px -176px;
+}
+
+.miquellas_cross {
+  background-position: -165px -176px;
+}
+
+.miquellas_lilly {
+  background-position: -198px -176px;
+}
+
+.miscellaneous {
+  background-position: -231px -176px;
+}
+
+.multiplayer_item {
+  background-position: -264px -176px;
+}
+
+.n_lily {
+  background-position: -297px -176px;
+}
+
+.painting {
+  background-position: -330px -176px;
+}
+
+.perfume_bottle {
+  background-position: 0 -220px;
+}
+
+.portal {
+  background-position: -33px -220px;
+}
+
+.puzzle {
+  background-position: -66px -220px;
+}
+
+.quest {
+  background-position: -99px -220px;
+}
+
+.rebirth_monument {
+  background-position: -132px -220px;
+}
+
+.remembrance {
+  background-position: -165px -220px;
+}
+
+.revered_spirit_ash {
+  background-position: -198px -220px;
+}
+
+.ritual_pot {
+  background-position: -231px -220px;
+}
+
+.ruin_fragment {
+  background-position: -264px -220px;
+}
+
+.rune_arc {
+  background-position: -297px -220px;
+}
+
+.sacramental_bud {
+  background-position: -330px -220px;
+}
+
+.sacred_tear {
+  background-position: 0 -264px;
+}
+
+.scadutree_fragment {
+  background-position: -33px -264px;
+}
+
+.scadutree_fragment {
+  background-position: -66px -264px;
+}
+
+.shield {
+  background-position: -99px -264px;
+}
+
+.site_of_grace {
+  background-position: -132px -264px;
+}
+
+.slumbering_egg {
+  background-position: -165px -264px;
+}
+
+.smithing_stone {
+  background-position: -198px -264px;
+}
+
+.somber_smithing_stone {
+  background-position: -231px -264px;
+}
+
+.sorcery {
+  background-position: -264px -264px;
+}
+
+.spellbook {
+  background-position: -297px -264px;
+}
+
+.spirit_ashes {
+  background-position: -330px -264px;
+}
+
+
+.spiritspring_jump {
+  background-position: 0 -308px;
+}
+
+.stake_of_marika {
+  background-position: -33px -308px;
+}
+
+.stone_cairn {
+  background-position: -66px -308px;
+}
+
+.stonesword_key {
+  background-position: -99px -308px;
+}
+
+.summoning_sigil {
+  background-position: -132px -308px;
+}
+
+.talisman {
+  background-position: -165px -308px;
+}
+
+.talisman_pouch {
+  background-position: -198px -308px;
+}
+
+.teardrop_scarab {
+  background-position: -231px -308px;
+}
+
+.tool {
+  background-position: -264px -308px;
+}
+
+.trainer {
+  background-position: -297px -308px;
+}
+
+.trinas_lilly {
+  background-position: -330px -308px;
+}
+
+
+.wandering_mausoleum {
+  background-position: 0 -352px;
+}
+
+.weapon {
+  background-position: -33px -352px;
+}
+
+.whetblade {
+  background-position: -66px -352px;
+}
+
+.aged_ginseng,
+.celestial_pear,
+.fire_bellflower,
+.fragrant_jade_flower,
+.jade_lotus,
+.gentian,
+.licorice {
+  background-position: 0 0;
+}
+
+.armor {
+  background-position: -33px 0;
+}
+
+.awaken_wine_worm {
+  background-position: -66px 0;
+}
+
+.character {
+  background-position: -165px 0;
+}
+
+.chest {
+  background-position: -198px 0px;
+}
+
+.consumable {
+  background-position: -231px 0px;
+}
+
+.curio {
+  background-position: 0 -44px;
+}
+
+.drink {
+  background-position: -33px -44px;
+}
+
+.elite_lesser_yaoguai {
+  background-position: -99px -44px;
+}
+
+.formula {
+  background-position: -165px -44px;
+}
+
+.item {
+  background-position: -33px -88px;
+}
+
+.keeper_shrine {
+  background-position: -99px -88px;
+}
+
+.meditation_spot {
+  background-position: -66px -132px;
+}
+
+.easter_egg {
+  background-position: -66px -44px;
+}
+
+.will {
+  background-position: -99px -264px;
+}
+
+.spell {
+  background-position: -99px -220px;
+}
+
+.yaoguai_chief {
+  background-position: -132px -264px;
+}
+
+.lesser_yaoguai {
+  background-position: -165px -88px;
+}
+
+.npc {
+  background-position: -198px -132px;
+}
+
+.location {
+  background-position: -231px -88px;
+}
+
+.spirit {
+  background-position: -132px -220px;
+}
+
+.valuable {
+  background-position: -0px -264px;
+}
+
+.point_of_interest {
+  background-position: -132px -176px;
+}
+
+.celestial_pill {
+  background-position: -132px -0px;
+}
+
+.gourd {
+  background-position: -0px -88px;
+}
+
+.key_item {
+  background-position: -132px -88px;
+}
+
+.luojia_fragrant_vine {
+  background-position: -0px -132px;
+}
+
+.seeds {
+  background-position: -198px -176px;
+}
+
+.soak {
+  background-position: -66px -220px;
+}
+
+.talisman {
+  background-position: -165px -220px;
+}
+
+.transformation_spell {
+  background-position: -198px -220px;
+}
+
+.vessel {
+  background-position: -33px -264px;
+}
+
+.weapon {
+  background-position: -66px -264px;
+}
+
+.yaoguai_king {
+  background-position: -165px -264px;
+}
+
+.main_quest {
+  background-position: -33px -132px;
+}
+
+.side_quest {
+  background-position: -0px -220px;
+}
+
+.miscellaneous {
+  background-position: -132px -132px;
+}
+
+.celestial_pear {
+  background-position: -99px -0px;
+}
+
+.fire_bellflower,
+.fragrant_jade_flower,
+.millenium_ginseng,
+.nine_capped_lingzhi,
+.purple_lingzhi {
+  background-position: -165px -176px;
+}
+
+.tree_pearl {
+  background-position: -231px -220px;
+}
+
+.shen_monkey {
+  background-position: -231px -176px;
+}
+
+.aged_ginseng {
+  background-position: -0px -0px;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+
+  .elden-ring {
+    --text-color: #e4e4e5;
+  }
+
+  .zelda-tears-of-the-kingdom {
+    --text-color: #f8f6e0;
+    --accent-color: #cab586;
+    --title-font-color: var(--accent-color);
+    --border-color: var(--accent-color);
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #231d1b;
+  }
+
+  .black-myth-wukong {
+    --text-color: #deddda;
+    --accent-color: #d3c0a3;
+    --title-font-color: var(--accent-color);
+    --border-color: #757259;
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #090708;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

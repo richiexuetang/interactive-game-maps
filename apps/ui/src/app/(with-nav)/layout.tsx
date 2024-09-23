@@ -1,4 +1,3 @@
-import "../globals.css";
 import { MainNav } from "@/components/main-nav";
 import { ReactNode } from "react";
 import { RootLayout } from "@/components/layout";
@@ -25,9 +24,7 @@ export default function Layout({
   return (
     <RootLayout>
       <MainNav />
-      <div className="relative flex flex-col text-foreground bg-background">
-        {children}
-      </div>
+      {children}
     </RootLayout>
   );
 }

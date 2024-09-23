@@ -7,7 +7,6 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { ZapIcon } from "./icons/zap-icon";
-import Link from "next/link";
 
 export const MainNav = () => {
   return (

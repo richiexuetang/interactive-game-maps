@@ -1,18 +1,16 @@
 import {
   createAppUser,
+  fetchGameRegionDetails,
   getAppUser,
-  getGroupDetails,
-  getMarkerLocations,
   getMetaData,
   getRegionDetails,
 } from "@/lib/api";
 import Map from "@/components/map/map";
-import { getClient } from "@/lib/apollo-client";
-import { FETCH_GAMES } from "@/lib/constants";
-import { Game } from "@/__generated__/graphql";
+import { Region } from "@/__generated__/graphql";
 
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
+import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
   params,
@@ -22,22 +20,44 @@ export async function generateMetadata({
   const region = await getRegionDetails(params.slug);
   const game = await getMetaData(region.gameSlug);
 
-  const { title, description, previewUrl, iconUrl } = game;
+  const { title, description } = game;
   return {
     title: `${region.title} | ${title} | Ritcher Map`,
     description,
     openGraph: {
       type: "website",
-      images: [previewUrl],
+      images: [
+        process.env.CDN_BASE_URL +
+          `images/games/${region.gameSlug}/preview.png`,
+      ],
     },
-    icons: [
-      {
-        type: "image/png",
-        sizes: "32x32",
-        href: iconUrl,
-        url: iconUrl,
-      },
-    ],
+    icons: {
+      icon: [
+        {
+          type: "image/png",
+          sizes: "16x16",
+          href:
+            process.env.CDN_BASE_URL +
+            `images/games/${region.gameSlug}/favicon-16x16.png`,
+          url:
+            process.env.CDN_BASE_URL +
+            `images/games/${region.gameSlug}/favicon-16x16.png`,
+        },
+        {
+          type: "image/png",
+          sizes: "32x32",
+          href:
+            process.env.CDN_BASE_URL +
+            `images/games/${region.gameSlug}/favicon-32x32.png`,
+          url:
+            process.env.CDN_BASE_URL +
+            `images/games/${params.slug}/favicon-32x32.png`,
+        },
+      ],
+      apple:
+        process.env.CDN_BASE_URL +
+        `images/games/${params.slug}/apple-touch-icon.png`,
+    },
   };
 }
 
@@ -46,17 +66,13 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
+  revalidatePath("/map");
+  const gameRegion = await fetchGameRegionDetails(params.slug);
   const currentUser = await getCurrentUser();
-  const { data } = await getClient().query({
-    query: FETCH_GAMES,
-  });
-  const { games } = data;
-  const region = await getRegionDetails(params.slug);
-  const groupData = await getGroupDetails(region.gameSlug);
-  const markers = await getMarkerLocations(region.slug);
-  const regions = games.find(
-    (game: Game) => game.slug === region.gameSlug
-  ).regions;
+
+  const region = gameRegion.regions.find(
+    (region: Region) => region.slug === params.slug
+  );
 
   const appUser = await getAppUser(currentUser?.email ?? "");
   if (!appUser && currentUser?.email) {
@@ -73,9 +89,7 @@ export default async function MapPage({
   return (
     <Map
       region={region}
-      groups={groupData}
-      markers={markers}
-      regions={regions}
+      regionData={gameRegion}
       user={{
         email: currentUser?.email,
         photoURL: currentUser?.photoURL,

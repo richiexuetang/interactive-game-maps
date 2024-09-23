@@ -1,0 +1,1252 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../public/fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'elden-ring-icomoon';
+    src: url('../../public/fonts/elden-ring-icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "zelda-tears-of-the-kingdom-icomoon";
+    src: url('../../public/fonts/zelda-tears-of-the-kingdom-icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="black-myth-wukong-icon-"],
+[class*=" black-myth-wukong-icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="elden-ring-icon-"],
+[class*=" elden-ring-icon-"] {
+    font-family: 'elden-ring-icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+[class^="zelda-tears-of-the-kingdom-icon-"],
+[class*=" zelda-tears-of-the-kingdom-icon-"] {
+    font-family: 'zelda-tears-of-the-kingdom-icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.elden-ring-icon-whetblade:before {
+    content: "\e900";
+    color: #fff;
+}
+
+.elden-ring-icon-weapon:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.elden-ring-icon-wandering_mausoleum:before {
+    content: "\e902";
+    color: #fff;
+}
+
+.elden-ring-icon-trinas_lilly:before {
+    content: "\e903";
+    color: #fff;
+}
+
+.elden-ring-icon-transition:before {
+    content: "\e904";
+    color: #fff;
+}
+
+.elden-ring-icon-trainer:before {
+    content: "\e905";
+    color: #fff;
+}
+
+.elden-ring-icon-tool:before {
+    content: "\e906";
+    color: #fff;
+}
+
+.elden-ring-icon-teardrop_scarab:before {
+    content: "\e907";
+    color: #fff;
+}
+
+.elden-ring-icon-talisman_pouch:before {
+    content: "\e908";
+    color: #fff;
+}
+
+.elden-ring-icon-talisman:before {
+    content: "\e909";
+    color: #fff;
+}
+
+.elden-ring-icon-summoning_sigil:before {
+    content: "\e90a";
+    color: #fff;
+}
+
+.elden-ring-icon-stonesword_key:before {
+    content: "\e90b";
+    color: #fff;
+}
+
+.elden-ring-icon-stone_cairn:before {
+    content: "\e90c";
+    color: #fff;
+}
+
+.elden-ring-icon-stake_of_marika:before {
+    content: "\e90d";
+    color: #fff;
+}
+
+.elden-ring-icon-spiritspring_jump:before {
+    content: "\e90e";
+    color: #fff;
+}
+
+.elden-ring-icon-spirit_ashes:before {
+    content: "\e90f";
+    color: #fff;
+}
+
+.elden-ring-icon-spellbook:before {
+    content: "\e910";
+    color: #fff;
+}
+
+.elden-ring-icon-sorcery:before {
+    content: "\e911";
+    color: #fff;
+}
+
+.elden-ring-icon-somber_smithing_stone:before {
+    content: "\e912";
+    color: #fff;
+}
+
+.elden-ring-icon-smithing_table:before {
+    content: "\e913";
+    color: #fff;
+}
+
+.elden-ring-icon-smithing_stone:before {
+    content: "\e914";
+    color: #fff;
+}
+
+.elden-ring-icon-slumbering_egg:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.elden-ring-icon-site_of_grace:before {
+    content: "\e916";
+    color: #d2b97c;
+}
+
+.elden-ring-icon-shield:before {
+    content: "\e917";
+    color: #fff;
+}
+
+.elden-ring-icon-scadutree_fragment:before {
+    content: "\e918";
+    color: #fff;
+}
+
+.elden-ring-icon-sacred_tear:before {
+    content: "\e919";
+    color: #fff;
+}
+
+.elden-ring-icon-sacramental_bud:before {
+    content: "\e91a";
+    color: #fff;
+}
+
+.elden-ring-icon-rune_arc:before {
+    content: "\e91b";
+    color: #fff;
+}
+
+.elden-ring-icon-ruin_fragment:before {
+    content: "\e91c";
+    color: #fff;
+}
+
+.elden-ring-icon-ritual_pot:before {
+    content: "\e91d";
+    color: #fff;
+}
+
+.elden-ring-icon-revered_spirit_ash:before {
+    content: "\e91e";
+    color: #fff;
+}
+
+.elden-ring-icon-remembrance:before {
+    content: "\e91f";
+    color: #fff;
+}
+
+.elden-ring-icon-rebirth_monument:before {
+    content: "\e920";
+    color: #fff;
+}
+
+.elden-ring-icon-quest:before {
+    content: "\e921";
+    color: #fff;
+}
+
+.elden-ring-icon-puzzle:before {
+    content: "\e922";
+    color: #fff;
+}
+
+.elden-ring-icon-portal:before {
+    content: "\e923";
+    color: #fff;
+}
+
+.elden-ring-icon-perfume_bottle:before {
+    content: "\e924";
+    color: #fff;
+}
+
+.elden-ring-icon-painting:before {
+    content: "\e925";
+    color: #fff;
+}
+
+.elden-ring-icon-nascient_butterfly:before {
+    content: "\e926";
+    color: #fff;
+}
+
+.elden-ring-icon-multiplayer_item:before {
+    content: "\e927";
+    color: #fff;
+}
+
+.elden-ring-icon-miscellaneous:before {
+    content: "\e928";
+    color: #fff;
+}
+
+.elden-ring-icon-miquellas_lilly:before {
+    content: "\e929";
+    color: #fff;
+}
+
+.elden-ring-icon-miquellas_cross:before {
+    content: "\e92a";
+    color: #fff;
+}
+
+.elden-ring-icon-minor_erdtree:before {
+    content: "\e92b";
+    color: #fff;
+}
+
+.elden-ring-icon-mimics_tear:before {
+    content: "\e92c";
+    color: #fff;
+}
+
+.elden-ring-icon-merchant:before {
+    content: "\e92d";
+    color: #fff;
+}
+
+.elden-ring-icon-memory_stone:before {
+    content: "\e92e";
+    color: #fff;
+}
+
+.elden-ring-icon-martyr_effigy:before {
+    content: "\e92f";
+    color: #fff;
+}
+
+.elden-ring-icon-map_fragment:before {
+    content: "\e930";
+    color: #fff;
+}
+
+.elden-ring-icon-lore:before {
+    content: "\e931";
+    color: #fff;
+}
+
+.elden-ring-icon-location:before {
+    content: "\e932";
+    color: #fff;
+}
+
+.elden-ring-icon-legacy_dungeon:before {
+    content: "\e933";
+    color: #fff;
+}
+
+.elden-ring-icon-landmark:before {
+    content: "\e934";
+    color: #fff;
+}
+
+.elden-ring-icon-key_item:before {
+    content: "\e935";
+    color: #fff;
+}
+
+.elden-ring-icon-item:before {
+    content: "\e936";
+    color: #fff;
+}
+
+.elden-ring-icon-invasion:before {
+    content: "\e937";
+    color: #fff;
+}
+
+.elden-ring-icon-incantation:before {
+    content: "\e938";
+    color: #fff;
+}
+
+.elden-ring-icon-imp_seal_statue:before {
+    content: "\e939";
+    color: #fff;
+}
+
+.elden-ring-icon-hidden_passage:before {
+    content: "\e93a";
+    color: #fff;
+}
+
+.elden-ring-icon-guiding_statue:before {
+    content: "\e93b";
+    color: #fff;
+}
+
+.elden-ring-icon-great_rune:before {
+    content: "\e93c";
+    color: #fff;
+}
+
+.elden-ring-icon-great_glovewort:before {
+    content: "\e93d";
+    color: #c2dae8;
+}
+
+.elden-ring-icon-great_boss:before {
+    content: "\e93e";
+    color: #fff;
+}
+
+.elden-ring-icon-golden_seed:before {
+    content: "\e93f";
+    color: #fff;
+}
+
+.elden-ring-icon-golden_rune:before {
+    content: "\e940";
+    color: #fff;
+}
+
+.elden-ring-icon-glovewort:before {
+    content: "\e941";
+    color: #fff;
+}
+
+.elden-ring-icon-ghost_glovewort:before {
+    content: "\e942";
+    color: #fff;
+}
+
+.elden-ring-icon-ghost:before {
+    content: "\e943";
+    color: #fff;
+}
+
+.elden-ring-icon-gesture:before {
+    content: "\e944";
+    color: #fff;
+}
+
+.elden-ring-icon-evergaol:before {
+    content: "\e945";
+    color: #fff;
+}
+
+.elden-ring-icon-enemy:before {
+    content: "\e946";
+    color: #fff;
+}
+
+.elden-ring-icon-elite_enemy:before {
+    content: "\e947";
+    color: #fff;
+}
+
+.elden-ring-icon-elevator:before {
+    content: "\e948";
+    color: #fff;
+}
+
+.elden-ring-icon-easter_egg:before {
+    content: "\e949";
+    color: #fff;
+}
+
+.elden-ring-icon-dungeon:before {
+    content: "\e94a";
+    color: #fff;
+}
+
+.elden-ring-icon-dragon_shrine:before {
+    content: "\e94b";
+    color: #fff;
+}
+
+.elden-ring-icon-dragon_heart:before {
+    content: "\e94c";
+    color: #fff;
+}
+
+.elden-ring-icon-divine_tower:before {
+    content: "\e94d";
+    color: #fff;
+}
+
+.elden-ring-icon-demigod:before {
+    content: "\e94e";
+    color: #fff;
+}
+
+.elden-ring-icon-deathroot:before {
+    content: "\e94f";
+    color: #fff;
+}
+
+.elden-ring-icon-crystal_tear:before {
+    content: "\e950";
+    color: #fff;
+}
+
+.elden-ring-icon-creature:before {
+    content: "\e951";
+    color: #fff;
+}
+
+.elden-ring-icon-crafting_material:before {
+    content: "\e952";
+    color: #fff;
+}
+
+.elden-ring-icon-cracked_pot:before {
+    content: "\e953";
+    color: #fff;
+}
+
+.elden-ring-icon-cookbook:before {
+    content: "\e954";
+    color: #fff;
+}
+
+.elden-ring-icon-consumable:before {
+    content: "\e955";
+    color: #fff;
+}
+
+.elden-ring-icon-character:before {
+    content: "\e956";
+    color: #fff;
+}
+
+.elden-ring-icon-cerulean_scarab:before {
+    content: "\e957";
+    color: #fff;
+}
+
+.elden-ring-icon-boss:before {
+    content: "\e958";
+    color: #fff;
+}
+
+.elden-ring-icon-bolstering_material:before {
+    content: "\e959";
+    color: #fff;
+}
+
+.elden-ring-icon-birdseye_telescope:before {
+    content: "\e95a";
+    color: #fff;
+}
+
+.elden-ring-icon-bell_bearing:before {
+    content: "\e95b";
+    color: #fff;
+}
+
+.elden-ring-icon-ash_of_war:before {
+    content: "\e95c";
+    color: #fff;
+}
+
+.elden-ring-icon-armor:before {
+    content: "\e95d";
+    color: #fff;
+}
+
+.elden-ring-icon-ancient_smithing_stone:before {
+    content: "\e95e";
+    color: #c2dae8;
+}
+
+.elden-ring-icon-ammunition:before {
+    content: "\e95f";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-yaoguai_king:before {
+    content: "\e900";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-yaoguai_chief:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-will:before {
+    content: "\e902";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-weapon:before {
+    content: "\e903";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-vessel:before {
+    content: "\e904";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-tree_pearl:before {
+    content: "\e905";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-transformation_spell:before {
+    content: "\e906";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-spirit:before {
+    content: "\e907";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-spell:before {
+    content: "\e908";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-soak:before {
+    content: "\e909";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-snake_head_mushroom:before {
+    content: "\e90a";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-encounters:before {
+    content: "\e90b";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-shen_monkey:before {
+    content: "\e90c";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-seeds:before {
+    content: "\e90d";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-purple_lingzhi:before {
+    content: "\e90e";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-point_of_interest:before {
+    content: "\e90f";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-npc:before {
+    content: "\e910";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-nine-capped_lingzhi:before {
+    content: "\e911";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-miscellaneous:before {
+    content: "\e912";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-millenium_ginseng:before {
+    content: "\e913";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-meditation_spot:before {
+    content: "\e914";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-luojia_fragrant_vine:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-licorice:before {
+    content: "\e916";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-lesser_yaoguai:before {
+    content: "\e917";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-key_items:before {
+    content: "\e918";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-keeper_shrine:before {
+    content: "\e919";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-jade_lotus:before {
+    content: "\e91a";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-item:before {
+    content: "\e91b";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-gourd:before {
+    content: "\e91c";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-gentian:before {
+    content: "\e91d";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-fragrant_jade_flower:before {
+    content: "\e91e";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-formula:before {
+    content: "\e91f";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-fire_bellflower:before {
+    content: "\e920";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-elite_lesser_yaoguai:before {
+    content: "\e921";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-easter_egg:before {
+    content: "\e922";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-drink:before {
+    content: "\e923";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-curio:before {
+    content: "\e924";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-consumable:before {
+    content: "\e925";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-chest:before {
+    content: "\e926";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-character:before {
+    content: "\e927";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-celestial_pill:before {
+    content: "\e928";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-celestial_pear:before {
+    content: "\e929";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-awaken_wine_worm:before {
+    content: "\e92a";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-armor:before {
+    content: "\e92b";
+    color: #fff;
+}
+
+.black-myth-wukong-icon-aged_ginseng:before {
+    content: "\e92c";
+    color: #fff;
+}
+
+
+.zelda-tears-of-the-kingdom-icon-zonai_survey_team_base:before {
+    content: "\e900";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-zonai_relief:before {
+    content: "\e901";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-zonai_component:before {
+    content: "\e902";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-zonai_charge:before {
+    content: "\e903";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-zonai:before {
+    content: "\e904";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-yiga_schematic:before {
+    content: "\e905";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-yiga:before {
+    content: "\e906";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-wizzrobe:before {
+    content: "\e907";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-well:before {
+    content: "\e908";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-weapon:before {
+    content: "\e909";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-vehicle:before {
+    content: "\e90a";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-unique_horse:before {
+    content: "\e90b";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-treasure:before {
+    content: "\e90c";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-travelling_merchant:before {
+    content: "\e90d";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-temple:before {
+    content: "\e90e";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-tech_lab:before {
+    content: "\e90f";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-talus:before {
+    content: "\e910";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-stronghold:before {
+    content: "\e911";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-stalnox:before {
+    content: "\e912";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-stable:before {
+    content: "\e913";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-skyview_tower:before {
+    content: "\e914";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-side_quest:before {
+    content: "\e915";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-side_adventure:before {
+    content: "\e916";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-shrine_quest:before {
+    content: "\e917";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-shrine:before {
+    content: "\e918";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-shield:before {
+    content: "\e919";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-settlement:before {
+    content: "\e91a";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-schema_stone:before {
+    content: "\e91b";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-satori_tree:before {
+    content: "\e91c";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-sages_will:before {
+    content: "\e91d";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-rupees:before {
+    content: "\e91e";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-quest_objective:before {
+    content: "\e91f";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-province:before {
+    content: "\e920";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-point_of_interest:before {
+    content: "\e921";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-poe:before {
+    content: "\e922";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-paraglider_fabric:before {
+    content: "\e923";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-ore_deposit:before {
+    content: "\e924";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-octorok:before {
+    content: "\e925";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-npc:before {
+    content: "\e926";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-mushroom:before {
+    content: "\e927";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-molduga:before {
+    content: "\e928";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-miscellaneous:before {
+    content: "\e929";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-miniboss:before {
+    content: "\e92a";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-mini_game:before {
+    content: "\e92b";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-memory:before {
+    content: "\e92c";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-material:before {
+    content: "\e92d";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-master_sword:before {
+    content: "\e92e";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-main_quest:before {
+    content: "\e92f";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-lynel:before {
+    content: "\e930";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-lore:before {
+    content: "\e931";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-lightroot:before {
+    content: "\e932";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-lighthouse:before {
+    content: "\e933";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-landmark:before {
+    content: "\e934";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-korok_seed:before {
+    content: "\e935";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-koltin:before {
+    content: "\e936";
+    color: #fffef2;
+}
+
+.zelda-tears-of-the-kingdom-icon-key_item:before {
+    content: "\e937";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-jewelry_shop:before {
+    content: "\e938";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-inn:before {
+    content: "\e939";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-hudson_sign:before {
+    content: "\e93a";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-hinox:before {
+    content: "\e93b";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-hestu:before {
+    content: "\e93c";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-heart_container:before {
+    content: "\e93d";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-guardian:before {
+    content: "\e93e";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-great_fairy:before {
+    content: "\e93f";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-goddess_statue:before {
+    content: "\e940";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-gleeok:before {
+    content: "\e941";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-geoglyph:before {
+    content: "\e942";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-general_store:before {
+    content: "\e943";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-gem:before {
+    content: "\e944";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-frox:before {
+    content: "\e945";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-falling_platform:before {
+    content: "\e946";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-enemy_camp:before {
+    content: "\e947";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-elixir:before {
+    content: "\e948";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-easter_egg:before {
+    content: "\e949";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-dye_shop:before {
+    content: "\e94a";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-dragon_tear:before {
+    content: "\e94b";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-dragon:before {
+    content: "\e94c";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-divine_beast:before {
+    content: "\e94d";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-device_dispenser:before {
+    content: "\e94e";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-crystal_refinery:before {
+    content: "\e94f";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-creature_fish:before {
+    content: "\e950";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-creature:before {
+    content: "\e951";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-cracked_wall:before {
+    content: "\e952";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-cooking_pot:before {
+    content: "\e953";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-chasm:before {
+    content: "\e954";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-cave_entrance:before {
+    content: "\e955";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-cave:before {
+    content: "\e956";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-building:before {
+    content: "\e957";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-bubbulfrog:before {
+    content: "\e958";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-boss:before {
+    content: "\e959";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-blupee:before {
+    content: "\e95a";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-bargainer_statue:before {
+    content: "\e95b";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-arrows:before {
+    content: "\e95c";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-armor_shop:before {
+    content: "\e95d";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-armor:before {
+    content: "\e95e";
+    color: #fff8ec;
+}
+
+.zelda-tears-of-the-kingdom-icon-area:before {
+    content: "\e95f";
+    color: #fff8ec;
+}

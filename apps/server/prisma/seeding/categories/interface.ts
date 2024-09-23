@@ -5,6 +5,7 @@ export interface Location {
   longitude: number | string;
   latitude: number | string;
   media?: any[];
+  subRegionSlug?: string;
 }
 
 export interface CategoryLocation {

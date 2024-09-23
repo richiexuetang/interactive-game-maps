@@ -4,30 +4,53 @@ import { Metadata } from "next";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import { ImageCard } from "@/components/image-card";
+import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
   params,
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
+  revalidatePath("/region");
   const game = await getMetaData(params.slug);
 
-  const { title, description, previewUrl, iconUrl } = game;
+  const { title, description } = game;
   return {
     title: `${title} | Ritcher Map`,
     description,
     openGraph: {
       type: "website",
-      images: [previewUrl],
+      images: [
+        process.env.CDN_BASE_URL + `images/games/${params.slug}/preview.png`,
+      ],
     },
-    icons: [
-      {
-        type: "image/png",
-        sizes: "32x32",
-        href: iconUrl,
-        url: iconUrl,
-      },
-    ],
+    icons: {
+      icon: [
+        {
+          type: "image/png",
+          sizes: "16x16",
+          href:
+            process.env.CDN_BASE_URL +
+            `images/games/${params.slug}/favicon-16x16.png`,
+          url:
+            process.env.CDN_BASE_URL +
+            `images/games/${params.slug}/favicon-16x16.png`,
+        },
+        {
+          type: "image/png",
+          sizes: "32x32",
+          href:
+            process.env.CDN_BASE_URL +
+            `images/games/${params.slug}/favicon-32x32.png`,
+          url:
+            process.env.CDN_BASE_URL +
+            `images/games/${params.slug}/favicon-32x32.png`,
+        },
+      ],
+      apple:
+        process.env.CDN_BASE_URL +
+        `images/games/${params.slug}/apple-touch-icon.png`,
+    },
   };
 }
 
@@ -39,6 +62,7 @@ export default async function RegionPage({
   const regions = await getRegionsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 
+  console.log(regions);
   return (
     <div
       className={cn(

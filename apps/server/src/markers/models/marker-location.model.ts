@@ -1,14 +1,8 @@
-import { Field, ObjectType, registerEnumType } from "@nestjs/graphql";
+import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "../../common/models/base.model";
 import { Region } from "src/regions/models/region.model";
 import { MarkerCategory } from "./marker-category.model";
 import { Media } from "./media.model";
-import { LocationType } from "@prisma/client";
-
-registerEnumType(LocationType, {
-  name: "LocationType",
-  description: "Marker Location Type",
-});
 
 @ObjectType()
 export class MarkerLocation extends BaseModel {
@@ -24,6 +18,9 @@ export class MarkerLocation extends BaseModel {
   @Field(() => Number)
   longitude: number;
 
+  @Field(() => String, { nullable: true })
+  subRegionSlug?: string | null;
+
   @Field(() => MarkerCategory, { nullable: true })
   category?: MarkerCategory | null;
 
@@ -33,12 +30,9 @@ export class MarkerLocation extends BaseModel {
   @Field(() => Region, { nullable: true })
   region?: Region | null;
 
-  @Field(() => String, { nullable: true })
-  regionSlug?: string | null;
+  @Field(() => String)
+  regionSlug: string;
 
   @Field(() => [Media], { nullable: true })
   media?: Media[] | null;
-
-  @Field(() => LocationType, { nullable: true })
-  type?: LocationType | null;
 }

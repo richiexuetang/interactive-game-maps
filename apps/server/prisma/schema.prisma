@@ -1,10 +1,12 @@
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [pg_trgm, postgis]
 }
 
 generator client {
-  provider = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+  provider        = "prisma-client-js"
 }
 
 generator dbml {
@@ -26,16 +28,16 @@ model AppUser {
 }
 
 model Game {
-  id           Int           @id @default(autoincrement())
-  slug         String        @unique
-  title        String
-  thumbnailUrl String
-  logo         String
-  regions      Region[]
-  groups       MarkerGroup[]
-  previewUrl   String
-  iconUrl      String
-  description  String
+  id          Int           @id @default(autoincrement())
+  slug        String        @unique
+  title       String
+  regions     Region[]
+  groups      MarkerGroup[]
+  description String
+  minZoom     Int
+  maxZoom     Int
+  zoom        Int
+  center      Decimal[]
 }
 
 model Region {
@@ -43,22 +45,31 @@ model Region {
   slug         String           @unique
   title        String
   thumbnailUrl String
-  minZoom      Int
-  maxZoom      Int
-  zoom         Int
-  center       Decimal[]
   tilePath     String
-  Game         Game             @relation(fields: [gameSlug], references: [slug])
+  game         Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug     String
   locations    MarkerLocation[]
   order        Int              @default(1)
+  subRegions   SubRegion[]
+}
+
+model SubRegion {
+  id          Int                                    @id @default(autoincrement())
+  region      Region                                 @relation(fields: [regionSlug], references: [slug])
+  regionSlug  String
+  coordinates Unsupported("geometry(Polygon, 4326)")
+  title       String
+  locations   MarkerLocation[]
+  slug        String                                 @unique
+
+  @@index([coordinates], type: Gist)
 }
 
 model MarkerGroup {
   id         Int              @id @default(autoincrement())
   title      String
   slug       String           @unique
-  Game       Game             @relation(fields: [gameSlug], references: [slug])
+  game       Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug   String
   categories MarkerCategory[]
 }
@@ -71,35 +82,27 @@ model MarkerCategory {
   locations   MarkerLocation[]
   groupSlug   String
   markerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
-  appUserId   String?
 }
 
 model MarkerLocation {
-  id          Int             @id @default(autoincrement())
-  title       String
-  description String?
-  latitude    Decimal
-  longitude   Decimal
-  category    MarkerCategory? @relation(fields: [categoryId], references: [id])
-  categoryId  Int?
-  Region      Region          @relation(fields: [regionSlug], references: [slug])
-  regionSlug  String
-  media       Media[]
-  type        LocationType    @default(Marker)
-}
-
-enum LocationType {
-  Marker
-  Text
-  Line
+  id            Int             @id @default(autoincrement())
+  title         String
+  description   String?
+  latitude      Decimal
+  longitude     Decimal
+  category      MarkerCategory? @relation(fields: [categoryId], references: [id])
+  categoryId    Int?
+  region        Region          @relation(fields: [regionSlug], references: [slug])
+  regionSlug    String
+  media         Media[]
+  subRegion     SubRegion?      @relation(fields: [subRegionSlug], references: [slug])
+  subRegionSlug String?
 }
 
 model Media {
   id               Int             @id @default(autoincrement())
-  title            String
   url              String
   type             String
-  mimeType         String
   MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])
   markerLocationId Int?
 }

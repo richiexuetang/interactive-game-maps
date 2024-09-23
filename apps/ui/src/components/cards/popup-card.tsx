@@ -1,0 +1,163 @@
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardHeader from "@mui/material/CardHeader";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import CardActions from "@mui/material/CardActions";
+import LoginIcon from "@mui/icons-material/Login";
+import Avatar from "@mui/material/Avatar";
+import IconButton from "@mui/material/IconButton";
+import Typography from "@mui/material/Typography";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
+import LinkIcon from "@mui/icons-material/Link";
+import { cn } from "@/lib/utils";
+import { useAtom, useAtomValue } from "jotai";
+import { gameSlugAtom } from "@/store";
+import { useCopyToClipboard } from "@/hooks";
+import { userAtom } from "@/store/auth";
+import { currentRegionAtom } from "@/store/map";
+import { toast } from "sonner";
+import { signInWithGoogle } from "@/lib/firebase/auth";
+import { useRouter } from "next/navigation";
+import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
+import { useMutation } from "@apollo/client";
+import Tooltip from "@mui/material/Tooltip";
+import { MarkerLocation } from "@/__generated__/graphql";
+
+interface PopupCardProps {
+  marker: MarkerLocation;
+}
+
+export const PopupCard = ({ marker }: PopupCardProps) => {
+  const {
+    id,
+    category,
+    title: markerTitle,
+    media = [],
+    description = "",
+  } = marker;
+
+  const gameSlug = useAtomValue(gameSlugAtom);
+  const [appUser, setAppUser] = useAtom(userAtom);
+  const currentRegion = useAtomValue(currentRegionAtom);
+
+  const markerFound = appUser?.foundLocations.includes(id);
+  const router = useRouter();
+
+  const [copiedText, copy] = useCopyToClipboard();
+
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+
+  const handleLogin = async () => {
+    const ok = await signInWithGoogle();
+    if (ok) {
+      router.refresh();
+    }
+  };
+
+  const handleCopy = (text: string) => () => {
+    copy(text).then(() => {
+      toast.success(`Copied ${copiedText}`, {
+        action: {
+          label: "OK",
+          onClick: () => {},
+        },
+      });
+    });
+  };
+
+  const handleMarkerFound = () => {
+    if (appUser?.email) {
+      const variables = { data: { email: appUser.email, location: id } };
+      let newFoundLocations = [];
+      if (markerFound) {
+        removeLocation({ variables });
+        newFoundLocations = appUser.foundLocations.filter(
+          (location) => location !== id
+        );
+      } else {
+        addLocation({ variables });
+        newFoundLocations = [...appUser.foundLocations, id];
+      }
+      setAppUser({ ...appUser, foundLocations: newFoundLocations });
+    }
+  };
+
+  if (!category) return null;
+  const { icon, info, title } = category;
+
+  return (
+    <Card sx={{ minWidth: 325 }}>
+      <CardHeader
+        avatar={
+          <Avatar>
+            <span className={cn(`${gameSlug}-icon ${gameSlug}-icon-${icon}`)} />
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <LinkIcon
+              onClick={handleCopy(
+                `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${
+                  currentRegion?.slug
+                }?marker=${markerTitle.toLowerCase().replaceAll(" ", "_")}`
+              )}
+            />
+          </IconButton>
+        }
+        title={markerTitle}
+        subheader={title}
+      />
+      {media && media.length > 0 && (
+        <CardMedia
+          component="img"
+          height="350"
+          image={media[0]?.url}
+          alt={title}
+        />
+      )}
+      <CardContent>
+        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+          <div dangerouslySetInnerHTML={{ __html: description ?? "" }} />
+        </Typography>
+        {info && (
+          <Typography variant="body2" sx={{ color: "text.secondary" }}>
+            <div
+              className="text-xs pb-2"
+              dangerouslySetInnerHTML={{ __html: info }}
+            />
+          </Typography>
+        )}
+      </CardContent>
+      <CardActions disableSpacing>
+        {appUser?.email ? (
+          <>
+            <Tooltip title="Add to favorite">
+              <IconButton onClick={() => console.log("")}>
+                <FavoriteIcon />
+              </IconButton>
+            </Tooltip>
+            <Tooltip title="Found">
+              <IconButton onClick={handleMarkerFound}>
+                {markerFound ? (
+                  <CheckCircleIcon />
+                ) : (
+                  <RadioButtonUncheckedIcon />
+                )}
+              </IconButton>
+            </Tooltip>
+          </>
+        ) : (
+          <Tooltip title="Login">
+            <IconButton aria-label="login" onClick={handleLogin}>
+              <LoginIcon />
+            </IconButton>
+          </Tooltip>
+        )}
+      </CardActions>
+    </Card>
+  );
+};

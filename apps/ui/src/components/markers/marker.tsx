@@ -1,76 +1,32 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
-import Divider from "@mui/material/Divider";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { useEffect, useRef, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { useCopyToClipboard } from "@/hooks";
-import { Link1Icon } from "@radix-ui/react-icons";
-import { toast } from "sonner";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 import { MarkerLocation } from "@/__generated__/graphql";
-import { Button } from "../ui/button";
-import { signInWithGoogle } from "@/lib/firebase/auth";
-import { useMutation } from "@apollo/client";
-import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
-import { UserRecord } from "firebase-admin/auth";
 import { triggeredMarkerIdAtom } from "@/store/marker";
-import { useAtom, useAtomValue } from "jotai";
-import { ZoomImage } from "../zoom-image";
+import { useAtomValue } from "jotai";
 import { gameSlugAtom } from "@/store";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox/Checkbox";
 import { userAtom } from "@/store/auth";
+import { PopupCard } from "../cards/popup-card";
 
 interface MarkerProps {
   marker: MarkerLocation;
-  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
 }
 
-export const Marker = ({ marker, user }: MarkerProps) => {
+export const Marker = ({ marker }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
-  const router = useRouter();
-  const {
-    id,
-    title,
-    media = [],
-    latitude,
-    longitude,
-    category,
-    description,
-  } = marker;
+  const { id, title, latitude, longitude, category } = marker;
 
-  const { icon, info } = category!;
+  const { icon } = category!;
 
-  const [appUser, setAppUser] = useAtom(userAtom);
-
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
-
+  const appUser = useAtomValue(userAtom);
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   useEffect(() => {
-    if (triggeredMarkerId == id && markerRef) {
+    if (triggeredMarkerId === id && markerRef) {
       markerRef.current.openPopup();
     }
   }, [id, triggeredMarkerId]);
-
-  const [markerFound, setMarkerFound] = useState(false);
-  // eslint-disable-next-line no-unused-vars
-  const [_, copy] = useCopyToClipboard();
 
   // build div icon
   const div = document.createElement("div");
@@ -80,61 +36,20 @@ export const Marker = ({ marker, user }: MarkerProps) => {
   const searchParams = useSearchParams();
   const markerRef = useRef<any>(null);
 
-  const handleCopy = (text: string) => () => {
-    copy(text).then(() => {
-      toast.success("Copied", {
-        action: {
-          label: "OK",
-          onClick: () => {},
-        },
-      });
-    });
-  };
-
-  const handleLogin = async () => {
-    const ok = await signInWithGoogle();
-    if (ok) {
-      router.refresh();
-    }
-  };
-
   useEffect(() => {
-    const markerId = searchParams.get("marker");
-    if (markerId && id == markerId) {
+    const markerTitle = searchParams.get("marker");
+    if (
+      markerTitle &&
+      title.toLowerCase().replaceAll(" ", "_") === markerTitle
+    ) {
       map.flyTo([latitude, longitude]);
-      if (markerRef) {
+      if (markerRef?.current) {
         markerRef.current.openPopup();
       }
     }
-  }, [id, latitude, longitude, map, searchParams]);
+  }, [latitude, longitude, map, searchParams, title]);
 
-  useEffect(() => {
-    if (appUser?.foundLocations) {
-      setMarkerFound(appUser.foundLocations?.includes(parseInt(id)));
-    }
-  }, [id, appUser]);
-
-  const handleMarkerFound = () => {
-    if (appUser?.email) {
-      if (markerFound) {
-        removeLocation({
-          variables: { data: { email: appUser.email, location: parseInt(id) } },
-        });
-        const newFoundLocations = appUser.foundLocations.filter(
-          (location) => location !== parseInt(id)
-        );
-        setAppUser({ ...appUser, foundLocations: newFoundLocations });
-      } else {
-        addLocation({
-          variables: { data: { email: appUser.email, location: parseInt(id) } },
-        });
-        const newFoundLocations = [...appUser.foundLocations, parseInt(id)];
-        setAppUser({ ...appUser, foundLocations: newFoundLocations });
-      }
-    }
-
-    setMarkerFound(!markerFound);
-  };
+  const markerFound = appUser?.foundLocations.includes(id);
 
   if (markerFound && appUser?.hideFound) return null;
 
@@ -153,85 +68,7 @@ export const Marker = ({ marker, user }: MarkerProps) => {
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
     >
       <RL.Popup>
-        <Card className="shadow-none -mx-7 -my-4 min-w-96">
-          <CardHeader>
-            <div className="flex justify-between gap-4">
-              <div>
-                <CardTitle className="text-large">{title}</CardTitle>
-                <CardDescription className="text-xs">
-                  {category?.title}
-                </CardDescription>
-              </div>
-              <div className="flex px-5">
-                <TooltipProvider>
-                  <Tooltip>
-                    <TooltipTrigger>
-                      <Link1Icon
-                        className="cursor-pointer h-5 w-5"
-                        onClick={handleCopy(
-                          `http://localhost:3000/map/chapter-3?marker=${id}`
-                        )}
-                      />
-                    </TooltipTrigger>
-                    <TooltipContent>Copy link</TooltipContent>
-                  </Tooltip>
-                </TooltipProvider>
-              </div>
-            </div>
-          </CardHeader>
-          {description ? <Divider /> : null}
-          <CardContent className="leading-5">
-            <div className="flex flex-wrap gap-2">
-              {media &&
-                media?.length > 0 &&
-                media.map((m) => {
-                  if (m.mimeType === "mp4") {
-                    return (
-                      <video
-                        key={m.url!}
-                        src={m.url ?? ""}
-                        width="750"
-                        height="500"
-                        controls
-                      ></video>
-                    );
-                  }
-                  return <ZoomImage src={m.url ?? ""} key={m.url} />;
-                })}
-            </div>
-            {description && (
-              <div dangerouslySetInnerHTML={{ __html: description }} />
-            )}
-            {info && <div dangerouslySetInnerHTML={{ __html: info }} />}
-          </CardContent>
-          {description ? <Divider /> : null}
-          <CardFooter
-            className="py-2 justify-center hover:bg-secondary cursor-pointer"
-            // onClick={handleMarkerFound}
-          >
-            {user?.email ? (
-              <FormGroup>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      checked={markerFound}
-                      onChange={handleMarkerFound}
-                    />
-                  }
-                  label="Found"
-                />
-              </FormGroup>
-            ) : (
-              <Button
-                variant="link"
-                className="uppercase"
-                onClick={handleLogin}
-              >
-                Login to track progress
-              </Button>
-            )}
-          </CardFooter>
-        </Card>
+        <PopupCard marker={marker} />
       </RL.Popup>
       <RL.Tooltip>{title}</RL.Tooltip>
     </RL.Marker>
