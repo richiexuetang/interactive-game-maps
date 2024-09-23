@@ -144,7 +144,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         {info && (
           <Typography variant="body2" sx={{ color: "text.secondary" }}>
             <div
-              className="text-xs pb-2"
+              className="text-xs mt-7 italic"
               dangerouslySetInnerHTML={{ __html: info }}
             />
           </Typography>

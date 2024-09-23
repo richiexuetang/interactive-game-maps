@@ -1,11 +1,13 @@
-import { showMarkerAtom } from "@/store";
+import { hiddenCategoriesAtom, showMarkerAtom } from "@/store";
+import { currentGroupsAtom } from "@/store/map";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import { useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",
   borderRadius: theme.shape.borderRadius,
+  fontSize: 12,
   backgroundColor: "none",
   borderColor: "none",
   color: "var(--text-color)",
@@ -23,15 +25,33 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 
 export const ShowHideButtons = () => {
   const setShowMarker = useSetAtom(showMarkerAtom);
+  const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
+  const groups = useAtomValue(currentGroupsAtom);
+
+  const showAll = () => {
+    groups?.map((group) =>
+      group.categories?.map((category) => {
+        if (hiddenCategories.includes(category.id)) {
+          setHiddenCategories((prev) => prev.filter((p) => p !== category.id));
+        }
+      })
+    );
+  };
+
+  const hideAll = () => {
+    groups?.map((group) =>
+      group.categories?.map((category) => {
+        if (!hiddenCategories.includes(category.id)) {
+          setHiddenCategories((prev) => [...prev, category.id]);
+        }
+      })
+    );
+  };
 
   return (
     <div className="flex gap-5">
-      <UnderlineButton onClick={() => setShowMarker(true)}>
-        <span className="text-text text-sm">SHOW ALL</span>
-      </UnderlineButton>
-      <UnderlineButton onClick={() => setShowMarker(false)}>
-        <span className="text-text text-sm">HIDE ALL</span>
-      </UnderlineButton>
+      <UnderlineButton onClick={showAll}>SHOW ALL</UnderlineButton>
+      <UnderlineButton onClick={hideAll}>HIDE ALL</UnderlineButton>
     </div>
   );
 };

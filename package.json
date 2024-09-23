@@ -1,7 +1,6 @@
 {
   "name": "ritcher-map-v2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -12,7 +11,7 @@
     "migrate:dev": "pnpm --filter server migrate:dev",
     "migrate:reset": "pnpm --filter server migrate:reset",
     "seed": "pnpm --filter server seed",
-    "server:build": "pnpm --filter server build",
+    "server:build": "pnpm run prisma:generate && pnpm --filter server build",
     "server:prod": "pnpm --filter server start:prod",
     "ui:build": "pnpm --filter ui build",
     "ui:prod": "pnpm --filter ui start"

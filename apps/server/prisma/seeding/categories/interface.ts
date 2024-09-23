@@ -13,4 +13,5 @@ export interface CategoryLocation {
   groupSlug: string;
   title: string;
   info?: string;
+  icon?: string;
 }

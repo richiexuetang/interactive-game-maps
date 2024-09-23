@@ -59,6 +59,7 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
+  revalidatePath("/region");
   const regions = await getRegionsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 

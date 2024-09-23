@@ -11,6 +11,7 @@ import { Region } from "@/__generated__/graphql";
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
 import { revalidatePath } from "next/cache";
+import "@/styles/leaflet.css";
 
 export async function generateMetadata({
   params,

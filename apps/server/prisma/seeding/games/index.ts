@@ -36,9 +36,9 @@ export const games: Game[] = [
     title: "The Witcher 3: Wild Hunt",
     zoom: 9,
     minZoom: 8,
-    maxZoom: 15,
-    center: [0.65676201402282, -0.76234815932221],
+    maxZoom: 14,
+    center: [83.937238401332, -168.44211701243],
     description:
-      "Elden Ring Interactive Map - Find all Bosses, Tears, Quests, Keys, Map Fragments &amp; more! Use the progress tracker to keep track of your collectibles and get 100%!",
+      "The Witcher 3 Interactive Map - Find all Bosses, Quests, Keys &amp; more! Use the progress tracker to keep track of your collectibles and get 100%!",
   },
 ];

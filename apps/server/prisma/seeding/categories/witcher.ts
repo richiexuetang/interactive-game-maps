@@ -566,7 +566,6 @@ export const witcherCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "white-orchard",
         title: "Underwater Entrance",
-
         latitude: "83.91698277439700",
         longitude: "-168.25563429721000",
       },
@@ -1074,7 +1073,6 @@ export const witcherCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "white-orchard",
         title: "Guarded Treasure",
-
         latitude: "83.95850609485600",
         longitude: "-168.48306536997000",
       },
@@ -1455,20 +1453,6 @@ export const witcherCategoryLocations: CategoryLocation[] = [
         latitude: "83.93527644344400",
         longitude: "-168.16150188446000",
       },
-      {
-        regionSlug: "kaer-morhen",
-        title: "Guarded Treasure",
-        description: "**Monster:** Leshen (20)",
-        latitude: "83.94604486182900",
-        longitude: "-168.28388570587000",
-      },
-      {
-        regionSlug: "kaer-morhen",
-        title: "Guarded Treasure",
-        description: "**Monster:** Wyvern",
-        latitude: "83.95587498781600",
-        longitude: "-168.15727827570000",
-      },
     ],
     groupSlug: "w3_locations",
     title: "Guarded Treasure",
@@ -1478,7 +1462,6 @@ export const witcherCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "white-orchard",
         title: "Monster Nest",
-
         latitude: "83.93568349101300",
         longitude: "-167.92204164698000",
       },
@@ -1492,7 +1475,6 @@ export const witcherCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "white-orchard",
         title: "Monster Nest",
-
         latitude: "83.96403412319200",
         longitude: "-168.33169894125000",
       },

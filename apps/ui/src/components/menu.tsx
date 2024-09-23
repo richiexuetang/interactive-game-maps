@@ -215,7 +215,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                             className={cn(
                               "cursor-pointer",
                               hiddenCategories.includes(category.id) &&
-                                "line-through"
+                                "line-through opacity-80"
                             )}
                           >
                             <Item

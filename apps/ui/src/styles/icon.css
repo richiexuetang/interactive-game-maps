@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../../public/fonts/icomoon.ttf') format('truetype');
+    src: url('../../public/icons/black-myth-wukong.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -8,7 +8,15 @@
 
 @font-face {
     font-family: 'elden-ring-icomoon';
-    src: url('../../public/fonts/elden-ring-icomoon.ttf') format('truetype');
+    src: url('../../public/icons/elden-ring.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'witcher-3-icomoon';
+    src: url('../../public/icons/witcher-3.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -16,7 +24,7 @@
 
 @font-face {
     font-family: "zelda-tears-of-the-kingdom-icomoon";
-    src: url('../../public/fonts/zelda-tears-of-the-kingdom-icomoon.ttf') format('truetype');
+    src: url('../../public/icons/zelda-tears-of-the-kingdom.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -1031,7 +1039,7 @@
     color: #fff8ec;
 }
 
-.zelda-tears-of-the-kingdom-icon-landmark:before {
+.zelda-tears-of-the-kingdom-icon-totk-landmark:before {
     content: "\e934";
     color: #fff8ec;
 }

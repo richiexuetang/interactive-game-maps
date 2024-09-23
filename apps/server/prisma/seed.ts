@@ -39,10 +39,13 @@ async function main() {
 
   for (let i = 0; i < categoryLocations.length; i++) {
     const category = categoryLocations[i];
-    const { locations, ...rest } = category;
-    const icon = categoryLocations[i].title?.toLowerCase().replaceAll(" ", "_");
+    const { locations, icon: categoryIcon, ...rest } = category;
+
+    const icon = categoryIcon
+      ? categoryIcon
+      : categoryLocations[i].title?.toLowerCase().replaceAll(" ", "_");
     const newCategory = await prisma.markerCategory.create({
-      data: { ...rest, icon: icon },
+      data: { ...rest, icon },
     });
 
     for (let j = 0; j < locations.length; j++) {

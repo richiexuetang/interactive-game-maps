@@ -181,7 +181,6 @@ export const ProgressTracker = () => {
       <Tooltip title="Progress Tracker" placement="left">
         <SideFab
           onClick={handleClick}
-          sx={{ right: 0 }}
           aria-controls={open ? "basic-menu" : undefined}
           aria-haspopup="true"
           id="basic-button"

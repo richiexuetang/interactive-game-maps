@@ -12,7 +12,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70250540971753",
         media: [
           {
-            fileName: "4e003002-4242-436d-9f28-acd2c5fbd38a.jpg",
             url: "https://media.mapgenie.io/storage/media/4e003002-4242-436d-9f28-acd2c5fbd38a.png",
             type: "image",
           },
@@ -70,7 +69,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73920741677316",
         media: [
           {
-            fileName: "c4098198-3843-40e7-aad4-690eae981fca.png",
             url: "https://media.mapgenie.io/storage/media/c4098198-3843-40e7-aad4-690eae981fca.png",
             type: "image",
           },
@@ -99,7 +97,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72261929511947",
         media: [
           {
-            fileName: "2b2476d3-4f95-445f-b0d0-d032b8e9ed74.png",
             url: "https://media.mapgenie.io/storage/media/2b2476d3-4f95-445f-b0d0-d032b8e9ed74.png",
             type: "image",
           },
@@ -114,7 +111,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69302245974561",
         media: [
           {
-            fileName: "f069c41c-51ed-4db1-9437-666355020415.jpg",
             url: "https://media.mapgenie.io/storage/media/f069c41c-51ed-4db1-9437-666355020415.jpg",
             type: "image",
           },
@@ -129,13 +125,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70700615644708",
         media: [
           {
-            fileName: "d0a2e63b-8e42-49ec-8da5-6fcfa2ab63c7.jpg",
             url: "https://media.mapgenie.io/storage/media/d0a2e63b-8e42-49ec-8da5-6fcfa2ab63c7.jpg",
             type: "image",
           },
           {
-            title: "20220228011044_1",
-            fileName: "b5635fb3-b802-4bfe-9d00-f211f3c917bd.jpg",
             url: "https://media.mapgenie.io/storage/media/b5635fb3-b802-4bfe-9d00-f211f3c917bd.jpg",
             type: "image",
           },
@@ -150,7 +143,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71933090686699",
         media: [
           {
-            fileName: "3e0195d1-f842-4432-85ec-ab6ffc117060.jpg",
             url: "https://media.mapgenie.io/storage/media/3e0195d1-f842-4432-85ec-ab6ffc117060.jpg",
             type: "image",
           },
@@ -165,7 +157,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71017920970945",
         media: [
           {
-            fileName: "0064d5a1-b6d1-4ccf-96d8-6d3960235d48.png",
             url: "https://media.mapgenie.io/storage/media/0064d5a1-b6d1-4ccf-96d8-6d3960235d48.png",
             type: "image",
           },
@@ -180,7 +171,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71091681718886",
         media: [
           {
-            fileName: "df26988c-2b08-4b8c-a506-d53af3281209.jpg",
             url: "https://media.mapgenie.io/storage/media/df26988c-2b08-4b8c-a506-d53af3281209.jpg",
             type: "image",
           },
@@ -195,13 +185,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71953877806655",
         media: [
           {
-            fileName: "619b9c84-130c-4a16-9656-2d4793e3f0b3.png",
             url: "https://media.mapgenie.io/storage/media/619b9c84-130c-4a16-9656-2d4793e3f0b3.png",
             type: "image",
           },
           {
-            title: "",
-            fileName: "356d20a2-9697-4516-a49e-3d2cbb8de41f.png",
             url: "https://media.mapgenie.io/storage/media/356d20a2-9697-4516-a49e-3d2cbb8de41f.png",
             type: "image",
           },
@@ -216,7 +203,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72825729846863",
         media: [
           {
-            fileName: "960f9a06-1e26-4844-9b5a-31c0b0b6c14d.jpg",
             url: "https://media.mapgenie.io/storage/media/960f9a06-1e26-4844-9b5a-31c0b0b6c14d.jpg",
             type: "image",
           },
@@ -231,19 +217,14 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73397845029842",
         media: [
           {
-            fileName: "4b436d03-0a36-4698-926a-dd0dea8ac0a0",
             url: "https://media.mapgenie.io/storage/media/4b436d03-0a36-4698-926a-dd0dea8ac0a0.png",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "105064f6-7ce2-449f-b3bb-f07840a59c39.jpg",
             url: "https://media.mapgenie.io/storage/media/105064f6-7ce2-449f-b3bb-f07840a59c39.jpg",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "5981ade7-2e0f-4762-983e-9f644d228131.jpg",
             url: "https://media.mapgenie.io/storage/media/5981ade7-2e0f-4762-983e-9f644d228131.jpg",
             type: "image",
           },
@@ -258,7 +239,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73379337787449",
         media: [
           {
-            fileName: "f7ed6e56-78dd-42b1-b430-2a24c039bb38.png",
             url: "https://media.mapgenie.io/storage/media/f7ed6e56-78dd-42b1-b430-2a24c039bb38.png",
             type: "image",
           },
@@ -281,25 +261,18 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71111261844769",
         media: [
           {
-            fileName: "495b594c-b8a6-4fac-b932-7ca9f5fdd63f.png",
             url: "https://media.mapgenie.io/storage/media/495b594c-b8a6-4fac-b932-7ca9f5fdd63f.png",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "1f21b21a-5187-436a-b41d-97a7b3e89402.jpg",
             url: "https://media.mapgenie.io/storage/media/1f21b21a-5187-436a-b41d-97a7b3e89402.jpg",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "186a38f1-25bb-4978-b844-482c9968457a.jpg",
             url: "https://media.mapgenie.io/storage/media/186a38f1-25bb-4978-b844-482c9968457a.jpg",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "10ce180c-731f-410d-ac16-31f511748572.jpg",
             url: "https://media.mapgenie.io/storage/media/10ce180c-731f-410d-ac16-31f511748572.jpg",
             type: "image",
           },
@@ -314,7 +287,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72300285100991",
         media: [
           {
-            fileName: "c57eb25d-02fa-46b1-ab38-d22422d6ba22.png",
             url: "https://media.mapgenie.io/storage/media/c57eb25d-02fa-46b1-ab38-d22422d6ba22.png",
             type: "image",
           },
@@ -337,7 +309,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79229369759449",
         media: [
           {
-            fileName: "ff251ccc-e264-4f18-b207-906886402a84.png",
             url: "https://media.mapgenie.io/storage/media/ff251ccc-e264-4f18-b207-906886402a84.png",
             type: "image",
           },
@@ -360,7 +331,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67846208810897",
         media: [
           {
-            fileName: "2a83ccc6-dbbb-40e7-b18b-e5bdced6f491.png",
             url: "https://media.mapgenie.io/storage/media/2a83ccc6-dbbb-40e7-b18b-e5bdced6f491.png",
             type: "image",
           },
@@ -375,7 +345,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81166326999795",
         media: [
           {
-            fileName: "86e0a9e6-7d76-4436-81ab-656cd6f82688.png",
             url: "https://media.mapgenie.io/storage/media/86e0a9e6-7d76-4436-81ab-656cd6f82688.png",
             type: "image",
           },
@@ -390,7 +359,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71235716342903",
         media: [
           {
-            fileName: "dd057be9-5012-4f3c-96e3-9117b9121d84.jpg",
             url: "https://media.mapgenie.io/storage/media/dd057be9-5012-4f3c-96e3-9117b9121d84.jpg",
             type: "image",
           },
@@ -413,13 +381,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76462671160849",
         media: [
           {
-            fileName: "7065e47a-aa8d-4c25-baf1-681b14f6dc6c.jpg",
             url: "https://media.mapgenie.io/storage/media/7065e47a-aa8d-4c25-baf1-681b14f6dc6c.jpg",
             type: "image",
           },
           {
-            title: "",
-            fileName: "32bbf6e4-bb4d-497c-94ec-c7cce91f43c5.jpg",
             url: "https://media.mapgenie.io/storage/media/32bbf6e4-bb4d-497c-94ec-c7cce91f43c5.jpg",
             type: "image",
           },
@@ -442,7 +407,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82532778382284",
         media: [
           {
-            fileName: "0b650a8b-a57e-4f2d-902c-1e6970990510.png",
             url: "https://media.mapgenie.io/storage/media/0b650a8b-a57e-4f2d-902c-1e6970990510.png",
             type: "image",
           },
@@ -472,7 +436,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68735234191077",
         media: [
           {
-            fileName: "652799d1-8dfc-4278-b936-f3cec64c8ea2.png",
             url: "https://media.mapgenie.io/storage/media/652799d1-8dfc-4278-b936-f3cec64c8ea2.png",
             type: "image",
           },
@@ -519,7 +482,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67199394106859",
         media: [
           {
-            fileName: "83b37a91-9dfc-4a2d-a343-48be9b5f1fb1.png",
             url: "https://media.mapgenie.io/storage/media/83b37a91-9dfc-4a2d-a343-48be9b5f1fb1.png",
             type: "image",
           },
@@ -566,7 +528,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76158642768823",
         media: [
           {
-            fileName: "3face877-92f0-4b91-b933-478ae7402329.png",
             url: "https://media.mapgenie.io/storage/media/3face877-92f0-4b91-b933-478ae7402329.png",
             type: "image",
           },
@@ -597,7 +558,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65509057825915",
         media: [
           {
-            fileName: "c0667f39-3dff-4d81-aaf1-d2d4a4b07a37.png",
             url: "https://media.mapgenie.io/storage/media/c0667f39-3dff-4d81-aaf1-d2d4a4b07a37.png",
             type: "image",
           },
@@ -652,7 +612,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63219264149507",
         media: [
           {
-            fileName: "abff9ace-e549-4f8c-b023-d7ea8074d099.png",
             url: "https://media.mapgenie.io/storage/media/abff9ace-e549-4f8c-b023-d7ea8074d099.png",
             type: "image",
           },
@@ -675,7 +634,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63554137945098",
         media: [
           {
-            fileName: "5335ff28-d412-4df9-a642-25f1824faca9.jpeg",
             url: "https://media.mapgenie.io/storage/media/5335ff28-d412-4df9-a642-25f1824faca9.jpeg",
             type: "image",
           },
@@ -690,7 +648,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73406159877686",
         media: [
           {
-            fileName: "338c857a-088b-49e7-bd26-e60e3b39537e.jpg",
             url: "https://media.mapgenie.io/storage/media/338c857a-088b-49e7-bd26-e60e3b39537e.jpg",
             type: "image",
           },
@@ -743,7 +700,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75151339173397",
         media: [
           {
-            fileName: "81f8182e-47f5-4dbc-8203-d116d2765345.jpg",
             url: "https://media.mapgenie.io/storage/media/81f8182e-47f5-4dbc-8203-d116d2765345.png",
             type: "image",
           },
@@ -758,7 +714,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75275659561262",
         media: [
           {
-            fileName: "37c98c2f-c9ca-468e-b35a-801276f8674f.jpg",
             url: "https://media.mapgenie.io/storage/media/37c98c2f-c9ca-468e-b35a-801276f8674f.png",
             type: "image",
           },
@@ -773,7 +728,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68730935454312",
         media: [
           {
-            fileName: "c9a71e43-7d84-4129-aa82-3da30b86228d.png",
             url: "https://media.mapgenie.io/storage/media/c9a71e43-7d84-4129-aa82-3da30b86228d.png",
             type: "image",
           },
@@ -788,7 +742,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80180346965699",
         media: [
           {
-            fileName: "5b46b1dc-fee8-40f8-aee3-5a98169d1a8c.jpg",
             url: "https://media.mapgenie.io/storage/media/5b46b1dc-fee8-40f8-aee3-5a98169d1a8c.png",
             type: "image",
           },
@@ -873,7 +826,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69460493940323",
         media: [
           {
-            fileName: "ef6feea2-36a5-44bd-a51f-e8f35a19f264.png",
             url: "https://media.mapgenie.io/storage/media/ef6feea2-36a5-44bd-a51f-e8f35a19f264.png",
             type: "image",
           },
@@ -964,7 +916,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70396453142163",
         media: [
           {
-            fileName: "1472da13-0ea2-4aa2-8ae2-506bd3559488.png",
             url: "https://media.mapgenie.io/storage/media/1472da13-0ea2-4aa2-8ae2-506bd3559488.png",
             type: "image",
           },
@@ -979,7 +930,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72994306683543",
         media: [
           {
-            fileName: "38a48e00-47d3-4f46-8c67-97b11d4aa52d",
             url: "https://media.mapgenie.io/storage/media/38a48e00-47d3-4f46-8c67-97b11d4aa52d.jpg",
             type: "image",
           },
@@ -1048,7 +998,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65197661519127",
         media: [
           {
-            fileName: "5d4e70e9-6c95-41f7-a723-69bd9eaa40dc.png",
             url: "https://media.mapgenie.io/storage/media/5d4e70e9-6c95-41f7-a723-69bd9eaa40dc.png",
             type: "image",
           },
@@ -1075,13 +1024,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72092413902305",
         media: [
           {
-            fileName: "1719770a-d4f1-470a-8013-8ecf686ecb0d.jpg",
             url: "https://media.mapgenie.io/storage/media/1719770a-d4f1-470a-8013-8ecf686ecb0d.png",
             type: "image",
           },
           {
-            title: "Elden Ring Screenshot 2022.02.25 - 01.21.23.54",
-            fileName: "60096c00-f792-4039-b893-8611332649cd.jpg",
             url: "https://media.mapgenie.io/storage/media/60096c00-f792-4039-b893-8611332649cd.png",
             type: "image",
           },
@@ -1096,7 +1042,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70146471262007",
         media: [
           {
-            fileName: "447921dd-da51-48cc-8e7f-09417ba598e2.jpg",
             url: "https://media.mapgenie.io/storage/media/447921dd-da51-48cc-8e7f-09417ba598e2.jpg",
             type: "image",
           },
@@ -1118,7 +1063,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75118213892119",
         media: [
           {
-            fileName: "41674bed-8e7b-41c6-9334-5b4ec29da0e1.jpg",
             url: "https://media.mapgenie.io/storage/media/41674bed-8e7b-41c6-9334-5b4ec29da0e1.png",
             type: "image",
           },
@@ -1133,7 +1077,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75309455394938",
         media: [
           {
-            fileName: "6cfd2ac6-50f4-4d39-a73b-671550e2ef5a.jpg",
             url: "https://media.mapgenie.io/storage/media/6cfd2ac6-50f4-4d39-a73b-671550e2ef5a.png",
             type: "image",
           },
@@ -1148,7 +1091,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75359612703193",
         media: [
           {
-            fileName: "ff03ad6b-e369-4307-879b-b52e88890250.jpg",
             url: "https://media.mapgenie.io/storage/media/ff03ad6b-e369-4307-879b-b52e88890250.png",
             type: "image",
           },
@@ -1161,7 +1103,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72615846991610",
         media: [
           {
-            fileName: "d56795e8-0485-4cb2-998c-c0814d649dc7.jpg",
             url: "https://media.mapgenie.io/storage/media/d56795e8-0485-4cb2-998c-c0814d649dc7.jpg",
             type: "image",
           },
@@ -1176,7 +1117,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71935772895893",
         media: [
           {
-            fileName: "b0c68895-7aa8-438d-8541-cfa9f6fdbc53.jpg",
             url: "https://media.mapgenie.io/storage/media/b0c68895-7aa8-438d-8541-cfa9f6fdbc53.jpg",
             type: "image",
           },
@@ -1191,7 +1131,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80010160803914",
         media: [
           {
-            fileName: "767578a0-f202-4739-8675-c0b9420f21b1.jpg",
             url: "https://media.mapgenie.io/storage/media/767578a0-f202-4739-8675-c0b9420f21b1.png",
             type: "image",
           },
@@ -1214,7 +1153,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80276638269311",
         media: [
           {
-            fileName: "2a414e73-18aa-40bf-ae9f-4ac9756045ce.png",
             url: "https://media.mapgenie.io/storage/media/2a414e73-18aa-40bf-ae9f-4ac9756045ce.png",
             type: "image",
           },
@@ -1228,7 +1166,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81144869327505",
         media: [
           {
-            fileName: "ec7181f4-9fda-4c41-814a-ac94951b868b.png",
             url: "https://media.mapgenie.io/storage/media/ec7181f4-9fda-4c41-814a-ac94951b868b.png",
             type: "image",
           },
@@ -1242,7 +1179,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62435575879999",
         media: [
           {
-            fileName: "6a519a19-8be1-4f6a-a17c-41973da73906.jpg",
             url: "https://media.mapgenie.io/storage/media/6a519a19-8be1-4f6a-a17c-41973da73906.jpg",
             type: "image",
           },
@@ -1257,7 +1193,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81197172403157",
         media: [
           {
-            fileName: "4f7cb388-e20e-472d-8860-72fc6e75169b.png",
             url: "https://media.mapgenie.io/storage/media/4f7cb388-e20e-472d-8860-72fc6e75169b.png",
             type: "image",
           },
@@ -1279,7 +1214,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75008031791102",
         media: [
           {
-            fileName: "9fb899a1-970c-4d0b-89e9-c8c16fc2147b.png",
             url: "https://media.mapgenie.io/storage/media/9fb899a1-970c-4d0b-89e9-c8c16fc2147b.png",
             type: "image",
           },
@@ -1292,7 +1226,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64404410623121",
         media: [
           {
-            fileName: "33cd4ca0-1312-4578-8894-ff8108bda08f.jpg",
             url: "https://media.mapgenie.io/storage/media/33cd4ca0-1312-4578-8894-ff8108bda08f.jpg",
             type: "image",
           },
@@ -1305,7 +1238,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64234895013380",
         media: [
           {
-            fileName: "c6802545-360a-4bd8-9f07-eba565e4037c.jpg",
             url: "https://media.mapgenie.io/storage/media/c6802545-360a-4bd8-9f07-eba565e4037c.jpg",
             type: "image",
           },
@@ -1328,7 +1260,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81151361471433",
         media: [
           {
-            fileName: "49da9a7f-db79-484a-bf2a-31bbedb27473.jpg",
             url: "https://media.mapgenie.io/storage/media/49da9a7f-db79-484a-bf2a-31bbedb27473.png",
             type: "image",
           },
@@ -1387,7 +1318,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77694229446453",
         media: [
           {
-            fileName: "04933f32-f1a0-48e7-bddf-51a25a93c559.png",
             url: "https://media.mapgenie.io/storage/media/04933f32-f1a0-48e7-bddf-51a25a93c559.png",
             type: "image",
           },
@@ -1402,7 +1332,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80899171645950",
         media: [
           {
-            fileName: "d10f3413-8216-4d84-8394-aa18075a51a0.jpeg",
             url: "https://media.mapgenie.io/storage/media/d10f3413-8216-4d84-8394-aa18075a51a0.jpeg",
             type: "image",
           },
@@ -1417,7 +1346,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71311702205804",
         media: [
           {
-            fileName: "9f6b0941-618b-420f-bf18-05d1ec48b3f4.png",
             url: "https://media.mapgenie.io/storage/media/9f6b0941-618b-420f-bf18-05d1ec48b3f4.png",
             type: "image",
           },
@@ -1432,7 +1360,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81216878031747",
         media: [
           {
-            fileName: "e5124d25-fdf3-4f22-a9c3-c2cd92607018.png",
             url: "https://media.mapgenie.io/storage/media/e5124d25-fdf3-4f22-a9c3-c2cd92607018.png",
             type: "image",
           },
@@ -1460,7 +1387,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72364658117382",
         media: [
           {
-            fileName: "3e7a4a9a-7ad1-4ced-9122-fe7a81944d25.jpg",
             url: "https://media.mapgenie.io/storage/media/3e7a4a9a-7ad1-4ced-9122-fe7a81944d25.png",
             type: "image",
           },
@@ -1475,7 +1401,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69082170724749",
         media: [
           {
-            fileName: "29060a77-1abc-4816-87d2-3fff12ffc7df.png",
             url: "https://media.mapgenie.io/storage/media/29060a77-1abc-4816-87d2-3fff12ffc7df.png",
             type: "image",
           },
@@ -1490,7 +1415,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75157870655423",
         media: [
           {
-            fileName: "a42ee73d-2cd4-4b3d-a51a-73a80b2e4c7e.jpg",
             url: "https://media.mapgenie.io/storage/media/a42ee73d-2cd4-4b3d-a51a-73a80b2e4c7e.png",
             type: "image",
           },
@@ -1505,7 +1429,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75038284063160",
         media: [
           {
-            fileName: "77dbc0b1-95db-44d6-a7cc-8c57127848c2.jpg",
             url: "https://media.mapgenie.io/storage/media/77dbc0b1-95db-44d6-a7cc-8c57127848c2.png",
             type: "image",
           },
@@ -1520,7 +1443,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71935370564276",
         media: [
           {
-            fileName: "a0d5036a-a4fb-4673-979a-93fe2cd8ab70.jpg",
             url: "https://media.mapgenie.io/storage/media/a0d5036a-a4fb-4673-979a-93fe2cd8ab70.jpg",
             type: "image",
           },
@@ -1535,7 +1457,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72931945324004",
         media: [
           {
-            fileName: "38a48e00-47d3-4f46-8c67-97b11d4aa52d.jpg",
             url: "https://media.mapgenie.io/storage/media/38a48e00-47d3-4f46-8c67-97b11d4aa52d.jpg",
             type: "image",
           },
@@ -1557,7 +1478,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67462921142751",
         media: [
           {
-            fileName: "91edadbb-2622-4a36-8c4d-b0fb0b9bb680.jpg",
             url: "https://media.mapgenie.io/storage/media/91edadbb-2622-4a36-8c4d-b0fb0b9bb680.jpg",
             type: "image",
           },
@@ -1683,7 +1603,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80390158621134",
         media: [
           {
-            fileName: "276510dd-1717-488d-b225-b9c84d6bb222.png",
             url: "https://media.mapgenie.io/storage/media/276510dd-1717-488d-b225-b9c84d6bb222.png",
             type: "image",
           },
@@ -1738,7 +1657,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79063060067540",
         media: [
           {
-            fileName: "3bf94513-8246-44f2-a984-921b9cc8bfea.png",
             url: "https://media.mapgenie.io/storage/media/3bf94513-8246-44f2-a984-921b9cc8bfea.png",
             type: "image",
           },
@@ -1820,7 +1738,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72222098708198",
         media: [
           {
-            fileName: "6713c822-2d34-4c87-b827-1c0a22de8bb0.jpg",
             url: "https://media.mapgenie.io/storage/media/6713c822-2d34-4c87-b827-1c0a22de8bb0.jpg",
             type: "image",
           },
@@ -1845,7 +1762,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71229279041395",
         media: [
           {
-            fileName: "53e9215e-b26c-400c-bfed-690e53ae45b4.jpg",
             url: "https://media.mapgenie.io/storage/media/53e9215e-b26c-400c-bfed-690e53ae45b4.jpg",
             type: "image",
           },
@@ -1860,7 +1776,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69498449564085",
         media: [
           {
-            fileName: "2f4cadff-fdc9-4d5b-903f-597cc9d59715.png",
             url: "https://media.mapgenie.io/storage/media/2f4cadff-fdc9-4d5b-903f-597cc9d59715.png",
             type: "image",
           },
@@ -1939,7 +1854,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71459412574782",
         media: [
           {
-            fileName: "aef62607-bbc3-44f6-b6f4-4671c2835246.png",
             url: "https://media.mapgenie.io/storage/media/aef62607-bbc3-44f6-b6f4-4671c2835246.png",
             type: "image",
           },
@@ -1958,7 +1872,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68197175860294",
         media: [
           {
-            fileName: "8b32a683-2d5b-4a7c-923f-507b0ea2c5ba.png",
             url: "https://media.mapgenie.io/storage/media/8b32a683-2d5b-4a7c-923f-507b0ea2c5ba.png",
             type: "image",
           },
@@ -1977,7 +1890,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68804964423055",
         media: [
           {
-            fileName: "53857c9b-50ca-4993-bc92-48777683b111.png",
             url: "https://media.mapgenie.io/storage/media/53857c9b-50ca-4993-bc92-48777683b111.png",
             type: "image",
           },
@@ -1990,7 +1902,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68632096051971",
         media: [
           {
-            fileName: "52a9d81f-f0c0-4106-b4ee-ee444d31b086.png",
             url: "https://media.mapgenie.io/storage/media/52a9d81f-f0c0-4106-b4ee-ee444d31b086.png",
             type: "image",
           },
@@ -2003,7 +1914,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69461166858588",
         media: [
           {
-            fileName: "2f26db91-eb4a-4481-8609-a74e6f2b5100.png",
             url: "https://media.mapgenie.io/storage/media/2f26db91-eb4a-4481-8609-a74e6f2b5100.png",
             type: "image",
           },
@@ -2078,7 +1988,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67763864994143",
         media: [
           {
-            fileName: "6f313a8b-b795-47ed-bafc-33772dd1e880.png",
             url: "https://media.mapgenie.io/storage/media/6f313a8b-b795-47ed-bafc-33772dd1e880.png",
             type: "image",
           },
@@ -2109,7 +2018,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66462993621877",
         media: [
           {
-            fileName: "da80a38c-4109-482b-b275-5cac6807bba6.jpg",
             url: "https://media.mapgenie.io/storage/media/da80a38c-4109-482b-b275-5cac6807bba6.jpg",
             type: "image",
           },
@@ -2142,7 +2050,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62896728515747",
         media: [
           {
-            fileName: "bdacfb4d-d8e2-4799-90b8-aa1480237c44.png",
             url: "https://media.mapgenie.io/storage/media/bdacfb4d-d8e2-4799-90b8-aa1480237c44.png",
             type: "image",
           },
@@ -2297,7 +2204,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75923681259042",
         media: [
           {
-            fileName: "0ac4f2ea-2392-436f-90b4-e468784a7ae9.png",
             url: "https://media.mapgenie.io/storage/media/0ac4f2ea-2392-436f-90b4-e468784a7ae9.png",
             type: "image",
           },
@@ -2402,13 +2308,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61168044805515",
         media: [
           {
-            fileName: "e615fb6e-e707-49e5-840a-c9552e51e445.jpg",
             url: "https://media.mapgenie.io/storage/media/e615fb6e-e707-49e5-840a-c9552e51e445.jpg",
             type: "image",
           },
           {
-            title: "20220309005358_1",
-            fileName: "01225ca7-ccaf-46ce-8766-dfa7061728f5.jpg",
             url: "https://media.mapgenie.io/storage/media/01225ca7-ccaf-46ce-8766-dfa7061728f5.jpg",
             type: "image",
           },
@@ -2433,7 +2336,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78658059239390",
         media: [
           {
-            fileName: "7629ee35-3479-4a07-b71f-eac35b738bb5.jpg",
             url: "https://media.mapgenie.io/storage/media/7629ee35-3479-4a07-b71f-eac35b738bb5.jpg",
             type: "image",
           },
@@ -2568,7 +2470,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64347133040400",
         media: [
           {
-            fileName: "d61d5163-6021-4ec0-9923-5e87edd5d185.jpg",
             url: "https://media.mapgenie.io/storage/media/d61d5163-6021-4ec0-9923-5e87edd5d185.jpg",
             type: "image",
           },
@@ -2623,7 +2524,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77042514845519",
         media: [
           {
-            fileName: "7a19524e-85c2-46e1-ab52-57e110847ff3.jpeg",
             url: "https://media.mapgenie.io/storage/media/7a19524e-85c2-46e1-ab52-57e110847ff3.jpeg",
             type: "image",
           },
@@ -2672,7 +2572,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65117871415649",
         media: [
           {
-            fileName: "516e349d-b32f-4c11-86aa-28a0715f26cd.jpg",
             url: "https://media.mapgenie.io/storage/media/516e349d-b32f-4c11-86aa-28a0715f26cd.jpg",
             type: "image",
           },
@@ -2709,7 +2608,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76530418354041",
         media: [
           {
-            fileName: "41f87759-047b-467b-87e5-e80b488abe7c.jpeg",
             url: "https://media.mapgenie.io/storage/media/41f87759-047b-467b-87e5-e80b488abe7c.jpeg",
             type: "image",
           },
@@ -2838,7 +2736,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72534844279321",
         media: [
           {
-            fileName: "24283e41-d236-4993-85b5-98406ebd54a0.jpg",
             url: "https://media.mapgenie.io/storage/media/24283e41-d236-4993-85b5-98406ebd54a0.png",
             type: "image",
           },
@@ -2851,7 +2748,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71376800537177",
         media: [
           {
-            fileName: "b9f73fb7-f5e8-48ab-9136-23d5171fcc47.png",
             url: "https://media.mapgenie.io/storage/media/b9f73fb7-f5e8-48ab-9136-23d5171fcc47.png",
             type: "image",
           },
@@ -2866,7 +2762,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70334628224376",
         media: [
           {
-            fileName: "0272c65b-335c-4dff-b53f-b67b6d1555bd.jpg",
             url: "https://media.mapgenie.io/storage/media/0272c65b-335c-4dff-b53f-b67b6d1555bd.jpg",
             type: "image",
           },
@@ -2879,7 +2774,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74732914567002",
         media: [
           {
-            fileName: "a990f9b7-3f44-4012-bb1f-ea6107300988.jpg",
             url: "https://media.mapgenie.io/storage/media/a990f9b7-3f44-4012-bb1f-ea6107300988.png",
             type: "image",
           },
@@ -2892,7 +2786,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75040966272414",
         media: [
           {
-            fileName: "bce00e76-93e6-41cb-81a7-94ef486c9bb9.jpg",
             url: "https://media.mapgenie.io/storage/media/bce00e76-93e6-41cb-81a7-94ef486c9bb9.png",
             type: "image",
           },
@@ -2907,7 +2800,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75277941674702",
         media: [
           {
-            fileName: "8309b376-2fa9-4b61-98ec-9f2a23404ec6.jpg",
             url: "https://media.mapgenie.io/storage/media/8309b376-2fa9-4b61-98ec-9f2a23404ec6.png",
             type: "image",
           },
@@ -2921,7 +2813,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75217992067104",
         media: [
           {
-            fileName: "e0f0e9eb-8dc6-496b-80c9-b35eb4e26bd4.jpg",
             url: "https://media.mapgenie.io/storage/media/e0f0e9eb-8dc6-496b-80c9-b35eb4e26bd4.png",
             type: "image",
           },
@@ -2935,7 +2826,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75072079896879",
         media: [
           {
-            fileName: "32e2b703-40ea-4a02-b4c9-641b304ab804.jpg",
             url: "https://media.mapgenie.io/storage/media/32e2b703-40ea-4a02-b4c9-641b304ab804.png",
             type: "image",
           },
@@ -2950,7 +2840,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71940600871898",
         media: [
           {
-            fileName: "55f948cb-0651-4919-b1b1-088248806701.jpg",
             url: "https://media.mapgenie.io/storage/media/55f948cb-0651-4919-b1b1-088248806701.jpg",
             type: "image",
           },
@@ -2972,25 +2861,18 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71296602487709",
         media: [
           {
-            fileName: "53014277-7f23-44d5-ad91-2ddf018cc2ac.png",
             url: "https://media.mapgenie.io/storage/media/53014277-7f23-44d5-ad91-2ddf018cc2ac.png",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "3275233a-5b40-4172-b035-256412160f70.jpg",
             url: "https://media.mapgenie.io/storage/media/3275233a-5b40-4172-b035-256412160f70.jpg",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "857c7ca0-0ba2-436e-be39-149015b284a7.jpg",
             url: "https://media.mapgenie.io/storage/media/857c7ca0-0ba2-436e-be39-149015b284a7.jpg",
             type: "image",
           },
           {
-            title: "736b3b11adb0fd5f9857409badec5ecf",
-            fileName: "7d6539b3-c230-4430-b3e3-abce0191b2c4.jpg",
             url: "https://media.mapgenie.io/storage/media/7d6539b3-c230-4430-b3e3-abce0191b2c4.jpg",
             type: "image",
           },
@@ -3005,7 +2887,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80073729157542",
         media: [
           {
-            fileName: "0a9212c7-1010-4fc0-b9c8-048e84334672.jpg",
             url: "https://media.mapgenie.io/storage/media/0a9212c7-1010-4fc0-b9c8-048e84334672.png",
             type: "image",
           },
@@ -3019,7 +2900,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80041140317982",
         media: [
           {
-            fileName: "295d72f7-1e65-4b66-a5db-2267e44fc56f.jpg",
             url: "https://media.mapgenie.io/storage/media/295d72f7-1e65-4b66-a5db-2267e44fc56f.png",
             type: "image",
           },
@@ -3034,7 +2914,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69308012723752",
         media: [
           {
-            fileName: "0b7674fe-ea07-457a-83df-8f8bc6516bf3.png",
             url: "https://media.mapgenie.io/storage/media/0b7674fe-ea07-457a-83df-8f8bc6516bf3.png",
             type: "image",
           },
@@ -3048,7 +2927,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71787759929910",
         media: [
           {
-            fileName: "087aaec7-f9e4-40a5-af8e-1b6f812de0fb.png",
             url: "https://media.mapgenie.io/storage/media/087aaec7-f9e4-40a5-af8e-1b6f812de0fb.png",
             type: "image",
           },
@@ -3062,7 +2940,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71146549938064",
         media: [
           {
-            fileName: "2ced5ca8-be53-4d01-a00b-f9b8049f5e9b.png",
             url: "https://media.mapgenie.io/storage/media/2ced5ca8-be53-4d01-a00b-f9b8049f5e9b.png",
             type: "image",
           },
@@ -3077,7 +2954,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71019127964809",
         media: [
           {
-            fileName: "94407b78-9fe8-4e5c-b359-a502d350190b.png",
             url: "https://media.mapgenie.io/storage/media/94407b78-9fe8-4e5c-b359-a502d350190b.png",
             type: "image",
           },
@@ -3091,7 +2967,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71157261729138",
         media: [
           {
-            fileName: "06e816d7-b53e-4cff-9bde-b87865cdebf9.png",
             url: "https://media.mapgenie.io/storage/media/06e816d7-b53e-4cff-9bde-b87865cdebf9.png",
             type: "image",
           },
@@ -3106,7 +2981,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82092627882986",
         media: [
           {
-            fileName: "313b4ccd-151a-438d-a9ff-c9e6661696be.jpg",
             url: "https://media.mapgenie.io/storage/media/313b4ccd-151a-438d-a9ff-c9e6661696be.jpg",
             type: "image",
           },
@@ -3121,7 +2995,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67372530698941",
         media: [
           {
-            fileName: "341e2160-b168-40d0-918a-9e80e1053121.png",
             url: "https://media.mapgenie.io/storage/media/341e2160-b168-40d0-918a-9e80e1053121.png",
             type: "image",
           },
@@ -3141,7 +3014,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73435261845410",
         media: [
           {
-            fileName: "03c0dc67-aa27-4981-8c83-af9928b75b5a.png",
             url: "https://media.mapgenie.io/storage/media/03c0dc67-aa27-4981-8c83-af9928b75b5a.png",
             type: "image",
           },
@@ -3156,7 +3028,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68048581481071",
         media: [
           {
-            fileName: "36705d17-74df-4049-8725-84de2320bd55.png",
             url: "https://media.mapgenie.io/storage/media/36705d17-74df-4049-8725-84de2320bd55.png",
             type: "image",
           },
@@ -3175,7 +3046,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73365658521533",
         media: [
           {
-            fileName: "d190fe62-d589-48d1-adf4-b82db1735502.png",
             url: "https://media.mapgenie.io/storage/media/d190fe62-d589-48d1-adf4-b82db1735502.png",
             type: "image",
           },
@@ -3201,7 +3071,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79719677567573",
         media: [
           {
-            fileName: "978ccd9a-21a8-4109-9b92-0263b9759bc9.png",
             url: "https://media.mapgenie.io/storage/media/978ccd9a-21a8-4109-9b92-0263b9759bc9.png",
             type: "image",
           },
@@ -3249,7 +3118,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80983979341786",
         media: [
           {
-            fileName: "1aaf2bae-b586-4dc7-9de2-fc6d92d42d5e.jpg",
             url: "https://media.mapgenie.io/storage/media/1aaf2bae-b586-4dc7-9de2-fc6d92d42d5e.jpg",
             type: "image",
           },
@@ -3282,7 +3150,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66271524451557",
         media: [
           {
-            fileName: "53af625e-66d2-4b98-88ef-2a124e6f18a9.png",
             url: "https://media.mapgenie.io/storage/media/53af625e-66d2-4b98-88ef-2a124e6f18a9.png",
             type: "image",
           },
@@ -3296,7 +3163,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65104044073851",
         media: [
           {
-            fileName: "a9343dee-8a24-4ff3-a80f-633bfcdc3f5e.png",
             url: "https://media.mapgenie.io/storage/media/a9343dee-8a24-4ff3-a80f-633bfcdc3f5e.png",
             type: "image",
           },
@@ -3331,7 +3197,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64356357712546",
         media: [
           {
-            fileName: "be9596d8-9259-44d9-9944-25b9e0c6222f.jpg",
             url: "https://media.mapgenie.io/storage/media/be9596d8-9259-44d9-9944-25b9e0c6222f.jpg",
             type: "image",
           },
@@ -3358,7 +3223,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71075588464961",
         media: [
           {
-            fileName: "d7356b86-57fe-441f-a6cf-36e0dd975d3a.png",
             url: "https://media.mapgenie.io/storage/media/d7356b86-57fe-441f-a6cf-36e0dd975d3a.png",
             type: "image",
           },
@@ -3377,7 +3241,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71899313411242",
         media: [
           {
-            fileName: "341497af-24a7-4e54-bcd0-fc60e92adbe9.jpg",
             url: "https://media.mapgenie.io/storage/media/341497af-24a7-4e54-bcd0-fc60e92adbe9.jpg",
             type: "image",
           },
@@ -3391,7 +3254,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66216226688559",
         media: [
           {
-            fileName: "5f62362c-3094-4911-bc25-c88573666826.png",
             url: "https://media.mapgenie.io/storage/media/5f62362c-3094-4911-bc25-c88573666826.png",
             type: "image",
           },
@@ -3404,7 +3266,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68429020865315",
         media: [
           {
-            fileName: "b8015f13-0344-468b-bca9-1e07daa4e88e.png",
             url: "https://media.mapgenie.io/storage/media/b8015f13-0344-468b-bca9-1e07daa4e88e.png",
             type: "image",
           },
@@ -3424,7 +3285,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61777062762053",
         media: [
           {
-            fileName: "bc45e2aa-10b6-4946-8af0-7bcf7e328e15.png",
             url: "https://media.mapgenie.io/storage/media/bc45e2aa-10b6-4946-8af0-7bcf7e328e15.png",
             type: "image",
           },
@@ -3437,7 +3297,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.60929863980908",
         media: [
           {
-            fileName: "01f2cff5-55e4-4914-b84b-57e8eb2de46c.png",
             url: "https://media.mapgenie.io/storage/media/01f2cff5-55e4-4914-b84b-57e8eb2de46c.png",
             type: "image",
           },
@@ -3456,7 +3315,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81534455249232",
         media: [
           {
-            fileName: "f842bbc6-85a2-4e42-a8b6-4c3a07e24c6b.png",
             url: "https://media.mapgenie.io/storage/media/f842bbc6-85a2-4e42-a8b6-4c3a07e24c6b.png",
             type: "image",
           },
@@ -3471,7 +3329,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64750196382954",
         media: [
           {
-            fileName: "9caba465-72de-452d-8cd6-03e2cbed1274.png",
             url: "https://media.mapgenie.io/storage/media/9caba465-72de-452d-8cd6-03e2cbed1274.png",
             type: "image",
           },
@@ -3486,7 +3343,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69170629527912",
         media: [
           {
-            fileName: "cb1964b2-28f2-4001-aafe-270b992e9eb9.png",
             url: "https://media.mapgenie.io/storage/media/cb1964b2-28f2-4001-aafe-270b992e9eb9.png",
             type: "image",
           },
@@ -3499,7 +3355,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80744106345459",
         media: [
           {
-            fileName: "19c219f5-b3ba-4714-950d-847567801f03.png",
             url: "https://media.mapgenie.io/storage/media/19c219f5-b3ba-4714-950d-847567801f03.png",
             type: "image",
           },
@@ -3512,7 +3367,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64179697164007",
         media: [
           {
-            fileName: "ac8f4e55-4267-45be-b3d2-acab3cfa55aa.jpg",
             url: "https://media.mapgenie.io/storage/media/ac8f4e55-4267-45be-b3d2-acab3cfa55aa.jpg",
             type: "image",
           },
@@ -3533,7 +3387,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71562577122705",
         media: [
           {
-            fileName: "d7a120ca-4dbc-4784-83c8-8712e51fd0d7.png",
             url: "https://media.mapgenie.io/storage/media/d7a120ca-4dbc-4784-83c8-8712e51fd0d7.png",
             type: "image",
           },
@@ -3546,7 +3399,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72736022607205",
         media: [
           {
-            fileName: "a9ca7a4d-c835-4e32-9640-8b8833b767ee.png",
             url: "https://media.mapgenie.io/storage/media/a9ca7a4d-c835-4e32-9640-8b8833b767ee.png",
             type: "image",
           },
@@ -3565,7 +3417,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77724238450216",
         media: [
           {
-            fileName: "cd10c8a3-51ab-4da3-a3a7-d7f0067e2879.png",
             url: "https://media.mapgenie.io/storage/media/cd10c8a3-51ab-4da3-a3a7-d7f0067e2879.png",
             type: "image",
           },
@@ -3591,7 +3442,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69191653078053",
         media: [
           {
-            fileName: "4c1a9c87-255d-474d-b33a-039808cacaff.png",
             url: "https://media.mapgenie.io/storage/media/4c1a9c87-255d-474d-b33a-039808cacaff.png",
             type: "image",
           },
@@ -3618,7 +3468,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69273030606664",
         media: [
           {
-            fileName: "0975b26b-a819-4372-8e09-e64d3133a1c9.png",
             url: "https://media.mapgenie.io/storage/media/0975b26b-a819-4372-8e09-e64d3133a1c9.png",
             type: "image",
           },
@@ -3631,7 +3480,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68716261846043",
         media: [
           {
-            fileName: "92d0f4b1-da11-4785-9891-8b256f839050.png",
             url: "https://media.mapgenie.io/storage/media/92d0f4b1-da11-4785-9891-8b256f839050.png",
             type: "image",
           },
@@ -3645,7 +3493,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51808677670959",
         media: [
           {
-            fileName: "e5fd7f05-5f5f-45b4-9b86-a8aba13ccb8d.png",
             url: "https://media.mapgenie.io/storage/media/e5fd7f05-5f5f-45b4-9b86-a8aba13ccb8d.png",
             type: "image",
           },
@@ -3660,7 +3507,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51546894071069",
         media: [
           {
-            fileName: "4b9b442c-3f85-4779-9473-0e757ae842e5.png",
             url: "https://media.mapgenie.io/storage/media/4b9b442c-3f85-4779-9473-0e757ae842e5.png",
             type: "image",
           },
@@ -3674,7 +3520,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52353736165358",
         media: [
           {
-            fileName: "3808e293-04e2-4e50-9767-f8e6115d66cc.png",
             url: "https://media.mapgenie.io/storage/media/3808e293-04e2-4e50-9767-f8e6115d66cc.png",
             type: "image",
           },
@@ -3688,7 +3533,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51954623463959",
         media: [
           {
-            fileName: "4e5f5af1-b034-4487-96c4-c391170b1301.png",
             url: "https://media.mapgenie.io/storage/media/4e5f5af1-b034-4487-96c4-c391170b1301.png",
             type: "image",
           },
@@ -3702,7 +3546,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52321549657177",
         media: [
           {
-            fileName: "49e84bf3-8484-483a-a36c-882ba9ddde48.png",
             url: "https://media.mapgenie.io/storage/media/49e84bf3-8484-483a-a36c-882ba9ddde48.png",
             type: "image",
           },
@@ -3716,7 +3559,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52445323006634",
         media: [
           {
-            fileName: "857cf833-6443-4f77-afb3-5b42c6aff52d.png",
             url: "https://media.mapgenie.io/storage/media/857cf833-6443-4f77-afb3-5b42c6aff52d.png",
             type: "image",
           },
@@ -3730,7 +3572,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52526862160653",
         media: [
           {
-            fileName: "a2026f50-af69-4931-a985-8b7475a62651.png",
             url: "https://media.mapgenie.io/storage/media/a2026f50-af69-4931-a985-8b7475a62651.png",
             type: "image",
           },
@@ -3744,7 +3585,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61811336015870",
         media: [
           {
-            fileName: "32e90dda-852c-43b5-94d9-14e647bde340.png",
             url: "https://media.mapgenie.io/storage/media/32e90dda-852c-43b5-94d9-14e647bde340.png",
             type: "image",
           },
@@ -3758,7 +3598,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51543557491325",
         media: [
           {
-            fileName: "cc42a244-0752-477f-8948-f327673866b4.png",
             url: "https://media.mapgenie.io/storage/media/cc42a244-0752-477f-8948-f327673866b4.png",
             type: "image",
           },
@@ -3772,7 +3611,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.60563242553607",
         media: [
           {
-            fileName: "4b27cb91-8f08-4579-b495-d6f80353635e.png",
             url: "https://media.mapgenie.io/storage/media/4b27cb91-8f08-4579-b495-d6f80353635e.png",
             type: "image",
           },
@@ -3787,7 +3625,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63827478051178",
         media: [
           {
-            fileName: "5861feaf-cce8-4947-9fa3-f031a1e71837.png",
             url: "https://media.mapgenie.io/storage/media/5861feaf-cce8-4947-9fa3-f031a1e71837.png",
             type: "image",
           },
@@ -3802,7 +3639,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66936480757278",
         media: [
           {
-            fileName: "49e8db2d-7d04-4a36-bf32-adb221355da4.png",
             url: "https://media.mapgenie.io/storage/media/49e8db2d-7d04-4a36-bf32-adb221355da4.png",
             type: "image",
           },
@@ -3816,7 +3652,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81002018541608",
         media: [
           {
-            fileName: "a94bcdaf-c91e-4424-8639-bbc844a3959e.png",
             url: "https://media.mapgenie.io/storage/media/a94bcdaf-c91e-4424-8639-bbc844a3959e.png",
             type: "image",
           },
@@ -3830,7 +3665,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78906937730575",
         media: [
           {
-            fileName: "c9671b0a-e5a7-44c8-8a80-fafbb3986dfc.png",
             url: "https://media.mapgenie.io/storage/media/c9671b0a-e5a7-44c8-8a80-fafbb3986dfc.png",
             type: "image",
           },
@@ -3844,7 +3678,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80392928037088",
         media: [
           {
-            fileName: "92a60679-fc51-4d7d-aecb-2a017723595e.png",
             url: "https://media.mapgenie.io/storage/media/92a60679-fc51-4d7d-aecb-2a017723595e.png",
             type: "image",
           },
@@ -3859,7 +3692,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69733105939366",
         media: [
           {
-            fileName: "627e060e-da04-467e-b738-ae5677074a28.png",
             url: "https://media.mapgenie.io/storage/media/627e060e-da04-467e-b738-ae5677074a28.png",
             type: "image",
           },
@@ -3874,7 +3706,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70418605312477",
         media: [
           {
-            fileName: "779a6759-f6c1-44f3-85b9-b710c148ef2f.png",
             url: "https://media.mapgenie.io/storage/media/779a6759-f6c1-44f3-85b9-b710c148ef2f.png",
             type: "image",
           },
@@ -3888,7 +3719,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69240598590642",
         media: [
           {
-            fileName: "8d3de84c-da3d-4931-bc5f-26c7df30b4f9.png",
             url: "https://media.mapgenie.io/storage/media/8d3de84c-da3d-4931-bc5f-26c7df30b4f9.png",
             type: "image",
           },
@@ -3902,7 +3732,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75724801489230",
         media: [
           {
-            fileName: "cd53ff4d-9cb7-498f-87f9-7b8bc5e603e9.png",
             url: "https://media.mapgenie.io/storage/media/cd53ff4d-9cb7-498f-87f9-7b8bc5e603e9.png",
             type: "image",
           },
@@ -3916,7 +3745,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70961326360745",
         media: [
           {
-            fileName: "351caef4-d0c2-4f03-b110-a3d18c2fff9b.png",
             url: "https://media.mapgenie.io/storage/media/351caef4-d0c2-4f03-b110-a3d18c2fff9b.png",
             type: "image",
           },
@@ -3931,7 +3759,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69700151681877",
         media: [
           {
-            fileName: "ba803865-843d-4cb0-9106-d4771cb6d93a.png",
             url: "https://media.mapgenie.io/storage/media/ba803865-843d-4cb0-9106-d4771cb6d93a.png",
             type: "image",
           },
@@ -3945,7 +3772,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70073672151943",
         media: [
           {
-            fileName: "ae3dc50d-73b6-41a0-b596-b5bcdd1d7bab.png",
             url: "https://media.mapgenie.io/storage/media/ae3dc50d-73b6-41a0-b596-b5bcdd1d7bab.png",
             type: "image",
           },
@@ -3970,7 +3796,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64676068101639",
         media: [
           {
-            fileName: "9b23e8d3-8aed-4020-8f1c-95d4b8fdfdcd.jpg",
             url: "https://media.mapgenie.io/storage/media/9b23e8d3-8aed-4020-8f1c-95d4b8fdfdcd.jpg",
             type: "image",
           },
@@ -3984,7 +3809,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73153429511595",
         media: [
           {
-            fileName: "ebea567c-9a1e-4dda-bb1e-fbe8514e3ea9.png",
             url: "https://media.mapgenie.io/storage/media/ebea567c-9a1e-4dda-bb1e-fbe8514e3ea9.png",
             type: "image",
           },
@@ -4043,7 +3867,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78410387716130",
         media: [
           {
-            fileName: "6e8b1a56-1ad2-4129-87dd-4aaa75a00d11.jpg",
             url: "https://media.mapgenie.io/storage/media/6e8b1a56-1ad2-4129-87dd-4aaa75a00d11.jpg",
             type: "image",
           },
@@ -4323,7 +4146,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73865756392439",
         media: [
           {
-            fileName: "2703018b-f5bd-481e-b594-83b17bacdac5.jpg",
             url: "https://media.mapgenie.io/storage/media/2703018b-f5bd-481e-b594-83b17bacdac5.jpg",
             type: "image",
           },
@@ -4348,7 +4170,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68943366408359",
         media: [
           {
-            fileName: "406cbd17-cdb1-45c4-aca0-a6bb67e7a060.png",
             url: "https://media.mapgenie.io/storage/media/406cbd17-cdb1-45c4-aca0-a6bb67e7a060.png",
             type: "image",
           },
@@ -4423,7 +4244,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71577832102794",
         media: [
           {
-            fileName: "d3305257-2d22-4f54-89ab-2643e3ee0955.png",
             url: "https://media.mapgenie.io/storage/media/d3305257-2d22-4f54-89ab-2643e3ee0955.png",
             type: "image",
           },
@@ -4438,7 +4258,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73237892548744",
         media: [
           {
-            fileName: "fd8dc012-8c35-419a-8f40-dc7da0f0caeb.jpg",
             url: "https://media.mapgenie.io/storage/media/fd8dc012-8c35-419a-8f40-dc7da0f0caeb.png",
             type: "image",
           },
@@ -4453,7 +4272,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79716324806103",
         media: [
           {
-            fileName: "2766f667-b70c-4ea3-acb8-2129d345f1e3.jpg",
             url: "https://media.mapgenie.io/storage/media/2766f667-b70c-4ea3-acb8-2129d345f1e3.png",
             type: "image",
           },
@@ -4468,7 +4286,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80537617206653",
         media: [
           {
-            fileName: "14ef07e7-47bf-4c7a-83ec-54abe3bd7271.jpg",
             url: "https://media.mapgenie.io/storage/media/14ef07e7-47bf-4c7a-83ec-54abe3bd7271.png",
             type: "image",
           },
@@ -4483,7 +4300,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80527961254219",
         media: [
           {
-            fileName: "d97f4e4f-8715-4558-8a82-677e3822ed50.jpg",
             url: "https://media.mapgenie.io/storage/media/d97f4e4f-8715-4558-8a82-677e3822ed50.png",
             type: "image",
           },
@@ -4498,7 +4314,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79444348812115",
         media: [
           {
-            fileName: "82fee2ad-594d-42ac-beef-a4f5bec44024.jpg",
             url: "https://media.mapgenie.io/storage/media/82fee2ad-594d-42ac-beef-a4f5bec44024.png",
             type: "image",
           },
@@ -4513,7 +4328,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72728097438770",
         media: [
           {
-            fileName: "efdbf39b-f18b-456f-9fc8-1a7947a344a2.jpg",
             url: "https://media.mapgenie.io/storage/media/efdbf39b-f18b-456f-9fc8-1a7947a344a2.jpg",
             type: "image",
           },
@@ -4528,7 +4342,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68393111228798",
         media: [
           {
-            fileName: "45e929bd-24df-4a73-a3df-d5d0b4a515a0.jpg",
             url: "https://media.mapgenie.io/storage/media/45e929bd-24df-4a73-a3df-d5d0b4a515a0.jpg",
             type: "image",
           },
@@ -4543,7 +4356,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80026119947297",
         media: [
           {
-            fileName: "87370bec-9863-44e6-8b26-45b1cf5e0471.jpg",
             url: "https://media.mapgenie.io/storage/media/87370bec-9863-44e6-8b26-45b1cf5e0471.png",
             type: "image",
           },
@@ -4574,7 +4386,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81900581717537",
         media: [
           {
-            fileName: "06529f3b-1080-4fb7-a476-08f7843065e2.jpg",
             url: "https://media.mapgenie.io/storage/media/06529f3b-1080-4fb7-a476-08f7843065e2.jpg",
             type: "image",
           },
@@ -4589,7 +4400,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82042604684847",
         media: [
           {
-            fileName: "e019e725-0c6c-4849-ac28-321fa12161c0.jpg",
             url: "https://media.mapgenie.io/storage/media/e019e725-0c6c-4849-ac28-321fa12161c0.jpg",
             type: "image",
           },
@@ -4604,7 +4414,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81812605261766",
         media: [
           {
-            fileName: "a195521d-eef0-4386-85ac-5e89a18124e4.jpg",
             url: "https://media.mapgenie.io/storage/media/a195521d-eef0-4386-85ac-5e89a18124e4.jpg",
             type: "image",
           },
@@ -4619,7 +4428,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71108579635492",
         media: [
           {
-            fileName: "437cc5fd-28aa-4956-9bee-807f32200a3f.jpg",
             url: "https://media.mapgenie.io/storage/media/437cc5fd-28aa-4956-9bee-807f32200a3f.jpg",
             type: "image",
           },
@@ -4642,7 +4450,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76262176036954",
         media: [
           {
-            fileName: "3996d60c-5d83-44c7-b906-012fc5664604.jpg",
             url: "https://media.mapgenie.io/storage/media/3996d60c-5d83-44c7-b906-012fc5664604.png",
             type: "image",
           },
@@ -4665,7 +4472,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74232146144101",
         media: [
           {
-            fileName: "367d1878-5f65-4fe9-b481-c8867e76d214.jpg",
             url: "https://media.mapgenie.io/storage/media/367d1878-5f65-4fe9-b481-c8867e76d214.jpg",
             type: "image",
           },
@@ -4728,7 +4534,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65499209394682",
         media: [
           {
-            fileName: "b4f8ace2-65a3-44e0-8f58-43c8881dc716.png",
             url: "https://media.mapgenie.io/storage/media/b4f8ace2-65a3-44e0-8f58-43c8881dc716.png",
             type: "image",
           },
@@ -4751,7 +4556,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71731950439738",
         media: [
           {
-            fileName: "d0ad92ab-6a66-4f63-b575-2e35657ab777.png",
             url: "https://media.mapgenie.io/storage/media/d0ad92ab-6a66-4f63-b575-2e35657ab777.png",
             type: "image",
           },
@@ -4833,13 +4637,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72372302413112",
         media: [
           {
-            fileName: "db496b95-cce9-4ef1-9721-b221e19912c1.png",
             url: "https://media.mapgenie.io/storage/media/db496b95-cce9-4ef1-9721-b221e19912c1.png",
             type: "image",
           },
           {
-            title: "Elden Ring Screenshot 2022.02.25 - 18.28.24.07",
-            fileName: "cce31a34-1e21-4c5f-a23d-0812cbfb7298.jpg",
             url: "https://media.mapgenie.io/storage/media/cce31a34-1e21-4c5f-a23d-0812cbfb7298.png",
             type: "image",
           },
@@ -4860,7 +4661,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72648838162516",
         media: [
           {
-            fileName: "717c1025-cb29-4a06-9778-f8f19986f17c.jpg",
             url: "https://media.mapgenie.io/storage/media/717c1025-cb29-4a06-9778-f8f19986f17c.png",
             type: "image",
           },
@@ -4879,7 +4679,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71121722459705",
         media: [
           {
-            fileName: "981234a4-1de1-4fdb-b0e4-484b0ae75de5.png",
             url: "https://media.mapgenie.io/storage/media/981234a4-1de1-4fdb-b0e4-484b0ae75de5.png",
             type: "image",
           },
@@ -4905,7 +4704,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72584196925123",
         media: [
           {
-            fileName: "a40bc89f-ee93-4b6b-8001-0aa235052783.png",
             url: "https://media.mapgenie.io/storage/media/a40bc89f-ee93-4b6b-8001-0aa235052783.png",
             type: "image",
           },
@@ -4924,7 +4722,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70380225777635",
         media: [
           {
-            fileName: "3ab384e1-00b4-494e-b300-a3782d71a47b.png",
             url: "https://media.mapgenie.io/storage/media/3ab384e1-00b4-494e-b300-a3782d71a47b.png",
             type: "image",
           },
@@ -4937,7 +4734,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71581050753670",
         media: [
           {
-            fileName: "07f0ec45-38b2-4307-bd99-c040feacec4f.png",
             url: "https://media.mapgenie.io/storage/media/07f0ec45-38b2-4307-bd99-c040feacec4f.png",
             type: "image",
           },
@@ -4956,7 +4752,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68504557013452",
         media: [
           {
-            fileName: "44082f50-9eda-4c9d-ade7-ea4d9e8928a3.png",
             url: "https://media.mapgenie.io/storage/media/44082f50-9eda-4c9d-ade7-ea4d9e8928a3.png",
             type: "image",
           },
@@ -4969,7 +4764,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68507775664304",
         media: [
           {
-            fileName: "16320100-9ab8-4d32-b734-9fd21e751459.png",
             url: "https://media.mapgenie.io/storage/media/16320100-9ab8-4d32-b734-9fd21e751459.png",
             type: "image",
           },
@@ -4988,7 +4782,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70104762911754",
         media: [
           {
-            fileName: "727bc3b5-a902-43b5-98c0-91d07b151c53.png",
             url: "https://media.mapgenie.io/storage/media/727bc3b5-a902-43b5-98c0-91d07b151c53.png",
             type: "image",
           },
@@ -5020,7 +4813,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70677303127744",
         media: [
           {
-            fileName: "7ac158f4-f1b6-4f43-aaae-149f698a8d51.png",
             url: "https://media.mapgenie.io/storage/media/7ac158f4-f1b6-4f43-aaae-149f698a8d51.png",
             type: "image",
           },
@@ -5164,7 +4956,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68514879109671",
         media: [
           {
-            fileName: "88dff1ab-9ccb-40d8-ab68-cccfcc1164f2.png",
             url: "https://media.mapgenie.io/storage/media/88dff1ab-9ccb-40d8-ab68-cccfcc1164f2.png",
             type: "image",
           },
@@ -5191,7 +4982,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71343004703448",
         media: [
           {
-            fileName: "d516a37d-4ae9-48cb-bc73-c38a57ba82f0.jpg",
             url: "https://media.mapgenie.io/storage/media/d516a37d-4ae9-48cb-bc73-c38a57ba82f0.jpg",
             type: "image",
           },
@@ -5206,7 +4996,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72261124849288",
         media: [
           {
-            fileName: "0bf9c2af-37ba-4a21-a05b-31e71561017d.jpg",
             url: "https://media.mapgenie.io/storage/media/0bf9c2af-37ba-4a21-a05b-31e71561017d.png",
             type: "image",
           },
@@ -5219,7 +5008,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69926530122822",
         media: [
           {
-            fileName: "3d5344ba-c3c3-4fa9-8654-51cb20de131f.jpg",
             url: "https://media.mapgenie.io/storage/media/3d5344ba-c3c3-4fa9-8654-51cb20de131f.jpg",
             type: "image",
           },
@@ -5232,7 +5020,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69979637861266",
         media: [
           {
-            fileName: "48825f71-3836-428d-a05c-1977dc11855d.png",
             url: "https://media.mapgenie.io/storage/media/48825f71-3836-428d-a05c-1977dc11855d.png",
             type: "image",
           },
@@ -5245,7 +5032,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71759497109764",
         media: [
           {
-            fileName: "3f7ee993-78ba-4604-af42-d5f3c38e711e.png",
             url: "https://media.mapgenie.io/storage/media/3f7ee993-78ba-4604-af42-d5f3c38e711e.png",
             type: "image",
           },
@@ -5259,7 +5045,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71719452738887",
         media: [
           {
-            fileName: "71f63593-1dd4-469e-af66-6ad20d1e2ca1.jpg",
             url: "https://media.mapgenie.io/storage/media/71f63593-1dd4-469e-af66-6ad20d1e2ca1.jpg",
             type: "image",
           },
@@ -5273,7 +5058,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72810977697358",
         media: [
           {
-            fileName: "d1351bb9-e3c9-4664-af70-9073eafc66a2.jpg",
             url: "https://media.mapgenie.io/storage/media/d1351bb9-e3c9-4664-af70-9073eafc66a2.jpg",
             type: "image",
           },
@@ -5293,7 +5077,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71319803595614",
         media: [
           {
-            fileName: "31d2752a-9675-414c-838a-219539775cf6.png",
             url: "https://media.mapgenie.io/storage/media/31d2752a-9675-414c-838a-219539775cf6.png",
             type: "image",
           },
@@ -5306,7 +5089,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72333142161386",
         media: [
           {
-            fileName: "25501c6f-aecd-47e9-8339-427da9577ac4.png",
             url: "https://media.mapgenie.io/storage/media/25501c6f-aecd-47e9-8339-427da9577ac4.png",
             type: "image",
           },
@@ -5321,7 +5103,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82131117582378",
         media: [
           {
-            fileName: "fcc6a733-9c35-4ccd-83b0-dfafaef50b00.jpg",
             url: "https://media.mapgenie.io/storage/media/fcc6a733-9c35-4ccd-83b0-dfafaef50b00.jpg",
             type: "image",
           },
@@ -5358,7 +5139,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80090492963893",
         media: [
           {
-            fileName: "ef94948a-62c5-4919-8c6f-b5aaa3f9d83d.png",
             url: "https://media.mapgenie.io/storage/media/ef94948a-62c5-4919-8c6f-b5aaa3f9d83d.png",
             type: "image",
           },
@@ -5378,7 +5158,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70366680622055",
         media: [
           {
-            fileName: "f2d4de1a-0dbf-4cee-885c-b3d506bc3c41.png",
             url: "https://media.mapgenie.io/storage/media/f2d4de1a-0dbf-4cee-885c-b3d506bc3c41.png",
             type: "image",
           },
@@ -5430,7 +5209,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72886684875340",
         media: [
           {
-            fileName: "82d97257-65b9-412a-beed-e9f37750dd35.png",
             url: "https://media.mapgenie.io/storage/media/82d97257-65b9-412a-beed-e9f37750dd35.png",
             type: "image",
           },
@@ -5761,7 +5539,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73608381854032",
         media: [
           {
-            fileName: "4b8041ff-d649-4665-b3a2-687b771d9e84.jpg",
             url: "https://media.mapgenie.io/storage/media/4b8041ff-d649-4665-b3a2-687b771d9e84.jpg",
             type: "image",
           },
@@ -5865,7 +5642,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73834397245233",
         media: [
           {
-            fileName: "131aeaa2-18a5-4a95-a6bb-3c4c90f49e5d.jpg",
             url: "https://media.mapgenie.io/storage/media/131aeaa2-18a5-4a95-a6bb-3c4c90f49e5d.jpg",
             type: "image",
           },
@@ -5878,7 +5654,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78280447014018",
         media: [
           {
-            fileName: "708660fe-a138-4d27-a125-6480c716c75e.jpg",
             url: "https://media.mapgenie.io/storage/media/708660fe-a138-4d27-a125-6480c716c75e.jpg",
             type: "image",
           },
@@ -5891,7 +5666,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76058379076878",
         media: [
           {
-            fileName: "0b9dfadb-5732-42fd-bd2a-8f17feeb8d45.jpg",
             url: "https://media.mapgenie.io/storage/media/0b9dfadb-5732-42fd-bd2a-8f17feeb8d45.jpg",
             type: "image",
           },
@@ -5912,19 +5686,14 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72549730539274",
         media: [
           {
-            fileName: "23833893-d3ce-4918-9395-c68e9045b306.jpg",
             url: "https://media.mapgenie.io/storage/media/23833893-d3ce-4918-9395-c68e9045b306.jpg",
             type: "image",
           },
           {
-            title: "20220227230028_1",
-            fileName: "0f3bba8c-475c-463e-b19f-b016e0ea5b58.jpg",
             url: "https://media.mapgenie.io/storage/media/0f3bba8c-475c-463e-b19f-b016e0ea5b58.jpg",
             type: "image",
           },
           {
-            title: "20220227230014_1",
-            fileName: "32a2f091-a88a-4da7-b139-4095cad60637.jpg",
             url: "https://media.mapgenie.io/storage/media/32a2f091-a88a-4da7-b139-4095cad60637.jpg",
             type: "image",
           },
@@ -5939,7 +5708,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77575922012193",
         media: [
           {
-            fileName: "e0baa60b-6200-49ef-8a25-8488ba6e2754.jpg",
             url: "https://media.mapgenie.io/storage/media/e0baa60b-6200-49ef-8a25-8488ba6e2754.jpg",
             type: "image",
           },
@@ -5954,7 +5722,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77640295028630",
         media: [
           {
-            fileName: "f1a1c6a1-7e35-4a66-a726-7f15f91ac410.jpg",
             url: "https://media.mapgenie.io/storage/media/f1a1c6a1-7e35-4a66-a726-7f15f91ac410.jpg",
             type: "image",
           },
@@ -5985,7 +5752,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62845156962752",
         media: [
           {
-            fileName: "9e21c8b0-297d-4756-a833-8dc303b098a7.png",
             url: "https://media.mapgenie.io/storage/media/9e21c8b0-297d-4756-a833-8dc303b098a7.png",
             type: "image",
           },
@@ -6029,7 +5795,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71690216660448",
         media: [
           {
-            fileName: "12db22f1-1a3d-4c8e-979f-b77fac362ec8.jpg",
             url: "https://media.mapgenie.io/storage/media/12db22f1-1a3d-4c8e-979f-b77fac362ec8.jpg",
             type: "image",
           },
@@ -6044,7 +5809,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.59474951309380",
         media: [
           {
-            fileName: "f7364494-b6a4-4ee1-91d3-edceb41f7e5f.png",
             url: "https://media.mapgenie.io/storage/media/f7364494-b6a4-4ee1-91d3-edceb41f7e5f.png",
             type: "image",
           },
@@ -6059,7 +5823,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52304685115621",
         media: [
           {
-            fileName: "54ccfa45-f532-4bae-b46f-0049e8bc048b.png",
             url: "https://media.mapgenie.io/storage/media/54ccfa45-f532-4bae-b46f-0049e8bc048b.png",
             type: "image",
           },
@@ -6074,7 +5837,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52371069788936",
         media: [
           {
-            fileName: "d820b807-f8d6-4981-8a33-132da35ba007.png",
             url: "https://media.mapgenie.io/storage/media/d820b807-f8d6-4981-8a33-132da35ba007.png",
             type: "image",
           },
@@ -6097,7 +5859,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51711324353888",
         media: [
           {
-            fileName: "79b4a531-83ea-440d-becf-1a0dd8e0683e.png",
             url: "https://media.mapgenie.io/storage/media/79b4a531-83ea-440d-becf-1a0dd8e0683e.png",
             type: "image",
           },
@@ -6120,7 +5881,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73870282971195",
         media: [
           {
-            fileName: "dd9e20ef-4fef-4c53-977c-c4c940e6c16d.png",
             url: "https://media.mapgenie.io/storage/media/dd9e20ef-4fef-4c53-977c-c4c940e6c16d.png",
             type: "image",
           },
@@ -6143,7 +5903,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69524231780039",
         media: [
           {
-            fileName: "ccb70eb1-acd0-4c23-a4dc-da9688222e2e.png",
             url: "https://media.mapgenie.io/storage/media/ccb70eb1-acd0-4c23-a4dc-da9688222e2e.png",
             type: "image",
           },
@@ -6158,7 +5917,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64445013480017",
         media: [
           {
-            fileName: "26c326d6-a2be-4c6e-97a3-348b96ecf718.jpeg",
             url: "https://media.mapgenie.io/storage/media/26c326d6-a2be-4c6e-97a3-348b96ecf718.jpeg",
             type: "image",
           },
@@ -6189,7 +5947,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63916859379964",
         media: [
           {
-            fileName: "0e6127a4-0fbf-4be7-af2e-2fdf2aa4a408.png",
             url: "https://media.mapgenie.io/storage/media/0e6127a4-0fbf-4be7-af2e-2fdf2aa4a408.png",
             type: "image",
           },
@@ -6420,7 +6177,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79841181636002",
         media: [
           {
-            fileName: "d8c43880-9b34-42ff-8d6d-37c7ba6e2bbc.png",
             url: "https://media.mapgenie.io/storage/media/d8c43880-9b34-42ff-8d6d-37c7ba6e2bbc.png",
             type: "image",
           },
@@ -6505,7 +6261,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71202188730251",
         media: [
           {
-            fileName: "c0b0028d-9503-4027-86c1-0f4b33d59521.jpg",
             url: "https://media.mapgenie.io/storage/media/c0b0028d-9503-4027-86c1-0f4b33d59521.jpg",
             type: "image",
           },
@@ -6520,7 +6275,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68174913525459",
         media: [
           {
-            fileName: "21954733-4acd-4b26-b875-253cfc1d0878.png",
             url: "https://media.mapgenie.io/storage/media/21954733-4acd-4b26-b875-253cfc1d0878.png",
             type: "image",
           },
@@ -6535,7 +6289,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74985176324876",
         media: [
           {
-            fileName: "3df9acc6-a55c-4af7-b1be-9b3e883010a2.jpg",
             url: "https://media.mapgenie.io/storage/media/3df9acc6-a55c-4af7-b1be-9b3e883010a2.png",
             type: "image",
           },
@@ -6550,13 +6303,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69162771105784",
         media: [
           {
-            fileName: "cf7fc5e7-83c8-4138-b617-6dbeed420aa4.png",
             url: "https://media.mapgenie.io/storage/media/cf7fc5e7-83c8-4138-b617-6dbeed420aa4.png",
             type: "image",
           },
           {
-            title: "20220301003155_1",
-            fileName: "9d9dfac8-9226-440a-96f1-4d667a2971ed.jpg",
             url: "https://media.mapgenie.io/storage/media/9d9dfac8-9226-440a-96f1-4d667a2971ed.jpg",
             type: "image",
           },
@@ -6571,7 +6321,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69486916065279",
         media: [
           {
-            fileName: "4af5d270-e443-4b46-8017-b50585e30624.jpeg",
             url: "https://media.mapgenie.io/storage/media/4af5d270-e443-4b46-8017-b50585e30624.jpeg",
             type: "image",
           },
@@ -6586,7 +6335,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71868315338983",
         media: [
           {
-            fileName: "0c1a8530-064b-4c8f-b450-86f5384c529c.jpg",
             url: "https://media.mapgenie.io/storage/media/0c1a8530-064b-4c8f-b450-86f5384c529c.jpg",
             type: "image",
           },
@@ -6601,7 +6349,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68416044116051",
         media: [
           {
-            fileName: "62460a64-0f4d-405d-be1b-40e01a6df7fa",
             url: "https://media.mapgenie.io/storage/media/62460a64-0f4d-405d-be1b-40e01a6df7fa.jpg",
             type: "image",
           },
@@ -6616,7 +6363,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80008685588894",
         media: [
           {
-            fileName: "5e62270e-122d-4bac-8201-1edb99907721.jpg",
             url: "https://media.mapgenie.io/storage/media/5e62270e-122d-4bac-8201-1edb99907721.png",
             type: "image",
           },
@@ -6631,7 +6377,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74296740686032",
         media: [
           {
-            fileName: "a8959811-eb3e-478e-b201-6057784a21b0.png",
             url: "https://media.mapgenie.io/storage/media/a8959811-eb3e-478e-b201-6057784a21b0.png",
             type: "image",
           },
@@ -6646,7 +6391,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76665417117493",
         media: [
           {
-            fileName: "32bc83da-4860-4d06-a0e1-9c3864621d31.jpg",
             url: "https://media.mapgenie.io/storage/media/32bc83da-4860-4d06-a0e1-9c3864621d31.jpg",
             type: "image",
           },
@@ -6669,7 +6413,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79909041524027",
         media: [
           {
-            fileName: "602044fa-3d15-4a95-bc14-7ee52f4cbc21.png",
             url: "https://media.mapgenie.io/storage/media/602044fa-3d15-4a95-bc14-7ee52f4cbc21.png",
             type: "image",
           },
@@ -6684,7 +6427,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68378761410747",
         media: [
           {
-            fileName: "62460a64-0f4d-405d-be1b-40e01a6df7fa.jpg",
             url: "https://media.mapgenie.io/storage/media/62460a64-0f4d-405d-be1b-40e01a6df7fa.jpg",
             type: "image",
           },
@@ -6699,7 +6441,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80629348754815",
         media: [
           {
-            fileName: "b70e4a8a-abb7-47bb-9ccf-7be523d3416f.jpg",
             url: "https://media.mapgenie.io/storage/media/b70e4a8a-abb7-47bb-9ccf-7be523d3416f.jpg",
             type: "image",
           },
@@ -6714,7 +6455,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76392263174176",
         media: [
           {
-            fileName: "3121d188-82df-4e76-a87b-0884d8b132c3.png",
             url: "https://media.mapgenie.io/storage/media/3121d188-82df-4e76-a87b-0884d8b132c3.png",
             type: "image",
           },
@@ -6729,7 +6469,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77330633997988",
         media: [
           {
-            fileName: "5b2faa51-eba2-498e-800c-351464c79198.jpeg",
             url: "https://media.mapgenie.io/storage/media/5b2faa51-eba2-498e-800c-351464c79198.jpeg",
             type: "image",
           },
@@ -6752,7 +6491,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72839677333849",
         media: [
           {
-            fileName: "ac343505-ec10-442b-be26-62a9dd811328.png",
             url: "https://media.mapgenie.io/storage/media/ac343505-ec10-442b-be26-62a9dd811328.png",
             type: "image",
           },
@@ -6767,7 +6505,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76008439064123",
         media: [
           {
-            fileName: "9f45aa63-bc2e-47fc-96ee-9675b365562d.png",
             url: "https://media.mapgenie.io/storage/media/9f45aa63-bc2e-47fc-96ee-9675b365562d.png",
             type: "image",
           },
@@ -6782,7 +6519,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78596234321716",
         media: [
           {
-            fileName: "9d58cb53-de12-425b-91e5-4c120cc5d737.png",
             url: "https://media.mapgenie.io/storage/media/9d58cb53-de12-425b-91e5-4c120cc5d737.png",
             type: "image",
           },
@@ -6797,7 +6533,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73921814560941",
         media: [
           {
-            fileName: "4c178aa8-3ee8-4337-bc2b-cf5bbdc1740f.png",
             url: "https://media.mapgenie.io/storage/media/4c178aa8-3ee8-4337-bc2b-cf5bbdc1740f.png",
             type: "image",
           },
@@ -6828,7 +6563,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62539458274899",
         media: [
           {
-            fileName: "2f1d7a52-9aa7-41a2-a7ef-4a8cf066edf1.jpg",
             url: "https://media.mapgenie.io/storage/media/2f1d7a52-9aa7-41a2-a7ef-4a8cf066edf1.png",
             type: "image",
           },
@@ -6867,7 +6601,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52565395831996",
         media: [
           {
-            fileName: "b5040f90-f681-4ce0-928c-f9b080483ffe.png",
             url: "https://media.mapgenie.io/storage/media/b5040f90-f681-4ce0-928c-f9b080483ffe.png",
             type: "image",
           },
@@ -6882,7 +6615,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79112023115096",
         media: [
           {
-            fileName: "22680eb0-9ed3-4062-bf13-90eb6865a1fb.png",
             url: "https://media.mapgenie.io/storage/media/22680eb0-9ed3-4062-bf13-90eb6865a1fb.png",
             type: "image",
           },
@@ -6897,7 +6629,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76641976833125",
         media: [
           {
-            fileName: "2c5ddd4b-b548-4a6d-bab7-279aaff3a053.png",
             url: "https://media.mapgenie.io/storage/media/2c5ddd4b-b548-4a6d-bab7-279aaff3a053.png",
             type: "image",
           },
@@ -6936,7 +6667,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80274828937346",
         media: [
           {
-            fileName: "7b917b76-d2d5-4559-bc72-e58a1e3ec837.png",
             url: "https://media.mapgenie.io/storage/media/7b917b76-d2d5-4559-bc72-e58a1e3ec837.png",
             type: "image",
           },
@@ -6951,7 +6681,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68296893188383",
         media: [
           {
-            fileName: "4e45f193-6df9-473a-9d86-14949cd8fe56.jpg",
             url: "https://media.mapgenie.io/storage/media/4e45f193-6df9-473a-9d86-14949cd8fe56.jpg",
             type: "image",
           },
@@ -6990,7 +6719,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71910302111957",
         media: [
           {
-            fileName: "edffdd78-e6e2-4a55-9496-2ca244376d85.jpg",
             url: "https://media.mapgenie.io/storage/media/edffdd78-e6e2-4a55-9496-2ca244376d85.jpg",
             type: "image",
           },
@@ -7005,7 +6733,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73159933090130",
         media: [
           {
-            fileName: "d398cb05-c55d-4104-af2e-0f276d9c2f7c.jpeg",
             url: "https://media.mapgenie.io/storage/media/d398cb05-c55d-4104-af2e-0f276d9c2f7c.jpeg",
             type: "image",
           },
@@ -7044,7 +6771,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81345090476983",
         media: [
           {
-            fileName: "df77d0b4-efaf-4f05-bfe2-49ea756c5843.jpeg",
             url: "https://media.mapgenie.io/storage/media/df77d0b4-efaf-4f05-bfe2-49ea756c5843.jpeg",
             type: "image",
           },
@@ -7059,7 +6785,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63986226192566",
         media: [
           {
-            fileName: "7b0d060c-6136-40d7-bc46-af8aacef1716.png",
             url: "https://media.mapgenie.io/storage/media/7b0d060c-6136-40d7-bc46-af8aacef1716.png",
             type: "image",
           },
@@ -7074,7 +6799,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67672300088066",
         media: [
           {
-            fileName: "dd6f777a-fb00-4d42-b274-b396bedca354.jpg",
             url: "https://media.mapgenie.io/storage/media/dd6f777a-fb00-4d42-b274-b396bedca354.jpg",
             type: "image",
           },
@@ -7113,7 +6837,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78687499841485",
         media: [
           {
-            fileName: "f5c37cf3-1b5f-4c96-a68d-e7f2deaafa4c.png",
             url: "https://media.mapgenie.io/storage/media/f5c37cf3-1b5f-4c96-a68d-e7f2deaafa4c.png",
             type: "image",
           },
@@ -7136,7 +6859,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78915240895671",
         media: [
           {
-            fileName: "a0696c16-04d5-4672-9e1d-e00a25fd9068.jpg",
             url: "https://media.mapgenie.io/storage/media/a0696c16-04d5-4672-9e1d-e00a25fd9068.jpg",
             type: "image",
           },
@@ -7151,7 +6873,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68554177880372",
         media: [
           {
-            fileName: "cb804d8c-7d22-4e07-8a41-c0f4310c4527.jpg",
             url: "https://media.mapgenie.io/storage/media/cb804d8c-7d22-4e07-8a41-c0f4310c4527.jpg",
             type: "image",
           },
@@ -7220,7 +6941,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72882592677973",
         media: [
           {
-            fileName: "c35a1fa3-db91-4b31-8eb0-68effaf3eda2.jpg",
             url: "https://media.mapgenie.io/storage/media/c35a1fa3-db91-4b31-8eb0-68effaf3eda2.jpg",
             type: "image",
           },
@@ -7235,7 +6955,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75294435024117",
         media: [
           {
-            fileName: "0aa60811-ab6c-4099-b356-563e88f7935d.jpg",
             url: "https://media.mapgenie.io/storage/media/0aa60811-ab6c-4099-b356-563e88f7935d.png",
             type: "image",
           },
@@ -7250,7 +6969,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80050259828670",
         media: [
           {
-            fileName: "1d3e200a-9fa8-4306-ae8e-8d0319567662.jpg",
             url: "https://media.mapgenie.io/storage/media/1d3e200a-9fa8-4306-ae8e-8d0319567662.png",
             type: "image",
           },
@@ -7264,7 +6982,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67434892058287",
         media: [
           {
-            fileName: "8bdacd36-f607-4ce8-b1dc-1bc9103e283d.png",
             url: "https://media.mapgenie.io/storage/media/8bdacd36-f607-4ce8-b1dc-1bc9103e283d.png",
             type: "image",
           },
@@ -7279,7 +6996,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68604385828608",
         media: [
           {
-            fileName: "9d940ecb-a21a-4443-89d6-174a36d7b507.png",
             url: "https://media.mapgenie.io/storage/media/9d940ecb-a21a-4443-89d6-174a36d7b507.png",
             type: "image",
           },
@@ -7347,7 +7063,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70018937350957",
         media: [
           {
-            fileName: "b5e00480-46bb-46f4-bc7a-0c6e7715e03b.png",
             url: "https://media.mapgenie.io/storage/media/b5e00480-46bb-46f4-bc7a-0c6e7715e03b.png",
             type: "image",
           },
@@ -7454,7 +7169,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72183609008806",
         media: [
           {
-            fileName: "67c0b230-42bc-4729-bda3-8cffd16bf2a7.jpg",
             url: "https://media.mapgenie.io/storage/media/67c0b230-42bc-4729-bda3-8cffd16bf2a7.png",
             type: "image",
           },
@@ -7469,7 +7183,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69083645939835",
         media: [
           {
-            fileName: "4202a86c-9da8-496e-b87d-2fe5aabbf104.jpg",
             url: "https://media.mapgenie.io/storage/media/4202a86c-9da8-496e-b87d-2fe5aabbf104.jpg",
             type: "image",
           },
@@ -7483,7 +7196,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65370817289497",
         media: [
           {
-            fileName: "388ed196-053c-441b-a7f3-65c743e7a312.jpg",
             url: "https://media.mapgenie.io/storage/media/388ed196-053c-441b-a7f3-65c743e7a312.jpg",
             type: "image",
           },
@@ -7497,7 +7209,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64772129058844",
         media: [
           {
-            fileName: "3a6373f1-12bf-4bc4-acce-98a812ef4849.jpg",
             url: "https://media.mapgenie.io/storage/media/3a6373f1-12bf-4bc4-acce-98a812ef4849.jpg",
             type: "image",
           },
@@ -7512,7 +7223,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76740145683331",
         media: [
           {
-            fileName: "edbac079-5665-497a-9ae5-1c68d529cffa.jpg",
             url: "https://media.mapgenie.io/storage/media/edbac079-5665-497a-9ae5-1c68d529cffa.png",
             type: "image",
           },
@@ -7527,7 +7237,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81401556730123",
         media: [
           {
-            fileName: "3a16836e-5cf6-4ba6-93bb-c2f4e06ba0f2.jpg",
             url: "https://media.mapgenie.io/storage/media/3a16836e-5cf6-4ba6-93bb-c2f4e06ba0f2.png",
             type: "image",
           },
@@ -7542,7 +7251,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77999979257496",
         media: [
           {
-            fileName: "67f3619a-6ccf-4b11-80c9-18b3f2a3b179.jpg",
             url: "https://media.mapgenie.io/storage/media/67f3619a-6ccf-4b11-80c9-18b3f2a3b179.jpg",
             type: "image",
           },
@@ -7557,7 +7265,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70312500000063",
         media: [
           {
-            fileName: "dce116e4-cb5f-407d-a465-e93ad4fdc1ff.jpg",
             url: "https://media.mapgenie.io/storage/media/dce116e4-cb5f-407d-a465-e93ad4fdc1ff.jpg",
             type: "image",
           },
@@ -7596,7 +7303,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61755314469448",
         media: [
           {
-            fileName: "ae82189f-5e06-4620-931a-98972671bad4.png",
             url: "https://media.mapgenie.io/storage/media/ae82189f-5e06-4620-931a-98972671bad4.png",
             type: "image",
           },
@@ -7635,7 +7341,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64503990726076",
         media: [
           {
-            fileName: "595e3810-c4d6-4b63-b2cf-e2962bf9012e.png",
             url: "https://media.mapgenie.io/storage/media/595e3810-c4d6-4b63-b2cf-e2962bf9012e.png",
             type: "image",
           },
@@ -7665,7 +7370,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65487932698469",
         media: [
           {
-            fileName: "fc8e0151-3e09-4e44-a5ed-ebe5d602ef40.png",
             url: "https://media.mapgenie.io/storage/media/fc8e0151-3e09-4e44-a5ed-ebe5d602ef40.png",
             type: "image",
           },
@@ -7686,7 +7390,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69497108459461",
         media: [
           {
-            fileName: "4558fdae-7a41-4873-875f-56b81bca7319.jpg",
             url: "https://media.mapgenie.io/storage/media/4558fdae-7a41-4873-875f-56b81bca7319.jpg",
             type: "image",
           },
@@ -7709,13 +7412,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81719398498606",
         media: [
           {
-            fileName: "c7c4bfcb-c535-44fb-82b6-c98ca2308d2c.jpeg",
             url: "https://media.mapgenie.io/storage/media/c7c4bfcb-c535-44fb-82b6-c98ca2308d2c.jpeg",
             type: "image",
           },
           {
-            title: "",
-            fileName: "7bb7794d-855d-4622-bf3a-36bd29d09bf0.jpeg",
             url: "https://media.mapgenie.io/storage/media/7bb7794d-855d-4622-bf3a-36bd29d09bf0.jpeg",
             type: "image",
           },
@@ -7730,7 +7430,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.60995559783944",
         media: [
           {
-            fileName: "505c1bf5-2294-4703-ad06-d3bf28a41190.jpg",
             url: "https://media.mapgenie.io/storage/media/505c1bf5-2294-4703-ad06-d3bf28a41190.jpg",
             type: "image",
           },
@@ -7761,7 +7460,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77979326248078",
         media: [
           {
-            fileName: "d15444ab-8f28-4e17-9406-b2f0c63ec3d4.png",
             url: "https://media.mapgenie.io/storage/media/d15444ab-8f28-4e17-9406-b2f0c63ec3d4.png",
             type: "image",
           },
@@ -7790,13 +7488,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75310328020655",
         media: [
           {
-            fileName: "ff1252de-d4ce-4826-b821-c67284da9e04.jpg",
             url: "https://media.mapgenie.io/storage/media/ff1252de-d4ce-4826-b821-c67284da9e04.jpg",
             type: "image",
           },
           {
-            title: "Elden Ring Screenshot 2022.02.26 - 21.48.11.87",
-            fileName: "b3675b82-633c-4bf1-b4d9-1d0b2b4aa877.jpg",
             url: "https://media.mapgenie.io/storage/media/b3675b82-633c-4bf1-b4d9-1d0b2b4aa877.png",
             type: "image",
           },
@@ -7811,7 +7506,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70265024900451",
         media: [
           {
-            fileName: "8b8a3aaa-1c2a-4d0f-8477-0dbbcabc3747.png",
             url: "https://media.mapgenie.io/storage/media/8b8a3aaa-1c2a-4d0f-8477-0dbbcabc3747.png",
             type: "image",
           },
@@ -7826,7 +7520,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76534822583048",
         media: [
           {
-            fileName: "5499a95a-9779-408b-b2a5-a7e5d69ac6c8.jpg",
             url: "https://media.mapgenie.io/storage/media/5499a95a-9779-408b-b2a5-a7e5d69ac6c8.png",
             type: "image",
           },
@@ -7841,13 +7534,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75630515813950",
         media: [
           {
-            fileName: "85365384-a6a1-4ffb-a8d2-99e963e7dd30.png",
             url: "https://media.mapgenie.io/storage/media/85365384-a6a1-4ffb-a8d2-99e963e7dd30.png",
             type: "image",
           },
           {
-            title: "",
-            fileName: "d133710c-0549-470c-a28e-616c8bac4537.jpg",
             url: "https://media.mapgenie.io/storage/media/d133710c-0549-470c-a28e-616c8bac4537.jpg",
             type: "image",
           },
@@ -7862,7 +7552,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70535257458690",
         media: [
           {
-            fileName: "1d4faad4-051f-432f-8c24-d54dc3ef27ab.png",
             url: "https://media.mapgenie.io/storage/media/1d4faad4-051f-432f-8c24-d54dc3ef27ab.png",
             type: "image",
           },
@@ -7877,7 +7566,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64229717107332",
         media: [
           {
-            fileName: "d84833f1-4dad-4860-a12b-b05c9ea7179a.jpg",
             url: "https://media.mapgenie.io/storage/media/d84833f1-4dad-4860-a12b-b05c9ea7179a.jpg",
             type: "image",
           },
@@ -7892,7 +7580,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62552601099026",
         media: [
           {
-            fileName: "69073ff7-bffb-47d7-8c2e-5da54e2bebc1.png",
             url: "https://media.mapgenie.io/storage/media/69073ff7-bffb-47d7-8c2e-5da54e2bebc1.png",
             type: "image",
           },
@@ -7913,7 +7600,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75809016823865",
         media: [
           {
-            fileName: "fddd8cfc-16ad-4a10-838e-3c8515ed90a8.png",
             url: "https://media.mapgenie.io/storage/media/fddd8cfc-16ad-4a10-838e-3c8515ed90a8.png",
             type: "image",
           },
@@ -7928,7 +7614,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69448991120132",
         media: [
           {
-            fileName: "7b455543-03ba-4741-b556-074654f266e8.png",
             url: "https://media.mapgenie.io/storage/media/7b455543-03ba-4741-b556-074654f266e8.png",
             type: "image",
           },
@@ -7943,7 +7628,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68775057792590",
         media: [
           {
-            fileName: "761d8a37-6de3-4b3b-98b1-428164b44aa3.png",
             url: "https://media.mapgenie.io/storage/media/761d8a37-6de3-4b3b-98b1-428164b44aa3.png",
             type: "image",
           },
@@ -7958,7 +7642,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79167813062699",
         media: [
           {
-            fileName: "62d9b727-f0cf-4c42-95c8-61eeaf00c601.png",
             url: "https://media.mapgenie.io/storage/media/62d9b727-f0cf-4c42-95c8-61eeaf00c601.png",
             type: "image",
           },
@@ -7979,7 +7662,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73320464360413",
         media: [
           {
-            fileName: "9eda69ae-a8a9-432c-8c39-033f769bc7a3.jpg",
             url: "https://media.mapgenie.io/storage/media/9eda69ae-a8a9-432c-8c39-033f769bc7a3.jpg",
             type: "image",
           },
@@ -7994,7 +7676,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65748453140344",
         media: [
           {
-            fileName: "76fea299-f84c-4208-9185-0dae422f533e",
             url: "https://media.mapgenie.io/storage/media/76fea299-f84c-4208-9185-0dae422f533e.jpg",
             type: "image",
           },
@@ -8054,7 +7735,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69192409515344",
         media: [
           {
-            fileName: "608effcf-1406-443a-82ab-34f115324d9a.png",
             url: "https://media.mapgenie.io/storage/media/608effcf-1406-443a-82ab-34f115324d9a.png",
             type: "image",
           },
@@ -8171,7 +7851,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80272078514162",
         media: [
           {
-            fileName: "6f38623a-6509-4c52-ba15-b53788a92f3c.jpg",
             url: "https://media.mapgenie.io/storage/media/6f38623a-6509-4c52-ba15-b53788a92f3c.png",
             type: "image",
           },
@@ -8186,7 +7865,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77517449855736",
         media: [
           {
-            fileName: "e0b5b4cb-7cc2-495e-b8c3-8ebafbe10c8a.jpg",
             url: "https://media.mapgenie.io/storage/media/e0b5b4cb-7cc2-495e-b8c3-8ebafbe10c8a.jpg",
             type: "image",
           },
@@ -8232,7 +7910,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63513353256974",
         media: [
           {
-            fileName: "b8b73b64-52cc-4ed2-b39b-e0e6e9e46194.png",
             url: "https://media.mapgenie.io/storage/media/b8b73b64-52cc-4ed2-b39b-e0e6e9e46194.png",
             type: "image",
           },
@@ -8269,7 +7946,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69931492209554",
         media: [
           {
-            fileName: "d485e390-f6cb-48a8-a10f-14fbc07ca5ff.jpg",
             url: "https://media.mapgenie.io/storage/media/d485e390-f6cb-48a8-a10f-14fbc07ca5ff.jpg",
             type: "image",
           },
@@ -8284,7 +7960,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75067788362591",
         media: [
           {
-            fileName: "35f912da-307a-46d6-9c0f-71f622a598e0.jpg",
             url: "https://media.mapgenie.io/storage/media/35f912da-307a-46d6-9c0f-71f622a598e0.png",
             type: "image",
           },
@@ -8299,7 +7974,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80005869269326",
         media: [
           {
-            fileName: "4120e85e-02fd-4670-a179-4fdb7755a465.jpg",
             url: "https://media.mapgenie.io/storage/media/4120e85e-02fd-4670-a179-4fdb7755a465.png",
             type: "image",
           },
@@ -8314,7 +7988,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76287791132938",
         media: [
           {
-            fileName: "28096317-0e6b-4483-8a48-dcae3b2d45f7.jpg",
             url: "https://media.mapgenie.io/storage/media/28096317-0e6b-4483-8a48-dcae3b2d45f7.jpg",
             type: "image",
           },
@@ -8337,7 +8010,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78802093863317",
         media: [
           {
-            fileName: "4b191601-3d1e-445d-bf0d-17784cee56c2.png",
             url: "https://media.mapgenie.io/storage/media/4b191601-3d1e-445d-bf0d-17784cee56c2.png",
             type: "image",
           },
@@ -8352,7 +8024,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69807171821427",
         media: [
           {
-            fileName: "dc9a6481-9606-4c5e-aa39-bcec87178af2.png",
             url: "https://media.mapgenie.io/storage/media/dc9a6481-9606-4c5e-aa39-bcec87178af2.png",
             type: "image",
           },
@@ -8367,7 +8038,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70455864071661",
         media: [
           {
-            fileName: "01fdbe1a-2348-4b77-8399-32a364cb60eb.png",
             url: "https://media.mapgenie.io/storage/media/01fdbe1a-2348-4b77-8399-32a364cb60eb.png",
             type: "image",
           },
@@ -8382,7 +8052,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52553594112371",
         media: [
           {
-            fileName: "a061e67e-2883-44ea-b6cb-97feec87d962.png",
             url: "https://media.mapgenie.io/storage/media/a061e67e-2883-44ea-b6cb-97feec87d962.png",
             type: "image",
           },
@@ -8405,13 +8074,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61799168586876",
         media: [
           {
-            fileName: "d7758b60-97b5-41ee-9ce7-808719c3901d.png",
             url: "https://media.mapgenie.io/storage/media/d7758b60-97b5-41ee-9ce7-808719c3901d.png",
             type: "image",
           },
           {
-            title: "16342290-1f77-4ff8-b3e4-fc1b6f5a2d80",
-            fileName: "16342290-1f77-4ff8-b3e4-fc1b6f5a2d80",
             url: "https://media.mapgenie.io/storage/media/16342290-1f77-4ff8-b3e4-fc1b6f5a2d80.jpg",
             type: "image",
           },
@@ -8432,7 +8098,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73517873883426",
         media: [
           {
-            fileName: "cfb0fa91-ec4e-4c28-bd26-8a6711b8824c.jpg",
             url: "https://media.mapgenie.io/storage/media/cfb0fa91-ec4e-4c28-bd26-8a6711b8824c.png",
             type: "image",
           },
@@ -8447,7 +8112,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69721609354175",
         media: [
           {
-            fileName: "b8cbf0e1-edfe-42bd-88b5-873c133871df.jpg",
             url: "https://media.mapgenie.io/storage/media/b8cbf0e1-edfe-42bd-88b5-873c133871df.jpg",
             type: "image",
           },
@@ -8462,7 +8126,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71412608027543",
         media: [
           {
-            fileName: "c83284ab-704f-4822-af9c-4175840648b8.jpg",
             url: "https://media.mapgenie.io/storage/media/c83284ab-704f-4822-af9c-4175840648b8.jpg",
             type: "image",
           },
@@ -8477,7 +8140,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75136989355215",
         media: [
           {
-            fileName: "b078b5b1-4f93-4e4c-a12c-b917323bd5bd.jpg",
             url: "https://media.mapgenie.io/storage/media/b078b5b1-4f93-4e4c-a12c-b917323bd5bd.png",
             type: "image",
           },
@@ -8492,7 +8154,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74918121099273",
         media: [
           {
-            fileName: "c7f4acf4-40b3-45ae-b47f-37a6ac907e96.jpg",
             url: "https://media.mapgenie.io/storage/media/c7f4acf4-40b3-45ae-b47f-37a6ac907e96.png",
             type: "image",
           },
@@ -8507,7 +8168,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71537196636291",
         media: [
           {
-            fileName: "a17c7f35-d628-49f8-a92e-c29668aa97ff.png",
             url: "https://media.mapgenie.io/storage/media/a17c7f35-d628-49f8-a92e-c29668aa97ff.png",
             type: "image",
           },
@@ -8522,7 +8182,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69405108690086",
         media: [
           {
-            fileName: "ef5d48c4-baf8-4264-9eda-71087cf68ee1.jpg",
             url: "https://media.mapgenie.io/storage/media/ef5d48c4-baf8-4264-9eda-71087cf68ee1.jpg",
             type: "image",
           },
@@ -8537,7 +8196,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75269490480434",
         media: [
           {
-            fileName: "e08081ee-55e4-4254-a0df-60876a2629ea.jpg",
             url: "https://media.mapgenie.io/storage/media/e08081ee-55e4-4254-a0df-60876a2629ea.png",
             type: "image",
           },
@@ -8576,7 +8234,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72333812713700",
         media: [
           {
-            fileName: "1c0e7200-3683-42d2-81aa-2c2081d9ba03.jpg",
             url: "https://media.mapgenie.io/storage/media/1c0e7200-3683-42d2-81aa-2c2081d9ba03.jpg",
             type: "image",
           },
@@ -8598,7 +8255,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64286515116736",
         media: [
           {
-            fileName: "594de47a-642f-4452-8277-fc8aab97b263.jpg",
             url: "https://media.mapgenie.io/storage/media/594de47a-642f-4452-8277-fc8aab97b263.jpg",
             type: "image",
           },
@@ -8621,7 +8277,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73722258210159",
         media: [
           {
-            fileName: "3386a6dd-b7ab-4f25-8e83-2ded5d6a8668.png",
             url: "https://media.mapgenie.io/storage/media/3386a6dd-b7ab-4f25-8e83-2ded5d6a8668.png",
             type: "image",
           },
@@ -8642,7 +8297,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79421013593685",
         media: [
           {
-            fileName: "b5d6e4ed-c94e-4e2a-ac69-3e839c69517a.jpg",
             url: "https://media.mapgenie.io/storage/media/b5d6e4ed-c94e-4e2a-ac69-3e839c69517a.jpg",
             type: "image",
           },
@@ -8673,7 +8327,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70331275462965",
         media: [
           {
-            fileName: "74746097-c9f8-46df-b311-7a8960e92874.png",
             url: "https://media.mapgenie.io/storage/media/74746097-c9f8-46df-b311-7a8960e92874.png",
             type: "image",
           },
@@ -8695,7 +8348,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51826313138025",
         media: [
           {
-            fileName: "d80b9c25-b125-4ad4-a8a1-9da09af3fbbe.png",
             url: "https://media.mapgenie.io/storage/media/d80b9c25-b125-4ad4-a8a1-9da09af3fbbe.png",
             type: "image",
           },
@@ -8718,7 +8370,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68983803055195",
         media: [
           {
-            fileName: "5ab5d00a-e21d-485a-a0d0-98693df373a0.png",
             url: "https://media.mapgenie.io/storage/media/5ab5d00a-e21d-485a-a0d0-98693df373a0.png",
             type: "image",
           },
@@ -8732,7 +8383,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66538303746430",
         media: [
           {
-            fileName: "7ca4f80f-8e83-40ac-a5ca-6eb78744737b.png",
             url: "https://media.mapgenie.io/storage/media/7ca4f80f-8e83-40ac-a5ca-6eb78744737b.png",
             type: "image",
           },
@@ -8747,7 +8397,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66813607414397",
         media: [
           {
-            fileName: "f15056a7-c26c-4955-8fd5-6f2d35313613.png",
             url: "https://media.mapgenie.io/storage/media/f15056a7-c26c-4955-8fd5-6f2d35313613.png",
             type: "image",
           },
@@ -8762,7 +8411,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63757215946765",
         media: [
           {
-            fileName: "cc7ea659-882f-44bc-a165-725c94c57eb4",
             url: "https://media.mapgenie.io/storage/media/cc7ea659-882f-44bc-a165-725c94c57eb4.png",
             type: "image",
           },
@@ -8777,7 +8425,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71011483669250",
         media: [
           {
-            fileName: "1f04ebed-9fd1-48bb-84f6-79d73b974236.png",
             url: "https://media.mapgenie.io/storage/media/1f04ebed-9fd1-48bb-84f6-79d73b974236.png",
             type: "image",
           },
@@ -8792,7 +8439,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77697835742313",
         media: [
           {
-            fileName: "c7779fa1-ae0c-4729-94cb-ed84e8e4d8d9.png",
             url: "https://media.mapgenie.io/storage/media/c7779fa1-ae0c-4729-94cb-ed84e8e4d8d9.png",
             type: "image",
           },
@@ -8807,7 +8453,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69929034294853",
         media: [
           {
-            fileName: "1f3b6b96-4730-4168-9eb9-b23b8f12c0c3.png",
             url: "https://media.mapgenie.io/storage/media/1f3b6b96-4730-4168-9eb9-b23b8f12c0c3.png",
             type: "image",
           },
@@ -8822,7 +8467,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69813162865501",
         media: [
           {
-            fileName: "c1d070b7-7670-4039-ac61-6d5189c9ecee.png",
             url: "https://media.mapgenie.io/storage/media/c1d070b7-7670-4039-ac61-6d5189c9ecee.png",
             type: "image",
           },
@@ -8837,7 +8481,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75827389955464",
         media: [
           {
-            fileName: "c6f14289-3e2c-4ee4-96ae-ff4dcabbbc1e.png",
             url: "https://media.mapgenie.io/storage/media/c6f14289-3e2c-4ee4-96ae-ff4dcabbbc1e.png",
             type: "image",
           },
@@ -8860,7 +8503,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80003099197731",
         media: [
           {
-            fileName: "4f25650d-238d-4e0c-90d7-89816320cce2.png",
             url: "https://media.mapgenie.io/storage/media/4f25650d-238d-4e0c-90d7-89816320cce2.png",
             type: "image",
           },
@@ -8890,7 +8532,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77504776455319",
         media: [
           {
-            fileName: "8e15dd7b-324a-48a2-9a6b-8263b29fad35.png",
             url: "https://media.mapgenie.io/storage/media/8e15dd7b-324a-48a2-9a6b-8263b29fad35.png",
             type: "image",
           },
@@ -8905,7 +8546,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80075343058064",
         media: [
           {
-            fileName: "d2cc28d7-f28a-482f-9717-4322e38450a4.jpg",
             url: "https://media.mapgenie.io/storage/media/d2cc28d7-f28a-482f-9717-4322e38450a4.png",
             type: "image",
           },
@@ -8935,7 +8575,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80002323537002",
         media: [
           {
-            fileName: "0555a643-0b06-4d98-8c36-5b1df9c5996e.png",
             url: "https://media.mapgenie.io/storage/media/0555a643-0b06-4d98-8c36-5b1df9c5996e.png",
             type: "image",
           },
@@ -8950,7 +8589,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79552201420111",
         media: [
           {
-            fileName: "c93292e1-e155-4e48-90ab-e54224d9662b.png",
             url: "https://media.mapgenie.io/storage/media/c93292e1-e155-4e48-90ab-e54224d9662b.png",
             type: "image",
           },
@@ -8981,7 +8619,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75696596315072",
         media: [
           {
-            fileName: "16361c38-1844-4868-ae5f-ce5f7acd7735.png",
             url: "https://media.mapgenie.io/storage/media/16361c38-1844-4868-ae5f-ce5f7acd7735.png",
             type: "image",
           },
@@ -9010,7 +8647,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69821572164656",
         media: [
           {
-            fileName: "b4489127-21ab-47c3-85a9-17d5a12b4b8d.png",
             url: "https://media.mapgenie.io/storage/media/b4489127-21ab-47c3-85a9-17d5a12b4b8d.png",
             type: "image",
           },
@@ -9025,7 +8661,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69432066310489",
         media: [
           {
-            fileName: "fb33f275-34f6-4fd0-b1ee-472f51dd58c7.jpg",
             url: "https://media.mapgenie.io/storage/media/fb33f275-34f6-4fd0-b1ee-472f51dd58c7.jpg",
             type: "image",
           },
@@ -9039,7 +8674,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66901323692460",
         media: [
           {
-            fileName: "b29ea70f-3cee-49f0-b673-e9a611ab7c0b.jpg",
             url: "https://media.mapgenie.io/storage/media/b29ea70f-3cee-49f0-b673-e9a611ab7c0b.jpg",
             type: "image",
           },
@@ -9062,7 +8696,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62559563670592",
         media: [
           {
-            fileName: "859f88db-bb95-46c0-bf30-045363eca512.png",
             url: "https://media.mapgenie.io/storage/media/859f88db-bb95-46c0-bf30-045363eca512.png",
             type: "image",
           },
@@ -9084,7 +8717,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78911131276061",
         media: [
           {
-            fileName: "a916dda2-5ecf-4026-9092-3ebf00bc059f.png",
             url: "https://media.mapgenie.io/storage/media/a916dda2-5ecf-4026-9092-3ebf00bc059f.png",
             type: "image",
           },
@@ -9106,7 +8738,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66177799809336",
         media: [
           {
-            fileName: "09388916-a6cb-41a1-a936-cee731a3aa2c.jpg",
             url: "https://media.mapgenie.io/storage/media/09388916-a6cb-41a1-a936-cee731a3aa2c.jpg",
             type: "image",
           },
@@ -9144,7 +8775,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77522546052964",
         media: [
           {
-            fileName: "56882155-0a8e-46d9-a035-490f1344c932.jpg",
             url: "https://media.mapgenie.io/storage/media/56882155-0a8e-46d9-a035-490f1344c932.jpg",
             type: "image",
           },
@@ -9205,7 +8835,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69717049598464",
         media: [
           {
-            fileName: "c744de2d-5015-4c68-83ac-5764aaff76ef.png",
             url: "https://media.mapgenie.io/storage/media/c744de2d-5015-4c68-83ac-5764aaff76ef.png",
             type: "image",
           },
@@ -9242,7 +8871,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75016289949460",
         media: [
           {
-            fileName: "0e640451-cc22-4af9-bb9f-59d3f0fac873.jpg",
             url: "https://media.mapgenie.io/storage/media/0e640451-cc22-4af9-bb9f-59d3f0fac873.png",
             type: "image",
           },
@@ -9257,7 +8885,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71876764297343",
         media: [
           {
-            fileName: "8d437a3b-a242-40f7-b9e0-c3a1b4f0baca.jpg",
             url: "https://media.mapgenie.io/storage/media/8d437a3b-a242-40f7-b9e0-c3a1b4f0baca.jpg",
             type: "image",
           },
@@ -9280,7 +8907,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77736318111516",
         media: [
           {
-            fileName: "5ff2a666-552e-40e8-93ea-aad1596bea6a.png",
             url: "https://media.mapgenie.io/storage/media/5ff2a666-552e-40e8-93ea-aad1596bea6a.png",
             type: "image",
           },
@@ -9295,7 +8921,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75309991836505",
         media: [
           {
-            fileName: "f3be3e2e-fe6d-454c-b23f-a472a7547c3e.jpg",
             url: "https://media.mapgenie.io/storage/media/f3be3e2e-fe6d-454c-b23f-a472a7547c3e.jpg",
             type: "image",
           },
@@ -9310,7 +8935,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77975034713674",
         media: [
           {
-            fileName: "a0669822-e401-4852-a58a-a33bb9215a2c.png",
             url: "https://media.mapgenie.io/storage/media/a0669822-e401-4852-a58a-a33bb9215a2c.png",
             type: "image",
           },
@@ -9325,7 +8949,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79164057969996",
         media: [
           {
-            fileName: "e9ef0058-9506-4d5d-920c-b30d6032b372.png",
             url: "https://media.mapgenie.io/storage/media/e9ef0058-9506-4d5d-920c-b30d6032b372.png",
             type: "image",
           },
@@ -9340,7 +8963,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72672843932889",
         media: [
           {
-            fileName: "4813b284-e3a7-495b-810b-732cb361a21d",
             url: "https://media.mapgenie.io/storage/media/4813b284-e3a7-495b-810b-732cb361a21d.jpg",
             type: "image",
           },
@@ -9355,7 +8977,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73462486267005",
         media: [
           {
-            fileName: "98e882cc-413f-461a-a91f-15d422f5499f.png",
             url: "https://media.mapgenie.io/storage/media/98e882cc-413f-461a-a91f-15d422f5499f.png",
             type: "image",
           },
@@ -9402,7 +9023,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78301995992672",
         media: [
           {
-            fileName: "b1fca980-4d4e-4db4-8195-aba1b933305b.jpg",
             url: "https://media.mapgenie.io/storage/media/b1fca980-4d4e-4db4-8195-aba1b933305b.png",
             type: "image",
           },
@@ -9487,7 +9107,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72074174880981",
         media: [
           {
-            fileName: "60096c00-f792-4039-b893-8611332649cd",
             url: "https://media.mapgenie.io/storage/media/60096c00-f792-4039-b893-8611332649cd.png",
             type: "image",
           },
@@ -9502,7 +9121,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75198411941486",
         media: [
           {
-            fileName: "f68a9c45-ba0b-4ecd-bde7-5621e42cc60a.jpg",
             url: "https://media.mapgenie.io/storage/media/f68a9c45-ba0b-4ecd-bde7-5621e42cc60a.png",
             type: "image",
           },
@@ -9517,7 +9135,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80195903778326",
         media: [
           {
-            fileName: "99cacedb-867b-4ea2-a786-58f72933e5a4.jpg",
             url: "https://media.mapgenie.io/storage/media/99cacedb-867b-4ea2-a786-58f72933e5a4.png",
             type: "image",
           },
@@ -9532,7 +9149,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62600612640392",
         media: [
           {
-            fileName: "55ec4739-5e91-4abe-ac49-3e56811fffff.jpg",
             url: "https://media.mapgenie.io/storage/media/55ec4739-5e91-4abe-ac49-3e56811fffff.png",
             type: "image",
           },
@@ -9547,7 +9163,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70309951901385",
         media: [
           {
-            fileName: "213abdeb-512e-4d7f-a89f-e6c7b405242b.png",
             url: "https://media.mapgenie.io/storage/media/213abdeb-512e-4d7f-a89f-e6c7b405242b.png",
             type: "image",
           },
@@ -9592,7 +9207,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68126499652752",
         media: [
           {
-            fileName: "f97f702f-96a7-4d5b-b6ec-0f1cd34e2c55.png",
             url: "https://media.mapgenie.io/storage/media/f97f702f-96a7-4d5b-b6ec-0f1cd34e2c55.png",
             type: "image",
           },
@@ -9607,7 +9221,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75051695108598",
         media: [
           {
-            fileName: "795dd58c-65dd-4f8f-9130-745c9738693e.jpg",
             url: "https://media.mapgenie.io/storage/media/795dd58c-65dd-4f8f-9130-745c9738693e.png",
             type: "image",
           },
@@ -9622,7 +9235,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68446218967335",
         media: [
           {
-            fileName: "54cc1ad3-b8a6-4fe7-b5fe-6f2ca410adab.jpg",
             url: "https://media.mapgenie.io/storage/media/54cc1ad3-b8a6-4fe7-b5fe-6f2ca410adab.jpg",
             type: "image",
           },
@@ -9637,7 +9249,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75058763337412",
         media: [
           {
-            fileName: "bd4e7418-1667-4314-89e3-9425ec23c70a.jpg",
             url: "https://media.mapgenie.io/storage/media/bd4e7418-1667-4314-89e3-9425ec23c70a.png",
             type: "image",
           },
@@ -9652,7 +9263,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75403332710195",
         media: [
           {
-            fileName: "d4c5429f-f8b2-4a58-97c4-b9300b939e55.jpg",
             url: "https://media.mapgenie.io/storage/media/d4c5429f-f8b2-4a58-97c4-b9300b939e55.png",
             type: "image",
           },
@@ -9667,7 +9277,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81534057855569",
         media: [
           {
-            fileName: "d9c81d6d-b7d9-44d5-8426-27d289d22cc8.jpg",
             url: "https://media.mapgenie.io/storage/media/d9c81d6d-b7d9-44d5-8426-27d289d22cc8.png",
             type: "image",
           },
@@ -9682,7 +9291,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79748511314318",
         media: [
           {
-            fileName: "1617d7fe-49f5-4a39-8828-68abfd4fa13f.jpg",
             url: "https://media.mapgenie.io/storage/media/1617d7fe-49f5-4a39-8828-68abfd4fa13f.png",
             type: "image",
           },
@@ -9697,7 +9305,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78300386667223",
         media: [
           {
-            fileName: "b1fca980-4d4e-4db4-8195-aba1b933305b",
             url: "https://media.mapgenie.io/storage/media/b1fca980-4d4e-4db4-8195-aba1b933305b.png",
             type: "image",
           },
@@ -9712,7 +9319,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80712631344713",
         media: [
           {
-            fileName: "73f3f74b-6e6b-46d7-aa43-981c4f04a56f.jpg",
             url: "https://media.mapgenie.io/storage/media/73f3f74b-6e6b-46d7-aa43-981c4f04a56f.png",
             type: "image",
           },
@@ -9727,7 +9333,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80801948904931",
         media: [
           {
-            fileName: "c41b0fd9-2276-4f5e-89b2-b99d797c9230.jpg",
             url: "https://media.mapgenie.io/storage/media/c41b0fd9-2276-4f5e-89b2-b99d797c9230.png",
             type: "image",
           },
@@ -9742,7 +9347,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82114756107381",
         media: [
           {
-            fileName: "403f8fb0-ce45-4b01-ae86-07e7fe0c017f.jpg",
             url: "https://media.mapgenie.io/storage/media/403f8fb0-ce45-4b01-ae86-07e7fe0c017f.jpg",
             type: "image",
           },
@@ -9757,7 +9361,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76188683509753",
         media: [
           {
-            fileName: "d79e1d2f-0d23-45a8-be0a-2dc5302a5ecb.png",
             url: "https://media.mapgenie.io/storage/media/d79e1d2f-0d23-45a8-be0a-2dc5302a5ecb.png",
             type: "image",
           },
@@ -9772,13 +9375,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76227147652762",
         media: [
           {
-            fileName: "8e5c4bac-659f-49ed-8c12-7bce58132c55.jpg",
             url: "https://media.mapgenie.io/storage/media/8e5c4bac-659f-49ed-8c12-7bce58132c55.png",
             type: "image",
           },
           {
-            title: "671f5ae5-0acc-4465-85fb-ed21336ccac8",
-            fileName: "671f5ae5-0acc-4465-85fb-ed21336ccac8",
             url: "https://media.mapgenie.io/storage/media/671f5ae5-0acc-4465-85fb-ed21336ccac8.png",
             type: "image",
           },
@@ -9801,7 +9401,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76248362660513",
         media: [
           {
-            fileName: "c79404e0-0cc3-49eb-acd9-3f85fb61f094.png",
             url: "https://media.mapgenie.io/storage/media/c79404e0-0cc3-49eb-acd9-3f85fb61f094.png",
             type: "image",
           },
@@ -9816,7 +9415,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64066439866983",
         media: [
           {
-            fileName: "9527e8f2-adba-481d-ab24-a5faaeed26d6.jpg",
             url: "https://media.mapgenie.io/storage/media/9527e8f2-adba-481d-ab24-a5faaeed26d6.jpg",
             type: "image",
           },
@@ -9831,7 +9429,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77758312225143",
         media: [
           {
-            fileName: "e787fb82-42c2-422a-a73b-01885fc22799.jpg",
             url: "https://media.mapgenie.io/storage/media/e787fb82-42c2-422a-a73b-01885fc22799.jpg",
             type: "image",
           },
@@ -9846,7 +9443,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69429811835576",
         media: [
           {
-            fileName: "3af0ebd4-b72b-4354-b7d0-d4ec3ea7710a.png",
             url: "https://media.mapgenie.io/storage/media/3af0ebd4-b72b-4354-b7d0-d4ec3ea7710a.png",
             type: "image",
           },
@@ -9877,7 +9473,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68991780281152",
         media: [
           {
-            fileName: "9f0d130b-c301-4dc0-ae06-a7511765cc12.png",
             url: "https://media.mapgenie.io/storage/media/9f0d130b-c301-4dc0-ae06-a7511765cc12.png",
             type: "image",
           },
@@ -9892,7 +9487,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69880127906727",
         media: [
           {
-            fileName: "790704ee-f9af-46ce-9927-ef5fa6fbe99e.png",
             url: "https://media.mapgenie.io/storage/media/790704ee-f9af-46ce-9927-ef5fa6fbe99e.png",
             type: "image",
           },
@@ -9915,7 +9509,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70309147238646",
         media: [
           {
-            fileName: "f1fb797e-c98d-4eec-80b7-5b66ec2f1f81.png",
             url: "https://media.mapgenie.io/storage/media/f1fb797e-c98d-4eec-80b7-5b66ec2f1f81.png",
             type: "image",
           },
@@ -9930,7 +9523,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62273651361522",
         media: [
           {
-            fileName: "e4864624-18de-486c-8cb7-25931356f13c.png",
             url: "https://media.mapgenie.io/storage/media/e4864624-18de-486c-8cb7-25931356f13c.png",
             type: "image",
           },
@@ -9945,7 +9537,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74725001055813",
         media: [
           {
-            fileName: "29844b17-657a-4c53-ac02-c7b9e2ce0f39.jpg",
             url: "https://media.mapgenie.io/storage/media/29844b17-657a-4c53-ac02-c7b9e2ce0f39.jpg",
             type: "image",
           },
@@ -10006,7 +9597,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80249566873977",
         media: [
           {
-            fileName: "ec6a9a4a-b591-4dd9-ac06-6e82c08e5867.png",
             url: "https://media.mapgenie.io/storage/media/ec6a9a4a-b591-4dd9-ac06-6e82c08e5867.png",
             type: "image",
           },
@@ -10021,7 +9611,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78719249128596",
         media: [
           {
-            fileName: "cb9b03de-7f58-4a29-b484-0b69834bec60.png",
             url: "https://media.mapgenie.io/storage/media/cb9b03de-7f58-4a29-b484-0b69834bec60.png",
             type: "image",
           },
@@ -10036,7 +9625,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79257130622668",
         media: [
           {
-            fileName: "5e5966d4-e709-4061-ad23-0604fea33e12.png",
             url: "https://media.mapgenie.io/storage/media/5e5966d4-e709-4061-ad23-0604fea33e12.png",
             type: "image",
           },
@@ -10051,7 +9639,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77596845494497",
         media: [
           {
-            fileName: "a731d0b1-f0f3-42d5-a91d-ea2667223fbb.jpeg",
             url: "https://media.mapgenie.io/storage/media/a731d0b1-f0f3-42d5-a91d-ea2667223fbb.jpeg",
             type: "image",
           },
@@ -10114,7 +9701,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67513142297526",
         media: [
           {
-            fileName: "800c18d8-0ed2-4a58-b3a0-cc1c08ac218d.jpg",
             url: "https://media.mapgenie.io/storage/media/800c18d8-0ed2-4a58-b3a0-cc1c08ac218d.jpg",
             type: "image",
           },
@@ -10153,7 +9739,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64159913895973",
         media: [
           {
-            fileName: "f414f614-702d-4e93-84ac-8d48d10a86c4.jpg",
             url: "https://media.mapgenie.io/storage/media/f414f614-702d-4e93-84ac-8d48d10a86c4.jpg",
             type: "image",
           },
@@ -10184,7 +9769,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63928980485210",
         media: [
           {
-            fileName: "ef814c2d-3550-478e-9ddf-04e7aa5029af.png",
             url: "https://media.mapgenie.io/storage/media/ef814c2d-3550-478e-9ddf-04e7aa5029af.png",
             type: "image",
           },
@@ -10207,7 +9791,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79300798015493",
         media: [
           {
-            fileName: "d17a60a2-33b1-49e2-8d07-7069fd08ece9.png",
             url: "https://media.mapgenie.io/storage/media/d17a60a2-33b1-49e2-8d07-7069fd08ece9.png",
             type: "image",
           },
@@ -10340,7 +9923,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75209945440457",
         media: [
           {
-            fileName: "9539bf2c-2de6-4019-ad10-0943170599b8.jpg",
             url: "https://media.mapgenie.io/storage/media/9539bf2c-2de6-4019-ad10-0943170599b8.png",
             type: "image",
           },
@@ -10355,7 +9937,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75262516737106",
         media: [
           {
-            fileName: "8fdf551c-835b-4af8-a988-20392bfbda1a.jpg",
             url: "https://media.mapgenie.io/storage/media/8fdf551c-835b-4af8-a988-20392bfbda1a.png",
             type: "image",
           },
@@ -10370,31 +9951,22 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75351910654467",
         media: [
           {
-            fileName: "bb9f3ca6-565f-40f0-aae2-b26f32959d21.png",
             url: "https://media.mapgenie.io/storage/media/bb9f3ca6-565f-40f0-aae2-b26f32959d21.png",
             type: "image",
           },
           {
-            title: "1245620_20220414084757_1",
-            fileName: "a3dbc11e-23b9-4738-86e6-682eed2545ee.png",
             url: "https://media.mapgenie.io/storage/media/a3dbc11e-23b9-4738-86e6-682eed2545ee.png",
             type: "image",
           },
           {
-            title: "1245620_20220414084757_1",
-            fileName: "41241b37-32d8-46f4-86da-abaa246527a2.png",
             url: "https://media.mapgenie.io/storage/media/41241b37-32d8-46f4-86da-abaa246527a2.png",
             type: "image",
           },
           {
-            title: "1245620_20220414084757_1",
-            fileName: "e00a1960-4602-43c5-a983-4206267f3e18.png",
             url: "https://media.mapgenie.io/storage/media/e00a1960-4602-43c5-a983-4206267f3e18.png",
             type: "image",
           },
           {
-            title: "1245620_20220414084757_1",
-            fileName: "8fe3b7da-122a-472a-a6b2-68e3a886a44c.png",
             url: "https://media.mapgenie.io/storage/media/8fe3b7da-122a-472a-a6b2-68e3a886a44c.png",
             type: "image",
           },
@@ -10409,7 +9981,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75038991935779",
         media: [
           {
-            fileName: "5b42a1f0-450e-499b-8445-6dc01f33cb30.jpg",
             url: "https://media.mapgenie.io/storage/media/5b42a1f0-450e-499b-8445-6dc01f33cb30.jpg",
             type: "image",
           },
@@ -10424,7 +9995,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71613103151452",
         media: [
           {
-            fileName: "6ef83b0d-42a3-4f56-ba2c-c2c8a82968a8.jpg",
             url: "https://media.mapgenie.io/storage/media/6ef83b0d-42a3-4f56-ba2c-c2c8a82968a8.jpg",
             type: "image",
           },
@@ -10439,7 +10009,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75227648019867",
         media: [
           {
-            fileName: "a3b000d4-d6bd-499e-8dd8-e4a6ddb7cc69.jpg",
             url: "https://media.mapgenie.io/storage/media/a3b000d4-d6bd-499e-8dd8-e4a6ddb7cc69.png",
             type: "image",
           },
@@ -10454,7 +10023,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74928179383335",
         media: [
           {
-            fileName: "c2a7b781-bdd2-4cc0-a92e-9a871363b850.jpg",
             url: "https://media.mapgenie.io/storage/media/c2a7b781-bdd2-4cc0-a92e-9a871363b850.png",
             type: "image",
           },
@@ -10469,7 +10037,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74885129928620",
         media: [
           {
-            fileName: "967b2ced-a09e-4125-9497-093966367284.jpg",
             url: "https://media.mapgenie.io/storage/media/967b2ced-a09e-4125-9497-093966367284.png",
             type: "image",
           },
@@ -10484,7 +10051,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74650436639493",
         media: [
           {
-            fileName: "3a4b41c3-71cf-4764-a24b-ce00e32312a0.jpg",
             url: "https://media.mapgenie.io/storage/media/3a4b41c3-71cf-4764-a24b-ce00e32312a0.png",
             type: "image",
           },
@@ -10499,7 +10065,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75328499078779",
         media: [
           {
-            fileName: "dc2eacfe-d65f-45df-a0d5-47231e3d2a23.jpg",
             url: "https://media.mapgenie.io/storage/media/dc2eacfe-d65f-45df-a0d5-47231e3d2a23.png",
             type: "image",
           },
@@ -10514,7 +10079,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81552028656009",
         media: [
           {
-            fileName: "ee1e00e8-959d-44ad-b9d9-e1aa9c49c084.jpg",
             url: "https://media.mapgenie.io/storage/media/ee1e00e8-959d-44ad-b9d9-e1aa9c49c084.png",
             type: "image",
           },
@@ -10544,7 +10108,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80251425504792",
         media: [
           {
-            fileName: "0cef37bd-c0c4-482a-88f1-eda806219c51.jpg",
             url: "https://media.mapgenie.io/storage/media/0cef37bd-c0c4-482a-88f1-eda806219c51.png",
             type: "image",
           },
@@ -10558,7 +10121,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72843834757620",
         media: [
           {
-            fileName: "9e7a3f6f-cf3c-4767-b7ba-a7c03f003473.jpg",
             url: "https://media.mapgenie.io/storage/media/9e7a3f6f-cf3c-4767-b7ba-a7c03f003473.jpg",
             type: "image",
           },
@@ -10573,7 +10135,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79914808273409",
         media: [
           {
-            fileName: "eea49636-9bdc-49d9-85b7-b8a66a47f545.jpg",
             url: "https://media.mapgenie.io/storage/media/eea49636-9bdc-49d9-85b7-b8a66a47f545.png",
             type: "image",
           },
@@ -10588,7 +10149,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80625593662251",
         media: [
           {
-            fileName: "50de075b-dcab-46ed-8562-8a286c0bf205.jpg",
             url: "https://media.mapgenie.io/storage/media/50de075b-dcab-46ed-8562-8a286c0bf205.png",
             type: "image",
           },
@@ -10603,7 +10163,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80733418464638",
         media: [
           {
-            fileName: "d1df65c3-d785-4a57-ba79-3dde99400a36.jpg",
             url: "https://media.mapgenie.io/storage/media/d1df65c3-d785-4a57-ba79-3dde99400a36.png",
             type: "image",
           },
@@ -10617,7 +10176,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72457462549315",
         media: [
           {
-            fileName: "a2c9458f-68a6-440c-a907-9162776b484d.png",
             url: "https://media.mapgenie.io/storage/media/a2c9458f-68a6-440c-a907-9162776b484d.png",
             type: "image",
           },
@@ -10646,7 +10204,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74611858929244",
         media: [
           {
-            fileName: "622eb171-f835-40da-8041-67d9a9b47cbc.jpg",
             url: "https://media.mapgenie.io/storage/media/622eb171-f835-40da-8041-67d9a9b47cbc.jpg",
             type: "image",
           },
@@ -10689,7 +10246,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72485614256767",
         media: [
           {
-            fileName: "8cddb1d8-0a2d-4b52-8b16-0f320117dd38.png",
             url: "https://media.mapgenie.io/storage/media/8cddb1d8-0a2d-4b52-8b16-0f320117dd38.png",
             type: "image",
           },
@@ -10740,7 +10296,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64243786196053",
         media: [
           {
-            fileName: "565dfc12-abe0-44d7-bd82-bd0757f89adb.jpg",
             url: "https://media.mapgenie.io/storage/media/565dfc12-abe0-44d7-bd82-bd0757f89adb.jpg",
             type: "image",
           },
@@ -10759,7 +10314,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72736847955588",
         media: [
           {
-            fileName: "d0e3d948-977d-4f28-af97-d27550e8af37.png",
             url: "https://media.mapgenie.io/storage/media/d0e3d948-977d-4f28-af97-d27550e8af37.png",
             type: "image",
           },
@@ -10813,7 +10367,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79402470460008",
         media: [
           {
-            fileName: "395bc4bf-b219-4b7e-82e7-56191c3bbcf0.jpg",
             url: "https://media.mapgenie.io/storage/media/395bc4bf-b219-4b7e-82e7-56191c3bbcf0.jpg",
             type: "image",
           },
@@ -10828,7 +10381,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76095253168205",
         media: [
           {
-            fileName: "04276609-ab3e-4767-90cf-f8d3854d73a1.jpg",
             url: "https://media.mapgenie.io/storage/media/04276609-ab3e-4767-90cf-f8d3854d73a1.png",
             type: "image",
           },
@@ -10919,7 +10471,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77610932706628",
         media: [
           {
-            fileName: "20b3a3f8-146e-4831-9139-87d2431f997c.png",
             url: "https://media.mapgenie.io/storage/media/20b3a3f8-146e-4831-9139-87d2431f997c.png",
             type: "image",
           },
@@ -10949,7 +10500,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77392621620078",
         media: [
           {
-            fileName: "a739aba8-01b2-44b1-a4e9-7173dd7d63fd.png",
             url: "https://media.mapgenie.io/storage/media/a739aba8-01b2-44b1-a4e9-7173dd7d63fd.png",
             type: "image",
           },
@@ -11010,7 +10560,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77961921213549",
         media: [
           {
-            fileName: "880dec8d-2f5f-464e-9333-30bc4b74e3d4.png",
             url: "https://media.mapgenie.io/storage/media/880dec8d-2f5f-464e-9333-30bc4b74e3d4.png",
             type: "image",
           },
@@ -11025,7 +10574,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78516998458278",
         media: [
           {
-            fileName: "f377a0ae-f437-4619-8be4-7e04726db1d5.png",
             url: "https://media.mapgenie.io/storage/media/f377a0ae-f437-4619-8be4-7e04726db1d5.png",
             type: "image",
           },
@@ -11078,7 +10626,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69767641088080",
         media: [
           {
-            fileName: "717c4706-8598-4dd9-9464-9df98fa3a663.png",
             url: "https://media.mapgenie.io/storage/media/717c4706-8598-4dd9-9464-9df98fa3a663.png",
             type: "image",
           },
@@ -11163,7 +10710,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52605620814143",
         media: [
           {
-            fileName: "3c25cb29-32b8-4603-8982-729e32f4890e.jpeg",
             url: "https://media.mapgenie.io/storage/media/3c25cb29-32b8-4603-8982-729e32f4890e.jpeg",
             type: "image",
           },
@@ -11177,7 +10723,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61079613307737",
         media: [
           {
-            fileName: "555e2607-4464-425f-9d20-c28a93d5c176.jpeg",
             url: "https://media.mapgenie.io/storage/media/555e2607-4464-425f-9d20-c28a93d5c176.jpeg",
             type: "image",
           },
@@ -11192,7 +10737,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51620496411525",
         media: [
           {
-            fileName: "c6642403-3b88-4580-901f-fd5d347c75fc.jpeg",
             url: "https://media.mapgenie.io/storage/media/c6642403-3b88-4580-901f-fd5d347c75fc.jpeg",
             type: "image",
           },
@@ -11257,7 +10801,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69321336254060",
         media: [
           {
-            fileName: "101667d1-021e-4cb2-ac61-cb73a026ede5.png",
             url: "https://media.mapgenie.io/storage/media/101667d1-021e-4cb2-ac61-cb73a026ede5.png",
             type: "image",
           },
@@ -11315,7 +10858,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77798545360582",
         media: [
           {
-            fileName: "20752274-8542-4438-b553-8db8df0f808d.png",
             url: "https://media.mapgenie.io/storage/media/20752274-8542-4438-b553-8db8df0f808d.png",
             type: "image",
           },
@@ -11328,7 +10870,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64557303752398",
         media: [
           {
-            fileName: "ab740d26-b109-4980-95c1-d5dd90a562ef.jpg",
             url: "https://media.mapgenie.io/storage/media/ab740d26-b109-4980-95c1-d5dd90a562ef.jpg",
             type: "image",
           },
@@ -11341,7 +10882,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80281287632997",
         media: [
           {
-            fileName: "69bb746f-65d0-47d2-b17c-d18184945741.png",
             url: "https://media.mapgenie.io/storage/media/69bb746f-65d0-47d2-b17c-d18184945741.png",
             type: "image",
           },
@@ -11356,7 +10896,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65299701837702",
         media: [
           {
-            fileName: "0d7866c1-1ebe-48ba-96ef-0fef36d17de4.png",
             url: "https://media.mapgenie.io/storage/media/0d7866c1-1ebe-48ba-96ef-0fef36d17de4.png",
             type: "image",
           },
@@ -11371,7 +10910,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80805033445483",
         media: [
           {
-            fileName: "8650b417-00b8-4eee-94dc-0607d21f2bb1.png",
             url: "https://media.mapgenie.io/storage/media/8650b417-00b8-4eee-94dc-0607d21f2bb1.png",
             type: "image",
           },
@@ -11392,7 +10930,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77303225593027",
         media: [
           {
-            fileName: "2be5edde-cf17-44a0-ab49-0fe9ee48260a.png",
             url: "https://media.mapgenie.io/storage/media/2be5edde-cf17-44a0-ab49-0fe9ee48260a.png",
             type: "image",
           },
@@ -11406,7 +10943,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77278823482951",
         media: [
           {
-            fileName: "2a3ec28c-a007-46fe-b49a-c6fc89727a8e.png",
             url: "https://media.mapgenie.io/storage/media/2a3ec28c-a007-46fe-b49a-c6fc89727a8e.png",
             type: "image",
           },
@@ -11421,7 +10957,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75812995964054",
         media: [
           {
-            fileName: "6a909746-1fd7-470d-b63c-7ff8deb27cb7.jpg",
             url: "https://media.mapgenie.io/storage/media/6a909746-1fd7-470d-b63c-7ff8deb27cb7.png",
             type: "image",
           },
@@ -11456,7 +10991,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73878465270727",
         media: [
           {
-            fileName: "3daf9781-a99e-4c7d-a041-9adc074c2c52.png",
             url: "https://media.mapgenie.io/storage/media/3daf9781-a99e-4c7d-a041-9adc074c2c52.png",
             type: "image",
           },
@@ -11471,7 +11005,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74169416786739",
         media: [
           {
-            fileName: "b0bab280-d4c6-4ba4-bd9e-d4d6e30e163d.png",
             url: "https://media.mapgenie.io/storage/media/b0bab280-d4c6-4ba4-bd9e-d4d6e30e163d.png",
             type: "image",
           },
@@ -11486,7 +11019,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74729758563066",
         media: [
           {
-            fileName: "4f3e91ce-5545-43ae-92f0-aed26aa01773.png",
             url: "https://media.mapgenie.io/storage/media/4f3e91ce-5545-43ae-92f0-aed26aa01773.png",
             type: "image",
           },
@@ -11549,7 +11081,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73797478514277",
         media: [
           {
-            fileName: "3d6a3f26-c2a8-44e1-93ba-fd9cacf6bf65.jpg",
             url: "https://media.mapgenie.io/storage/media/3d6a3f26-c2a8-44e1-93ba-fd9cacf6bf65.png",
             type: "image",
           },
@@ -11571,7 +11102,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70445269346212",
         media: [
           {
-            fileName: "e5f64e64-c9dd-4e23-988a-7b693cd27007.png",
             url: "https://media.mapgenie.io/storage/media/e5f64e64-c9dd-4e23-988a-7b693cd27007.png",
             type: "image",
           },
@@ -11586,7 +11116,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70227071642927",
         media: [
           {
-            fileName: "9ae06f8b-e5ec-4fbc-90c4-e1fb981a56a6.png",
             url: "https://media.mapgenie.io/storage/media/9ae06f8b-e5ec-4fbc-90c4-e1fb981a56a6.png",
             type: "image",
           },
@@ -11601,7 +11130,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72019726037988",
         media: [
           {
-            fileName: "cc954c3b-0406-42dc-b2e1-3da55e111ad2.png",
             url: "https://media.mapgenie.io/storage/media/cc954c3b-0406-42dc-b2e1-3da55e111ad2.png",
             type: "image",
           },
@@ -11616,7 +11144,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72014898061769",
         media: [
           {
-            fileName: "37480cd1-e609-4a81-9c32-ab5eb5f29ba1.png",
             url: "https://media.mapgenie.io/storage/media/37480cd1-e609-4a81-9c32-ab5eb5f29ba1.png",
             type: "image",
           },
@@ -11631,7 +11158,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75341641903088",
         media: [
           {
-            fileName: "07580c27-9da3-4607-91d2-7aa1fc92b088.jpg",
             url: "https://media.mapgenie.io/storage/media/07580c27-9da3-4607-91d2-7aa1fc92b088.png",
             type: "image",
           },
@@ -11646,7 +11172,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75314015150127",
         media: [
           {
-            fileName: "a2576fc6-9e16-4c1e-b29a-823955b3d672.jpg",
             url: "https://media.mapgenie.io/storage/media/a2576fc6-9e16-4c1e-b29a-823955b3d672.png",
             type: "image",
           },
@@ -11659,7 +11184,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73750753833036",
         media: [
           {
-            fileName: "0a0e750f-f02c-4d8c-b295-639d90215705.jpg",
             url: "https://media.mapgenie.io/storage/media/0a0e750f-f02c-4d8c-b295-639d90215705.jpg",
             type: "image",
           },
@@ -11690,7 +11214,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71280777454416",
         media: [
           {
-            fileName: "675976b6-ba1c-4a69-8c98-e7f2069fd51b.jpg",
             url: "https://media.mapgenie.io/storage/media/675976b6-ba1c-4a69-8c98-e7f2069fd51b.jpg",
             type: "image",
           },
@@ -11712,7 +11235,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75104668736577",
         media: [
           {
-            fileName: "b977f333-1c45-4619-b726-439e82b794c4.jpg",
             url: "https://media.mapgenie.io/storage/media/b977f333-1c45-4619-b726-439e82b794c4.png",
             type: "image",
           },
@@ -11726,7 +11248,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75104132294854",
         media: [
           {
-            fileName: "96fe4e25-41f8-4c34-a301-936f04f445a3.jpg",
             url: "https://media.mapgenie.io/storage/media/96fe4e25-41f8-4c34-a301-936f04f445a3.png",
             type: "image",
           },
@@ -11741,7 +11262,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74961706995762",
         media: [
           {
-            fileName: "21fa6a44-c7a0-475f-8333-1f7c99f8086c.jpg",
             url: "https://media.mapgenie.io/storage/media/21fa6a44-c7a0-475f-8333-1f7c99f8086c.png",
             type: "image",
           },
@@ -11763,7 +11283,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69810524583062",
         media: [
           {
-            fileName: "2e6559ed-2462-4cf7-8467-e1db95d6d847.png",
             url: "https://media.mapgenie.io/storage/media/2e6559ed-2462-4cf7-8467-e1db95d6d847.png",
             type: "image",
           },
@@ -11778,7 +11297,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70868836561630",
         media: [
           {
-            fileName: "f8d27282-76c7-46d8-9810-b289af15ddca.jpg",
             url: "https://media.mapgenie.io/storage/media/f8d27282-76c7-46d8-9810-b289af15ddca.png",
             type: "image",
           },
@@ -11793,7 +11311,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81494897603963",
         media: [
           {
-            fileName: "2672b1a0-5eeb-45a1-94fa-9f9a71a40a15.jpg",
             url: "https://media.mapgenie.io/storage/media/2672b1a0-5eeb-45a1-94fa-9f9a71a40a15.png",
             type: "image",
           },
@@ -11807,7 +11324,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72009399533192",
         media: [
           {
-            fileName: "d03260eb-71ac-428c-8b74-2f45c71bbce4.jpg",
             url: "https://media.mapgenie.io/storage/media/d03260eb-71ac-428c-8b74-2f45c71bbce4.jpg",
             type: "image",
           },
@@ -11837,7 +11353,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70648044347942",
         media: [
           {
-            fileName: "2af5b4a8-692c-45ab-a157-1ae45e7f9ec7.jpg",
             url: "https://media.mapgenie.io/storage/media/2af5b4a8-692c-45ab-a157-1ae45e7f9ec7.jpg",
             type: "image",
           },
@@ -11858,7 +11373,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72484821081213",
         media: [
           {
-            fileName: "c0b377f7-a01a-4ea4-9a1f-b2bd9da09267.jpg",
             url: "https://media.mapgenie.io/storage/media/c0b377f7-a01a-4ea4-9a1f-b2bd9da09267.jpg",
             type: "image",
           },
@@ -11873,7 +11387,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80878257751482",
         media: [
           {
-            fileName: "dfe956c0-2536-4981-b305-ba386109577b.jpg",
             url: "https://media.mapgenie.io/storage/media/dfe956c0-2536-4981-b305-ba386109577b.png",
             type: "image",
           },
@@ -11888,7 +11401,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80697745084677",
         media: [
           {
-            fileName: "9bf91ef8-c76d-4197-bec1-fdefc6b0414d.jpg",
             url: "https://media.mapgenie.io/storage/media/9bf91ef8-c76d-4197-bec1-fdefc6b0414d.png",
             type: "image",
           },
@@ -11902,7 +11414,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80608963966347",
         media: [
           {
-            fileName: "4c5caeaf-3c62-4285-baac-ba52c3e4e7e3.jpg",
             url: "https://media.mapgenie.io/storage/media/4c5caeaf-3c62-4285-baac-ba52c3e4e7e3.png",
             type: "image",
           },
@@ -11917,7 +11428,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80404043197692",
         media: [
           {
-            fileName: "37c3a178-c4a7-4a45-8396-4dbf10ed9bdd.jpg",
             url: "https://media.mapgenie.io/storage/media/37c3a178-c4a7-4a45-8396-4dbf10ed9bdd.png",
             type: "image",
           },
@@ -11931,7 +11441,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80257460474979",
         media: [
           {
-            fileName: "3617ddc0-63ef-49d8-bc2d-9b7eaf7e39e0.jpg",
             url: "https://media.mapgenie.io/storage/media/3617ddc0-63ef-49d8-bc2d-9b7eaf7e39e0.png",
             type: "image",
           },
@@ -11946,7 +11455,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80950677394753",
         media: [
           {
-            fileName: "102dd901-708f-4f10-83b4-894af4a8c773.jpg",
             url: "https://media.mapgenie.io/storage/media/102dd901-708f-4f10-83b4-894af4a8c773.png",
             type: "image",
           },
@@ -11981,7 +11489,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67989004600111",
         media: [
           {
-            fileName: "9e7e2a94-4e6c-4070-ae3d-4a835120ae4c.png",
             url: "https://media.mapgenie.io/storage/media/9e7e2a94-4e6c-4070-ae3d-4a835120ae4c.png",
             type: "image",
           },
@@ -11996,7 +11503,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69546058774051",
         media: [
           {
-            fileName: "ba67d75d-2ecf-4a55-b833-03319b2e5191.png",
             url: "https://media.mapgenie.io/storage/media/ba67d75d-2ecf-4a55-b833-03319b2e5191.png",
             type: "image",
           },
@@ -12016,7 +11522,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71915790438547",
         media: [
           {
-            fileName: "a360e87b-95a1-44fc-883d-d08796ff4014.jpg",
             url: "https://media.mapgenie.io/storage/media/a360e87b-95a1-44fc-883d-d08796ff4014.jpg",
             type: "image",
           },
@@ -12030,7 +11535,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66758529258300",
         media: [
           {
-            fileName: "b88b12c1-d9cc-40c8-9d73-6c40f5d00b90.jpg",
             url: "https://media.mapgenie.io/storage/media/b88b12c1-d9cc-40c8-9d73-6c40f5d00b90.jpg",
             type: "image",
           },
@@ -12050,7 +11554,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67790150642463",
         media: [
           {
-            fileName: "cf86be29-6734-4471-8c6d-cc91ff27ba19.jpg",
             url: "https://media.mapgenie.io/storage/media/cf86be29-6734-4471-8c6d-cc91ff27ba19.jpg",
             type: "image",
           },
@@ -12064,7 +11567,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63388511538508",
         media: [
           {
-            fileName: "aaa94b64-37e8-44cb-ba92-c0d05c11110f.jpg",
             url: "https://media.mapgenie.io/storage/media/aaa94b64-37e8-44cb-ba92-c0d05c11110f.jpg",
             type: "image",
           },
@@ -12086,7 +11588,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72050973772969",
         media: [
           {
-            fileName: "711e4f85-3412-487a-b519-584c778c4020.png",
             url: "https://media.mapgenie.io/storage/media/711e4f85-3412-487a-b519-584c778c4020.png",
             type: "image",
           },
@@ -12126,7 +11627,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77480949964274",
         media: [
           {
-            fileName: "ffae7ffa-cab1-4f4a-a50d-dd0376cd5bcd.jpg",
             url: "https://media.mapgenie.io/storage/media/ffae7ffa-cab1-4f4a-a50d-dd0376cd5bcd.png",
             type: "image",
           },
@@ -12140,7 +11640,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77601184773317",
         media: [
           {
-            fileName: "bcd3b700-06f1-4956-8728-d91d5e7a9be2.jpg",
             url: "https://media.mapgenie.io/storage/media/bcd3b700-06f1-4956-8728-d91d5e7a9be2.png",
             type: "image",
           },
@@ -12192,7 +11691,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82605029460478",
         media: [
           {
-            fileName: "40a9e67f-a79b-4246-aad6-9a0208f9775e.png",
             url: "https://media.mapgenie.io/storage/media/40a9e67f-a79b-4246-aad6-9a0208f9775e.png",
             type: "image",
           },
@@ -12207,7 +11705,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81660953965850",
         media: [
           {
-            fileName: "776bab0e-56e1-48ac-b523-bf4b07d4e9e6.jpg",
             url: "https://media.mapgenie.io/storage/media/776bab0e-56e1-48ac-b523-bf4b07d4e9e6.png",
             type: "image",
           },
@@ -12230,7 +11727,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73934120433683",
         media: [
           {
-            fileName: "035ef981-4f8b-45bb-9d78-3f58d0a2574b.png",
             url: "https://media.mapgenie.io/storage/media/035ef981-4f8b-45bb-9d78-3f58d0a2574b.png",
             type: "image",
           },
@@ -12244,7 +11740,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61525889330199",
         media: [
           {
-            fileName: "c549f993-8189-4774-abbc-e11ca774b42b.jpg",
             url: "https://media.mapgenie.io/storage/media/c549f993-8189-4774-abbc-e11ca774b42b.jpg",
             type: "image",
           },
@@ -12257,7 +11752,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79045312751046",
         media: [
           {
-            fileName: "07ae8fdf-ac79-4f4e-b2db-24a11b098fa2.png",
             url: "https://media.mapgenie.io/storage/media/07ae8fdf-ac79-4f4e-b2db-24a11b098fa2.png",
             type: "image",
           },
@@ -12331,7 +11825,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81627099626628",
         media: [
           {
-            fileName: "9c1399f7-d854-4288-b22f-ffb1318282a0.jpg",
             url: "https://media.mapgenie.io/storage/media/9c1399f7-d854-4288-b22f-ffb1318282a0.png",
             type: "image",
           },
@@ -12354,7 +11847,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64583661273781",
         media: [
           {
-            fileName: "57f42015-cc91-4926-a37c-4f5a6ab19681.jpg",
             url: "https://media.mapgenie.io/storage/media/57f42015-cc91-4926-a37c-4f5a6ab19681.jpg",
             type: "image",
           },
@@ -12376,7 +11868,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74545562267363",
         media: [
           {
-            fileName: "f2bc5601-1a45-4c98-959e-17ceb979f7c1.jpg",
             url: "https://media.mapgenie.io/storage/media/f2bc5601-1a45-4c98-959e-17ceb979f7c1.jpg",
             type: "image",
           },
@@ -12391,7 +11882,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75481744316164",
         media: [
           {
-            fileName: "0c31dd3f-8c4b-4391-b5ec-9d53c9670d87.jpg",
             url: "https://media.mapgenie.io/storage/media/0c31dd3f-8c4b-4391-b5ec-9d53c9670d87.jpg",
             type: "image",
           },
@@ -12436,7 +11926,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82656696438758",
         media: [
           {
-            fileName: "6c7959c2-8c62-412c-8303-e48734569a6f",
             url: "https://media.mapgenie.io/storage/media/6c7959c2-8c62-412c-8303-e48734569a6f.png",
             type: "image",
           },
@@ -12466,7 +11955,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67225979238472",
         media: [
           {
-            fileName: "b3d1bdb5-d7a7-4791-b5ac-2950c2782285.jpg",
             url: "https://media.mapgenie.io/storage/media/b3d1bdb5-d7a7-4791-b5ac-2950c2782285.jpg",
             type: "image",
           },
@@ -12512,7 +12000,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76103982648960",
         media: [
           {
-            fileName: "a511f8a1-5423-4aa4-a488-dc24270217b4.jpeg",
             url: "https://media.mapgenie.io/storage/media/a511f8a1-5423-4aa4-a488-dc24270217b4.jpeg",
             type: "image",
           },
@@ -12556,7 +12043,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77157898609900",
         media: [
           {
-            fileName: "844c95ce-e2d6-400f-a728-493815fa1f9b.jpg",
             url: "https://media.mapgenie.io/storage/media/844c95ce-e2d6-400f-a728-493815fa1f9b.png",
             type: "image",
           },
@@ -12571,7 +12057,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76166760876876",
         media: [
           {
-            fileName: "2ed9a112-8a37-4372-a672-3f34658b5ff0.jpg",
             url: "https://media.mapgenie.io/storage/media/2ed9a112-8a37-4372-a672-3f34658b5ff0.png",
             type: "image",
           },
@@ -12585,7 +12070,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78039392302554",
         media: [
           {
-            fileName: "c93eb79f-8797-4201-9033-9f980338a711.jpg",
             url: "https://media.mapgenie.io/storage/media/c93eb79f-8797-4201-9033-9f980338a711.jpg",
             type: "image",
           },
@@ -12606,7 +12090,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81206860857847",
         media: [
           {
-            fileName: "f1fe2482-c073-42d4-b408-8ec8f832bb1e.jpg",
             url: "https://media.mapgenie.io/storage/media/f1fe2482-c073-42d4-b408-8ec8f832bb1e.png",
             type: "image",
           },
@@ -12658,7 +12141,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77813919955940",
         media: [
           {
-            fileName: "7b276cca-6c11-48ba-b114-36448033c84f.png",
             url: "https://media.mapgenie.io/storage/media/7b276cca-6c11-48ba-b114-36448033c84f.png",
             type: "image",
           },
@@ -12673,7 +12155,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82355292897140",
         media: [
           {
-            fileName: "640641dc-ae73-45d1-985c-3514ad2ed6f9.jpg",
             url: "https://media.mapgenie.io/storage/media/640641dc-ae73-45d1-985c-3514ad2ed6f9.png",
             type: "image",
           },
@@ -12694,7 +12175,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75696385433008",
         media: [
           {
-            fileName: "28c1cf6e-4b78-4eb7-bf88-dae934c6833e.png",
             url: "https://media.mapgenie.io/storage/media/28c1cf6e-4b78-4eb7-bf88-dae934c6833e.png",
             type: "image",
           },
@@ -12716,7 +12196,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78613743019085",
         media: [
           {
-            fileName: "2456f543-64f7-41ba-b41e-c9ffe48273c4.png",
             url: "https://media.mapgenie.io/storage/media/2456f543-64f7-41ba-b41e-c9ffe48273c4.png",
             type: "image",
           },
@@ -12737,7 +12216,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74398494232565",
         media: [
           {
-            fileName: "e97af616-c995-455f-8846-e2bad48ee5dd.png",
             url: "https://media.mapgenie.io/storage/media/e97af616-c995-455f-8846-e2bad48ee5dd.png",
             type: "image",
           },
@@ -12793,7 +12271,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63654778063918",
         media: [
           {
-            fileName: "21e3fd52-2165-410b-92dc-5e5dcd4088c3.jpg",
             url: "https://media.mapgenie.io/storage/media/21e3fd52-2165-410b-92dc-5e5dcd4088c3.jpg",
             type: "image",
           },
@@ -12807,7 +12284,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79050323212385",
         media: [
           {
-            fileName: "0e684963-199d-4ef0-8975-e4d53aacd52d.png",
             url: "https://media.mapgenie.io/storage/media/0e684963-199d-4ef0-8975-e4d53aacd52d.png",
             type: "image",
           },
@@ -12830,7 +12306,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72338772855525",
         media: [
           {
-            fileName: "c91e2795-88d9-4311-b125-74fd5451dba4.png",
             url: "https://media.mapgenie.io/storage/media/c91e2795-88d9-4311-b125-74fd5451dba4.png",
             type: "image",
           },
@@ -12873,7 +12348,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72613966254926",
         media: [
           {
-            fileName: "644be33b-060d-4714-95a0-704bdf916ec6.png",
             url: "https://media.mapgenie.io/storage/media/644be33b-060d-4714-95a0-704bdf916ec6.png",
             type: "image",
           },
@@ -13027,7 +12501,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77329170850322",
         media: [
           {
-            fileName: "d7836239-6bc3-4c14-b1f0-a99ef0e5414d.png",
             url: "https://media.mapgenie.io/storage/media/d7836239-6bc3-4c14-b1f0-a99ef0e5414d.png",
             type: "image",
           },
@@ -13042,7 +12515,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78027763532396",
         media: [
           {
-            fileName: "371a8895-e28c-4c94-be34-53037c6dfe09.png",
             url: "https://media.mapgenie.io/storage/media/371a8895-e28c-4c94-be34-53037c6dfe09.png",
             type: "image",
           },
@@ -13057,7 +12529,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79475510794359",
         media: [
           {
-            fileName: "a26c82d0-c017-4f2b-a183-0e46773561b1.png",
             url: "https://media.mapgenie.io/storage/media/a26c82d0-c017-4f2b-a183-0e46773561b1.png",
             type: "image",
           },
@@ -13170,7 +12641,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69465923041921",
         media: [
           {
-            fileName: "489e5a83-f764-42b0-8d36-e3ba96274055.png",
             url: "https://media.mapgenie.io/storage/media/489e5a83-f764-42b0-8d36-e3ba96274055.png",
             type: "image",
           },
@@ -13208,7 +12678,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69811675899979",
         media: [
           {
-            fileName: "b4079d9e-00b3-4d8d-9bd9-42289c965940.png",
             url: "https://media.mapgenie.io/storage/media/b4079d9e-00b3-4d8d-9bd9-42289c965940.png",
             type: "image",
           },
@@ -13223,7 +12692,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69549910196324",
         media: [
           {
-            fileName: "70eb7b27-ad80-42d0-b7f6-114e59c06403.png",
             url: "https://media.mapgenie.io/storage/media/70eb7b27-ad80-42d0-b7f6-114e59c06403.png",
             type: "image",
           },
@@ -13381,7 +12849,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68824046513282",
         media: [
           {
-            fileName: "df94fbd0-674d-4018-a639-47413fda0cfb.png",
             url: "https://media.mapgenie.io/storage/media/df94fbd0-674d-4018-a639-47413fda0cfb.png",
             type: "image",
           },
@@ -13570,7 +13037,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51838544063764",
         media: [
           {
-            fileName: "4f0fc631-553e-4fb5-9c39-d585a9990bc1.jpeg",
             url: "https://media.mapgenie.io/storage/media/4f0fc631-553e-4fb5-9c39-d585a9990bc1.jpeg",
             type: "image",
           },
@@ -13608,7 +13074,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52338380018858",
         media: [
           {
-            fileName: "b0c3d079-a453-47fd-a2d6-90a08c2f8a95.jpeg",
             url: "https://media.mapgenie.io/storage/media/b0c3d079-a453-47fd-a2d6-90a08c2f8a95.jpeg",
             type: "image",
           },
@@ -13639,7 +13104,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62328645222715",
         media: [
           {
-            fileName: "56d3e590-1b3d-45fe-971b-d34e3f5c96e4.png",
             url: "https://media.mapgenie.io/storage/media/56d3e590-1b3d-45fe-971b-d34e3f5c96e4.png",
             type: "image",
           },
@@ -13787,7 +13251,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64408724846669",
         media: [
           {
-            fileName: "7803e6b0-1fd8-412c-9a7b-9893810a993f.png",
             url: "https://media.mapgenie.io/storage/media/7803e6b0-1fd8-412c-9a7b-9893810a993f.png",
             type: "image",
           },
@@ -13802,7 +13265,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64084065616635",
         media: [
           {
-            fileName: "7da819e5-ac64-4927-a28d-eda3e441b9d7.png",
             url: "https://media.mapgenie.io/storage/media/7da819e5-ac64-4927-a28d-eda3e441b9d7.png",
             type: "image",
           },
@@ -13824,7 +13286,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67826229616816",
         media: [
           {
-            fileName: "204ed9d6-f310-40f4-8658-3d9a36687175.png",
             url: "https://media.mapgenie.io/storage/media/204ed9d6-f310-40f4-8658-3d9a36687175.png",
             type: "image",
           },
@@ -13853,7 +13314,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63124401136170",
         media: [
           {
-            fileName: "361487fb-0da1-42e3-9ae1-c05096ea5196.png",
             url: "https://media.mapgenie.io/storage/media/361487fb-0da1-42e3-9ae1-c05096ea5196.png",
             type: "image",
           },
@@ -13890,7 +13350,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75092738063253",
         media: [
           {
-            fileName: "5b69b5c7-b659-4901-b68b-b57cda311739.jpg",
             url: "https://media.mapgenie.io/storage/media/5b69b5c7-b659-4901-b68b-b57cda311739.jpg",
             type: "image",
           },
@@ -13925,7 +13384,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72154238820173",
         media: [
           {
-            fileName: "ce186609-210d-4685-a698-5081f04a269a.jpg",
             url: "https://media.mapgenie.io/storage/media/ce186609-210d-4685-a698-5081f04a269a.png",
             type: "image",
           },
@@ -13938,7 +13396,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69914057850880",
         media: [
           {
-            fileName: "86a43cac-3c13-4ece-884c-e3010604ed4d.png",
             url: "https://media.mapgenie.io/storage/media/86a43cac-3c13-4ece-884c-e3010604ed4d.png",
             type: "image",
           },
@@ -13953,7 +13410,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71524322033000",
         media: [
           {
-            fileName: "5ba3c81d-4efd-4226-9870-36f8b1d6081b.png",
             url: "https://media.mapgenie.io/storage/media/5ba3c81d-4efd-4226-9870-36f8b1d6081b.png",
             type: "image",
           },
@@ -13968,7 +13424,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72686254978228",
         media: [
           {
-            fileName: "64616d05-0247-49a1-b839-cdb235149a98.png",
             url: "https://media.mapgenie.io/storage/media/64616d05-0247-49a1-b839-cdb235149a98.png",
             type: "image",
           },
@@ -13982,7 +13437,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71597278118196",
         media: [
           {
-            fileName: "b10dd0f4-1c87-491b-83cf-c9df428c5aea.png",
             url: "https://media.mapgenie.io/storage/media/b10dd0f4-1c87-491b-83cf-c9df428c5aea.png",
             type: "image",
           },
@@ -13995,7 +13449,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70622965693536",
         media: [
           {
-            fileName: "445e55e2-c6c0-4f41-b4b8-00bebc007654.png",
             url: "https://media.mapgenie.io/storage/media/445e55e2-c6c0-4f41-b4b8-00bebc007654.png",
             type: "image",
           },
@@ -14009,7 +13462,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68944305181591",
         media: [
           {
-            fileName: "70274cfc-b8f8-46f0-a38a-cc2e50077192.jpg",
             url: "https://media.mapgenie.io/storage/media/70274cfc-b8f8-46f0-a38a-cc2e50077192.jpg",
             type: "image",
           },
@@ -14024,7 +13476,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65229121415147",
         media: [
           {
-            fileName: "1cf7f5c0-f14c-456b-9313-2314ed9e9429.jpg",
             url: "https://media.mapgenie.io/storage/media/1cf7f5c0-f14c-456b-9313-2314ed9e9429.jpg",
             type: "image",
           },
@@ -14039,7 +13490,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73120772838561",
         media: [
           {
-            fileName: "41e714e6-5728-4890-add4-4f58bfe6c764.png",
             url: "https://media.mapgenie.io/storage/media/41e714e6-5728-4890-add4-4f58bfe6c764.png",
             type: "image",
           },
@@ -14052,7 +13502,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69130852818452",
         media: [
           {
-            fileName: "7c156e69-5c9e-400e-b15c-bf34ab9832a9.png",
             url: "https://media.mapgenie.io/storage/media/7c156e69-5c9e-400e-b15c-bf34ab9832a9.png",
             type: "image",
           },
@@ -14080,7 +13529,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69091558456373",
         media: [
           {
-            fileName: "e4ccf49d-fc2f-4591-9876-59c1b40a2a4a.png",
             url: "https://media.mapgenie.io/storage/media/e4ccf49d-fc2f-4591-9876-59c1b40a2a4a.png",
             type: "image",
           },
@@ -14099,7 +13547,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71293963657047",
         media: [
           {
-            fileName: "f475a944-0eac-4930-b820-771b0b3d1741.jpg",
             url: "https://media.mapgenie.io/storage/media/f475a944-0eac-4930-b820-771b0b3d1741.jpg",
             type: "image",
           },
@@ -14113,7 +13560,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75800763864004",
         media: [
           {
-            fileName: "d8db116f-5131-417b-8199-ea8799815014.png",
             url: "https://media.mapgenie.io/storage/media/d8db116f-5131-417b-8199-ea8799815014.png",
             type: "image",
           },
@@ -14140,7 +13586,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63550015616150",
         media: [
           {
-            fileName: "44e896f6-f20c-4e8c-9346-c63b9d94bf17.png",
             url: "https://media.mapgenie.io/storage/media/44e896f6-f20c-4e8c-9346-c63b9d94bf17.png",
             type: "image",
           },
@@ -14154,7 +13599,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79077579803624",
         media: [
           {
-            fileName: "cd9867ce-8e23-4613-8bd5-d024de1c694f.png",
             url: "https://media.mapgenie.io/storage/media/cd9867ce-8e23-4613-8bd5-d024de1c694f.png",
             type: "image",
           },
@@ -14175,7 +13619,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62657227130376",
         media: [
           {
-            fileName: "9af2ae44-deb1-4b1f-af30-3de6cc5b1b7b.png",
             url: "https://media.mapgenie.io/storage/media/9af2ae44-deb1-4b1f-af30-3de6cc5b1b7b.png",
             type: "image",
           },
@@ -14190,7 +13633,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68752403819474",
         media: [
           {
-            fileName: "8d12bb1d-3f34-4431-8e7f-e0a48c969bc8.png",
             url: "https://media.mapgenie.io/storage/media/8d12bb1d-3f34-4431-8e7f-e0a48c969bc8.png",
             type: "image",
           },
@@ -14211,7 +13653,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69828131621182",
         media: [
           {
-            fileName: "57846614-9f37-466d-8473-5179dae081e3.png",
             url: "https://media.mapgenie.io/storage/media/57846614-9f37-466d-8473-5179dae081e3.png",
             type: "image",
           },
@@ -14225,7 +13666,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63895338743524",
         media: [
           {
-            fileName: "6faa85d8-6aae-44b9-b014-30999848862c.png",
             url: "https://media.mapgenie.io/storage/media/6faa85d8-6aae-44b9-b014-30999848862c.png",
             type: "image",
           },
@@ -14240,7 +13680,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78214838750620",
         media: [
           {
-            fileName: "38f8871b-a231-4106-9917-176317a9dc5f.png",
             url: "https://media.mapgenie.io/storage/media/38f8871b-a231-4106-9917-176317a9dc5f.png",
             type: "image",
           },
@@ -14254,7 +13693,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68367362022451",
         media: [
           {
-            fileName: "6228c61b-dc01-4955-8de2-a35fa6f8ec12.png",
             url: "https://media.mapgenie.io/storage/media/6228c61b-dc01-4955-8de2-a35fa6f8ec12.png",
             type: "image",
           },
@@ -14276,7 +13714,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77774812209006",
         media: [
           {
-            fileName: "e80996fb-ba00-4bf7-bbf7-1bb1fd03f1ba.png",
             url: "https://media.mapgenie.io/storage/media/e80996fb-ba00-4bf7-bbf7-1bb1fd03f1ba.png",
             type: "image",
           },
@@ -14291,7 +13728,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.82286914150785",
         media: [
           {
-            fileName: "64a3b273-dac6-412b-b0e8-c732fbb38d35.png",
             url: "https://media.mapgenie.io/storage/media/64a3b273-dac6-412b-b0e8-c732fbb38d35.png",
             type: "image",
           },
@@ -14306,7 +13742,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74217985569598",
         media: [
           {
-            fileName: "f8186c78-a7fe-4c27-8463-e16e25a2b8e3.png",
             url: "https://media.mapgenie.io/storage/media/f8186c78-a7fe-4c27-8463-e16e25a2b8e3.png",
             type: "image",
           },
@@ -14321,7 +13756,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74750919701114",
         media: [
           {
-            fileName: "63d53daa-2f9e-4e0c-9ae9-5a0dfa3c51f4.png",
             url: "https://media.mapgenie.io/storage/media/63d53daa-2f9e-4e0c-9ae9-5a0dfa3c51f4.png",
             type: "image",
           },
@@ -14390,7 +13824,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69008007645456",
         media: [
           {
-            fileName: "61561e37-a402-4353-82e8-fa7b3a61b223.png",
             url: "https://media.mapgenie.io/storage/media/61561e37-a402-4353-82e8-fa7b3a61b223.png",
             type: "image",
           },
@@ -14405,7 +13838,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68876445293569",
         media: [
           {
-            fileName: "61561e37-a402-4353-82e8-fa7b3a61b223",
             url: "https://media.mapgenie.io/storage/media/61561e37-a402-4353-82e8-fa7b3a61b223.png",
             type: "image",
           },
@@ -14420,7 +13852,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71736350655701",
         media: [
           {
-            fileName: "a24b802a-88c7-4e23-851a-ba169fd3601c.png",
             url: "https://media.mapgenie.io/storage/media/a24b802a-88c7-4e23-851a-ba169fd3601c.png",
             type: "image",
           },
@@ -14435,7 +13866,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71587756276216",
         media: [
           {
-            fileName: "4995aa55-8881-48d2-b6ee-293801d09d37.png",
             url: "https://media.mapgenie.io/storage/media/4995aa55-8881-48d2-b6ee-293801d09d37.png",
             type: "image",
           },
@@ -14450,7 +13880,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71397051215183",
         media: [
           {
-            fileName: "bc725f0c-e2e9-492b-b1ef-96b5a3ed0739.jpg",
             url: "https://media.mapgenie.io/storage/media/bc725f0c-e2e9-492b-b1ef-96b5a3ed0739.jpg",
             type: "image",
           },
@@ -14465,7 +13894,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72898551821572",
         media: [
           {
-            fileName: "b5251e59-62fc-484a-812c-47c844a51de7.jpg",
             url: "https://media.mapgenie.io/storage/media/b5251e59-62fc-484a-812c-47c844a51de7.jpg",
             type: "image",
           },
@@ -14480,7 +13908,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68500936031231",
         media: [
           {
-            fileName: "54cc1ad3-b8a6-4fe7-b5fe-6f2ca410adab",
             url: "https://media.mapgenie.io/storage/media/54cc1ad3-b8a6-4fe7-b5fe-6f2ca410adab.jpg",
             type: "image",
           },
@@ -14535,7 +13962,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70045217871555",
         media: [
           {
-            fileName: "d4a36b7a-6b03-465b-9943-1468d2a61ee9.png",
             url: "https://media.mapgenie.io/storage/media/d4a36b7a-6b03-465b-9943-1468d2a61ee9.png",
             type: "image",
           },
@@ -14550,7 +13976,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70340529084228",
         media: [
           {
-            fileName: "43a4dc9a-0bcb-4386-9ed8-806ce78e3bdf.png",
             url: "https://media.mapgenie.io/storage/media/43a4dc9a-0bcb-4386-9ed8-806ce78e3bdf.png",
             type: "image",
           },
@@ -14565,7 +13990,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80707266926561",
         media: [
           {
-            fileName: "5793d609-0448-454f-9b36-016bae16df09.png",
             url: "https://media.mapgenie.io/storage/media/5793d609-0448-454f-9b36-016bae16df09.png",
             type: "image",
           },
@@ -14628,7 +14052,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61574399471158",
         media: [
           {
-            fileName: "ce6609e5-d465-4f84-9aa7-a1c85829dc37.png",
             url: "https://media.mapgenie.io/storage/media/ce6609e5-d465-4f84-9aa7-a1c85829dc37.png",
             type: "image",
           },
@@ -14729,7 +14152,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71671266627288",
         media: [
           {
-            fileName: "1a89f413-dfdf-45d8-b3bc-bbd104ce6bb2.jpg",
             url: "https://media.mapgenie.io/storage/media/1a89f413-dfdf-45d8-b3bc-bbd104ce6bb2.jpg",
             type: "image",
           },
@@ -14768,7 +14190,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77579006552600",
         media: [
           {
-            fileName: "56864ca3-437f-4f06-9e60-b41d2167d428.png",
             url: "https://media.mapgenie.io/storage/media/56864ca3-437f-4f06-9e60-b41d2167d428.png",
             type: "image",
           },
@@ -14869,7 +14290,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80119192600222",
         media: [
           {
-            fileName: "c86691e2-dad1-460a-a65c-38558c6873ee.png",
             url: "https://media.mapgenie.io/storage/media/c86691e2-dad1-460a-a65c-38558c6873ee.png",
             type: "image",
           },
@@ -14954,7 +14374,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72172075510102",
         media: [
           {
-            fileName: "4e368686-c5bc-4802-9b63-7ddaafae9e69.jpg",
             url: "https://media.mapgenie.io/storage/media/4e368686-c5bc-4802-9b63-7ddaafae9e69.png",
             type: "image",
           },
@@ -14977,7 +14396,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74978873133617",
         media: [
           {
-            fileName: "9bae1ef6-0805-4d5f-a1e4-cb1a592850c3.jpg",
             url: "https://media.mapgenie.io/storage/media/9bae1ef6-0805-4d5f-a1e4-cb1a592850c3.png",
             type: "image",
           },
@@ -15000,7 +14418,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73299944400793",
         media: [
           {
-            fileName: "17a5a654-72ba-4e04-81d4-69fafe02c65a.jpeg",
             url: "https://media.mapgenie.io/storage/media/17a5a654-72ba-4e04-81d4-69fafe02c65a.jpeg",
             type: "image",
           },
@@ -15031,7 +14448,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62605708837631",
         media: [
           {
-            fileName: "2c4e2872-9290-4e55-9b6b-b1d720545883.png",
             url: "https://media.mapgenie.io/storage/media/2c4e2872-9290-4e55-9b6b-b1d720545883.png",
             type: "image",
           },
@@ -15054,7 +14470,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.86060419678776",
         media: [
           {
-            fileName: "d8da263a-6df7-4161-82f9-6751b287e09e.jpg",
             url: "https://media.mapgenie.io/storage/media/d8da263a-6df7-4161-82f9-6751b287e09e.png",
             type: "image",
           },
@@ -15069,7 +14484,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70423677563565",
         media: [
           {
-            fileName: "31e712b8-3444-471c-95f7-08ba87d64ea8.png",
             url: "https://media.mapgenie.io/storage/media/31e712b8-3444-471c-95f7-08ba87d64ea8.png",
             type: "image",
           },
@@ -15084,7 +14498,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76978191733190",
         media: [
           {
-            fileName: "a02ab8b4-e700-4687-80e1-e1ef0ec97685.jpg",
             url: "https://media.mapgenie.io/storage/media/a02ab8b4-e700-4687-80e1-e1ef0ec97685.png",
             type: "image",
           },
@@ -15251,7 +14664,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70936918258812",
         media: [
           {
-            fileName: "92fe5c58-27b1-4ce4-9e83-2b1f146f5b17.jpg",
             url: "https://media.mapgenie.io/storage/media/92fe5c58-27b1-4ce4-9e83-2b1f146f5b17.jpg",
             type: "image",
           },
@@ -15273,7 +14685,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78809202356970",
         media: [
           {
-            fileName: "093dcbc9-7a1c-4fb3-8653-0d4ed710696f.png",
             url: "https://media.mapgenie.io/storage/media/093dcbc9-7a1c-4fb3-8653-0d4ed710696f.png",
             type: "image",
           },
@@ -15293,7 +14704,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71192532777812",
         media: [
           {
-            fileName: "5723ffa4-1f16-4224-8fb8-3faf54f36cd3.jpg",
             url: "https://media.mapgenie.io/storage/media/5723ffa4-1f16-4224-8fb8-3faf54f36cd3.jpg",
             type: "image",
           },
@@ -15306,7 +14716,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72602064982147",
         media: [
           {
-            fileName: "c8184df2-b50a-471a-888e-a8d2b60d3243.jpg",
             url: "https://media.mapgenie.io/storage/media/c8184df2-b50a-471a-888e-a8d2b60d3243.png",
             type: "image",
           },
@@ -15320,7 +14729,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70016927137399",
         media: [
           {
-            fileName: "1860f3c0-d2a0-42b0-a766-f5b689830dac.jpg",
             url: "https://media.mapgenie.io/storage/media/1860f3c0-d2a0-42b0-a766-f5b689830dac.jpg",
             type: "image",
           },
@@ -15335,7 +14743,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72884470224275",
         media: [
           {
-            fileName: "af77298d-f742-4fc5-aa5b-2c6319dd9fcb.jpg",
             url: "https://media.mapgenie.io/storage/media/af77298d-f742-4fc5-aa5b-2c6319dd9fcb.jpg",
             type: "image",
           },
@@ -15349,7 +14756,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70092022419070",
         media: [
           {
-            fileName: "c7b6d1c6-bf3d-4061-a44a-55fdfb999773.jpg",
             url: "https://media.mapgenie.io/storage/media/c7b6d1c6-bf3d-4061-a44a-55fdfb999773.jpg",
             type: "image",
           },
@@ -15363,7 +14769,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70014372467938",
         media: [
           {
-            fileName: "63ca7229-2629-403a-8a97-792b2e3a1f2e.jpg",
             url: "https://media.mapgenie.io/storage/media/63ca7229-2629-403a-8a97-792b2e3a1f2e.jpg",
             type: "image",
           },
@@ -15377,7 +14782,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74693486094458",
         media: [
           {
-            fileName: "2e20b52c-0575-42cf-ab38-0ffb5300eb94.jpg",
             url: "https://media.mapgenie.io/storage/media/2e20b52c-0575-42cf-ab38-0ffb5300eb94.png",
             type: "image",
           },
@@ -15399,7 +14803,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75167030095707",
         media: [
           {
-            fileName: "352e4f36-ec99-4127-9ce2-523fbf4ad604.jpg",
             url: "https://media.mapgenie.io/storage/media/352e4f36-ec99-4127-9ce2-523fbf4ad604.png",
             type: "image",
           },
@@ -15414,7 +14817,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75142621994115",
         media: [
           {
-            fileName: "ecefefc2-f39d-485a-bcc9-5a4f5515ea53.jpg",
             url: "https://media.mapgenie.io/storage/media/ecefefc2-f39d-485a-bcc9-5a4f5515ea53.png",
             type: "image",
           },
@@ -15428,7 +14830,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75214236974813",
         media: [
           {
-            fileName: "6351b9bb-7766-45aa-8000-d976c2adc388.jpg",
             url: "https://media.mapgenie.io/storage/media/6351b9bb-7766-45aa-8000-d976c2adc388.png",
             type: "image",
           },
@@ -15442,7 +14843,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75396895408414",
         media: [
           {
-            fileName: "8811a6f4-ae33-486d-8e93-0de1837e3a31.jpg",
             url: "https://media.mapgenie.io/storage/media/8811a6f4-ae33-486d-8e93-0de1837e3a31.png",
             type: "image",
           },
@@ -15457,7 +14857,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75150668621185",
         media: [
           {
-            fileName: "de0524a0-ba14-47c8-bd72-08fc00f03b44.jpg",
             url: "https://media.mapgenie.io/storage/media/de0524a0-ba14-47c8-bd72-08fc00f03b44.png",
             type: "image",
           },
@@ -15471,7 +14870,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74946686625310",
         media: [
           {
-            fileName: "bfbb64ec-77c5-4ea7-809c-54ab16463bc3.jpg",
             url: "https://media.mapgenie.io/storage/media/bfbb64ec-77c5-4ea7-809c-54ab16463bc3.png",
             type: "image",
           },
@@ -15486,7 +14884,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71251809597118",
         media: [
           {
-            fileName: "0b9430c8-8523-48e7-bf25-0f60cb143b70.jpg",
             url: "https://media.mapgenie.io/storage/media/0b9430c8-8523-48e7-bf25-0f60cb143b70.jpg",
             type: "image",
           },
@@ -15500,7 +14897,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71104019880440",
         media: [
           {
-            fileName: "0766cada-d9ac-40a6-84d2-4704f04f93d5.jpg",
             url: "https://media.mapgenie.io/storage/media/0766cada-d9ac-40a6-84d2-4704f04f93d5.jpg",
             type: "image",
           },
@@ -15515,7 +14911,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74973106384311",
         media: [
           {
-            fileName: "b717af16-1a55-40c3-a7cf-f7591c094ae0.jpg",
             url: "https://media.mapgenie.io/storage/media/b717af16-1a55-40c3-a7cf-f7591c094ae0.png",
             type: "image",
           },
@@ -15530,7 +14925,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75137659907421",
         media: [
           {
-            fileName: "395db16a-7a2c-401a-9548-682300e7fead.jpg",
             url: "https://media.mapgenie.io/storage/media/395db16a-7a2c-401a-9548-682300e7fead.png",
             type: "image",
           },
@@ -15545,7 +14939,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75091123580958",
         media: [
           {
-            fileName: "aadce402-2b0c-499e-a185-066c0e464013.jpg",
             url: "https://media.mapgenie.io/storage/media/aadce402-2b0c-499e-a185-066c0e464013.png",
             type: "image",
           },
@@ -15559,7 +14952,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74950844049482",
         media: [
           {
-            fileName: "a708a3eb-a533-49da-945d-3a9cc664589d.jpg",
             url: "https://media.mapgenie.io/storage/media/a708a3eb-a533-49da-945d-3a9cc664589d.png",
             type: "image",
           },
@@ -15589,7 +14981,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75072079897026",
         media: [
           {
-            fileName: "8696c6ad-cbb8-46e7-9b7a-eb6b8c3adc33.jpg",
             url: "https://media.mapgenie.io/storage/media/8696c6ad-cbb8-46e7-9b7a-eb6b8c3adc33.png",
             type: "image",
           },
@@ -15604,7 +14995,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75029700994568",
         media: [
           {
-            fileName: "8bc12207-e5d6-4535-a2b9-0ac111581944.jpg",
             url: "https://media.mapgenie.io/storage/media/8bc12207-e5d6-4535-a2b9-0ac111581944.png",
             type: "image",
           },
@@ -15619,7 +15009,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74750751257102",
         media: [
           {
-            fileName: "8e5fe33c-37e3-4227-b2c7-b1c0333280ee.jpg",
             url: "https://media.mapgenie.io/storage/media/8e5fe33c-37e3-4227-b2c7-b1c0333280ee.png",
             type: "image",
           },
@@ -15634,7 +15023,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74635148048037",
         media: [
           {
-            fileName: "c8daa236-5acf-4134-80c8-868c5b0edb6a.jpg",
             url: "https://media.mapgenie.io/storage/media/c8daa236-5acf-4134-80c8-868c5b0edb6a.png",
             type: "image",
           },
@@ -15649,7 +15037,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74679136275986",
         media: [
           {
-            fileName: "7823da36-2ebd-4d19-9e26-6f9fde30dff1.jpg",
             url: "https://media.mapgenie.io/storage/media/7823da36-2ebd-4d19-9e26-6f9fde30dff1.png",
             type: "image",
           },
@@ -15664,7 +15051,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75432837009302",
         media: [
           {
-            fileName: "9e4263ad-b7f3-4fe3-9f1d-80a96951055e.jpg",
             url: "https://media.mapgenie.io/storage/media/9e4263ad-b7f3-4fe3-9f1d-80a96951055e.png",
             type: "image",
           },
@@ -15700,7 +15086,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72991624474537",
         media: [
           {
-            fileName: "4c1b45a1-8114-4a76-9a6d-73c91be7a232.jpg",
             url: "https://media.mapgenie.io/storage/media/4c1b45a1-8114-4a76-9a6d-73c91be7a232.jpg",
             type: "image",
           },
@@ -15729,7 +15114,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69525271654203",
         media: [
           {
-            fileName: "a74dc223-13bd-4bc0-8dab-54881c746ba9.png",
             url: "https://media.mapgenie.io/storage/media/a74dc223-13bd-4bc0-8dab-54881c746ba9.png",
             type: "image",
           },
@@ -15744,7 +15128,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71242421865418",
         media: [
           {
-            fileName: "41b35fa3-5c70-42e5-aeef-93e1a182a232.jpg",
             url: "https://media.mapgenie.io/storage/media/41b35fa3-5c70-42e5-aeef-93e1a182a232.jpg",
             type: "image",
           },
@@ -15758,7 +15141,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80891668796536",
         media: [
           {
-            fileName: "cea46b0e-5c00-4f19-b438-9fa906160823.jpg",
             url: "https://media.mapgenie.io/storage/media/cea46b0e-5c00-4f19-b438-9fa906160823.png",
             type: "image",
           },
@@ -15773,7 +15155,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80288708210108",
         media: [
           {
-            fileName: "261bed48-3b89-40d4-83bd-0855db51e3cd.jpg",
             url: "https://media.mapgenie.io/storage/media/261bed48-3b89-40d4-83bd-0855db51e3cd.png",
             type: "image",
           },
@@ -15788,13 +15169,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80243378877722",
         media: [
           {
-            fileName: "30011bf0-317a-4b57-9d81-023873508ea3.jpg",
             url: "https://media.mapgenie.io/storage/media/30011bf0-317a-4b57-9d81-023873508ea3.jpg",
             type: "image",
           },
           {
-            title: "Elden Ring Screenshot 2022.02.27 - 15.30.04.47",
-            fileName: "27c312bf-b2eb-48f1-bc21-77a23a1feeb5.jpg",
             url: "https://media.mapgenie.io/storage/media/27c312bf-b2eb-48f1-bc21-77a23a1feeb5.png",
             type: "image",
           },
@@ -15817,7 +15195,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80364882946085",
         media: [
           {
-            fileName: "173e045b-6f9f-4631-a0c2-ce7e4948246a.jpg",
             url: "https://media.mapgenie.io/storage/media/173e045b-6f9f-4631-a0c2-ce7e4948246a.png",
             type: "image",
           },
@@ -15832,7 +15209,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80228894949079",
         media: [
           {
-            fileName: "21dba74b-f48e-4ba3-95cb-1d6cb50d0784.jpg",
             url: "https://media.mapgenie.io/storage/media/21dba74b-f48e-4ba3-95cb-1d6cb50d0784.png",
             type: "image",
           },
@@ -15845,7 +15221,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69086194038240",
         media: [
           {
-            fileName: "5370bc4c-60b9-4cd0-aa7a-57d24cb56413.png",
             url: "https://media.mapgenie.io/storage/media/5370bc4c-60b9-4cd0-aa7a-57d24cb56413.png",
             type: "image",
           },
@@ -15860,7 +15235,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80180346965841",
         media: [
           {
-            fileName: "684ea8c9-b7a9-40a5-a21e-8f1911a6c16a.jpg",
             url: "https://media.mapgenie.io/storage/media/684ea8c9-b7a9-40a5-a21e-8f1911a6c16a.png",
             type: "image",
           },
@@ -15875,7 +15249,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80347716808262",
         media: [
           {
-            fileName: "8d5fe4b0-2914-443f-be98-0d4e8c4ad61d.jpg",
             url: "https://media.mapgenie.io/storage/media/8d5fe4b0-2914-443f-be98-0d4e8c4ad61d.png",
             type: "image",
           },
@@ -15890,7 +15263,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80507710576026",
         media: [
           {
-            fileName: "a712887b-3ea2-47b1-9d9e-cf74945d7027.jpg",
             url: "https://media.mapgenie.io/storage/media/a712887b-3ea2-47b1-9d9e-cf74945d7027.png",
             type: "image",
           },
@@ -15905,7 +15277,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80950275063461",
         media: [
           {
-            fileName: "d4904a6c-f1aa-4451-937a-a649ff82b3e1.jpg",
             url: "https://media.mapgenie.io/storage/media/d4904a6c-f1aa-4451-937a-a649ff82b3e1.png",
             type: "image",
           },
@@ -15920,7 +15291,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80810934305148",
         media: [
           {
-            fileName: "220d5b4d-8611-4f83-829b-e58fef5e9b14.jpg",
             url: "https://media.mapgenie.io/storage/media/220d5b4d-8611-4f83-829b-e58fef5e9b14.png",
             type: "image",
           },
@@ -15934,7 +15304,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69494560361090",
         media: [
           {
-            fileName: "d9ff9b64-8be0-4acc-811c-32ea030f45b3.png",
             url: "https://media.mapgenie.io/storage/media/d9ff9b64-8be0-4acc-811c-32ea030f45b3.png",
             type: "image",
           },
@@ -15949,7 +15318,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80144673585909",
         media: [
           {
-            fileName: "b3d42653-3de0-4118-8646-ffa24ed29ddb.jpg",
             url: "https://media.mapgenie.io/storage/media/b3d42653-3de0-4118-8646-ffa24ed29ddb.png",
             type: "image",
           },
@@ -15964,7 +15332,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80057233571958",
         media: [
           {
-            fileName: "6bcd789a-f78e-4c41-a370-22228046face.jpg",
             url: "https://media.mapgenie.io/storage/media/6bcd789a-f78e-4c41-a370-22228046face.png",
             type: "image",
           },
@@ -15978,7 +15345,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71648876027066",
         media: [
           {
-            fileName: "3ff38ac5-6072-43a9-ae73-f319a139b3cc.jpg",
             url: "https://media.mapgenie.io/storage/media/3ff38ac5-6072-43a9-ae73-f319a139b3cc.jpg",
             type: "image",
           },
@@ -15992,7 +15358,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70314377546444",
         media: [
           {
-            fileName: "c3beb71f-9171-4300-b8db-55343647afc1.jpg",
             url: "https://media.mapgenie.io/storage/media/c3beb71f-9171-4300-b8db-55343647afc1.jpg",
             type: "image",
           },
@@ -16007,7 +15372,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69221511483377",
         media: [
           {
-            fileName: "ae950892-b4ef-410b-adc5-f9a6de83a288.jpg",
             url: "https://media.mapgenie.io/storage/media/ae950892-b4ef-410b-adc5-f9a6de83a288.jpg",
             type: "image",
           },
@@ -16022,7 +15386,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69240689277603",
         media: [
           {
-            fileName: "b7bd4927-9855-43a9-8134-4d9262a49491.jpg",
             url: "https://media.mapgenie.io/storage/media/b7bd4927-9855-43a9-8134-4d9262a49491.jpg",
             type: "image",
           },
@@ -16036,7 +15399,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74094414710848",
         media: [
           {
-            fileName: "6a2fc3dc-546f-409f-9e62-a07d77820511.jpg",
             url: "https://media.mapgenie.io/storage/media/6a2fc3dc-546f-409f-9e62-a07d77820511.jpg",
             type: "image",
           },
@@ -16083,7 +15445,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76051086187489",
         media: [
           {
-            fileName: "5d4b5fe2-7233-4519-94c5-99bb4db54fce",
             url: "https://media.mapgenie.io/storage/media/5d4b5fe2-7233-4519-94c5-99bb4db54fce.png",
             type: "image",
           },
@@ -16098,7 +15459,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76037541031897",
         media: [
           {
-            fileName: "5d4b5fe2-7233-4519-94c5-99bb4db54fce.jpg",
             url: "https://media.mapgenie.io/storage/media/5d4b5fe2-7233-4519-94c5-99bb4db54fce.png",
             type: "image",
           },
@@ -16121,7 +15481,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70477858185825",
         media: [
           {
-            fileName: "9ce6f0e7-25f1-474f-a0df-f6996af30fd4.png",
             url: "https://media.mapgenie.io/storage/media/9ce6f0e7-25f1-474f-a0df-f6996af30fd4.png",
             type: "image",
           },
@@ -16143,7 +15502,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73065209291894",
         media: [
           {
-            fileName: "a18a65de-a255-4a16-84b7-a9966b5125f1.png",
             url: "https://media.mapgenie.io/storage/media/a18a65de-a255-4a16-84b7-a9966b5125f1.png",
             type: "image",
           },
@@ -16165,7 +15523,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70965670085857",
         media: [
           {
-            fileName: "de83aee5-87a3-4e83-b25c-be947e528096.jpg",
             url: "https://media.mapgenie.io/storage/media/de83aee5-87a3-4e83-b25c-be947e528096.jpg",
             type: "image",
           },
@@ -16194,7 +15551,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68967819506796",
         media: [
           {
-            fileName: "aa3bcbe3-cf4a-42e9-a86b-af52703db9ce.png",
             url: "https://media.mapgenie.io/storage/media/aa3bcbe3-cf4a-42e9-a86b-af52703db9ce.png",
             type: "image",
           },
@@ -16230,7 +15586,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71530637629922",
         media: [
           {
-            fileName: "34a802bc-4e30-4d95-89fa-2b8eda299cbb.png",
             url: "https://media.mapgenie.io/storage/media/34a802bc-4e30-4d95-89fa-2b8eda299cbb.png",
             type: "image",
           },
@@ -16269,7 +15624,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77541099279739",
         media: [
           {
-            fileName: "900748b0-7502-4ab3-9772-ef19a890721a.jpg",
             url: "https://media.mapgenie.io/storage/media/900748b0-7502-4ab3-9772-ef19a890721a.png",
             type: "image",
           },
@@ -16290,7 +15644,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69009258194238",
         media: [
           {
-            fileName: "d7e2c01a-259e-4a4f-a5d8-86f4802c6558.png",
             url: "https://media.mapgenie.io/storage/media/d7e2c01a-259e-4a4f-a5d8-86f4802c6558.png",
             type: "image",
           },
@@ -16336,7 +15689,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64355865633103",
         media: [
           {
-            fileName: "433f4d04-cab7-4430-aafd-2a00bd67ac72.jpg",
             url: "https://media.mapgenie.io/storage/media/433f4d04-cab7-4430-aafd-2a00bd67ac72.jpg",
             type: "image",
           },
@@ -16392,7 +15744,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69451910871805",
         media: [
           {
-            fileName: "6c123c53-f836-4162-bce5-5486881d93bd.jpg",
             url: "https://media.mapgenie.io/storage/media/6c123c53-f836-4162-bce5-5486881d93bd.jpg",
             type: "image",
           },
@@ -16455,7 +15806,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76325156842236",
         media: [
           {
-            fileName: "d315336e-871d-4b40-be18-66906c939eb8.jpg",
             url: "https://media.mapgenie.io/storage/media/d315336e-871d-4b40-be18-66906c939eb8.png",
             type: "image",
           },
@@ -16500,7 +15850,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67884747686290",
         media: [
           {
-            fileName: "bedd8796-e62d-40a3-aa86-3bdf5c90e26b.jpg",
             url: "https://media.mapgenie.io/storage/media/bedd8796-e62d-40a3-aa86-3bdf5c90e26b.jpg",
             type: "image",
           },
@@ -16522,7 +15871,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62555391332467",
         media: [
           {
-            fileName: "99968544-7d18-4ffa-92ba-11308894dc26.jpg",
             url: "https://media.mapgenie.io/storage/media/99968544-7d18-4ffa-92ba-11308894dc26.png",
             type: "image",
           },
@@ -16551,7 +15899,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75530223907171",
         media: [
           {
-            fileName: "6d33a478-47e2-4f40-b08b-9d513aa37592.jpg",
             url: "https://media.mapgenie.io/storage/media/6d33a478-47e2-4f40-b08b-9d513aa37592.jpg",
             type: "image",
           },
@@ -16566,7 +15913,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75337081255825",
         media: [
           {
-            fileName: "647e51a2-bbdc-43b6-8813-1fdccff8ed9b.jpg",
             url: "https://media.mapgenie.io/storage/media/647e51a2-bbdc-43b6-8813-1fdccff8ed9b.jpg",
             type: "image",
           },
@@ -16596,7 +15942,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71949453355077",
         media: [
           {
-            fileName: "39dfd205-c7b5-42b3-beb1-729ca181036a.png",
             url: "https://media.mapgenie.io/storage/media/39dfd205-c7b5-42b3-beb1-729ca181036a.png",
             type: "image",
           },
@@ -16610,7 +15955,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72217898247513",
         media: [
           {
-            fileName: "7c6fd183-e276-447f-85fb-2c0e91fd5cc3.png",
             url: "https://media.mapgenie.io/storage/media/7c6fd183-e276-447f-85fb-2c0e91fd5cc3.png",
             type: "image",
           },
@@ -16638,7 +15982,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63868130050292",
         media: [
           {
-            fileName: "9b654d1c-e135-4ff7-955b-f73d9243a702.jpg",
             url: "https://media.mapgenie.io/storage/media/9b654d1c-e135-4ff7-955b-f73d9243a702.jpg",
             type: "image",
           },
@@ -16660,7 +16003,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67454964119531",
         media: [
           {
-            fileName: "37a2afeb-6169-457e-8275-9e9060ee3ffa.jpg",
             url: "https://media.mapgenie.io/storage/media/37a2afeb-6169-457e-8275-9e9060ee3ffa.jpg",
             type: "image",
           },
@@ -16681,7 +16023,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71510037845727",
         media: [
           {
-            fileName: "94020107-ca34-4716-ab6d-1716aa902095.jpg",
             url: "https://media.mapgenie.io/storage/media/94020107-ca34-4716-ab6d-1716aa902095.jpg",
             type: "image",
           },
@@ -16728,7 +16069,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81380655780583",
         media: [
           {
-            fileName: "c182da42-f5a4-4473-9de7-09ff6d46d787.png",
             url: "https://media.mapgenie.io/storage/media/c182da42-f5a4-4473-9de7-09ff6d46d787.png",
             type: "image",
           },
@@ -16779,7 +16119,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69835659280676",
         media: [
           {
-            fileName: "46813dba-0ae7-42ec-a309-773e89de58ae.png",
             url: "https://media.mapgenie.io/storage/media/46813dba-0ae7-42ec-a309-773e89de58ae.png",
             type: "image",
           },
@@ -16878,7 +16217,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77467285675618",
         media: [
           {
-            fileName: "e47b1ec5-64ec-4a8c-9668-d24e322e39dc.jpg",
             url: "https://media.mapgenie.io/storage/media/e47b1ec5-64ec-4a8c-9668-d24e322e39dc.jpg",
             type: "image",
           },
@@ -16952,7 +16290,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80447497650466",
         media: [
           {
-            fileName: "eaba56cb-3c0b-42e1-abdb-fbf08d3cb2eb",
             url: "https://media.mapgenie.io/storage/media/eaba56cb-3c0b-42e1-abdb-fbf08d3cb2eb.jpg",
             type: "image",
           },
@@ -16966,7 +16303,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73097056373246",
         media: [
           {
-            fileName: "53bf4671-43fe-419a-8156-ce6213ec7360.png",
             url: "https://media.mapgenie.io/storage/media/53bf4671-43fe-419a-8156-ce6213ec7360.png",
             type: "image",
           },
@@ -16981,7 +16317,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76675878254767",
         media: [
           {
-            fileName: "f540896c-7702-4f6a-8399-bdc8f06b3231.png",
             url: "https://media.mapgenie.io/storage/media/f540896c-7702-4f6a-8399-bdc8f06b3231.png",
             type: "image",
           },
@@ -17021,7 +16356,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79558834216431",
         media: [
           {
-            fileName: "2ecc90ce-8bd0-4d68-ba1e-acde5583d5b3.png",
             url: "https://media.mapgenie.io/storage/media/2ecc90ce-8bd0-4d68-ba1e-acde5583d5b3.png",
             type: "image",
           },
@@ -17146,7 +16480,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79799078461991",
         media: [
           {
-            fileName: "08c851d8-1667-408b-8ab7-94cd31e0af9b.png",
             url: "https://media.mapgenie.io/storage/media/08c851d8-1667-408b-8ab7-94cd31e0af9b.png",
             type: "image",
           },
@@ -17159,7 +16492,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66490336323938",
         media: [
           {
-            fileName: "e581f91a-4ed9-4f0a-bf06-eba167a5e255.jpg",
             url: "https://media.mapgenie.io/storage/media/e581f91a-4ed9-4f0a-bf06-eba167a5e255.jpg",
             type: "image",
           },
@@ -17180,7 +16512,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72633016933992",
         media: [
           {
-            fileName: "83d77909-3c56-4f7d-a4e5-e1fa4bce8fe4.png",
             url: "https://media.mapgenie.io/storage/media/83d77909-3c56-4f7d-a4e5-e1fa4bce8fe4.png",
             type: "image",
           },
@@ -17194,7 +16525,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77146877364956",
         media: [
           {
-            fileName: "eff0a65e-875e-44bf-b9ee-e6760cc3848d.png",
             url: "https://media.mapgenie.io/storage/media/eff0a65e-875e-44bf-b9ee-e6760cc3848d.png",
             type: "image",
           },
@@ -17222,7 +16552,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71382110774729",
         media: [
           {
-            fileName: "30c801c7-7437-41ef-9f78-abd17139a54a.png",
             url: "https://media.mapgenie.io/storage/media/30c801c7-7437-41ef-9f78-abd17139a54a.png",
             type: "image",
           },
@@ -17257,7 +16586,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71876407809458",
         media: [
           {
-            fileName: "17c85b59-710e-4414-81b5-efef85e1cf65.png",
             url: "https://media.mapgenie.io/storage/media/17c85b59-710e-4414-81b5-efef85e1cf65.png",
             type: "image",
           },
@@ -17271,7 +16599,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79427978241696",
         media: [
           {
-            fileName: "5bbce1e9-aa26-478c-92a7-59357ee489b1.png",
             url: "https://media.mapgenie.io/storage/media/5bbce1e9-aa26-478c-92a7-59357ee489b1.png",
             type: "image",
           },
@@ -17286,7 +16613,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77757423279994",
         media: [
           {
-            fileName: "771db65c-0fd0-4362-996e-0feb0f320aa0.png",
             url: "https://media.mapgenie.io/storage/media/771db65c-0fd0-4362-996e-0feb0f320aa0.png",
             type: "image",
           },
@@ -17315,7 +16641,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80245598035472",
         media: [
           {
-            fileName: "7705501d-983d-4014-a83c-487c3af8662b.png",
             url: "https://media.mapgenie.io/storage/media/7705501d-983d-4014-a83c-487c3af8662b.png",
             type: "image",
           },
@@ -17329,7 +16654,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79179951148092",
         media: [
           {
-            fileName: "eeffc528-73c2-46a6-b788-be8c8b89d815.png",
             url: "https://media.mapgenie.io/storage/media/eeffc528-73c2-46a6-b788-be8c8b89d815.png",
             type: "image",
           },
@@ -17389,7 +16713,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72420847204299",
         media: [
           {
-            fileName: "c014fbe4-de5f-4845-bf9e-9454045b4e4d.png",
             url: "https://media.mapgenie.io/storage/media/c014fbe4-de5f-4845-bf9e-9454045b4e4d.png",
             type: "image",
           },
@@ -17404,7 +16727,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72708380012276",
         media: [
           {
-            fileName: "1527c02a-ba41-42fe-bfe5-64155dfe7111.png",
             url: "https://media.mapgenie.io/storage/media/1527c02a-ba41-42fe-bfe5-64155dfe7111.png",
             type: "image",
           },
@@ -17418,7 +16740,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63589575464371",
         media: [
           {
-            fileName: "66aefba3-66a1-4def-a9b3-b7267a301905.jpg",
             url: "https://media.mapgenie.io/storage/media/66aefba3-66a1-4def-a9b3-b7267a301905.jpg",
             type: "image",
           },
@@ -17512,7 +16833,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76745397186312",
         media: [
           {
-            fileName: "eff81b40-56d6-4b4a-9825-d5e631440468",
             url: "https://media.mapgenie.io/storage/media/eff81b40-56d6-4b4a-9825-d5e631440468.png",
             type: "image",
           },
@@ -17527,7 +16847,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78238725183445",
         media: [
           {
-            fileName: "1c48dcc7-5563-4f8f-a823-d206a6166c95.png",
             url: "https://media.mapgenie.io/storage/media/1c48dcc7-5563-4f8f-a823-d206a6166c95.png",
             type: "image",
           },
@@ -17542,7 +16861,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79742784330651",
         media: [
           {
-            fileName: "a4d169be-826f-443e-880a-d883f86d919d.png",
             url: "https://media.mapgenie.io/storage/media/a4d169be-826f-443e-880a-d883f86d919d.png",
             type: "image",
           },
@@ -17557,7 +16875,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79075097282163",
         media: [
           {
-            fileName: "7efd9c98-7e6a-43b6-bc45-aa6f2d6a6580.png",
             url: "https://media.mapgenie.io/storage/media/7efd9c98-7e6a-43b6-bc45-aa6f2d6a6580.png",
             type: "image",
           },
@@ -17588,7 +16905,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71164674123486",
         media: [
           {
-            fileName: "4c276cd3-8059-4a76-87a5-6344e2aa4d7a.jpg",
             url: "https://media.mapgenie.io/storage/media/4c276cd3-8059-4a76-87a5-6344e2aa4d7a.jpg",
             type: "image",
           },
@@ -17602,7 +16918,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74452206829741",
         media: [
           {
-            fileName: "48d838a1-cbaa-4545-9050-62187471dac0.png",
             url: "https://media.mapgenie.io/storage/media/48d838a1-cbaa-4545-9050-62187471dac0.png",
             type: "image",
           },
@@ -17684,7 +16999,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75456127305574",
         media: [
           {
-            fileName: "8e429303-d2be-4ce2-b913-c47010a8854a.jpg",
             url: "https://media.mapgenie.io/storage/media/8e429303-d2be-4ce2-b913-c47010a8854a.png",
             type: "image",
           },
@@ -17723,7 +17037,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64104950335442",
         media: [
           {
-            fileName: "8847a648-b999-40ec-83c0-5c141c2ffc45.png",
             url: "https://media.mapgenie.io/storage/media/8847a648-b999-40ec-83c0-5c141c2ffc45.png",
             type: "image",
           },
@@ -17788,7 +17101,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70016380646641",
         media: [
           {
-            fileName: "893e2c5c-1403-404b-8e8f-75dd095f8322.png",
             url: "https://media.mapgenie.io/storage/media/893e2c5c-1403-404b-8e8f-75dd095f8322.png",
             type: "image",
           },
@@ -17803,7 +17115,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70012089112140",
         media: [
           {
-            fileName: "57f7c1e4-6c4b-41b3-8577-8ef9239246a1.png",
             url: "https://media.mapgenie.io/storage/media/57f7c1e4-6c4b-41b3-8577-8ef9239246a1.png",
             type: "image",
           },
@@ -17818,7 +17129,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69925172390785",
         media: [
           {
-            fileName: "6523638b-70ab-4cd5-a8ba-ebf0387476c5.png",
             url: "https://media.mapgenie.io/storage/media/6523638b-70ab-4cd5-a8ba-ebf0387476c5.png",
             type: "image",
           },
@@ -17848,7 +17158,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70058171048032",
         media: [
           {
-            fileName: "38e7ca96-d40a-4825-9c57-85be5b4e1e78.png",
             url: "https://media.mapgenie.io/storage/media/38e7ca96-d40a-4825-9c57-85be5b4e1e78.png",
             type: "image",
           },
@@ -17863,7 +17172,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70017401471020",
         media: [
           {
-            fileName: "38e7ca96-d40a-4825-9c57-85be5b4e1e78",
             url: "https://media.mapgenie.io/storage/media/38e7ca96-d40a-4825-9c57-85be5b4e1e78.png",
             type: "image",
           },
@@ -17915,7 +17223,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69501346654482",
         media: [
           {
-            fileName: "52aa5adb-0c63-4a2a-bae0-8fb7585a5379.png",
             url: "https://media.mapgenie.io/storage/media/52aa5adb-0c63-4a2a-bae0-8fb7585a5379.png",
             type: "image",
           },
@@ -17986,7 +17293,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70359367560860",
         media: [
           {
-            fileName: "47e0a235-76d3-41d5-b80a-9ff58d0457bf.png",
             url: "https://media.mapgenie.io/storage/media/47e0a235-76d3-41d5-b80a-9ff58d0457bf.png",
             type: "image",
           },
@@ -18055,7 +17361,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.59869630646491",
         media: [
           {
-            fileName: "da6d1d49-e1ad-4dff-bddf-c29baded3261",
             url: "https://media.mapgenie.io/storage/media/da6d1d49-e1ad-4dff-bddf-c29baded3261.png",
             type: "image",
           },
@@ -18069,7 +17374,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81107608143237",
         media: [
           {
-            fileName: "caca6000-522c-4b14-aa11-d95d90e10b8b.jpg",
             url: "https://media.mapgenie.io/storage/media/caca6000-522c-4b14-aa11-d95d90e10b8b.png",
             type: "image",
           },
@@ -18083,7 +17387,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81362954441455",
         media: [
           {
-            fileName: "8d254701-6243-4f5f-8a55-aa0c9dad9b60",
             url: "https://media.mapgenie.io/storage/media/8d254701-6243-4f5f-8a55-aa0c9dad9b60.png",
             type: "image",
           },
@@ -18126,7 +17429,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.81570230185179",
         media: [
           {
-            fileName: "b9a4c3d1-ef25-43a4-9092-404d74a2eb3f.jpg",
             url: "https://media.mapgenie.io/storage/media/b9a4c3d1-ef25-43a4-9092-404d74a2eb3f.png",
             type: "image",
           },
@@ -18141,7 +17443,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51470275874613",
         media: [
           {
-            fileName: "fa36c82b-dbf9-49bb-9284-5d945eaea87a.jpeg",
             url: "https://media.mapgenie.io/storage/media/fa36c82b-dbf9-49bb-9284-5d945eaea87a.jpeg",
             type: "image",
           },
@@ -18156,7 +17457,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52555474126657",
         media: [
           {
-            fileName: "8498748a-49db-4d87-ba9a-b435206ed84b.jpeg",
             url: "https://media.mapgenie.io/storage/media/8498748a-49db-4d87-ba9a-b435206ed84b.jpeg",
             type: "image",
           },
@@ -18186,7 +17486,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.78938786105235",
         media: [
           {
-            fileName: "b5a32050-33d7-4470-b841-d4da43b6e6af.png",
             url: "https://media.mapgenie.io/storage/media/b5a32050-33d7-4470-b841-d4da43b6e6af.png",
             type: "image",
           },
@@ -18216,7 +17515,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68896144806234",
         media: [
           {
-            fileName: "9532bc96-06cc-4f89-970f-3e49b0135474.png",
             url: "https://media.mapgenie.io/storage/media/9532bc96-06cc-4f89-970f-3e49b0135474.png",
             type: "image",
           },
@@ -18230,7 +17528,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62389850516530",
         media: [
           {
-            fileName: "d3e6ab74-bcf2-40da-bd78-4af31411b79d.png",
             url: "https://media.mapgenie.io/storage/media/d3e6ab74-bcf2-40da-bd78-4af31411b79d.png",
             type: "image",
           },
@@ -18245,7 +17542,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62440438461701",
         media: [
           {
-            fileName: "344e6c2b-3897-41b5-acc3-c0af98c68e8f.png",
             url: "https://media.mapgenie.io/storage/media/344e6c2b-3897-41b5-acc3-c0af98c68e8f.png",
             type: "image",
           },
@@ -18268,7 +17564,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62585853970344",
         media: [
           {
-            fileName: "f4e539ed-a9ba-4e93-b92e-bc3a65ffa775.png",
             url: "https://media.mapgenie.io/storage/media/f4e539ed-a9ba-4e93-b92e-bc3a65ffa775.png",
             type: "image",
           },
@@ -18376,7 +17671,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68217119547847",
         media: [
           {
-            fileName: "cc51b99e-f2bc-4768-97b0-f421141ffc7c.png",
             url: "https://media.mapgenie.io/storage/media/cc51b99e-f2bc-4768-97b0-f421141ffc7c.png",
             type: "image",
           },
@@ -18391,7 +17685,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70813958421405",
         media: [
           {
-            fileName: "05c4246a-2051-47bc-8913-aba0e34301a9.png",
             url: "https://media.mapgenie.io/storage/media/05c4246a-2051-47bc-8913-aba0e34301a9.png",
             type: "image",
           },
@@ -18504,7 +17797,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51655308634250",
         media: [
           {
-            fileName: "291e0c03-59bb-45a6-9d11-7becbfbf4e46.jpeg",
             url: "https://media.mapgenie.io/storage/media/291e0c03-59bb-45a6-9d11-7becbfbf4e46.jpeg",
             type: "image",
           },
@@ -18533,7 +17825,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51918067287505",
         media: [
           {
-            fileName: "ab3bd9e6-3f3b-434c-8b84-317fb4b14501.jpeg",
             url: "https://media.mapgenie.io/storage/media/ab3bd9e6-3f3b-434c-8b84-317fb4b14501.jpeg",
             type: "image",
           },
@@ -18586,7 +17877,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52450263058162",
         media: [
           {
-            fileName: "05bb1d70-b6b6-402a-b2fd-d8eec6751831.jpeg",
             url: "https://media.mapgenie.io/storage/media/05bb1d70-b6b6-402a-b2fd-d8eec6751831.jpeg",
             type: "image",
           },
@@ -18608,7 +17898,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51952939114727",
         media: [
           {
-            fileName: "d0d54a9a-d815-4a01-8966-6fafe376a680.jpeg",
             url: "https://media.mapgenie.io/storage/media/d0d54a9a-d815-4a01-8966-6fafe376a680.jpeg",
             type: "image",
           },
@@ -18816,7 +18105,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65292449635359",
         media: [
           {
-            fileName: "9c86c101-3be2-4f82-9c19-28b13818d928.png",
             url: "https://media.mapgenie.io/storage/media/9c86c101-3be2-4f82-9c19-28b13818d928.png",
             type: "image",
           },
@@ -18861,7 +18149,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63953128111382",
         media: [
           {
-            fileName: "8be41b85-e36f-40cf-8419-cabcc6d856ad.png",
             url: "https://media.mapgenie.io/storage/media/8be41b85-e36f-40cf-8419-cabcc6d856ad.png",
             type: "image",
           },
@@ -18876,7 +18163,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63806968764956",
         media: [
           {
-            fileName: "4f527475-21db-4c46-8bdf-cf7f030bbda0.png",
             url: "https://media.mapgenie.io/storage/media/4f527475-21db-4c46-8bdf-cf7f030bbda0.png",
             type: "image",
           },
@@ -18912,7 +18198,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64988420042084",
         media: [
           {
-            fileName: "762a108b-8013-4dc8-8467-3b874573f92a.png",
             url: "https://media.mapgenie.io/storage/media/762a108b-8013-4dc8-8467-3b874573f92a.png",
             type: "image",
           },
@@ -18954,7 +18239,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71894040106312",
         media: [
           {
-            fileName: "b0e2aa79-61ee-47fa-872b-bfcef4360031.jpg",
             url: "https://media.mapgenie.io/storage/media/b0e2aa79-61ee-47fa-872b-bfcef4360031.jpg",
             type: "image",
           },
@@ -18991,7 +18275,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77513111090064",
         media: [
           {
-            fileName: "5be110cf-2de9-4097-9425-f0ce48925634.png",
             url: "https://media.mapgenie.io/storage/media/5be110cf-2de9-4097-9425-f0ce48925634.png",
             type: "image",
           },
@@ -19118,7 +18401,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73365390300680",
         media: [
           {
-            fileName: "600b5e20-d816-4528-a583-fec3565ad5e2.jpg",
             url: "https://media.mapgenie.io/storage/media/600b5e20-d816-4528-a583-fec3565ad5e2.png",
             type: "image",
           },
@@ -19133,7 +18415,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72193667292692",
         media: [
           {
-            fileName: "63bbee04-a6a9-4dae-b31e-9352dd5054db.jpg",
             url: "https://media.mapgenie.io/storage/media/63bbee04-a6a9-4dae-b31e-9352dd5054db.jpg",
             type: "image",
           },
@@ -19148,7 +18429,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68456947803477",
         media: [
           {
-            fileName: "e36b5e05-9a3d-4bad-85df-2521bdeaf17a.png",
             url: "https://media.mapgenie.io/storage/media/e36b5e05-9a3d-4bad-85df-2521bdeaf17a.png",
             type: "image",
           },
@@ -19163,7 +18443,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73395699262858",
         media: [
           {
-            fileName: "968b2b9d-7382-4e13-9688-32133b870a5f.jpg",
             url: "https://media.mapgenie.io/storage/media/968b2b9d-7382-4e13-9688-32133b870a5f.jpg",
             type: "image",
           },
@@ -19178,7 +18457,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.62311872840033",
         media: [
           {
-            fileName: "b9b77816-a8da-4ef3-b26d-4acd574881b5.jpg",
             url: "https://media.mapgenie.io/storage/media/b9b77816-a8da-4ef3-b26d-4acd574881b5.jpg",
             type: "image",
           },
@@ -19193,7 +18471,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64971329594806",
         media: [
           {
-            fileName: "5f151e87-cf7d-43ea-ab1d-8292b2d00926.jpg",
             url: "https://media.mapgenie.io/storage/media/5f151e87-cf7d-43ea-ab1d-8292b2d00926.jpg",
             type: "image",
           },
@@ -19208,7 +18485,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74781596660500",
         media: [
           {
-            fileName: "066e338f-fa85-4f98-803e-d37a05308ee4.jpg",
             url: "https://media.mapgenie.io/storage/media/066e338f-fa85-4f98-803e-d37a05308ee4.png",
             type: "image",
           },
@@ -19223,7 +18499,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70539683103667",
         media: [
           {
-            fileName: "b015b702-d93e-4b47-937a-16b39bbd713d.jpg",
             url: "https://media.mapgenie.io/storage/media/b015b702-d93e-4b47-937a-16b39bbd713d.png",
             type: "image",
           },
@@ -19238,7 +18513,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75239986181387",
         media: [
           {
-            fileName: "53c00611-6e39-4fab-a97c-9aefbd4a8154.jpg",
             url: "https://media.mapgenie.io/storage/media/53c00611-6e39-4fab-a97c-9aefbd4a8154.jpg",
             type: "image",
           },
@@ -19253,7 +18527,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79064816236581",
         media: [
           {
-            fileName: "4c842e0c-df2f-4834-9ed0-58c691e508e4.jpg",
             url: "https://media.mapgenie.io/storage/media/4c842e0c-df2f-4834-9ed0-58c691e508e4.png",
             type: "image",
           },
@@ -19268,7 +18541,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80166399478847",
         media: [
           {
-            fileName: "0fd9f10e-8526-426a-a671-8d30d9f89eac.jpg",
             url: "https://media.mapgenie.io/storage/media/0fd9f10e-8526-426a-a671-8d30d9f89eac.png",
             type: "image",
           },
@@ -19283,7 +18555,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80304533243188",
         media: [
           {
-            fileName: "69212b48-c3b2-44a3-a730-cccc4516bd81.jpg",
             url: "https://media.mapgenie.io/storage/media/69212b48-c3b2-44a3-a730-cccc4516bd81.png",
             type: "image",
           },
@@ -19298,7 +18569,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64267605543208",
         media: [
           {
-            fileName: "1e96ea8d-d68b-4383-bca0-80495c983b7e.png",
             url: "https://media.mapgenie.io/storage/media/1e96ea8d-d68b-4383-bca0-80495c983b7e.png",
             type: "image",
           },
@@ -19313,7 +18583,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72723097602506",
         media: [
           {
-            fileName: "358f04ee-77ae-4ad1-b051-d9f99dfb03fe.jpg",
             url: "https://media.mapgenie.io/storage/media/358f04ee-77ae-4ad1-b051-d9f99dfb03fe.jpg",
             type: "image",
           },
@@ -19328,7 +18597,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77683612704280",
         media: [
           {
-            fileName: "02aa794b-9938-46af-ab04-ac7667f9d747.jpg",
             url: "https://media.mapgenie.io/storage/media/02aa794b-9938-46af-ab04-ac7667f9d747.jpg",
             type: "image",
           },
@@ -19343,7 +18611,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71952164173220",
         media: [
           {
-            fileName: "a92c50c2-f1c7-41cd-b343-a9913d13a703.jpg",
             url: "https://media.mapgenie.io/storage/media/a92c50c2-f1c7-41cd-b343-a9913d13a703.jpg",
             type: "image",
           },
@@ -19358,7 +18625,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75346469879193",
         media: [
           {
-            fileName: "11319c3a-f525-4c4e-92f9-63a2786d7275.jpeg",
             url: "https://media.mapgenie.io/storage/media/11319c3a-f525-4c4e-92f9-63a2786d7275.jpeg",
             type: "image",
           },
@@ -19373,7 +18639,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79625934362400",
         media: [
           {
-            fileName: "64c19cab-33d9-497e-a9be-689339d25ad1.png",
             url: "https://media.mapgenie.io/storage/media/64c19cab-33d9-497e-a9be-689339d25ad1.png",
             type: "image",
           },
@@ -19388,7 +18653,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76844215392896",
         media: [
           {
-            fileName: "f8d5c953-75f2-42de-89f1-9df8245aa0df.jpg",
             url: "https://media.mapgenie.io/storage/media/f8d5c953-75f2-42de-89f1-9df8245aa0df.jpg",
             type: "image",
           },
@@ -19403,7 +18667,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74154227972190",
         media: [
           {
-            fileName: "99664deb-74fc-40fe-94d1-68d9c0c7139a.jpg",
             url: "https://media.mapgenie.io/storage/media/99664deb-74fc-40fe-94d1-68d9c0c7139a.jpg",
             type: "image",
           },
@@ -19418,7 +18681,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.79969659447633",
         media: [
           {
-            fileName: "d2e9c563-1bce-4bbf-8b74-f9816062c85a.jpg",
             url: "https://media.mapgenie.io/storage/media/d2e9c563-1bce-4bbf-8b74-f9816062c85a.jpg",
             type: "image",
           },
@@ -19433,7 +18695,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70072442293153",
         media: [
           {
-            fileName: "331443fb-18e9-4e05-a391-ec2f604b8964.png",
             url: "https://media.mapgenie.io/storage/media/331443fb-18e9-4e05-a391-ec2f604b8964.png",
             type: "image",
           },
@@ -19448,7 +18709,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65207719802771",
         media: [
           {
-            fileName: "c599e4d3-bd8c-44fb-8833-299845712b54.png",
             url: "https://media.mapgenie.io/storage/media/c599e4d3-bd8c-44fb-8833-299845712b54.png",
             type: "image",
           },
@@ -19463,7 +18723,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70041828602979",
         media: [
           {
-            fileName: "f0ebfdf7-7ae0-429f-a3f2-ac1571de2e8a.png",
             url: "https://media.mapgenie.io/storage/media/f0ebfdf7-7ae0-429f-a3f2-ac1571de2e8a.png",
             type: "image",
           },
@@ -19478,7 +18737,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.52091851830514",
         media: [
           {
-            fileName: "5ad1e0db-988d-4f73-8369-16f7c9bd08f9.png",
             url: "https://media.mapgenie.io/storage/media/5ad1e0db-988d-4f73-8369-16f7c9bd08f9.png",
             type: "image",
           },
@@ -19493,7 +18751,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66881765272618",
         media: [
           {
-            fileName: "c157d584-7d9b-4642-81a1-b2de5f3b85c9.jpg",
             url: "https://media.mapgenie.io/storage/media/c157d584-7d9b-4642-81a1-b2de5f3b85c9.jpg",
             type: "image",
           },
@@ -19508,7 +18765,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72783725305339",
         media: [
           {
-            fileName: "5b6497c2-68e4-4b94-ae7d-4f0bae7019a5.png",
             url: "https://media.mapgenie.io/storage/media/5b6497c2-68e4-4b94-ae7d-4f0bae7019a5.png",
             type: "image",
           },
@@ -19523,7 +18779,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72668552918861",
         media: [
           {
-            fileName: "6f3db0d6-55b1-40eb-a930-5202da4c6333.jpg",
             url: "https://media.mapgenie.io/storage/media/6f3db0d6-55b1-40eb-a930-5202da4c6333.jpg",
             type: "image",
           },
@@ -19538,7 +18793,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.51354609030921",
         media: [
           {
-            fileName: "6f94ef08-f7c9-4b67-86bf-a9ec78c07bc3.jpg",
             url: "https://media.mapgenie.io/storage/media/6f94ef08-f7c9-4b67-86bf-a9ec78c07bc3.jpg",
             type: "image",
           },
@@ -19553,7 +18807,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.63594845919059",
         media: [
           {
-            fileName: "2213872a-ef78-4116-9a5a-b433639f31d0.jpg",
             url: "https://media.mapgenie.io/storage/media/2213872a-ef78-4116-9a5a-b433639f31d0.jpg",
             type: "image",
           },
@@ -19568,7 +18821,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66306206574535",
         media: [
           {
-            fileName: "1f37da7a-d3d0-4955-9207-4149df2b5881.jpg",
             url: "https://media.mapgenie.io/storage/media/1f37da7a-d3d0-4955-9207-4149df2b5881.jpg",
             type: "image",
           },
@@ -19583,7 +18835,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61464121106353",
         media: [
           {
-            fileName: "cfc9245f-6058-4641-a409-3d78dc0aa8b8.jpg",
             url: "https://media.mapgenie.io/storage/media/cfc9245f-6058-4641-a409-3d78dc0aa8b8.jpg",
             type: "image",
           },
@@ -19598,7 +18849,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.77885453347398",
         media: [
           {
-            fileName: "a97d799e-69ab-45ba-b362-2d01ce054326.png",
             url: "https://media.mapgenie.io/storage/media/a97d799e-69ab-45ba-b362-2d01ce054326.png",
             type: "image",
           },
@@ -19613,7 +18863,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61253258278271",
         media: [
           {
-            fileName: "3cc9dfc5-8445-4bea-a101-70328b333f66.jpg",
             url: "https://media.mapgenie.io/storage/media/3cc9dfc5-8445-4bea-a101-70328b333f66.jpg",
             type: "image",
           },
@@ -19628,7 +18877,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64835856857709",
         media: [
           {
-            fileName: "f2813d57-03bb-46a5-b705-33ca7ca09dd5.jpg",
             url: "https://media.mapgenie.io/storage/media/f2813d57-03bb-46a5-b705-33ca7ca09dd5.jpg",
             type: "image",
           },
@@ -19643,7 +18891,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80091527860077",
         media: [
           {
-            fileName: "c518fbc5-3453-444d-bdab-e094a740962c.png",
             url: "https://media.mapgenie.io/storage/media/c518fbc5-3453-444d-bdab-e094a740962c.png",
             type: "image",
           },
@@ -19658,7 +18905,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64242716695543",
         media: [
           {
-            fileName: "be286262-7b8f-4994-9307-f06e8ee96413.jpg",
             url: "https://media.mapgenie.io/storage/media/be286262-7b8f-4994-9307-f06e8ee96413.jpg",
             type: "image",
           },
@@ -19673,7 +18919,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.61360204632405",
         media: [
           {
-            fileName: "994ea898-087c-4a6f-9806-7da31da95ab5.jpeg",
             url: "https://media.mapgenie.io/storage/media/994ea898-087c-4a6f-9806-7da31da95ab5.jpeg",
             type: "image",
           },
@@ -19688,7 +18933,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.80924506294019",
         media: [
           {
-            fileName: "5ee98254-d85d-4294-8662-c8620861daf2.jpg",
             url: "https://media.mapgenie.io/storage/media/5ee98254-d85d-4294-8662-c8620861daf2.jpg",
             type: "image",
           },
@@ -19710,7 +18954,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64240848522579",
         media: [
           {
-            fileName: "42e7459d-edc6-4bd6-87b1-74b7d5eb7504.png",
             url: "https://media.mapgenie.io/storage/media/42e7459d-edc6-4bd6-87b1-74b7d5eb7504.png",
             type: "image",
           },
@@ -19725,7 +18968,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64756274748237",
         media: [
           {
-            fileName: "4dfbc48c-d616-4128-8ec7-725fe6050b38.jpg",
             url: "https://media.mapgenie.io/storage/media/4dfbc48c-d616-4128-8ec7-725fe6050b38.jpg",
             type: "image",
           },
@@ -19775,7 +19017,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69945774972550",
         media: [
           {
-            fileName: "5212a75c-eb57-45be-83d6-1330e4fe238e.jpeg",
             url: "https://media.mapgenie.io/storage/media/5212a75c-eb57-45be-83d6-1330e4fe238e.jpeg",
             type: "image",
           },
@@ -19804,7 +19045,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70172774660148",
         media: [
           {
-            fileName: "1ac450a2-819c-4126-afca-97eeb95f53ce.jpg",
             url: "https://media.mapgenie.io/storage/media/1ac450a2-819c-4126-afca-97eeb95f53ce.jpg",
             type: "image",
           },
@@ -19819,7 +19059,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70449038637804",
         media: [
           {
-            fileName: "2d3abf03-5d70-48a8-8222-ff257d9c4215.png",
             url: "https://media.mapgenie.io/storage/media/2d3abf03-5d70-48a8-8222-ff257d9c4215.png",
             type: "image",
           },
@@ -19834,7 +19073,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75855045255855",
         media: [
           {
-            fileName: "8529949b-e817-4fde-b6d3-4899d0abd894.png",
             url: "https://media.mapgenie.io/storage/media/8529949b-e817-4fde-b6d3-4899d0abd894.png",
             type: "image",
           },
@@ -19872,7 +19110,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73599681258244",
         media: [
           {
-            fileName: "ecd38002-10cc-4604-91e4-f4a8f473cc50.jpg",
             url: "https://media.mapgenie.io/storage/media/ecd38002-10cc-4604-91e4-f4a8f473cc50.jpg",
             type: "image",
           },
@@ -19919,7 +19156,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73659558189598",
         media: [
           {
-            fileName: "ac1a79f6-10a4-4f3a-bab7-6bce4ff0d31b.png",
             url: "https://media.mapgenie.io/storage/media/ac1a79f6-10a4-4f3a-bab7-6bce4ff0d31b.png",
             type: "image",
           },
@@ -19934,7 +19170,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69892331957706",
         media: [
           {
-            fileName: "c8b61c58-eb84-4dcb-bc9e-9dea0d74afc5.png",
             url: "https://media.mapgenie.io/storage/media/c8b61c58-eb84-4dcb-bc9e-9dea0d74afc5.png",
             type: "image",
           },
@@ -19981,7 +19216,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75728885829540",
         media: [
           {
-            fileName: "ecf3f384-ef88-4a7f-93e1-6c4874139446.png",
             url: "https://media.mapgenie.io/storage/media/ecf3f384-ef88-4a7f-93e1-6c4874139446.png",
             type: "image",
           },
@@ -20004,7 +19238,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69724492728477",
         media: [
           {
-            fileName: "4dcfde90-47ae-43a5-bef3-7cc9a3f9bee4.png",
             url: "https://media.mapgenie.io/storage/media/4dcfde90-47ae-43a5-bef3-7cc9a3f9bee4.png",
             type: "image",
           },
@@ -20019,7 +19252,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76388191549941",
         media: [
           {
-            fileName: "193a1635-8ea0-4b5d-8922-d5f4b7ddab31.png",
             url: "https://media.mapgenie.io/storage/media/193a1635-8ea0-4b5d-8922-d5f4b7ddab31.png",
             type: "image",
           },
@@ -20034,7 +19266,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75999355078463",
         media: [
           {
-            fileName: "1edf80ad-59f3-4fa8-b2c2-104b2df64e15.png",
             url: "https://media.mapgenie.io/storage/media/1edf80ad-59f3-4fa8-b2c2-104b2df64e15.png",
             type: "image",
           },
@@ -20111,7 +19342,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74819944564533",
         media: [
           {
-            fileName: "6e4080d9-aa51-4f1b-bdb1-ae65b183d3be.jpg",
             url: "https://media.mapgenie.io/storage/media/6e4080d9-aa51-4f1b-bdb1-ae65b183d3be.jpg",
             type: "image",
           },
@@ -20125,7 +19355,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71380242758281",
         media: [
           {
-            fileName: "2db8e984-27e7-4050-85cb-3e6adc70dc4e.jpg",
             url: "https://media.mapgenie.io/storage/media/2db8e984-27e7-4050-85cb-3e6adc70dc4e.jpg",
             type: "image",
           },
@@ -20140,7 +19369,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73273098916121",
         media: [
           {
-            fileName: "0e737fcd-1112-431d-bff5-c00738910c56.jpg",
             url: "https://media.mapgenie.io/storage/media/0e737fcd-1112-431d-bff5-c00738910c56.jpg",
             type: "image",
           },
@@ -20251,7 +19479,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69053471088262",
         media: [
           {
-            fileName: "dbd9c32e-3f53-430a-a322-40c971a9fe3d.png",
             url: "https://media.mapgenie.io/storage/media/dbd9c32e-3f53-430a-a322-40c971a9fe3d.png",
             type: "image",
           },
@@ -20289,7 +19516,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68778812885213",
         media: [
           {
-            fileName: "706acd79-8146-4400-86c1-451b597db977.png",
             url: "https://media.mapgenie.io/storage/media/706acd79-8146-4400-86c1-451b597db977.png",
             type: "image",
           },
@@ -20304,7 +19530,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74506577971849",
         media: [
           {
-            fileName: "09468def-32da-4d67-8b8d-6dd30487135f.png",
             url: "https://media.mapgenie.io/storage/media/09468def-32da-4d67-8b8d-6dd30487135f.png",
             type: "image",
           },
@@ -20319,7 +19544,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75604355442292",
         media: [
           {
-            fileName: "f0d3ff17-7c33-46dd-870b-8a273456e573.png",
             url: "https://media.mapgenie.io/storage/media/f0d3ff17-7c33-46dd-870b-8a273456e573.png",
             type: "image",
           },
@@ -20358,7 +19582,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76335320505424",
         media: [
           {
-            fileName: "1566b806-7e8b-429a-bcee-69705c296dfd.jpeg",
             url: "https://media.mapgenie.io/storage/media/1566b806-7e8b-429a-bcee-69705c296dfd.jpeg",
             type: "image",
           },
@@ -20443,7 +19666,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74815766109450",
         media: [
           {
-            fileName: "39156fe6-ac0b-4341-9a68-9779358cca01.jpg",
             url: "https://media.mapgenie.io/storage/media/39156fe6-ac0b-4341-9a68-9779358cca01.jpg",
             type: "image",
           },
@@ -20458,7 +19680,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73946531198234",
         media: [
           {
-            fileName: "3ca27c6a-de4f-4cb5-8644-bd4a9579ca83.jpg",
             url: "https://media.mapgenie.io/storage/media/3ca27c6a-de4f-4cb5-8644-bd4a9579ca83.jpg",
             type: "image",
           },
@@ -20495,7 +19716,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70377007126717",
         media: [
           {
-            fileName: "b8364a66-b9dd-431f-9bcd-9d8592085e6c.jpg",
             url: "https://media.mapgenie.io/storage/media/b8364a66-b9dd-431f-9bcd-9d8592085e6c.jpg",
             type: "image",
           },
@@ -20510,7 +19730,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71158221943762",
         media: [
           {
-            fileName: "f841a2ec-06e7-4a49-a068-e6c6efbaa8ea.png",
             url: "https://media.mapgenie.io/storage/media/f841a2ec-06e7-4a49-a068-e6c6efbaa8ea.png",
             type: "image",
           },
@@ -20565,7 +19784,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70698603987873",
         media: [
           {
-            fileName: "600a2283-0955-4395-b995-a1f6ae46cce1.png",
             url: "https://media.mapgenie.io/storage/media/600a2283-0955-4395-b995-a1f6ae46cce1.png",
             type: "image",
           },
@@ -20604,7 +19822,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73510460109674",
         media: [
           {
-            fileName: "6535a130-8eb3-4baa-80e5-02ec8f429b73.png",
             url: "https://media.mapgenie.io/storage/media/6535a130-8eb3-4baa-80e5-02ec8f429b73.png",
             type: "image",
           },
@@ -20634,7 +19851,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69148488342543",
         media: [
           {
-            fileName: "d777b76d-9116-4a10-ba22-fbeef4dd3f0c.png",
             url: "https://media.mapgenie.io/storage/media/d777b76d-9116-4a10-ba22-fbeef4dd3f0c.png",
             type: "image",
           },
@@ -20649,7 +19865,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69147884845881",
         media: [
           {
-            fileName: "01674db9-9a2b-4674-b9b9-7fa1176d1b94.png",
             url: "https://media.mapgenie.io/storage/media/01674db9-9a2b-4674-b9b9-7fa1176d1b94.png",
             type: "image",
           },
@@ -20694,7 +19909,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70633493363866",
         media: [
           {
-            fileName: "6c9db772-53c9-4841-a230-212c6b460d7c.jpg",
             url: "https://media.mapgenie.io/storage/media/6c9db772-53c9-4841-a230-212c6b460d7c.jpg",
             type: "image",
           },
@@ -20709,7 +19923,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69983732625462",
         media: [
           {
-            fileName: "96917e75-3fd9-4cf0-9f40-97f4b51d25aa.jpg",
             url: "https://media.mapgenie.io/storage/media/96917e75-3fd9-4cf0-9f40-97f4b51d25aa.jpg",
             type: "image",
           },
@@ -20796,7 +20009,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68112149834670",
         media: [
           {
-            fileName: "42f9787e-4281-48ba-89ed-22ddb4942371.png",
             url: "https://media.mapgenie.io/storage/media/42f9787e-4281-48ba-89ed-22ddb4942371.png",
             type: "image",
           },
@@ -20827,7 +20039,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75827098056033",
         media: [
           {
-            fileName: "991b1820-d761-486c-9cb7-f4a786812c77.png",
             url: "https://media.mapgenie.io/storage/media/991b1820-d761-486c-9cb7-f4a786812c77.png",
             type: "image",
           },
@@ -20866,7 +20077,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75578706655378",
         media: [
           {
-            fileName: "b833fd15-705b-42b0-81fc-d754ff6759ab.png",
             url: "https://media.mapgenie.io/storage/media/b833fd15-705b-42b0-81fc-d754ff6759ab.png",
             type: "image",
           },
@@ -20959,7 +20169,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71806459040766",
         media: [
           {
-            fileName: "1d3d742e-2e12-4580-8ba7-3152ac6320a0.jpg",
             url: "https://media.mapgenie.io/storage/media/1d3d742e-2e12-4580-8ba7-3152ac6320a0.jpg",
             type: "image",
           },
@@ -20990,7 +20199,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71325017293344",
         media: [
           {
-            fileName: "c6b9a75c-3135-4857-ac46-74e4f4cf7d36.png",
             url: "https://media.mapgenie.io/storage/media/c6b9a75c-3135-4857-ac46-74e4f4cf7d36.png",
             type: "image",
           },
@@ -21051,13 +20259,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71897955594406",
         media: [
           {
-            fileName: "b8d5d584-9a5a-463f-95c6-b865afccbc7a.jpg",
             url: "https://media.mapgenie.io/storage/media/b8d5d584-9a5a-463f-95c6-b865afccbc7a.jpg",
             type: "image",
           },
           {
-            title: "20240618040151_1",
-            fileName: "4e6b8008-a788-4c27-9e57-98a1ff0cc4a4.jpg",
             url: "https://media.mapgenie.io/storage/media/4e6b8008-a788-4c27-9e57-98a1ff0cc4a4.jpg",
             type: "image",
           },
@@ -21096,7 +20301,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70793374192598",
         media: [
           {
-            fileName: "b6f87262-04b3-4a2c-9a9e-94d0cc30e7d1.jpeg",
             url: "https://media.mapgenie.io/storage/media/b6f87262-04b3-4a2c-9a9e-94d0cc30e7d1.jpeg",
             type: "image",
           },
@@ -21111,7 +20315,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71375392377482",
         media: [
           {
-            fileName: "58ab0496-1719-425f-9612-78eba8196da0.png",
             url: "https://media.mapgenie.io/storage/media/58ab0496-1719-425f-9612-78eba8196da0.png",
             type: "image",
           },
@@ -21134,7 +20337,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68571142852073",
         media: [
           {
-            fileName: "6c46be8a-4774-4405-ae53-eb3b4dad7fe0.png",
             url: "https://media.mapgenie.io/storage/media/6c46be8a-4774-4405-ae53-eb3b4dad7fe0.png",
             type: "image",
           },
@@ -21149,7 +20351,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70232972502953",
         media: [
           {
-            fileName: "2f091530-c3ea-4ade-a93b-222edefc7f8a.png",
             url: "https://media.mapgenie.io/storage/media/2f091530-c3ea-4ade-a93b-222edefc7f8a.png",
             type: "image",
           },
@@ -21210,7 +20411,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70833787321973",
         media: [
           {
-            fileName: "a29598c3-d212-4ed3-873b-76a1a4ca578c.png",
             url: "https://media.mapgenie.io/storage/media/a29598c3-d212-4ed3-873b-76a1a4ca578c.png",
             type: "image",
           },
@@ -21225,7 +20425,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72471516821906",
         media: [
           {
-            fileName: "1c0979ed-eb1b-4d87-b924-35501f85bdd4.jpeg",
             url: "https://media.mapgenie.io/storage/media/1c0979ed-eb1b-4d87-b924-35501f85bdd4.jpeg",
             type: "image",
           },
@@ -21256,7 +20455,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73230930138877",
         media: [
           {
-            fileName: "8c768cfc-2da5-4274-bc0e-4f61b522252b.jpg",
             url: "https://media.mapgenie.io/storage/media/8c768cfc-2da5-4274-bc0e-4f61b522252b.jpg",
             type: "image",
           },
@@ -21271,7 +20469,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73543958365840",
         media: [
           {
-            fileName: "5a4aa98a-4c0b-41cd-bab4-5b52c9593968.jpg",
             url: "https://media.mapgenie.io/storage/media/5a4aa98a-4c0b-41cd-bab4-5b52c9593968.jpg",
             type: "image",
           },
@@ -21286,7 +20483,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72055667638855",
         media: [
           {
-            fileName: "8f547294-baa7-4b16-b423-b5c6ecd7a7d7.jpg",
             url: "https://media.mapgenie.io/storage/media/8f547294-baa7-4b16-b423-b5c6ecd7a7d7.jpg",
             type: "image",
           },
@@ -21301,7 +20497,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71814268827330",
         media: [
           {
-            fileName: "900e055b-ebcc-4558-b2b5-72cf0b09bba5.jpg",
             url: "https://media.mapgenie.io/storage/media/900e055b-ebcc-4558-b2b5-72cf0b09bba5.jpg",
             type: "image",
           },
@@ -21324,7 +20519,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73336441538680",
         media: [
           {
-            fileName: "e9f4ccec-55e5-4cf3-b9af-1b09dc108244.jpg",
             url: "https://media.mapgenie.io/storage/media/e9f4ccec-55e5-4cf3-b9af-1b09dc108244.jpg",
             type: "image",
           },
@@ -21339,7 +20533,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74795327199556",
         media: [
           {
-            fileName: "985b2a46-9375-48ee-bb39-9a171cf19c39.jpg",
             url: "https://media.mapgenie.io/storage/media/985b2a46-9375-48ee-bb39-9a171cf19c39.jpg",
             type: "image",
           },
@@ -21378,7 +20571,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69670915603425",
         media: [
           {
-            fileName: "3a36fcc7-dce6-4d50-95b9-a6be06e92a63.png",
             url: "https://media.mapgenie.io/storage/media/3a36fcc7-dce6-4d50-95b9-a6be06e92a63.png",
             type: "image",
           },
@@ -21393,7 +20585,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72070930950829",
         media: [
           {
-            fileName: "741ca395-88b1-48e2-aec9-9e4fcb9c837c.png",
             url: "https://media.mapgenie.io/storage/media/741ca395-88b1-48e2-aec9-9e4fcb9c837c.png",
             type: "image",
           },
@@ -21440,7 +20631,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69820942501005",
         media: [
           {
-            fileName: "894d257e-c993-4279-abf1-cbaab969ce5b.png",
             url: "https://media.mapgenie.io/storage/media/894d257e-c993-4279-abf1-cbaab969ce5b.png",
             type: "image",
           },
@@ -21455,7 +20645,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69499924778751",
         media: [
           {
-            fileName: "9d37ef1a-15b1-4134-ad8d-fbbc7570a7e0.png",
             url: "https://media.mapgenie.io/storage/media/9d37ef1a-15b1-4134-ad8d-fbbc7570a7e0.png",
             type: "image",
           },
@@ -21470,7 +20659,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75140811503036",
         media: [
           {
-            fileName: "ad1f58be-6d4d-4eee-9123-19a27b5396c9.png",
             url: "https://media.mapgenie.io/storage/media/ad1f58be-6d4d-4eee-9123-19a27b5396c9.png",
             type: "image",
           },
@@ -21493,7 +20681,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74139498459184",
         media: [
           {
-            fileName: "d2d46fff-b9d6-4440-93e9-bf7b6a3abe3a.png",
             url: "https://media.mapgenie.io/storage/media/d2d46fff-b9d6-4440-93e9-bf7b6a3abe3a.png",
             type: "image",
           },
@@ -21508,7 +20695,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72944819927278",
         media: [
           {
-            fileName: "8c297275-a846-43ab-a074-b0d0fbd031ab.png",
             url: "https://media.mapgenie.io/storage/media/8c297275-a846-43ab-a074-b0d0fbd031ab.png",
             type: "image",
           },
@@ -21523,7 +20709,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73960974812465",
         media: [
           {
-            fileName: "a30a391d-eba2-487b-8382-0ac20f7c9158.jpeg",
             url: "https://media.mapgenie.io/storage/media/a30a391d-eba2-487b-8382-0ac20f7c9158.jpeg",
             type: "image",
           },
@@ -21546,7 +20731,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67947663366891",
         media: [
           {
-            fileName: "442cf667-16d5-468b-8630-487f656ad75a.png",
             url: "https://media.mapgenie.io/storage/media/442cf667-16d5-468b-8630-487f656ad75a.png",
             type: "image",
           },
@@ -21569,7 +20753,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73128215968580",
         media: [
           {
-            fileName: "4f2a7742-ac38-486c-b874-dc3966e83b39.jpg",
             url: "https://media.mapgenie.io/storage/media/4f2a7742-ac38-486c-b874-dc3966e83b39.jpg",
             type: "image",
           },
@@ -21654,7 +20837,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71725621819314",
         media: [
           {
-            fileName: "affb8d68-f307-455a-8354-745968705826.png",
             url: "https://media.mapgenie.io/storage/media/affb8d68-f307-455a-8354-745968705826.png",
             type: "image",
           },
@@ -21669,7 +20851,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70900239050249",
         media: [
           {
-            fileName: "909c31d3-f807-4afb-8a23-bc27ddf07495.png",
             url: "https://media.mapgenie.io/storage/media/909c31d3-f807-4afb-8a23-bc27ddf07495.png",
             type: "image",
           },
@@ -21684,7 +20865,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70831574499553",
         media: [
           {
-            fileName: "9148712a-fcb7-4b7a-8807-c44b28721e9b.png",
             url: "https://media.mapgenie.io/storage/media/9148712a-fcb7-4b7a-8807-c44b28721e9b.png",
             type: "image",
           },
@@ -21699,7 +20879,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70068732837268",
         media: [
           {
-            fileName: "25b76e05-5c71-4a77-86ea-a3864aca229b.png",
             url: "https://media.mapgenie.io/storage/media/25b76e05-5c71-4a77-86ea-a3864aca229b.png",
             type: "image",
           },
@@ -21714,7 +20893,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73942266404558",
         media: [
           {
-            fileName: "94320e3d-9eca-4e33-bf03-f9c014763adc.png",
             url: "https://media.mapgenie.io/storage/media/94320e3d-9eca-4e33-bf03-f9c014763adc.png",
             type: "image",
           },
@@ -21729,7 +20907,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72250243459067",
         media: [
           {
-            fileName: "a4539df2-be89-439a-9217-700bf676f905.png",
             url: "https://media.mapgenie.io/storage/media/a4539df2-be89-439a-9217-700bf676f905.png",
             type: "image",
           },
@@ -21744,7 +20921,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75574122369173",
         media: [
           {
-            fileName: "f551da96-f7d0-4230-bd0a-51cb7e0f29a6.png",
             url: "https://media.mapgenie.io/storage/media/f551da96-f7d0-4230-bd0a-51cb7e0f29a6.png",
             type: "image",
           },
@@ -21759,7 +20935,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75842726392682",
         media: [
           {
-            fileName: "57b5e49a-988b-4700-a399-9746029b247d.png",
             url: "https://media.mapgenie.io/storage/media/57b5e49a-988b-4700-a399-9746029b247d.png",
             type: "image",
           },
@@ -21774,7 +20949,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75702173090147",
         media: [
           {
-            fileName: "f254e72a-59ef-4e8d-abb2-752e36a00641.png",
             url: "https://media.mapgenie.io/storage/media/f254e72a-59ef-4e8d-abb2-752e36a00641.png",
             type: "image",
           },
@@ -21789,7 +20963,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74116156063269",
         media: [
           {
-            fileName: "e4c168a6-522b-4455-a0c1-da9b2d9db41c.jpg",
             url: "https://media.mapgenie.io/storage/media/e4c168a6-522b-4455-a0c1-da9b2d9db41c.jpg",
             type: "image",
           },
@@ -21803,7 +20976,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72426684200710",
         media: [
           {
-            fileName: "12e9d560-a279-4dc4-876b-ddd27bbabb99.jpg",
             url: "https://media.mapgenie.io/storage/media/12e9d560-a279-4dc4-876b-ddd27bbabb99.jpg",
             type: "image",
           },
@@ -21818,7 +20990,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72425028741557",
         media: [
           {
-            fileName: "de6718b6-68c1-448a-876a-92151e00f02b.jpg",
             url: "https://media.mapgenie.io/storage/media/de6718b6-68c1-448a-876a-92151e00f02b.jpg",
             type: "image",
           },
@@ -21833,7 +21004,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71700476110018",
         media: [
           {
-            fileName: "30b841ae-e28b-45ac-8851-500132edcdc2.png",
             url: "https://media.mapgenie.io/storage/media/30b841ae-e28b-45ac-8851-500132edcdc2.png",
             type: "image",
           },
@@ -21848,7 +21018,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71581654250554",
         media: [
           {
-            fileName: "76fac9c4-0779-4168-88e3-adbb756defe6.jpg",
             url: "https://media.mapgenie.io/storage/media/76fac9c4-0779-4168-88e3-adbb756defe6.jpg",
             type: "image",
           },
@@ -21863,7 +21032,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71684870410942",
         media: [
           {
-            fileName: "f0eb0f8b-7d6e-4951-892a-6fdc1f2f738e.jpg",
             url: "https://media.mapgenie.io/storage/media/f0eb0f8b-7d6e-4951-892a-6fdc1f2f738e.jpg",
             type: "image",
           },
@@ -21878,7 +21046,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71539945900548",
         media: [
           {
-            fileName: "03654d87-ec1a-4e7f-84af-0eb89d5689bd.jpg",
             url: "https://media.mapgenie.io/storage/media/03654d87-ec1a-4e7f-84af-0eb89d5689bd.jpg",
             type: "image",
           },
@@ -21893,7 +21060,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72288565804257",
         media: [
           {
-            fileName: "ec4cb779-25d6-4e18-8772-0bd3725eca58.jpg",
             url: "https://media.mapgenie.io/storage/media/ec4cb779-25d6-4e18-8772-0bd3725eca58.jpg",
             type: "image",
           },
@@ -21908,7 +21074,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71870157304690",
         media: [
           {
-            fileName: "835f341b-3017-48e4-bada-317d4b1cb33f.png",
             url: "https://media.mapgenie.io/storage/media/835f341b-3017-48e4-bada-317d4b1cb33f.png",
             type: "image",
           },
@@ -21923,7 +21088,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69279566965574",
         media: [
           {
-            fileName: "0efae045-f840-4157-bf7b-faee3102d223.png",
             url: "https://media.mapgenie.io/storage/media/0efae045-f840-4157-bf7b-faee3102d223.png",
             type: "image",
           },
@@ -21938,7 +21102,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68386003375051",
         media: [
           {
-            fileName: "10bc0127-c8c5-4669-8fd1-ef47f6dc6ef2.png",
             url: "https://media.mapgenie.io/storage/media/10bc0127-c8c5-4669-8fd1-ef47f6dc6ef2.png",
             type: "image",
           },
@@ -21961,7 +21124,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73292769491542",
         media: [
           {
-            fileName: "10227b7f-c282-4019-9f4b-f3d40dd52880.jpg",
             url: "https://media.mapgenie.io/storage/media/10227b7f-c282-4019-9f4b-f3d40dd52880.jpg",
             type: "image",
           },
@@ -21976,7 +21138,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74648837371313",
         media: [
           {
-            fileName: "0c5b7d49-47db-4cc3-9f07-fa2d6344d1ee.png",
             url: "https://media.mapgenie.io/storage/media/0c5b7d49-47db-4cc3-9f07-fa2d6344d1ee.png",
             type: "image",
           },
@@ -21991,13 +21152,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71850612759573",
         media: [
           {
-            fileName: "262bca6f-9bf4-45d0-8842-c07cdb2df390.jpg",
             url: "https://media.mapgenie.io/storage/media/262bca6f-9bf4-45d0-8842-c07cdb2df390.jpg",
             type: "image",
           },
           {
-            title: "20240617152457_1",
-            fileName: "b8234a74-2db3-4810-8184-2930477596a6.jpg",
             url: "https://media.mapgenie.io/storage/media/b8234a74-2db3-4810-8184-2930477596a6.jpg",
             type: "image",
           },
@@ -22012,7 +21170,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70834323763907",
         media: [
           {
-            fileName: "fbcf5c09-6daa-4e33-85b6-7c5ef830f70f.png",
             url: "https://media.mapgenie.io/storage/media/fbcf5c09-6daa-4e33-85b6-7c5ef830f70f.png",
             type: "image",
           },
@@ -22027,7 +21184,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70799138641948",
         media: [
           {
-            fileName: "b0b2678f-772b-47ce-bc2c-f681a16e8770.jpg",
             url: "https://media.mapgenie.io/storage/media/b0b2678f-772b-47ce-bc2c-f681a16e8770.jpg",
             type: "image",
           },
@@ -22042,7 +21198,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72237743293448",
         media: [
           {
-            fileName: "60482498-e177-440c-9db6-ba768e66c02a.png",
             url: "https://media.mapgenie.io/storage/media/60482498-e177-440c-9db6-ba768e66c02a.png",
             type: "image",
           },
@@ -22065,7 +21220,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69897081887950",
         media: [
           {
-            fileName: "9587cf26-fc6c-4ca9-8735-02ff921c5a96.png",
             url: "https://media.mapgenie.io/storage/media/9587cf26-fc6c-4ca9-8735-02ff921c5a96.png",
             type: "image",
           },
@@ -22080,7 +21234,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71296910358313",
         media: [
           {
-            fileName: "02b70bf2-eab8-458b-a80a-53e4419dec13.png",
             url: "https://media.mapgenie.io/storage/media/02b70bf2-eab8-458b-a80a-53e4419dec13.png",
             type: "image",
           },
@@ -22095,7 +21248,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71283888812391",
         media: [
           {
-            fileName: "3edd0ba3-ff19-407f-8b89-631c875bb211.png",
             url: "https://media.mapgenie.io/storage/media/3edd0ba3-ff19-407f-8b89-631c875bb211.png",
             type: "image",
           },
@@ -22110,7 +21262,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73972272473461",
         media: [
           {
-            fileName: "ba36e5e0-6910-4de7-b1fa-fcd5c00e4952.png",
             url: "https://media.mapgenie.io/storage/media/ba36e5e0-6910-4de7-b1fa-fcd5c00e4952.png",
             type: "image",
           },
@@ -22125,7 +21276,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73327893890453",
         media: [
           {
-            fileName: "a79d0471-9ce2-4da5-9635-b5333cf3a58c.png",
             url: "https://media.mapgenie.io/storage/media/a79d0471-9ce2-4da5-9635-b5333cf3a58c.png",
             type: "image",
           },
@@ -22140,7 +21290,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72668150067318",
         media: [
           {
-            fileName: "bfdd2639-299b-4911-ad7b-4fac05868ea9.png",
             url: "https://media.mapgenie.io/storage/media/bfdd2639-299b-4911-ad7b-4fac05868ea9.png",
             type: "image",
           },
@@ -22155,7 +21304,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70278281385310",
         media: [
           {
-            fileName: "834ada0c-2acc-4dfb-bbd8-e777f04e2766.png",
             url: "https://media.mapgenie.io/storage/media/834ada0c-2acc-4dfb-bbd8-e777f04e2766.png",
             type: "image",
           },
@@ -22210,7 +21358,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67998430146329",
         media: [
           {
-            fileName: "52c092ca-af9c-4a23-a7fd-a8028218a279.png",
             url: "https://media.mapgenie.io/storage/media/52c092ca-af9c-4a23-a7fd-a8028218a279.png",
             type: "image",
           },
@@ -22225,7 +21372,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67076939861326",
         media: [
           {
-            fileName: "3ffcee41-57e3-406a-8670-e647344c010a.png",
             url: "https://media.mapgenie.io/storage/media/3ffcee41-57e3-406a-8670-e647344c010a.png",
             type: "image",
           },
@@ -22248,7 +21394,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72669356153790",
         media: [
           {
-            fileName: "b40af4f0-16ea-48c5-8a6c-30b768d0ea2a.png",
             url: "https://media.mapgenie.io/storage/media/b40af4f0-16ea-48c5-8a6c-30b768d0ea2a.png",
             type: "image",
           },
@@ -22263,7 +21408,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68976625800116",
         media: [
           {
-            fileName: "f868fd70-2092-4fcf-88b8-6762c8328c19.jpg",
             url: "https://media.mapgenie.io/storage/media/f868fd70-2092-4fcf-88b8-6762c8328c19.jpg",
             type: "image",
           },
@@ -22286,7 +21430,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70899769663816",
         media: [
           {
-            fileName: "10a2bcae-5d34-4098-8632-05771ba244fc.png",
             url: "https://media.mapgenie.io/storage/media/10a2bcae-5d34-4098-8632-05771ba244fc.png",
             type: "image",
           },
@@ -22309,7 +21452,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72069615125611",
         media: [
           {
-            fileName: "78c00c75-1326-4621-b063-dcd1eba28175.png",
             url: "https://media.mapgenie.io/storage/media/78c00c75-1326-4621-b063-dcd1eba28175.png",
             type: "image",
           },
@@ -22324,7 +21466,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71663528680833",
         media: [
           {
-            fileName: "861bcc13-98d1-4627-8ec7-5110e7852a98.png",
             url: "https://media.mapgenie.io/storage/media/861bcc13-98d1-4627-8ec7-5110e7852a98.png",
             type: "image",
           },
@@ -22339,7 +21480,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68603999912668",
         media: [
           {
-            fileName: "80961bfd-fd30-446c-b8dd-eb8ab8d710f7.png",
             url: "https://media.mapgenie.io/storage/media/80961bfd-fd30-446c-b8dd-eb8ab8d710f7.png",
             type: "image",
           },
@@ -22362,7 +21502,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74823841452553",
         media: [
           {
-            fileName: "4b495476-0090-47a7-831a-3e01d274ad1c.jpg",
             url: "https://media.mapgenie.io/storage/media/4b495476-0090-47a7-831a-3e01d274ad1c.jpg",
             type: "image",
           },
@@ -22393,7 +21532,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73108434677081",
         media: [
           {
-            fileName: "8adee35d-165c-491e-b16a-063e9bf5df81.png",
             url: "https://media.mapgenie.io/storage/media/8adee35d-165c-491e-b16a-063e9bf5df81.png",
             type: "image",
           },
@@ -22416,7 +21554,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.66028242591949",
         media: [
           {
-            fileName: "4d80a3f1-3e72-4c6f-a46e-24c710607916.png",
             url: "https://media.mapgenie.io/storage/media/4d80a3f1-3e72-4c6f-a46e-24c710607916.png",
             type: "image",
           },
@@ -22463,7 +21600,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72701957661332",
         media: [
           {
-            fileName: "1ab2eb6a-f1c4-46d5-a4a1-26fa6a18f0d2.png",
             url: "https://media.mapgenie.io/storage/media/1ab2eb6a-f1c4-46d5-a4a1-26fa6a18f0d2.png",
             type: "image",
           },
@@ -22478,7 +21614,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71938403824819",
         media: [
           {
-            fileName: "5773e344-46b7-4c02-b7e9-c91564f2c397.png",
             url: "https://media.mapgenie.io/storage/media/5773e344-46b7-4c02-b7e9-c91564f2c397.png",
             type: "image",
           },
@@ -22501,7 +21636,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69693177938444",
         media: [
           {
-            fileName: "9dab06e6-24e6-466a-a5f7-0b23f821bf4d.png",
             url: "https://media.mapgenie.io/storage/media/9dab06e6-24e6-466a-a5f7-0b23f821bf4d.png",
             type: "image",
           },
@@ -22516,7 +21650,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75930672815224",
         media: [
           {
-            fileName: "1b3bdfb3-8501-4387-96de-071e8e6d9aa4.jpg",
             url: "https://media.mapgenie.io/storage/media/1b3bdfb3-8501-4387-96de-071e8e6d9aa4.jpg",
             type: "image",
           },
@@ -22547,7 +21680,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76398493890522",
         media: [
           {
-            fileName: "eca18462-756b-409b-b6e6-d0f3fa1d8bb6.png",
             url: "https://media.mapgenie.io/storage/media/eca18462-756b-409b-b6e6-d0f3fa1d8bb6.png",
             type: "image",
           },
@@ -22570,7 +21702,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74650084709646",
         media: [
           {
-            fileName: "f4ef00e2-d9a4-450e-8921-7474f69def69.jpg",
             url: "https://media.mapgenie.io/storage/media/f4ef00e2-d9a4-450e-8921-7474f69def69.jpg",
             type: "image",
           },
@@ -22719,7 +21850,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71209833026037",
         media: [
           {
-            fileName: "ae38155d-505c-4aec-b2df-6b844da6ac1d.jpg",
             url: "https://media.mapgenie.io/storage/media/ae38155d-505c-4aec-b2df-6b844da6ac1d.jpg",
             type: "image",
           },
@@ -22734,7 +21864,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71178533178121",
         media: [
           {
-            fileName: "43646208-18ee-469c-931c-9398ce518715.jpg",
             url: "https://media.mapgenie.io/storage/media/43646208-18ee-469c-931c-9398ce518715.jpg",
             type: "image",
           },
@@ -22749,7 +21878,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73458455311760",
         media: [
           {
-            fileName: "185ecf79-165f-4b39-a703-6d4a916a29de.jpg",
             url: "https://media.mapgenie.io/storage/media/185ecf79-165f-4b39-a703-6d4a916a29de.jpg",
             type: "image",
           },
@@ -22764,7 +21892,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73389790760999",
         media: [
           {
-            fileName: "f7f93711-1fbf-4382-a1d8-690921da9bfc.jpg",
             url: "https://media.mapgenie.io/storage/media/f7f93711-1fbf-4382-a1d8-690921da9bfc.jpg",
             type: "image",
           },
@@ -22779,7 +21906,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74832290411024",
         media: [
           {
-            fileName: "0be64af6-9477-418d-b4ac-d9f611592af0.jpg",
             url: "https://media.mapgenie.io/storage/media/0be64af6-9477-418d-b4ac-d9f611592af0.jpg",
             type: "image",
           },
@@ -22794,7 +21920,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75136318802993",
         media: [
           {
-            fileName: "7866e09b-e862-4f7d-974f-1b2a82beed7e.jpg",
             url: "https://media.mapgenie.io/storage/media/7866e09b-e862-4f7d-974f-1b2a82beed7e.jpg",
             type: "image",
           },
@@ -22809,7 +21934,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71495724570323",
         media: [
           {
-            fileName: "ec808390-f6da-4676-b8b7-5534115482a4.jpg",
             url: "https://media.mapgenie.io/storage/media/ec808390-f6da-4676-b8b7-5534115482a4.jpg",
             type: "image",
           },
@@ -22855,7 +21979,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69645434617965",
         media: [
           {
-            fileName: "295eb9f8-bf17-4f40-8032-5e672f7f5aea.png",
             url: "https://media.mapgenie.io/storage/media/295eb9f8-bf17-4f40-8032-5e672f7f5aea.png",
             type: "image",
           },
@@ -22878,7 +22001,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70784568786664",
         media: [
           {
-            fileName: "47ff8203-49f7-4bba-b431-6b75de735436.png",
             url: "https://media.mapgenie.io/storage/media/47ff8203-49f7-4bba-b431-6b75de735436.png",
             type: "image",
           },
@@ -22915,86 +22037,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         latitude: "0.72263737374378",
         longitude: "-0.70571165086409",
       },
-      {
-        description:
-          " 会在这里弹奏《戒网》,和你谈猪八戒的情事  -----------------  好像只会在这里闲聊？求告知后续剧情<br>  后续在火焰山跟他说话之前把初始葫芦升到9级,他给你升10,切记必须带着9级葫芦跟他说第一句话,没9级别跟他说 ",
-        regionSlug: "04_huanghuaguan",
-        title: "葫芦仙人(位置4)",
-        longitude: -0.15191980145587536,
-        latitude: 0.8705823704867157,
-      },
-      {
-        description:
-          ' [相关事件]:<br>  <span style="text-align: center;">友方NPC,击败靡道人后触发剧情</span><br>  <span style="text-align: center;">--</span>  <span style="text-align: center;">别说,蛇妹也不是不行...(未亡人……蛇？)</span>  [奖励]:  变化·藕雹 ',
-        regionSlug: "04_ziyunshan",
-        title: "红依(蛇形态)",
-        longitude: -1.213746802999566,
-        latitude: 0.3636204721997558,
-      },
-      {
-        description:
-          " 王灵官是道教最崇奉的护法尊神。道教有五百灵官的说法,而王灵官是五百灵官之首,称号为“都天大灵官”。  [奖励]:筋斗云,红霓云绦,Fine Gold Thread,金趁心,Mind Core等  <br>  [Strategy]:第二阶段(非第二条命)很难打,芭蕉扇可以解他的火圈,避火罩没用,他的攻击主要是雷系。 ",
-        regionSlug: "06_huaguoshan",
-        title: "[太乙雷声应化尊]王灵官",
-        longitude: -0.3403562440173289,
-        latitude: 0.5206185424055434,
-      },
-      {
-        description:
-          " [相关事件]:<br>  猪八戒被迷了心智,索性第一阶段很菜,打完了就跑了  [奖励]:  无 ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "猪八戒-初战",
-        longitude: -1.0138217042863005,
-        latitude: 0.4606820579985822,
-      },
-      {
-        description:
-          " 马哥在卵里,打出来以后记得对话到重复,不然没有推进剧情,到下一回的剧情位置对话马哥剧情会断 ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "马哥(位置4)",
-        longitude: -0.6476973365379308,
-        latitude: 0.29660330177729577,
-      },
-      {
-        description:
-          " [相关事件]:<br>  通过土地庙旁边的瀑布可过来,必须先打掉第一阶段八戒才有这条路,打完猪八戒会被直接抓走  [奖励]:  细金丝x2,珍玩【月玉兔】,染血绣针  [注意事项]:  建议泥怪阶段专注躲避,变野猪时有个大硬直可以白打。  变成泥怪阶段会锁血,必须变回野猪形态才能击杀,千万不要去拼血  ［对应成就］:咬牙恨齿第四十难 ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "猪八戒-再战",
-        longitude: -0.7567434101505626,
-        latitude: 0.6505458536692856,
-      },
-      {
-        description:
-          " [相关事件]:<br>  四姐会在此处尝试撕掉封印符咒,但撕不掉,需要天命人帮忙撕掉。  触发剧情都是在游戏内第一个遇到的符,找到其他紫符就不会重复触发了。 ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "四姐撕符-第1个紫符",
-        longitude: -0.2722644079797476,
-        latitude: 0.9016761996806792,
-      },
-      {
-        description:
-          " [相关事件]:  撕紫符剧情任务相关地点  触发剧情都是在游戏内第一个遇到的符,找到其他紫符就不会重复触发了。<br> ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "四姐撕符-第2个紫符",
-        longitude: -0.7476492892076578,
-        latitude: 0.3483124576151937,
-      },
-      {
-        description:
-          " 正常来说这里没剧情,直接揭符即可  触发剧情都是在游戏内第一个遇到的符,找到其他紫符就不会重复触发了。<br>  如果错过上一个先来这里会触发剧情 ",
-        regionSlug: "04_pansidongxiaceng",
-        title: "四姐撕符-第3个紫符",
-        longitude: -0.9870328360859446,
-        latitude: 0.30413433732826434,
-      },
-      {
-        description:
-          ' <span style="font-family: var(--van-base-font);">第一次遇见四妹,让你去前面开宝箱</span>  <span style="font-family: var(--van-base-font);">---</span>  <span style="font-family: var(--van-base-font);">四妹可爱捏,初见还以为她要骗我</span>  但里面真的是一堆好货,这个女人喜欢我  ---<br>  是的,这是四姐的嫁妆(确信) ',
-        regionSlug: "04_pansidongxiaceng",
-        title: "四姐-赠礼剧情",
-        longitude: -0.5483082140137014,
-        latitude: 1.1904910128425854,
-      },
     ],
     groupSlug: "er_npcs",
     title: "Character",
@@ -23010,7 +22052,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70737005838515",
         media: [
           {
-            fileName: "8c41f25b-00c1-4b33-8f42-b6ff4e87e726.jpg",
             url: "https://media.mapgenie.io/storage/media/8c41f25b-00c1-4b33-8f42-b6ff4e87e726.jpg",
             type: "image",
           },
@@ -23059,7 +22100,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70031002163674",
         media: [
           {
-            fileName: "28956cde-244d-47b8-a990-9d54979f4581.png",
             url: "https://media.mapgenie.io/storage/media/28956cde-244d-47b8-a990-9d54979f4581.png",
             type: "image",
           },
@@ -23072,7 +22112,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71089835812819",
         media: [
           {
-            fileName: "82f5d058-d414-45bd-b23d-b376cf01b159.png",
             url: "https://media.mapgenie.io/storage/media/82f5d058-d414-45bd-b23d-b376cf01b159.png",
             type: "image",
           },
@@ -23115,7 +22154,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72402265315927",
         media: [
           {
-            fileName: "2fd8ffdb-e01c-4994-830f-9eb3907f5cd1.jpg",
             url: "https://media.mapgenie.io/storage/media/2fd8ffdb-e01c-4994-830f-9eb3907f5cd1.jpg",
             type: "image",
           },
@@ -23129,7 +22167,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74993359108373",
         media: [
           {
-            fileName: "5c33deb9-8033-429e-a29e-38f1723e10d6.jpg",
             url: "https://media.mapgenie.io/storage/media/5c33deb9-8033-429e-a29e-38f1723e10d6.jpg",
             type: "image",
           },
@@ -23142,7 +22179,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73482017216102",
         media: [
           {
-            fileName: "0a65b157-06a6-4ed1-9cee-97f76e005552.jpg",
             url: "https://media.mapgenie.io/storage/media/0a65b157-06a6-4ed1-9cee-97f76e005552.jpg",
             type: "image",
           },
@@ -23165,7 +22201,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71625642478449",
         media: [
           {
-            fileName: "8399eb45-996a-47c4-b498-f8366be5541e.jpg",
             url: "https://media.mapgenie.io/storage/media/8399eb45-996a-47c4-b498-f8366be5541e.jpg",
             type: "image",
           },
@@ -23179,7 +22214,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71816481649986",
         media: [
           {
-            fileName: "e132ec3a-dc86-4471-8611-c319bab9a3a3.jpg",
             url: "https://media.mapgenie.io/storage/media/e132ec3a-dc86-4471-8611-c319bab9a3a3.jpg",
             type: "image",
           },
@@ -23206,7 +22240,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74889287352426",
         media: [
           {
-            fileName: "3db90c90-9192-4772-8a2b-1a7e0c5236c2.jpg",
             url: "https://media.mapgenie.io/storage/media/3db90c90-9192-4772-8a2b-1a7e0c5236c2.jpg",
             type: "image",
           },
@@ -23221,7 +22254,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71045834328481",
         media: [
           {
-            fileName: "26e13548-53a3-4abd-984d-4ef3826da788.jpg",
             url: "https://media.mapgenie.io/storage/media/26e13548-53a3-4abd-984d-4ef3826da788.jpg",
             type: "image",
           },
@@ -23266,7 +22298,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73950983583859",
         media: [
           {
-            fileName: "764e547c-cdd6-4ba7-9ee7-82935761260f.jpg",
             url: "https://media.mapgenie.io/storage/media/764e547c-cdd6-4ba7-9ee7-82935761260f.jpg",
             type: "image",
           },
@@ -23289,7 +22320,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74677996337397",
         media: [
           {
-            fileName: "625928d6-d278-4a2f-a5fd-47bed699084f.jpg",
             url: "https://media.mapgenie.io/storage/media/625928d6-d278-4a2f-a5fd-47bed699084f.jpg",
             type: "image",
           },
@@ -23344,7 +22374,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73913781487622",
         media: [
           {
-            fileName: "ae2899bc-3c96-4ad0-b5ff-1f493f4079fa.png",
             url: "https://media.mapgenie.io/storage/media/ae2899bc-3c96-4ad0-b5ff-1f493f4079fa.png",
             type: "image",
           },
@@ -23359,7 +22388,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73368273675530",
         media: [
           {
-            fileName: "6651c44a-e24b-4d8d-9fce-19d0e59d9bac.png",
             url: "https://media.mapgenie.io/storage/media/6651c44a-e24b-4d8d-9fce-19d0e59d9bac.png",
             type: "image",
           },
@@ -23398,7 +22426,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71914047002738",
         media: [
           {
-            fileName: "9c2d7cdc-e697-448d-b002-fd4337f21952.png",
             url: "https://media.mapgenie.io/storage/media/9c2d7cdc-e697-448d-b002-fd4337f21952.png",
             type: "image",
           },
@@ -23453,7 +22480,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75773360305016",
         media: [
           {
-            fileName: "e09a9ce9-1de8-4ad5-ac37-e16dffc863f7.png",
             url: "https://media.mapgenie.io/storage/media/e09a9ce9-1de8-4ad5-ac37-e16dffc863f7.png",
             type: "image",
           },
@@ -23500,7 +22526,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68031176567160",
         media: [
           {
-            fileName: "254d9a81-6170-43da-9fb3-ac155f3c254c.png",
             url: "https://media.mapgenie.io/storage/media/254d9a81-6170-43da-9fb3-ac155f3c254c.png",
             type: "image",
           },
@@ -23523,7 +22548,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67134216427837",
         media: [
           {
-            fileName: "a355a4d2-75b3-462a-a485-078d5f88873f.png",
             url: "https://media.mapgenie.io/storage/media/a355a4d2-75b3-462a-a485-078d5f88873f.png",
             type: "image",
           },
@@ -23546,7 +22570,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71563518111390",
         media: [
           {
-            fileName: "72680efa-3c9d-4b01-af80-396a9ed794b5.png",
             url: "https://media.mapgenie.io/storage/media/72680efa-3c9d-4b01-af80-396a9ed794b5.png",
             type: "image",
           },
@@ -23631,7 +22654,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72215400669754",
         media: [
           {
-            fileName: "f3a6cb80-79f8-4302-91c7-53a1bc5bf5e8.jpg",
             url: "https://media.mapgenie.io/storage/media/f3a6cb80-79f8-4302-91c7-53a1bc5bf5e8.jpg",
             type: "image",
           },
@@ -23654,7 +22676,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71647479394423",
         media: [
           {
-            fileName: "f9e81d58-d5a3-4a12-aed0-359c4c71bf3a.jpg",
             url: "https://media.mapgenie.io/storage/media/f9e81d58-d5a3-4a12-aed0-359c4c71bf3a.jpg",
             type: "image",
           },
@@ -23747,7 +22768,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69065541028772",
         media: [
           {
-            fileName: "228d130d-b38b-48a5-962c-7052bcd69993.png",
             url: "https://media.mapgenie.io/storage/media/228d130d-b38b-48a5-962c-7052bcd69993.png",
             type: "image",
           },
@@ -23778,7 +22798,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72964400053127",
         media: [
           {
-            fileName: "818fc043-e56f-49ff-b582-cba6cd08db2e.png",
             url: "https://media.mapgenie.io/storage/media/818fc043-e56f-49ff-b582-cba6cd08db2e.png",
             type: "image",
           },
@@ -23918,7 +22937,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73644815496283",
         media: [
           {
-            fileName: "77127f0a-4bed-4e2e-a34c-faf81a91efe2.png",
             url: "https://media.mapgenie.io/storage/media/77127f0a-4bed-4e2e-a34c-faf81a91efe2.png",
             type: "image",
           },
@@ -23941,7 +22959,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73374238308122",
         media: [
           {
-            fileName: "92c039fd-04ae-40f2-ad8f-be87c9424996.jpg",
             url: "https://media.mapgenie.io/storage/media/92c039fd-04ae-40f2-ad8f-be87c9424996.jpg",
             type: "image",
           },
@@ -24016,7 +23033,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70690708335732",
         media: [
           {
-            fileName: "fddc577d-88cc-4d76-9519-640d58f34491.png",
             url: "https://media.mapgenie.io/storage/media/fddc577d-88cc-4d76-9519-640d58f34491.png",
             type: "image",
           },
@@ -24029,7 +23045,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71022412057528",
         media: [
           {
-            fileName: "9909e33a-9764-42e2-858a-16486834f1fe.png",
             url: "https://media.mapgenie.io/storage/media/9909e33a-9764-42e2-858a-16486834f1fe.png",
             type: "image",
           },
@@ -24195,7 +23210,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72116822004591",
         media: [
           {
-            fileName: "27ddae8a-3855-4771-b9bd-5941481dee0a.jpg",
             url: "https://media.mapgenie.io/storage/media/27ddae8a-3855-4771-b9bd-5941481dee0a.jpg",
             type: "image",
           },
@@ -24232,7 +23246,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75272203617561",
         media: [
           {
-            fileName: "17330db7-9e75-46c1-b1d3-60ace6a7e024.png",
             url: "https://media.mapgenie.io/storage/media/17330db7-9e75-46c1-b1d3-60ace6a7e024.png",
             type: "image",
           },
@@ -24255,7 +23268,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70485234260386",
         media: [
           {
-            fileName: "e81d6fac-52c5-433d-993f-91436b5cea61.png",
             url: "https://media.mapgenie.io/storage/media/e81d6fac-52c5-433d-993f-91436b5cea61.png",
             type: "image",
           },
@@ -24278,7 +23290,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69139513863129",
         media: [
           {
-            fileName: "80f5d70d-0259-4506-a330-874257f35912.png",
             url: "https://media.mapgenie.io/storage/media/80f5d70d-0259-4506-a330-874257f35912.png",
             type: "image",
           },
@@ -24301,7 +23312,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75777500867619",
         media: [
           {
-            fileName: "7b6d152c-5fdb-4635-95b6-6426cfbb70d3.png",
             url: "https://media.mapgenie.io/storage/media/7b6d152c-5fdb-4635-95b6-6426cfbb70d3.png",
             type: "image",
           },
@@ -24324,7 +23334,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70189923048159",
         media: [
           {
-            fileName: "a09f5e6f-c042-4694-85b4-d8430fc1cdca.png",
             url: "https://media.mapgenie.io/storage/media/a09f5e6f-c042-4694-85b4-d8430fc1cdca.png",
             type: "image",
           },
@@ -24363,7 +23372,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71562074124742",
         media: [
           {
-            fileName: "2f8a6a3a-f35d-42d4-aa20-96d61f4dd0ff.jpg",
             url: "https://media.mapgenie.io/storage/media/2f8a6a3a-f35d-42d4-aa20-96d61f4dd0ff.jpg",
             type: "image",
           },
@@ -24386,7 +23394,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71132920682433",
         media: [
           {
-            fileName: "40b7bdb5-1b2b-4a58-842a-fd560383359a.jpg",
             url: "https://media.mapgenie.io/storage/media/40b7bdb5-1b2b-4a58-842a-fd560383359a.jpg",
             type: "image",
           },
@@ -24449,13 +23456,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71322821080662",
         media: [
           {
-            fileName: "81bad493-28b3-4d44-815b-6d30b0b35f00.png",
             url: "https://media.mapgenie.io/storage/media/81bad493-28b3-4d44-815b-6d30b0b35f00.png",
             type: "image",
           },
           {
-            title: "",
-            fileName: "1369b464-f439-4041-84b1-8114ae693d43.png",
             url: "https://media.mapgenie.io/storage/media/1369b464-f439-4041-84b1-8114ae693d43.png",
             type: "image",
           },
@@ -24470,7 +23474,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64994431343590",
         media: [
           {
-            fileName: "3ff8e71d-a927-4401-b9e3-d0eed43bc07e.png",
             url: "https://media.mapgenie.io/storage/media/3ff8e71d-a927-4401-b9e3-d0eed43bc07e.png",
             type: "image",
           },
@@ -24493,7 +23496,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.76067179441196",
         media: [
           {
-            fileName: "eb93590d-a544-4232-a35b-b231fd1d20a5.jpeg",
             url: "https://media.mapgenie.io/storage/media/eb93590d-a544-4232-a35b-b231fd1d20a5.jpeg",
             type: "image",
           },
@@ -24508,7 +23510,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.64498294473765",
         media: [
           {
-            fileName: "9cbb83e1-d62e-405e-8075-252f168af005.jpg",
             url: "https://media.mapgenie.io/storage/media/9cbb83e1-d62e-405e-8075-252f168af005.jpg",
             type: "image",
           },
@@ -24523,7 +23524,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71245559999028",
         media: [
           {
-            fileName: "a4c20b6b-0de8-4358-b4c7-4990f20e9077.jpg",
             url: "https://media.mapgenie.io/storage/media/a4c20b6b-0de8-4358-b4c7-4990f20e9077.jpg",
             type: "image",
           },
@@ -24575,7 +23575,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75428344309316",
         media: [
           {
-            fileName: "2f3f537d-4b7d-4904-8d41-69ecaa890ac3.jpg",
             url: "https://media.mapgenie.io/storage/media/2f3f537d-4b7d-4904-8d41-69ecaa890ac3.jpg",
             type: "image",
           },
@@ -24634,7 +23633,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72313033079317",
         media: [
           {
-            fileName: "d91b2701-afe3-44e0-ab19-074e627f87e7.jpg",
             url: "https://media.mapgenie.io/storage/media/d91b2701-afe3-44e0-ab19-074e627f87e7.jpg",
             type: "image",
           },
@@ -24648,7 +23646,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71929549953020",
         media: [
           {
-            fileName: "eaa91684-faa7-4a3e-8760-371fbe1012f9.jpg",
             url: "https://media.mapgenie.io/storage/media/eaa91684-faa7-4a3e-8760-371fbe1012f9.jpg",
             type: "image",
           },
@@ -24662,7 +23659,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71694200366753",
         media: [
           {
-            fileName: "b4533caa-b51b-4fe0-8354-ba62e94d887d.jpg",
             url: "https://media.mapgenie.io/storage/media/b4533caa-b51b-4fe0-8354-ba62e94d887d.jpg",
             type: "image",
           },
@@ -24676,7 +23672,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71589960164789",
         media: [
           {
-            fileName: "f18618bc-6766-4209-b52f-2fd6f7fc42e5.jpg",
             url: "https://media.mapgenie.io/storage/media/f18618bc-6766-4209-b52f-2fd6f7fc42e5.jpg",
             type: "image",
           },
@@ -24690,7 +23685,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71552409237529",
         media: [
           {
-            fileName: "8dddb157-c25a-4847-8285-62bf88403bec.jpg",
             url: "https://media.mapgenie.io/storage/media/8dddb157-c25a-4847-8285-62bf88403bec.jpg",
             type: "image",
           },
@@ -24705,7 +23699,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71204328518786",
         media: [
           {
-            fileName: "7eb7fd38-e681-4ca0-974a-b1496bc5006f.jpg",
             url: "https://media.mapgenie.io/storage/media/7eb7fd38-e681-4ca0-974a-b1496bc5006f.jpg",
             type: "image",
           },
@@ -24720,13 +23713,10 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71962254443858",
         media: [
           {
-            fileName: "84cb6c4e-3869-4998-8166-785e4886e32b.jpg",
             url: "https://media.mapgenie.io/storage/media/84cb6c4e-3869-4998-8166-785e4886e32b.jpg",
             type: "image",
           },
           {
-            title: "20240618035205_1",
-            fileName: "d12f6ac7-2f69-4baf-90a6-32f2420bf7de.jpg",
             url: "https://media.mapgenie.io/storage/media/d12f6ac7-2f69-4baf-90a6-32f2420bf7de.jpg",
             type: "image",
           },
@@ -24842,7 +23832,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69835616144047",
         media: [
           {
-            fileName: "def58e85-deaa-4d2c-8a32-48068ed972dc.png",
             url: "https://media.mapgenie.io/storage/media/def58e85-deaa-4d2c-8a32-48068ed972dc.png",
             type: "image",
           },
@@ -24915,7 +23904,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72087320698228",
         media: [
           {
-            fileName: "3315ba1e-e450-4b21-ba19-a2eb9bb69770.png",
             url: "https://media.mapgenie.io/storage/media/3315ba1e-e450-4b21-ba19-a2eb9bb69770.png",
             type: "image",
           },
@@ -24943,7 +23931,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71522661168186",
         media: [
           {
-            fileName: "e5816193-6bcb-470b-b865-52c6a7ce680d.jpg",
             url: "https://media.mapgenie.io/storage/media/e5816193-6bcb-470b-b865-52c6a7ce680d.jpg",
             type: "image",
           },
@@ -25059,7 +24046,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73615707456995",
         media: [
           {
-            fileName: "5220684b-6534-4ee5-a0d2-f6fdb0bd2a34.jpg",
             url: "https://media.mapgenie.io/storage/media/5220684b-6534-4ee5-a0d2-f6fdb0bd2a34.jpg",
             type: "image",
           },
@@ -25090,7 +24076,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73619730770579",
         media: [
           {
-            fileName: "4cb3ad36-d9da-4b4b-8a2e-3ec2290c6179.jpg",
             url: "https://media.mapgenie.io/storage/media/4cb3ad36-d9da-4b4b-8a2e-3ec2290c6179.jpg",
             type: "image",
           },
@@ -25117,7 +24102,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71035340767139",
         media: [
           {
-            fileName: "518d497e-39f7-461c-b85d-61202cdff4e7.jpg",
             url: "https://media.mapgenie.io/storage/media/518d497e-39f7-461c-b85d-61202cdff4e7.jpg",
             type: "image",
           },
@@ -25130,7 +24114,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71569083492778",
         media: [
           {
-            fileName: "424edab1-f3d8-4e24-9a0f-d914a1a51235.jpg",
             url: "https://media.mapgenie.io/storage/media/424edab1-f3d8-4e24-9a0f-d914a1a51235.jpg",
             type: "image",
           },
@@ -25143,7 +24126,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71516615685346",
         media: [
           {
-            fileName: "fca936b1-fae9-4b91-ad68-544043334406.jpg",
             url: "https://media.mapgenie.io/storage/media/fca936b1-fae9-4b91-ad68-544043334406.jpg",
             type: "image",
           },
@@ -25176,7 +24158,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71546305744744",
         media: [
           {
-            fileName: "3436ed9a-565b-4aaa-b56d-d659c377b292.jpg",
             url: "https://media.mapgenie.io/storage/media/3436ed9a-565b-4aaa-b56d-d659c377b292.jpg",
             type: "image",
           },
@@ -25190,7 +24171,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72583037427418",
         media: [
           {
-            fileName: "cdec40ad-ee79-42e2-8acd-2fb416730f36.jpg",
             url: "https://media.mapgenie.io/storage/media/cdec40ad-ee79-42e2-8acd-2fb416730f36.jpg",
             type: "image",
           },
@@ -25228,7 +24208,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71978049234500",
         media: [
           {
-            fileName: "4b404575-bad9-431f-ae01-a0a10a5ba754.jpg",
             url: "https://media.mapgenie.io/storage/media/4b404575-bad9-431f-ae01-a0a10a5ba754.jpg",
             type: "image",
           },
@@ -25243,7 +24222,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72079894106051",
         media: [
           {
-            fileName: "4f0ec1f3-9f70-45d2-8e8c-e3d38621fc3b.jpg",
             url: "https://media.mapgenie.io/storage/media/4f0ec1f3-9f70-45d2-8e8c-e3d38621fc3b.jpg",
             type: "image",
           },
@@ -25257,7 +24235,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71943637886937",
         media: [
           {
-            fileName: "b6d1eb23-caeb-43d2-a474-d571e959e834.jpg",
             url: "https://media.mapgenie.io/storage/media/b6d1eb23-caeb-43d2-a474-d571e959e834.jpg",
             type: "image",
           },
@@ -25272,7 +24249,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71614068340347",
         media: [
           {
-            fileName: "159c97b2-afdc-4d1a-b1af-40748db74340.jpg",
             url: "https://media.mapgenie.io/storage/media/159c97b2-afdc-4d1a-b1af-40748db74340.jpg",
             type: "image",
           },
@@ -25286,7 +24262,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71680554724810",
         media: [
           {
-            fileName: "dcefdce6-a903-488f-9e44-aa25c1fe82e3.jpg",
             url: "https://media.mapgenie.io/storage/media/dcefdce6-a903-488f-9e44-aa25c1fe82e3.jpg",
             type: "image",
           },
@@ -25300,7 +24275,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71687700804765",
         media: [
           {
-            fileName: "952eb2ef-7e3f-4a99-9168-8ce472943716.jpg",
             url: "https://media.mapgenie.io/storage/media/952eb2ef-7e3f-4a99-9168-8ce472943716.jpg",
             type: "image",
           },
@@ -25314,7 +24288,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71877629400839",
         media: [
           {
-            fileName: "6f6d0bc3-a619-433f-a71e-1d960c0c52ea.jpg",
             url: "https://media.mapgenie.io/storage/media/6f6d0bc3-a619-433f-a71e-1d960c0c52ea.jpg",
             type: "image",
           },
@@ -25407,7 +24380,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75048220612817",
         media: [
           {
-            fileName: "35c7d2f3-b545-441c-8d8b-868ef572fa22.jpg",
             url: "https://media.mapgenie.io/storage/media/35c7d2f3-b545-441c-8d8b-868ef572fa22.jpg",
             type: "image",
           },
@@ -25440,7 +24412,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74001523234102",
         media: [
           {
-            fileName: "67dbaaff-d862-463e-af5c-e205ef081a3b.jpg",
             url: "https://media.mapgenie.io/storage/media/67dbaaff-d862-463e-af5c-e205ef081a3b.jpg",
             type: "image",
           },
@@ -25480,7 +24451,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74465699493788",
         media: [
           {
-            fileName: "78e63836-5558-48f4-a91a-39d0c59f8064.jpg",
             url: "https://media.mapgenie.io/storage/media/78e63836-5558-48f4-a91a-39d0c59f8064.jpg",
             type: "image",
           },
@@ -25494,7 +24464,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74494637551624",
         media: [
           {
-            fileName: "c9a1e49f-3fdf-48c7-b48e-dac62237a6c3.jpg",
             url: "https://media.mapgenie.io/storage/media/c9a1e49f-3fdf-48c7-b48e-dac62237a6c3.jpg",
             type: "image",
           },
@@ -25508,7 +24477,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74673252342200",
         media: [
           {
-            fileName: "4ea55e99-d16d-4457-b8ca-493c798b7163.jpg",
             url: "https://media.mapgenie.io/storage/media/4ea55e99-d16d-4457-b8ca-493c798b7163.jpg",
             type: "image",
           },
@@ -25591,7 +24559,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72756327688771",
         media: [
           {
-            fileName: "d8de6f76-7602-4a68-ac13-1a8c72d411a2.jpg",
             url: "https://media.mapgenie.io/storage/media/d8de6f76-7602-4a68-ac13-1a8c72d411a2.jpg",
             type: "image",
           },
@@ -25606,7 +24573,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72758581085745",
         media: [
           {
-            fileName: "bde27d1a-be73-4dd5-898c-0807e40c6c35.jpg",
             url: "https://media.mapgenie.io/storage/media/bde27d1a-be73-4dd5-898c-0807e40c6c35.jpg",
             type: "image",
           },
@@ -25621,7 +24587,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72792413701444",
         media: [
           {
-            fileName: "70654db6-5f11-4d99-a899-9f582eb7aa15.jpg",
             url: "https://media.mapgenie.io/storage/media/70654db6-5f11-4d99-a899-9f582eb7aa15.jpg",
             type: "image",
           },
@@ -25636,7 +24601,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72792814768641",
         media: [
           {
-            fileName: "e87adc01-5896-45e3-b3a5-6b393b24eeb8.jpg",
             url: "https://media.mapgenie.io/storage/media/e87adc01-5896-45e3-b3a5-6b393b24eeb8.jpg",
             type: "image",
           },
@@ -25658,7 +24622,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69799414809245",
         media: [
           {
-            fileName: "60a9eefe-63e1-41ed-a2a0-843fca07fa5a.jpg",
             url: "https://media.mapgenie.io/storage/media/60a9eefe-63e1-41ed-a2a0-843fca07fa5a.jpg",
             type: "image",
           },
@@ -25673,7 +24636,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69953395646638",
         media: [
           {
-            fileName: "17b298f2-e2e6-487b-a853-0489d08845c0.jpg",
             url: "https://media.mapgenie.io/storage/media/17b298f2-e2e6-487b-a853-0489d08845c0.jpg",
             type: "image",
           },
@@ -25688,7 +24650,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69987534144116",
         media: [
           {
-            fileName: "0a6d8802-ae91-430b-abb7-a90a3c17a537.jpg",
             url: "https://media.mapgenie.io/storage/media/0a6d8802-ae91-430b-abb7-a90a3c17a537.jpg",
             type: "image",
           },
@@ -25703,7 +24664,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70015890731233",
         media: [
           {
-            fileName: "761b15ad-7ddd-422d-aae5-9ce7a7400a97.jpg",
             url: "https://media.mapgenie.io/storage/media/761b15ad-7ddd-422d-aae5-9ce7a7400a97.jpg",
             type: "image",
           },
@@ -25717,7 +24677,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71760434618210",
         media: [
           {
-            fileName: "19050144-6dcf-4749-979a-4a314aba8410.jpg",
             url: "https://media.mapgenie.io/storage/media/19050144-6dcf-4749-979a-4a314aba8410.jpg",
             type: "image",
           },
@@ -26359,7 +25318,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73923644108297",
         media: [
           {
-            fileName: "10261600-e9b7-44ad-8a09-84b16a989a56.jpeg",
             url: "https://media.mapgenie.io/storage/media/10261600-e9b7-44ad-8a09-84b16a989a56.jpeg",
             type: "image",
           },
@@ -26395,7 +25353,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69750808127398",
         media: [
           {
-            fileName: "27061e92-3438-412a-ad2a-e35a5e833fc5.png",
             url: "https://media.mapgenie.io/storage/media/27061e92-3438-412a-ad2a-e35a5e833fc5.png",
             type: "image",
           },
@@ -26409,7 +25366,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69769054694325",
         media: [
           {
-            fileName: "45d68281-869a-463e-8382-0bf8bbd84039.png",
             url: "https://media.mapgenie.io/storage/media/45d68281-869a-463e-8382-0bf8bbd84039.png",
             type: "image",
           },
@@ -26429,7 +25385,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69254974194439",
         media: [
           {
-            fileName: "3ca0ceec-4657-40f8-843c-068d83430737.png",
             url: "https://media.mapgenie.io/storage/media/3ca0ceec-4657-40f8-843c-068d83430737.png",
             type: "image",
           },
@@ -26443,7 +25398,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69644428789553",
         media: [
           {
-            fileName: "0d218aa3-b401-46d5-ac8e-4fe2049132de.png",
             url: "https://media.mapgenie.io/storage/media/0d218aa3-b401-46d5-ac8e-4fe2049132de.png",
             type: "image",
           },
@@ -26457,7 +25411,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69572545588014",
         media: [
           {
-            fileName: "cf57d6a7-6d86-4ccb-8728-d042aeecabc6.png",
             url: "https://media.mapgenie.io/storage/media/cf57d6a7-6d86-4ccb-8728-d042aeecabc6.png",
             type: "image",
           },
@@ -26471,7 +25424,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69554306566667",
         media: [
           {
-            fileName: "20f13648-eee5-4361-b90c-f5b4b2800d10.png",
             url: "https://media.mapgenie.io/storage/media/20f13648-eee5-4361-b90c-f5b4b2800d10.png",
             type: "image",
           },
@@ -27045,7 +25997,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68765280850408",
         media: [
           {
-            fileName: "6fa89577-5394-4a4f-a343-1c09b744a911.png",
             url: "https://media.mapgenie.io/storage/media/6fa89577-5394-4a4f-a343-1c09b744a911.png",
             type: "image",
           },
@@ -27373,7 +26324,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71076661348201",
         media: [
           {
-            fileName: "8dcda221-ba94-479d-889d-7902c3bc0da4.jpg",
             url: "https://media.mapgenie.io/storage/media/8dcda221-ba94-479d-889d-7902c3bc0da4.jpg",
             type: "image",
           },
@@ -27659,7 +26609,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72548563201025",
         media: [
           {
-            fileName: "e8cbe1a9-b231-4562-889d-f62f445cd1db.jpg",
             url: "https://media.mapgenie.io/storage/media/e8cbe1a9-b231-4562-889d-f62f445cd1db.jpg",
             type: "image",
           },
@@ -27673,7 +26622,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72099469809288",
         media: [
           {
-            fileName: "8d44b88a-fae0-488b-915e-bfdabd5423e8.jpg",
             url: "https://media.mapgenie.io/storage/media/8d44b88a-fae0-488b-915e-bfdabd5423e8.jpg",
             type: "image",
           },
@@ -27686,7 +26634,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72108052879400",
         media: [
           {
-            fileName: "e2aa94dd-5f17-4303-ba74-721bfa1304fd.jpg",
             url: "https://media.mapgenie.io/storage/media/e2aa94dd-5f17-4303-ba74-721bfa1304fd.jpg",
             type: "image",
           },
@@ -27699,7 +26646,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73413394200261",
         media: [
           {
-            fileName: "4bcaeeee-cecb-4b68-a32b-857b064016b3.jpg",
             url: "https://media.mapgenie.io/storage/media/4bcaeeee-cecb-4b68-a32b-857b064016b3.jpg",
             type: "image",
           },
@@ -27754,7 +26700,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74882850050966",
         media: [
           {
-            fileName: "b70ec3e7-1dd2-4abe-904e-e20eaccd9420.jpg",
             url: "https://media.mapgenie.io/storage/media/b70ec3e7-1dd2-4abe-904e-e20eaccd9420.jpg",
             type: "image",
           },
@@ -27768,7 +26713,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75574893502048",
         media: [
           {
-            fileName: "6499728c-d43d-400e-8e19-ee5055d483fe.jpg",
             url: "https://media.mapgenie.io/storage/media/6499728c-d43d-400e-8e19-ee5055d483fe.jpg",
             type: "image",
           },
@@ -27783,7 +26727,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75297452509412",
         media: [
           {
-            fileName: "7324e6e4-33ab-490b-bc8a-d22e9ded5e15.jpg",
             url: "https://media.mapgenie.io/storage/media/7324e6e4-33ab-490b-bc8a-d22e9ded5e15.jpg",
             type: "image",
           },
@@ -27797,7 +26740,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75073488056603",
         media: [
           {
-            fileName: "954b2dfd-05d4-4b97-b932-b54bcece588e.jpg",
             url: "https://media.mapgenie.io/storage/media/954b2dfd-05d4-4b97-b932-b54bcece588e.jpg",
             type: "image",
           },
@@ -27832,7 +26774,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75279884040347",
         media: [
           {
-            fileName: "6a87c998-5d38-49d3-9331-d2042845262f.jpg",
             url: "https://media.mapgenie.io/storage/media/6a87c998-5d38-49d3-9331-d2042845262f.jpg",
             type: "image",
           },
@@ -27847,7 +26788,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75247697532197",
         media: [
           {
-            fileName: "e9b9f20b-7809-457d-986f-573f5d88083c.jpg",
             url: "https://media.mapgenie.io/storage/media/e9b9f20b-7809-457d-986f-573f5d88083c.jpg",
             type: "image",
           },
@@ -27875,7 +26815,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75296044349668",
         media: [
           {
-            fileName: "aeff2d71-3248-40de-9499-04a8b60ec792.jpg",
             url: "https://media.mapgenie.io/storage/media/aeff2d71-3248-40de-9499-04a8b60ec792.jpg",
             type: "image",
           },
@@ -27909,7 +26848,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74861083007815",
         media: [
           {
-            fileName: "2f7c7fa3-1ab6-4cda-ac14-1aaaf9b57b01.jpg",
             url: "https://media.mapgenie.io/storage/media/2f7c7fa3-1ab6-4cda-ac14-1aaaf9b57b01.jpg",
             type: "image",
           },
@@ -27947,7 +26885,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73951037002982",
         media: [
           {
-            fileName: "f1185ac3-50ab-4406-8a4b-87f80594922d.jpg",
             url: "https://media.mapgenie.io/storage/media/f1185ac3-50ab-4406-8a4b-87f80594922d.jpg",
             type: "image",
           },
@@ -28073,7 +27010,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73223128971597",
         media: [
           {
-            fileName: "5998f54f-1591-4a6e-b4c1-363bc710c990.jpg",
             url: "https://media.mapgenie.io/storage/media/5998f54f-1591-4a6e-b4c1-363bc710c990.jpg",
             type: "image",
           },
@@ -28136,7 +27072,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71734406053997",
         media: [
           {
-            fileName: "b3cb7904-67ff-4d0b-a483-88fd34aac14a.jpg",
             url: "https://media.mapgenie.io/storage/media/b3cb7904-67ff-4d0b-a483-88fd34aac14a.jpg",
             type: "image",
           },
@@ -28262,7 +27197,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71520871462567",
         media: [
           {
-            fileName: "e7b0957e-bd14-45a8-9021-ff85491b5ef1.jpg",
             url: "https://media.mapgenie.io/storage/media/e7b0957e-bd14-45a8-9021-ff85491b5ef1.jpg",
             type: "image",
           },
@@ -28276,7 +27210,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71564419688022",
         media: [
           {
-            fileName: "893b917a-733c-41d3-93b4-b3fa1931557a.jpg",
             url: "https://media.mapgenie.io/storage/media/893b917a-733c-41d3-93b4-b3fa1931557a.jpg",
             type: "image",
           },
@@ -28297,7 +27230,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75073919973815",
         media: [
           {
-            fileName: "9bf2426a-bbb4-441f-bd0f-07c6bfd11c7a.jpg",
             url: "https://media.mapgenie.io/storage/media/9bf2426a-bbb4-441f-bd0f-07c6bfd11c7a.jpg",
             type: "image",
           },
@@ -28312,7 +27244,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72115847270658",
         media: [
           {
-            fileName: "57d5a453-0044-4cf5-be3e-52ee66b8355a.jpg",
             url: "https://media.mapgenie.io/storage/media/57d5a453-0044-4cf5-be3e-52ee66b8355a.jpg",
             type: "image",
           },
@@ -28327,7 +27258,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72757835072866",
         media: [
           {
-            fileName: "1b9d93c1-a67c-4fa0-89e7-85665a7536a1.jpg",
             url: "https://media.mapgenie.io/storage/media/1b9d93c1-a67c-4fa0-89e7-85665a7536a1.jpg",
             type: "image",
           },
@@ -28437,7 +27367,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73289643744309",
         media: [
           {
-            fileName: "9854906e-476d-42c4-bd0e-11349a30e6f9.png",
             url: "https://media.mapgenie.io/storage/media/9854906e-476d-42c4-bd0e-11349a30e6f9.png",
             type: "image",
           },
@@ -28458,7 +27387,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70555427787471",
         media: [
           {
-            fileName: "f39bdc2d-2bb5-444a-bdce-b13e12c05e07.png",
             url: "https://media.mapgenie.io/storage/media/f39bdc2d-2bb5-444a-bdce-b13e12c05e07.png",
             type: "image",
           },
@@ -28515,7 +27443,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72791934013307",
         media: [
           {
-            fileName: "4ba9f476-8d4e-4c90-9957-a5b943bf7948.jpg",
             url: "https://media.mapgenie.io/storage/media/4ba9f476-8d4e-4c90-9957-a5b943bf7948.jpg",
             type: "image",
           },
@@ -28668,7 +27595,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72504235523670",
         media: [
           {
-            fileName: "7ade2777-e3e9-46b3-bbe0-a9a08f3dd1d1.jpg",
             url: "https://media.mapgenie.io/storage/media/7ade2777-e3e9-46b3-bbe0-a9a08f3dd1d1.jpg",
             type: "image",
           },
@@ -28683,7 +27609,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71575418114574",
         media: [
           {
-            fileName: "b504cab3-cdf7-481c-8f95-482d6f6be8f6.jpg",
             url: "https://media.mapgenie.io/storage/media/b504cab3-cdf7-481c-8f95-482d6f6be8f6.jpg",
             type: "image",
           },
@@ -28698,7 +27623,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71591377258275",
         media: [
           {
-            fileName: "488f3540-c459-4919-afa5-47416e2868db.jpg",
             url: "https://media.mapgenie.io/storage/media/488f3540-c459-4919-afa5-47416e2868db.jpg",
             type: "image",
           },
@@ -28713,7 +27637,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71580581366950",
         media: [
           {
-            fileName: "678d3bfe-1e44-4d57-b1e9-a3017d94d27a.jpg",
             url: "https://media.mapgenie.io/storage/media/678d3bfe-1e44-4d57-b1e9-a3017d94d27a.jpg",
             type: "image",
           },
@@ -28744,7 +27667,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71697793900967",
         media: [
           {
-            fileName: "efd7e2ad-5342-40c8-8ec4-3da282b7f09a.jpg",
             url: "https://media.mapgenie.io/storage/media/efd7e2ad-5342-40c8-8ec4-3da282b7f09a.jpg",
             type: "image",
           },
@@ -28862,7 +27784,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71590907871922",
         media: [
           {
-            fileName: "eb04870d-f450-49cd-8634-8642ae5d7ad8.jpg",
             url: "https://media.mapgenie.io/storage/media/eb04870d-f450-49cd-8634-8642ae5d7ad8.jpg",
             type: "image",
           },
@@ -28877,7 +27798,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71532358258216",
         media: [
           {
-            fileName: "83b8e0fd-1da0-4e3f-9342-1c365758ccff.jpg",
             url: "https://media.mapgenie.io/storage/media/83b8e0fd-1da0-4e3f-9342-1c365758ccff.jpg",
             type: "image",
           },
@@ -28892,7 +27812,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71535576909517",
         media: [
           {
-            fileName: "cb873cb9-6658-455d-a27d-aab5d95ba593.jpg",
             url: "https://media.mapgenie.io/storage/media/cb873cb9-6658-455d-a27d-aab5d95ba593.jpg",
             type: "image",
           },
@@ -28906,7 +27825,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71153300331534",
         media: [
           {
-            fileName: "d489197a-3f7e-4f57-abba-aca0111d590e.jpg",
             url: "https://media.mapgenie.io/storage/media/d489197a-3f7e-4f57-abba-aca0111d590e.jpg",
             type: "image",
           },
@@ -28920,7 +27838,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.72629459202184",
         media: [
           {
-            fileName: "2015130a-5f8f-4079-ae95-b35d2549d4a6.jpg",
             url: "https://media.mapgenie.io/storage/media/2015130a-5f8f-4079-ae95-b35d2549d4a6.jpg",
             type: "image",
           },
@@ -28934,7 +27851,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.74236370623319",
         media: [
           {
-            fileName: "cfb12c98-fe3c-496f-8914-52b192d0af56.jpg",
             url: "https://media.mapgenie.io/storage/media/cfb12c98-fe3c-496f-8914-52b192d0af56.jpg",
             type: "image",
           },
@@ -28957,7 +27873,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73872366506828",
         media: [
           {
-            fileName: "9addf653-45f2-4053-bf75-572ad76085a5.jpg",
             url: "https://media.mapgenie.io/storage/media/9addf653-45f2-4053-bf75-572ad76085a5.jpg",
             type: "image",
           },
@@ -28972,7 +27887,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71678151974444",
         media: [
           {
-            fileName: "28197928-7789-44f2-95d7-8691e42d0fcd.jpg",
             url: "https://media.mapgenie.io/storage/media/28197928-7789-44f2-95d7-8691e42d0fcd.jpg",
             type: "image",
           },
@@ -28987,7 +27901,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70838694620628",
         media: [
           {
-            fileName: "14a7274e-9599-46d0-a17d-9d7abfa03d84.jpg",
             url: "https://media.mapgenie.io/storage/media/14a7274e-9599-46d0-a17d-9d7abfa03d84.jpg",
             type: "image",
           },
@@ -29001,7 +27914,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.70255828455882",
         media: [
           {
-            fileName: "38205a3c-a385-4834-8742-93afac28e7dc.jpg",
             url: "https://media.mapgenie.io/storage/media/38205a3c-a385-4834-8742-93afac28e7dc.jpg",
             type: "image",
           },
@@ -29229,7 +28141,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69723553955495",
         media: [
           {
-            fileName: "88345ccb-cc75-4438-8f19-93048b14079f.png",
             url: "https://media.mapgenie.io/storage/media/88345ccb-cc75-4438-8f19-93048b14079f.png",
             type: "image",
           },
@@ -29443,7 +28354,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71123264729940",
         media: [
           {
-            fileName: "59ca2276-6d47-4f6a-9b62-2193ab5a3f43.jpg",
             url: "https://media.mapgenie.io/storage/media/59ca2276-6d47-4f6a-9b62-2193ab5a3f43.jpg",
             type: "image",
           },
@@ -29456,7 +28366,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.71912383815393",
         media: [
           {
-            fileName: "a77896da-38d0-4b31-aa1e-5687ae133a7c.jpg",
             url: "https://media.mapgenie.io/storage/media/a77896da-38d0-4b31-aa1e-5687ae133a7c.jpg",
             type: "image",
           },
@@ -29506,7 +28415,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75197070837220",
         media: [
           {
-            fileName: "ea9ec1ca-7e77-4100-9081-7285b998c5a6.jpg",
             url: "https://media.mapgenie.io/storage/media/ea9ec1ca-7e77-4100-9081-7285b998c5a6.jpg",
             type: "image",
           },
@@ -29521,7 +28429,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75172796845385",
         media: [
           {
-            fileName: "6a0a7a32-8560-4ea0-83dc-9b36b6644188.jpg",
             url: "https://media.mapgenie.io/storage/media/6a0a7a32-8560-4ea0-83dc-9b36b6644188.jpg",
             type: "image",
           },
@@ -29536,7 +28443,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75504813176423",
         media: [
           {
-            fileName: "0ebe31fc-d9a8-4e7c-bb5a-b155213d1e4f.jpg",
             url: "https://media.mapgenie.io/storage/media/0ebe31fc-d9a8-4e7c-bb5a-b155213d1e4f.jpg",
             type: "image",
           },
@@ -29557,7 +28463,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.67823119051639",
         media: [
           {
-            fileName: "1d7f447f-8ede-45af-9cc3-7dc53e746f04.png",
             url: "https://media.mapgenie.io/storage/media/1d7f447f-8ede-45af-9cc3-7dc53e746f04.png",
             type: "image",
           },
@@ -29572,7 +28477,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.68546332419143",
         media: [
           {
-            fileName: "c42e42bb-11a5-42ac-956a-1e813a9a56e5.png",
             url: "https://media.mapgenie.io/storage/media/c42e42bb-11a5-42ac-956a-1e813a9a56e5.png",
             type: "image",
           },
@@ -29586,7 +28490,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.65818074417695",
         media: [
           {
-            fileName: "34fffc73-ca81-4a0e-b2eb-8a8926e15eed.jpg",
             url: "https://media.mapgenie.io/storage/media/34fffc73-ca81-4a0e-b2eb-8a8926e15eed.jpg",
             type: "image",
           },
@@ -29634,7 +28537,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.69851562380961",
         media: [
           {
-            fileName: "fc5f12a4-a354-4979-8c0a-1c942b6dc482.png",
             url: "https://media.mapgenie.io/storage/media/fc5f12a4-a354-4979-8c0a-1c942b6dc482.png",
             type: "image",
           },
@@ -29687,7 +28589,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.75054213941311",
         media: [
           {
-            fileName: "273da1cd-6675-4c79-9d8f-811d4b72e2c5.jpeg",
             url: "https://media.mapgenie.io/storage/media/273da1cd-6675-4c79-9d8f-811d4b72e2c5.jpeg",
             type: "image",
           },
@@ -29702,7 +28603,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         longitude: "-0.73860820504569",
         media: [
           {
-            fileName: "d70ec758-5989-4f13-b327-fec24091566b.png",
             url: "https://media.mapgenie.io/storage/media/d70ec758-5989-4f13-b327-fec24091566b.png",
             type: "image",
           },
