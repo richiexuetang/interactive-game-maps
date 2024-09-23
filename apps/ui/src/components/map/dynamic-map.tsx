@@ -108,7 +108,7 @@ const Map = ({ region, user, regionData }: MapProps) => {
         />
         <MarkerRenderer />
         <MarkerSearch />
-        <TestMarker center={[0.59766929759525, -0.86262242317486]} />
+        {/* <TestMarker center={[0.59766929759525, -0.86262242317486]} /> */}
         <ProgressTracker />
         {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
           <SubRegion
