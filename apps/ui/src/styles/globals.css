@@ -1138,6 +1138,7 @@
 @layer base {
   :root {
     --app-background: #11151C;
+    --marker-tooltip-background: var(--sidebar-background-color);
   }
 
   .elden-ring {
@@ -1149,6 +1150,7 @@
     --sidebar-background-color: #232423;
     --map-background: #14130f;
     --text-font: 'Mantinia';
+    --body-font-family: "Noto Sans";
   }
 
   .witcher-3 {
@@ -1182,5 +1184,7 @@
     --sidebar-background-color: #090708;
     --map-background: #2b2b2b;
     --text-font: 'CrimsonPro';
+    --body-font-family: "CrimsonPro";
   }
+
 }

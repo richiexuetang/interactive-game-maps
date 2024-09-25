@@ -25,12 +25,21 @@ import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
 import { MarkerLocation } from "@/__generated__/graphql";
-import { Modal } from "@mui/material";
+import { Modal, styled } from "@mui/material";
 import Image from "next/image";
 
 interface PopupCardProps {
   marker: MarkerLocation;
 }
+
+const CardContentTypography = styled(Typography)(() => ({
+  fontFamily: "var(--body-font-family)",
+  color: "var(--text-color)",
+}));
+
+const StyledCard = styled(Card)(() => ({
+  minWidth: 325,
+}));
 
 export const PopupCard = ({ marker }: PopupCardProps) => {
   const {
@@ -93,7 +102,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const { icon, info, title } = category;
 
   return (
-    <Card sx={{ minWidth: 325 }}>
+    <StyledCard>
       <CardHeader
         avatar={
           <Avatar>
@@ -138,16 +147,16 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
       )}
 
       <CardContent>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+        <CardContentTypography variant="body2">
           <div dangerouslySetInnerHTML={{ __html: description ?? "" }} />
-        </Typography>
+        </CardContentTypography>
         {info && (
-          <Typography variant="body2" sx={{ color: "text.secondary" }}>
+          <CardContentTypography variant="body2">
             <div
               className="text-xs mt-7 italic"
               dangerouslySetInnerHTML={{ __html: info }}
             />
-          </Typography>
+          </CardContentTypography>
         )}
       </CardContent>
       <CardActions disableSpacing>
@@ -176,6 +185,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           </Tooltip>
         )}
       </CardActions>
-    </Card>
+    </StyledCard>
   );
 };

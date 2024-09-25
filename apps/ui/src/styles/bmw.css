@@ -7,8 +7,6 @@
     --accent-color: #d3c0a3;
     --secondary-accent-color: #a83d32;
     --border-color: #757259;
-    --body-font-family: "Crimson Pro";
-    --title-font-family: "Crimson Pro";
     --title-font-size: 20px;
     --title-font-weight: 700;
     --title-font-color: var(--accent-color);
@@ -16,8 +14,6 @@
     --title-font-line-height: 1;
     --title-font-smoothing: antialiased;
     --title-font-text-transform: uppercase;
-    --map-background: #2b2b2b;
-    --sidebar-background-color: #090708;
     --sidebar-subtitle-size: 17px;
     --map-link-color: color-mix(in srgb, var(--accent-color), transparent 80%);
     --map-link-color-hover: color-mix(in srgb, var(--accent-color), transparent 70%);

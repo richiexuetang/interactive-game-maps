@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import * as RL from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import { MarkerRenderer } from "../markers/markers-renderer";
@@ -27,7 +26,7 @@ import { SubRegion } from "../layers/sub-region";
 import { Game } from "@/__generated__/graphql";
 import { useParams } from "next/navigation";
 import { LatLngExpression } from "leaflet";
-import { Control } from "./controls/zoom-control";
+import { userNoteMarkerAtom } from "@/store/marker";
 // import { TestMarker } from "../markers/test-marker";
 
 interface MapProps {
@@ -43,6 +42,7 @@ const Map = ({ user, regionData }: MapProps) => {
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
+  const setUserNoteMarkerAtom = useSetAtom(userNoteMarkerAtom);
   const [currentRegion, setCurrentRegion] = useAtom(currentRegionAtom);
   const setCurrentMarkers = useSetAtom(currentMarkersAtom);
   const setCurrentGroups = useSetAtom(currentGroupsAtom);
@@ -56,7 +56,6 @@ const Map = ({ user, regionData }: MapProps) => {
 
   useEffect(() => {
     if (userData?.getUser && !appUser) {
-      console.log(userData?.getUser);
       setAppUser({
         ...userData?.getUser,
       });
@@ -114,6 +113,19 @@ const Map = ({ user, regionData }: MapProps) => {
         contextmenu={true}
         contextmenuWidth={140}
         contextmenuItems={[
+          {
+            text: "Add note",
+            callback: ({ latlng }: any) => {
+              setUserNoteMarkerAtom((prev) => [
+                ...prev,
+                {
+                  position: latlng,
+                  title: null,
+                  description: null,
+                },
+              ]);
+            },
+          },
           {
             text: "Zoom in",
           },
