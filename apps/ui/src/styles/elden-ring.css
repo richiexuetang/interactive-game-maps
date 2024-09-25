@@ -32,9 +32,7 @@
     --title-font-color: var(--accent-color);
     --title-font-letter-spacing: 1px;
     --body-background: #1c2021;
-    --map-background: #14130f;
     --navbar-logo-width: 80px;
-    --sidebar-background-color: #232423;
     --map-link-color: color-mix(in srgb, var(--sidebar-background-color), #fff 15%);
     --map-link-color-hover: color-mix(in srgb, var(--map-link-color), transparent 5%);
     --map-link-color-selected: color-mix(in srgb, var(--map-link-color), transparent 10%);

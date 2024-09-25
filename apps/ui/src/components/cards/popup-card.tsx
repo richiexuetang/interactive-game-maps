@@ -118,7 +118,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         <>
           <CardMedia
             onClick={() => setOpen(true)}
-            className="cursor-pointer"
+            sx={{ cursor: "pointer" }}
             component="img"
             height="350"
             image={media[0]?.url}

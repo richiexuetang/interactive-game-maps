@@ -6,12 +6,11 @@ import {
   getRegionDetails,
 } from "@/lib/api";
 import Map from "@/components/map/map";
-import { Region } from "@/__generated__/graphql";
 
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
-import { revalidatePath } from "next/cache";
 import "@/styles/leaflet.css";
+import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
   params,
@@ -71,10 +70,6 @@ export default async function MapPage({
   const gameRegion = await fetchGameRegionDetails(params.slug);
   const currentUser = await getCurrentUser();
 
-  const region = gameRegion.regions.find(
-    (region: Region) => region.slug === params.slug
-  );
-
   const appUser = await getAppUser(currentUser?.email ?? "");
   if (!appUser && currentUser?.email) {
     const displayName = currentUser?.displayName;
@@ -89,7 +84,6 @@ export default async function MapPage({
 
   return (
     <Map
-      region={region}
       regionData={gameRegion}
       user={{
         email: currentUser?.email,

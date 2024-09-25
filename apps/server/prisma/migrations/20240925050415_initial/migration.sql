@@ -15,7 +15,6 @@ CREATE TABLE "AppUser" (
     "photoUrl" TEXT,
     "foundLocations" INTEGER[],
     "username" TEXT,
-    "trackingCategories" INTEGER[],
     "hideFound" BOOLEAN NOT NULL DEFAULT false,
 
     CONSTRAINT "AppUser_pkey" PRIMARY KEY ("id")
@@ -97,10 +96,8 @@ CREATE TABLE "MarkerLocation" (
 -- CreateTable
 CREATE TABLE "Media" (
     "id" SERIAL NOT NULL,
-    "title" TEXT,
     "url" TEXT NOT NULL,
     "type" TEXT NOT NULL,
-    "mimeType" TEXT NOT NULL,
     "markerLocationId" INTEGER,
 
     CONSTRAINT "Media_pkey" PRIMARY KEY ("id")

@@ -21,9 +21,6 @@ export class AppUser extends BaseModel {
   @Field(() => [Int], { nullable: true })
   foundLocations?: number[] | null;
 
-  @Field(() => [Int], { nullable: true })
-  trackingCategories?: number[] | null;
-
   @Field(() => Boolean)
   hideFound: boolean;
 }

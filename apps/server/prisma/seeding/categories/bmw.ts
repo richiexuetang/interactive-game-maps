@@ -91,7 +91,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: "0.73069975846236",
         longitude: "-0.54159164428478",
       },
-
       {
         regionSlug: "chapter-1",
         subRegionSlug: "black-wind-cave",
@@ -515,15 +514,15 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         regionSlug: "chapter-4",
         subRegionSlug: "webbed-hollow",
         title: "Relief of the Fallen Loong",
-        latitude: "0.54594962999816",
-        longitude: "-1.02499294552160",
+        latitude: 0.54594962999816,
+        longitude: -1.0249929455216,
       },
       {
         regionSlug: "chapter-4",
         subRegionSlug: "webbed-hollow",
         title: "Hut of Immortality",
-        latitude: "0.53351099475944",
-        longitude: "-0.85214223353830",
+        latitude: 0.53351099475944,
+        longitude: -0.8521422335383,
       },
       {
         regionSlug: "chapter-4",
@@ -1094,13 +1093,14 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     groupSlug: "bmw_key_items",
     title: "Awaken Wine Worm",
+    info: "Obtaining the wine worm, and churning it into the wine, will transform the drink into a fine brew. This can be used for drink upgrades.",
     locations: [
       {
         regionSlug: "chapter-1",
         title: "Awaken Wine Worm",
         description: "**Location:** Inside the pots",
-        latitude: "0.42466914239110",
-        longitude: "-0.71130333803177",
+        latitude: 0.4246691423911,
+        longitude: -0.71130333803177,
         media: [
           {
             url: "https://media.mapgenie.io/storage/media/230637da-b40a-4706-9e91-472a166a6b3b.png",
@@ -1129,8 +1129,10 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-3",
         title: "Awaken Wine Worm",
-        latitude: "0.64212012708323",
-        longitude: "-0.47676677392408",
+        latitude: 0.64212012708323,
+        longitude: -0.47676677392408,
+        description:
+          "**Location**: Pagoda Realm > Outside the Wheel\n\nWhen standing in front of the shrine, turn around 180°, then turn right and go to the end of the cliffs where a wooden chest is. At the end of the cliffs you can drop down one floor on the left. \n\nNow walk to the end of that floor (don't drop down another floor) and you'll it.",
         media: [
           {
             url: "https://media.mapgenie.io/storage/media/3b0d4ee0-2885-4b3d-b212-9d8e6de5d61e.jpg",
@@ -1139,17 +1141,26 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         ],
       },
       {
+        regionSlug: "chapter-3",
+        title: "Awaken Wine Worm",
+        description:
+          "**Location:** Valley of Ecstasy > Longevity Road\n\n From this shrine go through the gate straight ahead, then take the left path and go downhill on the left. There you will encounter a big enemy with a cat mask. Next to this enemy is a golden glowing keg, destroy this for the worm.",
+        latitude: 1.0940382703529832,
+        longitude: -0.6476080388000516,
+      },
+      {
         regionSlug: "chapter-4",
         title: "Awaken Wine Worm",
-        description: "**Location:** ??",
-        latitude: "0.82953055165665",
-        longitude: "-0.79976526721171",
+        description:
+          "**Location:** Village of Lanxi > Estate of the Zhu\n\nDirectly in front of the shrine go up the small set of stairs and enter the next courtyard. Enter the first building on the right side, it has a golden-glowing keg in it. Has some spider webs at the entrance. The first time you enter this area you will trigger “The Second Sister” boss fight, after defeating her you can collect it (same arena where you fight the boss, first house on right).",
+        latitude: 0.82953055165665,
+        longitude: -0.79976526721171,
       },
       {
         regionSlug: "chapter-4",
         title: "Awaken Wine Worm",
         description: "**Location:** ??",
-        latitude: "0.68971422170272",
+        latitude: 0.68971422170272,
         longitude: "-0.61185244071035",
       },
       {
@@ -1171,9 +1182,10 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         regionSlug: "chapter-5",
         subRegionSlug: "woods-of-ember",
         title: "Awakened Wine Worm",
-        description: "**Location:** Destroy the ice wall to get here",
-        latitude: "0.91464002779016",
-        longitude: "-1.08297542501730",
+        description:
+          "**Location:** Furnace Valley > Rakshasa Palace\n\n From this shrine go straight ahead up the stairs, then over a bridge until you reach two giant enemies with big shields. Take the path left to reach the Old Man NPC. Next to him is a glowing keg with this worm.",
+        latitude: 0.91464002779016,
+        longitude: -1.0829754250173,
       },
     ],
   },
@@ -1201,8 +1213,8 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Celestial Taiyi Pill",
         description:
           "**Location:** On the offering table on the wooden platform",
-        latitude: "0.50980610478955",
-        longitude: "-0.59542894363258",
+        latitude: 0.50980610478955,
+        longitude: -0.59542894363258,
         media: [
           {
             url: "https://media.mapgenie.io/storage/media/23e6194c-7004-4fe8-9672-9c5cc2b3f1bc.png",
@@ -1701,16 +1713,16 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         title: "Celestial Lotus Seeds",
         description:
           "**Location:** Sold by [Shen Monkey](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397479) for 2,400 Will",
-        latitude: "0.72056182148221",
-        longitude: "-0.59427559375806",
+        latitude: 0.72056182148221,
+        longitude: -0.59427559375806,
       },
       {
         regionSlug: "chapter-1",
         title: "Thunderbolt Horn",
         description:
           "**Location:** Sold by [Shen Monkey](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397479) upon reaching Chapter 3",
-        latitude: "0.72107676486739",
-        longitude: "-0.59005916119926",
+        latitude: 0.72107676486739,
+        longitude: -0.59005916119926,
       },
       {
         regionSlug: "chapter-2",
@@ -1785,22 +1797,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           "**Effect:** Using the gourd moderately extends the duration of the next Ring of Fire for a short duration.",
         latitude: "0.81092004575920",
         longitude: "-0.96691757440513",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Celestial Lotus Seeds",
-        description:
-          "**Location:** Sold by [Shen Monkey](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397479) for 2,400 Will",
-        latitude: "0.72056182148221",
-        longitude: "-0.59427559375806",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Thunderbolt Horn",
-        description:
-          "**Location:** Sold by [Shen Monkey](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397479) upon reaching Chapter 3",
-        latitude: "0.72107676486739",
-        longitude: "-0.59005916119926",
       },
       {
         regionSlug: "chapter-3",
@@ -2129,14 +2125,37 @@ export const bmwCategoryLocations: CategoryLocation[] = [
   {
     locations: [
       {
+        subRegionSlug: "forest-of-wolves",
         regionSlug: "chapter-1",
         title: "Chest",
         description:
-          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 5x Tiny Piece of Gold",
+          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 5x Tiny Piece of Gold\n- 2x Stone Spirits",
         latitude: "0.63978624028628",
         longitude: "-0.83063415692880",
+        media: [
+          {
+            url: "https://lh3.googleusercontent.com/6y8npd3MvfBj3KygqqbZIBNwoG_4fCTCxL8-pKE4MfH0UX4QIgU9N9nSYm1h27meircJTM4eTRjO4OTJP6esEkDqDdObD8aGAh2mLFWUTdWUtUPQKA=s0",
+            type: "image",
+          },
+        ],
       },
       {
+        subRegionSlug: "forest-of-wolves",
+        regionSlug: "chapter-1",
+        title: "Chest",
+        description:
+          "**Contents:**\n- Evil Repellent Medicant\n- Tiny Pieces of Gold",
+        latitude: "0.96097433904249",
+        longitude: "-0.93112349510150",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/51e30b7b-a428-4866-b23e-224ad1038037.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        subRegionSlug: "forest-of-wolves",
         regionSlug: "chapter-1",
         title: "Chest",
         description: "**Location:** In the corner",
@@ -2150,6 +2169,7 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         ],
       },
       {
+        subRegionSlug: "forest-of-wolves",
         regionSlug: "chapter-1",
         title: "Chest",
         description: "**Location:** Inside the small building",
@@ -2200,20 +2220,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
       {
         regionSlug: "chapter-1",
         title: "Chest",
-        description:
-          "**Contents:**\n- Evil Repellent Medicant\n- Tiny Pieces of Gold",
-        latitude: "0.96097433904249",
-        longitude: "-0.93112349510150",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/51e30b7b-a428-4866-b23e-224ad1038037.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
         description: "**Contents:** \n- Blood of the Iron Bull\n- Stone Spirit",
         latitude: "0.40541787389770",
         longitude: "-0.83393633365804",
@@ -2252,7 +2258,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
           },
         ],
       },
-
       {
         regionSlug: "chapter-2",
         title: "Chest",
@@ -2434,7 +2439,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         latitude: "0.72941240265064",
         longitude: "-1.04226350784470",
       },
-
       {
         regionSlug: "chapter-3",
         title: "Chest",
@@ -3218,263 +3222,6 @@ export const bmwCategoryLocations: CategoryLocation[] = [
         description: "**Location:** ??",
         latitude: "0.50578794991088",
         longitude: "-0.53109926823848",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** In the small building",
-        latitude: "0.43171354915906",
-        longitude: "-0.71927726268910",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** On the cliffside\n\n**Contains:**\n- Gold",
-        latitude: "0.42121030962220",
-        longitude: "-0.68019747734067",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/90013fb3-2f2c-44b3-86a7-7172d323c681.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Contents:**\n- Blood of the Iron Bull",
-        latitude: "0.78913240328679",
-        longitude: "-0.86078608663038",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** On the right hand side as you ascend the steps of the temple.\n\n**Contains:** Blood of the Iron Bull",
-        latitude: "0.58094578924329",
-        longitude: "-0.95040321349910",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/fbc40b78-3d6a-4802-a76a-d06b7d14d540.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** Inside the small hut.\n\n**Contains:**\n- Blood of the Iron Bull",
-        latitude: "0.36917629898684",
-        longitude: "-0.81920026536741",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/3bb9e75a-0241-46ca-9167-9fc291a3039a.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** Up the steps towards the platforms. Guarded by the Spearbone",
-        latitude: "0.68118472323054",
-        longitude: "-0.65435049767015",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/2f1656c6-78d5-4727-b943-06a394f2dd3b.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** Up the hill and by a tree, beside the large canyon",
-        latitude: "0.64901758293961",
-        longitude: "-0.59402796841956",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/bb58cd9b-d84a-4301-b232-32545afac222.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** Just inside the cave by an obelisk",
-        latitude: "0.74449587857745",
-        longitude: "-0.68575380081839",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/5b14b49a-e3ed-4560-a885-ba650e6810ce.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** Inside the cave - by some ruined stones",
-        latitude: "0.69988530920479",
-        longitude: "-0.71299300507121",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/121beedb-d815-4288-83d6-37c3c175f232.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "To the left of the area \n\n**Rewards:**\n- Knot of Voidness\n- Gold Ridge Beast",
-        latitude: "1.05291257103580",
-        longitude: "-0.53750777116571",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** ??\n\n**Contents:** Silk x3",
-        latitude: "0.51855530341881",
-        longitude: "-0.76377506373538",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** In the corner of the upper area, defended by some rats",
-        latitude: "0.77689949110598",
-        longitude: "-1.07487916946250",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** In the corner area, barricaded by fences",
-        latitude: "0.72863998898146",
-        longitude: "-1.04097604751660",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "**Location:** Inside the house",
-        latitude: "0.77347835944038",
-        longitude: "-1.02605295177140",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description: "Inside small shack",
-        latitude: "0.72305542519173",
-        longitude: "-1.09067847400020",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/351b4d76-ee6f-4fa7-bc8f-52e5305a0c29.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        latitude: "0.74424134792149",
-        longitude: "-0.92976403347444",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** As you approach sunlight after Civet fights, it will be on the righthand side.",
-        latitude: "0.61797084253918",
-        longitude: "-0.97448721110794",
-      },
-      {
-        regionSlug: "chapter-2",
-        title: "Chest",
-        description:
-          "**Location:** Behind rock formation. Wooden Chest blends in with environment",
-        latitude: "0.99836743329006",
-        longitude: "-0.41694022102570",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description:
-          "**Location:** Inside the small chest by the fallen log. Guarded by a Wolf Scout\n\n**Contents:**\n- 5x Tiny Piece of Gold",
-        latitude: "0.63978624028628",
-        longitude: "-0.83063415692880",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description: "**Location:** In the corner",
-        latitude: "0.83164870941249",
-        longitude: "-0.76653242110945",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description: "**Location:** Inside the small building",
-        latitude: "0.76123143764757",
-        longitude: "-0.80200195312511",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description: "**Location:** In the trees",
-        latitude: "0.72681623396670",
-        longitude: "-0.70229887962330",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description:
-          "**Location:** Found at a small gazebo after crossing the bridge, half way up the stairs.  \n\nContains medical items",
-        latitude: "0.74003307705122",
-        longitude: "-0.62145709991358",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Large Chest",
-        description:
-          "**Contents:**\n- 2x Tiny Piece of Gold\n- 2x Stone Spirit",
-        latitude: "0.69284130229342",
-        longitude: "-0.57261960024829",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description:
-          "**Contents:**\n- Evil Repellent Medicant\n- Tiny Pieces of Gold",
-        latitude: "0.96097433904249",
-        longitude: "-0.93112349510150",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description: "**Contents:** \n- Blood of the Iron Bull\n- Stone Spirit",
-        latitude: "0.40541787389770",
-        longitude: "-0.83393633365804",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description:
-          "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380) - one of three chests surrounding the dead tree",
-        latitude: "0.86110687851634",
-        longitude: "-0.74043989181314",
-      },
-      {
-        regionSlug: "chapter-1",
-        title: "Chest",
-        description:
-          "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380) - one of three chests surrounding the dead tree",
-        latitude: "0.85840337225265",
-        longitude: "-0.72890642904261",
       },
     ],
     groupSlug: "bmw_items",

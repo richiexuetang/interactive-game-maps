@@ -14,17 +14,16 @@ generator dbml {
 }
 
 model AppUser {
-  id                 String   @id @default(cuid())
-  createdAt          DateTime @default(now())
-  updatedAt          DateTime @updatedAt
-  email              String   @unique
-  firstName          String?
-  lastName           String?
-  photoUrl           String?
-  foundLocations     Int[]
-  username           String?
-  trackingCategories Int[]
-  hideFound          Boolean  @default(false)
+  id             String   @id @default(cuid())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  email          String   @unique
+  firstName      String?
+  lastName       String?
+  photoUrl       String?
+  foundLocations Int[]
+  username       String?
+  hideFound      Boolean  @default(false)
 }
 
 model Game {

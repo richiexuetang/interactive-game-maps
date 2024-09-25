@@ -10,7 +10,7 @@ import { ZapIcon } from "./icons/zap-icon";
 
 export const MainNav = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#212D40" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <ZapIcon />

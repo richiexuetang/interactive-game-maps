@@ -685,6 +685,134 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         latitude: "0.77631922757723",
         longitude: "-0.69752578560332",
       },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ruined Forge of Starfall Past",
+        description:
+          "**Boss:** ??  \n\n**Notable Items:**\n- [Ancient Meteoric Ore Greatsword](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382226)\n- [Stalwart Horn Charm +2](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381236)",
+        latitude: "0.67619923338275",
+        longitude: "-0.70925517148765",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Belurat Gaol",
+        description:
+          "**Location:** Look for the cave opening directly west from the lake with the [Ghostflame Dragon](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380856)  \n**Boss:** [Demi-Human Swordmaster Onze](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380889)  \n\n**Notable Items:**\n- [Greatjar](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382528)\n- [Demi-Human Swordsman Yosh](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380890)",
+        latitude: "0.67558183390203",
+        longitude: "-0.74624285101879",
+        media: [],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ruined Forge Lava Intake",
+        description:
+          "**Boss:** None \n\n**Notable Items:**\n- [Smithscript Dagger](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380945)\n- [Anvil Hammer](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380949)",
+        latitude: "0.66140522597797",
+        longitude: "-0.71678593006754",
+        media: [],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Rivermouth Cave",
+        description:
+          "**Boss:** [Chief Bloodfiend](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381006)  \n\n**Notable Items:**\n- ??",
+        latitude: "0.68592437234396",
+        longitude: "-0.73661707341520",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/af54840a-3764-4948-86b7-7fed67461631.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Dragon's Pit",
+        description:
+          "**Boss:** [Ancient Dragon-Man](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381039)  \n\n**Notable Items:**\n- [Dragon-Hunter's Great Katana](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381040)\n- [Dragon Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381033)",
+        latitude: "0.64802728718398",
+        longitude: "-0.71635337652506",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/4ce4bb31-5419-4931-b3a9-e1dcc19747cd.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fog Rift Catacombs",
+        description:
+          "**Boss:** [Death Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381925)    \n\n**Notable Items:**\n- ??",
+        latitude: "0.69897236622322",
+        longitude: "-0.72728030383550",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Bonny Gaol",
+        description:
+          "**Boss:** [Curseblade Labirith](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381240)  \n\n**Notable Items:**\n- [Stalwart Horn Charm +2](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381236)\n- [Curseblade Meera](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381241)",
+        latitude: "0.66829276163585",
+        longitude: "-0.69078885018951",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Taylew's Ruined Forge",
+        description:
+          "**Boss:** ??  \n\n**Notable Items:**\n-  Ancient Dragon Smithing Stone",
+        latitude: "0.71950042108131",
+        longitude: "-0.71320071816561",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9908c511-8a3e-464c-bbba-0f1fb35aadeb.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Lamenter's Gaol",
+        description:
+          "**Boss:** [Lamenter](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381950)  \n\n**Notable Items:**\n- Chilling Perfume Bottle\n- Lamenter's Mask\n- Claryfying Horn Charm +2\n- Hefty Cracked Pot\n\n**Notes:** Only accessible from Charo's Hidden Grave, to the south.",
+        latitude: "0.63589712817534",
+        longitude: "-0.72978146374149",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/d1e4ecbf-b4d1-4a41-9441-91b889598968.png",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/565d2c8a-7579-4210-b5cc-a590eb619512.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scorpion River Catacombs",
+        description:
+          "**Boss:** [Death Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381984)  \n\n**Notable Items:**\n- [Imp Head (Lion)](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382534)\n- [Knight's Lightning Spear](https://mapgenie.io/elden-ring/maps/the-shadow-realm?-locationIds=382555)\n- [Cerulean Amber Medallion +3](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381986)\n- [Death Knight's Longhaft Axe](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381985)\n- [Black Knight Captain Huw](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382565)\n- [Ancient Dragon Knight's Cookbook [2]](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382680)\n- [Great Ghost Glovewort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382688)",
+        latitude: "0.70648735060730",
+        longitude: "-0.75765766203273",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/61971eec-e0f2-405d-9e6b-d0ff1e014161.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Darklight Catacombs",
+        latitude: "0.67353008620800",
+        longitude: "-0.68074464798016",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/f4ac606d-e245-4e11-98b0-19fbbd877d60.png",
+            type: "image",
+          },
+        ],
+      },
     ],
     groupSlug: "er_locations",
     title: "Dungeon",
@@ -900,6 +1028,104 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         title: "Elevator",
         latitude: "0.79689195016502",
         longitude: "-0.78843766740746",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ladder",
+        latitude: "0.71306674071496",
+        longitude: "-0.70138584735810",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        latitude: "0.71557285388904",
+        longitude: "-0.69753315484817",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        latitude: "0.71787826269770",
+        longitude: "-0.69839186737445",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        latitude: "0.71441607864951",
+        longitude: "-0.69319062098208",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        description:
+          "**Location:** Behind a door on the ground floor of the church. Leads to [Tree-Worship Passage](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382099). Requires opening [The Dam Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381776)",
+        latitude: "0.71887297821863",
+        longitude: "-0.69618493617941",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stone Elevator Down",
+        description: "Four Pillars",
+        latitude: "0.70978828966419",
+        longitude: "-0.72430436108911",
+        media: [],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        description: "Guarded by one shadow commoner that uses mesmers flame",
+        latitude: "0.71847727120105",
+        longitude: "-0.70242221705755",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        latitude: "0.69222123343968",
+        longitude: "-0.75300632178192",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        description:
+          "Elevator to go up from the rotten zone to get the Pest-Thread Spears",
+        latitude: "0.70465764656180",
+        longitude: "-0.75530431213033",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        description:
+          "The elevator that lets you get to the Aspect of the Crucible : Bloom by going down and to a Revered Spirit Ash enemy drop by going up",
+        latitude: "0.70880751476409",
+        longitude: "-0.75472284965832",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2f3f396b-4d68-43ff-8df0-dea345136194.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Lift",
+        description:
+          'Leads to the closed doors next to the "Belurat, Tower Settlement" Site of Grace',
+        latitude: "0.67444774117590",
+        longitude: "-0.75433091944728",
+        media: [],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        latitude: "0.67680612031239",
+        longitude: "-0.75556283205233",
+        media: [],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elevator",
+        latitude: "0.67817199650119",
+        longitude: "-0.75177960097909",
+        media: [],
       },
     ],
     groupSlug: "er_locations",
@@ -1371,6 +1597,224 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         description: "Under the enemy",
         latitude: "0.58099730036038",
         longitude: "-0.73302216787394",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ellac River Cave Entrance",
+        description: "**Location:** Follow the water into the cave",
+        latitude: "0.67149395996192",
+        longitude: "-0.71277855811050",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Dragon's Pit Abyss",
+        description:
+          "**Location:** Fall into the dark abyss to reach the boss room",
+        latitude: "0.64864203536332",
+        longitude: "-0.71542014211116",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/25a78307-f485-490b-974d-d756f5cd2387.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cliffroad",
+        description:
+          "**Location:** Climb the rocks southeast of the [Main Gate Cross](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380749) Site of Grace",
+        latitude: "0.65770746195030",
+        longitude: "-0.74252732098230",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/58bfdfac-5bac-4e63-9340-57d393e606ff.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Well",
+        description: "Leads to an underground temple.",
+        latitude: "0.68104566429720",
+        longitude: "-0.69522814398087",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Illusory Wall",
+        description:
+          "**Location:** Facing west, strike the wall in between the two torches",
+        latitude: "0.71961226436240",
+        longitude: "-0.70432804829593",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/3356cdec-674a-42a5-a76b-e84a0df97351.jpg",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/53310436-7722-467f-9741-ff3076a8e2cd.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cliffside Path",
+        description:
+          "**Location:** Immediately after passing through the iron gate when coming from the chapel building with [Rellana's Cameo](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381213), turn left and drop off the wall onto the cliff below.  Traverse the cliff to the ladders on the side of the building that lead to the roof.",
+        latitude: "0.67654937344579",
+        longitude: "-0.71818359196271",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/8ae3667e-3f21-4ab0-8eed-96c89b308297.jpg",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/666dd86c-c852-42d8-9a7f-c6f79e07d32c.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Illusory Wall",
+        description:
+          '**Location:** On the southern wall of the room with ["Domain of Dragons" Painting](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381750)',
+        latitude: "0.71215775542058",
+        longitude: "-0.70175506753091",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/7d6e8b7f-3d1e-4be1-89a5-4b4bcec0e266.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Passage To The Depths",
+        latitude: "0.58632164551130",
+        longitude: "-0.72546670635086",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/acfc43d1-8eb0-405f-a6d7-3557716dee64.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cave Entrance",
+        description:
+          "Entrance from the poison swamp to reach the [Ancient Ruins Base](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381371) site of grace and the rest of the Rauh Base area.",
+        latitude: "0.70513014911714",
+        longitude: "-0.70373376934540",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Illusory Wall",
+        latitude: "0.72124536209279",
+        longitude: "-0.73479361746644",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/7f9d375c-8739-45da-9ea7-1e7449a6dde3.jpeg",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/28ccfb58-9a03-4bc5-b1b8-5abe9ea959ce.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Passage to Southern Nameless Mausoleum",
+        description: "**Location:** Behind nearby tree",
+        latitude: "0.61605055640149",
+        longitude: "-0.73156778475891",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e5abb0fd-fcb9-4ea6-a586-2b7572406f88.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Illusory Wall",
+        description:
+          "Beside the path to the cell, to the side of the staircase.",
+        latitude: "0.63653566562223",
+        longitude: "-0.73036955299682",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/6f3ae7ce-51ef-4085-816b-31da29a019b9.png",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/bc612cab-415a-4784-a3fc-c57b5e9aed45.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Tunnel to Poison Swamp north of Moorth Ruins",
+        description: "From the Ancient Ruins Base Site of Grace head east",
+        latitude: "0.70780731738790",
+        longitude: "-0.71273806092839",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cave Entrance",
+        description:
+          "Cave entrance behind a lake from the Scadu Altus area. Leads to a poison swamp and later the [Ancient Ruins Base\n](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381371) site of grace as well as the rest of the Ancient Ruins Base area.",
+        latitude: "0.69249742310775",
+        longitude: "-0.69875678903401",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/b0fea104-3450-4c70-b86a-bfa29ef3bf5a.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Leap of Faith",
+        description: "Jump off the horned head statute",
+        latitude: "0.59378304704744",
+        longitude: "-0.69959490228985",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Hidden Passage",
+        description:
+          "Behind the bookcase, against the westernmost wall of the library. To activate, first find the hidden passage behind the large painting and climb up the ladder, and pull the lever.",
+        latitude: "0.64170296774329",
+        longitude: "-0.70609919025878",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Illusory Wall",
+        description:
+          "Hidden passage behind the large painting, accessible by rolling into or attacking painting.",
+        latitude: "0.63988202816606",
+        longitude: "-0.70259289014845",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Subterranean Entrance",
+        description:
+          "Hole in the ground you can drop down into to reach [Very Large Fingers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382637)",
+        latitude: "0.72050119077730",
+        longitude: "-0.65845853488631",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Passage to Bonny Village",
+        description: "**Location:** Next to collapsed church",
+        latitude: "0.68484268803036",
+        longitude: "-0.69756615843608",
       },
     ],
     groupSlug: "er_locations",
@@ -2673,6 +3117,273 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         description: "Reachable Area through The Four Belfries",
         latitude: "0.73959229152011",
         longitude: "-0.53973732716051",
+      },
+
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church of the Crusade",
+        latitude: "0.69906824806010",
+        longitude: "-0.72197288274799",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church of Consolation",
+        latitude: "0.64469154234651",
+        longitude: "-0.71490794420123",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scorched Ruins",
+        latitude: "0.64717991389551",
+        longitude: "-0.72572027412423",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Western Nameless Mausoleum",
+        latitude: "0.64976935052825",
+        longitude: "-0.73909361110810",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Belurat, Tower Settlement",
+        latitude: "0.66632905832093",
+        longitude: "-0.75177679765497",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Abandoned Ailing Village",
+        latitude: "0.67980788944068",
+        longitude: "-0.73390492900353",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Run-Down Traveler's Rest",
+        latitude: "0.66982340913938",
+        longitude: "-0.73222532560683",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ellac Greatbridge",
+        latitude: "0.67098175150912",
+        longitude: "-0.72890250639600",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Supressing Pillar",
+        latitude: "0.64661925767254",
+        longitude: "-0.71100667118952",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Castle Ensis",
+        latitude: "0.68209437513713",
+        longitude: "-0.71804311104793",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Whipping Hut",
+        latitude: "0.68094587605964",
+        longitude: "-0.68408533930756",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Rabbath's Rise",
+        latitude: "0.70811933275274",
+        longitude: "-0.67373654660349",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cathedral of Manus Metyr",
+        latitude: "0.69211647463517",
+        longitude: "-0.68252362310875",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Prospect Town",
+        latitude: "0.64267167779688",
+        longitude: "-0.74553164884068",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church of Benediction",
+        latitude: "0.63341262456819",
+        longitude: "-0.73308546565286",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Artist's Shack",
+        latitude: "0.63647332340751",
+        longitude: "-0.73204335769623",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/a547dee9-4b04-48f1-96b3-0f781396c4be.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Shadow Keep",
+        latitude: "0.71569600599916",
+        longitude: "-0.70223785936759",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fog Rift Fort",
+        description:
+          "**Location:** From the [Scadu Altus, West](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380259) Site of Grace, head just west, then drop down the cliff to the ledges below, following the path down to the first tower with the [Stake of Marika](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381505)",
+        latitude: "0.68695024366242",
+        longitude: "-0.72446197271276",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fort of Reprimand",
+        latitude: "0.66636505466393",
+        longitude: "-0.69792285561394",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Temple Town Ruins",
+        latitude: "0.69085341462781",
+        longitude: "-0.73825799579410",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Southern Nameless Mausoleum",
+        latitude: "0.61180626355478",
+        longitude: "-0.73451320276942",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stone Coffin Fissure",
+        latitude: "0.58751417763330",
+        longitude: "-0.71796968579383",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Finger Ruins of Miyr",
+        description:
+          "**Boss:** ??  \n\n**Notable Items:**\n- ??\n\n**Notes:** Only accessible after progressing ??. Interact with the throne to open the ruins.",
+        latitude: "0.69729946254631",
+        longitude: "-0.68328067660363",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Northern Nameless Mausoleum",
+        description:
+          "Can be reached from the Rauh Ruins: From the Ancient Ruins Base Site of Grace",
+        latitude: "0.68940424734643",
+        longitude: "-0.72955064215708",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ruins of Unte",
+        latitude: "0.70676889573032",
+        longitude: "-0.68996115621852",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/335a5284-d353-4faa-9cb9-74513dc17ed5.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Eastern Nameless Mausoleum",
+        latitude: "0.68372587694235",
+        longitude: "-0.68031176567160",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church of the Bud",
+        latitude: "0.69804561873480",
+        longitude: "-0.75755126374386",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Grand Altar of Dragon Communion",
+        latitude: "0.62010590069647",
+        longitude: "-0.69696597754901",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Finger-Weaver's Hovel",
+        latitude: "0.61907353661586",
+        longitude: "-0.70351036643018",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Elder's Hovel",
+        description: "Contains Talisman of the Dread.",
+        latitude: "0.66140061905374",
+        longitude: "-0.69531038403278",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scadutree Chalice",
+        latitude: "0.73820597419544",
+        longitude: "-0.70019669830714",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Shaman Village",
+        latitude: "0.71558181497478",
+        longitude: "-0.67808980151261",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Finger Ruins of Dheo",
+        latitude: "0.70067292000269",
+        longitude: "-0.65348254780619",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Albinauric's Shack",
+        latitude: "0.73105512224546",
+        longitude: "-0.70578373968789",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Village of Flies",
+        latitude: "0.67585540019536",
+        longitude: "-0.69030135869909",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Moorth ruins",
+        latitude: "0.68361027415668",
+        longitude: "-0.69994462138598",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Bonny Village",
+        latitude: "0.68062332060552",
+        longitude: "-0.69138605630636",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Finger Ruins of Rhia",
+        latitude: "0.63460882931543",
+        longitude: "-0.68559408187704",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Midra's Manse",
+        latitude: "0.63980419403380",
+        longitude: "-0.70216208696294",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Enir-Ilim",
+        latitude: "0.68506484297029",
+        longitude: "-0.75673959908866",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Abandoned Church",
+        description: "The ruins of an abandoned church in the Abyssal Woods.",
+        latitude: "0.64570117580951",
+        longitude: "-0.66112228379905",
       },
     ],
     groupSlug: "er_locations",
@@ -4151,6 +4862,363 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           },
         ],
       },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        latitude: "0.63403202659795",
+        longitude: "-0.73205302775841",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "Lake North of the Greatbridge",
+        latitude: "0.67481780526452",
+        longitude: "-0.73830036880892",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "**Location:** [Scorpion River Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381982)",
+        latitude: "0.70640278814339",
+        longitude: "-0.75795303033408",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "_[Bonny Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381230)_",
+        latitude: "0.66845815301403",
+        longitude: "-0.69101634368988",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "_[Moorth Highway, South](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380349)_",
+        latitude: "0.66892014570887",
+        longitude: "-0.70071348837317",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9b9bc89d-acbf-4987-bd12-54beeb0920b5.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "_[Northern Nameless Mausoleum](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381976)_",
+        latitude: "0.68945830272446",
+        longitude: "-0.72932137004798",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Cerulean Coast_",
+        latitude: "0.62293159112714",
+        longitude: "-0.71508783506755",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Fog Rift Catacombs_",
+        latitude: "0.69964728858510",
+        longitude: "-0.72739608137974",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Belurat Gaol_",
+        latitude: "0.67624434702357",
+        longitude: "-0.74653915039011",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Stagefront_",
+        latitude: "0.67771135050577",
+        longitude: "-0.75374487351345",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Small Private Altar_",
+        latitude: "0.67199347233569",
+        longitude: "-0.75131270644789",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "Next to the Belurat, Tower Settlement site of grace",
+        latitude: "0.67425174337299",
+        longitude: "-0.75515094637976",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/cf19c574-df22-4148-9805-c3afe96a3140.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Drake Graveyard_",
+        latitude: "0.64345252313473",
+        longitude: "-0.70013923842626",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Dragon's Pit_",
+        latitude: "0.64928500893558",
+        longitude: "-0.71565882925179",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Western Nameless Mausoleum_",
+        latitude: "0.64953190636358",
+        longitude: "-0.73855946305761",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_River Mouth Cave_",
+        latitude: "0.68654129959843",
+        longitude: "-0.73634060959623",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Jagged Peak Summit_",
+        latitude: "0.62991885141692",
+        longitude: "-0.64378631507964",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "_Fog Rift Fort_\nDrop down following the rock outcroppings along the cliffside to the south of the [Scadu Altus, West Site of Grace](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380259). Martyr Effigy located at the top of the rampart.",
+        latitude: "0.68791472506730",
+        longitude: "-0.72416368772571",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Castle Front_",
+        latitude: "0.67755897277240",
+        longitude: "-0.72412472571557",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        latitude: "0.72014360903940",
+        longitude: "-0.75772840071014",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "**Location:** Next to the Site of Grace, before going up the stairs.",
+        latitude: "0.67476656725631",
+        longitude: "-0.76383121710430",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Lamenter's Gaol)",
+        latitude: "0.63662445328093",
+        longitude: "-0.73024105876650",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Stone Coffing Fissure)",
+        latitude: "0.58851139934704",
+        longitude: "-0.71751700871192",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "**Location:** East of the site of grace, in front of the Midra, Lord of Frenzied Flame boss room.",
+        latitude: "0.63877394979892",
+        longitude: "-0.70246517680090",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Manse Hall)",
+        latitude: "0.64011475135425",
+        longitude: "-0.70103624942027",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "_Southern Nameless Mausoleum_",
+        latitude: "0.61156579635151",
+        longitude: "-0.73411694852493",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Fissure Depths)",
+        description: "Next to grace",
+        latitude: "0.59632811662671",
+        longitude: "-0.69897964596879",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "Next to the grace",
+        latitude: "0.71135089038417",
+        longitude: "-0.70720843785125",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "**Location:** By the Dark Chamber Entrance Site of Grace.",
+        latitude: "0.72064883255351",
+        longitude: "-0.70463678548506",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Tree-Worship Passage)",
+        latitude: "0.72008378661045",
+        longitude: "-0.69637692726732",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Back Gate)",
+        latitude: "0.72207688481231",
+        longitude: "-0.69834950435285",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Tree-Worship Sanctum)",
+        latitude: "0.72417391859696",
+        longitude: "-0.69392872786011",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "Next to grace",
+        latitude: "0.71814224848809",
+        longitude: "-0.70976331725714",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "Martyr Effigy along the bridge, after defeating the Golem Sniper and dropping down to the lower bridge",
+        latitude: "0.70057909756997",
+        longitude: "-0.73960305964971",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Spiral Rise)",
+        latitude: "0.68381920341201",
+        longitude: "-0.76299593546057",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Enir-Ilim: Outer Wall)",
+        latitude: "0.68950004047396",
+        longitude: "-0.75723862312651",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (First Rise)",
+        latitude: "0.68384828413716",
+        longitude: "-0.75607334096765",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Divine Gate Front Staircase)",
+        latitude: "0.68055789303469",
+        longitude: "-0.75743202445560",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "**Location:** By the Sunken Chapel Site of Grace.",
+        latitude: "0.71200579296988",
+        longitude: "-0.69586971068568",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Romina, Saint of the Bud)",
+        latitude: "0.69956011932176",
+        longitude: "-0.75778534745706",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description: "Martyr Effigy beside the small lake",
+        latitude: "0.69652167947183",
+        longitude: "-0.70060372352586",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        latitude: "0.67316533097227",
+        longitude: "-0.68070776760288",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        latitude: "0.68388347224749",
+        longitude: "-0.68060333109747",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Seventh Floor)",
+        latitude: "0.72032430140229",
+        longitude: "-0.70156418538588",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        latitude: "0.71521091659081",
+        longitude: "-0.69267049570186",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        latitude: "0.71405299977664",
+        longitude: "-0.72855832727811",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Charo's Hidden Grave)",
+        latitude: "0.62470156067791",
+        longitude: "-0.71451275864024",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (South Charo's Hidden Grave)",
+        latitude: "0.61546288946306",
+        longitude: "-0.70865589447075",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy (Finger Ruins of Miyr)",
+        latitude: "0.69746038316511",
+        longitude: "-0.68294251848300",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Martyr Effigy",
+        description:
+          "Near the [Hinterland](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382106) Site of Grace",
+        latitude: "0.71972973186473",
+        longitude: "-0.69386199116502",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/fbd1f8bb-c2ea-440c-960c-4524d0ccf4fb.png",
+            type: "image",
+          },
+        ],
+      },
     ],
     groupSlug: "er_locations",
     title: "Martyr Effigy",
@@ -4624,6 +5692,42 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         latitude: "0.77710982628913",
         longitude: "-0.80941329850901",
       },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Portal to Ancient Ruins of Ruah",
+        description:
+          "**Leads to:** [Portal to Castle Ensis](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382542). Use the [Imbued Sword Key](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381218) to activate.",
+        latitude: "0.68459145447736",
+        longitude: "-0.71791325569808",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2cd1575e-7706-458a-a7cf-98433a1afd98.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stone Coffin",
+        description:
+          "**Location:** Behind the [Illusory Wall](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381751)  \n**Leads to:** [Castle Watering Hole](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381753)",
+        latitude: "0.71068332656067",
+        longitude: "-0.70176924582427",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c9c206be-71c6-47c3-bd8e-8f9a9ca64d8e.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Portal to Castle Ensis",
+        description:
+          "**Leads to:** [Portal to Ancient Ruins of Ruah](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381311)",
+        latitude: "0.70660938183927",
+        longitude: "-0.73645949363726",
+      },
     ],
     groupSlug: "er_locations",
     title: "Portal",
@@ -4642,6 +5746,1130 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           },
           {
             url: "https://media.mapgenie.io/storage/media/cce31a34-1e21-4c5f-a23d-0812cbfb7298.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Gravesite Plain",
+        latitude: "0.63799013280462",
+        longitude: "-0.73054668687249",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e79fdc61-8173-4a94-8b2f-7050fc30c551.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ensis Moongazing Grounds",
+        latitude: "0.68211925948698",
+        longitude: "-0.71379214525356",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2c9284c5-fb38-484c-ab7f-a50651670212.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Highroad Cross",
+        latitude: "0.68633056945758",
+        longitude: "-0.71233450019622",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ef630bbd-9c43-46f4-9078-9304b6e63070.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scadu Altus, West",
+        latitude: "0.68863259743972",
+        longitude: "-0.72204304583400",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/153e9e8a-4efd-4f39-928c-606985f74027.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ruined Forge of Starfall Past",
+        latitude: "0.67583394401663",
+        longitude: "-0.70925518870484",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Moorth Highway, South",
+        latitude: "0.66924553380055",
+        longitude: "-0.70098157505205",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Moorth Ruins",
+        latitude: "0.68565255351997",
+        longitude: "-0.70286005196027",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cerulean Coast",
+        description:
+          "**Location:** From the [Ellac River Cave](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380961), head south down the river.  Use Torrent to carefully descend down the rocks near the waterfalls until you reach the river below, and follow it all the way to the site of grace",
+        latitude: "0.62276794290315",
+        longitude: "-0.71537492315218",
+        media: [
+          {
+            url: "https://youtu.be/-0pX7sE3Als?t=282",
+            type: "youtube",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Bridge Leading to Village",
+        description: "**Location:** ??",
+        latitude: "0.68393231105071",
+        longitude: "-0.67934068410725",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church District Highroad",
+        description: "**Location:** ??",
+        latitude: "0.70762991497166",
+        longitude: "-0.67746860336570",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scorched Ruins",
+        latitude: "0.65027811412672",
+        longitude: "-0.72542353197755",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Three-Path Cross",
+        latitude: "0.66171941515594",
+        longitude: "-0.73419831489105",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Main Gate Cross",
+        latitude: "0.66260326888613",
+        longitude: "-0.74835637589871",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/883a995e-fdcc-482a-9fc8-75242a741c85.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Belurat, Tower Settlement",
+        latitude: "0.67355979951390",
+        longitude: "-0.75531731355451",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/34efec80-04c2-4ec6-8dda-2b4629c986a9.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Small Private Altar",
+        latitude: "0.67152737223046",
+        longitude: "-0.75109948455744",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/52b937da-0316-4146-a80b-fe8528875efd.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stagefront",
+        latitude: "0.67774707917485",
+        longitude: "-0.75392366580857",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Theatre of the Divine Beast",
+        description:
+          "**Note:** Only accessible after defeating [Divine Beast Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380798)",
+        latitude: "0.67855547246651",
+        longitude: "-0.75276600375574",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/cccc8f8a-32dd-4622-9cf9-f717776a3228.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Greatbridge, North",
+        latitude: "0.67524044447545",
+        longitude: "-0.73600110262916",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Belurat Gaol",
+        description:
+          "**Location:** Underground from the Tower Settlement - access via the [Belurat Gaol Cave Entrance](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)",
+        latitude: "0.67561200665584",
+        longitude: "-0.74661836028162",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Castle Front",
+        latitude: "0.67760509791222",
+        longitude: "-0.72380591712107",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ruined Forge Lava Intake",
+        latitude: "0.66114284915669",
+        longitude: "-0.71658896795699",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ellac River Cave",
+        description:
+          "**Location:** Accessed via the [Ellac River Cave Entrance](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380962) to the east",
+        latitude: "0.66704278843295",
+        longitude: "-0.72106020848548",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/be49ac36-5eb6-4809-87c7-0c000a7a103a.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Rivermouth Cave",
+        latitude: "0.68632198131873",
+        longitude: "-0.73664590716214",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/45bc5b2e-92bb-4313-a6c6-b4a58227f0e3.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Pillar Path Cross",
+        latitude: "0.66568208874858",
+        longitude: "-0.71019017447472",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/620796f9-521b-4fc9-878b-8ede3bc5ef92.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Pillar Path Waypoint",
+        latitude: "0.66136473728467",
+        longitude: "-0.71378349319411",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/cd52aa9f-fc95-4a7e-a99e-4cafe24c00ee.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Dragon's Pit",
+        latitude: "0.64808399673029",
+        longitude: "-0.71604145406693",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/dfe5bac0-f107-4416-8d79-4cba9a800456.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Dragon's Pit Terminus",
+        latitude: "0.64369489096438",
+        longitude: "-0.70864025055846",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fog Rift Catacombs",
+        latitude: "0.69866668854635",
+        longitude: "-0.72725815664654",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/431b93e8-0abb-4d3b-b04b-7b344e1b326f.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Castle Ensis Checkpoint",
+        latitude: "0.68364839823880",
+        longitude: "-0.71912383815337",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/a8125d14-4682-4315-8096-6290dd4f1317.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Castle-Lord's Chamber",
+        latitude: "0.68022992512542",
+        longitude: "-0.71260131756009",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/aafe4e02-c2d3-4d1c-9ae2-a09521984f6b.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cliffroad Terminus",
+        description:
+          "**Location:** Take the [Cliffside Path](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381222) south of [Belurat, Tower Settlement](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380758) to reach this location",
+        latitude: "0.64979372195290",
+        longitude: "-0.74493659973962",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/a06745f8-8702-4c18-8a28-07c645771350.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Bonny Village",
+        latitude: "0.68021540379996",
+        longitude: "-0.69515648984253",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Bonny Gaol",
+        latitude: "0.66805741379925",
+        longitude: "-0.69079890847345",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Shadow Keep Main Gate",
+        latitude: "0.71136592756589",
+        longitude: "-0.70657968511819",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2070e9f2-d2d5-4aea-b312-1fa7640770f4.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Main Gate Plaza",
+        description:
+          "Defeat [Golden Hippopotamus](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381323) to unlock this site of grace",
+        latitude: "0.71264724175775",
+        longitude: "-0.70578575134272",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/0bdc1459-723d-4910-a761-44308a4ca5e5.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Storehouse, First Floor",
+        latitude: "0.71760430883120",
+        longitude: "-0.70114690592507",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/59df8920-0fb8-43d4-a716-3f758470df09.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "West Rampart",
+        latitude: "0.71792613516375",
+        longitude: "-0.70942935866017",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ef6f0121-84be-4931-9a9b-794bdc745d1c.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ancient Ruins Base",
+        description:
+          "**Location:** To reach this Site of Grace, find the tunnel that starts at the [Scadutree Fragment](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381364), just north of the lake in the Scadu Altus region.  Follow the tunnel to the poison area in the north.  Hug the western wall in the poison area continuing to head north, then west through a big cavern and all the way until you reach the Rauh Base region.",
+        latitude: "0.70906140430164",
+        longitude: "-0.71525126695553",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/98dfe16d-f9d9-4d93-8b60-65db56a5300a.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Viaduct Minor Tower",
+        latitude: "0.71506151404361",
+        longitude: "-0.72706675209369",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/749e86ef-434b-4f2a-89f2-6aedc4b859f3.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Storehouse, Fourth Floor",
+        latitude: "0.71842349743741",
+        longitude: "-0.70195795510165",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/b91b4a95-44ba-47fa-9259-ce012dd4efbf.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Storehouse, Seventh Floor",
+        latitude: "0.71980616879095",
+        longitude: "-0.70170544087736",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/374e5d54-cdb0-49c8-b113-6f088ac03138.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Dark Chamber Entrance",
+        latitude: "0.72034347755366",
+        longitude: "-0.70493920400955",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/314c9fee-d64a-42c7-bf01-630748073a6e.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Messmer's Dark Chamber",
+        latitude: "0.72170167002523",
+        longitude: "-0.70478528737857",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Castle Watering Hole",
+        description:
+          "**Location:** Enter the [Stone Coffin](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381752) to reach this Site of Grace",
+        latitude: "0.70864180890149",
+        longitude: "-0.69821049415293",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/865cbed9-183b-4b75-ba64-130aee70a732.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church District Entrance",
+        latitude: "0.71527983317068",
+        longitude: "-0.69251290378006",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Taylew's Ruined Forge",
+        latitude: "0.71973643685874",
+        longitude: "-0.71310415864028",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/5525eca0-f79c-4034-859e-16f9f70c6571.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Storehouse, Back Section",
+        latitude: "0.71749205489995",
+        longitude: "-0.69970078537318",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Storehouse, Loft",
+        latitude: "0.71700787377723",
+        longitude: "-0.69986259973024",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/98eeec9f-cf4b-4517-bd20-6b7483cc2ba2.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Shadow Keep, Back Gate",
+        latitude: "0.72193299767605",
+        longitude: "-0.69860496037833",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Sunken Chapel",
+        latitude: "0.71212156942502",
+        longitude: "-0.69665886461632",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fort of Reprimand",
+        latitude: "0.66752435977925",
+        longitude: "-0.69838376264147",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Temple Town Ruins",
+        latitude: "0.69716141494941",
+        longitude: "-0.74074880829170",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ca6d96e5-5399-46a2-917e-317dbc46d76b.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Lamenter's Gaol",
+        latitude: "0.63634704100815",
+        longitude: "-0.72980023920653",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/bc810725-50cb-428d-b7f3-f777f77ca3d3.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stone Coffin Fissure",
+        latitude: "0.58797281124346",
+        longitude: "-0.71796968579324",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/a72c9b14-88fe-4140-939f-f8a322d7e174.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "The Fissure",
+        description:
+          "**Location:** At the bottom of the big hole (Passage To The Depths).",
+        latitude: "0.58671760337802",
+        longitude: "-0.72183609008650",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ee7d2299-2ba4-41fc-8f47-38d4fb6182e1.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fissure Cross",
+        latitude: "0.58494002805507",
+        longitude: "-0.71077354052110",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/51c8fedf-bc55-47bf-9ee1-51f5f5ae2eeb.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fissure Waypoint",
+        latitude: "0.59796078302614",
+        longitude: "-0.70819665214182",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/0ed10dd7-f0bc-45da-9a4e-84fe72c22a99.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fissure Depths",
+        latitude: "0.59560923729821",
+        longitude: "-0.69891787982124",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c1c57703-f6ed-4bf4-b987-1412b2f362ba.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Garden of Deep Purple",
+        latitude: "0.58829994960176",
+        longitude: "-0.70516386341922",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/13c4fd18-f621-49eb-b0e6-fcaddaed7c2c.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scorpion River Catacombs",
+        latitude: "0.70599206872932",
+        longitude: "-0.75768252698271",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/377c0923-46c9-4605-a2ca-116881072519.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Darklight Catacombs",
+        latitude: "0.67400748640326",
+        longitude: "-0.68073593080041",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/73efdfaa-c820-409a-8587-aa4e193387ff.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ellac River Downstream",
+        description: "Underground",
+        latitude: "0.64799447257467",
+        longitude: "-0.71996457874837",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cerulean Coast West",
+        latitude: "0.62108283802060",
+        longitude: "-0.73529541492462",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9c5fb92a-94e6-46b8-b157-b35e58006ca5.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cerulean Coast Cross",
+        latitude: "0.60056148189490",
+        longitude: "-0.71040921953386",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Finger Ruins of Rhia",
+        description:
+          "On the edge of the cliff, overlooking the vast expanse of giant fingers",
+        latitude: "0.61644959214837",
+        longitude: "-0.68963751196782",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/acf8bda2-f2e1-4dcc-9f6f-220b60b6da26.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Charo's Hidden Grave",
+        latitude: "0.62443685601652",
+        longitude: "-0.71423358721196",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/80c64e4a-5f1b-4cb4-a19f-7379cbf9850c.png",
+            type: "image",
+          },
+          {
+            url: "https://youtu.be/-0pX7sE3Als?t=396",
+            type: "youtube",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Grand Altar of Dragon Communion",
+        latitude: "0.62095193596693",
+        longitude: "-0.69687214846732",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/d4dd42aa-a722-44dd-94f3-24d9b058b935.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Foot of the Jagged Peak",
+        latitude: "0.63906953657931",
+        longitude: "-0.67500564092560",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e4ab2ace-e417-48b6-a446-790a9209f8d4.png",
+            type: "image",
+          },
+          {
+            url: "https://youtu.be/-0pX7sE3Als?t=469",
+            type: "youtube",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Jagged Peak Mountainside",
+        latitude: "0.63782099963586",
+        longitude: "-0.64666035327915",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/b3f7f8ec-1e1e-4cbd-ba1b-e36c1d01b695.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Jagged Peak Summit",
+        latitude: "0.62960019301991",
+        longitude: "-0.64344179807819",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/3bc5f3d6-73d7-4a51-8fce-7dc311f854d4.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Rest of the Dread Dragon",
+        latitude: "0.62492313726447",
+        longitude: "-0.63953411652861",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/43ccadb3-6875-4a75-9197-b3c7ede60c39.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Rauh Ancient Ruins, East",
+        latitude: "0.70909539968913",
+        longitude: "-0.73702432419353",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/28c9dc2e-711f-47d6-a7bf-dc8f2a185698.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Rauh Ancient Ruins, West",
+        latitude: "0.69535436139986",
+        longitude: "-0.74493059117293",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/b2bf9288-025d-416d-901e-d78498cfd665.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ancient Ruins, Grand Stairway",
+        description: "Use the elevator just to the west to reach it",
+        latitude: "0.69266092330901",
+        longitude: "-0.75035333633505",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/f233f34f-45dc-4579-a982-3870b2518e90.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church of the Bud, Main Entrance",
+        latitude: "0.70000692777758",
+        longitude: "-0.75735693522782",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/75921389-1c7d-4557-97be-2d3b6101604c.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church of the Bud",
+        latitude: "0.69811791642309",
+        longitude: "-0.75711204515818",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2a5a1226-50f9-4185-b0a3-668da0dd7a8f.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Ravine North",
+        latitude: "0.71331297038002",
+        longitude: "-0.74460116468501",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Behind the Fort of Reprimand",
+        description: "Accessible from the spiritstream near the shack below",
+        latitude: "0.66434951049763",
+        longitude: "-0.69681376218628",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scaduview Cross",
+        latitude: "0.66680585600032",
+        longitude: "-0.69012765287505",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cathedral of Manus Metyr",
+        latitude: "0.69209233651684",
+        longitude: "-0.68226478993657",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Recluses' River Upstream",
+        latitude: "0.69643159458481",
+        longitude: "-0.69184537942792",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ff0840f1-a23c-422d-8422-e2f9531676f1.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Recluses' River Downstream",
+        latitude: "0.68111551379444",
+        longitude: "-0.68687818944559",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/93f0d3fc-77d8-4d48-b253-0537c324a65e.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Forsaken Graveyard",
+        description:
+          "Only appears after beating the boss of the [Darklight Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382019).",
+        latitude: "0.67169686379366",
+        longitude: "-0.67041076185080",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c9591c95-5f69-47b9-945a-7bc6e360732c.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Woodland Trail",
+        latitude: "0.65996716589508",
+        longitude: "-0.67433966197288",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/af5fb09c-d8ae-401e-9be2-86e9613be21c.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Church Ruins",
+        latitude: "0.64586383878303",
+        longitude: "-0.66152935094834",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/deb526c4-8bd6-4ebd-a865-b712849a4090.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Abyssal Woods",
+        latitude: "0.66009159058058",
+        longitude: "-0.68456029583052",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/731643b7-747c-4a14-8bfe-55bb0fd26b20.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Divided Falls",
+        latitude: "0.66508431027648",
+        longitude: "-0.70579120765245",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9a35549e-a7e6-4fb4-8a07-25f1c94901bf.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Manse Hall",
+        latitude: "0.63989210506534",
+        longitude: "-0.70134130451774",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/971a6297-6e15-4685-865b-268a7dcdbf9a.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Midra's Library",
+        latitude: "0.63969825338192",
+        longitude: "-0.70246785879198",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/4c7f1f18-75e2-4ef5-b5ef-28aaee8566a1.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Second Floor Chamber",
+        latitude: "0.63866825323595",
+        longitude: "-0.70261252687703",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9f0e72fa-db58-4417-9efc-a8f97db2ac75.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Discussion Chamber",
+        latitude: "0.63766607827631",
+        longitude: "-0.70215448299771",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/6bc68a07-0601-48ca-be8b-9fa470fd5a14.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Tree-Worship Passage",
+        latitude: "0.71953652404166",
+        longitude: "-0.69655360179166",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Tree-Worship Sanctum",
+        latitude: "0.72429129178533",
+        longitude: "-0.69360819057175",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scaduview",
+        latitude: "0.72635781649946",
+        longitude: "-0.69961773983121",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/3f114eac-66cf-4b4c-bbac-ed35365c6032.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Scadutree Base",
+        description: "Note : It only appears after beating the boss.",
+        latitude: "0.72907621751914",
+        longitude: "-0.69124724373549",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/5b53d6ba-67bb-43c9-9d3f-a3b73175fb7f.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Hinterland",
+        latitude: "0.72078979121369",
+        longitude: "-0.69486111402477",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/394706b1-b914-4417-b1f9-67fcddf86d71.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Hinterland Bridge",
+        latitude: "0.72347400033885",
+        longitude: "-0.68184346496582",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/85adfc68-5806-49d8-ba46-7ef4dbce1047.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Fingerstone Hill",
+        latitude: "0.72406053401043",
+        longitude: "-0.67066112153995",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c9777b11-164b-44bd-83e7-33bb08cdea2b.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Enir-Ilim: Outer Wall",
+        latitude: "0.68863684592222",
+        longitude: "-0.75648531031285",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/5dd34d3f-420e-49c3-9de3-03b27ecafffc.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "First Rise",
+        latitude: "0.68427414909529",
+        longitude: "-0.75511891343692",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/29c137c8-8605-48cc-a624-875b9dafa214.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiral Rise",
+        latitude: "0.68367984178475",
+        longitude: "-0.76332093869109",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c9f42b1a-992a-4e20-86fb-3c51721445ed.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Cleansing Chamber Anteroom",
+        latitude: "0.67524032313995",
+        longitude: "-0.76456654099033",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/d20a6d57-697f-439f-a946-2c54a68c22b3.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Divine Gate Front Staircase",
+        latitude: "0.68018358427807",
+        longitude: "-0.75786609306803",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e0a093ea-4196-41c5-ba9b-c2e1a3975d97.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Gate of Divinity",
+        latitude: "0.68107491428431",
+        longitude: "-0.75927746515924",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/281658ab-8460-4674-843f-e48077b6627b.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Finger Birthing Grounds",
+        description:
+          "Underground, available after defeating [Metyr, Mother of Fingers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382002)",
+        latitude: "0.69964286853408",
+        longitude: "-0.68280793726424",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/3c690bdd-07c0-48e6-8124-75da3eeb1deb.png",
             type: "image",
           },
         ],
@@ -4960,6 +7188,133 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
             type: "image",
           },
         ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.69590950936177",
+        longitude: "-0.67432046502984",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Sealed Spiritspring Jump",
+        description:
+          "Smash the [Stone Cairn](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381259) to unseal.",
+        latitude: "0.70917067826915",
+        longitude: "-0.67360780057089",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Sealed Spiritspring",
+        description:
+          "Unlock Sealed Spirit Spring by breaking [Stone Cairn](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382209).",
+        latitude: "0.69706174051285",
+        longitude: "-0.73134411013811",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/b598f64b-d949-4b7d-9935-bb2dcc6c5375.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Sealed Spiritspring Jump",
+        description:
+          "Destroy the small rock formation nearby to the east, to activate the spiritspring jump.",
+        latitude: "0.67583915135602",
+        longitude: "-0.69679660965767",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Sealed Spiritspring Jump",
+        description:
+          "Break [Stone Cairn](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382332) to unlock Sealed Spiritspring.",
+        latitude: "0.66367363921866",
+        longitude: "-0.69931425154090",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.64347850281732",
+        longitude: "-0.67923009549179",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        description:
+          "Under bridge next to wall just north of temple town ruins",
+        latitude: "0.70122079607012",
+        longitude: "-0.73952983262308",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Sealed Spirit Spring",
+        latitude: "0.70551232676270",
+        longitude: "-0.75119920244336",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.62531377245826",
+        longitude: "-0.73675319552490",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        description:
+          "**Location:** Up the cliffside from Poison Pools.\n\nThis is the second Spiritspring Jump leading up the cliffside, starting from [Sealed Spiritspring](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382235)",
+        latitude: "0.66408740929714",
+        longitude: "-0.69719544242892",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        description: "_Second Spirit Spring on the way up the cliffside_",
+        latitude: "0.69590294050187",
+        longitude: "-0.72951679415206",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.63509636650261",
+        longitude: "-0.65006223846515",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.63290942685775",
+        longitude: "-0.66435705908268",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.63261236153249",
+        longitude: "-0.66180214148432",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.63077083743680",
+        longitude: "-0.64472897232446",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.62785811740672",
+        longitude: "-0.65153055754732",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring Jump",
+        latitude: "0.71464571031268",
+        longitude: "-0.73873756318690",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Spiritspring",
+        latitude: "0.71784161616833",
+        longitude: "-0.74166561856600",
       },
     ],
     groupSlug: "er_locations",
@@ -5671,6 +8026,170 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           },
         ],
       },
+
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.69624941368565",
+        longitude: "-0.70056249648545",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.63949332405434",
+        longitude: "-0.71640174469420",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.64991954460494",
+        longitude: "-0.73860008464248",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.67387204421786",
+        longitude: "-0.75544148683596",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.67204332401739",
+        longitude: "-0.75120908397935",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.67789727236972",
+        longitude: "-0.75360180073488",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.67539916457220",
+        longitude: "-0.73803016318527",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        description:
+          "**Location:** Inside the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)",
+        latitude: "0.67582857997198",
+        longitude: "-0.74647888541298",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        description:
+          "**Location:** Outside the boss room in the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)",
+        latitude: "0.67316264894768",
+        longitude: "-0.75322464108439",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.68643306084459",
+        longitude: "-0.73684524790070",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.64826669937446",
+        longitude: "-0.71583531797057",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.69925771647307",
+        longitude: "-0.72729074258126",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.66789649219291",
+        longitude: "-0.69079890847271",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.68852726895064",
+        longitude: "-0.72393625974593",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.59574173852573",
+        longitude: "-0.69839399210431",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.61171499548318",
+        longitude: "-0.73414024900268",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        description: "Near the site of grace Moorth Highway, South",
+        latitude: "0.66892086531186",
+        longitude: "-0.70080149533038",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.70219312071887",
+        longitude: "-0.73888274700286",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        description: "Before the entrance of a cave",
+        latitude: "0.69109105464024",
+        longitude: "-0.69811545531437",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.68393845354309",
+        longitude: "-0.76292555955408",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.62818999892454",
+        longitude: "-0.73015748212430",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.67680818625068",
+        longitude: "-0.75478908163436",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.71137184714730",
+        longitude: "-0.70639659431939",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.68305940976893",
+        longitude: "-0.72641965592720",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        latitude: "0.65346873452330",
+        longitude: "-0.68653237283533",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Stake of Marika",
+        description: "Behind a ledge, near an aging untouchable.",
+        latitude: "0.65214792442582",
+        longitude: "-0.67309878171446",
+      },
     ],
     groupSlug: "er_locations",
     title: "Stake of Marika",
@@ -6245,6 +8764,130 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           "**Location:** Dropped by [Bell Bearing Hunter (Warmaster's Shack)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165725)  \n**Utility:** Unlocks the following items at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787):\n- Thin Beast Bones @ 150\n- Hefty Beast Bones @ 250",
         latitude: "0.64002747400556",
         longitude: "-0.72569578885964",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Mushroom-Seller's Bell Bearing [1]",
+        description:
+          "**Location:** Shoot the hanging jar and retrieve the item \n\n**Related Merchant:** ??  \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).",
+        latitude: "0.68456423666571",
+        longitude: "-0.73804161397993",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/0a970bd9-545f-47ec-8ebd-8916342ba238.jpg",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/820ac8ee-1a96-4cfc-986d-58e334a912a5.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Ymir's Bell Bearing",
+        description:
+          "**Related Merchant:** [Count Ymir, High Priest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381272)  \n**Utility:** Unlocks the related merchant's inventory at the Twin Maiden Husks.",
+        latitude: "0.69128035690819",
+        longitude: "-0.68230099976020",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "String-Seller's Bell Bearing",
+        description:
+          "**Location:** Hanging from the cliff in a pot. Use ranged attack to destroy it and the item will drop.\n\nReturn to Twin Maiden Husks in the Roundtable Hold",
+        latitude: "0.64267464845170",
+        longitude: "-0.74777774512739",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e9761fc9-5225-4a45-9db1-23e6e7bdeaf5.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Herbalist's Bell Bearing",
+        description:
+          "**Location:** Inside a hanging pot on the cliffside. (Shoot the pot to obtain the bell bearing.)\n**Related Merchant:** [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787)\n**Utility:** Unlocks the Rada Fruit in the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787) inventory",
+        latitude: "0.65251339418802",
+        longitude: "-0.71739338850384",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/7809b15e-e74d-43bb-96dd-e7e7c1b644cd.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Mushroom-Seller's Bell Bearing [2]",
+        description:
+          "**Location:** From [Ellac River Downstream](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382046), go to the top of the waterfall and shoot down the hanging pot.  \n**Related Merchant:** Mushroom-seller  \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).",
+        latitude: "0.64603249078989",
+        longitude: "-0.71743225062144",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c8148af5-704b-4613-9cc7-358330700a40.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greasemonger's Bell Bearing",
+        description:
+          "**Location:** Inside a pot hanging on the side of the cliff near the bottom.  Right behind the head of the tree, among the last wolf pack.   \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).",
+        latitude: "0.69923865096925",
+        longitude: "-0.67598973609674",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Moldmonger's Bell Bearing",
+        description:
+          "**Location:** Hanging from the cliff in a pot. Visible from the [Recluses' River Downstream](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382075) Site of Grace. Use a ranged attack to destroy it and the item will drop. Traverse the tombstone platforms to the base of the river to collect it.   \n\n**Related Merchant:** ??  \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).",
+        latitude: "0.68123988697495",
+        longitude: "-0.68604612384289",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c3687d06-4e04-4da3-81dd-3c1060e54c61.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Igon's Bell Bearing",
+        description:
+          "**Location:** After defeating Bayle the Dread while Igon is summoned.\n\n**Related Merchant:** [Igon](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381022)  \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).",
+        latitude: "0.63291866410746",
+        longitude: "-0.66811308375307",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Spellmachinist's Bell Bearing",
+        description:
+          "**Location:** Below secret area at the top of Rabbath's Rise.  \n**Related Merchant:** ??  \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).\n\n- Rabbath's Greatbolt",
+        latitude: "0.70826149665022",
+        longitude: "-0.67467279732062",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Moore's Bell Bearing",
+        description:
+          "**Related Merchant:** ??  \n**Utility:** Unlocks the related merchant's inventory at the [Twin Maiden Husks](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167787).",
+        latitude: "0.70249421875943",
+        longitude: "-0.72104418093542",
       },
     ],
     groupSlug: "er_key_items",
@@ -6926,6 +9569,587 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
         latitude: "0.71686736924589",
         longitude: "-0.79757630825168",
       },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Battlefield Priest's Cookbook [3]",
+        description:
+          "**Location:** On the corpse in the middle of the tent.  \n**Recipes:**\n- Golden Vow",
+        latitude: "0.70541294989317",
+        longitude: "-0.71105276882315",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Fire Knight's Cookbook [1]",
+        description:
+          "**Location:** On the corpse between the benches, in the tent.  \n**Recipes:**\n- Messmerfire Grease\n- Drawstring Messmerfire Grease",
+        latitude: "0.68557696697228",
+        longitude: "-0.70584246200113",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [1]",
+        description:
+          "**Location:** Talk to the forager brood pest limping near the edge.  \n**Recipes:**\n- Spellproof Pickled Liver",
+        latitude: "0.67768377668503",
+        longitude: "-0.71350962074231",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [1]",
+        description:
+          "**Location:** Pillage the corpse curled up on the ruined stone stairs  \n**Recipes:**\n- Hefty Fire Pot",
+        latitude: "0.64753739369291",
+        longitude: "-0.72483804466140",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e09606f5-0966-4410-864d-04b65a1a9393.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [11]",
+        description:
+          "**Location:** On the corpse in the maze of jars inside the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)  \n**Recipes:**\n- Hefty Freezing Pot",
+        latitude: "0.67697715593984",
+        longitude: "-0.74749410152248",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/18948b77-ba7f-49a1-b0c5-8aa9437fa966.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [10]",
+        description:
+          "**Location:** On the corpse inside the ruined house   \n**Recipes:**\n- Hefty Fly Pot",
+        latitude: "0.68175239532563",
+        longitude: "-0.73547763983066",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ceb4af6c-4dd8-4380-9b67-81d85e5c5683.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [2]",
+        description:
+          "**Location:** On the corpse in the ruined house in [Run-Down Traveler's Rest](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380900)  \n**Recipes:**\n- Hefty Furnace Pot",
+        latitude: "0.66966472531556",
+        longitude: "-0.73255877586686",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/a049d935-452d-4942-a537-a4e9fe93d2b7.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [13]",
+        description:
+          "**Location:** Inside the [Ruined Forge Lava Intake](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380915), on the platform up the staircase after descending the second ladder  \n**Recipes:**\n- Hefty Volcano Pot",
+        latitude: "0.66025405096674",
+        longitude: "-0.71608744561661",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/7e60357f-30d8-42a7-a205-2853182b6782.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Loyal Knight's Cookbook",
+        description:
+          "**Location:** Inside the chest in the building below the [Castle Ensis Checkpoint](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381196) site of grace   \n**Recipes:**\n- Royal Magic Grease\n- Drawstring Royal Magic Grease",
+        latitude: "0.68383251404471",
+        longitude: "-0.71903581424621",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e75a46eb-ebfa-47b1-8f9f-a31ba0b1e8e5.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [6]",
+        description:
+          "**Location:** Given by talking to the Forager  \n**Recipes:**\n- Well-Pickled Turtle Neck",
+        latitude: "0.71354740753267",
+        longitude: "-0.69166356815077",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [4]",
+        description:
+          "**Location:** On a corpse, sitting by the edge of the lake.  \n**Recipes:**\n- Hefty Magic Pot",
+        latitude: "0.69360876079695",
+        longitude: "-0.67837639995741",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [2]",
+        description:
+          "**Location:** Talk to the creature to receive the cookbook   \n**Recipes:**\n- Fireproof Pickled Liver",
+        latitude: "0.64173509929869",
+        longitude: "-0.73974387629048",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/8ae974aa-0e54-4fca-aba7-3f61ded7b87f.jpg",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/fbebf3e4-66f6-42ac-bc8f-5707241b7281.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [5]",
+        description:
+          "**Location:** On the corpse on the rocks surrounded by Lightning Rams   \n**Recipes:**\n- Hefty Lightning Pot",
+        latitude: "0.63824910195271",
+        longitude: "-0.73708772257118",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/784f0600-a9ea-4217-b4d4-5f3442542d56.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Battlefield Priest's Cookbook [4]",
+        description:
+          "**Location:** On the seated corpse behind the [Illusory Wall](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381349)  \n**Recipes:**\n- Sunwarmth Stone",
+        latitude: "0.71953404696242",
+        longitude: "-0.70455700274923",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/70cb38b5-c249-4c0a-8dd7-cc25ff87cd11.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Ancient Dragon Knight's Cookbook [1]",
+        description:
+          "**Location:** Inside [Fog Rift Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381172), at the end of the corridor guarded by two enemies   \n**Recipes:**\n- Red Lightning Pot",
+        latitude: "0.69913395728946",
+        longitude: "-0.72696581482722",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/1dd6675f-0961-4b62-8684-eea653c926cc.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [3]",
+        description:
+          "**Location:** On the corpse hanging over the ledge opposite the [Fog Rift Fort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381507).  To get here, find your way to [Fog Rift Fort](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381507), then take the wooden bridge across the chasm   \n**Recipes:**\n- Hefty Oil Pot",
+        latitude: "0.68712792723900",
+        longitude: "-0.72647832334059",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Battlefield Priest's Cookbook [2]",
+        description:
+          "**Location:** In a treasure chest. at the top of the fort's tower.  \n**Recipes:**\n- Festive Grease",
+        latitude: "0.66500325376892",
+        longitude: "-0.69835157613306",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/a7a3a8e1-98e7-4c4a-b42a-f1d1ddfe482f.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Tibia's Cookbook",
+        description:
+          "**Location:** Dropped by [Tibia Mariner](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381935)  \n**Recipes:**\n- Call of Tibia",
+        latitude: "0.61714157372931",
+        longitude: "-0.70805276922698",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [12]",
+        description:
+          "**Location:** On top of the rock pillars.  Accessible from the [Ellac River Cave](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380961) grace - exit the cave and head left towards the waterfall. Use torrent to jump from rock to rock until you reach the item.  \n**Recipes:**\n- Hefty Rock Pot",
+        latitude: "0.66162054553409",
+        longitude: "-0.72098851203995",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Fire Knight's Cookbook [2]",
+        description:
+          "**Location:** In a tent on the west side of the encampment  \n**Recipes:**\n- Fire Coil",
+        latitude: "0.67672504588494",
+        longitude: "-0.72688668966521",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "St. Trina Disciple's Cookbook [2]",
+        description:
+          "**Location:** Near the corpse on the top of the cliff (not underground)  \n**Recipes:**\n- Eternal Sleep Grease\n- Drawstring Eternal Sleep Grease",
+        latitude: "0.58729709503530",
+        longitude: "-0.71750627569855",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/d50de207-4dae-4966-a308-cae987448a4e.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "St. Trina Disciple's Cookbook [1]",
+        description:
+          "**Location:** On a body in front of a tree.    \n**Recipes:**\n- Eternal Sleep Pot",
+        latitude: "0.60715640900162",
+        longitude: "-0.71087566935643",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/00421580-8c56-41ce-b0e6-db3d30e6c8a4.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Grave Keeper's Cookbook [1]",
+        description:
+          "**Recipes:** \n- Piquebone Arrow\n- Piquebone Arrow (fletched)\n- Piquebone Bolt\n\nAt the base of a large tree, guarded by a Shade",
+        latitude: "0.61657880679006",
+        longitude: "-0.73069575839776",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Igon's Cookbook [2]",
+        description:
+          "**Location:** On a corpse at the end of the ledge, east of Jagged Peak Mountainside grace.    \n**Recipes:**\n- Dragon Communion Flesh",
+        latitude: "0.63919354335010",
+        longitude: "-0.64293271740883",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/5525867b-5c56-4719-a670-feb7a6339191.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Igon's Cookbook [1]",
+        description:
+          "**Location:** Inside the ruined Tower  \n**Recipes:**\n- Dragon Communion Grease\n- Dragon Communion Harpoon",
+        latitude: "0.62528039007864",
+        longitude: "-0.69712188402977",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Finger-Weaver's Cookbook [1]",
+        description:
+          "In a shack reached by dropping down from the dragon located at the Grand Altar of Dragon Communion.",
+        latitude: "0.61883330325156",
+        longitude: "-0.70330627998155",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/6ed37650-ddae-4c60-8481-09567c2bea94.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Grave Keeper's Cookbook [2]",
+        description:
+          "**Location:** Behind a rock, just south east of the dragon Communion   \n**Recipes:** \n- Polter Stone",
+        latitude: "0.61571068628309",
+        longitude: "-0.70534586906533",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [8]",
+        description:
+          "**Location:** On top of the large pile of excrement   \n**Recipes:** Hefty Fetid Pot",
+        latitude: "0.71185404713469",
+        longitude: "-0.75899559813692",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Battlefield Priest's Cookbook [1]",
+        description:
+          "**Location:** On the corpse on the balcony at the top of the stairs.  \n**Recipes:**\n- Golden Grease\n- Drawstring Golden Grease",
+        latitude: "0.71851143793464",
+        longitude: "-0.69637297747946",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/833b9fd3-1f64-422e-a486-e55f9246c3e8.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Antiquity Scholar's Cookbook [1]",
+        description:
+          "**Location:** Dropped by a Pot Shadow, in a small cave, in the ravine.  \n**Recipes:**\n- Fire Spritestone",
+        latitude: "0.70816293299859",
+        longitude: "-0.73761753737912",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [5]",
+        description:
+          "**Location:** Given by non-hostile forager brood.  \n**Recipes:**\n- Opaline Pickled Liver",
+        latitude: "0.70622697082729",
+        longitude: "-0.69998471622662",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ccfba533-5631-4977-bf71-21d5e1836630.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [6]",
+        description:
+          "**Location:** On the edge of the cliff near the undead beastmen  \n**Recipes:**\n- Hefty Red Lightning Pot",
+        latitude: "0.64766122940841",
+        longitude: "-0.68063601851301",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c605d7f6-42ac-435e-90f8-c2677c811e9a.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "St. Trina Disciple's Cookbook [3]",
+        description:
+          "**Location:** To the right of St. Trina next to a Nectarblood Burgeon  \n**Recipes:**  \n- Lulling Branch",
+        latitude: "0.58964386734228",
+        longitude: "-0.70722685043970",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2c969f5f-324a-4d0a-a5fe-ddde8d16ff6b.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [14]",
+        description:
+          "**Location:** By the pond behind the Giant Miranda Sprout on a wooden platform.  From [Charo's Hidden Grave](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382051) site of grace, go under the stone arch, and turn left in the river, go ahead and you will see some skeletons and a giant plant with small plants, the cookbook is right behind the giant plant.  \n**Recipes:**\n- Hefty Rancor Pot",
+        latitude: "0.62257070584414",
+        longitude: "-0.72315439581922",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c201b591-a8a7-4f84-95e8-4dedd8c6802b.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Mad Craftsman's Cookbook [2]",
+        description:
+          "**Location:** On a body near a tree.  \n**Recipes:**\n- Hefty Frenzied Flame Pot",
+        latitude: "0.65022257472076",
+        longitude: "-0.69480344653095",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/6150d6f1-2f0f-46dd-baa6-853548329fb9.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Antiquity Scholar's Cookbook [2]",
+        description:
+          "**Location:** Inside building in front of statue    \n**Recipes:** \n- Spritestone",
+        latitude: "0.72106804836989",
+        longitude: "-0.73457859456440",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/423ff579-3fcb-4e7b-99b4-d00a68c1f093.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [9]",
+        description:
+          "**Location:** Found by using the spirit spring unto a ledge with the cookbook.\n**Recipes:**\n- Hefty Rot Pot",
+        latitude: "0.70771186789293",
+        longitude: "-0.75215716058116",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Greater Potentate's Cookbook [7]",
+        description:
+          "**Location:** In the poison lake, near the Giant Mirande Sprout on a corpse.  \n**Recipes:**\n- Hefty Poison Pot",
+        latitude: "0.66684202260950",
+        longitude: "-0.70468980441268",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/46f0488f-76b4-41cb-bae7-dcf13eb26630.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Mad Craftsman's Cookbook [1]",
+        description:
+          "**Location:** On a body on a cliff behind the waterfall.  To the southwest of [Divided Falls](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382084), follow a ramp upwards beyond some small rats to locate the cookbook on a body.  \n**Recipes:**\n- Frenzied Flame Pot\n- Roped Frenzied Flame Pot",
+        latitude: "0.66243280419239",
+        longitude: "-0.70912126082393",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/ed5257cf-8716-4b13-af83-0649c013ab92.jpeg",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/b1d7a29e-9ded-4a0e-8fe5-59bbeddf9e5a.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Mad Craftsman's Cookbook [3]",
+        description:
+          "**Location:** On the second level in a room full of Frenzied Rats.  \n**Recipes:**\n- Surging Frenzied Flame",
+        latitude: "0.64035443080473",
+        longitude: "-0.70180883908387",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [3]",
+        description:
+          "**Location:** Talk to the Forager Brood.   \n**Recipes:**\n- Lightningproof Pickled Liver",
+        latitude: "0.64164742692054",
+        longitude: "-0.70814073085896",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/0beca4ed-964d-40bc-bbe6-e714c16e08f7.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Ancient Dragon Knight's Cookbook [2]",
+        description:
+          "**Location:** [Scorpion River Catacombs](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381982) - Drop down to a bridge in the Blight Statue area just before going down the final elevator before the boss room. Protected by Canon Statue & Flower Statue.    \n**Recipes:**\n- Dragonbolt Grease\n- Drawstring Dragonbolt Grease",
+        latitude: "0.70675741725843",
+        longitude: "-0.75724754207855",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/630268ee-f093-41da-ad5e-452517c8f5d4.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Finger-Weaver's Cookbook [2]",
+        description:
+          "**Location:** Underground. Down the small decline to the left on a body near the ledge, just before ascending to the bell in the Finger Ruins of Miyr.\n\n**Recipes:**\n- Fingerprint Nostrum",
+        latitude: "0.69680865462058",
+        longitude: "-0.68312846124132",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9fbb533d-1567-494d-a03b-7f6266d9432c.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [4]",
+        description:
+          "**Location:** Behind the [Church of the Crusade](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380261) - obtained by healing the wounded forager brood and speaking to him.  \n**Recipes:** \n- Holyproof Pickled Liver\n\nUse a Warming Stone or Sunwarmth Stone to heal the wounded forager brood, reload the area by quitting out or teleporting and speak to it. It will give you the Cookbook and a Shadow Sunflower",
+        latitude: "0.70241874707185",
+        longitude: "-0.72096101939690",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/48b441be-766d-4345-94d0-8c4ee96cd067.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Forager Brood Cookbook [7]",
+        description:
+          '**Location:** Acquired by selecting the option "Talk to Moore" when speaking with Moore. Requires helping the injured Forager Brood outside the Church of the Crusade and earning [Forager Brood Cookbook [4]](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382727).\n**Recipes:** \n- Spirit Raisin\n- Charming Branch',
+        latitude: "0.66197376731652",
+        longitude: "-0.74909743839191",
+      },
     ],
     groupSlug: "er_key_items",
     title: "Cookbook",
@@ -7068,6 +10292,143 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           },
         ],
       },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "**Location:** Pillage the corpse laying on the ground up on the ledge   \n**Utility:** Container required for crafting hefty cracked pot items",
+        latitude: "0.64681977578779",
+        longitude: "-0.72521793281186",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e7cd7105-8cfa-4a60-9462-c12cc186f2fe.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "**Location:** On the corpse lying on the jar in the maze of jars in the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)",
+        latitude: "0.67735129796506",
+        longitude: "-0.74756786227238",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/5b89a137-9656-4e7e-a035-901130834b9c.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "**Location:** On the corpse lying on the jar in the maze of jars in the [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867)",
+        latitude: "0.67725541569219",
+        longitude: "-0.74728086590824",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/e8cd10af-226a-4f63-b3ac-2a1de34257d6.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "**Location:** [Bonny Goal](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381230) - On a corpse, on a room in the central cylindrical chamber. To access. jump down to the first ledge using the two hanging pots.",
+        latitude: "0.66805709674199",
+        longitude: "-0.69052648648702",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description: "**Location:** On a corpse, in the burned-down house.",
+        latitude: "0.68239081389740",
+        longitude: "-0.69039456546432",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "**Location:** On the corpse on the bed in the big room with the living jars",
+        latitude: "0.71830022702841",
+        longitude: "-0.70432260632418",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/570b7f38-f816-40db-baa1-ba4317e6f1fe.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description: "Dropped from the pot throwing troll",
+        latitude: "0.59882243534184",
+        longitude: "-0.72340853512225",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/6e371908-bf70-4aa7-867b-88e89533c421.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "Hefty Cracked Pot is located within the Lamentor's Goal, inside the Living Jar Room, on top of the corpse mountain where 3 small Living Jars are dancing around it.",
+        latitude: "0.63661993893356",
+        longitude: "-0.72972111403789",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/2fca7b73-c8ae-475a-a51e-c10469df578e.png",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/c8d3a12b-1dd3-4682-9cd0-76802a344b82.jpeg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description: "**Location:** Beside the house on the ground",
+        latitude: "0.67887874195907",
+        longitude: "-0.69334656743149",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Hefty Cracked Pot",
+        description:
+          "**Location:** Inside [Belurat Gaol](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380867) - There is a hefty cracked pot in the room where you drop down on hanging jars. If you take a certain route down you can land on a wooden platform with 2 small jar enemies and a mutated prisoner hidden in a jar along with a chest with the pot",
+        latitude: "0.67699727110889",
+        longitude: "-0.74720405665590",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/dd7449fa-c85f-415e-b5dc-f0c98e47dcdf.png",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/b6bfe030-86b4-43ef-a622-98ad55105fdc.jpeg",
+            type: "image",
+          },
+        ],
+      },
     ],
     groupSlug: "er_key_items",
     title: "Cracked Pot",
@@ -7153,6 +10514,15 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           "**Location:** Given by Goldmask after completing [Brother Corhyn's Quest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=178950).  \n**Effect:** Unlocks an alternate ending.  \n**Related Tower:** None",
         latitude: "0.76616894580319",
         longitude: "-0.70091217756146",
+      },
+
+      {
+        regionSlug: "the-shadow-realm",
+        title: "Miquella's Great Rune",
+        description:
+          "**Location:** Dropped by [Scadutree Avatar](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381991)  \n**Effect:** Retains naught but the power to resist charms",
+        latitude: "0.73026297741200",
+        longitude: "-0.69093069080395",
       },
     ],
     groupSlug: "er_key_items",
@@ -7375,6 +10745,93 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           },
         ],
       },
+
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Map: Gravesite Plain",
+        description:
+          "**Location:** On top of a stele, on the side of the road.",
+        latitude: "0.64362543164495",
+        longitude: "-0.72506815195254",
+        media: [
+          {
+            url: "https://youtu.be/owKtKoKHlUk?t=31",
+            type: "youtube",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Map: Scadu Altus",
+        description: "**Location:** On an altar, by the side of the road.",
+        latitude: "0.69545417250811",
+        longitude: "-0.71147036158752",
+        media: [
+          {
+            url: "https://youtu.be/owKtKoKHlUk?t=51",
+            type: "youtube",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/10f2946c-b528-4681-bafd-fc2ed00cc440.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Map: Southern Shore",
+        description:
+          "**Location:** Along the path, north-west from the Cerulean Coast Cross Site of Grace.",
+        latitude: "0.60409197370232",
+        longitude: "-0.71428071771300",
+        media: [
+          {
+            url: "https://youtu.be/owKtKoKHlUk?t=164",
+            type: "youtube",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Map: Abyssal Woods",
+        description:
+          "**Location:** On the ground in front of the pillar near the Abandoned Church",
+        latitude: "0.64670222509373",
+        longitude: "-0.66231846692222",
+        media: [
+          {
+            url: "https://youtu.be/owKtKoKHlUk?t=217",
+            type: "youtube",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/70fbf236-5853-4e29-9873-5ff8341a3061.png",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Map: Rauh Ruins",
+        description:
+          "**Location:** On the ground near the pillar.  To get here, first find the [Ancient Ruins Base](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381371) Site of Grace, then beeline to this location from there",
+        latitude: "0.69649888237876",
+        longitude: "-0.73422521352899",
+        media: [
+          {
+            url: "https://youtu.be/owKtKoKHlUk?t=116",
+            type: "youtube",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/d34081da-d350-4bb2-8df3-5a3156875e47.jpg",
+            type: "image",
+          },
+        ],
+      },
     ],
     groupSlug: "er_key_items",
     title: "Map Fragment",
@@ -7584,6 +11041,45 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
             type: "image",
           },
         ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: '"The Sacred Tower" Painting',
+        description:
+          "**Painting Location:** Inside the cave accessed from the west  \n**Reward:** [Spiraltree Seal](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382521)  \n\nAfter interacting with the painting, go to the Reward's location and interact with the ghost. This ghost will not spawn until you have interacted with the painting.",
+        latitude: "0.65413231161648",
+        longitude: "-0.71927793323886",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/714ac755-8b89-41a8-8c9f-ea585b0f4bac.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: '"Incursion" Painting',
+        description:
+          "**Painting Location:** Inside the [Artist's Shack](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381298)  \n**Reward:** [Serpent Crest Shield](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382169)  \n\nAfter interacting with the painting, go to the Reward's location and interact with the ghost. This ghost will not spawn until you have interacted with the painting.",
+        latitude: "0.63603659444973",
+        longitude: "-0.73210760951079",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/c5782c03-6d6f-444b-b335-edf373ef3ca6.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: '"Domain of Dragons" Painting',
+        description:
+          "**Painting Location:** Deep within the Keep. From the [Ladder](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381748), follow the stone ledge until the waterfall. Enter the waterfall and climb down the ladder there.  \n**Reward:** [Rock Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382572)  \n\nAfter interacting with the painting, go to the Reward's location and interact with the ghost. This ghost will not spawn until you have interacted with the painting.",
+        latitude: "0.71228535020302",
+        longitude: "-0.70098943968139",
       },
     ],
     groupSlug: "er_key_items",
@@ -7835,6 +11331,108 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
           "**Boss:** [Malenia, Blade of Miquella](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167678)  \n**Value:** 50,000 Runes  \n**Trades for:**\n- [Hand of Malenia](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=178964) or\n- [Scarlet Aeonia](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=178965)",
         latitude: "0.89024299376473",
         longitude: "-0.63673496246435",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Twin Moon Knight",
+        description:
+          "**Boss:** [Rellana, Twin Moon Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380245)  \n**Value:** 30,000 Runes  \n**Trades for either:**\n- Rellana's Twin Blades \n- Rellana's Twin Moons",
+        latitude: "0.68223190428074",
+        longitude: "-0.71351721882982",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/4f47f720-e791-47ec-9e55-05765bf88a37.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Dancing Lion",
+        description:
+          "**Boss:** [Divine Beast Dancing Lion](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380798)  \n**Value:** 30k Runes  \n**Trades for:** (choose one)\n- Enraged Divine Beast\n- Ash of War: Divine Beast Frost Stomp",
+        latitude: "0.67921375888129",
+        longitude: "-0.75232813720905",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/7d62dfe9-10de-479c-82d2-88ee52bc3992.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Impaler",
+        description:
+          "**Boss:** [Messmer the Impaler](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381741)  \n**Value:** 40k Runes  \n**Trades for either:**\n- Spear of the Impaler \n- Messmer's Orb",
+        latitude: "0.72221486400248",
+        longitude: "-0.70510934353146",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of Putrescence",
+        description:
+          "**Boss:** [Putrescent Knight](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381961)  \n**Value:** ?? Runes  \n**Trades for:**\n- ?? or\n- ??",
+        latitude: "0.58760079972225",
+        longitude: "-0.70433519771004",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Wild Boar Rider",
+        description:
+          "**Boss:** [Commander Gaius](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381989)  \n**Value:** ?? Runes  \n**Trades for:**\n- Sword Lance (Heavy Thrusting Sword) or\n- Blades of Stone (Sorcery)",
+        latitude: "0.72383110272587",
+        longitude: "-0.69757321435995",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Shadow Sunflower",
+        description:
+          "**Boss:** [Scadutree Avatar](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381991)  \n**Value:** 260,000 Runes  \n**Trades for:**\n- ?? or\n- ??",
+        latitude: "0.72963465781544",
+        longitude: "-0.69093069080395",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Mother of Fingers",
+        description:
+          "**Boss:** [Metyr, Mother of Fingers](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382002)  \n**Value:** 420,000 Runes  \n**Trades for:**\n- ?? or\n- ??",
+        latitude: "0.69924056716192",
+        longitude: "-0.68218834698271",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Lord of Frenzied Flame",
+        description:
+          "**Boss:** [Mirda, Lord of the Frenzied Flame](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382190)  \n**Value:** ?? Runes  \n**Trades for:**\n- ?? or\n- ??",
+        latitude: "0.63934623537800",
+        longitude: "-0.70164039730980",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of the Saint of the Bud",
+        description:
+          "**Boss:** [Romina, Saint of the Bud](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382040)  \n**Value:** ?? Runes  \n**Trades for:**\n- PoleBlade Of The Bud or\n- Rotten Butterflies",
+        latitude: "0.69694969134643",
+        longitude: "-0.75737208656611",
+      },
+      {
+        regionSlug: "the-shadow-realm",
+
+        title: "Remembrance of a God and a Lord",
+        description:
+          "**Boss:** [Promised Consort Radahn](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382044)  \n**Value:** 500,000 Runes  \n**Trades for:**\n- Greatsword of Radahn (Light) or\n- Greatsword of Radahn (Lord) or\n- Light of Miquella",
+        latitude: "0.68376065479541",
+        longitude: "-0.75896322727127",
       },
     ],
     groupSlug: "er_key_items",
@@ -18992,40 +22590,6 @@ export const eldenRingCategoryLocations: CategoryLocation[] = [
     title: "Item",
   },
   { locations: [], groupSlug: "er_items", title: "Larval Tear" },
-  {
-    locations: [
-      {
-        regionSlug: "the-shadow-realm",
-        title: "Furlcalling Finger Remedy x2",
-        description: "**Location:** Pillage the corpse lying on the roof",
-        latitude: "0.64689715925405",
-        longitude: "-0.72651761267107",
-      },
-      {
-        regionSlug: "the-shadow-realm",
-        title: "Furlcalling Finger Remedy",
-        description:
-          "**Location:** [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345) - At the top of the room, on a corpse on a wooden railing.",
-        latitude: "0.71879210407533",
-        longitude: "-0.69943421885608",
-      },
-      {
-        regionSlug: "the-shadow-realm",
-        title: "Ember of Messmer x2",
-        description: "**Location:** On a corpse, in the curved hallway.",
-        latitude: "0.71568058450178",
-        longitude: "-0.69945774972550",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/5212a75c-eb57-45be-83d6-1330e4fe238e.jpeg",
-            type: "image",
-          },
-        ],
-      },
-    ],
-    groupSlug: "er_items",
-    title: "Multiplayer Item",
-  },
   {
     locations: [
       {

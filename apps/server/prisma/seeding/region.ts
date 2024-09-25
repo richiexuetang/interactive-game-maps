@@ -114,4 +114,31 @@ export const regions = [
     order: 4,
   },
   //#endregion
+
+  // #region Hogwarts Legacy
+  {
+    gameSlug: "hogwarts-legacy",
+    slug: "world",
+    title: "World",
+    thumbnailUrl: "images/games/hogwarts-legacy/world.png",
+    tilePath: "hogwarts-legacy/world",
+    order: 1,
+  },
+  {
+    gameSlug: "hogwarts-legacy",
+    slug: "hogwarts",
+    title: "Hogwarts",
+    thumbnailUrl: "images/games/hogwarts-legacy/hogwarts.png",
+    tilePath: "hogwarts-legacy/hogwarts",
+    order: 2,
+  },
+  {
+    gameSlug: "hogwarts-legacy",
+    slug: "hogsmeade",
+    title: "Hogsmeade",
+    thumbnailUrl: "images/games/hogwarts-legacy/hogsmeade.png",
+    tilePath: "hogwarts-legacy/hogsmeade",
+    order: 3,
+  },
+  // #endregion
 ];

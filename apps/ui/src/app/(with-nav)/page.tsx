@@ -1,6 +1,6 @@
 import { FETCH_GAMES } from "@/lib/constants";
 import { getClient } from "@/lib/apollo-client";
-import { ImageCard } from "@/components/image-card";
+import { ImageCard } from "@/components/cards/image-card";
 import { revalidatePath } from "next/cache";
 
 export type Game = {

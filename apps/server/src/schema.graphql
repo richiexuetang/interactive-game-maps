@@ -12,7 +12,6 @@ type AppUser {
   id: Float!
   lastName: String
   photoUrl: String
-  trackingCategories: [Int!]
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
@@ -111,10 +110,8 @@ type Media {
 
 type Mutation {
   addFoundLocations(data: UpdateFoundLocationInput!): AppUser!
-  addTrackingCategory(data: UpdateTrackingCategoryInput!): AppUser!
   createUser(data: CreateUserInput!): AppUser
   removeFoundLocation(data: UpdateFoundLocationInput!): AppUser!
-  removeTrackingCategory(data: UpdateTrackingCategoryInput!): AppUser!
   toggleHideFoundSetting(data: UpdateHideFoundInput!): AppUser!
 }
 
@@ -190,9 +187,4 @@ input UpdateFoundLocationInput {
 input UpdateHideFoundInput {
   email: String!
   hide: Boolean!
-}
-
-input UpdateTrackingCategoryInput {
-  categoryId: Float!
-  email: String!
 }

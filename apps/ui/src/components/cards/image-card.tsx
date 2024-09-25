@@ -23,10 +23,14 @@ export const ImageCard = ({ imageSrc, href, content }: ImageCardProps) => {
             image={imageSrc}
             alt={content}
           />
-          <CardContent>
-            <Typography variant="h5" component="div">
-              {content}
-            </Typography>
+          <CardContent
+            sx={{
+              justifyContent: "center",
+              alignContent: "center",
+              display: "flex",
+            }}
+          >
+            <Typography variant="body1">{content}</Typography>
           </CardContent>
         </CardActionArea>
       </Card>

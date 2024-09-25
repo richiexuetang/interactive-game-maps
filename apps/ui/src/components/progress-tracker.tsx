@@ -12,15 +12,10 @@ import {
   Button,
   Checkbox,
   Divider,
-  FormControl,
   IconButton,
   Menu,
-  MenuItem,
-  Select,
-  SelectChangeEvent,
   styled,
 } from "@mui/material";
-import ClearIcon from "@mui/icons-material/Clear";
 import { userAtom } from "@/store/auth";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavigationIcon from "@mui/icons-material/Navigation";
@@ -28,9 +23,7 @@ import { triggeredMarkerIdAtom } from "@/store/marker";
 import { useMutation } from "@apollo/client";
 import {
   ADD_TO_USER_FOUND,
-  ADD_TRACKING_CATEGORY,
   REMOVE_FROM_USER_FOUND,
-  REMOVE_TRACKING_CATEGORY,
   TOGGLE_HIDE_FOUND,
 } from "@/lib/constants";
 import VisibilityIcon from "@mui/icons-material/Visibility";
@@ -53,8 +46,6 @@ export const ProgressTracker = () => {
   const setTriggerMarkerId = useSetAtom(triggeredMarkerIdAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
 
-  const [addTrackingCategory] = useMutation(ADD_TRACKING_CATEGORY);
-  const [removeTrackingCategory] = useMutation(REMOVE_TRACKING_CATEGORY);
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
@@ -64,53 +55,6 @@ export const ProgressTracker = () => {
   };
   const handleClose = () => {
     setAnchorEl(null);
-  };
-
-  const removeCategory = (id: number) => {
-    if (appUser) {
-      removeTrackingCategory({
-        variables: {
-          data: {
-            email: appUser.email,
-            categoryId: id,
-          },
-        },
-      });
-      setAppUser({
-        ...appUser,
-        trackingCategories: appUser?.trackingCategories.filter(
-          (category) => category !== id
-        ),
-      });
-    }
-  };
-
-  const handleChange = (e: SelectChangeEvent) => {
-    if (appUser) {
-      const id = parseInt(e.target.value);
-      const vars = {
-        variables: {
-          data: {
-            email: appUser.email,
-            categoryId: id,
-          },
-        },
-      };
-      let newTracking = appUser.trackingCategories;
-
-      if (!appUser.trackingCategories.includes(id)) {
-        addTrackingCategory(vars);
-        newTracking = [...newTracking, id];
-      } else {
-        removeTrackingCategory(vars);
-        newTracking = newTracking.filter((category) => category !== id);
-      }
-
-      setAppUser({
-        ...appUser,
-        trackingCategories: newTracking,
-      });
-    }
   };
 
   const getCategoryInfoById = (id: number) => {
@@ -213,66 +157,60 @@ export const ProgressTracker = () => {
             >
               {appUser?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
-            {appUser?.trackingCategories?.map((category) => (
-              <Accordion key={category} className="m-2">
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <IconButton onClick={() => removeCategory(category)}>
-                    <ClearIcon />
-                  </IconButton>
-                  <span className="text-text text-sm p-2">
-                    {getCategoryInfoById(category)?.title}
-                  </span>
-                  <span className="text-text text-sm p-2">
-                    {totalFoundForCategory(category) + " / "}
-                    {totalForCategory(category)}
-                  </span>
-                </AccordionSummary>
-                {currentMarkers?.map(({ id, categoryId, title }) => {
-                  if (categoryId === category)
-                    return (
-                      <AccordionDetails
-                        key={`${category} location`}
-                        sx={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                          alignItems: "center",
-                        }}
-                      >
-                        <Checkbox
-                          checked={appUser?.foundLocations?.includes(id)}
-                          onChange={() => handleMarkerFound(id)}
-                        />
-                        <div className="flex items-center gap-2">
-                          <p>{title}</p>
-                        </div>
-                        <IconButton>
-                          <NavigationIcon
-                            sx={{ width: 15, height: 15, cursor: "pointer" }}
-                            onClick={() => setTriggerMarkerId(id)}
-                          />
-                        </IconButton>
-                      </AccordionDetails>
-                    );
-                })}
-              </Accordion>
-            ))}
-            <FormControl fullWidth sx={{ mt: 2, p: 2 }}>
-              <Select onChange={(e: SelectChangeEvent) => handleChange(e)}>
-                {currentGroups?.map((group) =>
-                  group.categories?.map(({ id, title }) => {
-                    if (
-                      totalForCategory(id) !== 0 &&
-                      !appUser?.trackingCategories?.includes(id)
-                    )
-                      return (
-                        <MenuItem value={id} key={id}>
-                          {title}
-                        </MenuItem>
-                      );
-                  })
-                )}
-              </Select>
-            </FormControl>
+            {currentGroups?.map((group) =>
+              group.categories?.map(({ id }) => {
+                if (totalForCategory(id) !== 0) {
+                  return (
+                    <Accordion key={id}>
+                      <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <span className="text-text text-sm p-2">
+                          {getCategoryInfoById(id)?.title}
+                        </span>
+                        <span className="text-text text-sm p-2">
+                          {totalFoundForCategory(id) + " / "}
+                          {totalForCategory(id)}
+                        </span>
+                      </AccordionSummary>
+                      {currentMarkers?.map(
+                        ({ id: markerId, categoryId, title }) => {
+                          if (categoryId === id)
+                            return (
+                              <AccordionDetails
+                                key={`${id} location`}
+                                sx={{
+                                  display: "flex",
+                                  justifyContent: "space-between",
+                                  alignItems: "center",
+                                }}
+                              >
+                                <Checkbox
+                                  checked={appUser?.foundLocations?.includes(
+                                    markerId
+                                  )}
+                                  onChange={() => handleMarkerFound(markerId)}
+                                />
+                                <div className="flex items-center gap-2">
+                                  <p>{title}</p>
+                                </div>
+                                <IconButton>
+                                  <NavigationIcon
+                                    sx={{
+                                      width: 15,
+                                      height: 15,
+                                      cursor: "pointer",
+                                    }}
+                                    onClick={() => setTriggerMarkerId(markerId)}
+                                  />
+                                </IconButton>
+                              </AccordionDetails>
+                            );
+                        }
+                      )}
+                    </Accordion>
+                  );
+                }
+              })
+            )}
           </div>
         ) : null}
       </Menu>

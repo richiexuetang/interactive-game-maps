@@ -8,6 +8,10 @@ services:
       target: deploy
     ports:
       - 5001:5001
+    depends_on:
+      - postgres
+    env_file:
+      - .env
 
   postgres:
     image: postgres:15

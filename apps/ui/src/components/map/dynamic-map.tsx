@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import * as RL from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "@/lib/leaflet/smooth-wheel-zoom";
+import "@/lib/leaflet/context-menu";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
 import { UserAvatar } from "../user-avatar";
@@ -23,15 +24,22 @@ import { useQuery } from "@apollo/client";
 import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
 import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
+import { Game } from "@/__generated__/graphql";
+import { useParams } from "next/navigation";
+import { LatLngExpression } from "leaflet";
+import { Control } from "./controls/zoom-control";
+// import { TestMarker } from "../markers/test-marker";
 
 interface MapProps {
-  region: any;
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  regionData: any;
+  regionData: Game;
 }
 
-const Map = ({ region, user, regionData }: MapProps) => {
+const Map = ({ user, regionData }: MapProps) => {
   const { zoom, minZoom, maxZoom, center } = regionData;
+  const params = useParams<{ slug: string }>();
+
+  const region = regionData.regions?.find((r) => r.slug === params.slug);
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -47,25 +55,29 @@ const Map = ({ region, user, regionData }: MapProps) => {
   });
 
   useEffect(() => {
-    if (userData && !appUser) {
-      const data = userData?.getUser;
+    if (userData?.getUser && !appUser) {
+      console.log(userData?.getUser);
       setAppUser({
-        ...data,
+        ...userData?.getUser,
       });
     }
   }, [userData, appUser, setAppUser]);
 
   useEffect(() => {
-    if (!game || game !== regionData.slug) {
+    if (!game) {
       setGame(regionData.slug);
     }
   }, [game, regionData.slug, setGame]);
 
   useEffect(() => {
-    if (!currentRegion || currentRegion.id !== region.id) {
+    if (!currentRegion && region) {
       setCurrentRegion(region);
-      setCurrentMarkers([...region.locations]);
-      setCurrentGroups([...regionData.groups]);
+      if (region.locations) {
+        setCurrentMarkers([...region.locations]);
+      }
+      if (regionData.groups) {
+        setCurrentGroups([...regionData.groups]);
+      }
     }
   }, [
     currentRegion,
@@ -80,12 +92,12 @@ const Map = ({ region, user, regionData }: MapProps) => {
     <div
       className={cn(
         getFontClassName(regionData.slug),
-        "h-[calc(100vh-1rem)] bg-black",
+        "h-[calc(100vh-1rem)]",
         regionData.slug
       )}
     >
       <Menu
-        regions={regionData.regions}
+        regions={regionData.regions ?? []}
         subRegions={subRegionData?.getSubRegionsByRegion}
       />
       <RL.MapContainer
@@ -93,18 +105,29 @@ const Map = ({ region, user, regionData }: MapProps) => {
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}
-        center={center}
+        center={center as LatLngExpression}
         attributionControl={false}
         zoomControl={false}
         scrollWheelZoom={false}
         // @ts-ignore
         smoothWheelZoom={true}
+        contextmenu={true}
+        contextmenuWidth={140}
+        contextmenuItems={[
+          {
+            text: "Zoom in",
+          },
+          {
+            text: "Zoom out",
+          },
+        ]}
         smoothSensitivity={15}
         className="w-full h-full"
       >
         <RL.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region.tilePath}/{z}/{y}/{x}.jpg`}
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region?.tilePath}/{z}/{y}/{x}.jpg`}
         />
+        <RL.ZoomControl position="bottomright" />
         <MarkerRenderer />
         <MarkerSearch />
         {/* <TestMarker center={[0.59766929759525, -0.86262242317486]} /> */}

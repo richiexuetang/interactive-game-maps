@@ -4,7 +4,6 @@ interface User {
   email: string;
   foundLocations: number[];
   photoUrl: string;
-  trackingCategories: number[];
   hideFound: boolean;
 }
 

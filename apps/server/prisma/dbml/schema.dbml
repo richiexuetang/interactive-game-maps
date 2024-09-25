@@ -12,7 +12,6 @@ Table AppUser {
   photoUrl String
   foundLocations Int[] [not null]
   username String
-  trackingCategories Int[] [not null]
   hideFound Boolean [not null, default: false]
 }
 

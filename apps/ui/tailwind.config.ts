@@ -13,8 +13,9 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        mapBackground: "var(--map-background)",
         text: "var(--text-color)",
-        background: "hsl(var(--background))",
+        background: "var(--app-background)",
         foreground: "hsl(var(--foreground))",
         sidebarBackground: "var(--sidebar-background-color)",
         card: {

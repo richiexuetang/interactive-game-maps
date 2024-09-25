@@ -3,7 +3,7 @@ import { getMetaData, getRegionsByGame } from "@/lib/api";
 import { Metadata } from "next";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import { ImageCard } from "@/components/image-card";
+import { ImageCard } from "@/components/cards/image-card";
 import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
@@ -11,7 +11,6 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  revalidatePath("/region");
   const game = await getMetaData(params.slug);
 
   const { title, description } = game;

@@ -24,7 +24,6 @@ query GetUser($email: String!) {
     email,
     foundLocations,
     hideFound,
-    trackingCategories,
     photoUrl
   }
 }`);
@@ -48,23 +47,10 @@ export const TOGGLE_HIDE_FOUND = gql(
 mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
   toggleHideFoundSetting(data: $data) {
     hideFound
-    trackingCategories
     email
   }
 }
 `
-);
-
-export const ADD_TRACKING_CATEGORY = gql(
-  `
-  mutation AddTrackingCategory($data: UpdateTrackingCategoryInput!) {
-    addTrackingCategory(data: $data) {
-      email
-      hideFound
-      trackingCategories
-    }
-  }
-  `
 );
 
 export const GET_SUB_REGIONS = gql(
@@ -78,15 +64,6 @@ export const GET_SUB_REGIONS = gql(
   `
 );
 
-export const REMOVE_TRACKING_CATEGORY = gql(`
-mutation RemoveTrackingCategory($data: UpdateTrackingCategoryInput!) {
-  removeTrackingCategory(data: $data) {
-    email
-    trackingCategories
-    hideFound
-  }
-}
-`);
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {
     games {

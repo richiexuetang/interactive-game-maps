@@ -1,8 +1,8 @@
 import urllib.request
 import os
 
-zoom_start = 16
-zoom_end = 17
+zoom_start = 9
+zoom_end = 15
 
 x_low_map = {
     8: 127,
@@ -31,15 +31,15 @@ y_low_map = x_low_map
 y_high_map = x_high_map
 
 # "fablesphere"
-regions = [ "the-shadow-lands"]
+regions = [ "hogwarts/default-v1", "hogsmeade/derp-v1"]
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
 
 for z in range(zoom_start, zoom_end+1):
     for x in range(x_low_map[z], x_high_map[z] + 1):
         for y in range(y_low_map[z], y_high_map[z] + 1):
             for region in regions:
-                uri = "https://tiles.mapgenie.io/games/elden-ring/{region}/asdnlkkveao-v1/{z}/{x}/{y}.jpg".format(region=region, z=z, x=x, y=y)
-                directory = '{dir}/elden-ring/{region}/{z}/{y}'.format(dir=dir_name, region=region, z=z, y=y)
+                uri = "https://tiles.mapgenie.io/games/hogwarts-legacy/{region}/{z}/{x}/{y}.jpg".format(region=region, z=z, x=x, y=y)
+                directory = '{dir}/hogwarts-legacy/{region}/{z}/{y}'.format(dir=dir_name, region=region, z=z, y=y)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)
