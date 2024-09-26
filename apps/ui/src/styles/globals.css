@@ -61,231 +61,215 @@
 }
 
 /*  Witcher 3 */
-.abandoned_site {
+.witcher-3_abandoned_site {
   background-position: 0 0;
 }
 
-.bandit_camp {
+.witcher-3_bandit_camp {
   background-position: -132px -0px;
 
 }
 
-.contract {
+.witcher-3_contract {
   background-position: -66px -44px;
 
 }
 
-.entrance {
+.witcher-3_entrance {
   background-position: -132px -44px;
 
 }
 
-.guarded_treasure {
+.witcher-3_guarded_treasure {
   background-position: -231px -44px;
 }
 
-.hanse_base {
+.witcher-3_hanse_base {
   background-position: -132px -86px;
 }
 
-.harbor {
+.witcher-3_harbor {
   background-position: -165px -86px;
 }
 
-.knight_in_distress {
+.witcher-3_knight_in_distress {
   background-position: -66px -132px;
 }
 
-.lebioda_monument {
+.witcher-3_lebioda_monument {
   background-position: -99px -132px;
 }
 
-.magic_lamp {
+.witcher-3_magic_lamp {
   background-position: -132px -132px;
 }
 
-.monster_den {
+.witcher-3_monster_den {
   background-position: -231px -132px;
 }
 
-.monster_nest {
+.witcher-3_monster_nest {
   background-position: 0 -176px;
 }
 
-.notice_board {
+.witcher-3_notice_board {
   background-position: -66px -176px;
 }
 
-.person_in_distress {
+.witcher-3_person_in_distress {
   background-position: -165px -176px;
 }
 
-.place_of_power {
+.witcher-3_place_of_power {
   background-position: -198px -176px;
 }
 
-.point_of_interest {
+.witcher-3_point_of_interest {
   background-position: -231px -176px;
 }
 
-.portal {
+.witcher-3_portal {
   background-position: 0 -220px;
 }
 
-.signal_fire {
+.witcher-3_signal_fire {
   background-position: -231px -220px;
 }
 
-.signpost {
+.witcher-3_signpost {
   background-position: 0 -264px;
 }
 
-.smugglers_cache {
+.witcher-3_smugglers_cache {
   background-position: -33px -264px;
 }
 
-.spoils_of_war {
+.witcher-3_spoils_of_war {
   background-position: -66px -264px;
 }
 
-.stash {
+.witcher-3_stash {
   background-position: -99px -264px;
 }
 
-.vineyard_infestation {
+.witcher-3_vineyard_infestation {
   background-position: -165px -264px;
 }
 
-.vinters_contract {
+.witcher-3_vinters_contract {
   background-position: -198px -264px;
 }
 
-.alchemy_supplies {
+.witcher-3_alchemy_supplies {
   background-position: -33px -0px;
 }
 
-.armorer {
+.witcher-3_armorer {
   background-position: -66px -0px;
 }
 
-.armorers_table {
+.witcher-3_armorers_table {
   background-position: -99px -0px;
 }
 
-.barber {
-  background-position: -165px -0px;
-}
-
-.blacksmith {
+.witcher-3_blacksmith {
   background-position: -198px -0px;
 
 }
 
-.brothel {
-  background-position: 0 -44px;
-}
-
-.dye_merchant {
+.witcher-3_dye_merchant {
   background-position: -99px -44px;
 }
 
-.grindstone {
+.witcher-3_grindstone {
   background-position: -198px -44px;
 }
 
-.gwent_merchant {
+.witcher-3_gwent_merchant {
   background-position: -33px -86px;
 }
 
-.gwent_player {
+.witcher-3_gwent_player {
   background-position: -66px -86px;
 }
 
-.herbalist {
+.witcher-3_herbalist {
   background-position: -198px -86px;
 }
 
-.innkeep {
+.witcher-3_innkeep {
   background-position: -33px -132px;
 }
 
-.runewright {
+.witcher-3_runewright {
   background-position: -132px -220px;
 }
 
-.shopkeeper {
+.witcher-3_shopkeeper {
   background-position: -198px -220px;
 }
 
-.fistfight {
+.witcher-3_fistfight {
   background-position: -165px -44px;
 }
 
-.gwent_quest {
+.witcher-3_gwent_quest {
   background-position: -99px -86px;
 }
 
-.hidden_treasure {
+.witcher-3_hidden_treasure {
   background-position: -231px -86px;
 }
 
-.horse_race {
+.witcher-3_horse_race {
   background-position: 0 -132px;
 }
 
-.main_quest {
+.witcher-3_main_quest {
   background-position: -165px -132px;
 }
 
-.secondary_quest {
+.witcher-3_secondary_quest {
   background-position: -165px -220px;
 }
 
-.treasure_chest {
+.witcher-3_treasure_chest {
   background-position: -132px -264px;
 }
 
-.book {
+.witcher-3_book {
   background-position: -231px -0px;
 }
 
-.chest {
+.witcher-3_chest {
   background-position: -33px -44px;
 }
 
-.gwent_card {
+.witcher-3_gwent_card {
   background-position: 0 -86px;
 }
 
-.mutagen {
+.witcher-3_mutagen {
   background-position: -33px -176px;
 }
 
-.oil {
-  background-position: -132px -176px;
-}
-
-.quest_item {
+.witcher-3_quest_item {
   background-position: -33px -220px;
 }
 
-.recipe {
+.witcher-3_recipe {
   background-position: -66px -220px;
 }
 
-.relic_item {
-  background-position: -99px -220px;
-}
-
-.witcher_gear {
+.witcher-3_witcher_gear {
   background-position: -231px -264px;
 }
 
-.miscellaneous {
+.witcher-3_miscellaneous {
   background-position: -198px -132px;
 }
 
-.npc {
+.witcher-3_npc {
   background-position: -99px -176px;
 }
 

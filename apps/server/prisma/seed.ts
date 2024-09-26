@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import { bmw } from "./seeding/bmw";
 import { totk } from "./seeding/totk";
 import { eldenRing } from "./seeding/elden-ring";
+import { witcher3 } from "./seeding/witcher";
 
 const prisma = new PrismaClient();
 
@@ -15,7 +16,7 @@ async function main() {
   await prisma.game.deleteMany({});
   await prisma.appUser.deleteMany({});
 
-  const games = [bmw, totk, eldenRing];
+  const games = [bmw, totk, eldenRing, witcher3];
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }
@@ -60,17 +61,19 @@ async function seedGame(game) {
       },
     });
 
-    for (let j = 0; j < subRegions.length; j++) {
-      const subRegion = subRegions[j];
-      const coordinatesString = subRegion.coordinates
-        .map((coord: any) => coord.join(" "))
-        .join(", ");
-      const coord = `POLYGON((${coordinatesString}))`;
-      await prisma.$queryRaw`
-              INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
-              VALUES (ST_GeomFromText(${coord},4326), ${
-        subRegion.title
-      }, ${slug}, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
+    if (subRegions) {
+      for (let j = 0; j < subRegions.length; j++) {
+        const subRegion = subRegions[j];
+        const coordinatesString = subRegion.coordinates
+          .map((coord: any) => coord.join(" "))
+          .join(", ");
+        const coord = `POLYGON((${coordinatesString}))`;
+        await prisma.$queryRaw`
+                INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
+                VALUES (ST_GeomFromText(${coord},4326), ${
+          subRegion.title
+        }, ${slug}, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
+      }
     }
   }
 
