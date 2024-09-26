@@ -53,7 +53,6 @@ Table SubRegion {
 Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
-  slug String [unique, not null]
   game Game [not null]
   gameSlug String [not null]
   categories MarkerCategory [not null]
@@ -65,8 +64,8 @@ Table MarkerCategory {
   icon String [not null]
   info String
   locations MarkerLocation [not null]
-  groupSlug String [not null]
-  markerGroup MarkerGroup [not null]
+  groupId Int
+  markerGroup MarkerGroup
 }
 
 Table MarkerLocation {
@@ -98,7 +97,7 @@ Ref: SubRegion.regionSlug > Region.slug
 
 Ref: MarkerGroup.gameSlug > Game.slug
 
-Ref: MarkerCategory.groupSlug > MarkerGroup.slug
+Ref: MarkerCategory.groupId > MarkerGroup.id
 
 Ref: MarkerLocation.categoryId > MarkerCategory.id
 

@@ -53,7 +53,8 @@ const SidebarDivider = styled(Divider)(() => ({
 }));
 
 const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
+  alignItems: "center",
+  backgroundColor: "var(--sidebar-background)",
   padding: theme.spacing(1),
   color: "var(--text-color)",
   display: "flex",
@@ -130,7 +131,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                   priority
                 />
               </Link>
-              <h1 className="text-accent">
+              <h1 className="text-accent text-center">
                 {gameSlug?.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
               </h1>
               <SidebarDivider orientation="horizontal" flexItem />
@@ -219,7 +220,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                             )}
                           >
                             <Item
-                              variant="outlined"
+                              elevation={0}
                               onClick={() => handleHiddenCategory(category.id)}
                             >
                               <span

@@ -67,7 +67,6 @@ model SubRegion {
 model MarkerGroup {
   id         Int              @id @default(autoincrement())
   title      String
-  slug       String           @unique
   game       Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug   String
   categories MarkerCategory[]
@@ -79,8 +78,8 @@ model MarkerCategory {
   icon        String
   info        String?
   locations   MarkerLocation[]
-  groupSlug   String
-  markerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
+  groupId     Int?
+  markerGroup MarkerGroup?     @relation(fields: [groupId], references: [id])
 }
 
 model MarkerLocation {

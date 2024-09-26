@@ -27,7 +27,6 @@ import { Game } from "@/__generated__/graphql";
 import { useParams } from "next/navigation";
 import { LatLngExpression } from "leaflet";
 import { userNoteMarkerAtom } from "@/store/marker";
-// import { TestMarker } from "../markers/test-marker";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
@@ -142,7 +141,6 @@ const Map = ({ user, regionData }: MapProps) => {
         <RL.ZoomControl position="bottomright" />
         <MarkerRenderer />
         <MarkerSearch />
-        {/* <TestMarker center={[0.59766929759525, -0.86262242317486]} /> */}
         <ProgressTracker />
         {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
           <SubRegion

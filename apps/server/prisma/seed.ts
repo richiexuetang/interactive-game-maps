@@ -1,9 +1,6 @@
-import { subRegions } from "./seeding/sub-regions";
 import { PrismaClient } from "@prisma/client";
-import { games } from "./seeding/games";
-import { regions } from "./seeding/region";
-import { markerGroups } from "./seeding/marker-group";
-import { categoryLocations } from "./seeding/categories";
+import { bmw } from "./seeding/bmw";
+import { totk } from "./seeding/totk";
 
 const prisma = new PrismaClient();
 
@@ -17,51 +14,99 @@ async function main() {
   await prisma.game.deleteMany({});
   await prisma.appUser.deleteMany({});
 
-  await prisma.game.createMany({ data: games });
-
-  await prisma.region.createMany({ data: regions });
-
-  for (let i = 0; i < subRegions.length; i++) {
-    const subRegion = subRegions[i];
-    const coordinatesString = subRegion.coordinates
-      .map((coord: any) => coord.join(" "))
-      .join(", ");
-    const coord = `POLYGON((${coordinatesString}))`;
-    await prisma.$queryRaw`
-              INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
-              VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${
-      subRegion.regionSlug
-    }, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})
-            `;
+  const games = [bmw, totk];
+  for (let i = 0; i < games.length; i++) {
+    await seedGame(games[i]);
   }
+}
 
-  await prisma.markerGroup.createMany({ data: markerGroups });
+async function seedGame(game) {
+  const {
+    slug: gameSlug,
+    title,
+    description,
+    maxZoom,
+    minZoom,
+    zoom,
+    center,
+    regions,
+    groups,
+  } = game;
+  await prisma.game.create({
+    data: {
+      slug: gameSlug,
+      title,
+      description,
+      maxZoom,
+      minZoom,
+      zoom,
+      center,
+    },
+  });
 
-  for (let i = 0; i < categoryLocations.length; i++) {
-    const category = categoryLocations[i];
-    const { locations, icon: categoryIcon, ...rest } = category;
+  for (let i = 0; i < regions.length; i++) {
+    const region = regions[i];
+    const { slug, title, subRegions } = region;
 
-    const icon = categoryIcon
-      ? categoryIcon
-      : categoryLocations[i].title?.toLowerCase().replaceAll(" ", "_");
-    const newCategory = await prisma.markerCategory.create({
-      data: { ...rest, icon },
+    await prisma.region.create({
+      data: {
+        slug,
+        title,
+        thumbnailUrl: `images/games/black-myth-wukong/${slug}.png`,
+        tilePath: `${gameSlug}/${slug}`,
+        gameSlug: gameSlug,
+        order: i + 1,
+      },
     });
 
-    for (let j = 0; j < locations.length; j++) {
-      const { media, ...rest } = locations[j];
-      if (newCategory?.id) {
+    for (let j = 0; j < subRegions.length; j++) {
+      const subRegion = subRegions[j];
+      const coordinatesString = subRegion.coordinates
+        .map((coord: any) => coord.join(" "))
+        .join(", ");
+      const coord = `POLYGON((${coordinatesString}))`;
+      await prisma.$queryRaw`
+              INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
+              VALUES (ST_GeomFromText(${coord},4326), ${
+        subRegion.title
+      }, ${slug}, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
+    }
+  }
+
+  for (let i = 0; i < groups.length; i++) {
+    const { title, categories } = groups[i];
+    const newGroup = await prisma.markerGroup.create({
+      data: { title, gameSlug },
+    });
+
+    for (let j = 0; j < categories.length; j++) {
+      const { title, locations } = categories[j];
+      // @ts-ignore
+      const icon = categories[j]?.icon
+        ? // @ts-ignore
+          categories[j]?.icon
+        : title.toLowerCase().replaceAll(" ", "_");
+      // @ts-ignore
+      const info = categories[j]?.info ? categories[j]?.info : "";
+      const newCategory = await prisma.markerCategory.create({
+        data: { title, icon, groupId: newGroup.id, info },
+      });
+
+      for (let k = 0; k < locations.length; k++) {
+        const { media, ...rest } = locations[k];
         const newLocation = await prisma.markerLocation.create({
           data: {
             ...rest,
+
             media: {},
             categoryId: newCategory.id,
           },
         });
+
         if (media?.length) {
-          for (let k = 0; k < media.length; k++) {
+          for (let l = 0; l < media.length; l++) {
             await prisma.media.create({
-              data: { ...media[k], markerLocationId: newLocation.id },
+              data: { ...media[l], markerLocationId: newLocation.id },
             });
           }
         }

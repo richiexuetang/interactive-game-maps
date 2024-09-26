@@ -1167,12 +1167,29 @@
   .zelda-tears-of-the-kingdom {
     --text-color: #f8f6e0;
     --accent-color: #cab586;
-    --title-font-color: var(--accent-color);
+    --title-font-color: var(--text-color);
     --border-color: var(--accent-color);
     --sidebar-border-color: var(--border-color);
     --sidebar-background-color: #231d1b;
     --map-background: #000;
     --text-font: 'HyliaSerif';
+    --body-font-family: "Open Sans", sans-serif, "sans-serif";
+    --title-font-family: "Hylia";
+    --category-font-size: 13px;
+    --title-font-size: 24px;
+    --title-font-weight: normal;
+    --title-font-letter-spacing: 1px;
+    --title-font-text-transform: none;
+    --user-panel-title-size: 18px;
+    /* --sidebar-background: var(--sidebar-background-color) url(../../images/games/zelda-tears-of-the-kingdom/background.jpg); */
+    --sidebar-subtitle-size: 16px;
+    --map-link-color: color-mix(in srgb, var(--accent-color), #000 10%);
+    --map-link-color-hover: color-mix(in srgb, var(--map-link-color), transparent 75%);
+    --map-link-color-selected: color-mix(in srgb, var(--map-link-color), transparent 90%);
+    --popup-background: color-mix(in srgb, var(--sidebar-background-color), transparent 1%);
+    --popup-border-color: hsla(0, 0%, 78%, .4);
+    --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
+    --modal-border-color: var(--text-color);
   }
 
   .black-myth-wukong {

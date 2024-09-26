@@ -553,6 +553,7 @@
     color: #fff;
 }
 
+/*  */
 .black-myth-wukong-icon-yaoguai_king:before {
     content: "\e900";
     color: #fff;
@@ -560,11 +561,6 @@
 
 .black-myth-wukong-icon-yaoguai_chief:before {
     content: "\e901";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-will:before {
-    content: "\e902";
     color: #fff;
 }
 
@@ -578,6 +574,16 @@
     color: #fff;
 }
 
+.black-myth-wukong-icon-nine-capped_lingzhi:before,
+.black-myth-wukong-icon-aged_ginseng:before,
+.black-myth-wukong-icon-celestial_pear:before,
+.black-myth-wukong-icon-gentian:before,
+.black-myth-wukong-icon-fire_bellflower:before,
+.black-myth-wukong-icon-jade_lotus:before,
+.black-myth-wukong-icon-licorice:before,
+.black-myth-wukong-icon-millenium_ginseng:before,
+.black-myth-wukong-icon-purple_lingzhi:before,
+.black-myth-wukong-icon-snake_head_mushroom:before,
 .black-myth-wukong-icon-tree_pearl:before {
     content: "\e905";
     color: #fff;
@@ -603,31 +609,6 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-snake_head_mushroom:before {
-    content: "\e90a";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-encounters:before {
-    content: "\e90b";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-shen_monkey:before {
-    content: "\e90c";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-seeds:before {
-    content: "\e90d";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-purple_lingzhi:before {
-    content: "\e90e";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-point_of_interest:before {
     content: "\e90f";
     color: #fff;
@@ -638,18 +619,8 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-nine-capped_lingzhi:before {
-    content: "\e911";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-miscellaneous:before {
     content: "\e912";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-millenium_ginseng:before {
-    content: "\e913";
     color: #fff;
 }
 
@@ -658,18 +629,9 @@
     color: #fff;
 }
 
+
 .black-myth-wukong-icon-luojia_fragrant_vine:before {
     content: "\e915";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-licorice:before {
-    content: "\e916";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-lesser_yaoguai:before {
-    content: "\e917";
     color: #fff;
 }
 
@@ -683,38 +645,13 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-jade_lotus:before {
-    content: "\e91a";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-item:before {
-    content: "\e91b";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-gourd:before {
     content: "\e91c";
     color: #fff;
 }
 
-.black-myth-wukong-icon-gentian:before {
-    content: "\e91d";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-fragrant_jade_flower:before {
-    content: "\e91e";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-formula:before {
     content: "\e91f";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-fire_bellflower:before {
-    content: "\e920";
     color: #fff;
 }
 
@@ -738,28 +675,13 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-consumable:before {
-    content: "\e925";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-chest:before {
     content: "\e926";
     color: #fff;
 }
 
-.black-myth-wukong-icon-character:before {
-    content: "\e927";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-celestial_pill:before {
     content: "\e928";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-celestial_pear:before {
-    content: "\e929";
     color: #fff;
 }
 
@@ -770,11 +692,6 @@
 
 .black-myth-wukong-icon-armor:before {
     content: "\e92b";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-aged_ginseng:before {
-    content: "\e92c";
     color: #fff;
 }
 

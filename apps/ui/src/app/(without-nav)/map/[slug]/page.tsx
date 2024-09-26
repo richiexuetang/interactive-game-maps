@@ -9,7 +9,6 @@ import Map from "@/components/map/map";
 
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
-import "@/styles/leaflet.css";
 import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
