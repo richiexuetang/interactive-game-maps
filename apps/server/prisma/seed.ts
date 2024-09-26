@@ -1,6 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 import { bmw } from "./seeding/bmw";
 import { totk } from "./seeding/totk";
+import { eldenRing } from "./seeding/elden-ring";
 
 const prisma = new PrismaClient();
 
@@ -14,7 +15,7 @@ async function main() {
   await prisma.game.deleteMany({});
   await prisma.appUser.deleteMany({});
 
-  const games = [bmw, totk];
+  const games = [bmw, totk, eldenRing];
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }

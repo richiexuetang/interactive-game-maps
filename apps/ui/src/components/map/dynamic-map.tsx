@@ -8,7 +8,6 @@ import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
 import { UserAvatar } from "../user-avatar";
 import { Menu } from "../menu";
-import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import { useAtom, useSetAtom } from "jotai";
 import { gameSlugAtom } from "@/store";
@@ -20,13 +19,14 @@ import {
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
 import { useQuery } from "@apollo/client";
-import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
+import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/graphql/constants";
 import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
 import { Game } from "@/__generated__/graphql";
 import { useParams } from "next/navigation";
 import { LatLngExpression } from "leaflet";
 import { userNoteMarkerAtom } from "@/store/marker";
+import { getFontClassName } from "@/lib/font";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;

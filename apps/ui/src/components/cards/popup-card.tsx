@@ -21,7 +21,10 @@ import { currentRegionAtom } from "@/store/map";
 import { toast } from "sonner";
 import { signInWithGoogle } from "@/lib/firebase/auth";
 import { useRouter } from "next/navigation";
-import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
+import {
+  ADD_TO_USER_FOUND,
+  REMOVE_FROM_USER_FOUND,
+} from "@/lib/graphql/constants";
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
 import { MarkerLocation } from "@/__generated__/graphql";
@@ -105,8 +108,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     <StyledCard>
       <CardHeader
         avatar={
-          <Avatar>
-            <span className={cn(`${gameSlug}-icon ${gameSlug}-icon-${icon}`)} />
+          <Avatar sx={{ backgroundColor: "transparent" }}>
+            <span className={cn(`${gameSlug}-icon icon ${gameSlug}_${icon}`)} />
           </Avatar>
         }
         action={

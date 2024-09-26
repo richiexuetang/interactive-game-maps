@@ -25,7 +25,7 @@ import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
   TOGGLE_HIDE_FOUND,
-} from "@/lib/constants";
+} from "@/lib/graphql/constants";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 

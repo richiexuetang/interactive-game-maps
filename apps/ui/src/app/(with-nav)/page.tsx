@@ -1,5 +1,5 @@
-import { FETCH_GAMES } from "@/lib/constants";
-import { getClient } from "@/lib/apollo-client";
+import { FETCH_GAMES } from "@/lib/graphql/constants";
+import { getClient } from "@/lib/graphql/apollo-client";
 import { ImageCard } from "@/components/cards/image-card";
 import { revalidatePath } from "next/cache";
 

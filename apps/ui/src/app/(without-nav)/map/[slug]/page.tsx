@@ -4,7 +4,7 @@ import {
   getAppUser,
   getMetaData,
   getRegionDetails,
-} from "@/lib/api";
+} from "@/lib/graphql/api";
 import Map from "@/components/map/map";
 
 import type { Metadata } from "next";

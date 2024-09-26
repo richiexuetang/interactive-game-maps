@@ -1027,7 +1027,7 @@ export const bmw = {
           ],
         },
         {
-          title: "Meditation Spots",
+          title: "Meditation Spot",
           info: "Meditation Spots unlock 1 free Skill Point. Finding all Meditation Spots awards the Scenic Seeker achievement",
           locations: [
             {

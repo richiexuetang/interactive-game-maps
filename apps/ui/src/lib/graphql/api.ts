@@ -1,6 +1,6 @@
 import { remark } from "remark";
 import html from "remark-html";
-import { getClient } from "@/lib/apollo-client";
+import { getClient } from "@/lib/graphql/apollo-client";
 import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
@@ -11,7 +11,7 @@ import {
   FETCH_REGION_DETAILS,
   GET_APP_USER,
   REMOVE_FROM_USER_FOUND,
-} from "@/lib/constants";
+} from "@/lib/graphql/constants";
 import { Region } from "@/__generated__/graphql";
 
 export async function addToUserFound(input: {

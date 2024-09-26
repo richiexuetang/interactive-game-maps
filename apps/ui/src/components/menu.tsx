@@ -225,7 +225,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                             >
                               <span
                                 className={cn(
-                                  `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
+                                  `${gameSlug}-icon-${category.icon}`
                                 )}
                               />
                               <span className="text-sm text-ellipsis whitespace-nowrap">

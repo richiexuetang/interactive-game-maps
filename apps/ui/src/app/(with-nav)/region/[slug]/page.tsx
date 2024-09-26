@@ -1,10 +1,10 @@
 import { Region } from "@/__generated__/graphql";
-import { getMetaData, getRegionsByGame } from "@/lib/api";
+import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
 import { Metadata } from "next";
-import { getFontClassName } from "@/lib/font";
-import { cn } from "@/lib/utils";
 import { ImageCard } from "@/components/cards/image-card";
 import { revalidatePath } from "next/cache";
+import { getFontClassName } from "@/lib/font";
+import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
   params,

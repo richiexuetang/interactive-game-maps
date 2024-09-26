@@ -30,7 +30,7 @@ export const Marker = ({ marker }: MarkerProps) => {
 
   // build div icon
   const div = document.createElement("div");
-  div.className = `icon ${gameSlug} ${icon}`;
+  div.className = `icon ${gameSlug}-icon ${gameSlug}_${icon}`;
 
   const map = RL.useMap();
   const searchParams = useSearchParams();
