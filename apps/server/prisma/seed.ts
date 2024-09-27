@@ -3,6 +3,7 @@ import { bmw } from "./seeding/bmw";
 import { totk } from "./seeding/totk";
 import { eldenRing } from "./seeding/elden-ring";
 import { witcher3 } from "./seeding/witcher";
+import { hogwarts } from "./seeding/hogwarts";
 
 const prisma = new PrismaClient();
 
@@ -16,7 +17,7 @@ async function main() {
   await prisma.game.deleteMany({});
   await prisma.appUser.deleteMany({});
 
-  const games = [bmw, totk, eldenRing, witcher3];
+  const games = [bmw, totk, eldenRing, witcher3, hogwarts];
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }

@@ -2,7 +2,6 @@ import { Region } from "@/__generated__/graphql";
 import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
 import { Metadata } from "next";
 import { ImageCard } from "@/components/cards/image-card";
-import { revalidatePath } from "next/cache";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 
@@ -58,7 +57,6 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
-  revalidatePath("/region");
   const regions = await getRegionsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 

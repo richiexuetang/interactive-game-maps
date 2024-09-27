@@ -1,7 +1,6 @@
 import { FETCH_GAMES } from "@/lib/graphql/constants";
 import { getClient } from "@/lib/graphql/apollo-client";
 import { ImageCard } from "@/components/cards/image-card";
-import { revalidatePath } from "next/cache";
 
 export type Game = {
   slug: string;
@@ -11,7 +10,6 @@ export type Game = {
 };
 
 export default async function Page() {
-  revalidatePath("/");
   const { data } = await getClient().query({
     query: FETCH_GAMES,
   });

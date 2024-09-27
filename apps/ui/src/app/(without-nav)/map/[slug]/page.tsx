@@ -9,7 +9,6 @@ import Map from "@/components/map/map";
 
 import type { Metadata } from "next";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
-import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
   params,
@@ -65,7 +64,6 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
-  revalidatePath("/map");
   const gameRegion = await fetchGameRegionDetails(params.slug);
   const currentUser = await getCurrentUser();
 

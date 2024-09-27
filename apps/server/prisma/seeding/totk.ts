@@ -3376,7 +3376,6 @@ export const totk = {
               longitude: "-0.62927379029531",
             },
           ],
-          icon: "totk-landmark",
           title: "Landmark",
         },
         {
@@ -27680,7 +27679,6 @@ export const totk = {
               longitude: "-0.68548492504942",
             },
           ],
-          icon: "totk-chest",
           title: "Chest",
         },
         {
@@ -28460,7 +28458,6 @@ export const totk = {
               longitude: "-0.81993169362565",
             },
           ],
-          icon: "totk-treasure_chest",
           title: "Treasure Chest",
         },
         {
@@ -32083,7 +32080,6 @@ export const totk = {
               longitude: "-0.65962225198703",
             },
           ],
-          icon: "totk-weapon",
           title: "Weapon",
         },
       ],
