@@ -27,6 +27,7 @@
     "start:db": "pnpm run migrate:deploy && pnpm run prisma:generate && pnpm run seed",
     "seed": "pnpx prisma db seed",
     "postinstall": "pnpm run prisma:generate",
+    "db:seed": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' prisma/seed.ts",
     "docker:migrate": "docker-compose -f docker-compose.migrate.yml up -d",
     "docker:db": "docker-compose -f docker-compose.db.yml up -d",
     "docker:seed": "docker exec -it nest-api pnpm run seed",
@@ -87,7 +88,7 @@
     "ts-loader": "9.4.4",
     "ts-node": "10.9.1",
     "tsconfig-paths": "4.2.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.5.4"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -107,6 +108,6 @@
     "testEnvironment": "node"
   },
   "prisma": {
-    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+    "seed": "ts-node prisma/seed.ts"
   }
 }

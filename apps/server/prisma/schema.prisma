@@ -1,17 +1,16 @@
-datasource db {
-  provider   = "postgresql"
-  url        = env("POSTGRES_PRISMA_URL") // uses connection pooling
-  directUrl  = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
-  extensions = [pg_trgm, postgis]
-}
-
 generator client {
-  previewFeatures = ["postgresqlExtensions"]
   provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
 }
 
 generator dbml {
   provider = "prisma-dbml-generator"
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("POSTGRES_PRISMA_URL")
+  extensions = [pg_trgm, postgis]
 }
 
 model AppUser {
@@ -34,22 +33,22 @@ model NoteMarker {
   description String?
   latitude    Decimal
   longitude   Decimal
-  user        AppUser @relation(fields: [userId], references: [id])
   userId      String
   regionSlug  String  @default("world")
+  user        AppUser @relation(fields: [userId], references: [id])
 }
 
 model Game {
   id          Int           @id @default(autoincrement())
   slug        String        @unique
   title       String
-  regions     Region[]
-  groups      MarkerGroup[]
   description String
   minZoom     Int
   maxZoom     Int
   zoom        Int
   center      Decimal[]
+  groups      MarkerGroup[]
+  regions     Region[]
 }
 
 model Region {
@@ -58,21 +57,21 @@ model Region {
   title        String
   thumbnailUrl String
   tilePath     String
-  game         Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug     String
-  locations    MarkerLocation[]
   order        Int              @default(1)
+  locations    MarkerLocation[]
+  game         Game             @relation(fields: [gameSlug], references: [slug])
   subRegions   SubRegion[]
 }
 
 model SubRegion {
-  id          Int                                    @id @default(autoincrement())
-  region      Region                                 @relation(fields: [regionSlug], references: [slug])
+  id          Int                     @id @default(autoincrement())
   regionSlug  String
-  coordinates Unsupported("geometry(Polygon, 4326)")
+  coordinates Unsupported("geometry")
   title       String
+  slug        String                  @unique
   locations   MarkerLocation[]
-  slug        String                                 @unique
+  region      Region                  @relation(fields: [regionSlug], references: [slug])
 
   @@index([coordinates], type: Gist)
 }
@@ -80,9 +79,9 @@ model SubRegion {
 model MarkerGroup {
   id         Int              @id @default(autoincrement())
   title      String
-  game       Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug   String
   categories MarkerCategory[]
+  game       Game             @relation(fields: [gameSlug], references: [slug])
 }
 
 model MarkerCategory {
@@ -90,9 +89,9 @@ model MarkerCategory {
   title       String
   icon        String
   info        String?
-  locations   MarkerLocation[]
   groupId     Int?
   markerGroup MarkerGroup?     @relation(fields: [groupId], references: [id])
+  locations   MarkerLocation[]
 }
 
 model MarkerLocation {
@@ -101,19 +100,28 @@ model MarkerLocation {
   description   String?
   latitude      Decimal
   longitude     Decimal
-  category      MarkerCategory? @relation(fields: [categoryId], references: [id])
   categoryId    Int?
-  region        Region          @relation(fields: [regionSlug], references: [slug])
   regionSlug    String
-  media         Media[]
-  subRegion     SubRegion?      @relation(fields: [subRegionSlug], references: [slug])
   subRegionSlug String?
+  category      MarkerCategory? @relation(fields: [categoryId], references: [id])
+  region        Region          @relation(fields: [regionSlug], references: [slug])
+  subRegion     SubRegion?      @relation(fields: [subRegionSlug], references: [slug])
+  media         Media[]
 }
 
 model Media {
   id               Int             @id @default(autoincrement())
   url              String
   type             String
-  MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])
   markerLocationId Int?
+  MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model spatial_ref_sys {
+  srid      Int     @id
+  auth_name String? @db.VarChar(256)
+  auth_srid Int?
+  srtext    String? @db.VarChar(2048)
+  proj4text String? @db.VarChar(2048)
 }
