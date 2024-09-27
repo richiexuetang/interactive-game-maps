@@ -89,6 +89,163 @@
   background-color: transparent !important;
 }
 
+.hogwarts-legacy_ancient_magic_hotspot {
+  background-position: -33px 0;
+}
+
+.hogwarts-legacy_arithmancy_door {
+  background-position: -66px 0;
+}
+
+.hogwarts-legacy_assignment {
+  background-position: -99px 0;
+}
+
+.hogwarts-legacy_astronomy_table {
+  background-position: -132px 0;
+}
+
+.hogwarts-legacy_balloon {
+  background-position: -165px 0;
+}
+
+.hogwarts-legacy_bandit_camp {
+  background-position: -198px 0;
+}
+
+.hogwarts-legacy_battle_arena {
+  background-position: -231px 0;
+}
+
+.hogwarts-legacy_beast_den {
+  background-position: -264px 0;
+}
+
+.hogwarts-legacy_dungeon {
+  background-position: -132px -88px;
+}
+
+.hogwarts-legacy_floo_flame {
+  background-position: -297px -88px;
+}
+
+.hogwarts-legacy_hamlet {
+  background-position: -198px -132px;
+}
+
+.hogwarts-legacy_astronomy_table {
+  background-position: -132px 0;
+}
+
+.hogwarts-legacy_legendary_chest {
+  background-position: 0 -220px;
+}
+
+.hogwarts-legacy_hedge_maze {
+  background-position: -231px -198px;
+}
+
+.hogwarts-legacy_location {
+  background-position: -33px -220px
+}
+
+.hogwarts-legacy_merlin_trial {
+  background-position: -231px -220px;
+}
+
+/* 
+.hogwarts-legacy_point_of_interest {background-position: -198px,
+  "y 528,
+}
+.hogwarts-legacy_vendor {background-position: -231px,
+  "y 616,
+}
+
+.hogwarts-legacy_broom {
+  background-position: 594, 0;
+},
+.hogwarts-legacy_broom_trial {
+  background-position: -330px 0;
+},
+.hogwarts-legacy_collection_chest {background-position: 330 -44px;
+}
+.hogwarts-legacy_conjuration {background-position: 396 -44px;
+}
+.hogwarts-legacy_demiguise_statue {background-position: 0,
+  "y 176,
+}
+.hogwarts-legacy_field_guide_page {background-position: 528,
+  "y 176,
+}
+.hogwarts-legacy_landing_platform {background-position: 528,
+  "y 352,
+}
+.hogwarts-legacy_moth {background-position: 66,
+  "y 528,
+}
+.hogwarts-legacy_trait {background-position: 198,
+  "y 616,
+}
+.hogwarts-legacy_wand_handle {background-position: 594,
+  "y 616,
+}
+.hogwarts-legacy_main_quest {background-position: 264,
+  "y -220px,
+}
+.hogwarts-legacy_relationship_quest {background-position: 594,
+  "y 528,
+}
+.hogwarts-legacy_side_quest {background-position: 0,
+  "y 616,
+}
+.hogwarts-legacy_chest {background-position: 198,
+  -44px;
+},
+.hogwarts-legacy_daedalian_key {
+  background-position: 594, -44px
+}
+.hogwarts-legacy_eye_chest {background-position: 462,
+  "y 176,
+}
+
+.hogwarts-legacy_house_token {background-position: -33px,
+  "y 352,
+}
+
+.hogwarts-legacy_ingredient {background-position: 264,
+  "y 352,
+}
+
+.hogwarts-legacy_infamous_foe
+ {background-position: 132,
+  "y 352,
+}
+
+.hogwarts-legacy_butterflies {background-position: 0,
+  "y 88,
+}
+
+.hogwarts-legacy_easter_egg {background-position: 330,
+  "y 176,
+}
+
+.hogwarts-legacy_lock {background-position: 132,
+  "y -220px,
+}
+
+.hogwarts-legacy_lore_note {background-position: 198 -220px;
+}
+
+.hogwarts-legacy_miscellaneous {background-position: 594, -220px;
+}
+
+.hogwarts-legacy_npc {background-position: 198,
+  "y 528,
+}
+
+.hogwarts-legacy_puzzle {background-position: 528,
+  "y 528,
+} */
 /*  Witcher 3 */
 .witcher-3_abandoned_site {
   background-position: 0 0;

@@ -4,9 +4,9 @@ import { useEffect } from "react";
 import * as RL from "react-leaflet";
 import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
+import "@/lib/leaflet/full-screen";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
-import { UserAvatar } from "../user-avatar";
 import { Menu } from "../menu";
 import { cn } from "@/lib/utils";
 import { useAtom, useSetAtom } from "jotai";
@@ -108,6 +108,9 @@ const Map = ({ user, regionData }: MapProps) => {
         zoomControl={false}
         scrollWheelZoom={false}
         // @ts-ignore
+        fullscreenControl={true}
+        fullscreenControlOptions={{ position: "topright" }}
+        // @ts-ignore
         smoothWheelZoom={true}
         contextmenu={true}
         contextmenuWidth={140}
@@ -150,14 +153,6 @@ const Map = ({ user, regionData }: MapProps) => {
           />
         ))}
       </RL.MapContainer>
-      {user?.email && (
-        <div className="z-[1000] absolute top-2 right-2">
-          <UserAvatar
-            imageSrc={user.photoURL ?? ""}
-            name={user.displayName ?? ""}
-          />
-        </div>
-      )}
     </div>
   );
 };
