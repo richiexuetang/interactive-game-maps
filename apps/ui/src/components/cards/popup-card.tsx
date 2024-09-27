@@ -36,7 +36,6 @@ interface PopupCardProps {
 }
 
 const CardContentTypography = styled(Typography)(() => ({
-  fontFamily: "var(--body-font-family)",
   color: "var(--text-color)",
 }));
 

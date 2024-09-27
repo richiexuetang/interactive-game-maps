@@ -1,63 +1,44 @@
-import { PrismaClient } from "@prisma/client";
-import { bmw } from "./seeding/bmw";
-import { totk } from "./seeding/totk";
-import { eldenRing } from "./seeding/elden-ring";
-import { witcher3 } from "./seeding/witcher";
-import { hogwarts } from "./seeding/hogwarts";
-import { gow } from "./seeding/gow";
+import { PrismaClient, Prisma } from "@prisma/client";
+import { games } from "./seeding/maps";
 
 const prisma = new PrismaClient();
+const tableNames = Object.values(Prisma.ModelName);
 
 async function main() {
-  await prisma.markerLocation.deleteMany({});
-  await prisma.subRegion.deleteMany({});
-  await prisma.media.deleteMany({});
-  await prisma.markerCategory.deleteMany({});
-  await prisma.markerGroup.deleteMany({});
-  await prisma.region.deleteMany({});
-  await prisma.game.deleteMany({});
-  await prisma.appUser.deleteMany({});
+  await refreshDatabase();
 
-  const games = [bmw, totk, eldenRing, witcher3, hogwarts, gow];
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }
 }
 
+/**
+ * Reset the database by truncating all tables and resetting the auto-incrementing ID
+ */
+async function refreshDatabase() {
+  for (const tableName of tableNames) {
+    await prisma.$queryRawUnsafe(
+      `TRUNCATE TABLE "${tableName}" RESTART IDENTITY CASCADE`
+    );
+  }
+}
+
 async function seedGame(game) {
-  const {
-    slug: gameSlug,
-    title,
-    description,
-    maxZoom,
-    minZoom,
-    zoom,
-    center,
-    regions,
-    groups,
-  } = game;
+  const { regions, groups, ...gameData } = game;
   await prisma.game.create({
-    data: {
-      slug: gameSlug,
-      title,
-      description,
-      maxZoom,
-      minZoom,
-      zoom,
-      center,
-    },
+    data: { ...gameData },
   });
 
+  const gameSlug = game.slug;
   for (let i = 0; i < regions.length; i++) {
     const region = regions[i];
-    const { slug, title, subRegions } = region;
+    const { subRegions, ...regionData } = region;
 
     await prisma.region.create({
       data: {
-        slug,
-        title,
-        thumbnailUrl: `images/games/${gameSlug}/${slug}.png`,
-        tilePath: `${gameSlug}/${slug}`,
+        ...regionData,
+        thumbnailUrl: `images/games/${gameSlug}/${regionData.slug}.png`,
+        tilePath: `${gameSlug}/${regionData.slug}`,
         gameSlug,
         order: i + 1,
       },
@@ -72,12 +53,14 @@ async function seedGame(game) {
         const coord = `POLYGON((${coordinatesString}))`;
         await prisma.$queryRaw`
                 INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
-                VALUES (ST_GeomFromText(${coord},4326), ${
-          subRegion.title
-        }, ${slug}, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
+                VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${
+          regionData.slug
+        }, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
       }
+      console.log("Seeded sub-regions for region", regionData.slug);
     }
   }
+  console.log("Seeded regions for game", gameSlug);
 
   for (let i = 0; i < groups.length; i++) {
     const { title, categories } = groups[i];
@@ -87,13 +70,17 @@ async function seedGame(game) {
 
     for (let j = 0; j < categories.length; j++) {
       const { title, locations } = categories[j];
-      // @ts-ignore
-      const icon = categories[j]?.icon
-        ? // @ts-ignore
-          categories[j]?.icon
-        : title.toLowerCase().replaceAll(" ", "_");
-      // @ts-ignore
-      const info = categories[j]?.info ? categories[j]?.info : "";
+
+      let icon = title.toLowerCase().replaceAll(" ", "_");
+      if (categories[j]?.icon) {
+        icon = categories[j].icon;
+      }
+
+      let info = "";
+      if (categories[j]?.info) {
+        info = categories[j].info;
+      }
+
       const newCategory = await prisma.markerCategory.create({
         data: { title, icon, groupId: newGroup.id, info },
       });
@@ -103,22 +90,29 @@ async function seedGame(game) {
         const newLocation = await prisma.markerLocation.create({
           data: {
             ...rest,
-
             media: {},
             categoryId: newCategory.id,
           },
         });
 
-        if (media?.length) {
-          for (let l = 0; l < media.length; l++) {
-            await prisma.media.create({
-              data: { ...media[l], markerLocationId: newLocation.id },
-            });
-          }
+        if (newLocation?.id && media?.length) {
+          await seedMedia(media, newLocation.id);
         }
       }
+      console.log("Seeded locations for category", title);
     }
+    console.log("Seeded categories for group", title);
   }
+  console.log("Seeded groups for game", gameSlug);
+}
+
+async function seedMedia(media, markerLocationId) {
+  for (let i = 0; i < media.length; i++) {
+    await prisma.media.create({
+      data: { ...media[i], markerLocationId },
+    });
+  }
+  console.log("Seeded media for marker location", markerLocationId);
 }
 
 main()

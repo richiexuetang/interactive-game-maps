@@ -2116,32 +2116,6 @@ export const hogwarts = {
           ],
         },
         {
-          title: "Hogsmeade",
-          locations: [
-            {
-              regionSlug: "world",
-              title: "Hogsmeade",
-              description:
-                "Click [here](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade/) to see our Hogsmeade map! (Opens in a new tab)",
-              latitude: "0.90514919843415",
-              longitude: "-0.70084808784085",
-            },
-          ],
-        },
-        {
-          title: "Hogwarts",
-          locations: [
-            {
-              regionSlug: "world",
-              title: "Hogwarts",
-              description:
-                "Click [here](https://mapgenie.io/hogwarts-legacy/maps/hogwarts/) to see our Hogwarts map! (Opens in a new tab)",
-              latitude: "0.84983685706154",
-              longitude: "-0.73657928064983",
-            },
-          ],
-        },
-        {
           title: "Location",
           locations: [
             {
