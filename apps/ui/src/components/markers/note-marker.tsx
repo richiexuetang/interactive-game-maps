@@ -1,4 +1,7 @@
+import { ADD_USER_NOTE_MARKER } from "@/lib/graphql/constants";
+import { userAtom } from "@/store/auth";
 import { userNoteMarkerAtom } from "@/store/marker";
+import { useMutation } from "@apollo/client";
 import {
   Button,
   Card,
@@ -9,14 +12,14 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { useAtom, useSetAtom } from "jotai";
-import type { LatLngExpression } from "leaflet";
+import { useAtom, useAtomValue } from "jotai";
 import * as L from "leaflet";
+import { useParams } from "next/navigation";
 import { useState } from "react";
 import { Marker, Popup } from "react-leaflet";
 
 interface NoteMarkerProps {
-  position: LatLngExpression;
+  position: number[];
   title: string | null;
   description: string | null;
   index: number;
@@ -28,6 +31,7 @@ export const NoteMarker = ({
   description,
   index,
 }: NoteMarkerProps) => {
+  const params = useParams<{ slug: string }>();
   const div = document.createElement("div");
   div.className = `icon note-icon`;
 
@@ -38,13 +42,23 @@ export const NoteMarker = ({
   const [noteDescription, setNoteDescription] = useState("");
   const [userNoteAtom, setUserNoteAtom] = useAtom(userNoteMarkerAtom);
   const [editMode, setEditMode] = useState(false);
+  const appUser = useAtomValue(userAtom);
+
+  const [addNoteMarker] = useMutation(ADD_USER_NOTE_MARKER);
 
   const handleSave = () => {
-    const otherNotes = userNoteAtom.filter((_, i) => i !== index);
-    setUserNoteAtom([
-      ...otherNotes,
-      { title: noteTitle, description: noteDescription, position },
-    ]);
+    addNoteMarker({
+      variables: {
+        data: {
+          email: appUser?.email,
+          description: noteDescription,
+          title: noteTitle,
+          latitude: position[0],
+          longitude: position[1],
+          regionSlug: params.slug,
+        },
+      },
+    });
     setEditMode(false);
   };
 
@@ -55,7 +69,7 @@ export const NoteMarker = ({
 
   return (
     <Marker
-      position={position}
+      position={position as any}
       draggable={draggable}
       icon={L.divIcon({
         iconSize: [33, 44],

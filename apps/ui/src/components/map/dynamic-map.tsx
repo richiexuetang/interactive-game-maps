@@ -152,7 +152,7 @@ const Map = ({ user, regionData }: MapProps) => {
               setUserNoteMarkerAtom((prev) => [
                 ...prev,
                 {
-                  position: latlng,
+                  position: [latlng.lat, latlng.lng],
                   title: null,
                   description: null,
                 },

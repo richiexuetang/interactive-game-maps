@@ -25,6 +25,13 @@ query GetUser($email: String!) {
     foundLocations,
     hideFound,
     photoUrl
+    noteMarkers {
+      title
+      description
+      regionSlug
+      latitude
+      longitude
+    }
   }
 }`);
 
@@ -169,6 +176,31 @@ export const FETCH_LOCATIONS_BY_REGION = gql`
       longitude
       title
       id
+    }
+  }
+`;
+
+export const ADD_USER_NOTE_MARKER = gql`
+  mutation AddNoteMarker($data: AddNoteInput!) {
+    addNoteMarker(data: $data) {
+      noteMarkers {
+        id
+        title
+        description
+        regionSlug
+        latitude
+        longitude
+      }
+    }
+  }
+`;
+
+export const REMOVE_USER_NOTE_MARKER = gql`
+  mutation RemoveNoteMarker($data: RemoveNoteInput!) {
+    removeNoteMarker(data: $data) {
+      noteMarkers {
+        id
+      }
     }
   }
 `;

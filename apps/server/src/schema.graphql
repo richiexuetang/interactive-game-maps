@@ -2,6 +2,15 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+input AddNoteInput {
+  description: String!
+  email: String!
+  latitude: Float!
+  longitude: Float!
+  regionSlug: String!
+  title: String!
+}
+
 type AppUser {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -9,8 +18,9 @@ type AppUser {
   firstName: String
   foundLocations: [Int!]
   hideFound: Boolean!
-  id: Float!
+  id: String!
   lastName: String
+  noteMarkers: [NoteMarker!]
   photoUrl: String
 
   """Identifies the date and time when the object was last updated."""
@@ -110,9 +120,25 @@ type Media {
 
 type Mutation {
   addFoundLocations(data: UpdateFoundLocationInput!): AppUser!
+  addNoteMarker(data: AddNoteInput!): AppUser!
   createUser(data: CreateUserInput!): AppUser
   removeFoundLocation(data: UpdateFoundLocationInput!): AppUser!
+  removeNoteMarker(data: RemoveNoteInput!): AppUser!
   toggleHideFoundSetting(data: UpdateHideFoundInput!): AppUser!
+}
+
+type NoteMarker {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String!
+  id: Float!
+  latitude: Float!
+  longitude: Float!
+  regionSlug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 """
@@ -162,6 +188,11 @@ enum RegionOrderField {
   id
   order
   title
+}
+
+input RemoveNoteInput {
+  email: String!
+  id: Float!
 }
 
 type SubRegion {

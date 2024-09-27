@@ -3,13 +3,18 @@ import { Marker } from "./marker";
 import { useAtomValue } from "jotai";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { currentMarkersAtom } from "@/store/map";
-import { userNoteMarkerAtom } from "@/store/marker";
 import { NoteMarker } from "./note-marker";
+import { userAtom } from "@/store/auth";
+import { useParams } from "next/navigation";
+import { userNoteMarkerAtom } from "@/store/marker";
 
 export const MarkerRenderer = () => {
+  const params = useParams<{ slug: string }>();
+
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
   const markers = useAtomValue(currentMarkersAtom);
-  const userNoteMarkers = useAtomValue(userNoteMarkerAtom);
+  const appUser = useAtomValue(userAtom);
+  const noteMarkers = useAtomValue(userNoteMarkerAtom);
 
   if (!markers) return null;
 
@@ -22,9 +27,24 @@ export const MarkerRenderer = () => {
         }
         return <Marker key={id} marker={marker} />;
       })}
-      {userNoteMarkers.map(({ position, title, description }, index) => (
+      {appUser?.noteMarkers.map(
+        ({ latitude, longitude, title, description, regionSlug }, index) => {
+          if (params.slug === regionSlug) {
+            return (
+              <NoteMarker
+                position={[latitude, longitude]}
+                title={title}
+                description={description}
+                index={index}
+                key={index}
+              />
+            );
+          }
+        }
+      )}
+      {noteMarkers.map(({ position, title, description }, index) => (
         <NoteMarker
-          position={position}
+          position={position as any}
           title={title}
           description={description}
           index={index}

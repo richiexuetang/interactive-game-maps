@@ -1,10 +1,24 @@
 import "reflect-metadata";
 import { ObjectType, Field, Int } from "@nestjs/graphql";
 import { IsEmail } from "class-validator";
-import { BaseModel } from "../../common/models/base.model";
+import { NoteMarker } from "./note-marker.model";
 
 @ObjectType()
-export class AppUser extends BaseModel {
+export class AppUser {
+  @Field(() => String)
+  id: string;
+
+  @Field({
+    description: "Identifies the date and time when the object was created.",
+  })
+  createdAt: Date;
+
+  @Field({
+    description:
+      "Identifies the date and time when the object was last updated.",
+  })
+  updatedAt: Date;
+
   @Field()
   @IsEmail()
   email: string;
@@ -23,4 +37,7 @@ export class AppUser extends BaseModel {
 
   @Field(() => Boolean)
   hideFound: boolean;
+
+  @Field(() => [NoteMarker], { nullable: true })
+  noteMarkers?: NoteMarker[];
 }

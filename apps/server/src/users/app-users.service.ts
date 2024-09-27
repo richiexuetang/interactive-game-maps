@@ -13,7 +13,10 @@ export class AppUsersService {
   }
 
   findUserByEmail(email: string) {
-    const user = this.prisma.appUser.findUnique({ where: { email } });
+    const user = this.prisma.appUser.findUnique({
+      where: { email },
+      include: { noteMarkers: true },
+    });
     return user;
   }
 }
