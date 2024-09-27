@@ -13,22 +13,34 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import LinkIcon from "@mui/icons-material/Link";
 import { cn } from "@/lib/utils";
-import { useAtom, useAtomValue } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { gameSlugAtom } from "@/store";
-import { useCopyToClipboard } from "@/hooks";
 import { userAtom } from "@/store/auth";
-import { currentRegionAtom } from "@/store/map";
-import { toast } from "sonner";
+import { copyLinkTriggerAtom, currentRegionAtom } from "@/store/map";
 import { signInWithGoogle } from "@/lib/firebase/auth";
 import { useRouter } from "next/navigation";
-import { ADD_TO_USER_FOUND, REMOVE_FROM_USER_FOUND } from "@/lib/constants";
+import {
+  ADD_TO_USER_FOUND,
+  REMOVE_FROM_USER_FOUND,
+} from "@/lib/graphql/constants";
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
 import { MarkerLocation } from "@/__generated__/graphql";
+import { Modal, styled } from "@mui/material";
+import Image from "next/image";
+import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 
 interface PopupCardProps {
   marker: MarkerLocation;
 }
+
+const CardContentTypography = styled(Typography)(() => ({
+  color: "var(--text-color)",
+}));
+
+const StyledCard = styled(Card)(() => ({
+  minWidth: 325,
+}));
 
 export const PopupCard = ({ marker }: PopupCardProps) => {
   const {
@@ -38,6 +50,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
+  const [open, setOpen] = React.useState(false);
+  const setCopyLinkTrigger = useSetAtom(copyLinkTriggerAtom);
 
   const gameSlug = useAtomValue(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -46,7 +60,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const markerFound = appUser?.foundLocations.includes(id);
   const router = useRouter();
 
-  const [copiedText, copy] = useCopyToClipboard();
+  const copy = useClipboardCopyFn();
 
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
@@ -56,17 +70,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     if (ok) {
       router.refresh();
     }
-  };
-
-  const handleCopy = (text: string) => () => {
-    copy(text).then(() => {
-      toast.success(`Copied ${copiedText}`, {
-        action: {
-          label: "OK",
-          onClick: () => {},
-        },
-      });
-    });
   };
 
   const handleMarkerFound = () => {
@@ -90,21 +93,23 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const { icon, info, title } = category;
 
   return (
-    <Card sx={{ minWidth: 325 }}>
+    <StyledCard>
       <CardHeader
         avatar={
-          <Avatar>
-            <span className={cn(`${gameSlug}-icon ${gameSlug}-icon-${icon}`)} />
+          <Avatar sx={{ backgroundColor: "transparent" }}>
+            <span className={cn(`${gameSlug}-icon icon ${gameSlug}_${icon}`)} />
           </Avatar>
         }
         action={
           <IconButton aria-label="settings">
             <LinkIcon
-              onClick={handleCopy(
-                `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${
-                  currentRegion?.slug
-                }?marker=${markerTitle.toLowerCase().replaceAll(" ", "_")}`
-              )}
+              onClick={() =>
+                copy(
+                  `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${currentRegion?.slug}?marker=${marker.id}`
+                ).then(() => {
+                  setCopyLinkTrigger(true);
+                })
+              }
             />
           </IconButton>
         }
@@ -112,24 +117,39 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         subheader={title}
       />
       {media && media.length > 0 && (
-        <CardMedia
-          component="img"
-          height="350"
-          image={media[0]?.url}
-          alt={title}
-        />
+        <>
+          <CardMedia
+            onClick={() => setOpen(true)}
+            sx={{ cursor: "pointer" }}
+            component="img"
+            height="350"
+            image={media[0]?.url}
+            alt={title}
+          />
+          <Modal open={open} onClose={() => setOpen(false)}>
+            <Image
+              onClick={() => setOpen(false)}
+              src={media[0]?.url}
+              fill
+              objectFit="none"
+              alt={media[0]?.url}
+              className="cursor-pointer"
+            />
+          </Modal>
+        </>
       )}
+
       <CardContent>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+        <CardContentTypography variant="body2">
           <div dangerouslySetInnerHTML={{ __html: description ?? "" }} />
-        </Typography>
+        </CardContentTypography>
         {info && (
-          <Typography variant="body2" sx={{ color: "text.secondary" }}>
+          <CardContentTypography variant="body2">
             <div
-              className="text-xs pb-2"
+              className="text-xs mt-7 italic"
               dangerouslySetInnerHTML={{ __html: info }}
             />
-          </Typography>
+          </CardContentTypography>
         )}
       </CardContent>
       <CardActions disableSpacing>
@@ -158,6 +178,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           </Tooltip>
         )}
       </CardActions>
-    </Card>
+    </StyledCard>
   );
 };

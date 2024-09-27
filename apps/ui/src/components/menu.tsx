@@ -24,6 +24,7 @@ import Button from "@mui/material/Button";
 import { Collapse } from "@mui/material";
 import { ShowHideButtons } from "./sidebar/show-hide-buttons";
 import { SidebarClose } from "./sidebar/sidebar-close";
+import { getBodyFont } from "@/lib/font";
 
 interface MenuProps {
   regions: Region[];
@@ -50,18 +51,6 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 
 const SidebarDivider = styled(Divider)(() => ({
   borderColor: "var(--border-color)",
-}));
-
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  color: "var(--text-color)",
-  display: "flex",
-  width: "100%",
-  justifyContent: "space-between",
-  "&:hover": {
-    opacity: 0.8,
-  },
 }));
 
 export const Menu = ({ regions, subRegions }: MenuProps) => {
@@ -130,7 +119,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                   priority
                 />
               </Link>
-              <h1 className="text-accent">
+              <h1 className="text-accent text-center">
                 {gameSlug?.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
               </h1>
               <SidebarDivider orientation="horizontal" flexItem />
@@ -151,6 +140,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
               </FormControl>
 
               <SidebarDivider orientation="horizontal" flexItem />
+
               <Grid
                 container
                 spacing={1}
@@ -169,6 +159,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                   </div>
                 ))}
               </Grid>
+
               <SidebarDivider orientation="horizontal" flexItem />
 
               <ShowHideButtons />
@@ -204,32 +195,39 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                         const count = markers?.filter(
                           ({ categoryId }) => categoryId === category.id
                         ).length;
+                        if (!count) return null;
 
-                        if (count === 0) return null;
                         return (
                           <Grid
                             size={6}
                             key={category.title}
                             className={cn(
-                              "cursor-pointer",
                               hiddenCategories.includes(category.id) &&
-                                "line-through"
+                                "line-through opacity-80"
                             )}
                           >
-                            <Item
-                              variant="outlined"
+                            <div
+                              className="w-full flex items-center !cursor-pointer uppercase px-2 py-1"
                               onClick={() => handleHiddenCategory(category.id)}
                             >
                               <span
                                 className={cn(
-                                  `${gameSlug}-icon ${gameSlug}-icon-${category.icon}`
+                                  `${gameSlug}-icon-${category.icon}`,
+                                  "mr-1"
                                 )}
                               />
-                              <span className="text-sm text-ellipsis whitespace-nowrap">
+                              <span
+                                className={cn(
+                                  "text-xs text-ellipsis whitespace-nowrap overflow-hidden",
+                                  getBodyFont(gameSlug)
+                                )}
+                              >
                                 {category.title}
                               </span>
-                              <span className="text-sm"> {" " + count}</span>
-                            </Item>
+                              <span className="text-xs text-right flex-1">
+                                {count}
+                              </span>
+                            </div>
                           </Grid>
                         );
                       })}

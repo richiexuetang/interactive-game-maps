@@ -1,7 +1,7 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
 import { useEffect, useRef } from "react";
-import { useSearchParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { MarkerLocation } from "@/__generated__/graphql";
 import { triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
@@ -15,6 +15,7 @@ interface MarkerProps {
 
 export const Marker = ({ marker }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
+  const params = useParams<{ slug: string }>();
   const { id, title, latitude, longitude, category } = marker;
 
   const { icon } = category!;
@@ -23,31 +24,40 @@ export const Marker = ({ marker }: MarkerProps) => {
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   useEffect(() => {
-    if (triggeredMarkerId === id && markerRef) {
+    if (triggeredMarkerId === id && markerRef?.current) {
       markerRef.current.openPopup();
     }
   }, [id, triggeredMarkerId]);
 
   // build div icon
   const div = document.createElement("div");
-  div.className = `icon ${gameSlug} ${icon}`;
+  div.className = `icon ${gameSlug}-icon ${gameSlug}_${icon}`;
 
   const map = RL.useMap();
   const searchParams = useSearchParams();
-  const markerRef = useRef<any>(null);
+  const markerRef = useRef<L.Marker>(null);
 
   useEffect(() => {
-    const markerTitle = searchParams.get("marker");
-    if (
-      markerTitle &&
-      title.toLowerCase().replaceAll(" ", "_") === markerTitle
-    ) {
+    const markerId = searchParams.get("marker");
+    if (markerId && id.toString() === markerId) {
       map.flyTo([latitude, longitude]);
       if (markerRef?.current) {
         markerRef.current.openPopup();
       }
     }
-  }, [latitude, longitude, map, searchParams, title]);
+    window.history.replaceState(null, "", "/map/" + params.slug);
+  }, [id, latitude, longitude, map, params.slug, searchParams]);
+
+  useEffect(() => {
+    const lat = searchParams.get("lat");
+    const lng = searchParams.get("lng");
+    const zoom = searchParams.get("zoom");
+
+    if (lat && lng && zoom) {
+      map.flyTo([parseFloat(lat), parseFloat(lng)], parseFloat(zoom));
+    }
+    window.history.replaceState(null, "", "/map/" + params.slug);
+  }, [map, params.slug, searchParams]);
 
   const markerFound = appUser?.foundLocations.includes(id);
 

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../../public/fonts/icomoon.ttf') format('truetype');
+    src: url('../../public/icons/black-myth-wukong.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -8,7 +8,15 @@
 
 @font-face {
     font-family: 'elden-ring-icomoon';
-    src: url('../../public/fonts/elden-ring-icomoon.ttf') format('truetype');
+    src: url('../../public/icons/elden-ring.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'witcher-3-icomoon';
+    src: url('../../public/icons/witcher-3.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -16,10 +24,44 @@
 
 @font-face {
     font-family: "zelda-tears-of-the-kingdom-icomoon";
-    src: url('../../public/fonts/zelda-tears-of-the-kingdom-icomoon.ttf') format('truetype');
+    src: url('../../public/icons/zelda-tears-of-the-kingdom.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: block;
+}
+
+@font-face {
+    font-family: "hogwarts-legacy-icomoon";
+    src: url('../../public/icons/hogwarts-legacy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="hogwarts-legacy-icon-"],
+[class*=" hogwarts-legacy-icon-"] {
+    font-family: 'hogwarts-legacy-icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="witcher-3-icon-"],
+[class*=" witcher-3-icon-"] {
+    font-family: 'witcher-3-icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 [class^="black-myth-wukong-icon-"],
@@ -31,7 +73,6 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -45,7 +86,6 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -60,9 +100,262 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.hogwarts-legacy-icon-wand_handle:before {
+    content: "\e900";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-vendor:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-trait:before {
+    content: "\e903";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-side_quest:before {
+    content: "\e905";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-relationship_quest:before {
+    content: "\e906";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-puzzle:before {
+    content: "\e907";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-point_of_interest:before {
+    content: "\e908";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-npc:before {
+    content: "\e909";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-moth:before {
+    content: "\e90a";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-miscellaneous:before {
+    content: "\e90b";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-merlin_trial:before {
+    content: "\e90d";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-main_quest:before {
+    content: "\e90e";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-lore_note:before {
+    content: "\e90f";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-lock:before {
+    content: "\e910";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-location:before {
+    content: "\e911";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-legendary_chest:before {
+    content: "\e912";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-landing_platform:before {
+    content: "\e913";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-ingredient:before {
+    content: "\e914";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-infamous_foe:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-house_coin:before {
+    content: "\e916";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-hedge_maze:before {
+    content: "\e917";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-hamlet:before {
+    content: "\e918";
+    color: #f9f9f9;
+}
+
+.hogwarts-legacy-icon-floo_flame:before {
+    content: "\e91b";
+    color: #a2dd9f;
+}
+
+.hogwarts-legacy-icon-field_guide_page:before {
+    content: "\e91c";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-eye_chest:before {
+    content: "\e91d";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-easter_egg:before {
+    content: "\e91e";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-dungeon:before {
+    content: "\e91f";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-demiguise_statue:before {
+    content: "\e920";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-daedalian_key:before {
+    content: "\e921";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-creature_lair:before {
+    content: "\e922";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-conjuration .path1:before {
+    content: "\e923";
+    color: rgb(255, 255, 255);
+    opacity: 0.961;
+}
+
+.hogwarts-legacy-icon-conjuration .path2:before {
+    content: "\e924";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.969;
+}
+
+.hogwarts-legacy-icon-conjuration .path3:before {
+    content: "\e925";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.985;
+}
+
+.hogwarts-legacy-icon-conjuration .path4:before {
+    content: "\e926";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.982;
+}
+
+.hogwarts-legacy-icon-conjuration .path5:before {
+    content: "\e927";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.97;
+}
+
+.hogwarts-legacy-icon-collection_chest:before {
+    content: "\e928";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-chest:before {
+    content: "\e929";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-cairn_dungeon:before {
+    content: "\e92a";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-butterflies:before {
+    content: "\e92b";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-broom_trial:before {
+    content: "\e92c";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-broom:before {
+    content: "\e92d";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-beast_den:before {
+    content: "\e92e";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-beast:before {
+    content: "\e92f";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-battle_arena:before {
+    content: "\e930";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-bandit_camp:before {
+    content: "\e931";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-balloon:before {
+    content: "\e932";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-astronomy_table:before {
+    content: "\e933";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-assignment:before {
+    content: "\e934";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-ancient_magic_hotspot:before {
+    content: "\e935";
+    color: #fff;
 }
 
 .elden-ring-icon-whetblade:before {
@@ -545,6 +838,7 @@
     color: #fff;
 }
 
+/*  */
 .black-myth-wukong-icon-yaoguai_king:before {
     content: "\e900";
     color: #fff;
@@ -552,11 +846,6 @@
 
 .black-myth-wukong-icon-yaoguai_chief:before {
     content: "\e901";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-will:before {
-    content: "\e902";
     color: #fff;
 }
 
@@ -570,6 +859,16 @@
     color: #fff;
 }
 
+.black-myth-wukong-icon-nine-capped_lingzhi:before,
+.black-myth-wukong-icon-aged_ginseng:before,
+.black-myth-wukong-icon-celestial_pear:before,
+.black-myth-wukong-icon-gentian:before,
+.black-myth-wukong-icon-fire_bellflower:before,
+.black-myth-wukong-icon-jade_lotus:before,
+.black-myth-wukong-icon-licorice:before,
+.black-myth-wukong-icon-millenium_ginseng:before,
+.black-myth-wukong-icon-purple_lingzhi:before,
+.black-myth-wukong-icon-snake_head_mushroom:before,
 .black-myth-wukong-icon-tree_pearl:before {
     content: "\e905";
     color: #fff;
@@ -595,31 +894,6 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-snake_head_mushroom:before {
-    content: "\e90a";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-encounters:before {
-    content: "\e90b";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-shen_monkey:before {
-    content: "\e90c";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-seeds:before {
-    content: "\e90d";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-purple_lingzhi:before {
-    content: "\e90e";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-point_of_interest:before {
     content: "\e90f";
     color: #fff;
@@ -630,18 +904,8 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-nine-capped_lingzhi:before {
-    content: "\e911";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-miscellaneous:before {
     content: "\e912";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-millenium_ginseng:before {
-    content: "\e913";
     color: #fff;
 }
 
@@ -650,18 +914,9 @@
     color: #fff;
 }
 
+
 .black-myth-wukong-icon-luojia_fragrant_vine:before {
     content: "\e915";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-licorice:before {
-    content: "\e916";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-lesser_yaoguai:before {
-    content: "\e917";
     color: #fff;
 }
 
@@ -675,38 +930,13 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-jade_lotus:before {
-    content: "\e91a";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-item:before {
-    content: "\e91b";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-gourd:before {
     content: "\e91c";
     color: #fff;
 }
 
-.black-myth-wukong-icon-gentian:before {
-    content: "\e91d";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-fragrant_jade_flower:before {
-    content: "\e91e";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-formula:before {
     content: "\e91f";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-fire_bellflower:before {
-    content: "\e920";
     color: #fff;
 }
 
@@ -730,28 +960,13 @@
     color: #fff;
 }
 
-.black-myth-wukong-icon-consumable:before {
-    content: "\e925";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-chest:before {
     content: "\e926";
     color: #fff;
 }
 
-.black-myth-wukong-icon-character:before {
-    content: "\e927";
-    color: #fff;
-}
-
 .black-myth-wukong-icon-celestial_pill:before {
     content: "\e928";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-celestial_pear:before {
-    content: "\e929";
     color: #fff;
 }
 
@@ -762,11 +977,6 @@
 
 .black-myth-wukong-icon-armor:before {
     content: "\e92b";
-    color: #fff;
-}
-
-.black-myth-wukong-icon-aged_ginseng:before {
-    content: "\e92c";
     color: #fff;
 }
 
@@ -1249,4 +1459,740 @@
 .zelda-tears-of-the-kingdom-icon-area:before {
     content: "\e95f";
     color: #fff8ec;
+}
+
+/* Witcher 3 */
+.witcher-3-icon-gwent_merchant .path1:before {
+    content: "\e900";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-gwent_merchant:before {
+    content: "\e901";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-npc .path1:before {
+    content: "\e902";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-npc:before {
+    content: "\e903";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-abandoned_site .path1:before {
+    content: "\e904";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-abandoned_site:before {
+    content: "\e905";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-alchemy_supplies .path1:before {
+    content: "\e906";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-alchemy_supplies:before {
+    content: "\e907";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-armorer .path1:before {
+    content: "\e908";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-armorer:before {
+    content: "\e909";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-armorers_table .path1:before {
+    content: "\e90a";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-armorers_table:before {
+    content: "\e90b";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-bandit_camp .path1:before {
+    content: "\e90c";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-bandit_camp:before {
+    content: "\e90d";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-barber .path1:before {
+    content: "\e90e";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-barber:before {
+    content: "\e90f";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-blacksmith .path1:before {
+    content: "\e910";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-blacksmith:before {
+    content: "\e911";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-book .path1:before {
+    content: "\e912";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-book:before {
+    content: "\e913";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-brothel .path1:before {
+    content: "\e914";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-brothel:before {
+    content: "\e915";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-chest .path1:before {
+    content: "\e916";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-chest:before {
+    content: "\e917";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-contract .path1:before {
+    content: "\e918";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-contract:before {
+    content: "\e919";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-contract .path3:before {
+    content: "\e91a";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-contract .path4:before {
+    content: "\e91b";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-contract .path5:before {
+    content: "\e91c";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-contract .path6:before {
+    content: "\e91d";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-dye_merchant .path1:before {
+    content: "\e91e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-dye_merchant:before {
+    content: "\e91f";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-entrance .path1:before {
+    content: "\e920";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-entrance:before {
+    content: "\e921";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-fistfight .path1:before {
+    content: "\e922";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-fistfight:before {
+    content: "\e923";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-grindstone .path1:before {
+    content: "\e924";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-grindstone:before {
+    content: "\e925";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-guarded_treasure .path1:before {
+    content: "\e926";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-guarded_treasure:before {
+    content: "\e927";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-guarded_treasure .path3:before {
+    content: "\e928";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-gwent_card:before {
+    content: "\e929";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-gwent_player .path1:before {
+    content: "\e92c";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-gwent_player:before {
+    content: "\e92d";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-gwent_quest .path1:before {
+    content: "\e92e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-gwent_quest:before {
+    content: "\e92f";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-hanse_base .path1:before {
+    content: "\e930";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-hanse_base:before {
+    content: "\e931";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-hanse_base .path3:before {
+    content: "\e932";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-harbor .path1:before {
+    content: "\e933";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-harbor:before {
+    content: "\e934";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-herbalist .path1:before {
+    content: "\e935";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-herbalist:before {
+    content: "\e936";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-hidden_treasure .path1:before {
+    content: "\e937";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-hidden_treasure:before {
+    content: "\e938";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-horse_race .path1:before {
+    content: "\e939";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-horse_race:before {
+    content: "\e93a";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-horse_race .path3:before {
+    content: "\e93b";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-innkeep .path1:before {
+    content: "\e93c";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-innkeep:before {
+    content: "\e93d";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-innkeep .path3:before {
+    content: "\e93e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-knight_in_distress .path1:before {
+    content: "\e93f";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-knight_in_distress:before {
+    content: "\e940";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-knight_in_distress .path3:before {
+    content: "\e941";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-lebioda_monument .path1:before {
+    content: "\e942";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-lebioda_monument:before {
+    content: "\e943";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-lebioda_monument .path3:before {
+    content: "\e944";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-magic_lamp .path1:before {
+    content: "\e945";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-magic_lamp:before {
+    content: "\e946";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-main_quest .path1:before {
+    content: "\e947";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-main_quest:before {
+    content: "\e948";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-main_quest .path3:before {
+    content: "\e949";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-main_quest .path4:before {
+    content: "\e94a";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-miscellaneous .path1:before {
+    content: "\e94b";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-miscellaneous:before {
+    content: "\e94c";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-monster_den .path1:before {
+    content: "\e94d";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-monster_den:before {
+    content: "\e94e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-monster_nest .path1:before {
+    content: "\e94f";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-monster_nest:before {
+    content: "\e950";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-monster_nest .path3:before {
+    content: "\e951";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-monster_nest .path4:before {
+    content: "\e952";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-mutagen_alt .path1:before {
+    content: "\e953";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt:before {
+    content: "\e954";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path3:before {
+    content: "\e955";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-mutagen_alt .path4:before {
+    content: "\e956";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-mutagen_alt .path5:before {
+    content: "\e957";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-mutagen_alt .path6:before {
+    content: "\e958";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path7:before {
+    content: "\e959";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path8:before {
+    content: "\e95a";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path9:before {
+    content: "\e95b";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path10:before {
+    content: "\e95c";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path11:before {
+    content: "\e95d";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path12:before {
+    content: "\e95e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path13:before {
+    content: "\e95f";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path14:before {
+    content: "\e960";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path15:before {
+    content: "\e961";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen_alt .path16:before {
+    content: "\e962";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-mutagen .path1:before {
+    content: "\e963";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-mutagen:before {
+    content: "\e964";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-notice_board .path1:before {
+    content: "\e965";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-notice_board:before {
+    content: "\e966";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-notice_board .path3:before {
+    content: "\e967";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-notice_board .path4:before {
+    content: "\e968";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-notice_board .path5:before {
+    content: "\e969";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-oil .path1:before {
+    content: "\e96a";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-oil:before {
+    content: "\e96b";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-person_in_distress .path1:before {
+    content: "\e96c";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-person_in_distress:before {
+    content: "\e96d";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-place_of_power .path1:before {
+    content: "\e96e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-place_of_power:before {
+    content: "\e96f";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-point_of_interest .path1:before {
+    content: "\e970";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-point_of_interest:before {
+    content: "\e971";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-portal .path1:before {
+    content: "\e972";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-portal:before {
+    content: "\e973";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-quest_item .path1:before {
+    content: "\e974";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-quest_item:before {
+    content: "\e975";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-recipe .path1:before {
+    content: "\e976";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-recipe:before {
+    content: "\e977";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-recipe .path3:before {
+    content: "\e978";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-relic_item .path1:before {
+    content: "\e979";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-relic_item:before {
+    content: "\e97a";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-runewright .path1:before {
+    content: "\e97b";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-runewright:before {
+    content: "\e97c";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-secondary_quest .path1:before {
+    content: "\e97d";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-secondary_quest:before {
+    content: "\e97e";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-secondary_quest .path3:before {
+    content: "\e97f";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-secondary_quest .path4:before {
+    content: "\e980";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-shopkeeper .path1:before {
+    content: "\e981";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-shopkeeper:before {
+    content: "\e982";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-signal_fire .path1:before {
+    content: "\e983";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-signal_fire:before {
+    content: "\e984";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-signpost .path1:before {
+    content: "\e985";
+    color: rgb(52, 52, 51);
+}
+
+.witcher-3-icon-signpost:before {
+    content: "\e986";
+    color: rgb(137, 216, 137);
+}
+
+.witcher-3-icon-smugglers_cache .path1:before {
+    content: "\e987";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-smugglers_cache:before {
+    content: "\e988";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-spoils_of_war .path1:before {
+    content: "\e989";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-spoils_of_war:before {
+    content: "\e98a";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-stash .path1:before {
+    content: "\e98b";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-stash:before {
+    content: "\e98c";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-treasure_chest .path1:before {
+    content: "\e98d";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-treasure_chest:before {
+    content: "\e98e";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-vineyard_infestation .path1:before {
+    content: "\e98f";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-vineyard_infestation:before {
+    content: "\e990";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-vinters_contract .path1:before {
+    content: "\e991";
+    color: rgb(52, 52, 68);
+}
+
+.witcher-3-icon-vinters_contract:before {
+    content: "\e992";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-witcher_gear .path1:before {
+    content: "\e993";
+    color: rgb(255, 255, 255);
+}
+
+.witcher-3-icon-witcher_gear:before {
+    content: "\e994";
+    color: rgb(52, 52, 68);
 }

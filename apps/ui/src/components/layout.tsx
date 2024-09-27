@@ -1,10 +1,10 @@
-import theme from "@/lib/theme";
+import theme from "@/lib/ui/theme";
 import { ThemeProvider } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { ReactNode } from "react";
-import "@/styles/fonts.css";
 import "@/styles/globals.css";
 import "@/styles/icon.css";
+import "@/styles/leaflet.css";
 
 export function RootLayout({
   children,
@@ -13,7 +13,7 @@ export function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-black">
+      <body className="min-h-screen bg-background">
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>{children}</ThemeProvider>
         </AppRouterCacheProvider>

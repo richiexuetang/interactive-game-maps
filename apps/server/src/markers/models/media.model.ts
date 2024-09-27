@@ -8,7 +8,7 @@ export class Media extends BaseModel {
   url: string;
 
   @Field(() => String)
-  type: string | null;
+  type: string;
 
   @Field(() => MarkerLocation, { nullable: true })
   markerLocation?: MarkerLocation | null;

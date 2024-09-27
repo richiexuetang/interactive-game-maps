@@ -1,8 +1,8 @@
 import urllib.request
 import os
 
-zoom_start = 15
-zoom_end = 15
+zoom_start = 16
+zoom_end = 16
 
 x_low_map = {
     8: 127,
@@ -13,8 +13,9 @@ x_low_map = {
     13: 4065,
     14: 8128,
     15: 16282,
-    16: 32512
+    16: 32604
 }
+
 x_high_map = {
     8: 127,
     9: 255,
@@ -24,24 +25,23 @@ x_high_map = {
     13: 4095,
     14: 8191,
     15: 16357,
-    16: 32767
+    16: 32680
 }
 y_low_map = x_low_map
 y_high_map = x_high_map
 
 # "fablesphere"
-regions = [ "chapter-1"]
-game = ""
+regions = [ "the-lands-between"]
 dir_name = "/Users/richardtang/Desktop/repos/ritcher-map-v2/apps/ui/public/tiles"
 
 for z in range(zoom_start, zoom_end+1):
     for x in range(x_low_map[z], x_high_map[z] + 1):
         for y in range(y_low_map[z], y_high_map[z] + 1):
             for region in regions:
-                uri = "https://tiles.mapgenie.io/games/black-myth-wukong/{region}/paper-v1/{z}/{x}/{y}.jpg".format(region=region, z=z, x=x, y=y)
-                directory = '{dir}/black-myth-wukong/{region}/{z}/{x}'.format(game=game, dir=dir_name, region=region, z=z, x=x)
+                uri = "https://tiles.mapgenie.io/games/elden-ring/{region}/default-v3/{z}/{x}/{y}.jpg".format(region=region, z=z, x=x, y=y)
+                directory = '{dir}/elden-ring/{region}/{z}/{y}'.format(dir=dir_name, region=region, z=z, y=y)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)
                 print(x, y, z)
-                urllib.request.urlretrieve(uri, directory + "/{y}.jpg".format(y=y))
+                urllib.request.urlretrieve(uri, directory + "/{x}.jpg".format(x=x))

@@ -1,14 +1,10 @@
 import { CheckListIcon } from "./icons/check-list-icon";
 import Fab from "@mui/material/Fab";
-import React, { useState } from "react";
+import React from "react";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import {
-  currentGroupsAtom,
-  currentMarkersAtom,
-  gameSlugAtom,
-} from "@/store/map";
+import { currentGroupsAtom, currentMarkersAtom } from "@/store/map";
 import {
   Accordion,
   AccordionDetails,
@@ -16,13 +12,8 @@ import {
   Button,
   Checkbox,
   Divider,
-  FormControl,
   IconButton,
-  InputLabel,
-  MenuItem,
-  Popper,
-  Select,
-  SelectChangeEvent,
+  Menu,
   styled,
 } from "@mui/material";
 import { userAtom } from "@/store/auth";
@@ -32,11 +23,9 @@ import { triggeredMarkerIdAtom } from "@/store/marker";
 import { useMutation } from "@apollo/client";
 import {
   ADD_TO_USER_FOUND,
-  ADD_TRACKING_CATEGORY,
   REMOVE_FROM_USER_FOUND,
-  REMOVE_TRACKING_CATEGORY,
   TOGGLE_HIDE_FOUND,
-} from "@/lib/constants";
+} from "@/lib/graphql/constants";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 
@@ -49,70 +38,24 @@ const SideFab = styled(Fab)(() => ({
 }));
 
 export const ProgressTracker = () => {
-  const [selectedCategory, setSelectedCategory] = useState("");
-  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
-  const [open, setOpen] = useState(false);
+  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const open = Boolean(anchorEl);
 
   const currentGroups = useAtomValue(currentGroupsAtom);
   const currentMarkers = useAtomValue(currentMarkersAtom);
   const setTriggerMarkerId = useSetAtom(triggeredMarkerIdAtom);
-  const gameSlug = useAtomValue(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
 
-  const [addTrackingCategory] = useMutation(ADD_TRACKING_CATEGORY);
-  const [removeTrackingCategory] = useMutation(REMOVE_TRACKING_CATEGORY);
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
-  const id = open ? "simple-popover" : undefined;
-
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
-    setOpen((prevOpen) => !prevOpen);
   };
 
-  const handleChange = (e: SelectChangeEvent) => {
-    if (appUser) {
-      if (
-        appUser.trackingCategories &&
-        !appUser.trackingCategories?.includes(parseInt(e.target.value))
-      ) {
-        addTrackingCategory({
-          variables: {
-            data: {
-              email: appUser?.email ?? "",
-              categoryId: parseInt(e.target.value),
-            },
-          },
-        });
-        setAppUser({
-          ...appUser,
-          trackingCategories: [
-            ...appUser?.trackingCategories,
-            parseInt(e.target.value),
-          ],
-        });
-      } else {
-        removeTrackingCategory({
-          variables: {
-            data: {
-              email: appUser.email,
-              categoryId: parseInt(e.target.value),
-            },
-          },
-        });
-        const newTracking = appUser.trackingCategories.filter(
-          (category) => category !== parseInt(e.target.value)
-        );
-        setAppUser({
-          ...appUser,
-          trackingCategories: newTracking,
-        });
-      }
-    }
-
-    setSelectedCategory(e.target.value);
+  const handleClose = () => {
+    setAnchorEl(null);
   };
 
   const getCategoryInfoById = (id: number) => {
@@ -123,23 +66,23 @@ export const ProgressTracker = () => {
     return category;
   };
 
-  const totalFoundForCategory = (id: string) => {
+  const totalFoundForCategory = (id: number) => {
     let result = 0;
     appUser?.foundLocations.map((location) => {
       const marker = currentMarkers?.find(
         (marker) => marker.id.toString() == location.toString()
       );
-      if (marker?.categoryId?.toString() === id) {
+      if (marker?.categoryId === id) {
         result++;
       }
     });
     return result;
   };
 
-  const totalForCategory = (id: string) => {
+  const totalForCategory = (id: number) => {
     let result = 0;
     currentMarkers?.map((marker) => {
-      if (marker.categoryId?.toString() === id) {
+      if (marker.categoryId === id) {
         result++;
       }
     });
@@ -180,31 +123,34 @@ export const ProgressTracker = () => {
   return (
     <div className="absolute top-36 right-2 z-[1000] flex flex-col gap-5">
       <Tooltip title="Progress Tracker" placement="left">
-        <SideFab onClick={handleClick}>
+        <SideFab
+          onClick={handleClick}
+          aria-controls={open ? "basic-menu" : undefined}
+          aria-haspopup="true"
+          id="basic-button"
+          aria-expanded={open ? "true" : undefined}
+        >
           <CheckListIcon className="h-6 w-6" />
         </SideFab>
       </Tooltip>
-      <Popper
-        disablePortal={true}
-        id={id}
-        open={open}
+
+      <Menu
+        id="basic-menu"
         anchorEl={anchorEl}
-        sx={{
-          width: 275,
-          borderColor: "white",
-          borderWidth: 1,
-          borderRadius: 1,
-          bgcolor: "black",
-          p: 2,
+        open={open}
+        onClose={handleClose}
+        MenuListProps={{
+          "aria-labelledby": "basic-button",
         }}
       >
-        <Typography sx={{ p: 2, color: "white", fontFamily: "CrimsonPro" }}>
+        <Typography sx={{ p: 2, color: "var(--text-color)" }}>
           Progress Tracker
         </Typography>
         <Divider sx={{ mb: 2 }} />
         {appUser ? (
           <div className="flex flex-col mb-3">
             <Button
+              variant="text"
               startIcon={
                 appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
               }
@@ -212,69 +158,63 @@ export const ProgressTracker = () => {
             >
               {appUser?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
-            {appUser?.trackingCategories?.map((category) => (
-              <Accordion key={category}>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <span>{getCategoryInfoById(category)?.title}</span>
-                  <span className="ml-5">
-                    {totalFoundForCategory(category.toString())}/
-                    {totalForCategory(category.toString())}
-                  </span>
-                </AccordionSummary>
-                {currentMarkers?.map((marker) => {
-                  if (marker.categoryId !== category) return null;
-
+            {currentGroups?.map((group) =>
+              group.categories?.map(({ id }) => {
+                if (totalForCategory(id) !== 0) {
                   return (
-                    <AccordionDetails
-                      key={`${category} location`}
-                      sx={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                      }}
-                    >
-                      <Checkbox
-                        checked={appUser?.foundLocations?.includes(marker.id)}
-                        onChange={() => handleMarkerFound(marker.id)}
-                      />
-                      <div className="flex items-center gap-2">
-                        <span
-                          className={`${gameSlug}-icon ${gameSlug}-icon-${marker.category?.icon}`}
-                        />
-                        <p>{marker.title}</p>
-                      </div>
-                      <IconButton>
-                        <NavigationIcon
-                          sx={{ width: 15, height: 15, cursor: "pointer" }}
-                          onClick={() => setTriggerMarkerId(marker.id)}
-                        />
-                      </IconButton>
-                    </AccordionDetails>
+                    <Accordion key={id}>
+                      <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <span className="text-text text-sm p-2">
+                          {getCategoryInfoById(id)?.title}
+                        </span>
+                        <span className="text-text text-sm p-2">
+                          {totalFoundForCategory(id) + " / "}
+                          {totalForCategory(id)}
+                        </span>
+                      </AccordionSummary>
+                      {currentMarkers?.map(
+                        ({ id: markerId, categoryId, title }) => {
+                          if (categoryId === id)
+                            return (
+                              <AccordionDetails
+                                key={`${id} location`}
+                                sx={{
+                                  display: "flex",
+                                  justifyContent: "space-between",
+                                  alignItems: "center",
+                                }}
+                              >
+                                <Checkbox
+                                  checked={appUser?.foundLocations?.includes(
+                                    markerId
+                                  )}
+                                  onChange={() => handleMarkerFound(markerId)}
+                                />
+                                <div className="flex items-center gap-2">
+                                  <p>{title}</p>
+                                </div>
+                                <IconButton>
+                                  <NavigationIcon
+                                    sx={{
+                                      width: 15,
+                                      height: 15,
+                                      cursor: "pointer",
+                                    }}
+                                    onClick={() => setTriggerMarkerId(markerId)}
+                                  />
+                                </IconButton>
+                              </AccordionDetails>
+                            );
+                        }
+                      )}
+                    </Accordion>
                   );
-                })}
-              </Accordion>
-            ))}
-            <FormControl fullWidth sx={{ mt: 2 }}>
-              <InputLabel id="category-select-label">Track category</InputLabel>
-              <Select
-                labelId="category-select-label"
-                id="category-select"
-                value={selectedCategory}
-                label="Track category"
-                onChange={handleChange}
-              >
-                {currentGroups?.map((group) =>
-                  group.categories?.map((category) => (
-                    <MenuItem value={category.id} key={category.id}>
-                      {category.title}
-                    </MenuItem>
-                  ))
-                )}
-              </Select>
-            </FormControl>
+                }
+              })
+            )}
           </div>
         ) : null}
-      </Popper>
+      </Menu>
     </div>
   );
 };

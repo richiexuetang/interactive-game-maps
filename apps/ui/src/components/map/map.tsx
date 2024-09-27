@@ -5,11 +5,11 @@ import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import { UserRecord } from "firebase-admin/auth";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import { Game } from "@/__generated__/graphql";
 
 export interface MapProps {
-  region: any;
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  regionData: any;
+  regionData: Game;
 }
 
 const client = new ApolloClient({
@@ -17,7 +17,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-const RitcherMap = ({ region, user, regionData }: MapProps) => {
+const RitcherMap = ({ user, regionData }: MapProps) => {
   const Map = useMemo(
     () =>
       dynamic(() => import("./dynamic-map"), {
@@ -29,7 +29,7 @@ const RitcherMap = ({ region, user, regionData }: MapProps) => {
   return (
     <ApolloProvider client={client}>
       <Provider>
-        <Map region={region} user={user} regionData={regionData} />
+        <Map user={user} regionData={regionData} />
       </Provider>
     </ApolloProvider>
   );

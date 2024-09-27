@@ -12,8 +12,19 @@ Table AppUser {
   photoUrl String
   foundLocations Int[] [not null]
   username String
-  trackingCategories Int[] [not null]
   hideFound Boolean [not null, default: false]
+  noteMarkers NoteMarker [not null]
+}
+
+Table NoteMarker {
+  id Int [pk, increment]
+  title String [not null]
+  description String
+  latitude Decimal [not null]
+  longitude Decimal [not null]
+  user AppUser [not null]
+  userId String [not null]
+  regionSlug String [not null, default: 'world']
 }
 
 Table Game {
@@ -54,7 +65,6 @@ Table SubRegion {
 Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
-  slug String [unique, not null]
   game Game [not null]
   gameSlug String [not null]
   categories MarkerCategory [not null]
@@ -66,8 +76,8 @@ Table MarkerCategory {
   icon String [not null]
   info String
   locations MarkerLocation [not null]
-  groupSlug String [not null]
-  markerGroup MarkerGroup [not null]
+  groupId Int
+  markerGroup MarkerGroup
 }
 
 Table MarkerLocation {
@@ -93,13 +103,15 @@ Table Media {
   markerLocationId Int
 }
 
+Ref: NoteMarker.userId > AppUser.id
+
 Ref: Region.gameSlug > Game.slug
 
 Ref: SubRegion.regionSlug > Region.slug
 
 Ref: MarkerGroup.gameSlug > Game.slug
 
-Ref: MarkerCategory.groupSlug > MarkerGroup.slug
+Ref: MarkerCategory.groupId > MarkerGroup.id
 
 Ref: MarkerLocation.categoryId > MarkerCategory.id
 

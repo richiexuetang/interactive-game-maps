@@ -14,17 +14,28 @@ generator dbml {
 }
 
 model AppUser {
-  id                 String   @id @default(cuid())
-  createdAt          DateTime @default(now())
-  updatedAt          DateTime @updatedAt
-  email              String   @unique
-  firstName          String?
-  lastName           String?
-  photoUrl           String?
-  foundLocations     Int[]
-  username           String?
-  trackingCategories Int[]
-  hideFound          Boolean  @default(false)
+  id             String       @id @default(cuid())
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  email          String       @unique
+  firstName      String?
+  lastName       String?
+  photoUrl       String?
+  foundLocations Int[]
+  username       String?
+  hideFound      Boolean      @default(false)
+  noteMarkers    NoteMarker[]
+}
+
+model NoteMarker {
+  id          Int     @id @default(autoincrement())
+  title       String
+  description String?
+  latitude    Decimal
+  longitude   Decimal
+  user        AppUser @relation(fields: [userId], references: [id])
+  userId      String
+  regionSlug  String  @default("world")
 }
 
 model Game {
@@ -68,7 +79,6 @@ model SubRegion {
 model MarkerGroup {
   id         Int              @id @default(autoincrement())
   title      String
-  slug       String           @unique
   game       Game             @relation(fields: [gameSlug], references: [slug])
   gameSlug   String
   categories MarkerCategory[]
@@ -80,8 +90,8 @@ model MarkerCategory {
   icon        String
   info        String?
   locations   MarkerLocation[]
-  groupSlug   String
-  markerGroup MarkerGroup      @relation(fields: [groupSlug], references: [slug])
+  groupId     Int?
+  markerGroup MarkerGroup?     @relation(fields: [groupId], references: [id])
 }
 
 model MarkerLocation {

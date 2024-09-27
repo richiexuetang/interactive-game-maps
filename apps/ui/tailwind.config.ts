@@ -13,8 +13,10 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        bodyBackground: "var(--body-background)",
+        mapBackground: "var(--map-background)",
         text: "var(--text-color)",
-        background: "hsl(var(--background))",
+        background: "var(--app-background)",
         foreground: "hsl(var(--foreground))",
         sidebarBackground: "var(--sidebar-background-color)",
         card: {
@@ -45,6 +47,9 @@ const config: Config = {
         border: "var(--border-color)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+      },
+      fontFamily: {
+        body: "var(--body-font-family)",
       },
     },
   },

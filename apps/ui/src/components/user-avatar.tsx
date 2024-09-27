@@ -41,22 +41,14 @@ export function UserAvatar({ imageSrc, name }: UserAvatarProps) {
     <div className="absolute top-2 right-2 z-[1000] flex flex-col gap-5">
       <IconButton
         onClick={handleClick}
-        size="small"
-        sx={{ ml: 2 }}
+        size="medium"
         aria-controls={open ? "account-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
       >
-        <Avatar sx={{ width: 32, height: 32 }} alt={name} src={imageSrc} />
+        <Avatar alt={name} src={imageSrc} />
       </IconButton>
-      <Menu
-        anchorEl={anchorEl}
-        open={open}
-        onClose={handleClose}
-        MenuListProps={{
-          "aria-labelledby": "basic-button",
-        }}
-      >
+      <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
         <MenuItem onClick={handleSignOut}>Logout</MenuItem>
       </Menu>
     </div>

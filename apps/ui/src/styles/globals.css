@@ -2,18 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: CrimsonPro;
+  src: url("/fonts/CrimsonPro.woff2");
+  format: ("woff2");
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: HyliaSerif;
+  src: url("/fonts/HyliaSerif.otf");
+  format: ("otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mantinia;
+  src: url("/fonts/Mantinia-Regular.otf");
+  format: ("otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mason;
+  src: url("/fonts/Mason-Regular.ttf");
+  format: ("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: OptiCollumna-Solid;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/OPTIColumna-Solid.otf") format("opentype")
+}
+
+@font-face {
+  font-family: Hybrid;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/F37Hybrid-Medium.woff2") format("woff2"), url("/fonts/F37Hybrid-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: Hybrid;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/F37Hybrid-Bold.woff2") format("woff2"), url("/fonts/F37Hybrid-Bold.woff") format("woff")
 }
 
 @layer utilities {
@@ -22,28 +57,28 @@
   }
 }
 
-.icon {
-  display: inline-block;
-  position: absolute;
-  width: 33px;
-  height: 44px;
-  background-color: transparent !important;
-}
-
-.black-myth-wukong {
+.black-myth-wukong-icon {
   background: url(/markers/black-myth-wukong.png);
 }
 
-.zelda-tears-of-the-kingdom {
+.zelda-tears-of-the-kingdom-icon {
   background: url(/markers/zelda-tears-of-the-kingdom.png);
 }
 
-.witcher-3 {
+.witcher-3-icon {
   background: url(/markers/witcher-3.png);
 }
 
-.elden-ring {
+.elden-ring-icon {
   background: url(/markers/elden-ring.png);
+}
+
+.hogwarts-legacy-icon {
+  background: url(/markers/hogwarts-legacy.png);
+}
+
+.god-of-war-ragnarok-icon {
+  background: url(/markers/god-of-war-ragnarok.png);
 }
 
 .icon {
@@ -54,685 +89,778 @@
   background-color: transparent !important;
 }
 
-.map-label {
-  white-space: pre;
-  font-size: large;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.leaflet-container a.leaflet-popup-close-button {
-  top: 18px !important;
-}
-
-.leaflet-popup-content-wrapper {
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
-.leaflet-popup-content {
-  margin-bottom: 0 !important;
-}
-
-.leaflet-container {
-  background-color: black !important;
-}
-
-.leaflet-div-icon {
-  background: none !important;
-  border: none !important;
-}
-
-.leaflet-popup-content ul {
-  list-style: circle;
-}
-
-.leaflet-popup-content li {
-  margin-left: 10px;
-}
-
-.leaflet-popup-content p {
-  margin: 8px 0 !important;
-}
-
-.leaflet-popup-tip {
-  background-color: var(--ritcher-palette-background-paper) !important;
-  box-shadow: none !important;
-}
-
-/*  Witcher 3 */
-.abandoned_site {
+.note-icon {
+  background: url(/markers/hogwarts-legacy.png);
   background-position: 0 0;
 }
 
-.bandit_camp {
+.hogwarts-legacy_ancient_magic_hotspot {
+  background-position: -33px 0;
+}
+
+.hogwarts-legacy_arithmancy_door {
+  background-position: -66px 0;
+}
+
+.hogwarts-legacy_assignment {
+  background-position: -99px 0;
+}
+
+.hogwarts-legacy_astronomy_table {
+  background-position: -132px 0;
+}
+
+.hogwarts-legacy_balloon {
+  background-position: -165px 0;
+}
+
+.hogwarts-legacy_bandit_camp {
+  background-position: -198px 0;
+}
+
+.hogwarts-legacy_battle_arena {
+  background-position: -231px 0;
+}
+
+.hogwarts-legacy_beast_den {
+  background-position: -264px 0;
+}
+
+.hogwarts-legacy_dungeon {
+  background-position: -132px -88px;
+}
+
+.hogwarts-legacy_floo_flame {
+  background-position: -297px -88px;
+}
+
+.hogwarts-legacy_hamlet {
+  background-position: -198px -132px;
+}
+
+.hogwarts-legacy_astronomy_table {
+  background-position: -132px 0;
+}
+
+.hogwarts-legacy_legendary_chest {
+  background-position: 0 -220px;
+}
+
+.hogwarts-legacy_hedge_maze {
+  background-position: -231px -198px;
+}
+
+.hogwarts-legacy_location {
+  background-position: -33px -220px
+}
+
+.hogwarts-legacy_merlin_trial {
+  background-position: -231px -220px;
+}
+
+.hogwarts-legacy_vendor {
+  background-position: -231px -308px;
+}
+
+.hogwarts-legacy_broom_trial {
+  background-position: -330px 0;
+}
+
+.hogwarts-legacy_demiguise_statue {
+  background-position: 0 -88px;
+}
+
+.hogwarts-legacy_main_quest {
+  background-position: -132px -220px;
+}
+
+.hogwarts-legacy_side_quest {
+  background-position: 0 -308px;
+}
+
+.hogwarts-legacy_butterflies {
+  background-position: 0 -44px;
+}
+
+.hogwarts-legacy_moth {
+  background-position: -33px -264px;
+}
+
+.hogwarts-legacy_point_of_interest {
+  background-position: -198px -264px;
+}
+
+.hogwarts-legacy_trait {
+  background-position: -99px -308px;
+}
+
+.hogwarts-legacy_chest {
+  background-position: -99px -44px;
+}
+
+.hogwarts-legacy_puzzle {
+  background-position: -264px -264px;
+}
+
+.hogwarts-legacy_field_guide_page {
+  background-position: -264px -88px;
+}
+
+.hogwarts-legacy_conjuration {
+  background-position: -198px -44px;
+}
+
+.hogwarts-legacy_collection_chest {
+  background-position: -165px -44px;
+}
+
+.hogwarts-legacy_eye_chest {
+  background-position: -231px -88px;
+}
+
+.hogwarts-legacy_miscellaneous {
+  background-position: -297px -220px;
+}
+
+.hogwarts-legacy_broom {
+  background-position: -297px 0;
+}
+
+.hogwarts-legacy_daedalian_key {
+  background-position: -297px -44px;
+}
+
+.hogwarts-legacy_house_token {
+  background-position: -33px -176px;
+}
+
+.hogwarts-legacy_ingredient {
+  background-position: -132px -176px;
+}
+
+.hogwarts-legacy_lock {
+  background-position: -66px -220px;
+}
+
+.hogwarts-legacy_lore_note {
+  background-position: -99px -220px;
+}
+
+.hogwarts-legacy_npc {
+  background-position: -99px -264px;
+}
+
+.hogwarts-legacy_easter_egg {
+  background-position: -165px -88px;
+}
+
+.hogwarts-legacy_landing_platform {
+  background-position: -264px -176px;
+}
+
+.hogwarts-legacy_wand_handle {
+  background-position: -297px -308px;
+}
+
+.hogwarts-legacy_relationship_quest {
+  background-position: -297px -264px;
+}
+
+.hogwarts-legacy_infamous_foe {
+  background-position: -66px -176px;
+}
+
+.hogwarts-legacy_treasure_vault {
+  background-position: -132px -308px;
+}
+
+.hogwarts-legacy_creature_lair {
+  background-position: -264px -44px;
+}
+
+/*  Witcher 3 */
+.witcher-3_abandoned_site {
+  background-position: 0 0;
+}
+
+.witcher-3_bandit_camp {
   background-position: -132px -0px;
 
 }
 
-.contract {
+.witcher-3_contract {
   background-position: -66px -44px;
 
 }
 
-.entrance {
+.witcher-3_entrance {
   background-position: -132px -44px;
 
 }
 
-.guarded_treasure {
+.witcher-3_guarded_treasure {
   background-position: -231px -44px;
 }
 
-.hanse_base {
+.witcher-3_hanse_base {
   background-position: -132px -86px;
 }
 
-.harbor {
+.witcher-3_harbor {
   background-position: -165px -86px;
 }
 
-.knight_in_distress {
+.witcher-3_knight_in_distress {
   background-position: -66px -132px;
 }
 
-.lebioda_monument {
+.witcher-3_lebioda_monument {
   background-position: -99px -132px;
 }
 
-.magic_lamp {
+.witcher-3_magic_lamp {
   background-position: -132px -132px;
 }
 
-.monster_den {
+.witcher-3_monster_den {
   background-position: -231px -132px;
 }
 
-.monster_nest {
+.witcher-3_monster_nest {
   background-position: 0 -176px;
 }
 
-.notice_board {
+.witcher-3_notice_board {
   background-position: -66px -176px;
 }
 
-.person_in_distress {
+.witcher-3_person_in_distress {
   background-position: -165px -176px;
 }
 
-.place_of_power {
+.witcher-3_place_of_power {
   background-position: -198px -176px;
 }
 
-.point_of_interest {
+.witcher-3_point_of_interest {
   background-position: -231px -176px;
 }
 
-.portal {
+.witcher-3_portal {
   background-position: 0 -220px;
 }
 
-.signal_fire {
+.witcher-3_signal_fire {
   background-position: -231px -220px;
 }
 
-.signpost {
+.witcher-3_signpost {
   background-position: 0 -264px;
 }
 
-.smugglers_cache {
+.witcher-3_smugglers_cache {
   background-position: -33px -264px;
 }
 
-.spoils_of_war {
+.witcher-3_spoils_of_war {
   background-position: -66px -264px;
 }
 
-.stash {
+.witcher-3_stash {
   background-position: -99px -264px;
 }
 
-.vineyard_infestation {
+.witcher-3_vineyard_infestation {
   background-position: -165px -264px;
 }
 
-.vinters_contract {
+.witcher-3_vinters_contract {
   background-position: -198px -264px;
 }
 
-.alchemy_supplies {
+.witcher-3_alchemy_supplies {
   background-position: -33px -0px;
 }
 
-.armorer {
+.witcher-3_armorer {
   background-position: -66px -0px;
 }
 
-.armorers_table {
+.witcher-3_armorers_table {
   background-position: -99px -0px;
 }
 
-.barber {
-  background-position: -165px -0px;
-}
-
-.blacksmith {
+.witcher-3_blacksmith {
   background-position: -198px -0px;
 
 }
 
-.brothel {
-  background-position: 0 -44px;
-}
-
-.dye_merchant {
+.witcher-3_dye_merchant {
   background-position: -99px -44px;
 }
 
-.grindstone {
+.witcher-3_grindstone {
   background-position: -198px -44px;
 }
 
-.gwent_merchant {
+.witcher-3_gwent_merchant {
   background-position: -33px -86px;
 }
 
-.gwent_player {
+.witcher-3_gwent_player {
   background-position: -66px -86px;
 }
 
-.herbalist {
+.witcher-3_herbalist {
   background-position: -198px -86px;
 }
 
-.innkeep {
+.witcher-3_innkeep {
   background-position: -33px -132px;
 }
 
-.runewright {
+.witcher-3_runewright {
   background-position: -132px -220px;
 }
 
-.shopkeeper {
+.witcher-3_shopkeeper {
   background-position: -198px -220px;
 }
 
-.fistfight {
+.witcher-3_fistfight {
   background-position: -165px -44px;
 }
 
-.gwent_quest {
+.witcher-3_gwent_quest {
   background-position: -99px -86px;
 }
 
-.hidden_treasure {
+.witcher-3_hidden_treasure {
   background-position: -231px -86px;
 }
 
-.horse_race {
+.witcher-3_horse_race {
   background-position: 0 -132px;
 }
 
-.main_quest {
+.witcher-3_main_quest {
   background-position: -165px -132px;
 }
 
-.secondary_quest {
+.witcher-3_secondary_quest {
   background-position: -165px -220px;
 }
 
-.treasure_chest {
+.witcher-3_treasure_chest {
   background-position: -132px -264px;
 }
 
-.book {
+.witcher-3_book {
   background-position: -231px -0px;
 }
 
-.chest {
+.witcher-3_chest {
   background-position: -33px -44px;
 }
 
-.gwent_card {
+.witcher-3_gwent_card {
   background-position: 0 -86px;
 }
 
-.mutagen {
+.witcher-3_mutagen {
   background-position: -33px -176px;
 }
 
-.oil {
-  background-position: -132px -176px;
-}
-
-.quest_item {
+.witcher-3_quest_item {
   background-position: -33px -220px;
 }
 
-.recipe {
+.witcher-3_recipe {
   background-position: -66px -220px;
 }
 
-.relic_item {
-  background-position: -99px -220px;
-}
-
-.witcher_gear {
+.witcher-3_witcher_gear {
   background-position: -231px -264px;
 }
 
-.miscellaneous {
+.witcher-3_miscellaneous {
   background-position: -198px -132px;
 }
 
-.npc {
+.witcher-3_npc {
   background-position: -99px -176px;
 }
 
 /* Tears of the kingdom */
-.area {
+.zelda-tears-of-the-kingdom_area {
   background-position: 0 0;
 }
 
-.building {
+.zelda-tears-of-the-kingdom_building {
   background-position: -264px 0;
 }
 
-.cave {
+.zelda-tears-of-the-kingdom_cave {
   background-position: -330px 0;
 }
 
-.chasm {
+.zelda-tears-of-the-kingdom_chasm {
   background-position: 0 -44px;
 }
 
-.goddess_statue {
+.zelda-tears-of-the-kingdom_goddess_statue {
   background-position: -264px -88px;
 }
 
-.blupee {
-  background-position: -165px 0;
-}
-
-.chest {
+.zelda-tears-of-the-kingdom_chest {
   background-position: -33px -44px;
 }
 
-.great_fairy {
+.zelda-tears-of-the-kingdom_great_fairy {
   background-position: -297px -88px;
 }
 
-.hateno_school {
+.zelda-tears-of-the-kingdom_hateno_school {
   background-position: -363 -88px;
 }
 
-.landmark {
+.zelda-tears-of-the-kingdom_landmark {
   background-position: -297px -132px;
 }
 
-.lighthouse {
+.zelda-tears-of-the-kingdom_lighthouse {
   background-position: -330px -132px;
 }
 
-.lightroot {
+.zelda-tears-of-the-kingdom_lightroot {
   background-position: -363px -132px;
 }
 
-.point_of_interest {
+.zelda-tears-of-the-kingdom_point_of_interest {
   background-position: -264px -220px;
 }
 
-.province {
+.zelda-tears-of-the-kingdom_province {
   background-position: -297px -220px;
 }
 
-.settlement {
+.zelda-tears-of-the-kingdom_settlement {
   background-position: -132px -264px;
 }
 
-.shrine {
+.zelda-tears-of-the-kingdom_shrine {
   background-position: -198px -264px;
 }
 
-.skyview_tower {
+.zelda-tears-of-the-kingdom_skyview_tower {
   background-position: -330px -264px;
 }
 
-
-.tech_lab {
+.zelda-tears-of-the-kingdom_tech_lab {
   background-position: -99px -313px;
 }
 
-.temple {
+.zelda-tears-of-the-kingdom_temple {
   background-position: -132px -313px;
 }
 
-.zonai_survey_team_base {
+.zelda-tears-of-the-kingdom_zonai_survey_team_base {
   background-position: -231px -352px;
 }
 
-.armor_shop {
+.zelda-tears-of-the-kingdom_armor_shop {
   background-position: -66px 0;
 }
 
-.bargainer_statue {
+.zelda-tears-of-the-kingdom_bargainer_statue {
   background-position: -132px 0;
 }
 
-
-.crystal_refinery {
+.zelda-tears-of-the-kingdom_crystal_refinery {
   background-position: -198px -44px;
 }
 
-.device_dispenser {
+.zelda-tears-of-the-kingdom_device_dispenser {
   background-position: -231px -44px;
 }
 
-.dye_shop {
+.zelda-tears-of-the-kingdom_dye_shop {
   background-position: -330px -44px;
 }
 
-.general_store {
+.zelda-tears-of-the-kingdom_general_store {
   background-position: -165 -88px;
 }
 
-.hestu {
+.zelda-tears-of-the-kingdom_hestu {
   background-position: -33px -132px;
 }
 
-.inn {
+.zelda-tears-of-the-kingdom_inn {
   background-position: -132px -132px;
 }
 
-.jewelry_shop {
+.zelda-tears-of-the-kingdom_jewelry_shop {
   background-position: -165 -132px;
 }
 
-.koltin {
+.zelda-tears-of-the-kingdom_koltin {
   background-position: -231px -132px;
 }
 
-.mini_game {
+.zelda-tears-of-the-kingdom_mini_game {
   background-position: -231px -176px;
 }
 
-.stable {
+.zelda-tears-of-the-kingdom_stable {
   background-position: -363 -264px;
 }
 
-.travelling_merchant {
+.zelda-tears-of-the-kingdom_travelling_merchant {
   background-position: -165 -313px
 }
 
-.schema_stone {
+.zelda-tears-of-the-kingdom_schema_stone {
   background-position: -99px -264px;
 }
 
-.dragon_tear {
+.zelda-tears-of-the-kingdom_dragon_tear {
   background-position: -297px -44px;
 }
 
-.geoglyph {
+.zelda-tears-of-the-kingdom_geoglyph {
   background-position: -198px -88px;
 }
 
-.heart_container {
+.zelda-tears-of-the-kingdom_heart_container {
   background-position: 0 -132px;
 }
 
-.key_item {
+.zelda-tears-of-the-kingdom_key_item {
   background-position: -198px -132px;
 }
 
-.korok_seed {
+.zelda-tears-of-the-kingdom_korok_seed {
   background-position: -264px -132px;
 }
 
-.master_sword {
+.zelda-tears-of-the-kingdom_master_sword {
   background-position: -99px -176px;
 }
 
-.paraglider_fabric {
+.zelda-tears-of-the-kingdom_paraglider_fabric {
   background-position: -165px -220px;
 }
 
-.sages_will {
+.zelda-tears-of-the-kingdom_sages_will {
   background-position: -33px -264px;
 }
 
-.treasure {
+.zelda-tears-of-the-kingdom_treasure {
   background-position: -198px -313px
 }
 
-.yiga_schematic {
+.zelda-tears-of-the-kingdom_yiga_schematic {
   background-position: -66px -352px;
 }
 
-.zonai_relief {
+.zelda-tears-of-the-kingdom_zonai_relief {
   background-position: -198px -352px;
 }
 
-.armor {
+.zelda-tears-of-the-kingdom_armor {
   background-position: -33px 0;
 }
 
-.arrows {
+.zelda-tears-of-the-kingdom_arrows {
   background-position: -99px 0;
 }
 
-.elixir {
+.zelda-tears-of-the-kingdom_elixir {
   background-position: 0 -88px;
 }
 
-.gem {
-  background-position: -132px -88px;
-}
-
-.other_loot {
+.zelda-tears-of-the-kingdom_other_loot {
   background-position: -132px -220px;
 }
 
-.poe {
-  background-position: -231px -220px;
-}
-
-.rupees {
-  background-position: 0 -264px;
-}
-
-.shield {
+.zelda-tears-of-the-kingdom_shield {
   background-position: -165 -264px;
 }
 
-.treasure_chest {
+.zelda-tears-of-the-kingdom_treasure_chest {
   background-position: -231px -313px;
 }
 
-.weapon {
+.zelda-tears-of-the-kingdom_weapon {
   background-position: -330px -313px;
 }
 
-.zonai_charge {
+.zelda-tears-of-the-kingdom_zonai_charge {
   background-position: -132px -352px;
 }
 
-.zonai_component {
+.zelda-tears-of-the-kingdom_zonai_component {
   background-position: -165px -352px;
 }
 
-.main_quest {
+.zelda-tears-of-the-kingdom_main_quest {
   background-position: -66px -176px;
 }
 
-.memory {
+.zelda-tears-of-the-kingdom_memory {
   background-position: -198px -176px;
 }
 
-.shrine_quest {
+.zelda-tears-of-the-kingdom_shrine_quest {
   background-position: -231px -264px;
 }
 
-.side_adventure {
+.zelda-tears-of-the-kingdom_side_adventure {
   background-position: -264px -264px;
 }
 
-.side_quest {
+.zelda-tears-of-the-kingdom_side_quest {
   background-position: -297px -264px;
 }
 
-.boss {
+.zelda-tears-of-the-kingdom_boss {
   background-position: -198px 0;
 }
 
-.bubbulfrog {
+.zelda-tears-of-the-kingdom_bubbulfrog {
   background-position: -231px 0;
 }
 
-.dragon {
+.zelda-tears-of-the-kingdom_dragon {
   background-position: -264px -44px;
 }
 
-.enemy_camp {
-  background-position: -33px -88px;
-}
-
-.guardian {
+.zelda-tears-of-the-kingdom_guardian {
   background-position: -330px -88px;
 }
 
-.frox {
+.zelda-tears-of-the-kingdom_frox {
   background-position: -99px -88px;
 }
 
-.gleeok {
+.zelda-tears-of-the-kingdom_gleeok {
   background-position: -231px -88px;
 }
 
-.hinox {
+.zelda-tears-of-the-kingdom_hinox {
   background-position: -66px -132px;
 }
 
-.lynel {
+.zelda-tears-of-the-kingdom_lynel {
   background-position: -33px -176px;
 }
 
-.miniboss {
+.zelda-tears-of-the-kingdom_miniboss {
   background-position: -264px -176px;
 }
 
-.molduga {
+.zelda-tears-of-the-kingdom_molduga {
   background-position: -330px -176px;
 }
 
-.octorok {
+.zelda-tears-of-the-kingdom_octorok {
   background-position: -33px -220px;
 }
 
-.other_enemy {
+.zelda-tears-of-the-kingdom_other_enemy {
   background-position: -99px -220px;
 }
 
-.stalnox {
+.zelda-tears-of-the-kingdom_stalnox {
   background-position: 0 -313px
 }
 
-.stronghold {
+.zelda-tears-of-the-kingdom_stronghold {
   background-position: -33px -313px
 }
 
-.talus {
+.zelda-tears-of-the-kingdom_talus {
   background-position: -66px -313px
 }
 
-.wizzrobe {
+.zelda-tears-of-the-kingdom_wizzrobe {
   background-position: 0 -352px;
 }
 
-yiga {
+.zelda-tears-of-the-kingdom_yiga {
   background-position: -33px -352px;
 }
 
-.zonai {
+.zelda-tears-of-the-kingdom_zonai {
   background-position: -99px -352px;
 }
 
-.campfire {
-  background-position: -297px 0;
-}
-
-.cave_entrance {
+.zelda-tears-of-the-kingdom_cave_entrance {
   background-position: -363 0;
 }
 
-.cooking_pot {
-  background-position: -66px -44px;
-}
-
-.cracked_wall {
+.zelda-tears-of-the-kingdom_cracked_wall {
   background-position: -99px -44px;
 }
 
-.easter_egg {
+.zelda-tears-of-the-kingdom_easter_egg {
   background-position: -363 -44px;
 }
 
-.falling_platform {
+.zelda-tears-of-the-kingdom_falling_platform {
   background-position: -66px -88px;
 }
 
-.hudson_sign {
+.zelda-tears-of-the-kingdom_hudson_sign {
   background-position: -99px -132px;
 }
 
-.lore {
+.zelda-tears-of-the-kingdom_lore {
   background-position: 0 -176px;
 }
 
-.mechanism {
+.zelda-tears-of-the-kingdom_mechanism {
   background-position: -165px -176px;
 }
 
-.miscellaneous {
+.zelda-tears-of-the-kingdom_miscellaneous {
   background-position: -297px -176px;
 }
 
-.npc {
+.zelda-tears-of-the-kingdom_npcs {
   background-position: 0 -220px;
 }
 
-.puzzle_piece {
+.zelda-tears-of-the-kingdom_puzzle_piece {
   background-position: -330px -220px;
 }
 
-.quest_objective {
+.zelda-tears-of-the-kingdom_quest_objective {
   background-position: -363 -220px;
 }
 
-.satori_tree {
+.zelda-tears-of-the-kingdom_satori_tree {
   background-position: -66px -264px;
 }
 
-.unique_horse {
+.zelda-tears-of-the-kingdom_unique_horse {
   background-position: -264px -313px
 }
 
-.vehicle {
-  background-position: -297px -313px
-}
-
-.well {
+.zelda-tears-of-the-kingdom_well {
   background-position: -363 -313px
 }
 
-.ore_deposit {
+.zelda-tears-of-the-kingdom_ore_deposit {
   background-position: -66px -220px;
 }
 
-.material {
+.zelda-tears-of-the-kingdom_material {
   background-position: -132px -176px;
 }
 
-.mushroom {
+.zelda-tears-of-the-kingdom_mushroom {
   background-position: -363 -176px;
 }
 
@@ -745,607 +873,534 @@ yiga {
 }
 
 /* Elden Ring */
-.ammunition {
+.elden-ring_ammunition {
   background-position: 0 0;
 }
 
-.ancient_smithing_stone {
+.elden-ring_ancient_smithing_stone {
   background-position: -33px 0;
 }
 
-.armor {
+.elden-ring_armor {
   background-position: -66px 0;
 }
 
-.ash_of_war {
+.elden-ring_ash_of_war {
   background-position: -99px 0;
 }
 
-.bell_bearing {
+.elden-ring_bell_bearing {
   background-position: -132px 0;
 }
 
-.birdseye_telescope {
+.elden-ring_birdseye_telescope {
   background-position: -165px 0;
 }
 
-.boss {
+.elden-ring_boss {
   background-position: -198px 0;
 }
 
-.cerulean_scarab {
+.elden-ring_cerulean_scarab {
   background-position: -231px 0;
 }
 
-.character {
+.elden-ring_character {
   background-position: -264px 0;
 }
 
-.consumable {
-  background-position: -297px 0;
-}
-
-.cookbook {
+.elden-ring_cookbook {
   background-position: -330px 0;
 }
 
-.cracked_pot {
+.elden-ring_cracked_pot {
   background-position: 0 -44px;
 }
 
-.crafting_material {
-  background-position: -33px -44px;
-}
-
-.crystal_tear {
+.elden-ring_crystal_tear {
   background-position: -66px -44px;
 }
 
-.deathroot {
+.elden-ring_deathroot {
   background-position: -99px -44px;
 }
 
-.demigod {
+.elden-ring_demigod {
   background-position: -132px -44px;
 }
 
-.divine_tower {
+.elden-ring_divine_tower {
   background-position: -165px -44px;
 }
 
-.dragon_heart {
+.elden-ring_dragon_heart {
   background-position: -198px -44px;
 }
 
-.dragon_shrine {
+.elden-ring_dragon_shrine {
   background-position: -231px -44px;
 }
 
-.dungeon {
+.elden-ring_dungeon {
   background-position: -264px -44px;
 }
 
-.easter_egg {
+.elden-ring_easter_egg {
   background-position: -297px -44px;
 }
 
-.elevator {
+.elden-ring_elevator {
   background-position: -330px -44px;
 }
 
-.elite_enemy {
+.elden-ring_elite_enemy {
   background-position: 0 -88px;
 }
 
-.enemy {
+.elden-ring_enemy {
   background-position: -33px -88px;
 }
 
-.evergaol {
+.elden-ring_evergaol {
   background-position: -66px -88px;
 }
 
-.gesture {
+.elden-ring_gesture {
   background-position: -99px -88px;
 }
 
-.ghost {
+.elden-ring_ghost {
   background-position: -132px -88px;
 }
 
-.ghost_glovewort {
+.elden-ring_ghost_glovewort {
   background-position: -165px -88px;
 }
 
-.glovewort {
+.elden-ring_glovewort {
   background-position: -198px -88px;
 }
 
-.golden_rune {
+.elden-ring_golden_rune {
   background-position: -231px -88px;
 }
 
-.golden_seed {
+.elden-ring_golden_seed {
   background-position: -264px -88px;
 }
 
-.great_boss {
+.elden-ring_great_boss {
   background-position: -297px -88px;
 }
 
-.great_glovewort {
+.elden-ring_great_glovewort {
   background-position: -330px -88px;
 }
 
-.great_rune {
+.elden-ring_great_rune {
   background-position: 0 -132px;
 }
 
-.guiding_statue {
+.elden-ring_guiding_statue {
   background-position: -33px -132px;
 }
 
-.hidden_passage {
+.elden-ring_hidden_passage {
   background-position: -66px -132px;
 }
 
-.imp_seal_statue {
+.elden-ring_imp_seal_statue {
   background-position: -99px -132px;
 }
 
-.incantation {
+.elden-ring_incantation {
   background-position: -132px -132px;
 }
 
-.invasion {
+.elden-ring_invasion {
   background-position: -165px -132px;
 }
 
-.item {
+.elden-ring_item {
   background-position: -198px -132px;
 }
 
-.key_item {
+.elden-ring_key_item {
   background-position: -231px -132px;
 }
 
-.landmark {
+.elden-ring_landmark {
   background-position: -264px -132px;
 }
 
-.legacy_dungeon {
+.elden-ring_legacy_dungeon {
   background-position: -297px -132px;
 }
 
-.lore {
+.elden-ring_lore {
   background-position: -330px -132px;
 }
 
-.map_fragment {
+.elden-ring_map_fragment {
   background-position: 0 -176px;
 }
 
-.martyr_effigy {
-  background-position: -33px -176px;
-}
-
-.memory_stone {
+.elden-ring_memory_stone {
   background-position: -66px -176px;
 }
 
-.merchant {
+.elden-ring_merchant {
   background-position: -99px -176px;
 }
 
-.minor_erdtree {
+.elden-ring_minor_erdtree {
   background-position: -132px -176px;
 }
 
-.miquellas_cross {
+.elden-ring_miquellas_cross {
   background-position: -165px -176px;
 }
 
-.miquellas_lilly {
+.elden-ring_miquellas_lilly {
   background-position: -198px -176px;
 }
 
-.miscellaneous {
+.elden-ring_miscellaneous {
   background-position: -231px -176px;
 }
 
-.multiplayer_item {
-  background-position: -264px -176px;
-}
-
-.n_lily {
+.elden-ring_n_lily {
   background-position: -297px -176px;
 }
 
-.painting {
+.elden-ring_painting {
   background-position: -330px -176px;
 }
 
-.perfume_bottle {
+.elden-ring_perfume_bottle {
   background-position: 0 -220px;
 }
 
-.portal {
+.elden-ring_portal {
   background-position: -33px -220px;
 }
 
-.puzzle {
+.elden-ring_puzzle {
   background-position: -66px -220px;
 }
 
-.quest {
+.elden-ring_quest {
   background-position: -99px -220px;
 }
 
-.rebirth_monument {
+.elden-ring_rebirth_monument {
   background-position: -132px -220px;
 }
 
-.remembrance {
+.elden-ring_remembrance {
   background-position: -165px -220px;
 }
 
-.revered_spirit_ash {
+.elden-ring_revered_spirit_ash {
   background-position: -198px -220px;
 }
 
-.ritual_pot {
+.elden-ring_ritual_pot {
   background-position: -231px -220px;
 }
 
-.ruin_fragment {
+.elden-ring_ruin_fragment {
   background-position: -264px -220px;
 }
 
-.rune_arc {
+.elden-ring_rune_arc {
   background-position: -297px -220px;
 }
 
-.sacramental_bud {
+.elden-ring_sacramental_bud {
   background-position: -330px -220px;
 }
 
-.sacred_tear {
+.elden-ring_sacred_tear {
   background-position: 0 -264px;
 }
 
-.scadutree_fragment {
+.elden-ring_scadutree_fragment {
   background-position: -33px -264px;
 }
 
-.scadutree_fragment {
+.elden-ring_scadutree_fragment {
   background-position: -66px -264px;
 }
 
-.shield {
+.elden-ring_shield {
   background-position: -99px -264px;
 }
 
-.site_of_grace {
+.elden-ring_site_of_grace {
   background-position: -132px -264px;
 }
 
-.slumbering_egg {
+.elden-ring_slumbering_egg {
   background-position: -165px -264px;
 }
 
-.smithing_stone {
+.elden-ring_smithing_stone {
   background-position: -198px -264px;
 }
 
-.somber_smithing_stone {
+.elden-ring_somber_smithing_stone {
   background-position: -231px -264px;
 }
 
-.sorcery {
+.elden-ring_sorcery {
   background-position: -264px -264px;
 }
 
-.spellbook {
+.elden-ring_spellbook {
   background-position: -297px -264px;
 }
 
-.spirit_ashes {
+.elden-ring_spirit_ashes {
   background-position: -330px -264px;
 }
 
-
-.spiritspring_jump {
+.elden-ring_spiritspring_jump {
   background-position: 0 -308px;
 }
 
-.stake_of_marika {
+.elden-ring_stake_of_marika {
   background-position: -33px -308px;
 }
 
-.stone_cairn {
+.elden-ring_stone_cairn {
   background-position: -66px -308px;
 }
 
-.stonesword_key {
+.elden-ring_stonesword_key {
   background-position: -99px -308px;
 }
 
-.summoning_sigil {
+.elden-ring_summoning_sigil {
   background-position: -132px -308px;
 }
 
-.talisman {
+.elden-ring_talisman {
   background-position: -165px -308px;
 }
 
-.talisman_pouch {
+.elden-ring_talisman_pouch {
   background-position: -198px -308px;
 }
 
-.teardrop_scarab {
+.elden-ring_teardrop_scarab {
   background-position: -231px -308px;
 }
 
-.tool {
+.elden-ring_tool {
   background-position: -264px -308px;
 }
 
-.trainer {
+.elden-ring_trainer {
   background-position: -297px -308px;
 }
 
-.trinas_lilly {
+.elden-ring_trinas_lilly {
   background-position: -330px -308px;
 }
 
-
-.wandering_mausoleum {
+.elden-ring_wandering_mausoleum {
   background-position: 0 -352px;
 }
 
-.weapon {
+.elden-ring_weapon {
   background-position: -33px -352px;
 }
 
-.whetblade {
+.elden-ring_whetblade {
   background-position: -66px -352px;
 }
 
-.aged_ginseng,
-.celestial_pear,
-.fire_bellflower,
-.fragrant_jade_flower,
-.jade_lotus,
-.gentian,
-.licorice {
+.black-myth-wukong_snake-head-mushroom,
+.black-myth-wukong_tree_pearl,
+.black-myth-wukong_fragrant_jade_flower,
+.black-myth-wukong_millenium_ginseng,
+.black-myth-wukong_nine_capped_lingzhi,
+.black-myth-wukong_purple_lingzhi,
+.black-myth-wukong_aged_ginseng,
+.black-myth-wukong_celestial_pear,
+.black-myth-wukong_fire_bellflower,
+.black-myth-wukong_jade_lotus,
+.black-myth-wukong_gentian,
+.black-myth-wukong_licorice {
   background-position: 0 0;
 }
 
-.armor {
+.black-myth-wukong_armor {
   background-position: -33px 0;
 }
 
-.awaken_wine_worm {
+.black-myth-wukong_awaken_wine_worm {
   background-position: -66px 0;
 }
 
-.character {
-  background-position: -165px 0;
-}
-
-.chest {
+.black-myth-wukong_chest {
   background-position: -198px 0px;
 }
 
-.consumable {
-  background-position: -231px 0px;
-}
-
-.curio {
+.black-myth-wukong_curio {
   background-position: 0 -44px;
 }
 
-.drink {
+.black-myth-wukong_drink {
   background-position: -33px -44px;
 }
 
-.elite_lesser_yaoguai {
+.black-myth-wukong_elite_lesser_yaoguai {
   background-position: -99px -44px;
 }
 
-.formula {
+.black-myth-wukong_formula {
   background-position: -165px -44px;
 }
 
-.item {
-  background-position: -33px -88px;
-}
-
-.keeper_shrine {
+.black-myth-wukong_keeper_shrine {
   background-position: -99px -88px;
 }
 
-.meditation_spot {
+.black-myth-wukong_meditation_spot {
   background-position: -66px -132px;
 }
 
-.easter_egg {
+.black-myth-wukong_easter_egg {
   background-position: -66px -44px;
 }
 
-.will {
-  background-position: -99px -264px;
-}
-
-.spell {
+.black-myth-wukong_spell {
   background-position: -99px -220px;
 }
 
-.yaoguai_chief {
+.black-myth-wukong_yaoguai_chief {
   background-position: -132px -264px;
 }
 
-.lesser_yaoguai {
-  background-position: -165px -88px;
-}
-
-.npc {
+.black-myth-wukong_npc {
   background-position: -198px -132px;
 }
 
-.location {
-  background-position: -231px -88px;
-}
-
-.spirit {
+.black-myth-wukong_spirit {
   background-position: -132px -220px;
 }
 
-.valuable {
-  background-position: -0px -264px;
-}
-
-.point_of_interest {
+.black-myth-wukong_point_of_interest {
   background-position: -132px -176px;
 }
 
-.celestial_pill {
+.black-myth-wukong_celestial_pill {
   background-position: -132px -0px;
 }
 
-.gourd {
+.black-myth-wukong_gourd {
   background-position: -0px -88px;
 }
 
-.key_item {
+.black-myth-wukong_key_item {
   background-position: -132px -88px;
 }
 
-.luojia_fragrant_vine {
+.black-myth-wukong_luojia_fragrant_vine {
   background-position: -0px -132px;
 }
 
-.seeds {
-  background-position: -198px -176px;
-}
-
-.soak {
+.black-myth-wukong_soak {
   background-position: -66px -220px;
 }
 
-.talisman {
-  background-position: -165px -220px;
-}
-
-.transformation_spell {
+.black-myth-wukong_transformation_spell {
   background-position: -198px -220px;
 }
 
-.vessel {
+.black-myth-wukong_vessel {
   background-position: -33px -264px;
 }
 
-.weapon {
+.black-myth-wukong_weapon {
   background-position: -66px -264px;
 }
 
-.yaoguai_king {
+.black-myth-wukong_yaoguai_king {
   background-position: -165px -264px;
 }
 
-.main_quest {
+.black-myth-wukong_main_quest {
   background-position: -33px -132px;
 }
 
-.side_quest {
+.black-myth-wukong_side_quest {
   background-position: -0px -220px;
 }
 
-.miscellaneous {
+.black-myth-wukong_miscellaneous {
   background-position: -132px -132px;
-}
-
-.celestial_pear {
-  background-position: -99px -0px;
-}
-
-.fire_bellflower,
-.fragrant_jade_flower,
-.millenium_ginseng,
-.nine_capped_lingzhi,
-.purple_lingzhi {
-  background-position: -165px -176px;
-}
-
-.tree_pearl {
-  background-position: -231px -220px;
-}
-
-.shen_monkey {
-  background-position: -231px -176px;
-}
-
-.aged_ginseng {
-  background-position: -0px -0px;
 }
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
+    --app-background: #11151C;
+    --marker-tooltip-background: var(--sidebar-background-color);
   }
 
   .elden-ring {
     --text-color: #e4e4e5;
+    --accent-color: #c3b590;
+    --title-font-color: var(--accent-color);
+    --border-color: var(--accent-color);
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #232423;
+    --map-background: #14130f;
+    --text-font: 'Mantinia';
+    --body-font-family: "Noto Sans";
+    --body-background: var(--sidebar-background-color);
+  }
+
+  .witcher-3 {
+    --text-color: #e4e4e5;
+    --accent-color: #c3b590;
+    --title-font-color: var(--accent-color);
+    --border-color: var(--accent-color);
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #232423;
+    --map-background: #14130f;
+    --text-font: 'Mason';
+    --body-background: var(--sidebar-background-color);
   }
 
   .zelda-tears-of-the-kingdom {
     --text-color: #f8f6e0;
     --accent-color: #cab586;
-    --title-font-color: var(--accent-color);
+    --title-font-color: var(--text-color);
     --border-color: var(--accent-color);
     --sidebar-border-color: var(--border-color);
     --sidebar-background-color: #231d1b;
+    --map-background: #000;
+    --text-font: 'Hylia';
+    --body-font-family: "Open Sans", sans-serif, "sans-serif";
+    --title-font-family: "Hylia";
+    --category-font-size: 13px;
+    --title-font-size: 24px;
+    --title-font-weight: normal;
+    --title-font-letter-spacing: 1px;
+    --title-font-text-transform: none;
+    /* --sidebar-background: var(--sidebar-background-color) url(../../images/games/zelda-tears-of-the-kingdom/background.jpg); */
+    --sidebar-subtitle-size: 16px;
+    --map-link-color: color-mix(in srgb, var(--accent-color), #000 10%);
+    --map-link-color-hover: color-mix(in srgb, var(--map-link-color), transparent 75%);
+    --map-link-color-selected: color-mix(in srgb, var(--map-link-color), transparent 90%);
+    --popup-background: color-mix(in srgb, var(--sidebar-background-color), transparent 1%);
+    --popup-border-color: hsla(0, 0%, 78%, .4);
+    --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
+    --modal-border-color: var(--text-color);
+    --body-background: var(--sidebar-background-color);
   }
 
   .black-myth-wukong {
@@ -1355,15 +1410,23 @@ yiga {
     --border-color: #757259;
     --sidebar-border-color: var(--border-color);
     --sidebar-background-color: #090708;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
+    --map-background: #2b2b2b;
+    --text-font: 'CrimsonPro';
+    --body-font-family: "CrimsonPro";
+    --body-background: var(--sidebar-background-color);
   }
 
-  body {
-    @apply bg-background text-foreground;
+  .hogwarts-legacy {
+    --text-color: #f8fbfc;
+    --accent-color: #a99862;
+    --title-font-color: var(--accent-color);
+    --border-color: var(--accent-color);
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #0d181b;
+    --body-background: #0d181b;
+    --map-background: #2d3038;
+    --body-font-family: "Hybrid";
+    --text-font: "OptiCollumna-Solid";
+    --body-background: var(--sidebar-background-color);
   }
 }

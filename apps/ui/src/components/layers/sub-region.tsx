@@ -8,20 +8,23 @@ export const SubRegion = ({ positions, id }: any) => {
   const [triggerSubRegionId, setTriggerSubRegionId] = useAtom(
     triggerSubRegionIdAtom
   );
-  const polygonRef = useRef<any>(null);
+  const polygonRef = useRef<L.Polygon | null>(null);
   const map = useMap();
-  const [center, setCenter] = useState(null);
+  const [center, setCenter] = useState<L.LatLng | null>(null);
 
   useEffect(() => {
-    if (polygonRef) {
-      setCenter(polygonRef.current.getBounds().getCenter());
+    if (polygonRef?.current) {
+      const center = polygonRef.current.getBounds().getCenter();
+      setCenter(center);
     }
   }, [polygonRef]);
 
   useEffect(() => {
     if (triggerSubRegionId && triggerSubRegionId === id) {
       const bounds = polygonRef?.current?.getBounds();
-      map.fitBounds(bounds);
+      if (bounds) {
+        map.fitBounds(bounds);
+      }
       setTriggerSubRegionId(null);
     }
   }, [id, map, setTriggerSubRegionId, triggerSubRegionId]);

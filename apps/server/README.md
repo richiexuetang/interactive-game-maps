@@ -170,13 +170,13 @@ Now to build a Docker image of your own Nest server simply run:
 # give your docker image a name
 docker build -t <your username>/nest-prisma-server .
 # for example
-docker build -t nest-prisma-server .
+docker build -t ritcher-map-server .
 ```
 
 After Docker build your docker image you are ready to start up a docker container running the nest server:
 
 ```bash
-docker run -d -t -p 5001:5001 --env-file .env nest-prisma-server
+docker run -d -t -p 5001:5001 --env-file .env ritcher-map-server
 ```
 
 Now open up [localhost:5001](http://localhost:5001) to verify that your nest server is running.

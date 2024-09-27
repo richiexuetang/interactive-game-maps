@@ -10,7 +10,7 @@ import { ZapIcon } from "./icons/zap-icon";
 
 export const MainNav = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#212D40" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <ZapIcon />
@@ -35,7 +35,6 @@ export const MainNav = () => {
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               color="inherit"
@@ -60,7 +59,7 @@ export const MainNav = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Ritcher Map
           </Typography>
         </Toolbar>
       </Container>

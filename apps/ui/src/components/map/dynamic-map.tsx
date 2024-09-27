@@ -1,18 +1,18 @@
 "use client";
 
-import { useEffect } from "react";
+import { SyntheticEvent, useEffect } from "react";
 import * as RL from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import "@/lib/leaflet/smooth-wheel-zoom";
+import "@/lib/leaflet/context-menu";
+import "@/lib/leaflet/full-screen";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { UserRecord } from "firebase-admin/auth";
-import { UserAvatar } from "../user-avatar";
 import { Menu } from "../menu";
-import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import { useAtom, useSetAtom } from "jotai";
 import { gameSlugAtom } from "@/store";
 import {
+  copyLinkTriggerAtom,
   currentGroupsAtom,
   currentMarkersAtom,
   currentRegionAtom,
@@ -20,22 +20,32 @@ import {
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
 import { useQuery } from "@apollo/client";
-import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/constants";
+import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/graphql/constants";
 import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
-import { TestMarker } from "../markers/test-marker";
+import { Game } from "@/__generated__/graphql";
+import { useParams } from "next/navigation";
+import { LatLngExpression } from "leaflet";
+import { userNoteMarkerAtom } from "@/store/marker";
+import { getFontClassName } from "@/lib/font";
+import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
+import Alert from "@mui/material/Alert";
+import { MapEventListener } from "./map-event-listener";
 
 interface MapProps {
-  region: any;
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  regionData: any;
+  regionData: Game;
 }
 
-const Map = ({ region, user, regionData }: MapProps) => {
+const Map = ({ user, regionData }: MapProps) => {
   const { zoom, minZoom, maxZoom, center } = regionData;
+  const params = useParams<{ slug: string }>();
+
+  const region = regionData.regions?.find((r) => r.slug === params.slug);
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
+  const setUserNoteMarkerAtom = useSetAtom(userNoteMarkerAtom);
   const [currentRegion, setCurrentRegion] = useAtom(currentRegionAtom);
   const setCurrentMarkers = useSetAtom(currentMarkersAtom);
   const setCurrentGroups = useSetAtom(currentGroupsAtom);
@@ -48,25 +58,28 @@ const Map = ({ region, user, regionData }: MapProps) => {
   });
 
   useEffect(() => {
-    if (userData && !appUser) {
-      const data = userData?.getUser;
+    if (userData?.getUser && !appUser) {
       setAppUser({
-        ...data,
+        ...userData?.getUser,
       });
     }
   }, [userData, appUser, setAppUser]);
 
   useEffect(() => {
-    if (!game || game !== regionData.slug) {
+    if (!game) {
       setGame(regionData.slug);
     }
   }, [game, regionData.slug, setGame]);
 
   useEffect(() => {
-    if (!currentRegion || currentRegion.id !== region.id) {
+    if (!currentRegion && region) {
       setCurrentRegion(region);
-      setCurrentMarkers([...region.locations]);
-      setCurrentGroups([...regionData.groups]);
+      if (region.locations) {
+        setCurrentMarkers([...region.locations]);
+      }
+      if (regionData.groups) {
+        setCurrentGroups([...regionData.groups]);
+      }
     }
   }, [
     currentRegion,
@@ -77,16 +90,43 @@ const Map = ({ region, user, regionData }: MapProps) => {
     setCurrentRegion,
   ]);
 
+  const [openSnackbar, setOpenSnackbar] = useAtom(copyLinkTriggerAtom);
+
+  const handleClose = (
+    event?: SyntheticEvent | Event,
+    reason?: SnackbarCloseReason
+  ) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setOpenSnackbar(false);
+  };
+
   return (
     <div
       className={cn(
         getFontClassName(regionData.slug),
-        "h-[calc(100vh-1rem)] bg-black",
+        "h-[calc(100vh-1rem)]",
         regionData.slug
       )}
     >
+      <Snackbar
+        open={openSnackbar ?? false}
+        autoHideDuration={6000}
+        onClose={handleClose}
+      >
+        <Alert
+          onClose={handleClose}
+          severity="success"
+          variant="filled"
+          sx={{ width: "100%" }}
+        >
+          Link successfully copied!
+        </Alert>
+      </Snackbar>
       <Menu
-        regions={regionData.regions}
+        regions={regionData.regions ?? []}
         subRegions={subRegionData?.getSubRegionsByRegion}
       />
       <RL.MapContainer
@@ -94,22 +134,49 @@ const Map = ({ region, user, regionData }: MapProps) => {
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}
-        center={center}
+        center={center as LatLngExpression}
         attributionControl={false}
         zoomControl={false}
         scrollWheelZoom={false}
         // @ts-ignore
+        fullscreenControl={true}
+        fullscreenControlOptions={{ position: "topright" }}
+        // @ts-ignore
         smoothWheelZoom={true}
+        contextmenu={true}
+        contextmenuWidth={140}
+        contextmenuItems={[
+          {
+            text: "Add note",
+            callback: ({ latlng }: any) => {
+              setUserNoteMarkerAtom((prev) => [
+                ...prev,
+                {
+                  position: [latlng.lat, latlng.lng],
+                  title: null,
+                  description: null,
+                },
+              ]);
+            },
+          },
+          {
+            text: "Copy Map View Url",
+            callback: () => {
+              setOpenSnackbar(true);
+            },
+          },
+        ]}
         smoothSensitivity={15}
         className="w-full h-full"
       >
         <RL.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region.tilePath}/{z}/{y}/{x}.jpg`}
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region?.tilePath}/{z}/{y}/{x}.jpg`}
         />
+        <RL.ZoomControl position="bottomright" />
         <MarkerRenderer />
         <MarkerSearch />
-        {/* <TestMarker center={[0.59766929759525, -0.86262242317486]} /> */}
         <ProgressTracker />
+        <MapEventListener regionSlug={params.slug} />
         {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
           <SubRegion
             key={sub.title}
@@ -118,14 +185,6 @@ const Map = ({ region, user, regionData }: MapProps) => {
           />
         ))}
       </RL.MapContainer>
-      {user?.email && (
-        <div className="z-[1000] absolute top-2 right-2">
-          <UserAvatar
-            imageSrc={user.photoURL ?? ""}
-            name={user.displayName ?? ""}
-          />
-        </div>
-      )}
     </div>
   );
 };

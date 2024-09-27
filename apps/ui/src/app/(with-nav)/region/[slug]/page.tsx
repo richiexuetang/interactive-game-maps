@@ -1,9 +1,9 @@
 import { Region } from "@/__generated__/graphql";
-import { getMetaData, getRegionsByGame } from "@/lib/api";
+import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
 import { Metadata } from "next";
+import { ImageCard } from "@/components/cards/image-card";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import { ImageCard } from "@/components/image-card";
 import { revalidatePath } from "next/cache";
 
 export async function generateMetadata({
@@ -11,7 +11,6 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  revalidatePath("/region");
   const game = await getMetaData(params.slug);
 
   const { title, description } = game;
@@ -59,25 +58,29 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
+  revalidatePath("/region");
   const regions = await getRegionsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 
-  console.log(regions);
   return (
-    <div
-      className={cn(
-        "flex gap-5 p-8 flex-wrap content-center justify-center",
-        fontClassName
-      )}
-    >
-      {regions.map(({ slug, thumbnailUrl, title }: Region) => (
-        <ImageCard
-          key={slug}
-          imageSrc={process.env.CDN_BASE_URL + thumbnailUrl}
-          href={`/map/${slug}`}
-          content={title}
-        />
-      ))}
+    <div className={cn(params.slug, "py-12 bg-bodyBackground")}>
+      <div className="px-4">
+        <div
+          className={cn(
+            "flex gap-5 p-8 flex-wrap content-center justify-center",
+            fontClassName
+          )}
+        >
+          {regions.map(({ slug, thumbnailUrl, title }: Region) => (
+            <ImageCard
+              key={slug}
+              imageSrc={process.env.CDN_BASE_URL + thumbnailUrl}
+              href={`/map/${slug}`}
+              content={title}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

@@ -44,6 +44,45 @@ export const mantiniaRegular = localFont({
   variable: "--font-mantiniaRegular",
 });
 
+export const optiCollumnaSolid = localFont({
+  src: [
+    {
+      path: "../../public/fonts/OPTIColumna-Solid.otf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+  variable: "--font-optiCollumnaSolid",
+});
+
+const hybrid = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Hybrid-Medium.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-hybrid",
+});
+
+export const getBodyFont = (font: any) => {
+  switch (font) {
+    case "zelda-tears-of-the-kingdom":
+      return hyliaRegular.className;
+    case "witcher-3":
+      return masonRegular.className;
+    case "black-myth-wukong":
+      return crimsonPro.className;
+    case "elden-ring":
+      return mantiniaRegular.className;
+    case "hogwarts-legacy":
+      return hybrid.className;
+    default:
+      console.log(`${font} does not have a corresponding font`);
+  }
+};
+
 export const getFontClassName = (font: any) => {
   switch (font) {
     case "zelda-tears-of-the-kingdom":
@@ -54,6 +93,8 @@ export const getFontClassName = (font: any) => {
       return crimsonPro.className;
     case "elden-ring":
       return mantiniaRegular.className;
+    case "hogwarts-legacy":
+      return optiCollumnaSolid.className;
     default:
       console.log(`${font} does not have a corresponding font`);
   }
