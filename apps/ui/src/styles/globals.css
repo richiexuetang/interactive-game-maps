@@ -89,6 +89,11 @@
   background-color: transparent !important;
 }
 
+.note-icon {
+  background: url(/markers/hogwarts-legacy.png);
+  background-position: 0 0;
+}
+
 .hogwarts-legacy_ancient_magic_hotspot {
   background-position: -33px 0;
 }

@@ -1,7 +1,7 @@
 import * as RL from "react-leaflet";
 import * as L from "leaflet";
 import { useEffect, useRef } from "react";
-import { useSearchParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { MarkerLocation } from "@/__generated__/graphql";
 import { triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtomValue } from "jotai";
@@ -15,6 +15,7 @@ interface MarkerProps {
 
 export const Marker = ({ marker }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
+  const params = useParams<{ slug: string }>();
   const { id, title, latitude, longitude, category } = marker;
 
   const { icon } = category!;
@@ -44,7 +45,8 @@ export const Marker = ({ marker }: MarkerProps) => {
         markerRef.current.openPopup();
       }
     }
-  }, [id, latitude, longitude, map, searchParams]);
+    window.history.replaceState(null, "", "/map/" + params.slug);
+  }, [id, latitude, longitude, map, params.slug, searchParams]);
 
   useEffect(() => {
     const lat = searchParams.get("lat");
@@ -54,7 +56,8 @@ export const Marker = ({ marker }: MarkerProps) => {
     if (lat && lng && zoom) {
       map.flyTo([parseFloat(lat), parseFloat(lng)], parseFloat(zoom));
     }
-  }, [map, searchParams]);
+    window.history.replaceState(null, "", "/map/" + params.slug);
+  }, [map, params.slug, searchParams]);
 
   const markerFound = appUser?.foundLocations.includes(id);
 

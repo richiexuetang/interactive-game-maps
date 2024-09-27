@@ -27,6 +27,7 @@ export const MarkerRenderer = () => {
           position={position}
           title={title}
           description={description}
+          index={index}
           key={index}
         />
       ))}
