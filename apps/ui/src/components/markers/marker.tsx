@@ -23,7 +23,7 @@ export const Marker = ({ marker }: MarkerProps) => {
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   useEffect(() => {
-    if (triggeredMarkerId === id && markerRef) {
+    if (triggeredMarkerId === id && markerRef?.current) {
       markerRef.current.openPopup();
     }
   }, [id, triggeredMarkerId]);
@@ -34,20 +34,27 @@ export const Marker = ({ marker }: MarkerProps) => {
 
   const map = RL.useMap();
   const searchParams = useSearchParams();
-  const markerRef = useRef<any>(null);
+  const markerRef = useRef<L.Marker>(null);
 
   useEffect(() => {
-    const markerTitle = searchParams.get("marker");
-    if (
-      markerTitle &&
-      title.toLowerCase().replaceAll(" ", "_") === markerTitle
-    ) {
+    const markerId = searchParams.get("marker");
+    if (markerId && id.toString() === markerId) {
       map.flyTo([latitude, longitude]);
       if (markerRef?.current) {
         markerRef.current.openPopup();
       }
     }
-  }, [latitude, longitude, map, searchParams, title]);
+  }, [id, latitude, longitude, map, searchParams]);
+
+  useEffect(() => {
+    const lat = searchParams.get("lat");
+    const lng = searchParams.get("lng");
+    const zoom = searchParams.get("zoom");
+
+    if (lat && lng && zoom) {
+      map.flyTo([parseFloat(lat), parseFloat(lng)], parseFloat(zoom));
+    }
+  }, [map, searchParams]);
 
   const markerFound = appUser?.foundLocations.includes(id);
 

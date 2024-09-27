@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { SyntheticEvent, useEffect } from "react";
 import * as RL from "react-leaflet";
 import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { useAtom, useSetAtom } from "jotai";
 import { gameSlugAtom } from "@/store";
 import {
+  copyLinkTriggerAtom,
   currentGroupsAtom,
   currentMarkersAtom,
   currentRegionAtom,
@@ -27,6 +28,9 @@ import { useParams } from "next/navigation";
 import { LatLngExpression } from "leaflet";
 import { userNoteMarkerAtom } from "@/store/marker";
 import { getFontClassName } from "@/lib/font";
+import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
+import Alert from "@mui/material/Alert";
+import { MapEventListener } from "./map-event-listener";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
@@ -86,6 +90,19 @@ const Map = ({ user, regionData }: MapProps) => {
     setCurrentRegion,
   ]);
 
+  const [openSnackbar, setOpenSnackbar] = useAtom(copyLinkTriggerAtom);
+
+  const handleClose = (
+    event?: SyntheticEvent | Event,
+    reason?: SnackbarCloseReason
+  ) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setOpenSnackbar(false);
+  };
+
   return (
     <div
       className={cn(
@@ -94,6 +111,20 @@ const Map = ({ user, regionData }: MapProps) => {
         regionData.slug
       )}
     >
+      <Snackbar
+        open={openSnackbar ?? false}
+        autoHideDuration={6000}
+        onClose={handleClose}
+      >
+        <Alert
+          onClose={handleClose}
+          severity="success"
+          variant="filled"
+          sx={{ width: "100%" }}
+        >
+          Link successfully copied!
+        </Alert>
+      </Snackbar>
       <Menu
         regions={regionData.regions ?? []}
         subRegions={subRegionData?.getSubRegionsByRegion}
@@ -129,10 +160,10 @@ const Map = ({ user, regionData }: MapProps) => {
             },
           },
           {
-            text: "Zoom in",
-          },
-          {
-            text: "Zoom out",
+            text: "Copy Map View Url",
+            callback: () => {
+              setOpenSnackbar(true);
+            },
           },
         ]}
         smoothSensitivity={15}
@@ -145,6 +176,7 @@ const Map = ({ user, regionData }: MapProps) => {
         <MarkerRenderer />
         <MarkerSearch />
         <ProgressTracker />
+        <MapEventListener regionSlug={params.slug} />
         {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
           <SubRegion
             key={sub.title}
