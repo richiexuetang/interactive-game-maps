@@ -4,6 +4,7 @@ import { totk } from "./seeding/totk";
 import { eldenRing } from "./seeding/elden-ring";
 import { witcher3 } from "./seeding/witcher";
 import { hogwarts } from "./seeding/hogwarts";
+import { gow } from "./seeding/gow";
 
 const prisma = new PrismaClient();
 
@@ -17,7 +18,7 @@ async function main() {
   await prisma.game.deleteMany({});
   await prisma.appUser.deleteMany({});
 
-  const games = [bmw, totk, eldenRing, witcher3, hogwarts];
+  const games = [bmw, totk, eldenRing, witcher3, hogwarts, gow];
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }
@@ -55,9 +56,9 @@ async function seedGame(game) {
       data: {
         slug,
         title,
-        thumbnailUrl: `images/games/black-myth-wukong/${slug}.png`,
+        thumbnailUrl: `images/games/${gameSlug}/${slug}.png`,
         tilePath: `${gameSlug}/${slug}`,
-        gameSlug: gameSlug,
+        gameSlug,
         order: i + 1,
       },
     });

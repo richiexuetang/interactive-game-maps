@@ -30,6 +30,27 @@
     font-display: block;
 }
 
+@font-face {
+    font-family: "hogwarts-legacy-icomoon";
+    src: url('../../public/icons/hogwarts-legacy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="hogwarts-legacy-icon-"],
+[class*=" hogwarts-legacy-icon-"] {
+    font-family: 'hogwarts-legacy-icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 [class^="witcher-3-icon-"],
 [class*=" witcher-3-icon-"] {
     font-family: 'witcher-3-icomoon' !important;
@@ -81,6 +102,293 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.hogwarts-legacy-icon-wand_handle:before {
+    content: "\e900";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-vendor:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-treasure_vault:before {
+    content: "\e902";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-trait:before {
+    content: "\e903";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-tool:before {
+    content: "\e904";
+}
+
+.hogwarts-legacy-icon-side_quest:before {
+    content: "\e905";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-relationship_quest:before {
+    content: "\e906";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-puzzle:before {
+    content: "\e907";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-point_of_interest:before {
+    content: "\e908";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-npc:before {
+    content: "\e909";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-moth:before {
+    content: "\e90a";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-miscellaneous:before {
+    content: "\e90b";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-minor_loot:before {
+    content: "\e90c";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-merlin_trial:before {
+    content: "\e90d";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-main_quest:before {
+    content: "\e90e";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-lore_note:before {
+    content: "\e90f";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-lock:before {
+    content: "\e910";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-location:before {
+    content: "\e911";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-legendary_chest:before {
+    content: "\e912";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-landing_platform:before {
+    content: "\e913";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-ingredient:before {
+    content: "\e914";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-infamous_foe:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-house_coin:before {
+    content: "\e916";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-hedge_maze:before {
+    content: "\e917";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-hamlet:before {
+    content: "\e918";
+    color: #f9f9f9;
+}
+
+.hogwarts-legacy-icon-gear_chest:before {
+    content: "\e919";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-gear:before {
+    content: "\e91a";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-floo_flame:before {
+    content: "\e91b";
+    color: #a2dd9f;
+}
+
+.hogwarts-legacy-icon-field_guide_page:before {
+    content: "\e91c";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-eye_chest:before {
+    content: "\e91d";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-easter_egg:before {
+    content: "\e91e";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-dungeon:before {
+    content: "\e91f";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-demiguise_statue:before {
+    content: "\e920";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-daedalian_key:before {
+    content: "\e921";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-creature_lair:before {
+    content: "\e922";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-conjuration .path1:before {
+    content: "\e923";
+    color: rgb(255, 255, 255);
+    opacity: 0.961;
+}
+
+.hogwarts-legacy-icon-conjuration .path2:before {
+    content: "\e924";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.969;
+}
+
+.hogwarts-legacy-icon-conjuration .path3:before {
+    content: "\e925";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.985;
+}
+
+.hogwarts-legacy-icon-conjuration .path4:before {
+    content: "\e926";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.982;
+}
+
+.hogwarts-legacy-icon-conjuration .path5:before {
+    content: "\e927";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.97;
+}
+
+.hogwarts-legacy-icon-collection_chest:before {
+    content: "\e928";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-chest:before {
+    content: "\e929";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-cairn_dungeon:before {
+    content: "\e92a";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-butterflies:before {
+    content: "\e92b";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-broom_trial:before {
+    content: "\e92c";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-broom:before {
+    content: "\e92d";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-beast_den:before {
+    content: "\e92e";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-beast:before {
+    content: "\e92f";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-battle_arena:before {
+    content: "\e930";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-bandit_camp:before {
+    content: "\e931";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-balloon:before {
+    content: "\e932";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-astronomy_table:before {
+    content: "\e933";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-assignment:before {
+    content: "\e934";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-ancient_magic_hotspot:before {
+    content: "\e935";
+    color: #fff;
+}
+
+.hogwarts-legacy-icon-a:before {
+    content: "\e936";
+}
+
+.hogwarts-legacy-icon-Frame:before {
+    content: "\e937";
+    color: #fff;
 }
 
 .elden-ring-icon-whetblade:before {

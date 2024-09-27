@@ -30,6 +30,27 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: OptiCollumna-Solid;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/OPTIColumna-Solid.otf") format("opentype")
+}
+
+@font-face {
+  font-family: Hybrid;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/F37Hybrid-Medium.woff2") format("woff2"), url("/fonts/F37Hybrid-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: Hybrid;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/F37Hybrid-Bold.woff2") format("woff2"), url("/fonts/F37Hybrid-Bold.woff") format("woff")
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -50,6 +71,14 @@
 
 .elden-ring-icon {
   background: url(/markers/elden-ring.png);
+}
+
+.hogwarts-legacy-icon {
+  background: url(/markers/hogwarts-legacy.png);
+}
+
+.god-of-war-ragnarok-icon {
+  background: url(/markers/god-of-war-ragnarok.png);
 }
 
 .icon {
@@ -1142,6 +1171,7 @@
     --map-background: #14130f;
     --text-font: 'Mantinia';
     --body-font-family: "Noto Sans";
+    --body-background: var(--sidebar-background-color);
   }
 
   .witcher-3 {
@@ -1153,6 +1183,7 @@
     --sidebar-background-color: #232423;
     --map-background: #14130f;
     --text-font: 'Mason';
+    --body-background: var(--sidebar-background-color);
   }
 
   .zelda-tears-of-the-kingdom {
@@ -1181,6 +1212,7 @@
     --popup-border-color: hsla(0, 0%, 78%, .4);
     --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
     --modal-border-color: var(--text-color);
+    --body-background: var(--sidebar-background-color);
   }
 
   .black-myth-wukong {
@@ -1193,6 +1225,20 @@
     --map-background: #2b2b2b;
     --text-font: 'CrimsonPro';
     --body-font-family: "CrimsonPro";
+    --body-background: var(--sidebar-background-color);
   }
 
+  .hogwarts-legacy {
+    --text-color: #f8fbfc;
+    --accent-color: #a99862;
+    --title-font-color: var(--accent-color);
+    --border-color: var(--accent-color);
+    --sidebar-border-color: var(--border-color);
+    --sidebar-background-color: #0d181b;
+    --body-background: #0d181b;
+    --map-background: #2d3038;
+    --body-font-family: "Hybrid";
+    --text-font: "OptiCollumna-Solid";
+    --body-background: var(--sidebar-background-color);
+  }
 }

@@ -3,7 +3,7 @@ export const eldenRing = {
   title: "Elden Ring",
   zoom: 13,
   minZoom: 8,
-  maxZoom: 17,
+  maxZoom: 16,
   center: [0.65676201402282, -0.76234815932221],
   description:
     "Elden Ring Interactive Map - Find all Bosses, Tears, Quests, Keys, Map Fragments &amp; more! Use the progress tracker to keep track of your collectibles and get 100%!",
