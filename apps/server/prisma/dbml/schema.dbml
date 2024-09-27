@@ -22,22 +22,22 @@ Table NoteMarker {
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
-  user AppUser [not null]
   userId String [not null]
   regionSlug String [not null, default: 'world']
+  user AppUser [not null]
 }
 
 Table Game {
   id Int [pk, increment]
   slug String [unique, not null]
   title String [not null]
-  regions Region [not null]
-  groups MarkerGroup [not null]
   description String [not null]
   minZoom Int [not null]
   maxZoom Int [not null]
   zoom Int [not null]
   center Decimal[] [not null]
+  groups MarkerGroup [not null]
+  regions Region [not null]
 }
 
 Table Region {
@@ -46,28 +46,28 @@ Table Region {
   title String [not null]
   thumbnailUrl String [not null]
   tilePath String [not null]
-  game Game [not null]
   gameSlug String [not null]
-  locations MarkerLocation [not null]
   order Int [not null, default: 1]
+  locations MarkerLocation [not null]
+  game Game [not null]
   subRegions SubRegion [not null]
 }
 
 Table SubRegion {
   id Int [pk, increment]
-  region Region [not null]
   regionSlug String [not null]
   title String [not null]
-  locations MarkerLocation [not null]
   slug String [unique, not null]
+  locations MarkerLocation [not null]
+  region Region [not null]
 }
 
 Table MarkerGroup {
   id Int [pk, increment]
   title String [not null]
-  game Game [not null]
   gameSlug String [not null]
   categories MarkerCategory [not null]
+  game Game [not null]
 }
 
 Table MarkerCategory {
@@ -75,9 +75,9 @@ Table MarkerCategory {
   title String [not null]
   icon String [not null]
   info String
-  locations MarkerLocation [not null]
   groupId Int
   markerGroup MarkerGroup
+  locations MarkerLocation [not null]
 }
 
 Table MarkerLocation {
@@ -86,21 +86,31 @@ Table MarkerLocation {
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
-  category MarkerCategory
   categoryId Int
-  region Region [not null]
   regionSlug String [not null]
-  media Media [not null]
-  subRegion SubRegion
   subRegionSlug String
+  category MarkerCategory
+  region Region [not null]
+  subRegion SubRegion
+  media Media [not null]
 }
 
 Table Media {
   id Int [pk, increment]
   url String [not null]
   type String [not null]
-  MarkerLocation MarkerLocation
   markerLocationId Int
+  MarkerLocation MarkerLocation
+}
+
+Table spatial_ref_sys {
+  srid Int [pk]
+  auth_name String
+  auth_srid Int
+  srtext String
+  proj4text String
+
+  Note: 'This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.'
 }
 
 Ref: NoteMarker.userId > AppUser.id
