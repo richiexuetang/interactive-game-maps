@@ -15,7 +15,7 @@ const config: Config = {
     path: "api",
   },
   graphql: {
-    playgroundEnabled: true,
+    playgroundEnabled: false,
     debug: true,
     schemaDestination: "./src/schema.graphql",
     sortSchema: true,
@@ -24,15 +24,6 @@ const config: Config = {
     expiresIn: "2m",
     refreshIn: "7d",
     bcryptSaltOrRound: 10,
-  },
-  google: {
-    clientID: process.env.GOOGLE_CLIENT_ID,
-    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    scopes: [],
-    callbackURL: process.env.GOOGLE_CALLBACK,
-  },
-  jwt: {
-    secret: "asdkljalsfjaslkflkasfnaksnfklasndl",
   },
 };
 

@@ -1,16 +1,16 @@
 import { Args, Query, Resolver } from "@nestjs/graphql";
 import { PrismaService } from "nestjs-prisma";
+import { Map } from "./models/map.model";
 import { Region } from "./models/region.model";
-import { RegionOrder } from "./dto/region-order.input";
-import { SubRegion } from "./models/sub-region.model";
+import { MapOrder } from "./dto/map-order.input";
 
-@Resolver(() => Region)
-export class RegionsResolver {
+@Resolver(() => Map)
+export class MapsResolver {
   constructor(private prisma: PrismaService) {}
 
-  @Query(() => [SubRegion])
+  @Query(() => [Region])
   async getSubRegionsByRegion(@Args("slug") slug: string) {
-    const subRegions: SubRegion[] = await this.prisma
+    const subRegions: Region[] = await this.prisma
       .$queryRaw`SELECT ST_AsGeoJSON(coordinates) as coordinates, title, "regionSlug" FROM "SubRegion" WHERE "regionSlug"::text = ${slug}`;
 
     const result = [];
@@ -21,25 +21,25 @@ export class RegionsResolver {
     return result;
   }
 
-  @Query(() => Region)
+  @Query(() => Map)
   async regionDetails(@Args("slug") slug: string) {
-    return this.prisma.region.findUnique({
+    return this.prisma.map.findUnique({
       where: { slug: slug },
-      include: { subRegions: true },
+      include: { regions: true },
     });
   }
 
-  @Query(() => [Region])
+  @Query(() => [Map])
   async findRegionsByGame(
     @Args("slug") slug: string,
     @Args({
       name: "orderBy",
-      type: () => RegionOrder,
+      type: () => MapOrder,
       nullable: true,
     })
-    orderBy: RegionOrder
+    orderBy: MapOrder
   ) {
-    return this.prisma.region.findMany({
+    return this.prisma.map.findMany({
       where: {
         gameSlug: slug,
       },

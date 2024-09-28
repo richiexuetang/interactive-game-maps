@@ -1,6 +1,6 @@
 import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "../../common/models/base.model";
-import { MarkerLocation } from "./marker-location.model";
+import { Location } from "./location.model";
 
 @ObjectType()
 export class Media extends BaseModel {
@@ -10,9 +10,9 @@ export class Media extends BaseModel {
   @Field(() => String)
   type: string;
 
-  @Field(() => MarkerLocation, { nullable: true })
-  markerLocation?: MarkerLocation | null;
+  @Field(() => Location, { nullable: true })
+  location?: Location | null;
 
   @Field(() => Number, { nullable: true })
-  markerLocationId?: number | null;
+  locationId?: number | null;
 }

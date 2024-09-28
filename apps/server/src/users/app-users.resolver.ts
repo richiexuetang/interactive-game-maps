@@ -37,14 +37,16 @@ export class AppUsersResolver {
 
   @Mutation(() => AppUser)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
-    const { email, ...noteData } = data;
+    const { email, mapSlug, ...noteData } = data;
 
     await this.prisma.noteMarker.create({
       data: {
         ...noteData,
+        map: { connect: { slug: mapSlug } },
         user: { connect: { email } },
       },
     });
+
     return await this.usersService.findUserByEmail(data.email);
   }
 

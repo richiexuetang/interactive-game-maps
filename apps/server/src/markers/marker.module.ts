@@ -1,9 +1,9 @@
 import { Module } from "@nestjs/common";
-import { MarkerLocationsResolver } from "./marker-location.resolver";
-import { MarkerGroupsResolver } from "./marker-group.resolver";
+import { LocationsResolver } from "./marker-location.resolver";
+import { GroupsResolver } from "./marker-group.resolver";
 
 @Module({
   imports: [],
-  providers: [MarkerLocationsResolver, MarkerGroupsResolver],
+  providers: [LocationsResolver, GroupsResolver],
 })
 export class MarkersModule {}

@@ -7,9 +7,6 @@ Table AppUser {
   createdAt DateTime [default: `now()`, not null]
   updatedAt DateTime [not null]
   email String [unique, not null]
-  firstName String
-  lastName String
-  photoUrl String
   foundLocations Int[] [not null]
   username String
   hideFound Boolean [not null, default: false]
@@ -22,101 +19,106 @@ Table NoteMarker {
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
-  userId String [not null]
-  regionSlug String [not null, default: 'world']
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  userEmail String [not null]
   user AppUser [not null]
+  mapSlug String [not null]
+  map Map [not null]
 }
 
 Table Game {
   id Int [pk, increment]
   slug String [unique, not null]
   title String [not null]
-  description String [not null]
   minZoom Int [not null]
   maxZoom Int [not null]
   zoom Int [not null]
   center Decimal[] [not null]
-  groups MarkerGroup [not null]
+  groups Group [not null]
+  maps Map [not null]
+}
+
+Table Map {
+  id Int [pk, increment]
+  slug String [unique, not null]
+  title String [not null]
+  thumbnailUrl String
+  tilePath String [not null]
+  gameSlug String [not null]
+  order Int [not null, default: 1]
+  locations Location [not null]
+  game Game [not null]
   regions Region [not null]
+  NoteMarker NoteMarker [not null]
 }
 
 Table Region {
   id Int [pk, increment]
-  slug String [unique, not null]
   title String [not null]
-  thumbnailUrl String [not null]
-  tilePath String [not null]
-  gameSlug String [not null]
-  order Int [not null, default: 1]
-  locations MarkerLocation [not null]
-  game Game [not null]
-  subRegions SubRegion [not null]
+  locations Location [not null]
+  mapSlug String [not null]
+  map Map [not null]
 }
 
-Table SubRegion {
-  id Int [pk, increment]
-  regionSlug String [not null]
-  title String [not null]
-  slug String [unique, not null]
-  locations MarkerLocation [not null]
-  region Region [not null]
-}
-
-Table MarkerGroup {
+Table Group {
   id Int [pk, increment]
   title String [not null]
+  categories Category [not null]
   gameSlug String [not null]
-  categories MarkerCategory [not null]
   game Game [not null]
 }
 
-Table MarkerCategory {
+Table Category {
   id Int [pk, increment]
   title String [not null]
   icon String [not null]
   info String
   groupId Int
-  markerGroup MarkerGroup
-  locations MarkerLocation [not null]
+  group Group
+  locations Location [not null]
+  isChecklist Boolean [not null, default: false]
 }
 
-Table MarkerLocation {
+Table Location {
   id Int [pk, increment]
   title String [not null]
   description String
   latitude Decimal [not null]
   longitude Decimal [not null]
   categoryId Int
-  regionSlug String [not null]
-  subRegionSlug String
-  category MarkerCategory
-  region Region [not null]
-  subRegion SubRegion
+  category Category
+  map Map [not null]
+  mapSlug String [not null]
   media Media [not null]
+  region Region
+  regionId Int
 }
 
 Table Media {
   id Int [pk, increment]
   url String [not null]
   type String [not null]
-  markerLocationId Int
-  MarkerLocation MarkerLocation
+  locationId Int
+  location Location
 }
 
-Ref: NoteMarker.userId > AppUser.id
+Ref: NoteMarker.userEmail > AppUser.email
 
-Ref: Region.gameSlug > Game.slug
+Ref: NoteMarker.mapSlug > Map.slug
 
-Ref: SubRegion.regionSlug > Region.slug
+Ref: Map.gameSlug > Game.slug
 
-Ref: MarkerGroup.gameSlug > Game.slug
+Ref: Region.mapSlug > Map.slug
 
-Ref: MarkerCategory.groupId > MarkerGroup.id
+Ref: Group.gameSlug > Game.slug
 
-Ref: MarkerLocation.categoryId > MarkerCategory.id
+Ref: Category.groupId > Group.id
 
-Ref: MarkerLocation.regionSlug > Region.slug
+Ref: Location.categoryId > Category.id
 
-Ref: MarkerLocation.subRegionSlug > SubRegion.slug
+Ref: Location.mapSlug > Map.slug
 
-Ref: Media.markerLocationId > MarkerLocation.id
+Ref: Location.regionId > Region.id
+
+Ref: Media.locationId > Location.id

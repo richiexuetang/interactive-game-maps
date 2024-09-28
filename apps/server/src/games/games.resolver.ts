@@ -9,7 +9,7 @@ export class GamesResolver {
   @Query(() => [Game])
   async games() {
     return this.prisma.game.findMany({
-      include: { regions: true, groups: true },
+      include: { maps: true, groups: true },
     });
   }
 
@@ -21,34 +21,34 @@ export class GamesResolver {
   }
 
   @Query(() => Game)
-  async fetchGameByRegion(@Args("slug") slug: string) {
-    const region = await this.prisma.region.findUnique({
+  async fetchGameByMap(@Args("slug") slug: string) {
+    const map = await this.prisma.map.findUnique({
       where: { slug },
       include: { game: true, locations: true },
     });
 
     const locationsWithCategory = [];
-    for (let i = 0; i < region.locations.length; i++) {
-      const location = region.locations[i];
-      const locationWithCategory = await this.prisma.markerLocation.findUnique({
+    for (let i = 0; i < map.locations.length; i++) {
+      const location = map.locations[i];
+      const locationWithCategory = await this.prisma.location.findUnique({
         where: { id: location.id },
         include: { category: true },
       });
       locationsWithCategory.push(locationWithCategory);
     }
 
-    region.locations = [...locationsWithCategory];
-    const regionGame = region.game;
+    map.locations = [...locationsWithCategory];
+    const regionGame = map.game;
     const game = await this.prisma.game.findUnique({
       where: { slug: regionGame.slug },
-      include: { groups: true, regions: true },
+      include: { groups: true, maps: true },
     });
-    const newRegions = game.regions.filter((region) => region.slug !== slug);
-    game.regions = [...newRegions, region];
+    const newRegions = game.maps.filter((region) => region.slug !== slug);
+    game.maps = [...newRegions, map];
     const groupsWithCategory = [];
     for (let i = 0; i < game.groups?.length; i++) {
       const groupId = game.groups[i].id;
-      const group = await this.prisma.markerGroup.findUnique({
+      const group = await this.prisma.group.findUnique({
         where: { id: groupId },
         include: { categories: true },
       });

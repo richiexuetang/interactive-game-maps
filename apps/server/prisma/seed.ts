@@ -24,45 +24,43 @@ async function refreshDatabase() {
 }
 
 async function seedGame(game) {
-  const { regions, groups, ...gameData } = game;
+  const { maps, groups, ...gameData } = game;
   await prisma.game.create({
     data: { ...gameData },
   });
 
   const gameSlug = game.slug;
-  for (let i = 0; i < regions.length; i++) {
-    const region = regions[i];
-    const { subRegions, ...regionData } = region;
+  for (let i = 0; i < maps.length; i++) {
+    const map = maps[i];
+    const { regions, ...mapData } = map;
 
-    await prisma.region.create({
+    await prisma.map.create({
       data: {
-        ...regionData,
-        thumbnailUrl: `images/games/${gameSlug}/${regionData.slug}.png`,
-        tilePath: `${gameSlug}/${regionData.slug}`,
+        ...mapData,
+        thumbnailUrl: `images/games/${gameSlug}/${mapData.slug}.png`,
+        tilePath: `${gameSlug}/${mapData.slug}`,
         gameSlug,
         order: i + 1,
       },
     });
 
-    if (subRegions) {
-      for (let j = 0; j < subRegions.length; j++) {
-        const subRegion = subRegions[j];
-        const coordinatesString = subRegion.coordinates
+    if (regions) {
+      for (let j = 0; j < regions.length; j++) {
+        const region = regions[j];
+        const coordinatesString = region.coordinates
           .map((coord: any) => coord.join(" "))
           .join(", ");
         const coord = `POLYGON((${coordinatesString}))`;
         await prisma.$queryRaw`
-                INSERT INTO "SubRegion" (coordinates, title, "regionSlug", slug)
-                VALUES (ST_GeomFromText(${coord},4326), ${subRegion.title}, ${
-          regionData.slug
-        }, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
+                INSERT INTO "Region" (coordinates, title, "mapSlug")
+                VALUES (ST_GeomFromText(${coord},4326), ${region.title}, ${mapData.slug})`;
       }
     }
   }
 
   for (let i = 0; i < groups.length; i++) {
     const { title, categories } = groups[i];
-    const newGroup = await prisma.markerGroup.create({
+    const newGroup = await prisma.group.create({
       data: { title, gameSlug },
     });
 
@@ -79,13 +77,13 @@ async function seedGame(game) {
         info = categories[j].info;
       }
 
-      const newCategory = await prisma.markerCategory.create({
+      const newCategory = await prisma.category.create({
         data: { title, icon, groupId: newGroup.id, info },
       });
 
       for (let k = 0; k < locations.length; k++) {
         const { media, ...rest } = locations[k];
-        const newLocation = await prisma.markerLocation.create({
+        const newLocation = await prisma.location.create({
           data: {
             ...rest,
             media: {},
@@ -102,10 +100,10 @@ async function seedGame(game) {
   }
 }
 
-async function seedMedia(media, markerLocationId) {
+async function seedMedia(media, locationId) {
   for (let i = 0; i < media.length; i++) {
     await prisma.media.create({
-      data: { ...media[i], markerLocationId },
+      data: { ...media[i], locationId },
     });
   }
 }

@@ -18,9 +18,6 @@ model AppUser {
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
   email          String       @unique
-  firstName      String?
-  lastName       String?
-  photoUrl       String?
   foundLocations Int[]
   username       String?
   hideFound      Boolean      @default(false)
@@ -28,101 +25,94 @@ model AppUser {
 }
 
 model NoteMarker {
-  id          Int     @id @default(autoincrement())
+  id          Int      @id @default(autoincrement())
   title       String
   description String?
   latitude    Decimal
   longitude   Decimal
-  userId      String
-  regionSlug  String  @default("world")
-  user        AppUser @relation(fields: [userId], references: [id])
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  userEmail   String
+  user        AppUser  @relation(fields: [userEmail], references: [email])
+  mapSlug     String
+  map         Map      @relation(fields: [mapSlug], references: [slug])
 }
 
 model Game {
-  id          Int           @id @default(autoincrement())
-  slug        String        @unique
-  title       String
-  description String
-  minZoom     Int
-  maxZoom     Int
-  zoom        Int
-  center      Decimal[]
-  groups      MarkerGroup[]
-  regions     Region[]
+  id      Int       @id @default(autoincrement())
+  slug    String    @unique
+  title   String
+  minZoom Int
+  maxZoom Int
+  zoom    Int
+  center  Decimal[]
+  groups  Group[]
+  maps    Map[]
+}
+
+model Map {
+  id           Int          @id @default(autoincrement())
+  slug         String       @unique
+  title        String
+  thumbnailUrl String?
+  tilePath     String
+  gameSlug     String
+  order        Int          @default(1)
+  locations    Location[]
+  game         Game         @relation(fields: [gameSlug], references: [slug])
+  regions      Region[]
+  NoteMarker   NoteMarker[]
 }
 
 model Region {
-  id           Int              @id @default(autoincrement())
-  slug         String           @unique
-  title        String
-  thumbnailUrl String
-  tilePath     String
-  gameSlug     String
-  order        Int              @default(1)
-  locations    MarkerLocation[]
-  game         Game             @relation(fields: [gameSlug], references: [slug])
-  subRegions   SubRegion[]
-}
-
-model SubRegion {
   id          Int                     @id @default(autoincrement())
-  regionSlug  String
   coordinates Unsupported("geometry")
   title       String
-  slug        String                  @unique
-  locations   MarkerLocation[]
-  region      Region                  @relation(fields: [regionSlug], references: [slug])
+  locations   Location[]
+  mapSlug     String
+  map         Map                     @relation(fields: [mapSlug], references: [slug])
 
   @@index([coordinates], type: Gist)
 }
 
-model MarkerGroup {
-  id         Int              @id @default(autoincrement())
+model Group {
+  id         Int        @id @default(autoincrement())
   title      String
+  categories Category[]
   gameSlug   String
-  categories MarkerCategory[]
-  game       Game             @relation(fields: [gameSlug], references: [slug])
+  game       Game       @relation(fields: [gameSlug], references: [slug])
 }
 
-model MarkerCategory {
-  id          Int              @id @default(autoincrement())
+model Category {
+  id          Int        @id @default(autoincrement())
   title       String
   icon        String
   info        String?
   groupId     Int?
-  markerGroup MarkerGroup?     @relation(fields: [groupId], references: [id])
-  locations   MarkerLocation[]
-  isChecklist Boolean          @default(false)
+  group       Group?     @relation(fields: [groupId], references: [id])
+  locations   Location[]
+  isChecklist Boolean    @default(false)
 }
 
-model MarkerLocation {
-  id            Int             @id @default(autoincrement())
-  title         String
-  description   String?
-  latitude      Decimal
-  longitude     Decimal
-  categoryId    Int?
-  regionSlug    String
-  subRegionSlug String?
-  category      MarkerCategory? @relation(fields: [categoryId], references: [id])
-  region        Region          @relation(fields: [regionSlug], references: [slug])
-  subRegion     SubRegion?      @relation(fields: [subRegionSlug], references: [slug])
-  media         Media[]
+model Location {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String?
+  latitude    Decimal
+  longitude   Decimal
+  categoryId  Int?
+  category    Category? @relation(fields: [categoryId], references: [id])
+  map         Map       @relation(fields: [mapSlug], references: [slug])
+  mapSlug     String
+  media       Media[]
+  region      Region?   @relation(fields: [regionId], references: [id])
+  regionId    Int?
 }
 
 model Media {
-  id               Int             @id @default(autoincrement())
-  url              String
-  type             String
-  markerLocationId Int?
-  MarkerLocation   MarkerLocation? @relation(fields: [markerLocationId], references: [id])
+  id         Int       @id @default(autoincrement())
+  url        String
+  type       String
+  locationId Int?
+  location   Location? @relation(fields: [locationId], references: [id])
 }
-
-/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
-// model spatial_ref_sys {
-//   srid      Int     @id
-//   auth_name String? @db.VarChar(256)
-//   auth_srid Int?
-//   srtext    String? @db.VarChar(2048)
-//   proj4text String? @db.VarChar(2048)
-// }

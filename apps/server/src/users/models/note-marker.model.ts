@@ -1,6 +1,7 @@
 import "reflect-metadata";
 import { ObjectType, Field } from "@nestjs/graphql";
 import { BaseModel } from "../../common/models/base.model";
+import { Map } from "src/regions/models/map.model";
 
 @ObjectType()
 export class NoteMarker extends BaseModel {
@@ -11,7 +12,10 @@ export class NoteMarker extends BaseModel {
   description: string;
 
   @Field(() => String)
-  regionSlug: string;
+  mapSlug: string;
+
+  @Field(() => Map)
+  map: Map;
 
   @Field(() => Number)
   latitude: number;

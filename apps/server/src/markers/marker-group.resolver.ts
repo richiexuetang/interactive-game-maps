@@ -1,14 +1,14 @@
 import { Args, Query, Resolver } from "@nestjs/graphql";
 import { PrismaService } from "nestjs-prisma";
-import { MarkerGroup } from "./models/marker-group.model";
+import { Group } from "./models/group.model";
 
-@Resolver(() => MarkerGroup)
-export class MarkerGroupsResolver {
+@Resolver(() => Group)
+export class GroupsResolver {
   constructor(private prisma: PrismaService) {}
 
-  @Query(() => [MarkerGroup])
+  @Query(() => [Group])
   async getGroupsByGameSlug(@Args("slug") slug: string) {
-    return this.prisma.markerGroup.findMany({
+    return this.prisma.group.findMany({
       where: { gameSlug: slug },
       include: { categories: true },
     });

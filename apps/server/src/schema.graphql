@@ -49,13 +49,30 @@ type Game {
   id: Float!
   maxZoom: Float!
   minZoom: Float!
-  regions: [Region!]
+  regions: [Map!]
   slug: String!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
   zoom: Float!
+}
+
+type Map {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  gameSlug: String!
+  id: Float!
+  locations: [MarkerLocation!]
+  order: Float!
+  regions: [SubRegion!]
+  slug: String!
+  thumbnailUrl: String
+  tilePath: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 type MarkerCategory {
@@ -96,7 +113,7 @@ type MarkerLocation {
   latitude: Float!
   longitude: Float!
   media: [Media!]
-  region: Region
+  region: Map
   regionSlug: String!
   subRegionSlug: String
   title: String!
@@ -151,31 +168,14 @@ enum OrderDirection {
 
 type Query {
   fetchGameByRegion(slug: String!): Game!
-  findRegionsByGame(orderBy: RegionOrder, slug: String!): [Region!]!
+  findRegionsByGame(orderBy: RegionOrder, slug: String!): [Map!]!
   game(slug: String!): Game!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
   getSubRegionsByRegion(slug: String!): [SubRegion!]!
   getUser(email: String!): AppUser!
   locations(regionSlug: String): [MarkerLocation!]!
-  regionDetails(slug: String!): Region!
-}
-
-type Region {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  gameSlug: String!
-  id: Float!
-  locations: [MarkerLocation!]
-  order: Float!
-  slug: String!
-  subRegions: [SubRegion!]
-  thumbnailUrl: String!
-  tilePath: String!
-  title: String!
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
+  regionDetails(slug: String!): Map!
 }
 
 input RegionOrder {

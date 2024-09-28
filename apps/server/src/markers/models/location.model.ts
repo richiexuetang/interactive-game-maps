@@ -1,11 +1,11 @@
 import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "../../common/models/base.model";
-import { Region } from "src/regions/models/region.model";
-import { MarkerCategory } from "./marker-category.model";
+import { Category } from "./category.model";
 import { Media } from "./media.model";
+import { Map } from "../../regions/models/map.model";
 
 @ObjectType()
-export class MarkerLocation extends BaseModel {
+export class Location extends BaseModel {
   @Field()
   title: string;
 
@@ -19,19 +19,19 @@ export class MarkerLocation extends BaseModel {
   longitude: number;
 
   @Field(() => String, { nullable: true })
-  subRegionSlug?: string | null;
+  regionSlug?: string | null;
 
-  @Field(() => MarkerCategory, { nullable: true })
-  category?: MarkerCategory | null;
+  @Field(() => Category)
+  category: Category;
 
   @Field(() => Number, { nullable: true })
   categoryId?: number | null;
 
-  @Field(() => Region, { nullable: true })
-  region?: Region | null;
+  @Field(() => Map)
+  map: Map;
 
   @Field(() => String)
-  regionSlug: string;
+  mapSlug: string;
 
   @Field(() => [Media], { nullable: true })
   media?: Media[] | null;

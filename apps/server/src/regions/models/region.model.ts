@@ -1,31 +1,21 @@
-import { Field, ObjectType } from "@nestjs/graphql";
+import { Field, Float, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "src/common/models/base.model";
-import { SubRegion } from "./sub-region.model";
-import { MarkerLocation } from "src/markers/models/marker-location.model";
+import { Location } from "src/markers/models/location.model";
 
 @ObjectType()
 export class Region extends BaseModel {
-  @Field()
-  slug: string;
+  @Field(() => [[[Float]]], { nullable: true })
+  coordinates?: number[] | null;
 
   @Field()
   title: string;
 
   @Field()
-  thumbnailUrl: string;
+  mapSlug: string;
 
   @Field()
-  tilePath: string;
+  slug: string;
 
-  @Field()
-  gameSlug: string;
-
-  @Field(() => Number)
-  order: number;
-
-  @Field(() => [SubRegion], { nullable: true })
-  subRegions?: SubRegion[] | null;
-
-  @Field(() => [MarkerLocation], { nullable: true })
-  locations?: MarkerLocation[] | null;
+  @Field(() => [Location])
+  locations?: Location[] | null;
 }

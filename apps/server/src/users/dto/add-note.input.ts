@@ -12,7 +12,7 @@ export class AddNoteInput {
   description: string;
 
   @Field()
-  regionSlug: string;
+  mapSlug: string;
 
   @Field()
   latitude: number;
