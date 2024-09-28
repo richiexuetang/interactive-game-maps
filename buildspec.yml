@@ -8,6 +8,8 @@ phases:
   pre_build:
     commands:
       - echo log in to Amazon ECR...
+      - echo $AWS_DEFAULT_REGION
+      - echo $ECR_LOGIN_USER
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username $ECR_LOGIN_USER --password-stdin $ECR_LOGIN_PASS
       - REPOSITORY_URI=$REPO_URL
       - IMAGE_TAG=${COMMIT_HASH:=latest}
@@ -30,5 +32,5 @@ artifacts:
 cache:
   paths:
     - "/root/.docker/cli-plugins"
-    - "/root/.npm/**/*"
+    - "/root/.pnpm/**/*"
     - "dist/**/*"
