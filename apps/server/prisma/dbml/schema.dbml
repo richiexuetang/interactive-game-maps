@@ -103,16 +103,6 @@ Table Media {
   MarkerLocation MarkerLocation
 }
 
-Table spatial_ref_sys {
-  srid Int [pk]
-  auth_name String
-  auth_srid Int
-  srtext String
-  proj4text String
-
-  Note: 'This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.'
-}
-
 Ref: NoteMarker.userId > AppUser.id
 
 Ref: Region.gameSlug > Game.slug
