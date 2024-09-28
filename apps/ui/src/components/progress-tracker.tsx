@@ -33,6 +33,8 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import { getBodyFont, getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
+import { signOut } from "@/lib/firebase/auth";
+import { useRouter } from "next/navigation";
 
 const SideFab = styled(Fab)(() => ({
   backgroundColor: "var(--sidebar-background-color)",
@@ -46,7 +48,7 @@ export const ProgressTracker = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const gameSlug = useAtomValue(gameSlugAtom);
-
+  const router = useRouter();
   const currentGroups = useAtomValue(currentGroupsAtom);
   const currentMarkers = useAtomValue(currentMarkersAtom);
   const setTriggerMarkerId = useSetAtom(triggeredMarkerIdAtom);
@@ -126,6 +128,17 @@ export const ProgressTracker = () => {
     }
   };
 
+  const handleSignOut = async () => {
+    const isOk = await signOut();
+
+    if (isOk) {
+      setAppUser(null);
+      router.back();
+    } else {
+      router.push("/");
+    }
+  };
+
   return (
     <div className={cn("absolute top-36 right-2 z-[1000] flex flex-col gap-5")}>
       <Tooltip title="Progress Tracker" placement="left">
@@ -171,6 +184,7 @@ export const ProgressTracker = () => {
             >
               {appUser?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
+            <Button onClick={handleSignOut}>Log out</Button>
             {currentGroups?.map((group) =>
               group.categories?.map(({ id, icon }) => {
                 if (totalForCategory(id) !== 0) {
