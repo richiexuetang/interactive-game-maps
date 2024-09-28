@@ -40,7 +40,6 @@
     "react-leaflet": "^4.2.1",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.2",
     "uuid": "^10.0.0"
   },

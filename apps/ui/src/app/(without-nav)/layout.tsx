@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { Toaster } from "sonner";
 import { RootLayout } from "@/components/layout";
 
 export default function Layout({
@@ -9,10 +8,7 @@ export default function Layout({
 }>) {
   return (
     <RootLayout>
-      <>
-        {children}
-        <Toaster position="top-left" />
-      </>
+      <>{children}</>
     </RootLayout>
   );
 }
