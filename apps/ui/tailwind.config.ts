@@ -1,17 +1,9 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
       colors: {
         bodyBackground: "var(--body-background)",
         mapBackground: "var(--map-background)",
@@ -19,14 +11,7 @@ const config: Config = {
         background: "var(--app-background)",
         foreground: "hsl(var(--foreground))",
         sidebarBackground: "var(--sidebar-background-color)",
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
+        titleFont: "var(--title-font-color)",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -44,9 +29,6 @@ const config: Config = {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
-        border: "var(--border-color)",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
       },
       fontFamily: {
         body: "var(--body-font-family)",

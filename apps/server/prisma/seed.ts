@@ -57,10 +57,8 @@ async function seedGame(game) {
           regionData.slug
         }, ${subRegion.title.toLowerCase().replaceAll(" ", "-")})`;
       }
-      console.log("Seeded sub-regions for region", regionData.slug);
     }
   }
-  console.log("Seeded regions for game", gameSlug);
 
   for (let i = 0; i < groups.length; i++) {
     const { title, categories } = groups[i];
@@ -94,16 +92,14 @@ async function seedGame(game) {
             categoryId: newCategory.id,
           },
         });
+        console.log("seeded location", newLocation.id, newLocation.categoryId);
 
         if (newLocation?.id && media?.length) {
           await seedMedia(media, newLocation.id);
         }
       }
-      console.log("Seeded locations for category", title);
     }
-    console.log("Seeded categories for group", title);
   }
-  console.log("Seeded groups for game", gameSlug);
 }
 
 async function seedMedia(media, markerLocationId) {
@@ -112,7 +108,6 @@ async function seedMedia(media, markerLocationId) {
       data: { ...media[i], markerLocationId },
     });
   }
-  console.log("Seeded media for marker location", markerLocationId);
 }
 
 main()

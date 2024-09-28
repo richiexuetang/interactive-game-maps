@@ -207,7 +207,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                             )}
                           >
                             <div
-                              className="w-full flex items-center !cursor-pointer uppercase px-2 py-1"
+                              className="w-full flex items-center !cursor-pointer uppercase px-2 py-1 hover:opacity-80"
                               onClick={() => handleHiddenCategory(category.id)}
                             >
                               <span

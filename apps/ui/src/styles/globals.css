@@ -51,6 +51,20 @@
   src: url("/fonts/F37Hybrid-Bold.woff2") format("woff2"), url("/fonts/F37Hybrid-Bold.woff") format("woff")
 }
 
+@font-face {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/NotoSansRegular.woff2") format("woff2"), url("/fonts/NotoSansRegular.woff2") format("woff")
+}
+
+@font-face {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/NotoSansBold.woff2") format("woff2"), url("/fonts/NotoSansBold.woff2") format("woff")
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -496,10 +510,6 @@
   background-position: 0 0;
 }
 
-.zelda-tears-of-the-kingdom_building {
-  background-position: -264px 0;
-}
-
 .zelda-tears-of-the-kingdom_cave {
   background-position: -330px 0;
 }
@@ -557,11 +567,12 @@
 }
 
 .zelda-tears-of-the-kingdom_tech_lab {
-  background-position: -99px -313px;
+  background-position: -99px -308px;
 }
 
+.zelda-tears-of-the-kingdom_building,
 .zelda-tears-of-the-kingdom_temple {
-  background-position: -132px -313px;
+  background-position: -132px -308px;
 }
 
 .zelda-tears-of-the-kingdom_zonai_survey_team_base {
@@ -613,11 +624,11 @@
 }
 
 .zelda-tears-of-the-kingdom_stable {
-  background-position: -363 -264px;
+  background-position: -363px -264px;
 }
 
 .zelda-tears-of-the-kingdom_travelling_merchant {
-  background-position: -165 -313px
+  background-position: -165px -308px
 }
 
 .zelda-tears-of-the-kingdom_schema_stone {
@@ -657,7 +668,7 @@
 }
 
 .zelda-tears-of-the-kingdom_treasure {
-  background-position: -198px -313px
+  background-position: -198px -308px
 }
 
 .zelda-tears-of-the-kingdom_yiga_schematic {
@@ -689,11 +700,11 @@
 }
 
 .zelda-tears-of-the-kingdom_treasure_chest {
-  background-position: -231px -313px;
+  background-position: -231px -308px;
 }
 
 .zelda-tears-of-the-kingdom_weapon {
-  background-position: -330px -313px;
+  background-position: -330px -308px;
 }
 
 .zelda-tears-of-the-kingdom_zonai_charge {
@@ -732,19 +743,17 @@
   background-position: -231px 0;
 }
 
-.zelda-tears-of-the-kingdom_dragon {
-  background-position: -264px -44px;
-}
-
 .zelda-tears-of-the-kingdom_guardian {
   background-position: -330px -88px;
 }
 
-.zelda-tears-of-the-kingdom_frox {
-  background-position: -99px -88px;
-}
-
-.zelda-tears-of-the-kingdom_gleeok {
+.zelda-tears-of-the-kingdom_stalnox,
+.zelda-tears-of-the-kingdom_stronghold,
+.zelda-tears-of-the-kingdom_dragon,
+.zelda-tears-of-the-kingdom_octorok,
+.zelda-tears-of-the-kingdom_frox,
+.zelda-tears-of-the-kingdom_gleeok,
+.zelda-tears-of-the-kingdom_miniboss {
   background-position: -231px -88px;
 }
 
@@ -756,32 +765,16 @@
   background-position: -33px -176px;
 }
 
-.zelda-tears-of-the-kingdom_miniboss {
-  background-position: -264px -176px;
-}
-
 .zelda-tears-of-the-kingdom_molduga {
   background-position: -330px -176px;
-}
-
-.zelda-tears-of-the-kingdom_octorok {
-  background-position: -33px -220px;
 }
 
 .zelda-tears-of-the-kingdom_other_enemy {
   background-position: -99px -220px;
 }
 
-.zelda-tears-of-the-kingdom_stalnox {
-  background-position: 0 -313px
-}
-
-.zelda-tears-of-the-kingdom_stronghold {
-  background-position: -33px -313px
-}
-
 .zelda-tears-of-the-kingdom_talus {
-  background-position: -66px -313px
+  background-position: -66px -308px;
 }
 
 .zelda-tears-of-the-kingdom_wizzrobe {
@@ -845,11 +838,11 @@
 }
 
 .zelda-tears-of-the-kingdom_unique_horse {
-  background-position: -264px -313px
+  background-position: -264px -308px;
 }
 
 .zelda-tears-of-the-kingdom_well {
-  background-position: -363 -313px
+  background-position: -363px -308px;
 }
 
 .zelda-tears-of-the-kingdom_ore_deposit {
@@ -1117,10 +1110,6 @@
   background-position: -297px -220px;
 }
 
-.elden-ring_sacramental_bud {
-  background-position: -330px -220px;
-}
-
 .elden-ring_sacred_tear {
   background-position: 0 -264px;
 }
@@ -1129,24 +1118,12 @@
   background-position: -33px -264px;
 }
 
-.elden-ring_scadutree_fragment {
-  background-position: -66px -264px;
-}
-
 .elden-ring_shield {
   background-position: -99px -264px;
 }
 
 .elden-ring_site_of_grace {
-  background-position: -132px -264px;
-}
-
-.elden-ring_slumbering_egg {
-  background-position: -165px -264px;
-}
-
-.elden-ring_smithing_stone {
-  background-position: -198px -264px;
+  background-position: -99px -264px;
 }
 
 .elden-ring_somber_smithing_stone {
@@ -1344,89 +1321,96 @@
   background-position: -132px -132px;
 }
 
+.elden-ring {
+  --text-color: #e4e4e5;
+  --accent-color: #c3b590;
+  --title-font-color: var(--accent-color);
+  --border-color: var(--accent-color);
+  --sidebar-border-color: var(--border-color);
+  --sidebar-background-color: #232423;
+  --map-background: #14130f;
+  --text-font: 'Mantinia';
+  --body-font-family: "Noto Sans";
+  --body-background: var(--sidebar-background-color);
+}
+
+.witcher-3 {
+  --text-color: #e4e4e5;
+  --accent-color: #c3b590;
+  --title-font-color: var(--accent-color);
+  --border-color: var(--accent-color);
+  --sidebar-border-color: var(--border-color);
+  --sidebar-background-color: #232423;
+  --map-background: #14130f;
+  --text-font: 'Mason';
+  --body-background: var(--sidebar-background-color);
+}
+
+.zelda-tears-of-the-kingdom {
+  --text-color: #f8f6e0;
+  --accent-color: #cab586;
+  --title-font-color: var(--text-color);
+  --border-color: var(--accent-color);
+  --sidebar-border-color: var(--border-color);
+  --sidebar-background-color: #231d1b;
+  --map-background: #000;
+  --text-font: 'Hylia';
+  --body-font-family: "Open Sans", sans-serif, "sans-serif";
+  --title-font-family: "Hylia";
+  --category-font-size: 13px;
+  --title-font-size: 24px;
+  --title-font-weight: normal;
+  --title-font-letter-spacing: 1px;
+  --title-font-text-transform: none;
+  /* --sidebar-background: var(--sidebar-background-color) url(../../images/games/zelda-tears-of-the-kingdom/background.jpg); */
+  --sidebar-subtitle-size: 16px;
+  --map-link-color: color-mix(in srgb, var(--accent-color), #000 10%);
+  --map-link-color-hover: color-mix(in srgb, var(--map-link-color), transparent 75%);
+  --map-link-color-selected: color-mix(in srgb, var(--map-link-color), transparent 90%);
+  --popup-background: color-mix(in srgb, var(--sidebar-background-color), transparent 1%);
+  --popup-border-color: hsla(0, 0%, 78%, .4);
+  --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
+  --modal-border-color: var(--text-color);
+  --body-background: var(--sidebar-background-color);
+}
+
+.black-myth-wukong {
+  --text-color: #deddda;
+  --accent-color: #d3c0a3;
+  --title-font-color: var(--accent-color);
+  --border-color: #757259;
+  --sidebar-border-color: var(--border-color);
+  --sidebar-background-color: #090708;
+  --map-background: #2b2b2b;
+  --text-font: 'CrimsonPro';
+  --body-font-family: "CrimsonPro";
+  --body-background: var(--sidebar-background-color);
+}
+
+.hogwarts-legacy {
+  --text-color: #f8fbfc;
+  --accent-color: #a99862;
+  --title-font-color: var(--accent-color);
+  --border-color: var(--accent-color);
+  --sidebar-border-color: var(--border-color);
+  --sidebar-background-color: #0d181b;
+  --body-background: #0d181b;
+  --map-background: #2d3038;
+  --body-font-family: "Hybrid";
+  --text-font: "OptiCollumna-Solid";
+  --body-background: var(--sidebar-background-color);
+}
+
+.MuiAccordionSummary-content {
+  align-items: center;
+  color: var(--text-color)
+}
+
 @layer base {
   :root {
     --app-background: #11151C;
     --marker-tooltip-background: var(--sidebar-background-color);
   }
 
-  .elden-ring {
-    --text-color: #e4e4e5;
-    --accent-color: #c3b590;
-    --title-font-color: var(--accent-color);
-    --border-color: var(--accent-color);
-    --sidebar-border-color: var(--border-color);
-    --sidebar-background-color: #232423;
-    --map-background: #14130f;
-    --text-font: 'Mantinia';
-    --body-font-family: "Noto Sans";
-    --body-background: var(--sidebar-background-color);
-  }
 
-  .witcher-3 {
-    --text-color: #e4e4e5;
-    --accent-color: #c3b590;
-    --title-font-color: var(--accent-color);
-    --border-color: var(--accent-color);
-    --sidebar-border-color: var(--border-color);
-    --sidebar-background-color: #232423;
-    --map-background: #14130f;
-    --text-font: 'Mason';
-    --body-background: var(--sidebar-background-color);
-  }
-
-  .zelda-tears-of-the-kingdom {
-    --text-color: #f8f6e0;
-    --accent-color: #cab586;
-    --title-font-color: var(--text-color);
-    --border-color: var(--accent-color);
-    --sidebar-border-color: var(--border-color);
-    --sidebar-background-color: #231d1b;
-    --map-background: #000;
-    --text-font: 'Hylia';
-    --body-font-family: "Open Sans", sans-serif, "sans-serif";
-    --title-font-family: "Hylia";
-    --category-font-size: 13px;
-    --title-font-size: 24px;
-    --title-font-weight: normal;
-    --title-font-letter-spacing: 1px;
-    --title-font-text-transform: none;
-    /* --sidebar-background: var(--sidebar-background-color) url(../../images/games/zelda-tears-of-the-kingdom/background.jpg); */
-    --sidebar-subtitle-size: 16px;
-    --map-link-color: color-mix(in srgb, var(--accent-color), #000 10%);
-    --map-link-color-hover: color-mix(in srgb, var(--map-link-color), transparent 75%);
-    --map-link-color-selected: color-mix(in srgb, var(--map-link-color), transparent 90%);
-    --popup-background: color-mix(in srgb, var(--sidebar-background-color), transparent 1%);
-    --popup-border-color: hsla(0, 0%, 78%, .4);
-    --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
-    --modal-border-color: var(--text-color);
-    --body-background: var(--sidebar-background-color);
-  }
-
-  .black-myth-wukong {
-    --text-color: #deddda;
-    --accent-color: #d3c0a3;
-    --title-font-color: var(--accent-color);
-    --border-color: #757259;
-    --sidebar-border-color: var(--border-color);
-    --sidebar-background-color: #090708;
-    --map-background: #2b2b2b;
-    --text-font: 'CrimsonPro';
-    --body-font-family: "CrimsonPro";
-    --body-background: var(--sidebar-background-color);
-  }
-
-  .hogwarts-legacy {
-    --text-color: #f8fbfc;
-    --accent-color: #a99862;
-    --title-font-color: var(--accent-color);
-    --border-color: var(--accent-color);
-    --sidebar-border-color: var(--border-color);
-    --sidebar-background-color: #0d181b;
-    --body-background: #0d181b;
-    --map-background: #2d3038;
-    --body-font-family: "Hybrid";
-    --text-font: "OptiCollumna-Solid";
-    --body-background: var(--sidebar-background-color);
-  }
 }

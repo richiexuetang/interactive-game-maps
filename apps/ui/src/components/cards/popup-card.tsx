@@ -106,8 +106,9 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           >
             {markerTitle}
             <Tooltip title="Copy link">
-              <IconButton>
+              <IconButton sx={{ pl: 2 }}>
                 <LinkIcon
+                  sx={{ width: 15, height: 15 }}
                   onClick={() =>
                     copy(
                       `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${currentRegion?.slug}?marker=${marker.id}`

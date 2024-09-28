@@ -2,7 +2,7 @@ export const bmw = {
   slug: "black-myth-wukong",
   title: "Black Myth: Wukong",
   minZoom: 9,
-  maxZoom: 15,
+  maxZoom: 14,
   zoom: 10,
   center: [0.60225040104451, -0.8546284080309799],
   description:
@@ -1810,7 +1810,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Pungent Flesh Chunk",
               description:
-                "**Location:** Dropped from  [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=444)\n\n**Use:** Used to lure the [First Prince of Flowing Sands](http://localhost:3000/map/chapter-2?marker=397843) out of hiding",
+                "**Location:** Dropped from  [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=444)\n\n**Use:** Used to lure the [First Prince of Flowing Sands](http://localhost:3000/map/chapter-2?marker=451) out of hiding",
               latitude: "0.47594337402350",
               longitude: "-0.77587833160140",
             },
@@ -1818,7 +1818,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Loong Scales",
               description:
-                "**Location:** Inside the [Hidden Chamber](http://localhost:3000/map/chapter-2?marker=534) in a chest.  \n\n**Use:** Unlocks 2 hidden Arenas:\n- [Red Loong](http://localhost:3000/map/chapter-1?marker=398284) in Chapter 1, behind the Secret Waterfall\n- Black Loong ??",
+                "**Location:** Inside the [Hidden Chamber](http://localhost:3000/map/chapter-2?marker=534) in a chest.  \n\n**Use:** Unlocks 2 hidden Arenas:\n- [Red Loong](http://localhost:3000/map/chapter-1?marker=500) in Chapter 1, behind the Secret Waterfall\n- Black Loong ??",
               latitude: "0.49056903486494",
               longitude: "-0.84758894931417",
               media: [
@@ -1832,7 +1832,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Keeness of Tiger",
               description:
-                "**Location:** Reward for defeating the [Tiger Vanguard](http://localhost:3000/map/chapter-2?marker=397634)  \n\n**Use:** ??",
+                "**Location:** Reward for defeating the [Tiger Vanguard](http://localhost:3000/map/chapter-2?marker=501)  \n\n**Use:** ??",
               latitude: "0.56185068376089",
               longitude: "-0.98803851580689",
             },
@@ -1910,7 +1910,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Stone Essence",
               description:
-                "**Location:** Dropped by the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=397639)  \n\n**Use:** ??",
+                "**Location:** Dropped by the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=447)  \n\n**Use:** ??",
               latitude: "0.74084754865402",
               longitude: "-0.75381033209660",
             },
@@ -1918,7 +1918,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Buddha's Eyeball",
               description:
-                "**Location:** On a high up platform just outside the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=397639) arena.",
+                "**Location:** On a high up platform just outside the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=447) arena.",
               latitude: "0.77609446287731",
               longitude: "-0.75294117090502",
               media: [
@@ -1936,7 +1936,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Sterness of Stone",
               description:
-                "**Location:** Rewarded for defeating the [Stone Vanguard](http://localhost:3000/map/chapter-2?marker=397637)  \n\n**Use:** ??",
+                "**Location:** Rewarded for defeating the [Stone Vanguard](http://localhost:3000/map/chapter-2?marker=502)  \n\n**Use:** ??",
               latitude: "0.83563941397713",
               longitude: "-0.76575994491469",
             },
@@ -1944,7 +1944,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Old-Rattle Drum",
               description:
-                "**Location:** Reward for defeating [Tiger's Acolyte](http://localhost:3000/map/chapter-2?marker=397636)  \n\n**Use:** ??",
+                "**Location:** Reward for defeating [Tiger's Acolyte](http://localhost:3000/map/chapter-2?marker=445)  \n\n**Use:** ??",
               latitude: "0.71109972660530",
               longitude: "-0.88302612304611",
             },
@@ -1973,7 +1973,7 @@ export const bmw = {
               regionSlug: "chapter-1",
               title: "Luojia Fragrant Vine",
               description:
-                "**Location:** Found hanging on a tree near the [Marsh of White Mist Shrine](http://localhost:3000/map/chapter-1?marker=397474)",
+                "**Location:** Found hanging on a tree near the [Marsh of White Mist Shrine](http://localhost:3000/map/chapter-1?marker=7)",
               latitude: "0.71541745404579",
               longitude: "-0.54021447719754",
             },
@@ -1981,7 +1981,7 @@ export const bmw = {
               regionSlug: "chapter-2",
               title: "Luojia Fragrant Vine",
               description:
-                "**Location:** Found hanging on a tree near the [Gore-Eye Daoist](http://localhost:3000/map/chapter-2?marker=397638)",
+                "**Location:** Found hanging on a tree near the [Gore-Eye Daoist](http://localhost:3000/map/chapter-2?marker=446)",
               latitude: "0.61200221260796",
               longitude: "-0.80092259692509",
             },
@@ -2028,7 +2028,7 @@ export const bmw = {
               regionSlug: "chapter-1",
               title: "Celestial Lotus Seeds",
               description:
-                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=397479) for 2,400 Will",
+                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) for 2,400 Will",
               latitude: 0.72056182148221,
               longitude: -0.59427559375806,
             },
@@ -2036,7 +2036,7 @@ export const bmw = {
               regionSlug: "chapter-1",
               title: "Thunderbolt Horn",
               description:
-                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=397479) upon reaching Chapter 3",
+                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) upon reaching Chapter 3",
               latitude: 0.72107676486739,
               longitude: -0.59005916119926,
             },

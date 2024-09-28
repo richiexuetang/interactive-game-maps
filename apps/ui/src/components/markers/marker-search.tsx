@@ -127,7 +127,7 @@ export const MarkerSearch = () => {
                   <Avatar>
                     <span
                       className={cn(
-                        `${gameSlug}-icon ${gameSlug}-icon-${marker.category?.icon}`
+                        `${gameSlug}-icon-${marker.category?.icon}`
                       )}
                     />
                   </Avatar>

@@ -129,7 +129,6 @@ const Map = ({ user, regionData }: MapProps) => {
         subRegions={subRegionData?.getSubRegionsByRegion}
       />
       <RL.MapContainer
-        preferCanvas={true}
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}

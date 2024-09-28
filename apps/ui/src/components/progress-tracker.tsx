@@ -2,9 +2,12 @@ import { CheckListIcon } from "./icons/check-list-icon";
 import Fab from "@mui/material/Fab";
 import React from "react";
 import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { currentGroupsAtom, currentMarkersAtom } from "@/store/map";
+import {
+  currentGroupsAtom,
+  currentMarkersAtom,
+  gameSlugAtom,
+} from "@/store/map";
 import {
   Accordion,
   AccordionDetails,
@@ -28,6 +31,8 @@ import {
 } from "@/lib/graphql/constants";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
+import { getBodyFont, getFontClassName } from "@/lib/font";
+import { cn } from "@/lib/utils";
 
 const SideFab = styled(Fab)(() => ({
   backgroundColor: "var(--sidebar-background-color)",
@@ -40,6 +45,7 @@ const SideFab = styled(Fab)(() => ({
 export const ProgressTracker = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
+  const gameSlug = useAtomValue(gameSlugAtom);
 
   const currentGroups = useAtomValue(currentGroupsAtom);
   const currentMarkers = useAtomValue(currentMarkersAtom);
@@ -121,7 +127,7 @@ export const ProgressTracker = () => {
   };
 
   return (
-    <div className="absolute top-36 right-2 z-[1000] flex flex-col gap-5">
+    <div className={cn("absolute top-36 right-2 z-[1000] flex flex-col gap-5")}>
       <Tooltip title="Progress Tracker" placement="left">
         <SideFab
           onClick={handleClick}
@@ -143,14 +149,21 @@ export const ProgressTracker = () => {
           "aria-labelledby": "basic-button",
         }}
       >
-        <Typography sx={{ p: 2, color: "var(--text-color)" }}>
+        <h1
+          className={cn(
+            gameSlug,
+            "text-titleFont text-center p-2 uppercase tracking-widest",
+            getFontClassName(gameSlug)
+          )}
+        >
           Progress Tracker
-        </Typography>
+        </h1>
         <Divider sx={{ mb: 2 }} />
         {appUser ? (
           <div className="flex flex-col mb-3">
             <Button
               variant="text"
+              sx={{ p: 2, color: "var(--accent-color)" }}
               startIcon={
                 appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
               }
@@ -159,15 +172,20 @@ export const ProgressTracker = () => {
               {appUser?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
             {currentGroups?.map((group) =>
-              group.categories?.map(({ id }) => {
+              group.categories?.map(({ id, icon }) => {
                 if (totalForCategory(id) !== 0) {
                   return (
                     <Accordion key={id}>
                       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                        <span className="text-text text-sm p-2">
+                        <span
+                          className={`${gameSlug}-icon-${icon} ${getBodyFont(
+                            gameSlug
+                          )}`}
+                        />
+                        <span className="text-text text-xs p-2">
                           {getCategoryInfoById(id)?.title}
                         </span>
-                        <span className="text-text text-sm p-2">
+                        <span className="text-text text-xs p-2">
                           {totalFoundForCategory(id) + " / "}
                           {totalForCategory(id)}
                         </span>
@@ -188,11 +206,12 @@ export const ProgressTracker = () => {
                                   checked={appUser?.foundLocations?.includes(
                                     markerId
                                   )}
+                                  size="small"
                                   onChange={() => handleMarkerFound(markerId)}
                                 />
-                                <div className="flex items-center gap-2">
-                                  <p>{title}</p>
-                                </div>
+                                <span className="flex items-center gap-2 text-xs">
+                                  {title}
+                                </span>
                                 <IconButton>
                                   <NavigationIcon
                                     sx={{
