@@ -92,6 +92,7 @@ model MarkerCategory {
   groupId     Int?
   markerGroup MarkerGroup?     @relation(fields: [groupId], references: [id])
   locations   MarkerLocation[]
+  isChecklist Boolean          @default(false)
 }
 
 model MarkerLocation {
