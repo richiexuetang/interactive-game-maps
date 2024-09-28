@@ -305,7 +305,7 @@ export const bmw = {
       ],
     },
     {
-      slug: "06_huaguoshan",
+      slug: "chapter-6",
       title: "Chapter 6: Unfinished",
       subRegions: [],
     },
@@ -321,7 +321,6 @@ export const bmw = {
           locations: [
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "forest-of-wolves",
               title: "Front Hills",
               description:
                 "**Location:** Kill the Wolf Scout and the Wolf Stalwart and the golden trail will lead you here.",
@@ -336,7 +335,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "forest-of-wolves",
               title: "Outside the Forest",
               description: "**Location:** Just outside the small cave",
               latitude: 0.88310749622674,
@@ -350,7 +348,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "forest-of-wolves",
               description:
                 "**Location** Use the Loong Scale (from Chapter 2) on the large waterfall on left side of 'Outside The Forest' region.",
               title: "Loong Claw Grove",
@@ -359,7 +356,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "forest-of-wolves",
               title: "Guanyin Temple",
               latitude: 0.84251,
               longitude: -0.7873,
@@ -372,7 +368,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "bamboo-grove",
               title: "Back Hills",
               latitude: 0.74282052,
               longitude: -0.7647266,
@@ -385,7 +380,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "bamboo-grove",
               title: "Snake Trail",
               latitude: 0.7545265,
               longitude: -0.58213,
@@ -398,7 +392,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "bamboo-grove",
               title: "Marsh of White Mist",
               description: "**Location:** By the edge of the path",
               latitude: "0.73069975846236",
@@ -406,7 +399,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "black-wind-cave",
               title: "Cave Interior",
               description: "**Location:** Inside the cavern",
               latitude: "0.46541002162454",
@@ -414,7 +406,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "black-wind-cave",
               title: "Outside the Cave",
               latitude: "0.36939126654569",
               longitude: "-0.77541589737046",
@@ -427,7 +418,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "black-wind-cave",
               title: "Bodhi Peak",
               description:
                 "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
@@ -436,7 +426,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "ancient-guanyin-temple",
               title: "Grand Chamber",
               description:
                 "**Location:** Ancient Guanyin Temple \n\n**Shop:**\n- Evil Repelling Medicament (x2)\n- Longevity Decoction (x2)\n- Silk (x2)\n- Yaoguai Core (x2)",
@@ -451,21 +440,18 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "sandgate-village",
               title: "Village Entrance",
               latitude: "0.46904917301740",
               longitude: "-0.67935424765775",
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "sandgate-village",
               title: "Bottom Of The Well",
               latitude: "0.34545235385329",
               longitude: "-0.63628818740148",
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "sandgate-village",
               title: "Valley of Despair",
               description:
                 "**Location:** In the open after defeating the [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=444)",
@@ -480,7 +466,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "crouching-tiger-temple",
               title: "Temple Entrance",
               description:
                 "**Location:** Crouching Tiger Temple - just outside the temple",
@@ -495,14 +480,12 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "crouching-tiger-temple",
               title: "Cellar",
               latitude: 0.60819415029945,
               longitude: "-0.96845351356413",
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "fright-cliff",
               title: "Squall Hideout",
               description: "**Location:** Fright Cliff",
               latitude: "0.65240642230415",
@@ -516,7 +499,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "fright-cliff",
               title: "Rockrest Flat",
               description: "**Location:** Fright Cliff",
               latitude: "0.80901318570002",
@@ -525,7 +507,6 @@ export const bmw = {
             {
               regionSlug: "chapter-2",
               title: "Hidden Loong Cavern",
-              subRegionSlug: "fright-cliff",
               description:
                 "**Location:** Requires the [Loong Scales](http://localhost:3000/map/chapter-2?marker=167) to access [Black Loong](http://localhost:3000/map/chapter-2?marker=506)'s hidden chamber behind",
               latitude: "0.83156896683375",
@@ -539,7 +520,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "fright-cliff",
               title: "Rock Clash Platform",
               latitude: "0.84474157507636",
               longitude: "-0.80450726469547",
@@ -552,21 +532,18 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "yellow-wind-formation",
               title: "Windrest Bridge",
               latitude: 0.66679760739623,
               longitude: -1.0879249608776,
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "yellow-wind-formation",
               title: "Windseal Gate",
               latitude: "0.64611656823190",
               longitude: "-0.83536619889983",
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "yellow-wind-formation",
               title: "Windrest Hamlet",
               latitude: 0.80128918645043,
               longitude: -0.97756862640452,
@@ -580,7 +557,6 @@ export const bmw = {
             {
               regionSlug: "chapter-2",
               title: "Sandgate Bound",
-              subRegionSlug: "kingdom-of-sahali",
               description:
                 "Two of two shrines in secret area. Shrines are the only way back into area.",
               latitude: "1.02687051544710",
@@ -589,7 +565,6 @@ export const bmw = {
             {
               regionSlug: "chapter-2",
               title: "Sandgate Pass",
-              subRegionSlug: "kingdom-of-sahali",
               description:
                 "One of two shrines in secret area. Shrines are the only way back into area.",
               latitude: "0.94199355582884",
@@ -597,7 +572,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "snowhill-path",
               title: "Frost-Clad Path",
               latitude: "0.32651013425152",
               longitude: "-0.93020701035329",
@@ -612,7 +586,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "snowhill-path",
               title: "Mirrormere",
               latitude: "0.24607215013974",
               longitude: "-0.63154495933796",
@@ -625,63 +598,54 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "Lower Pagoda",
               latitude: "0.51159291172461",
               longitude: "-0.64786566317036",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "Upper Pagoda",
               latitude: "0.63831485248824",
               longitude: "-0.61187624931031",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "Mani Wheel",
               latitude: "0.67602230439955",
               longitude: "-0.61628020506586",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "Outside the Wheel",
               latitude: "0.77471967388236",
               longitude: "-0.62088265097609",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "Snow-Veiled Trail",
               latitude: "0.84024695627429",
               longitude: "-0.56179672479692",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "The Great Pagoda",
               latitude: "0.82019465453480",
               longitude: "-0.65038744344997",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "Warding Temple",
               latitude: "0.84433035445817",
               longitude: "-0.52836594021286",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "bitter-lake",
               title: "Turtle Island",
               latitude: "0.87130576904316",
               longitude: "-0.77625018662997",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "bitter-lake",
               title: "South Shore",
               latitude: "0.85725262525422",
               longitude: "-0.46426575959777",
@@ -694,7 +658,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "bitter-lake",
               title: "North Shore",
               latitude: "0.97574438373253",
               longitude: "-0.70351755279151",
@@ -702,14 +665,12 @@ export const bmw = {
             {
               regionSlug: "chapter-3",
               title: "Precept Corridor",
-              subRegionSlug: "bitter-lake",
               latitude: "0.98673859876078",
               longitude: "-0.66381454467822",
             },
             {
               regionSlug: "chapter-3",
               title: "Mindfulness Cliff",
-              subRegionSlug: "valley-of-ecstasy",
               description:
                 "The path for this will not be revealed unless you worship each of the 4 different Buddha statues.",
               latitude: "1.03536129523550",
@@ -718,14 +679,12 @@ export const bmw = {
             {
               regionSlug: "chapter-3",
               title: "Forest of Felicity",
-              subRegionSlug: "valley-of-ecstasy",
               latitude: "1.07428514140730",
               longitude: "-0.64297378063029",
             },
             {
               regionSlug: "chapter-3",
               title: "Melon Field",
-              subRegionSlug: "valley-of-ecstasy",
               description: "Need to drop next to the waterfall",
               latitude: "1.07527470240680",
               longitude: "-0.62530875206008",
@@ -733,13 +692,11 @@ export const bmw = {
             {
               regionSlug: "chapter-3",
               title: "Brook of Bliss",
-              subRegionSlug: "valley-of-ecstasy",
               latitude: "1.07380751742900",
               longitude: "-0.63480320877071",
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "valley-of-ecstasy",
               title: "Towers of Karma",
               latitude: "1.08954687154470",
               longitude: "-0.63654452562375",
@@ -747,41 +704,35 @@ export const bmw = {
             {
               regionSlug: "chapter-3",
               title: "Longevity Road",
-              subRegionSlug: "valley-of-ecstasy",
               latitude: "1.09528843728910",
               longitude: "-0.62741965055505",
             },
             {
               regionSlug: "chapter-3",
               title: "Temple Entrance",
-              subRegionSlug: "new-thunderclap-temple",
               latitude: "1.12393173922540",
               longitude: "-0.62648355960954",
             },
             {
               regionSlug: "chapter-3",
               title: "Mahavira Hall",
-              subRegionSlug: "new-thunderclap-temple",
               latitude: "1.15402017802330",
               longitude: "-0.62675178050881",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "village-of-lanxi",
               title: "Estate of the Zhu",
               latitude: "0.81475519857152",
               longitude: "-0.79544110853215",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Upper Hollow",
               latitude: "0.82702579340329",
               longitude: "-0.96556547319540",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Pool of Shattered Jade",
               description:
                 "In front of a group of hanging spider sacs that guard the Venom Daoist boss room.",
@@ -790,70 +741,60 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "The Verdure Bridge",
               latitude: "0.70763941669036",
               longitude: "-0.98356721924708",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Bonevault",
               latitude: "0.67912612203401",
               longitude: "-0.94541793147539",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Middle Hollow",
               latitude: "0.69206378720848",
               longitude: "-0.96076205274466",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Cliff of Oblivion",
               latitude: "0.51526171278778",
               longitude: "-0.98133767068941",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Lower Hollow",
               latitude: "0.49789136895983",
               longitude: "-0.85214475787814",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Relief of the Fallen Loong",
               latitude: 0.54594962999816,
               longitude: -1.0249929455216,
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Hut of Immortality",
               latitude: 0.53351099475944,
               longitude: -0.8521422335383,
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "The Purifying Spring",
               latitude: "0.56748234960119",
               longitude: "-0.86813818876635",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "The Gathering Cave",
               latitude: "0.56492203970562",
               longitude: "-0.89260890950956",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "temple-of-yellow-flower",
               title: "Mountain Trail",
               description: "Shrine after defeating the Violet Spider.",
               latitude: "0.48992136366934",
@@ -861,28 +802,24 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "temple-of-yellow-flower",
               title: "Forest of Ferocity",
               latitude: "0.56460639947514",
               longitude: "-0.67012218380370",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "temple-of-yellow-flower",
               title: "Temple Entrance",
               latitude: "0.65454192035703",
               longitude: "-0.68367209724494",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "temple-of-yellow-flower",
               title: "Court of Illumination",
               latitude: "0.74037172454878",
               longitude: "-0.65390712145779",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "purple-cloud-mountain",
               title: "Valley of Blooms",
               latitude: "0.76992977002065",
               longitude: "-0.40370493523463",
@@ -891,84 +828,72 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "purple-cloud-mountain",
               title: "Petalfall Hamlet",
               latitude: 0.8453658304153513,
               longitude: -0.4281618370757468,
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "purple-cloud-mountain",
               title: "Bounds Of Deity's Abode",
               latitude: "0.80409267369303",
               longitude: "-0.36294432524224",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "purple-cloud-mountain",
               title: "Cloudnest Peak",
               latitude: "0.89508769954955",
               longitude: "-0.43785015002385",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Ashen Pass I",
               latitude: "0.65907932128300",
               longitude: "-1.07745409011810",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Keeper Shrine",
               latitude: "0.63267733356133",
               longitude: "-1.07440710067690",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Keeper Shrine",
               latitude: "0.45929433869792",
               longitude: "-1.03896481849800",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Ashen Pass II",
               latitude: "0.45296230229557",
               longitude: "-0.91644404336247",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "bishui-cave",
               title: "Keeper Shrine",
               latitude: "0.95708352305789",
               longitude: "-0.94127865588464",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "furnace-valley",
               title: "The Emerald Hall",
               latitude: "0.74396082201868",
               longitude: "-0.29505146780306",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "furnace-valley",
               title: "Keeper Shrine",
               latitude: "0.51064175350540",
               longitude: "-0.32530728255924",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "furnace-valley",
               title: "Keeper Shrine",
               latitude: "0.72544581911778",
               longitude: "-0.31819207559420",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "field-of-fire",
               title: "Fallen Furnace Crater",
               latitude: "0.96151993464392",
               longitude: "-0.49842450586999",
@@ -1032,7 +957,6 @@ export const bmw = {
           locations: [
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "forest-of-wolves",
               title: "The Arbor, Forest of Wolves",
               description:
                 "**Location:** On the wooden platform overlooking the buildings",
@@ -1047,7 +971,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "bamboo-grove",
               title: "The Cavern, Bamboo Grove",
               latitude: "0.75361462964308",
               longitude: "-0.71887493133275",
@@ -1060,7 +983,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-1",
-              subRegionSlug: "bamboo-grove",
               title: "The Cliff, Black Wind Cave",
               description:
                 "**Location:** Near the [Celestial Taiyi Pill](http://localhost:3000/map/chapter-1?marker=137), overlooking the forest.",
@@ -1076,7 +998,6 @@ export const bmw = {
             // Chapter 2
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "sandgate-village",
               title: "The Altar, Sandgate Village",
               description:
                 "**Location:** In front of the pavillion with the large buddha head",
@@ -1097,7 +1018,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "crouching-tiger-temple",
               title: "The Sculpture, Couching Tiger Temple",
               latitude: "0.55031209022974",
               longitude: "-0.96732091557749",
@@ -1110,7 +1030,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-2",
-              subRegionSlug: "fright-cliff",
               title: "The Deadwood, Rockrest Flat",
               latitude: "0.97214670066913",
               longitude: "-0.70263401077454",
@@ -1142,7 +1061,6 @@ export const bmw = {
             // Chapter 3
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "snowhill-path",
               title: "The Shade, Mirrormere Meditation Spot",
               description: "**Location:** ??",
               latitude: "0.27311011072804",
@@ -1171,7 +1089,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-3",
-              subRegionSlug: "pagoda-realm",
               title: "The Bottom, Pagoda Realm",
               latitude: "0.81434488217062",
               longitude: "-0.53590536117758",
@@ -1185,28 +1102,24 @@ export const bmw = {
             // Chapter 4
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Meditation Spot",
               latitude: "0.51129962958788",
               longitude: "-0.84793265639428",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Meditation Spot",
               latitude: "0.55685148031864",
               longitude: "-0.69979608339386",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "Meditation Spot",
               latitude: "0.82742362566920",
               longitude: "-1.05568299880300",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "webbed-hollow",
               title: "The Tree, Middle of the Hollow",
               description: "Location: Next to a fire brazier along the path.",
               latitude: "0.69590538293041",
@@ -1214,14 +1127,12 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "temple-of-yellow-flower",
               title: "Meditation Spot",
               latitude: "0.67744576753955",
               longitude: "-0.62013739215652",
             },
             {
               regionSlug: "chapter-4",
-              subRegionSlug: "purple-cloud-mountain",
               title: "Meditation Spot",
               latitude: "0.82424576002180",
               longitude: "-0.37380419785285",
@@ -1229,28 +1140,24 @@ export const bmw = {
             // Chapter 5
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Meditation Spot",
               latitude: "0.53298031520086",
               longitude: "-1.07479723767100",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "bishui-cave",
               title: "Meditation Spot",
               latitude: "0.95539675407578",
               longitude: "-0.94933878575378",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "furnace-valley",
               title: "Meditation",
               latitude: "0.79107447618952",
               longitude: "-0.32101747276170",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "field-of-fire",
               title: "Meditation Spot",
               latitude: "0.82941198210209",
               longitude: "-0.67886710166889",
@@ -1399,7 +1306,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chapter 5 Start",
               latitude: "0.62930752608126",
               longitude: "-1.11736672431260",
@@ -1491,7 +1397,6 @@ export const bmw = {
               longitude: "-0.43373071751455",
             },
             {
-              subRegionSlug: "bishui-cave",
               regionSlug: "chapter-5",
               title: "Awakened Wine Worm",
               description: "",
@@ -1500,7 +1405,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Awakened Wine Worm",
               description:
                 "**Location:** Furnace Valley > Rakshasa Palace\n\n From this shrine go straight ahead up the stairs, then over a bridge until you reach two giant enemies with big shields. Take the path left to reach the Old Man NPC. Next to him is a glowing keg with this worm.",
@@ -1628,14 +1532,12 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Celestial Pill ??",
               latitude: "0.49760497645720",
               longitude: "-1.05494059288990",
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Celestial Jade Pill",
               description: "**Location:** ??",
               latitude: "0.44734323869781",
@@ -2445,7 +2347,6 @@ export const bmw = {
           title: "Chest",
           locations: [
             {
-              subRegionSlug: "forest-of-wolves",
               regionSlug: "chapter-1",
               title: "Chest",
               description:
@@ -2460,7 +2361,6 @@ export const bmw = {
               ],
             },
             {
-              subRegionSlug: "forest-of-wolves",
               regionSlug: "chapter-1",
               title: "Chest",
               description:
@@ -2475,7 +2375,6 @@ export const bmw = {
               ],
             },
             {
-              subRegionSlug: "forest-of-wolves",
               regionSlug: "chapter-1",
               title: "Chest",
               description: "**Location:** In the corner",
@@ -2489,7 +2388,6 @@ export const bmw = {
               ],
             },
             {
-              subRegionSlug: "forest-of-wolves",
               regionSlug: "chapter-1",
               title: "Chest",
               description: "**Location:** Inside the small building",
@@ -3288,7 +3186,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.63162435908899",
@@ -3296,7 +3193,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.61525667260393",
@@ -3304,7 +3200,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.61242442243542",
@@ -3312,7 +3207,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.55460867439947",
@@ -3320,7 +3214,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.50689962021983",
@@ -3328,7 +3221,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.54867601750790",
@@ -3336,7 +3228,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.50805045765611",
@@ -3344,7 +3235,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Chest",
               description: "**Location:** ??",
               latitude: "0.55189781489199",
@@ -4531,7 +4421,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Brown-Iron Cart",
               description:
                 "**Location:** Woods Of Ember - Ashen Pass I  \n\n**Reward:**\n- ??",
@@ -4540,7 +4429,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Gray-Bronze Cart",
               description:
                 "**Location:** Woods Of Ember - Height Of Ember\n\n**Reward:**\n- ??",
@@ -4557,7 +4445,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Father Of Stones",
               description:
                 "**Location:** Woods Of Ember - Height Of Ember  \n\n**Reward:**\n- ??",
@@ -4566,7 +4453,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Fast As Wind + Quick As Fire",
               description:
                 "**Location:** Woods Of Ember - Height Of Ember  \n\n**Reward:**\n- ??",
@@ -5378,7 +5264,6 @@ export const bmw = {
             },
             {
               regionSlug: "chapter-5",
-              subRegionSlug: "woods-of-ember",
               title: "Pale-Axe Stalwart",
               description:
                 "**Location:** Woods Of Ember - Ashen Pass I  \n\n**Reward:**\n- ??",
