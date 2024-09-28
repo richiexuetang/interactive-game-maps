@@ -7,7 +7,7 @@ input AddNoteInput {
   email: String!
   latitude: Float!
   longitude: Float!
-  regionSlug: String!
+  mapSlug: String!
   title: String!
 }
 
@@ -22,6 +22,20 @@ type AppUser {
   lastName: String
   noteMarkers: [NoteMarker!]
   photoUrl: String
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+type Category {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  icon: String!
+  id: Float!
+  info: String
+  isChecklist: Boolean!
+  locations: [Location!]
+  title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
@@ -45,11 +59,11 @@ type Game {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   description: String
-  groups: [MarkerGroup!]
+  groups: [Group!]
   id: Float!
+  maps: [Map!]
   maxZoom: Float!
   minZoom: Float!
-  regions: [Map!]
   slug: String!
   title: String!
 
@@ -58,38 +72,8 @@ type Game {
   zoom: Float!
 }
 
-type Map {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  gameSlug: String!
-  id: Float!
-  locations: [MarkerLocation!]
-  order: Float!
-  regions: [SubRegion!]
-  slug: String!
-  thumbnailUrl: String
-  tilePath: String!
-  title: String!
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
-}
-
-type MarkerCategory {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  icon: String!
-  id: Float!
-  info: String
-  locations: [MarkerLocation!]
-  title: String!
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
-}
-
-type MarkerGroup {
-  categories: [MarkerCategory!]
+type Group {
+  categories: [Category!]
 
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -102,8 +86,8 @@ type MarkerGroup {
   updatedAt: DateTime!
 }
 
-type MarkerLocation {
-  category: MarkerCategory
+type Location {
+  category: Category
   categoryId: Float
 
   """Identifies the date and time when the object was created."""
@@ -112,22 +96,44 @@ type MarkerLocation {
   id: Float!
   latitude: Float!
   longitude: Float!
+  map: Map!
+  mapSlug: String!
   media: [Media!]
-  region: Map
-  regionSlug: String!
-  subRegionSlug: String
+  regionSlug: String
   title: String!
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
 }
 
+type Map {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  gameSlug: String!
+  id: Float!
+  locations: [Location!]
+  order: Float!
+  regions: [Region!]
+  slug: String!
+  thumbnailUrl: String
+  tilePath: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+input MapOrder {
+  direction: OrderDirection!
+  field: RegionOrderField!
+}
+
 type Media {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   id: Float!
-  markerLocation: MarkerLocation
-  markerLocationId: Float
+  location: Location
+  locationId: Float
   type: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -151,7 +157,8 @@ type NoteMarker {
   id: Float!
   latitude: Float!
   longitude: Float!
-  regionSlug: String!
+  map: Map!
+  mapSlug: String!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -167,20 +174,30 @@ enum OrderDirection {
 }
 
 type Query {
-  fetchGameByRegion(slug: String!): Game!
-  findRegionsByGame(orderBy: RegionOrder, slug: String!): [Map!]!
+  fetchGameByMap(slug: String!): Game!
+  findRegionsByGame(orderBy: MapOrder, slug: String!): [Map!]!
   game(slug: String!): Game!
   games: [Game!]!
-  getGroupsByGameSlug(slug: String!): [MarkerGroup!]!
-  getSubRegionsByRegion(slug: String!): [SubRegion!]!
+  getGroupsByGameSlug(slug: String!): [Group!]!
+  getSubRegionsByRegion(slug: String!): [Region!]!
   getUser(email: String!): AppUser!
-  locations(regionSlug: String): [MarkerLocation!]!
+  locations(mapSlug: String): [Location!]!
   regionDetails(slug: String!): Map!
 }
 
-input RegionOrder {
-  direction: OrderDirection!
-  field: RegionOrderField!
+type Region {
+  coordinates: [[[Float!]!]!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: Float!
+  locations: [Location!]!
+  mapSlug: String!
+  slug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
 }
 
 """Properties by which region connections can be ordered."""
@@ -193,21 +210,6 @@ enum RegionOrderField {
 input RemoveNoteInput {
   email: String!
   id: Float!
-}
-
-type SubRegion {
-  coordinates: [[[Float!]!]!]
-
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  id: Float!
-  locations: [MarkerLocation!]!
-  regionSlug: String!
-  slug: String!
-  title: String!
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
 }
 
 input UpdateFoundLocationInput {
