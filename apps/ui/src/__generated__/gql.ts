@@ -15,7 +15,7 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
 const documents = {
     "\n  mutation AddFoundLocations($data: UpdateFoundLocationInput!) {\n    addFoundLocations(data: $data) {\n      email\n      foundLocations\n    }\n  }\n": types.AddFoundLocationsDocument,
     "\n  mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {\n    removeFoundLocation(data: $data) {\n      email\n      foundLocations\n    }\n  }\n": types.RemoveFoundLocationDocument,
-    "\nquery GetUser($email: String!) {\n  getUser(email: $email) {\n    email,\n    foundLocations,\n    hideFound,\n    photoUrl\n    noteMarkers {\n      title\n      description\n      regionSlug\n      latitude\n      longitude\n    }\n  }\n}": types.GetUserDocument,
+    "\nquery GetUser($email: String!) {\n  getUser(email: $email) {\n    email,\n    foundLocations,\n    hideFound,\n    photoUrl\n    noteMarkers {\n      id\n      title\n      description\n      regionSlug\n      latitude\n      longitude\n    }\n  }\n}": types.GetUserDocument,
     "\n  mutation CreateUser($data: CreateUserInput!) {\n    createUser(data: $data) {\n      email\n      firstName\n      foundLocations\n      lastName\n      photoUrl\n    }\n  }\n  ": types.CreateUserDocument,
     "\nmutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {\n  toggleHideFoundSetting(data: $data) {\n    hideFound\n    email\n  }\n}\n": types.ToggleHideFoundSettingDocument,
     "\n  query GetSubRegionsByRegion($slug: String!) {\n    getSubRegionsByRegion(slug: $slug) {\n      title\n      coordinates\n    }\n  }\n  ": types.GetSubRegionsByRegionDocument,
@@ -24,7 +24,8 @@ const documents = {
     "\n  query FindRegionByGame($slug: String!) {\n    findRegionsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {\n      gameSlug\n      slug\n      thumbnailUrl\n      title\n    }\n  }\n": types.FindRegionByGameDocument,
     "\n  query FetchGameByRegion($slug: String!) {\n    fetchGameByRegion(slug: $slug) {\n      title\n      slug\n      minZoom\n      maxZoom\n      zoom\n      center\n      groups {\n        id\n        title\n        categories {\n          id\n          icon\n          info\n          title\n        }\n      }\n      regions {\n        tilePath\n        slug\n        order\n        title\n        locations {\n          categoryId\n          category {\n            title\n            id\n            icon\n            info\n          }\n          media {\n            url\n            type\n          }\n          description\n          latitude\n          longitude\n          title\n          id\n        }\n      }\n      slug\n    }\n  }\n": types.FetchGameByRegionDocument,
     "\n  query Locations($regionSlug: String) {\n    locations(regionSlug: $regionSlug) {\n      categoryId\n      category {\n        title\n        id\n        icon\n        info\n      }\n      media {\n        url\n        type\n      }\n      description\n      latitude\n      longitude\n      title\n      id\n    }\n  }\n": types.LocationsDocument,
-    "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n": types.AddNoteMarkerDocument,
+    "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n": types.AddNoteMarkerDocument,
+    "\n  mutation RemoveNoteMarker($data: RemoveNoteInput!) {\n    removeNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n": types.RemoveNoteMarkerDocument,
 };
 
 /**
@@ -52,7 +53,7 @@ export function gql(source: "\n  mutation RemoveFoundLocation($data: UpdateFound
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\nquery GetUser($email: String!) {\n  getUser(email: $email) {\n    email,\n    foundLocations,\n    hideFound,\n    photoUrl\n    noteMarkers {\n      title\n      description\n      regionSlug\n      latitude\n      longitude\n    }\n  }\n}"): (typeof documents)["\nquery GetUser($email: String!) {\n  getUser(email: $email) {\n    email,\n    foundLocations,\n    hideFound,\n    photoUrl\n    noteMarkers {\n      title\n      description\n      regionSlug\n      latitude\n      longitude\n    }\n  }\n}"];
+export function gql(source: "\nquery GetUser($email: String!) {\n  getUser(email: $email) {\n    email,\n    foundLocations,\n    hideFound,\n    photoUrl\n    noteMarkers {\n      id\n      title\n      description\n      regionSlug\n      latitude\n      longitude\n    }\n  }\n}"): (typeof documents)["\nquery GetUser($email: String!) {\n  getUser(email: $email) {\n    email,\n    foundLocations,\n    hideFound,\n    photoUrl\n    noteMarkers {\n      id\n      title\n      description\n      regionSlug\n      latitude\n      longitude\n    }\n  }\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
@@ -88,7 +89,11 @@ export function gql(source: "\n  query Locations($regionSlug: String) {\n    loc
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"): (typeof documents)["\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"];
+export function gql(source: "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"): (typeof documents)["\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"];
+/**
+ * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
+export function gql(source: "\n  mutation RemoveNoteMarker($data: RemoveNoteInput!) {\n    removeNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"): (typeof documents)["\n  mutation RemoveNoteMarker($data: RemoveNoteInput!) {\n    removeNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        regionSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"];
 
 export function gql(source: string) {
   return (documents as any)[source] ?? {};

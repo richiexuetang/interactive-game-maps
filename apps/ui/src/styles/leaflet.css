@@ -489,7 +489,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 /* Default icon URLs */
 .leaflet-default-icon-path {
     /* used only in path-guessing heuristic, see L.Icon.Default */
-    background-image: url(../../public/leaflet/images/marker-icon.png);
+    /* background-image: url(../../public/leaflet/images/marker-icon.png); */
 }
 
 
@@ -606,6 +606,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     transform: rotate(45deg);
 }
 
+
 .leaflet-popup-content-wrapper {
     background-color: none;
 }
@@ -616,17 +617,16 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 .leaflet-container a.leaflet-popup-close-button {
     position: absolute;
-    /* top: 18px;
-    right: 0;
+    top: 20px;
+    right: 5px;
     border: none;
     text-align: center;
     width: 24px;
     height: 24px;
     font: 16px/24px Tahoma, Verdana, sans-serif;
-    color: #757575;
+    color: var(--text-color);
     text-decoration: none;
-    background: transparent; */
-    display: none;
+    background: transparent;
 }
 
 .leaflet-container a.leaflet-popup-close-button:hover,

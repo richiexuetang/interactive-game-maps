@@ -5,3 +5,4 @@ build
 tiles
 .DS_Store
 .venv
+.vercel
