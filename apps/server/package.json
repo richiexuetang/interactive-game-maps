@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "scripts": {
     "build": "nest build",
+    "prebuild": "rimraf dist",
+    "copy-package": "cp package.json dist/package.json",
+    "copy-prisma-schema": "cp prisma/schema.prisma dist/prisma/schema.prisma",
+    "copy-env": "cp .env dist/.env",
+    "build-with-package": "pnpm run build && pnpm run copy-package && pnpm run copy-prisma-schema && pnpm run copy-env",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "dev": "nest start --watch",

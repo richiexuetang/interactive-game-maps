@@ -1923,12 +1923,61 @@ export const bmw = {
         },
         {
           title: "Soak",
+          isCheckList: true,
           locations: [
+            {
+              mapSlug: "chapter-1",
+              title: "Gall Gem",
+              description:
+                "Defeat the enemy near Shen Monkey at Marsh of White Mist.",
+              latitude: "0.70741482451272",
+              longitude: "-0.57541049056672",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Fruit of Dao",
+              description:
+                "**Location:** Go straight ahead from the Court of Illumination, turn left, defeat 2 blue-robed monks to get this soak. (random drop)",
+              latitude: "0.76",
+              longitude: "-0.68602095548195",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Flame Mediator",
+              description:
+                "**Location**\nDrop by rock enemies near the Flint Vanguard spirit",
+              latitude: 0.74,
+              longitude: -0.5198801049215,
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Double-Combed Rooster Blood",
+              description:
+                "**Location:** Purple Cloud Mountain - Cloudnest Peak",
+              latitude: 0.94,
+              longitude: -0.45,
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Deathstinger",
+              description:
+                "Defeat the Scorpion Prince spirit monster in the Verdure Bridge village.",
+              latitude: "0.73370358726129",
+              longitude: "-0.96725553274004",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Bee Mountain Stone",
+              description:
+                "**Location**\nFrom Mountain Trail shrine, go upstairs and turn left, in a golden container guarded by some monks.\n\n**Effect**When using the gourd, grants a considerable chance to take a sip without consuming gourd uses.",
+              latitude: "0.53000544479686",
+              longitude: "-0.59274445094022",
+            },
             {
               mapSlug: "chapter-1",
               title: "Celestial Lotus Seeds",
               description:
-                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) for 2,400 Will",
+                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) for 2,400 Will\n\n**Effect**\nFor a brief moment after using the gourd, slowly recovers a small amount of health",
               latitude: 0.72056182148221,
               longitude: -0.59427559375806,
             },
@@ -1959,8 +2008,10 @@ export const bmw = {
             {
               mapSlug: "chapter-2",
               title: "Copper Pill",
-              latitude: "0.62005652907636",
-              longitude: "-1.09166645904010",
+              description:
+                "Defeat the Tiger Vanguard boss, in a small gold chest guarded by a shielded enemy and archer.",
+              latitude: 0.62005652907636,
+              longitude: -1.0916664590401,
             },
             {
               mapSlug: "chapter-2",
@@ -1974,7 +2025,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Breath Of Fire",
               description:
-                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=397826)",
+                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=397826)\n\n**Effect**\nUsing the gourd significantly increases Attack for the next Unveiling Strike in Cloud Step for a short duration.",
               latitude: "0.86534762948834",
               longitude: "-0.76099277637610",
             },
