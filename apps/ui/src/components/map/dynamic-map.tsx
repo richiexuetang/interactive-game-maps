@@ -26,11 +26,11 @@ import { SubRegion } from "../layers/sub-region";
 import { Game } from "@/__generated__/graphql";
 import { useParams } from "next/navigation";
 import { LatLngExpression } from "leaflet";
-import { userNoteMarkerAtom } from "@/store/marker";
 import { getFontClassName } from "@/lib/font";
 import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 import { MapEventListener } from "./map-event-listener";
+import { v4 as uuidv4 } from "uuid";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
@@ -45,7 +45,6 @@ const Map = ({ user, regionData }: MapProps) => {
 
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
-  const setUserNoteMarkerAtom = useSetAtom(userNoteMarkerAtom);
   const [currentRegion, setCurrentRegion] = useAtom(currentRegionAtom);
   const setCurrentMarkers = useSetAtom(currentMarkersAtom);
   const setCurrentGroups = useSetAtom(currentGroupsAtom);
@@ -149,14 +148,20 @@ const Map = ({ user, regionData }: MapProps) => {
           {
             text: "Add note",
             callback: ({ latlng }: any) => {
-              setUserNoteMarkerAtom((prev) => [
-                ...prev,
-                {
-                  position: [latlng.lat, latlng.lng],
-                  title: null,
-                  description: null,
-                },
-              ]);
+              setAppUser((prev) => ({
+                ...prev!,
+                noteMarkers: [
+                  ...(prev?.noteMarkers ?? []),
+                  {
+                    title: "",
+                    description: "",
+                    latitude: latlng.lat,
+                    longitude: latlng.lng,
+                    id: uuidv4(),
+                    regionSlug: params.slug,
+                  },
+                ],
+              }));
             },
           },
           {

@@ -4,10 +4,15 @@ import { useEffect, useRef } from "react";
 import { useParams, useSearchParams } from "next/navigation";
 import { MarkerLocation } from "@/__generated__/graphql";
 import { triggeredMarkerIdAtom } from "@/store/marker";
-import { useAtomValue } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import { gameSlugAtom } from "@/store";
 import { userAtom } from "@/store/auth";
 import { PopupCard } from "../cards/popup-card";
+import { useMutation } from "@apollo/client";
+import {
+  ADD_TO_USER_FOUND,
+  REMOVE_FROM_USER_FOUND,
+} from "@/lib/graphql/constants";
 
 interface MarkerProps {
   marker: MarkerLocation;
@@ -17,10 +22,11 @@ export const Marker = ({ marker }: MarkerProps) => {
   const gameSlug = useAtomValue(gameSlugAtom);
   const params = useParams<{ slug: string }>();
   const { id, title, latitude, longitude, category } = marker;
-
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+  const [appUser, setAppUser] = useAtom(userAtom);
   const { icon } = category!;
 
-  const appUser = useAtomValue(userAtom);
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   useEffect(() => {
@@ -63,6 +69,23 @@ export const Marker = ({ marker }: MarkerProps) => {
 
   if (markerFound && appUser?.hideFound) return null;
 
+  const handleMarkerFound = () => {
+    if (appUser?.email) {
+      const variables = { data: { email: appUser.email, location: id } };
+      let newFoundLocations = [];
+      if (markerFound) {
+        removeLocation({ variables });
+        newFoundLocations = appUser.foundLocations.filter(
+          (location) => location !== id
+        );
+      } else {
+        addLocation({ variables });
+        newFoundLocations = [...appUser.foundLocations, id];
+      }
+      setAppUser({ ...appUser, foundLocations: newFoundLocations });
+    }
+  };
+
   return (
     <RL.Marker
       ref={markerRef}
@@ -76,6 +99,11 @@ export const Marker = ({ marker }: MarkerProps) => {
         html: div,
       })}
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
+      eventHandlers={{
+        contextmenu: (e) => {
+          handleMarkerFound();
+        },
+      }}
     >
       <RL.Popup>
         <PopupCard marker={marker} />

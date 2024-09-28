@@ -11,7 +11,7 @@
     "migrate:dev": "pnpm --filter server migrate:dev",
     "migrate:reset": "pnpm --filter server migrate:reset",
     "seed": "cd apps/server && pnpx prisma db seed",
-    "server:build": "pnpm run prisma:generate && pnpm seed && pnpm --filter server build",
+    "server:build": "pnpm --filter server build",
     "server:prod": "pnpm --filter server start:prod",
     "ui:build": "pnpm --filter ui build",
     "ui:prod": "pnpm --filter ui start"

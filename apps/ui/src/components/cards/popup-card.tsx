@@ -8,9 +8,6 @@ import LoginIcon from "@mui/icons-material/Login";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import LinkIcon from "@mui/icons-material/Link";
 import { cn } from "@/lib/utils";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
@@ -26,7 +23,7 @@ import {
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
 import { MarkerLocation } from "@/__generated__/graphql";
-import { Modal, styled } from "@mui/material";
+import { Box, Checkbox, FormControlLabel, Modal, styled } from "@mui/material";
 import Image from "next/image";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 
@@ -100,20 +97,29 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             <span className={cn(`${gameSlug}-icon icon ${gameSlug}_${icon}`)} />
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <LinkIcon
-              onClick={() =>
-                copy(
-                  `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${currentRegion?.slug}?marker=${marker.id}`
-                ).then(() => {
-                  setCopyLinkTrigger(true);
-                })
-              }
-            />
-          </IconButton>
+        title={
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            {markerTitle}
+            <Tooltip title="Copy link">
+              <IconButton>
+                <LinkIcon
+                  onClick={() =>
+                    copy(
+                      `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${currentRegion?.slug}?marker=${marker.id}`
+                    ).then(() => {
+                      setCopyLinkTrigger(true);
+                    })
+                  }
+                />
+              </IconButton>
+            </Tooltip>
+          </Box>
         }
-        title={markerTitle}
         subheader={title}
       />
       {media && media.length > 0 && (
@@ -152,24 +158,14 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           </CardContentTypography>
         )}
       </CardContent>
-      <CardActions disableSpacing>
+      <CardActions sx={{ justifyContent: "center" }}>
         {appUser?.email ? (
-          <>
-            <Tooltip title="Add to favorite">
-              <IconButton onClick={() => console.log("")}>
-                <FavoriteIcon />
-              </IconButton>
-            </Tooltip>
-            <Tooltip title="Found">
-              <IconButton onClick={handleMarkerFound}>
-                {markerFound ? (
-                  <CheckCircleIcon />
-                ) : (
-                  <RadioButtonUncheckedIcon />
-                )}
-              </IconButton>
-            </Tooltip>
-          </>
+          <FormControlLabel
+            control={
+              <Checkbox checked={markerFound} onChange={handleMarkerFound} />
+            }
+            label="Found"
+          />
         ) : (
           <Tooltip title="Login">
             <IconButton aria-label="login" onClick={handleLogin}>

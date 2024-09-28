@@ -4,9 +4,8 @@ import { atom } from "jotai";
 interface User {
   email: string;
   foundLocations: number[];
-  photoUrl: string;
   hideFound: boolean;
-  noteMarkers: NoteMarker[];
+  noteMarkers: Partial<NoteMarker>[];
 }
 
 export const userAtom = atom<User | null>(null);

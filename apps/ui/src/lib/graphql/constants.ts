@@ -26,6 +26,7 @@ query GetUser($email: String!) {
     hideFound,
     photoUrl
     noteMarkers {
+      id
       title
       description
       regionSlug
@@ -200,6 +201,11 @@ export const REMOVE_USER_NOTE_MARKER = gql`
     removeNoteMarker(data: $data) {
       noteMarkers {
         id
+        title
+        description
+        regionSlug
+        latitude
+        longitude
       }
     }
   }
