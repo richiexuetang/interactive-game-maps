@@ -100,7 +100,7 @@ export const Marker = ({ marker }: MarkerProps) => {
       })}
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
       eventHandlers={{
-        contextmenu: (e) => {
+        contextmenu: () => {
           handleMarkerFound();
         },
       }}
