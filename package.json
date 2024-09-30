@@ -19,9 +19,9 @@
     "ui:build": "pnpm --filter ui build",
     "ui:prod": "pnpm --filter ui start"
   },
-  "packageManager": "pnpm@9.11.0",
+  "packageManager": "pnpm@9.0.4",
   "engines": {
-    "pnpm": "9.11.0"
+    "pnpm": "9.0.4"
   },
   "dependencies": {
     "@apollo/server": "^4.7.5",
