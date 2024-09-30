@@ -8,7 +8,7 @@ import Link from "next/link";
 import { Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
 import { getFontClassName } from "@/lib/font";
-import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
+import { getMetaData, getMapsByGame } from "@/lib/graphql/api";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
@@ -62,7 +62,7 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
-  const regions = await getRegionsByGame(params.slug);
+  const regions = await getMapsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 
   const showRegionMedia = regions.length <= 2;

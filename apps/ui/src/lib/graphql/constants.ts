@@ -87,27 +87,16 @@ query GetGames($slug: String!) {
   }
 }`);
 
-export const FETCH_REGION_DETAILS = gql`
-  query RegionDetails($slug: String!) {
-    regionDetails(slug: $slug) {
+export const FETCH_MAP_DETAILS = gql`
+  query MapDetails($slug: String!) {
+    mapDetails(slug: $slug) {
       gameSlug
       title
     }
   }
 `;
 
-export const FETCH_REGION_BY_GAME = gql`
-  query FindRegionByGame($slug: String!) {
-    findRegionsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
-      gameSlug
-      slug
-      thumbnailUrl
-      title
-    }
-  }
-`;
-
-export const FETCH_GAME_REGION_DETAILS = gql`
+export const FETCH_GAME_MAP_DETAILS = gql`
   query FetchGameByMap($slug: String!) {
     fetchGameByMap(slug: $slug) {
       title
@@ -151,29 +140,6 @@ export const FETCH_GAME_REGION_DETAILS = gql`
         }
       }
       slug
-    }
-  }
-`;
-
-export const FETCH_LOCATIONS_BY_MAP = gql`
-  query Locations($mapSlug: String) {
-    locations(mapSlug: $mapSlug) {
-      categoryId
-      category {
-        title
-        id
-        icon
-        info
-      }
-      media {
-        url
-        type
-      }
-      description
-      latitude
-      longitude
-      title
-      id
     }
   }
 `;

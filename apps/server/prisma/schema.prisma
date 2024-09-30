@@ -65,12 +65,14 @@ model Map {
 }
 
 model Region {
-  id          Int                     @id @default(autoincrement())
-  coordinates Unsupported("geometry")
+  id          Int                      @id @default(autoincrement())
+  coordinates Unsupported("geometry")?
   title       String
   locations   Location[]
   mapSlug     String
-  map         Map                     @relation(fields: [mapSlug], references: [slug])
+  map         Map                      @relation(fields: [mapSlug], references: [slug])
+  centerX     Decimal?
+  centerY     Decimal?
 
   @@index([coordinates], type: Gist)
 }
@@ -81,17 +83,19 @@ model Group {
   categories Category[]
   gameSlug   String
   game       Game       @relation(fields: [gameSlug], references: [slug])
+  expandable Boolean    @default(false)
 }
 
 model Category {
-  id          Int        @id @default(autoincrement())
-  title       String
-  icon        String
-  info        String?
-  groupId     Int?
-  group       Group?     @relation(fields: [groupId], references: [id])
-  locations   Location[]
-  isChecklist Boolean    @default(false)
+  id            Int        @id @default(autoincrement())
+  title         String
+  icon          String
+  info          String?
+  groupId       Int?
+  group         Group?     @relation(fields: [groupId], references: [id])
+  locations     Location[]
+  isChecklist   Boolean    @default(false)
+  defaultHidden Boolean    @default(false)
 }
 
 model Location {

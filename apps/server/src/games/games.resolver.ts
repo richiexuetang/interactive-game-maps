@@ -27,17 +27,12 @@ export class GamesResolver {
       include: { game: true, locations: true },
     });
 
-    const locationsWithCategory = [];
-    for (let i = 0; i < map.locations.length; i++) {
-      const location = map.locations[i];
-      const locationWithCategory = await this.prisma.location.findUnique({
-        where: { id: location.id },
-        include: { category: true },
-      });
-      locationsWithCategory.push(locationWithCategory);
-    }
+    const locations = await this.prisma.location.findMany({
+      where: { mapSlug: slug },
+      include: { category: true },
+    });
 
-    map.locations = [...locationsWithCategory];
+    map.locations = [...locations];
     const regionGame = map.game;
     const game = await this.prisma.game.findUnique({
       where: { slug: regionGame.slug },

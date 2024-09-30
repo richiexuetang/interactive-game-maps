@@ -23,7 +23,7 @@ async function refreshDatabase() {
   }
 }
 
-async function seedGame(game) {
+async function seedGame(game: any) {
   const { maps, groups, ...gameData } = game;
   await prisma.game.create({
     data: { ...gameData },
@@ -100,7 +100,7 @@ async function seedGame(game) {
   }
 }
 
-async function seedMedia(media, locationId) {
+async function seedMedia(media: any, locationId: any) {
   for (let i = 0; i < media.length; i++) {
     await prisma.media.create({
       data: { ...media[i], locationId },

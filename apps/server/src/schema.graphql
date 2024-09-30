@@ -157,14 +157,12 @@ enum OrderDirection {
 
 type Query {
   fetchGameByMap(slug: String!): Game!
-  findRegionsByGame(orderBy: MapOrder, slug: String!): [Map!]!
+  findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!
   game(slug: String!): Game!
   games: [Game!]!
-  getGroupsByGameSlug(slug: String!): [Group!]!
   getRegionsByMap(slug: String!): [Region!]!
   getUser(email: String!): User!
-  locations(mapSlug: String): [Location!]!
-  regionDetails(slug: String!): Map!
+  mapDetails(slug: String!): Map!
 }
 
 type Region {

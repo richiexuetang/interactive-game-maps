@@ -5,10 +5,10 @@ import Map from "@/components/map/map";
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
 import {
   createAppUser,
-  fetchGameRegionDetails,
+  fetchGameMapDetails,
   getAppUser,
   getMetaData,
-  getRegionDetails,
+  getMapDetails,
 } from "@/lib/graphql/api";
 import "@/styles/leaflet.css";
 import "@/styles/icon.css";
@@ -18,7 +18,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const region = await getRegionDetails(params.slug);
+  const region = await getMapDetails(params.slug);
   const game = await getMetaData(region.gameSlug);
 
   const { title, description } = game;
@@ -68,7 +68,7 @@ export default async function MapPage({
   params: { slug: string };
 }) {
   revalidatePath("/map");
-  const gameRegion = await fetchGameRegionDetails(params.slug);
+  const gameRegion = await fetchGameMapDetails(params.slug);
   const currentUser = await getCurrentUser();
 
   const appUser = await getAppUser(currentUser?.email ?? "");

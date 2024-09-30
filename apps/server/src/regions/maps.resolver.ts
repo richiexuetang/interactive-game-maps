@@ -22,15 +22,15 @@ export class MapsResolver {
   }
 
   @Query(() => Map)
-  async regionDetails(@Args("slug") slug: string) {
+  async mapDetails(@Args("slug") slug: string) {
     return this.prisma.map.findUnique({
-      where: { slug: slug },
+      where: { slug },
       include: { regions: true },
     });
   }
 
   @Query(() => [Map])
-  async findRegionsByGame(
+  async findMapsByGame(
     @Args("slug") slug: string,
     @Args({
       name: "orderBy",

@@ -1,3 +1,4 @@
+import { gql } from "@apollo/client";
 import { remark } from "remark";
 import html from "remark-html";
 import { Region } from "@/__generated__/graphql";
@@ -6,10 +7,8 @@ import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
-  FETCH_GAME_REGION_DETAILS,
-  FETCH_LOCATIONS_BY_MAP,
-  FETCH_REGION_BY_GAME,
-  FETCH_REGION_DETAILS,
+  FETCH_GAME_MAP_DETAILS,
+  FETCH_MAP_DETAILS,
   GET_APP_USER,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
@@ -38,24 +37,24 @@ export async function removeFromUserFound(input: {
   return data.removeFoundLocation;
 }
 
-export async function getRegionDetails(slug: string) {
+export async function getMapDetails(slug: string) {
   const { data } = await getClient().query({
-    query: FETCH_REGION_DETAILS,
+    query: FETCH_MAP_DETAILS,
     variables: { slug },
   });
 
-  return data.regionDetails;
+  return data.mapDetails;
 }
 
-export async function fetchGameRegionDetails(slug: string) {
+export async function fetchGameMapDetails(slug: string) {
   const { data } = await getClient().query({
-    query: FETCH_GAME_REGION_DETAILS,
+    query: FETCH_GAME_MAP_DETAILS,
     variables: { slug },
   });
 
   const details = data.fetchGameByMap;
-  const region = details.maps?.find((r: Region) => r.slug === slug);
-  const otherRegions = details.maps?.filter((r: Region) => r.slug !== slug);
+  const map = details.maps?.find((r: Region) => r.slug === slug);
+  const otherMaps = details.maps?.filter((r: Region) => r.slug !== slug);
 
   const groups = details.groups;
   const processedGroups = [];
@@ -76,12 +75,7 @@ export async function fetchGameRegionDetails(slug: string) {
   }
 
   const processedLocations = [];
-  const { data: res } = await getClient().query({
-    query: FETCH_LOCATIONS_BY_MAP,
-    variables: { mapSlug: slug },
-  });
-  const locations = res.locations;
-
+  const locations = map.locations;
   for (let i = 0; i < locations.length; i++) {
     const curr = locations[i];
     const processedDesc = await remark()
@@ -93,7 +87,7 @@ export async function fetchGameRegionDetails(slug: string) {
 
   return {
     ...details,
-    maps: [...otherRegions, { ...region, locations: processedLocations }],
+    maps: [...otherMaps, { ...map, locations: processedLocations }],
     groups: processedGroups,
   };
 }
@@ -137,11 +131,20 @@ export async function getMetaData(slug: string) {
   return data.game;
 }
 
-export async function getRegionsByGame(slug: string) {
+export async function getMapsByGame(slug: string) {
   const { data } = await getClient().query({
-    query: FETCH_REGION_BY_GAME,
+    query: gql`
+      query FindMapByGame($slug: String!) {
+        findMapsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
+          gameSlug
+          slug
+          thumbnailUrl
+          title
+        }
+      }
+    `,
     variables: { slug },
   });
 
-  return data.findRegionsByGame;
+  return data.findMapsByGame;
 }

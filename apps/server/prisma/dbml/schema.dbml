@@ -59,6 +59,8 @@ Table Region {
   locations Location [not null]
   mapSlug String [not null]
   map Map [not null]
+  centerX Decimal
+  centerY Decimal
 }
 
 Table Group {
@@ -67,6 +69,7 @@ Table Group {
   categories Category [not null]
   gameSlug String [not null]
   game Game [not null]
+  expandable Boolean [not null, default: false]
 }
 
 Table Category {
@@ -78,6 +81,7 @@ Table Category {
   group Group
   locations Location [not null]
   isChecklist Boolean [not null, default: false]
+  defaultHidden Boolean [not null, default: false]
 }
 
 Table Location {

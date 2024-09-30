@@ -6,7 +6,6 @@ import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
-import { MarkersModule } from "./markers/marker.module";
 import { UsersModule } from "./users/users.module";
 import { MapsModule } from "./regions/maps.module";
 
@@ -36,7 +35,6 @@ import { MapsModule } from "./regions/maps.module";
 
     GamesModule,
     MapsModule,
-    MarkersModule,
     UsersModule,
   ],
   controllers: [],

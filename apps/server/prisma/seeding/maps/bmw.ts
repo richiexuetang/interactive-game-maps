@@ -1685,6 +1685,38 @@ export const bmw = {
           title: "Key Items",
           locations: [
             {
+              mapSlug: "chapter-3",
+              title: "Captain Wise-Voice Spirit",
+              description:
+                "**Location:** Reward for defeating [Captain Wise-Voice](http://localhost:3000/map/chapter-3?marker=397823)",
+              latitude: "0.72018923865548",
+              longitude: "-0.61387448070954",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Captain Void-Illusion Spirit",
+              description:
+                "**Location:** Reward for defeating [Captain Void-Illusion](http://localhost:3000/map/chapter-3?marker=397835)",
+              latitude: "1.09760812327440",
+              longitude: "-0.61876416206360",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Captain Kalpa-Wave Spirit",
+              description:
+                "**Location:** Reward for defeating [Captain Kalpa-Wave](http://localhost:3000/map/chapter-3?marker=397836)",
+              latitude: "1.11762707224730",
+              longitude: "-0.62518537044522",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Captain Lotus-Vision Spirit",
+              description:
+                "**Location:** Reward for defeating [Captain Lotus-Vision](http://localhost:3000/map/chapter-3?marker=397822)\n\n**Note:** Not a useable seal, but rather a key item.",
+              latitude: "0.65464860317610",
+              longitude: "-0.60185551643272",
+            },
+            {
               mapSlug: "chapter-1",
               title: "Skandha of Form",
               description:
@@ -2222,16 +2254,16 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Civet Sergeant Spirit",
               description: "Reward for defeating the Elite Civet Sergeant",
-              latitude: "0.62288127700049",
-              longitude: "-0.98338860573688",
+              latitude: 0.622881277,
+              longitude: -0.9833886057,
             },
             {
               mapSlug: "chapter-2",
               title: "Rat Governor Spirit",
               description:
                 "**Location:** Located directly in front of the [meditation spot](http://localhost:3000/map/chapter-2?marker=87).\n\nDrops from the [Elite Rat Governor](http://localhost:3000/map/chapter-2?marker=430)",
-              latitude: "0.80878452422783",
-              longitude: "-0.83842045718052",
+              latitude: 0.80878452,
+              longitude: -0.83842,
             },
             {
               mapSlug: "chapter-2",
@@ -2241,19 +2273,15 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-3",
-              title: "Captain Lotus-Vision Spirit",
-              description:
-                "**Location:** Reward for defeating [Captain Lotus-Vision](http://localhost:3000/map/chapter-3?marker=397822)\n\n**Note:** Not a useable seal, but rather a key item.",
-              latitude: "0.65464860317610",
-              longitude: "-0.60185551643272",
+              title: "Falcon Hermit Spirit",
+              latitude: "0.87558109809464",
+              longitude: "-0.51274180412136",
             },
             {
               mapSlug: "chapter-3",
-              title: "Captain Wise-Voice Spirit",
-              description:
-                "**Location:** Reward for defeating [Captain Wise-Voice](http://localhost:3000/map/chapter-3?marker=397823)",
-              latitude: "0.72018923865548",
-              longitude: "-0.61387448070954",
+              title: "Apramana Bat Spirit",
+              latitude: 0.96,
+              longitude: -0.7,
             },
             {
               mapSlug: "chapter-3",
@@ -2278,22 +2306,6 @@ export const bmw = {
                 "**Location:** Reward for defeating [Non-Able](http://localhost:3000/map/chapter-3?marker=397833)",
               latitude: "1.07141870093590",
               longitude: "-0.62698321302531",
-            },
-            {
-              mapSlug: "chapter-3",
-              title: "Captain Void-Illusion Spirit",
-              description:
-                "**Location:** Reward for defeating [Captain Void-Illusion](http://localhost:3000/map/chapter-3?marker=397835)",
-              latitude: "1.09760812327440",
-              longitude: "-0.61876416206360",
-            },
-            {
-              mapSlug: "chapter-3",
-              title: "Captain Kalpa-Wave Spirit",
-              description:
-                "**Location:** Reward for defeating [Captain Kalpa-Wave](http://localhost:3000/map/chapter-3?marker=397836)",
-              latitude: "1.11762707224730",
-              longitude: "-0.62518537044522",
             },
             {
               mapSlug: "chapter-3",
@@ -2376,11 +2388,180 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-4",
-              title: "Elite Beetle Captain Spirit",
+              title: "Lantern Holder Spirit",
+              description:
+                "**Location:** Reward for defeating [Lantern Holder](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=402355)",
+              latitude: "0.82795383689525",
+              longitude: "-0.80425011812932",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Beetle Captain Spirit",
               description:
                 "**Location:** Reward for defeating [Elite Beetle Captain](http://localhost:3000/map/chapter-4?marker=401918)",
               latitude: "0.85871932005649",
               longitude: "-0.99811642426241",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Elder Amourworm Spirit",
+              description:
+                "Location: First off, you need to defeat the Elder Amourworm boss near the Verdure Bridge. \n\nThen, once you have access to the Ruyi Scroll keeper shrine, you'll notice a garden plot where the Proto Amourworm can grow. \n\nFeed it three Rice Cocoons from egg sacs in the Webbed Hollow, and it will turn into a blue flame that you can acquire.",
+              latitude: 0.75,
+              longitude: -0.1,
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Centipede Guai Spirit",
+              latitude: "0.52750696553285",
+              longitude: "-0.95432777354858",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Puppet spider Spirit",
+              description:
+                "Under the bridge via secret cave (blocked by clawed cocoon)",
+              latitude: "0.71588991666725",
+              longitude: "-0.95595315886294",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Scorpion Prince Spirit",
+              description:
+                "Location: Reward for defeating the Scorpion Prince.",
+              latitude: "0.73369554129467",
+              longitude: "-0.96969902515380",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Snake Sheriff Spirit",
+              latitude: "0.67427032469078",
+              longitude: "-0.61545968055458",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Snake Herbalist Spirit",
+              latitude: "0.80810366500317",
+              longitude: "-0.42033313919063",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Verdant Glow Spirit",
+              latitude: "0.77528494940721",
+              longitude: "-0.39424985647213",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Puppet Tick Spirit",
+              latitude: "0.53847652638875",
+              longitude: "-1.01095039122700",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Dragonfly Guai Spirit",
+              latitude: "0.56829712769218",
+              longitude: "-0.88453620672320",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Beetle Commander Spirit",
+              latitude: "0.61043259219419",
+              longitude: "-0.67819694912342",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Snake Herbalist Spirit",
+              latitude: "0.71775593106865",
+              longitude: "-0.63057457921010",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Fungiwoman Spirit",
+              latitude: 0.66,
+              longitude: -0.6,
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Flint Chief Spirit",
+              description:
+                "**Location:** Reward for defeating [Flint Chief](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=397880)",
+              latitude: "0.64703162103227",
+              longitude: "-0.38524031639150",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Father Of Stones Spirit",
+              description:
+                "**Location:** Reward for defeating [Father Of Stones](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=397878)",
+              latitude: "0.48542574456138",
+              longitude: "-1.02194845676390",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Charface Spirit",
+              description: "**Location:** ??",
+              latitude: "0.52953562265984",
+              longitude: "-0.95780611038228",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Earth Rakshasa Spirit",
+              description:
+                "**Location:** Defeat [Elite Earth Rakshasa](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=402241)",
+              latitude: "0.66579512376310",
+              longitude: "-0.39136648178123",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Turtle Treasure Spirit",
+              latitude: "0.57748855986299",
+              longitude: "-0.31067414398845",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Top Takes Bottom + Bottom Takes Top Spirit",
+              description:
+                "**Location:** After the [Top Takes Bottom + Bottom Takes Top](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=397885) guai falls from Cliff, head back here to retrieve spirit.",
+              latitude: "0.80707709722914",
+              longitude: "-0.32065607981028",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Flint Vanguard Spirit",
+              description:
+                "**Location:** Reward for defeating [Flint Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=401781)",
+              latitude: "0.72628218065721",
+              longitude: "-0.51773229160148",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Mother Of Flamlings Spirit",
+              description:
+                "**Location:** Reward for defeating [Mother Of Flamlings](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=401782)",
+              latitude: "0.66216798120391",
+              longitude: "-0.47693863882023",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Misty Cloud + Cloudy Mist Spirit",
+              description:
+                "**Location:** Reward for defeating [Cloudy Mist + Misty Cloud](https://mapgenie.io/black-myth-wukong/maps/chapter-5?locationIds=397881)",
+              latitude: "0.67780419651648",
+              longitude: "-0.32335660782311",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Bull governor Spirit",
+              latitude: "0.90579789522901",
+              longitude: "-1.00398838519940",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Nine-Capped Linzhi Spirit",
+              description:
+                "**Location:** This elite spirit in Black Myth: Wukong can be found at the back of the Ashen Pass III shrine. The small area becomes accessible once the metal ball has rolled to destroy the wall there. Interact with a mushroom to reveal this foe, and watch out for the spores that stick to your character. Note that it also drops the Earth Spirit Cap armor.",
+              latitude: 0.83,
+              longitude: -0.7,
             },
           ],
         },
@@ -4405,7 +4586,7 @@ export const bmw = {
               mapSlug: "chapter-4",
               title: "Elder Amourworm",
               description:
-                "**Location:** Webbed Hollow - The Verdure Bridge\n  \n\n**Reward:** ??",
+                "**Location:** Webbed Hollow - The Verdure Bridge\n  \n\n**Reward:** Spirit",
               latitude: "0.73522695681211",
               longitude: "-0.99915504455345",
             },
