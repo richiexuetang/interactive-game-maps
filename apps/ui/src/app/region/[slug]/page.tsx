@@ -1,4 +1,4 @@
-import { Region } from "@/__generated__/graphql";
+import { Map } from "@/__generated__/graphql";
 import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
 import { Metadata } from "next";
 import { getFontClassName } from "@/lib/font";
@@ -88,14 +88,14 @@ export default async function RegionPage({
               >
                 {params.slug.replaceAll("-", " ").toUpperCase() + " MAPS"}
               </Typography>
-              {regions.map(({ slug, thumbnailUrl, title }: Region) => (
+              {regions.map(({ slug, thumbnailUrl, title }: Map) => (
                 <Link key={slug} href={`/map/${slug}`}>
                   <Card sx={{ maxWidth: 350 }}>
                     <CardActionArea>
                       <CardMedia
                         component="img"
                         height="140"
-                        image={process.env.CDN_BASE_URL + thumbnailUrl}
+                        image={process.env.CDN_BASE_URL ?? "" + thumbnailUrl}
                         alt={title}
                       />
                       <CardContent
@@ -133,7 +133,7 @@ export default async function RegionPage({
                 {params.slug.replaceAll("-", " ").toUpperCase() + " MAPS"}
               </Typography>
               <div className="flex gap-10 p-6 flex-wrap content-center justify-center">
-                {regions.map(({ slug, title }: Region) => (
+                {regions.map(({ slug, title }: Map) => (
                   <Link key={slug} href={`/map/${slug}`}>
                     <Card sx={{ maxWidth: 350 }}>
                       <CardActionArea>

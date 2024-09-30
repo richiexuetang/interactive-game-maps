@@ -22,13 +22,13 @@ import {
 } from "@/lib/graphql/constants";
 import { useMutation } from "@apollo/client";
 import Tooltip from "@mui/material/Tooltip";
-import { MarkerLocation } from "@/__generated__/graphql";
+import { Location } from "@/__generated__/graphql";
 import { Box, Checkbox, FormControlLabel, Modal, styled } from "@mui/material";
 import Image from "next/image";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 
 interface PopupCardProps {
-  marker: MarkerLocation;
+  marker: Location;
 }
 
 const CardContentTypography = styled(Typography)(() => ({

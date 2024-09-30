@@ -2,7 +2,7 @@ import * as RL from "react-leaflet";
 import * as L from "leaflet";
 import { useEffect, useRef } from "react";
 import { useParams, useSearchParams } from "next/navigation";
-import { MarkerLocation } from "@/__generated__/graphql";
+import { Location } from "@/__generated__/graphql";
 import { triggeredMarkerIdAtom } from "@/store/marker";
 import { useAtom, useAtomValue } from "jotai";
 import { gameSlugAtom } from "@/store";
@@ -15,7 +15,7 @@ import {
 } from "@/lib/graphql/constants";
 
 interface MarkerProps {
-  marker: MarkerLocation;
+  marker: Location;
 }
 
 export const Marker = ({ marker }: MarkerProps) => {
