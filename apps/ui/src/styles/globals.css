@@ -1411,11 +1411,18 @@
   color: var(--text-color)
 }
 
+.MuiInputBase-root {
+  color: var(--accent-color) !important;
+  font-family: var(--text-font) !important;
+}
+
+.Mui-focused {
+  border: 1px solid var(--sidebar-border-color) !important;
+}
+
 @layer base {
   :root {
     --app-background: #11151C;
     --marker-tooltip-background: var(--sidebar-background-color);
   }
-
-
 }

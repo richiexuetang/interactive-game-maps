@@ -3925,15 +3925,38 @@ export const bmw = {
               longitude: "-0.95784429397480",
             },
             {
+              mapSlug: "chapter-4",
+              title: "Tiger Tendon Belt",
               description:
-                '**Location**:击败浪波 波<span style="font-family: var(--van-base-font);">掉落</span>  攻击无视对手的四灾抗性 ',
+                "**Location:** Random drop from snake sheriff \n\n**Effect:** ??",
+              latitude: 0.73469055914643,
+              longitude: -0.63869833946271,
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Celestial Registry Tablet",
+              description: "",
+              latitude: 0.73469055914643,
+              longitude: -0.63869833946271,
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Goldflora Hairpin",
+              description:
+                "**Location**: Bought from Man-in-Stone **Effect:** Increases the amount of spiritual essence gained from killing enemies by 10% (note: this is the money used for purchasing items, not experience)",
+              latitude: 0.74,
+              longitude: -0.69,
+            },
+            {
               mapSlug: "chapter-6",
-              title: "Celestian Birth Stone Fragment",
+              description:
+                "**Location**:DefeatLan-Baw-Baw\n\n**Effect**: gnores the enemys attribute resistance",
+              title: "Celestial Birthstone Fragment",
               longitude: -0.5123206739229147,
               latitude: 0.98080270686674,
             },
             {
-              description: "**Location**:打死跳浪蛟获得,已获得多周目可忽略",
+              description: "**Location**: 打死跳浪蛟获得,已获得多周目可忽略",
               mapSlug: "chapter-6",
               title: "Waterward Orb",
               longitude: -0.4477132388737459,
@@ -4009,14 +4032,6 @@ export const bmw = {
               description: "Transformation Hoarfrost",
               latitude: "1.13551796654700",
               longitude: "-0.61381572592032",
-            },
-            {
-              mapSlug: "chapter-2",
-              title: "Azure Dust",
-              description:
-                "**Location:** Reward for defeating the [Man-In-Stone](http://localhost:3000/map/chapter-2?marker=397640)",
-              latitude: "0.72961087002729",
-              longitude: "-0.66460311412939",
             },
           ],
         },

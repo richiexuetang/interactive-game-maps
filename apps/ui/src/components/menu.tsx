@@ -51,6 +51,13 @@ const SidebarDivider = styled(Divider)(() => ({
   borderColor: "var(--border-color)",
 }));
 
+const StyledSelect = styled(Select)(() => ({
+  ".MuiInputBase-root": {
+    color: "var(--text-color) !important",
+    fontFamily: "var(-text-font) !important",
+  },
+}));
+
 export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
   const router = useRouter();
   const params = useParams<{ slug: string }>();
@@ -123,7 +130,7 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
               <SidebarDivider orientation="horizontal" flexItem />
 
               <FormControl fullWidth>
-                <Select
+                <StyledSelect
                   value={params.slug}
                   onChange={(event) =>
                     router.push(`/map/${event.target.value}`)
@@ -134,7 +141,7 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                       {region.title}
                     </MenuItem>
                   ))}
-                </Select>
+                </StyledSelect>
               </FormControl>
 
               <SidebarDivider orientation="horizontal" flexItem />
