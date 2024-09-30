@@ -3803,89 +3803,6 @@ export const eldenRing = {
           ],
         },
         {
-          title: "Minor Erdtree",
-          locations: [
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree (Weeping Peninsula)",
-              description: "",
-              latitude: "0.57973751606458",
-              longitude: "-0.71663394570334",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              latitude: "0.62340147097464",
-              longitude: "-0.68943366408359",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/406cbd17-cdb1-45c4-aca0-a6bb67e7a060.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              description: "",
-              latitude: "0.69477166708273",
-              longitude: "-0.82273140549688",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              description: "",
-              latitude: "0.66267592430258",
-              longitude: "-0.67408606410160",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              description: "",
-              latitude: "0.65975385217176",
-              longitude: "-0.62516793608708",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              latitude: "0.80364929888214",
-              longitude: "-0.70043608546052",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree (Altus Plateau)",
-              description: "",
-              latitude: "0.80096198893740",
-              longitude: "-0.73921412229683",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              description: "",
-              latitude: "0.74156314939681",
-              longitude: "-0.76863661408510",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree (Mt Gelmir)",
-              latitude: "0.81144609784870",
-              longitude: "-0.78090186320858",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              latitude: "0.84004096112322",
-              longitude: "-0.64150200177022",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Minor Erdtree",
-              latitude: "0.83610517183255",
-              longitude: "-0.61856446107084",
-            },
-          ],
-        },
-        {
           title: "Portal",
           locations: [
             {
@@ -7196,7 +7113,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=282",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -7801,7 +7718,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=396",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -7829,7 +7746,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=469",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -8698,7 +8615,7 @@ export const eldenRing = {
         },
         {
           title: "Stake of Marika",
-          icon: "stake_of_marika",
+          info: "Upon dying within the vicinity of a Stake of Marika, you may choose to respawn there instead of a Site of Grace.",
           locations: [
             {
               mapSlug: "the-lands-between",
@@ -12997,7 +12914,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/owKtKoKHlUk?t=31",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -13011,7 +12928,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/owKtKoKHlUk?t=51",
-                  type: "youtube",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/10f2946c-b528-4681-bafd-fc2ed00cc440.jpg",
@@ -13029,7 +12946,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/owKtKoKHlUk?t=164",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -13043,7 +12960,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/owKtKoKHlUk?t=217",
-                  type: "youtube",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/70fbf236-5853-4e29-9873-5ff8341a3061.png",
@@ -13061,7 +12978,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/owKtKoKHlUk?t=116",
-                  type: "youtube",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/d34081da-d350-4bb2-8df3-5a3156875e47.jpg",
@@ -13314,125 +13231,6 @@ export const eldenRing = {
                 "**Painting Location:** Deep within the Keep. From the [Ladder](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381748), follow the stone ledge until the waterfall. Enter the waterfall and climb down the ladder there.  \n**Reward:** [Rock Heart](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382572)  \n\nAfter interacting with the painting, go to the Reward's location and interact with the ghost. This ghost will not spawn until you have interacted with the painting.",
               latitude: "0.71228535020302",
               longitude: "-0.70098943968139",
-            },
-          ],
-        },
-        {
-          title: "Perfume Bottle",
-          icon: "perfume_bottle",
-          locations: [
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "Located on the corpse atop the wall. Accessible through the second poison swamp area ladder.",
-              latitude: "0.81221676372456",
-              longitude: "-0.75809016823865",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/fddd8cfc-16ad-4a10-838e-3c8515ed90a8.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "**Location:** Second floor of the tower after, climbing the ladder you'll find the chest containing the bottle.",
-              latitude: "0.77594600865019",
-              longitude: "-0.69448991120132",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/7b455543-03ba-4741-b556-074654f266e8.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "**Location:** Located on a  corpse being guarded by 2 enemies.",
-              latitude: "0.77552498512969",
-              longitude: "-0.68775057792590",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/761d8a37-6de3-4b3b-98b1-428164b44aa3.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "**Location:** [Perfumer's Ruins](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165885) - On the corpse in the main building.",
-              latitude: "0.78598865201924",
-              longitude: "-0.79167813062699",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/62d9b727-f0cf-4c42-95c8-61eeaf00c601.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description: "On a corpse in the camp",
-              latitude: "0.78429006113922",
-              longitude: "-0.75547160950126",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume bottle",
-              description: "In a chest inside perfumer's grotto",
-              latitude: "0.78066769501224",
-              longitude: "-0.73320464360413",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/9eda69ae-a8a9-432c-8c39-033f769bc7a3.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "**Location:** Found on the corpse with the [Traveler's Set](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166180)",
-              latitude: "0.64134569731986",
-              longitude: "-0.65748453140344",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/76fea299-f84c-4208-9185-0dae422f533e.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description: "**Location:** On a ledge near the Giant Miranda.",
-              latitude: "0.78603156332281",
-              longitude: "-0.79266329355022",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "**Location:** On a dead body inside [Volcano Manor](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164405) - First door on the right in the hallway west of the [Volcano Manor](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164575) site of grace.",
-              latitude: "0.80404890869482",
-              longitude: "-0.78961417078744",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Perfume Bottle",
-              description:
-                "**Location:** Sold by [Hermit Merchant](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167010) for 2,000 Runes.  \n**Utility:** Used to store crafted pots",
-              latitude: "0.80236598791745",
-              longitude: "-0.71558386087341",
             },
           ],
         },
@@ -13981,7 +13779,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=503",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -13999,7 +13797,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=536",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14013,7 +13811,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=520",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14030,7 +13828,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=555",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14044,7 +13842,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=570",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14058,7 +13856,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=105",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14070,8 +13868,8 @@ export const eldenRing = {
               longitude: "-0.73379069566778",
               media: [
                 {
-                  url: "https://www.youtube.com/watch?v=-0pX7sE3Als&t=59s",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=-0pX7sE3Als&t=59s",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/c017581e-2d4f-445e-9bb7-1a3d19e08b14.jpg",
@@ -14089,7 +13887,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=125",
-                  type: "youtube",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/e7d9d878-83a1-4c7d-aa2b-f92021fedca8.jpg",
@@ -14110,7 +13908,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=169",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14126,7 +13924,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=194",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14144,7 +13942,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=263",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14162,7 +13960,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=725",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14180,7 +13978,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=655",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14194,7 +13992,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=739",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14211,7 +14009,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=770",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14225,7 +14023,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=781",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14239,7 +14037,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=451",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14253,7 +14051,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=895",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14267,7 +14065,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1033",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14281,7 +14079,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=222",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14295,7 +14093,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=324",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14313,7 +14111,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=344",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14327,7 +14125,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=487",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14341,7 +14139,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=369",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14355,7 +14153,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=614",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14373,7 +14171,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=859",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14387,7 +14185,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=915",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14401,7 +14199,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=979",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14419,7 +14217,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=674",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14433,7 +14231,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=818",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14450,7 +14248,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1099",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14468,7 +14266,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=942",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14486,7 +14284,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=964",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14504,7 +14302,7 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1141",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14517,7 +14315,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1223",
-                  type: "youtube",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/e078c59d-e1ba-43eb-9700-c8d81aa75864.png",
@@ -14535,7 +14333,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1153",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14548,7 +14346,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1251",
-                  type: "youtube",
+                  type: "video",
                 },
                 {
                   url: "https://media.mapgenie.io/storage/media/e928f5a6-077a-4b92-8fb5-b765a2f38ca1.png",
@@ -14565,8 +14363,8 @@ export const eldenRing = {
               longitude: "-0.72124667465630",
               media: [
                 {
-                  url: "https://www.youtube.com/watch?v=-0pX7sE3Als&t=80s",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=-0pX7sE3Als&t=80s",
+                  type: "video",
                 },
               ],
             },
@@ -14580,7 +14378,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=142",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14594,7 +14392,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=589",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14608,7 +14406,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1016",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -14626,104 +14424,9 @@ export const eldenRing = {
                 },
                 {
                   url: "https://youtu.be/-0pX7sE3Als?t=1077",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
-            },
-          ],
-        },
-        {
-          title: "Ritual Pot",
-          icon: "ritual_pot",
-          locations: [
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "**Location:** In a chest, at the end of the room with the Living Jar.",
-              latitude: "0.71198344632609",
-              longitude: "-0.80272078514162",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/6f38623a-6509-4c52-ba15-b53788a92f3c.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "**Location:** On a corpse on the slightly raised ruins beside the columns",
-              latitude: "0.67762419365381",
-              longitude: "-0.77517449855736",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/e0b5b4cb-7cc2-495e-b8c3-8ebafbe10c8a.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description: "On top of an inert Jar",
-              latitude: "0.70188588455845",
-              longitude: "-0.75633457731058",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "On roof above Cracked Pot. Use other roof that had Smithing Stone to get over.",
-              latitude: "0.70345601334316",
-              longitude: "-0.75698912143778",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "**Location:** In the little room next to the one with Long-Tongued Imps in the mirrored version of the tomb, guarded by a Giant Jar.",
-              latitude: "0.79146554942716",
-              longitude: "-0.68667255963794",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "**Location:** On a corpse in Subterranean Shunning Grounds, at the end of a sewer pipe in a room full of Jar. Before the Forsaken Depths elevator.",
-              latitude: "0.77886561548208",
-              longitude: "-0.69456124576416",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "In a room with a giant pot enemy, there is a floor plate before the room that triggers an arrow spitting trap.",
-              latitude: "0.80806896145188",
-              longitude: "-0.63513353256974",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/b8b73b64-52cc-4ed2-b39b-e0e6e9e46194.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "**Location:** Sold by [Pidia, Carian Servent](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167407) for 1,500 Runes  \n**Utility:** Used to store crafted pots.",
-              latitude: "0.76781299261228",
-              longitude: "-0.80709144473030",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Ritual Pot",
-              description:
-                "**Location:** Sold by [Isolated Merchant (Dragonbarrow)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165872) for 3,000 Runes  \n**Utility:** Used to store crafted pots.",
-              latitude: "0.66530833567124",
-              longitude: "-0.66332772374150",
             },
           ],
         },
@@ -16040,674 +15743,6 @@ export const eldenRing = {
     {
       title: "Items",
       categories: [
-        {
-          title: "Cerulean Scarab",
-          icon: "cerulean_scarab",
-          locations: [
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "In the right side of the blockade, between some rocks.",
-              latitude: "0.75963164088388",
-              longitude: "-0.77798545360582",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/20752274-8542-4438-b553-8db8df0f808d.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description: "",
-              latitude: "0.64213558442571",
-              longitude: "-0.64557303752398",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/ab740d26-b109-4980-95c1-d5dd90a562ef.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              latitude: "0.38804033851449",
-              longitude: "-0.80281287632997",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/69bb746f-65d0-47d2-b17c-d18184945741.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** North of Sellia Evergaol near a burning wall.",
-              latitude: "0.65167727829774",
-              longitude: "-0.65299701837702",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/0d7866c1-1ebe-48ba-96ef-0fef36d17de4.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** On the little cliff north-east from Seluvis Rise.",
-              latitude: "0.76792697625878",
-              longitude: "-0.80805033445483",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/8650b417-00b8-4eee-94dc-0607d21f2bb1.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              latitude: "0.78625626950820",
-              longitude: "-0.65499431799270",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** On the cliff north of Frenzied Flame Village.",
-              latitude: "0.74983534538021",
-              longitude: "-0.77303225593027",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/2be5edde-cf17-44a0-ab49-0fe9ee48260a.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** In a corridor west of the Minor Erdtree.",
-              latitude: "0.74506089679431",
-              longitude: "-0.77278823482951",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/2a3ec28c-a007-46fe-b49a-c6fc89727a8e.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** South of Carian Study Hall, east from the fallen ruin.",
-              latitude: "0.69943729161302",
-              longitude: "-0.75812995964054",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/6a909746-1fd7-470d-b63c-7ff8deb27cb7.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description: "**Location:** Many scarabs flying around the area",
-              latitude: "0.71269283578142",
-              longitude: "-0.81619048595912",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "3x Cerulean Scarab",
-              description: "Outside the entrance to the cave",
-              latitude: "0.71876842031092",
-              longitude: "-0.81153601585172",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description: "At the arrival point of the portal",
-              latitude: "0.83822419967407",
-              longitude: "-0.63937169584852",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean & Crimson Scarab",
-              description: "**Location:** In front of the Minor Erdtree.",
-              latitude: "0.80130730614107",
-              longitude: "-0.73878465270727",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/3daf9781-a99e-4c7d-a041-9adc074c2c52.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** Above the second top pillar of the stairs, hidden in some bushes.",
-              latitude: "0.77948949409094",
-              longitude: "-0.74169416786739",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/b0bab280-d4c6-4ba4-bd9e-d4d6e30e163d.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** Above the first down pillar of the stairs, next to the Ballista.",
-              latitude: "0.77696744601492",
-              longitude: "-0.74729758563066",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/4f3e91ce-5545-43ae-92f0-aed26aa01773.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** Flying in front of a big rock with barricades.",
-              latitude: "0.83247073406480",
-              longitude: "-0.61144155890415",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "4x Cerulean Tear Scarab",
-              description: "Scattered around the pillars",
-              latitude: "0.82121854859729",
-              longitude: "-0.66083154684634",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              latitude: "0.84001570700910",
-              longitude: "-0.64693687365906",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description: "**Location:** Flying above a pond on the rampart.",
-              latitude: "0.89598635145896",
-              longitude: "-0.64137894530410",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description:
-                "**Location:** On the branch near two Miranda Sprout.",
-              latitude: "0.87636472581559",
-              longitude: "-0.63865551044651",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Cerulean Scarab",
-              description: "Under a tree next to a Giant Miranda Sprout.",
-              latitude: "0.70273723544911",
-              longitude: "-0.80616563114293",
-            },
-          ],
-        },
-        {
-          title: "Crimson Scarab",
-          icon: "teardrop_scarab",
-          locations: [
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "**Location:** North side of the ruin.",
-              latitude: "0.62460973447422",
-              longitude: "-0.72154238820173",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/ce186609-210d-4685-a698-5081f04a269a.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.61484706477890",
-              longitude: "-0.69914057850880",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/86a43cac-3c13-4ece-884c-e3010604ed4d.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "On the small grassy outcrop with the large tree at the very rear of the castle. Drop down onto the ceiling of the small building from the bridge above.",
-              latitude: "0.55562966386458",
-              longitude: "-0.71524322033000",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/5ba3c81d-4efd-4226-9870-36f8b1d6081b.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "On the cliff wall, will need a ranged attack of some sort to hit",
-              latitude: "0.63026081001000",
-              longitude: "-0.72686254978228",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/64616d05-0247-49a1-b839-cdb235149a98.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "Crimson scarab. On the south side of the Erdtree.",
-              latitude: "0.57877062913097",
-              longitude: "-0.71597278118196",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/b10dd0f4-1c87-491b-83cf-c9df428c5aea.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Teardrop Scarab",
-              latitude: "0.62983972865506",
-              longitude: "-0.70622965693536",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/445e55e2-c6c0-4f41-b4b8-00bebc007654.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "5x Teardrop Scarab",
-              description: "Around the base of the Erdtree",
-              latitude: "0.62393385792113",
-              longitude: "-0.68944305181591",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/70274cfc-b8f8-46f0-a38a-cc2e50077192.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** Giant Crimson Scarab on the edge of the swamp.",
-              latitude: "0.64387730320389",
-              longitude: "-0.65229121415147",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/1cf7f5c0-f14c-456b-9313-2314ed9e9429.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Teardrop Scarab",
-              description:
-                "**Location:** North of the Weeping Evergaol in a little path to the beach.",
-              latitude: "0.58864466918133",
-              longitude: "-0.73120772838561",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/41e714e6-5728-4890-add4-4f58bfe6c764.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "",
-              latitude: "0.63837667709102",
-              longitude: "-0.69130852818452",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/7c156e69-5c9e-400e-b15c-bf34ab9832a9.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Teardrop Scarab",
-              description: "At end of stone bridge",
-              latitude: "0.68009567577162",
-              longitude: "-0.80724298953791",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Teardrop Scarab",
-              description: "Surrounded by land octopus.",
-              latitude: "0.57414941690448",
-              longitude: "-0.72260051965779",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "At the edge of the cliff",
-              latitude: "0.64620153020655",
-              longitude: "-0.69091558456373",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/e4ccf49d-fc2f-4591-9876-59c1b40a2a4a.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.29358881050180",
-              longitude: "-0.67529731353864",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Teardrop Scarab",
-              latitude: "0.56353316074207",
-              longitude: "-0.71293963657047",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/f475a944-0eac-4930-b820-771b0b3d1741.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** Near some trees behind a big flat rock.",
-              latitude: "0.69703707545419",
-              longitude: "-0.75800763864004",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/d8db116f-5131-417b-8199-ea8799815014.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.63822784426510",
-              longitude: "-0.67607313749002",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.29937667960678",
-              longitude: "-0.66363202879290",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** On a cliff left to the massive white rock north of Greyoll position.",
-              latitude: "0.65969746317668",
-              longitude: "-0.63550015616150",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/44e896f6-f20c-4e8c-9346-c63b9d94bf17.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "**Location:** On the path east of Hermit's Shack.",
-              latitude: "0.79136331935993",
-              longitude: "-0.79077579803624",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/cd9867ce-8e23-4613-8bd5-d024de1c694f.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.70031700048852",
-              longitude: "-0.80559224384075",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** At the south-west of the courtyard of Redmane Castle, near the two Lion Guardian.",
-              latitude: "0.61109729326877",
-              longitude: "-0.62657227130376",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/9af2ae44-deb1-4b1f-af30-3de6cc5b1b7b.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab & Cerulean Scarab",
-              description:
-                "**Location:** North-east of a Brazier, with a Red Wolf patrolling nearby.",
-              latitude: "0.29291734398272",
-              longitude: "-0.68752403819474",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/8d12bb1d-3f34-4431-8e7f-e0a48c969bc8.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.78427297813832",
-              longitude: "-0.65542707675431",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** On a collapsed building in the entrance path to Nokron.",
-              latitude: "0.27140275846608",
-              longitude: "-0.69828131621182",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/57846614-9f37-466d-8473-5179dae081e3.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "Hanging from a tree.",
-              latitude: "0.80965923700317",
-              longitude: "-0.63895338743524",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/6faa85d8-6aae-44b9-b014-30999848862c.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** On a cliffside left of the camp before the Grand Lift of Dectus.",
-              latitude: "0.76243690203215",
-              longitude: "-0.78214838750620",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/38f8871b-a231-4106-9917-176317a9dc5f.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** Behind the altar next to Black Whetblade.",
-              latitude: "0.28199156522291",
-              longitude: "-0.68367362022451",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/6228c61b-dc01-4955-8de2-a35fa6f8ec12.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "At the arrival point of the portal",
-              latitude: "0.83760199372466",
-              longitude: "-0.63992959532376",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** Right of the Golden Seed behind a flat rock.",
-              latitude: "0.80259802891368",
-              longitude: "-0.77774812209006",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/e80996fb-ba00-4bf7-bbf7-1bb1fd03f1ba.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** On a ledge to the east of the road after the two Crystalians.",
-              latitude: "0.67321559031048",
-              longitude: "-0.82286914150785",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/64a3b273-dac6-412b-b0e8-c732fbb38d35.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** Above the second down pillar of the stairs.",
-              latitude: "0.77705344104548",
-              longitude: "-0.74217985569598",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/f8186c78-a7fe-4c27-8463-e16e25a2b8e3.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** Above the first top pillar of the stairs, next to the Ballista.",
-              latitude: "0.77933930428394",
-              longitude: "-0.74750919701114",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/63d53daa-2f9e-4e0c-9ae9-5a0dfa3c51f4.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "**Location:** Rolling around some barricades.",
-              latitude: "0.83292137807504",
-              longitude: "-0.61071191755860",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "3x Crimson Tear Scarab",
-              description: "Scattered around the pillars.",
-              latitude: "0.82070361733017",
-              longitude: "-0.66108903891168",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "2x Crimson Scarab",
-              latitude: "0.84074518938627",
-              longitude: "-0.64704416201937",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "**Location:** Flying inside a small gazebo.",
-              latitude: "0.89318594487669",
-              longitude: "-0.63953305909462",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description:
-                "**Location:** In a corridor of a building, with a Misbegotten.",
-              latitude: "0.87908787807852",
-              longitude: "-0.64264329726200",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              description: "**Location:** Moving along the cliff.",
-              latitude: "0.81556045777934",
-              longitude: "-0.65674875458635",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Crimson Scarab",
-              latitude: "0.64633507459685",
-              longitude: "-0.71258982498935",
-            },
-          ],
-        },
         {
           title: "Crystal Tear",
           icon: "crystal_tear",
@@ -18687,678 +17722,6 @@ export const eldenRing = {
                   type: "image",
                 },
               ],
-            },
-          ],
-        },
-        {
-          title: "Rune Arc",
-          icon: "rune_arc",
-          locations: [
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Last house on the right.",
-              latitude: "0.81551018410831",
-              longitude: "-0.72939187288443",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/4c720773-6940-4226-a7c9-51cec4d90dcb.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "**Location:** In a chest.",
-              latitude: "0.66238492408091",
-              longitude: "-0.66797733307065",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On the root arching over the path, must work your way down the root from above.",
-              latitude: "0.66327267585744",
-              longitude: "-0.67636460065816",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Inside a chest next to Gaol Cave site of Grace.",
-              latitude: "0.63632491414506",
-              longitude: "-0.67253306508042",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "Located on a corpse on a small piece of land in the middle of the swamp.",
-              latitude: "0.64479077779424",
-              longitude: "-0.64678385853682",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/1211b1cb-a481-46b7-aff2-89f9f8a25f1e.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "On the corpse by the cliff",
-              latitude: "0.76075136458373",
-              longitude: "-0.78471779823244",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/d8f7c771-0559-42d3-a668-09e5b88a1905.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Held by the corpse on a chair.",
-              latitude: "0.75618664482833",
-              longitude: "-0.78226894140343",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/23bc23c6-5acf-4f33-a182-331c356ff654.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Behind a secret wall, first chamber with the falling skeletons, immediately on the right after entering the chamber.",
-              latitude: "0.71753384596778",
-              longitude: "-0.80951616167854",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/9c826cb2-b9d2-4071-bff0-c5067658f8d0.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "On the cliff below, protected by a special golem. Need to work your way down the roots and columns from above.",
-              latitude: "0.65777585377344",
-              longitude: "-0.62513843178758",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On the walkway - on a corpse hanging over the edge.",
-              latitude: "0.76600537718041",
-              longitude: "-0.79990035500438",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/3c704bab-146d-49fc-b859-dfc95cd2bb62.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "On some scaffolding behind the Slumbering Wolf's Shack",
-              latitude: "0.66738422504207",
-              longitude: "-0.78442140963216",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/c5c0ebc4-5cc0-461c-888e-6907aa2800af.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Pop the white back of the queen ant",
-              latitude: "0.37137393116423",
-              longitude: "-0.78101466410672",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Behind hidden wall, near first stairs down",
-              latitude: "0.69377405627608",
-              longitude: "-0.82484577576102",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Drop down from the [Ancestral Woods](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167496) Site of Grace, around a corner, past the corpse on the ledge holding the Rejuvenating Boluses, then go up what looks to be like stairs.",
-              latitude: "0.28528358296842",
-              longitude: "-0.68631482328371",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/40f30882-18ff-4064-b8ee-3574e0222fb6.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Found on a corpse",
-              latitude: "0.29242719762568",
-              longitude: "-0.64267917683659",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse in the middle of the camp",
-              latitude: "0.73275617933461",
-              longitude: "-0.82523965712065",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/fbce3f30-4420-4ae8-9dc6-87120ab53e87.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse against a tomb in the Village of Albinaurics not far from the Omenkiller area.",
-              latitude: "0.67891019850690",
-              longitude: "-0.80585306309075",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/d8e5d2bf-f1db-4a4b-81c9-5352f140ad34.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On one of the 4 bodies sitting in chairs at the base of the tower.",
-              latitude: "0.66679015602197",
-              longitude: "-0.64602973178600",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/57f42015-cc91-4926-a37c-4f5a6ab19681.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              latitude: "0.63157140788196",
-              longitude: "-0.65091886860887",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse on a roof, guarding by three Silver Tear.",
-              latitude: "0.26956634598849",
-              longitude: "-0.69896085018402",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/1a4c674a-3d33-4aa5-8dc5-aabee20ba948.jpeg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "In a chest on the small plateau, you can either drop down from the cliff on the east side, or jump from the rise tower.",
-              latitude: "0.83034847542187",
-              longitude: "-0.64169816132656",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/b8573136-e400-4310-8499-67890ae09a26.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse in a room at the left of the walking through waterfall.  At aquaduct level.",
-              latitude: "0.30260032275137",
-              longitude: "-0.67214732246745",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Chest right below the sorcerer near ledge",
-              latitude: "0.72026495457125",
-              longitude: "-0.81121596491002",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/f5f71a50-9424-4279-a2e0-c7647e70391e.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "3x Rune Arc",
-              description:
-                "**Location:** Sold by [Nomadic Merchant (North Liurna)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167303) for 4,000 Runes each.",
-              latitude: "0.75782264952555",
-              longitude: "-0.78866735100695",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Dropped by [Bloody Finger Assassin](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166731)",
-              latitude: "0.72695984771411",
-              longitude: "-0.80304272708278",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse inside a ruin guarded by nine Basilisks.",
-              latitude: "0.42988165410443",
-              longitude: "-0.70586797635261",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "5x Rune Arc",
-              description:
-                "**Location:** Inside the Ant Cave, dropped by the five Ant Queen.",
-              latitude: "0.42892394516728",
-              longitude: "-0.69685942792600",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse to the right after riding up the elevator in the mine.\nGuarded by 2 miners and 4 Vulgar Militiamen",
-              latitude: "0.77237129566422",
-              longitude: "-0.77039589005689",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/7f2b2c7d-18f1-4239-a8a9-037df717c21f.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "On body in Moonfolk Ruins surrounded by magic exploding traps.  Carian Retaliation spell works great vs phasing magic users guarding the ruins.",
-              latitude: "0.67969800905446",
-              longitude: "-0.81243193295532",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Jumping down from the Dagger Talisman.",
-              latitude: "0.80380216975695",
-              longitude: "-0.79317748546745",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse at the edge. Near the two Singing Bats.",
-              latitude: "0.77313822364449",
-              longitude: "-0.77709061284503",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "On a corpse against the cliff, while dropping down the cliffs towards the boss mist",
-              latitude: "0.27471937476056",
-              longitude: "-0.68846272015330",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "In a treasure chest found in the hallway of a secret passage near the Frenzied Flame Proscription site of grace...\n\nBehind this treasure chest is an illusory wall...and beyond that is secret entrance to the [Deeproot Depths](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168674)",
-              latitude: "0.78167078663995",
-              longitude: "-0.68559916795817",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "Inside the Divine Tower of Caelid. On a corpse past a Black Flame Monk enemy.",
-              latitude: "0.66859247809296",
-              longitude: "-0.64348032446611",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/973daa20-3ba6-4dd9-b898-fe84fda293ed.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Found in [Cliffbottom Catacombs](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166469) - In the same room as the Imp Statue behind the stairs.",
-              latitude: "0.67268201418855",
-              longitude: "-0.75491045472867",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/572585fa-5c0e-42ce-b968-9d438d921e35.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Black Knife Catacombs. On on corpse behind a submerged Giant Crab",
-              latitude: "0.75172754994583",
-              longitude: "-0.76096014740616",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse inside the rampart, accessible by the wing of the giant petrified dragon.",
-              latitude: "0.77775569930438",
-              longitude: "-0.70319398125986",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Reward for killing the Ant Queen on the ledge, accessible from Root-Facing Cliffs.",
-              latitude: "0.42578278903078",
-              longitude: "-0.69285062643533",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "**Location:** On the roundtable in the manor.",
-              latitude: "0.77259602466323",
-              longitude: "-0.70536149489172",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/68a5b8d6-583a-4958-a162-026c574ace58.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse in Subterranean Shunning Grounds, in a sewer room after a corridor with three Poison Miranda Flower.",
-              latitude: "0.77952244956535",
-              longitude: "-0.69882603604242",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                '**Location:** On a corpse inside the canals, accessible by the well fo the area with "Thunderbolt" Scarab.',
-              latitude: "0.77857571730387",
-              longitude: "-0.70144325494834",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "Reward for defeating [Rileigh the Idle](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170233)",
-              latitude: "0.80037206411181",
-              longitude: "-0.76170003195591",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "Reward for defeating [Old Knight Istvan](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168977).",
-              latitude: "0.65002562592170",
-              longitude: "-0.72854396735568",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse beside a brazier, accessible by the south of the church.",
-              latitude: "0.84885638843397",
-              longitude: "-0.62440329158662",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/383435b6-72cf-42e9-a6a6-9a8c6be25d08.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Reward for defeating Juno Hoslow, Knight of Blood.",
-              latitude: "0.83938465575014",
-              longitude: "-0.63506943938702",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Reward after defeating Great Horned Tragoth.",
-              latitude: "0.77592607542087",
-              longitude: "-0.77797597879672",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "**Location:** On a corpse beside the Golden Seed.",
-              latitude: "0.73855640065203",
-              longitude: "-0.52059687923489",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/13a3c51e-d80c-4c32-a249-a11bcebe9ed9.jpeg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse at the lowest level of the temple, guarded by a Banished Knight.",
-              latitude: "0.73923088334301",
-              longitude: "-0.52267506507650",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "**Location:** On a corpse hanging on a balcony.",
-              latitude: "0.84404680623118",
-              longitude: "-0.65566276554159",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "Inside Sellia Crystal Tunnel, at the highest platform that can be accessed when entering the first large chamber and climbing up. Guarded by one Kindred of Rot.",
-              latitude: "0.65455745195133",
-              longitude: "-0.64743338732762",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "3x Rune Arc",
-              description:
-                "**Location:** Sold by the [Imprisoned Merchant](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168583) for 8,000 Runes each.  \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.28017573157400",
-              longitude: "-0.65248891711215",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description: "Next to Lion guardian in the courtyard",
-              latitude: "0.63584751036191",
-              longitude: "-0.67530452988908",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** By a corpse on a branch extending from the Minor Erdtree. A small and large demi-human sit at the foot of the branch.",
-              latitude: "0.83732549086528",
-              longitude: "-0.62079762190069",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "3x Rune Arc",
-              description:
-                "**Location:** Sold by [Hermit Merchant](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167010) for 4,000 Runes each.  \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.80198246961844",
-              longitude: "-0.71560531854558",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "3x Rune Arc",
-              description:
-                "**Location:** Sold by [Hermit Merchant (Mountaintops East)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167330) for 8,000 Runes each.  \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.83208988629237",
-              longitude: "-0.62896192073836",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "In the cave down a dead end corridor with 2 other items in the same room.",
-              latitude: "0.83817968064915",
-              longitude: "-0.60696848513606",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/1129f4e3-6eee-4b13-88b8-fb64da8ffb61.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** In a chest, just past the [Altus Tunnel](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164409) Site of Grace.",
-              latitude: "0.79332379697085",
-              longitude: "-0.73718637228004",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/f47b5f63-5386-452e-bf5e-5b97339f8c42.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** Unsightly Catacombs - on a corpse to the left of the lever for the boss door.",
-              latitude: "0.78679801844807",
-              longitude: "-0.79175126564720",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/baef1cb3-54c3-45e3-82ce-d28b209f2f69.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "On a corpse half-buried in ash in Leyndell after defeating Maliketh",
-              latitude: "0.77543970136625",
-              longitude: "-0.69712075525882",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "Located Within The Sealed Tunnel: In The Same Room As The Iron Maiden",
-              latitude: "0.77111119010394",
-              longitude: "-0.71598064774983",
-            },
-            {
-              mapSlug: "the-lands-between",
-              title: "Rune Arc",
-              description:
-                "**Location:** [Yelough Anix Tunnel](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167153) at the bottom of the pit guarded by two miners",
-              latitude: "0.82432493556509",
-              longitude: "-0.66563937425559",
-            },
-            {
-              mapSlug: "the-shadow-realm",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse slumped over a broken column.  \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.69883290173212",
-              longitude: "-0.72306722402476",
-            },
-            {
-              mapSlug: "the-shadow-realm",
-              title: "Rune Arc",
-              description:
-                "**Location:** On the corpse in the room just west of the [Storehouse, First Floor](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381345) site of grace   \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.71887831080886",
-              longitude: "-0.70172774660148",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/1ac450a2-819c-4126-afca-97eeb95f53ce.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-shadow-realm",
-              title: "Rune Arc",
-              description:
-                "**Location:** On a corpse, sitting on the stone ledge. From [Moorth Highway, South](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380349), head southwest and follow the edge.",
-              latitude: "0.66716611096659",
-              longitude: "-0.70449038637804",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/2d3abf03-5d70-48a8-8222-ff257d9c4215.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-shadow-realm",
-              title: "Rune Arc",
-              description:
-                "**Location:** In a bench\n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.68061869490359",
-              longitude: "-0.75855045255855",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/8529949b-e817-4fde-b6d3-4899d0abd894.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "the-shadow-realm",
-              title: "3x Rune Arc",
-              description:
-                "**Location:** Sold by [Moore](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=380751) for 8,000 Runes each.   \n**Utility:** Consume to activate a Great Rune's power. Lasts until you die.",
-              latitude: "0.66172983826279",
-              longitude: "-0.74913494289024",
             },
           ],
         },
@@ -36240,8 +34603,8 @@ export const eldenRing = {
               longitude: "-0.72523042559567",
               media: [
                 {
-                  url: "https://www.youtube.com/watch?v=WRdsHbD8yn8",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=WRdsHbD8yn8",
+                  type: "video",
                 },
               ],
             },
@@ -36277,7 +34640,7 @@ export const eldenRing = {
               media: [
                 {
                   url: "https://youtu.be/4Cpb2mYI3FI?t=153",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -36360,8 +34723,8 @@ export const eldenRing = {
               longitude: "-0.70136547088731",
               media: [
                 {
-                  url: "https://www.youtube.com/watch?v=H-oMF3LFKzk&t=78s",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=H-oMF3LFKzk&t=78s",
+                  type: "video",
                 },
               ],
             },
@@ -40281,8 +38644,8 @@ export const eldenRing = {
               longitude: "-0.74172735214219",
               media: [
                 {
-                  url: "https://www.youtube.com/watch?v=Jm3mcjeC3ho",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=Jm3mcjeC3ho",
+                  type: "video",
                 },
               ],
             },
@@ -40872,8 +39235,8 @@ export const eldenRing = {
               longitude: "-0.75083076953791",
               media: [
                 {
-                  url: "https://www.youtube.com/watch?v=vdlUuvxv1Fs",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=vdlUuvxv1Fs",
+                  type: "video",
                 },
               ],
             },

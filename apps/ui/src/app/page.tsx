@@ -1,15 +1,15 @@
-import { FETCH_GAMES } from "@/lib/graphql/constants";
-import { getClient } from "@/lib/graphql/apollo-client";
-import { Game } from "@/__generated__/graphql";
-import Grid from "@mui/material/Grid2";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-import CardActionArea from "@mui/material/CardActionArea";
 import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Link from "next/link";
+import Grid from "@mui/material/Grid2";
 import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 import Image from "next/image";
+import Link from "next/link";
+import { Game } from "@/__generated__/graphql";
+import { getClient } from "@/lib/graphql/apollo-client";
+import { FETCH_GAMES } from "@/lib/graphql/constants";
 
 export default async function Page() {
   const { data } = await getClient().query({

@@ -1,36 +1,36 @@
 "use client";
 
+import { useQuery } from "@apollo/client";
+import Alert from "@mui/material/Alert";
+import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
+import { UserRecord } from "firebase-admin/auth";
+import { useAtom, useSetAtom } from "jotai";
+import { LatLngExpression } from "leaflet";
+import { useParams } from "next/navigation";
 import { SyntheticEvent, useEffect } from "react";
 import * as RL from "react-leaflet";
 import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
+import { v4 as uuidv4 } from "uuid";
+import { MapEventListener } from "./map-event-listener";
+import { SubRegion } from "../layers/sub-region";
+import { MarkerSearch } from "../markers/marker-search";
 import { MarkerRenderer } from "../markers/markers-renderer";
-import { UserRecord } from "firebase-admin/auth";
 import { Menu } from "../menu";
+import { ProgressTracker } from "../progress-tracker";
+import { Game } from "@/__generated__/graphql";
+import { getFontClassName } from "@/lib/font";
+import { GET_APP_USER, GET_REGIONS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { useAtom, useSetAtom } from "jotai";
 import { gameSlugAtom } from "@/store";
+import { userAtom } from "@/store/auth";
 import {
   copyLinkTriggerAtom,
   currentGroupsAtom,
   currentMarkersAtom,
-  currentRegionAtom,
+  currentMapAtom,
 } from "@/store/map";
-import { MarkerSearch } from "../markers/marker-search";
-import { ProgressTracker } from "../progress-tracker";
-import { useQuery } from "@apollo/client";
-import { GET_APP_USER, GET_REGIONS } from "@/lib/graphql/constants";
-import { userAtom } from "@/store/auth";
-import { SubRegion } from "../layers/sub-region";
-import { Game } from "@/__generated__/graphql";
-import { useParams } from "next/navigation";
-import { LatLngExpression } from "leaflet";
-import { getFontClassName } from "@/lib/font";
-import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
-import Alert from "@mui/material/Alert";
-import { MapEventListener } from "./map-event-listener";
-import { v4 as uuidv4 } from "uuid";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
@@ -44,7 +44,7 @@ const Map = ({ user, mapData }: MapProps) => {
   const currentMap = maps?.find((r) => r.slug === params.slug);
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
-  const [currentRegion, setCurrentRegion] = useAtom(currentRegionAtom);
+  const [mapConfig, setMapConfig] = useAtom(currentMapAtom);
   const setCurrentMarkers = useSetAtom(currentMarkersAtom);
   const setCurrentGroups = useSetAtom(currentGroupsAtom);
 
@@ -70,8 +70,8 @@ const Map = ({ user, mapData }: MapProps) => {
   }, [game, mapData.slug, setGame]);
 
   useEffect(() => {
-    if (!currentRegion && currentMap) {
-      setCurrentRegion(currentMap);
+    if (!mapConfig && currentMap) {
+      setMapConfig({ ...currentMap, maxZoom: maxZoom });
       if (currentMap.locations) {
         setCurrentMarkers([...currentMap.locations]);
       }
@@ -80,12 +80,13 @@ const Map = ({ user, mapData }: MapProps) => {
       }
     }
   }, [
-    currentRegion,
+    mapConfig,
     currentMap,
     mapData.groups,
     setCurrentGroups,
     setCurrentMarkers,
-    setCurrentRegion,
+    setMapConfig,
+    maxZoom,
   ]);
 
   const [openSnackbar, setOpenSnackbar] = useAtom(copyLinkTriggerAtom);
@@ -123,10 +124,7 @@ const Map = ({ user, mapData }: MapProps) => {
           Link successfully copied!
         </Alert>
       </Snackbar>
-      <Menu
-        maps={mapData.maps ?? []}
-        subRegions={regionData?.getRegionsByMap}
-      />
+      <Menu maps={mapData.maps ?? []} regions={regionData?.getRegionsByMap} />
       <RL.MapContainer
         zoom={zoom}
         minZoom={minZoom}

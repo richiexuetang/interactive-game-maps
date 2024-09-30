@@ -1,11 +1,12 @@
+import { useAtomValue } from "jotai";
+import { useParams } from "next/navigation";
 import * as React from "react";
 import { Marker } from "./marker";
-import { useAtomValue } from "jotai";
-import { hiddenCategoriesAtom } from "@/store/category";
-import { currentMarkersAtom } from "@/store/map";
 import { NoteMarker } from "./note-marker";
 import { userAtom } from "@/store/auth";
-import { useParams } from "next/navigation";
+import { hiddenCategoriesAtom } from "@/store/category";
+import { currentMarkersAtom } from "@/store/map";
+import { triggeredMarkerIdAtom } from "@/store/marker";
 
 export const MarkerRenderer = () => {
   const params = useParams<{ slug: string }>();
@@ -13,6 +14,7 @@ export const MarkerRenderer = () => {
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
   const markers = useAtomValue(currentMarkersAtom);
   const appUser = useAtomValue(userAtom);
+  const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
 
   if (!markers) return null;
 
@@ -20,7 +22,11 @@ export const MarkerRenderer = () => {
     <>
       {markers.map((marker) => {
         const { id, categoryId } = marker;
-        if (categoryId && hiddenCategories.includes(categoryId)) {
+        if (
+          categoryId &&
+          hiddenCategories.includes(categoryId) &&
+          id !== triggeredMarkerId
+        ) {
           return null;
         }
         return <Marker key={id} marker={marker} />;

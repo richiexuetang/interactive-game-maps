@@ -1,10 +1,10 @@
 "use client";
 
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import { UserRecord } from "firebase-admin/auth";
 import { Provider } from "jotai";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
-import { UserRecord } from "firebase-admin/auth";
-import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { Game } from "@/__generated__/graphql";
 
 export interface MapProps {

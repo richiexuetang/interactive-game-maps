@@ -1,31 +1,30 @@
-import * as React from "react";
-import Card from "@mui/material/Card";
-import CardHeader from "@mui/material/CardHeader";
-import CardMedia from "@mui/material/CardMedia";
-import CardContent from "@mui/material/CardContent";
-import CardActions from "@mui/material/CardActions";
-import LoginIcon from "@mui/icons-material/Login";
-import Avatar from "@mui/material/Avatar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
+import { useMutation } from "@apollo/client";
 import LinkIcon from "@mui/icons-material/Link";
-import { cn } from "@/lib/utils";
+import LoginIcon from "@mui/icons-material/Login";
+import { Box, Checkbox, FormControlLabel, styled } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardHeader from "@mui/material/CardHeader";
+import IconButton from "@mui/material/IconButton";
+import Tooltip from "@mui/material/Tooltip";
+import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { gameSlugAtom } from "@/store";
-import { userAtom } from "@/store/auth";
-import { copyLinkTriggerAtom, currentRegionAtom } from "@/store/map";
-import { signInWithGoogle } from "@/lib/firebase/auth";
 import { useRouter } from "next/navigation";
+import * as React from "react";
+import { MediaView } from "./media-view";
+import { Location } from "@/__generated__/graphql";
+import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
+import { signInWithGoogle } from "@/lib/firebase/auth";
 import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
-import { useMutation } from "@apollo/client";
-import Tooltip from "@mui/material/Tooltip";
-import { Location } from "@/__generated__/graphql";
-import { Box, Checkbox, FormControlLabel, Modal, styled } from "@mui/material";
-import Image from "next/image";
-import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
+import { cn } from "@/lib/utils";
+import { gameSlugAtom } from "@/store";
+import { userAtom } from "@/store/auth";
+import { copyLinkTriggerAtom, currentMapAtom } from "@/store/map";
 
 interface PopupCardProps {
   marker: Location;
@@ -47,12 +46,11 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
-  const [open, setOpen] = React.useState(false);
   const setCopyLinkTrigger = useSetAtom(copyLinkTriggerAtom);
 
   const gameSlug = useAtomValue(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
-  const currentRegion = useAtomValue(currentRegionAtom);
+  const currentRegion = useAtomValue(currentMapAtom);
 
   const markerFound = appUser?.foundLocations.includes(id);
   const router = useRouter();
@@ -123,28 +121,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         }
         subheader={title}
       />
-      {media && media.length > 0 && (
-        <>
-          <CardMedia
-            onClick={() => setOpen(true)}
-            sx={{ cursor: "pointer" }}
-            component="img"
-            height="350"
-            image={media[0]?.url}
-            alt={title}
-          />
-          <Modal open={open} onClose={() => setOpen(false)}>
-            <Image
-              onClick={() => setOpen(false)}
-              src={media[0]?.url}
-              fill
-              objectFit="none"
-              alt={media[0]?.url}
-              className="cursor-pointer"
-            />
-          </Modal>
-        </>
-      )}
+      {media && media.length > 0 && <MediaView media={media} />}
 
       <CardContent>
         <CardContentTypography variant="body2">
@@ -158,6 +135,11 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             />
           </CardContentTypography>
         )}
+        <span>{id}</span>
+        <br />
+        <span>
+          {marker.latitude},{marker.longitude}
+        </span>
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
         {appUser?.email ? (

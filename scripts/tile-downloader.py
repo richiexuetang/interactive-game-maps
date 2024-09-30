@@ -2,6 +2,7 @@ import numpy as np
 from urllib.request import urlopen
 import cv2
 import os
+from pathlib import Path
 current_path = os.getcwd()
 try:
     os.mkdir(current_path + "\\apps\\ui\\public\\tiles\\")
@@ -9,116 +10,72 @@ except FileExistsError:
     pass
 
 
-zoom_start = 13
-zoom_end = 14
+zoom_start = 16
+zoom_end = 17
 
-x_low_map = {
+lows = {
+    # 8: 127,
     8: 8,
+    # 9: 254,
     9: 16,
+    # 10: 508
     10: 32,
+    # 11: 1016
     11: 64,
+    # 12: 2034
     12: 128,
+    # 13: 4065
     13: 256,
+    # 14: 8177
     14: 512,
+    15: 16293,
+    16: 32610,
+    17: 65250
 }
 
-x_high_map = {
+highs = {
+    #     8: 127
     8: 8,
+    #     9: 255
     9: 17,
-    10: 34,
-    11: 68,
+    #     10: 511
+    10: 36,
+    #     11: 1023
+    11: 70,
+    #     12: 2046
     12: 140,
-    13: 277,
-    14: 554,
+    #     13: 4095
+    13: 280,
+    #     14: 8184
+    14: 561,
+    15: 16360,
+    16: 32668,
+    17: 65346
 }
-y_low_map = {
-    8: 8,
-    9: 16,
-    10: 32,
-    11: 64,
-    12: 128,
-    13: 256,
-    14: 512,
-}
-y_high_map = {
-    8: 8,
-    9: 17,
-    10: 34,
-    11: 68,
-    12: 136,
-    13: 277,
-    14: 554,
-}
-# x_low_map = {
-#     8: 127,
-#     9: 254,
-#     10: 508,
-#     11: 1016,
-#     12: 2034,
-#     13: 4065,
-#     14: 8177,
-#     15: 16294,
-#     16: 32721
-# }
 
-# x_high_map = {
-#     8: 127,
-#     9: 255,
-#     10: 511,
-#     11: 1023,
-#     12: 2046,
-#     13: 4095,
-#     14: 8184,
-#     15: 16360,
-#     16: 32731
-# }
-# y_low_map = {
-#     8: 127,
-#     9: 254,
-#     10: 508,
-#     11: 1016,
-#     12: 2034,
-#     13: 4065,
-#     14: 8145,
-#     15: 16271,
-#     16: 32605
-# }
-# y_high_map = {
-#     8: 127,
-#     9: 255,
-#     10: 511,
-#     11: 1023,
-#     12: 2046,
-#     13: 4095,
-#     14: 8173,
-#     15: 16376,
-#     16: 32682
-# }
-
-# regions = [ "hyrule" ]
+y_lows = {
+    16: 32548,
+    17: 65095
+}
+y_highs = {
+    16: 32722,
+    17: 65445
+}
 regions = [
-    "white-orchard",
-    "velen-novigrad",
-    "skellige",
-    "kaer-morhen",
-    "toussaint",
+    "hyrule"
+    # "white-orchard",
+    # "velen-novigrad",
+    # "skellige",
+    # "kaer-morhen",
+    # "toussaint",
     # "fablesphere",
-    "isle-of-mists"
-]
-
-games = [
-    "witcher-3",
-    "zelda-tears-of-the-kingdom",
-    "god-of-war-ragnarok",
-    "black-myth-wukong",
-    "elden-ring",
-    "hogwarts-legacy",
+    # "isle-of-mists"
 ]
 
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"
             "apps/ui/public/tiles")
 
-game_name = "witcher-3"
+game_name = "zelda-tears-of-the-kingdom"
 
 base_uri = "https://tiles.mapgenie.io/games/"
 
@@ -135,15 +92,19 @@ def downloadImage(url, directory):
 
 
 for z in range(zoom_start, zoom_end+1):
-    for x in range(x_low_map[z], x_high_map[z] + 1):
-        for y in range(y_low_map[z], y_high_map[z] + 1):
+    for x in range(lows[z], highs[z] + 1):
+        for y in range(y_lows[z], y_highs[z] + 1):
             for region in regions:
-                uri = (base_uri + game_name + "/" + region + "/default/"
-                       + str(z) + "/" + str(x) + "/" + str(y) + ".png")
+                uri = (base_uri + game_name + "/" + region + "/default-v2/"
+                       + str(z) + "/" + str(x) + "/" + str(y) + ".jpg")
 
                 directory = "{dir}/{game_name}/{region}/{z}/{y}".format(
                     dir=dir_name, region=region, z=z, y=y, game_name=game_name)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                downloadImage(uri, directory + "/{x}.jpg".format(x=x))
+                file_path = directory + str(x) + ".jpg"
+                if (Path(file_path).is_file()):
+                    print(file_path, "exists!")
+                else:
+                    downloadImage(uri, directory + "/{x}.jpg".format(x=x))

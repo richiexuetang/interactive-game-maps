@@ -1,15 +1,15 @@
-import { Map } from "@/__generated__/graphql";
-import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
-import { Metadata } from "next";
-import { getFontClassName } from "@/lib/font";
-import { cn } from "@/lib/utils";
-import Typography from "@mui/material/Typography";
+import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
-import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Metadata } from "next";
 import Link from "next/link";
+import { Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
+import { getFontClassName } from "@/lib/font";
+import { getMetaData, getRegionsByGame } from "@/lib/graphql/api";
+import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
   params,

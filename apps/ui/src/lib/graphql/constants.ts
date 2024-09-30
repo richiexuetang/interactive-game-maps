@@ -155,7 +155,7 @@ export const FETCH_GAME_REGION_DETAILS = gql`
   }
 `;
 
-export const FETCH_LOCATIONS_BY_REGION = gql`
+export const FETCH_LOCATIONS_BY_MAP = gql`
   query Locations($mapSlug: String) {
     locations(mapSlug: $mapSlug) {
       categoryId

@@ -1,10 +1,3 @@
-import { getBodyFont } from "@/lib/font";
-import {
-  ADD_USER_NOTE_MARKER,
-  REMOVE_USER_NOTE_MARKER,
-} from "@/lib/graphql/constants";
-import { gameSlugAtom } from "@/store";
-import { userAtom } from "@/store/auth";
 import { useMutation } from "@apollo/client";
 import {
   Button,
@@ -22,6 +15,13 @@ import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Marker, Popup } from "react-leaflet";
+import { getBodyFont } from "@/lib/font";
+import {
+  ADD_USER_NOTE_MARKER,
+  REMOVE_USER_NOTE_MARKER,
+} from "@/lib/graphql/constants";
+import { gameSlugAtom } from "@/store";
+import { userAtom } from "@/store/auth";
 
 interface NoteMarkerProps {
   latitude: number;

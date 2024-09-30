@@ -1,24 +1,25 @@
-import * as RL from "react-leaflet";
-import * as L from "leaflet";
-import { useEffect, useRef } from "react";
-import { useParams, useSearchParams } from "next/navigation";
-import { Location } from "@/__generated__/graphql";
-import { triggeredMarkerIdAtom } from "@/store/marker";
-import { useAtom, useAtomValue } from "jotai";
-import { gameSlugAtom } from "@/store";
-import { userAtom } from "@/store/auth";
-import { PopupCard } from "../cards/popup-card";
 import { useMutation } from "@apollo/client";
+import { useAtom, useAtomValue } from "jotai";
+import * as L from "leaflet";
+import { useParams, useSearchParams } from "next/navigation";
+import { useEffect, useRef } from "react";
+import * as RL from "react-leaflet";
+import { PopupCard } from "../cards/popup-card";
+import { Location } from "@/__generated__/graphql";
 import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
+import { gameSlugAtom } from "@/store";
+import { userAtom } from "@/store/auth";
+import { triggeredMarkerIdAtom } from "@/store/marker";
 
 interface MarkerProps {
   marker: Location;
 }
 
 export const Marker = ({ marker }: MarkerProps) => {
+  const map = RL.useMap();
   const gameSlug = useAtomValue(gameSlugAtom);
   const params = useParams<{ slug: string }>();
   const { id, title, latitude, longitude, category } = marker;
@@ -28,20 +29,19 @@ export const Marker = ({ marker }: MarkerProps) => {
   const { icon } = category!;
 
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
-
-  useEffect(() => {
-    if (triggeredMarkerId === id && markerRef?.current) {
-      markerRef.current.openPopup();
-    }
-  }, [id, triggeredMarkerId]);
-
   // build div icon
   const div = document.createElement("div");
   div.className = `icon ${gameSlug}-icon ${gameSlug}_${icon}`;
 
-  const map = RL.useMap();
   const searchParams = useSearchParams();
   const markerRef = useRef<L.Marker>(null);
+
+  useEffect(() => {
+    if (triggeredMarkerId === id && markerRef?.current) {
+      map.setView([latitude, longitude]);
+      markerRef.current.openPopup();
+    }
+  }, [id, latitude, longitude, map, triggeredMarkerId]);
 
   useEffect(() => {
     const markerId = searchParams.get("marker");

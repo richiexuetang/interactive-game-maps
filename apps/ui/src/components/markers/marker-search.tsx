@@ -1,23 +1,23 @@
-import { useState } from "react";
-import { SearchIcon } from "../icons/search-icon";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
-import { useDebounceCallback } from "@/hooks/use-debounce-callback";
-import { useMap } from "react-leaflet";
-import { currentMarkersAtom, gameSlugAtom } from "@/store/map";
-import React from "react";
 import { Fab, List, Tooltip, styled } from "@mui/material";
-import Popover from "@mui/material/Popover";
+import { Avatar } from "@mui/material";
+import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
+import InputAdornment from "@mui/material/InputAdornment";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
-import { Avatar } from "@mui/material";
 import ListItemText from "@mui/material/ListItemText";
-import { MapPinIcon } from "../icons/map-pin-icon";
-import { cn } from "@/lib/utils";
-import Box from "@mui/material/Box";
+import Popover from "@mui/material/Popover";
 import TextField from "@mui/material/TextField";
-import InputAdornment from "@mui/material/InputAdornment";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import React from "react";
+import { useState } from "react";
+import { useMap } from "react-leaflet";
+import { MapPinIcon } from "../icons/map-pin-icon";
+import { SearchIcon } from "../icons/search-icon";
+import { useDebounceCallback } from "@/hooks/use-debounce-callback";
+import { cn } from "@/lib/utils";
+import { currentMarkersAtom, gameSlugAtom } from "@/store/map";
+import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
 
 const SideFab = styled(Fab)(() => ({
   backgroundColor: "var(--sidebar-background-color)",

@@ -1,13 +1,8 @@
-import { CheckListIcon } from "./icons/check-list-icon";
-import Fab from "@mui/material/Fab";
-import React from "react";
-import Tooltip from "@mui/material/Tooltip";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import {
-  currentGroupsAtom,
-  currentMarkersAtom,
-  gameSlugAtom,
-} from "@/store/map";
+import { useMutation } from "@apollo/client";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import NavigationIcon from "@mui/icons-material/Navigation";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import {
   Accordion,
   AccordionDetails,
@@ -19,22 +14,27 @@ import {
   Menu,
   styled,
 } from "@mui/material";
-import { userAtom } from "@/store/auth";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import NavigationIcon from "@mui/icons-material/Navigation";
-import { triggeredMarkerIdAtom } from "@/store/marker";
-import { useMutation } from "@apollo/client";
+import Fab from "@mui/material/Fab";
+import Tooltip from "@mui/material/Tooltip";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useRouter } from "next/navigation";
+import React from "react";
+import { CheckListIcon } from "./icons/check-list-icon";
+import { signOut } from "@/lib/firebase/auth";
+import { getBodyFont, getFontClassName } from "@/lib/font";
 import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
   TOGGLE_HIDE_FOUND,
 } from "@/lib/graphql/constants";
-import VisibilityIcon from "@mui/icons-material/Visibility";
-import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
-import { getBodyFont, getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import { signOut } from "@/lib/firebase/auth";
-import { useRouter } from "next/navigation";
+import { userAtom } from "@/store/auth";
+import {
+  currentGroupsAtom,
+  currentMarkersAtom,
+  gameSlugAtom,
+} from "@/store/map";
+import { triggeredMarkerIdAtom } from "@/store/marker";
 
 const SideFab = styled(Fab)(() => ({
   backgroundColor: "var(--sidebar-background-color)",

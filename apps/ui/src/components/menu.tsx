@@ -1,34 +1,32 @@
-import React from "react";
-import { Map } from "@/__generated__/graphql";
-import { hiddenCategoriesAtom } from "@/store/category";
+import Button from "@mui/material/Button";
+import Collapse from "@mui/material/Collapse";
+import Divider from "@mui/material/Divider";
+import FormControl from "@mui/material/FormControl";
+import Grid from "@mui/material/Grid2";
+import MenuItem from "@mui/material/MenuItem";
+import Paper from "@mui/material/Paper";
+import Select from "@mui/material/Select";
+import { styled } from "@mui/material/styles";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Divider from "@mui/material/Divider";
-import { gameSlugAtom } from "@/store";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-import MenuItem from "@mui/material/MenuItem";
 import { useParams, useRouter } from "next/navigation";
+import React, { useState } from "react";
+import { ShowHideButtons } from "./sidebar/show-hide-buttons";
+import { SidebarClose } from "./sidebar/sidebar-close";
+import { Map, Region } from "@/__generated__/graphql";
+import { getBodyFont } from "@/lib/font";
+import { cn } from "@/lib/utils";
+import { gameSlugAtom, hiddenCategoriesAtom } from "@/store";
 import {
   currentGroupsAtom,
   currentMarkersAtom,
   triggerSubRegionIdAtom,
 } from "@/store/map";
-import Grid from "@mui/material/Grid2";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
-import { cn } from "@/lib/utils";
-import Button from "@mui/material/Button";
-import { Collapse } from "@mui/material";
-import { ShowHideButtons } from "./sidebar/show-hide-buttons";
-import { SidebarClose } from "./sidebar/sidebar-close";
-import { getBodyFont } from "@/lib/font";
 
 interface MenuProps {
   maps: Map[];
-  subRegions: any[];
+  regions: Region[];
 }
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
@@ -53,7 +51,7 @@ const SidebarDivider = styled(Divider)(() => ({
   borderColor: "var(--border-color)",
 }));
 
-export const Menu = ({ maps, subRegions }: MenuProps) => {
+export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
   const router = useRouter();
   const params = useParams<{ slug: string }>();
 
@@ -102,7 +100,7 @@ export const Menu = ({ maps, subRegions }: MenuProps) => {
   };
 
   return (
-    <>
+    <div className={`${gameSlug} sidebar`}>
       <SidebarClose showMenu={showMenu} setShowMenu={setShowMenu} />
 
       {showMenu && (
@@ -239,6 +237,6 @@ export const Menu = ({ maps, subRegions }: MenuProps) => {
           </Paper>
         </Collapse>
       )}
-    </>
+    </div>
   );
 };

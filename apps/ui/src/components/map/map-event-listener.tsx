@@ -1,5 +1,5 @@
-import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { useMapEvents } from "react-leaflet";
+import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 
 export const MapEventListener = ({ regionSlug }: any) => {
   const copy = useClipboardCopyFn();

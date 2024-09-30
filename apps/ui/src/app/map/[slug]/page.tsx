@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+import { revalidatePath } from "next/cache";
+import Map from "@/components/map/map";
+
+import { getCurrentUser } from "@/lib/firebase/firebase-admin";
 import {
   createAppUser,
   fetchGameRegionDetails,
@@ -5,11 +10,6 @@ import {
   getMetaData,
   getRegionDetails,
 } from "@/lib/graphql/api";
-import Map from "@/components/map/map";
-
-import type { Metadata } from "next";
-import { getCurrentUser } from "@/lib/firebase/firebase-admin";
-import { revalidatePath } from "next/cache";
 import "@/styles/leaflet.css";
 import "@/styles/icon.css";
 

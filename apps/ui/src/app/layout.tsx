@@ -1,8 +1,8 @@
-import theme from "@/lib/ui/theme";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { Metadata } from "next";
 import React from "react";
+import theme from "@/lib/ui/theme";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {

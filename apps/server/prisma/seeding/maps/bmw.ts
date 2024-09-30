@@ -2025,7 +2025,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Breath Of Fire",
               description:
-                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=397826)\n\n**Effect**\nUsing the gourd significantly increases Attack for the next Unveiling Strike in Cloud Step for a short duration.",
+                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=516)\n\n**Effect**\nUsing the gourd significantly increases Attack for the next Unveiling Strike in Cloud Step for a short duration.",
               latitude: "0.86534762948834",
               longitude: "-0.76099277637610",
             },
@@ -2054,7 +2054,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Sweet Ice",
               description:
-                '**Location:** After "[Monk From The Sea](http://localhost:3000/map/chapter-3?marker=397839)" boss, turn left as soon as you go down the next stairs and reach the end of the hallway. The soak is on the left, behind the building.\n\n**Effect:** Using the gourd moderately increases Chill Resistance for a short duration.',
+                '**Location:** After "[Monk From The Sea](http://localhost:3000/map/chapter-3?marker=471)" boss, turn left as soon as you go down the next stairs and reach the end of the hallway. The soak is on the left, behind the building.\n\n**Effect:** Using the gourd moderately increases Chill Resistance for a short duration.',
               latitude: "1.13720340748160",
               longitude: "-0.61250925064184",
             },
@@ -2070,7 +2070,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Breath Of Fire",
               description:
-                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=397826)",
+                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=516)",
               latitude: "0.86534762948834",
               longitude: "-0.76099277637610",
             },
@@ -2096,7 +2096,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wandering Wight Spirit",
               description:
-                "Reward for defeating the [Wandering Wight](http://localhost:3000/map/chapter-1?marker=397294)",
+                "Reward for defeating the [Wandering Wight](http://localhost:3000/map/chapter-1?marker=444)",
               latitude: "0.96022416129006",
               longitude: "-0.88263668099404",
             },
@@ -2104,7 +2104,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Baw-Li-Guhh-Lang Spirit",
               description:
-                "**Location:** Reward for defeating [Baw-Li-Guhh-Lang](http://localhost:3000/map/chapter-1?marker=397386) in Bamboo Grove",
+                "**Location:** Reward for defeating [Baw-Li-Guhh-Lang](http://localhost:3000/map/chapter-1?marker=447) in Bamboo Grove",
               latitude: "0.81833871275094",
               longitude: "-0.58733066723244",
             },
@@ -2112,7 +2112,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Guangmou Spirit",
               description:
-                "**Location:** Reward for defeating [Guangmou](http://localhost:3000/map/chapter-1?marker=397385) in Bamboo Grove",
+                "**Location:** Reward for defeating [Guangmou](http://localhost:3000/map/chapter-1?marker=446) in Bamboo Grove",
               latitude: "0.74814411814867",
               longitude: "-0.46604569223260",
             },
@@ -2120,7 +2120,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wolf Assassin Spirit",
               description:
-                "**Location:** Dropped by the unique [Wolf Assassin](http://localhost:3000/map/chapter-1?marker=398310) in Black Mountain",
+                "**Location:** Dropped by the unique Wolf Assassin in Black Mountain",
               latitude: "0.40458640987512",
               longitude: "-0.82894206047138",
             },
@@ -2128,7 +2128,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Earth Wolf Spirit",
               description:
-                "**Location:** Reward for defaulting [Earth Wolf](http://localhost:3000/map/chapter-2?marker=397430)",
+                "**Location:** Reward for defaulting [Earth Wolf](http://localhost:3000/map/chapter-2?marker=449)",
               latitude: "0.39155191320763",
               longitude: "-0.72425959343664",
             },
@@ -2136,7 +2136,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Second Rat Prince Spirit",
               description:
-                "**Location:** Reward for defeating [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=397456)\n\n**Note:** In order to get the Second Rat Prince Spirit you have to kill the King of Flowing Sands first, and then you can take out the Second Rat Prince. This is done easier if you **heavy attack** the pillars the King of Flowing Sands stands on leaving him vulnerable on the ground.",
+                "**Location:** Reward for defeating [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=450)\n\n**Note:** In order to get the Second Rat Prince Spirit you have to kill the King of Flowing Sands first, and then you can take out the Second Rat Prince. This is done easier if you **heavy attack** the pillars the King of Flowing Sands stands on leaving him vulnerable on the ground.",
               latitude: "0.47646676669264",
               longitude: "-0.78934192657491",
               media: [
@@ -2150,7 +2150,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tiger's Acolyte Spirit",
               description:
-                "**Location:** Reward for defeating [Tiger's Acolyte](http://localhost:3000/map/chapter-2?marker=397636)",
+                "**Location:** Reward for defeating [Tiger's Acolyte](http://localhost:3000/map/chapter-2?marker=451)",
               latitude: "0.73653576685446",
               longitude: "-0.88096618652298",
             },
@@ -2158,7 +2158,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Gore-Eye Daoist Spirit",
               description:
-                "**Location:** Reward for defeating [Gore-Eye Daoist](http://localhost:3000/map/chapter-2?marker=397638)",
+                "**Location:** Reward for defeating [Gore-Eye Daoist](http://localhost:3000/map/chapter-2?marker=452)",
               latitude: "0.61510143555537",
               longitude: "-0.79615014612278",
             },
@@ -2166,7 +2166,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Mad Tiger Spirit",
               description:
-                "**Location:** Reward for defeating [Mad Tiger](http://localhost:3000/map/chapter-2?marker=397643)",
+                "**Location:** Reward for defeating [Mad Tiger](http://localhost:3000/map/chapter-2?marker=455)",
               latitude: "0.34709718114577",
               longitude: "-0.62748670577824",
             },
@@ -2174,15 +2174,14 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rat Archer Spirit",
               description:
-                "Dropped by one of the [4 Rat Archers](http://localhost:3000/map/chapter-2?marker=398460) on top of the gate.\n\n**Note:** The archers will drop down after defeating the [Earth Wolf](http://localhost:3000/map/chapter-2?marker=397430)",
+                "Dropped by one of the 4 Rat Archers on top of the gate.\n\n**Note:** The archers will drop down after defeating the [Earth Wolf](http://localhost:3000/map/chapter-2?marker=449)",
               latitude: "0.41297738780299",
               longitude: "-0.70431008578120",
             },
             {
               mapSlug: "chapter-2",
               title: "Swift Bat Spirit",
-              description:
-                "**Location:** Dropped by the [Elite Swift Bat](http://localhost:3000/map/chapter-2?marker=398759)",
+              description: "**Location:** Dropped by the Elite Swift Bat",
               latitude: "0.50440562672623",
               longitude: "-0.91171655921783",
               media: [
@@ -2195,8 +2194,7 @@ export const bmw = {
             {
               mapSlug: "chapter-2",
               title: "Poisestone Spirit",
-              description:
-                "**Location:** Dropped by the [Elite Poisestone](http://localhost:3000/map/chapter-2?marker=398841)",
+              description: "**Location:** Dropped by the Elite Poisestone",
               latitude: "0.78108757490835",
               longitude: "-0.72820490014700",
               media: [
@@ -2210,7 +2208,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Spearbone Spirit",
               description:
-                "**Location:** Dropped by the [Elite Spearbone](http://localhost:3000/map/chapter-2?marker=398855) guarding the [Sand Waterfall](http://localhost:3000/map/chapter-2?marker=398854)",
+                "**Location:** Dropped by the Elite Spearbone guarding the Sand Waterfall",
               latitude: "0.83761100859605",
               longitude: "-0.62446313107699",
               media: [
@@ -2223,8 +2221,7 @@ export const bmw = {
             {
               mapSlug: "chapter-2",
               title: "Civet Sergeant Spirit",
-              description:
-                "Reward for defeating the [Elite Civet Sergeant](http://localhost:3000/map/chapter-2?marker=398970)",
+              description: "Reward for defeating the Elite Civet Sergeant",
               latitude: "0.62288127700049",
               longitude: "-0.98338860573688",
             },
@@ -2232,7 +2229,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rat Governor Spirit",
               description:
-                "**Location:** Located directly in front of [the](http://localhost:3000/map/chapter-2?marker=398505) meditation spot.\n\nDrops from the [Elite Rat Governor](http://localhost:3000/map/chapter-2?marker=399630)",
+                "**Location:** Located directly in front of the [meditation spot](http://localhost:3000/map/chapter-2?marker=87).\n\nDrops from the [Elite Rat Governor](http://localhost:3000/map/chapter-2?marker=430)",
               latitude: "0.80878452422783",
               longitude: "-0.83842045718052",
             },

@@ -1,8 +1,8 @@
-import { triggerSubRegionIdAtom } from "@/store/map";
 import { useAtom } from "jotai";
+import * as L from "leaflet";
 import { useEffect, useRef, useState } from "react";
 import { Marker, Polygon, useMap } from "react-leaflet";
-import * as L from "leaflet";
+import { triggerSubRegionIdAtom } from "@/store/map";
 
 export const SubRegion = ({ positions, id }: any) => {
   const [triggerSubRegionId, setTriggerSubRegionId] = useAtom(

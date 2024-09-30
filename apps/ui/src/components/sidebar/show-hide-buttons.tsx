@@ -1,8 +1,8 @@
-import { hiddenCategoriesAtom } from "@/store";
-import { currentGroupsAtom } from "@/store/map";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import { useAtom, useAtomValue } from "jotai";
+import { hiddenCategoriesAtom } from "@/store";
+import { currentGroupsAtom } from "@/store/map";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",

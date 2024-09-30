@@ -2,7 +2,7 @@ export const totk = {
   slug: "zelda-tears-of-the-kingdom",
   title: "Zelda: Tears of the Kingdom",
   minZoom: 9,
-  maxZoom: 16,
+  maxZoom: 17,
   zoom: 10,
   center: [0.70760348036569, -0.71764231663026],
   maps: [
@@ -2191,1190 +2191,10 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/d8be88b0-e118-431c-b590-5a50b1514061.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-great-fairy-fountain-locations",
-                  type: "video",
-                },
               ],
             },
           ],
           title: "Great Fairy",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
-              title: "Great Zora Bridge",
-              latitude: "0.71287060403682",
-              longitude: "-0.59935403317326",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Diggdog Suspension Bridge",
-              latitude: "0.65369486805811",
-              longitude: "-0.75651726143141",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Coliseum Ruins",
-              latitude: "0.66246350406163",
-              longitude: "-0.74018721685940",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hyrule Garrison Ruins",
-              latitude: "0.68504426247237",
-              longitude: "-0.72238471054126",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "East Post Ruins",
-              latitude: "0.65316724213994",
-              longitude: "-0.70200432425699",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Orsedd Bridge",
-              latitude: "0.71890812448841",
-              longitude: "-0.68698287466202",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "First Gatehouse",
-              latitude: "0.72858263519711",
-              longitude: "-0.71457647515635",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Observation Room",
-              latitude: "0.72713153327856",
-              longitude: "-0.71066081635631",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Thims Bridge",
-              latitude: "0.72535039473661",
-              longitude: "-0.66197714024966",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Castle Town Prison",
-              latitude: "0.73080646129770",
-              longitude: "-0.72612013439584",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Carok Bridge",
-              latitude: "0.71784629197454",
-              longitude: "-0.73797937186851",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Kolami Bridge",
-              latitude: "0.74466207766390",
-              longitude: "-0.80356696555256",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sanctum",
-              latitude: "0.77961353207320",
-              longitude: "-0.49947728386650",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Temple of Time Ruins",
-              latitude: "0.63817116247411",
-              longitude: "-0.72969203142199",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Jeddo Bridge",
-              latitude: "0.69890058607369",
-              longitude: "-0.75762640835276",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Giant's Forest",
-              latitude: "0.69887728661885",
-              longitude: "-0.74120815987214",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Royal Ancient Lab Ruins",
-              latitude: "0.73722360038933",
-              longitude: "-0.74349441823423",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Moor Garrison Ruins",
-              latitude: "0.70924266963182",
-              longitude: "-0.65422281685798",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Rebonae Bridge",
-              latitude: "0.70208148033618",
-              longitude: "-0.67699661299520",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gatepost Town Ruins",
-              latitude: "0.65666379660367",
-              longitude: "-0.72133780634425",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Courage Island",
-              latitude: "1.07455828178490",
-              longitude: "-0.77689372223759",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Grove of Time",
-              latitude: "0.32985448273952",
-              longitude: "-0.71586925027020",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Bridge of Hylia",
-              latitude: "0.62220855935736",
-              longitude: "-0.70435209397425",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Forest Coliseum",
-              latitude: "0.45736283568810",
-              longitude: "-0.70691365885384",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Helmhead Bridge",
-              latitude: "0.74061428910268",
-              longitude: "-0.69046395391194",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Mabe Village Ruins",
-              latitude: "0.69654884012245",
-              longitude: "-0.70392526859943",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Floria Canyon Mine",
-              latitude: "0.28964565691346",
-              longitude: "-0.64109588769398",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Spirit Temple",
-              latitude: "0.27533443621620",
-              longitude: "-0.65817083410354",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Kara Kara Mine",
-              latitude: "0.29976968089206",
-              longitude: "-0.80713185323501",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Desert Coliseum",
-              latitude: "0.25655872407185",
-              longitude: "-0.84186553792310",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gerudo Dark Skeleton",
-              latitude: "0.26056454730777",
-              longitude: "-0.85256756956940",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gerudo Underground Cemetery",
-              latitude: "0.25882015221872",
-              longitude: "-0.83514342277772",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Death Mountain West Site",
-              latitude: "0.79124823278221",
-              longitude: "-0.63317516295885",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Retsam Forest",
-              latitude: "0.63848970600664",
-              longitude: "-0.57917074393538",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Rising Island Chain",
-              latitude: "1.15379274829270",
-              longitude: "-0.80698909729580",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Guchini Plain Barrows",
-              latitude: "0.59148859086542",
-              longitude: "-0.67153601677356",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "South Lomei Depths Labyrinth",
-              latitude: "0.26441655921732",
-              longitude: "-0.76099249431087",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lomei Labyrinth Island",
-              latitude: "0.81629793737133",
-              longitude: "-0.55333980655487",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Eldin Great Skeleton",
-              latitude: "0.82409696537489",
-              longitude: "-0.65465192856655",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Stolock Bridge",
-              latitude: "0.78141810288970",
-              longitude: "-0.64997052627859",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Kakariko Bridge",
-              latitude: "0.65399960891546",
-              longitude: "-0.64561533531079",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Big Twin Bridge",
-              latitude: "0.63764252546015",
-              longitude: "-0.64922359658905",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Little Twin Bridge",
-              latitude: "0.63393000061590",
-              longitude: "-0.64797155614698",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Link's House",
-              description:
-                "Plot of land where Link can build a house once the side quest [Home on Arrange](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283059) is acquired.",
-              latitude: "0.74748513779847",
-              longitude: "-0.56766527777611",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Madorna Canyon Mine",
-              latitude: "0.32511927374409",
-              longitude: "-0.57992524118657",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Wellspring of Power",
-              latitude: "0.46079551885474",
-              longitude: "-0.58287238156644",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Wellspring of Courage",
-              latitude: "0.29803205637053",
-              longitude: "-0.67392181523059",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Left-Leg Depot",
-              latitude: "0.30597005858891",
-              longitude: "-0.67104767103933",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Drena Canyon Mine",
-              latitude: "0.46195913112727",
-              longitude: "-0.72258523796751",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Floating Coliseum",
-              latitude: "0.33849875586539",
-              longitude: "-0.74002377291828",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Manhala Bridge",
-              latitude: "0.67039832527666",
-              longitude: "-0.75496001334818",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "North Gerudo Ruins",
-              latitude: "0.61966474587287",
-              longitude: "-0.82430325490890",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "North Lomei Labyrinth",
-              latitude: "0.81277307915683",
-              longitude: "-0.72968152244306",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Great Abandoned Central Mine",
-              latitude: "0.31666298598024",
-              longitude: "-0.72933471800079",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Dragon Bone Mire",
-              latitude: "0.75833250843448",
-              longitude: "-0.83725035375765",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Valor Island",
-              latitude: "1.01656714679690",
-              longitude: "-0.55627097986670",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hylia Canyon Mine",
-              latitude: "0.30593763690887",
-              longitude: "-0.74434408034963",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Daphnes Canyon Mine",
-              latitude: "0.36030989561489",
-              longitude: "-0.73684689601956",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hebra Dark Skeleton",
-              latitude: "0.49664367176945",
-              longitude: "-0.83287216722954",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Meda Canyon Mine",
-              latitude: "0.29894191579869",
-              longitude: "-0.62233091625765",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Taran Canyon Mine",
-              latitude: "0.29250655334516",
-              longitude: "-0.62269076297572",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Lurelin Mine",
-              latitude: "0.26835152305496",
-              longitude: "-0.60997035215934",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Cresia Pit Mine",
-              latitude: "0.25853942814497",
-              longitude: "-0.58219220767123",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lone Island Coliseum",
-              latitude: "0.26269146623064",
-              longitude: "-0.55596322137738",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Cuho Canyon Mine",
-              latitude: "0.42238633946434",
-              longitude: "-0.82558339467562",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Dueling Canyons Mine",
-              latitude: "0.31899126807217",
-              longitude: "-0.66141115882402",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Bubinga Grove",
-              latitude: "0.31047386253888",
-              longitude: "-0.63695425893147",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Secluded Coliseum",
-              latitude: "0.31909184101015",
-              longitude: "-0.63094437908251",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Rozudo Canyon Mine",
-              latitude: "0.30730805009850",
-              longitude: "-0.62612742415084",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Meda Lavafalls",
-              latitude: "0.30154018978580",
-              longitude: "-0.63044821204204",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Hebra Mine",
-              latitude: "0.43820808100421",
-              longitude: "-0.81629007271874",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Midla Grove",
-              latitude: "0.30947776538446",
-              longitude: "-0.60251836607142",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ebon Canyon Mine",
-              latitude: "0.29857343635601",
-              longitude: "-0.59655109222749",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ancient Observation Deck",
-              latitude: "0.26596648007038",
-              longitude: "-0.62034834604771",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Tuft Canyon Mine",
-              latitude: "0.26248826488080",
-              longitude: "-0.62127177582948",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ancient Underground Fortress",
-              latitude: "0.42834601604550",
-              longitude: "-0.59641722521476",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gleeok Den",
-              latitude: "0.47847706331680",
-              longitude: "-0.69241150890022",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Akkala House of Bones",
-              latitude: "0.49023291398923",
-              longitude: "-0.59788685533499",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Scorching Coliseum",
-              latitude: "0.48161288100377",
-              longitude: "-0.63416375061144",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Crenel Canyon Mine",
-              latitude: "0.39173067536889",
-              longitude: "-0.66546441094920",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Retsam Grove",
-              latitude: "0.31369572602090",
-              longitude: "-0.57926853013211",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lindor Canyon Mine",
-              latitude: "0.42225023152953",
-              longitude: "-0.76761013116780",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Aquame Bridge",
-              latitude: "0.67039442237943",
-              longitude: "-0.73944830814219",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Docks",
-              latitude: "0.73978085860622",
-              longitude: "-0.71242779142132",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Guards' Chamber",
-              description:
-                "Location will only appear when visited. Must go inside castle walls from Guards' Chamber Entrance marker.",
-              latitude: "0.73049853565442",
-              longitude: "-0.71501477762985",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Dining Hall",
-              latitude: "0.73024106450985",
-              longitude: "-0.70681794688051",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ruto Canyon Mine",
-              latitude: "0.37882424412977",
-              longitude: "-0.59653817511904",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Water Reservoir",
-              latitude: "0.72024694640427",
-              longitude: "-0.72232548826641",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Boneyard Bridge",
-              latitude: "0.72633060756228",
-              longitude: "-0.69447159129166",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hyrule Forest Park",
-              latitude: "0.73306512485701",
-              longitude: "-0.69657578685661",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ancient Tree Stump",
-              latitude: "0.68894417681969",
-              longitude: "-0.73885088287853",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sage Temple Ruins",
-              latitude: "0.69558350949495",
-              longitude: "-0.74659088754171",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Room of Hopeful Light",
-              latitude: "0.58950016808529",
-              longitude: "-0.91059706540033",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Room of Ascension",
-              latitude: "0.60048669411012",
-              longitude: "-0.93846358159598",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hyrule Cathedral",
-              latitude: "0.72359933355568",
-              longitude: "-0.70069359185393",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Rhoam Canyon Mine",
-              description:
-                "- Large Crystallized Charge in chest in main ruin\n\n**TIP:** Use Bomb Flowers on the large Zonaite deposits to save on weapon durability",
-              latitude: "0.40370027470063",
-              longitude: "-0.78975658929608",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gustaf Canyon Mine",
-              latitude: "0.38561338456817",
-              longitude: "-0.73458199666101",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Applean Grove",
-              latitude: "0.38838013673815",
-              longitude: "-0.68544147658585",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Bravery Island",
-              latitude: "1.10795592664780",
-              longitude: "-0.69659476127064",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Room of Light and Flame",
-              latitude: "0.60048904110588",
-              longitude: "-0.96056820899117",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Room of Light and Shade",
-              latitude: "0.59124016874706",
-              longitude: "-1.01667313116880",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Princess Zelda's Study",
-              latitude: "0.77495976132353",
-              longitude: "-0.51005825400462",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Tabahl Grove",
-              latitude: "0.38534103710545",
-              longitude: "-0.61796085684819",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Kakariko Mine",
-              latitude: "0.34063033825292",
-              longitude: "-0.64458306940986",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Hateno Mine",
-              latitude: "0.30716412949174",
-              longitude: "-0.59062522298197",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zonaite Forge Island",
-              latitude: "0.99209217558621",
-              longitude: "-0.62537555953602",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Construct Factory",
-              latitude: "0.30927869579007",
-              longitude: "-0.67514637014722",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Right-Arm Depot",
-              latitude: "0.31181719304034",
-              longitude: "-0.68379420806775",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Gerudo Mine",
-              latitude: "0.28609074766517",
-              longitude: "-0.82598484226403",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sherfin's Secret Hot Spring",
-              latitude: "0.81526754654827",
-              longitude: "-0.84202338669405",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ulri Canyon Mine",
-              latitude: "0.44565325556358",
-              longitude: "-0.58487002206900",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Grove of Spirits",
-              latitude: "0.32502337125463",
-              longitude: "-0.73391590732211",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Secret Spring of Revival",
-              latitude: "0.31831107988550",
-              longitude: "-0.73787214796710",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Right-Leg Depot",
-              latitude: "0.31112489630691",
-              longitude: "-0.66552890069795",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Left-Arm Depot",
-              latitude: "0.30168291996382",
-              longitude: "-0.68066224529500",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Fort Hateno",
-              latitude: "0.64330612535794",
-              longitude: "-0.62819247339986",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Owlan Bridge",
-              latitude: "0.66217209073788",
-              longitude: "-0.69295027044888",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Canyon of Awakening Mine",
-              latitude: "0.33387947115928",
-              longitude: "-0.60865570010216",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Tarrey Mine",
-              latitude: "0.43107772754922",
-              longitude: "-0.57547885753317",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Lanayru Mine",
-              latitude: "0.39698341676871",
-              longitude: "-0.59699992304525",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Agaat Canyon Mine",
-              latitude: "0.35812397049398",
-              longitude: "-0.85536407072914",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Arbiter's Grounds",
-              latitude: "0.58276545851094",
-              longitude: "-0.83696638132646",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Proxim Bridge",
-              latitude: "0.65130720865338",
-              longitude: "-0.69657209204053",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Blupee Burrow",
-              latitude: "0.36715846978367",
-              longitude: "-0.77670038755775",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Dalite Grove",
-              latitude: "0.34400579383203",
-              longitude: "-0.77161465862312",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Outpost Ruins",
-              latitude: "0.64923074848045",
-              longitude: "-0.71134363895527",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Abandoned Eldin Mine",
-              latitude: "0.45665657372261",
-              longitude: "-0.65007150797894",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Moat Bridge",
-              latitude: "0.72449880703508",
-              longitude: "-0.72287067676132",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Maritta Exchange Ruins",
-              latitude: "0.75791659436973",
-              longitude: "-0.76000894121549",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Second Gatehouse",
-              latitude: "0.73140522503112",
-              longitude: "-0.70826179949128",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lockup",
-              latitude: "0.73656664293701",
-              longitude: "-0.71746813178305",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Eagus Bridge",
-              latitude: "0.67271557583817",
-              longitude: "-0.67189708517148",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Horwell Bridge",
-              latitude: "0.67160845171976",
-              longitude: "-0.68124537859461",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Nabooru Canyon Mine",
-              latitude: "0.31015777917432",
-              longitude: "-0.76122658872941",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sherfin's Lavafalls",
-              latitude: "0.49063247907763",
-              longitude: "-0.84301584680767",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Faloraa Canyon Mine",
-              latitude: "0.29616617060361",
-              longitude: "-0.73359760431251",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Goflam's Lavafalls",
-              latitude: "0.49446834224010",
-              longitude: "-0.81228098057804",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Eldin Dark Skeleton",
-              latitude: "0.49885086939292",
-              longitude: "-0.65302430713407",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Giant's Grove",
-              latitude: "0.37452476669706",
-              longitude: "-0.74051023358373",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gerudo Canyon Mine",
-              latitude: "0.35651992624392",
-              longitude: "-0.83749966303574",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sturnida Lavafalls",
-              latitude: "0.46664927315878",
-              longitude: "-0.83385030467517",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Dunsel Canyon Mine",
-              latitude: "0.27251132148209",
-              longitude: "-0.60265958338755",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lanayru Canyon Mine",
-              latitude: "0.33540589333094",
-              longitude: "-0.57527204610508",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Walnot Canyon Mine",
-              latitude: "0.31614418519248",
-              longitude: "-0.56625933243944",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Pappetto Grove",
-              latitude: "0.26492066951656",
-              longitude: "-0.71388154399907",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Daval Canyon Mine",
-              latitude: "0.26289331186688",
-              longitude: "-0.74858838886109",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Granajh Canyon Mine",
-              latitude: "0.27003005319645",
-              longitude: "-0.74745029156068",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hebra Canyon Mine",
-              latitude: "0.47333048196472",
-              longitude: "-0.79128749020080",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ploymus Canyon Mine",
-              latitude: "0.39479677540164",
-              longitude: "-0.58117302188307",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Spring of Power",
-              latitude: "0.78892435658911",
-              longitude: "-0.58245199690444",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Spring of Courage",
-              latitude: "0.62697837671465",
-              longitude: "-0.67497568135795",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Bridge Of Eldin",
-              latitude: "0.77885368015120",
-              longitude: "-0.63181095989199",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gleeok Bridge",
-              latitude: "0.67791985051092",
-              longitude: "-0.74559245015334",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Gut Check Rock",
-              latitude: "0.81468714609464",
-              longitude: "-0.61681131077893",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Kolomo Garrison Ruins",
-              latitude: "0.66211836115241",
-              longitude: "-0.71803933223492",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Ginner Grove",
-              latitude: "0.31289642010104",
-              longitude: "-0.59932864290323",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Rok Grove",
-              latitude: "0.47836422707371",
-              longitude: "-0.59523957884029",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Castle Town Watchtower",
-              latitude: "0.71611296556682",
-              longitude: "-0.70078589604398",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Dracozu Altar",
-              description: "Behind the waterfall",
-              latitude: "0.29639982799450",
-              longitude: "-0.67385235031586",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Hickaly Grove",
-              latitude: "0.30244411298732",
-              longitude: "-0.64036478678076",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sanidin Park Ruins",
-              latitude: "0.68093794535928",
-              longitude: "-0.75575168281691",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Tabantha Great Bridge",
-              latitude: "0.72174951494138",
-              longitude: "-0.80348021493441",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "East Gerudo Ruins",
-              description:
-                "Side quest location for [To the Ruins!](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283893)",
-              latitude: "0.61196270053618",
-              longitude: "-0.78987386683639",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Mount Agaat",
-              latitude: "0.67660826774031",
-              longitude: "-0.86184933613808",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Southern Oasis Training Area",
-              latitude: "0.58483950111119",
-              longitude: "-0.82112632958356",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Horse God Bridge",
-              latitude: "0.58341077360241",
-              longitude: "-0.68399432955658",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Desert Rift",
-              latitude: "0.61528718723017",
-              longitude: "-0.81631813718300",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Northern Icehouse",
-              latitude: "0.62943088382070",
-              longitude: "-0.82399232698776",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Korok Grove",
-              latitude: "0.44683500372636",
-              longitude: "-0.69006332918582",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sarjon Bridge",
-              latitude: "0.59896985576280",
-              longitude: "-0.67008649230343",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "West Sokkala Bridge",
-              latitude: "0.73609452869430",
-              longitude: "-0.58755630877826",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sokkala Bridge",
-              latitude: "0.73540347831252",
-              longitude: "-0.58446451268583",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "East Sokkala Bridge",
-              latitude: "0.73834953445797",
-              longitude: "-0.57897202786160",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Faron Woods",
-              latitude: "0.60493722362865",
-              longitude: "-0.69196898210583",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Palmorae Ruins",
-              latitude: "0.59370920548182",
-              longitude: "-0.59094259593155",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Luto's Crossing",
-              latitude: "0.70300100801585",
-              longitude: "-0.60414901724852",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Oren Bridge",
-              latitude: "0.70224759710365",
-              longitude: "-0.61038224892326",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Inogo Bridge",
-              latitude: "0.71110776391012",
-              longitude: "-0.62762887167415",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "East Passage",
-              description:
-                "In the ground-level area surrounding Hyrule Castle. Most easily accesible approaching from the North/Northeast. Entrance looks like a mineshaft.",
-              latitude: "0.73471014683766",
-              longitude: "-0.70694696592608",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "West Passage",
-              description:
-                "In the ground-level area surrounding Hyrule Castle. Most easily accessible from the water, approaching from the Southwest. There are exposed minecart rails over the moat that lead into the passage.",
-              latitude: "0.73068034818934",
-              longitude: "-0.71780318784445",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Floret Sandbar",
-              latitude: "0.67611072873993",
-              longitude: "-0.67568330054516",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Library",
-              latitude: "0.73719409276299",
-              longitude: "-0.70815741485148",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "North Lomei Castle Top Floor",
-              latitude: "1.16004008886030",
-              longitude: "-0.73351730462315",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "South Lomei Castle Top Floor",
-              latitude: "0.93944548324824",
-              longitude: "-0.76089140718528",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lightcast Island",
-              latitude: "1.07942515712070",
-              longitude: "-0.81921565774090",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lomei Depths Labyrinth",
-              latitude: "0.49701215591794",
-              longitude: "-0.55313560709473",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Starview Island",
-              latitude: "1.03553695729180",
-              longitude: "-0.81478800811013",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "North Lomei Depths Labyrinth",
-              latitude: "0.49304430382075",
-              longitude: "-0.72941704866662",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Floria Bridge",
-              latitude: "0.59134933390058",
-              longitude: "-0.64744383028435",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Princess Zelda's Room",
-              latitude: "0.73513682238315",
-              longitude: "-0.71384022719988",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lomei Sky Labyrinth",
-              latitude: "1.15994544636660",
-              longitude: "-0.55327100690184",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lanayru Road - East Gate",
-              latitude: "0.66615795737616",
-              longitude: "-0.60224202595086",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lanayru Road - West Gate",
-              latitude: "0.67866794854952",
-              longitude: "-0.62927379029531",
-            },
-          ],
-          title: "Landmark",
         },
         {
           locations: [
@@ -3492,6 +2312,7 @@ export const totk = {
             },
           ],
           title: "Lighthouse",
+          info: "Use ascend while standing underneath it to return to the Surface",
         },
         {
           locations: [
@@ -4279,10 +3100,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/294ba232-0fa5-4e37-8408-180dad237988.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-yiga-clan-armor-set",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4469,10 +3286,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/b4451938-c1dc-44f9-b997-764f71387e3f.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-nachoyah-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4486,10 +3299,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/48bb7e60-3cb0-406d-9898-554ed29aa59d.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gutanbac-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4505,10 +3314,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/688a3f0d-39ef-47b3-93fd-6147c59f0539.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukouh-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4522,10 +3327,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/3b1c46ee-aa55-44b2-b712-5bc23d701999.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-in-isa-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4541,10 +3342,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/3b7c3efd-6d2b-416b-9f5b-bc755828caec.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-yamiyo-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4558,10 +3355,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/457f8271-8a6d-4b65-88eb-a08c57c7a9da.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayachin-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4591,10 +3384,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/d1a1b4c6-8355-4339-b456-ac3f776163c4.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jiosin-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4608,10 +3397,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/ddd6eacb-d657-45a7-b508-52643909ddd7.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zanmik-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4627,10 +3412,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/cc299cda-23d6-41d9-a585-352c73c7f4af.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-turakawak-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4644,10 +3425,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/31260755-5663-43a4-a32e-a16e1a021eaa.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayatat-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4681,10 +3458,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/993feb24-8504-4cc9-af7e-dd0d5d04b4c5.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ishodag-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4698,10 +3471,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/4feedcad-645e-4a21-b134-1bb1a14c248d.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jonsau-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4717,10 +3486,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/40b6630a-dacf-40f1-bb73-45ed41dd4889.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-morok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4734,10 +3499,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/6e318618-7807-4b1b-98b1-b78b0bece3db.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-teniten-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4753,10 +3514,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/bef6664a-e76b-41dd-af13-ac0e2361548b.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tukarok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4770,10 +3527,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/8a3cb345-9c6b-4177-ad3f-fec92b68a58a.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eutoum-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4791,7 +3544,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/1K3X9XaNeac",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -4807,10 +3560,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/7d87f3b3-d8fd-4f36-a8cd-29632c280af8.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ijo-o-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4820,12 +3569,7 @@ export const totk = {
                 "_Downward Force_\n\n**Location:** -2947, 3051, 0897 - Rising Island Chain of the Hebra Sky \n\n**Solution:** \n1. Shoot the crystal through the bars to open the door.\n2. Defeat the construct atop the ledge, then jump and bounce off the trampoline to the ledge above.\n3. Wait for the moving trampoline to move closer, then jump on the trampoline just beneath and glide to it.\n4. Wait for it to move closer, then bounce on the next platform.\n5. Bounce on the nearby trampoline, and at the peak of the jump, shoot the crystal through the bars.\n6. Head to the trampoline ahead, and bounce to the end statue.\n\n**Treasure:** \n- Arrow x10 - In the corner of the main room, on a high pillar. While on the moving trampoline, bounce once you reach the corner.",
               latitude: "1.14471684560610",
               longitude: "-0.79809602799423",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayaumekis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -4843,10 +3587,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/c43f7af2-c954-4788-b784-cb7b67bb6ce7.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-runakit-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4860,10 +3600,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/6b737859-54b9-484b-ae6b-350c407279f4.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sahirow-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4883,10 +3619,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/87fd2433-1180-4b18-9121-d44f1d0df069.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sinakawak-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4901,10 +3633,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a20e0341-03de-46d4-a167-0d5e76e513ae.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tajikats-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4918,10 +3646,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/644540dd-b9ef-424b-8373-4cfda4e05f77.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tauyosipun-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4941,10 +3665,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/6c699c16-6428-4fd7-92ea-ef56b1ed9ca3.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kyononis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4959,10 +3679,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/686033ae-633a-4a32-a4f5-815cc11f539d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-susuyai-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -4976,10 +3692,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/78335c87-0194-4e19-b4fc-35acdb318e76.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sonapan-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -4996,8 +3708,8 @@ export const totk = {
                   type: "image",
                 },
                 {
-                  url: "https://www.youtube.com/watch?v=_7xmCqSPjhY",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=_7xmCqSPjhY",
+                  type: "video",
                 },
               ],
             },
@@ -5015,7 +3727,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Jn4EAADIqLU",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5033,7 +3745,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/VmJbRLDZmT8",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5049,10 +3761,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/dd97634f-905f-4ad9-931c-fb35a0da1f79.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-orochium-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5067,10 +3775,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/895419ed-c852-4ab4-858e-47844e09d33b.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kiuyoyou-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5080,12 +3784,7 @@ export const totk = {
                 "_Building Blocks_\n\n**Location:** -1165, 2602, -0083 - Forgotten Temple, beside the toppled statue. \n\n**Solution:** \n1. In both rooms, Ultrahand the blocks to match the left-most structure. See the video for detailed instructions.\n\n**Treasure:** \n- Large Zonai Charge - In the 2nd room, on a pillar in the corner. Before completing the structure, make a climbable structure to reach it.",
               latitude: "0.78662333034616",
               longitude: "-0.74075042345359",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayausiy-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5112,10 +3811,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/4ce39bfa-3ea5-4a2a-9643-61b9b9a41392.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-nouda-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5145,10 +3840,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/3e3b87fa-e6ad-4f18-9ca9-f918b4414913.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taki-ihaban-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5163,10 +3854,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/c3406fc3-735d-4278-a9e7-2db1e616265c.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-oshozan-u-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5176,12 +3863,7 @@ export const totk = {
                 "_Rauru's Blessing_\n\n**Location:** -3296, 3431, 1347 - East Hebra Sky Archipelago  \n\n**Solution:** \n1. Walk up to the end statue.\n\n**Treasure:** \n- Large Zonai Charge - Just before the end statue.",
               latitude: "1.15687924389930",
               longitude: "-0.80933892509560",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kahatanaum-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5194,10 +3876,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/785d5141-cd6c-465c-a561-08772d4c18b3.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marakuguc-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5215,7 +3893,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/AJoVO9hhZOI",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5229,7 +3907,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/YX4Tff8D26U",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5244,10 +3922,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/7536e192-fa1d-47ed-b349-11ac6c8ca16f.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jogou-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5281,10 +3955,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/bbf710bd-31dd-46fc-8b71-6104f479e1da.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-turakawak-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5298,10 +3968,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/23228bc9-aea7-4780-85a6-f07ed74b80be.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ikatak-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5317,10 +3983,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/05376748-9a5b-4a02-87a9-f55ca10cfad6.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-iun-orok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5330,12 +3992,7 @@ export const totk = {
                 "_Combat Training: Archery_\n\n**Location:** -2847, 0629, 0233 - On the cliff overlooking Tabantha Bridge stable, at the east end of Tabantha bridge.  \n\n**Solution:** \n1. Defeat the construct, following the on-screen prompts.\n\n**Treasure:** \n- [Strong Construct Bow](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282771) - Just before the end statue.",
               latitude: "0.72343456946611",
               longitude: "-0.79457098373641",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-makurukis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5349,10 +4006,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/b95457aa-a141-470f-83bc-034653dc4c51.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-usazum-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5362,12 +4015,7 @@ export const totk = {
                 "_The Stakes Guide You_\n\n**Location:** ?? - On a small hill overlooking [Outskirt Stable](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277792).  \n\n**Solution:** \n1. Using Ultrahand, attach the platform to the pillar when it's at the bottom.\n2. Climb on the platform and paraglide to the metal platform, using the fan to extend your air time.\n3. Replace the 3 stakes as follows, so the giant ball goes into the hole:\n    - In front of the ball's launching ramp, so it hits the stake and falls straight down.\n    - Under the rotating platform, so it slants slightly downwards.\n    - After the ball has fallen on the railing, on the rotating circle so it pushes the ball into the hole. \n\n**Treasure:** \n- 5x Arrows - On top of a pillar. When paragliding to the fan, take a sharp turn left on the pillar.",
               latitude: "0.65944667274347",
               longitude: "-0.74895496874535",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tsutsu-um-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5395,10 +4043,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/2c7be4a0-297f-421e-a2da-0868d91440df.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kudanisar-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5416,10 +4060,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/9b57bd40-9588-47b1-b6f8-059028aed15d.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayamats-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5439,10 +4079,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/d9692239-869c-4074-aef6-8dbc5a47ffae.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-otutsum-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5456,10 +4092,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/00e16da9-f260-4a6e-8254-64d36af00ce3.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rakashog-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5489,10 +4121,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/d4049b12-84ef-4383-9f35-5907610bbf78.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ren-iz-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5507,10 +4135,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/368f92d6-1f06-47e2-88ff-8b02ddfea5ce.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kyokugon-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5523,7 +4147,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/vlMdczazn6w",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5539,10 +4163,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/fef3f746-4b10-4d4f-987b-e62b3cfa62d6.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-riogok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5557,10 +4177,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/9cc7b0e7-4e92-4010-ae55-29a151646859.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jojon-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5574,10 +4190,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/efdae07a-9bc9-4883-98a9-a347b6367a69.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayachideg-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5602,12 +4214,7 @@ export const totk = {
                 "_Against the Flow_\n\n**Location:** 1799, 1638, 0311 - On the side of the road, facing Goronbi Lake.  \n\n**Solution:** \n1. Jump across the solidified lava to the other side, then destroy the construct.\n2. Rewind a platform and ride it to the ball. When Rewind ends, return with the ball and place it in the socket.\n3. In the next room, activate the fan and glide to the next platform. Drop a fountain down.\n4. Activate the fountain to create a platform. Take it out of the lava and attach the fan to it.\n5. Ride your makeshift boat to the end statue.\n\n**Treasure:** \n- [Strong Zonaite Shield](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281651) - In an alcove, beyond the ball. Ultrahand a freshly-made platform for a few seconds, then Rewind it and jump to the chest.",
               latitude: "0.75604043230857",
               longitude: "-0.64512675115563",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-timawak-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5616,12 +4223,7 @@ export const totk = {
                 "_Proving Grounds: In Reverse_\n\n**Location:** 1838, 2837, 0363 - Inside [YunoboCo HQ East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277829).  \n\n**Solution:** \n1. Destroy all constructs, using only the gear provided in the room.\n\n**Treasure:** \n- [Magic Rod](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281653) - Just before the end statue.",
               latitude: "0.79463654857311",
               longitude: "-0.64392819011726",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-isisim-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5634,10 +4236,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/2faa17d3-f41f-4c42-82d8-20ece402cf68.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taunhiy-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5653,10 +4251,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/15b2e1fe-317d-4e93-a1d0-5d05b53bb41a.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-utsushok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5671,10 +4265,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/5e9d2e45-d0d2-414f-bf99-c56b61f8c29c.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gemimik-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5685,10 +4275,6 @@ export const totk = {
               latitude: "0.82245505480905",
               longitude: "-0.55339004020354",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igashuk-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/2ce2fcfb-18d3-442b-89bd-272730cee518.jpg",
                   type: "image",
@@ -5707,10 +4293,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/4f48b327-6efb-4d32-bae3-fe0244461992.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marari-in-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5723,7 +4305,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/kab_-F9WW2Y",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5739,10 +4321,7 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/4f94c49e-325e-4804-a2bf-3e025c45f429.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zakusu-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
+
                 {
                   url: "https://media.mapgenie.io/storage/media/f8b23c27-4da9-4bfe-bb69-ae7aa6aa62ab.jpg",
                   type: "image",
@@ -5771,7 +4350,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/J0U1K_RgkNQ",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5786,10 +4365,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/0b096d08-f727-4bc1-96b8-7e8d086c2890.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jikais-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5807,7 +4382,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/eJVWAjodiC0",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5818,12 +4393,7 @@ export const totk = {
                 "_Building Bridges_\n\n**Location:**\n- Coordinates: 1516, -3576, 0142\n- On a cliff overlooking the stable\n\n**Solution:** \n1. Reattach the broken bridge to reach the next ledge.\n2. Drop down, and Attach the third panel from the end to the pillar. The bridge should be taut enough to reach the next platform.\n3. Attach the metal cube to the last panel of the bridge, then Ultrahand it over the beam. Climb back up and walk the bridge to the next platform.\n4. Walk the bridge to the end statue.\n\n**Treasure:** \n- Large Zonaite: On a high platform beside the last bridge. Ultrahand the middle panel and Attach it to the plate on the side.",
               latitude: "0.58788698507453",
               longitude: "-0.65456628799498",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joju-u-u-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5836,10 +4406,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/33823f57-98c8-4c45-acc6-a4b3151b7398.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sifumim-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5854,10 +4420,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/6085105f-4097-4461-b182-ff28ff768b3c.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ekochiu-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -5875,7 +4437,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/xnxrRjLyxwg",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -5887,10 +4449,6 @@ export const totk = {
               latitude: "0.68302664114058",
               longitude: "-0.56096666003601",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-yomizuk-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/65c511b7-19e4-42b5-b3ec-970ef1aa05b3.jpg",
                   type: "image",
@@ -5904,12 +4462,7 @@ export const totk = {
                 "_Fire and Water_\n\n**Location:** Inside [River of the Dead Waterfall Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278223) \n\n**Solution:** \n1. Using Ultrahand, attach the block to the balls in the water and place them on the opposite side. Swim across to the next room.\n2. Block the fire melting the ice block by using the stone block.\n3. Drop the ice block into the lava to create a bridge.\n4. Pull the wood block out of the fire and drop it in the water to put it out. Take it back to the main room.\n5. Grab another ice block and drop it in the water under the ledge with the fire. Be sure to pull out the electricity ball from the water.\n6. Attach the stone block from the first room, the block from the main room and the wood block to create a pillar. Make sure the wood block is NOT on the bottom.\n7. Place your block pillar on the ledge above the ice block. Jump onto the ice block and use Ascend to get up.\n\n**Treasure:** \n- Mighty Zonaite Shield",
               latitude: "0.63214095551830",
               longitude: "-0.73809714734270",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tadarok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5919,10 +4472,6 @@ export const totk = {
               latitude: "0.58927830170607",
               longitude: "-0.76089730946035",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-motsusis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/b7d8b32a-063a-4b5c-bcd3-f831da36cd0e.jpg",
                   type: "image",
@@ -5941,10 +4490,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/4317e382-21f3-4abc-ac8b-7d073dc4aa05.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kimayat-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5959,10 +4504,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/bcd08fbc-ff60-4b30-8c83-063f34a33588.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kamatukis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -5972,12 +4513,7 @@ export const totk = {
                 "_Rauru's Blessing_\n\n**Location:** North Lomei Labyrinth - In the center of the labyrinth.\n\n**Solution:** None; reach the shrine to complete it.\n\n**Treasure:** \n- Diamond - Just before the end statue.",
               latitude: "0.81691489264884",
               longitude: "-0.73044874539778",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayaotaki-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -5990,10 +4526,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/fe70557a-7741-43fd-9ee5-cee04da5f231.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-domizuin-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6008,10 +4540,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/d745be55-db88-4209-901b-75d3585934b2.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eshos-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6029,7 +4557,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/lhI7T_PJWus",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6047,7 +4575,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/vT5oImFvcnw",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6062,10 +4590,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/62bb4943-a1a1-4cc9-bda3-2a6e36b45def.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-siwakama-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6083,7 +4607,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/yMxgXCtzw1o",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6101,7 +4625,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/XI8nTlex4so",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6116,10 +4640,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/669bb135-bca9-47fa-823e-5dcae329f0f8.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kitawak-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6137,7 +4657,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/tzWVyB396yk",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6155,7 +4675,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/4w0InqZ24bY",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6166,12 +4686,7 @@ export const totk = {
                 "_Proving Grounds: Lure_\n\n**Location:** -4688, -3088, 0054 - On top of the sand dune. \n\n**Solution:** \n1. Defeat all the constructs, using only the gear provided in the room.\n\n**Treasure:** \n- [Captain II Blade](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282826) - Just before the end statue.",
               latitude: "0.60383731926423",
               longitude: "-0.85372568681902",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-miryotanog-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -6184,10 +4699,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/e44ddf06-1bc1-499f-847b-797521c8859d.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-minetak-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6203,10 +4714,7 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/f4e3b026-f796-47ea-9985-b17d4c8c5ea7.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-momosik-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
+
                 {
                   url: "https://media.mapgenie.io/storage/media/c6994c3b-33f2-4637-b27d-a8cf20dd4398.jpg",
                   type: "image",
@@ -6224,10 +4732,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/9f556f8e-53a4-4eb0-8ecc-b1ec3d727767.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-makasura-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6261,10 +4765,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/ecf50414-c13c-4890-a79a-44a814f89a31.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sepapa-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6274,12 +4774,7 @@ export const totk = {
                 "_The Way Up_\n\n**Location:** -0179, 1170, 0280 - Hyrule Castle B1  \n\n**Solution:** \n1. Place the metal plate on the two supporting beams, then Ascend through it to reach the ledge.\n2. Attach the metal plates in an L shape, then prop the structure against the support beam. Ascend through the structure to the higher ledge.\n3. Place a square plate on the ground. On either side, Attach another plate vertically, then rotate it so the longer plate is on the ground. \n4. Place the structure on the supporting beams. You should be able to Ascend twice to the final ledge.\n\n**Treasure:** \n- [Magic Rod [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280442) - In the 3rd room. Attach the metal plates so it forms a bridge-like structure. Then, rotate it on its side and prop it against the wall, on the spiked floor. Jump on the plate and Ascend to the ledge with the chest.",
               latitude: "0.74069585770026",
               longitude: "-0.70888334225267",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-serutabomac-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -6288,12 +4783,7 @@ export const totk = {
                 "_Rauru's Blessing_\n\n**Location:** 4544, -0845, 1121 - Complete the [Dive Ceremony](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279425) to make the shrine appear. \n\n**Solution:** \n1. Walk up to the end statue.\n\n**Treasure:** \n- Diamond - Just before the end statue.",
               latitude: "1.01903894726380",
               longitude: "-0.55645701995297",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sihajog-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -6309,7 +4799,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/l9aSG52bonM",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6327,7 +4817,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/r0HtjjOSq4s",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6343,10 +4833,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/9e562936-6586-46cc-9160-9232e1fd47ce.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kadaunar-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6360,10 +4846,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/c6ddc766-3bf8-4309-8500-2c6a38db27ae.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-josiu-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6381,7 +4863,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/ofjq8O8HLm0",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6411,10 +4893,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/5e9e029e-d46e-4c21-95b6-193bb21b8088.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gikaku-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6428,10 +4906,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/8c6dc6a2-b783-4828-9f8e-0b209fbc38fb.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kumamayn-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6449,7 +4923,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/-KJLhnDAr30",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6465,10 +4939,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/cd26415c-0f9b-4a6a-9867-0d462ae969d5.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukoojisi-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6478,12 +4948,7 @@ export const totk = {
                 "_Rauru's Blessing_\n\n**Location:** -3485, 0320, 1932 - Inside the Skyview Island. \n\n**Solution:** _Note: This is the solution to make the shrine appear_\n1. Pivot the central gear until the light reflects off a mirror, on the side of the island.\n2. Follow the beam of light until it stops, pivoting mirrors as needed so the light beam always hits another mirror.\n3. Continue the chain until it hits the glowing hexagon in the center of the island.\n\n**Treasure:** \n- [Star-Fragment Staff](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283452) - Just before the end statue.",
               latitude: "1.03483374818140",
               longitude: "-0.81717086484488",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mayasiar-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -6496,10 +4961,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/29766247-5b5d-48fd-b571-f39c2a0b442b.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jinodok-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6515,10 +4976,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e1dccfde-ee54-4790-b667-b932d3cce93f.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joku-usin-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6533,10 +4990,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/77668f62-d467-4b20-b84c-fe0802ee7dca.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-simosiwak-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6546,12 +4999,7 @@ export const totk = {
                 "_Gravity and Velocity_\n\n**Location:** -0972, 2525, 1011 - On the entrance platform of the North Lomei Castle Top Floor.\n\n**Solution:** \n1. Wait for the ball to be in the right launcher, then hit the switch. This should reverse the gravity and guide the ball to the target.\n2. Using the left launcher, launch Link to the next room. Wait for the ball to respawn and be launched through the doorway into the basket.\n3. Let the ball be launched in the air, then hit the crystal as the ball flies over the target. This should open the way to the end statue.\n\n**Treasure:** \n- Large Zonai Charge - In an alcove, underneath the target. Paraglide from the 2nd room to the chest.",
               latitude: "1.16005158485430",
               longitude: "-0.73430842309986",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tenbez-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -6564,10 +5012,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/ea2010d4-162c-476d-9e3b-1321557b95b5.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taninoud-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6582,10 +5026,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/5076345e-952d-4fc7-b324-9de5b67a0448.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ga-ahisas-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6605,10 +5045,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/80a21843-10c5-4865-bf8e-05d9a47289c9.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ganos-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6622,10 +5058,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/abfac615-e6f4-459f-9949-35876a29dc70.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-siyamotsus-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6643,7 +5075,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/i9mzMm5sU_c",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6665,7 +5097,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/PzCKGOezOjo",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6685,10 +5117,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/81df47a2-ec3d-408c-b7ad-1874a51d1dcd.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jirutagumac-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6705,7 +5133,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/bK0Lt-0wjU8",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6739,10 +5167,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/784b8206-fe58-4b62-ab7d-a6cc3409b59f.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mogisari-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6756,10 +5180,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/d1d0a685-3aaf-4db8-8a64-459846aa8bfa.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-otak-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6779,10 +5199,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/8a61f6e7-96aa-4ed8-92d5-3f6f6f5de39d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sisuran-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6796,10 +5212,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/5411543b-7b7a-4c9f-b8ed-3cfc95a6de6b.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rutafu-um-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6819,10 +5231,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/6ba4c688-ba58-443a-a331-29fdc4d4fb5d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/zelda-tears-of-the-kingdom-how-to-tame-the-giant-horse",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6839,7 +5247,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/sPewZMThbWk",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6857,7 +5265,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Ae4s_RS03LY",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6875,7 +5283,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/2Y89XGiSDuo",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6893,7 +5301,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/ZN-fqVwilyo",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6908,10 +5316,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/811f8b3d-6d72-4321-be14-9de81b71c0f6.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jochi-ihiga-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6929,7 +5333,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/IFBTDipMteI",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -6945,10 +5349,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/9464ab72-f4cf-4396-8be5-0d77c76da85f.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ninjis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6962,10 +5362,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/3129bbeb-66ea-45d9-a004-445aff70f2ac.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-musanokir-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -6981,10 +5377,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a90245bd-e859-4fd2-b7a6-c70fa6fdf68c.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pupunke-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -6998,10 +5390,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/d684163b-f9d7-4a69-a419-3b4e4df360ae.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sakunbomar-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7021,10 +5409,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a944774b-843a-4883-8078-349e790acec4.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-tenmaten-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7039,10 +5423,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/1bd843c6-83b6-4582-a576-754a140f6146.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-wao-os-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7056,10 +5436,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/b0f27cbf-6031-4e7f-ba68-0e2cb1526406.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-joniu-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7077,7 +5453,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/qg4BXjWEHPA",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -7095,7 +5471,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/uTlgdFbJJmQ",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -7110,10 +5486,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/68cc92bb-311d-4f15-bbb1-951b8b21c0ce.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-maoikes-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7131,7 +5503,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/b9vzf7sOq5Q",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -7152,10 +5524,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e6f007f2-1e5e-4d11-9b5d-0768c26f749a.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lookout-landing-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7169,10 +5537,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/078990da-a9f5-4f12-89b6-c989fb6598d7.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hyrule-field-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7188,10 +5552,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/22a7799b-143c-415a-af20-1a746eb95fd4.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sahasra-slope-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7205,10 +5565,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/e6bda668-dc81-4b33-836c-7d562e5a760e.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-upland-zorana-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7224,10 +5580,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/fb834c60-15e0-4d8a-9f1c-558456a02f94.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ulri-mountains-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7241,10 +5593,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/3191decc-281e-4ebc-9d83-eae7d6cc52c9.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mount-lanayru-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7260,10 +5608,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/7e88fb63-da76-4f89-af6e-3e3f0229e2bb.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rabella-wetlands-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7277,10 +5621,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/2d5ad96e-23fb-4692-af5a-4ebc502171e3.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-popla-foothills-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7296,10 +5636,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e5e16493-6de9-4f38-bfd8-55f21801dd9f.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gerudo-canyon-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7313,10 +5649,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/9718b25a-5ed4-471b-88a1-a60705a7b951.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gerudo-highlands-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7332,10 +5664,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/24ffa21b-8e21-49e7-aaa1-8e032c8f1deb.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lindors-brow-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7349,10 +5677,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/489f1e9a-a1dd-493c-96a3-f291a0b30534.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rospro-pass-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7368,10 +5692,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/dddfc548-0e36-4082-8e22-b05b41eff129.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pikida-stonegrove-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7386,10 +5706,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/62a7c718-4131-4e69-89dd-026a926901c5.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-thyphlo-ruins-skyview-tower-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -7403,10 +5719,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/4eab3172-7960-4400-9634-81f7e15a07ef.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-eldin-canyon-skyview-tower-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -7548,12 +5860,7 @@ export const totk = {
                 "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752) - in Josha's lab\r\n\r\nAvailable after completing [Camera Work in The Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276866)",
               latitude: "0.70812739644488",
               longitude: "-0.71111261844658",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -8288,7 +6595,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/EPSQOwLxXNM",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -8369,12 +6676,7 @@ export const totk = {
                 "**Location:** Speak to the Steward Construct here to begin.  \n\n**Reward:** \n- [Glide Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279426) if done within 35 seconds\n- Large Zonaite Charge if done within 25 seconds after completing previous challenge",
               latitude: "1.01742642204020",
               longitude: "-0.56083381175924",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sihajog-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -8945,6 +7247,7 @@ export const totk = {
               ],
             },
           ],
+          icon: "yiga_schematic",
           title: "Autobuild Schematic",
         },
         {
@@ -8959,7 +7262,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=2401",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -8977,7 +7280,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=3247",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -8995,7 +7298,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=1658",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9013,7 +7316,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=2974",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9031,7 +7334,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=2206",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9049,7 +7352,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=1921",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9067,7 +7370,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=234",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9085,7 +7388,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=3516",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9103,7 +7406,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=1140",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9121,7 +7424,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=906",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9139,7 +7442,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=2730",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -9157,7 +7460,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Y4Wc4ETZu6I?t=1417",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -24019,10 +22322,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/4644f44d-56ed-40da-81b6-56bb9b80c1c9.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-master-sword-in-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
           ],
@@ -24435,12 +22734,7 @@ export const totk = {
                 "**Required:** Complete [Filling Out the Compendium](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282714) and speak to [Robbie](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277026)",
               latitude: "0.63473787373981",
               longitude: "-0.58179786289531",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-filling-out-the-compendium-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -25227,10 +23521,6 @@ export const totk = {
               longitude: "-0.74239522218846",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/dd786438-4cd9-4802-b4f9-955fc7521d2d.jpg",
                   type: "image",
                 },
@@ -25284,10 +23574,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/786cf389-5518-4f12-b73d-808231a7a547.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -25305,10 +23591,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/a1f63338-5d44-446d-bcd2-e2367b314cc0.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-find-the-korok-mask",
-                  type: "video",
                 },
               ],
             },
@@ -25696,10 +23978,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/976813fe-fa4e-4a78-8cf1-aece9da10c8f.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-champions-leathers",
-                  type: "video",
-                },
               ],
             },
             {
@@ -25715,8 +23993,8 @@ export const totk = {
                   type: "image",
                 },
                 {
-                  url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
+                  type: "video",
                 },
               ],
             },
@@ -25733,8 +24011,8 @@ export const totk = {
                   type: "image",
                 },
                 {
-                  url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
+                  type: "video",
                 },
               ],
             },
@@ -25751,8 +24029,8 @@ export const totk = {
                   type: "image",
                 },
                 {
-                  url: "https://www.youtube.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
-                  type: "youtube",
+                  url: "https://www.video.com/watch?v=qJHJ3Ag7djc&ab_channel=IGNGuides",
+                  type: "video",
                 },
               ],
             },
@@ -25838,10 +24116,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e5ecf3fd-cfa3-46cb-a900-0a575082d2f1.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
-                  type: "video",
-                },
               ],
             },
             {
@@ -25859,10 +24133,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/1fbcbafb-e68c-402a-8f52-c82dce675e8d.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
-                  type: "video",
                 },
               ],
             },
@@ -25882,10 +24152,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/fcd34b46-138f-4688-91e3-d8d805dc49e2.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
-                  type: "video",
-                },
               ],
             },
             {
@@ -25904,10 +24170,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/003b693e-49c6-4726-b809-1d73a190e4f2.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
             {
@@ -25918,10 +24180,6 @@ export const totk = {
               latitude: "0.71911264280638",
               longitude: "-0.58360691465018",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/37dae596-4fc0-4877-95a4-d67485c5db7d.jpg",
                   type: "image",
@@ -25940,10 +24198,6 @@ export const totk = {
               latitude: "0.72046258759651",
               longitude: "-0.61146184802050",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-climbing-gear-locations",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/5b4957d1-92aa-4466-b546-93392a6e2e5b.jpg",
                   type: "image",
@@ -26056,10 +24310,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e2fb06f0-8693-4cac-af88-57e18227e83b.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26074,10 +24324,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/eaa757e6-9763-4243-b270-437e3f9f4f68.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26091,10 +24337,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/d177b077-fd5e-4d87-8ad3-e61c0c22aad4.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-the-miners-armor-set",
-                  type: "video",
                 },
               ],
             },
@@ -26114,10 +24356,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/c1e3dfb5-289f-450e-b2aa-29e600b29f4d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26135,10 +24373,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/e1d886e3-dcb5-4b64-85d8-7d3f0f02da8b.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-get-the-barbarian-armor",
-                  type: "video",
                 },
               ],
             },
@@ -26282,10 +24516,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/43bf24e6-3c98-409f-abcb-75912e7401eb.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26322,10 +24552,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/01e2f8b2-de8b-41fe-b3c2-84449d5bcdb7.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26336,10 +24562,6 @@ export const totk = {
               latitude: "0.39927330406449",
               longitude: "-0.55330784300514",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-phantom-ganon-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/f89aa7ae-b90f-4145-96ad-4b9ef3579c15.jpg",
                   type: "image",
@@ -26361,10 +24583,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/5f5f65ed-1869-449c-a845-431ac26f3750.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-all-zonaite-armor-locations",
-                  type: "video",
                 },
               ],
             },
@@ -26438,10 +24656,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a2b7ed87-0006-40e9-b06f-6484a1fe2997.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26478,10 +24692,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/0b13836c-8326-429b-85a7-922e463f3583.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
             {
@@ -26499,10 +24709,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/07417d65-bca4-4a11-9300-81cd177c431e.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-frostbite-armor-set-in-zelda-tears-of-the-kingdom",
-                  type: "video",
                 },
               ],
             },
@@ -27166,10 +25372,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/efa4d3ab-c7b8-450b-866e-81e2a4e6fda4.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -27183,10 +25385,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/86b677d3-fb1d-4db2-8058-8702778bb48d.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -27202,10 +25400,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e1c8db3b-6447-40ed-8a31-b56bd7311cc8.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -27219,10 +25413,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/c16cc9f5-aefb-4f24-9421-f68699a61fc3.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -27238,10 +25428,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/822d1a57-e30e-4c42-a922-f85207f5ce16.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -27255,10 +25441,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/e7e2777e-2495-49d2-8788-fddb3863b75e.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -27278,10 +25460,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -27296,10 +25474,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/f6646866-03c6-471a-a4a5-a9c39436cb80.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -27313,10 +25487,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/8e1adc88-f641-435d-bbdb-06f0646a6507.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -27336,10 +25506,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/307d5ae3-8b9c-4284-8ae6-e8f50aca70f0.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -27357,10 +25523,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/ca09223e-030a-458c-af62-19afe15b935d.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -27614,137 +25776,6 @@ export const totk = {
             },
           ],
           title: "Armor",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
-              title: "Chest [?]",
-              description: "**Location:** Dropped by the Like Like",
-              latitude: "0.77306578937870",
-              longitude: "-0.42753036127833",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Brightbloom Seed x5 [Chest]",
-              description: "On wooden platform in enemy camp.",
-              latitude: "0.35114932783587",
-              longitude: "-0.72058897216800",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Large Zonai Charge [Chest]",
-              latitude: "0.70475781473216",
-              longitude: "-0.64052367561874",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Giant Brightbloom Seed x5 [Chest]",
-              description: "Chest in enemy camp.",
-              latitude: "0.33289848529552",
-              longitude: "-0.71098619096531",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sundelion [Chest]",
-              description: "In enemy camp.",
-              latitude: "0.32778779950345",
-              longitude: "-0.71808029842472",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Bomb Flower x3 [Chest]",
-              latitude: "0.73152967099227",
-              longitude: "-0.68671196684650",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Shard of Dinraal's Spike [Chest]",
-              latitude: "0.78206236952281",
-              longitude: "-0.37521463774510",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Arrows x5 [Chest]",
-              description: "Next to ruined cabin.",
-              latitude: "0.69796337989018",
-              longitude: "-0.65598136245188",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Large Zonai Charge [Chest]",
-              latitude: "0.30905482124606",
-              longitude: "-0.68548492504942",
-            },
-          ],
-          title: "Chest",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
-              title: "Energizing Elixir [Chest]",
-              description:
-                "**Location:** Inside the chest in the small ruin  \n**Coordinates:** 0314 -1628 1417",
-              latitude: "0.99370259843509",
-              longitude: "-0.69289172324201",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Spicy Elixir",
-              description:
-                "**Location:** Speak with [Ariane](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279618) to receive it.",
-              latitude: "0.72713469453094",
-              longitude: "-0.74751775035495",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Spicy Elixir [Chest]",
-              description:
-                "Inside [Sahirow Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277060). After using Ascend on the moving platform, turn right. There will be a laser tripwire with two blocks on the other side. Use Ultrahand to safely pull the blocks towards you and solve the small side puzzle to retrieve the chest on the other side of the gate.",
-              latitude: "0.78048946335953",
-              longitude: "-0.81106791867839",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Spicy Elixir [Chest]",
-              description:
-                "Use Ultrahand to pull it up out of the ground. May be hidden beneath a metal door in the area.",
-              latitude: "0.64496623649011",
-              longitude: "-0.74686050419737",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sticky Elixir [Chest]",
-              description: "buried chest",
-              latitude: "0.73479843030140",
-              longitude: "-0.77479964417779",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Energizing Elixir [Chest]",
-              description:
-                "On a metal platform overlooking the road. Guarded by 2 moblins (their color varies depending on player's progression).",
-              latitude: "0.76309347733024",
-              longitude: "-0.65564390313136",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Sneaky Elixer [Chest]",
-              description:
-                "Inside the Yiga Clan Hideout. In the garage, look for a breakable wall and go to the end to find the chest.",
-              latitude: "0.65842304752668",
-              longitude: "-0.82008582228812",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Electro Elixir [Chest]",
-              description: "**Location:** At the bottom of the pond.",
-              latitude: "0.60792898274815",
-              longitude: "-0.66945396826569",
-            },
-          ],
-          title: "Elixir",
         },
         {
           locations: [
@@ -28423,40 +26454,6 @@ export const totk = {
             },
           ],
           title: "Shield",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
-              title: "Star Fragment",
-              description:
-                "**Location:** Buried in the sand at the end of the spit (beside a lone palm tree).  Use Ultrahand to pull it out.",
-              latitude: "0.58672348888886",
-              longitude: "-0.58102168589960",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/986c6d35-4b12-48e9-9e8b-7e73a293ec75.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Treasure Chest [?]",
-              description:
-                "**Location:** In the lower level with the chasm. Guarded by a hand monster ??",
-              latitude: "0.82294657097015",
-              longitude: "-0.55328411782523",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Star Fragment",
-              description: "Inside Lightcast Island, use Ascend",
-              latitude: "1.08002101304890",
-              longitude: "-0.81993169362565",
-            },
-          ],
-          title: "Treasure Chest",
         },
         {
           locations: [
@@ -30339,21 +28336,6 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Traveler's Sword",
-              description: "Pristine weapon given by a ghost.",
-              latitude: "0.39219832096315",
-              longitude: "-0.70342849407774",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Construct Bow",
-              description:
-                "**Location:** [Runakit Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277059) - On a pillar, beyond the 2nd lower ledge. Attach multiple stone slabs end-to-end to make a ramp to the chest.",
-              latitude: "0.73996263653082",
-              longitude: "-0.78477576593158",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Strong Construct Bow",
               description:
                 "**Location:** [Makurukis Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277789) - Just before the end statue.",
@@ -30664,25 +28646,6 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Strong Construct Bow 2x",
-              latitude: "0.47660315092952",
-              longitude: "-0.63978921047479",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Strong Zonaite Weapon / Shield",
-              description: "Like-Like chest. Respawns.",
-              latitude: "0.43994596061135",
-              longitude: "-0.49624996546626",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Traveler's Claymore",
-              latitude: "0.48126121238026",
-              longitude: "-0.70396512292362",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Traveler's Sword*",
               description: "Pristine Weapon offered by ghost.",
               latitude: "0.35936515802564",
@@ -30725,84 +28688,6 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Knight Sword",
-              latitude: "0.25726598602836",
-              longitude: "-0.84608191976994",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Magic Scepter",
-              description:
-                "**Location:** [Kurakat Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277763) - Just before the end statue.",
-              latitude: "0.68675039552450",
-              longitude: "-0.62744425684107",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Strong Construct Bow",
-              description:
-                "**Location:** [Jonsau Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277022) - In the 2nd room, in the water by the first pillar. Grab it with Ultrahand.",
-              latitude: "0.70357598667107",
-              longitude: "-0.64699460411092",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Strong Zonaite Spear",
-              description:
-                "**Location:** [Apogek Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278373) - In the 2nd room, on a tall pillar. After gliding up, Ultrahand the Fan just underneath the pillar and glide to the top.",
-              latitude: "0.69641186886403",
-              longitude: "-0.57809570684788",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Mighty Construct Bow",
-              description:
-                "**Location:** [Kisinona Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278276) - On top of a pillar, on the left side of the room. Use a Fan to glide upwards to the chest.",
-              latitude: "0.74336532082505",
-              longitude: "-0.62057955913846",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Captain II Reaper",
-              description:
-                "**Location:** [Kimayat Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278029) - Just before the end statue.",
-              latitude: "0.81952695596901",
-              longitude: "-0.61147137518984",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Strong Zonaite Longsword",
-              description:
-                "**Location:** [Sibajitak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278376) - After aligning the first 2 pillars, Ascend through and glide to the chest, in an alcove in the pillar.",
-              latitude: "0.80871629284874",
-              longitude: "-0.62597575324676",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Magic Staff",
-              description:
-                "**Location:** [Jiotak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278867) - Just before the end statue.",
-              latitude: "0.80628293603296",
-              longitude: "-0.64421479742796",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Mighty Zonaite Sword",
-              description:
-                "**Location:** [Pupunke Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278379) - Just before the end statue.",
-              latitude: "0.77424367696366",
-              longitude: "-0.68356566130996",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Mighty Construct Bow",
-              description:
-                "**Location:** [Ninjis Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278377) - Just before the end statue.",
-              latitude: "0.76222862542741",
-              longitude: "-0.69078486711817",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Magic Rod",
               description:
                 "**Location:** [Mayam Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277775) - Just before the end statue.",
@@ -30816,20 +28701,6 @@ export const totk = {
                 "**Location:** [Mayasiar Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278350) - Just before the end statue.",
               latitude: "1.03486187986840",
               longitude: "-0.81736912752370",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Construct Bow",
-              description:
-                "**Location:** [Siyamotsus Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278358) - In the center of the platform.",
-              latitude: "0.94024672964659",
-              longitude: "-0.76108542151405",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Traveler's Claymore",
-              latitude: "0.40165308903788",
-              longitude: "-0.59822963634591",
             },
             {
               mapSlug: "hyrule",
@@ -30963,18 +28834,6 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Soldier's Claymore",
-              latitude: "0.77713545539184",
-              longitude: "-0.37103777420890",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Knight's Claymore",
-              latitude: "0.78029646611863",
-              longitude: "-0.37465425092697",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Royal Guard's Spear",
               latitude: "0.77665150260131",
               longitude: "-0.37295078011331",
@@ -30984,12 +28843,6 @@ export const totk = {
               title: "Royal Halberd [Chest]",
               latitude: "0.76682967014337",
               longitude: "-0.45189827285247",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Knight's Broadsword",
-              latitude: "0.76444023919322",
-              longitude: "-0.45278725426189",
             },
             {
               mapSlug: "hyrule",
@@ -31106,19 +28959,6 @@ export const totk = {
                 "**Location:** [Zakusu Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277954) - Just before the end statue",
               latitude: "0.65541888346137",
               longitude: "-0.59003233909517",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Traveler's Claymore*",
-              latitude: "0.35344035223301",
-              longitude: "-0.67182382848870",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Soldier's Broadsword*",
-              description: "Chance to be a Pristine Royal Broadsword.",
-              latitude: "0.36015686508011",
-              longitude: "-0.67144707230312",
             },
             {
               mapSlug: "hyrule",
@@ -31475,12 +29315,6 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Zora Longsword*",
-              latitude: "0.37793182037106",
-              longitude: "-0.64787444934882",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Royal Bow [Chest]",
               description: "Buried in the ground, retrieve with Ultrahand",
               latitude: "0.74974885516602",
@@ -31568,13 +29402,6 @@ export const totk = {
               title: "Royal Claymore [Chest]",
               latitude: "0.77572786494518",
               longitude: "-0.59144070341833",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Broadsword",
-              description: "Buried. Use Ultrahand.",
-              latitude: "0.75223729639505",
-              longitude: "-0.59885503869828",
             },
             {
               mapSlug: "hyrule",
@@ -31675,12 +29502,6 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Gnarled Wooden Stick",
-              latitude: "0.60125785613451",
-              longitude: "-0.68211226502001",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Gnarled Thick Stick [Chest]",
               latitude: "0.62661592135174",
               longitude: "-0.68484374291259",
@@ -31693,21 +29514,9 @@ export const totk = {
             },
             {
               mapSlug: "hyrule",
-              title: "Zonaite Spear",
-              latitude: "0.61080336550491",
-              longitude: "-0.72885704341009",
-            },
-            {
-              mapSlug: "hyrule",
               title: "Gerudo Bow",
               latitude: "0.60671833950453",
               longitude: "-0.78865728216428",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Claymore [Chest]",
-              latitude: "0.59783680522937",
-              longitude: "-0.78862776583546",
             },
             {
               mapSlug: "hyrule",
@@ -32070,14 +29879,8 @@ export const totk = {
               latitude: "0.44364584904326",
               longitude: "-0.68390817656925",
             },
-            {
-              mapSlug: "hyrule",
-              title: "Knight's Halberd [Chest]",
-              description: "Beneath breakable rocks",
-              latitude: "0.59797557403337",
-              longitude: "-0.65962225198703",
-            },
           ],
+          info: "Weapons are used by Link to fight his way through enemies. Weapons found in the overworld might be of a higher tier, depending on your game's progress.",
           title: "Weapon",
         },
       ],
@@ -32099,10 +29902,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/36ed7b53-a6a1-4403-9920-9e51c8627384.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32117,10 +29916,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/3f46c61d-05dd-4a5e-82f5-8e675e4ceb75.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-all-dragons-tears-locations",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32134,10 +29929,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/64637f21-2a73-4159-b16b-2ba3d6e87c6b.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-all-dragons-tears-locations",
-                  type: "video",
                 },
               ],
             },
@@ -32155,7 +29946,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/HOnHr3y8TNw?t=349",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32173,7 +29964,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/HOnHr3y8TNw?t=865",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32203,10 +29994,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/b84a676e-3fab-405b-b4d5-9343b2a45cfe.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-a-mystery-in-the-depths",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32223,7 +30010,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/GpIFwo5Qj0U",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32238,10 +30025,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/db998268-d0b3-4a55-9bc0-7119b54fd8cd.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-to-the-kingdom-of-hyrule",
-                  type: "video",
                 },
               ],
             },
@@ -32259,7 +30042,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/uJwA0CTOGmE",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32275,10 +30058,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a36d9b36-e5da-4a3d-8a44-eb5b05bfac58.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-find-princess-zelda",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32292,10 +30071,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/f2090184-aea6-466a-8895-0cc4a60cdfe4.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-the-closed-door",
-                  type: "video",
                 },
               ],
             },
@@ -32327,7 +30102,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/YbNWTYQB8PQ",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32342,10 +30117,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/9258bb08-5729-4232-b521-67dfbec9c805.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-yunobo-of-goron-city",
-                  type: "video",
                 },
               ],
             },
@@ -32363,7 +30134,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/HOnHr3y8TNw?t=130",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32381,7 +30152,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/-quuqrJ6pdM",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32399,7 +30170,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/xwdv_8HLhBA",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32417,7 +30188,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/vdju7WE4em0",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32435,7 +30206,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/uCK1vxe5ImI",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32453,7 +30224,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/b7cDKmLj3Ww",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32471,7 +30242,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/xwdv_8HLhBA",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32489,7 +30260,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/_OWbTdIPsZo",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32653,7 +30424,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/lhI7T_PJWus",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32668,10 +30439,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/f0a7b121-caea-40ea-bf0e-d2675dafe3f7.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-josiu-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -32689,7 +30456,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/XI8nTlex4so",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32707,7 +30474,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/sPewZMThbWk",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32723,10 +30490,7 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/186da0e7-77f5-4e7c-8d82-e7f88a9289c5.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-momosik-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
+
                 {
                   url: "https://media.mapgenie.io/storage/media/7561e9da-43c9-4d1d-af1c-71d23fbabc51.jpg",
                   type: "image",
@@ -32745,10 +30509,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/811f8b3d-6d72-4321-be14-9de81b71c0f6.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jochi-ihiga-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32763,10 +30523,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/fa4431ef-04eb-4d90-a6d7-ad4d10da39f7.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ikatak-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32780,10 +30536,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/b95457aa-a141-470f-83bc-034653dc4c51.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-usazum-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -32801,7 +30553,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/CKO-w5rok00",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32813,10 +30565,6 @@ export const totk = {
               latitude: "0.99853759698215",
               longitude: "-0.74324490834579",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-jinodok-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/29766247-5b5d-48fd-b571-f39c2a0b442b.png",
                   type: "image",
@@ -32835,10 +30583,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/537e2c3e-3ebb-4a7f-8416-f6f0e13242f3.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-taninoud-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32855,7 +30599,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/uTlgdFbJJmQ",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32867,10 +30611,6 @@ export const totk = {
               latitude: "0.65915985464888",
               longitude: "-0.57518877136587",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-zakusu-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/96d8be09-f5df-4e34-a03f-456f15963153.jpg",
                   type: "image",
@@ -32911,10 +30651,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/5411543b-7b7a-4c9f-b8ed-3cfc95a6de6b.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-rutafu-um-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32933,10 +30669,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/6ba4c688-ba58-443a-a331-29fdc4d4fb5d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/zelda-tears-of-the-kingdom-how-to-tame-the-giant-horse",
-                  type: "video",
-                },
               ],
             },
             {
@@ -32953,7 +30685,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/Ae4s_RS03LY",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32971,7 +30703,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/vT5oImFvcnw",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -32985,7 +30717,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/kab_-F9WW2Y",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33000,10 +30732,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/1bd843c6-83b6-4582-a576-754a140f6146.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-wao-os-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -33021,7 +30749,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/YX4Tff8D26U",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33033,10 +30761,6 @@ export const totk = {
               latitude: "0.77260262285327",
               longitude: "-0.68510174391511",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-pupunke-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/bed061a8-ffdd-4532-aae1-2c3baceb6c41.jpg",
                   type: "image",
@@ -33055,10 +30779,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/1bd6003e-7e97-4b95-8114-c51dfa8162bc.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-sakunbomar-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33073,10 +30793,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/722e5c05-17c0-4b18-be17-ef25a8158f75.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ninjis-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33090,10 +30806,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/69c7adc6-50de-448a-8501-446ca4200705.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gikaku-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -33127,10 +30839,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/009b2123-6b9e-40a1-9537-03741d13f7f9.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ganos-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33151,7 +30859,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/PzCKGOezOjo",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33167,10 +30875,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/cd26415c-0f9b-4a6a-9867-0d462ae969d5.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ukoojisi-shrine-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33184,10 +30888,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/d56f9918-e25c-4636-935d-086a81535616.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-kumamayn-shrine-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -33208,10 +30908,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/1e2890f7-bb58-4a80-b9fa-f619e9a4a49e.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-where-to-find-hestu-and-expand-your-inventory-with-korok-seeds",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33226,10 +30922,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/afaa9b51-7fce-4439-a4c6-0f6afbf7cc8e.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-messages-from-an-ancient-era-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33243,10 +30935,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/7d2a55ae-7f5f-44c6-82e3-1718fc6e8c83.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-potential-princess-sightings-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33264,7 +30952,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/EPSQOwLxXNM?list=PLqBTiHv6qMa65GVKzrDzVQ3QvY_J5Lc-9",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33280,10 +30968,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/0171f731-d5b5-4d68-b33a-84b1d602b3ca.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-hunt-for-bubbul-gems-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33297,10 +30981,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/ec53837e-8875-4699-b59f-f003a3e0cfb0.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ruffian-infested-village-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33318,7 +30998,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/sDGrPNKhWdo",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33334,10 +31014,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/5403a803-9a8c-4134-85da-139aba27b72c.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-infiltrating-the-yiga-clan-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33351,10 +31027,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/49225172-ac30-4f4d-9b2a-e134eefa2761.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-honey-bee-mine-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33370,10 +31042,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/652a43a9-9335-4d06-ac12-b19aed0fca78.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-team-cece-or-team-reede-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33387,10 +31055,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/5dc6c3d1-61bf-44e4-a142-30001a3c4521.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ceces-secret-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33406,10 +31070,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/328cc321-b0ec-4d5e-a825-cf9755471644.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-reedes-secret-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33424,10 +31084,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/874b48f5-9b56-4e67-a7b6-c3b4126360f2.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-new-signature-food-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33441,10 +31097,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/ca2ff8dd-f725-4ba4-b99b-4e8326e0d9d4.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-serenade-to-a-great-fairy-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33462,7 +31114,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/JyNAErN2bso",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33480,7 +31132,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/nZs4v7_ljkY",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33496,10 +31148,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/5b27ec10-82df-4197-bf56-339bb0985e55.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-beast-and-the-princess-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33513,10 +31161,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/87ab8265-523a-4ac0-adf1-22fa6f1e8db9.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-white-goats-gone-missing-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33534,7 +31178,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/AzIeOJI93vA",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33552,7 +31196,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/J1aAMAQwIjc",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33570,7 +31214,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/nBtyK9DZdeE?list=PLqBTiHv6qMa65GVKzrDzVQ3QvY_J5Lc-9",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33588,7 +31232,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/OcePfPkER_Q",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33606,7 +31250,7 @@ export const totk = {
                 },
                 {
                   url: "https://youtu.be/CjV93aZRBE8?list=PLqBTiHv6qMa65GVKzrDzVQ3QvY_J5Lc-9",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -33622,10 +31266,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/4f0b8b95-43ab-4af1-b9be-d1dfd4c5169c.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mattisons-independence-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33639,10 +31279,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/3abe0007-fdb3-4a78-a214-64623c47ced9.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-beckoning-woman-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33658,10 +31294,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/52b23bd1-3a5f-46f3-ac3a-86ff7ec01a38.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-all-clucking-cucco-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33675,10 +31307,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/487d4592-a964-45f0-8bd7-7be878d83520.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-for-our-princess-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33694,10 +31322,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/4ae8587e-f297-4c4e-9013-2b677ed88a99.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-necluda-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33711,10 +31335,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/114f1368-d513-455c-91e0-d11d79e695e0.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-of-the-yiga-clan-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33744,10 +31364,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/0ba72e45-0c2a-4487-9fd7-ac240f2116d2.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gourmets-gone-missing-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33761,10 +31377,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/60003ff0-86af-4db4-a2d0-6f356f152b1c.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-missing-farm-tools-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -33780,10 +31392,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/866777a6-d541-4d8d-b093-c626954383e3.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-deal-with-the-statue-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33797,10 +31405,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/a97c6822-54cc-48f1-9180-60fea4323653.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-who-goes-there-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33816,10 +31420,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/9ad35df0-fcbb-4f65-b2e7-7ad7a7702ffb.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-owl-protected-by-dragons-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33833,10 +31433,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/96e7b735-1974-49c8-9ea1-55bff5abcbce.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-investigate-the-thyphlo-ruins-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33852,10 +31448,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/dbd511e8-604c-461c-931f-302371f8cb45.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-princess-zelda-kidnapped-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33869,10 +31461,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/f006fb2a-aa67-4956-ac06-8d475cb10e70.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-legend-of-the-great-sky-island-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33888,10 +31476,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/209f7aec-68bb-4b2b-8c99-8a7b53e0c4ff.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-the-travel-medallion",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33905,10 +31489,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/0b9c2977-c0f5-4fe0-8ea5-59cc6feb5c95.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-letter-to-koyin-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33924,10 +31504,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/68984ced-8013-4f90-87df-327f9d2c805b.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-lurelin-village-restoration-project-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33941,10 +31517,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/c7d0d874-8ac3-473e-a4b7-75e576eecb8d.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-blocked-well-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33960,10 +31532,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/cb5952a0-5ee3-4bea-b5dd-08c28129f45d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-hateno-village-research-lab",
-                  type: "video",
-                },
               ],
             },
             {
@@ -33977,10 +31545,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/afeebf04-e558-4665-a7de-f799951b2930.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-faron-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -33996,10 +31560,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/43383e6b-60a4-4ead-a4a3-e6dc5d75787f.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-akkala-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34013,10 +31573,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/3d2e51dc-10e4-40c5-aa89-b6adb2c51b32.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-heros-path-mode",
-                  type: "video",
                 },
               ],
             },
@@ -34032,10 +31588,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/aba18484-ce10-49df-b270-8456041fd34d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-sensor",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34049,10 +31601,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/81f22cff-4812-4306-8a35-c6983e652b12.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-filling-out-the-compendium-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -34068,10 +31616,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/f8290751-8cb8-4f4d-b846-88b491424c45.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-yiga-clan-exam-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34081,12 +31625,7 @@ export const totk = {
                 "**Previous Side Adventure:*\n- [Team Cece or Team Reede?](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279950)\n- [Cece's Secret](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279952)\n- [Reede's Secret](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279953)\n\n**How To Begin:** Speak with Sophie after completing the previous side adventures.\n\n**Reward:**\n- [Cece Hat](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279951)\n- [Ventest Clothing Boutique](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276898) now sells previously acquired armor pieces.\n\n**Next Side Adventure:** None",
               latitude: "0.63441127568478",
               longitude: "-0.59565633682064",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-mayoral-election-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -34099,10 +31638,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/be1acd25-01bb-466b-acad-6e82983f463e.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-i-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -34118,10 +31653,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/32fd8bde-b486-4f7a-ac1f-242a60eda805.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-ii-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34135,10 +31666,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/ecf5523e-01da-4cbe-aca5-d3a04a85883b.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-iii-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -34154,10 +31681,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/3c4fc2de-8526-44e1-835f-99af3f47f7e8.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-hebra-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34171,10 +31694,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/73b95abe-3ec2-4fc8-8fea-18fff7474e38.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-iv-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -34190,10 +31709,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/6813bb61-8e72-48fb-b192-c408ea1549a7.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-a-monstrous-collection-v-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34207,10 +31722,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/7e54aec1-15fa-4af6-affa-e11883b4007a.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-long-dragon-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -34226,10 +31737,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a566e2ab-1378-4e32-b1d4-38516f4c7261.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-six-dragons-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34244,10 +31751,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/e3658e6a-50d2-429e-ac5c-e5ba1f608393.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-corridor-between-two-dragons-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -34261,10 +31764,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/bdbb6b31-fe11-4046-8771-6321086eb054.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-bring-peace-to-eldin-gameplay-walkthrough-side-adventure",
-                  type: "video",
                 },
               ],
             },
@@ -34919,10 +32418,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/7ab34d34-aba4-4e8c-a5ba-eaa99cf79fbb.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/how-to-get-the-fierce-deity-armor-in-zelda-tears-of-the-kingdom",
-                  type: "video",
-                },
               ],
             },
             {
@@ -35072,12 +32567,7 @@ export const totk = {
                 "**How to Begin:** Talk to Gralens in the Emergency Shelter and ask about big monsters\n\n**Solution:** Kill the [Molduga in the East Barrens](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278134).\n\n**Reward:**\n- Silver Rupee\n- Gold Rupee, when all 3 _WANTED: XX_ quests are completed.",
               latitude: "0.70556300066638",
               longitude: "-0.71136933383238",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -35090,10 +32580,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/bf4ff953-df30-49b0-a4a9-e3fc72d64469.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -35458,10 +32944,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/f8238d9a-1109-4351-98a7-f31b3abd3946.png",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-the-mysterious-eighth-side-quest-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -36079,10 +33561,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/23001653-18b2-44a8-b0df-3c3666c1807d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -36218,12 +33696,7 @@ export const totk = {
                 "**How to Begin:** Talk to Garini, who is talking to Mubs (she runs the general shop), after completing two [Regional Phenomena](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277708) temples.\n\n**Solution:** Talk to Rozel found at [Lurelin Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278007)\n\n**Reward:** Mighty Salt-Grilled Crab",
               latitude: "0.70545487132699",
               longitude: "-0.70984301211257",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-ruffian-infested-village-gameplay-walkthrough-side-adventure",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           title: "Side Quest",
@@ -36308,10 +33781,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/96ca1e2c-b47d-4a08-b50d-3b51dd08b87b.png",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -36321,10 +33790,6 @@ export const totk = {
               latitude: "1.12564090583130",
               longitude: "-0.68887689283909",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/d358960e-ce6b-48f0-bd94-b5878650f37c.jpg",
                   type: "image",
@@ -36336,12 +33801,7 @@ export const totk = {
               title: "Flux Construct III",
               latitude: "1.03308025510450",
               longitude: "-0.77722072285257",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36349,12 +33809,7 @@ export const totk = {
               description: "**Location:** ??",
               latitude: "0.99629582191209",
               longitude: "-0.74669059461698",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36362,10 +33817,6 @@ export const totk = {
               latitude: "1.10418666949200",
               longitude: "-0.58530516301048",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/79f6b377-c7e9-4a9d-aa6d-8437d79c0d77.jpg",
                   type: "image",
@@ -36377,12 +33828,7 @@ export const totk = {
               title: "Flux Construct III",
               latitude: "0.93033144628747",
               longitude: "-0.62095866685908",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36391,12 +33837,7 @@ export const totk = {
                 "Shrine quest objective for [The Necluda Sky Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286698)",
               latitude: "0.95732143177737",
               longitude: "-0.60518954807503",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36405,120 +33846,70 @@ export const totk = {
                 "Side Quest Objective for [Unknown Sky Giant](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286583)",
               latitude: "1.06778652874940",
               longitude: "-0.81352970257547",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct I",
               latitude: "1.13371207633880",
               longitude: "-0.82660688612509",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct I (Rising Island Chain)",
               latitude: "1.15954802653330",
               longitude: "-0.81484741501086",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct II (Guardian of Wellspring Island)",
               latitude: "1.06558642060400",
               longitude: "-0.59310376622788",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.96299941738586",
               longitude: "-0.71318058633685",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "1.15701103058300",
               longitude: "-0.59684348829478",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct I",
               latitude: "0.35850297198623",
               longitude: "-0.68012467287681",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct II (Lanayru Sky Archipelago)",
               latitude: "1.03752029267220",
               longitude: "-0.60660743649592",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.26010599974558",
               longitude: "-0.59817120970465",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct II",
               latitude: "0.34914657865929",
               longitude: "-0.61805052714823",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36527,84 +33918,49 @@ export const totk = {
                 "**Reward:** Large Crystallized Charge, Zonai Devices, Zonaite, Flux Core III",
               latitude: "0.40100872046898",
               longitude: "-0.67541058681329",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.45126401892203",
               longitude: "-0.84486433213831",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct II",
               latitude: "0.33800879159611",
               longitude: "-0.62201299538276",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct II",
               latitude: "0.33603102548861",
               longitude: "-0.58963467208690",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.94099187003357",
               longitude: "-0.66660832916034",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.49665037704032",
               longitude: "-0.55329814553244",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct II",
               latitude: "0.28396002523512",
               longitude: "-0.83654964290593",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36612,24 +33968,14 @@ export const totk = {
               description: "Within arena through cave",
               latitude: "0.49076287904334",
               longitude: "-0.61696935964341",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.34858188844477",
               longitude: "-0.83452990530750",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36637,12 +33983,7 @@ export const totk = {
               description: "In the middle of the circular platform",
               latitude: "0.49734181694718",
               longitude: "-0.69590249990026",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36651,12 +33992,7 @@ export const totk = {
                 "North of the Abandoned Lanayru Mine, on a circular platform",
               latitude: "0.41174313823767",
               longitude: "-0.60008126323027",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36665,12 +34001,7 @@ export const totk = {
                 "North East of Kawiraus Lightroot, on a circular platform",
               latitude: "0.33069381064877",
               longitude: "-0.77326121149196",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36679,24 +34010,14 @@ export const totk = {
                 "South East of Sikutamak Lightroot, on a circular platform",
               latitude: "0.47223150260963",
               longitude: "-0.58390827095212",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct I",
               latitude: "0.25959548709193",
               longitude: "-0.69993486493149",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-i-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36705,12 +34026,7 @@ export const totk = {
                 "East of Kawumoro Lightroot, South of Aduon Lightroot, on a circular platform",
               latitude: "0.43393682654508",
               longitude: "-0.78741479191464",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36718,36 +34034,21 @@ export const totk = {
               description: "South of Netamnet Lightroot",
               latitude: "0.41971623896330",
               longitude: "-0.72654171367955",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-ii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.26756134639976",
               longitude: "-0.76089973734392",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flux Construct III",
               latitude: "0.49293568057581",
               longitude: "-0.72920151316453",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flux-construct-iii-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           icon: "guardian",
@@ -36772,12 +34073,7 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.47122810708377",
               longitude: "-0.71040934655844",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36822,12 +34118,7 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.26854817698681",
               longitude: "-0.67675188973979",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36840,24 +34131,14 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.45036771979088",
               longitude: "-0.57422636775090",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Obsidian Frox",
               latitude: "0.46986569892211",
               longitude: "-0.73363233267335",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36883,12 +34164,7 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.29523145788033",
               longitude: "-0.83473771017938",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36931,36 +34207,21 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.49067743137178",
               longitude: "-0.68564545671958",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Obsidian Frox",
               latitude: "0.26647979385672",
               longitude: "-0.85354828800274",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Obsidian Frox",
               latitude: "0.35393817800637",
               longitude: "-0.60587386325355",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36973,12 +34234,7 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.40895639766025",
               longitude: "-0.62214549733204",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -36997,12 +34253,7 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.41155897521638",
               longitude: "-0.56970930013244",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37015,48 +34266,28 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.43499096977126",
               longitude: "-0.73075902207211",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Obsidian Frox",
               latitude: "0.41008768396100",
               longitude: "-0.74623599396591",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Obsidian Frox",
               latitude: "0.36688272047616",
               longitude: "-0.75632480442587",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Obsidian Frox",
               latitude: "0.39365182065970",
               longitude: "-0.77556680474743",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37069,12 +34300,7 @@ export const totk = {
               title: "Obsidian Frox",
               latitude: "0.29270269442732",
               longitude: "-0.80003826103601",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-obsidian-frox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37106,12 +34332,7 @@ export const totk = {
                 "**Location:** [Coliseum Ruins](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277324)",
               latitude: "0.66285841507522",
               longitude: "-0.74025902366492",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37119,12 +34340,7 @@ export const totk = {
               description: "**Location:** Atop ruins on Spectacle Rock",
               latitude: "0.61824790890265",
               longitude: "-0.77105998992968",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37133,12 +34349,7 @@ export const totk = {
                 "**Location:** Top of [Gerudo Summit](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277337)",
               latitude: "0.67243960330137",
               longitude: "-0.83274476690247",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37146,24 +34357,14 @@ export const totk = {
               description: "**Location:** On the hill south of Herin Lake",
               latitude: "0.58649759501702",
               longitude: "-0.66918107565178",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Thunder Gleeok",
               latitude: "0.74557941124364",
               longitude: "-0.59292902137642",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-thunder-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37172,24 +34373,14 @@ export const totk = {
                 "**Location:** In the middle of the Bridge of Hylia\n\n**Note:** Side Quest Objective for [Unknown Three-Headed Monster](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286581)",
               latitude: "0.62248049127795",
               longitude: "-0.70449230144740",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Frost Gleeok (Tabantha Tundra)",
               latitude: "0.79639142017834",
               longitude: "-0.76533306330478",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37198,36 +34389,21 @@ export const totk = {
                 "Gleeok but each head is a different element (Fire, Ice, Lightning). Final phase will have a combination of all 3 elements.",
               latitude: "1.11961908817680",
               longitude: "-0.84698066122161",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Flame Gleeok",
               latitude: "0.71715857138366",
               longitude: "-0.81931071864767",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "King Gleeok",
               latitude: "0.92626503921448",
               longitude: "-0.55342634137730",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37236,36 +34412,21 @@ export const totk = {
                 "**Reward:** [Cap of Twilight](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280822)",
               latitude: "0.47960123175218",
               longitude: "-0.69239277210534",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "King Gleeok",
               latitude: "0.96174653347786",
               longitude: "-0.84622024236552",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-king-gleeok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Frost Gleeok",
               latitude: "0.79779227894515",
               longitude: "-0.82466252846902",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-frost-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37274,12 +34435,7 @@ export const totk = {
                 "Jump from South Eldin Sky Archipelago toward Tribly Valley. On the way down, the Flame Gleeok is flying around the sky. Close to coordinates 2240, 0700",
               latitude: "1.06911191393040",
               longitude: "-0.63120573455857",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-flame-gleeok-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           title: "Gleeok",
@@ -37294,10 +34450,6 @@ export const totk = {
               longitude: "-0.73799908161138",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/856d1e7b-444a-452a-b62b-5569bb91bb54.jpg",
                   type: "image",
                 },
@@ -37310,10 +34462,6 @@ export const totk = {
               latitude: "0.77087982212241",
               longitude: "-0.74298463761806",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/2b737b4d-4cbd-4570-a8ac-c765f1ba143c.jpg",
                   type: "image",
@@ -37332,10 +34480,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/045c4474-717d-4504-b374-44ffc6e215d6.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -37344,12 +34488,7 @@ export const totk = {
               description: "**Location:** Forest Colliseum",
               latitude: "0.45779255202119",
               longitude: "-0.70687003433767",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37358,12 +34497,6 @@ export const totk = {
                 "**Location:** South of [Sijotu Lightroot](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277860)",
               latitude: "0.29355325708174",
               longitude: "-0.66452750244412",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
             },
             {
               mapSlug: "hyrule",
@@ -37375,10 +34508,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/3a78f6b8-fc09-4bbc-bccc-c17291effe1b.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -37387,10 +34516,6 @@ export const totk = {
               latitude: "0.81187114329183",
               longitude: "-0.67637525985806",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/d34c1ffa-d843-4fd8-b390-b117450942a8.jpg",
                   type: "image",
@@ -37407,10 +34532,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/9a42e72b-a058-4b3b-8c9c-818b7eff433b.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -37419,10 +34540,6 @@ export const totk = {
               latitude: "0.72791025762488",
               longitude: "-0.77475697518705",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/8fab466e-e448-40a7-8400-6e7d9db36da0.jpg",
                   type: "image",
@@ -37435,10 +34552,6 @@ export const totk = {
               latitude: "0.71136792684396",
               longitude: "-0.59366941452089",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/f6f8cafd-9f2c-4100-881e-2e8e1b9a11f4.jpg",
                   type: "image",
@@ -37457,10 +34570,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/81c94226-8158-4f5b-be75-933681238f93.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -37469,10 +34578,6 @@ export const totk = {
               latitude: "0.82598161550686",
               longitude: "-0.82089445981239",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/5b05b1b9-40fe-4ca7-9500-467898056020.jpg",
                   type: "image",
@@ -37489,10 +34594,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/2c8e3dd9-f635-4d76-b5e2-a94237acfe5c.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -37501,10 +34602,6 @@ export const totk = {
               latitude: "0.74535012135105",
               longitude: "-0.79067548759380",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/1b10bb81-0be3-4869-a71a-01ca8a4ff468.jpg",
                   type: "image",
@@ -37516,24 +34613,14 @@ export const totk = {
               title: "Blue Hinox",
               latitude: "0.42079493692599",
               longitude: "-0.79008860315386",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Hinox",
               latitude: "0.33661702095200",
               longitude: "-0.70159106342635",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37543,10 +34630,6 @@ export const totk = {
               latitude: "0.81705884204023",
               longitude: "-0.55506095035886",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/2516fbdf-a1b3-429a-8bc8-cd5a6c4e10c1.jpg",
                   type: "image",
@@ -37560,10 +34643,6 @@ export const totk = {
               longitude: "-0.66223133736608",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/7f3ced15-ea05-4376-96f7-70ac8af07e71.jpg",
                   type: "image",
                 },
@@ -37575,10 +34654,6 @@ export const totk = {
               latitude: "0.74381650677618",
               longitude: "-0.72719497568440",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/02c71c9b-0cef-4589-a2b7-017aee5fad88.jpg",
                   type: "image",
@@ -37592,10 +34667,6 @@ export const totk = {
               longitude: "-0.79415901641991",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/b0f0b417-c0f2-45a8-9f23-127d8c67100d.jpg",
                   type: "image",
                 },
@@ -37606,12 +34677,7 @@ export const totk = {
               title: "Blue Hinox",
               latitude: "0.28681577946352",
               longitude: "-0.66766438826355",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37619,10 +34685,6 @@ export const totk = {
               latitude: "0.60606544677987",
               longitude: "-0.72919712010093",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/d36de5ae-6bcc-4822-89ff-e3cc69a0d3b6.jpg",
                   type: "image",
@@ -37636,10 +34698,6 @@ export const totk = {
               longitude: "-0.68104342956656",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/b3db082e-63c2-4088-bf7c-983a5c7ad483.jpg",
                   type: "image",
                 },
@@ -37650,12 +34708,7 @@ export const totk = {
               title: "Black Hinox",
               latitude: "0.25580637740866",
               longitude: "-0.64718673270224",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37664,24 +34717,14 @@ export const totk = {
                 "Inside the [Ulria Grotto East Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282158)\n\n**Coordinates:** 4426, 0740, 0111",
               latitude: "0.72727674479859",
               longitude: "-0.56099948726765",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.76086290207817",
               longitude: "-0.55391604298822",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37690,12 +34733,7 @@ export const totk = {
                 "**Location:** [Corta Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281893) - From the southern entrance, fall down the hole, then destroy the rock pile at the end to reveal an updraft. Glide it up to the Hinox. Part of [Ousting the Giants](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281892).",
               latitude: "0.60913330485980",
               longitude: "-0.65001653610176",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37704,108 +34742,63 @@ export const totk = {
                 "**Location:** [Rodai Lakefront Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282070) - Fall down the hole into the water, then follow the cave north to the Hinox. Part of [Ousting the Giants](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281892).",
               latitude: "0.60755187135594",
               longitude: "-0.64213693141909",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.43659279600979",
               longitude: "-0.55353394264188",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Hinox",
               latitude: "0.35251485519689",
               longitude: "-0.73776106891475",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.66161268753308",
               longitude: "-0.83843194961554",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.62564093323240",
               longitude: "-0.65276010395441",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Blue Hinox",
               latitude: "0.66481749593322",
               longitude: "-0.76702234698368",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Hinox",
               latitude: "0.76775585393014",
               longitude: "-0.71633675200604",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.33743974259293",
               longitude: "-0.83840225299053",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Hinox",
               latitude: "0.30303326402721",
               longitude: "-0.74944565165160",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37814,108 +34807,63 @@ export const totk = {
                 "Shrine quest objective. Found inside the [Satori Mountain Foothill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277791). Defeat it to get [The Satori Mountain Crystal](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281693).",
               latitude: "0.67981481673830",
               longitude: "-0.77575350654891",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Blue Hinox",
               latitude: "0.26794904884260",
               longitude: "-0.84232773542345",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.31432580380257",
               longitude: "-0.63714806447646",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.33650755739116",
               longitude: "-0.65586526364072",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.61068910375714",
               longitude: "-0.66773357633323",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Blue Hinox",
               latitude: "0.61958565209068",
               longitude: "-0.60143297068069",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Hinox (Gloom)",
               latitude: "0.37865125797158",
               longitude: "-0.69137873794972",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Blue Hinox",
               latitude: "0.28544785526672",
               longitude: "-0.64999968414071",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Blue Hinox",
               latitude: "0.40842737451589",
               longitude: "-0.66118008102249",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37923,24 +34871,14 @@ export const totk = {
               description: "Black Hinox",
               latitude: "0.44549692758177",
               longitude: "-0.79261397970066",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Black Hinox",
               latitude: "0.50151764633611",
               longitude: "-0.82061835256562",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37948,12 +34886,7 @@ export const totk = {
               description: "Found in the middle of the 3 buildings",
               latitude: "0.30126692392444",
               longitude: "-0.65301464607091",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -37963,10 +34896,6 @@ export const totk = {
               latitude: "0.78053561191223",
               longitude: "-0.37247765844913",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-hinox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/79453932-4713-49f5-93ea-9bd2e2ff431c.jpg",
                   type: "image",
@@ -38195,12 +35124,7 @@ export const totk = {
                 "**Location:** Inside [Lindor's Brow Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277702)",
               latitude: "0.74006754708678",
               longitude: "-0.75901413975416",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38208,12 +35132,7 @@ export const totk = {
               description: "Near the stone gate.",
               latitude: "0.71721594044389",
               longitude: "-0.72350037268819",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38222,12 +35141,7 @@ export const totk = {
                 "**Location:** Inside the [Docks](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281046) on the walkway",
               latitude: "0.74127204226205",
               longitude: "-0.70945116496084",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38236,24 +35150,14 @@ export const totk = {
                 "Chasm inside Deku Tree. Phantom Ganon will spawn after the Hands are defeated.",
               latitude: "0.44949621477940",
               longitude: "-0.68983306579202",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.75719193086862",
               longitude: "-0.76049811402889",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38261,12 +35165,7 @@ export const totk = {
               description: "**Reward:** Huge Crystallized Charge",
               latitude: "0.26412371180696",
               longitude: "-0.73799280292394",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38274,12 +35173,7 @@ export const totk = {
               description: "**Reward:** Huge Crystallized Charge",
               latitude: "0.35880748099471",
               longitude: "-0.63397398522602",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38287,12 +35181,7 @@ export const totk = {
               description: "**Reward:** Huge Crystallized Charge",
               latitude: "0.35202932301576",
               longitude: "-0.81988443895145",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38301,24 +35190,14 @@ export const totk = {
                 "Only appears here after completing the [Wind Temple](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278233)",
               latitude: "0.48687662004710",
               longitude: "-0.77530786404353",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.81773021496252",
               longitude: "-0.72966589837324",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38327,12 +35206,7 @@ export const totk = {
                 "Will spawn here once you have beaten the Wind Temple.",
               latitude: "0.48021412693723",
               longitude: "-0.84285706883432",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-colgera-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38340,72 +35214,42 @@ export const totk = {
               description: "**Note:** Sages are unusable in this fight",
               latitude: "0.41223744028315",
               longitude: "-0.71106432921616",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.69057543048601",
               longitude: "-0.72706776825223",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.73397093911493",
               longitude: "-0.69828319933427",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.65124192949224",
               longitude: "-0.74591683200487",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.65828112345011",
               longitude: "-0.57262425071607",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.64157508733004",
               longitude: "-0.71303377370907",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38414,12 +35258,7 @@ export const totk = {
                 "A Phantom Ganon will spawn after defeating the Hands.",
               latitude: "0.77366289090595",
               longitude: "-0.71117032776448",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38427,24 +35266,14 @@ export const totk = {
               description: "**Reward:** Huge Crystallized Charge",
               latitude: "0.44392927707445",
               longitude: "-0.74314545547449",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.79350946490739",
               longitude: "-0.65463673349848",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38452,36 +35281,21 @@ export const totk = {
               description: "**Reward:** Huge Crystallized Charge",
               latitude: "0.43316472215639",
               longitude: "-0.58501676857193",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Mucktorok",
               latitude: "0.39878688953408",
               longitude: "-0.61180441469736",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-mucktorok-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.71394702390752",
               longitude: "-0.77594251651922",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38489,48 +35303,28 @@ export const totk = {
               description: "In the Forest.",
               latitude: "0.63609451986014",
               longitude: "-0.61081746454965",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.78418020423814",
               longitude: "-0.58508007260943",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Marbled Gohma",
               latitude: "0.35475518446948",
               longitude: "-0.79296104143961",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Queen Gibdo",
               latitude: "0.36412426595399",
               longitude: "-0.67251953323859",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38538,36 +35332,21 @@ export const totk = {
               description: "**Reward:** Huge Crystallized Charge",
               latitude: "0.37706476263260",
               longitude: "-0.65142189014085",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-marbled-gohma-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.75149959650501",
               longitude: "-0.59618425962927",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Queen Gibdo",
               latitude: "0.37663362069122",
               longitude: "-0.79057924882250",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-queen-gibdo-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38576,12 +35355,7 @@ export const totk = {
                 "Lower level of maze, guards a chest with a Zonai component",
               latitude: "0.82078877931523",
               longitude: "-0.55328555008390",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38589,24 +35363,14 @@ export const totk = {
               description: "Inside the tunnel along the main path",
               latitude: "0.76311451911667",
               longitude: "-0.61532497142733",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.71505897760619",
               longitude: "-0.70601121859201",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38615,12 +35379,7 @@ export const totk = {
                 "Inside [Tamio River Downstream Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280845)",
               latitude: "0.67167628575403",
               longitude: "-0.79801724572903",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38628,60 +35387,35 @@ export const totk = {
               description: "Among Deya Village Ruins, above ground.",
               latitude: "0.64014150004515",
               longitude: "-0.69452476038171",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.66170878154583",
               longitude: "-0.71582710392161",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.71054642601565",
               longitude: "-0.62088423993426",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.66373368511444",
               longitude: "-0.59884996809529",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.25999468084206",
               longitude: "-0.84910523831138",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38690,12 +35424,7 @@ export const totk = {
                 "Guarding the [Royal Hyrulean Fabric](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280927)",
               latitude: "0.73544415405877",
               longitude: "-0.71891946201345",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38704,12 +35433,7 @@ export const totk = {
                 "After defeating Gloom Hands, Phantom Ganon may appear",
               latitude: "0.72736244493399",
               longitude: "-0.67843660405177",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38717,48 +35441,28 @@ export const totk = {
               description: "Close to the skull of the Eldin Dark Skeleton",
               latitude: "0.49901068756263",
               longitude: "-0.65095255421033",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.39894759318486",
               longitude: "-0.55355174340477",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.59066844762286",
               longitude: "-0.76088227254587",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.67807213984509",
               longitude: "-0.66676960445500",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38767,48 +35471,28 @@ export const totk = {
                 "In the middle of the Great Cliffs rocks in the sand.",
               latitude: "0.63234695524986",
               longitude: "-0.80962631992486",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.58476883276443",
               longitude: "-0.64623436253815",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.59939197535495",
               longitude: "-0.65818837721827",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.57926279953884",
               longitude: "-0.67409122258016",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38816,36 +35500,21 @@ export const totk = {
               description: "Between big trees near the end of the road",
               latitude: "0.61766697471300",
               longitude: "-0.74188702436635",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.40283529051842",
               longitude: "-0.71110630813385",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Hands",
               latitude: "0.44257093468241",
               longitude: "-0.67847048023756",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-how-to-defeat-gloom-hands",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           title: "Miniboss",
@@ -38859,24 +35528,14 @@ export const totk = {
                 "Side quest objective for [WANTED: Molduga](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281481)",
               latitude: "0.59563163046379",
               longitude: "-0.77637412032331",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Molduga",
               latitude: "0.61319136552652",
               longitude: "-0.86098324371794",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -38884,24 +35543,14 @@ export const totk = {
               description: "Palu Wasteland South",
               latitude: "0.59501326525445",
               longitude: "-0.81378323070808",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Molduga",
               latitude: "0.61991636031279",
               longitude: "-0.83224963485301",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-molduga-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           title: "Molduga",
@@ -39221,6 +35870,7 @@ export const totk = {
               longitude: "-0.63227890908422",
             },
           ],
+          info: "All Rock Octoroks have a random chance to spawn at these locations.\n\nDrop a weapon in front of a Rock Octorock; it will absorb the weapon and spit it back out, repaired and with a random bonus. Works once per Octorock, but resets with Blood Moons.",
           title: "Octorok",
         },
         {
@@ -39230,24 +35880,14 @@ export const totk = {
               title: "Stalnox",
               latitude: "0.26627425804021",
               longitude: "-0.82054579485714",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.69930325000117",
               longitude: "-0.74088828481322",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39256,12 +35896,7 @@ export const totk = {
                 "Buried under the large pile of rocks inside the Tanagar Canyon East cave. You will have to destroy enough of the large rocks for it to then get up to start the battle.",
               latitude: "0.75344016961336",
               longitude: "-0.76955028765165",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39269,10 +35904,6 @@ export const totk = {
               latitude: "0.75325035355104",
               longitude: "-0.82507257116981",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/27887980-a706-40e7-a3a4-d524bee283dd.jpg",
                   type: "image",
@@ -39286,48 +35917,28 @@ export const totk = {
                 "Found in Royal Hidden Passage, which accessible via Hyrule Castle, or via a door in the Emergency Shelter (unlocked after completing one Regional Phenomena).",
               latitude: "0.71724330302470",
               longitude: "-0.71428219741696",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.49004109467873",
               longitude: "-0.59825908499573",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.38067118515995",
               longitude: "-0.73805507864117",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.37537612879045",
               longitude: "-0.74071005164785",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39336,36 +35947,21 @@ export const totk = {
                 "**Location:** [Skull Lake Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280701) - in the main chamber",
               latitude: "0.81014893284420",
               longitude: "-0.59277905711414",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.64036217336874",
               longitude: "-0.67842341076428",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.79997725345690",
               longitude: "-0.63419180141071",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39374,108 +35970,63 @@ export const totk = {
                 "Inside the [Zauz Island Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279328), behind the breakable rocks.",
               latitude: "0.69875135585561",
               longitude: "-0.65663646542131",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.61585360312807",
               longitude: "-0.61413741837563",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.66526195773905",
               longitude: "-0.62535412437063",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.47596752937098",
               longitude: "-0.63519052700616",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.30246179371814",
               longitude: "-0.61084674571632",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.31625285399957",
               longitude: "-0.67829548210925",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.47263504736010",
               longitude: "-0.67371095475562",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.42948996972240",
               longitude: "-0.82511414871490",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stalnox",
               latitude: "0.34290912259527",
               longitude: "-0.63119878906923",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stalnox-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           title: "Stalnox",
@@ -39492,7 +36043,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/nCg5J4A0NTQ",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -39503,12 +36054,7 @@ export const totk = {
                 "**Enemies:** \n- Moblin and Bokoblins\n\n**Rewards:** Arrows x10 [Chest]",
               latitude: "0.58245713612835",
               longitude: "-0.55973276495840",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-toronbo-beach-south-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39516,12 +36062,7 @@ export const totk = {
               description: "**Enemies:** \n- Lizalfos and Bokoblins",
               latitude: "0.58322018511272",
               longitude: "-0.55381983518566",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-monster-forces-koholit-rock-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39568,10 +36109,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/a707e3d6-01b8-426c-98ef-f92c120f4901.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -39581,12 +36118,7 @@ export const totk = {
                 "**Reward:** [Lizal Reaper](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279643)",
               latitude: "0.73606507804212",
               longitude: "-0.74962243437773",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39595,12 +36127,7 @@ export const totk = {
                 "**Location:** [Death Mountain East Tunnel](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278221)",
               latitude: "0.79117438738027",
               longitude: "-0.61688892847775",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39609,10 +36136,6 @@ export const totk = {
               latitude: "0.72067089016154",
               longitude: "-0.69650781954775",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/2726619a-45f6-49f5-98cd-76bc9e429f4f.jpg",
                   type: "image",
@@ -39636,12 +36159,7 @@ export const totk = {
               title: "Battle Talus (Hyrule Castle West)",
               latitude: "0.72877434560428",
               longitude: "-0.72787181718380",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39650,10 +36168,6 @@ export const totk = {
               latitude: "0.72049348749333",
               longitude: "-0.68290520763050",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/b2642a2a-b209-4a9c-8b45-de609395f7db.jpg",
                   type: "image",
@@ -39665,12 +36179,7 @@ export const totk = {
               title: "Battle Talus",
               latitude: "0.67787260325431",
               longitude: "-0.74697354072126",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39679,24 +36188,14 @@ export const totk = {
                 "**Enemies:** \nBokoblins and Battle Talus\n\n**Reward:** \nRuby",
               latitude: "0.67743329999776",
               longitude: "-0.70659964387445",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus",
               latitude: "0.34728633322743",
               longitude: "-0.71916533271718",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39718,10 +36217,6 @@ export const totk = {
               longitude: "-0.80311138686247",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/c3dc0826-4f31-4720-b127-0f60022cfa99.jpg",
                   type: "image",
                 },
@@ -39737,10 +36232,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/57cfca0d-cf66-415c-997a-3cf7553c9100.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -39749,10 +36240,6 @@ export const totk = {
               latitude: "0.64200713210609",
               longitude: "-0.68491862448880",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/8d65be9c-9bd3-4c08-b179-162ff4f67039.jpg",
                   type: "image",
@@ -39766,10 +36253,6 @@ export const totk = {
               longitude: "-0.81443263854408",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/d24d9ec6-bec8-47fa-b5d2-ac463e32b79d.jpg",
                   type: "image",
                 },
@@ -39780,12 +36263,7 @@ export const totk = {
               title: "Igneo Talus",
               latitude: "0.76028522116013",
               longitude: "-0.63164509126594",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39795,10 +36273,6 @@ export const totk = {
               latitude: "0.64033288862845",
               longitude: "-0.69292632601139",
               media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
                 {
                   url: "https://media.mapgenie.io/storage/media/b839e0b6-ace1-435a-854c-9a49f8ad91b7.jpg",
                   type: "image",
@@ -39812,12 +36286,7 @@ export const totk = {
                 "Inside [Taafei Hill Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=282681).",
               latitude: "0.64490049651481",
               longitude: "-0.78839995447913",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39840,10 +36309,6 @@ export const totk = {
               longitude: "-0.84439192152448",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/60b109af-3dda-4163-822f-d4e2dba7e230.jpg",
                   type: "image",
                 },
@@ -39859,10 +36324,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/f23efa0c-910f-47a9-aed3-9a2b542fecae.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -39874,10 +36335,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/dca121ba-fc1a-48f3-996a-fc054ad5de40.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -39891,10 +36348,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/84e8e6a7-9cef-45b1-856f-28503dc4d4ea.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -39902,12 +36355,7 @@ export const totk = {
               title: "Igneo Talus - Lake Darman",
               latitude: "0.80609684408216",
               longitude: "-0.64047208127306",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -39916,84 +36364,49 @@ export const totk = {
                 "**Related Quest:** [None Shall Pass?](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283439)",
               latitude: "0.77937311826402",
               longitude: "-0.70020483196610",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Stone Talus",
               latitude: "0.82250394169644",
               longitude: "-0.68025219237697",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Gloom Igneo Talus",
               latitude: "0.46151888649565",
               longitude: "-0.60945780900369",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Battle Talus",
               latitude: "0.26937248911133",
               longitude: "-0.59785733565442",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Igneo Talus - Eldin Eastern Highlands",
               latitude: "0.81980731167336",
               longitude: "-0.62330961271462",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Talus",
               latitude: "0.49609687575385",
               longitude: "-0.62328275375074",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Igneo Talus",
               latitude: "0.48090739210379",
               longitude: "-0.65584971459509",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40008,10 +36421,6 @@ export const totk = {
               longitude: "-0.80933910996001",
               media: [
                 {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-                {
                   url: "https://media.mapgenie.io/storage/media/b5055024-230d-4d4d-8101-13c68464a5af.jpg",
                   type: "image",
                 },
@@ -40022,12 +36431,7 @@ export const totk = {
               title: "Stone Talus (Luminous)",
               latitude: "0.26888854378167",
               longitude: "-0.66902990907300",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40042,36 +36446,21 @@ export const totk = {
                 "**Reward:** [Ruby [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=286540)",
               latitude: "0.64935435190644",
               longitude: "-0.73831834726965",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus (Rare)",
               latitude: "0.62414238088856",
               longitude: "-0.77751873053577",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Rare Stone Talus",
               latitude: "0.34725367481589",
               longitude: "-0.65561792170346",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40084,12 +36473,7 @@ export const totk = {
               title: "Battle Talus (Gama Cove)",
               latitude: "0.59317775252190",
               longitude: "-0.59764436558999",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40097,48 +36481,28 @@ export const totk = {
               description: "**Reward:** Sapphire [Chest]",
               latitude: "0.77410206376575",
               longitude: "-0.56849364826934",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus (Gloom)",
               latitude: "0.37903417714044",
               longitude: "-0.70327536227143",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus (Rare)",
               latitude: "0.48810893843938",
               longitude: "-0.84648831743036",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Igneo Talus",
               latitude: "0.43122070573096",
               longitude: "-0.64932929215760",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40151,96 +36515,56 @@ export const totk = {
               title: "Gloom Luminous Talus",
               latitude: "0.49769505812061",
               longitude: "-0.67211531102600",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus",
               latitude: "0.30008315529732",
               longitude: "-0.81481864343334",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Rare Stone Talus",
               latitude: "0.41332464294726",
               longitude: "-0.81311828618377",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Stone Talus",
               latitude: "0.47403552903681",
               longitude: "-0.71578962351833",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Stone Talus (Ovli Plain)",
               latitude: "0.64574533636916",
               longitude: "-0.60559799008828",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus",
               latitude: "0.27229206673594",
               longitude: "-0.73014668247311",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Igneo Talus - Goro Cove",
               latitude: "0.78057409384323",
               longitude: "-0.63837354721025",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Igneo Talus (Goronbi River West)",
               latitude: "0.75815586850489",
               longitude: "-0.66173098488196",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-igneo-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40255,12 +36579,7 @@ export const totk = {
                 "Part of the side quest [WANTED: Stone Talus](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281482)",
               latitude: "0.79887784503123",
               longitude: "-0.57239855094747",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40268,12 +36587,7 @@ export const totk = {
               description: "Located in the Ancient Zora Waterworks",
               latitude: "0.70913611721966",
               longitude: "-0.58739820621710",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40286,72 +36600,42 @@ export const totk = {
               title: "Rare Stone Talus (Horse God Bridge West)",
               latitude: "0.58393523012830",
               longitude: "-0.68616515920323",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Rare Stone Talus",
               latitude: "0.45723994472897",
               longitude: "-0.84780778873542",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Rare Stone Talus",
               latitude: "0.42648772491584",
               longitude: "-0.78736197226863",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Stone Talus (Trilby Valley)",
               latitude: "0.73157875359270",
               longitude: "-0.62340885842565",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Rare Stone Talus (Guchini Plain)",
               latitude: "0.59438519454996",
               longitude: "-0.67035137377439",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus (Rare)",
               latitude: "0.39576446731857",
               longitude: "-0.68071341457215",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40365,24 +36649,14 @@ export const totk = {
               description: "Lake Floria Stone Talus",
               latitude: "0.59047288687266",
               longitude: "-0.64331320359508",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Battle Talus (South Akkala Plains West)",
               latitude: "0.75113289716711",
               longitude: "-0.60790280921384",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40399,24 +36673,14 @@ export const totk = {
                 "**Reward:** [Gnarled Wooden Stick [Chest]](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=289750)",
               latitude: "0.74102199362082",
               longitude: "-0.57644507997392",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Talus (Loshlo Harbor West)",
               latitude: "0.60800047250885",
               longitude: "-0.60034681458177",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40424,24 +36688,14 @@ export const totk = {
               description: "Has 3 Gloom Blue Bokoblins ontop.",
               latitude: "0.44047324289051",
               longitude: "-0.84423343063080",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Gloom Stone Talus",
               latitude: "0.47418461427587",
               longitude: "-0.55243761946375",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40455,12 +36709,7 @@ export const totk = {
               title: "Luminous Stone Talus",
               latitude: "0.39589437045888",
               longitude: "-0.56816683043408",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40472,10 +36721,6 @@ export const totk = {
                   url: "https://media.mapgenie.io/storage/media/bf9ac1c9-9d89-4d96-84f6-6482a7be180d.jpg",
                   type: "image",
                 },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
               ],
             },
             {
@@ -40484,24 +36729,14 @@ export const totk = {
               description: "On top of the cliff",
               latitude: "0.64850827926855",
               longitude: "-0.83139839182726",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Battle Talus",
               latitude: "0.35357691085798",
               longitude: "-0.70659852598291",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40510,12 +36745,7 @@ export const totk = {
                 "Found underground, through the [Byroad to Lanayru Wetlands](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281202) tunnel.",
               latitude: "0.67230248106587",
               longitude: "-0.65536860401636",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40534,84 +36764,49 @@ export const totk = {
               title: "Stone Talus (Luminous) - Gut Check Rock",
               latitude: "0.80933113361488",
               longitude: "-0.61601242004818",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Battle Talus",
               latitude: "0.37566592584747",
               longitude: "-0.78462492974222",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Battle Talus",
               latitude: "0.42096460502404",
               longitude: "-0.80321970972489",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Stone Talus",
               latitude: "0.32188472717117",
               longitude: "-0.60566684034842",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Battle Talus",
               latitude: "0.42613661605104",
               longitude: "-0.60727005593182",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-battle-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Luminous Stone Talus",
               latitude: "0.34496326364385",
               longitude: "-0.57250546538404",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
               title: "Stone Talus",
               latitude: "0.32466256547947",
               longitude: "-0.83226307089928",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -40619,12 +36814,7 @@ export const totk = {
               description: "**Coordinates**: -2237, -0564, -0716",
               latitude: "0.36059781774792",
               longitude: "-0.77481153609543",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-stone-talus-miniboss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
           ],
           title: "Talus",
@@ -40997,7 +37187,7 @@ export const totk = {
               media: [
                 {
                   url: "https://youtu.be/QGsAhst7GNA",
-                  type: "youtube",
+                  type: "video",
                 },
               ],
             },
@@ -41024,10 +37214,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/17d47861-d888-4e74-861a-bdcedb14706a.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-lanayru-mine-boss-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -41082,12 +37268,7 @@ export const totk = {
                 "**Location:** Abandoned Gerudo Mine\n\nSecond fight against Master Kohga.",
               latitude: "0.28732938821879",
               longitude: "-0.82483343167783",
-              media: [
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-gerudo-mine-boss-gameplay-walkthrough",
-                  type: "video",
-                },
-              ],
+              media: [],
             },
             {
               mapSlug: "hyrule",
@@ -41139,10 +37320,6 @@ export const totk = {
                 {
                   url: "https://media.mapgenie.io/storage/media/3583b60e-7633-46db-bb72-d8b341c2af4d.jpg",
                   type: "image",
-                },
-                {
-                  url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-master-kohga-abandoned-hebra-mine-boss-gameplay-walkthrough",
-                  type: "video",
                 },
               ],
             },
@@ -41242,30 +37419,6 @@ export const totk = {
             },
           ],
           title: "Yiga",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
-              title: "Captain Construct",
-              latitude: "0.99986710971467",
-              longitude: "-0.68123002031612",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Captain Construct",
-              latitude: "0.99155439242516",
-              longitude: "-0.69420101698537",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zonai x2",
-              description: "Carrying Shock emitter on a stick",
-              latitude: "0.80039689616737",
-              longitude: "-0.70058628376819",
-            },
-          ],
-          title: "Zonai",
         },
       ],
     },
@@ -43278,594 +39431,6 @@ export const totk = {
           locations: [
             {
               mapSlug: "hyrule",
-              title: "Riju's Diary",
-              description:
-                "**Location:** In Riju's bedroom at the foot of the bed.",
-              latitude: "0.60783505112113",
-              longitude: "-0.82803522306460",
-            },
-            {
-              title: "Zelda Memorial",
-              mapSlug: "hyrule",
-              latitude: "0.71487856275283",
-              longitude: "-0.71074373552239",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.81735514314607",
-              longitude: "-0.55334541980278",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/f042a39e-b3b8-4035-bec9-bb8ac68979d4.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Deciphered Slabs",
-              description: "**Location:** On the wooden platform beside Gordi",
-              latitude: "0.67417980640751",
-              longitude: "-0.64736455679045",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Note on the Table",
-              description: "**Location:** On the wooden platform beside Gordi",
-              latitude: "0.67405106928534",
-              longitude: "-0.64745038747915",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Message in a Bottle",
-              description:
-                "**Location:** Floating down the stream inside the [Gerudo Shelter Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279350)",
-              latitude: "0.61134092949705",
-              longitude: "-0.82692868036369",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.61328373866655",
-              longitude: "-0.62461575844432",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Help Wanted",
-              latitude: "0.63923694216236",
-              longitude: "-0.59457734226856",
-            },
-            {
-              title: "Deciphered Slabs",
-              mapSlug: "hyrule",
-              latitude: "0.66527543170268",
-              longitude: "-0.65050061079481",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zelda Memorial",
-              description:
-                "**How to get:** Destroy the boulders, to dry the entrance.  Then examine the stone with the face.",
-              latitude: "0.65430749773630",
-              longitude: "-0.72192720771696",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zelda Memorial",
-              description: "Reward: Silent Princess",
-              latitude: "0.74323276748682",
-              longitude: "-0.68008367192812",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zelda Memorial",
-              description: "Silent Princess",
-              latitude: "0.75503326856665",
-              longitude: "-0.75675178533828",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zelda Monument",
-              description:
-                "Monument erected by princess Zelda to honor those lost to the Calamity.",
-              latitude: "0.64420679307307",
-              longitude: "-0.62865599210460",
-            },
-            {
-              title: "Learnings of the Zora, Anecdote One",
-              mapSlug: "hyrule",
-              latitude: "0.72019310722300",
-              longitude: "-0.58336051255847",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Zelda's Journal",
-              description:
-                "**Location:** On the second floor of the house on the desk.",
-              latitude: "0.62937044262887",
-              longitude: "-0.59655133390152",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Purah's Diary",
-              description: "On the top floor of the Lab on the ground.",
-              latitude: "0.63456106892789",
-              longitude: "-0.58152960149931",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Yiga Clan Notebook",
-              description:
-                "Inside of the Yiga Clan tent, next to the [Large Crystalized Charge Chest]()",
-              latitude: "0.34145110179669",
-              longitude: "-0.64440704642757",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Yiga Clan Notebook",
-              description:
-                "Inside of the Yiga Clan tent, next to the [Large Chrystalized Charge Chest]().",
-              latitude: "0.30756317409669",
-              longitude: "-0.58786143305596",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.43937625519305",
-              longitude: "-0.81325634110624",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.82275611587662",
-              longitude: "-0.55416858177708",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.82174682788268",
-              longitude: "-0.55309885128645",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Aurie Notepad",
-              description:
-                "Inside [Carok Bridge Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277710).",
-              latitude: "0.71706240165150",
-              longitude: "-0.73696651902563",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Temporarily Fallen - Aurie Taamu Notepad",
-              description:
-                "In [Goponga Village Ruins Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279326)",
-              latitude: "0.69283897030506",
-              longitude: "-0.65442684525283",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Construct Horn - Aurie Taamu",
-              description:
-                "At the bottom of [Tabah Woods Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279337), behind the boulder.",
-              latitude: "0.70879057325288",
-              longitude: "-0.61556831891227",
-            },
-            {
-              title: "Deciphered Slabs",
-              mapSlug: "hyrule",
-              latitude: "0.67684276365584",
-              longitude: "-0.64182149317543",
-            },
-            {
-              title: "Deciphered Slabs",
-              mapSlug: "hyrule",
-              latitude: "0.66836881937409",
-              longitude: "-0.64070647411435",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.32884698807327",
-              longitude: "-0.80363958283175",
-            },
-            {
-              title: "Prince Sidon Writings",
-              mapSlug: "hyrule",
-              latitude: "0.70194950887294",
-              longitude: "-0.59793109113733",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Note on the Table - Aurie Taamu",
-              description:
-                "**Location:**  In the [Outskirt Hill Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279317)",
-              latitude: "0.66021781837107",
-              longitude: "-0.75718005612700",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lookout Post Logbook",
-              description: "Inside the building, ground floor.",
-              latitude: "0.60205926819779",
-              longitude: "-0.81387479870315",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Lightning Helm Journal",
-              description:
-                "Before entering the room with the large column in the middle, continue down the hall and take the ladder. Follow the hall to the end.",
-              latitude: "0.66093663352011",
-              longitude: "-0.81816950864186",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.26540468441351",
-              longitude: "-0.78072896402094",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.28554158123792",
-              longitude: "-0.78963298412194",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.28466982661833",
-              longitude: "-0.82745021243730",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.31053367856696",
-              longitude: "-0.84901998647254",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.25664873348779",
-              longitude: "-0.80905228693399",
-            },
-            {
-              title: "Learnings of the Zora, Part Six",
-              mapSlug: "hyrule",
-              latitude: "0.72677056830182",
-              longitude: "-0.59997277057334",
-            },
-            {
-              title: "Mipha Court Security Report",
-              mapSlug: "hyrule",
-              latitude: "0.72194931891414",
-              longitude: "-0.57918227817350",
-            },
-            {
-              title: "Research Log, Day Four",
-              mapSlug: "hyrule",
-              latitude: "0.81692662256120",
-              longitude: "-0.72906722632919",
-            },
-            {
-              title: "Zelda Memorial",
-              mapSlug: "hyrule",
-              latitude: "0.64258018457021",
-              longitude: "-0.67871289029787",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Stormwind Ark Story",
-              description:
-                "Book telling the story of the Stormwind Ark, and the associated song.",
-              latitude: "0.77585037732172",
-              longitude: "-0.81827491627243",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "ZST: Three Big Ideas",
-              description: "In the blue tent.",
-              latitude: "0.63776519411424",
-              longitude: "-0.75727994090551",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.39953422737270",
-              longitude: "-0.66633699519483",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.32813338277305",
-              longitude: "-0.63560150982198",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.29741562840655",
-              longitude: "-0.60685495479200",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.43154162612521",
-              longitude: "-0.61890273976806",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.40366547851730",
-              longitude: "-0.65312715880469",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.35639811412678",
-              longitude: "-0.76260590085710",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.34686708356199",
-              longitude: "-0.84790533898197",
-            },
-            {
-              title: "Base Construction Manual, Vol. 1",
-              mapSlug: "hyrule",
-              latitude: "0.25939792772739",
-              longitude: "-0.69020016625413",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.26919077407616",
-              longitude: "-0.60959453602652",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.33257467750889",
-              longitude: "-0.59863147167709",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.36288536565807",
-              longitude: "-0.62094178244308",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.36079008784660",
-              longitude: "-0.58564759392635",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.39914092444079",
-              longitude: "-0.56205057454861",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.45318804605854",
-              longitude: "-0.58583786857247",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.48348381236532",
-              longitude: "-0.56952209192121",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.49887730028884",
-              longitude: "-0.68189969057701",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.47102745138550",
-              longitude: "-0.69871246703008",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.42595851996873",
-              longitude: "-0.74563886562268",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.44772516648072",
-              longitude: "-0.76433415793474",
-            },
-            {
-              title: "Base Construction Manual, Vol. 2",
-              mapSlug: "hyrule",
-              latitude: "0.48085255604458",
-              longitude: "-0.75913313608524",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.47166651150503",
-              longitude: "-0.79520738652499",
-            },
-            {
-              title: "Yiga Clan Notebook x2",
-              mapSlug: "hyrule",
-              latitude: "0.47944650948669",
-              longitude: "-0.82250179295272",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.40766158306698",
-              longitude: "-0.79512467972486",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.39898624105818",
-              longitude: "-0.81173508219428",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.37160744495746",
-              longitude: "-0.81044682301936",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.38677915455891",
-              longitude: "-0.75395333395835",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.49984939177092",
-              longitude: "-0.59814780189498",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.43638032680359",
-              longitude: "-0.71425341610555",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Demon King Lore",
-              description:
-                "At the bottom of the circular staircase in the [Royal Hidden Passage](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=280483)",
-              latitude: "0.72774220336062",
-              longitude: "-0.71127244179144",
-            },
-            {
-              title: "Research Log, Day Two",
-              mapSlug: "hyrule",
-              latitude: "0.81605104130632",
-              longitude: "-0.72873655790369",
-            },
-            {
-              title: "Reseach Log, Day One",
-              mapSlug: "hyrule",
-              latitude: "0.81694144428062",
-              longitude: "-0.73388639921217",
-            },
-            {
-              title: "Research Log, Day Three",
-              mapSlug: "hyrule",
-              latitude: "0.81988084546904",
-              longitude: "-0.72979871267393",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.59180389869191",
-              longitude: "-0.76009441090827",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.59000155008827",
-              longitude: "-0.76127458287462",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.59173772282688",
-              longitude: "-0.76294828129951",
-            },
-            {
-              title: "Note on the Table",
-              mapSlug: "hyrule",
-              latitude: "0.59580373334285",
-              longitude: "-0.76098490430221",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Note on the Table",
-              description:
-                "Written by Chef Aurie Taamu, the Lonely Cook. Found in [Popla Foothills South Well](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277809)",
-              latitude: "0.63162472090643",
-              longitude: "-0.68400792459195",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Purah's Diary",
-              description: "Under the bed on the 2nd floor.",
-              latitude: "0.67138799875340",
-              longitude: "-0.64608438461880",
-            },
-            {
-              title: "Yiga Clan Notebook",
-              mapSlug: "hyrule",
-              latitude: "0.29274695608524",
-              longitude: "-0.74294955479454",
-            },
-            {
-              title: "Learnings of the Zora, Anecdote Two",
-              mapSlug: "hyrule",
-              latitude: "0.72134630551095",
-              longitude: "-0.59548521620968",
-            },
-          ],
-
-          title: "Lore",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
-              title: "Crank",
-              description:
-                "**Location:** At the end of the corridor, on the upper floor above the rubble.  \n**How to solve:** Attach the debris to the rotating axel, then use Tulin's Gust to push the debris, rotating the axel and opening the door.",
-              latitude: "1.13294107387270",
-              longitude: "-0.95040724632102",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Loose Cog",
-              description:
-                "**Location:** On the side of the hallway.  \n**How to Solve:** Shoot an icicle off the ceiling, then Attach it to link the loose cog to the moving one.",
-              latitude: "1.14288187128950",
-              longitude: "-0.94871575878619",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Red Pillar",
-              description:
-                "**Location:** Just a little southeast of [Miryotanog Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278162).\n  \n**How to Solve:** Part of the [Red Pillars Across a Vast Sea](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281150). Locate the nearby turnstile just west of the main tower and use it to elevate the tower so that the light hits the mirror.",
-              latitude: "0.59746680877535",
-              longitude: "-0.84920000075542",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Red Pillar",
-              description:
-                "**Location:** North of the [Arbitor's Grounds](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=283873) and [Irasak Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278159).\n\n**Solution:** Break the floor and grab one (or all if desired) of the stone handles. Get it to the roof of the pillar in any manner that works and attach it to the turnstile. Rotate the tower until it points at [the starting light](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281150).",
-              latitude: "0.58620911017195",
-              longitude: "-0.83774118506932",
-            },
-            {
-              mapSlug: "hyrule",
-              title: "Switch",
-              description:
-                "In The Guard's Chamber. Put a Metal Box on this (can be found under the stairs, behind some burnable leaves) to open the outside access door, to come back later.",
-              latitude: "0.72915451662867",
-              longitude: "-0.71518301121981",
-            },
-          ],
-
-          title: "Mechanism",
-        },
-        {
-          locations: [
-            {
-              mapSlug: "hyrule",
               title: "Waterfall Cave Access",
               description:
                 "Drop down here to access the cave behind the waterfall",
@@ -44064,7 +39629,7 @@ export const totk = {
             },
           ],
 
-          title: "Other Miscellaneous",
+          title: "Miscellaneous",
         },
         {
           locations: [
@@ -45273,7 +40838,7 @@ export const totk = {
               longitude: "-0.62174352450529",
             },
           ],
-
+          info: "Offer a piece of fruit at the altar under the cherry-blossom trees and the Horse God will highlight caves on the map for you.",
           title: "Satori Tree",
         },
         {
@@ -45900,7 +41465,6 @@ export const totk = {
             {
               mapSlug: "hyrule",
               title: "Tabahl Woods Well",
-              description: "**Location:** ??  \n**Contents:**\n- ??",
               latitude: "0.70881918201795",
               longitude: "-0.61479652055033",
               media: [

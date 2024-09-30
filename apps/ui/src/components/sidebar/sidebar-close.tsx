@@ -1,11 +1,11 @@
-import { cn } from "@/lib/utils";
-import IconButton from "@mui/material/IconButton";
-import Paper from "@mui/material/Paper";
-import Tooltip from "@mui/material/Tooltip";
-import * as React from "react";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import IconButton from "@mui/material/IconButton";
+import Paper from "@mui/material/Paper";
 import { styled } from "@mui/material/styles";
+import Tooltip from "@mui/material/Tooltip";
+import * as React from "react";
+import { cn } from "@/lib/utils";
 
 interface SidebarCloseProps {
   showMenu: boolean;

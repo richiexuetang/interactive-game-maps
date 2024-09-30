@@ -7,7 +7,45 @@
     "no-undef": "error",
     "no-unused-vars": "warn",
     "no-unused-expressions": "warn",
-    "no-extra-semi": "warn"
+    "no-extra-semi": "warn",
+    "import/order": [
+      1,
+      {
+        "groups": [
+          "external",
+          "builtin",
+          "internal",
+          "sibling",
+          "parent",
+          "index"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "@/components",
+            "group": "internal"
+          },
+          {
+            "pattern": "@/lib",
+            "group": "internal"
+          },
+          {
+            "pattern": "@/__generated__",
+            "group": "internal"
+          },
+          {
+            "pattern": "@/styles",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": [
+          "internal"
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
   },
   "overrides": [
     {

@@ -600,7 +600,7 @@
 }
 
 .zelda-tears-of-the-kingdom_general_store {
-  background-position: -165 -88px;
+  background-position: -165px -88px;
 }
 
 .zelda-tears-of-the-kingdom_hestu {
@@ -612,7 +612,7 @@
 }
 
 .zelda-tears-of-the-kingdom_jewelry_shop {
-  background-position: -165 -132px;
+  background-position: -165px -132px;
 }
 
 .zelda-tears-of-the-kingdom_koltin {
@@ -696,7 +696,7 @@
 }
 
 .zelda-tears-of-the-kingdom_shield {
-  background-position: -165 -264px;
+  background-position: -165px -264px;
 }
 
 .zelda-tears-of-the-kingdom_treasure_chest {
@@ -790,7 +790,7 @@
 }
 
 .zelda-tears-of-the-kingdom_cave_entrance {
-  background-position: -363 0;
+  background-position: -363px 0;
 }
 
 .zelda-tears-of-the-kingdom_cracked_wall {
@@ -798,7 +798,7 @@
 }
 
 .zelda-tears-of-the-kingdom_easter_egg {
-  background-position: -363 -44px;
+  background-position: -363px -44px;
 }
 
 .zelda-tears-of-the-kingdom_falling_platform {
@@ -830,7 +830,7 @@
 }
 
 .zelda-tears-of-the-kingdom_quest_objective {
-  background-position: -363 -220px;
+  background-position: -363px -220px;
 }
 
 .zelda-tears-of-the-kingdom_satori_tree {
@@ -854,7 +854,7 @@
 }
 
 .zelda-tears-of-the-kingdom_mushroom {
-  background-position: -363 -176px;
+  background-position: -363px -176px;
 }
 
 .placeholder {
@@ -1372,6 +1372,11 @@
   --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
   --modal-border-color: var(--text-color);
   --body-background: var(--sidebar-background-color);
+}
+
+.zelda-tears-of-the-kingdom .sidebar {
+  background: var(--sidebar-background-color);
+  background-image: url("../../public/images/games/zelda-tears-of-the-kingdom/background.jpg");
 }
 
 .black-myth-wukong {

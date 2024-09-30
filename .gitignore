@@ -6,3 +6,4 @@ tiles
 .DS_Store
 .venv
 .vercel
+map-api.pem

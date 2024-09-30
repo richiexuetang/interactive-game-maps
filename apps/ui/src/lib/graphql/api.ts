@@ -1,18 +1,18 @@
 import { remark } from "remark";
 import html from "remark-html";
+import { Region } from "@/__generated__/graphql";
 import { getClient } from "@/lib/graphql/apollo-client";
 import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
   FETCH_GAME_REGION_DETAILS,
-  FETCH_LOCATIONS_BY_REGION,
+  FETCH_LOCATIONS_BY_MAP,
   FETCH_REGION_BY_GAME,
   FETCH_REGION_DETAILS,
   GET_APP_USER,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
-import { Region } from "@/__generated__/graphql";
 
 export async function addToUserFound(input: {
   email: string;
@@ -77,7 +77,7 @@ export async function fetchGameRegionDetails(slug: string) {
 
   const processedLocations = [];
   const { data: res } = await getClient().query({
-    query: FETCH_LOCATIONS_BY_REGION,
+    query: FETCH_LOCATIONS_BY_MAP,
     variables: { mapSlug: slug },
   });
   const locations = res.locations;
@@ -93,7 +93,7 @@ export async function fetchGameRegionDetails(slug: string) {
 
   return {
     ...details,
-    regions: [...otherRegions, { ...region, locations: processedLocations }],
+    maps: [...otherRegions, { ...region, locations: processedLocations }],
     groups: processedGroups,
   };
 }
