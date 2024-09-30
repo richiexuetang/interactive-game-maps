@@ -24,12 +24,11 @@ query GetUser($email: String!) {
     email,
     foundLocations,
     hideFound,
-    photoUrl
     noteMarkers {
       id
       title
       description
-      regionSlug
+      mapSlug
       latitude
       longitude
     }
@@ -41,10 +40,8 @@ export const CREATE_APP_USER = gql(
   mutation CreateUser($data: CreateUserInput!) {
     createUser(data: $data) {
       email
-      firstName
+      username
       foundLocations
-      lastName
-      photoUrl
     }
   }
   `
@@ -61,10 +58,10 @@ mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
 `
 );
 
-export const GET_SUB_REGIONS = gql(
+export const GET_REGIONS = gql(
   `
-  query GetSubRegionsByRegion($slug: String!) {
-    getSubRegionsByRegion(slug: $slug) {
+  query GetRegionsByMap($slug: String!) {
+    getRegionsByMap(slug: $slug) {
       title
       coordinates
     }
@@ -111,8 +108,8 @@ export const FETCH_REGION_BY_GAME = gql`
 `;
 
 export const FETCH_GAME_REGION_DETAILS = gql`
-  query FetchGameByRegion($slug: String!) {
-    fetchGameByRegion(slug: $slug) {
+  query FetchGameByMap($slug: String!) {
+    fetchGameByMap(slug: $slug) {
       title
       slug
       minZoom
@@ -129,7 +126,7 @@ export const FETCH_GAME_REGION_DETAILS = gql`
           title
         }
       }
-      regions {
+      maps {
         tilePath
         slug
         order
@@ -159,8 +156,8 @@ export const FETCH_GAME_REGION_DETAILS = gql`
 `;
 
 export const FETCH_LOCATIONS_BY_REGION = gql`
-  query Locations($regionSlug: String) {
-    locations(regionSlug: $regionSlug) {
+  query Locations($mapSlug: String) {
+    locations(mapSlug: $mapSlug) {
       categoryId
       category {
         title
@@ -188,7 +185,7 @@ export const ADD_USER_NOTE_MARKER = gql`
         id
         title
         description
-        regionSlug
+        mapSlug
         latitude
         longitude
       }
@@ -203,7 +200,7 @@ export const REMOVE_USER_NOTE_MARKER = gql`
         id
         title
         description
-        regionSlug
+        mapSlug
         latitude
         longitude
       }

@@ -5,7 +5,7 @@ CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 CREATE EXTENSION IF NOT EXISTS "postgis";
 
 -- CreateTable
-CREATE TABLE "AppUser" (
+CREATE TABLE "User" (
     "id" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
@@ -14,7 +14,7 @@ CREATE TABLE "AppUser" (
     "username" TEXT,
     "hideFound" BOOLEAN NOT NULL DEFAULT false,
 
-    CONSTRAINT "AppUser_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -114,7 +114,7 @@ CREATE TABLE "Media" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "AppUser_email_key" ON "AppUser"("email");
+CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Game_slug_key" ON "Game"("slug");
@@ -126,7 +126,7 @@ CREATE UNIQUE INDEX "Map_slug_key" ON "Map"("slug");
 CREATE INDEX "Region_coordinates_idx" ON "Region" USING GIST ("coordinates");
 
 -- AddForeignKey
-ALTER TABLE "NoteMarker" ADD CONSTRAINT "NoteMarker_userEmail_fkey" FOREIGN KEY ("userEmail") REFERENCES "AppUser"("email") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "NoteMarker" ADD CONSTRAINT "NoteMarker_userEmail_fkey" FOREIGN KEY ("userEmail") REFERENCES "User"("email") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "NoteMarker" ADD CONSTRAINT "NoteMarker_mapSlug_fkey" FOREIGN KEY ("mapSlug") REFERENCES "Map"("slug") ON DELETE RESTRICT ON UPDATE CASCADE;

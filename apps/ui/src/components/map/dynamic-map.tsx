@@ -20,7 +20,7 @@ import {
 import { MarkerSearch } from "../markers/marker-search";
 import { ProgressTracker } from "../progress-tracker";
 import { useQuery } from "@apollo/client";
-import { GET_APP_USER, GET_SUB_REGIONS } from "@/lib/graphql/constants";
+import { GET_APP_USER, GET_REGIONS } from "@/lib/graphql/constants";
 import { userAtom } from "@/store/auth";
 import { SubRegion } from "../layers/sub-region";
 import { Game } from "@/__generated__/graphql";
@@ -34,15 +34,14 @@ import { v4 as uuidv4 } from "uuid";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  regionData: Game;
+  mapData: Game;
 }
 
-const Map = ({ user, regionData }: MapProps) => {
-  const { zoom, minZoom, maxZoom, center } = regionData;
+const Map = ({ user, mapData }: MapProps) => {
+  const { zoom, minZoom, maxZoom, center, maps } = mapData;
   const params = useParams<{ slug: string }>();
 
-  const region = regionData.regions?.find((r) => r.slug === params.slug);
-
+  const currentMap = maps?.find((r) => r.slug === params.slug);
   const [game, setGame] = useAtom(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
   const [currentRegion, setCurrentRegion] = useAtom(currentRegionAtom);
@@ -52,8 +51,8 @@ const Map = ({ user, regionData }: MapProps) => {
   const { data: userData } = useQuery(GET_APP_USER, {
     variables: { email: user?.email },
   });
-  const { data: subRegionData } = useQuery(GET_SUB_REGIONS, {
-    variables: { slug: region?.slug ?? "" },
+  const { data: regionData } = useQuery(GET_REGIONS, {
+    variables: { slug: currentMap!.slug },
   });
 
   useEffect(() => {
@@ -66,24 +65,24 @@ const Map = ({ user, regionData }: MapProps) => {
 
   useEffect(() => {
     if (!game) {
-      setGame(regionData.slug);
+      setGame(mapData.slug);
     }
-  }, [game, regionData.slug, setGame]);
+  }, [game, mapData.slug, setGame]);
 
   useEffect(() => {
-    if (!currentRegion && region) {
-      setCurrentRegion(region);
-      if (region.locations) {
-        setCurrentMarkers([...region.locations]);
+    if (!currentRegion && currentMap) {
+      setCurrentRegion(currentMap);
+      if (currentMap.locations) {
+        setCurrentMarkers([...currentMap.locations]);
       }
-      if (regionData.groups) {
-        setCurrentGroups([...regionData.groups]);
+      if (mapData.groups) {
+        setCurrentGroups([...mapData.groups]);
       }
     }
   }, [
     currentRegion,
-    region,
-    regionData.groups,
+    currentMap,
+    mapData.groups,
     setCurrentGroups,
     setCurrentMarkers,
     setCurrentRegion,
@@ -105,9 +104,9 @@ const Map = ({ user, regionData }: MapProps) => {
   return (
     <div
       className={cn(
-        getFontClassName(regionData.slug),
+        getFontClassName(mapData.slug),
         "h-[calc(100vh-1rem)]",
-        regionData.slug
+        mapData.slug
       )}
     >
       <Snackbar
@@ -125,8 +124,8 @@ const Map = ({ user, regionData }: MapProps) => {
         </Alert>
       </Snackbar>
       <Menu
-        regions={regionData.regions ?? []}
-        subRegions={subRegionData?.getSubRegionsByRegion}
+        maps={mapData.maps ?? []}
+        subRegions={regionData?.getRegionsByMap}
       />
       <RL.MapContainer
         zoom={zoom}
@@ -174,14 +173,14 @@ const Map = ({ user, regionData }: MapProps) => {
         className="w-full h-full"
       >
         <RL.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${region?.tilePath}/{z}/{y}/{x}.jpg`}
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${currentMap?.tilePath}/{z}/{y}/{x}.jpg`}
         />
         <RL.ZoomControl position="bottomright" />
         <MarkerRenderer />
         <MarkerSearch />
         <ProgressTracker />
         <MapEventListener regionSlug={params.slug} />
-        {subRegionData?.getSubRegionsByRegion?.map((sub: any) => (
+        {regionData?.getRegionsByMap?.map((sub: any) => (
           <SubRegion
             key={sub.title}
             positions={sub.coordinates}

@@ -13,7 +13,7 @@ datasource db {
   extensions = [pg_trgm, postgis]
 }
 
-model AppUser {
+model User {
   id             String       @id @default(cuid())
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
@@ -33,7 +33,7 @@ model NoteMarker {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   userEmail   String
-  user        AppUser  @relation(fields: [userEmail], references: [email])
+  user        User     @relation(fields: [userEmail], references: [email])
   mapSlug     String
   map         Map      @relation(fields: [mapSlug], references: [slug])
 }

@@ -9,9 +9,9 @@ export class MapsResolver {
   constructor(private prisma: PrismaService) {}
 
   @Query(() => [Region])
-  async getSubRegionsByRegion(@Args("slug") slug: string) {
+  async getRegionsByMap(@Args("slug") slug: string) {
     const subRegions: Region[] = await this.prisma
-      .$queryRaw`SELECT ST_AsGeoJSON(coordinates) as coordinates, title, "regionSlug" FROM "SubRegion" WHERE "regionSlug"::text = ${slug}`;
+      .$queryRaw`SELECT ST_AsGeoJSON(coordinates) as coordinates, title, "mapSlug" FROM "Region" WHERE "mapSlug"::text = ${slug}`;
 
     const result = [];
     for (let i = 0; i < subRegions?.length; i++) {

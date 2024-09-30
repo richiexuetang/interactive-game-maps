@@ -53,9 +53,9 @@ export async function fetchGameRegionDetails(slug: string) {
     variables: { slug },
   });
 
-  const details = data.fetchGameByRegion;
-  const region = details.regions?.find((r: Region) => r.slug === slug);
-  const otherRegions = details.regions?.filter((r: Region) => r.slug !== slug);
+  const details = data.fetchGameByMap;
+  const region = details.maps?.find((r: Region) => r.slug === slug);
+  const otherRegions = details.maps?.filter((r: Region) => r.slug !== slug);
 
   const groups = details.groups;
   const processedGroups = [];
@@ -78,7 +78,7 @@ export async function fetchGameRegionDetails(slug: string) {
   const processedLocations = [];
   const { data: res } = await getClient().query({
     query: FETCH_LOCATIONS_BY_REGION,
-    variables: { regionSlug: slug },
+    variables: { mapSlug: slug },
   });
   const locations = res.locations;
 
@@ -104,7 +104,7 @@ export async function getAppUser(email: string) {
       query: GET_APP_USER,
       variables: { email },
     });
-    return data.regionDetails;
+    return data.getUser;
   } catch (error) {
     console.error("ops");
     return null;
@@ -113,16 +113,19 @@ export async function getAppUser(email: string) {
 
 export async function createAppUser(input: {
   email: string;
-  firstName?: string;
-  lastName?: string;
-  photoUrl?: string;
+  username?: string;
 }) {
-  const { data } = await getClient().mutate({
-    mutation: CREATE_APP_USER,
-    variables: { data: input },
-  });
+  try {
+    const { data } = await getClient().mutate({
+      mutation: CREATE_APP_USER,
+      variables: { data: input },
+    });
 
-  return data.createUser;
+    return data.createUser;
+  } catch (error) {
+    console.error("Error creating user");
+    return null;
+  }
 }
 
 export async function getMetaData(slug: string) {

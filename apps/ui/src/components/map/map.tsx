@@ -29,7 +29,7 @@ const RitcherMap = ({ user, regionData }: MapProps) => {
   return (
     <ApolloProvider client={client}>
       <Provider>
-        <Map user={user} regionData={regionData} />
+        <Map user={user} mapData={regionData} />
       </Provider>
     </ApolloProvider>
   );

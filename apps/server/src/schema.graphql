@@ -11,22 +11,6 @@ input AddNoteInput {
   title: String!
 }
 
-type AppUser {
-  """Identifies the date and time when the object was created."""
-  createdAt: DateTime!
-  email: String!
-  firstName: String
-  foundLocations: [Int!]
-  hideFound: Boolean!
-  id: String!
-  lastName: String
-  noteMarkers: [NoteMarker!]
-  photoUrl: String
-
-  """Identifies the date and time when the object was last updated."""
-  updatedAt: DateTime!
-}
-
 type Category {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
@@ -43,9 +27,7 @@ type Category {
 
 input CreateUserInput {
   email: String!
-  firstName: String
-  lastName: String
-  photoUrl: String
+  username: String
 }
 
 """
@@ -142,12 +124,12 @@ type Media {
 }
 
 type Mutation {
-  addFoundLocations(data: UpdateFoundLocationInput!): AppUser!
-  addNoteMarker(data: AddNoteInput!): AppUser!
-  createUser(data: CreateUserInput!): AppUser
-  removeFoundLocation(data: UpdateFoundLocationInput!): AppUser!
-  removeNoteMarker(data: RemoveNoteInput!): AppUser!
-  toggleHideFoundSetting(data: UpdateHideFoundInput!): AppUser!
+  addFoundLocations(data: UpdateFoundLocationInput!): User!
+  addNoteMarker(data: AddNoteInput!): User!
+  createUser(data: CreateUserInput!): User
+  removeFoundLocation(data: UpdateFoundLocationInput!): User!
+  removeNoteMarker(data: RemoveNoteInput!): User!
+  toggleHideFoundSetting(data: UpdateHideFoundInput!): User!
 }
 
 type NoteMarker {
@@ -179,8 +161,8 @@ type Query {
   game(slug: String!): Game!
   games: [Game!]!
   getGroupsByGameSlug(slug: String!): [Group!]!
-  getSubRegionsByRegion(slug: String!): [Region!]!
-  getUser(email: String!): AppUser!
+  getRegionsByMap(slug: String!): [Region!]!
+  getUser(email: String!): User!
   locations(mapSlug: String): [Location!]!
   regionDetails(slug: String!): Map!
 }
@@ -220,4 +202,18 @@ input UpdateFoundLocationInput {
 input UpdateHideFoundInput {
   email: String!
   hide: Boolean!
+}
+
+type User {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  email: String!
+  foundLocations: [Int!]
+  hideFound: Boolean!
+  id: String!
+  noteMarkers: [NoteMarker!]
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+  username: String
 }

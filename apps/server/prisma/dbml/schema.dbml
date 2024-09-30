@@ -2,7 +2,7 @@
 //// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 //// ------------------------------------------------------
 
-Table AppUser {
+Table User {
   id String [pk]
   createdAt DateTime [default: `now()`, not null]
   updatedAt DateTime [not null]
@@ -22,7 +22,7 @@ Table NoteMarker {
   createdAt DateTime [default: `now()`, not null]
   updatedAt DateTime [not null]
   userEmail String [not null]
-  user AppUser [not null]
+  user User [not null]
   mapSlug String [not null]
   map Map [not null]
 }
@@ -103,7 +103,7 @@ Table Media {
   location Location
 }
 
-Ref: NoteMarker.userEmail > AppUser.email
+Ref: NoteMarker.userEmail > User.email
 
 Ref: NoteMarker.mapSlug > Map.slug
 

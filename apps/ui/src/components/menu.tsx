@@ -1,5 +1,5 @@
 import React from "react";
-import { Region } from "@/__generated__/graphql";
+import { Map } from "@/__generated__/graphql";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useState } from "react";
@@ -27,7 +27,7 @@ import { SidebarClose } from "./sidebar/sidebar-close";
 import { getBodyFont } from "@/lib/font";
 
 interface MenuProps {
-  regions: Region[];
+  maps: Map[];
   subRegions: any[];
 }
 
@@ -53,7 +53,7 @@ const SidebarDivider = styled(Divider)(() => ({
   borderColor: "var(--border-color)",
 }));
 
-export const Menu = ({ regions, subRegions }: MenuProps) => {
+export const Menu = ({ maps, subRegions }: MenuProps) => {
   const router = useRouter();
   const params = useParams<{ slug: string }>();
 
@@ -131,7 +131,7 @@ export const Menu = ({ regions, subRegions }: MenuProps) => {
                     router.push(`/map/${event.target.value}`)
                   }
                 >
-                  {regions?.map((region, index) => (
+                  {maps?.map((region, index) => (
                     <MenuItem key={`${region}${index}`} value={region.slug}>
                       {region.title}
                     </MenuItem>

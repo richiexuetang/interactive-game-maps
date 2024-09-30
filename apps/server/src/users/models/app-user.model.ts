@@ -4,7 +4,7 @@ import { IsEmail } from "class-validator";
 import { NoteMarker } from "./note-marker.model";
 
 @ObjectType()
-export class AppUser {
+export class User {
   @Field(() => String)
   id: string;
 
@@ -24,13 +24,7 @@ export class AppUser {
   email: string;
 
   @Field(() => String, { nullable: true })
-  firstName?: string;
-
-  @Field(() => String, { nullable: true })
-  lastName?: string;
-
-  @Field(() => String, { nullable: true })
-  photoUrl?: string;
+  username?: string;
 
   @Field(() => [Int], { nullable: true })
   foundLocations?: number[] | null;

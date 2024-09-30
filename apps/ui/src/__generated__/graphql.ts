@@ -23,31 +23,27 @@ export type AddNoteInput = {
   email: Scalars['String']['input'];
   latitude: Scalars['Float']['input'];
   longitude: Scalars['Float']['input'];
-  regionSlug: Scalars['String']['input'];
+  mapSlug: Scalars['String']['input'];
   title: Scalars['String']['input'];
 };
 
-export type AppUser = {
-  __typename?: 'AppUser';
+export type Category = {
+  __typename?: 'Category';
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
-  email: Scalars['String']['output'];
-  firstName?: Maybe<Scalars['String']['output']>;
-  foundLocations?: Maybe<Array<Scalars['Int']['output']>>;
-  hideFound: Scalars['Boolean']['output'];
-  id: Scalars['String']['output'];
-  lastName?: Maybe<Scalars['String']['output']>;
-  noteMarkers?: Maybe<Array<NoteMarker>>;
-  photoUrl?: Maybe<Scalars['String']['output']>;
+  icon: Scalars['String']['output'];
+  id: Scalars['Float']['output'];
+  info?: Maybe<Scalars['String']['output']>;
+  isChecklist: Scalars['Boolean']['output'];
+  locations?: Maybe<Array<Location>>;
+  title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
 };
 
 export type CreateUserInput = {
   email: Scalars['String']['input'];
-  firstName?: InputMaybe<Scalars['String']['input']>;
-  lastName?: InputMaybe<Scalars['String']['input']>;
-  photoUrl?: InputMaybe<Scalars['String']['input']>;
+  username?: InputMaybe<Scalars['String']['input']>;
 };
 
 export type Game = {
@@ -56,11 +52,11 @@ export type Game = {
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   description?: Maybe<Scalars['String']['output']>;
-  groups?: Maybe<Array<MarkerGroup>>;
+  groups?: Maybe<Array<Group>>;
   id: Scalars['Float']['output'];
+  maps?: Maybe<Array<Map>>;
   maxZoom: Scalars['Float']['output'];
   minZoom: Scalars['Float']['output'];
-  regions?: Maybe<Array<Region>>;
   slug: Scalars['String']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
@@ -68,22 +64,9 @@ export type Game = {
   zoom: Scalars['Float']['output'];
 };
 
-export type MarkerCategory = {
-  __typename?: 'MarkerCategory';
-  /** Identifies the date and time when the object was created. */
-  createdAt: Scalars['DateTime']['output'];
-  icon: Scalars['String']['output'];
-  id: Scalars['Float']['output'];
-  info?: Maybe<Scalars['String']['output']>;
-  locations?: Maybe<Array<MarkerLocation>>;
-  title: Scalars['String']['output'];
-  /** Identifies the date and time when the object was last updated. */
-  updatedAt: Scalars['DateTime']['output'];
-};
-
-export type MarkerGroup = {
-  __typename?: 'MarkerGroup';
-  categories?: Maybe<Array<MarkerCategory>>;
+export type Group = {
+  __typename?: 'Group';
+  categories?: Maybe<Array<Category>>;
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   game?: Maybe<Game>;
@@ -94,9 +77,9 @@ export type MarkerGroup = {
   updatedAt: Scalars['DateTime']['output'];
 };
 
-export type MarkerLocation = {
-  __typename?: 'MarkerLocation';
-  category?: Maybe<MarkerCategory>;
+export type Location = {
+  __typename?: 'Location';
+  category?: Maybe<Category>;
   categoryId?: Maybe<Scalars['Float']['output']>;
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
@@ -104,13 +87,35 @@ export type MarkerLocation = {
   id: Scalars['Float']['output'];
   latitude: Scalars['Float']['output'];
   longitude: Scalars['Float']['output'];
+  map: Map;
+  mapSlug: Scalars['String']['output'];
   media?: Maybe<Array<Media>>;
-  region?: Maybe<Region>;
-  regionSlug: Scalars['String']['output'];
-  subRegionSlug?: Maybe<Scalars['String']['output']>;
+  regionSlug?: Maybe<Scalars['String']['output']>;
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
+};
+
+export type Map = {
+  __typename?: 'Map';
+  /** Identifies the date and time when the object was created. */
+  createdAt: Scalars['DateTime']['output'];
+  gameSlug: Scalars['String']['output'];
+  id: Scalars['Float']['output'];
+  locations?: Maybe<Array<Location>>;
+  order: Scalars['Float']['output'];
+  regions?: Maybe<Array<Region>>;
+  slug: Scalars['String']['output'];
+  thumbnailUrl?: Maybe<Scalars['String']['output']>;
+  tilePath: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  /** Identifies the date and time when the object was last updated. */
+  updatedAt: Scalars['DateTime']['output'];
+};
+
+export type MapOrder = {
+  direction: OrderDirection;
+  field: RegionOrderField;
 };
 
 export type Media = {
@@ -118,8 +123,8 @@ export type Media = {
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   id: Scalars['Float']['output'];
-  markerLocation?: Maybe<MarkerLocation>;
-  markerLocationId?: Maybe<Scalars['Float']['output']>;
+  location?: Maybe<Location>;
+  locationId?: Maybe<Scalars['Float']['output']>;
   type: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
@@ -128,12 +133,12 @@ export type Media = {
 
 export type Mutation = {
   __typename?: 'Mutation';
-  addFoundLocations: AppUser;
-  addNoteMarker: AppUser;
-  createUser?: Maybe<AppUser>;
-  removeFoundLocation: AppUser;
-  removeNoteMarker: AppUser;
-  toggleHideFoundSetting: AppUser;
+  addFoundLocations: User;
+  addNoteMarker: User;
+  createUser?: Maybe<User>;
+  removeFoundLocation: User;
+  removeNoteMarker: User;
+  toggleHideFoundSetting: User;
 };
 
 
@@ -174,7 +179,8 @@ export type NoteMarker = {
   id: Scalars['Float']['output'];
   latitude: Scalars['Float']['output'];
   longitude: Scalars['Float']['output'];
-  regionSlug: Scalars['String']['output'];
+  map: Map;
+  mapSlug: Scalars['String']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
@@ -188,25 +194,25 @@ export enum OrderDirection {
 
 export type Query = {
   __typename?: 'Query';
-  fetchGameByRegion: Game;
-  findRegionsByGame: Array<Region>;
+  fetchGameByMap: Game;
+  findRegionsByGame: Array<Map>;
   game: Game;
   games: Array<Game>;
-  getGroupsByGameSlug: Array<MarkerGroup>;
-  getSubRegionsByRegion: Array<SubRegion>;
-  getUser: AppUser;
-  locations: Array<MarkerLocation>;
-  regionDetails: Region;
+  getGroupsByGameSlug: Array<Group>;
+  getRegionsByMap: Array<Region>;
+  getUser: User;
+  locations: Array<Location>;
+  regionDetails: Map;
 };
 
 
-export type QueryFetchGameByRegionArgs = {
+export type QueryFetchGameByMapArgs = {
   slug: Scalars['String']['input'];
 };
 
 
 export type QueryFindRegionsByGameArgs = {
-  orderBy?: InputMaybe<RegionOrder>;
+  orderBy?: InputMaybe<MapOrder>;
   slug: Scalars['String']['input'];
 };
 
@@ -221,7 +227,7 @@ export type QueryGetGroupsByGameSlugArgs = {
 };
 
 
-export type QueryGetSubRegionsByRegionArgs = {
+export type QueryGetRegionsByMapArgs = {
   slug: Scalars['String']['input'];
 };
 
@@ -232,7 +238,7 @@ export type QueryGetUserArgs = {
 
 
 export type QueryLocationsArgs = {
-  regionSlug?: InputMaybe<Scalars['String']['input']>;
+  mapSlug?: InputMaybe<Scalars['String']['input']>;
 };
 
 
@@ -242,24 +248,16 @@ export type QueryRegionDetailsArgs = {
 
 export type Region = {
   __typename?: 'Region';
+  coordinates?: Maybe<Array<Array<Array<Scalars['Float']['output']>>>>;
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
-  gameSlug: Scalars['String']['output'];
   id: Scalars['Float']['output'];
-  locations?: Maybe<Array<MarkerLocation>>;
-  order: Scalars['Float']['output'];
+  locations: Array<Location>;
+  mapSlug: Scalars['String']['output'];
   slug: Scalars['String']['output'];
-  subRegions?: Maybe<Array<SubRegion>>;
-  thumbnailUrl: Scalars['String']['output'];
-  tilePath: Scalars['String']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
-};
-
-export type RegionOrder = {
-  direction: OrderDirection;
-  field: RegionOrderField;
 };
 
 /** Properties by which region connections can be ordered. */
@@ -274,20 +272,6 @@ export type RemoveNoteInput = {
   id: Scalars['Float']['input'];
 };
 
-export type SubRegion = {
-  __typename?: 'SubRegion';
-  coordinates?: Maybe<Array<Array<Array<Scalars['Float']['output']>>>>;
-  /** Identifies the date and time when the object was created. */
-  createdAt: Scalars['DateTime']['output'];
-  id: Scalars['Float']['output'];
-  locations: Array<MarkerLocation>;
-  regionSlug: Scalars['String']['output'];
-  slug: Scalars['String']['output'];
-  title: Scalars['String']['output'];
-  /** Identifies the date and time when the object was last updated. */
-  updatedAt: Scalars['DateTime']['output'];
-};
-
 export type UpdateFoundLocationInput = {
   email: Scalars['String']['input'];
   location: Scalars['Float']['input'];
@@ -298,47 +282,61 @@ export type UpdateHideFoundInput = {
   hide: Scalars['Boolean']['input'];
 };
 
+export type User = {
+  __typename?: 'User';
+  /** Identifies the date and time when the object was created. */
+  createdAt: Scalars['DateTime']['output'];
+  email: Scalars['String']['output'];
+  foundLocations?: Maybe<Array<Scalars['Int']['output']>>;
+  hideFound: Scalars['Boolean']['output'];
+  id: Scalars['String']['output'];
+  noteMarkers?: Maybe<Array<NoteMarker>>;
+  /** Identifies the date and time when the object was last updated. */
+  updatedAt: Scalars['DateTime']['output'];
+  username?: Maybe<Scalars['String']['output']>;
+};
+
 export type AddFoundLocationsMutationVariables = Exact<{
   data: UpdateFoundLocationInput;
 }>;
 
 
-export type AddFoundLocationsMutation = { __typename?: 'Mutation', addFoundLocations: { __typename?: 'AppUser', email: string, foundLocations?: Array<number> | null } };
+export type AddFoundLocationsMutation = { __typename?: 'Mutation', addFoundLocations: { __typename?: 'User', email: string, foundLocations?: Array<number> | null } };
 
 export type RemoveFoundLocationMutationVariables = Exact<{
   data: UpdateFoundLocationInput;
 }>;
 
 
-export type RemoveFoundLocationMutation = { __typename?: 'Mutation', removeFoundLocation: { __typename?: 'AppUser', email: string, foundLocations?: Array<number> | null } };
+export type RemoveFoundLocationMutation = { __typename?: 'Mutation', removeFoundLocation: { __typename?: 'User', email: string, foundLocations?: Array<number> | null } };
 
 export type GetUserQueryVariables = Exact<{
   email: Scalars['String']['input'];
 }>;
 
 
-export type GetUserQuery = { __typename?: 'Query', getUser: { __typename?: 'AppUser', email: string, foundLocations?: Array<number> | null, hideFound: boolean, photoUrl?: string | null, noteMarkers?: Array<{ __typename?: 'NoteMarker', id: number, title: string, description: string, regionSlug: string, latitude: number, longitude: number }> | null } };
+export type GetUserQuery = { __typename?: 'Query', getUser: { __typename?: 'User', email: string, foundLocations?: Array<number> | null, hideFound: boolean, noteMarkers?: Array<{ __typename?: 'NoteMarker', id: number, title: string, description: string, mapSlug: string, latitude: number, longitude: number }> | null } };
 
 export type CreateUserMutationVariables = Exact<{
   data: CreateUserInput;
 }>;
 
 
-export type CreateUserMutation = { __typename?: 'Mutation', createUser?: { __typename?: 'AppUser', email: string, firstName?: string | null, foundLocations?: Array<number> | null, lastName?: string | null, photoUrl?: string | null } | null };
+export type CreateUserMutation = { __typename?: 'Mutation', createUser?: { __typename?: 'User', email: string, username?: string | null, foundLocations?: Array<number> | null } | null };
 
 export type ToggleHideFoundSettingMutationVariables = Exact<{
   data: UpdateHideFoundInput;
 }>;
 
 
-export type ToggleHideFoundSettingMutation = { __typename?: 'Mutation', toggleHideFoundSetting: { __typename?: 'AppUser', hideFound: boolean, email: string } };
+export type ToggleHideFoundSettingMutation = { __typename?: 'Mutation', toggleHideFoundSetting: { __typename?: 'User', hideFound: boolean, email: string } };
 
-export type GetSubRegionsByRegionQueryVariables = Exact<{
+export type GetRegionsByMapQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
-export type GetSubRegionsByRegionQuery = { __typename?: 'Query', getSubRegionsByRegion: Array<{ __typename?: 'SubRegion', title: string, coordinates?: Array<Array<Array<number>>> | null }> };
+export type GetRegionsByMapQuery = { __typename?: 'Query', getRegionsByMap: Array<{ __typename?: 'Region', title: string, coordinates?: Array<Array<Array<number>>> | null }> };
 
 export type GetGamesQueryVariables = Exact<{
   slug: Scalars['String']['input'];
@@ -352,54 +350,54 @@ export type RegionDetailsQueryVariables = Exact<{
 }>;
 
 
-export type RegionDetailsQuery = { __typename?: 'Query', regionDetails: { __typename?: 'Region', gameSlug: string, title: string } };
+export type RegionDetailsQuery = { __typename?: 'Query', regionDetails: { __typename?: 'Map', gameSlug: string, title: string } };
 
 export type FindRegionByGameQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
-export type FindRegionByGameQuery = { __typename?: 'Query', findRegionsByGame: Array<{ __typename?: 'Region', gameSlug: string, slug: string, thumbnailUrl: string, title: string }> };
+export type FindRegionByGameQuery = { __typename?: 'Query', findRegionsByGame: Array<{ __typename?: 'Map', gameSlug: string, slug: string, thumbnailUrl?: string | null, title: string }> };
 
-export type FetchGameByRegionQueryVariables = Exact<{
+export type FetchGameByMapQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
-export type FetchGameByRegionQuery = { __typename?: 'Query', fetchGameByRegion: { __typename?: 'Game', title: string, slug: string, minZoom: number, maxZoom: number, zoom: number, center: Array<number>, groups?: Array<{ __typename?: 'MarkerGroup', id: number, title: string, categories?: Array<{ __typename?: 'MarkerCategory', id: number, icon: string, info?: string | null, title: string }> | null }> | null, regions?: Array<{ __typename?: 'Region', tilePath: string, slug: string, order: number, title: string, locations?: Array<{ __typename?: 'MarkerLocation', categoryId?: number | null, description?: string | null, latitude: number, longitude: number, title: string, id: number, category?: { __typename?: 'MarkerCategory', title: string, id: number, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, type: string }> | null }> | null }> | null } };
+export type FetchGameByMapQuery = { __typename?: 'Query', fetchGameByMap: { __typename?: 'Game', title: string, slug: string, minZoom: number, maxZoom: number, zoom: number, center: Array<number>, groups?: Array<{ __typename?: 'Group', id: number, title: string, categories?: Array<{ __typename?: 'Category', id: number, icon: string, info?: string | null, title: string }> | null }> | null, maps?: Array<{ __typename?: 'Map', tilePath: string, slug: string, order: number, title: string, locations?: Array<{ __typename?: 'Location', categoryId?: number | null, description?: string | null, latitude: number, longitude: number, title: string, id: number, category?: { __typename?: 'Category', title: string, id: number, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, type: string }> | null }> | null }> | null } };
 
 export type LocationsQueryVariables = Exact<{
-  regionSlug?: InputMaybe<Scalars['String']['input']>;
+  mapSlug?: InputMaybe<Scalars['String']['input']>;
 }>;
 
 
-export type LocationsQuery = { __typename?: 'Query', locations: Array<{ __typename?: 'MarkerLocation', categoryId?: number | null, description?: string | null, latitude: number, longitude: number, title: string, id: number, category?: { __typename?: 'MarkerCategory', title: string, id: number, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, type: string }> | null }> };
+export type LocationsQuery = { __typename?: 'Query', locations: Array<{ __typename?: 'Location', categoryId?: number | null, description?: string | null, latitude: number, longitude: number, title: string, id: number, category?: { __typename?: 'Category', title: string, id: number, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, type: string }> | null }> };
 
 export type AddNoteMarkerMutationVariables = Exact<{
   data: AddNoteInput;
 }>;
 
 
-export type AddNoteMarkerMutation = { __typename?: 'Mutation', addNoteMarker: { __typename?: 'AppUser', noteMarkers?: Array<{ __typename?: 'NoteMarker', id: number, title: string, description: string, regionSlug: string, latitude: number, longitude: number }> | null } };
+export type AddNoteMarkerMutation = { __typename?: 'Mutation', addNoteMarker: { __typename?: 'User', noteMarkers?: Array<{ __typename?: 'NoteMarker', id: number, title: string, description: string, mapSlug: string, latitude: number, longitude: number }> | null } };
 
 export type RemoveNoteMarkerMutationVariables = Exact<{
   data: RemoveNoteInput;
 }>;
 
 
-export type RemoveNoteMarkerMutation = { __typename?: 'Mutation', removeNoteMarker: { __typename?: 'AppUser', noteMarkers?: Array<{ __typename?: 'NoteMarker', id: number, title: string, description: string, regionSlug: string, latitude: number, longitude: number }> | null } };
+export type RemoveNoteMarkerMutation = { __typename?: 'Mutation', removeNoteMarker: { __typename?: 'User', noteMarkers?: Array<{ __typename?: 'NoteMarker', id: number, title: string, description: string, mapSlug: string, latitude: number, longitude: number }> | null } };
 
 
 export const AddFoundLocationsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"AddFoundLocations"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"UpdateFoundLocationInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"addFoundLocations"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}}]}}]}}]} as unknown as DocumentNode<AddFoundLocationsMutation, AddFoundLocationsMutationVariables>;
 export const RemoveFoundLocationDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"RemoveFoundLocation"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"UpdateFoundLocationInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"removeFoundLocation"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}}]}}]}}]} as unknown as DocumentNode<RemoveFoundLocationMutation, RemoveFoundLocationMutationVariables>;
-export const GetUserDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"GetUser"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"email"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"getUser"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"email"},"value":{"kind":"Variable","name":{"kind":"Name","value":"email"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}},{"kind":"Field","name":{"kind":"Name","value":"hideFound"}},{"kind":"Field","name":{"kind":"Name","value":"photoUrl"}},{"kind":"Field","name":{"kind":"Name","value":"noteMarkers"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"regionSlug"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}}]}}]}}]}}]} as unknown as DocumentNode<GetUserQuery, GetUserQueryVariables>;
-export const CreateUserDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreateUser"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"CreateUserInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createUser"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"firstName"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}},{"kind":"Field","name":{"kind":"Name","value":"lastName"}},{"kind":"Field","name":{"kind":"Name","value":"photoUrl"}}]}}]}}]} as unknown as DocumentNode<CreateUserMutation, CreateUserMutationVariables>;
+export const GetUserDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"GetUser"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"email"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"getUser"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"email"},"value":{"kind":"Variable","name":{"kind":"Name","value":"email"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}},{"kind":"Field","name":{"kind":"Name","value":"hideFound"}},{"kind":"Field","name":{"kind":"Name","value":"noteMarkers"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"mapSlug"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}}]}}]}}]}}]} as unknown as DocumentNode<GetUserQuery, GetUserQueryVariables>;
+export const CreateUserDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreateUser"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"CreateUserInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createUser"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"email"}},{"kind":"Field","name":{"kind":"Name","value":"username"}},{"kind":"Field","name":{"kind":"Name","value":"foundLocations"}}]}}]}}]} as unknown as DocumentNode<CreateUserMutation, CreateUserMutationVariables>;
 export const ToggleHideFoundSettingDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"ToggleHideFoundSetting"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"UpdateHideFoundInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"toggleHideFoundSetting"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"hideFound"}},{"kind":"Field","name":{"kind":"Name","value":"email"}}]}}]}}]} as unknown as DocumentNode<ToggleHideFoundSettingMutation, ToggleHideFoundSettingMutationVariables>;
-export const GetSubRegionsByRegionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"GetSubRegionsByRegion"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"getSubRegionsByRegion"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"coordinates"}}]}}]}}]} as unknown as DocumentNode<GetSubRegionsByRegionQuery, GetSubRegionsByRegionQueryVariables>;
+export const GetRegionsByMapDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"GetRegionsByMap"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"getRegionsByMap"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"coordinates"}}]}}]}}]} as unknown as DocumentNode<GetRegionsByMapQuery, GetRegionsByMapQueryVariables>;
 export const GetGamesDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"GetGames"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"game"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}}]}}]}}]} as unknown as DocumentNode<GetGamesQuery, GetGamesQueryVariables>;
 export const RegionDetailsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"RegionDetails"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"regionDetails"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"gameSlug"}},{"kind":"Field","name":{"kind":"Name","value":"title"}}]}}]}}]} as unknown as DocumentNode<RegionDetailsQuery, RegionDetailsQueryVariables>;
 export const FindRegionByGameDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"FindRegionByGame"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"findRegionsByGame"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}},{"kind":"Argument","name":{"kind":"Name","value":"orderBy"},"value":{"kind":"ObjectValue","fields":[{"kind":"ObjectField","name":{"kind":"Name","value":"field"},"value":{"kind":"EnumValue","value":"order"}},{"kind":"ObjectField","name":{"kind":"Name","value":"direction"},"value":{"kind":"EnumValue","value":"asc"}}]}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"gameSlug"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"thumbnailUrl"}},{"kind":"Field","name":{"kind":"Name","value":"title"}}]}}]}}]} as unknown as DocumentNode<FindRegionByGameQuery, FindRegionByGameQueryVariables>;
-export const FetchGameByRegionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"FetchGameByRegion"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"fetchGameByRegion"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"minZoom"}},{"kind":"Field","name":{"kind":"Name","value":"maxZoom"}},{"kind":"Field","name":{"kind":"Name","value":"zoom"}},{"kind":"Field","name":{"kind":"Name","value":"center"}},{"kind":"Field","name":{"kind":"Name","value":"groups"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"categories"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"icon"}},{"kind":"Field","name":{"kind":"Name","value":"info"}},{"kind":"Field","name":{"kind":"Name","value":"title"}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"regions"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"tilePath"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"order"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"locations"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"categoryId"}},{"kind":"Field","name":{"kind":"Name","value":"category"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"icon"}},{"kind":"Field","name":{"kind":"Name","value":"info"}}]}},{"kind":"Field","name":{"kind":"Name","value":"media"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]} as unknown as DocumentNode<FetchGameByRegionQuery, FetchGameByRegionQueryVariables>;
-export const LocationsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"Locations"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"regionSlug"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"locations"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"regionSlug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"regionSlug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"categoryId"}},{"kind":"Field","name":{"kind":"Name","value":"category"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"icon"}},{"kind":"Field","name":{"kind":"Name","value":"info"}}]}},{"kind":"Field","name":{"kind":"Name","value":"media"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}}]} as unknown as DocumentNode<LocationsQuery, LocationsQueryVariables>;
-export const AddNoteMarkerDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"AddNoteMarker"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"AddNoteInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"addNoteMarker"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"noteMarkers"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"regionSlug"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}}]}}]}}]}}]} as unknown as DocumentNode<AddNoteMarkerMutation, AddNoteMarkerMutationVariables>;
-export const RemoveNoteMarkerDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"RemoveNoteMarker"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"RemoveNoteInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"removeNoteMarker"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"noteMarkers"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"regionSlug"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}}]}}]}}]}}]} as unknown as DocumentNode<RemoveNoteMarkerMutation, RemoveNoteMarkerMutationVariables>;
+export const FetchGameByMapDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"FetchGameByMap"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"slug"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"fetchGameByMap"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"slug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"slug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"minZoom"}},{"kind":"Field","name":{"kind":"Name","value":"maxZoom"}},{"kind":"Field","name":{"kind":"Name","value":"zoom"}},{"kind":"Field","name":{"kind":"Name","value":"center"}},{"kind":"Field","name":{"kind":"Name","value":"groups"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"categories"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"icon"}},{"kind":"Field","name":{"kind":"Name","value":"info"}},{"kind":"Field","name":{"kind":"Name","value":"title"}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"maps"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"tilePath"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"order"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"locations"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"categoryId"}},{"kind":"Field","name":{"kind":"Name","value":"category"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"icon"}},{"kind":"Field","name":{"kind":"Name","value":"info"}}]}},{"kind":"Field","name":{"kind":"Name","value":"media"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]} as unknown as DocumentNode<FetchGameByMapQuery, FetchGameByMapQueryVariables>;
+export const LocationsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"Locations"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"mapSlug"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"String"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"locations"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"mapSlug"},"value":{"kind":"Variable","name":{"kind":"Name","value":"mapSlug"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"categoryId"}},{"kind":"Field","name":{"kind":"Name","value":"category"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"icon"}},{"kind":"Field","name":{"kind":"Name","value":"info"}}]}},{"kind":"Field","name":{"kind":"Name","value":"media"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}}]} as unknown as DocumentNode<LocationsQuery, LocationsQueryVariables>;
+export const AddNoteMarkerDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"AddNoteMarker"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"AddNoteInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"addNoteMarker"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"noteMarkers"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"mapSlug"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}}]}}]}}]}}]} as unknown as DocumentNode<AddNoteMarkerMutation, AddNoteMarkerMutationVariables>;
+export const RemoveNoteMarkerDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"RemoveNoteMarker"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"data"}},"type":{"kind":"NonNullType","type":{"kind":"NamedType","name":{"kind":"Name","value":"RemoveNoteInput"}}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"removeNoteMarker"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"data"},"value":{"kind":"Variable","name":{"kind":"Name","value":"data"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"noteMarkers"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"mapSlug"}},{"kind":"Field","name":{"kind":"Name","value":"latitude"}},{"kind":"Field","name":{"kind":"Name","value":"longitude"}}]}}]}}]}}]} as unknown as DocumentNode<RemoveNoteMarkerMutation, RemoveNoteMarkerMutationVariables>;

@@ -74,12 +74,9 @@ export default async function MapPage({
   const appUser = await getAppUser(currentUser?.email ?? "");
   if (!appUser && currentUser?.email) {
     const displayName = currentUser?.displayName;
-    const name = displayName?.split(" ");
     await createAppUser({
       email: currentUser?.email,
-      photoUrl: currentUser?.photoURL,
-      firstName: name ? name[0] : "",
-      lastName: name ? name[1] : "",
+      username: displayName,
     });
   }
 
