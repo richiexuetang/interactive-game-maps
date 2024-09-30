@@ -19,10 +19,6 @@
     "ui:build": "pnpm --filter ui build",
     "ui:prod": "pnpm --filter ui start"
   },
-  "packageManager": "pnpm@9.0.4",
-  "engines": {
-    "pnpm": "9.0.4"
-  },
   "dependencies": {
     "@apollo/server": "^4.7.5",
     "@nestjs/apollo": "12.0.7",
@@ -56,5 +52,6 @@
     "prisma-dbml-generator": "0.11.0-dev.0",
     "ts-loader": "9.4.4",
     "tsconfig-paths": "4.2.0"
-  }
+  },
+  "packageManager": "pnpm@9.0.4+sha512.c374b52de3de88c58fd8333df664a737279cdb0e1344ba4054d3b1fffa9a1a3670854f755dca4f16adea3f14be9896a7fcaf167409fe0c1ad60475271dafe81a"
 }
