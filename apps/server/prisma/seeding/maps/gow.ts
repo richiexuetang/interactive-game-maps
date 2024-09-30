@@ -5,9 +5,7 @@ export const gow = {
   minZoom: 9,
   maxZoom: 13,
   center: [0.4890167848268, -0.73532026743],
-  description:
-    "God of War: Ragnarök Interactive Map - Find all collectibles including Legendary Chests, Treasure Maps, Labors, Artifacts, Draugrs &amp; more! Use the progress tracker to get 100%!",
-  regions: [
+  maps: [
     {
       title: "Sindri's House",
       slug: "sindris-house",
@@ -57,7 +55,7 @@ export const gow = {
           title: "Celestial Altar",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Altar",
               latitude: "0.90080268554492",
               longitude: "-0.79007664075365",
@@ -69,7 +67,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Altar",
               latitude: "0.78043015652774",
               longitude: "-0.76491498514642",
@@ -81,7 +79,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Altar",
               latitude: "0.89992448783127",
               longitude: "-0.69684446642131",
@@ -93,7 +91,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Altar",
               latitude: "0.82370678778403",
               longitude: "-0.60879200372190",
@@ -105,20 +103,20 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Altar",
               description: "Discovered during late game campaign",
               latitude: "0.64879173689901",
               longitude: "-0.76727505365233",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Altar",
               latitude: "0.49011297501031",
               longitude: "-0.72109727927472",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestiar Altar",
               description:
                 "Part of story quest Creatures of Prophecy and cannot be missed.",
@@ -131,7 +129,7 @@ export const gow = {
           title: "Dock",
           locations: [
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.51963340854225",
               longitude: "-0.65346909413182",
@@ -143,7 +141,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.56203187874867",
               longitude: "-0.67149353871901",
@@ -155,7 +153,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.59541707658589",
               longitude: "-0.60918293172486",
@@ -167,7 +165,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir",
               latitude: "0.69906998272843",
               longitude: "-0.59869125322487",
@@ -179,7 +177,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir West",
               latitude: "0.74455663660177",
               longitude: "-0.60847595172035",
@@ -191,7 +189,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Port",
               latitude: "0.74954507058796",
               longitude: "-0.64539916490639",
@@ -203,7 +201,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Modvitnir's Rig",
               latitude: "0.81572959634279",
               longitude: "-0.68906853753933",
@@ -215,7 +213,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Dragon Beach",
               latitude: "0.81227299250206",
               longitude: "-0.58989772894705",
@@ -227,7 +225,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Dragon Beach",
               latitude: "0.79373538461914",
               longitude: "-0.58543453314655",
@@ -239,7 +237,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Watchtower",
               latitude: "0.84385683039419",
               longitude: "-0.62886919270252",
@@ -251,7 +249,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Watchtower",
               latitude: "0.82720744735514",
               longitude: "-0.62732424030972",
@@ -263,7 +261,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Althjof's Rig",
               latitude: "0.88842111525571",
               longitude: "-0.66405977499119",
@@ -275,7 +273,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Alberich Island",
               latitude: "0.93991297181365",
               longitude: "-0.57872610061546",
@@ -287,7 +285,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Alberich Hollow",
               latitude: "0.86919730264997",
               longitude: "-0.55623846024216",
@@ -299,7 +297,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Bay of Bounty",
               latitude: "0.89803298422528",
               longitude: "-0.55692510575005",
@@ -311,7 +309,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Lyngbakr Island",
               latitude: "0.87614697807376",
               longitude: "-0.60158729553476",
@@ -323,7 +321,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.55468750244704",
               longitude: "-0.66811642789250",
@@ -335,7 +333,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.48934547428743",
               longitude: "-0.67705762398242",
@@ -347,7 +345,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.46379206743646",
               longitude: "-0.70768741490519",
@@ -359,7 +357,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.60246147565208",
               longitude: "-0.66800523841636",
@@ -371,7 +369,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir Beach",
               latitude: "0.74645542911506",
               longitude: "-0.67801952073302",
@@ -383,7 +381,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Lyngbakr Island",
               latitude: "0.89316860319727",
               longitude: "-0.58831602092846",
@@ -395,7 +393,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Cliffside Ruins",
               latitude: "0.41547053533053",
               longitude: "-0.71573138237082",
@@ -407,7 +405,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "River Delta",
               latitude: "0.42302343370628",
               longitude: "-0.71315646171567",
@@ -419,7 +417,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Pilgrim's Landing",
               latitude: "0.44173399093110",
               longitude: "-0.73718905449226",
@@ -431,7 +429,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "N\u00f3at\u00fan's Garden",
               latitude: "0.44207730346919",
               longitude: "-0.68946719169733",
@@ -443,7 +441,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "N\u00f3at\u00fan's Garden",
               latitude: "0.43160626383940",
               longitude: "-0.68723559379654",
@@ -455,7 +453,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freyr's Camp",
               latitude: "0.48892858290655",
               longitude: "-0.71434736251800",
@@ -467,7 +465,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freyr's Camp",
               latitude: "0.50799300301382",
               longitude: "-0.71641802787641",
@@ -479,7 +477,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Veiled Passage",
               latitude: "0.38752260386426",
               longitude: "-0.68748235702358",
@@ -491,7 +489,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Goddess Falls",
               latitude: "0.37800633864545",
               longitude: "-0.72144985198884",
@@ -507,7 +505,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Jungle",
               latitude: "0.77905417817732",
               longitude: "-0.73206131379229",
@@ -519,7 +517,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Jungle",
               latitude: "0.80350508905227",
               longitude: "-0.72771407059466",
@@ -531,7 +529,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Jungle Entrance",
               latitude: "0.81708886547828",
               longitude: "-0.75814477297399",
@@ -543,7 +541,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Jungle",
               latitude: "0.79073629801415",
               longitude: "-0.76982798906624",
@@ -555,7 +553,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Jungle",
               latitude: "0.77579404590945",
               longitude: "-0.77037139446600",
@@ -567,7 +565,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Jungle",
               latitude: "0.78014088837325",
               longitude: "-0.78966228615275",
@@ -579,7 +577,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Sinkholes",
               latitude: "0.85131910057197",
               longitude: "-0.65428120769187",
@@ -591,7 +589,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Sinkholes",
               latitude: "0.83440188695751",
               longitude: "-0.61632181339201",
@@ -603,7 +601,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Sinkholes",
               latitude: "0.88775592203932",
               longitude: "-0.63193939276448",
@@ -615,7 +613,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Sinkholes",
               latitude: "0.88884034582611",
               longitude: "-0.62391369225978",
@@ -627,7 +625,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.87130137145026",
               longitude: "-0.75947506815922",
@@ -639,7 +637,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.86522856573031",
               longitude: "-0.80350796557261",
@@ -651,7 +649,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.88995349895545",
               longitude: "-0.75882433569680",
@@ -663,7 +661,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.88800153652008",
               longitude: "-0.73973618313246",
@@ -675,7 +673,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.92617305678252",
               longitude: "-0.70934767666938",
@@ -687,7 +685,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.90947181508774",
               longitude: "-0.76106071472216",
@@ -699,7 +697,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.91597387344675",
               longitude: "-0.68881876590956",
@@ -711,7 +709,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Plains",
               latitude: "0.86270091958440",
               longitude: "-0.77492098495193",
@@ -723,7 +721,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "River Delta",
               latitude: "0.44274247147446",
               longitude: "-0.71264147758558",
@@ -735,7 +733,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Veiled Passage",
               latitude: "0.37188030443144",
               longitude: "-0.68531513214228",
@@ -747,7 +745,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Pilgrim's Landing",
               latitude: "0.45238740081388",
               longitude: "-0.73498964309704",
@@ -764,67 +762,67 @@ export const gow = {
           title: "Entrance",
           locations: [
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Entrance - The Burrows",
               latitude: "0.88893344628343",
               longitude: "-0.81251246132962",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Entrance - The Barrens",
               latitude: "0.67237640767058",
               longitude: "-0.67098600702323",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Entrance - The Below",
               latitude: "0.63003807856593",
               longitude: "-0.59162070619897",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Upper Wildwoods",
               latitude: "0.62261926561817",
               longitude: "-0.92508711931319",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Derelict Outpost",
               latitude: "0.65508158336314",
               longitude: "-0.77459307639282",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Forge",
               latitude: "0.81755074807181",
               longitude: "-0.75670969546726",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Myrkr Tunnels",
               latitude: "0.76791693671828",
               longitude: "-0.74133128965457",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Applecore",
               latitude: "0.57876339826116",
               longitude: "-0.78599981004123",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "River Delta",
               latitude: "0.47606194266905",
               longitude: "-0.72225084960542",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freyr's Camp",
               latitude: "0.50129524706998",
               longitude: "-0.69032183349501",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Sinkholes Entrance",
               latitude: "0.84567804573673",
               longitude: "-0.64549508523990",
@@ -835,7 +833,7 @@ export const gow = {
           title: "Mystic Gateway",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Mystic Gateway",
               description: "Directly across from Sindri's home.",
               latitude: "0.60312110936427",
@@ -848,7 +846,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Southern Wilds",
               latitude: "0.37100806494979",
               longitude: "-0.63933840449727",
@@ -860,7 +858,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "River Delta",
               latitude: "0.42765816317120",
               longitude: "-0.71693301200816",
@@ -872,7 +870,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freyr's Camp",
               latitude: "0.48399371788558",
               longitude: "-0.71348905563485",
@@ -884,7 +882,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Jungle",
               latitude: "0.76845873914016",
               longitude: "-0.75977498917314",
@@ -896,7 +894,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Jungle Entrance",
               latitude: "0.82932484136728",
               longitude: "-0.75929201734326",
@@ -908,7 +906,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Crater Entrance",
               latitude: "0.86871740677640",
               longitude: "-0.71799320697590",
@@ -920,7 +918,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Overgrown Tower",
               latitude: "0.92495297360648",
               longitude: "-0.75575988226478",
@@ -932,7 +930,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Sinkholes Entrance",
               latitude: "0.84719824762718",
               longitude: "-0.64712315047882",
@@ -944,7 +942,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Sinkholes",
               latitude: "0.83548632592574",
               longitude: "-0.62760117627275",
@@ -956,7 +954,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Western Plains",
               latitude: "0.90469593422216",
               longitude: "-0.79575580245023",
@@ -968,7 +966,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Eastern Plains",
               latitude: "0.91228685874027",
               longitude: "-0.69532609064862",
@@ -980,13 +978,13 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Abandoned Village",
               latitude: "0.62387320059455",
               longitude: "-0.67430734634320",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Canyons",
               latitude: "0.61857245475750",
               longitude: "-0.73147876083704",
@@ -998,7 +996,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Hjarta",
               latitude: "0.81280046224047",
               longitude: "-0.72701524692710",
@@ -1010,7 +1008,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Str\u00f6nd",
               latitude: "0.56842530581406",
               longitude: "-0.79422684673077",
@@ -1022,7 +1020,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Temple of Light",
               latitude: "0.48802360177380",
               longitude: "-0.85477218547729",
@@ -1034,7 +1032,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Burning Cliffs",
               latitude: "0.64840662957654",
               longitude: "-0.66969255414648",
@@ -1046,7 +1044,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "The Crucible",
               description:
                 "**Requires:** Find both Muspelheim Seed halves in svarthelheim to gain access to The Crucible -\n- [Muspelheim Seed Half](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217117) (svarthelheim)\n- [Muspelheim Seed Half](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217122) (svarthelheim)",
@@ -1060,7 +1058,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "King's Grave",
               latitude: "0.81041481146036",
               longitude: "-0.41157725283253",
@@ -1072,7 +1070,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Alfheim Tower",
               latitude: "0.80543712645191",
               longitude: "-0.54650309511879",
@@ -1084,7 +1082,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Lake of Nine",
               latitude: "0.81248417141143",
               longitude: "-0.66680089245713",
@@ -1096,7 +1094,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Oarsmen",
               latitude: "0.84742757729295",
               longitude: "-0.57921685533759",
@@ -1108,7 +1106,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Lost Treasury",
               latitude: "0.67529227717810",
               longitude: "-0.63010123997481",
@@ -1120,7 +1118,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Sanctuary Grove",
               latitude: "0.51344342760787",
               longitude: "-0.66033894349459",
@@ -1132,7 +1130,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Derelict Outpost",
               latitude: "0.64645230079219",
               longitude: "-0.75533151626786",
@@ -1144,7 +1142,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Upper Wildwoods",
               latitude: "0.62104166306720",
               longitude: "-0.89778544664699",
@@ -1156,7 +1154,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Aurvangar Wetlands",
               latitude: "0.45663597269933",
               longitude: "-0.72041703111643",
@@ -1168,7 +1166,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir West",
               latitude: "0.74233590375897",
               longitude: "-0.60608870957972",
@@ -1180,7 +1178,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir Beach",
               latitude: "0.74439566692348",
               longitude: "-0.68247802232798",
@@ -1192,7 +1190,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Watchtower",
               latitude: "0.84093890239495",
               longitude: "-0.62234606037831",
@@ -1204,7 +1202,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Applecore",
               latitude: "0.61594594810768",
               longitude: "-0.81619500701862",
@@ -1216,7 +1214,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Jarnsmida Pitmines",
               latitude: "0.66900874390858",
               longitude: "-0.85511563985767",
@@ -1228,19 +1226,19 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Applecore Descent",
               latitude: "0.49913844278217",
               longitude: "-0.79949725645130",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Applecore Descent",
               latitude: "0.49978741483575",
               longitude: "-0.79740962806773",
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Mystic Gateway",
               latitude: "0.70772816699757",
               longitude: "-0.67603565734581",
@@ -1252,7 +1250,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Hel's Perch",
               latitude: "0.55670465118114",
               longitude: "-0.85427836637623",
@@ -1264,7 +1262,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Mist Fields",
               latitude: "0.63750072652847",
               longitude: "-0.61331263292078",
@@ -1276,7 +1274,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Raven Tree",
               latitude: "0.79288773765683",
               longitude: "-0.91827412501192",
@@ -1293,7 +1291,7 @@ export const gow = {
           title: "Point of Interest",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Mysterious Orb",
               description:
                 "Just after landing on the beach, find this Key Item on the ground to the left, near a grindstone and bellows.\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
@@ -1307,7 +1305,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Alfheim Barrens Key Half",
               description:
                 "**Requires:** Completion of Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)\n\nOn the ground in the snow",
@@ -1315,7 +1313,7 @@ export const gow = {
               longitude: "-0.86921218400354",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Alfheim Barrens Key Half",
               description:
                 "**Requires:** Completion of Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)\n\nOn the ground in the snow",
@@ -1323,7 +1321,7 @@ export const gow = {
               longitude: "-0.79203486442455",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fj\u00f3turlund Vault Key Half",
               description:
                 "**Requires:** Favor [Sigrun's Curse](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216936)",
@@ -1331,7 +1329,7 @@ export const gow = {
               longitude: "-0.56539893150423",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fj\u00f3turlund Vault Key Half",
               description:
                 "**Requires:** Favor [Sigrun's Curse](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216936)\n\nNear the end of the Derelict Outpost - at the top of the cliff, just above the platform with the [Ivaldi's Anvil](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216467), at the base of an altar.",
@@ -1344,7 +1342,7 @@ export const gow = {
           title: "Shop",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "River Delta",
               latitude: "0.42697153675958",
               longitude: "-0.71161150932249",
@@ -1356,7 +1354,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freyr's Camp",
               latitude: "0.50781812646201",
               longitude: "-0.68706026733332",
@@ -1368,7 +1366,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Eastern Plains",
               latitude: "0.90903360733294",
               longitude: "-0.68664965766285",
@@ -1380,7 +1378,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Western Plains",
               latitude: "0.90670368688657",
               longitude: "-0.79150557710778",
@@ -1392,7 +1390,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Canyons",
               latitude: "0.60875511421908",
               longitude: "-0.72857995876754",
@@ -1404,13 +1402,13 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Shop",
               latitude: "0.42677720883361",
               longitude: "-0.91409598195250",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Tyr's Temple",
               latitude: "0.73728870554761",
               longitude: "-0.58463143656823",
@@ -1422,7 +1420,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Lake of Nine",
               latitude: "0.81711855992829",
               longitude: "-0.67023411999665",
@@ -1434,7 +1432,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Derelict Outpost",
               latitude: "0.65403709940254",
               longitude: "-0.76118946075573",
@@ -1446,7 +1444,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nidavellir",
               latitude: "0.70576427330629",
               longitude: "-0.57845554527111",
@@ -1458,7 +1456,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Watchtower",
               latitude: "0.84128218815540",
               longitude: "-0.62560762653999",
@@ -1470,7 +1468,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Forge",
               latitude: "0.84015890146088",
               longitude: "-0.78360150023275",
@@ -1482,7 +1480,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Applecore",
               latitude: "0.58385954432492",
               longitude: "-0.78689917622327",
@@ -1494,7 +1492,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Raven Tree",
               latitude: "0.77692472765594",
               longitude: "-0.92020817658656",
@@ -1516,7 +1514,7 @@ export const gow = {
           title: "Armor Set",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Vidar's Might Set (Kratos)",
               description:
                 "**Level:** ??  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
@@ -1530,7 +1528,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Fortified Husk Set (Kratos)",
               description:
                 "**Level:** 1  \n**Unlock:** Craftable at the Shop after completing story quest _The Quest for Tyr_",
@@ -1544,7 +1542,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Risen Snow Set (Kratos)",
               description:
                 '**Level:** 1  \n**Unlock:** Craftable at the Shop after completing story quest _The Quest for Tyr_\n\n**Note:** This armor can currently only be obtained through purchase of the "Launch Edition" of the game.  It is not required for 100% completion and is not tracked in game.',
@@ -1558,7 +1556,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Enlightenment Set (Kratos)",
               description:
                 "**Level:** 3  \n**Unlock:** Craftable at the Shop after completing story quest _Groa's Secret_",
@@ -1572,7 +1570,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Sol's Set (Kratos)",
               description:
                 "**Level:** 4  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
@@ -1586,7 +1584,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Spiritual Set (Kratos)",
               description:
                 "**Level:** 4  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
@@ -1600,7 +1598,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Mani's Wisdom Set (Kratos)",
               description:
                 "**Level:** 5  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
@@ -1614,7 +1612,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Giptumadr's Set (Kratos)",
               description:
                 "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing story quest _The Word of Fate_",
@@ -1628,7 +1626,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Darkdale Attire (Atreus)",
               description:
                 "**Unlock:** Can only be obtained by purchasing God of War Ragnarok Deluxe Edition\n\n**Note:** This Armor Set is not required for 100% completion and is untracked in game.",
@@ -1636,7 +1634,7 @@ export const gow = {
               longitude: "-0.68818320667515",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Lunda's Lost Set (Kratos)",
               description:
                 "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
@@ -1650,7 +1648,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Fallen Stars Set (Kratos)",
               description:
                 "**Level:** 6  \n**Unlock:** \n- [Bracers of Fallen Stars](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219704)\n- [Plackart of Fallen Stars](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219706)\n- [Waist Guard of Fallen Stars](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219718)",
@@ -1664,7 +1662,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Dragon Scaled Set (Kratos)",
               description:
                 "**Level:** 6  \n**Unlock:** Can be crafted after reaching The Crater.  Requires Dragon Claw and Dragon Tooth.",
@@ -1678,7 +1676,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hunter's Set (Kratos)",
               description:
                 "**Level:** 6  \n**Unlock:** Craftable at the Shop after find a Hunter's Brand in The Crater (?)",
@@ -1692,14 +1690,14 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Agony's Promise Tunic (Freya)",
               description: "**Unlock:** This is the starting armor for Freya",
               latitude: "0.51416631844808",
               longitude: "-0.69997802181572",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Regal Vanir Garments (Freya)",
               description:
                 "**Unlock:** Reward for completing Favor [Freya's Missing Peace](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217256)",
@@ -1707,21 +1705,21 @@ export const gow = {
               longitude: "-0.71678325077806",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Tattered Witch Frock (Freya)",
               description: "**Unlock:** This is the starting armor for Freya",
               latitude: "0.51301759441787",
               longitude: "-0.70394595574467",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Warrior's Battledress (Freya)",
               description: "**Unlock:** This is the starting armor for Freya",
               latitude: "0.51027112189594",
               longitude: "-0.70154269646673",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Radiance Set (Kratos)",
               description:
                 "**Level:** 4  \n**Unlock:** \n- [Belt of Radiance](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216562)\n- [Shoulder Straps of Radiance](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216568)\n- [Gauntlets of Radiance](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216580)",
@@ -1735,7 +1733,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Undying Pyres Set (Kratos)",
               description:
                 "**Level:** 6  \n**Unlock:** Craftable at the Shop after completing Muspelheim Trials",
@@ -1749,7 +1747,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Surtr's Scorched Set (Kratos)",
               description:
                 "**Level:** 7  \n**Unlock:** Craftable at the Shop after completing Muspelheim final challenges",
@@ -1763,7 +1761,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "The Queen's Armor (Freya)",
               description:
                 "**Unlock:** Reward for defeating [Gn\u00e1](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216511)",
@@ -1771,7 +1769,7 @@ export const gow = {
               longitude: "-0.82366227371890",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Survival Set (Kratos)",
               description:
                 "**Level:** 1  \n**Unlock:** This is the starting armor for Kratos",
@@ -1785,7 +1783,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Guiding Light Set (Kratos)",
               description:
                 "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439).  Each armor piece can also be retrieved from near the objectives for the Favor - \n- [Waist Guard of Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216428)\n- [Guantlets of Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216477)\n- [Breastplate of Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216480)",
@@ -1799,7 +1797,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Steinbjorn Set (Kratos)",
               description:
                 "**Level:** 6  \n**Unlock:** Craftable at the Shop after obtaining the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) and overcoming the 3 Sleeping Troll encounters:\n- [Blodugr Steinn](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219571) (Midgard)\n- [Bjarg Stormr](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219572) (Alfheim)\n- [G\u00f6lrab of the Ashes and Frost](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219573) (Vanaheim)",
@@ -1813,7 +1811,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Berserker Set (Kratos)",
               description:
                 "**Level:** 5  \n**Unlock:** Craftable at the Shop after obtaining the necessary materials through completing Berserker Gravestones",
@@ -1827,7 +1825,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fate Breaker Set (Kratos)",
               description:
                 "**Level:** 6  \n**Unlock:** Purchasable at the beginning of story quest _The Realms at War_",
@@ -1841,7 +1839,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Brother's Brand Vestment (Atreus)",
               description:
                 "**Unlock:** Craftable at the Shop after completing story quest _Surviving Fimbulwinter_",
@@ -1849,14 +1847,14 @@ export const gow = {
               longitude: "-0.91785051787221",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Survival Garb (Atreus)",
               description: "**Unlock:** This is the starting armor for Atreus",
               latitude: "0.62758573348130",
               longitude: "-0.91613390410214",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Risen Snow Tunic (Atreus)",
               description:
                 '**Unlock:** Craftable at the Shop after completing story quest _Surviving Fimbulwinter_\n\n**Note:** This armor can currently only be obtained through purchase of the "Launch Edition" of the game.  It is not required for 100% completion and is not tracked in game.',
@@ -1864,7 +1862,7 @@ export const gow = {
               longitude: "-0.91424562895727",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fate Breaker Tunic (Atreus)",
               description:
                 "**Unlock:** Purchasable at the beginning of story quest _The Realms at War_",
@@ -1872,7 +1870,7 @@ export const gow = {
               longitude: "-0.56695255902528",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fate Breaker Tunic (Freya)",
               description:
                 "**Unlock:** Purchasable at the beginning of story quest _The Realms at War_",
@@ -1880,7 +1878,7 @@ export const gow = {
               longitude: "-0.56945081781626",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir's Finest Set (Kratos)",
               description:
                 "**Level:** 2  \n**Unlock:** Craftable at any Shop after completing Favor [In Service of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217079)",
@@ -1894,7 +1892,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Jotnar's Champion Garb (Atreus)",
               description:
                 "**Unlock:** Found in the cabinet in Angrboda's Treehouse",
@@ -1902,7 +1900,7 @@ export const gow = {
               longitude: "-0.69729298004191",
             },
             {
-              regionSlug: "asgard",
+              mapSlug: "asgard",
               title: "Aesir Uniform (Atreus)",
               description:
                 "**Unlock:** Automatically obtained during story quest _The Runaway_ inside The Great Lodge",
@@ -1910,7 +1908,7 @@ export const gow = {
               longitude: "-0.67234615997720",
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Raven Tears Set (Kratos)",
               description:
                 "**Level:** 3  \n**Unlock:** \n- [Girdle of Raven Tears](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216526)\n- [Bracers of Raven Tears](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216527)\n- [Cuirass of Raven Tears](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216528)",
@@ -1929,7 +1927,7 @@ export const gow = {
           title: "Artifact",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Family Crests - Skirnir's Crest",
               description:
                 "On the ground in front of the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217194)",
@@ -1943,7 +1941,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Family Crests - Hoenir's Crest",
               description: "On the ground in the grass",
               latitude: "0.42941714368671",
@@ -1956,7 +1954,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Family Crests - Kvasir's Crest",
               description: "Break the wooden fence to reveal the artifact",
               latitude: "0.39775021924645",
@@ -1969,7 +1967,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Family Crests - Hylli's Crest",
               latitude: "0.38813740822189",
               longitude: "-0.75990202734275",
@@ -1985,7 +1983,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Family Crests - Odin's Crest",
               description: "On the beach",
               latitude: "0.43838669280933",
@@ -2002,7 +2000,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Family Crests - Freya's Crest",
               description: "On the stone floor near the Mystic Gateway",
               latitude: "0.43154189265107",
@@ -2015,7 +2013,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Tributes to Freyr - Harp",
               description:
                 "In a small cave just South-East of the entrance to The Barrens from The Canyons\n\n**Requires:** Completion of Favor [Secret of the Sands](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216418).",
@@ -2033,7 +2031,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Tributes to Freyr - Dream Charm",
               description: "On the ground near the Nornir Chest",
               latitude: "0.50686552448977",
@@ -2046,7 +2044,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Tributes to Freyr - Horn",
               description:
                 "On the ground next to the [lore marker](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216577)",
@@ -2060,7 +2058,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Tributes to Freyr - Pipe",
               description:
                 "On the bottom level on The Burrows, near the Nornir Chest",
@@ -2074,7 +2072,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Tributes to Freyr - Bracelet",
               description:
                 "Climb up the wall of the Elven Sanctum, then look right to see the Artifact in the back corner of the balcony.",
@@ -2088,7 +2086,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Tributes to Freyr - Token",
               description:
                 "Slip through the gap in the eastern wall and climb the stairs to find the artifact",
@@ -2102,7 +2100,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Stolen Treasures - Fert",
               description: "In the cave under the building",
               latitude: "0.82919206400236",
@@ -2119,7 +2117,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Stolen Treasures - Ankh",
               description:
                 "In the cellar with the nearby legendary chest, behind the stairs",
@@ -2137,7 +2135,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Stolen Treasures - Lyre",
               description:
                 "On the ground in the lower area of The Derelict Outpost.  Just after the second wooden crane, drop down and defeat the Wisps, then find the artifact near a corpse.",
@@ -2155,7 +2153,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Stolen Treasures - Janbiya",
               description:
                 "Under the building in the cave with the long hanging icicles",
@@ -2169,7 +2167,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Stolen Treasures - Kila",
               description: "Up the stairs on top of the small island",
               latitude: "0.76834402227763",
@@ -2182,7 +2180,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Stolen Treasures - Maya",
               description: "Under the bridge on a rock, near a corpse",
               latitude: "0.73887445925395",
@@ -2199,7 +2197,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Things Left Behind - Hreidmar\u2019s Brassard",
               description:
                 "On the upper platform.  Freeze the geysers as necessary to be able to grapple up to the artifact.",
@@ -2217,7 +2215,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Things Left Behind - Bari\u2019s Grenade",
               description: "Hiding under the broken wooden crate",
               latitude: "0.76902999899832",
@@ -2230,7 +2228,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Things Left Behind - Durinn\u2019s Stone Statue",
               latitude: "0.57561857778033",
               longitude: "-0.79598596719444",
@@ -2242,7 +2240,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Things Left Behind - Althjof's Statues",
               latitude: "0.61096805351569",
               longitude: "-0.81705331390350",
@@ -2254,7 +2252,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Things Left Behind - Lofhneid\u2019s Whetstone",
               latitude: "0.67089689001251",
               longitude: "-0.85803388335364",
@@ -2266,7 +2264,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Things Left Behind - Griep's Firebomb",
               description:
                 "Head through the sewer passage in the market plaza.  This artifact is on the ground in the corridor beyond.",
@@ -2289,7 +2287,7 @@ export const gow = {
           title: "Buried Treasure",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Under the Rainbow Treasure",
               description:
                 "**Treasure Map:** [Under the Rainbow](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217231)\n\n**Reward:** \n- Amulet Enchantment - Niflheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Rune",
@@ -2303,7 +2301,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Giant's Toes Treasure",
               description:
                 "Behind the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217194)\n\n**Treasure Map:** [The Giant's Toes](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217248)\n\n**Reward:** \n- Amulet Enchantment - Vanaheim\u2019s Power\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
@@ -2317,7 +2315,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "A Scar is Born Treasure",
               description:
                 "On the ground under the archway \n\n**Treasure Map:** [A Scar is Born](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217305)\n\n**Reward:** \n- Amulet Enchantment - Asgard\u2019s Justice\n- 4 Asgardian Ingots\n- 4 Luminous Alloy\n- 4 Petrified Bones\n- 75 Shattered Runes",
@@ -2331,7 +2329,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Vulture's Gold Treasure",
               description:
                 "Found inside the mouth of the giant skull.\n\n**Treasure Map:** [Vulture's Gold](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216563)  \n\n**Reward:**\n- Companion Accessory - Lethal Detonation\n- 1 Stonewood\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 10 Shattered Runes",
@@ -2345,7 +2343,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Forgotten Tower Treasure",
               description:
                 "**Treasure Map:** [Forgotten Tower](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216593)\n\n**Reward:** \n- Amulet Enchantment - Alfheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
@@ -2359,7 +2357,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Demise of Dagestr Treasure",
               description:
                 "**Treasure Map:** [Demise of Dagestr](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217159) (svarthelheim)\n\n**Reward:** \n- Amulet Enchantment - Helheim\u2019s Force\n- 2 Asgardian Ingots\n- 2 Luminous Alloy\n- 2 Petrified Bones\n- 40 Shattered Runes",
@@ -2373,7 +2371,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Viking's Gift Treasure",
               description:
                 "On the ground just in frond of the large doors\n\n**Treasure Map:** [Viking's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216460)\n\n**Reward:**\n- Amulet Enchantment - Midgard\u2019s Justice\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 25 Shattered Runes",
@@ -2387,7 +2385,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Washed Ashore Treasure",
               description:
                 "**Treasure Map:** [Washed Ashore](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217137)\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Virtue\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
@@ -2401,7 +2399,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Mining Glory Treasure",
               description:
                 "**Treasure Map:** [Mining Glory](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217110)\n\n**Reward:** \n- Amulet Enchantment - Muspelheim\u2019s Blessing\n-1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
@@ -2415,7 +2413,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Fruits of Industry Treasure",
               description:
                 "**Treasure Map:** [Fruits of Industry](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217121)\n\n**Reward:** \n- Amulet Enchantment - svarthelheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
@@ -2434,7 +2432,7 @@ export const gow = {
           title: "Jewel of Yggdrasil",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Jewel of Yggdrasil",
               latitude: "0.44658277973720",
               longitude: "-0.68336330868726",
@@ -2450,7 +2448,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Jewel of Yggdrasil",
               latitude: "0.80273613887518",
               longitude: "-0.79570706533698",
@@ -2466,7 +2464,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Jewel of Yggdrasil",
               description:
                 "Upstairs inside the Elven Sanctum in the Legendary Chest",
@@ -2484,7 +2482,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Jewel of Yggdrasil",
               description:
                 "In the hidden cellar.  Pull the giant chain to open the staircase to the cellar on the right",
@@ -2498,7 +2496,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Jewel of Yggdrasil",
               description:
                 "Drops from defeating the [Frost Phantom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219051)",
@@ -2512,7 +2510,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Jewel of Yggdrasil",
               description: "On top of the island",
               latitude: "0.91922869441244",
@@ -2525,7 +2523,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Jewel of Yggdrasil",
               description:
                 "Automatically obtained from the Ogre during story quest _Forging Destiny_",
@@ -2545,7 +2543,7 @@ export const gow = {
           icon: "kvasirs_poem",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Kvasir's Poem - Upon Pursing a Place Not Marked on Maps",
               description:
                 "From the middle platform - grapple into the rock floor below, breaking it to reveal the artifact",
@@ -2563,7 +2561,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Kvasir's Poem - An Organization: In the Future",
               latitude: "0.83094427010667",
               longitude: "-0.77797907005720",
@@ -2579,7 +2577,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Kvasir's Poem - Eastern Specter",
               latitude: "0.85457240242225",
               longitude: "-0.70308614323645",
@@ -2591,7 +2589,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Kvasir's Poem - Afterlife Abandonment",
               description:
                 "On the ground next to the chest.  Drop down the ledge, then destroy the debris blocking the way to gain access to the artifact",
@@ -2609,7 +2607,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Kvasir's Poem - Visions After Rest",
               description:
                 "Inside the Temple of Light - head up the long curved staircase to a second Light Door. To lower it, head right and leap up to a ledge.  Once up there, go left to a balcony, getting you the right angle to bounce the Axe off a Twilight Stone and destroy the light crystal. The poem will be on this very balcony.",
@@ -2627,7 +2625,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Kvasir's Poem - Spirits Within Walls",
               description:
                 "In the alcove off the large room to your left after entering, sitting on a table.",
@@ -2641,7 +2639,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Kvasir's Poem - Celestial Construct",
               description:
                 "Inside the giant skeleton, up the ledge near the Legendary Chest",
@@ -2655,7 +2653,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Kvasir's Poem - Trip",
               description: "On the floor inside the tower.",
               latitude: "0.85811181626079",
@@ -2672,7 +2670,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Kvasir's Poem - The Dead Do Not Ride",
               description:
                 "From down in the cellar, climb out the hole in the ceiling to the left of the [Nornir Chest](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216446) and up to the ledge with a Red Coffin and the poem on the floor",
@@ -2690,7 +2688,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Kvasir's Poem - The Sunrise of Nothingness",
               description: "On the wooden platform, on the table",
               latitude: "0.61199062441258",
@@ -2703,7 +2701,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title:
                 "Kvasir's Poem - Large Society Ground Orb, The Performance",
               description: "On the wooden crate, behind the Sonic barrier",
@@ -2717,7 +2715,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Kvasir's Poem - We Who Remain, Part the Second",
               description:
                 "Climb up and across the wooden scaffolding against the rock wall to reach the wooden platform with the poem and a coffin",
@@ -2731,7 +2729,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Kvasir's Poem - Sanguinity",
               latitude: "0.53732680120403",
               longitude: "-0.79305462747601",
@@ -2743,7 +2741,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Kvasir's Poem - Tool and Bang",
               latitude: "0.64875404086796",
               longitude: "-0.83983777730941",
@@ -2760,7 +2758,7 @@ export const gow = {
           title: "Lore",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freyr's Lament",
               description: "On the floor in the straw hut, opposite the smith",
               latitude: "0.51179729088193",
@@ -2773,7 +2771,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Vanaheim Lullaby",
               description: "On the rock in between two canoes, near the water",
               latitude: "0.51969339430936",
@@ -2786,7 +2784,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Aesir Promise",
               latitude: "0.55590540309926",
               longitude: "-0.61430219430147",
@@ -2798,7 +2796,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Verdant",
               description: "On the stone wall",
               latitude: "0.58817613309830",
@@ -2811,7 +2809,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Prayer to Freya",
               description: "On the stone wall",
               latitude: "0.61589566235581",
@@ -2824,7 +2822,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Chores",
               description:
                 "**Requires:** Draupnir Spear\n\nThrow a spear into the wall and use it to climb up to the platform with the scroll.",
@@ -2838,7 +2836,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Dead on Arrival",
               latitude: "0.45499442624217",
               longitude: "-0.72635293006843",
@@ -2854,7 +2852,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "G\u00f6lrab of the Ashes and Frost",
               latitude: "0.43439518217748",
               longitude: "-0.67735516048421",
@@ -2866,7 +2864,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Garden's Progress",
               description:
                 "On the roof of the ruins.  Climb up the wall to reach this lore.",
@@ -2884,7 +2882,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Call to Arms",
               latitude: "0.41224411570163",
               longitude: "-0.70344768980624",
@@ -2900,7 +2898,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Seidr Sacrifice",
               latitude: "0.39301851629260",
               longitude: "-0.69331966858374",
@@ -2916,7 +2914,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Anything I Can Do",
               description: "Inside the small cave.  Beware the hostile plants.",
               latitude: "0.37663635212415",
@@ -2933,7 +2931,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Feast",
               latitude: "0.37165827833428",
               longitude: "-0.75595381567229",
@@ -2945,7 +2943,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Auburn Crown",
               latitude: "0.38281602597282",
               longitude: "-0.76676848242090",
@@ -2961,7 +2959,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Traitor",
               latitude: "0.35535077578427",
               longitude: "-0.74496748755112",
@@ -2977,7 +2975,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Blessings of Two",
               latitude: "0.36187378033577",
               longitude: "-0.74582579444288",
@@ -2993,7 +2991,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Abandoned",
               latitude: "0.36908341148377",
               longitude: "-0.76642515967652",
@@ -3005,7 +3003,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Ceremony",
               latitude: "0.37045667389930",
               longitude: "-0.77517988990579",
@@ -3017,7 +3015,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Living Masterpiece",
               description:
                 "Just east of the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217194)",
@@ -3031,7 +3029,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nonviolence",
               latitude: "0.45057106185736",
               longitude: "-0.69512835205740",
@@ -3043,7 +3041,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Harmony",
               latitude: "0.55428435902448",
               longitude: "-0.78201490223361",
@@ -3055,7 +3053,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Unforgiven",
               latitude: "0.77660907920675",
               longitude: "-0.79890017794310",
@@ -3067,7 +3065,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "City of Possibility",
               description: "On the stone wall",
               latitude: "0.80425436534654",
@@ -3084,7 +3082,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Everything Ends",
               description: "Standing near the stone wall",
               latitude: "0.85535736321256",
@@ -3097,7 +3095,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Stupidity",
               latitude: "0.88453137850549",
               longitude: "-0.78073232898151",
@@ -3109,7 +3107,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Apology",
               latitude: "0.93050501195466",
               longitude: "-0.80508296790055",
@@ -3121,7 +3119,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Seidr",
               description: "Up the stairs from the shop",
               latitude: "0.90621412041375",
@@ -3134,7 +3132,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Lost Pages",
               latitude: "0.86079967182945",
               longitude: "-0.72881584494871",
@@ -3146,14 +3144,14 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Battle Orders",
               description: "**Requires:** Completion of all story quests.",
               latitude: "0.54807007233983",
               longitude: "-0.65355080180225",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Broken History",
               description:
                 "At the base of the statue near the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216409)",
@@ -3167,7 +3165,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Living Desert",
               latitude: "0.55727508245718",
               longitude: "-0.75579230742861",
@@ -3183,7 +3181,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Bifr\u00f6st Bridge",
               latitude: "0.42243010690777",
               longitude: "-0.90676656154741",
@@ -3195,7 +3193,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Limitless",
               latitude: "0.46997663618056",
               longitude: "-0.89372483198025",
@@ -3207,7 +3205,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "\u00da-n\u0101t\u016br-l\u012bker",
               latitude: "0.60811409179993",
               longitude: "-0.74312202700071",
@@ -3219,7 +3217,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Patience",
               latitude: "0.64419072492092",
               longitude: "-0.58697440573471",
@@ -3235,7 +3233,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Gulon Cull",
               latitude: "0.66748753348351",
               longitude: "-0.50326409320854",
@@ -3251,7 +3249,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Desert of Our Ignorance",
               latitude: "0.75297404091513",
               longitude: "-0.52026007302155",
@@ -3263,7 +3261,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Tower's Purpose",
               description: "On the bluff behind the tower",
               latitude: "0.81467375083550",
@@ -3276,7 +3274,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Lost Pages",
               description: "Under the tower",
               latitude: "0.80304051043312",
@@ -3289,7 +3287,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Sacrifice",
               latitude: "0.86070604869836",
               longitude: "-0.81103859972688",
@@ -3301,7 +3299,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Rules of the Sanctum",
               latitude: "0.90586630435828",
               longitude: "-0.70583459024141",
@@ -3317,7 +3315,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "An Examination of Temporal Significance",
               latitude: "0.90132981464444",
               longitude: "-0.70175124171070",
@@ -3329,7 +3327,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Lost Pages",
               latitude: "0.91244420434673",
               longitude: "-0.70515403215279",
@@ -3341,7 +3339,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Arbiters of Knowledge",
               latitude: "0.91116245077023",
               longitude: "-0.69617467028192",
@@ -3353,7 +3351,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Enlightened One",
               description:
                 "**Requires:** Completion of Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)",
@@ -3371,7 +3369,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Bjarg Stormr",
               latitude: "0.84572342909773",
               longitude: "-0.90131286149867",
@@ -3383,7 +3381,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Valhalla Rises",
               latitude: "0.60601147673246",
               longitude: "-0.62071966496859",
@@ -3395,7 +3393,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Gna's Journal",
               description:
                 "This piece of Lore is untracked and is not required for 100% completion.",
@@ -3409,7 +3407,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Tyr's Right Bracer",
               description:
                 "**Requires:** Completion of story quest _Into the Fire_\n\nOn the large armature behind the brambles\n\n**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
@@ -3423,7 +3421,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "An Accursed Name",
               description:
                 "In the hidden cellar revealed by pulling the giant chain - on the back wall of the cellar",
@@ -3437,7 +3435,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Bl\u00f3\u00f0ugr Steinn",
               latitude: "0.64822674446579",
               longitude: "-0.80807189180393",
@@ -3453,7 +3451,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Death Of Helgi",
               description:
                 "Near the end of the Derelict Outpost - at the top of the cliff",
@@ -3467,7 +3465,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Love's End",
               description: "**Requires:** Favor Sigrun's Curse",
               latitude: "0.67360064762600",
@@ -3480,7 +3478,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Lost Pages",
               latitude: "0.66578354488512",
               longitude: "-0.66574921757112",
@@ -3492,7 +3490,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Tyr's Left Bracer",
               description:
                 "**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
@@ -3506,7 +3504,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Tyr's Helmet",
               description:
                 "**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
@@ -3520,7 +3518,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Tyr's Spear",
               description:
                 "**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
@@ -3534,7 +3532,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Receipt of Purchase",
               description: "On the ground near the dwarf corpse",
               latitude: "0.68943522965255",
@@ -3551,7 +3549,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Winter-Man",
               description:
                 "Found to the right of the icy cliff you'll climb up while following Atreus to the ruined temple.\n\n**This piece of Lore is untracked and is not required to achieve 100% completion.**",
@@ -3565,7 +3563,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Ashen God",
               description:
                 "After defeating The Huntress, climb up the ice wall and turn left to find the Scroll on the ruined bridge.\n\n**This piece of Lore is untracked and is not required to achieve 100% completion.**",
@@ -3583,7 +3581,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Unsafe Roads",
               description:
                 "From the boat docks, climb up the wooden ledge, then head right and down to the lore marker.",
@@ -3597,7 +3595,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Shopping List",
               description: "On the ground in the main plaza",
               latitude: "0.70511503223908",
@@ -3610,7 +3608,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Warning",
               latitude: "0.81890050546565",
               longitude: "-0.69658279672436",
@@ -3622,7 +3620,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Climbing the Ladder",
               latitude: "0.84908849300913",
               longitude: "-0.59176674837846",
@@ -3634,7 +3632,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Squasher",
               latitude: "0.90261947225011",
               longitude: "-0.66640128543523",
@@ -3646,7 +3644,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Passion",
               latitude: "0.90534136579375",
               longitude: "-0.67139204475853",
@@ -3658,7 +3656,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Regarding the Removal of Resources",
               latitude: "0.88094817362111",
               longitude: "-0.61239865193218",
@@ -3670,7 +3668,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Don't Breathe",
               description: "On the beach in front of the dock",
               latitude: "0.80500695181915",
@@ -3683,7 +3681,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Dear Overseer",
               latitude: "0.79344217246793",
               longitude: "-0.74870799003870",
@@ -3695,7 +3693,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Forge",
               latitude: "0.79962138487659",
               longitude: "-0.74910462102676",
@@ -3707,7 +3705,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Cooperation",
               latitude: "0.57987643051111",
               longitude: "-0.80678862747575",
@@ -3719,7 +3717,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Vault",
               latitude: "0.58899660210460",
               longitude: "-0.78838586395199",
@@ -3731,7 +3729,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Pit Mine",
               latitude: "0.66626234834052",
               longitude: "-0.87022184102983",
@@ -3743,7 +3741,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "The Tree",
               description:
                 "After climbing up the ledge with the large wooden bucket, make a left to find the wooden structure with writing on it.  Destroy the structure to find the scroll inside \n\n**Note:** Untracked in game for 100% completion",
@@ -3757,7 +3755,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Paints",
               description:
                 "Inside Idi's Sinkhole (?)\n\n**Note:** Untracked in game for 100% completion",
@@ -3771,7 +3769,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "asgard",
+              mapSlug: "asgard",
               title: "On Gjallarhorn",
               description:
                 "On a table in Odin's chambers - this lore is retrieved automatically during a story cutscene and cannot be missed on story completion.\n\n**Note:** Untracked in game for 100% completion",
@@ -3785,7 +3783,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Hr\u00e6svelgr",
               description:
                 "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216516)",
@@ -3799,7 +3797,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Prayer to Hr\u00e6svelgr",
               description: "Down below, off the northeastern side of the road",
               latitude: "0.52506192260093",
@@ -3818,7 +3816,7 @@ export const gow = {
           icon: "nine_realms_in_bloom",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Starblush",
               description: "**Requires:** Complete Favor _Return of the River_",
               latitude: "0.82876279951796",
@@ -3831,7 +3829,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Dawnbloom",
               description:
                 "**Requires:** Complete Favor [Song of the Sands](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219422)",
@@ -3849,7 +3847,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Ashpetal",
               description:
                 "**Requires:** Secure entry to [The Crucible](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216504) to gain access to this flower",
@@ -3863,7 +3861,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Mirkweed",
               description:
                 "**Requires:** Speak with [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) (Sindri's House) after completing all story quests",
@@ -3877,7 +3875,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Sparkthorn",
               description:
                 "**Requires:** Complete story quest _Forging Destiny_",
@@ -3891,7 +3889,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Ironbell",
               description:
                 "**Requires:** Speak with [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) (Sindri's House) after completing all story quests",
@@ -3905,7 +3903,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Soulblossom",
               description:
                 "**Requires:** Defeat Garm to gain access to this area",
@@ -3919,7 +3917,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Frostfinger",
               description:
                 "**Requires:** Speak with [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) (Sindri's House) after completing all story quests",
@@ -3933,7 +3931,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Dreamshade",
               description:
                 "On the ground in the corner of the prison cell\n\n**Requires:** Complete all story quests",
@@ -3953,7 +3951,7 @@ export const gow = {
           icon: "odins_raven",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Flying overhead above the water",
               latitude: "0.39541884288784",
@@ -3966,7 +3964,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on a branch in the distance",
               latitude: "0.54338594285447",
@@ -3979,7 +3977,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched inside the tree",
               latitude: "0.55377003567374",
@@ -3996,7 +3994,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched inside the tree",
               latitude: "0.60508160951177",
@@ -4009,7 +4007,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched near the rock ceiling",
               latitude: "0.38889873915706",
@@ -4022,7 +4020,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Flying overhead above the beach",
               latitude: "0.37491650055865",
@@ -4035,7 +4033,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on a branch hanging over the water.",
               latitude: "0.41040665623173",
@@ -4048,7 +4046,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on a rock at the base of a tree",
               latitude: "0.46791152588354",
@@ -4065,7 +4063,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description:
                 "Perched on the wall near the rock face, above the Red Coffin",
@@ -4079,7 +4077,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on the cliffside",
               latitude: "0.88190002813590",
@@ -4092,7 +4090,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched low on the rock, near the stone wall",
               latitude: "0.88930284492335",
@@ -4105,7 +4103,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on the rock just above the dock",
               latitude: "0.91661872684408",
@@ -4118,7 +4116,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "On the rock below the Red Coffin",
               latitude: "0.92595048239612",
@@ -4135,7 +4133,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on the side of the chasm below",
               latitude: "0.94481920931888",
@@ -4148,7 +4146,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Odin's Raven",
               description: "Perched on the cliff's edge, across from the shop",
               latitude: "0.91488945775572",
@@ -4161,7 +4159,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               latitude: "0.53355391269231",
               longitude: "-0.80874076874841",
@@ -4173,7 +4171,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description:
                 "Behind the gate.  Use the Reflection Stones to ricochet your axe and hit the raven",
@@ -4187,7 +4185,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               latitude: "0.46073904909470",
               longitude: "-0.90078910217503",
@@ -4199,7 +4197,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description: "Circling overhead near Sindri's shop.",
               latitude: "0.59208451181493",
@@ -4212,7 +4210,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description: "Perched in the eye socket of the dragon skull",
               latitude: "0.77399391506232",
@@ -4225,7 +4223,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description: "Perched on a small tree under the tower",
               latitude: "0.80598930476368",
@@ -4238,7 +4236,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description:
                 "Flying overhead inside the secret chamber.  To enter, break the wall near the ground at the base of the building",
@@ -4256,7 +4254,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description: "Flying overhead in front of the big Freyr statue",
               latitude: "0.92484987136955",
@@ -4269,7 +4267,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               description:
                 "On top of the ledge behind the [lore marker](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216605)",
@@ -4283,7 +4281,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Odin's Raven",
               latitude: "0.85350348256129",
               longitude: "-0.79839304498108",
@@ -4295,7 +4293,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Odin's Raven",
               latitude: "0.64857647467726",
               longitude: "-0.68165659904457",
@@ -4307,7 +4305,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Odin's Raven",
               latitude: "0.59313757841315",
               longitude: "-0.57084929900952",
@@ -4319,7 +4317,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Odin's Raven",
               description:
                 "On the pointed rock overlooking the valley below - climb up high on the mountain to see this raven",
@@ -4337,7 +4335,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Odin's Raven",
               description: "Perched on a rock near the eastern Oarsman",
               latitude: "0.82723984347156",
@@ -4350,7 +4348,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Odin's Raven",
               description:
                 "Near the beginning area of The Derelict Outpost - perched just inside a broken ship, above a side path below",
@@ -4364,7 +4362,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Odin's Raven",
               description:
                 "Near the beginning area of The Derelict Outpost - perched on a single wooden post",
@@ -4378,7 +4376,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Odin's Raven",
               description: "Perched halfway up on side of the large door",
               latitude: "0.77435162601651",
@@ -4391,7 +4389,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Odin's Raven",
               description: "Inside the ice cave",
               latitude: "0.69416367940897",
@@ -4404,7 +4402,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description: "Perched on the rock",
               latitude: "0.46487545236772",
@@ -4417,7 +4415,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description:
                 "Perched on the roof crown of the wood building in the main plaza",
@@ -4431,7 +4429,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description:
                 "Throw the Fire Bomb to clear out the ore, then find the raven perched on the ledge above",
@@ -4445,7 +4443,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description:
                 "Flying in a circle toward the southwestern end of The Watchtower.",
@@ -4459,7 +4457,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description: "Perched in the rope of the outstretched crane",
               latitude: "0.84385167493554",
@@ -4472,7 +4470,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description: "To the left just after climbing the chain",
               latitude: "0.88900997409840",
@@ -4485,7 +4483,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               description: "**Requires:** Draupnir Spear for access",
               latitude: "0.94223056040161",
@@ -4498,7 +4496,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               latitude: "0.92197719842692",
               longitude: "-0.58052451114304",
@@ -4510,7 +4508,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               latitude: "0.89399287325656",
               longitude: "-0.61857846150244",
@@ -4522,7 +4520,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               latitude: "0.76714189352093",
               longitude: "-0.72709620744689",
@@ -4534,7 +4532,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               latitude: "0.87960699120882",
               longitude: "-0.77279389106596",
@@ -4546,7 +4544,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               latitude: "0.55723861243455",
               longitude: "-0.79528622537603",
@@ -4558,7 +4556,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Odin's Raven",
               latitude: "0.66162780235064",
               longitude: "-0.86799024313001",
@@ -4570,7 +4568,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Odin's Raven",
               description:
                 "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216516).  On the rock just behind and above the [Hr\u00e6svelgr](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216517) lore stone",
@@ -4584,7 +4582,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Odin's Raven",
               description: "Circling overhead",
               latitude: "0.53472677465307",
@@ -4602,7 +4600,7 @@ export const gow = {
           title: "Relic",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Huldra Project #9",
               description:
                 "**Requires:** Complete all story quests\n\nCan be crafted at any Shop for 10,000 Hacksilver",
@@ -4610,7 +4608,7 @@ export const gow = {
               longitude: "-0.77161063587303",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Glaive of Dodher",
               description:
                 "Obtained from defeating [Fiske](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219269) during story quest _The Reckoning_",
@@ -4624,7 +4622,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hilt of Hofud",
               description:
                 "Obtained from defeating Heimdall during story quest _Creatures of Prophecy_",
@@ -4638,7 +4636,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hilt of Tyrfing",
               description:
                 "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217333) scroll - this relic can be crafted at any Shop",
@@ -4652,7 +4650,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hilt of Hrotti",
               description:
                 "Obtained after defeating 2 out of the 3 Oath Guards in The Plains",
@@ -4666,7 +4664,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hilt of Gram",
               description:
                 "Found in the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216556)",
@@ -4684,7 +4682,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hilt of Angrvadall",
               description:
                 "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216581) scroll - this relic can be crafted at any Shop",
@@ -4698,7 +4696,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hilt of Dainsleif",
               description:
                 "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216592) scroll - this relic can be crafted at any Shop",
@@ -4712,7 +4710,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Mystical Heirloom",
               description:
                 "**Requires:** Draupnir Spear to access\n\nOn the ground next to the lore scroll.  \n\n**Use:** Ring the Mystical Heirloom to awaken Sleeping Bosses across the realms:\n- [Blodugr Steinn](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219571) (Midgard)\n- [Bjarg Stormr](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219572) (Alfheim)\n- [G\u00f6lrab of the Ashes and Frost](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219573) (Vanaheim)\n- [The Everlasting](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217925) (svarthelheim)",
@@ -4726,7 +4724,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Hilt of Ridill",
               description:
                 "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216474) scroll - this relic can be crafted at any Shop",
@@ -4744,7 +4742,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Hilt of Skofnung",
               description:
                 "Obtained from defeating [King Hrolf Kraki](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216496)",
@@ -4758,7 +4756,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Talisman of Meign",
               description:
                 "Automatically found on the dwarf corpse stuck in the crack in the wall during story quest _The Quest for Tyr_ and cannot be missed",
@@ -4772,7 +4770,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "M\u00f3tsognir's Call",
               description:
                 "On the floor next to the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216539)",
@@ -4786,7 +4784,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Hilt of Forsbrandr",
               description:
                 "Obtained from defeating [The Raven Keeper](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216533)",
@@ -4799,7 +4797,7 @@ export const gow = {
           title: "Seasonal Stag",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Stag of Winter",
               latitude: "0.92270790491591",
               longitude: "-0.74799594078604",
@@ -4811,7 +4809,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Stag of Spring",
               latitude: "0.84788260864005",
               longitude: "-0.72370192843107",
@@ -4823,7 +4821,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Stag of Summer",
               latitude: "0.80533881248041",
               longitude: "-0.77770346689138",
@@ -4835,7 +4833,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Stag of Autumn",
               latitude: "0.85327108201047",
               longitude: "-0.64495404223319",
@@ -4852,7 +4850,7 @@ export const gow = {
           title: "Shield",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Dauntless Shield",
               description:
                 "**Level:** 1  \n**Unlock:** Automatically craftable from any Shop",
@@ -4860,7 +4858,7 @@ export const gow = {
               longitude: "-0.80010642445328",
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Stone Wall Shield",
               description:
                 "**Level:** 1  \n**Unlock:** Automatically craftable from any Shop",
@@ -4868,7 +4866,7 @@ export const gow = {
               longitude: "-0.78706015980475",
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Guardian Shield",
               description:
                 "**Level:** 4  \n**Unlock:** Begin story quest _The Word of Fate_",
@@ -4876,7 +4874,7 @@ export const gow = {
               longitude: "-0.79255332386765",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Shatter Star Shield",
               description:
                 "**Level:** 3  \n**Unlock:** Found in the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217217)",
@@ -4894,7 +4892,7 @@ export const gow = {
           title: "Legendary Chest",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Wrath of the Frost Ancient",
               description:
                 "Find this chest in the small alcove behind the hole in the stone wall",
@@ -4908,7 +4906,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Divine Ashes",
               description:
                 "**Requires:** Draupnir Spear\n\nOn the upper ledge.  Detonate the spear in the cracked yellow weak spot to remove the rock.",
@@ -4922,7 +4920,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Leviathan\u2019s Roar",
               description:
                 "On the upper platform.  Climb up the stone wall, then across the wood scaffolding to reach this chest",
@@ -4940,7 +4938,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Shatter Star Shield",
               description:
                 "At the end of the path, surrounded by the poisonous cloud.  Throw your axe at the plant to disable the poison.",
@@ -4954,7 +4952,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "R\u00f6nd of Restoration",
               description:
                 "In a small hut beyond the opening found just behind the [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217219)",
@@ -4968,7 +4966,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Helios Flare",
               latitude: "0.60244473070347",
               longitude: "-0.73236271270522",
@@ -4984,7 +4982,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Grip of the Fallen Alchemist",
               latitude: "0.46323390779688",
               longitude: "-0.72446465492229",
@@ -5000,7 +4998,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Mists of Helheim",
               description:
                 "Use Runic Arrows along with Blades of Chaos to destroy the ore blocking the way to the chest",
@@ -5018,7 +5016,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Rampage of the Furies",
               latitude: "0.38384597118339",
               longitude: "-0.75801375219598",
@@ -5034,7 +5032,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Whisper of the World",
               latitude: "0.78367269456974",
               longitude: "-0.74510304338386",
@@ -5050,7 +5048,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Honor of the Fallen",
               latitude: "0.90990114132008",
               longitude: "-0.80009401894253",
@@ -5066,7 +5064,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Ska\u00f0i's Edge",
               latitude: "0.55196624610693",
               longitude: "-0.82294507677179",
@@ -5082,7 +5080,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "R\u00f6nd of Affliction",
               description:
                 "**Requires:** Completion of Favor [Secret of the Sands](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216418)\n\nIn a small cave just South-East of the entrance to The Barrens from The Canyons (the same cave as [Tribute to Freyr #3 - Harp](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216420)).  Break the Nest Vines using the nearby Twilight Stone to access.",
@@ -5100,7 +5098,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hades Retribution",
               latitude: "0.42976587693597",
               longitude: "-0.90567975074802",
@@ -5116,7 +5114,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hilt of Gram",
               description:
                 "Contains [Hilt of Gram](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219055)",
@@ -5134,7 +5132,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Rune-Entraved Release",
               latitude: "0.40640006700512",
               longitude: "-0.86682626469900",
@@ -5150,7 +5148,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Belt of Radiance",
               description:
                 "Inside the giant skeleton.  Accessible via the skeleton's mouth",
@@ -5164,7 +5162,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Shoulder Straps of Radiance",
               latitude: "0.70064722582650",
               longitude: "-0.56088709621505",
@@ -5176,7 +5174,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Gauntlets of Radiance",
               description: "Under the tower",
               latitude: "0.80145269721909",
@@ -5189,7 +5187,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hel's Touch",
               latitude: "0.86274749205728",
               longitude: "-0.80468672424007",
@@ -5205,7 +5203,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nemean Crush",
               latitude: "0.86252066507178",
               longitude: "-0.82964052082042",
@@ -5217,7 +5215,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hardened War Handles",
               latitude: "0.77861057762289",
               longitude: "-0.83951476580896",
@@ -5229,7 +5227,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Divine Ashes",
               latitude: "0.64559404846567",
               longitude: "-0.68130254745441",
@@ -5241,7 +5239,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "R\u00f6nd of Purification",
               description: "Behind the breakable wall",
               latitude: "0.89012038363083",
@@ -5258,7 +5256,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Tartarus Rage",
               latitude: "0.77732324115202",
               longitude: "-0.45871138572787",
@@ -5270,7 +5268,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Cyclone of Chaos",
               description: "Inside the Raider Stronghold",
               latitude: "0.72676679033786",
@@ -5283,7 +5281,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Ivaldi's Anvil",
               description:
                 "Near the end of the Derelict Outpost - at the top of the cliff",
@@ -5297,7 +5295,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Sigil Punishment",
               latitude: "0.67188415218496",
               longitude: "-0.66147189664395",
@@ -5313,7 +5311,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Lion's Roar Sauroter",
               description: "**Required:** _Draupnir Spear_",
               latitude: "0.72437025549858",
@@ -5326,7 +5324,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Sonic Aftershock",
               description:
                 "After the major cutscene during your second visit to Midgard, climb the gold chain and the chest will be to your left. \n\n**This Legendary Chest is untracked and is not required for 100% completion.**",
@@ -5340,7 +5338,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Deadly Obsidian Handles",
               latitude: "0.59791517614050",
               longitude: "-0.66245140916951",
@@ -5352,7 +5350,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Luminous Recovery Handles",
               description:
                 "**Requires:** Draupnir Spear\n\nOn the upper platform.  Throw the spear at the wind fissure found on the wall just under the chest, then use it to climb up.",
@@ -5366,7 +5364,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Muspelheim Seed Half",
               description:
                 "Use the nearby Fire Bombs, obtained from the vase, to blow away the golden ore blocking the chest",
@@ -5380,7 +5378,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Fokvangr Whetstone, 5k Hacksilver",
               latitude: "0.86550995334144",
               longitude: "-0.55941990326309",
@@ -5392,7 +5390,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Muspelheim Seed Half",
               latitude: "0.81997889764902",
               longitude: "-0.69289358381224",
@@ -5404,7 +5402,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nj\u00f6rd's Tempest",
               latitude: "0.90942420227383",
               longitude: "-0.66685499083422",
@@ -5416,7 +5414,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "R\u00f6nd of Aggravation",
               latitude: "0.89656747957889",
               longitude: "-0.55042889486194",
@@ -5428,7 +5426,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Fog of Fimbulwinter",
               latitude: "0.73047268127945",
               longitude: "-0.73121392423985",
@@ -5440,7 +5438,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Atlas Eruption",
               latitude: "0.82965908910359",
               longitude: "-0.74086487494387",
@@ -5452,7 +5450,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Fortified Frost Knob",
               latitude: "0.56941855577720",
               longitude: "-0.79276544499237",
@@ -5464,7 +5462,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Banahogg Knob",
               latitude: "0.62521511872438",
               longitude: "-0.84125756805932",
@@ -5476,7 +5474,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Pommels of the Undying Spark",
               latitude: "0.65115714551747",
               longitude: "-0.83760617940874",
@@ -5488,7 +5486,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Runic Potency",
               description:
                 "On the island inside the cave.  Take the path up and around, then drop down to the chest\n\n**Note:** Untracked in game for 100% completion",
@@ -5506,7 +5504,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Rampaging Ibex",
               latitude: "0.53638200360713",
               longitude: "-0.70069115158321",
@@ -5518,7 +5516,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Runestone Refinement",
               latitude: "0.80146424138499",
               longitude: "-0.75464427840367",
@@ -5530,7 +5528,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "asgard",
+              mapSlug: "asgard",
               title: "Splintered Sigil",
               description:
                 "Use Runic Arrows to chain the fire from the campfire above, to the brambles blocking the chest below\n\n**Note:** Untracked in game for 100% completion",
@@ -5548,7 +5546,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "asgard",
+              mapSlug: "asgard",
               title: "Legendary Chest",
               description:
                 "Underground in Odin's study.\n\n**Note:** Untracked in game for 100% completion",
@@ -5562,7 +5560,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Onslaught Shield",
               description:
                 "Find this [shield](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=219819) in the chest rewarded for defeating Garm\n\n**Note:** You cannot return to this location.  If you don't open the chest but progress forward, this shield can be purchased from any Shop.",
@@ -5576,7 +5574,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Falling Sky",
               latitude: "0.69694090495703",
               longitude: "-0.73530822987948",
@@ -5592,7 +5590,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Wrath of the Wolf",
               latitude: "0.70490744133920",
               longitude: "-0.52076485525421",
@@ -5608,7 +5606,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Thrust of a Thousand Soldiers",
               latitude: "0.66931715483641",
               longitude: "-0.79084131676754",
@@ -5620,7 +5618,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Tame the Beast",
               latitude: "0.54764458891175",
               longitude: "-0.66860184362969",
@@ -5632,7 +5630,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Girdle of Raven Tears",
               description: "**Requires:** 6 Odin's Ravens killed",
               latitude: "0.74911963387065",
@@ -5645,7 +5643,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Bracers of Raven Tears",
               description: "**Requires:** 12 Odin's Ravens killed",
               latitude: "0.74585676217893",
@@ -5658,7 +5656,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Cuirass of Raven Tears",
               description: "**Requires:** 18 Odin's Ravens killed",
               latitude: "0.74225217722642",
@@ -5671,7 +5669,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Finger of Ruin",
               description: "**Requires:** 48 Odin's Ravens killed",
               latitude: "0.75100616412969",
@@ -5684,7 +5682,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Meteoric Slam",
               description: "**Requires:** 38 Odin's Ravens killed",
               latitude: "0.74791652368491",
@@ -5697,7 +5695,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Breath of Thamur",
               description: "**Requires:** 28 Odin's Ravens killed",
               latitude: "0.74379699970899",
@@ -5710,7 +5708,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Nocked Proficiency",
               description: "On the upper floor in the prison",
               latitude: "0.73366982032164",
@@ -5723,7 +5721,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Bitter Squirrel",
               description:
                 "Inside the Frozen Caverns (?)\n\n**Note:** Untracked in game for 100% completion",
@@ -5742,7 +5740,7 @@ export const gow = {
           title: "Nornir Chest",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.47660801822155",
               longitude: "-0.65608958227165",
@@ -5754,7 +5752,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.56345814332970",
               longitude: "-0.61601880808257",
@@ -5770,7 +5768,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.62576561208760",
               longitude: "-0.69120198611492",
@@ -5782,7 +5780,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.41087821351798",
               longitude: "-0.72748028256780",
@@ -5794,7 +5792,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.37156132192850",
               longitude: "-0.68988644103706",
@@ -5806,7 +5804,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.37543474836546",
               longitude: "-0.74033263037006",
@@ -5818,7 +5816,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.77145781550689",
               longitude: "-0.77314885507954",
@@ -5830,7 +5828,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.87062198433202",
               longitude: "-0.67770757674634",
@@ -5842,7 +5840,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.88927411524949",
               longitude: "-0.61784018917010",
@@ -5854,7 +5852,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.93961405340326",
               longitude: "-0.80334768130317",
@@ -5870,7 +5868,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nornir Chest",
               latitude: "0.91011802480350",
               longitude: "-0.70400252365224",
@@ -5883,7 +5881,7 @@ export const gow = {
             },
 
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.54059882735238",
               longitude: "-0.77028558671304",
@@ -5895,7 +5893,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.50475332303276",
               longitude: "-0.83965599467396",
@@ -5907,7 +5905,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.42922248682395",
               longitude: "-0.87796607539019",
@@ -5919,7 +5917,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.66114637591271",
               longitude: "-0.59498693651861",
@@ -5931,7 +5929,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.80214371765055",
               longitude: "-0.56578938580671",
@@ -5943,7 +5941,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.90858819546231",
               longitude: "-0.71853834122840",
@@ -5955,7 +5953,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nornir Chest",
               latitude: "0.80573048262370",
               longitude: "-0.88603499895271",
@@ -5967,7 +5965,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Nornir Chest",
               latitude: "0.59485409992688",
               longitude: "-0.65196203556371",
@@ -5979,7 +5977,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Nornir Chest",
               description:
                 "**Requires:** Complete the first 6 Muspelheim Trials:\n- [Weapon Mastery [1]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216508)\n- [Flawless [2]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218794)\n- [Ring Out Challenge [1]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216509)\n- [Feed the Rift [2]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218795)\n- [Population Control [1]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216510)\n- [King of the Hill [2]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218798)",
@@ -5993,7 +5991,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Nornir Chest",
               description:
                 "In the cave above beyond the breakable wall.  Light the 3 braziers on the mountain above to unlock the chest",
@@ -6007,7 +6005,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Nornir Chest",
               description:
                 "In the underground cellar.  Find and ring the 3 bells in the vicinity to unlock the chest.",
@@ -6021,7 +6019,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Nornir Chest",
               latitude: "0.78573386612852",
               longitude: "-0.45919418335032",
@@ -6033,7 +6031,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Nornir Chest",
               latitude: "0.67480672932064",
               longitude: "-0.65478086471589",
@@ -6045,7 +6043,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description:
                 "Standing on the platform with the [artifact](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217098), the three seals can be seen.  Destroy them all to unlock this chest.",
@@ -6059,7 +6057,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description:
                 "Find and turn the three rune wheels to display the correct runes and unlock the chest",
@@ -6073,7 +6071,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description:
                 "Ignite the three torches above the chest runes to unlock this chest",
@@ -6087,7 +6085,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description:
                 "Ring the three rune bells all at the same time to unlock the chest.  The easiest order to ring the rune bells in is: N, R, C.",
@@ -6101,7 +6099,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description:
                 "Smash the three runes to unlock the chest.  Freeze the geysers as necessary to be able to gain access the to runes.",
@@ -6115,7 +6113,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               latitude: "0.72103206297430",
               longitude: "-0.76142632658258",
@@ -6127,7 +6125,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description: "**Requires:** Draupnir Spear",
               latitude: "0.77503760176840",
@@ -6140,7 +6138,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               latitude: "0.51346687317212",
               longitude: "-0.79253964333859",
@@ -6152,7 +6150,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               latitude: "0.61388613021811",
               longitude: "-0.81344842498700",
@@ -6164,7 +6162,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Nornir Chest",
               latitude: "0.66609069856655",
               longitude: "-0.86507199972141",
@@ -6176,7 +6174,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Nornir Chest",
               latitude: "0.73590123470676",
               longitude: "-0.86819477938482",
@@ -6197,7 +6195,7 @@ export const gow = {
           title: "Other Loot",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Bracers of Fallen Stars",
               description:
                 "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
@@ -6205,7 +6203,7 @@ export const gow = {
               longitude: "-0.72048535056348",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Plackart of Fallen Stars",
               description:
                 "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
@@ -6213,7 +6211,7 @@ export const gow = {
               longitude: "-0.71705212302413",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Runic Hailstone Knob",
               description:
                 "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
@@ -6221,7 +6219,7 @@ export const gow = {
               longitude: "-0.71550717063178",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Celestial Panacea",
               description:
                 "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
@@ -6229,7 +6227,7 @@ export const gow = {
               longitude: "-0.71602215476258",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hind of Volatile Might",
               description:
                 "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
@@ -6237,7 +6235,7 @@ export const gow = {
               longitude: "-0.72374582290593",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Waist Guard of Fallen Stars",
               description:
                 "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
@@ -6245,7 +6243,7 @@ export const gow = {
               longitude: "-0.72683682151364",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Waist Guard of Guiding Light",
               description:
                 "On the ground under the brambles next to [Tyr's Right Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216427)",
@@ -6259,7 +6257,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Guantlets of Guiding Light",
               description:
                 "On the ground near [Tyr's Left Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216476)",
@@ -6273,7 +6271,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Breastplate of Guiding Light",
               description:
                 "On the ground next to [Tyr's Helmet](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216479)",
@@ -6287,7 +6285,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "J\u00f6tunheim's Essence",
               description:
                 "On the ground next to [Tyr's Spear](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216489)",
@@ -6306,7 +6304,7 @@ export const gow = {
           title: "Red Coffin",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Lunda's Broken Belt",
               description:
                 "Behind the locked door that requires the Chisel to access\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
@@ -6314,7 +6312,7 @@ export const gow = {
               longitude: "-0.67695539927513",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Lunda's Broken Bracers",
               description:
                 "In the coffin sitting against the stone wall, just across the drawbridge.  Beware of the poisonous plants near the coffin.\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
@@ -6322,7 +6320,7 @@ export const gow = {
               longitude: "-0.71163099742535",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Lunda's Broken Cuirass",
               description:
                 "In the upper left corner of the beach after docking\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
@@ -6330,43 +6328,43 @@ export const gow = {
               longitude: "-0.68777006608002",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffiin",
               latitude: "0.40262414771507",
               longitude: "-0.64006628396089",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffiin",
               latitude: "0.37234122744286",
               longitude: "-0.72416347328289",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               latitude: "0.55551663269895",
               longitude: "-0.75853916753761",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               latitude: "0.58440592604663",
               longitude: "-0.75834456759068",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               latitude: "0.59247358526076",
               longitude: "-0.76109114962202",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               latitude: "0.60328766319944",
               longitude: "-0.75868789034456",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               description:
                 "East side of the courtyard after dropping down by the crane.",
@@ -6374,32 +6372,32 @@ export const gow = {
               longitude: "-0.71856562829029",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               latitude: "0.60799968940158",
               longitude: "-0.62788495357631",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Red Coffin",
               latitude: "0.61194767733272",
               longitude: "-0.68863887089188",
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Red Coffin",
               latitude: "0.62449172431334",
               longitude: "-0.62527518601209",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               description: "In the cave under the building",
               latitude: "0.83296360976739",
               longitude: "-0.60664077995060",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               description:
                 "On the ledge near the [Kvasir's Poem](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216452)",
@@ -6407,20 +6405,20 @@ export const gow = {
               longitude: "-0.57508707046682",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               latitude: "0.77181890242016",
               longitude: "-0.67869183552617",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               description: "In the Kol Raider camp - top level",
               latitude: "0.67583552676150",
               longitude: "-0.59810456990135",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               description: "**Requires:** ??",
               latitude: "0.64278279119232",
@@ -6433,7 +6431,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               latitude: "0.68947576264968",
               longitude: "-0.97636201337127",
@@ -6445,7 +6443,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               latitude: "0.54147250717376",
               longitude: "-0.93419850889893",
@@ -6457,7 +6455,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               latitude: "0.51212348683207",
               longitude: "-0.92910789828974",
@@ -6469,7 +6467,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               latitude: "0.52623529589656",
               longitude: "-0.88648896690398",
@@ -6481,21 +6479,21 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               description: "Move the crane twice to reach it",
               latitude: "0.65337731550643",
               longitude: "-0.78528817878279",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Red Coffin",
               description: "Under breakable floor",
               latitude: "0.66471264399664",
               longitude: "-0.94915663222193",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               description: "On the wooden platform",
               latitude: "0.61227910345225",
@@ -6508,14 +6506,14 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               description: "On the wooden platform",
               latitude: "0.88993989090181",
               longitude: "-0.62298933178079",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               latitude: "0.53713252047808",
               longitude: "-0.64499861489961",
@@ -6527,7 +6525,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               latitude: "0.55127789980840",
               longitude: "-0.65887531759296",
@@ -6539,7 +6537,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               latitude: "0.69979392948963",
               longitude: "-0.59671915991348",
@@ -6551,7 +6549,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               description: "On the south side of the beach, just as you dock.",
               latitude: "0.74354659967983",
@@ -6564,38 +6562,38 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               latitude: "0.72998295016289",
               longitude: "-0.68750961545842",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Red Coffin",
               description: "Just past the Draugr hole",
               latitude: "0.84464063458292",
               longitude: "-0.63757024293002",
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Red Coffin",
               latitude: "0.85926034424824",
               longitude: "-0.87636017133099",
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Red Coffin",
               latitude: "0.81789438421086",
               longitude: "-0.87052368451478",
             },
             {
-              regionSlug: "jotunheim",
+              mapSlug: "jotunheim",
               title: "Red Coffin",
               latitude: "0.96200909556890",
               longitude: "-0.81345994702372",
             },
             {
-              regionSlug: "asgard",
+              mapSlug: "asgard",
               title: "Red Coffin",
               description: "At the edge of the cliff",
               latitude: "0.58326643643041",
@@ -6607,7 +6605,7 @@ export const gow = {
           title: "Treasure Map",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Under the Rainbow",
               description:
                 "In the corner on the ground\n\n**Treasure:** [Under the Rainbow](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217245)",
@@ -6621,7 +6619,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Giant's Toes",
               description:
                 "**Treasure:** [The Giant's Toes](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217257)",
@@ -6635,7 +6633,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "A Scar is Born",
               description:
                 "**Treasure:** [A Scar is Born](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217330)",
@@ -6649,7 +6647,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Vulture's Gold",
               description:
                 "Up the path to the left from the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216409)\n\n**Treasure:** [Vulture's Gold](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216424)",
@@ -6663,7 +6661,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Forgotten Tower",
               description:
                 "On the shelf next to the chest that contains a Jewel of Yggdrasil\n\n**Treasure:** [Forgotten Tower](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216597)",
@@ -6677,7 +6675,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Viking's Gift",
               description:
                 "**Treasure:** [Viking's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216485)\n\nInside the Raider's Fort - on the ground near the campfire",
@@ -6691,7 +6689,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Mining Glory",
               description:
                 "On the upper platform next to the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217109)\n\n**Treasure:** [Mining Glory](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217169)",
@@ -6705,7 +6703,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Fruits of Industry",
               description:
                 "**Treasure:** [Fruits of Industry](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=218787)",
@@ -6719,7 +6717,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Washed Ashore",
               description:
                 "**Treasure:** [Washed Ashore](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217148)",
@@ -6733,7 +6731,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Demise of Dagestr",
               description:
                 "**Treasure:** [Demise of Dagestr](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216475) (Midgard)",
@@ -6753,7 +6751,7 @@ export const gow = {
           icon: "yggdrasils_dew",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil's Dew of Luck",
               latitude: "0.49134866679273",
               longitude: "-0.71181819381798",
@@ -6765,7 +6763,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil's Dew of Runic Power",
               latitude: "0.50439443887463",
               longitude: "-0.72091624679882",
@@ -6777,7 +6775,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil's Dew of Luck",
               latitude: "0.42783600393581",
               longitude: "-0.75353190843182",
@@ -6789,7 +6787,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil's Dew of Defense",
               latitude: "0.78432375342216",
               longitude: "-0.74416724778716",
@@ -6801,7 +6799,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil's Dew of Strength",
               latitude: "0.94103277704291",
               longitude: "-0.72185126878668",
@@ -6813,7 +6811,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil's Dew of Strength",
               description:
                 "Requires completion of the Return of the River quest in The Jungle.",
@@ -6827,7 +6825,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil's Dew of Runic Power",
               latitude: "0.54812787326578",
               longitude: "-0.67941427230588",
@@ -6839,7 +6837,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil's Dew of Cooldown",
               latitude: "0.76909497320855",
               longitude: "-0.62266945838698",
@@ -6851,7 +6849,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil's Dew of Defense",
               latitude: "0.87808534685669",
               longitude: "-0.53014047075811",
@@ -6863,7 +6861,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil's Dew of Vitality",
               description:
                 "**Requires:** Complete story quest _The Reckoning_\n\nTo gain access to this Dew, dock at the [Bay of Bounty](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217090), climb the chain, and activate the Runic Slate",
@@ -6881,7 +6879,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil's Dew of Strength",
               latitude: "0.75629072118505",
               longitude: "-0.66499172350245",
@@ -6905,7 +6903,7 @@ export const gow = {
           info: "**Requires:** Completion of story quest The Word of Fate  \n**Associated Favor:** [Fit for a King](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216481) (Midgard)",
           locations: [
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Hardrefill the Callous",
               description:
                 "**Power Level:** 5  \n**Reward:**  \n- Asgard's Fortitude Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes\n\n**Associated Favor:** [Fit for a King](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216481) (Midgard)",
@@ -6919,7 +6917,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Beirgadr the Feared",
               description:
                 "**Power Level:** 6  \n**Reward:**  \n- Asgard's Might Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -6933,7 +6931,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Bodvar the Fierce and Starolfr the Troublesome",
               description:
                 "**Power Level:** 8  \n**Reward:**  \n- Hind of the Nine Realms\n- Gale Flame\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -6947,7 +6945,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "Skjothendi the Unerring",
               description:
                 "**Power Level:** 8  \n**Reward:**  \n- Berserker Gauntlets\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -6961,7 +6959,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hvitserkr the Bold",
               description:
                 "**Power Level:** 6  \n**Reward:**  \n- Pommels of the Nine Realms\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -6975,7 +6973,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Haklangr the Bearded",
               description:
                 "**Power Level:** 8  \n**Reward:**  \n- Chaos Flame\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -6989,7 +6987,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Svipdagr the Cold and the Sisters of Illska",
               description:
                 "**Power Level:** 7  \n**Reward:**  \n- Berserker Cuirass\n- Frozen Flame\n- Asgard's Security Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -7003,7 +7001,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hjalti the Stolid",
               description:
                 "**Power Level:** 7  \n**Reward:**  \n- Grip of the Nine Realms\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -7017,7 +7015,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fraekni the Zealous",
               description:
                 "**Power Level:** 5  \n**Reward:**  \n- Berserker Waist Guard\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -7031,7 +7029,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "King Hrolf Kraki",
               description:
                 "**Requires:** Completion of all other Berserker Gravestones  \n**Power Level:** 9  \n**Reward:** \n- [Hilt of Skofnung](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219419)\n- Helheim's Virtue Enchantment\n- Bonded Leather\n- Hacksilver",
@@ -7052,7 +7050,7 @@ export const gow = {
           info: "**Associated Favor:** [Born From Fire](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219823) (svarthelheim)",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Draugr Hole",
               description:
                 "**Reward:** \n- 40 Dust of Realms\n- 1 Chaos Spark\n- Sovereign Coals\n- Hacksilver",
@@ -7066,13 +7064,13 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Draugr Hole",
               latitude: "0.93050501197666",
               longitude: "-0.70747309683833",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Draugr Hole",
               description:
                 "**Reward:** \n- 25 Dust of Realms\n- 2 Sovereign Coals\n- 1 Chaos Spark\n- Hacksilver",
@@ -7086,7 +7084,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Draugr Hole",
               latitude: "0.79684788027858",
               longitude: "-0.49074769020123",
@@ -7098,7 +7096,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Draugr Hole",
               description:
                 "**Reward:** \n- 310 Kratos XP\n- 93 Atreus XP\n- Cursed Empress Handles - Blades Attachment\n- 1 Chaos Spark\n- 2 Sovereign Coals\n- 5 Dust of Realms\n- Hacksilver",
@@ -7112,7 +7110,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Draugr Hole",
               description:
                 "**Reward:** \n- 500 Hacksilver\n- 15 Dust of Realms \n- 2 Sovereign Coals\n- 1 Chaos Spark",
@@ -7131,7 +7129,7 @@ export const gow = {
           title: "Favor",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "The Lost Lindwyrms",
               description:
                 "**Requires:** Complete story quest _The Word of Fate_\n\n**Objectives:** Activate Yggdrasil Rifts across the Realms to retrieve the 6 Lost Lindwyrms - \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219264) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219263) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219262) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219210) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219266) (Vanaheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219265) (Vanaheim)\n\n**Reward:**\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Hacksilver\n- Dust of Realms\n- Lindwyrm Scales\n- 1 Gale Flame",
@@ -7145,7 +7143,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "A Stag For All Seasons",
               description:
                 "**Requires:** Complete Favor [The Scent of Survival](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219951) (Vanaheim) to gain access to The Crater  \n\n**Objectives:** Accept the magical food from [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) and feed each of the 4 Stags throughout The Crater in Vanaheim -\n- [Stag of Winter](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217283) (Vanaheim)\n- [Stag of Spring](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217284) (Vanaheim)\n- [Stag of Summer](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217288) (Vanaheim)\n- [Stag of Autumn](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217294) (Vanaheim)   \n\n**Reward:** \n- 4500 Kratos XP\n- 1125 Companion XP\n- Whispering Slab \n- Rond of Disruption",
@@ -7159,7 +7157,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Garden for the Dead",
               description:
                 "Speak with the spirit Astrid  \n\n**Objectives:** ??  \n\n**Reward:** \n- 500 XP Kratos\n- 120 XP Freya\n- 13 Whispering Slab\n- svarthelheim Amulet Enchantment",
@@ -7173,7 +7171,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Cure for the Dead",
               latitude: "0.44520953030546",
               longitude: "-0.74361645198820",
@@ -7185,7 +7183,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Conscience for the Dead",
               latitude: "0.40898263328823",
               longitude: "-0.71924053647922",
@@ -7197,7 +7195,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Freya's Missing Peace",
               description:
                 "Automatically obtained upon first accessing The River Delta\n\n**Reward:**\n- 1500 Freya XP\n- Mardoll (optional sword for Freya)\n- Steel Harmony\n- [Regal Vanir Garments (Freya)](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219811)",
@@ -7211,7 +7209,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Mysterious Orb",
               description:
                 "**Requires:** Complete story quest _The Reckoning_.  Speak with L\u00fanda at the [Shop](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217195)\n\n**Objectives:** Retrieve the following and return to L\u00fanda - \n- [Lunda's Broken Belt](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219687)\n- [Lunda's Broken Bracers](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219688)\n- [Lunda's Broken Cuirass](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219689)\n- [Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219690)\n\n**Reward:** \n- 1000 Kratos XP\n- 250 Companion XP\n- Lunda's Full Armor set (optional)",
@@ -7225,7 +7223,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Scent of Survival",
               description:
                 "**Requires:** Complete story quest _Creatures of Prophecy_  \n\n**Objectives:** \n- Follow Helka (the blue tracks) from Freyr's Camp to The Crater in northern Vanaheim  \n\n**Reward:** \n- 1000 Kratos XP\n- 250 Companion XP",
@@ -7239,7 +7237,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Return of the River",
               latitude: "0.80137027999749",
               longitude: "-0.76283869190340",
@@ -7251,7 +7249,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "What Lies Below",
               latitude: "0.77287718067862",
               longitude: "-0.81141886158119",
@@ -7263,7 +7261,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Trail of the Dead",
               latitude: "0.78317591370369",
               longitude: "-0.79682764454014",
@@ -7275,7 +7273,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Path of Destruction",
               latitude: "0.79948218911036",
               longitude: "-0.79202112598989",
@@ -7287,7 +7285,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Casualty of War: The Stein",
               latitude: "0.76927261820479",
               longitude: "-0.81227716847067",
@@ -7299,7 +7297,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Casualty of War: The Toy",
               latitude: "0.77116072273942",
               longitude: "-0.76987680836339",
@@ -7311,7 +7309,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Quaking Hollow",
               latitude: "0.86968423970055",
               longitude: "-0.68095621509801",
@@ -7323,7 +7321,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Burning Skies",
               latitude: "0.84119162738509",
               longitude: "-0.62087473316583",
@@ -7335,7 +7333,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Casualty of War: The Hourglass",
               latitude: "0.83432590629636",
               longitude: "-0.65108713551027",
@@ -7347,7 +7345,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "In the Dead of Night",
               latitude: "0.86825013934130",
               longitude: "-0.80754444130150",
@@ -7359,7 +7357,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "In Plain Sight",
               latitude: "0.89502614364727",
               longitude: "-0.77561542518875",
@@ -7371,7 +7369,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "For Vanaheim!",
               latitude: "0.88146652451501",
               longitude: "-0.72652027138085",
@@ -7383,7 +7381,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Nocturnal Predator",
               description: "**Requires:** Nighttime",
               latitude: "0.91922736414587",
@@ -7396,7 +7394,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Casualty of War: The Brooch",
               latitude: "0.89880223125712",
               longitude: "-0.74042484291559",
@@ -7408,7 +7406,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Casualty of War: The Scroll",
               latitude: "0.92248850907923",
               longitude: "-0.81938907630965",
@@ -7420,7 +7418,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Secret of the Sands",
               description:
                 "**Requires:** Completion of story quest _Groa's Secret_\n\nSpeak with Sindri in his Shop to begin this quest",
@@ -7434,7 +7432,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Freyr's Gift",
               description:
                 "**Reward:** \n- 1000 Kratos XP\n- 250 Freya XP\n- Invoke the Storm - Runic Summon\n- Folkvangr Whetstone\n- Whispering Slab",
@@ -7448,7 +7446,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Desert Door",
               description:
                 "**Requires:** Complete Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)\n\nBegin this quest by picking up either one of the Key Halves:\n- [Alfheim Barrens Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216603)\n- [Alfheim Barrens Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216611)\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Freya XP\n- Amulet Enchantment\n- Skirnir's Gambanteinn",
@@ -7462,7 +7460,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Song of the Sands",
               description:
                 "**Requires:** Completion of story quest _The Reckoning_\n\nThis quest begins automatically upon reaching The Forbidden Sands region in Alfheim.\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Freya XP",
@@ -7476,7 +7474,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Elven Sanctum",
               description:
                 "**Requires:** Completion of story quest _The Reckoning_\n\nSpeak with Belya and Byggvir in Freyr's Camp (in [Vanaheim](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim)) to begin this quest\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Companion XP",
@@ -7490,7 +7488,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Nine Realms in Bloom",
               description:
                 "This Favor begins after obtaining your first Nine Realms Flower  \n\n**Objectives:** Retrieve flowers from across the Realms -    \n- [Dawnbloom](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216604) (Alfheim)\n- [Sparkthorn](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217111) (svarthelheim)\n- [Ashpetal](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216505) (Muspelheim)\n- [Soulblossom](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216521) (Helheim)\n- [Starblush](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217299) (Vanaheim)\n- [Dreamshade](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216537) (Niflheim)\n- [Frostfinger](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216523) (Niflheim)\n- [Mirkweed](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=218793) (Midgard)\n- [Ironbell](https://mapgenie.io/god-of-war-ragnarok/maps/jotunheim?locationIds=216513) (Jotunheim)\n\n**Reward:** \n- 750 Kratos XP\n- 750 Companion XP",
@@ -7504,7 +7502,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "The Final Challenges",
               description:
                 "**Requires:** Completion of Favor [The Crucible](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218797)",
@@ -7518,7 +7516,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "The Crucible",
               description:
                 "**Requires:** Secure [The Crucible](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216504) gateway to access this area  \n\n**Objectives:** Complete the first 6 Muspelheim Trials  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP\n- [Undying Pyres Set (Kratos)](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=219694)\n- Divine Ashes",
@@ -7532,7 +7530,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Defend Your Valor",
               description:
                 "**Requires:** Complete all story quests\n\nPick up the item on the ground near the campfire to begin this Favor and the epic fight with [Gn\u00e1](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216511)",
@@ -7546,7 +7544,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Guiding Light",
               description:
                 "**Requires:** Begin story quest _The Word of Fate_.  Automatically obtained the first time you read the runes from one of Tyr's statue pieces, spread out throughout Midgard  \n\n**Objectives:** Find all 4 pieces of Tyr's statue and read the runes found on them (each statue piece also has buried treasure to be retrieved nearby) -    \n- [Tyr's Left Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216476)\n- [Tyr's Right Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216427)\n- [Tyr's Helmet](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216479)\n- [Tyr's Spear](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216489)\n\n**Reward:** \n- 750 Kratos XP\n- 200 Companion XP",
@@ -7560,7 +7558,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Fit for a King",
               description:
                 "Automatically obtained during story quest _The Word of Fate_.  \n\n**Objectives:** Defeat all Berserkers across the Realms -\n- [Fraekni the Zealous](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216478) (Midgard)\n- [Hardrefill the Callous](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217113) (svarthelheim)\n- [Beirgadr the Feared](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217134) (svarthelheim)\n- [Hvitserkr the Bold](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217223) (Vanaheim)\n- [Hjalti the Stolid](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216609) (Alfheim)\n- [Svipdagr the Cold and the Sisters of Illska](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216419) (Alfheim)\n- [Haklangr the Bearded](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217287) (Vanaheim)\n- [Bodvar the Fierce and Starolfr the Troublesome](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217165) (svarthelheim)\n- [Skjothendi the Unerring](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216524) (Niflheim)\n- [King Hrolf Kraki](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216496) (Midgard)  \n\n**Reward:** \n- Kratos XP\n- Companion XP",
@@ -7574,7 +7572,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Across the Realms",
               description:
                 "**Requires:** Begin story quest _The Word of Fate_.  Pick up the book near the rainbow campfire to start this Favor  \n\n**Objectives:** Retrieve all Ingredients across the Realms and return to the campfire to craft the Meal of Comfort - \n- [Nordic Gourd](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219952) (Midgard)\n- [Elven Cap](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219953) (Alfheim)\n- [Prongfruit](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219954) (svarthelheim)\n- [Bantam Melon](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219955) (Vanaheim)  \n\n**Reward:** \n- 1,000 Kratos XP\n- 350 Companion XP\n- 30 Whispering Slabs\n- Meal of Comfort (+5 to all stats)",
@@ -7588,7 +7586,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Sigrun's Curse",
               description:
                 "**Requires:** Automatically obtained upon exploring either The Derelict Outpost or The Oarsmen regions  \n\n**Objectives:** Retrieve the key pieces to open the Vault, then defeat the enemies inside - \n- [Fj\u00f3turlund Vault Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216445)  \n- [Fj\u00f3turlund Vault Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216468)\n\n**Reward:** \n- 1500 Kratos XP\n- 375 Companion XP",
@@ -7602,7 +7600,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Last Remnants of Asgard",
               description:
                 "**Requires:** Automatically obtained after completion of all story quests.  \n\n**Objectives:** Secure and clear out the wreckage from Asgard across the Realms - \n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216415) (Midgard)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216486) (Midgard)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217164) (svarthelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217116) (svarthelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217101) (svarthelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216501) (Muspelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216569) (Alfheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216547) (Alfheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217206) (Vanaheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217205) (Vanaheim)  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP",
@@ -7610,7 +7608,7 @@ export const gow = {
               longitude: "-0.70428371429352",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Animal Instincts",
               description:
                 "**Requires:** Automatically obtained upon invading any Kol Raider Camp.    \n\n**Objectives:** Eliminate all Kol Raider Camps to complete this Favor -\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216456)\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216457)\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216459)\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216461)  \n\n**Reward:** \n- 1,000 Kratos XP\n- 250 Companion XP",
@@ -7624,7 +7622,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "In Service of Asgard",
               description:
                 "Obtained either in the Nidavellir Tavern by speaking to Raeb again after they disclose the location of Durlin's office, or simply by sailing north into the bay.\n\n**Reward:**\n- 500 Kratos XP\n- 125 Atreus XP\n- Nidavellir Ore\n- Muspelheim Seed Half",
@@ -7638,7 +7636,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Spirit of Rebellion",
               description:
                 "**Requires:** Complete story quest _Forging Destiny_\n\nSpeak with Durlin to begin this Favor\n\n**Reward:**\n- 3000 Kratos XP\n- 750 Companion XP\n- 30 Whispering Slabs\n- Mountain Splitter",
@@ -7652,7 +7650,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Lost Treasure",
               description:
                 "**Requires:** Draupnir Spear for access \n\nSpeak with the Spirit on the platform to begin this quest\n\n**Reward:**\n- 3000 Kratos' XP\n- 750 Companion's XP\n- Alberich's Treasure",
@@ -7666,7 +7664,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Weight of Chains",
               description:
                 "Automatically obtained upon visiting Lyngbakr Island\n\n**Reward:**\n- 1000 Kratos XP \n- 250 Atreus XP",
@@ -7680,7 +7678,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "A Viking Funeral",
               description:
                 "**Requires:** Completion of all story quests\n\nSpeak with L\u00fanda at the forge in Sindri's House or at any Shop where she is present to begin this Favor",
@@ -7694,7 +7692,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Born From Fire",
               description:
                 "Automatically obtained upon starting your first Draugr Hole activity\n\n**Objectives:** Close all Draugr Holes across the Realms - \n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217124) (svarthelheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217167) (svarthelheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216582) (Alfheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216437) (Midgard)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217219) (Vanaheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217326) (Vanaheim)\n\n**Reward:** \n- Kratos XP\n- Companion XP",
@@ -7708,7 +7706,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Hel to Pay",
               description:
                 "Automatically obtained after closing the [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216514) during story quest _Reunion_.  Note that the first 2 Hel Tears are part of the story and cannot be missed.\n\n**Objectives:** Close all Hel Tears across the Realms - \n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218791) (Sindri's House)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216514) (Helheim)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217100) (svarthelheim)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216417) (Midgard)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216542) (Alfheim)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217197) (Vanaheim)\n\n**Reward:** \n- Weapon Upgrade - Frozen Flame\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Essence of Hel\n- Dust of Realms\n- Hacksilver",
@@ -7722,7 +7720,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Broken Prison",
               description:
                 "**Requires:** Complete the story to gain access to this area.  Automatically obtained after first entering the prison  \n\n**Objectives:** Search the Prison for a prisoner  \n\n**Reward:** \n- 3,000 Kratos XP\n- 1,000 Companion XP",
@@ -7736,7 +7734,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Eyes of Odin",
               description:
                 "Automatically obtained after killing your first Odin's Raven in any Realm.  This quest concludes after you've killed all 48 Ravens, opened all 6 Raven chests in Niflheim, and defeated [The Raven Keeper](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216533)",
@@ -7757,7 +7755,7 @@ export const gow = {
           info: "**Associated Favor:** [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515) (Helheim)",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Hel Tear",
               description:
                 "This Hel Tear must be closed as part of story quest _Unleashing Hel_ and cannot be missed.\n\n**Note:** The Favor for closing Hel Tears, [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515) (Helheim), does not begin until the subsequent story quest _Reunion_.  However this Hel Tear is still tracked as one of 6 needed for the Favor.",
@@ -7771,7 +7769,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Hel Tear",
               latitude: "0.38563007350608",
               longitude: "-0.63840846043234",
@@ -7783,7 +7781,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Hel Tear",
               latitude: "0.53924488959694",
               longitude: "-0.79137984382160",
@@ -7795,7 +7793,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Hel Tear",
               description:
                 "Found climbing the cliffs that lead to the Well of Urd",
@@ -7809,7 +7807,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Hel Tear",
               latitude: "0.53680905277085",
               longitude: "-0.65113339788965",
@@ -7821,7 +7819,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "helheim",
+              mapSlug: "helheim",
               title: "Hel Tear",
               description:
                 "This Hel Tear must be closed during the story quest _Reunion_ and cannot be missed.\n\n**Note:** This Hel Tear is tracked as one of 6 needed to complete Favor [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515).",
@@ -7842,7 +7840,7 @@ export const gow = {
           info: "**Associated Favor:** [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Lost Lindwyrm",
               description:
                 "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217329)",
@@ -7856,7 +7854,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Lost Lindwyrm",
               description:
                 "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217324)",
@@ -7870,7 +7868,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
               description:
                 "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217093)",
@@ -7884,7 +7882,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
               description:
                 "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217119)",
@@ -7902,7 +7900,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
               description:
                 "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217136)",
@@ -7920,7 +7918,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
               description:
                 "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217163)",
@@ -7944,7 +7942,7 @@ export const gow = {
           icon: "muspelheim_trial",
           locations: [
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Endurance Challenge [1]",
               latitude: "0.80375031988724",
               longitude: "-0.83589446507028",
@@ -7956,7 +7954,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Weapon Mastery [1]",
               latitude: "0.84527890433787",
               longitude: "-0.82079513952391",
@@ -7968,7 +7966,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Ring Out Challenge [1]",
               latitude: "0.82502501376656",
               longitude: "-0.79298599645730",
@@ -7980,7 +7978,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Population Control [1]",
               latitude: "0.77679288088542",
               longitude: "-0.78972443029983",
@@ -7992,7 +7990,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Flawless [2]",
               latitude: "0.84670219460251",
               longitude: "-0.82678122086151",
@@ -8004,7 +8002,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Feed the Rift [2]",
               latitude: "0.82691194664110",
               longitude: "-0.79841897453343",
@@ -8016,7 +8014,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "King of the Hill [2]",
               latitude: "0.77672180865443",
               longitude: "-0.78515605358774",
@@ -8028,7 +8026,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Rampage [3]",
               latitude: "0.84751828514945",
               longitude: "-0.81596683916752",
@@ -8040,19 +8038,19 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Health Steal [3]",
               latitude: "0.82079123132273",
               longitude: "-0.79188953651183",
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Kill Fuse [3]",
               latitude: "0.77284530930490",
               longitude: "-0.78270751431799",
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Shield Breaker Challenge [1]",
               latitude: "0.81079404283209",
               longitude: "-0.83779964747404",
@@ -8064,7 +8062,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Ring of Fire Challenge [1]",
               latitude: "0.81181416524261",
               longitude: "-0.84208459116348",
@@ -8076,7 +8074,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Onslaught Challenge [1]",
               latitude: "0.79811817500490",
               longitude: "-0.83800369241342",
@@ -8088,7 +8086,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Phantom Challenge [1]",
               latitude: "0.79852622526789",
               longitude: "-0.84310481585342",
@@ -8100,7 +8098,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "Boss Rush Challenge [1]",
               latitude: "0.81056368971390",
               longitude: "-0.84677762473098",
@@ -8119,7 +8117,7 @@ export const gow = {
           info: "**Requires:** Completion of all story quests.  \n**Associated Favor:** [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=217210) (Midgard)",
           locations: [
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.60238045486257",
               longitude: "-0.67568097480026",
@@ -8131,7 +8129,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.80706300828361",
               longitude: "-0.55855185487422",
@@ -8143,7 +8141,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.68513189113064",
               longitude: "-0.84851434850555",
@@ -8156,7 +8154,7 @@ export const gow = {
             },
 
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.50012477240087",
               longitude: "-0.71428278907513",
@@ -8168,13 +8166,13 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.54887455929347",
               longitude: "-0.65162638649659",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.53349129147620",
               longitude: "-0.81995634707417",
@@ -8190,7 +8188,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.64642208711692",
               longitude: "-0.55248841699429",
@@ -8202,13 +8200,13 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "muspelheim",
+              mapSlug: "muspelheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.59794383732135",
               longitude: "-0.63084768620931",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Last Remnants of Asgard",
               latitude: "0.88007327091374",
               longitude: "-0.71610689163182",
@@ -8220,7 +8218,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Last Remnants of Asgard",
               description: "On the bridge that leads to the temple",
               latitude: "0.73848825325740",
@@ -8239,7 +8237,7 @@ export const gow = {
           icon: "yggdrasil_rift",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil Rift",
               latitude: "0.44559303416027",
               longitude: "-0.70216646851253",
@@ -8251,7 +8249,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil Rift",
               latitude: "0.87000146099254",
               longitude: "-0.75644309775029",
@@ -8263,7 +8261,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Nighttime \n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219266)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
@@ -8277,7 +8275,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Yggdrasil Rift",
               description:
                 "**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219265)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
@@ -8291,7 +8289,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Yggdrasil Rift",
               latitude: "0.93720785876258",
               longitude: "-0.78664306167244",
@@ -8307,7 +8305,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Yggdrasil Rift",
               latitude: "0.80804022892718",
               longitude: "-0.55645030884560",
@@ -8323,7 +8321,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Yggdrasil Rift",
               latitude: "0.79636775384053",
               longitude: "-0.53705192759193",
@@ -8339,7 +8337,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Yggdrasil Rift",
               latitude: "0.70823482405636",
               longitude: "-0.54000215551955",
@@ -8355,7 +8353,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
                 "**Enemies:** \n- Lvl 6 Wulver\n- Lvl 3 Nightmare  \n\n**Reward:**\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 15 Dust of Realms\n- 1,500 Hacksilver",
@@ -8369,7 +8367,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219210)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
@@ -8383,7 +8381,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               latitude: "0.74993119104649",
               longitude: "-0.74882600784287",
@@ -8395,7 +8393,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219262)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
@@ -8409,7 +8407,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Rewards:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219263)\n- 2 Lindwrym Scales\n- 1 Gale Spark\n- 25 Dust of Realms\n- 3,000 Hacksilver\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
@@ -8423,7 +8421,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               latitude: "0.78230989792362",
               longitude: "-0.74632012541076",
@@ -8435,7 +8433,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219264)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
@@ -8461,7 +8459,7 @@ export const gow = {
           info: "**Associated Favor:** [Across the Realms](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216495) (Midgard)",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Bantam Melon",
               description:
                 "**Requires:** Complete Favor _Return of the River_ to gain access to this area\n\nOn the ground near the yellow heart painted on the rock",
@@ -8475,7 +8473,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Elven Cap",
               description:
                 "On the ground near the Nornir Chest and the red heart painted on the column",
@@ -8489,7 +8487,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Nordic Gourd",
               description:
                 "On the ground in the snow, below the yellow heart painted on the rock",
@@ -8503,7 +8501,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Prongfruit",
               description:
                 "**Requires:** Complete story quest _Forging Destiny_ to gain access to this area\n\nOn the ground near the Nornir Chest and the green heart painted on the rock",
@@ -8523,7 +8521,7 @@ export const gow = {
           icon: "boss",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Fiske",
               description:
                 "Encountered during story quest _The Reckoning_\n\n**Reward:**\n- [Glaive of Dodher](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219270)",
@@ -8537,7 +8535,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Blatonn",
               description:
                 "**Reward:** \n- Boon of Valor - Amulet Enhancement\n- Nar's Cup",
@@ -8545,7 +8543,7 @@ export const gow = {
               longitude: "-0.74888151619643",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Egil the Oath Guard",
               description:
                 "**Reward:** \n- Folkvangr Whetstone\n- Bonded Leather",
@@ -8553,34 +8551,34 @@ export const gow = {
               longitude: "-0.69517021505226",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Jorgen the Oath Guard",
               description: "**Reward:** \n- Bonded Leather\n- Hacksilver",
               latitude: "0.87298623457642",
               longitude: "-0.72881584491958",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Crag Jaw",
               latitude: "0.84960211925056",
               longitude: "-0.67490279268563",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "The Crimson Dread",
               description: 'Miniboss dragon associated with "For Vanaheim!"',
               latitude: "0.94310282851848",
               longitude: "-0.76598297604042",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Brenna Banamaor",
               description: "Must be daylight for him to spawn",
               latitude: "0.90761655575216",
               longitude: "-0.72127295446475",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Vali the Oath Guard",
               description:
                 "**Requires:** ??\n\n**Reward:** \n- The Path of Lies Codex Lore Scroll",
@@ -8588,14 +8586,14 @@ export const gow = {
               longitude: "-0.79499374874700",
             },
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Heimdall",
               description: "**Requires:** Draupnir  \n**Reward:** \n- ??",
               latitude: "0.65768163761093",
               longitude: "-0.76992751825966",
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Gravel Belly",
               description:
                 "**Requires:** Begin Favor [The Desert Door](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216613)\n\n**Reward:**\n- Skirnir's Gambanteinn \n- Dragon Tooth\n- Dragon Claw\n- Hacksilver",
@@ -8603,14 +8601,14 @@ export const gow = {
               longitude: "-0.81170562269114",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Traveler Champion",
               description: "Inside the Lost Treasury",
               latitude: "0.66930940789317",
               longitude: "-0.66627841519841",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Visi Haglkorn",
               description:
                 "Sleeping Troll\n\n**Requires:** _Mystical Heirloom Relic_",
@@ -8618,7 +8616,7 @@ export const gow = {
               longitude: "-0.53347862659697",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Frost Phantom",
               description: "Fought during story quest _The Word of Fate_",
               latitude: "0.85962257898467",
@@ -8631,7 +8629,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Oluf Nautson",
               description:
                 "**Reward:** \n- Token of Elemental Evasion\n- Crackle of Bilskirnir",
@@ -8639,7 +8637,7 @@ export const gow = {
               longitude: "-0.67599400325503",
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "The Huntress",
               description:
                 "**Reward:** \n- Bonded Leather\n- Light Runic Attack: Winter\u2019s Bite",
@@ -8647,14 +8645,14 @@ export const gow = {
               longitude: "-0.96866660939639",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ormstunga",
               description: "**Reward:** \n- Svefnthorn\n- Emblem of Elusion",
               latitude: "0.83997033787909",
               longitude: "-0.55918427061516",
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Miklimunnr",
               description:
                 "**Requires:** Complete *The Quest for Tyr*\n\n**Reward:** \n- Hind of the Four Winds",
@@ -8662,7 +8660,7 @@ export const gow = {
               longitude: "-0.79170201739629",
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Raven Keeper",
               description:
                 "**Requires:** Only spawns near the [The Raven Tree](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216534) after you open the final [chest](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216529).  Begin the fight in this arena.  [The Pale One](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216535), a dragon, spawns when The Raven Keeper's health gets around 30%\n\n**Reward:**\n- Niflheim's Justice - Amulet Enhancement \n- [Hilt of Forsbrandr](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=219418)",
@@ -8670,7 +8668,7 @@ export const gow = {
               longitude: "-0.89548893830994",
             },
             {
-              regionSlug: "niflheim",
+              mapSlug: "niflheim",
               title: "The Pale One",
               description:
                 "Spawns close to the end of the fight with [The Raven Keeper](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216533)",
@@ -8683,7 +8681,7 @@ export const gow = {
           title: "Sleeping Troll",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "G\u00f6lrab of the Ashes and Frost",
               description:
                 "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) (Midgard) to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Momentous Stride\n- 2 Slumber Stones\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 687 Hacksilver",
@@ -8697,7 +8695,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "alfheim",
+              mapSlug: "alfheim",
               title: "Bjarg Stormr",
               description:
                 "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) (Midgard) to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Stone of Idol Souls\n- 1 Slumber Stones\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 507 Hacksilver",
@@ -8711,7 +8709,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Blodugr Steinn",
               description:
                 "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Poison Protector\n- 1 Slumber Stone\n- 5 Beast Bone\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 464 Hacksilver",
@@ -8725,7 +8723,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "The Everlasting",
               description:
                 "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) (Midgard) to awaken this boss\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Force\n- 3 Dragon Claws\n- 40 Bonded Leather\n- 75 Shattered Runes\n- 50,000 Hacksilver",
@@ -8744,7 +8742,7 @@ export const gow = {
           title: "Miscellaneous",
           locations: [
             {
-              regionSlug: "sindris-house",
+              mapSlug: "sindris-house",
               title: "Ratatoskr",
               latitude: "0.62844974295584",
               longitude: "-0.79180325745909",
@@ -8756,7 +8754,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "midgard",
+              mapSlug: "midgard",
               title: "Breakable Floor",
               latitude: "0.67228410707730",
               longitude: "-0.94564215340563",
@@ -8768,7 +8766,7 @@ export const gow = {
               ],
             },
             {
-              regionSlug: "svarthelheim",
+              mapSlug: "svarthelheim",
               title: "Ormr",
               description: "Must be attacked from above",
               latitude: "0.80824338869297",
@@ -8780,7 +8778,7 @@ export const gow = {
           title: "Wishing Well",
           locations: [
             {
-              regionSlug: "vanaheim",
+              mapSlug: "vanaheim",
               title: "Wishing Well",
               latitude: "0.84642141615316",
               longitude: "-0.71912303085946",

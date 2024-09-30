@@ -5,4 +5,4 @@ import { hogwarts } from "./hogwarts";
 import { totk } from "./totk";
 import { witcher3 } from "./witcher";
 
-export const games = [bmw];
+export const games = [bmw, eldenRing, gow, hogwarts, totk, witcher3];
