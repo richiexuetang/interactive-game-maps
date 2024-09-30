@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { revalidatePath } from "next/cache";
 import Map from "@/components/map/map";
 
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
@@ -67,7 +66,6 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
-  revalidatePath("/map");
   const gameRegion = await fetchGameMapDetails(params.slug);
   const currentUser = await getCurrentUser();
 
