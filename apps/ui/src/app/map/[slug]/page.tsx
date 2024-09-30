@@ -83,7 +83,6 @@ export default async function MapPage({
       regionData={gameRegion}
       user={{
         email: currentUser?.email,
-        photoURL: currentUser?.photoURL,
         displayName: currentUser?.displayName,
       }}
     />

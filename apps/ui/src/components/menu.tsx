@@ -17,7 +17,11 @@ import { SidebarClose } from "./sidebar/sidebar-close";
 import { Map, Region } from "@/__generated__/graphql";
 import { getBodyFont } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import { gameSlugAtom, hiddenCategoriesAtom } from "@/store";
+import {
+  gameSlugAtom,
+  hiddenCategoriesAtom,
+  triggeredRegionFocusAtom,
+} from "@/store";
 import {
   currentGroupsAtom,
   currentMarkersAtom,
@@ -66,6 +70,7 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
   const groups = useAtomValue(currentGroupsAtom);
   const markers = useAtomValue(currentMarkersAtom);
   const gameSlug = useAtomValue(gameSlugAtom);
+  const setRegionFocus = useSetAtom(triggeredRegionFocusAtom);
   const setSubRegionId = useSetAtom(triggerSubRegionIdAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
 
@@ -156,6 +161,9 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                   <div key={region.title} className="flex flex-start">
                     <UnderlineButton
                       onClick={() => setSubRegionId(region.title)}
+                      onContextMenu={() => {
+                        setRegionFocus(region.id);
+                      }}
                       sx={{ fontSize: 12, whiteSpace: "nowrap" }}
                       variant="text"
                     >

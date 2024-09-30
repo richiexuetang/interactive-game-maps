@@ -6,9 +6,13 @@ import { NoteMarker } from "./note-marker";
 import { userAtom } from "@/store/auth";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { currentMarkersAtom } from "@/store/map";
-import { triggeredMarkerIdAtom } from "@/store/marker";
+import {
+  triggeredMarkerIdAtom,
+  triggeredRegionFocusAtom,
+} from "@/store/marker";
+import { Region } from "@/__generated__/graphql";
 
-export const MarkerRenderer = () => {
+export const MarkerRenderer = ({ regions }: { regions: Region[] | null }) => {
   const params = useParams<{ slug: string }>();
 
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
@@ -29,6 +33,7 @@ export const MarkerRenderer = () => {
         ) {
           return null;
         }
+
         return <Marker key={id} marker={marker} />;
       })}
       {appUser?.noteMarkers.map(

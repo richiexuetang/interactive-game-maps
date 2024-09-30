@@ -4,7 +4,7 @@ import { useQuery } from "@apollo/client";
 import Alert from "@mui/material/Alert";
 import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
 import { UserRecord } from "firebase-admin/auth";
-import { useAtom, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { LatLngExpression } from "leaflet";
 import { useParams } from "next/navigation";
 import { SyntheticEvent, useEffect } from "react";
@@ -23,7 +23,7 @@ import { Game } from "@/__generated__/graphql";
 import { getFontClassName } from "@/lib/font";
 import { GET_APP_USER, GET_REGIONS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { gameSlugAtom } from "@/store";
+import { gameSlugAtom, triggeredRegionFocusAtom } from "@/store";
 import { userAtom } from "@/store/auth";
 import {
   copyLinkTriggerAtom,
@@ -174,7 +174,7 @@ const Map = ({ user, mapData }: MapProps) => {
           url={`${process.env.NEXT_PUBLIC_TILES_URL}${currentMap?.tilePath}/{z}/{y}/{x}.jpg`}
         />
         <RL.ZoomControl position="bottomright" />
-        <MarkerRenderer />
+        <MarkerRenderer regions={regionData} />
         <MarkerSearch />
         <ProgressTracker />
         <MapEventListener regionSlug={params.slug} />
