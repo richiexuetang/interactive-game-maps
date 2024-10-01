@@ -1,9 +1,8 @@
 import "server-only";
 
-import { cookies } from "next/headers";
-
 import { initializeApp, getApps } from "firebase-admin/app";
 import { SessionCookieOptions, getAuth } from "firebase-admin/auth";
+import { cookies } from "next/headers";
 
 const admin = require("firebase-admin");
 

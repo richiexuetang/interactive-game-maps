@@ -452,7 +452,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Valley of Despair",
               description:
-                "**Location:** In the open after defeating the [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=444)",
+                "**Location:** In the open after defeating the [King of Flowing Sands + Second Rat Prince](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=444)",
               latitude: "0.44440603341852",
               longitude: "-0.80819127793066",
               media: [
@@ -506,7 +506,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Hidden Loong Cavern",
               description:
-                "**Location:** Requires the [Loong Scales](http://localhost:3000/map/chapter-2?marker=167) to access [Black Loong](http://localhost:3000/map/chapter-2?marker=506)'s hidden chamber behind",
+                "**Location:** Requires the [Loong Scales](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=171) to access [Black Loong](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=538)'s hidden chamber behind",
               latitude: "0.83156896683375",
               longitude: "-0.60846419229938",
               media: [
@@ -850,13 +850,13 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-5",
-              title: "Keeper Shrine",
+              title: "Camp of Seasons",
               latitude: "0.63267733356133",
               longitude: "-1.07440710067690",
             },
             {
               mapSlug: "chapter-5",
-              title: "Keeper Shrine",
+              title: "Height of Ember",
               latitude: "0.45929433869792",
               longitude: "-1.03896481849800",
             },
@@ -868,7 +868,7 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-5",
-              title: "Keeper Shrine",
+              title: "Purge Pit",
               latitude: "0.95708352305789",
               longitude: "-0.94127865588464",
             },
@@ -880,13 +880,13 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-5",
-              title: "Keeper Shrine",
+              title: "Valley Entrance",
               latitude: "0.51064175350540",
               longitude: "-0.32530728255924",
             },
             {
               mapSlug: "chapter-5",
-              title: "Keeper Shrine",
+              title: "Rakshasa Palace",
               latitude: "0.72544581911778",
               longitude: "-0.31819207559420",
             },
@@ -897,55 +897,64 @@ export const bmw = {
               longitude: "-0.49842450586999",
             },
             {
-              description: "取景点：安徽安庆天柱山惜字亭\n",
+              mapSlug: "chapter-5",
+              title: "Cooling Slope",
+              latitude: "0.58272668419988",
+              longitude: "-0.58522045612185",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Cave Depths",
+              latitude: "0.92746200684114",
+              longitude: "-0.98312079906498",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Corridor of Fire and Ice",
+              latitude: "0.88887417815647",
+              longitude: "-1.06168599767590",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Ashen Pass III",
+              latitude: "0.81027470103807",
+              longitude: "-0.68976532539978",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Mantis-Catching Swamp",
+              latitude: "0.47517257966007",
+              longitude: "-0.63485014917393",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Deer Sight Forest",
+              latitude: "0.86312171395306",
+              longitude: "-0.67313282725931",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Return Path",
+              latitude: "0.34778381403139",
+              longitude: "-0.94418048858705",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Rhino Watch Slope",
+              latitude: "0.75949035560222",
+              longitude: "-0.45463641796502",
+            },
+            {
               mapSlug: "chapter-6",
               title: "Verdant Path",
-              longitude: -0.33985756269075296,
-              latitude: 0.49269348020980885,
+              latitude: "0.53248056167713",
+              longitude: "-0.38019776344257",
             },
             {
-              description: "打完金角犀用青符即可见",
               mapSlug: "chapter-6",
-              title: "山脚-望犀坡",
-              longitude: -0.40831484721638844,
-              latitude: 0.8441820587621862,
-            },
-            {
-              description:
-                "可以远处看到红树林,前面大片空地是BOSS战斗场地  ————————————————————————  山脚只是区域名!不是真的要往山脚跑!看到红树林过去就对了,地图上的标点有点歪.",
-              mapSlug: "chapter-6",
-              title: "山脚-见鹿林",
-              longitude: -0.7059927047016572,
-              latitude: 0.9873427736903011,
-            },
-            {
-              description: "黄色的树下就是土地庙",
-              mapSlug: "chapter-6",
-              title: "山脚-捕螂汀",
-              longitude: -0.7083767912719168,
-              latitude: 0.43828579973596504,
-            },
-            {
-              description: "拿完金箍棒后上山,山顶上",
-              mapSlug: "chapter-6",
-              title: "水帘洞-天真顶",
-              longitude: -1.267962892360913,
-              latitude: 0.22889755675394952,
-            },
-            {
-              description:
-                "PS: 这玩意儿得拿了金箍棒才有路去开,没做前置就别找了",
-              mapSlug: "chapter-6",
-              title: "水帘洞-峰回路",
-              longitude: -0.9142298270904519,
-              latitude: 0.295904511666663,
-            },
-            {
-              description: "可以在这调整打大圣的打法",
-              mapSlug: "chapter-6",
-              title: "石卵-石中境",
-              longitude: -1.3244751152346907,
-              latitude: 0.1847169235076649,
+              title: "Peak of Innocence",
+              latitude: "0.62890349584762",
+              longitude: "-1.12060966435380",
             },
           ],
         },
@@ -983,7 +992,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "The Cliff, Black Wind Cave",
               description:
-                "**Location:** Near the [Celestial Taiyi Pill](http://localhost:3000/map/chapter-1?marker=137), overlooking the forest.",
+                "**Location:** Near the [Celestial Taiyi Pill](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=137), overlooking the forest.",
               latitude: "0.50639446907658",
               longitude: "-0.59201717376766",
               media: [
@@ -1252,7 +1261,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Serpent",
               description:
-                "After visiting the skeleton then the [Turtle Tear Soak](http://localhost:3000/map/chapter-3?marker=194) will drop",
+                "After visiting the skeleton then the [Turtle Tear Soak](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=194) will drop",
               latitude: "0.94157391334011",
               longitude: "-0.68897366523655",
             },
@@ -1558,7 +1567,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "5-Year-Old Coconut Wine",
               description:
-                "**Location:** Obtained by upgrading the starter [3-Year-Old Coconute Wine](http://localhost:3000/map/chapter-1?marker=148)  \n\n**Effect:**  Each sip restores 40% of maximum health",
+                "**Location:** Obtained by upgrading the starter [3-Year-Old Coconute Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=148)  \n\n**Effect:**  Each sip restores 40% of maximum health",
               latitude: "0.72490421053230",
               longitude: "-0.59080320903740",
             },
@@ -1566,7 +1575,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "10-Year-Old Coconut Wine",
               description:
-                "**Location:** Obtained by upgrading the [5-Year-Old Coconute Wine](http://localhost:3000/map/chapter-1?marker=149)\n\n**Effect:**  Each sip restores 43% of maximum health",
+                "**Location:** Obtained by upgrading the [5-Year-Old Coconute Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=149)\n\n**Effect:**  Each sip restores 43% of maximum health",
               latitude: "0.72555289960904",
               longitude: "-0.58577546593176",
             },
@@ -1574,7 +1583,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "18-Year-Old Coconut Wine",
               description:
-                "**Location:** Obtained by upgrading the [10-Year-Old Coconut Wine](http://localhost:3000/map/chapter-1?marker=150)\n\n**Effect:**  Each sip restores 46% of maximum health",
+                "**Location:** Obtained by upgrading the [10-Year-Old Coconut Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=150)\n\n**Effect:**  Each sip restores 46% of maximum health",
               latitude: "0.72603941635708",
               longitude: "-0.58123427861170",
             },
@@ -1582,7 +1591,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "30-Year-Old Coconut Wine",
               description:
-                "**Location:** Obtained by upgrading the [18-Year-Old Coconut Wine](http://localhost:3000/map/chapter-1?marker=151)\n\n**Effect:**  Each sip restores 49% of maximum health",
+                "**Location:** Obtained by upgrading the [18-Year-Old Coconut Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=151)\n\n**Effect:**  Each sip restores 49% of maximum health",
               latitude: "0.72685027748490",
               longitude: "-0.57636872076745",
             },
@@ -1646,7 +1655,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Evil Repelling Medicant",
               description:
-                "**Location:** Reward for defeating [Lang-Li-Guhh-Baw](http://localhost:3000/map/chapter-2?marker=442)",
+                "**Location:** Reward for defeating [Lang-Li-Guhh-Baw](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=442)",
               latitude: "0.51858745780614",
               longitude: "-0.67390841850306",
             },
@@ -1659,7 +1668,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Trailblazer's Scarlet Gourd",
               description:
-                "**Location:** Deluxe edition exclusive (pre-order only).  Found in front of the [Front Hills](http://localhost:3000/map/chapter-1?marker=1) shrine.",
+                "**Location:** Deluxe edition exclusive (pre-order only).  Found in front of the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=1) shrine.",
               latitude: "0.65282627023801",
               longitude: "-0.81281661987316",
             },
@@ -1667,7 +1676,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Jade Lotus Gourd",
               description:
-                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) upon reaching Chapter 3",
+                "**Location:** Sold by [Shen Monkey](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=573) upon reaching Chapter 3",
               latitude: "0.72202082756657",
               longitude: "-0.58525264263201",
             },
@@ -1675,7 +1684,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Plaguebane Gourd",
               description:
-                "**Location:** Inside a chest after defeating the [Mad Tiger](http://localhost:3000/map/chapter-2?marker=449) at the bottom of the secret well",
+                "**Location:** Inside a chest after defeating the [Mad Tiger](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=449) at the bottom of the secret well",
               latitude: "0.35105361101215",
               longitude: "-0.62044292322622",
             },
@@ -1688,7 +1697,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Wise-Voice Spirit",
               description:
-                "**Location:** Reward for defeating [Captain Wise-Voice](http://localhost:3000/map/chapter-3?marker=397823)",
+                "**Location:** Reward for defeating [Captain Wise-Voice](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397823)",
               latitude: "0.72018923865548",
               longitude: "-0.61387448070954",
             },
@@ -1696,7 +1705,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Void-Illusion Spirit",
               description:
-                "**Location:** Reward for defeating [Captain Void-Illusion](http://localhost:3000/map/chapter-3?marker=397835)",
+                "**Location:** Reward for defeating [Captain Void-Illusion](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397835)",
               latitude: "1.09760812327440",
               longitude: "-0.61876416206360",
             },
@@ -1704,7 +1713,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Kalpa-Wave Spirit",
               description:
-                "**Location:** Reward for defeating [Captain Kalpa-Wave](http://localhost:3000/map/chapter-3?marker=397836)",
+                "**Location:** Reward for defeating [Captain Kalpa-Wave](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397836)",
               latitude: "1.11762707224730",
               longitude: "-0.62518537044522",
             },
@@ -1712,7 +1721,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Lotus-Vision Spirit",
               description:
-                "**Location:** Reward for defeating [Captain Lotus-Vision](http://localhost:3000/map/chapter-3?marker=397822)\n\n**Note:** Not a useable seal, but rather a key item.",
+                "**Location:** Reward for defeating [Captain Lotus-Vision](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397822)\n\n**Note:** Not a useable seal, but rather a key item.",
               latitude: "0.65464860317610",
               longitude: "-0.60185551643272",
             },
@@ -1734,7 +1743,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Arhat Gold Piece",
               description:
-                "**Location:** Reward for defeating [First Prince of Flowing Sands](http://localhost:3000/map/chapter-2?marker=451)\n\n**Use:** ??",
+                "**Location:** Reward for defeating [First Prince of Flowing Sands](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=451)\n\n**Use:** ??",
               latitude: "0.47794264586449",
               longitude: "-0.85135996341634",
             },
@@ -1742,7 +1751,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Pungent Flesh Chunk",
               description:
-                "**Location:** Dropped from  [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=444)\n\n**Use:** Used to lure the [First Prince of Flowing Sands](http://localhost:3000/map/chapter-2?marker=451) out of hiding",
+                "**Location:** Dropped from  [King of Flowing Sands + Second Rat Prince](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=444)\n\n**Use:** Used to lure the [First Prince of Flowing Sands](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=451) out of hiding",
               latitude: "0.47594337402350",
               longitude: "-0.77587833160140",
             },
@@ -1750,7 +1759,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Loong Scales",
               description:
-                "**Location:** Inside the [Hidden Chamber](http://localhost:3000/map/chapter-2?marker=534) in a chest.  \n\n**Use:** Unlocks 2 hidden Arenas:\n- [Red Loong](http://localhost:3000/map/chapter-1?marker=500) in Chapter 1, behind the Secret Waterfall\n- Black Loong ??",
+                "**Location:** Inside the [Hidden Chamber](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=534) in a chest.  \n\n**Use:** Unlocks 2 hidden Arenas:\n- [Red Loong](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=500) in Chapter 1, behind the Secret Waterfall\n- Black Loong ??",
               latitude: "0.49056903486494",
               longitude: "-0.84758894931417",
               media: [
@@ -1764,7 +1773,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Keeness of Tiger",
               description:
-                "**Location:** Reward for defeating the [Tiger Vanguard](http://localhost:3000/map/chapter-2?marker=501)  \n\n**Use:** ??",
+                "**Location:** Reward for defeating the [Tiger Vanguard](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=501)  \n\n**Use:** ??",
               latitude: "0.56185068376089",
               longitude: "-0.98803851580689",
             },
@@ -1842,7 +1851,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Stone Essence",
               description:
-                "**Location:** Dropped by the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=447)  \n\n**Use:** ??",
+                "**Location:** Dropped by the [Mother Of Stones](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=447)  \n\n**Use:** ??",
               latitude: "0.74084754865402",
               longitude: "-0.75381033209660",
             },
@@ -1850,7 +1859,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Buddha's Eyeball",
               description:
-                "**Location:** On a high up platform just outside the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=447) arena.",
+                "**Location:** On a high up platform just outside the [Mother Of Stones](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=447) arena.",
               latitude: "0.77609446287731",
               longitude: "-0.75294117090502",
               media: [
@@ -1868,7 +1877,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Sterness of Stone",
               description:
-                "**Location:** Rewarded for defeating the [Stone Vanguard](http://localhost:3000/map/chapter-2?marker=502)  \n\n**Use:** ??",
+                "**Location:** Rewarded for defeating the [Stone Vanguard](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=502)  \n\n**Use:** ??",
               latitude: "0.83563941397713",
               longitude: "-0.76575994491469",
             },
@@ -1876,7 +1885,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Old-Rattle Drum",
               description:
-                "**Location:** Reward for defeating [Tiger's Acolyte](http://localhost:3000/map/chapter-2?marker=445)  \n\n**Use:** ??",
+                "**Location:** Reward for defeating [Tiger's Acolyte](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=445)  \n\n**Use:** ??",
               latitude: "0.71109972660530",
               longitude: "-0.88302612304611",
             },
@@ -1905,7 +1914,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Luojia Fragrant Vine",
               description:
-                "**Location:** Found hanging on a tree near the [Marsh of White Mist Shrine](http://localhost:3000/map/chapter-1?marker=7)",
+                "**Location:** Found hanging on a tree near the [Marsh of White Mist Shrine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=7)",
               latitude: "0.71541745404579",
               longitude: "-0.54021447719754",
             },
@@ -1913,7 +1922,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Luojia Fragrant Vine",
               description:
-                "**Location:** Found hanging on a tree near the [Gore-Eye Daoist](http://localhost:3000/map/chapter-2?marker=446)",
+                "**Location:** Found hanging on a tree near the [Gore-Eye Daoist](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=446)",
               latitude: "0.61200221260796",
               longitude: "-0.80092259692509",
             },
@@ -2009,7 +2018,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Celestial Lotus Seeds",
               description:
-                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) for 2,400 Will\n\n**Effect**\nFor a brief moment after using the gourd, slowly recovers a small amount of health",
+                "**Location:** Sold by [Shen Monkey](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=573) for 2,400 Will\n\n**Effect**\nFor a brief moment after using the gourd, slowly recovers a small amount of health",
               latitude: 0.72056182148221,
               longitude: -0.59427559375806,
             },
@@ -2017,7 +2026,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Thunderbolt Horn",
               description:
-                "**Location:** Sold by [Shen Monkey](http://localhost:3000/map/chapter-1?marker=573) upon reaching Chapter 3",
+                "**Location:** Sold by [Shen Monkey](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=573) upon reaching Chapter 3",
               latitude: 0.72107676486739,
               longitude: -0.59005916119926,
             },
@@ -2057,7 +2066,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Breath Of Fire",
               description:
-                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=516)\n\n**Effect**\nUsing the gourd significantly increases Attack for the next Unveiling Strike in Cloud Step for a short duration.",
+                "**Location:** Reward for defeating [Cyan Loong](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=516)\n\n**Effect**\nUsing the gourd significantly increases Attack for the next Unveiling Strike in Cloud Step for a short duration.",
               latitude: "0.86534762948834",
               longitude: "-0.76099277637610",
             },
@@ -2086,7 +2095,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Sweet Ice",
               description:
-                '**Location:** After "[Monk From The Sea](http://localhost:3000/map/chapter-3?marker=471)" boss, turn left as soon as you go down the next stairs and reach the end of the hallway. The soak is on the left, behind the building.\n\n**Effect:** Using the gourd moderately increases Chill Resistance for a short duration.',
+                '**Location:** After "[Monk From The Sea](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=471)" boss, turn left as soon as you go down the next stairs and reach the end of the hallway. The soak is on the left, behind the building.\n\n**Effect:** Using the gourd moderately increases Chill Resistance for a short duration.',
               latitude: "1.13720340748160",
               longitude: "-0.61250925064184",
             },
@@ -2102,7 +2111,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Breath Of Fire",
               description:
-                "**Location:** Reward for defeating [Cyan Loong](http://localhost:3000/map/chapter-3?marker=516)",
+                "**Location:** Reward for defeating [Cyan Loong](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=516)",
               latitude: "0.86534762948834",
               longitude: "-0.76099277637610",
             },
@@ -2128,7 +2137,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wandering Wight Spirit",
               description:
-                "Reward for defeating the [Wandering Wight](http://localhost:3000/map/chapter-1?marker=444)",
+                "Reward for defeating the [Wandering Wight](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=444)",
               latitude: "0.96022416129006",
               longitude: "-0.88263668099404",
             },
@@ -2136,7 +2145,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Baw-Li-Guhh-Lang Spirit",
               description:
-                "**Location:** Reward for defeating [Baw-Li-Guhh-Lang](http://localhost:3000/map/chapter-1?marker=447) in Bamboo Grove",
+                "**Location:** Reward for defeating [Baw-Li-Guhh-Lang](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=447) in Bamboo Grove",
               latitude: "0.81833871275094",
               longitude: "-0.58733066723244",
             },
@@ -2144,7 +2153,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Guangmou Spirit",
               description:
-                "**Location:** Reward for defeating [Guangmou](http://localhost:3000/map/chapter-1?marker=446) in Bamboo Grove",
+                "**Location:** Reward for defeating [Guangmou](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=446) in Bamboo Grove",
               latitude: "0.74814411814867",
               longitude: "-0.46604569223260",
             },
@@ -2160,7 +2169,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Earth Wolf Spirit",
               description:
-                "**Location:** Reward for defaulting [Earth Wolf](http://localhost:3000/map/chapter-2?marker=449)",
+                "**Location:** Reward for defaulting [Earth Wolf](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=449)",
               latitude: "0.39155191320763",
               longitude: "-0.72425959343664",
             },
@@ -2168,7 +2177,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Second Rat Prince Spirit",
               description:
-                "**Location:** Reward for defeating [King of Flowing Sands + Second Rat Prince](http://localhost:3000/map/chapter-2?marker=450)\n\n**Note:** In order to get the Second Rat Prince Spirit you have to kill the King of Flowing Sands first, and then you can take out the Second Rat Prince. This is done easier if you **heavy attack** the pillars the King of Flowing Sands stands on leaving him vulnerable on the ground.",
+                "**Location:** Reward for defeating [King of Flowing Sands + Second Rat Prince](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=450)\n\n**Note:** In order to get the Second Rat Prince Spirit you have to kill the King of Flowing Sands first, and then you can take out the Second Rat Prince. This is done easier if you **heavy attack** the pillars the King of Flowing Sands stands on leaving him vulnerable on the ground.",
               latitude: "0.47646676669264",
               longitude: "-0.78934192657491",
               media: [
@@ -2182,7 +2191,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tiger's Acolyte Spirit",
               description:
-                "**Location:** Reward for defeating [Tiger's Acolyte](http://localhost:3000/map/chapter-2?marker=451)",
+                "**Location:** Reward for defeating [Tiger's Acolyte](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=451)",
               latitude: "0.73653576685446",
               longitude: "-0.88096618652298",
             },
@@ -2190,7 +2199,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Gore-Eye Daoist Spirit",
               description:
-                "**Location:** Reward for defeating [Gore-Eye Daoist](http://localhost:3000/map/chapter-2?marker=452)",
+                "**Location:** Reward for defeating [Gore-Eye Daoist](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=452)",
               latitude: "0.61510143555537",
               longitude: "-0.79615014612278",
             },
@@ -2198,7 +2207,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Mad Tiger Spirit",
               description:
-                "**Location:** Reward for defeating [Mad Tiger](http://localhost:3000/map/chapter-2?marker=455)",
+                "**Location:** Reward for defeating [Mad Tiger](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=455)",
               latitude: "0.34709718114577",
               longitude: "-0.62748670577824",
             },
@@ -2206,7 +2215,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rat Archer Spirit",
               description:
-                "Dropped by one of the 4 Rat Archers on top of the gate.\n\n**Note:** The archers will drop down after defeating the [Earth Wolf](http://localhost:3000/map/chapter-2?marker=449)",
+                "Dropped by one of the 4 Rat Archers on top of the gate.\n\n**Note:** The archers will drop down after defeating the [Earth Wolf](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=449)",
               latitude: "0.41297738780299",
               longitude: "-0.70431008578120",
             },
@@ -2261,7 +2270,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rat Governor Spirit",
               description:
-                "**Location:** Located directly in front of the [meditation spot](http://localhost:3000/map/chapter-2?marker=87).\n\nDrops from the [Elite Rat Governor](http://localhost:3000/map/chapter-2?marker=430)",
+                "**Location:** Located directly in front of the [meditation spot](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=87).\n\nDrops from the [Elite Rat Governor](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=430)",
               latitude: 0.80878452,
               longitude: -0.83842,
             },
@@ -2287,7 +2296,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-White Spirit",
               description:
-                "**Location:** Reward for defeating [Non-White](http://localhost:3000/map/chapter-3?marker=397830)",
+                "**Location:** Reward for defeating [Non-White](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397830)",
               latitude: "1.04428171569260",
               longitude: "-0.64517319202403",
             },
@@ -2295,7 +2304,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Old Ginseng Guai Spirit",
               description:
-                "**Location:** Reward for defeating [Old Ginseng Guai](http://localhost:3000/map/chapter-3?marker=397832)",
+                "**Location:** Reward for defeating [Old Ginseng Guai](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397832)",
               latitude: "1.08781825320090",
               longitude: "-0.63121674855165",
             },
@@ -2303,7 +2312,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-Able Spirit",
               description:
-                "**Location:** Reward for defeating [Non-Able](http://localhost:3000/map/chapter-3?marker=397833)",
+                "**Location:** Reward for defeating [Non-Able](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397833)",
               latitude: "1.07141870093590",
               longitude: "-0.62698321302531",
             },
@@ -2311,7 +2320,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-Pure Spirit",
               description:
-                "**Location:** Reward for defeating [Non-Pure](http://localhost:3000/map/chapter-3?marker=397837)",
+                "**Location:** Reward for defeating [Non-Pure](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397837)",
               latitude: "1.14645242093290",
               longitude: "-0.61632126135541",
             },
@@ -2319,7 +2328,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-Void Spirit",
               description:
-                "**Location:** Reward for defeating [Non-Void](http://localhost:3000/map/chapter-3?marker=397838)",
+                "**Location:** Reward for defeating [Non-Void](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397838)",
               latitude: "1.13845628891580",
               longitude: "-0.64070029924912",
             },
@@ -2327,7 +2336,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Mountain Patroller Spirit",
               description:
-                "**Location:** Reward for defeating the [Elite Yaksha Patroller](http://localhost:3000/map/chapter-3?marker=399842)",
+                "**Location:** Reward for defeating the [Elite Yaksha Patroller](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399842)",
               latitude: "0.40507717170854",
               longitude: "-0.80308925484823",
             },
@@ -2347,7 +2356,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Blade Monk Spirit",
               description:
-                "Reward for defeating the [Elite Blade Monk](http://localhost:3000/map/chapter-3?marker=400484)",
+                "Reward for defeating the [Elite Blade Monk](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=400484)",
               latitude: "0.63937478033054",
               longitude: "-0.47704926891359",
             },
@@ -2390,7 +2399,7 @@ export const bmw = {
               mapSlug: "chapter-4",
               title: "Lantern Holder Spirit",
               description:
-                "**Location:** Reward for defeating [Lantern Holder](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=402355)",
+                "**Location:** Reward for defeating [Lantern Holder](https://ritcher-map-v2.vercel.app/map/chapter-4?marker=402355)",
               latitude: "0.82795383689525",
               longitude: "-0.80425011812932",
             },
@@ -2398,7 +2407,7 @@ export const bmw = {
               mapSlug: "chapter-4",
               title: "Beetle Captain Spirit",
               description:
-                "**Location:** Reward for defeating [Elite Beetle Captain](http://localhost:3000/map/chapter-4?marker=401918)",
+                "**Location:** Reward for defeating [Elite Beetle Captain](https://ritcher-map-v2.vercel.app/map/chapter-4?marker=401918)",
               latitude: "0.85871932005649",
               longitude: "-0.99811642426241",
             },
@@ -2680,7 +2689,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Chest",
               description:
-                "**Location:** [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380) - one of three chests surrounding the dead tree",
+                "**Location:** [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562) - one of three chests surrounding the dead tree",
               latitude: "0.86110687851634",
               longitude: "-0.74043989181314",
               media: [
@@ -2694,7 +2703,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Chest",
               description:
-                "**Location:** [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380) - one of three chests surrounding the dead tree",
+                "**Location:** [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562) - one of three chests surrounding the dead tree",
               latitude: "0.85840337225265",
               longitude: "-0.72890642904261",
               media: [
@@ -3715,7 +3724,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Snout Mask",
               description:
-                "**Location:** Reward for defeating the [Yellow-Robed Squire](http://localhost:3000/map/chapter-2?marker=397644)\n\n**Type:** Headgear/Mask\n\n**Rarity:** Rare\n\n**Defence:** 17\n   \n**Effect:** For a short duration after using the gourd, moderately increases attack. Refraining from using Gourd for a relatively long duration moderately reduces attack on the contrary",
+                "**Location:** Reward for defeating the [Yellow-Robed Squire](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397644)\n\n**Type:** Headgear/Mask\n\n**Rarity:** Rare\n\n**Defence:** 17\n   \n**Effect:** For a short duration after using the gourd, moderately increases attack. Refraining from using Gourd for a relatively long duration moderately reduces attack on the contrary",
               latitude: "0.93434899155358",
               longitude: "-0.70325765308593",
             },
@@ -3723,7 +3732,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Galeguard Set",
               description:
-                "Craftable upon defeating the [Stone Vanguard](http://localhost:3000/map/chapter-2?marker=397637)\t\n\n**Set Pieces:**\n- Galeguard Beast Mask (headgear)\n- Galeguard Beastmaw Armor (body)\n- Galeguard Bracers (arms)\n- Galeguard Greaves (legs)\n\n**Rarity:** Rare \n\n**Defence:** 18 / 35 / 14 / 21 \n   \n**Effect:** \n- 4% Shock Resistance (body)\t\n- Performing 3 consecutive perfect dodges within a brief moment recovers a moderate amount of Mana (legs)\t\n\n**Set Bonus:**\n- Gale Guardian: Upon perfect dodges, grants considerable additional focus (2 pieces equipped)\n- Perfect dodges slightly reduces cooldown for all spells (4 pieces equipped)",
+                "Craftable upon defeating the [Stone Vanguard](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397637)\t\n\n**Set Pieces:**\n- Galeguard Beast Mask (headgear)\n- Galeguard Beastmaw Armor (body)\n- Galeguard Bracers (arms)\n- Galeguard Greaves (legs)\n\n**Rarity:** Rare \n\n**Defence:** 18 / 35 / 14 / 21 \n   \n**Effect:** \n- 4% Shock Resistance (body)\t\n- Performing 3 consecutive perfect dodges within a brief moment recovers a moderate amount of Mana (legs)\t\n\n**Set Bonus:**\n- Gale Guardian: Upon perfect dodges, grants considerable additional focus (2 pieces equipped)\n- Perfect dodges slightly reduces cooldown for all spells (4 pieces equipped)",
               latitude: "0.84272876560387",
               longitude: "-0.75886591607210",
             },
@@ -3731,7 +3740,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Grey Wolf Mask",
               description:
-                "Rewarded for defeating [Lingxuzi](http://localhost:3000/map/chapter-1?marker=397299)\n\n**Type:** Headgear  \n\n**Rarity:** Uncommon  \n\n**Defence:** 10  \n   \n**Effect:** Inflicts considerably more bonus damage on enemies at critical health",
+                "Rewarded for defeating [Lingxuzi](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397299)\n\n**Type:** Headgear  \n\n**Rarity:** Uncommon  \n\n**Defence:** 10  \n   \n**Effect:** Inflicts considerably more bonus damage on enemies at critical health",
               latitude: "0.79079399315059",
               longitude: "-0.77097633362737",
             },
@@ -3739,7 +3748,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Folk Set",
               description:
-                "Deluxe edition exclusive.  Found in front of the [Front Hills](http://localhost:3000/map/chapter-1?marker=397271) shrine.\n\n**Set Pieces:**\n- Folk Opera Mask (Headgear)\n- Folk Opera Almsgiving Armor (Body)\n- Folk Opera Leather Bracers (Arms)\n- Folk Opera, Buskins (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:** 7 / 14 /  5 / 8\n   \n**Set Bonus:** Every Bit Counts: Moderately increases the Will gained from defeating enemies (Requires 4 Pieces Equipped)",
+                "Deluxe edition exclusive.  Found in front of the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397271) shrine.\n\n**Set Pieces:**\n- Folk Opera Mask (Headgear)\n- Folk Opera Almsgiving Armor (Body)\n- Folk Opera Leather Bracers (Arms)\n- Folk Opera, Buskins (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:** 7 / 14 /  5 / 8\n   \n**Set Bonus:** Every Bit Counts: Moderately increases the Will gained from defeating enemies (Requires 4 Pieces Equipped)",
               latitude: "0.64865108335141",
               longitude: "-0.81299208731232",
             },
@@ -3747,7 +3756,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Guanyin's Prayer Beads",
               description:
-                "**Location:** Found in a chest surrounding a dead tree within the secret [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380)\n\n**Type:** Arms  \n\n**Rarity:** Uncommon \n\n**Defence:** 10 \n   \n**Effect:** After absorbing lingering will, moderately increase Maximum Health and Mana for a long duration",
+                "**Location:** Found in a chest surrounding a dead tree within the secret [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562)\n\n**Type:** Arms  \n\n**Rarity:** Uncommon \n\n**Defence:** 10 \n   \n**Effect:** After absorbing lingering will, moderately increase Maximum Health and Mana for a long duration",
               latitude: "0.85261059056133",
               longitude: "-0.73724269867091",
               media: [
@@ -3761,7 +3770,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Pilgrim's Set",
               description:
-                "Craftable upon reaching [Guanyin Temple Shrine](http://localhost:3000/map/chapter-1?marker=397382) in the Forest of Wolves.  \n\n**Set Pieces:**\n- Pilgrim's Headband (Headgear)\n- Pilgrim's Garb (Body)\n- Pilgrim's Wristwraps (Arms)\n- Pilgrim's Legwraps (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:** 7 / 14 /  5 / 8\n   \n**Unique Effect:** Allows using the Gourd while sprinting (headgear)\n\n**Set Bonus:** \n- Swift Pilgrim - Moderately increases sprint speed (2 pieces equipped)\n- When Sprinting, each second moderately increases attack. This effect can stack up to 10 times. (4 pieces equipped)\n\n**Ingredients Required:**\n- 4 Yarn, 1,000 Will (Head)\n- 5 Yarn, 1,200 Will (Body)\n- 1 Yarn, 500 Will (Arms)\n- 2 Yarn, 640 Will (Legs)",
+                "Craftable upon reaching [Guanyin Temple Shrine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397382) in the Forest of Wolves.  \n\n**Set Pieces:**\n- Pilgrim's Headband (Headgear)\n- Pilgrim's Garb (Body)\n- Pilgrim's Wristwraps (Arms)\n- Pilgrim's Legwraps (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:** 7 / 14 /  5 / 8\n   \n**Unique Effect:** Allows using the Gourd while sprinting (headgear)\n\n**Set Bonus:** \n- Swift Pilgrim - Moderately increases sprint speed (2 pieces equipped)\n- When Sprinting, each second moderately increases attack. This effect can stack up to 10 times. (4 pieces equipped)\n\n**Ingredients Required:**\n- 4 Yarn, 1,000 Will (Head)\n- 5 Yarn, 1,200 Will (Body)\n- 1 Yarn, 500 Will (Arms)\n- 2 Yarn, 640 Will (Legs)",
               latitude: "0.84151818642930",
               longitude: "-0.79462051391670",
             },
@@ -3769,7 +3778,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Serpentscale Set",
               description:
-                "Craftable upon defeating the [Whiteclad Noble](http://localhost:3000/map/chapter-1?marker=397389) \n\n**Set Pieces:**\n- Serpentscale Battlerobe (Body)\n- Serpentscale Bracers (Arms)\n- Serpentscale Gaiters (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:**  18 /  7 / 11\n   \n**Unique Effect:** \n- When health is low, slowly recovers a small amount of health; if in water, the effect is enhanced (body)\t\n- 3% Poison Resistance (arms)\n- 2% Poison Resistance (legs)\t\n\n**Set Bonus:** \n- Wave Rider - Massively reduces stamina cost when in water (3 pieces equipped)\n\n**Ingredients Required:**\n- 5 Yarn, 1,350 Will (body)\n- 1 Yarn, 720 Will (arms)\n- 2 Yarn, 720 Will (legs)",
+                "Craftable upon defeating the [Whiteclad Noble](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397389) \n\n**Set Pieces:**\n- Serpentscale Battlerobe (Body)\n- Serpentscale Bracers (Arms)\n- Serpentscale Gaiters (Legs)\n\n**Rarity:** Uncommon \n\n**Defence:**  18 /  7 / 11\n   \n**Unique Effect:** \n- When health is low, slowly recovers a small amount of health; if in water, the effect is enhanced (body)\t\n- 3% Poison Resistance (arms)\n- 2% Poison Resistance (legs)\t\n\n**Set Bonus:** \n- Wave Rider - Massively reduces stamina cost when in water (3 pieces equipped)\n\n**Ingredients Required:**\n- 5 Yarn, 1,350 Will (body)\n- 1 Yarn, 720 Will (arms)\n- 2 Yarn, 720 Will (legs)",
               latitude: "0.63072366625860",
               longitude: "-0.60448548226105",
             },
@@ -3777,7 +3786,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Bronze Set",
               description:
-                "**Location:** Craftable upon defeating [Elder Jinchi](http://localhost:3000/map/chapter-1?marker=397381) at the Secret [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380)\n\n**Set Pieces:**\n- Bronze Monkey Mask (Headgear)\n- Bronze Brocade Battlerobe (Body)\n- Bronze armguard (Arms)\n- Bronze buskins (Legs)\n\n**Rarity:** Rare \n\n**Defence:**  16 / 29 /  12 / 17\n   \n**Unique Effect:** \n- Performing light attack folling Evanescene directly triggers the finisher of light attack combo (arms)\t\n- 3% Burn Resistance (headgear), 4% Burn Resistance (arms)\n\n**Set Bonus:** \n- Evil Crasher - Deals addition damage to the enemy upon crashing their immobilization (2 pieces equipped)\n- Upon crashing the immobilization of the enemy, massively reduces the cooldown for Immobilize spell (4 pieces equipped)\n\n\n**Ingredients Required:**\n- 4 Yarn, 1 Silk, 810 Will (headgear)\n- 5 Yarn, 2 Silk, 2,000 Will (body)\n- 1 Yarn, 1 Silk, 810 Will (arms)\n- 2 Yarn, 1 Silk, 1,080 Will (legs)",
+                "**Location:** Craftable upon defeating [Elder Jinchi](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397381) at the Secret [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562)\n\n**Set Pieces:**\n- Bronze Monkey Mask (Headgear)\n- Bronze Brocade Battlerobe (Body)\n- Bronze armguard (Arms)\n- Bronze buskins (Legs)\n\n**Rarity:** Rare \n\n**Defence:**  16 / 29 /  12 / 17\n   \n**Unique Effect:** \n- Performing light attack folling Evanescene directly triggers the finisher of light attack combo (arms)\t\n- 3% Burn Resistance (headgear), 4% Burn Resistance (arms)\n\n**Set Bonus:** \n- Evil Crasher - Deals addition damage to the enemy upon crashing their immobilization (2 pieces equipped)\n- Upon crashing the immobilization of the enemy, massively reduces the cooldown for Immobilize spell (4 pieces equipped)\n\n\n**Ingredients Required:**\n- 4 Yarn, 1 Silk, 810 Will (headgear)\n- 5 Yarn, 2 Silk, 2,000 Will (body)\n- 1 Yarn, 1 Silk, 810 Will (arms)\n- 2 Yarn, 1 Silk, 1,080 Will (legs)",
               latitude: "0.82948455633549",
               longitude: "-0.71807336499103",
             },
@@ -3785,7 +3794,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Ebongold Set",
               description:
-                "**Location:** Craftable upon defeating [Black Bear Guai](http://localhost:3000/map/chapter-1?marker=397388) at the end of Chapter 1\n\n**Set Pieces:**\n- Ebongold Silk Robe (Body)\n- Ebongold Armguard (Arms)\n- Ebongold Gaiters (Legs)\n\n**Rarity:** Rare \n\n**Defence:**  31 /  13 / 19\n   \n**Unique Effect:** \n- 4% Burn Resistance (arms)\t\n- After a moment in Cloud Step, considerably increases Unveiling Strike damage (legs)  \n- 2% Poison Resistance (legs)\t\n\n**Set Bonus:** \n- Dance of the Black Wind: In Cloud Step, shrouding black wind will attack enemies nearby the Destined One and the decoy continuously (4 pieces required ?? - Glitch??)\t\n\n**Ingredients Required:**\n- 5 Yarn, 2 Silk, 1,800 Will (body)\n- 1 Yarn, 1 Silk, 810 Will (arms)\n- 4 Yarn, 2 Silk, 1,080 Will (legs)",
+                "**Location:** Craftable upon defeating [Black Bear Guai](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397388) at the end of Chapter 1\n\n**Set Pieces:**\n- Ebongold Silk Robe (Body)\n- Ebongold Armguard (Arms)\n- Ebongold Gaiters (Legs)\n\n**Rarity:** Rare \n\n**Defence:**  31 /  13 / 19\n   \n**Unique Effect:** \n- 4% Burn Resistance (arms)\t\n- After a moment in Cloud Step, considerably increases Unveiling Strike damage (legs)  \n- 2% Poison Resistance (legs)\t\n\n**Set Bonus:** \n- Dance of the Black Wind: In Cloud Step, shrouding black wind will attack enemies nearby the Destined One and the decoy continuously (4 pieces required ?? - Glitch??)\t\n\n**Ingredients Required:**\n- 5 Yarn, 2 Silk, 1,800 Will (body)\n- 1 Yarn, 1 Silk, 810 Will (arms)\n- 4 Yarn, 2 Silk, 1,080 Will (legs)",
               latitude: "0.46704251908976",
               longitude: "-0.89843273162981",
             },
@@ -3806,7 +3815,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Cat's Eye Beads",
               description:
-                "Reward for defeating the [Wandering Wight](http://localhost:3000/map/chapter-1?marker=397294)",
+                "Reward for defeating the [Wandering Wight](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397294)",
               latitude: "0.96352826607695",
               longitude: "-0.89885868111591",
             },
@@ -3814,7 +3823,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wind Chime",
               description:
-                "**Location:** Deluxe edition exclusive.  Found in front of the [Front Hills](http://localhost:3000/map/chapter-1?marker=397271) shrine.",
+                "**Location:** Deluxe edition exclusive.  Found in front of the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397271) shrine.",
               latitude: "0.64451826005011",
               longitude: "-0.81310193212826",
             },
@@ -3822,7 +3831,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Agate Jar",
               description:
-                "**Location:** Inside a chest after defeating the [Black Wind King](http://localhost:3000/map/chapter-1?marker=397387)",
+                "**Location:** Inside a chest after defeating the [Black Wind King](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397387)",
               latitude: "0.42481958425466",
               longitude: "-0.73525875182273",
               media: [
@@ -3836,7 +3845,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Boshan Censor",
               description:
-                "**Location:** Reward for defeating the [Red Loong](http://localhost:3000/map/chapter-1?marker=398284) in the hidden [Waterfall Cave](http://localhost:3000/map/chapter-1?marker=398283)",
+                "**Location:** Reward for defeating the [Red Loong](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398284) in the hidden [Waterfall Cave](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398283)",
               latitude: "1.01092280072110",
               longitude: "-0.98009319786621",
             },
@@ -3844,7 +3853,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Back Scratcher",
               description:
-                "**Location:** Available to purchase for Chapter 1 Shrines after defeating [Black Bear Guai](http://localhost:3000/map/chapter-1?marker=397388).  Costs 2,400\n\n**Effect:** Considerably increases maximum stamina",
+                "**Location:** Available to purchase for Chapter 1 Shrines after defeating [Black Bear Guai](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397388).  Costs 2,400\n\n**Effect:** Considerably increases maximum stamina",
               latitude: "0.52093510242729",
               longitude: "-0.87752032824866",
             },
@@ -3852,7 +3861,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tiger Tally",
               description:
-                '**Location:** Reward for defeating ["Tiger Vanguard"](http://localhost:3000/map/chapter-2?marker=397645)',
+                '**Location:** Reward for defeating ["Tiger Vanguard"](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397645)',
               latitude: "0.98996867428075",
               longitude: "-0.51979989541823",
             },
@@ -3868,7 +3877,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tridacna Pendant",
               description:
-                "**Location:** Reward for defeating [Black Loong](http://localhost:3000/map/chapter-2?marker=397647)",
+                "**Location:** Reward for defeating [Black Loong](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397647)",
               latitude: "0.77201556730866",
               longitude: "-0.52412405157850",
             },
@@ -3884,7 +3893,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Frostsprout Twig",
               description:
-                "**Location:** Reward for defeating [Captain Lotus-Vision](http://localhost:3000/map/chapter-3?marker=397822)",
+                "**Location:** Reward for defeating [Captain Lotus-Vision](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397822)",
               latitude: "0.65465761398860",
               longitude: "-0.59899669750178",
             },
@@ -3971,7 +3980,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Immobilize",
               description:
-                "**Location:** Received from the Keeper of Black Wind Mountain during the [Bullguard](http://localhost:3000/map/chapter-1?marker=397283) fight",
+                "**Location:** Received from the Keeper of Black Wind Mountain during the [Bullguard](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397283) fight",
               latitude: "0.68327007279626",
               longitude: "-0.90139335438147",
             },
@@ -3979,7 +3988,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Red Tides",
               description:
-                "**Location:** Reward for defeating [Guangzhi](http://localhost:3000/map/chapter-1?marker=397296)",
+                "**Location:** Reward for defeating [Guangzhi](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397296)",
               latitude: "1.03918601039410",
               longitude: "-0.89271300323969",
               media: [
@@ -3993,7 +4002,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Cloud Step",
               description:
-                "**Location:** Reward for defeating [Black Wind King](http://localhost:3000/map/chapter-1?marker=397387)",
+                "**Location:** Reward for defeating [Black Wind King](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397387)",
               latitude: "0.43734602610230",
               longitude: "-0.73488235473724",
             },
@@ -4001,7 +4010,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Azure Dust",
               description:
-                "**Location:** Reward for defeating the [Man-In-Stone](http://localhost:3000/map/chapter-2?marker=397640)",
+                "**Location:** Reward for defeating the [Man-In-Stone](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397640)",
               latitude: "0.72961087002729",
               longitude: "-0.66460311412939",
             },
@@ -4022,7 +4031,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Ashen Slumber",
               description:
-                "**Location:** Inside Alcove blocked by purple seal. If you interacted with [Ashen Slumber in Chapter 2](http://localhost:3000/map/chapter-2?marker=398780), then you will find them dead in the prison cell with The Third Prince.\n\n**Effect:** Blow forth flames where ash is laid, for days of glory soon shall fade. Transform into a rat guar, slashing at the enemy while blowing fierce flames at them, inflicting Scorch Bane. Focus built up before transformation can be converted for use afterward.",
+                "**Location:** Inside Alcove blocked by purple seal. If you interacted with [Ashen Slumber in Chapter 2](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398780), then you will find them dead in the prison cell with The Third Prince.\n\n**Effect:** Blow forth flames where ash is laid, for days of glory soon shall fade. Transform into a rat guar, slashing at the enemy while blowing fierce flames at them, inflicting Scorch Bane. Focus built up before transformation can be converted for use afterward.",
               latitude: "0.46043057361337",
               longitude: "-0.63274518931163",
             },
@@ -4042,7 +4051,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Fireproof Mantle Vessel",
               description:
-                "**Location:** Rewarded for defeating [Elder Jinchi](http://localhost:3000/map/chapter-1?marker=397381) in the [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380)",
+                "**Location:** Rewarded for defeating [Elder Jinchi](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397381) in the [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562)",
               latitude: "0.83704384201968",
               longitude: "-0.69957721156376",
             },
@@ -4050,7 +4059,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Wind Tamer",
               description:
-                "**Location:** Reward for defeating [Fuban](http://localhost:3000/map/chapter-2?marker=397646)",
+                "**Location:** Reward for defeating [Fuban](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397646)",
               latitude: "1.09510166985710",
               longitude: "-0.42554855346586",
             },
@@ -4063,7 +4072,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Bronze Cloud Staff",
               description:
-                "Deluxe edition exclusive.  Found in front of the [Front Hills](http://localhost:3000/map/chapter-1?marker=397271) shrine.",
+                "Deluxe edition exclusive.  Found in front of the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397271) shrine.",
               latitude: "0.64901691340606",
               longitude: "-0.80872406041979",
             },
@@ -4071,7 +4080,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Twin Serpents Staff",
               description:
-                "**Location:** Craftable upon defeating the [Whiteclad Noble](http://localhost:3000/map/chapter-1?marker=397389) in Bamboo Grove  \n\n**Damage:** 40  \n**Critical Chance:** N/A  \n\n**Unique Effect:** Moderately increases the damage of light attack combo finishers. The effect is massively enhanced when fighting in water.  \n\n**Crafting Ingredients:* \n- 1 Jade Fang\n- 8 Stone Spirit\n- 2,700 Will",
+                "**Location:** Craftable upon defeating the [Whiteclad Noble](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397389) in Bamboo Grove  \n\n**Damage:** 40  \n**Critical Chance:** N/A  \n\n**Unique Effect:** Moderately increases the damage of light attack combo finishers. The effect is massively enhanced when fighting in water.  \n\n**Crafting Ingredients:* \n- 1 Jade Fang\n- 8 Stone Spirit\n- 2,700 Will",
               latitude: "0.63176669755026",
               longitude: "-0.59198523194149",
             },
@@ -4079,7 +4088,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wind Bear Staff",
               description:
-                "**Location:** Craftable upon defeating the [Black Bear Guai](http://localhost:3000/map/chapter-1?marker=397388) at the end of Chapter 1\n\n**Damage:** 50  \n**Critical Chance:** 4% Critical Hit Chance\t   \n\n**Unique Effect:** Considerably increases the critical hit chance of the Unveiling Strike of Cloud Step\t\n\n**Crafting Ingredients:** \n- 1 Flame Ebongold\n- 4 Yaoguai Core\n- 8 Stone Spirit\n- 8,100 Will",
+                "**Location:** Craftable upon defeating the [Black Bear Guai](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397388) at the end of Chapter 1\n\n**Damage:** 50  \n**Critical Chance:** 4% Critical Hit Chance\t   \n\n**Unique Effect:** Considerably increases the critical hit chance of the Unveiling Strike of Cloud Step\t\n\n**Crafting Ingredients:** \n- 1 Flame Ebongold\n- 4 Yaoguai Core\n- 8 Stone Spirit\n- 8,100 Will",
               latitude: "0.46721417476142",
               longitude: "-0.88575661182608",
             },
@@ -4087,7 +4096,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Loongwreathe Staff",
               description:
-                "**Location:** Craftable after defeating [Black Loong](http://localhost:3000/map/chapter-2?marker=397647) or [Red Loong](http://localhost:3000/map/chapter-1?marker=398284) (in Chapter 1)  \n\n**Damage:** 70  \n**Critical Chance:** 0  \n\n**Unique Effect:** Moderately increases the damage dealt by all Pillar Stance moves\t\n\n**Crafting Ingredients:** \n- 1 Thunder Tail\n- 1 Thunderbone\n- 4 Refined Iron Sand\n- 21,000 Will",
+                "**Location:** Craftable after defeating [Black Loong](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397647) or [Red Loong](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398284) (in Chapter 1)  \n\n**Damage:** 70  \n**Critical Chance:** 0  \n\n**Unique Effect:** Moderately increases the damage dealt by all Pillar Stance moves\t\n\n**Crafting Ingredients:** \n- 1 Thunder Tail\n- 1 Thunderbone\n- 4 Refined Iron Sand\n- 21,000 Will",
               latitude: "0.75331357209689",
               longitude: "-0.51492143288252",
             },
@@ -4095,7 +4104,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rat Sage Staff",
               description:
-                "**Location:** Craftable upon defeating the [Yellow Wind Sage](http://localhost:3000/map/chapter-2?marker=397641)   \n\n**Damage:** 66  \n**Critical Chance:** 7% Critical Hit Chance  \n\n**Unique Effect:** The fourth move of light attack combo and mobile staff spin can stir up a whirlwind of sands, increases attack range and damage\n\n**Crafting Ingredients:** \n- 1 Samadhi Wind Agate\n- 4 Refined Iron Sand\n- 8 Yaoguai Core\n- 21,000 Will",
+                "**Location:** Craftable upon defeating the [Yellow Wind Sage](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397641)   \n\n**Damage:** 66  \n**Critical Chance:** 7% Critical Hit Chance  \n\n**Unique Effect:** The fourth move of light attack combo and mobile staff spin can stir up a whirlwind of sands, increases attack range and damage\n\n**Crafting Ingredients:** \n- 1 Samadhi Wind Agate\n- 4 Refined Iron Sand\n- 8 Yaoguai Core\n- 21,000 Will",
               latitude: "0.68117938825047",
               longitude: "-0.95423929453511",
             },
@@ -4103,7 +4112,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Cloud-Patterned Stone Staff",
               description:
-                "**Location:** Craftable upon defeating [Shigandang](http://localhost:3000/map/chapter-2?marker=397642)  \n\n**Atack:** 60\n\n**Defense:** 30\n\n**Critical Chance:** ??\n\n**Unique Effect:** Moderately increases the Damage executed by charged Smash Heavy Attacks.\n\n**Crafting Ingredients:**   \n- Heart of Stone (1x) (Dropped by [Shingandang](http://localhost:3000/map/chapter-2?marker=397642))\n- Yaoguai Core (4x)\n- Stone Spirit (8x)\n- Will (8,100)",
+                "**Location:** Craftable upon defeating [Shigandang](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397642)  \n\n**Atack:** 60\n\n**Defense:** 30\n\n**Critical Chance:** ??\n\n**Unique Effect:** Moderately increases the Damage executed by charged Smash Heavy Attacks.\n\n**Crafting Ingredients:**   \n- Heart of Stone (1x) (Dropped by [Shingandang](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397642))\n- Yaoguai Core (4x)\n- Stone Spirit (8x)\n- Will (8,100)",
               latitude: "0.82242287161856",
               longitude: "-0.76232671737628",
             },
@@ -4111,7 +4120,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Kang-Jin Staff",
               description:
-                "**Location:** Craftable upon defeating [Kang-Jin Loong](http://localhost:3000/map/chapter-3?marker=397821)  \n\n**Damage:** ??  \n**Critical Chance:** ??  \n\n**Unique Effect:** ??\n\n**Crafting Ingredients:**   \n- ??",
+                "**Location:** Craftable upon defeating [Kang-Jin Loong](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=397821)  \n\n**Damage:** ??  \n**Critical Chance:** ??  \n\n**Unique Effect:** ??\n\n**Crafting Ingredients:**   \n- ??",
               latitude: 0.37239294849927,
               longitude: -0.63391270903833,
             },
@@ -4165,7 +4174,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Elite Rat Archer + 3x Rat Archer",
               description:
-                "**Location:** On top of the gate.  Will jump down once the [Earth Wolf](http://localhost:3000/map/chapter-2?marker=397430) is defeated.\n\nThe Elite Rat Archer will drop [Rat Archer Spirit](http://localhost:3000/map/chapter-2?marker=398492)",
+                "**Location:** On top of the gate.  Will jump down once the [Earth Wolf](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397430) is defeated.\n\nThe Elite Rat Archer will drop [Rat Archer Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398492)",
               latitude: "0.40940085084540",
               longitude: "-0.69880127906472",
             },
@@ -4185,7 +4194,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Elite Swift Bat",
               description:
-                "**Location:** Inside the cave - through a small crack. \n\n**Drops:** [Swift Bat Spirit](http://localhost:3000/map/chapter-2?marker=398760)",
+                "**Location:** Inside the cave - through a small crack. \n\n**Drops:** [Swift Bat Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398760)",
               latitude: "0.50195344379528",
               longitude: "-0.91149924034766",
             },
@@ -4207,7 +4216,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Elite Spearbone",
               description:
-                "**Location:** Guarding the [Sand Waterfall](http://localhost:3000/map/chapter-2?marker=398854)",
+                "**Location:** Guarding the [Sand Waterfall](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398854)",
               latitude: "0.83244228314979",
               longitude: "-0.62402007813054",
               media: [
@@ -4227,7 +4236,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Elite Rat Governor",
               description:
-                "Drops [Rat Governor Spirit](http://localhost:3000/map/chapter-2?marker=399178) upon defeat",
+                "Drops [Rat Governor Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399178) upon defeat",
               latitude: "0.81071232357543",
               longitude: "-0.83418480136871",
             },
@@ -4330,7 +4339,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Bullguard",
               description:
-                "**Location:** Guarding the gate  \n\n**Reward:** \n- [Immobilize Spell](http://localhost:3000/map/chapter-1?marker=397909)\n- Stone Spirit\n- 396x Will",
+                "**Location:** Guarding the gate  \n\n**Reward:** \n- [Immobilize Spell](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397909)\n- Stone Spirit\n- 396x Will",
               latitude: "0.68370500394751",
               longitude: "-0.90792240800815",
               media: [
@@ -4344,7 +4353,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wandering Wight",
               description:
-                "**Location:** Wandering around  the area\n\n**Reward:** \n- [Wandering Wight Spirit](http://localhost:3000/map/chapter-1?marker=397324)\n- [Cat's Eye Beads](http://localhost:3000/map/chapter-1?marker=397325)\n- Stone Spirit x1\n- 1,049 Experience\n- 691 Will",
+                "**Location:** Wandering around  the area\n\n**Reward:** \n- [Wandering Wight Spirit](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397324)\n- [Cat's Eye Beads](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397325)\n- Stone Spirit x1\n- 1,049 Experience\n- 691 Will",
               latitude: "0.96306080351772",
               longitude: "-0.89047193527344",
             },
@@ -4352,7 +4361,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Guangzhi",
               description:
-                "**Location:** Forest  \n\n**Reward:** \n- [Red Tides](http://localhost:3000/map/chapter-1?marker=398168) (Transformation Spell)\n- Stone Spirit x1\n- 700 Experience\n- 528 Will",
+                "**Location:** Forest  \n\n**Reward:** \n- [Red Tides](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398168) (Transformation Spell)\n- Stone Spirit x1\n- 700 Experience\n- 528 Will",
               latitude: "1.03937408461890",
               longitude: "-0.89680194854645",
               media: [
@@ -4366,7 +4375,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Guangmou",
               description:
-                "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Guangmou Spirit](http://localhost:3000/map/chapter-1?marker=397478)\n- Blood of the Iron Bull\n- 524 Will\n- Stone Spirit",
+                "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Guangmou Spirit](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397478)\n- Blood of the Iron Bull\n- 524 Will\n- Stone Spirit",
               latitude: "0.74848668660222",
               longitude: "-0.47232627868885",
             },
@@ -4374,7 +4383,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Baw-Li-Guhh-Lang",
               description:
-                "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Baw-Li-Guhh-Lang Spirit](http://localhost:3000/map/chapter-1?marker=397477)\n- Tadpole\n- 400 Will\n- 2 Yarn",
+                "**Location:** \tBamboo Grove - Snake Trail\n\n**Reward:**\n- [Baw-Li-Guhh-Lang Spirit](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397477)\n- Tadpole\n- 400 Will\n- 2 Yarn",
               latitude: "0.81186677060214",
               longitude: "-0.58686733245904",
             },
@@ -4382,7 +4391,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Lang-Li-Guhh-Baw",
               description:
-                "**Location:** Sandgate Village - Village Entrance  \n\n**Reward:** \n- [Evil Repelling Medicament Formula](http://localhost:3000/map/chapter-2?marker=398788)\n- Tadpole\n- Silk x2\n- Yarn x2",
+                "**Location:** Sandgate Village - Village Entrance  \n\n**Reward:** \n- [Evil Repelling Medicament Formula](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398788)\n- Tadpole\n- Silk x2\n- Yarn x2",
               latitude: "0.51565360128915",
               longitude: "-0.67433831925282",
             },
@@ -4390,7 +4399,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Earth Wolf",
               description:
-                "**Location:** Sandgate Village - Village Entrance\n  \n**Reward:** \n- [Earth Wolf Spirit](http://localhost:3000/map/chapter-2?marker=397841)\n- Stone Spirit x1",
+                "**Location:** Sandgate Village - Village Entrance\n  \n**Reward:** \n- [Earth Wolf Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397841)\n- Stone Spirit x1",
               latitude: "0.39169674890025",
               longitude: "-0.71888444657128",
             },
@@ -4398,7 +4407,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "King of Flowing Sands + Second Rat Prince",
               description:
-                "**Location:** Sandgate Village - Valley Of Despair\n  \n**Reward:** \n- [Second Rat Prince Spirit](http://localhost:3000/map/chapter-2?marker=397842)\n- Pungent Flesh Chunk\n- Blood of the Iron Bull x2\n- Silk x2\n- Yaoguai Core x2\n- Stone Spirit x1",
+                "**Location:** Sandgate Village - Valley Of Despair\n  \n**Reward:** \n- [Second Rat Prince Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397842)\n- Pungent Flesh Chunk\n- Blood of the Iron Bull x2\n- Silk x2\n- Yaoguai Core x2\n- Stone Spirit x1",
               latitude: "0.47193557546872",
               longitude: "-0.78148942371277",
             },
@@ -4406,7 +4415,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tiger's Acolyte",
               description:
-                "**Location:** Yellow Wind Formation - Windrest Hamlet\n  \n\n**Reward:** \n- [Tiger's Acolyte Spirit](http://localhost:3000/map/chapter-2?marker=397845)\n- [Old-Rattle Drum](http://localhost:3000/map/chapter-2?marker=399043)\n- Silk x2\n- Yarn x2\n- 758 Experience\n- 779 Will",
+                "**Location:** Yellow Wind Formation - Windrest Hamlet\n  \n\n**Reward:** \n- [Tiger's Acolyte Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397845)\n- [Old-Rattle Drum](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399043)\n- Silk x2\n- Yarn x2\n- 758 Experience\n- 779 Will",
               latitude: "0.72607600377910",
               longitude: "-0.88247895240733",
             },
@@ -4422,7 +4431,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Mother Of Stones",
               description:
-                "**Location:** Fright Cliff - Squall Hideout\n\n**Reward:** \n- [Stone Essence](http://localhost:3000/map/chapter-2?marker=398843)\n- Yaoguai Core x1\n- Stone Spirit x1",
+                "**Location:** Fright Cliff - Squall Hideout\n\n**Reward:** \n- [Stone Essence](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398843)\n- Yaoguai Core x1\n- Stone Spirit x1",
               latitude: "0.73919955215651",
               longitude: "-0.75214649723528",
               media: [
@@ -4436,7 +4445,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Man-In-Stone",
               description:
-                "**Location:** Fright Cliff - Squall Hideout   \n\n**Reward:** \n- [Azure Dust Spell](http://localhost:3000/map/chapter-2?marker=398189)",
+                "**Location:** Fright Cliff - Squall Hideout   \n\n**Reward:** \n- [Azure Dust Spell](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398189)",
               latitude: "0.72677868606269",
               longitude: "-0.66479623317829",
               media: [
@@ -4450,7 +4459,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Mad Tiger",
               description:
-                "**Location:** Sandgate Village - Bottom Of The Well\n  \n\n**Reward:** \n- [Mad Tiger Spirit](http://localhost:3000/map/chapter-2?marker=mad-tiger-spirit)\n- Blood of the Iron Bull\n- Yaoguai Core\n- Stone Spirit \n- 1102 Experience\n- 1023 Will",
+                "**Location:** Sandgate Village - Bottom Of The Well\n  \n\n**Reward:** \n- [Mad Tiger Spirit](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=mad-tiger-spirit)\n- Blood of the Iron Bull\n- Yaoguai Core\n- Stone Spirit \n- 1102 Experience\n- 1023 Will",
               latitude: "0.34031667876272",
               longitude: "-0.62742233276236",
             },
@@ -4458,7 +4467,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: '"Tiger Vanguard"',
               description:
-                "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Tiger Tally](http://localhost:3000/map/chapter-2?marker=397848)\n- Silk x2\n- Yarn x2",
+                "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Tiger Tally](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397848)\n- Silk x2\n- Yarn x2",
               latitude: "0.97636265485365",
               longitude: "-0.52107810974303",
             },
@@ -4466,7 +4475,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "First Prince of Flowing Sands",
               description:
-                "**Location:** Sandgate Village - Valley of Despair.  Inside the cave - you must throw the [Pungent Flesh Chunk](http://localhost:3000/map/chapter-2?marker=398750) into the chasm to summon him.  \n\n**Reward:** \n- Arhat Gold Piece\n- Silk x2\n- Yarn x2",
+                "**Location:** Sandgate Village - Valley of Despair.  Inside the cave - you must throw the [Pungent Flesh Chunk](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398750) into the chasm to summon him.  \n\n**Reward:** \n- Arhat Gold Piece\n- Silk x2\n- Yarn x2",
               latitude: "0.48161714338430",
               longitude: "-0.85291564464492",
             },
@@ -4482,7 +4491,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Lotus-Vision",
               description:
-                "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:** \n- [Spirit of Captain Lotus-Vision](http://localhost:3000/map/chapter-3?marker=398918) \n- [Frostsprout Twig](http://localhost:3000/map/chapter-3?marker=399852)\n- Mind Core",
+                "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:** \n- [Spirit of Captain Lotus-Vision](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=398918) \n- [Frostsprout Twig](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399852)\n- Mind Core",
               latitude: "0.64895195986385",
               longitude: "-0.60216665267689",
             },
@@ -4514,7 +4523,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-White #1",
               description:
-                "**Location:** Valley Of Ecstasy - Mindfulness Cliff\n(Frist encounter)\n\n**Reward:** \n- [Non-White Spirit](http://localhost:3000/map/chapter-3?marker=398920)",
+                "**Location:** Valley Of Ecstasy - Mindfulness Cliff\n(Frist encounter)\n\n**Reward:** \n- [Non-White Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=398920)",
               latitude: "1.04453883750410",
               longitude: "-0.64276456832840",
             },
@@ -4530,7 +4539,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Old Ginseng Guai",
               description:
-                "**Location:** Valley Of Ecstasy - Forest Of Felicity\n  \n\n**Reward:** \n- [Old Ginseng Guai Spirit](http://localhost:3000/map/chapter-3?marker=399046)",
+                "**Location:** Valley Of Ecstasy - Forest Of Felicity\n  \n\n**Reward:** \n- [Old Ginseng Guai Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399046)",
               latitude: "1.08780106867020",
               longitude: "-0.63308179378424",
             },
@@ -4538,7 +4547,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-Able",
               description:
-                "**Location:** Valley Of Ecstasy - Brook Of Bliss  \n  \n\n**Reward:** \n- [Non-Able Spirit](http://localhost:3000/map/chapter-3?marker=399047)",
+                "**Location:** Valley Of Ecstasy - Brook Of Bliss  \n  \n\n**Reward:** \n- [Non-Able Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399047)",
               latitude: "1.07059417871070",
               longitude: "-0.62772138519969",
             },
@@ -4546,7 +4555,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Void-Illusion",
               description:
-                "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Void-Illusion Spirit](http://localhost:3000/map/chapter-3?marker=399048)",
+                "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Void-Illusion Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399048)",
               latitude: "1.09780657031340",
               longitude: "-0.61763226985673",
             },
@@ -4554,7 +4563,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Kalpa-Wave",
               description:
-                "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Kalpa-Wave Spirit](http://localhost:3000/map/chapter-3?marker=399049)",
+                "**Location:** Valley Of Ecstasy - Longevity Road\n  \n\n**Reward:** \n- [Captain Kalpa-Wave Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399049)",
               latitude: "1.11662948014320",
               longitude: "-0.62514245510101",
             },
@@ -4562,7 +4571,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-Pure",
               description:
-                "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Pure Spirit](http://localhost:3000/map/chapter-3?marker=399050)",
+                "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Pure Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399050)",
               latitude: "1.14582779786550",
               longitude: "-0.61803861218655",
             },
@@ -4570,7 +4579,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Non-Void",
               description:
-                "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Void Spirit](http://localhost:3000/map/chapter-3?marker=399051)",
+                "**Location:** New Thunderclap Temple - Temple Entrance\n  \n\n**Reward:** \n- [Non-Void Spirit](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=399051)",
               latitude: "1.13661003247650",
               longitude: "-0.64084927902528",
             },
@@ -4609,7 +4618,7 @@ export const bmw = {
               mapSlug: "chapter-4",
               title: "Venom Daoist #1",
               description:
-                "**Location:** Webbed Hollow - Pool Of Shattered Jade\n  \n**Reward:** \n- [Venomous Armguards](http://localhost:3000/map/chapter-4?marker=401907) (if you break his lower four arms on his back before defeating him)\n- Exp\n- Will",
+                "**Location:** Webbed Hollow - Pool Of Shattered Jade\n  \n**Reward:** \n- [Venomous Armguards](https://ritcher-map-v2.vercel.app/map/chapter-4?marker=401907) (if you break his lower four arms on his back before defeating him)\n- Exp\n- Will",
               latitude: "0.80430369345335",
               longitude: "-1.05235934257560",
             },
@@ -4817,7 +4826,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Lingxuzi",
               description:
-                "**Reward:**\n- [Grey Wolf Mask](http://localhost:3000/map/chapter-1?marker=397300)\n- [Mind Core](http://localhost:3000/map/chapter-1?marker=397301)\n- 700 Will",
+                "**Reward:**\n- [Grey Wolf Mask](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397300)\n- [Mind Core](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397301)\n- 700 Will",
               latitude: "0.78802962052421",
               longitude: "-0.78063011169394",
               media: [
@@ -4831,7 +4840,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Elder Jinchi",
               description:
-                "**Location:** Found in the secret [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380) (only accessible by ringing the 3 bells)\n\n**Reward:**\n- Fireproof Mantle Vessel\n- 2,000 Will",
+                "**Location:** Found in the secret [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562) (only accessible by ringing the 3 bells)\n\n**Reward:**\n- Fireproof Mantle Vessel\n- 2,000 Will",
               latitude: "0.83422335798035",
               longitude: "-0.70891857147066",
               media: [
@@ -4845,7 +4854,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Black Wind King",
               description:
-                "**Location:** Black Wind Cave - Cave Interior\n\n**Reward:**\n- [Cloud Step Spell](http://localhost:3000/map/chapter-1?marker=398307)",
+                "**Location:** Black Wind Cave - Cave Interior\n\n**Reward:**\n- [Cloud Step Spell](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398307)",
               latitude: "0.43939517381149",
               longitude: "-0.73923826217629",
             },
@@ -4861,7 +4870,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Whiteclad Noble",
               description:
-                "**Location:** Bamboo Grove - Marsh of the White Mist\n\n**Reward:**\n- [Twin Serpents Staff](http://localhost:3000/map/chapter-1?marker=398196)\n- Jade Fang",
+                "**Location:** Bamboo Grove - Marsh of the White Mist\n\n**Reward:**\n- [Twin Serpents Staff](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398196)\n- Jade Fang",
               latitude: "0.62959834442245",
               longitude: "-0.59815406799282",
               media: [
@@ -4875,7 +4884,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Red Loong",
               description:
-                "**Location:** Inside the hidden [Waterfall Cave](http://localhost:3000/map/chapter-1?marker=398283).  You must first obtain the [Loong Scales](http://localhost:3000/map/chapter-2?marker=398767) from Chapter 2 to pass through the waterfall.\n\n**Reward:**\n- Boshan Censer\n- Thunder Tail\n- Loong Pearl\n- Mind Core\n- Silk\n- 1652 Experience\n- 1376 Will",
+                "**Location:** Inside the hidden [Waterfall Cave](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398283).  You must first obtain the [Loong Scales](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398767) from Chapter 2 to pass through the waterfall.\n\n**Reward:**\n- Boshan Censer\n- Thunder Tail\n- Loong Pearl\n- Mind Core\n- Silk\n- 1652 Experience\n- 1376 Will",
               latitude: "1.00752525246930",
               longitude: "-0.98414540290801",
             },
@@ -4883,7 +4892,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tiger Vanguard",
               description:
-                "**Location:** Crouching Tiger Temple - Temple Entrance  \n\n**Reward:**\n- [Rock Solid Spell](http://localhost:3000/map/chapter-2?marker=398769)\n- [Keeness of Tiger](http://localhost:3000/map/chapter-2?marker=398770)\n- Mind Core x1\n- Silk x3\n- 1652 Exp\n-",
+                "**Location:** Crouching Tiger Temple - Temple Entrance  \n\n**Reward:**\n- [Rock Solid Spell](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398769)\n- [Keeness of Tiger](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398770)\n- Mind Core x1\n- Silk x3\n- 1652 Exp\n-",
               latitude: "0.56670148265036",
               longitude: "-0.98673039793067",
               media: [
@@ -4897,7 +4906,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Stone Vanguard",
               description:
-                "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Galeguard Set](http://localhost:3000/map/chapter-2?marker=399052)\n- Sterness of Stone\n- Mind Core x1\n- Yaoguai Core x2",
+                "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Galeguard Set](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399052)\n- Sterness of Stone\n- Mind Core x1\n- Yaoguai Core x2",
               latitude: "0.83420190258271",
               longitude: "-0.75872182846027",
               media: [
@@ -4911,7 +4920,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Yellow Wind Sage",
               description:
-                "**Location:** Crouching Tiger Temple - Cellar\n  \n\n**Reward:**\n- [Rat Sage Staff](http://localhost:3000/map/chapter-2?marker=399056)\n\n**Reward at Conclusion of Chapter 2:**\n- 1x Samadhi Wind Agate\n- 2x Cold Iron Leaves\n- 5x Silk\n- 2x Yaoguai Core\n- 1x Refined Iron Sand\n- 1x Mind Core",
+                "**Location:** Crouching Tiger Temple - Cellar\n  \n\n**Reward:**\n- [Rat Sage Staff](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399056)\n\n**Reward at Conclusion of Chapter 2:**\n- 1x Samadhi Wind Agate\n- 2x Cold Iron Leaves\n- 5x Silk\n- 2x Yaoguai Core\n- 1x Refined Iron Sand\n- 1x Mind Core",
               latitude: "0.67177292259281",
               longitude: "-0.94912672859240",
             },
@@ -4919,7 +4928,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Shigandang",
               description:
-                "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Cloud-Patterned Stone Staff](http://localhost:3000/map/chapter-2?marker=399057)\n- Heart of Stone\n- Skhanda of Feeling\n- Mind Core x1\n- Yaoguai Core x2",
+                "**Location:** Fright Cliff - Rock Clash Platform\n  \n\n**Reward:**\n- [Cloud-Patterned Stone Staff](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399057)\n- Heart of Stone\n- Skhanda of Feeling\n- Mind Core x1\n- Yaoguai Core x2",
               latitude: "0.82160756399443",
               longitude: "-0.75374364852942",
             },
@@ -4927,7 +4936,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Fuban",
               description:
-                "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Wind Tamer](http://localhost:3000/map/chapter-2?marker=399060)\n- Sky-Piercing Horn",
+                "**Location:**  Kingdom Of Sah\u0101l\u012b - Sandgate Pass\n  \n**Reward:** \n- [Wind Tamer](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399060)\n- Sky-Piercing Horn",
               latitude: "1.08140246457400",
               longitude: "-0.42554855346623",
             },
@@ -4935,7 +4944,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Black Loong",
               description:
-                "**Location:** Fright Cliff - Hidden Loong Cavern\n\n**Reward:**\n- [Tridacna Pendant](http://localhost:3000/map/chapter-2?marker=399054)\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
+                "**Location:** Fright Cliff - Hidden Loong Cavern\n\n**Reward:**\n- [Tridacna Pendant](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399054)\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
               latitude: "0.77192166360884",
               longitude: "-0.53260257193517",
             },
@@ -4957,7 +4966,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Captain Wise-Voice",
               description:
-                "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:**\n- [Spirit of Captain Wise-Voice](http://localhost:3000/map/chapter-3?marker=398919)\n- Mind Core",
+                "**Location:** Pagoda Realm - Mani Wheel  \n\n**Reward:**\n- [Spirit of Captain Wise-Voice](https://ritcher-map-v2.vercel.app/map/chapter-3?marker=398919)\n- Mind Core",
               latitude: "0.71387323127763",
               longitude: "-0.61376452445899",
             },
@@ -4973,7 +4982,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Cyan Loong",
               description:
-                "**Location:** Bitter Lake - Turtle Island - You must interact with the dragon statue using the [Loong Scales](http://localhost:3000/map/chapter-2?marker=398767)\n\n**Reward:**\n- Tridacna Pendant\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
+                "**Location:** Bitter Lake - Turtle Island - You must interact with the dragon statue using the [Loong Scales](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398767)\n\n**Reward:**\n- Tridacna Pendant\n- Thunderbone\n- Loong Pearl x1\n- Refined Iron Sand x2\n- Mind Core x1",
               latitude: "0.86294130184690",
               longitude: "-0.75829803943563",
               media: [
@@ -5130,7 +5139,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Xu Dog's Quest",
               description:
-                "**How To Begin:** Speak to [Xu Dog](http://localhost:3000/map/chapter-2?marker=398476) in the cave in Sandgate Village\n\n**Steps:**\n0.  ??",
+                "**How To Begin:** Speak to [Xu Dog](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398476) in the cave in Sandgate Village\n\n**Steps:**\n0.  ??",
               latitude: "0.50263516298259",
               longitude: "-0.687371263221",
             },
@@ -5138,7 +5147,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Drunken Boar's Quest",
               description:
-                "**How To Begin:** Speak to the [Drunken Boar](http://localhost:3000/map/chapter-2?marker=398863)\n\n**Steps:**\n\n1. Give [Drunken Boar](http://localhost:3000/map/chapter-2?marker=398863) the [Sobering Stone](http://localhost:3000/map/chapter-2?marker=399634) (purchase from Man in Rock).\n2. Find the [Drunken Boar](http://localhost:3000/map/chapter-2?marker=399827) in the Tiger's Temple and give him the Jade Lotus.\n3. Return to he was originally and defeat the [Yellow-Robed Squire](http://localhost:3000/map/chapter-2?marker=397644)",
+                "**How To Begin:** Speak to the [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398863)\n\n**Steps:**\n\n1. Give [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398863) the [Sobering Stone](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399634) (purchase from Man in Rock).\n2. Find the [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399827) in the Tiger's Temple and give him the Jade Lotus.\n3. Return to he was originally and defeat the [Yellow-Robed Squire](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397644)",
               latitude: "0.92749735183827",
               longitude: "-0.70356364529886",
             },
@@ -5156,7 +5165,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Bell #1",
               description:
-                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380)",
+                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562)",
               latitude: "1.05507847702290",
               longitude: "-0.88899135589426",
               media: [
@@ -5170,7 +5179,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Ancient Guanyin Temple",
               description:
-                "A secret area that can only be accessed by ringing the 3 Bells:\n\n- [Bell #1](http://localhost:3000/map/chapter-1?marker=397298)\n- [Bell #2](http://localhost:3000/map/chapter-1?marker=397473)\n- [Bell #3](http://localhost:3000/map/chapter-1?marker=397472)",
+                "A secret area that can only be accessed by ringing the 3 Bells:\n\n- [Bell #1](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397298)\n- [Bell #2](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397473)\n- [Bell #3](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397472)",
               latitude: "0.88748241485041",
               longitude: "-0.74017861950489",
             },
@@ -5178,7 +5187,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Bell #3",
               description:
-                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380)",
+                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562)",
               latitude: "0.60294945749547",
               longitude: "-0.48425674438434",
               media: [
@@ -5192,7 +5201,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Bell #2",
               description:
-                "**Location:** Up the stairs from the [Guangmou](http://localhost:3000/map/chapter-1?marker=397385) arena\n\nInteract with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](http://localhost:3000/map/chapter-1?marker=397380)",
+                "**Location:** Up the stairs from the [Guangmou](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=472) arena\n\nInteract with the pole to ring the bell. Activate all 3 bells to reveal the [Ancient Guanyin Temple](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=562)",
               latitude: "0.73368213135215",
               longitude: "-0.44250011444345",
             },
@@ -5200,7 +5209,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Secret: Waterfall Cave",
               description:
-                "**Location:** Behind the waterfall.  You must first obtain the [Loong Scales](http://localhost:3000/map/chapter-2?marker=398767) from Chapter 2 and return here.",
+                "**Location:** Behind the waterfall.  You must first obtain the [Loong Scales](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398767) from Chapter 2 and return here.",
               latitude: "1.00176862400650",
               longitude: "-0.97829916568384",
               media: [
@@ -5214,7 +5223,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Hidden Chamber",
               description:
-                "**Location:** Break open the stone wall in the [First Prince of Flowing Sands](http://localhost:3000/map/chapter-2?marker=397843) arena using the Wandering Wight spirit",
+                "**Location:** Break open the stone wall in the [First Prince of Flowing Sands](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397843) arena using the Wandering Wight spirit",
               latitude: 0.48927122085464,
               longitude: "-0.84895511135244",
               media: [
@@ -5232,7 +5241,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Tiger Temple Secret Passage",
               description:
-                "A hidden underground passage, accessible by placing the [Sterness of Stone](http://localhost:3000/map/chapter-2?marker=398923) in the statue",
+                "A hidden underground passage, accessible by placing the [Sterness of Stone](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398923) in the statue",
               latitude: "0.56921941421969",
               longitude: "-0.99700044987387",
             },
@@ -5245,7 +5254,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Locked Gate",
               description:
-                "**Requires:** \n- [Sterness of Stone](http://localhost:3000/map/chapter-2?marker=398923)\n- [Keeness of Tiger](http://localhost:3000/map/chapter-2?marker=398770)",
+                "**Requires:** \n- [Sterness of Stone](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398923)\n- [Keeness of Tiger](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398770)",
               latitude: "0.48897149668854",
               longitude: "-0.79247474670365",
             },
@@ -5273,7 +5282,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Locked Gate",
               description:
-                "Can only be opened from the rear after defeating the [Earth Wolf](http://localhost:3000/map/chapter-2?marker=397430)",
+                "Can only be opened from the rear after defeating the [Earth Wolf](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397430)",
               latitude: "0.40940890001028",
               longitude: "-0.70321083068777",
             },
@@ -5281,7 +5290,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Locked Gate",
               description:
-                "Requires [Keeness of Tiger](http://localhost:3000/map/chapter-2?marker=398770)",
+                "Requires [Keeness of Tiger](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398770)",
               latitude: "0.64170329110955",
               longitude: "-0.85218129194763",
             },
@@ -5289,7 +5298,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Pluck of Many",
               description:
-                "Alternative location for obtaining the [Pluck of Many](http://localhost:3000/map/chapter-2?marker=399176) - whichever area you reach first.",
+                "Alternative location for obtaining the [Pluck of Many](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399176) - whichever area you reach first.",
               latitude: "0.64337255394345",
               longitude: "-0.83288356863045",
             },
@@ -5477,7 +5486,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Yellow-Robed Squire",
               description:
-                "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](http://localhost:3000/map/chapter-2?marker=398924)",
+                "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398924)",
               latitude: "0.93424878783188",
               longitude: "-0.70666538820186",
             },
@@ -5516,13 +5525,12 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Keeper of Black Wind Mountain",
               description:
-                "Appears after activating the [Front Hills](http://localhost:3000/map/chapter-1?marker=397271) shrine",
+                "Appears after activating the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397271) shrine",
               latitude: "0.65677715080875",
               longitude: "-0.81638707679434",
               media: [
                 {
                   type: "image",
-
                   url: "https://lh3.googleusercontent.com/ecQnkuNSovP1slRzlsfGMwLbwxAb9l7GXJicg09oae5-A4mJeCzI44D2FXmdLSvXSSNJBRedEgOcRf88WbWlUEegEpzyjGA2MJLSduCTKw=s0",
                 },
               ],
@@ -5556,7 +5564,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Shen Monkey",
               description:
-                "**Chapter 1 Stock**\n- [Celestial Lotus Seeds](http://localhost:3000/map/chapter-1?marker=398187) (Soak) - 2400 Will\n\n**Chapter 3 Stock**\n- [Jade Lotus Gourd](http://localhost:3000/map/chapter-1?marker=398925) - 7200 Will\n- Awaken Wine Worm - 1500 Will\n- Luojia Fragrant Vine - 2000 Will\n- [Thunderbolt Horn](http://localhost:3000/map/chapter-1?marker=398926) (Soak) - 3600 Will",
+                "**Chapter 1 Stock**\n- [Celestial Lotus Seeds](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398187) (Soak) - 2400 Will\n\n**Chapter 3 Stock**\n- [Jade Lotus Gourd](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398925) - 7200 Will\n- Awaken Wine Worm - 1500 Will\n- Luojia Fragrant Vine - 2000 Will\n- [Thunderbolt Horn](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=398926) (Soak) - 3600 Will",
               latitude: "0.71549820851233",
               longitude: "-0.59031665325298",
             },
@@ -5576,7 +5584,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Yellow-Robed Squire",
               description:
-                "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](http://localhost:3000/map/chapter-2?marker=398924)",
+                "**Location:** Fright Cliff - Rockrest Flat\n  \n\n**Reward:** \n- [Snout Mask](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398924)",
               latitude: "0.93424878783188",
               longitude: "-0.70666538820186",
             },
@@ -5591,7 +5599,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Xu Dog",
               description:
-                "**Location:** Inside the cave. \n\nDefeat [Lang-Li-Guhh-Baw](http://localhost:3000/map/chapter-2?marker=397429) and then return to him with the [Evil Repelling Medicant](http://localhost:3000/map/chapter-2?marker=398788) formula.  He will teach you how to brew them at Shrines\n\n**Related Quest:** [Xu Dog's Quest](http://localhost:3000/map/chapter-2?marker=398921)",
+                "**Location:** Inside the cave. \n\nDefeat [Lang-Li-Guhh-Baw](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397429) and then return to him with the [Evil Repelling Medicant](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398788) formula.  He will teach you how to brew them at Shrines\n\n**Related Quest:** [Xu Dog's Quest](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398921)",
               latitude: "0.50180861033366",
               longitude: "-0.69197652573223",
             },
@@ -5612,7 +5620,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rock NPC",
               description:
-                "**Location:** At the end of the ravine.  Bring him the [Stone Essence](http://localhost:3000/map/chapter-2?marker=398843) from the [Mother Of Stones](http://localhost:3000/map/chapter-2?marker=397639) to free him",
+                "**Location:** At the end of the ravine.  Bring him the [Stone Essence](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398843) from the [Mother Of Stones](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397639) to free him",
               latitude: "0.72393040835266",
               longitude: "-0.66469967365384",
               media: [
@@ -5626,7 +5634,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Drunken Boar",
               description:
-                "**Location:** Lying drunk beside a rock\n\n**Related Quest:** [Drunken Boar's Quest](http://localhost:3000/map/chapter-2?marker=398922)",
+                "**Location:** Lying drunk beside a rock\n\n**Related Quest:** [Drunken Boar's Quest](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398922)",
               latitude: "0.92763900944172",
               longitude: "-0.70875970390111",
               media: [
@@ -5667,7 +5675,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Headless Monk",
               description:
-                "Grants [Pluck of Many](http://localhost:3000/map/chapter-2?marker=399176) after cutscene.",
+                "Grants [Pluck of Many](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399176) after cutscene.",
               latitude: "0.64438266655648",
               longitude: "-0.84109822202893",
             },
@@ -5675,7 +5683,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Yellow-Robed Squire",
               description:
-                "Found here after giving the [Drunken Boar](http://localhost:3000/map/chapter-2?marker=398863) the [Sobering Stone](http://localhost:3000/map/chapter-2?marker=399634)",
+                "Found here after giving the [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398863) the [Sobering Stone](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399634)",
               latitude: "0.57844073117383",
               longitude: "-0.96255885987748",
             },
@@ -5739,8 +5747,8 @@ export const bmw = {
               longitude: "-0.82395954775922",
               media: [
                 {
+                  url: "https://media.mapgenie.io/storage/media/4c9a1ca8-9ed7-4788-8797-d55e8c387a60.png",
                   type: "image",
-                  url: "https://lh3.googleusercontent.com/AbNv5MmtLIJAjitqd_c5bCrvl1ww0wR6rmfQwafxE74Gd2Z2X-9iNA0tRbh_zsRTHhHmGfO91p7rjEwf7bBVkkBxj6tvkfrgnKhQxTKcpHo=s0",
                 },
               ],
             },
@@ -5774,18 +5782,6 @@ export const bmw = {
               title: "Aged Ginseng",
               latitude: "1.05570833824880",
               longitude: "-0.87962798280770",
-            },
-            {
-              mapSlug: "chapter-3",
-              title: "Aged Ginseng",
-              latitude: "0.26064544423843",
-              longitude: "-0.64496397972019",
-            },
-            {
-              mapSlug: "chapter-3",
-              title: "Aged Ginseng",
-              latitude: "0.34152901577762",
-              longitude: "-0.89360475540076",
             },
             {
               mapSlug: "chapter-2",
@@ -5841,6 +5837,341 @@ export const bmw = {
               description: "Note: May receive steel ginseng at this location.",
               latitude: "0.77577713019643",
               longitude: "-1.01626499135900",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "0.26064544423843",
+              longitude: "-0.64496397972019",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "0.34152901577762",
+              longitude: "-0.89360475540076",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "1.13232896561350",
+              longitude: "-0.61033950800964",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "1000-Years Old Ginseng",
+              latitude: "0.99725127057259",
+              longitude: "-0.64278583506893",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              description: "**Location** Behind the tree where giant lotus is",
+              latitude: "0.85035985603997",
+              longitude: "-0.53034971552029",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "0.97269408435601",
+              longitude: "-0.69820515400943",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "0.94575650875008",
+              longitude: "-0.75891560701791",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "0.91999414510386",
+              longitude: "-0.76419127440943",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "1.13537932894440",
+              longitude: "-0.63115262674214",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Aged Ginseng",
+              latitude: "0.41309684240278",
+              longitude: "-0.80198585987060",
+            },
+          ],
+        },
+        {
+          title: "Purple Lingzhi",
+          locations: [
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              description: "**Location:** At the edge of the river",
+              latitude: "0.69849026661865",
+              longitude: "-0.85114041652847",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              latitude: "0.74343582061651",
+              longitude: "-0.89276514266368",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              latitude: "0.95782948254761",
+              longitude: "-0.94434661050130",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              latitude: "0.92433139218127",
+              longitude: "-0.93266268615025",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              description: "**Location:** Beside the fallen tree",
+              latitude: "0.63878420358286",
+              longitude: "-0.90203339077388",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              description: "**Location:** On a fallen log in the water",
+              latitude: "0.99993364128353",
+              longitude: "-0.95229665937177",
+              media: [
+                {
+                  url: "https://media.mapgenie.io/storage/media/f6a6d00a-d3af-4316-bb8b-4869df71a739.png",
+                  type: "image",
+                },
+              ],
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              description: "**Location:** In the corner on a dead log",
+              latitude: "0.85370393123867",
+              longitude: "-0.77530309128920",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              latitude: "0.81919442358520",
+              longitude: "-0.76810840509555",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              latitude: "0.77730330585840",
+              longitude: "-0.48040101757712",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              description: "**Location:** On the tree on the wooden platform",
+              latitude: "0.50637295821720",
+              longitude: "-0.59841801610486",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Purple Lingzhi",
+              latitude: "0.99682230755040",
+              longitude: "-0.87570157002222",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Purple Lingzhi",
+              description: "**Location:** Beside a slanted dead tree",
+              latitude: "0.45741758539966",
+              longitude: "-0.70774215732407",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Purple Lingzhi",
+              description:
+                "**Location:** Inside the cave, near [Xu Dog](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398476)",
+              latitude: "0.49192246469948",
+              longitude: "-0.70045621170626",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Purple Lingzhi",
+              description: "**Location:** On a tree inside the cave",
+              latitude: "0.47218580458129",
+              longitude: "-0.83060431908765",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Purple Lingzhi",
+              latitude: "0.79233421286467",
+              longitude: "-0.69124876048815",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Purple Lizghi",
+              description: "On the eastern side of tree past gate",
+              latitude: "0.37016077855895",
+              longitude: "-0.73113527574998",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Purple Lingzhi",
+              latitude: "0.73169445466323",
+              longitude: "-0.81944136046096",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Purple Lingzhi",
+              latitude: "0.81591522258226",
+              longitude: "-0.69225019186510",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Purple Lingzhi",
+              latitude: "0.77081507059398",
+              longitude: "-0.54854977839091",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Purple Lingzhi",
+              latitude: "0.57152391011496",
+              longitude: "-0.60046876989531",
+            },
+          ],
+        },
+        {
+          title: "Licrorice",
+          locations: [
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              description: "**Location:** By a tree near the gate",
+              latitude: "0.46916401992473",
+              longitude: "-0.56019635864661",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              description:
+                "**Location:** In the hills, beside a small building",
+              latitude: "0.50196371466006",
+              longitude: "-0.62591695539444",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.43794211193850",
+              longitude: "-0.78696964020429",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              description: "**Location:** On the top of the cliffs",
+              latitude: "0.49948336351122",
+              longitude: "-0.72684997492851",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.53823012671446",
+              longitude: "-0.92264282128116",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              description:
+                "**Location:** In the cave, by a narrow bridge near the Blazebone",
+              latitude: "0.49163807476631",
+              longitude: "-0.88542280430397",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.51576790865285",
+              longitude: "-0.74269072353874",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.58498151526070",
+              longitude: "-0.79201346117005",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              description: "**Location:** Under the building",
+              latitude: "0.41040465822709",
+              longitude: "-0.80733554902886",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              description: "**Location:** By the tree",
+              latitude: "0.63872097750171",
+              longitude: "-0.71065784569478",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.90317627948529",
+              longitude: "-0.67191877376495",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.39995393486510",
+              longitude: "-0.66587300533598",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.53398397204627",
+              longitude: "-0.63911717076647",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.76838693376604",
+              longitude: "-1.02965712547520",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.77939371544387",
+              longitude: "-1.05648994445660",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "1.01448315097870",
+              longitude: "-0.51777378052995",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.96387031767236",
+              longitude: "-0.52162092931098",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "1.00136169039990",
+              longitude: "-0.43654118272181",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "1.02745013013200",
+              longitude: "-0.40804539414813",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Licorice",
+              latitude: "0.80545848086926",
+              longitude: "-0.78156021847374",
             },
           ],
         },

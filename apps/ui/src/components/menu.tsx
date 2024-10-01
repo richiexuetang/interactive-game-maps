@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
@@ -15,7 +16,7 @@ import React, { useState } from "react";
 import { ShowHideButtons } from "./sidebar/show-hide-buttons";
 import { SidebarClose } from "./sidebar/sidebar-close";
 import { Map, Region } from "@/__generated__/graphql";
-import { getBodyFont } from "@/lib/font";
+import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import {
   gameSlugAtom,
@@ -48,17 +49,6 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
     boxShadow: "none",
     backgroundColor: "#0062cc",
     borderColor: "#005cbf",
-  },
-}));
-
-const SidebarDivider = styled(Divider)(() => ({
-  borderColor: "var(--border-color)",
-}));
-
-const StyledSelect = styled(Select)(() => ({
-  ".MuiInputBase-root": {
-    color: "var(--text-color) !important",
-    fontFamily: "var(-text-font) !important",
   },
 }));
 
@@ -129,13 +119,18 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                   priority
                 />
               </Link>
-              <h1 className="text-accent text-center">
+              <h1
+                className={cn(
+                  "text-accent text-center",
+                  getFontClassName(gameSlug)
+                )}
+              >
                 {gameSlug?.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
               </h1>
-              <SidebarDivider orientation="horizontal" flexItem />
+              <Divider orientation="horizontal" flexItem />
 
               <FormControl fullWidth>
-                <StyledSelect
+                <Select
                   value={params.slug}
                   onChange={(event) =>
                     router.push(`/map/${event.target.value}`)
@@ -146,10 +141,10 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                       {region.title}
                     </MenuItem>
                   ))}
-                </StyledSelect>
+                </Select>
               </FormControl>
 
-              <SidebarDivider orientation="horizontal" flexItem />
+              <Divider orientation="horizontal" flexItem />
 
               <Grid
                 container
@@ -173,11 +168,11 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                 ))}
               </Grid>
 
-              <SidebarDivider orientation="horizontal" flexItem />
+              <Divider orientation="horizontal" flexItem />
 
               <ShowHideButtons />
 
-              <SidebarDivider orientation="horizontal" flexItem />
+              <Divider orientation="horizontal" flexItem />
 
               {groups?.map((group, index) => {
                 const counts: any = {};
@@ -229,17 +224,18 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                                   "mr-1"
                                 )}
                               />
-                              <span
-                                className={cn(
-                                  "text-xs text-ellipsis whitespace-nowrap overflow-hidden",
-                                  getBodyFont(gameSlug)
-                                )}
-                              >
+                              <Typography variant="caption">
                                 {category.title}
-                              </span>
-                              <span className="text-xs text-right flex-1">
+                              </Typography>
+                              <Typography
+                                variant="caption"
+                                sx={{ flex: 1, textAlign: "right" }}
+                              >
                                 {count}
-                              </span>
+                              </Typography>
+                              {/* <span className="text-[10px] text-right flex-1">
+                                {count}
+                              </span> */}
                             </div>
                           </Grid>
                         );

@@ -4,7 +4,7 @@ import { useQuery } from "@apollo/client";
 import Alert from "@mui/material/Alert";
 import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
 import { UserRecord } from "firebase-admin/auth";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useSetAtom } from "jotai";
 import { LatLngExpression } from "leaflet";
 import { useParams } from "next/navigation";
 import { SyntheticEvent, useEffect } from "react";
@@ -20,10 +20,9 @@ import { MarkerRenderer } from "../markers/markers-renderer";
 import { Menu } from "../menu";
 import { ProgressTracker } from "../progress-tracker";
 import { Game } from "@/__generated__/graphql";
-import { getFontClassName } from "@/lib/font";
 import { GET_APP_USER, GET_REGIONS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { gameSlugAtom, triggeredRegionFocusAtom } from "@/store";
+import { gameSlugAtom } from "@/store";
 import { userAtom } from "@/store/auth";
 import {
   copyLinkTriggerAtom,
@@ -103,13 +102,7 @@ const Map = ({ user, mapData }: MapProps) => {
   };
 
   return (
-    <div
-      className={cn(
-        getFontClassName(mapData.slug),
-        "h-[calc(100vh-1rem)]",
-        mapData.slug
-      )}
-    >
+    <div className={cn("h-[calc(100vh-1rem)]", mapData.slug)}>
       <Snackbar
         open={openSnackbar ?? false}
         autoHideDuration={6000}
@@ -174,7 +167,7 @@ const Map = ({ user, mapData }: MapProps) => {
           url={`${process.env.NEXT_PUBLIC_TILES_URL}${currentMap?.tilePath}/{z}/{y}/{x}.jpg`}
         />
         <RL.ZoomControl position="bottomright" />
-        <MarkerRenderer regions={regionData} />
+        <MarkerRenderer />
         <MarkerSearch />
         <ProgressTracker />
         <MapEventListener regionSlug={params.slug} />

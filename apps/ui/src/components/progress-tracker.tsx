@@ -12,7 +12,6 @@ import {
   Divider,
   IconButton,
   Menu,
-  styled,
 } from "@mui/material";
 import Fab from "@mui/material/Fab";
 import Tooltip from "@mui/material/Tooltip";
@@ -35,14 +34,6 @@ import {
   gameSlugAtom,
 } from "@/store/map";
 import { triggeredMarkerIdAtom } from "@/store/marker";
-
-const SideFab = styled(Fab)(() => ({
-  backgroundColor: "var(--sidebar-background-color)",
-  "&:hover": {
-    opacity: 0.8,
-    backgroundColor: "var(--sidebar-background-color)",
-  },
-}));
 
 export const ProgressTracker = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -142,7 +133,7 @@ export const ProgressTracker = () => {
   return (
     <div className={cn("absolute top-36 right-2 z-[1000] flex flex-col gap-5")}>
       <Tooltip title="Progress Tracker" placement="left">
-        <SideFab
+        <Fab
           onClick={handleClick}
           aria-controls={open ? "basic-menu" : undefined}
           aria-haspopup="true"
@@ -150,7 +141,7 @@ export const ProgressTracker = () => {
           aria-expanded={open ? "true" : undefined}
         >
           <CheckListIcon className="h-6 w-6" />
-        </SideFab>
+        </Fab>
       </Tooltip>
 
       <Menu

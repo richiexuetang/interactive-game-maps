@@ -5,27 +5,9 @@ import {
   InMemoryCache,
 } from "@apollo/experimental-nextjs-app-support";
 
-export const client = new ApolloClient({
-  uri: `${process.env.API_BASE_URL}/graphql`,
-  cache: new InMemoryCache(),
-});
-
 export const { getClient, query, PreloadQuery } = registerApolloClient(() => {
   return new ApolloClient({
-    cache: new InMemoryCache({
-      typePolicies: {
-        TypeWithDateScalar: {
-          fields: {
-            latitude: {
-              read: (lat) => parseFloat(lat),
-            },
-            longitude: {
-              read: (long) => parseFloat(long),
-            },
-          },
-        },
-      },
-    }),
+    cache: new InMemoryCache({}),
     link: new HttpLink({
       uri: `${process.env.API_BASE_URL}/graphql`,
     }),

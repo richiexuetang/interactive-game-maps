@@ -31,12 +31,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <body className="min-h-screen">
-          <AppRouterCacheProvider>
-            <ThemeProvider theme={theme}>{children}</ThemeProvider>
-          </AppRouterCacheProvider>
-        </body>
+      <body className="min-h-screen bg-background">
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>{children}</ThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );

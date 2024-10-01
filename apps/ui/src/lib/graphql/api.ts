@@ -100,7 +100,7 @@ export async function getAppUser(email: string) {
     });
     return data.getUser;
   } catch (error) {
-    console.error("ops");
+    console.error(error);
     return null;
   }
 }

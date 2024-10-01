@@ -1,4 +1,4 @@
-import { Fab, List, Tooltip, styled } from "@mui/material";
+import { Fab, List, Tooltip } from "@mui/material";
 import { Avatar } from "@mui/material";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
@@ -18,14 +18,6 @@ import { useDebounceCallback } from "@/hooks/use-debounce-callback";
 import { cn } from "@/lib/utils";
 import { currentMarkersAtom, gameSlugAtom } from "@/store/map";
 import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
-
-const SideFab = styled(Fab)(() => ({
-  backgroundColor: "var(--sidebar-background-color)",
-  "&:hover": {
-    opacity: 0.8,
-    backgroundColor: "var(--sidebar-background-color)",
-  },
-}));
 
 export const MarkerSearch = () => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
@@ -71,9 +63,9 @@ export const MarkerSearch = () => {
   return (
     <div className="absolute top-20 right-2 z-[1000]">
       <Tooltip title="Search..." placement="left">
-        <SideFab onClick={handleClick}>
+        <Fab onClick={handleClick}>
           <SearchIcon className="h-5 w-5" />
-        </SideFab>
+        </Fab>
       </Tooltip>
       <Popover
         id={id}

@@ -810,7 +810,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 
 .fullscreen-icon {
-    background-image: url(/leaflet/images/icon-fullscreen.svg);
+    background-image: url(/images/icon-fullscreen.svg);
     background-size: 26px 52px;
 }
 

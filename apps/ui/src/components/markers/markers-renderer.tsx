@@ -6,13 +6,9 @@ import { NoteMarker } from "./note-marker";
 import { userAtom } from "@/store/auth";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { currentMarkersAtom } from "@/store/map";
-import {
-  triggeredMarkerIdAtom,
-  triggeredRegionFocusAtom,
-} from "@/store/marker";
-import { Region } from "@/__generated__/graphql";
+import { triggeredMarkerIdAtom } from "@/store/marker";
 
-export const MarkerRenderer = ({ regions }: { regions: Region[] | null }) => {
+export const MarkerRenderer = () => {
   const params = useParams<{ slug: string }>();
 
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);

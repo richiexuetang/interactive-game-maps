@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Metadata } from "next";
+import { revalidatePath } from "next/cache";
 import Link from "next/link";
 import { Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
@@ -62,11 +63,13 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
+  revalidatePath("/region");
   const regions = await getMapsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 
   const showRegionMedia = regions.length <= 2;
 
+  console.log("regions", regions, process.env.CDN_BASE_URL);
   return (
     <div className={cn(params.slug, "bg-bodyBackground h-[100vh]")}>
       <MainNav />
@@ -95,7 +98,7 @@ export default async function RegionPage({
                       <CardMedia
                         component="img"
                         height="140"
-                        image={process.env.CDN_BASE_URL ?? "" + thumbnailUrl}
+                        image={process.env.CDN_BASE_URL + thumbnailUrl! || ""}
                         alt={title}
                       />
                       <CardContent

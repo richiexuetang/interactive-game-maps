@@ -10,59 +10,59 @@ except FileExistsError:
     pass
 
 
-zoom_start = 16
-zoom_end = 17
+zoom_start = 13
+zoom_end = 14
 
 lows = {
-    # 8: 127,
-    8: 8,
-    # 9: 254,
-    9: 16,
-    # 10: 508
-    10: 32,
-    # 11: 1016
-    11: 64,
-    # 12: 2034
-    12: 128,
-    # 13: 4065
-    13: 256,
-    # 14: 8177
-    14: 512,
+    8: 127,
+    9: 254,
+    10: 508,
+    11: 1016,
+    12: 2034,
+    13: 4065,
+    14: 8177,
     15: 16293,
     16: 32610,
     17: 65250
 }
 
 highs = {
-    #     8: 127
-    8: 8,
-    #     9: 255
-    9: 17,
-    #     10: 511
-    10: 36,
-    #     11: 1023
-    11: 70,
-    #     12: 2046
-    12: 140,
-    #     13: 4095
-    13: 280,
-    #     14: 8184
-    14: 561,
+    8: 127,
+    9: 255,
+    10: 511,
+    11: 1023,
+    12: 2046,
+    13: 4095,
+    14: 8184,
     15: 16360,
     16: 32668,
     17: 65346
 }
 
 y_lows = {
+    9: 254,
+    10: 508,
+    11: 1016,
+    12: 2034,
+    13: 4065,
+    14: 8177,
+    15: 16293,
     16: 32548,
     17: 65095
 }
 y_highs = {
+    9: 255,
+    10: 511,
+    11: 1023,
+    12: 2046,
+    13: 4095,
+    14: 8184,
+    15: 16360,
     16: 32722,
     17: 65445
 }
 regions = [
-    "hyrule"
+    # "hyrule"
     # "white-orchard",
     # "velen-novigrad",
     # "skellige",
@@ -70,12 +70,18 @@ regions = [
     # "toussaint",
     # "fablesphere",
     # "isle-of-mists"
+    "chapter-1",
+    "chapter-2",
+    "chapter-3",
+    "chapter-4",
+    "chapter-5",
+    "chapter-6",
 ]
 
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"
             "apps/ui/public/tiles")
 
-game_name = "zelda-tears-of-the-kingdom"
+game_name = "black-myth-wukong"
 
 base_uri = "https://tiles.mapgenie.io/games/"
 
@@ -95,16 +101,16 @@ for z in range(zoom_start, zoom_end+1):
     for x in range(lows[z], highs[z] + 1):
         for y in range(y_lows[z], y_highs[z] + 1):
             for region in regions:
-                uri = (base_uri + game_name + "/" + region + "/default-v2/"
+                uri = (base_uri + game_name + "/" + region + "/paper-v1/"
                        + str(z) + "/" + str(x) + "/" + str(y) + ".jpg")
 
-                directory = "{dir}/{game_name}/{region}/{z}/{y}".format(
-                    dir=dir_name, region=region, z=z, y=y, game_name=game_name)
+                directory = "{dir}/{game_name}/{region}/{z}/{x}".format(
+                    dir=dir_name, region=region, z=z, x=x, game_name=game_name)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                file_path = directory + str(x) + ".jpg"
+                file_path = directory + str(y) + ".jpg"
                 if (Path(file_path).is_file()):
                     print(file_path, "exists!")
                 else:
-                    downloadImage(uri, directory + "/{x}.jpg".format(x=x))
+                    downloadImage(uri, directory + "/{y}.jpg".format(y=y))
