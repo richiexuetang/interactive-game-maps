@@ -182,11 +182,7 @@ export const ProgressTracker = () => {
                   return (
                     <Accordion key={id}>
                       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                        <span
-                          className={`${gameSlug}-icon-${icon} ${getBodyFont(
-                            gameSlug
-                          )}`}
-                        />
+                        <span className={`${icon} ${getBodyFont(gameSlug)}`} />
                         <span className="text-text text-xs p-2">
                           {getCategoryInfoById(id)?.title}
                         </span>

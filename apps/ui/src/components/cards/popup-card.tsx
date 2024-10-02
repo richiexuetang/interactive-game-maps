@@ -22,7 +22,6 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { gameSlugAtom } from "@/store";
 import { userAtom } from "@/store/auth";
 import { copyLinkTriggerAtom, currentMapAtom } from "@/store/map";
 
@@ -48,7 +47,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   } = marker;
   const setCopyLinkTrigger = useSetAtom(copyLinkTriggerAtom);
 
-  const gameSlug = useAtomValue(gameSlugAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
   const currentRegion = useAtomValue(currentMapAtom);
 
@@ -92,7 +90,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
       <CardHeader
         avatar={
           <Avatar sx={{ backgroundColor: "transparent" }}>
-            <span className={cn(`${gameSlug}-icon icon ${gameSlug}_${icon}`)} />
+            <span className={cn(`icon ${icon}`)} />
           </Avatar>
         }
         title={

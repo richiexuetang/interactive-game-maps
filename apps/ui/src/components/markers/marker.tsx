@@ -10,7 +10,6 @@ import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
-import { gameSlugAtom } from "@/store";
 import { userAtom } from "@/store/auth";
 import { triggeredMarkerIdAtom } from "@/store/marker";
 
@@ -20,7 +19,6 @@ interface MarkerProps {
 
 export const Marker = ({ marker }: MarkerProps) => {
   const map = RL.useMap();
-  const gameSlug = useAtomValue(gameSlugAtom);
   const params = useParams<{ slug: string }>();
   const { id, title, latitude, longitude, category } = marker;
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
@@ -31,7 +29,7 @@ export const Marker = ({ marker }: MarkerProps) => {
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
   // build div icon
   const div = document.createElement("div");
-  div.className = `icon ${gameSlug}-icon ${gameSlug}_${icon}`;
+  div.className = `icon ${icon}`;
 
   const searchParams = useSearchParams();
   const markerRef = useRef<L.Marker>(null);

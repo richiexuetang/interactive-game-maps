@@ -16,7 +16,7 @@ import { MapPinIcon } from "../icons/map-pin-icon";
 import { SearchIcon } from "../icons/search-icon";
 import { useDebounceCallback } from "@/hooks/use-debounce-callback";
 import { cn } from "@/lib/utils";
-import { currentMarkersAtom, gameSlugAtom } from "@/store/map";
+import { currentMarkersAtom } from "@/store/map";
 import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
 
 export const MarkerSearch = () => {
@@ -34,8 +34,6 @@ export const MarkerSearch = () => {
 
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
-
-  const gameSlug = useAtomValue(gameSlugAtom);
 
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchFilterMarker, setSearchFilterMarker] = useAtom(
@@ -117,11 +115,7 @@ export const MarkerSearch = () => {
               >
                 <ListItemAvatar>
                   <Avatar>
-                    <span
-                      className={cn(
-                        `${gameSlug}-icon-${marker.category?.icon}`
-                      )}
-                    />
+                    <span className={cn(`${marker.category?.icon}`)} />
                   </Avatar>
                 </ListItemAvatar>
                 <ListItemText

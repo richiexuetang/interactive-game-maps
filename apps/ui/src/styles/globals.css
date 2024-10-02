@@ -36,12 +36,8 @@
   }
 }
 
-.black-myth-wukong-icon,
-.elden-ring-icon {
-  background: url(/markers/markers.png);
-}
-
 .icon {
+  background: url(/markers/markers.png);
   display: inline-block;
   position: absolute;
   width: 33px;
@@ -54,437 +50,409 @@
   background-position: 0 0;
 }
 
-/* Elden Ring */
-.elden-ring_ancient_smithing_stone {
-  background-position: -33px 0;
-}
-
-.elden-ring_ash_of_war {
-  background-position: -99px 0;
-}
-
-.elden-ring_bell_bearing {
-  background-position: -132px 0;
-}
-
-.elden-ring_birdseye_telescope {
-  background-position: -165px 0;
-}
-
-.elden-ring_boss {
-  background-position: -198px 0;
-}
-
-.elden-ring_cerulean_scarab {
+.cerulean_scarab {
   background-position: -231px 0;
 }
 
-.elden-ring_character {
-  background-position: -264px 0;
-}
-
-.elden-ring_cracked_pot {
-  background-position: 0 -44px;
-}
-
-.elden-ring_crystal_tear {
-  background-position: -66px -44px;
-}
-
-.elden-ring_deathroot {
-  background-position: -99px -44px;
-}
-
-.elden-ring_dragon_heart {
-  background-position: -198px -44px;
-}
-
-.elden-ring_easter_egg {
+.easter_egg {
   background-position: -297px -44px;
 }
 
-.elden-ring_elite_enemy {
-  background-position: 0 -88px;
-}
-
-.elden-ring_gesture {
-  background-position: -99px -88px;
-}
-
-.elden-ring_ghost {
-  background-position: -132px -88px;
-}
-
-.elden-ring_ghost_glovewort {
-  background-position: -165px -88px;
-}
-
-.elden-ring_glovewort {
-  background-position: -198px -88px;
-}
-
-.elden-ring_golden_rune {
-  background-position: -231px -88px;
-}
-
-.elden-ring_golden_seed {
-  background-position: -264px -88px;
-}
-
-.elden-ring_great_boss {
+.gesture {
   background-position: -297px -88px;
 }
 
-.elden-ring_great_glovewort {
-  background-position: -330px -88px;
+.golden_rune {
+  background-position: -231px -88px;
 }
 
-.elden-ring_great_rune {
-  background-position: 0 -132px;
+.golden_seed {
+  background-position: -396px -88px;
 }
 
-.elden-ring_guiding_statue {
-  background-position: -33px -132px;
-}
-
-.elden-ring_incantation {
-  background-position: -132px -132px;
-}
-
-.elden-ring_invasion {
-  background-position: -165px -132px;
-}
-
-.elden-ring_item {
-  background-position: -198px -132px;
-}
-
-.elden-ring_key_item {
-  background-position: -231px -132px;
-}
-
-.elden-ring_landmark {
-  background-position: -264px -132px;
-}
-
-.elden-ring_legacy_dungeon {
-  background-position: -297px -132px;
-}
-
-.elden-ring_lore {
+.item {
   background-position: -330px -132px;
 }
 
-.elden-ring_map_fragment {
-  background-position: 0 -176px;
-}
-
-.elden-ring_memory_stone {
-  background-position: -66px -176px;
-}
-
-.elden-ring_merchant {
-  background-position: -99px -176px;
-}
-
-.elden-ring_minor_erdtree {
+.minor_erdtree {
   background-position: -132px -176px;
 }
 
-.elden-ring_miquellas_cross {
-  background-position: -165px -176px;
-}
-
-.elden-ring_miquellas_lilly {
-  background-position: -198px -176px;
-}
-
-.elden-ring_miscellaneous {
-  background-position: -231px -176px;
-}
-
-.elden-ring_n_lily {
+.miquellas_cross {
   background-position: -297px -176px;
 }
 
-.elden-ring_painting {
-  background-position: -330px -176px;
+.n_lily {
+  background-position: -297px -176px;
 }
 
-.elden-ring_perfume_bottle {
+.perfume_bottle {
   background-position: 0 -220px;
 }
 
-.elden-ring_portal {
-  background-position: -33px -220px;
-}
-
-.elden-ring_puzzle {
-  background-position: -66px -220px;
-}
-
-.elden-ring_quest {
+.quest {
   background-position: -99px -220px;
 }
 
-.elden-ring_rebirth_monument {
+.rebirth_monument {
   background-position: -132px -220px;
 }
 
-.elden-ring_remembrance {
-  background-position: -165px -220px;
-}
-
-.elden-ring_revered_spirit_ash {
-  background-position: -198px -220px;
-}
-
-.elden-ring_ritual_pot {
-  background-position: -231px -220px;
-}
-
-.elden-ring_ruin_fragment {
-  background-position: -264px -220px;
-}
-
-.elden-ring_rune_arc {
+.revered_spirit_ash {
   background-position: -297px -220px;
 }
 
-.elden-ring_sacred_tear {
-  background-position: 0 -264px;
+.ritual_pot {
+  background-position: -231px -220px;
 }
 
-.elden-ring_scadutree_fragment {
-  background-position: -33px -264px;
+.rune_arc {
+  background-position: -297px -220px;
 }
 
-.elden-ring_shield {
-  background-position: -99px -264px;
+.scadutree_fragment {
+  background-position: -66px -264px;
 }
 
-.elden-ring_site_of_grace {
-  background-position: -99px -264px;
-}
-
-.elden-ring_somber_smithing_stone {
-  background-position: -231px -264px;
-}
-
-.elden-ring_sorcery {
-  background-position: -264px -264px;
-}
-
-.elden-ring_spellbook {
-  background-position: -297px -264px;
-}
-
-.elden-ring_spirit_ashes {
+.spirit_ashes {
   background-position: -330px -264px;
 }
 
-.elden-ring_spiritspring_jump {
-  background-position: 0 -308px;
-}
-
-.elden-ring_stake_of_marika {
-  background-position: -33px -308px;
-}
-
-.elden-ring_stone_cairn {
+.stone_cairn {
   background-position: -66px -308px;
 }
 
-.elden-ring_stonesword_key {
+.stonesword_key {
   background-position: -99px -308px;
 }
 
-.elden-ring_summoning_sigil {
+.summoning_sigil {
   background-position: -132px -308px;
 }
 
-.elden-ring_talisman {
+.talisman {
   background-position: -165px -308px;
 }
 
-.elden-ring_talisman_pouch {
+.talisman_pouch {
   background-position: -198px -308px;
 }
 
-.elden-ring_teardrop_scarab {
+.teardrop_scarab {
   background-position: -231px -308px;
 }
 
-.elden-ring_tool {
+.spiritspring_jump {
+  background-position: 0 -308px;
+}
+
+.stake_of_marika {
+  background-position: -33px -308px;
+}
+
+.tool {
   background-position: -264px -308px;
 }
 
-.elden-ring_trainer {
+.whetblade {
+  background-position: -99px -308px;
+}
+
+.trainer {
   background-position: -297px -308px;
 }
 
-.elden-ring_trinas_lilly {
-  background-position: -330px -308px;
-}
-
-.elden-ring_wandering_mausoleum {
-  background-position: 0 -352px;
-}
-
-.elden-ring_whetblade {
-  background-position: -66px -352px;
-}
-
-.black-myth-wukong_snake-head-mushroom,
-.black-myth-wukong_tree_pearl,
-.black-myth-wukong_fragrant_jade_flower,
-.black-myth-wukong_millenium_ginseng,
-.black-myth-wukong_nine_capped_lingzhi,
-.black-myth-wukong_purple_lingzhi,
-.black-myth-wukong_aged_ginseng,
-.black-myth-wukong_celestial_pear,
-.black-myth-wukong_fire_bellflower,
-.black-myth-wukong_jade_lotus,
-.black-myth-wukong_gentian,
-.black-myth-wukong_licorice {
+.snake-head-mushroom,
+.tree_pearl,
+.fragrant_jade_flower,
+.millenium_ginseng,
+.nine_capped_lingzhi,
+.purple_lingzhi,
+.aged_ginseng,
+.celestial_pear,
+.fire_bellflower,
+.jade_lotus,
+.gentian,
+.licorice {
   background-position: 0 0;
 }
 
-.elden-ring_armor,
-.black-myth-wukong_armor {
+.armor {
   background-position: -33px 0;
 }
 
-.black-myth-wukong_curio {
+.curio {
   background-position: -66px 0;
 }
 
-.black-myth-wukong_spell {
+.spell {
   background-position: -99px 0;
 }
 
-.elden-ring_weapon,
-.black-myth-wukong_weapon {
+.weapon {
   background-position: -132px 0;
 }
 
-.black-myth-wukong_transformation_spell {
+.sorcery {
   background-position: -165px 0;
 }
 
-.black-myth-wukong_celestial_pill {
+.somber_smithing_stone,
+.ancient_smithing_stone {
+  background-position: -198px 0;
+}
+
+.transformation_spell {
+  background-position: -165px 0;
+}
+
+.celestial_pill {
   background-position: 0 -44px;
 }
 
-.black-myth-wukong_drink {
+.drink {
   background-position: -33px -44px;
 }
 
-.elden-ring_cookbook,
-.black-myth-wukong_formula {
+.cookbook,
+.formula {
   background-position: -66px -44px;
 }
 
-.black-myth-wukong_awaken_wine_worm {
+.awaken_wine_worm {
   background-position: -99px -44px;
 }
 
-.elden-ring_enemy,
-.black-myth-wukong_elite_lesser_yaoguai {
+.invasion,
+.elite_lesser_yaoguai {
   background-position: -132px -44px;
 }
 
-.black-myth-wukong_chest {
+.enemy {
+  background-position: -99px -88px;
+}
+
+.chest {
   background-position: -165px -44px;
 }
 
-.black-myth-wukong_gourd {
+.gourd {
   background-position: 0 -88px;
 }
 
-.black-myth-wukong_keeper_shrine {
+.keeper_shrine {
   background-position: -33px -88px;
 }
 
-.black-myth-wukong_key_item {
+.key_item,
+.key_item {
   background-position: -66px -88px;
 }
 
-.black-myth-wukong_yaoguai_chief {
+.yaoguai_chief {
   background-position: -132px -88px;
 }
 
-.elden-ring_demigod,
-.black-myth-wukong_yaoguai_king {
+.demigod,
+.yaoguai_king {
   background-position: -165px -88px;
 }
 
-.black-myth-wukong_luojia_fragrant_vine {
+.luojia_fragrant_vine {
   background-position: 0 -132px;
 }
 
-.black-myth-wukong_meditation_spot {
+.meditation_spot {
   background-position: -33px -132px;
 }
 
-.black-myth-wukong_miscellaneous {
+.miscellaneous,
+.miscellaneous {
   background-position: -66px -132px;
 }
 
-.black-myth-wukong_npc {
+.npc {
   background-position: -99px -132px;
 }
 
-.black-myth-wukong_easter_egg {
+.easter_egg {
   background-position: -132px -132px;
 }
 
-.black-myth-wukong_soak {
+.soak {
   background-position: 0 -176px;
 }
 
-.black-myth-wukong_vessel {
+.vessel {
   background-position: -33px -176px;
 }
 
-.black-myth-wukong_spirit {
+.spirit {
   background-position: -66px -176px;
 }
 
-.black-myth-wukong_point_of_interest {
+.memory_stone {
+  background-position: -198px -176px;
+}
+
+.merchant {
+  background-position: -231px -176px;
+}
+
+.miquellas_lilly,
+.trinas_lilly {
+  background-position: -330px -176px;
+}
+
+
+.painting {
+  background-position: -429px -176px;
+}
+
+.landmark,
+.point_of_interest {
   background-position: -99px -176px;
 }
 
-.black-myth-wukong_side_quest {
+.side_quest {
   background-position: -132px -176px;
 }
 
-.elden-ring_divine_tower {
+.divine_tower {
   background-position: -330px -44px;
 }
 
-.elden-ring_dragon_shrine {
+.dragon_heart {
+  background-position: -363px -44px;
+}
+
+.sacred_tear,
+.crystal_tear {
+  background-position: -263px -44px;
+}
+
+.deathroot {
+  background-position: -297px -44px;
+}
+
+.ghost {
+  background-position: -330px -88px;
+}
+
+.dragon_shrine {
   background-position: -396px -44px;
 }
 
-.elden-ring_dungeon {
+.dungeon {
   background-position: -429px -44px;
 }
 
-.elden-ring_elevator {
-  background-position: -462px -44px;
+.great_glovewort,
+.glovewort,
+.ghost_glovewort {
+  background-position: -429px -88px;
 }
 
-.elden-ring_evergaol {
+.elevator {
+  background-position: 0 -264px;
+}
+
+.shield {
+  background-position: -99px -264px;
+}
+
+.evergaol {
   background-position: -264px -88px;
 }
 
-.elden-ring_hidden_passage {
+.elite_enemy {
+  background-position: -198px -88px;
+}
+
+.hidden_passage {
   background-position: -231px -132px;
 }
 
-.elden-ring_imp_seal_statue {
+.lore {
+  background-position: -363px -132px;
+}
+
+.guiding_statue {
+  background-position: -198px -132px;
+}
+
+.imp_seal_statue {
   background-position: -264px -132px;
+}
+
+.incantation {
+  background-position: -297px -132px;
+}
+
+.wandering_mausoleum,
+.legacy_dungeon {
+  background-position: 0 -220px;
+}
+
+.portal {
+  background-position: -132px -220px;
+}
+
+.puzzle {
+  background-position: -165px -220px;
+}
+
+.remembrance {
+  background-position: -264px -220px;
+}
+
+.ruin_fragment {
+  background-position: -363px -220px;
+}
+
+.spellbook {
+  background-position: -264px -264px;
+}
+
+.birdseye_telescope {
+  background-position: -264px -308px;
+}
+
+.map_fragment {
+  background-position: -132px -176px;
+}
+
+.site_of_grace {
+  background-position: -132px -264px;
+}
+
+.smithing_table {
+  background-position: -231px -264px;
+}
+
+.bell_bearing {
+  background-position: -264px 0;
+}
+
+.great_boss,
+.boss {
+  background-position: -330px 0;
+}
+
+.character {
+  background-position: -396px 0;
+}
+
+.ash_of_war {
+  background-position: -231px 0;
+}
+
+.cracked_pot {
+  background-position: -198px -44px;
+}
+
+.great_rune {
+  background-position: -165px -132px;
 }
 
 .elden-ring {

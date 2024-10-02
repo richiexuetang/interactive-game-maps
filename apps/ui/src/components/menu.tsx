@@ -219,10 +219,7 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                               onClick={() => handleHiddenCategory(category.id)}
                             >
                               <span
-                                className={cn(
-                                  `${gameSlug}-icon-${category.icon}`,
-                                  "mr-1"
-                                )}
+                                className={cn(`icon-${category.icon}`, "mr-1")}
                               />
                               <Typography variant="caption">
                                 {category.title}
