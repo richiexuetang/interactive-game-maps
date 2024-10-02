@@ -1,3 +1,6 @@
+import ClearIcon from "@mui/icons-material/Clear";
+import SearchIcon from "@mui/icons-material/Search";
+
 import { ListItemButton } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
 import Divider from "@mui/material/Divider";
@@ -11,11 +14,14 @@ import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { Map } from "leaflet";
 import React, { useState } from "react";
-import { SearchIcon } from "../icons/search-icon";
 import { useDebounceCallback } from "@/hooks/use-debounce-callback";
 import { cn } from "@/lib/utils";
 import { currentMarkersAtom } from "@/store/map";
-import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
+import {
+  highlightedMarkerIdAtom,
+  searchFilterMarkerAtom,
+  triggeredMarkerIdAtom,
+} from "@/store/marker";
 
 export const MarkerSearch = ({ map }: { map: Map | null }) => {
   const [searchKeyword, setSearchKeyword] = useState("");
@@ -24,7 +30,7 @@ export const MarkerSearch = ({ map }: { map: Map | null }) => {
   );
   const [showFiltered, setShowFiltered] = useState(false);
   const markers = useAtomValue(currentMarkersAtom);
-
+  const setHighlightedMarker = useSetAtom(highlightedMarkerIdAtom);
   const setTriggeredMarkerId = useSetAtom(triggeredMarkerIdAtom);
   const debounced = useDebounceCallback(setSearchFilterMarker, 500);
 
@@ -53,7 +59,17 @@ export const MarkerSearch = ({ map }: { map: Map | null }) => {
           input: {
             startAdornment: (
               <InputAdornment position="start">
-                <SearchIcon className="h-5 w-5" />
+                {searchKeyword.length ? (
+                  <ClearIcon
+                    onClick={() => {
+                      setSearchKeyword("");
+                      setSearchFilterMarker([]);
+                    }}
+                    sx={{ cursor: "pointer" }}
+                  />
+                ) : (
+                  <SearchIcon />
+                )}
               </InputAdornment>
             ),
           },
@@ -64,6 +80,10 @@ export const MarkerSearch = ({ map }: { map: Map | null }) => {
           {searchFilterMarker.map((marker) => (
             <>
               <ListItem
+                onPointerEnter={() => {
+                  setHighlightedMarker(marker.id);
+                }}
+                onPointerLeave={() => setHighlightedMarker(null)}
                 alignItems="flex-start"
                 onClick={() => {
                   map?.setView([marker.latitude, marker.longitude], 13);

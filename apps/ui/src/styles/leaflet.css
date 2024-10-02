@@ -596,7 +596,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     width: 17px;
     height: 17px;
     padding: 1px;
-
+    background-color: var(--sidebar-background-color) !important;
     margin: -10px auto 0;
     pointer-events: auto;
 

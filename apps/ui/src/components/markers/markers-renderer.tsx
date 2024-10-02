@@ -6,7 +6,7 @@ import { NoteMarker } from "./note-marker";
 import { userAtom } from "@/store/auth";
 import { hiddenCategoriesAtom } from "@/store/category";
 import { currentMarkersAtom } from "@/store/map";
-import { triggeredMarkerIdAtom } from "@/store/marker";
+import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
 
 export const MarkerRenderer = () => {
   const params = useParams<{ slug: string }>();
@@ -15,6 +15,7 @@ export const MarkerRenderer = () => {
   const markers = useAtomValue(currentMarkersAtom);
   const appUser = useAtomValue(userAtom);
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
+  const searchMarkers = useAtomValue(searchFilterMarkerAtom);
 
   if (!markers) return null;
 
@@ -22,6 +23,15 @@ export const MarkerRenderer = () => {
     <>
       {markers.map((marker) => {
         const { id, categoryId } = marker;
+        if (searchMarkers.length) {
+          if (searchMarkers.find((marker) => marker.id === id)) {
+            return <Marker key={id} marker={marker} />;
+          }
+          return null;
+        }
+        const markerFound = appUser?.foundLocations.includes(id);
+
+        if (markerFound && appUser?.hideFound) return null;
         if (
           categoryId &&
           hiddenCategories.includes(categoryId) &&

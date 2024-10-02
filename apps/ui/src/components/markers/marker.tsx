@@ -11,7 +11,7 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 import { userAtom } from "@/store/auth";
-import { triggeredMarkerIdAtom } from "@/store/marker";
+import { highlightedMarkerIdAtom, triggeredMarkerIdAtom } from "@/store/marker";
 
 interface MarkerProps {
   marker: Location;
@@ -24,12 +24,13 @@ export const Marker = ({ marker }: MarkerProps) => {
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
   const [appUser, setAppUser] = useAtom(userAtom);
+  const highlightMarker = useAtomValue(highlightedMarkerIdAtom);
   const { icon } = category!;
 
   const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
   // build div icon
   const div = document.createElement("div");
-  div.className = `icon ${icon}`;
+  div.className = `icon ${icon} ${highlightMarker === id ? "highlight" : ""}`;
 
   const searchParams = useSearchParams();
   const markerRef = useRef<L.Marker>(null);
@@ -64,8 +65,6 @@ export const Marker = ({ marker }: MarkerProps) => {
   }, [map, params.slug, searchParams]);
 
   const markerFound = appUser?.foundLocations.includes(id);
-
-  if (markerFound && appUser?.hideFound) return null;
 
   const handleMarkerFound = () => {
     if (appUser?.email) {

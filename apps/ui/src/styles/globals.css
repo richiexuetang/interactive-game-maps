@@ -45,6 +45,10 @@
   background-color: transparent !important;
 }
 
+.highlight {
+  box-shadow: -6px 8px 72px 29px rgba(43, 20, 43, 0.95);
+}
+
 .note-icon-1 {
   background-position: 0 -352px;
 
@@ -498,5 +502,6 @@
   :root {
     --app-background: #11151C;
     --marker-tooltip-background: var(--sidebar-background-color);
+    --search-result-hover-color: hsla(0, 0%, 100%, .05);
   }
 }
