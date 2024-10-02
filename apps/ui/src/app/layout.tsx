@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@mui/material/styles";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 import React from "react";
 import theme from "@/lib/ui/theme";
@@ -37,6 +38,7 @@ export default function RootLayout({
           <ThemeProvider theme={theme}>
             {children}
             <Analytics />
+            <SpeedInsights />
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
