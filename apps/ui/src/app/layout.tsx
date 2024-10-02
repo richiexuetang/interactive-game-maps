@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@mui/material/styles";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
+import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import React from "react";
 import theme from "@/lib/ui/theme";
@@ -33,7 +34,10 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen bg-background">
         <AppRouterCacheProvider>
-          <ThemeProvider theme={theme}>{children}</ThemeProvider>
+          <ThemeProvider theme={theme}>
+            {children}
+            <Analytics />
+          </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
