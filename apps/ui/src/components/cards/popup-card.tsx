@@ -22,8 +22,7 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { userAtom } from "@/store/auth";
-import { copyLinkTriggerAtom, currentMapAtom } from "@/store/map";
+import { copySnackbarAtom, currentMapAtom, userAtom } from "@/store";
 
 interface PopupCardProps {
   marker: Location;
@@ -45,7 +44,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
-  const setCopyLinkTrigger = useSetAtom(copyLinkTriggerAtom);
+  const setCopyLinkTrigger = useSetAtom(copySnackbarAtom);
 
   const [appUser, setAppUser] = useAtom(userAtom);
   const currentRegion = useAtomValue(currentMapAtom);

@@ -2,12 +2,10 @@ import { useAtom } from "jotai";
 import * as L from "leaflet";
 import { useEffect, useRef, useState } from "react";
 import { Marker, Polygon, useMap } from "react-leaflet";
-import { triggerSubRegionIdAtom } from "@/store/map";
+import { focusRegionIdAtom } from "@/store";
 
 export const RegionLayer = ({ positions, id }: any) => {
-  const [triggerSubRegionId, setTriggerSubRegionId] = useAtom(
-    triggerSubRegionIdAtom
-  );
+  const [triggerRegion, setTriggerRegion] = useAtom(focusRegionIdAtom);
   const polygonRef = useRef<L.Polygon | null>(null);
   const map = useMap();
   const [center, setCenter] = useState<L.LatLng | null>(null);
@@ -20,14 +18,14 @@ export const RegionLayer = ({ positions, id }: any) => {
   }, [polygonRef]);
 
   useEffect(() => {
-    if (triggerSubRegionId && triggerSubRegionId === id) {
+    if (triggerRegion && triggerRegion === id) {
       const bounds = polygonRef?.current?.getBounds();
       if (bounds) {
         map.fitBounds(bounds);
       }
-      setTriggerSubRegionId(null);
+      setTriggerRegion(null);
     }
-  }, [id, map, setTriggerSubRegionId, triggerSubRegionId]);
+  }, [id, map, setTriggerRegion, triggerRegion]);
 
   const iconWidth = id.length * 10;
 

@@ -1,8 +1,7 @@
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import { useAtom, useAtomValue } from "jotai";
-import { hiddenCategoriesAtom } from "@/store";
-import { currentGroupsAtom } from "@/store/map";
+import { currentMapAtom, hiddenCategoriesAtom } from "@/store";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",
@@ -25,10 +24,10 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 
 export const ShowHideButtons = () => {
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-  const groups = useAtomValue(currentGroupsAtom);
+  const map = useAtomValue(currentMapAtom);
 
   const showAll = () => {
-    groups?.map((group) =>
+    map?.groups?.map((group) =>
       group.categories?.map((category) => {
         if (hiddenCategories.includes(category.id)) {
           setHiddenCategories((prev) => prev.filter((p) => p !== category.id));
@@ -38,7 +37,7 @@ export const ShowHideButtons = () => {
   };
 
   const hideAll = () => {
-    groups?.map((group) =>
+    map?.groups?.map((group) =>
       group.categories?.map((category) => {
         if (!hiddenCategories.includes(category.id)) {
           setHiddenCategories((prev) => [...prev, category.id]);

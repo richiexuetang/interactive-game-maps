@@ -3,25 +3,28 @@ import { useParams } from "next/navigation";
 import * as React from "react";
 import { Marker } from "./marker";
 import { NoteMarker } from "./note-marker";
-import { userAtom } from "@/store/auth";
-import { hiddenCategoriesAtom } from "@/store/category";
-import { currentMarkersAtom } from "@/store/map";
-import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
+import {
+  currentMapAtom,
+  hiddenCategoriesAtom,
+  searchFilterMarkerAtom,
+  triggeredMarkerAtom,
+  userAtom,
+} from "@/store";
 
 export const MarkerRenderer = () => {
   const params = useParams<{ slug: string }>();
 
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
-  const markers = useAtomValue(currentMarkersAtom);
+  const currentMap = useAtomValue(currentMapAtom);
   const appUser = useAtomValue(userAtom);
-  const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
+  const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
   const searchMarkers = useAtomValue(searchFilterMarkerAtom);
 
-  if (!markers) return null;
+  if (!currentMap) return null;
 
   return (
     <>
-      {markers.map((marker) => {
+      {currentMap.locations?.map((marker) => {
         const { id, categoryId } = marker;
         if (searchMarkers.length) {
           if (searchMarkers.find((marker) => marker.id === id)) {

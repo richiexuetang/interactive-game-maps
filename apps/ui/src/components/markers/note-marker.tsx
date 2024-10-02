@@ -23,8 +23,7 @@ import {
   REMOVE_USER_NOTE_MARKER,
   UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
-import { gameSlugAtom } from "@/store";
-import { userAtom } from "@/store/auth";
+import { currentMapAtom, userAtom } from "@/store";
 
 interface NoteMarkerProps {
   latitude: number;
@@ -48,7 +47,7 @@ export const NoteMarker = ({
     },
   });
 
-  const gameSlug = useAtomValue(gameSlugAtom);
+  const currentMap = useAtomValue(currentMapAtom);
   const params = useParams<{ slug: string }>();
   const div = document.createElement("div");
   div.className = `icon note-icon-1`;
@@ -183,7 +182,7 @@ export const NoteMarker = ({
                 gutterBottom
                 sx={{
                   color: "var(--text-color)",
-                  fontFamily: getBodyFont(gameSlug),
+                  fontFamily: getBodyFont(currentMap?.gameSlug),
                 }}
               >
                 Edit Note

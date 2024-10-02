@@ -27,22 +27,14 @@ import {
   TOGGLE_HIDE_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { userAtom } from "@/store/auth";
-import {
-  currentGroupsAtom,
-  currentMarkersAtom,
-  gameSlugAtom,
-} from "@/store/map";
-import { triggeredMarkerIdAtom } from "@/store/marker";
+import { userAtom, currentMapAtom, triggeredMarkerAtom } from "@/store";
 
 export const ProgressTracker = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
-  const gameSlug = useAtomValue(gameSlugAtom);
   const router = useRouter();
-  const currentGroups = useAtomValue(currentGroupsAtom);
-  const currentMarkers = useAtomValue(currentMarkersAtom);
-  const setTriggerMarkerId = useSetAtom(triggeredMarkerIdAtom);
+  const currentMap = useAtomValue(currentMapAtom);
+  const setTriggerMarkerId = useSetAtom(triggeredMarkerAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
@@ -58,7 +50,7 @@ export const ProgressTracker = () => {
   };
 
   const getCategoryInfoById = (id: number) => {
-    const group = currentGroups?.find((group) =>
+    const group = currentMap?.groups?.find((group) =>
       group.categories?.find((category) => category.id === id)
     );
     const category = group?.categories?.find((category) => category.id === id);
@@ -68,7 +60,7 @@ export const ProgressTracker = () => {
   const totalFoundForCategory = (id: number) => {
     let result = 0;
     appUser?.foundLocations.map((location) => {
-      const marker = currentMarkers?.find(
+      const marker = currentMap?.locations?.find(
         (marker) => marker.id.toString() == location.toString()
       );
       if (marker?.categoryId === id) {
@@ -80,7 +72,7 @@ export const ProgressTracker = () => {
 
   const totalForCategory = (id: number) => {
     let result = 0;
-    currentMarkers?.map((marker) => {
+    currentMap?.locations?.map((marker) => {
       if (marker.categoryId === id) {
         result++;
       }
@@ -155,9 +147,9 @@ export const ProgressTracker = () => {
       >
         <h1
           className={cn(
-            gameSlug,
+            currentMap?.gameSlug,
             "text-titleFont text-center p-2 uppercase tracking-widest",
-            getFontClassName(gameSlug)
+            getFontClassName(currentMap?.gameSlug)
           )}
         >
           Progress Tracker
@@ -176,13 +168,17 @@ export const ProgressTracker = () => {
               {appUser?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
             <Button onClick={handleSignOut}>Log out</Button>
-            {currentGroups?.map((group) =>
+            {currentMap?.groups?.map((group) =>
               group.categories?.map(({ id, icon }) => {
                 if (totalForCategory(id) !== 0) {
                   return (
                     <Accordion key={id}>
                       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                        <span className={`${icon} ${getBodyFont(gameSlug)}`} />
+                        <span
+                          className={`${icon} ${getBodyFont(
+                            currentMap?.gameSlug
+                          )}`}
+                        />
                         <span className="text-text text-xs p-2">
                           {getCategoryInfoById(id)?.title}
                         </span>
@@ -191,7 +187,7 @@ export const ProgressTracker = () => {
                           {totalForCategory(id)}
                         </span>
                       </AccordionSummary>
-                      {currentMarkers?.map(
+                      {currentMap?.locations?.map(
                         ({ id: markerId, categoryId, title }) => {
                           if (categoryId === id)
                             return (

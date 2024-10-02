@@ -10,8 +10,7 @@ import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
-import { userAtom } from "@/store/auth";
-import { highlightedMarkerIdAtom, triggeredMarkerIdAtom } from "@/store/marker";
+import { highlightedMarkerAtom, triggeredMarkerAtom, userAtom } from "@/store";
 
 interface MarkerProps {
   marker: Location;
@@ -24,10 +23,10 @@ export const Marker = ({ marker }: MarkerProps) => {
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
   const [appUser, setAppUser] = useAtom(userAtom);
-  const highlightMarker = useAtomValue(highlightedMarkerIdAtom);
+  const highlightMarker = useAtomValue(highlightedMarkerAtom);
   const { icon } = category!;
 
-  const triggeredMarkerId = useAtomValue(triggeredMarkerIdAtom);
+  const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
   // build div icon
   const div = document.createElement("div");
   div.className = `icon ${icon} ${highlightMarker === id ? "highlight" : ""}`;

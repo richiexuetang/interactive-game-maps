@@ -1,4 +1,16 @@
-import { Typography } from "@mui/material";
+import ClearIcon from "@mui/icons-material/Clear";
+import SearchIcon from "@mui/icons-material/Search";
+import {
+  Avatar,
+  InputAdornment,
+  List,
+  ListItem,
+  ListItemAvatar,
+  ListItemButton,
+  ListItemText,
+  TextField,
+  Typography,
+} from "@mui/material";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
@@ -14,22 +26,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import React, { useState } from "react";
-import { MarkerSearch } from "./markers/marker-search";
 import { ShowHideButtons } from "./sidebar/show-hide-buttons";
 import { SidebarClose } from "./sidebar/sidebar-close";
 import { Map, Region } from "@/__generated__/graphql";
+import { useDebounceCallback } from "@/hooks";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import {
-  gameSlugAtom,
   hiddenCategoriesAtom,
-  triggeredRegionFocusAtom,
+  highlightedMarkerAtom,
+  searchFilterMarkerAtom,
+  triggeredMarkerAtom,
+  focusRegionIdAtom,
+  currentMapAtom,
 } from "@/store";
-import {
-  currentGroupsAtom,
-  currentMarkersAtom,
-  triggerSubRegionIdAtom,
-} from "@/store/map";
 
 interface MenuProps {
   maps: Map[];
@@ -60,12 +70,30 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
   const params = useParams<{ slug: string }>();
 
   const [showMenu, setShowMenu] = useState(true);
-  const groups = useAtomValue(currentGroupsAtom);
-  const markers = useAtomValue(currentMarkersAtom);
-  const gameSlug = useAtomValue(gameSlugAtom);
-  const setRegionFocus = useSetAtom(triggeredRegionFocusAtom);
-  const setSubRegionId = useSetAtom(triggerSubRegionIdAtom);
+  const currentMap = useAtomValue(currentMapAtom);
+  const setSubRegionId = useSetAtom(focusRegionIdAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
+
+  const [searchKeyword, setSearchKeyword] = useState("");
+  const [searchFilterMarker, setSearchFilterMarker] = useAtom(
+    searchFilterMarkerAtom
+  );
+  const [showFiltered, setShowFiltered] = useState(false);
+  const setHighlightedMarker = useSetAtom(highlightedMarkerAtom);
+  const setTriggeredMarkerId = useSetAtom(triggeredMarkerAtom);
+  const debounced = useDebounceCallback(setSearchFilterMarker, 500);
+
+  const inputSearchChange = (input: string) => {
+    setSearchKeyword(input);
+    let filtered =
+      currentMap?.locations?.filter((marker) =>
+        marker.title.toLowerCase().includes(input.toLowerCase())
+      ) ?? [];
+    if (input === "") {
+      filtered = [];
+    }
+    debounced(filtered);
+  };
 
   const handleHiddenCategory = (categoryId: number) => {
     if (hiddenCategories.includes(categoryId)) {
@@ -79,7 +107,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
   };
 
   const handleGroupHide = (groupId: number) => {
-    const group = groups?.find((group) => group.id === groupId);
+    const group = currentMap?.groups?.find((group) => group.id === groupId);
     const categories = group?.categories;
 
     let count = 0;
@@ -105,16 +133,18 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
   };
 
   return (
-    <div className={`${gameSlug} sidebar overflow-scroll z-[100000]`}>
+    <div
+      className={`${currentMap?.gameSlug} sidebar overflow-scroll z-[100000]`}
+    >
       <SidebarClose showMenu={showMenu} setShowMenu={setShowMenu} />
 
       {showMenu && (
         <Collapse in={showMenu} orientation="horizontal">
           <Paper className="overflow-y-scroll absolute left-0 z-[499] w-96 h-full !bg-sidebarBackground">
             <div className="relative flex flex-col p-5 gap-4 items-center">
-              <Link href={`/region/${gameSlug}`}>
+              <Link href={`/region/${currentMap?.gameSlug}`}>
                 <Image
-                  src={`/images/games/${gameSlug}/logo-512.png`}
+                  src={`/images/games/${currentMap?.gameSlug}/logo-512.png`}
                   width="360"
                   height="70"
                   alt="sidebar logo"
@@ -125,10 +155,11 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
               <h1
                 className={cn(
                   "text-accent text-center",
-                  getFontClassName(gameSlug)
+                  getFontClassName(currentMap?.gameSlug)
                 )}
               >
-                {gameSlug?.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
+                {currentMap?.gameSlug?.replaceAll("-", " ").toUpperCase()}{" "}
+                INTERACTIVE MAP
               </h1>
               <Divider orientation="horizontal" flexItem />
 
@@ -159,9 +190,6 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
                   <div key={region.title} className="flex flex-start">
                     <UnderlineButton
                       onClick={() => setSubRegionId(region.title)}
-                      onContextMenu={() => {
-                        setRegionFocus(region.id);
-                      }}
                       sx={{ fontSize: 12, whiteSpace: "nowrap" }}
                       variant="text"
                     >
@@ -177,11 +205,94 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
 
               <Divider orientation="horizontal" flexItem />
 
-              <MarkerSearch map={map} />
-              {groups?.map((group, index) => {
+              <TextField
+                fullWidth
+                label="Search for markers..."
+                variant="filled"
+                onFocus={() => setShowFiltered(true)}
+                value={searchKeyword}
+                onChange={(e) => inputSearchChange(e.target.value)}
+                slotProps={{
+                  input: {
+                    startAdornment: (
+                      <InputAdornment position="start">
+                        {searchKeyword.length ? (
+                          <ClearIcon
+                            onClick={() => {
+                              setSearchKeyword("");
+                              setSearchFilterMarker([]);
+                            }}
+                            sx={{ cursor: "pointer" }}
+                          />
+                        ) : (
+                          <SearchIcon />
+                        )}
+                      </InputAdornment>
+                    ),
+                  },
+                }}
+              />
+
+              {searchFilterMarker?.length > 0 && showFiltered && (
+                <List>
+                  {searchFilterMarker.map((marker) => (
+                    <>
+                      <ListItem
+                        onPointerEnter={() => {
+                          setHighlightedMarker(marker.id);
+                        }}
+                        onPointerLeave={() => setHighlightedMarker(null)}
+                        alignItems="flex-start"
+                        onClick={() => {
+                          map?.setView([marker.latitude, marker.longitude], 13);
+                          setTriggeredMarkerId(marker.id);
+                        }}
+                        key={marker.id}
+                        sx={{ cursor: "pointer" }}
+                        disablePadding
+                      >
+                        <ListItemButton>
+                          <ListItemAvatar>
+                            <Avatar>
+                              <span
+                                className={cn(`icon-${marker.category?.icon}`)}
+                              />
+                            </Avatar>
+                          </ListItemAvatar>
+                          <ListItemText
+                            primary={marker.title}
+                            secondary={
+                              <React.Fragment>
+                                <Typography
+                                  component="span"
+                                  variant="body2"
+                                  sx={{
+                                    color: "text.primary",
+                                    display: "inline",
+                                    lineHeight: 2,
+                                  }}
+                                >
+                                  {marker.category?.title}
+                                </Typography>
+                                <div
+                                  dangerouslySetInnerHTML={{
+                                    __html: marker.description ?? "",
+                                  }}
+                                />
+                              </React.Fragment>
+                            }
+                          />
+                        </ListItemButton>
+                      </ListItem>
+                      <Divider variant="inset" component="li" />
+                    </>
+                  ))}
+                </List>
+              )}
+              {currentMap?.groups?.map((group, index) => {
                 const counts: any = {};
                 group.categories?.map((category) => {
-                  const count = markers?.filter(
+                  const count = currentMap?.locations?.filter(
                     ({ categoryId }) => categoryId == category.id
                   ).length;
                   counts[`${category.title}`] = count;
@@ -204,7 +315,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
                     </h1>
                     <Grid container spacing={1} sx={{ minWidth: 350 }}>
                       {group.categories?.map((category) => {
-                        const count = markers?.filter(
+                        const count = currentMap?.locations?.filter(
                           ({ categoryId }) => categoryId === category.id
                         ).length;
                         if (!count) return null;
