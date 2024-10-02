@@ -46,7 +46,9 @@
 }
 
 .highlight {
-  box-shadow: -6px 8px 72px 29px rgba(43, 20, 43, 0.95);
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 8px 8px;
 }
 
 .note-icon-1 {
