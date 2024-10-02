@@ -23,9 +23,9 @@ const documents = {
     "\nquery GetGames($slug: String!) {\n  game(slug: $slug) {\n    slug\n    title\n    description\n  }\n}": types.GetGamesDocument,
     "\n  query MapDetails($slug: String!) {\n    mapDetails(slug: $slug) {\n      gameSlug\n      title\n    }\n  }\n": types.MapDetailsDocument,
     "\n  query FetchGameByMap($slug: String!) {\n    fetchGameByMap(slug: $slug) {\n      title\n      slug\n      minZoom\n      maxZoom\n      zoom\n      center\n      groups {\n        id\n        title\n        categories {\n          id\n          icon\n          info\n          title\n        }\n      }\n      maps {\n        tilePath\n        slug\n        order\n        title\n        locations {\n          categoryId\n          category {\n            title\n            id\n            icon\n            info\n          }\n          media {\n            url\n            type\n          }\n          description\n          latitude\n          longitude\n          title\n          id\n        }\n      }\n      slug\n    }\n  }\n": types.FetchGameByMapDocument,
-    "\n  query Locations($mapSlug: String) {\n    locations(mapSlug: $mapSlug) {\n      categoryId\n      category {\n        title\n        id\n        icon\n        info\n      }\n      media {\n        url\n        type\n      }\n      description\n      latitude\n      longitude\n      title\n      id\n    }\n  }\n": types.LocationsDocument,
-    "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        mapSlug\n        latitude\n        longitude\n      }\n    }\n  }\n": types.AddNoteMarkerDocument,
+    "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      id\n      title\n      description\n      mapSlug\n      latitude\n      longitude\n    }\n  }\n": types.AddNoteMarkerDocument,
     "\n  mutation RemoveNoteMarker($data: RemoveNoteInput!) {\n    removeNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        mapSlug\n        latitude\n        longitude\n      }\n    }\n  }\n": types.RemoveNoteMarkerDocument,
+    "\n  mutation UpdateNoteMarker($data: UpdateNoteInput!) {\n    updateNoteMarker(data: $data) {\n      id\n    }\n  }\n": types.UpdateNoteMarkerDocument,
 };
 
 /**
@@ -85,15 +85,15 @@ export function gql(source: "\n  query FetchGameByMap($slug: String!) {\n    fet
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n  query Locations($mapSlug: String) {\n    locations(mapSlug: $mapSlug) {\n      categoryId\n      category {\n        title\n        id\n        icon\n        info\n      }\n      media {\n        url\n        type\n      }\n      description\n      latitude\n      longitude\n      title\n      id\n    }\n  }\n"): (typeof documents)["\n  query Locations($mapSlug: String) {\n    locations(mapSlug: $mapSlug) {\n      categoryId\n      category {\n        title\n        id\n        icon\n        info\n      }\n      media {\n        url\n        type\n      }\n      description\n      latitude\n      longitude\n      title\n      id\n    }\n  }\n"];
-/**
- * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
- */
-export function gql(source: "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        mapSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"): (typeof documents)["\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        mapSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"];
+export function gql(source: "\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      id\n      title\n      description\n      mapSlug\n      latitude\n      longitude\n    }\n  }\n"): (typeof documents)["\n  mutation AddNoteMarker($data: AddNoteInput!) {\n    addNoteMarker(data: $data) {\n      id\n      title\n      description\n      mapSlug\n      latitude\n      longitude\n    }\n  }\n"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function gql(source: "\n  mutation RemoveNoteMarker($data: RemoveNoteInput!) {\n    removeNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        mapSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"): (typeof documents)["\n  mutation RemoveNoteMarker($data: RemoveNoteInput!) {\n    removeNoteMarker(data: $data) {\n      noteMarkers {\n        id\n        title\n        description\n        mapSlug\n        latitude\n        longitude\n      }\n    }\n  }\n"];
+/**
+ * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
+export function gql(source: "\n  mutation UpdateNoteMarker($data: UpdateNoteInput!) {\n    updateNoteMarker(data: $data) {\n      id\n    }\n  }\n"): (typeof documents)["\n  mutation UpdateNoteMarker($data: UpdateNoteInput!) {\n    updateNoteMarker(data: $data) {\n      id\n    }\n  }\n"];
 
 export function gql(source: string) {
   return (documents as any)[source] ?? {};

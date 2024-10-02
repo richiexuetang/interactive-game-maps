@@ -1,6 +1,5 @@
-import { useEffect, useMemo, useRef } from "react";
-
 import debounce from "lodash.debounce";
+import { useEffect, useMemo, useRef } from "react";
 
 import { useUnmount } from "./use-unmount";
 
@@ -41,7 +40,9 @@ type ControlFunctions = {
  * Note: If there are no previous invocations, the result will be undefined.
  * Ensure proper handling in your code.
  */
+// eslint-disable-next-line no-unused-vars
 export type DebouncedState<T extends (...args: any) => ReturnType<T>> = ((
+  // eslint-disable-next-line no-unused-vars
   ...args: Parameters<T>
 ) => ReturnType<T> | undefined) &
   ControlFunctions;
@@ -69,6 +70,7 @@ export type DebouncedState<T extends (...args: any) => ReturnType<T>> = ((
  * debouncedCallback('react hooks'); // Will invoke the callback after 500 milliseconds of inactivity.
  * ```
  */
+// eslint-disable-next-line no-unused-vars
 export function useDebounceCallback<T extends (...args: any) => ReturnType<T>>(
   func: T,
   delay = 500,

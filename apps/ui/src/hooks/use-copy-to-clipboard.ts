@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useCallback, useState } from "react";
 
 /**
@@ -76,6 +77,7 @@ export function useClipboardCopyFn(): CopyFn {
       setCopiedText(null);
       return false;
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return copy;
