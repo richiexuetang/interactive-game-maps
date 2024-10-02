@@ -2,7 +2,7 @@ import { useMutation } from "@apollo/client";
 import { useAtom, useAtomValue } from "jotai";
 import * as L from "leaflet";
 import { useParams, useSearchParams } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import * as RL from "react-leaflet";
 import { PopupCard } from "../cards/popup-card";
 import { Location } from "@/__generated__/graphql";
@@ -83,28 +83,30 @@ export const Marker = ({ marker }: MarkerProps) => {
   };
 
   return (
-    <RL.Marker
-      ref={markerRef}
-      position={[latitude, longitude]}
-      opacity={markerFound ? 0.5 : 1}
-      icon={L.divIcon({
-        iconSize: [33, 44],
-        iconAnchor: [17, 44],
-        popupAnchor: [0, -44],
-        tooltipAnchor: [22, -22],
-        html: div,
-      })}
-      zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
-      eventHandlers={{
-        contextmenu: () => {
-          handleMarkerFound();
-        },
-      }}
-    >
-      <RL.Popup>
-        <PopupCard marker={marker} />
-      </RL.Popup>
-      <RL.Tooltip>{title}</RL.Tooltip>
-    </RL.Marker>
+    <Suspense>
+      <RL.Marker
+        ref={markerRef}
+        position={[latitude, longitude]}
+        opacity={markerFound ? 0.5 : 1}
+        icon={L.divIcon({
+          iconSize: [33, 44],
+          iconAnchor: [17, 44],
+          popupAnchor: [0, -44],
+          tooltipAnchor: [22, -22],
+          html: div,
+        })}
+        zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
+        eventHandlers={{
+          contextmenu: () => {
+            handleMarkerFound();
+          },
+        }}
+      >
+        <RL.Popup>
+          <PopupCard marker={marker} />
+        </RL.Popup>
+        <RL.Tooltip>{title}</RL.Tooltip>
+      </RL.Marker>
+    </Suspense>
   );
 };

@@ -4,9 +4,9 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 import React from "react";
+import Providers from "./loading";
 import theme from "@/lib/ui/theme";
 import "@/styles/globals.css";
-import Providers from "./loading";
 
 export const metadata: Metadata = {
   title: "Ritcher Map | Awesome Interactive Game Maps",

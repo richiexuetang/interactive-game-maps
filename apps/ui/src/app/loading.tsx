@@ -5,7 +5,7 @@ import { AppProgressBar as ProgressBar } from "@/components/ui/app-progress-bar"
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
+    <React.Suspense>
       {children}
       <ProgressBar
         height="4px"
@@ -13,7 +13,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
         options={{ showSpinner: true }}
         stopDelay={1000}
       />
-    </>
+    </React.Suspense>
   );
 };
 
