@@ -1596,7 +1596,7 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-3",
-              title: "Bluebridge Romance Drink",
+              title: "Bluebridge Romance",
               description:
                 "**Location:** On a small table in the water  \n\n**Effect:**  ??",
               latitude: "1.00960632420420",
@@ -1612,7 +1612,7 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-4",
-              title: "Drink ??",
+              title: "Pine Brew",
               description: "**Location:** ??  \n\n**Effect:**  ??",
               latitude: "0.53475549935177",
               longitude: "-0.98726237946255",
@@ -3976,20 +3976,66 @@ export const bmw = {
               title: "Spine in the Sack",
               description:
                 "In Webbed Hollow, throughout the whole of the area, you will find these cocoons that you can destroy. This curio is a random drop from one of these cocoons, so attack any you see.",
-              media: [],
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Golden Carp",
+              description:
+                "**Location:** Reward for defeating [Yellow Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=402182)  \n\n**Effect:** ??",
+              latitude: "0.53280256414187",
+              longitude: "-1.02306785804820",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Jade moon rabbit",
+              description:
+                "**Location:** after defeating Zhu Bajie\n\n**Effect:** slightly increase damage reduction",
+              latitude: "0.56306975710791",
+              longitude: "-0.86002618074500",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Gold Sun Crow",
+              description:
+                "**Effect:** Slightly increases Damage Bonus; this effect is enhanced when equipped with Jade Moon Rabbit.",
+              latitude: "0.80131556075614",
+              longitude: "-0.41353660338203",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Tablet of the Three Supremes",
+              description:
+                "**Location:** in a box on the table\n\n**Effect:** Considerable increase Critical Hit Chance when Health is low",
+              latitude: "0.60635379659679",
+              longitude: "-0.67372944494383",
             },
             {
               mapSlug: "chapter-4",
               title: "Tiger Tendon Belt",
               description:
-                "**Location:** Random drop from snake sheriff \n\n**Effect:** ??",
-              latitude: 0.73469055914643,
-              longitude: -0.63869833946271,
+                "**Location:** Random drop from the Tiger Monks in The Webbed Hollow\n\n**Effect:** For a brief moment after seeing through the enemy,\nconsiderably increases Attack. (+12% ATK for 6s)",
+              latitude: "0.57216127543050",
+              longitude: "-0.60235426661214",
+            },
+            {
+              latitude: 0.8119295554776357,
+              longitude: -0.6357647297964909,
+              mapSlug: "chapter-4",
+              title: "Virtuous Bamboo Engraving",
+              description:
+                "In the Temple Entrance area of the Temple of the Yellow Flower. This curio is a random drop from the Worm Practioner enemies. Starting at the shrine, go up the stairs, through the gate on the right, and you will find the enemies there in a courtyard.",
+            },
+            {
+              latitude: 0.8469371653434999,
+              longitude: -0.40882278863983545,
+              mapSlug: "chapter-4",
+              title: "Preservation Orb",
+              description:
+                "In the Temple Entrance area of the Temple of the Yellow Flower. This curio is a random drop from the Worm Practioner enemies. Starting at the shrine, go up the stairs, through the gate on the right, and you will find the enemies there in a courtyard.",
             },
             {
               mapSlug: "chapter-4",
               title: "Celestial Registry Tablet",
-              description: "",
               latitude: 0.73469055914643,
               longitude: -0.63869833946271,
             },
@@ -4000,6 +4046,47 @@ export const bmw = {
                 "**Location**: Bought from Man-in-Stone **Effect:** Increases the amount of spiritual essence gained from killing enemies by 10% (note: this is the money used for purchasing items, not experience)",
               latitude: 0.74,
               longitude: -0.69,
+            },
+            {
+              latitude: 0.8974329418604755,
+              longitude: -1.075438054811153,
+              mapSlug: "chapter-5",
+              title: "Daoist's Basket of Fire and Water",
+              description:
+                "In the Corridor of Fire and Ice area of the Bishui Cave. You get this curios for beating the Bishui Golden-Eyed Beast boss. See Frost and Flame.",
+              media: [],
+            },
+            {
+              latitude: 0.59947118368227,
+              longitude: -0.6628446424014213,
+              mapSlug: "chapter-5",
+              title: "Flame Orb",
+              description:
+                "In the Cooling Slope area of the Field of Fire. You receive this curio by finishing the Five Elements Cart quest.",
+            },
+            {
+              latitude: 0.818483285708025,
+              longitude: -0.3335540199009191,
+              mapSlug: "chapter-5",
+              title: "White Seashell Waist Chain",
+              description:
+                "In the Rakshasa Palace area of the Furnace Valley. Go over the lava on the left near the shrine. There's a dual-wielding enemy at the back of the chamber here, and this curio is a random drop. Respawn and kill this guy until you get it.",
+            },
+            {
+              latitude: 0.5508743845095826,
+              longitude: -0.9902044573628512,
+              mapSlug: "chapter-5",
+              title: "Amber Prayer Beads",
+              description:
+                "In the Height of Ember area of the Woods of Ember. After you beat the Father of Stones boss, head through the gate and into the cave. You will find this curio in a chest on the first exit on the right.",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Gold Button",
+              description:
+                "**Location:** Dropped after defeating the two Sea Rakshasa.\n\n**Effect:** When at full Health, significantly increases Attack.",
+              latitude: "0.76011923226663",
+              longitude: "-0.31946544329151",
             },
             {
               mapSlug: "chapter-6",

@@ -9,7 +9,7 @@ import {
   FETCH_GAME_META_DATA,
   FETCH_GAME_MAP_DETAILS,
   FETCH_MAP_DETAILS,
-  GET_APP_USER,
+  GET_CURRENT_USER,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 
@@ -95,7 +95,7 @@ export async function fetchGameMapDetails(slug: string) {
 export async function getAppUser(email: string) {
   try {
     const { data } = await getClient().query({
-      query: GET_APP_USER,
+      query: GET_CURRENT_USER,
       variables: { email },
     });
     return data.getUser;

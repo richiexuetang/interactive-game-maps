@@ -1,26 +1,25 @@
 import { useMutation } from "@apollo/client";
+import ChecklistIcon from "@mui/icons-material/Checklist";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavigationIcon from "@mui/icons-material/Navigation";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
-import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Button,
-  Checkbox,
-  Divider,
-  IconButton,
-  Menu,
-} from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import Button from "@mui/material/Button";
+import Checkbox from "@mui/material/Checkbox";
+import Divider from "@mui/material/Divider";
 import Fab from "@mui/material/Fab";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useRouter } from "next/navigation";
 import React from "react";
-import { CheckListIcon } from "./icons/check-list-icon";
 import { signOut } from "@/lib/firebase/auth";
-import { getBodyFont, getFontClassName } from "@/lib/font";
+import { getBodyFont } from "@/lib/font";
 import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
@@ -30,9 +29,10 @@ import { cn } from "@/lib/utils";
 import { userAtom, currentMapAtom, triggeredMarkerAtom } from "@/store";
 
 export const ProgressTracker = () => {
+  //#region Hooks
+  const router = useRouter();
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
-  const router = useRouter();
   const currentMap = useAtomValue(currentMapAtom);
   const setTriggerMarkerId = useSetAtom(triggeredMarkerAtom);
   const [appUser, setAppUser] = useAtom(userAtom);
@@ -40,49 +40,34 @@ export const ProgressTracker = () => {
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+  //#endregion
 
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
+  if (!currentMap) return null;
 
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  const { groups, locations, gameSlug } = currentMap;
+  const foundLocations = appUser?.foundLocations;
+  const email = appUser?.email;
 
-  const getCategoryInfoById = (id: number) => {
-    const group = currentMap?.groups?.find((group) =>
-      group.categories?.find((category) => category.id === id)
-    );
-    const category = group?.categories?.find((category) => category.id === id);
-    return category;
-  };
+  //#region Helper Functions
+  const getCategoryInfoById = (categoryId: number) =>
+    groups
+      ?.find((group) => group.categories?.find(({ id }) => id === categoryId))
+      ?.categories?.find(({ id }) => id === categoryId);
 
-  const totalFoundForCategory = (id: number) => {
-    let result = 0;
-    appUser?.foundLocations.map((location) => {
-      const marker = currentMap?.locations?.find(
-        (marker) => marker.id.toString() == location.toString()
-      );
-      if (marker?.categoryId === id) {
-        result++;
-      }
-    });
-    return result;
-  };
+  const totalFoundForCategory = (categoryId: number) =>
+    foundLocations?.filter(
+      (location) =>
+        locations?.find(({ id }) => id.toString() == location.toString())
+          ?.categoryId === categoryId
+    ).length;
 
-  const totalForCategory = (id: number) => {
-    let result = 0;
-    currentMap?.locations?.map((marker) => {
-      if (marker.categoryId === id) {
-        result++;
-      }
-    });
-    return result;
-  };
+  const totalForCategory = (id: number) =>
+    currentMap?.locations?.filter((marker) => marker.categoryId === id).length;
+  //#endregion
 
   const handleMarkerFound = (markerId: number) => {
-    if (appUser?.email) {
-      if (appUser?.foundLocations?.includes(markerId)) {
+    if (email) {
+      if (foundLocations?.includes(markerId)) {
         removeLocation({
           variables: { data: { email: appUser.email, location: markerId } },
         });
@@ -111,55 +96,54 @@ export const ProgressTracker = () => {
     }
   };
 
-  const handleSignOut = async () => {
-    const isOk = await signOut();
-
-    if (isOk) {
-      setAppUser(null);
-      router.back();
-    } else {
-      router.push("/");
-    }
+  const signOutUser = async () => {
+    await signOut();
+    setAppUser(null);
+    router.back();
   };
 
   return (
     <div className={cn("absolute top-16 right-2 z-[1000] flex flex-col gap-5")}>
       <Tooltip title="Progress Tracker" placement="left">
         <Fab
-          onClick={handleClick}
-          aria-controls={open ? "basic-menu" : undefined}
+          onClick={(e: React.MouseEvent<HTMLButtonElement>) =>
+            setAnchorEl(e.currentTarget)
+          }
+          aria-controls={open ? "progress-tracker-menu" : undefined}
           aria-haspopup="true"
-          id="basic-button"
+          id="progress-tracker-button"
           aria-expanded={open ? "true" : undefined}
         >
-          <CheckListIcon className="h-6 w-6" />
+          <ChecklistIcon />
         </Fab>
       </Tooltip>
 
       <Menu
-        id="basic-menu"
+        id="progress-tracker-menu"
         anchorEl={anchorEl}
         open={open}
-        onClose={handleClose}
+        onClose={() => setAnchorEl(null)}
         MenuListProps={{
-          "aria-labelledby": "basic-button",
+          "aria-labelledby": "progress-tracker-button",
         }}
       >
-        <h1
-          className={cn(
-            currentMap?.gameSlug,
-            "text-titleFont text-center p-2 uppercase tracking-widest",
-            getFontClassName(currentMap?.gameSlug)
-          )}
+        <Typography
+          variant="body1"
+          sx={{
+            p: 1,
+            textTransform: "uppercase",
+            textAlign: "center",
+            wordSpacing: "0.2rem",
+          }}
         >
           Progress Tracker
-        </h1>
+        </Typography>
         <Divider sx={{ mb: 2 }} />
         {appUser ? (
-          <div className="flex flex-col mb-3">
+          <Box display="flex" flexDirection="column">
             <Button
               variant="text"
-              sx={{ p: 2, color: "var(--accent-color)" }}
+              sx={{ color: "var(--accent-color)" }}
               startIcon={
                 appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
               }
@@ -167,17 +151,15 @@ export const ProgressTracker = () => {
             >
               {appUser?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
-            <Button onClick={handleSignOut}>Log out</Button>
-            {currentMap?.groups?.map((group) =>
-              group.categories?.map(({ id, icon }) => {
+            <Button onClick={signOutUser}>Log out</Button>
+            {groups?.map(({ categories }) =>
+              categories?.map(({ id, icon }) => {
                 if (totalForCategory(id) !== 0) {
                   return (
                     <Accordion key={id}>
                       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                         <span
-                          className={`${icon} ${getBodyFont(
-                            currentMap?.gameSlug
-                          )}`}
+                          className={`icon-${icon} ${getBodyFont(gameSlug)}`}
                         />
                         <span className="text-text text-xs p-2">
                           {getCategoryInfoById(id)?.title}
@@ -187,48 +169,46 @@ export const ProgressTracker = () => {
                           {totalForCategory(id)}
                         </span>
                       </AccordionSummary>
-                      {currentMap?.locations?.map(
-                        ({ id: markerId, categoryId, title }) => {
-                          if (categoryId === id)
-                            return (
-                              <AccordionDetails
-                                key={`${id} location`}
-                                sx={{
-                                  display: "flex",
-                                  justifyContent: "space-between",
-                                  alignItems: "center",
-                                }}
-                              >
-                                <Checkbox
-                                  checked={appUser?.foundLocations?.includes(
-                                    markerId
-                                  )}
-                                  size="small"
-                                  onChange={() => handleMarkerFound(markerId)}
+                      {locations?.map(({ id: markerId, categoryId, title }) => {
+                        if (categoryId === id)
+                          return (
+                            <AccordionDetails
+                              key={`${markerId} location`}
+                              sx={{
+                                display: "flex",
+                                justifyContent: "space-between",
+                                alignItems: "center",
+                              }}
+                            >
+                              <Checkbox
+                                checked={appUser?.foundLocations?.includes(
+                                  markerId
+                                )}
+                                size="small"
+                                onChange={() => handleMarkerFound(markerId)}
+                              />
+                              <span className="items-center text-xs">
+                                {title}
+                              </span>
+                              <IconButton>
+                                <NavigationIcon
+                                  sx={{
+                                    width: 15,
+                                    height: 15,
+                                    cursor: "pointer",
+                                  }}
+                                  onClick={() => setTriggerMarkerId(markerId)}
                                 />
-                                <span className="flex items-center gap-2 text-xs">
-                                  {title}
-                                </span>
-                                <IconButton>
-                                  <NavigationIcon
-                                    sx={{
-                                      width: 15,
-                                      height: 15,
-                                      cursor: "pointer",
-                                    }}
-                                    onClick={() => setTriggerMarkerId(markerId)}
-                                  />
-                                </IconButton>
-                              </AccordionDetails>
-                            );
-                        }
-                      )}
+                              </IconButton>
+                            </AccordionDetails>
+                          );
+                      })}
                     </Accordion>
                   );
                 }
               })
             )}
-          </div>
+          </Box>
         ) : null}
       </Menu>
     </div>

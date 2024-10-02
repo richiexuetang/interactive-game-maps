@@ -6,6 +6,7 @@ import { Metadata } from "next";
 import React from "react";
 import theme from "@/lib/ui/theme";
 import "@/styles/globals.css";
+import Providers from "./loading";
 
 export const metadata: Metadata = {
   title: "Ritcher Map | Awesome Interactive Game Maps",
@@ -36,7 +37,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-background">
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            {children}
+            <Providers>{children}</Providers>
             <Analytics />
             <SpeedInsights />
           </ThemeProvider>

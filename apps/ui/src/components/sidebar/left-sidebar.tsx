@@ -1,33 +1,31 @@
 import ClearIcon from "@mui/icons-material/Clear";
 import SearchIcon from "@mui/icons-material/Search";
-import {
-  Avatar,
-  InputAdornment,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemButton,
-  ListItemText,
-  TextField,
-  Typography,
-} from "@mui/material";
+import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import FormControl from "@mui/material/FormControl";
 import Grid from "@mui/material/Grid2";
+import InputAdornment from "@mui/material/InputAdornment";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemAvatar from "@mui/material/ListItemAvatar";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
 import MenuItem from "@mui/material/MenuItem";
 import Paper from "@mui/material/Paper";
 import Select from "@mui/material/Select";
 import { styled } from "@mui/material/styles";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import * as L from "leaflet";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import React, { useState } from "react";
-import { ShowHideButtons } from "./sidebar/show-hide-buttons";
-import { SidebarClose } from "./sidebar/sidebar-close";
+import { ShowHideButtons } from "./show-hide-buttons";
+import { SidebarClose } from "./sidebar-close";
 import { Map, Region } from "@/__generated__/graphql";
 import { useDebounceCallback } from "@/hooks";
 import { getFontClassName } from "@/lib/font";
@@ -236,7 +234,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
               {searchFilterMarker?.length > 0 && showFiltered && (
                 <List>
                   {searchFilterMarker.map((marker) => (
-                    <>
+                    <React.Fragment key={marker.id}>
                       <ListItem
                         onPointerEnter={() => {
                           setHighlightedMarker(marker.id);
@@ -262,30 +260,23 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
                           <ListItemText
                             primary={marker.title}
                             secondary={
-                              <React.Fragment>
-                                <Typography
-                                  component="span"
-                                  variant="body2"
-                                  sx={{
-                                    color: "text.primary",
-                                    display: "inline",
-                                    lineHeight: 2,
-                                  }}
-                                >
-                                  {marker.category?.title}
-                                </Typography>
-                                <div
-                                  dangerouslySetInnerHTML={{
-                                    __html: marker.description ?? "",
-                                  }}
-                                />
-                              </React.Fragment>
+                              <Typography
+                                component="span"
+                                variant="body2"
+                                sx={{
+                                  color: "text.primary",
+                                  display: "inline",
+                                  lineHeight: 2,
+                                }}
+                              >
+                                {marker.category?.title}
+                              </Typography>
                             }
                           />
                         </ListItemButton>
                       </ListItem>
                       <Divider variant="inset" component="li" />
-                    </>
+                    </React.Fragment>
                   ))}
                 </List>
               )}

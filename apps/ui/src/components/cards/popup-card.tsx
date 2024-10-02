@@ -1,13 +1,16 @@
 import { useMutation } from "@apollo/client";
 import LinkIcon from "@mui/icons-material/Link";
 import LoginIcon from "@mui/icons-material/Login";
-import { Box, Checkbox, FormControlLabel, styled } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
+import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardHeader from "@mui/material/CardHeader";
+import Checkbox from "@mui/material/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
 import IconButton from "@mui/material/IconButton";
+import { styled } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
@@ -121,11 +124,16 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
       {media && media.length > 0 && <MediaView media={media} />}
 
       <CardContent>
-        <CardContentTypography variant="body2">
-          <div dangerouslySetInnerHTML={{ __html: description ?? "" }} />
-        </CardContentTypography>
+        {description && (
+          // @ts-ignore
+          <CardContentTypography variant="body2" component="div">
+            <div dangerouslySetInnerHTML={{ __html: description }} />
+          </CardContentTypography>
+        )}
+
         {info && (
-          <CardContentTypography variant="body2">
+          // @ts-ignore
+          <CardContentTypography variant="body2" component="div">
             <div
               className="text-xs mt-7 italic"
               dangerouslySetInnerHTML={{ __html: info }}

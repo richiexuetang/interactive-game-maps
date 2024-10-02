@@ -1,27 +1,25 @@
 "use client";
 
 import { useQuery } from "@apollo/client";
-import Alert from "@mui/material/Alert";
-import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
 import { UserRecord } from "firebase-admin/auth";
-import { useAtom } from "jotai";
+import { useAtom, useSetAtom } from "jotai";
 import { LatLngExpression, Map } from "leaflet";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import * as React from "react";
 import * as RL from "react-leaflet";
 import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
 import { v4 as uuidv4 } from "uuid";
-import { MapEventListener } from "./map-event-listener";
+import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
 import { RegionLayer } from "../layers/region";
 import { MarkerRenderer } from "../markers/markers-renderer";
-import { Menu } from "../menu";
 import { ProgressTracker } from "../progress-tracker";
+import { Menu } from "../sidebar/left-sidebar";
 import { Game } from "@/__generated__/graphql";
-import { GET_APP_USER, GET_REGIONS } from "@/lib/graphql/constants";
+import { GET_CURRENT_USER, GET_MAP_REGIONS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { userAtom, copySnackbarAtom, currentMapAtom } from "@/store";
+import { userAtom, currentMapAtom, copySnackbarAtom } from "@/store";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "displayName"> | null;
@@ -29,22 +27,30 @@ interface MapProps {
 }
 
 const DynamicMap = ({ user, mapData }: MapProps) => {
-  const { zoom, minZoom, maxZoom, center, maps } = mapData;
+  //#region Hooks
   const params = useParams<{ slug: string }>();
-  const [map, setMap] = useState<Map | null>(null);
+  const [map, setMap] = React.useState<Map | null>(null);
 
+  const { zoom, minZoom, maxZoom, center, maps } = mapData;
   const currentMap = maps?.find((r) => r.slug === params.slug);
+
   const [appUser, setAppUser] = useAtom(userAtom);
   const [mapConfig, setMapConfig] = useAtom(currentMapAtom);
+  const setOpenSnackbar = useSetAtom(copySnackbarAtom);
 
-  const { data: userData } = useQuery(GET_APP_USER, {
+  const { data: userData, loading: loadingUser } = useQuery(GET_CURRENT_USER, {
     variables: { email: user?.email },
   });
-  const { data: regionData } = useQuery(GET_REGIONS, {
-    variables: { slug: currentMap!.slug },
-  });
+  const { data: regionData, loading: loadingRegion } = useQuery(
+    GET_MAP_REGIONS,
+    {
+      variables: { slug: currentMap!.slug },
+    }
+  );
+  //#endregion
 
-  useEffect(() => {
+  //#region Lifecycle Hooks
+  React.useEffect(() => {
     if (userData?.getUser && !appUser) {
       setAppUser({
         ...userData?.getUser,
@@ -52,7 +58,7 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
     }
   }, [userData, appUser, setAppUser]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (!mapConfig && currentMap) {
       setMapConfig({
         ...currentMap,
@@ -62,29 +68,14 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
       });
     }
   }, [mapConfig, currentMap, mapData, setMapConfig, maxZoom]);
+  //#endregion
 
-  const [openSnackbar, setOpenSnackbar] = useAtom(copySnackbarAtom);
+  if (loadingUser || loadingRegion) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className={cn("h-[calc(100vh-1rem)]", mapData.slug)}>
-      <Snackbar
-        open={openSnackbar ?? false}
-        autoHideDuration={6000}
-        onClose={(_, reason?: SnackbarCloseReason) =>
-          setOpenSnackbar(reason === "clickaway" ? openSnackbar : false)
-        }
-      >
-        <Alert
-          onClose={(_, reason?: SnackbarCloseReason) =>
-            setOpenSnackbar(reason === "clickaway" ? openSnackbar : false)
-          }
-          severity="success"
-          variant="filled"
-          sx={{ width: "100%" }}
-        >
-          Link successfully copied!
-        </Alert>
-      </Snackbar>
       <Menu
         maps={mapData.maps ?? []}
         regions={regionData?.getRegionsByMap}
@@ -141,9 +132,9 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
         />
 
         <RL.ZoomControl position="bottomright" />
+        <CopyLinkNotifier />
         <MarkerRenderer />
         <ProgressTracker />
-        <MapEventListener regionSlug={params.slug} />
         {regionData?.getRegionsByMap?.map((sub: any) => (
           <RegionLayer
             key={sub.title}

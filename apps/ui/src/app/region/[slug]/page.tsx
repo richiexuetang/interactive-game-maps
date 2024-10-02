@@ -4,7 +4,6 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Metadata } from "next";
-import { revalidatePath } from "next/cache";
 import Link from "next/link";
 import { Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
@@ -19,10 +18,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const game = await getMetaData(params.slug);
 
-  const { title, description } = game;
+  const { title } = game;
   return {
     title: `${title} | Ritcher Map`,
-    description,
+    description: `Explore ${title} on Ritcher Map and track all in-game locations.`,
     openGraph: {
       images: [
         process.env.CDN_BASE_URL + `images/games/${params.slug}/preview.png`,
@@ -63,7 +62,6 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
-  revalidatePath("/region");
   const regions = await getMapsByGame(params.slug);
   const fontClassName = getFontClassName(params.slug);
 

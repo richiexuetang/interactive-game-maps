@@ -1,7 +1,8 @@
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
-import { Button, MobileStepper } from "@mui/material";
+import Button from "@mui/material/Button";
 import CardMedia from "@mui/material/CardMedia";
+import MobileStepper from "@mui/material/MobileStepper";
 import Modal from "@mui/material/Modal";
 import Image from "next/image";
 import React from "react";

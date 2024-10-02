@@ -18,7 +18,7 @@ export const REMOVE_FROM_USER_FOUND = gql`
   }
 `;
 
-export const GET_APP_USER = gql(`
+export const GET_CURRENT_USER = gql(`
 query GetUser($email: String!) {
   getUser(email: $email) {
     email,
@@ -58,7 +58,7 @@ mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
 `
 );
 
-export const GET_REGIONS = gql(
+export const GET_MAP_REGIONS = gql(
   `
   query GetRegionsByMap($slug: String!) {
     getRegionsByMap(slug: $slug) {
