@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Marker, Polygon, useMap } from "react-leaflet";
 import { triggerSubRegionIdAtom } from "@/store/map";
 
-export const SubRegion = ({ positions, id }: any) => {
+export const RegionLayer = ({ positions, id }: any) => {
   const [triggerSubRegionId, setTriggerSubRegionId] = useAtom(
     triggerSubRegionIdAtom
   );

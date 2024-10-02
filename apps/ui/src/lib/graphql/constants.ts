@@ -147,14 +147,12 @@ export const FETCH_GAME_MAP_DETAILS = gql`
 export const ADD_USER_NOTE_MARKER = gql`
   mutation AddNoteMarker($data: AddNoteInput!) {
     addNoteMarker(data: $data) {
-      noteMarkers {
-        id
-        title
-        description
-        mapSlug
-        latitude
-        longitude
-      }
+      id
+      title
+      description
+      mapSlug
+      latitude
+      longitude
     }
   }
 `;
@@ -170,6 +168,14 @@ export const REMOVE_USER_NOTE_MARKER = gql`
         latitude
         longitude
       }
+    }
+  }
+`;
+
+export const UPDATE_USER_NOTE_MARKER = gql`
+  mutation UpdateNoteMarker($data: UpdateNoteInput!) {
+    updateNoteMarker(data: $data) {
+      id
     }
   }
 `;

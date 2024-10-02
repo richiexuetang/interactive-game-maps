@@ -5,7 +5,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import { revalidatePath } from "next/cache";
 import Image from "next/image";
 import Link from "next/link";
 import { Game } from "@/__generated__/graphql";
@@ -13,7 +12,6 @@ import { getClient } from "@/lib/graphql/apollo-client";
 import { FETCH_GAMES } from "@/lib/graphql/constants";
 
 export default async function Page() {
-  revalidatePath("/");
   const { data } = await getClient().query({
     query: FETCH_GAMES,
   });

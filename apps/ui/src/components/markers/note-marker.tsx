@@ -14,11 +14,14 @@ import { useAtom, useAtomValue } from "jotai";
 import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { useForm, Controller } from "react-hook-form";
 import { Marker, Popup } from "react-leaflet";
+import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { getBodyFont } from "@/lib/font";
 import {
   ADD_USER_NOTE_MARKER,
   REMOVE_USER_NOTE_MARKER,
+  UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
 import { gameSlugAtom } from "@/store";
 import { userAtom } from "@/store/auth";
@@ -38,27 +41,63 @@ export const NoteMarker = ({
   description,
   id,
 }: NoteMarkerProps) => {
+  const { control, handleSubmit, getValues } = useForm({
+    defaultValues: {
+      [`${id}-Title`]: title ?? "",
+      [`${id}-Description`]: description ?? "",
+    },
+  });
+
   const gameSlug = useAtomValue(gameSlugAtom);
   const params = useParams<{ slug: string }>();
   const div = document.createElement("div");
-  div.className = `icon note-icon`;
+  div.className = `icon note-icon-1`;
 
-  const [draggable, setDraggable] = useState(
-    title === null && description === null
-  );
+  const [draggable, setDraggable] = useState(typeof id === "string");
   const [lat, setLat] = useState(latitude);
   const [lng, setLng] = useState(longitude);
   const markerRef = useRef<L.Marker>(null);
-  const [noteTitle, setNoteTitle] = useState("");
-  const [noteDescription, setNoteDescription] = useState("");
   const [editMode, setEditMode] = useState(false);
   const [appUser, setAppUser] = useAtom(userAtom);
   const [openForm, setOpenForm] = useState(false);
-
+  const copy = useClipboardCopyFn();
   const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
   const [removeNoteMarker, { data: removedData }] = useMutation(
     REMOVE_USER_NOTE_MARKER
   );
+  const [updateNoteMarker] = useMutation(UPDATE_USER_NOTE_MARKER);
+
+  const onSubmit = (data: any) => {
+    const noteMarker = {
+      title: data[`${id}-Title`],
+      description: data[`${id}-Description`],
+      latitude: lat,
+      longitude: lng,
+    };
+    if (typeof id === "number") {
+      updateNoteMarker({
+        variables: {
+          data: {
+            id,
+            ...noteMarker,
+          },
+        },
+      });
+    } else {
+      addNoteMarker({
+        variables: {
+          data: {
+            email: appUser?.email,
+            ...noteMarker,
+            mapSlug: params.slug,
+          },
+        },
+      });
+    }
+
+    setEditMode(false);
+    setOpenForm(false);
+  };
 
   useEffect(() => {
     if (removedData) {
@@ -72,29 +111,15 @@ export const NoteMarker = ({
 
   useEffect(() => {
     if (data) {
-      setAppUser({
-        ...appUser!,
-        noteMarkers: [...(data.addNoteMarker.noteMarkers as any)],
-      });
+      const markers =
+        appUser?.noteMarkers.filter((marker) => marker.id !== id) ?? [];
+      setAppUser((prev) => ({
+        ...prev!,
+        noteMarkers: [...markers, { ...data.addNoteMarker }],
+      }));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
-
-  const handleSave = () => {
-    addNoteMarker({
-      variables: {
-        data: {
-          email: appUser?.email,
-          description: noteDescription,
-          title: noteTitle,
-          latitude: lat,
-          longitude: lng,
-          regionSlug: params.slug,
-        },
-      },
-    });
-    setEditMode(false);
-  };
 
   const handleDelete = () => {
     if (typeof id === "number") {
@@ -115,8 +140,26 @@ export const NoteMarker = ({
       ...prev!,
       noteMarkers: newNoteMarkers ?? [],
     }));
+    setEditMode(false);
   };
 
+  const onMoveSave = () => {
+    if (draggable) {
+      updateNoteMarker({
+        variables: {
+          data: {
+            id,
+            title: title,
+            description: description,
+            latitude: lat,
+            longitude: lng,
+          },
+        },
+      });
+    }
+
+    setDraggable(!draggable);
+  };
   return (
     <>
       <Modal open={openForm} onClose={() => setOpenForm(false)}>
@@ -133,48 +176,60 @@ export const NoteMarker = ({
             m: 4,
           }}
         >
-          <CardContent>
-            <Typography
-              variant="h6"
-              gutterBottom
-              sx={{
-                color: "var(--text-color)",
-                fontFamily: getBodyFont(gameSlug),
-              }}
-            >
-              Edit Note
-            </Typography>
-            <Divider />
-            <Stack spacing={5} sx={{ p: 2 }}>
-              <TextField
-                required
-                label="Note Title"
-                variant="outlined"
-                value={noteTitle}
-                onChange={(e) => setNoteTitle(e.target.value)}
-              />
-              <TextField
-                required
-                label="Note Description"
-                variant="outlined"
-                value={noteDescription}
-                onChange={(e) => setNoteDescription(e.target.value)}
-              />
-            </Stack>
-          </CardContent>
-          <CardActions>
-            <Button size="small" onClick={handleDelete}>
-              Delete
-            </Button>
-            <Button size="small" onClick={handleSave} type="submit">
-              Save
-            </Button>
-          </CardActions>
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <CardContent>
+              <Typography
+                variant="h6"
+                gutterBottom
+                sx={{
+                  color: "var(--text-color)",
+                  fontFamily: getBodyFont(gameSlug),
+                }}
+              >
+                Edit Note
+              </Typography>
+              <Divider />
+              <Stack spacing={5} sx={{ p: 2 }}>
+                <Controller
+                  name={`${id}-Title`}
+                  control={control}
+                  render={({ field }) => (
+                    <TextField
+                      required
+                      label="Note Title"
+                      variant="outlined"
+                      {...field}
+                    />
+                  )}
+                />
+                <Controller
+                  name={`${id}-Description`}
+                  control={control}
+                  render={({ field }) => (
+                    <TextField
+                      required
+                      label="Note Description"
+                      variant="outlined"
+                      {...field}
+                    />
+                  )}
+                />
+              </Stack>
+            </CardContent>
+            <CardActions>
+              <Button size="small" onClick={handleDelete}>
+                Delete
+              </Button>
+              <Button size="small" type="submit">
+                Save
+              </Button>
+            </CardActions>
+          </form>
         </Card>
       </Modal>
       <Marker
         ref={markerRef}
-        position={[latitude, longitude] as any}
+        position={[lat, lng] as any}
         draggable={draggable}
         icon={L.divIcon({
           iconSize: [33, 44],
@@ -199,12 +254,26 @@ export const NoteMarker = ({
         <Popup>
           <Card sx={{ minWidth: 250 }}>
             <CardContent>
-              <Typography sx={{ color: "text.secondary", fontSize: 16 }}>
-                {title}
-              </Typography>
+              <Typography sx={{ color: "text.secondary" }}>{title}</Typography>
               <Divider flexItem />
-              <Typography sx={{ color: "text.secondary", fontSize: 10 }}>
+              <Typography sx={{ color: "text.secondary" }}>
                 {description}
+              </Typography>
+              <Typography
+                sx={{ color: "text.secondary", cursor: "pointer" }}
+                onClick={() =>
+                  copy(
+                    `{latitude: ${lat.toString()},\nlongitude: ${lng.toString()},\n mapSlug: "${
+                      params.slug
+                    }",\n title: "${getValues(
+                      `${id}-Title`
+                    )}",\n description: "${getValues(
+                      `${id}-Description`
+                    )}", media: []},`
+                  )
+                }
+              >
+                {lat}, {lng}
               </Typography>
             </CardContent>
             <CardActions>
@@ -217,7 +286,7 @@ export const NoteMarker = ({
               >
                 Edit
               </Button>
-              <Button size="small" onClick={() => setDraggable(!draggable)}>
+              <Button size="small" onClick={onMoveSave}>
                 {draggable ? "Save" : "Move"}
               </Button>
             </CardActions>

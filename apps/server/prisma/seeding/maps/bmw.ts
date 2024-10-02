@@ -1267,14 +1267,6 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-3",
-              title: "Quest?",
-              description:
-                "Corpse leaning on the arch. Gives fox transformation item",
-              latitude: "1.07938675706780",
-              longitude: "-0.63735317896339",
-            },
-            {
-              mapSlug: "chapter-3",
               title: "Buddha Statue",
               description:
                 "Quest from Baby Buddha - Workship at 4 Buddha Statues",
@@ -1392,21 +1384,21 @@ export const bmw = {
             {
               mapSlug: "chapter-4",
               title: "Awaken Wine Worm",
-              description: "**Location:** ??",
+              description:
+                "**Location:** Head through the door on the right when you enter the Temple of Yellow Flowers. Run up the stairs, defeat the Snake Shriff Spirit, and go through the door it was guarding to find the Awaken Wine Worm in a barrel underneath a large tree.",
               latitude: 0.68971422170272,
-              longitude: "-0.61185244071035",
+              longitude: -0.61185244071035,
             },
             {
               mapSlug: "chapter-4",
               title: "Awaken Wine Worm",
-              description: "**Location:** ??",
+              description: "**Location:** Purple Cloud Mountain ",
               latitude: "0.86829153123134",
               longitude: "-0.43373071751455",
             },
             {
               mapSlug: "chapter-5",
               title: "Awakened Wine Worm",
-              description: "",
               latitude: "0.78995526400450",
               longitude: "-0.34030258655358",
             },
@@ -3813,7 +3805,7 @@ export const bmw = {
           locations: [
             {
               mapSlug: "chapter-1",
-              title: "Cat's Eye Beads",
+              title: "Cat Eye Beads",
               description:
                 "Reward for defeating the [Wandering Wight](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=397294)",
               latitude: "0.96352826607695",
@@ -3890,6 +3882,42 @@ export const bmw = {
               longitude: "-0.67274093627958",
             },
             {
+              latitude: 1.1279748896855792,
+              longitude: -0.6265173828208904,
+              mapSlug: "chapter-3",
+              title: "Beast Buddha",
+              description:
+                "In the Towers of Karma are of the Valley of Ecstasy. This is a random drop from the Dual-Blade Monk enemy. You find him just in front of the shrine, which is handy because you can respawn and kill him again as much as you need to.",
+              media: [],
+            },
+            {
+              latitude: 0.5136470854964647,
+              longitude: -0.6612748287973936,
+              mapSlug: "chapter-3",
+              title: "Auspicious Lantern",
+              description:
+                "Defeat all nine wardens in the pagoda prison before facing Captain Wise-Voice; as this one is **missable**,",
+              media: [],
+            },
+            {
+              latitude: 1.140679354676699,
+              longitude: -0.6304609206370483,
+              mapSlug: "chapter-3",
+              title: "Thunderflame Seal",
+              description:
+                "In the Temple Entrance area of New Thunderclap Temple. This curio is randomly dropped by the Thunder-Rhino Master enemies. From the shrine, go down the stairs ahead. You will see these enemies on the stairs as you leave the temple. There are four of them, so you have a better chance of getting this one more quickly.",
+              media: [],
+            },
+            {
+              latitude: 1.084428823677583,
+              longitude: -0.6256410410839731,
+              mapSlug: "chapter-3",
+              title: "Bronze Buddha Pendant:",
+              description:
+                "In the Forest of Felicity area of the Valley of Ecstasy. This is a random drop from the wolf enemies here. You will find them through the Torii gate ahead of the shrine.",
+              media: [],
+            },
+            {
               mapSlug: "chapter-3",
               title: "Frostsprout Twig",
               description:
@@ -3920,6 +3948,14 @@ export const bmw = {
               longitude: "-0.64402391834560",
             },
             {
+              latitude: 1.0990610729106,
+              longitude: -0.6512302198073662,
+              mapSlug: "chapter-3",
+              title: "Gold Spikeplate",
+              description:
+                "Longevity Road area of the Valley of Ecstasy. In the area with the stone statues, ahead of the shrine, take the path on the left and follow this path down. In the area ahead, you will see  a Dark-Faced Overlord that drops this.",
+            },
+            {
               mapSlug: "chapter-3",
               title: "Thunderstone",
               description: "**Location:** ??  \n\n**Effect:** ??",
@@ -3932,6 +3968,15 @@ export const bmw = {
               description: "**Location:** Inside the chest  \n\n**Effect:** ??",
               latitude: "0.81784614917606",
               longitude: "-0.95784429397480",
+            },
+            {
+              latitude: 0.8492053928060825,
+              longitude: -0.9697345095367861,
+              mapSlug: "chapter-4",
+              title: "Spine in the Sack",
+              description:
+                "In Webbed Hollow, throughout the whole of the area, you will find these cocoons that you can destroy. This curio is a random drop from one of these cocoons, so attack any you see.",
+              media: [],
             },
             {
               mapSlug: "chapter-4",
@@ -4150,6 +4195,28 @@ export const bmw = {
         {
           title: "Elite Lesser Yaoguai",
           locations: [
+            {
+              latitude: 0.6400910392763791,
+              longitude: -0.8266450023315209,
+              mapSlug: "chapter-1",
+              title: "Wolf Scout",
+              description: "**Location**",
+              media: [],
+            },
+            {
+              latitude: 0.557745391904162,
+              longitude: -0.821674698837982,
+              mapSlug: "chapter-1",
+              title: "Wolf Swornsword",
+              media: [],
+            },
+            {
+              latitude: 0.6331390425623165,
+              longitude: -0.807584103147221,
+              mapSlug: "chapter-1",
+              title: "Wolf Stalwart",
+              media: [],
+            },
             {
               mapSlug: "chapter-1",
               title: "Bandit Chief",
@@ -5150,6 +5217,14 @@ export const bmw = {
                 "**How To Begin:** Speak to the [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398863)\n\n**Steps:**\n\n1. Give [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=398863) the [Sobering Stone](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399634) (purchase from Man in Rock).\n2. Find the [Drunken Boar](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=399827) in the Tiger's Temple and give him the Jade Lotus.\n3. Return to he was originally and defeat the [Yellow-Robed Squire](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=397644)",
               latitude: "0.92749735183827",
               longitude: "-0.70356364529886",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Snox Fox Quest",
+              description:
+                "**How To Begin:** Speak to the Corpse leaning on the arch, use transformation before entering Non-Void boss room, talk to the fox after and recieve Snox Fox Brush",
+              latitude: "1.07938675706780",
+              longitude: "-0.63735317896339",
             },
           ],
         },

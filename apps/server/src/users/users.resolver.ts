@@ -7,6 +7,8 @@ import { UpdateFoundLocationInput } from "./dto/update-found-location.input";
 import { UpdateHideFoundInput } from "./dto/update-hide-found.input";
 import { AddNoteInput } from "./dto/add-note.input";
 import { RemoveNoteInput } from "./dto/remove-note.input";
+import { UpdateNoteInput } from "./dto/update-note.input";
+import { NoteMarker } from "./models/note-marker.model";
 
 @Resolver(() => User)
 export class UsersResolver {
@@ -35,11 +37,11 @@ export class UsersResolver {
     });
   }
 
-  @Mutation(() => User)
+  @Mutation(() => NoteMarker)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
     const { email, mapSlug, ...noteData } = data;
 
-    await this.prisma.noteMarker.create({
+    const marker = await this.prisma.noteMarker.create({
       data: {
         ...noteData,
         map: { connect: { slug: mapSlug } },
@@ -47,13 +49,27 @@ export class UsersResolver {
       },
     });
 
-    return await this.usersService.findUserByEmail(data.email);
+    return marker;
   }
 
   @Mutation(() => User)
   async removeNoteMarker(@Args("data") data: RemoveNoteInput) {
     await this.prisma.noteMarker.delete({ where: { id: data.id } });
     return await this.usersService.findUserByEmail(data.email);
+  }
+
+  @Mutation(() => NoteMarker)
+  async updateNoteMarker(@Args("data") data: UpdateNoteInput) {
+    await this.prisma.noteMarker.update({
+      where: { id: data.id },
+      data: {
+        title: data.title,
+        description: data.description,
+        latitude: data.latitude,
+        longitude: data.longitude,
+      },
+    });
+    return this.prisma.noteMarker.findUnique({ where: { id: data.id } });
   }
 
   @Mutation(() => User)

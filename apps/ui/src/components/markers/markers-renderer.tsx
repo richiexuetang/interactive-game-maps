@@ -33,11 +33,8 @@ export const MarkerRenderer = () => {
         return <Marker key={id} marker={marker} />;
       })}
       {appUser?.noteMarkers.map(
-        (
-          { latitude, longitude, title, description, regionSlug, id },
-          index
-        ) => {
-          if (params.slug === regionSlug) {
+        ({ latitude, longitude, title, description, mapSlug, id }, index) => {
+          if (params.slug === mapSlug) {
             return (
               <NoteMarker
                 latitude={latitude ?? 0}

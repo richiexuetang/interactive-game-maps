@@ -69,7 +69,6 @@ export default async function RegionPage({
 
   const showRegionMedia = regions.length <= 2;
 
-  console.log("regions", regions, process.env.CDN_BASE_URL);
   return (
     <div className={cn(params.slug, "bg-bodyBackground h-[100vh]")}>
       <MainNav />

@@ -125,11 +125,12 @@ type Media {
 
 type Mutation {
   addFoundLocations(data: UpdateFoundLocationInput!): User!
-  addNoteMarker(data: AddNoteInput!): User!
+  addNoteMarker(data: AddNoteInput!): NoteMarker!
   createUser(data: CreateUserInput!): User
   removeFoundLocation(data: UpdateFoundLocationInput!): User!
   removeNoteMarker(data: RemoveNoteInput!): User!
   toggleHideFoundSetting(data: UpdateHideFoundInput!): User!
+  updateNoteMarker(data: UpdateNoteInput!): NoteMarker!
 }
 
 type NoteMarker {
@@ -200,6 +201,14 @@ input UpdateFoundLocationInput {
 input UpdateHideFoundInput {
   email: String!
   hide: Boolean!
+}
+
+input UpdateNoteInput {
+  description: String!
+  id: Float!
+  latitude: Float!
+  longitude: Float!
+  title: String!
 }
 
 type User {

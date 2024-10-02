@@ -45,9 +45,17 @@
   background-color: transparent !important;
 }
 
-.note-icon {
-  background: url(/markers/hogwarts-legacy.png);
-  background-position: 0 0;
+.note-icon-1 {
+  background-position: 0 -352px;
+
+}
+
+.note-icon-2 {
+  background-position: -33px -352px;
+}
+
+.note-icon-3 {
+  background-position: -66px -352px;
 }
 
 .cerulean_scarab {

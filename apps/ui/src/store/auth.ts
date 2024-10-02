@@ -4,7 +4,7 @@ interface NoteMarker {
   id: string | number;
   latitude: number;
   longitude: number;
-  regionSlug: string;
+  mapSlug: string;
   title: string | null;
   description: string | null;
 }

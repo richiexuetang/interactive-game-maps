@@ -230,9 +230,6 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
                               >
                                 {count}
                               </Typography>
-                              {/* <span className="text-[10px] text-right flex-1">
-                                {count}
-                              </span> */}
                             </div>
                           </Grid>
                         );

@@ -14,7 +14,7 @@ import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
 import { v4 as uuidv4 } from "uuid";
 import { MapEventListener } from "./map-event-listener";
-import { SubRegion } from "../layers/sub-region";
+import { RegionLayer } from "../layers/region";
 import { MarkerSearch } from "../markers/marker-search";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { Menu } from "../menu";
@@ -147,7 +147,7 @@ const Map = ({ user, mapData }: MapProps) => {
                     latitude: latlng.lat,
                     longitude: latlng.lng,
                     id: uuidv4(),
-                    regionSlug: params.slug,
+                    mapSlug: params.slug,
                   },
                 ],
               }));
@@ -172,7 +172,7 @@ const Map = ({ user, mapData }: MapProps) => {
         <ProgressTracker />
         <MapEventListener regionSlug={params.slug} />
         {regionData?.getRegionsByMap?.map((sub: any) => (
-          <SubRegion
+          <RegionLayer
             key={sub.title}
             positions={sub.coordinates}
             id={sub.title}
