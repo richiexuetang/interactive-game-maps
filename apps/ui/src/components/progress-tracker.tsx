@@ -131,7 +131,7 @@ export const ProgressTracker = () => {
   };
 
   return (
-    <div className={cn("absolute top-36 right-2 z-[1000] flex flex-col gap-5")}>
+    <div className={cn("absolute top-16 right-2 z-[1000] flex flex-col gap-5")}>
       <Tooltip title="Progress Tracker" placement="left">
         <Fab
           onClick={handleClick}

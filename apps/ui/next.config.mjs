@@ -1,21 +1,11 @@
+import NextBundleAnalyzer from '@next/bundle-analyzer';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         remotePatterns: [
             {
-                protocol: 'https',
-                hostname: 'd33r43rvwo508f.cloudfront.net',
-                port: '',
-                pathname: '/**',
-            },
-            {
                 hostname: "media.mapgenie.io",
-                protocol: 'https',
-                port: '',
-                pathname: '/**',
-            },
-            {
-                hostname: "www.ign.com",
                 protocol: 'https',
                 port: '',
                 pathname: '/**',
@@ -30,4 +20,8 @@ const nextConfig = {
     },
 };
 
-export default nextConfig;
+const withBundleAnalyzer = NextBundleAnalyzer({
+    enabled: process.env.ANALYZE === 'true',
+})
+
+export default withBundleAnalyzer(nextConfig);

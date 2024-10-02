@@ -5,9 +5,9 @@ import Alert from "@mui/material/Alert";
 import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
 import { UserRecord } from "firebase-admin/auth";
 import { useAtom, useSetAtom } from "jotai";
-import { LatLngExpression } from "leaflet";
+import { LatLngExpression, Map } from "leaflet";
 import { useParams } from "next/navigation";
-import { SyntheticEvent, useEffect } from "react";
+import { SyntheticEvent, useEffect, useState } from "react";
 import * as RL from "react-leaflet";
 import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
@@ -36,9 +36,10 @@ interface MapProps {
   mapData: Game;
 }
 
-const Map = ({ user, mapData }: MapProps) => {
+const DynamicMap = ({ user, mapData }: MapProps) => {
   const { zoom, minZoom, maxZoom, center, maps } = mapData;
   const params = useParams<{ slug: string }>();
+  const [map, setMap] = useState<Map | null>(null);
 
   const currentMap = maps?.find((r) => r.slug === params.slug);
   const [game, setGame] = useAtom(gameSlugAtom);
@@ -101,6 +102,7 @@ const Map = ({ user, mapData }: MapProps) => {
     setOpenSnackbar(false);
   };
 
+  console.log(map);
   return (
     <div className={cn("h-[calc(100vh-1rem)]", mapData.slug)}>
       <Snackbar
@@ -117,8 +119,13 @@ const Map = ({ user, mapData }: MapProps) => {
           Link successfully copied!
         </Alert>
       </Snackbar>
-      <Menu maps={mapData.maps ?? []} regions={regionData?.getRegionsByMap} />
+      <Menu
+        maps={mapData.maps ?? []}
+        regions={regionData?.getRegionsByMap}
+        map={map}
+      />
       <RL.MapContainer
+        ref={setMap}
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}
@@ -166,9 +173,10 @@ const Map = ({ user, mapData }: MapProps) => {
         <RL.TileLayer
           url={`${process.env.NEXT_PUBLIC_TILES_URL}${currentMap?.tilePath}/{z}/{y}/{x}.jpg`}
         />
+
         <RL.ZoomControl position="bottomright" />
         <MarkerRenderer />
-        <MarkerSearch />
+        <MarkerSearch map={map} />
         <ProgressTracker />
         <MapEventListener regionSlug={params.slug} />
         {regionData?.getRegionsByMap?.map((sub: any) => (
@@ -183,4 +191,4 @@ const Map = ({ user, mapData }: MapProps) => {
   );
 };
 
-export default Map;
+export default DynamicMap;

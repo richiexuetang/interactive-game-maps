@@ -9,10 +9,12 @@ import Paper from "@mui/material/Paper";
 import Select from "@mui/material/Select";
 import { styled } from "@mui/material/styles";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import * as L from "leaflet";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import React, { useState } from "react";
+import { MarkerSearch } from "./markers/marker-search";
 import { ShowHideButtons } from "./sidebar/show-hide-buttons";
 import { SidebarClose } from "./sidebar/sidebar-close";
 import { Map, Region } from "@/__generated__/graphql";
@@ -32,6 +34,7 @@ import {
 interface MenuProps {
   maps: Map[];
   regions: Region[];
+  map: L.Map | null;
 }
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
@@ -52,7 +55,7 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
   },
 }));
 
-export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
+export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
   const router = useRouter();
   const params = useParams<{ slug: string }>();
 
@@ -102,7 +105,7 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
   };
 
   return (
-    <div className={`${gameSlug} sidebar`}>
+    <div className={`${gameSlug} sidebar overflow-scroll z-[100000]`}>
       <SidebarClose showMenu={showMenu} setShowMenu={setShowMenu} />
 
       {showMenu && (
@@ -174,6 +177,7 @@ export const Menu = ({ maps, regions: subRegions }: MenuProps) => {
 
               <Divider orientation="horizontal" flexItem />
 
+              <MarkerSearch map={map} />
               {groups?.map((group, index) => {
                 const counts: any = {};
                 group.categories?.map((category) => {

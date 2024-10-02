@@ -1,40 +1,23 @@
-import { Fab, List, Tooltip } from "@mui/material";
-import { Avatar } from "@mui/material";
-import Box from "@mui/material/Box";
-import IconButton from "@mui/material/IconButton";
+import { ListItemButton } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
+import Divider from "@mui/material/Divider";
 import InputAdornment from "@mui/material/InputAdornment";
+import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import ListItemText from "@mui/material/ListItemText";
-import Popover from "@mui/material/Popover";
 import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import React from "react";
-import { useState } from "react";
-import { useMap } from "react-leaflet";
-import { MapPinIcon } from "../icons/map-pin-icon";
+import { Map } from "leaflet";
+import React, { useState } from "react";
 import { SearchIcon } from "../icons/search-icon";
 import { useDebounceCallback } from "@/hooks/use-debounce-callback";
 import { cn } from "@/lib/utils";
 import { currentMarkersAtom } from "@/store/map";
 import { searchFilterMarkerAtom, triggeredMarkerIdAtom } from "@/store/marker";
 
-export const MarkerSearch = () => {
-  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
-    null
-  );
-
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-
-  const open = Boolean(anchorEl);
-  const id = open ? "simple-popover" : undefined;
-
+export const MarkerSearch = ({ map }: { map: Map | null }) => {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchFilterMarker, setSearchFilterMarker] = useAtom(
     searchFilterMarkerAtom
@@ -43,7 +26,6 @@ export const MarkerSearch = () => {
   const markers = useAtomValue(currentMarkersAtom);
 
   const setTriggeredMarkerId = useSetAtom(triggeredMarkerIdAtom);
-  const map = useMap();
   const debounced = useDebounceCallback(setSearchFilterMarker, 500);
 
   const inputSearchChange = (input: string) => {
@@ -59,74 +41,74 @@ export const MarkerSearch = () => {
   };
 
   return (
-    <div className="absolute top-20 right-2 z-[1000]">
-      <Tooltip title="Search..." placement="left">
-        <Fab onClick={handleClick}>
-          <SearchIcon className="h-5 w-5" />
-        </Fab>
-      </Tooltip>
-      <Popover
-        id={id}
-        open={open}
-        anchorEl={anchorEl}
-        onClose={handleClose}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "left",
+    <>
+      <TextField
+        fullWidth
+        label="Search for markers..."
+        variant="filled"
+        onFocus={() => setShowFiltered(true)}
+        value={searchKeyword}
+        onChange={(e) => inputSearchChange(e.target.value)}
+        slotProps={{
+          input: {
+            startAdornment: (
+              <InputAdornment position="start">
+                <SearchIcon className="h-5 w-5" />
+              </InputAdornment>
+            ),
+          },
         }}
-      >
-        <Box padding={2}>
-          <TextField
-            label="Search for markers..."
-            placeholder=""
-            onFocus={() => setShowFiltered(true)}
-            value={searchKeyword}
-            onChange={(e) => inputSearchChange(e.target.value)}
-            slotProps={{
-              input: {
-                startAdornment: (
-                  <InputAdornment position="start">
-                    <SearchIcon className="h-5 w-5" />
-                  </InputAdornment>
-                ),
-              },
-            }}
-            variant="standard"
-          />
-        </Box>
-        {searchFilterMarker?.length > 0 && showFiltered && (
-          <List>
-            {searchFilterMarker.map((marker) => (
+      />
+      {searchFilterMarker?.length > 0 && showFiltered && (
+        <List>
+          {searchFilterMarker.map((marker) => (
+            <>
               <ListItem
+                alignItems="flex-start"
+                onClick={() => {
+                  map?.setView([marker.latitude, marker.longitude], 13);
+                  setTriggeredMarkerId(marker.id);
+                }}
                 key={marker.id}
-                secondaryAction={
-                  <IconButton
-                    edge="end"
-                    aria-label="navigate"
-                    onClick={() => {
-                      map.setView([marker.latitude, marker.longitude], 13);
-                      setTriggeredMarkerId(marker.id);
-                      setShowFiltered(false);
-                    }}
-                  >
-                    <MapPinIcon />
-                  </IconButton>
-                }
+                sx={{ cursor: "pointer" }}
+                disablePadding
               >
-                <ListItemAvatar>
-                  <Avatar>
-                    <span className={cn(`${marker.category?.icon}`)} />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText
-                  primary={marker.title}
-                  secondary={marker.category?.title}
-                />
+                <ListItemButton>
+                  <ListItemAvatar>
+                    <Avatar>
+                      <span className={cn(`icon-${marker.category?.icon}`)} />
+                    </Avatar>
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary={marker.title}
+                    secondary={
+                      <React.Fragment>
+                        <Typography
+                          component="span"
+                          variant="body2"
+                          sx={{
+                            color: "text.primary",
+                            display: "inline",
+                            lineHeight: 2,
+                          }}
+                        >
+                          {marker.category?.title}
+                        </Typography>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: marker.description ?? "",
+                          }}
+                        />
+                      </React.Fragment>
+                    }
+                  />
+                </ListItemButton>
               </ListItem>
-            ))}
-          </List>
-        )}
-      </Popover>
-    </div>
+              <Divider variant="inset" component="li" />
+            </>
+          ))}
+        </List>
+      )}
+    </>
   );
 };

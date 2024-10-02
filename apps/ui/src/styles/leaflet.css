@@ -187,11 +187,11 @@
 }
 
 .leaflet-top {
-    top: 0;
+    top: 5px;
 }
 
 .leaflet-right {
-    right: 0;
+    right: 5px;
 }
 
 .leaflet-bottom {
@@ -820,19 +820,15 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 .leaflet-touch .fullscreen-icon {
     background-position: 2px 2px;
+    top: 10px;
 }
 
 .leaflet-touch .fullscreen-icon.leaflet-fullscreen-on {
     background-position: 2px -24px;
 }
 
+.leaflet-container:fullscreen,
 .leaflet-container:-webkit-full-screen {
-    width: 100% !important;
-    height: 100% !important;
-    z-index: 99999;
-}
-
-.leaflet-container:fullscreen {
     width: 100% !important;
     height: 100% !important;
     z-index: 99999;
