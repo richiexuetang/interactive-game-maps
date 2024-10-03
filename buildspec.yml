@@ -9,7 +9,8 @@ phases:
     commands:
       - echo log in to Amazon ECR...
       - echo $AWS_DEFAULT_REGION
-      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username $ECR_LOGIN_USER --password-stdin $ECR_LOGIN_PASS
+      - docker login -u AWS -p $(aws ecr get-login-password --region $AWS_DEFAULT_REGION) 390402540887.dkr.ecr.us-west-1.amazonaws.com/ritcher-map/server
+      # - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username $ECR_LOGIN_USER --password-stdin $ECR_LOGIN_PASS
       - REPOSITORY_URI=$REPO_URL
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
