@@ -8,10 +8,12 @@ import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import { Game } from "@/__generated__/graphql";
 import { getDesignTokens } from "@/lib/ui/design-tokens";
+import "@/styles/leaflet.css";
+import "@/styles/icon.css";
 
 export interface MapProps {
-  user: Pick<UserRecord, "email" | "photoURL" | "displayName"> | null;
-  regionData: Game;
+  user: Pick<UserRecord, "email" | "displayName"> | null;
+  mapData: Game;
 }
 
 const client = new ApolloClient({
@@ -19,7 +21,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-const RitcherMap = ({ user, regionData }: MapProps) => {
+const RitcherMap = ({ user, mapData: regionData }: MapProps) => {
   const Map = useMemo(
     () =>
       dynamic(() => import("./dynamic-map"), {

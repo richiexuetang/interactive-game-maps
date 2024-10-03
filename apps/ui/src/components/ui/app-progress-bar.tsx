@@ -10,7 +10,7 @@ import {
 import NProgress from "nprogress";
 import React, { useCallback, useEffect, useMemo, useRef } from "react";
 import { ProgressBarProps, RouterNProgressOptions } from "./";
-import { getAnchorProperty } from "@/lib/ui/get-anchor-property.";
+import { getAnchorProperty } from "@/lib/ui/get-anchor-property";
 import { isSameURL, isSameURLWithoutSearch } from "@/lib/ui/same-url";
 
 type PushStateInput = [

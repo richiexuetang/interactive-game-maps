@@ -9,8 +9,6 @@ import {
   getMetaData,
   getMapDetails,
 } from "@/lib/graphql/api";
-import "@/styles/leaflet.css";
-import "@/styles/icon.css";
 
 export async function generateMetadata({
   params,
@@ -66,7 +64,7 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
-  const gameRegion = await fetchGameMapDetails(params.slug);
+  const gameMap = await fetchGameMapDetails(params.slug);
   const currentUser = await getCurrentUser();
 
   const appUser = await getAppUser(currentUser?.email ?? "");
@@ -80,7 +78,7 @@ export default async function MapPage({
 
   return (
     <Map
-      regionData={gameRegion}
+      mapData={gameMap}
       user={{
         email: currentUser?.email,
         displayName: currentUser?.displayName,

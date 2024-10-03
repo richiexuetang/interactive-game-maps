@@ -1995,7 +1995,7 @@ export const bmw = {
         },
         {
           title: "Soak",
-          isCheckList: true,
+          isChecklist: true,
           locations: [
             {
               mapSlug: "chapter-1",
@@ -3980,7 +3980,6 @@ export const bmw = {
               title: "Beast Buddha",
               description:
                 "In the Towers of Karma are of the Valley of Ecstasy. This is a random drop from the Dual-Blade Monk enemy. You find him just in front of the shrine, which is handy because you can respawn and kill him again as much as you need to.",
-              media: [],
             },
             {
               latitude: 0.5136470854964647,
@@ -3989,7 +3988,6 @@ export const bmw = {
               title: "Auspicious Lantern",
               description:
                 "Defeat all nine wardens in the pagoda prison before facing Captain Wise-Voice; as this one is **missable**,",
-              media: [],
             },
             {
               latitude: 1.140679354676699,
@@ -3998,7 +3996,6 @@ export const bmw = {
               title: "Thunderflame Seal",
               description:
                 "In the Temple Entrance area of New Thunderclap Temple. This curio is randomly dropped by the Thunder-Rhino Master enemies. From the shrine, go down the stairs ahead. You will see these enemies on the stairs as you leave the temple. There are four of them, so you have a better chance of getting this one more quickly.",
-              media: [],
             },
             {
               latitude: 1.084428823677583,
@@ -4007,7 +4004,6 @@ export const bmw = {
               title: "Bronze Buddha Pendant:",
               description:
                 "In the Forest of Felicity area of the Valley of Ecstasy. This is a random drop from the wolf enemies here. You will find them through the Torii gate ahead of the shrine.",
-              media: [],
             },
             {
               mapSlug: "chapter-3",
@@ -4146,7 +4142,6 @@ export const bmw = {
               title: "Daoist's Basket of Fire and Water",
               description:
                 "In the Corridor of Fire and Ice area of the Bishui Cave. You get this curios for beating the Bishui Golden-Eyed Beast boss. See Frost and Flame.",
-              media: [],
             },
             {
               latitude: 0.59947118368227,
@@ -4372,7 +4367,7 @@ export const bmw = {
       title: "Enemies",
       categories: [
         {
-          title: "Elite Lesser Yaoguai",
+          title: "Lesser Yaoguai",
           locations: [
             {
               latitude: 0.6400910392763791,
@@ -4380,21 +4375,18 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Wolf Scout",
               description: "**Location**",
-              media: [],
             },
             {
               latitude: 0.557745391904162,
               longitude: -0.821674698837982,
               mapSlug: "chapter-1",
               title: "Wolf Swornsword",
-              media: [],
             },
             {
               latitude: 0.6331390425623165,
               longitude: -0.807584103147221,
               mapSlug: "chapter-1",
               title: "Wolf Stalwart",
-              media: [],
             },
             {
               mapSlug: "chapter-1",
@@ -5855,6 +5847,7 @@ export const bmw = {
       categories: [
         {
           title: "Aged Ginseng",
+          defaultHidden: true,
           locations: [
             {
               mapSlug: "chapter-1",
@@ -6028,6 +6021,7 @@ export const bmw = {
         },
         {
           title: "Purple Lingzhi",
+          defaultHidden: true,
           locations: [
             {
               mapSlug: "chapter-1",
@@ -6168,7 +6162,112 @@ export const bmw = {
           ],
         },
         {
-          title: "Licrorice",
+          title: "Fire Bellflower",
+          defaultHidden: true,
+          locations: [
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              description: "**Location:** Inside a small canyon in the cave",
+              latitude: "0.49597235559739",
+              longitude: "-0.88936028713695",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              description: "**Location:** Inside a small canyon in the cave",
+              latitude: "0.50825101401529",
+              longitude: "-0.88091132874095",
+              media: [
+                {
+                  url: "https://media.mapgenie.io/storage/media/6f1f1644-f750-4530-bd0f-e22eea45acf9.png",
+                  type: "image",
+                },
+              ],
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.69019569806753",
+              longitude: "-0.68631811839398",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.79059525449413",
+              longitude: "-0.70902354033049",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.80837440562731",
+              longitude: "-0.66741839584497",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.90145988430824",
+              longitude: "-0.71217336665466",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              description: "Right before the bridge",
+              latitude: "0.56318411939867",
+              longitude: "-0.79518599724091",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.71901910029088",
+              longitude: "-1.04486100974570",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.75241406754873",
+              longitude: "-1.10478781670510",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.78389756229140",
+              longitude: "-1.02283427418070",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.81466851823136",
+              longitude: "-1.00847115210070",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.77470558641680",
+              longitude: "-0.93866829030802",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.74183709552834",
+              longitude: "-0.90716656075554",
+            },
+            {
+              mapSlug: "chapter-2",
+              title: "Fire Bellflower",
+              latitude: "0.75333273749030",
+              longitude: "-1.01632288750210",
+            },
+          ],
+        },
+        {
+          title: "Fragrant Jade Flower",
+          defaultHidden: true,
+          locations: [],
+        },
+        {
+          title: "Licorice",
+          defaultHidden: true,
           locations: [
             {
               mapSlug: "chapter-2",

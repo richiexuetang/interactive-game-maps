@@ -20,12 +20,20 @@ import { Menu } from "../sidebar/left-sidebar";
 import { Game } from "@/__generated__/graphql";
 import { GET_CURRENT_USER, GET_MAP_REGIONS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { userAtom, currentMapAtom, copySnackbarAtom } from "@/store";
+import {
+  userAtom,
+  currentMapAtom,
+  copySnackbarAtom,
+  hiddenCategoriesAtom,
+} from "@/store";
 
 interface MapProps {
   user: Pick<UserRecord, "email" | "displayName"> | null;
   mapData: Game;
 }
+
+const flatten: any = (ary: any[]) =>
+  ary.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
 
 const DynamicMap = ({ user, mapData }: MapProps) => {
   //#region Hooks
@@ -38,6 +46,7 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
   const [appUser, setAppUser] = useAtom(userAtom);
   const [mapConfig, setMapConfig] = useAtom(currentMapAtom);
   const setOpenSnackbar = useSetAtom(copySnackbarAtom);
+  const setHiddenCategories = useSetAtom(hiddenCategoriesAtom);
 
   const { data: userData } = useQuery(GET_CURRENT_USER, {
     variables: { email: user?.email },
@@ -64,8 +73,22 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
         groups: mapData.groups ?? [],
         gameSlug: mapData.slug,
       });
+      const hiddenCategories = flatten(
+        mapData.groups?.map((group) =>
+          group.categories?.filter((cat) => cat.id && cat.defaultHidden)
+        )
+      );
+      const ids = hiddenCategories.map(({ id }: any) => id);
+      setHiddenCategories([...ids]);
     }
-  }, [mapConfig, currentMap, mapData, setMapConfig, maxZoom]);
+  }, [
+    mapConfig,
+    currentMap,
+    mapData,
+    setMapConfig,
+    maxZoom,
+    setHiddenCategories,
+  ]);
   //#endregion
 
   return (

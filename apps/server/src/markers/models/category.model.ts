@@ -18,4 +18,7 @@ export class Category extends BaseModel {
 
   @Field(() => Boolean)
   isChecklist: boolean;
+
+  @Field()
+  defaultHidden?: boolean;
 }

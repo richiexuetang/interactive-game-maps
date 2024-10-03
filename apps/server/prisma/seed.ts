@@ -65,7 +65,7 @@ async function seedGame(game: any) {
     });
 
     for (let j = 0; j < categories.length; j++) {
-      const { title, locations } = categories[j];
+      const { title, locations, ...rest } = categories[j];
 
       let icon = title.toLowerCase().replaceAll(" ", "_");
       if (categories[j]?.icon) {
@@ -78,7 +78,7 @@ async function seedGame(game: any) {
       }
 
       const newCategory = await prisma.category.create({
-        data: { title, icon, groupId: newGroup.id, info },
+        data: { title, icon, groupId: newGroup.id, info, ...rest },
       });
 
       for (let k = 0; k < locations.length; k++) {

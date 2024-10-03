@@ -113,6 +113,8 @@ export const FETCH_GAME_MAP_DETAILS = gql`
           icon
           info
           title
+          isChecklist
+          defaultHidden
         }
       }
       maps {
