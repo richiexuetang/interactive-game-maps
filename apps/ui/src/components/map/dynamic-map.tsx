@@ -4,6 +4,7 @@ import { useQuery } from "@apollo/client";
 import { UserRecord } from "firebase-admin/auth";
 import { useAtom, useSetAtom } from "jotai";
 import { LatLngExpression, Map } from "leaflet";
+import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import * as React from "react";
 import * as RL from "react-leaflet";
@@ -38,15 +39,12 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
   const [mapConfig, setMapConfig] = useAtom(currentMapAtom);
   const setOpenSnackbar = useSetAtom(copySnackbarAtom);
 
-  const { data: userData, loading: loadingUser } = useQuery(GET_CURRENT_USER, {
+  const { data: userData } = useQuery(GET_CURRENT_USER, {
     variables: { email: user?.email },
   });
-  const { data: regionData, loading: loadingRegion } = useQuery(
-    GET_MAP_REGIONS,
-    {
-      variables: { slug: currentMap!.slug },
-    }
-  );
+  const { data: regionData } = useQuery(GET_MAP_REGIONS, {
+    variables: { slug: currentMap!.slug },
+  });
   //#endregion
 
   //#region Lifecycle Hooks
@@ -70,10 +68,6 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
   }, [mapConfig, currentMap, mapData, setMapConfig, maxZoom]);
   //#endregion
 
-  if (loadingUser || loadingRegion) {
-    return <div>Loading...</div>;
-  }
-
   return (
     <div className={cn("h-[calc(100vh-1rem)]", mapData.slug)}>
       <Menu
@@ -83,6 +77,8 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
       />
       <RL.MapContainer
         ref={setMap}
+        preferCanvas={true}
+        renderer={L.canvas()}
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}

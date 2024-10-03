@@ -140,11 +140,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             />
           </CardContentTypography>
         )}
-        <span>{id}</span>
-        <br />
-        <span>
-          {marker.latitude},{marker.longitude}
-        </span>
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
         {appUser?.email ? (

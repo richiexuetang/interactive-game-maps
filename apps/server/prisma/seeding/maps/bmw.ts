@@ -947,6 +947,7 @@ export const bmw = {
             {
               mapSlug: "chapter-6",
               title: "Verdant Path",
+              description: "",
               latitude: "0.53248056167713",
               longitude: "-0.38019776344257",
             },
@@ -1309,6 +1310,12 @@ export const bmw = {
               latitude: "0.62930752608126",
               longitude: "-1.11736672431260",
             },
+            {
+              mapSlug: "chapter-6",
+              title: "Chapter 6 Start Point",
+              latitude: "0.49400107582851",
+              longitude: "-0.34334123073776",
+            },
           ],
         },
       ],
@@ -1549,7 +1556,7 @@ export const bmw = {
           locations: [
             {
               mapSlug: "chapter-1",
-              title: "3-Year-Old Coconut Wine",
+              title: "Coconut Wine",
               description:
                 "**Location:** Obtained by upgrading the starter Coconut Wine Drink  \n\n**Effect:**  Each sip restores 36% of maximum health",
               latitude: "0.72409334905448",
@@ -1557,35 +1564,19 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-1",
-              title: "5-Year-Old Coconut Wine",
+              title: "Pine Brew",
               description:
-                "**Location:** Obtained by upgrading the starter [3-Year-Old Coconute Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=148)  \n\n**Effect:**  Each sip restores 40% of maximum health",
+                "**Location:** Bought from Shen Monkey NPC at Black Wind Mountain > Bamboo Grove > Marsh of White Mist. This becomes available for purchase at the start of Chapter 4. You can fast travel back to Shen Monkey from any shrine.",
               latitude: "0.72490421053230",
               longitude: "-0.59080320903740",
             },
             {
+              latitude: 0.7256122362613172,
+              longitude: -0.5857674920539458,
               mapSlug: "chapter-1",
-              title: "10-Year-Old Coconut Wine",
+              title: "A Thousand Days Inebriation",
               description:
-                "**Location:** Obtained by upgrading the [5-Year-Old Coconute Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=149)\n\n**Effect:**  Each sip restores 43% of maximum health",
-              latitude: "0.72555289960904",
-              longitude: "-0.58577546593176",
-            },
-            {
-              mapSlug: "chapter-1",
-              title: "18-Year-Old Coconut Wine",
-              description:
-                "**Location:** Obtained by upgrading the [10-Year-Old Coconut Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=150)\n\n**Effect:**  Each sip restores 46% of maximum health",
-              latitude: "0.72603941635708",
-              longitude: "-0.58123427861170",
-            },
-            {
-              mapSlug: "chapter-1",
-              title: "30-Year-Old Coconut Wine",
-              description:
-                "**Location:** Obtained by upgrading the [18-Year-Old Coconut Wine](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=151)\n\n**Effect:**  Each sip restores 49% of maximum health",
-              latitude: "0.72685027748490",
-              longitude: "-0.57636872076745",
+                "Bought from Shen Monkey NPC at Black Wind Mountain > Bamboo Grove > Marsh of White Mist. This becomes available for purchase at the start of Chapter 6. You can fast travel back to Shen Monkey from any shrine.",
             },
             {
               mapSlug: "chapter-2",
@@ -1612,10 +1603,27 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-4",
-              title: "Pine Brew",
-              description: "**Location:** ??  \n\n**Effect:**  ??",
-              latitude: "0.53475549935177",
-              longitude: "-0.98726237946255",
+              title: "Worryfree Brew",
+              description:
+                "**Location:** Grab the teapot from the fireplace inside the house.  \n\n**Effect:**  Each sip recovers 24% of Maximum Health; when at Critical Health, massively increases the recovery.",
+              latitude: "0.71897676103379",
+              longitude: "-0.95330536365654",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Sunsent of the Nine Skies",
+              description:
+                "**Location:** On a table in the same area as the [Fungiwoman](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=397868)\n\n**Effect:**  Each sip recovers 35% of maximum health; grants a considerable amount of Qi",
+              latitude: "0.64592128796302",
+              longitude: "-0.58266628380593",
+            },
+            {
+              mapSlug: "chapter-5",
+              latitude: 0.7929814855511824,
+              longitude: -0.3026944631508255,
+              title: "Loong Balm",
+              description:
+                "**Location** Furnace Valley > The Emerald Hall: After beating the Yin-Yang Fish main boss (unmissable story boss), pick up the golden drink next to the throne in the Emerald Hall.",
             },
           ],
         },
@@ -1623,11 +1631,19 @@ export const bmw = {
           title: "Formula",
           locations: [
             {
-              description: "[注意事项]:击败头目王灵官获得",
+              mapSlug: "chapter-2",
+              title: "Soul Remigration Pill",
+              description: "Buy from Xu dog in NG+",
+              latitude: 0.4993835384837314,
+              longitude: -0.6897512793677342,
+            },
+            {
+              description:
+                "Automatically earned after defeating the “Supreme Inspector” boss at the start of Chapter 6.",
               mapSlug: "chapter-6",
-              title: "[丹方]登仙散",
-              longitude: -0.32982257454662545,
-              latitude: 0.5328929178011066,
+              title: "Ascension Powder",
+              latitude: 0.552355989314908,
+              longitude: -0.38157530300403375,
             },
             {
               mapSlug: "chapter-3",
@@ -1647,9 +1663,32 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Evil Repelling Medicant",
               description:
-                "**Location:** Reward for defeating [Lang-Li-Guhh-Baw](https://ritcher-map-v2.vercel.app/map/chapter-2?marker=442)",
+                "**Location:** Reward for defeating Lang-Li-Guhh-Baw",
               latitude: "0.51858745780614",
               longitude: "-0.67390841850306",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Enhanced Ginseng Pellets",
+              description:
+                "**Location:** Inside the cave room with four more treasure chests",
+              latitude: "0.71936565070560",
+              longitude: "-1.00001066923220",
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Life Saving Pill Formula",
+              description: "**Location:** Inside the chest",
+              latitude: "0.89334593369723",
+              longitude: "-0.41697889566450",
+            },
+            {
+              latitude: 0.543607298660438,
+              longitude: -1.0036072322191436,
+              mapSlug: "chapter-4",
+              title: "Mirage Pill",
+              description:
+                "Chapter 4 > Webbed Hollow > The Verdure Bridge: from the Shrine, tread across the vine planks and drop at the cliff ahead, past the spider cocoons and the village up the stairs.",
             },
           ],
         },
@@ -1660,7 +1699,7 @@ export const bmw = {
               mapSlug: "chapter-1",
               title: "Trailblazer's Scarlet Gourd",
               description:
-                "**Location:** Deluxe edition exclusive (pre-order only).  Found in front of the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=1) shrine.",
+                "**Location:** Deluxe edition exclusive (pre-order only). Found in front of the [Front Hills](https://ritcher-map-v2.vercel.app/map/chapter-1?marker=1) shrine.",
               latitude: "0.65282627023801",
               longitude: "-0.81281661987316",
             },
@@ -1967,12 +2006,28 @@ export const bmw = {
               longitude: "-0.57541049056672",
             },
             {
+              latitude: 0.4480561758539957,
+              longitude: -0.7415224221447625,
+              mapSlug: "chapter-1",
+              title: "Tender Jade Lotus",
+              description:
+                "Black Wind Cave > Cave Interior: Randomly harvested from Lotus plants. From the shrine, go right and you’ll find a Jade Lotus as soon as you step in the water. Whether this is a Tender Jade Lotus, however, is entirely random. Reloading the area doesn’t work. You must travel to another chapter and wait 30 minutes for it to respawn. So, better to focus on other things and come back here from time to time to test your luck again. You can also try other watery locations in the game, or, if possible, make a backup save before farming. On PS5 you can advance time by 30 minutes in system settings, reboot the game and the plant will respawn. Any Lotus plant can drop it, so just harvest all of them in the area repeatedly until you get it.",
+            },
+            {
               mapSlug: "chapter-3",
               title: "Fruit of Dao",
               description:
                 "**Location:** Go straight ahead from the Court of Illumination, turn left, defeat 2 blue-robed monks to get this soak. (random drop)",
               latitude: "0.76",
               longitude: "-0.68602095548195",
+            },
+            {
+              latitude: 0.7852397804340684,
+              longitude: -0.3928795914386752,
+              mapSlug: "chapter-4",
+              title: "Undying Vine",
+              description:
+                "Purple Cloud Mountain > Valley of Blooms (see How to Reach Chapter 4 Secret Area): From this shrine go across the bridge and head left. Continue up the path and you’ll find a Verdant Glow enemy (a tree that becomes alive when you get to close with red foliage). You must farm this enemy over and over again for this rare drop. It’s entirely random when the enemy drops it. You can rest at the shrine to respawn the enemy.",
             },
             {
               mapSlug: "chapter-5",
@@ -1983,12 +2038,41 @@ export const bmw = {
               longitude: -0.5198801049215,
             },
             {
+              mapSlug: "chapter-5",
+              title: "Slumbering Beetle Husk",
+              latitude: "0.79758254021749",
+              longitude: "-0.30825677177810",
+            },
+            {
+              latitude: 0.7232463026964719,
+              longitude: -0.5805970758060798,
+              mapSlug: "chapter-1",
+              title: "Flower Primes",
+              description:
+                "Bought from Shen Monkey NPC at Black Wind Mountain > Bamboo Grove > Marsh of White Mist. This becomes available for purchase at the start of Chapter 6.",
+            },
+            {
+              latitude: 0.7243854560485442,
+              longitude: -0.5762153671214731,
+              mapSlug: "chapter-1",
+              title: "Graceful Orchid",
+              description:
+                "Given to you by Chen Loong when you've found and brought him all 15 Seeds. See How to Reach Zodiac Village.",
+            },
+            {
               mapSlug: "chapter-4",
               title: "Double-Combed Rooster Blood",
               description:
                 "**Location:** Purple Cloud Mountain - Cloudnest Peak",
               latitude: 0.94,
               longitude: -0.45,
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Mount Lingtai Seedlings",
+              description: "**Location:** ??",
+              latitude: "0.50689870465888",
+              longitude: "-1.06097996235050",
             },
             {
               mapSlug: "chapter-4",
@@ -2119,6 +2203,14 @@ export const bmw = {
                   type: "image",
                 },
               ],
+            },
+            {
+              mapSlug: "chapter-4",
+              title: "Purple-Veined Peach Pit",
+              description:
+                "Location: Inside the golden treasure chest in the cave room filled with more treasure chests.",
+              latitude: "0.72451508320889",
+              longitude: "-0.99945276975762",
             },
           ],
         },
@@ -4924,52 +5016,104 @@ export const bmw = {
               longitude: "-0.54608432577498",
             },
             {
-              description:
-                "**Reward**:Fine Gold Thread、Mind Core  \n  **Location**:在一处大空地中间,有一块未激活的巨石",
-              mapSlug: "chapter-6",
-              title: "Poison Chief 4",
-              longitude: -0.5561781477532861,
-              latitude: 0.46278839245472625,
-            },
-            {
-              description:
-                "Can spot it while riding the somersault cloud, the entrance to the Water Curtain Cave is on its \n  【建议一周目打了】不然图鉴不全啊,虽然傻乎乎的\n  **Reward**:  寒铁叶、Fine Gold Thread、Mind Core  **Location**:  躲避他的蓄力全屏雷击,只有这招是致命的,接下来他会睡好久,使劲抽他",
-              mapSlug: "chapter-6",
-              title: "Son of Stones",
-              longitude: -0.7033755554746222,
-              latitude: 0.6087403022382887,
-            },
-            {
-              description:
-                "这里才是第二个  **Reward**:寒铁叶、Fine Gold Thread、Mind Core",
-              mapSlug: "chapter-6",
-              title: "Poison Chief 2",
-              longitude: -0.5966347577355293,
-              latitude: 1.0464132658282779,
-            },
-            {
-              description:
-                "**Reward**:  **Location**:这只在步云鹿正对着的平台上  图示为在望犀坡土地庙升高的视角",
               mapSlug: "chapter-6",
               title: "Poison Chief 1",
-              longitude: -0.606585486195911,
-              latitude: 0.8003326702853997,
+              description:
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.50617675100312",
+              longitude: "-0.53073916985804",
             },
             {
+              mapSlug: "chapter-6",
+              title: "Poison Chief 2",
               description:
-                ' 靠近后低飞,接近会强制降落,太高了会摔不少血  **Reward**:  小活师、Fine Gold Thread、<span style="font-family: var(--van-base-font);">珍玩【仙胞石片】:无视对手四灾耐性</span>  **Location**:在地图最角落那块土色空地上,和背景颜色差不多,打的时候会刷天兵(天兵会攻击BOSS但是没有伤害,只能吸引BOSS攻击).  关联成就【蛙声一片六十六难】,这是最后一只青蛙  其他青蛙BOSS位置:  <a href="https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821482&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar"target="_blank">波里个浪</a>、<a href="https://app.gamersky.com/map/?mapId=49&amp;landmarkId=821510&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar"target="_blank">浪里个波(雷)</a>、<a href="https://app.gamersky.com/map/?mapId=54&amp;landmarkId=821851&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar"target="_blank">浪里个浪(冰)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822231&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar"target="_blank">波里个波(毒)</a><span style="font-family: var(--van-base-font);">、</span><a href="https://app.gamersky.com/map/?mapId=61&amp;landmarkId=822290&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar"target="_blank">波浪浪(火)</a> ',
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.89192893714848",
+              longitude: "-0.56867619743164",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Water-Wood Beast",
+              description:
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.33803965118581",
+              longitude: "-0.56404908819431",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Son Of Stones",
+              description:
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.58809157527797",
+              longitude: "-0.63828593958820",
+            },
+            {
               mapSlug: "chapter-6",
               title: "Lang-Baw-Baw",
-              longitude: -0.47573168463125626,
-              latitude: 0.9864855957824545,
+              description:
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.84703220947200",
+              longitude: "-0.47627449035491",
             },
             {
+              mapSlug: "chapter-6",
+              title: "Gold Armored Rhino",
               description:
-                "**Reward**:寒铁叶、Fine Gold Thread、Mind Core  **Location**:跟步云鹿,金甲犀在一条直线上.按照我图三的位置定位,图二是地图边缘三个小山尖,图二是 Poison Chief二的样子",
+                "**Location:** Foothills - Rhino Watch Slope  \n\n**Reward:**\n- ??",
+              latitude: "0.78115140511520",
+              longitude: "-0.42549510876938",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Cloudtreading Deer",
+              description:
+                "**Location:** Foothills - Deer Sight Forest\n\n**Reward:**\n- ??",
+              latitude: "0.90738556419595",
+              longitude: "-0.69806635379732",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Feng-Tail General",
+              description:
+                "**Location:** Foothills - Mantis-Catching Swamp\n\n**Reward:**\n- ??",
+              latitude: "0.56999009888968",
+              longitude: "-0.56239679032743",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Emerald-Armed Mantis",
+              description:
+                "**Location:** Foothills - Mantis-Catching Swamp\n\n**Reward:**\n- ??",
+              latitude: "0.47457626449655",
+              longitude: "-0.62250659063821",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Poison Chief 4",
+              description: "**Location:** Deer Sight Forest\n\n**Reward:** ??",
+              latitude: "0.50492517464977",
+              longitude: "-0.38537426109477",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Jiao-Loong of Waves",
+              description: "**Location:** ??  \n\n**Reward:** ??",
+              latitude: "0.60367257621439",
+              longitude: "-0.45870018895536",
+            },
+            {
               mapSlug: "chapter-6",
               title: "Poison Chief 3",
-              longitude: -0.19467858192902554,
-              latitude: 0.8425486869411856,
+              description: "**Location:** ??  \n\n**Reward:** ??",
+              latitude: "0.74186755461047",
+              longitude: "-0.58822989463849",
+            },
+            {
+              mapSlug: "chapter-6",
+              title: "Poison Chief",
+              description: "**Location:** ??  \n\n**Reward:** ??",
+              latitude: "0.65107095816175",
+              longitude: "-0.30133399019789",
             },
           ],
         },
@@ -5226,58 +5370,28 @@ export const bmw = {
               longitude: "-1.07376950815840",
             },
             {
-              description:
-                ' 飞到这块会进入剧情动画  **Reward**:  <span style="font-family: var(--van-base-font);">神珍【</span><span style="font-family: var(--van-base-font);">锁子黄金甲】</span>  **Location**:三蓄力的重棍可以打破它的角(定风珠没用),然后就好打了  拉开距离蓄力,它会慢慢跟过来,近距离会一直乱跑  破隐一击好像也能断角  大头磕头也可以破角(可以打出大硬直的精魄都可以) ',
               mapSlug: "chapter-6",
-              title: "Gold Armored Rhino",
-              longitude: -0.41125961975353675,
-              latitude: 0.8912971211568248,
+              title: "Supreme Inspector",
+              description:
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.55426448351355",
+              longitude: "-0.37995100021567",
             },
             {
-              description:
-                ' **Reward**:识蕴  **Location**:需要 色蕴,想蕴,受蕴,行蕴解锁boss战  此boss拳头从天降这招好像是秒的,建议卡在他横扫攻击范围往外站一点点,只要闪避捶地的地震波,等他停下来暴露蓝色结晶就可以拉满输出秒杀,临死之前会疯狂砸地,所以打完记得后撤到攻击范围外只要躲地震波就行.打完后从胳膊上上去,拿到第五<span style="font-family: var(--van-base-font);">蕴</span><span style="font-family: var(--van-base-font);">(识蕴)</span>  五蕴可以拿去找戌狗<span style="font-family: var(--van-base-font);">炼</span><span style="font-family: var(--van-base-font);">五蕴</span><span style="font-family: var(--van-base-font);">丹</span><span style="font-family: var(--van-base-font);">,可以同时加生命、法力和气力</span>  \n  地点:看到水帘洞后背对着水帘洞飞到两个山中间有一山洞,飞进去就触发BOSS,记得先下云,不然会被吼下来摔掉血 ',
               mapSlug: "chapter-6",
-              title: "大石敢当",
-              longitude: -0.9749979473096744,
-              latitude: 0.9140212566329353,
+              title: "Giant Shigandang",
+              description:
+                "**Location:** Foothills - Verdant Path  \n\n**Reward:**\n- ??",
+              latitude: "0.80062918211536",
+              longitude: "-0.86208205754247",
             },
             {
-              description:
-                ' **Reward**:  <span style="text-align: center;">臂甲【点翠飞龙釬】</span>\n  **Location**:  打完步云鹿、凤翅将军(拔触须)、打完金甲犀先获得这三件披挂之后,回到捕螂汀触发剧情；在八戒肚子里  (下面是轮椅)  一阶段定身棍花四豆,F地狼撞+A几下  二阶段躲第一刀,定身棍花四豆,倒地的时候用芭蕉扇可以A一整套,定身棍花四豆就差不多了 ',
               mapSlug: "chapter-6",
-              title: "碧臂螂(需完成前置)",
-              longitude: -0.7312181680775893,
-              latitude: 0.4428539400430225,
-            },
-            {
+              title: "Stone Monkey / The Great Sage's Broken Shell",
               description:
-                ' **Reward**:  神珍【凤翅紫金冠】\n  **Location**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  (<span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);">\n</span> ',
-              mapSlug: "chapter-6",
-              title: "凤翅将军-Landing Spot 1",
-              longitude: -0.6352323742729311,
-              latitude: 0.287864487857334,
-            },
-            {
-              description:
-                "**Reward**:神珍【藕丝步云履】,Mind Core  \n  **Location**:记得带定风珠  这B有二阶段!泡酒物记得放喝酒消除负面状态的.  二阶段打不过可以选择摸鱼,二师叔会全程助战,单刷BOSS  挂机要是觉得二师叔打的慢,可以选择立棍挂在天上,BOSS读指令,立棍的时候只会放血球,站着不动二师叔输出空间比较大  \n  猴毛分身+定身打死第一阶段,boss bug直接金身无法选中,一会就死掉了",
-              mapSlug: "chapter-6",
-              title: "Cloudtreading Deer",
-              longitude: -0.741836175065572,
-              latitude: 1.0796056232200328,
-            },
-            {
-              description:
-                "**Reward**:根器【意见欲】(开启轮回功能)、毫毛·救命毫毛(二周目轮回自动获得)  \n  **Location**:  BOSS分4个阶段,4个阶段都是水场地,可以为此配装.  1阶段无属性石猿,很简单,自己体会就好；  2阶段光炎、冰霜属性石猿,期间会使用分身2打1,注意跳躲范围伤害；  2阶段结束后会有记录点,后续死了就不用重新打前2个阶段了；  3阶段大圣残躯,还是较为好打的阶段,可以用4蓄力重击轻松过关；  4阶段是有6根的大圣残躯,是真正的难点,新增了很多技能和针对天命人的机制,会有较大消耗,尽量在3阶段保留资源投入到4阶段攻略中；  没有进入二周目轮回的话BOSS会复原,可以再度挑战,恢复打石猿前进度",
-              mapSlug: "chapter-6",
-              title: "Stone Monkey",
-              longitude: -1.336302545409751,
-              latitude: 0.1956812677880464,
-              media: [
-                {
-                  url: "https://lh3.googleusercontent.com/9t3JW2L8AwKgixbiqls60Ci8ptQJKJ3kvfDwM1qSSVtODuTdq4KUqoiAj-aj-qu4t72QmNfB5esSHqwl8R6EST0LNeRVlWTLOO4aJhUwo7ko8j8=s0",
-                  type: "image",
-                },
-              ],
+                "**Location:** Birthstone - Heart Of Birthstone\n\n**Reward:**\n- ??",
+              latitude: "0.77328026629954",
+              longitude: "-1.11564919081050",
             },
           ],
         },
@@ -5479,165 +5593,6 @@ export const bmw = {
                 "Talk to Xu Dog after saving him (finishing his quest)",
               latitude: "0.59788930733160",
               longitude: "-0.96574659217907",
-            },
-            {
-              description:
-                "回头走,从树下走过去第一个路口左拐回头就是大圣套装(需要获得筋斗云) ------  解锁筋斗云后,周围的空气墙会消失,可以直接跳过起始点后面树桩旁边的石头台阶去拿装备",
-              mapSlug: "chapter-6",
-              title: "Chapter 6 starting point",
-              longitude: -0.3105848262664779,
-              latitude: 0.44732466779248625,
-            },
-            {
-              description:
-                "在石子后面,其他地方都有空气墙 看到一个V字形的山崖中间,一直往里飞",
-              mapSlug: "chapter-6",
-              title: "前往大石敢当的山涧",
-              longitude: -0.8727509859193106,
-              latitude: 0.6959386212988363,
-            },
-            {
-              description:
-                "从侧面飞到波浪浪身边(它一开始在的位置不是会触发BOSS战的场地),不会加载BOSS的AI,一棍一棍打,不要连击,一直能打死.蛤蟆掉地上就开始反击了.",
-              mapSlug: "chapter-6",
-              title: "有可利用的BUG",
-              longitude: -0.44015755103231413,
-              latitude: 0.9883257645270049,
-            },
-            {
-              description:
-                ' 山脚:青嶂道土地庙→打王灵官,得到筋斗云→回到本关起点处,筋斗云飞到高处树下开Chest,得到凡品大圣套→回到得到筋斗云的地方→到面前悬崖下的水池,打跳浪蛟→望犀坡土地庙→打金甲犀→附近河边空地,打浪波波→见鹿林土地庙→打步云鹿→捕螂汀土地庙→抓凤翅将军(大蚂蚱),得凤翅紫金冠→捕螂汀土地庙触发猪八戒剧情,打碧臂螂  *记得打水木兽和 Poison Chief 影响成就收集  \n  水帘洞:河对岸悬崖边打石子→击败大石敢当化作岩石,到岩石上拿【识蕴】→到如意画轴,找戌狗炼制【五蕴丹】→水帘洞拿如意金箍棒→峰回路土地庙→天真顶土地庙→进入石卵→最终BOSS战→普通结局  \n  隐藏结局:<span style="font-family: var(--van-base-font);">天真顶土地庙→小西天-浮屠界-浮屠塔→正中间壁画处见到弥勒,来到最后的隐藏关卡梅山→打二郎神→花果山-水帘洞-天真顶→再次进入石卵→最终BOSS战→隐藏结局</span> ',
-              mapSlug: "chapter-6",
-              title: "Order(含剧透)",
-              longitude: -0.3814703824795913,
-              latitude: 0.5561222710402234,
-            },
-            {
-              description:
-                ' **Reward**:  神珍【凤翅紫金冠】\n  **Location**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">(</span><span style="font-family: var(--van-base-font);">手柄玩家按住RT后就不要松手,直到跳跃三次后会自动停下,引导动画存在问题,切记切记!</span><span style="font-family: var(--van-base-font);">)</span>\n  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);">\n</span> ',
-              mapSlug: "chapter-6",
-              title: "风翅将军- Landing Point4",
-              longitude: -0.5381335285224793,
-              latitude: 0.7151922143115712,
-            },
-            {
-              description:
-                ' **Reward**:<span style="font-family: var(--van-base-font);">Mind Core(Chance)</span>  **Location**:水木兽不止一只,水里到处能找到,会重复刷新,可以刷内丹 ',
-              mapSlug: "chapter-6",
-              title: "水木兽",
-              longitude: -0.6637847948076967,
-              latitude: 0.5380156019033819,
-            },
-            {
-              description:
-                "水木兽周边可刷出天将,持盾的天兵,在刚进花果山时被八戒抢了人头导致图鉴未解锁的可以过来这里刷,顺便一提水木兽是反复刷新的",
-              mapSlug: "chapter-6",
-              title: "天将图鉴解锁点",
-              longitude: -0.6266554596042226,
-              latitude: 0.5415855718443936,
-            },
-            {
-              description:
-                "水边有金龟,打了会反弹,多打几下天上就会下来天兵  纯属彩蛋,不影响任何头目、影神图收集",
-              mapSlug: "chapter-6",
-              title: "无敌金龟",
-              longitude: -0.6637158347256786,
-              latitude: 0.47231157591336626,
-            },
-            {
-              description: "这边有个黄色的树 很显眼很好找",
-              mapSlug: "chapter-6",
-              title: "黄色的树",
-              longitude: -0.7087920890320163,
-              latitude: 0.4557277747585715,
-            },
-            {
-              description:
-                ' **Reward**:  神珍【凤翅紫金冠】\n  **Location**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
-              mapSlug: "chapter-6",
-              title: "凤翅将军- Landing Point3",
-              longitude: -0.5903982783507047,
-              latitude: 0.575444029782048,
-            },
-            {
-              description:
-                '<div data-zone-id="0"data-line-index="0"data-line="true"style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">**Reward**: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】\n <p style="white-space-collapse: collapse;">**Location**: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span>  ',
-              mapSlug: "chapter-6",
-              title: "凤翅将军- Landing Point6 (Can't capture)",
-              longitude: -0.410940596443254,
-              latitude: 0.9345775700868302,
-            },
-            {
-              description:
-                '<div data-zone-id="0"data-line-index="0"data-line="true"style="white-space-collapse: preserve;"><p style="white-space-collapse: collapse;">**Reward**: <p style="white-space-collapse: collapse;">神珍【凤翅紫金冠】\n <p style="white-space-collapse: collapse;">**Location**: <p style="white-space-collapse: collapse;">一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span> <p style="white-space-collapse: collapse;"><span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span>  ',
-              mapSlug: "chapter-6",
-              title: "凤翅将军- Landing Point7 (Can't capture)",
-              longitude: -0.3884011619591661,
-              latitude: 1.041463897292786,
-            },
-            {
-              description:
-                '**Reward**: 神珍【凤翅紫金冠】\n  **Location**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  <span style="font-family: var(--van-base-font);">【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E</span> ',
-              mapSlug: "chapter-6",
-              title: "凤翅将军- Landing Point5 (Can't capture)",
-              longitude: -0.3867032912872901,
-              latitude: 0.8151262443650893,
-            },
-            {
-              description:
-                ' **Reward**:  神珍【凤翅紫金冠】\n  **Location**:  一定先装备法宝【<span style="font-family: var(--van-base-font);">辟火罩</span><span style="font-family: var(--van-base-font);">】,不然会烧死.</span>  <span style="font-family: var(--van-base-font);">初始位置在捕螂汀后方等待,飞上背下云,第一次抓按E触发,提示后再按E不动(等它完成3次跳跃),停下来后,用辟火罩(手柄记得离远点按Rt使用</span><span style="font-family: var(--van-base-font);">)</span><span style="font-family: var(--van-base-font);">,按E触发,然后再等提示后长按E,直到出现过场动画.记得气力一定要380以上!</span>  【重点】:不推荐在 Landing Point5、6、7上车,会因为跳出地图而失败,在1、2、3、4的位置上车,每一条中途也不要放开E<span style="font-family: var(--van-base-font);">\n</span> ',
-              mapSlug: "chapter-6",
-              title: "凤翅将军- Landing Point2",
-              longitude: -0.6199587924042191,
-              latitude: 0.4266667179389003,
-            },
-            {
-              description:
-                "算是个彩蛋吧,强化后变成游戏唯一神品精魄【波波浪浪】 效果是随机化身5个不同属性的蛤蟆,高贵属性攻击伤害很炸裂",
-              mapSlug: "chapter-6",
-              title: "击败6只蛤蟆,可把波里个浪强化到神品",
-              longitude: -0.48425727436864463,
-              latitude: 1.0138343619481134,
-            },
-            {
-              description:
-                "在筋斗云上无法触发boss战,但是你直接跳下去稳定挨1口,这个可以避免:只要在快落地时重新上云就行   [注意]这个位置不是王灵官前面的水坑 ",
-              mapSlug: "chapter-6",
-              title: "一定要落水池里跳浪蛟才会出现",
-              longitude: -0.45204881998529345,
-              latitude: 0.6211038713001074,
-            },
-            {
-              description:
-                "1.进来时筋斗云贴地走,飞太高被吼下来会摔死. 2.进场看左边(BOSS面向的右前方)有个长木头桩子,木桩和BOSS连线中间有个石头,如下图所示.这石头后无敌,BOSS什么招式和地震波都不会打到.  3.站这石头后,等BOSS双手砸地2次,上去打BOSS手部的水晶.或者BOSS手砸在眼前不动,也可以去打.轻松过.(可以用禁字法提高伤害)  4.BOSS最后一小格血会连续砸地,赶紧跑这石头后等着别被砸死.",
-              mapSlug: "chapter-6",
-              title: "大石敢当超轻松攻略",
-              longitude: -0.9262170134096266,
-              latitude: 0.8743129530271432,
-            },
-            {
-              description:
-                "先完成收集大圣套剧情再走这条路,不然前方触发不了剧情,是一条死路. 你需要和大圣当年一样,跳进瀑布,跑起来,使劲跳.  如果重开轮回每周目都需要打4BOSS集齐套装,不然不触发剧情",
-              mapSlug: "chapter-6",
-              title: "水帘洞:需集齐大圣套",
-              longitude: -0.8575827418204938,
-              latitude: 0.4492039336620195,
-            },
-            {
-              description:
-                "拿完金箍棒往前走就能打最终战了,这时候返回小西天浮屠塔打完二郎神有隐藏剧情  感觉棍子实在不好打的,可以考虑用三尖两刃刀  同一周目可以2个结局都解锁:  先打最终战,解锁坏结局,打完看完CG回到主界面后不要选择再入轮回,而是继续游戏后,会回到水帘洞的土地庙.然后去浮屠塔打杨戬,再打第二次大圣解锁好结局.  多周目也要先打杨戬再来打这个,不然打完就直接开三周目了,会少拿个根器点.",
-              mapSlug: "chapter-6",
-              title: "结局提醒(含剧透)",
-              longitude: -1.2651948321719715,
-              latitude: 0.2578590166952779,
-            },
-            {
-              description:
-                '**Location**:\n击杀大石敢当获得  **Usage**:五蕴收集任务必备道具,拿到识蕴可以去六六村找戌狗<span style="font-family: var(--van-base-font);">那边炼丹</span>  <span style="font-family: var(--van-base-font);">关联成就【</span>五蕴结丹六十八难<span style="font-family: var(--van-base-font);">】</span>  <span style="font-family: var(--van-base-font);">补充:五蕴丹计入全仙丹收集【当饭吃哩六十九难】</span>  <span style="font-family: var(--van-base-font);">[其他四蕴位置](https://app.gamersky.com/map/?mapId=48&amp;landmarkId=821559&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar):</span>  [受蕴](https://app.gamersky.com/map/?mapId=49&amp;landmarkId=822414&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar) [想蕴](https://app.gamersky.com/map/?mapId=53&amp;landmarkId=821832&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar) [行蕴](https://app.gamersky.com/map/?mapId=59&amp;landmarkId=822238&amp;gsAppOpenWithNewWindow=true&amp;kNoneMoreButton=true&amp;appNavigationBarStyle=kNoneBar)',
-              mapSlug: "chapter-6",
-              title: "识蕴",
-              longitude: -0.9526161084052092,
-              latitude: 0.9231555270231979,
             },
           ],
         },
@@ -5973,6 +5928,14 @@ export const bmw = {
                 "Upon using the gourd, instantly gains a moderate amount of Focus.",
               latitude: "0.56525260198107",
               longitude: "-0.93693597804810",
+            },
+            {
+              latitude: 0.7245633591096944,
+              longitude: -0.6641578674316406,
+              mapSlug: "chapter-2",
+              title: "Iron Pellet",
+              description:
+                "Fright Cliff > Squall Hideout: After completing Man-in-Stone questline, you can buy Iron Pellet from Man-In-Stone for 6480 Will.",
             },
             {
               mapSlug: "chapter-2",

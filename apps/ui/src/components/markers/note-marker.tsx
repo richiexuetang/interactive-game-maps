@@ -31,6 +31,7 @@ interface NoteMarkerProps {
   title: string | null;
   description: string | null;
   id?: any;
+  position: number;
 }
 
 export const NoteMarker = ({
@@ -39,11 +40,12 @@ export const NoteMarker = ({
   title,
   description,
   id,
+  position,
 }: NoteMarkerProps) => {
   const { control, handleSubmit, getValues } = useForm({
     defaultValues: {
-      [`${id}-Title`]: title ?? "",
-      [`${id}-Description`]: description ?? "",
+      [`${position}-Title`]: title ?? "",
+      [`${position}-Description`]: description ?? "",
     },
   });
 
@@ -58,18 +60,19 @@ export const NoteMarker = ({
   const markerRef = useRef<L.Marker>(null);
   const [editMode, setEditMode] = useState(false);
   const [appUser, setAppUser] = useAtom(userAtom);
-  const [openForm, setOpenForm] = useState(false);
   const copy = useClipboardCopyFn();
   const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
   const [removeNoteMarker, { data: removedData }] = useMutation(
     REMOVE_USER_NOTE_MARKER
   );
-  const [updateNoteMarker] = useMutation(UPDATE_USER_NOTE_MARKER);
+  const [updateNoteMarker, { data: updateData }] = useMutation(
+    UPDATE_USER_NOTE_MARKER
+  );
 
   const onSubmit = (data: any) => {
     const noteMarker = {
-      title: data[`${id}-Title`],
-      description: data[`${id}-Description`],
+      title: data[`${position}-Title`],
+      description: data[`${position}-Description`],
       latitude: lat,
       longitude: lng,
     };
@@ -95,7 +98,7 @@ export const NoteMarker = ({
     }
 
     setEditMode(false);
-    setOpenForm(false);
+    setDraggable(false);
   };
 
   useEffect(() => {
@@ -109,12 +112,27 @@ export const NoteMarker = ({
   }, [removedData]);
 
   useEffect(() => {
+    if (updateData) {
+      const markers = appUser?.noteMarkers ?? [];
+      setAppUser({
+        ...appUser!,
+        noteMarkers: [
+          ...markers.slice(0, position),
+          updateData.updateNoteMarker,
+          ...markers.slice(position + 1),
+        ],
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [updateData]);
+
+  useEffect(() => {
     if (data) {
-      const markers =
-        appUser?.noteMarkers.filter((marker) => marker.id !== id) ?? [];
+      let markers = appUser?.noteMarkers ?? [];
+      markers[position] = data.addNoteMarker;
       setAppUser((prev) => ({
         ...prev!,
-        noteMarkers: [...markers, { ...data.addNoteMarker }],
+        noteMarkers: [...markers],
       }));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -161,7 +179,7 @@ export const NoteMarker = ({
   };
   return (
     <>
-      <Modal open={openForm} onClose={() => setOpenForm(false)}>
+      <Modal open={editMode} onClose={() => setEditMode(false)}>
         <Card
           sx={{
             position: "absolute" as "absolute",
@@ -190,7 +208,7 @@ export const NoteMarker = ({
               <Divider />
               <Stack spacing={5} sx={{ p: 2 }}>
                 <Controller
-                  name={`${id}-Title`}
+                  name={`${position}-Title`}
                   control={control}
                   render={({ field }) => (
                     <TextField
@@ -202,7 +220,7 @@ export const NoteMarker = ({
                   )}
                 />
                 <Controller
-                  name={`${id}-Description`}
+                  name={`${position}-Description`}
                   control={control}
                   render={({ field }) => (
                     <TextField
@@ -240,7 +258,7 @@ export const NoteMarker = ({
         eventHandlers={{
           click: () => {
             if ((!title && !description) || editMode) {
-              setOpenForm(true);
+              setEditMode(true);
               markerRef.current?.closePopup();
             }
           },
@@ -265,10 +283,10 @@ export const NoteMarker = ({
                     `{latitude: ${lat.toString()},\nlongitude: ${lng.toString()},\n mapSlug: "${
                       params.slug
                     }",\n title: "${getValues(
-                      `${id}-Title`
+                      `${position}-Title`
                     )}",\n description: "${getValues(
-                      `${id}-Description`
-                    )}", media: []},`
+                      `${position}-Description`
+                    )}"},`
                   )
                 }
               >
@@ -279,7 +297,7 @@ export const NoteMarker = ({
               <Button
                 size="small"
                 onClick={() => {
-                  setOpenForm(true);
+                  setEditMode(true);
                   markerRef.current?.closePopup();
                 }}
               >

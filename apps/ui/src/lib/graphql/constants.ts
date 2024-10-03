@@ -176,6 +176,11 @@ export const UPDATE_USER_NOTE_MARKER = gql`
   mutation UpdateNoteMarker($data: UpdateNoteInput!) {
     updateNoteMarker(data: $data) {
       id
+      title
+      description
+      mapSlug
+      latitude
+      longitude
     }
   }
 `;
