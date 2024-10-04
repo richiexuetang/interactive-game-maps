@@ -468,7 +468,7 @@
   --sidebar-border-color: var(--border-color);
   --sidebar-background-color: #232423;
   --map-background: #14130f;
-  --text-font: 'Mantinia';
+  --text-font-family: 'Mantinia';
   --body-font-family: "Noto Sans";
   --body-background: var(--sidebar-background-color);
 }
@@ -481,7 +481,7 @@
   --sidebar-border-color: var(--border-color);
   --sidebar-background-color: #090708;
   --map-background: #2b2b2b;
-  --text-font: 'CrimsonPro';
+  --text-font-family: 'CrimsonPro';
   --body-font-family: "CrimsonPro";
   --body-background: var(--sidebar-background-color);
 }

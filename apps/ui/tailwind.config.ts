@@ -32,6 +32,7 @@ const config: Config = {
       },
       fontFamily: {
         body: "var(--body-font-family)",
+        text: "var(--text-font-family)",
       },
     },
   },

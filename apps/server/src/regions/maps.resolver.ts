@@ -54,7 +54,6 @@ export class MapsResolver {
       const coords = JSON.parse(regions[i].coordinates as any);
       result.push({ ...regions[i], coordinates: coords.coordinates });
     }
-    console.log(result);
 
     const locations = await this.prisma.location.findMany({
       where: { mapSlug: slug },

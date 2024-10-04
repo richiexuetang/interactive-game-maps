@@ -750,7 +750,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     font-size: large;
     color: white;
     letter-spacing: 1px;
-    font-family: var(--text-font);
+    font-family: var(--text-font-family);
 }
 
 /* Context menu */

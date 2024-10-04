@@ -37,7 +37,7 @@ export const Menu = ({ map }: MenuProps) => {
 
   if (!currentMap) return;
 
-  const { gameSlug, groups, locations } = currentMap;
+  const { game, groups, locations } = currentMap;
 
   //#region Helpers
   const handleHiddenCategory = (categoryId: number) => {
@@ -82,16 +82,16 @@ export const Menu = ({ map }: MenuProps) => {
   //#endregion
 
   return (
-    <div className={`${gameSlug} sidebar overflow-scroll z-[100000]`}>
+    <div className={`${game?.slug} sidebar overflow-scroll z-[100000]`}>
       <SidebarClose showMenu={showMenu} setShowMenu={setShowMenu} />
 
       {showMenu && (
         <Collapse in={showMenu} orientation="horizontal">
           <Paper className="overflow-y-scroll absolute left-0 z-[499] w-96 h-full !bg-sidebarBackground">
             <div className="relative flex flex-col p-5 gap-4 items-center">
-              <Link href={`/region/${gameSlug}`}>
+              <Link href={`/game/${game?.slug}`}>
                 <Image
-                  src={`/images/games/${gameSlug}/logo-512.png`}
+                  src={`/images/games/${game?.slug}/logo-512.png`}
                   width="360"
                   height="70"
                   alt="sidebar logo"
@@ -102,10 +102,10 @@ export const Menu = ({ map }: MenuProps) => {
               <h1
                 className={cn(
                   "text-accent text-center",
-                  getFontClassName(gameSlug)
+                  getFontClassName(game?.slug)
                 )}
               >
-                {gameSlug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
+                {game?.slug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
               </h1>
               <Divider orientation="horizontal" flexItem />
 

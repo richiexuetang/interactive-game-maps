@@ -69,7 +69,6 @@ export default async function RegionPage({
     query: FETCH_GAME_MAP_DETAILS,
     variables: { slug: params.gameSlug },
   });
-  console.log(data);
   const game = data.game;
   const fontClassName = getFontClassName(params.gameSlug);
 
@@ -79,104 +78,68 @@ export default async function RegionPage({
     <div className={cn(params.gameSlug, "bg-bodyBackground h-[100vh]")}>
       <MainNav />
       <div className="flex flex-col">
-        <div className="px-4">
-          <div
-            className={cn(
-              "flex flex-col gap-10 p-8 flex-wrap content-center justify-center",
-              fontClassName
-            )}
-          >
-            {showRegionMedia ? (
-              <>
-                <Typography
-                  sx={{
-                    textAlign: "center",
-                    fontFamily: "var(--text-font)",
-                    color: "var(--accent-color)",
-                  }}
-                >
-                  {game.title.toUpperCase() + " MAPS"}
-                </Typography>
-                {game.maps.map(({ slug, title }: Map) => (
-                  <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
-                    <Card sx={{ maxWidth: 350 }}>
-                      <CardActionArea>
-                        <CardMedia
-                          component="img"
-                          height="140"
-                          image={
-                            process.env.CDN_BASE_URL +
-                              `images/games/${game.slug}/${slug}.png` || ""
-                          }
-                          alt={title}
-                        />
-                        <CardContent
+        <div className="py-8">
+          <h2 className="text-center font-text text-accent text-xl">
+            {game.title.toUpperCase() + " MAPS"}
+          </h2>
+        </div>
+        <div
+          className={cn(
+            "flex gap-10 p-8 flex-wrap content-center justify-center",
+            `flex-${showRegionMedia ? "col" : "row"}`,
+            fontClassName
+          )}
+        >
+          {game.maps.map(({ slug, title }: Map) => (
+            <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
+              <Card sx={{ maxWidth: 350 }}>
+                <CardActionArea>
+                  {showRegionMedia ? (
+                    <>
+                      <CardMedia
+                        component="img"
+                        height="140"
+                        image={
+                          process.env.CDN_BASE_URL +
+                            `images/games/${game.slug}/${slug}.png` || ""
+                        }
+                        alt={title}
+                      />
+                      <CardContent
+                        sx={{
+                          justifyContent: "center",
+                          alignContent: "center",
+                          display: "flex",
+                        }}
+                      >
+                        <Typography
+                          variant="body1"
                           sx={{
-                            justifyContent: "center",
-                            alignContent: "center",
-                            display: "flex",
+                            textDecoration: "none",
+                            fontFamily: "var(--body-font-family)",
+                            color: "var(--accent-color)",
                           }}
                         >
-                          <Typography
-                            variant="body1"
-                            sx={{
-                              textDecoration: "none",
-                              fontFamily: "var(--body-font-family)",
-                              color: "var(--accent-color)",
-                            }}
-                          >
-                            {title}
-                          </Typography>
-                        </CardContent>
-                      </CardActionArea>
-                    </Card>
-                  </Link>
-                ))}
-              </>
-            ) : (
-              <>
-                <Typography
-                  sx={{
-                    textAlign: "center",
-                    fontFamily: "var(--text-font)",
-                    color: "var(--accent-color)",
-                  }}
-                >
-                  {game.title.toUpperCase() + " MAPS"}
-                </Typography>
-                <div className="flex gap-10 p-6 flex-wrap content-center justify-center">
-                  {game.maps.map(({ slug, title }: Map) => (
-                    <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
-                      <Card sx={{ maxWidth: 350 }}>
-                        <CardActionArea>
-                          <CardContent
-                            sx={{
-                              justifyContent: "center",
-                              alignContent: "center",
-                              display: "flex",
-                            }}
-                          >
-                            <Typography
-                              variant="body1"
-                              sx={{
-                                textDecoration: "none",
-                                fontFamily: "var(--body-font-family)",
-                                color: "var(--accent-color)",
-                              }}
-                            >
-                              {title}
-                            </Typography>
-                          </CardContent>
-                        </CardActionArea>
-                      </Card>
-                    </Link>
-                  ))}
-                </div>
-              </>
-            )}
-          </div>
+                          {title}
+                        </Typography>
+                      </CardContent>
+                    </>
+                  ) : (
+                    <CardContent
+                      sx={{
+                        justifyContent: "center",
+                        alignContent: "center",
+                        display: "flex",
+                      }}
+                    >
+                      <h4 className="font-body text-accent">{title}</h4>
+                    </CardContent>
+                  )}
+                </CardActionArea>
+              </Card>
+            </Link>
+          ))}
         </div>
-
         <div className="px-4">
           <div
             className={cn(
@@ -184,15 +147,9 @@ export default async function RegionPage({
               fontClassName
             )}
           >
-            <Typography
-              sx={{
-                textAlign: "center",
-                fontFamily: "var(--text-font)",
-                color: "var(--accent-color)",
-              }}
-            >
-              {game.title.toUpperCase() + " GUIDES"}
-            </Typography>
+            <h2 className="text-center font-text text-accent text-xl">
+              {game.title.toUpperCase() + " CHECKLIST"}
+            </h2>
             <div className="flex gap-6 p-6 flex-wrap content-center justify-center">
               {game.groups.map(({ categories }: Group) =>
                 categories?.map(({ title, isChecklist, id }) => {
@@ -209,16 +166,7 @@ export default async function RegionPage({
                               display: "flex",
                             }}
                           >
-                            <Typography
-                              variant="body1"
-                              sx={{
-                                textDecoration: "none",
-                                fontFamily: "var(--body-font-family)",
-                                color: "var(--accent-color)",
-                              }}
-                            >
-                              {title}
-                            </Typography>
+                            <h4 className="font-body text-accent">{title}</h4>
                           </CardContent>
                         </CardActionArea>
                       </Card>
