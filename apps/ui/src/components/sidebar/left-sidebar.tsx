@@ -111,8 +111,6 @@ export const Menu = ({ map }: MenuProps) => {
 
               <MapSwitcher />
 
-              <Divider orientation="horizontal" flexItem />
-
               <RegionsGrid />
 
               <Divider orientation="horizontal" flexItem />

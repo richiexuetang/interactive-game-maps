@@ -1,4 +1,5 @@
 import Button from "@mui/material/Button";
+import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
 import { useAtomValue, useSetAtom } from "jotai";
@@ -28,11 +29,12 @@ export const RegionsGrid = () => {
   const setSubRegionId = useSetAtom(focusRegionIdAtom);
   const setBoundedRegion = useSetAtom(boundedRegionAtom);
 
-  if (!currentMap) return;
+  if (!currentMap || currentMap.regions?.length === 0) return;
   const { regions } = currentMap;
 
   return (
     <>
+      <Divider orientation="horizontal" flexItem />
       <Grid container spacing={1} justifyContent="center" alignContent="center">
         {regions?.map((region) => (
           <div key={region.title} className="flex flex-start">
@@ -42,7 +44,7 @@ export const RegionsGrid = () => {
                 e.preventDefault();
                 setBoundedRegion(region);
               }}
-              sx={{ fontSize: 12, whiteSpace: "nowrap" }}
+              sx={{ fontSize: 14, whiteSpace: "nowrap" }}
               variant="text"
             >
               {region.title}

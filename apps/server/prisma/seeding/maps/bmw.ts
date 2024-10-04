@@ -1568,6 +1568,12 @@ export const bmw = {
               latitude: "0.44734323869781",
               longitude: "-0.93079471023390",
             },
+            {
+              title: "Celestial Nonary Pill",
+              mapSlug: "chapter-5",
+              latitude: "0.92933249422248",
+              longitude: "-0.96191650398112",
+            },
           ],
         },
         {
@@ -1739,6 +1745,14 @@ export const bmw = {
                 "**Location:** Inside a chest after defeating the Mad Tiger at the bottom of the secret well",
               latitude: "0.35105361101215",
               longitude: "-0.62044292322622",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Supreme Gourd",
+              description:
+                "Talk to yuan shoucheng and then interact with the fire in the center of the room to upgrade your Medicine Buddha Gourd to Supreme Gourd. (You must previously have upgraded your Gourd to 9 Healing Charge)",
+              latitude: "0.79909532072595",
+              longitude: "-0.35288022077958",
             },
           ],
         },
@@ -2010,6 +2024,20 @@ export const bmw = {
               description: "**Location:** ??\n\nGuarded by 2 fan makers",
               latitude: "1.08654252084130",
               longitude: "-0.65332637595992",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Luojia Fragrant Vine",
+              description: "**Location:** ??",
+              latitude: "0.56027771168728",
+              longitude: "-1.03123962879110",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Luojia Fragrant Vine",
+              description: "**Location:** ??",
+              latitude: "0.72590687929905",
+              longitude: "-0.50806530707476",
             },
           ],
         },
@@ -3119,7 +3147,6 @@ export const bmw = {
             {
               mapSlug: "chapter-3",
               title: "Chest",
-
               latitude: "0.51921597170467",
               longitude: "-0.46058676477736",
             },
@@ -3701,7 +3728,6 @@ export const bmw = {
             {
               mapSlug: "chapter-3",
               title: "Chest",
-
               latitude: "0.51921597170467",
               longitude: "-0.46058676477736",
             },
@@ -3987,7 +4013,6 @@ export const bmw = {
             {
               mapSlug: "chapter-3",
               title: "Thunderstone",
-
               latitude: "1.13831504091710",
               longitude: "-0.62502289125652",
             },
@@ -4125,9 +4150,10 @@ export const bmw = {
               latitude: 0.98080270686674,
             },
             {
-              description: "**Location**: 打死跳浪蛟获得,已获得多周目可忽略",
               mapSlug: "chapter-6",
               title: "Waterward Orb",
+              description:
+                "**Description** Water can't drown me, fire can't burn me! Not a place exists to which I cannot venture!\n\n**Effect** Considerably increases Defense when in water.",
               longitude: -0.4477132388737459,
               latitude: 0.5926195438178326,
             },
@@ -4135,6 +4161,7 @@ export const bmw = {
         },
         {
           title: "Spell",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "chapter-1",
@@ -4176,7 +4203,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Pluck of Many",
               description:
-                "Alternative location for obtaining the [Pluck of Many](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=399176) - whichever area you reach first.",
+                "Alternative location for obtaining the Pluck of Many - whichever area you reach first.",
               latitude: "0.64337255394345",
               longitude: "-0.83288356863045",
             },
@@ -4184,7 +4211,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Rock Solid",
               description:
-                "**Location:** Reward for defeating the [Tiger Vanguard](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=397634) in Crouching Tiger Temple\n\n**Effect:** Solidify the body like a rock to parry incoming attacks",
+                "**Location:** Reward for defeating the Tiger Vanguard in Crouching Tiger Temple\n\n**Effect:** Solidify the body like a rock to parry incoming attacks",
               latitude: "0.57420169465493",
               longitude: "-0.98565831444751",
             },
@@ -4192,7 +4219,7 @@ export const bmw = {
               mapSlug: "chapter-6",
               title: "Somersault Cloud",
               description:
-                "**Location**: Obtain after beating Supreme Inspector\n\n**Usage**:Fly in chapter 6\n\n 键鼠G键 or 手柄下方向键召唤",
+                "**Location**: Obtain after beating [Supreme Inspector](https://ritcher-map-v2.vercel.app/map/chapter-6?marker=598)\n\n**Usage**:Fly in chapter 6",
               longitude: -0.3569975406714434,
               latitude: 0.5221366162946879,
             },
@@ -4200,7 +4227,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Ring of Fire",
               description:
-                "**Location:** Reward for defeating the [Macaque Chief](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=397824) for the 2nd time.",
+                "**Location:** Reward for defeating the Macaque Chief for the 2nd time.",
               latitude: "0.83743630247965",
               longitude: "-0.52262037992401",
             },
@@ -4208,7 +4235,7 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Ashen Slumber",
               description:
-                "**Location:** Inside Alcove blocked by purple seal. If you interacted with [Ashen Slumber in Chapter 2](https://mapgenie.io/black-myth-wukong/maps/chapter-2?locationIds=398780), then you will find them dead in the prison cell with The Third Prince.\n\n**Effect:** Blow forth flames where ash is laid, for days of glory soon shall fade. Transform into a rat guar, slashing at the enemy while blowing fierce flames at them, inflicting Scorch Bane. Focus built up before transformation can be converted for use afterward.",
+                "**Location:** Inside Alcove blocked by purple seal. If you interacted with Ashen Slumber in Chapter 2, then you will find them dead in the prison cell with The Third Prince.\n\n**Effect:** Blow forth flames where ash is laid, for days of glory soon shall fade. Transform into a rat guar, slashing at the enemy while blowing fierce flames at them, inflicting Scorch Bane. Focus built up before transformation can be converted for use afterward.",
               latitude: "0.46043057361337",
               longitude: "-0.63274518931163",
             },
@@ -4230,8 +4257,7 @@ export const bmw = {
             {
               mapSlug: "chapter-4",
               title: "Golden Lining",
-              description:
-                "**Location:** Reward for defeating [Yellow Loong](https://mapgenie.io/black-myth-wukong/maps/chapter-4?locationIds=402182)",
+              description: "**Location:** Reward for defeating Yellow Loong",
               latitude: "0.53263091018476",
               longitude: "-1.02581444007970",
             },
@@ -4451,7 +4477,6 @@ export const bmw = {
             {
               mapSlug: "chapter-3",
               title: "Elite Yaksha Patroller",
-
               latitude: "0.40533598149368",
               longitude: "-0.80127754104296",
             },
@@ -4480,7 +4505,6 @@ export const bmw = {
             {
               mapSlug: "chapter-3",
               title: "Red-haired Yaksha",
-
               latitude: "0.50183149368195",
               longitude: "-0.53183833146602",
             },
@@ -4951,21 +4975,18 @@ export const bmw = {
             {
               mapSlug: "chapter-5",
               title: "Rusty-Gold Cart",
-
               latitude: "0.59780673654376",
               longitude: "-0.67351530634613",
             },
             {
               mapSlug: "chapter-5",
               title: "Flint Vanguard",
-
               latitude: "0.72945169526422",
               longitude: "-0.51988010492150",
             },
             {
               mapSlug: "chapter-5",
               title: "Mother Of Flamlings",
-
               latitude: "0.84028072125911",
               longitude: "-0.54608432577498",
             },
@@ -5051,23 +5072,22 @@ export const bmw = {
             {
               mapSlug: "chapter-6",
               title: "Jiao-Loong of Waves",
-
+              description:
+                "**Location** After getting the Somersault Cloud Spell, go down the cliff to the water. The boss will jump out when you get close\n\n",
               latitude: "0.60367257621439",
               longitude: "-0.45870018895536",
+              media: [
+                {
+                  url: "https://lh3.googleusercontent.com/KBIwZOisaOlsQGe9bXx1VuNfQ6i2tA3o8k4psCZ-cMsJO2qyV5GBxW9gMK8cqVT1tzvdzi7_lzqLrQEe1gFErK-S5M-djNVQDGZGDuU0qT6A=s0",
+                  type: "image",
+                },
+              ],
             },
             {
               mapSlug: "chapter-6",
               title: "Poison Chief 3",
-
               latitude: "0.74186755461047",
               longitude: "-0.58822989463849",
-            },
-            {
-              mapSlug: "chapter-6",
-              title: "Poison Chief",
-
-              latitude: "0.65107095816175",
-              longitude: "-0.30133399019789",
             },
           ],
         },
@@ -5784,6 +5804,62 @@ export const bmw = {
               title: "Baby Buddha",
               latitude: "0.99905344150257",
               longitude: "-0.64720611556902",
+            },
+            {
+              latitude: 0.9965308396485695,
+              longitude: -0.5259019335016669,
+              mapSlug: "chapter-5",
+              title: "Bull King",
+              description:
+                "**Portrait** Automatically added to journal after completing Chapter 5.",
+            },
+            {
+              mapSlug: "chapter-5",
+              title: "Ma Tianba",
+              description:
+                "- Pull rope to complete horse guai quest.\n- Pull rope to enable next stage of Five Element cart",
+              latitude: "0.61979114326128",
+              longitude: "-0.30141226301461",
+            },
+            {
+              latitude: 0.595421388413726,
+              longitude: -0.6612000466099912,
+              mapSlug: "chapter-5",
+              title: "Pale-Axe Stalwart",
+              description:
+                "**Portrait** Complete the Five Element Carts questline by the Pale-Axe Stalwart (Ox NPC). The journal entry gets added after beating the last cart and talking to the Pale-Axe Stalwart, then you can enter the secret Chapter 5 area.",
+            },
+            {
+              latitude: 0.9912696053385298,
+              longitude: -0.5258112089155033,
+              mapSlug: "chapter-5",
+              title: "PingPing",
+              description:
+                "**Portrait** Automatically added to journal after completing Chapter 5.",
+            },
+            {
+              latitude: 0.9941723563392425,
+              longitude: -0.5259019335016669,
+              mapSlug: "chapter-5",
+              title: "Rakshasi",
+              description:
+                "**Portrait** Automatically added to journal after completing Chapter 5.",
+            },
+            {
+              mapSlug: "chapter-6",
+              latitude: 0.7786320384912766,
+              longitude: -0.8885192871093751,
+              title: "The Old Monkey",
+              description:
+                "**Portrait**: Automatically added to journal at the end of the game at the end of Chapter 6. After reaching the final shrine in the game “Birthstone > Heart of Birthstone”.",
+            },
+            {
+              mapSlug: "chapter-6",
+              latitude: 0.7964458371296409,
+              longitude: -0.848728408667503,
+              title: "Mandrill Chief ",
+              description:
+                "Added to journal upon beating Giant Shigandang, then walk up his arm to get the 5th Skandha.",
             },
           ],
         },
