@@ -13,7 +13,7 @@ importers:
         version: 4.11.0(graphql@16.7.1)
       '@prisma/client':
         specifier: ^5.20.0
-        version: 5.20.0(prisma@5.0.0)
+        version: 5.20.0(prisma@5.20.0)
       class-validator:
         specifier: 0.13.2
         version: 0.13.2
@@ -58,8 +58,8 @@ importers:
         specifier: 2.8.8
         version: 2.8.8
       prisma:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.20.0
+        version: 5.20.0
       prisma-dbml-generator:
         specifier: 0.11.0-dev.0
         version: 0.11.0-dev.0
@@ -1539,9 +1539,6 @@ packages:
 
   '@prisma/engines@4.13.0':
     resolution: {integrity: sha512-HrniowHRZXHuGT9XRgoXEaP2gJLXM5RMoItaY2PkjvuZ+iHc0Zjbm/302MB8YsPdWozAPHHn+jpFEcEn71OgPw==}
-
-  '@prisma/engines@5.0.0':
-    resolution: {integrity: sha512-kyT/8fd0OpWmhAU5YnY7eP31brW1q1YrTGoblWrhQJDiN/1K+Z8S1kylcmtjqx5wsUGcP1HBWutayA/jtyt+sg==}
 
   '@prisma/engines@5.20.0':
     resolution: {integrity: sha512-DtqkP+hcZvPEbj8t8dK5df2b7d3B8GNauKqaddRRqQBBlgkbdhJkxhoJTrOowlS3vaRt2iMCkU0+CSNn0KhqAQ==}
@@ -4684,11 +4681,6 @@ packages:
     resolution: {integrity: sha512-IZzJkSEtVeRVrxYLf2k9ZQBDu72RgIcjESu0jpjCHee3H15Yf3VtuZ1bZoNrc9gnTGvBuYCxlfzJ05+UIwUklw==}
     hasBin: true
 
-  prisma@5.0.0:
-    resolution: {integrity: sha512-KYWk83Fhi1FH59jSpavAYTt2eoMVW9YKgu8ci0kuUnt6Dup5Qy47pcB4/TLmiPAbhGrxxSz7gsSnJcCmkyPANA==}
-    engines: {node: '>=16.13'}
-    hasBin: true
-
   prisma@5.20.0:
     resolution: {integrity: sha512-6obb3ucKgAnsGS9x9gLOe8qa51XxvJ3vLQtmyf52CTey1Qcez3A6W6ROH5HIz5Q5bW+0VpmZb8WBohieMFGpig==}
     engines: {node: '>=16.13'}
@@ -7653,10 +7645,6 @@ snapshots:
       '@pothos/core': 4.2.0(graphql@16.7.1)
       graphql: 16.7.1
 
-  '@prisma/client@5.20.0(prisma@5.0.0)':
-    optionalDependencies:
-      prisma: 5.0.0
-
   '@prisma/client@5.20.0(prisma@5.20.0)':
     optionalDependencies:
       prisma: 5.20.0
@@ -7694,8 +7682,6 @@ snapshots:
   '@prisma/engines-version@5.20.0-12.06fc58a368dc7be9fbbbe894adf8d445d208c284': {}
 
   '@prisma/engines@4.13.0': {}
-
-  '@prisma/engines@5.0.0': {}
 
   '@prisma/engines@5.20.0':
     dependencies:
@@ -11437,10 +11423,6 @@ snapshots:
     transitivePeerDependencies:
       - encoding
       - supports-color
-
-  prisma@5.0.0:
-    dependencies:
-      '@prisma/engines': 5.0.0
 
   prisma@5.20.0:
     dependencies:
