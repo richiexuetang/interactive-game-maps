@@ -1,5 +1,5 @@
 import { atom } from "jotai";
-import { Group, Location, Map, User } from "@/__generated__/graphql";
+import { Group, Location, Map, Region, User } from "@/__generated__/graphql";
 
 interface CurrentMap extends Map {
   maxZoom: number;
@@ -27,6 +27,7 @@ export const hiddenCategoriesAtom = atom<number[]>([]);
 
 export const currentMapAtom = atom<null | CurrentMap>(null);
 export const focusRegionIdAtom = atom<null | string>(null);
+export const boundedRegionAtom = atom<null | Region>(null);
 export const copySnackbarAtom = atom<null | boolean>(false);
 
 export const searchFilterMarkerAtom = atom<Location[]>([]);

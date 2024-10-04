@@ -12,8 +12,7 @@ import { v4 as uuidv4 } from "uuid";
 import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
 import { RegionLayer } from "../layers/region";
 import { MarkerRenderer } from "../markers/markers-renderer";
-import { ProgressTracker } from "../progress-tracker";
-import { Menu } from "../sidebar/left-sidebar";
+import { Menu, ProgressTracker } from "../sidebar";
 import { User, Map } from "@/__generated__/graphql";
 import { cn } from "@/lib/utils";
 import {
@@ -133,11 +132,13 @@ const DynamicMap = ({ user, data }: MapProps) => {
         <CopyLinkNotifier />
         <MarkerRenderer />
         <ProgressTracker />
-        {data.regions?.map((sub: any) => (
+        {data.regions?.map(({ title, coordinates, centerX, centerY }) => (
           <RegionLayer
-            key={sub.title}
-            positions={sub.coordinates}
-            id={sub.title}
+            key={title}
+            positions={coordinates}
+            id={title}
+            centerX={centerX}
+            centerY={centerY}
           />
         ))}
       </RL.MapContainer>

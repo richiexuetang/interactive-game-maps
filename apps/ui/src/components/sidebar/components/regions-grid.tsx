@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
 import { useAtomValue, useSetAtom } from "jotai";
 import React from "react";
-import { focusRegionIdAtom, currentMapAtom } from "@/store";
+import { focusRegionIdAtom, currentMapAtom, boundedRegionAtom } from "@/store";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",
@@ -26,23 +26,31 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 export const RegionsGrid = () => {
   const currentMap = useAtomValue(currentMapAtom);
   const setSubRegionId = useSetAtom(focusRegionIdAtom);
+  const setBoundedRegion = useSetAtom(boundedRegionAtom);
 
   if (!currentMap) return;
   const { regions } = currentMap;
 
   return (
-    <Grid container spacing={1} justifyContent="center" alignContent="center">
-      {regions?.map((region) => (
-        <div key={region.title} className="flex flex-start">
-          <UnderlineButton
-            onClick={() => setSubRegionId(region.title)}
-            sx={{ fontSize: 12, whiteSpace: "nowrap" }}
-            variant="text"
-          >
-            {region.title}
-          </UnderlineButton>
-        </div>
-      ))}
-    </Grid>
+    <>
+      <Grid container spacing={1} justifyContent="center" alignContent="center">
+        {regions?.map((region) => (
+          <div key={region.title} className="flex flex-start">
+            <UnderlineButton
+              onClick={() => setSubRegionId(region.title)}
+              onContextMenu={(e) => {
+                e.preventDefault();
+                setBoundedRegion(region);
+              }}
+              sx={{ fontSize: 12, whiteSpace: "nowrap" }}
+              variant="text"
+            >
+              {region.title}
+            </UnderlineButton>
+          </div>
+        ))}
+      </Grid>
+      <span className="text-xs">Tip: Right click to focus on that region</span>
+    </>
   );
 };

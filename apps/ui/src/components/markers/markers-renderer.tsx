@@ -4,6 +4,7 @@ import * as React from "react";
 import { Marker } from "./marker";
 import { NoteMarker } from "./note-marker";
 import {
+  boundedRegionAtom,
   currentMapAtom,
   hiddenCategoriesAtom,
   searchFilterMarkerAtom,
@@ -17,15 +18,41 @@ export const MarkerRenderer = () => {
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
   const currentMap = useAtomValue(currentMapAtom);
   const appUser = useAtomValue(userAtom);
+  const boundedRegion = useAtomValue(boundedRegionAtom);
   const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
   const searchMarkers = useAtomValue(searchFilterMarkerAtom);
 
   if (!currentMap) return null;
 
+  function getMarkerBounds(arr: number[][] | null) {
+    if (!arr || !Array.isArray(arr) || arr.length === 0) return null;
+
+    const minX = Math.min(...arr.map((subArr) => subArr[0]));
+    const minY = Math.min(...arr.map((subArr) => subArr[1]));
+    const maxX = Math.max(...arr.map((subArr) => subArr[0]));
+    const maxY = Math.max(...arr.map((subArr) => subArr[1]));
+
+    return [minX, minY, maxX, maxY];
+  }
+  const flattenBounds = getMarkerBounds(
+    boundedRegion?.coordinates ? boundedRegion.coordinates[0] : null
+  );
+
   return (
     <>
       {currentMap.locations?.map((marker) => {
-        const { id, categoryId } = marker;
+        const { id, categoryId, latitude, longitude } = marker;
+
+        if (flattenBounds) {
+          if (
+            latitude < flattenBounds[0] ||
+            latitude > flattenBounds[2] ||
+            longitude < flattenBounds[1] ||
+            longitude > flattenBounds[3]
+          ) {
+            return null;
+          }
+        }
         if (searchMarkers.length) {
           if (searchMarkers.find((marker) => marker.id === id)) {
             return <Marker key={id} marker={marker} />;

@@ -1,3 +1,4 @@
+import Chip from "@mui/material/Chip";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid2";
@@ -15,7 +16,11 @@ import { ShowHideButtons } from "./components/show-hide-buttons";
 import { SidebarClose } from "./components/sidebar-close";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import { hiddenCategoriesAtom, currentMapAtom } from "@/store";
+import {
+  hiddenCategoriesAtom,
+  currentMapAtom,
+  boundedRegionAtom,
+} from "@/store";
 
 interface MenuProps {
   map: L.Map | null;
@@ -27,6 +32,7 @@ export const Menu = ({ map }: MenuProps) => {
 
   const currentMap = useAtomValue(currentMapAtom);
   const [hiddenCats, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
+  const [boundedRegion, setBoundedRegion] = useAtom(boundedRegionAtom);
   //#endregion
 
   if (!currentMap) return;
@@ -104,6 +110,7 @@ export const Menu = ({ map }: MenuProps) => {
               <Divider orientation="horizontal" flexItem />
 
               <MapSwitcher />
+
               <Divider orientation="horizontal" flexItem />
 
               <RegionsGrid />
@@ -114,7 +121,16 @@ export const Menu = ({ map }: MenuProps) => {
 
               <Divider orientation="horizontal" flexItem />
 
+              {boundedRegion && (
+                <Chip
+                  label={boundedRegion.title}
+                  onDelete={() => setBoundedRegion(null)}
+                />
+              )}
               <MarkerSearch map={map} />
+
+              <Divider orientation="horizontal" flexItem />
+
               {groups?.map((group, index) => {
                 const counts: any = {};
                 group.categories?.map((category) => {

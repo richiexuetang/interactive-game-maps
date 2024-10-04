@@ -748,7 +748,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .map-label {
     white-space: pre;
     font-size: large;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     font-family: var(--text-font);
 }

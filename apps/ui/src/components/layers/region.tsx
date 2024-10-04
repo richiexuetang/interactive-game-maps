@@ -4,7 +4,18 @@ import { useEffect, useRef, useState } from "react";
 import { Marker, Polygon, useMap } from "react-leaflet";
 import { focusRegionIdAtom } from "@/store";
 
-export const RegionLayer = ({ positions, id }: any) => {
+interface RegionLayerProps {
+  positions?: number[][][] | null;
+  id: string;
+  centerX?: number | null;
+  centerY?: number | null;
+}
+export const RegionLayer = ({
+  positions,
+  id,
+  centerX,
+  centerY,
+}: RegionLayerProps) => {
   const [triggerRegion, setTriggerRegion] = useAtom(focusRegionIdAtom);
   const polygonRef = useRef<L.Polygon | null>(null);
   const map = useMap();
@@ -36,16 +47,27 @@ export const RegionLayer = ({ positions, id }: any) => {
     html: `${id}`,
   });
 
+  if (!positions) {
+    return null;
+  }
+
   return (
     <>
       <Polygon
         ref={polygonRef}
-        positions={positions}
+        positions={positions as any}
         pathOptions={{ fillColor: "transparent", color: "transparent" }}
       />
-      {center && (
-        <Marker key={id} position={center} icon={text} zIndexOffset={-1000} />
-      )}
+      {center &&
+        (centerX && centerY ? (
+          <Marker
+            position={[centerY, centerX]}
+            icon={text}
+            zIndexOffset={-1000}
+          />
+        ) : (
+          <Marker position={center} icon={text} zIndexOffset={-1000} />
+        ))}
     </>
   );
 };
