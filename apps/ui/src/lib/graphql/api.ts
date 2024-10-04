@@ -10,8 +10,6 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 
-export const dynamic = "force-dynamic"; // static by default, unless reading the request
-
 export async function addToUserFound(input: {
   email: string;
   location: number;

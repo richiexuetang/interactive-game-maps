@@ -1,5 +1,3 @@
-export const dynamic = "force-dynamic"; // static by default, unless reading the request
-
 import { createYoga } from "graphql-yoga";
 import type { NextApiRequest, NextApiResponse } from "next";
 // import { createContext } from "../../graphql/context";

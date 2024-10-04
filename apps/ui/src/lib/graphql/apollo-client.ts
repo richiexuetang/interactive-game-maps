@@ -5,17 +5,11 @@ import {
   InMemoryCache,
 } from "@apollo/experimental-nextjs-app-support";
 
-export const dynamic = "force-dynamic"; // static by default, unless reading the request
-
 export const { getClient, query, PreloadQuery } = registerApolloClient(() => {
   return new ApolloClient({
     cache: new InMemoryCache({}),
     link: new HttpLink({
-      uri: `${
-        process.env.NODE_ENV === "production"
-          ? `https://${process.env.VERCEL_URL}`
-          : process.env.NEXT_PUBLIC_APP_BASE_URL
-      }/api/graphql`,
+      uri: `https://${process.env.VERCEL_URL}/api/graphql`,
     }),
   });
 });

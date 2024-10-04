@@ -74,8 +74,6 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
-  console.log("MapPage", params.slug);
-
   const gameMap = await fetchGameMapDetails(params.slug);
   const currentUser = await getCurrentUser();
 
