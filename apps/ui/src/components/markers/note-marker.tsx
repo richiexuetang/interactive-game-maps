@@ -76,7 +76,6 @@ export const NoteMarker = ({
       latitude: lat,
       longitude: lng,
     };
-    console.log(noteMarker, appUser);
     if (typeof id === "number") {
       updateNoteMarker({
         variables: {

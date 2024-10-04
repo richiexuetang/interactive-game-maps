@@ -50,7 +50,6 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
   const { data: userData } = useQuery(GET_CURRENT_USER, {
     variables: { email: user?.email },
   });
-  console.log(userData, "user");
   const { data: regionData } = useQuery(
     gql(
       `

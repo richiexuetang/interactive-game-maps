@@ -37,8 +37,8 @@ export async function removeFromUserFound(input: {
 export async function fetchGameMapDetails(slug: string) {
   const { data } = await query({
     query: gql`
-      query GameMap {
-        gameMap(slug: "chapter-1") {
+      query GameMap($slug: String!) {
+        gameMap(slug: $slug) {
           title
           slug
           minZoom
