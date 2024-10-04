@@ -1,7 +1,7 @@
 import { CodegenConfig } from "@graphql-codegen/cli";
 
 const config: CodegenConfig = {
-  schema: `${process.env.NEXT_PUBLIC_APP_BASE_URL}/api/graphql`,
+  schema: "http://localhost:3000/api/graphql",
   // this assumes that all your source files are in a top-level `src/` directory - you might need to adjust this to your file structure
   documents: ["src/**/*.{ts,tsx}"],
   generates: {
