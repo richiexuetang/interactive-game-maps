@@ -5,7 +5,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 import React from "react";
 import Providers from "./loading";
-import { ApolloWrapper } from "@/components/apollo-wrapper";
 import theme from "@/lib/ui/theme";
 import "@/styles/globals.css";
 
@@ -36,15 +35,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-background">
-        <ApolloWrapper>
-          <AppRouterCacheProvider>
-            <ThemeProvider theme={theme}>
-              <Providers>{children}</Providers>
-              <Analytics />
-              <SpeedInsights />
-            </ThemeProvider>
-          </AppRouterCacheProvider>
-        </ApolloWrapper>
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>
+            <Providers>{children}</Providers>
+            <Analytics />
+            <SpeedInsights />
+          </ThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );

@@ -1,5 +1,8 @@
+export const dynamic = "force-dynamic"; // static by default, unless reading the request
+
 import { createYoga } from "graphql-yoga";
 import type { NextApiRequest, NextApiResponse } from "next";
+// import { createContext } from "../../graphql/context";
 import { schema } from "@/graphql/schema";
 
 const { handleRequest }: any = createYoga<{
@@ -7,7 +10,9 @@ const { handleRequest }: any = createYoga<{
   res: NextApiResponse;
 }>({
   schema,
+  //   context: createContext,
   graphqlEndpoint: "/api/graphql",
+  // Yoga needs to know how to create a valid Next response
   fetchAPI: { Response },
 });
 
