@@ -12,16 +12,18 @@ import { Game } from "@/__generated__/graphql";
 import { query } from "@/lib/graphql/apollo-client";
 
 export default async function Page() {
-  const { data } = await query({
-    query: gql(/* GraphQL */ `
-      query {
-        games {
-          slug
-          title
-        }
-      }
-    `),
-  });
+  console.log("Page");
+
+  // const { data } = await query({
+  //   query: gql(/* GraphQL */ `
+  //     query {
+  //       games {
+  //         slug
+  //         title
+  //       }
+  //     }
+  //   `),
+  // });
 
   return (
     <Stack
@@ -34,7 +36,7 @@ export default async function Page() {
     >
       <Image src="/images/logo.png" width={200} height={100} alt="app logo" />
       <Grid container spacing={3} sx={{ m: 5 }}>
-        {data?.games?.map(({ title, slug }: Game) => (
+        {/* {data?.games?.map(({ title, slug }: Game) => (
           <Grid key={slug} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
             <Link href={`/region/${slug}`}>
               <Card>
@@ -61,7 +63,7 @@ export default async function Page() {
               </Card>
             </Link>
           </Grid>
-        ))}
+        ))} */}
       </Grid>
     </Stack>
   );

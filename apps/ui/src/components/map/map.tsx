@@ -16,7 +16,7 @@ export interface MapProps {
 }
 
 const client = new ApolloClient({
-  uri: `https://${process.env.VERCEL_URL}/api/graphql`,
+  uri: `/api/graphql`,
   cache: new InMemoryCache(),
 });
 

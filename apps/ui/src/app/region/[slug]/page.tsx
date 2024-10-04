@@ -64,6 +64,7 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
+  console.log("RegionPage", params.slug);
   const { data } = await query({
     query: gql`
       query Maps($slug: String!) {
