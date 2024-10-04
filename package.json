@@ -13,8 +13,7 @@
     "seed": "cd apps/ui && pnpx prisma db seed",
     "start:migrate:dev": "pnpm --filter ui migrate:dev && pnpm --filter server dev",
     "ui:build": "pnpm --filter ui build",
-    "ui:prod": "pnpm --filter ui start",
-    "postinstall": "pnpm --filter ui prisma:gen"
+    "ui:prod": "pnpm --filter ui start"
   },
   "dependencies": {
     "@apollo/server": "^4.7.5",
@@ -35,7 +34,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "2.8.8",
-    "prisma": "5.20.0",
+    "prisma": "5.0.0",
     "prisma-dbml-generator": "0.11.0-dev.0",
     "ts-loader": "9.4.4",
     "tsconfig-paths": "4.2.0"
