@@ -16,7 +16,7 @@ export interface MapProps {
 }
 
 const client = new ApolloClient({
-  uri: `${process.env.NEXT_PUBLIC_GQL_URL}`,
+  uri: `${process.env.NEXT_PUBLIC_APP_BASE_URL}/api/graphql`,
   cache: new InMemoryCache(),
 });
 
