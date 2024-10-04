@@ -1,14 +1,11 @@
 import { gql } from "@apollo/client";
 import { remark } from "remark";
 import html from "remark-html";
-import { Region } from "@/__generated__/graphql";
-import { getClient } from "@/lib/graphql/apollo-client";
+import { Map } from "@/__generated__/graphql";
+import { getClient, query } from "@/lib/graphql/apollo-client";
 import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
-  FETCH_GAME_META_DATA,
-  FETCH_GAME_MAP_DETAILS,
-  FETCH_MAP_DETAILS,
   GET_CURRENT_USER,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
@@ -19,10 +16,10 @@ export async function addToUserFound(input: {
 }) {
   const { data } = await getClient().mutate({
     mutation: ADD_TO_USER_FOUND,
-    variables: { data: input },
+    variables: { ...input },
   });
 
-  return data.addFoundLocations;
+  return data.addFound;
 }
 
 export async function removeFromUserFound(input: {
@@ -37,24 +34,63 @@ export async function removeFromUserFound(input: {
   return data.removeFoundLocation;
 }
 
-export async function getMapDetails(slug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_MAP_DETAILS,
-    variables: { slug },
-  });
-
-  return data.mapDetails;
-}
-
 export async function fetchGameMapDetails(slug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_GAME_MAP_DETAILS,
+  const { data } = await query({
+    query: gql`
+      query GameMap($slug: String!) {
+        gameMap(slug: $slug) {
+          title
+          slug
+          minZoom
+          maxZoom
+          zoom
+          center
+          groups {
+            id
+            title
+            categories {
+              id
+              icon
+              info
+              title
+              isChecklist
+              defaultHidden
+            }
+          }
+          maps {
+            tilePath
+            slug
+            order
+            title
+            locations {
+              categoryId
+              category {
+                title
+                id
+                icon
+                info
+              }
+              media {
+                url
+                type
+              }
+              description
+              latitude
+              longitude
+              title
+              id
+            }
+          }
+          slug
+        }
+      }
+    `,
     variables: { slug },
   });
 
-  const details = data.fetchGameByMap;
-  const map = details.maps?.find((r: Region) => r.slug === slug);
-  const otherMaps = details.maps?.filter((r: Region) => r.slug !== slug);
+  const details = data.gameMap;
+  const map = details.maps?.find((r: Map) => r.slug === slug);
+  const otherMaps = details.maps?.filter((r: Map) => r.slug !== slug);
 
   const groups = details.groups;
   const processedGroups = [];
@@ -94,7 +130,7 @@ export async function fetchGameMapDetails(slug: string) {
 
 export async function getAppUser(email: string) {
   try {
-    const { data } = await getClient().query({
+    const { data } = await query({
       query: GET_CURRENT_USER,
       variables: { email },
     });
@@ -105,14 +141,11 @@ export async function getAppUser(email: string) {
   }
 }
 
-export async function createAppUser(input: {
-  email: string;
-  username?: string;
-}) {
+export async function createAppUser(input: { email: string }) {
   try {
     const { data } = await getClient().mutate({
       mutation: CREATE_APP_USER,
-      variables: { data: input },
+      variables: { email: input.email },
     });
 
     return data.createUser;
@@ -123,28 +156,16 @@ export async function createAppUser(input: {
 }
 
 export async function getMetaData(slug: string) {
-  const { data } = await getClient().query({
-    query: FETCH_GAME_META_DATA,
+  const { data } = await query({
+    query: gql(`
+    query GetGames($slug: String!) {
+      game(slug: $slug) {
+        slug
+        title
+      }
+    }`),
     variables: { slug },
   });
 
   return data.game;
-}
-
-export async function getMapsByGame(slug: string) {
-  const { data } = await getClient().query({
-    query: gql`
-      query FindMapByGame($slug: String!) {
-        findMapsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
-          gameSlug
-          slug
-          thumbnailUrl
-          title
-        }
-      }
-    `,
-    variables: { slug },
-  });
-
-  return data.findMapsByGame;
 }

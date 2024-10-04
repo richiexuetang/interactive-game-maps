@@ -58,7 +58,7 @@ export const ProgressTracker = () => {
   const totalFoundForCategory = (categoryId: number) =>
     foundLocations?.filter(
       (location) =>
-        locations?.find(({ id }) => id.toString() == location.toString())
+        locations?.find(({ id }) => id!.toString() == location.toString())
           ?.categoryId === categoryId
     ).length;
 
@@ -72,13 +72,13 @@ export const ProgressTracker = () => {
         removeLocation({
           variables: { data: { email: appUser.email, location: markerId } },
         });
-        const newFoundLocations = appUser.foundLocations.filter(
+        const newFoundLocations = appUser.foundLocations?.filter(
           (location) => location !== markerId
         );
         setAppUser({ ...appUser, foundLocations: newFoundLocations });
       } else {
         addLocation({
-          variables: { data: { email: appUser.email, location: markerId } },
+          variables: { email: appUser.email, location: markerId },
         });
         const newFoundLocations = [...appUser.foundLocations, markerId];
         setAppUser({ ...appUser, foundLocations: newFoundLocations });
@@ -91,7 +91,7 @@ export const ProgressTracker = () => {
       const hide = !appUser.hideFound;
 
       toggleUserHideFound({
-        variables: { data: { email: appUser.email, hide } },
+        variables: { email: appUser.email, hide },
       });
       setAppUser({ ...appUser, hideFound: hide });
     }
@@ -155,7 +155,7 @@ export const ProgressTracker = () => {
             <Button onClick={signOutUser}>Log out</Button>
             {groups?.map(({ categories }) =>
               categories?.map(({ id, icon }) => {
-                if (totalForCategory(id) !== 0) {
+                if (totalForCategory(id!) !== 0) {
                   return (
                     <Accordion key={id}>
                       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
@@ -163,11 +163,11 @@ export const ProgressTracker = () => {
                           className={`icon-${icon} ${getBodyFont(gameSlug)}`}
                         />
                         <span className="text-text text-xs p-2">
-                          {getCategoryInfoById(id)?.title}
+                          {getCategoryInfoById(id!)?.title}
                         </span>
                         <span className="text-text text-xs p-2">
-                          {totalFoundForCategory(id) + " / "}
-                          {totalForCategory(id)}
+                          {totalFoundForCategory(id!) + " / "}
+                          {totalForCategory(id!)}
                         </span>
                       </AccordionSummary>
                       {locations?.map(({ id: markerId, categoryId, title }) => {
@@ -186,7 +186,7 @@ export const ProgressTracker = () => {
                                   markerId
                                 )}
                                 size="small"
-                                onChange={() => handleMarkerFound(markerId)}
+                                onChange={() => handleMarkerFound(markerId!)}
                               />
                               <span className="items-center text-xs">
                                 {title}
@@ -198,7 +198,7 @@ export const ProgressTracker = () => {
                                     height: 15,
                                     cursor: "pointer",
                                   }}
-                                  onClick={() => setTriggerMarkerId(markerId)}
+                                  onClick={() => setTriggerMarkerId(markerId!)}
                                 />
                               </IconButton>
                             </AccordionDetails>

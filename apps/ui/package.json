@@ -8,7 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "compile": "graphql-codegen",
-    "watch": "graphql-codegen -w"
+    "watch": "graphql-codegen -w",
+    "migrate:dev": "prisma migrate dev --preview-feature",
+    "migrate:dev:create": "prisma migrate dev --create-only --preview-feature",
+    "seed": "pnpx prisma db seed",
+    "prisma:studio": "pnpx prisma studio",
+    "prisma:gen": "pnpx prisma generate",
+    "prisma:gen:watch": "pnpx prisma generate --watch"
   },
   "dependencies": {
     "@apollo/client": "^3.11.5",
@@ -19,17 +25,25 @@
     "@mui/material": "^6.1.0",
     "@mui/material-nextjs": "^6.1.0",
     "@next/bundle-analyzer": "^14.2.14",
+    "@pothos/core": "^4.2.0",
+    "@pothos/plugin-prisma": "^4.2.1",
+    "@pothos/plugin-prisma-utils": "^1.2.0",
+    "@pothos/plugin-relay": "^4.2.1",
+    "@prisma/client": "^5.20.0",
     "@vercel/analytics": "^1.3.1",
+    "@vercel/postgres": "^0.10.0",
     "@vercel/speed-insights": "^1.0.12",
+    "aws-sdk": "^2.1691.0",
     "firebase": "^10.13.1",
     "firebase-admin": "^12.5.0",
     "graphql": "16.7.1",
+    "graphql-yoga": "^5.7.0",
+    "install": "^0.13.0",
     "jotai": "^2.9.3",
     "leaflet": "^1.9.4",
     "lodash.debounce": "^4.0.8",
     "next": "14.2.13",
     "nprogress": "^0.2.0",
-    "rbush": "^4.0.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-hook-form": "^7.53.0",
@@ -55,7 +69,14 @@
     "eslint-config-next": "14.2.7",
     "eslint-plugin-import": "^2.30.0",
     "postcss": "^8",
+    "prisma": "5.20.0",
+    "prisma-dbml-generator": "0.11.0-dev.0",
     "tailwindcss": "^3.4.1",
+    "ts-invariant": "^0.10.3",
+    "ts-node": "^10.9.2",
     "typescript": "5.5.2"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
