@@ -13,8 +13,8 @@ import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { useRouter } from "next/navigation";
+import { useAtom, useSetAtom } from "jotai";
+import { useParams, useRouter } from "next/navigation";
 import * as React from "react";
 import { MediaView } from "./media-view";
 import { Location } from "@/__generated__/graphql";
@@ -25,7 +25,7 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { copySnackbarAtom, currentMapAtom, userAtom } from "@/store";
+import { copySnackbarAtom, userAtom } from "@/store";
 
 interface PopupCardProps {
   marker: Location;
@@ -48,9 +48,9 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     description = "",
   } = marker;
   const setCopyLinkTrigger = useSetAtom(copySnackbarAtom);
+  const params = useParams();
 
   const [currentUser, setCurrentUser] = useAtom(userAtom);
-  const currentRegion = useAtomValue(currentMapAtom);
 
   const markerFound = currentUser?.foundLocations.includes(id);
   const router = useRouter();
@@ -109,7 +109,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                   sx={{ width: 18, height: 18 }}
                   onClick={() =>
                     copy(
-                      `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${currentRegion?.slug}?marker=${marker.id}`
+                      `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${params?.slug}?marker=${marker.id}`
                     ).then(() => {
                       setCopyLinkTrigger(true);
                     })
