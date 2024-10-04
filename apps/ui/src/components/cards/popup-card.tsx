@@ -109,7 +109,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                   sx={{ width: 18, height: 18 }}
                   onClick={() =>
                     copy(
-                      `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${params?.slug}?marker=${marker.id}`
+                      `${process.env.NEXT_PUBLIC_APP_BASE_URL}/map/${params?.slug}?marker=${marker.id}`
                     ).then(() => {
                       setCopyLinkTrigger(true);
                     })
