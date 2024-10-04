@@ -1,0 +1,122 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+generator dbml {
+  provider = "prisma-dbml-generator"
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [pg_trgm, postgis]
+}
+
+model User {
+  id             String       @id @default(cuid())
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  email          String       @unique
+  foundLocations Int[]
+  username       String?
+  hideFound      Boolean      @default(false)
+  noteMarkers    NoteMarker[]
+}
+
+model NoteMarker {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String?
+  latitude    Decimal
+  longitude   Decimal
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  userEmail   String
+  user        User     @relation(fields: [userEmail], references: [email])
+  mapSlug     String
+  map         Map      @relation(fields: [mapSlug], references: [slug])
+}
+
+model Game {
+  id      Int       @id @default(autoincrement())
+  slug    String    @unique
+  title   String
+  minZoom Int
+  maxZoom Int
+  zoom    Int
+  center  Decimal[]
+  groups  Group[]
+  maps    Map[]
+}
+
+model Map {
+  id           Int          @id @default(autoincrement())
+  slug         String       @unique
+  title        String
+  thumbnailUrl String?
+  tilePath     String
+  gameSlug     String
+  order        Int          @default(1)
+  locations    Location[]
+  game         Game         @relation(fields: [gameSlug], references: [slug])
+  regions      Region[]
+  NoteMarker   NoteMarker[]
+}
+
+model Region {
+  id          Int                      @id @default(autoincrement())
+  coordinates Unsupported("geometry")?
+  title       String
+  locations   Location[]
+  mapSlug     String
+  map         Map                      @relation(fields: [mapSlug], references: [slug])
+  centerX     Decimal?
+  centerY     Decimal?
+
+  @@index([coordinates], type: Gist)
+}
+
+model Group {
+  id         Int        @id @default(autoincrement())
+  title      String
+  categories Category[]
+  gameSlug   String
+  game       Game       @relation(fields: [gameSlug], references: [slug])
+  expandable Boolean    @default(false)
+}
+
+model Category {
+  id            Int        @id @default(autoincrement())
+  title         String
+  icon          String
+  info          String?
+  groupId       Int?
+  group         Group?     @relation(fields: [groupId], references: [id])
+  locations     Location[]
+  isChecklist   Boolean    @default(false)
+  defaultHidden Boolean    @default(false)
+}
+
+model Location {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String?
+  latitude    Decimal
+  longitude   Decimal
+  categoryId  Int?
+  category    Category? @relation(fields: [categoryId], references: [id])
+  map         Map       @relation(fields: [mapSlug], references: [slug])
+  mapSlug     String
+  media       Media[]
+  region      Region?   @relation(fields: [regionId], references: [id])
+  regionId    Int?
+}
+
+model Media {
+  id         Int       @id @default(autoincrement())
+  url        String
+  type       String
+  locationId Int?
+  location   Location? @relation(fields: [locationId], references: [id])
+}

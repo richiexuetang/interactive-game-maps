@@ -1,0 +1,227 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input AddNoteInput {
+  description: String!
+  email: String!
+  latitude: Float!
+  longitude: Float!
+  mapSlug: String!
+  title: String!
+}
+
+type Category {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  defaultHidden: Boolean!
+  icon: String!
+  id: Float!
+  info: String
+  isChecklist: Boolean!
+  locations: [Location!]
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+input CreateUserInput {
+  email: String!
+  username: String
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Game {
+  center: [Float!]!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String
+  groups: [Group!]
+  id: Float!
+  maps: [Map!]
+  maxZoom: Float!
+  minZoom: Float!
+  slug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+  zoom: Float!
+}
+
+type Group {
+  categories: [Category!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  game: Game
+  gameSlug: String
+  id: Float!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+type Location {
+  category: Category
+  categoryId: Float
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String
+  id: Float!
+  latitude: Float!
+  longitude: Float!
+  map: Map!
+  mapSlug: String!
+  media: [Media!]
+  regionSlug: String
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+type Map {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  gameSlug: String!
+  id: Float!
+  locations: [Location!]
+  order: Float!
+  regions: [Region!]
+  slug: String!
+  thumbnailUrl: String
+  tilePath: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+input MapOrder {
+  direction: OrderDirection!
+  field: RegionOrderField!
+}
+
+type Media {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: Float!
+  location: Location
+  locationId: Float
+  type: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+  url: String!
+}
+
+type Mutation {
+  addFoundLocations(data: UpdateFoundLocationInput!): User!
+  addNoteMarker(data: AddNoteInput!): NoteMarker!
+  createUser(data: CreateUserInput!): User
+  removeFoundLocation(data: UpdateFoundLocationInput!): User!
+  removeNoteMarker(data: RemoveNoteInput!): User!
+  toggleHideFoundSetting(data: UpdateHideFoundInput!): User!
+  updateNoteMarker(data: UpdateNoteInput!): NoteMarker!
+}
+
+type NoteMarker {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String!
+  id: Float!
+  latitude: Float!
+  longitude: Float!
+  map: Map!
+  mapSlug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+"""
+Possible directions in which to order a list of items when provided an `orderBy` argument.
+"""
+enum OrderDirection {
+  asc
+  desc
+}
+
+type Query {
+  fetchGameByMap(slug: String!): Game!
+  findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!
+  game(slug: String!): Game!
+  games: [Game!]!
+  getRegionsByMap(slug: String!): [Region!]!
+  getUser(email: String!): User!
+  mapDetails(slug: String!): Map!
+}
+
+type Region {
+  coordinates: [[[Float!]!]!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  id: Float!
+  locations: [Location!]!
+  mapSlug: String!
+  slug: String!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+"""Properties by which region connections can be ordered."""
+enum RegionOrderField {
+  id
+  order
+  title
+}
+
+input RemoveNoteInput {
+  email: String!
+  id: Float!
+}
+
+input UpdateFoundLocationInput {
+  email: String!
+  location: Float!
+}
+
+input UpdateHideFoundInput {
+  email: String!
+  hide: Boolean!
+}
+
+input UpdateNoteInput {
+  description: String!
+  id: Float!
+  latitude: Float!
+  longitude: Float!
+  title: String!
+}
+
+type User {
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  email: String!
+  foundLocations: [Int!]
+  hideFound: Boolean!
+  id: String!
+  noteMarkers: [NoteMarker!]
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+  username: String
+}
