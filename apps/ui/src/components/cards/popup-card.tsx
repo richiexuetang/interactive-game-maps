@@ -49,10 +49,10 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   } = marker;
   const setCopyLinkTrigger = useSetAtom(copySnackbarAtom);
 
-  const [appUser, setAppUser] = useAtom(userAtom);
+  const [currentUser, setCurrentUser] = useAtom(userAtom);
   const currentRegion = useAtomValue(currentMapAtom);
 
-  const markerFound = appUser?.foundLocations.includes(id);
+  const markerFound = currentUser?.foundLocations.includes(id);
   const router = useRouter();
 
   const copy = useClipboardCopyFn();
@@ -68,19 +68,19 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   };
 
   const handleMarkerFound = () => {
-    if (appUser?.email) {
-      const variables = { data: { email: appUser.email, location: id } };
+    if (currentUser?.email) {
+      const variables = { data: { email: currentUser.email, location: id } };
       let newFoundLocations = [];
       if (markerFound) {
         removeLocation({ variables });
-        newFoundLocations = appUser.foundLocations.filter(
+        newFoundLocations = currentUser.foundLocations.filter(
           (location) => location !== id
         );
       } else {
         addLocation({ variables });
-        newFoundLocations = [...appUser.foundLocations, id];
+        newFoundLocations = [...currentUser.foundLocations, id];
       }
-      setAppUser({ ...appUser, foundLocations: newFoundLocations });
+      setCurrentUser({ ...currentUser, foundLocations: newFoundLocations });
     }
   };
 
@@ -91,8 +91,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     <StyledCard>
       <CardHeader
         avatar={
-          <Avatar sx={{ backgroundColor: "transparent" }}>
-            <span className={cn(`icon ${icon}`)} />
+          <Avatar>
+            <span className={cn(`icon-${icon}`)} />
           </Avatar>
         }
         title={
@@ -106,7 +106,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             <Tooltip title="Copy link">
               <IconButton sx={{ pl: 2 }}>
                 <LinkIcon
-                  sx={{ width: 15, height: 15 }}
+                  sx={{ width: 18, height: 18 }}
                   onClick={() =>
                     copy(
                       `${process.env.NEXT_PUBLIC_APP_BASE_URL}map/${currentRegion?.slug}?marker=${marker.id}`
@@ -142,7 +142,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         )}
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
-        {appUser?.email ? (
+        {currentUser?.email ? (
           <FormControlLabel
             control={
               <Checkbox checked={markerFound} onChange={handleMarkerFound} />

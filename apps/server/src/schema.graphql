@@ -90,11 +90,16 @@ type Location {
 }
 
 type Map {
+  center: [Float!]!
+
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
+  game: Game
   gameSlug: String!
   id: Float!
   locations: [Location!]
+  maxZoom: Float!
+  minZoom: Float!
   order: Float!
   regions: [Region!]
   slug: String!
@@ -104,6 +109,7 @@ type Map {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+  zoom: Float!
 }
 
 input MapOrder {
@@ -164,10 +170,13 @@ type Query {
   games: [Game!]!
   getRegionsByMap(slug: String!): [Region!]!
   getUser(email: String!): User!
+  mapData(slug: String!): Map!
   mapDetails(slug: String!): Map!
 }
 
 type Region {
+  centerX: Float
+  centerY: Float
   coordinates: [[[Float!]!]!]
 
   """Identifies the date and time when the object was created."""

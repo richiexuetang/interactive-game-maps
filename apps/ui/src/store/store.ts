@@ -1,5 +1,5 @@
 import { atom } from "jotai";
-import { Group, Location, Map } from "@/__generated__/graphql";
+import { Group, Location, Map, User } from "@/__generated__/graphql";
 
 interface CurrentMap extends Map {
   maxZoom: number;
@@ -14,14 +14,13 @@ interface NoteMarker {
   title: string | null;
   description: string | null;
 }
-interface User {
-  email: string;
+
+interface AppUser extends Omit<User, "noteMarkers" | "foundLocations"> {
+  noteMarkers: NoteMarker[] | null;
   foundLocations: number[];
-  hideFound: boolean;
-  noteMarkers: NoteMarker[];
 }
 
-export const userAtom = atom<User | null>(null);
+export const userAtom = atom<AppUser | null>(null);
 
 export const categoriesAtom = atom<string[]>([]);
 export const hiddenCategoriesAtom = atom<number[]>([]);

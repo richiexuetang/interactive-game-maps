@@ -1,47 +1,28 @@
-import ClearIcon from "@mui/icons-material/Clear";
-import SearchIcon from "@mui/icons-material/Search";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
-import FormControl from "@mui/material/FormControl";
 import Grid from "@mui/material/Grid2";
-import InputAdornment from "@mui/material/InputAdornment";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemAvatar from "@mui/material/ListItemAvatar";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
-import MenuItem from "@mui/material/MenuItem";
 import Paper from "@mui/material/Paper";
-import Select from "@mui/material/Select";
 import { styled } from "@mui/material/styles";
-import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import * as L from "leaflet";
 import Image from "next/image";
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
 import React, { useState } from "react";
-import { ShowHideButtons } from "./show-hide-buttons";
-import { SidebarClose } from "./sidebar-close";
-import { Map, Region } from "@/__generated__/graphql";
-import { useDebounceCallback } from "@/hooks";
+import { MapSwitcher } from "./components/map-switcher";
+import { MarkerSearch } from "./components/marker-search";
+import { ShowHideButtons } from "./components/show-hide-buttons";
+import { SidebarClose } from "./components/sidebar-close";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import {
   hiddenCategoriesAtom,
-  highlightedMarkerAtom,
-  searchFilterMarkerAtom,
-  triggeredMarkerAtom,
   focusRegionIdAtom,
   currentMapAtom,
 } from "@/store";
 
 interface MenuProps {
-  maps: Map[];
-  regions: Region[];
   map: L.Map | null;
 }
 
@@ -63,35 +44,11 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
   },
 }));
 
-export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
-  const router = useRouter();
-  const params = useParams<{ slug: string }>();
-
+export const Menu = ({ map }: MenuProps) => {
   const [showMenu, setShowMenu] = useState(true);
   const currentMap = useAtomValue(currentMapAtom);
   const setSubRegionId = useSetAtom(focusRegionIdAtom);
   const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-
-  const [searchKeyword, setSearchKeyword] = useState("");
-  const [searchFilterMarker, setSearchFilterMarker] = useAtom(
-    searchFilterMarkerAtom
-  );
-  const [showFiltered, setShowFiltered] = useState(false);
-  const setHighlightedMarker = useSetAtom(highlightedMarkerAtom);
-  const setTriggeredMarkerId = useSetAtom(triggeredMarkerAtom);
-  const debounced = useDebounceCallback(setSearchFilterMarker, 500);
-
-  const inputSearchChange = (input: string) => {
-    setSearchKeyword(input);
-    let filtered =
-      currentMap?.locations?.filter((marker) =>
-        marker.title.toLowerCase().includes(input.toLowerCase())
-      ) ?? [];
-    if (input === "") {
-      filtered = [];
-    }
-    debounced(filtered);
-  };
 
   const handleHiddenCategory = (categoryId: number) => {
     if (hiddenCategories.includes(categoryId)) {
@@ -161,21 +118,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
               </h1>
               <Divider orientation="horizontal" flexItem />
 
-              <FormControl fullWidth>
-                <Select
-                  value={params.slug}
-                  onChange={(event) =>
-                    router.push(`/map/${event.target.value}`)
-                  }
-                >
-                  {maps?.map((region, index) => (
-                    <MenuItem key={`${region}${index}`} value={region.slug}>
-                      {region.title}
-                    </MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
-
+              <MapSwitcher />
               <Divider orientation="horizontal" flexItem />
 
               <Grid
@@ -184,7 +127,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
                 justifyContent="center"
                 alignContent="center"
               >
-                {subRegions?.map((region) => (
+                {currentMap?.regions?.map((region) => (
                   <div key={region.title} className="flex flex-start">
                     <UnderlineButton
                       onClick={() => setSubRegionId(region.title)}
@@ -203,83 +146,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
 
               <Divider orientation="horizontal" flexItem />
 
-              <TextField
-                fullWidth
-                label="Search for markers..."
-                variant="filled"
-                onFocus={() => setShowFiltered(true)}
-                value={searchKeyword}
-                onChange={(e) => inputSearchChange(e.target.value)}
-                slotProps={{
-                  input: {
-                    startAdornment: (
-                      <InputAdornment position="start">
-                        {searchKeyword.length ? (
-                          <ClearIcon
-                            onClick={() => {
-                              setSearchKeyword("");
-                              setSearchFilterMarker([]);
-                            }}
-                            sx={{ cursor: "pointer" }}
-                          />
-                        ) : (
-                          <SearchIcon />
-                        )}
-                      </InputAdornment>
-                    ),
-                  },
-                }}
-              />
-
-              {searchFilterMarker?.length > 0 && showFiltered && (
-                <List>
-                  {searchFilterMarker.map((marker) => (
-                    <React.Fragment key={marker.id}>
-                      <ListItem
-                        onPointerEnter={() => {
-                          setHighlightedMarker(marker.id);
-                        }}
-                        onPointerLeave={() => setHighlightedMarker(null)}
-                        alignItems="flex-start"
-                        onClick={() => {
-                          map?.setView([marker.latitude, marker.longitude], 13);
-                          setTriggeredMarkerId(marker.id);
-                        }}
-                        key={marker.id}
-                        sx={{ cursor: "pointer" }}
-                        disablePadding
-                      >
-                        <ListItemButton>
-                          <ListItemAvatar>
-                            <Avatar>
-                              <span
-                                className={cn(`icon-${marker.category?.icon}`)}
-                              />
-                            </Avatar>
-                          </ListItemAvatar>
-                          <ListItemText
-                            primary={marker.title}
-                            secondary={
-                              <Typography
-                                component="span"
-                                variant="body2"
-                                sx={{
-                                  color: "text.primary",
-                                  display: "inline",
-                                  lineHeight: 2,
-                                }}
-                              >
-                                {marker.category?.title}
-                              </Typography>
-                            }
-                          />
-                        </ListItemButton>
-                      </ListItem>
-                      <Divider variant="inset" component="li" />
-                    </React.Fragment>
-                  ))}
-                </List>
-              )}
+              <MarkerSearch map={map} />
               {currentMap?.groups?.map((group, index) => {
                 const counts: any = {};
                 group.categories?.map((category) => {

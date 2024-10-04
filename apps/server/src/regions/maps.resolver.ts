@@ -10,13 +10,13 @@ export class MapsResolver {
 
   @Query(() => [Region])
   async getRegionsByMap(@Args("slug") slug: string) {
-    const subRegions: Region[] = await this.prisma
-      .$queryRaw`SELECT ST_AsGeoJSON(coordinates) as coordinates, title, "mapSlug" FROM "Region" WHERE "mapSlug"::text = ${slug}`;
+    const regions: Region[] = await this.prisma
+      .$queryRaw`SELECT ST_AsGeoJSON(coordinates) as coordinates, title, "centerX", "centerY", "mapSlug" FROM "Region" WHERE "mapSlug"::text = ${slug}`;
 
     const result = [];
-    for (let i = 0; i < subRegions?.length; i++) {
-      const coords = JSON.parse(subRegions[i].coordinates as any);
-      result.push({ ...subRegions[i], coordinates: coords.coordinates });
+    for (let i = 0; i < regions?.length; i++) {
+      const coords = JSON.parse(regions[i].coordinates as any);
+      result.push({ ...regions[i], coordinates: coords.coordinates });
     }
     return result;
   }
@@ -27,6 +27,44 @@ export class MapsResolver {
       where: { slug },
       include: { regions: true },
     });
+  }
+
+  @Query(() => Map)
+  async mapData(@Args("slug") slug: string) {
+    const map = await this.prisma.map.findUnique({
+      where: { slug },
+      include: {
+        locations: true,
+        regions: true,
+        game: {
+          include: {
+            maps: true,
+            groups: {
+              include: { categories: { include: { locations: true } } },
+            },
+          },
+        },
+      },
+    });
+
+    const regions: Region[] = await this.prisma
+      .$queryRaw`SELECT ST_AsGeoJSON(coordinates) as coordinates, title, "centerX", "centerY", "mapSlug" FROM "Region" WHERE "mapSlug"::text = ${slug}`;
+
+    const result = [];
+    for (let i = 0; i < regions?.length; i++) {
+      const coords = JSON.parse(regions[i].coordinates as any);
+      result.push({ ...regions[i], coordinates: coords.coordinates });
+    }
+    console.log(result);
+
+    const locations = await this.prisma.location.findMany({
+      where: { mapSlug: slug },
+      include: { category: true },
+    });
+
+    map.regions = [...result];
+    map.locations = [...locations];
+    return map;
   }
 
   @Query(() => [Map])

@@ -58,10 +58,65 @@ mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
 `
 );
 
+export const GET_MAP_DATA = gql(`
+query MapData($slug: String!) {
+  mapData(slug: $slug) {
+    tilePath
+    center
+    maxZoom
+    minZoom
+    zoom
+    locations {
+      categoryId
+          category {
+            title
+            id
+            icon
+            info
+          }
+          media {
+            url
+            type
+          }
+          description
+          latitude
+          longitude
+          title
+          id
+    }
+    regions {
+      centerX
+      centerY
+      coordinates
+      title
+    }
+    game {
+      slug
+      maps {
+        title
+        slug
+      }
+      groups {
+        title
+        categories {
+          id
+          defaultHidden
+          icon
+          info
+          isChecklist
+          title
+        }
+      }
+    }
+  }
+}`);
+
 export const GET_MAP_REGIONS = gql(
   `
   query GetRegionsByMap($slug: String!) {
     getRegionsByMap(slug: $slug) {
+      centerX
+      centerY
       title
       coordinates
     }

@@ -62,6 +62,10 @@ model Map {
   game         Game         @relation(fields: [gameSlug], references: [slug])
   regions      Region[]
   NoteMarker   NoteMarker[]
+  minZoom      Int          @default(9)
+  maxZoom      Int          @default(14)
+  zoom         Int          @default(10)
+  center       Decimal[]    @default([0, 0])
 }
 
 model Region {

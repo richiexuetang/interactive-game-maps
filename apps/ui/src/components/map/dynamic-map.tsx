@@ -1,9 +1,6 @@
 "use client";
 
-import { useQuery } from "@apollo/client";
-import { UserRecord } from "firebase-admin/auth";
 import { useAtom, useSetAtom } from "jotai";
-import { LatLngExpression, Map } from "leaflet";
 import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import * as React from "react";
@@ -17,8 +14,7 @@ import { RegionLayer } from "../layers/region";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { ProgressTracker } from "../progress-tracker";
 import { Menu } from "../sidebar/left-sidebar";
-import { Game } from "@/__generated__/graphql";
-import { GET_CURRENT_USER, GET_MAP_REGIONS } from "@/lib/graphql/constants";
+import { User, Map } from "@/__generated__/graphql";
 import { cn } from "@/lib/utils";
 import {
   userAtom,
@@ -28,84 +24,67 @@ import {
 } from "@/store";
 
 interface MapProps {
-  user: Pick<UserRecord, "email" | "displayName"> | null;
-  mapData: Game;
+  user: User | null;
+  data: Map;
 }
 
 const flatten: any = (ary: any[]) =>
   ary.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
 
-const DynamicMap = ({ user, mapData }: MapProps) => {
+const DynamicMap = ({ user, data }: MapProps) => {
   //#region Hooks
   const params = useParams<{ slug: string }>();
-  const [map, setMap] = React.useState<Map | null>(null);
+  const [map, setMap] = React.useState<L.Map | null>(null);
 
-  const { zoom, minZoom, maxZoom, center, maps } = mapData;
-  const currentMap = maps?.find((r) => r.slug === params.slug);
+  const { center, zoom, minZoom, maxZoom } = data;
 
   const [appUser, setAppUser] = useAtom(userAtom);
   const [mapConfig, setMapConfig] = useAtom(currentMapAtom);
   const setOpenSnackbar = useSetAtom(copySnackbarAtom);
   const setHiddenCategories = useSetAtom(hiddenCategoriesAtom);
 
-  const { data: userData } = useQuery(GET_CURRENT_USER, {
-    variables: { email: user?.email },
-  });
-  const { data: regionData } = useQuery(GET_MAP_REGIONS, {
-    variables: { slug: currentMap!.slug },
-  });
   //#endregion
 
   //#region Lifecycle Hooks
   React.useEffect(() => {
-    if (userData?.getUser && !appUser) {
+    if (user && !appUser) {
       setAppUser({
-        ...userData?.getUser,
+        ...user,
+        noteMarkers: user.noteMarkers ?? [],
+        foundLocations: user.foundLocations ?? [],
       });
     }
-  }, [userData, appUser, setAppUser]);
+  }, [user, appUser, setAppUser]);
 
   React.useEffect(() => {
-    if (!mapConfig && currentMap) {
+    if (!mapConfig) {
+      const groups = data.game?.groups ?? [];
       setMapConfig({
-        ...currentMap,
-        maxZoom,
-        groups: mapData.groups ?? [],
-        gameSlug: mapData.slug,
+        ...data,
+        groups,
+        gameSlug: data.game?.slug ?? "",
       });
       const hiddenCategories = flatten(
-        mapData.groups?.map((group) =>
+        groups.map((group) =>
           group.categories?.filter((cat) => cat.id && cat.defaultHidden)
         )
       );
       const ids = hiddenCategories.map(({ id }: any) => id);
       setHiddenCategories([...ids]);
     }
-  }, [
-    mapConfig,
-    currentMap,
-    mapData,
-    setMapConfig,
-    maxZoom,
-    setHiddenCategories,
-  ]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data, mapConfig]);
   //#endregion
 
   return (
-    <div className={cn("h-[calc(100vh-1rem)]", mapData.slug)}>
-      <Menu
-        maps={mapData.maps ?? []}
-        regions={regionData?.getRegionsByMap}
-        map={map}
-      />
+    <div className={cn("h-[calc(100vh-1rem)]", data.game?.slug)}>
+      <Menu map={map} />
       <RL.MapContainer
         ref={setMap}
-        preferCanvas={true}
-        renderer={L.canvas()}
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}
-        center={center as LatLngExpression}
+        center={center as L.LatLngExpression}
         attributionControl={false}
         zoomControl={false}
         scrollWheelZoom={false}
@@ -147,14 +126,14 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
         className="w-full h-full"
       >
         <RL.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${currentMap?.tilePath}/{z}/{y}/{x}.jpg`}
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${data?.tilePath}/{z}/{y}/{x}.jpg`}
         />
 
         <RL.ZoomControl position="bottomright" />
         <CopyLinkNotifier />
         <MarkerRenderer />
         <ProgressTracker />
-        {regionData?.getRegionsByMap?.map((sub: any) => (
+        {data.regions?.map((sub: any) => (
           <RegionLayer
             key={sub.title}
             positions={sub.coordinates}

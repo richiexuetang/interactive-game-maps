@@ -9,6 +9,10 @@ export const bmw = {
     {
       slug: "chapter-1",
       title: "Chapter 1: Black Cloud, Red Fire",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 12,
+      center: [0.60225040104451, -0.85462840803098],
       regions: [
         {
           title: "Ancient Guanyin Temple",
@@ -70,6 +74,10 @@ export const bmw = {
     {
       slug: "chapter-2",
       title: "Chapter 2: Yellow Sand, Desolate Dusk",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 12,
+      center: [0.46575866593176, -0.65013585128767],
       regions: [
         {
           title: "Crouching Tiger Temple",
@@ -144,6 +152,10 @@ export const bmw = {
     {
       slug: "chapter-3",
       title: "Chapter 3: White Snow, Ice Cold",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 10,
+      center: [0.35793504618354, -0.88140380067406],
       regions: [
         {
           title: "Bitter Lake",
@@ -204,6 +216,10 @@ export const bmw = {
     {
       slug: "chapter-4",
       title: "Chapter 4: Rosy Cheeks, Gray Hair",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 10,
+      center: [0.87946529559737, -0.75369829638404],
       regions: [
         {
           title: "Purple Cloud Mountain",
@@ -255,6 +271,10 @@ export const bmw = {
     {
       slug: "chapter-5",
       title: "Chapter 5: Golden Child, Crimson Blood",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 11,
+      center: [0.72762814678589, -0.549512313419],
       regions: [
         {
           title: "Bishui Cave",
@@ -305,6 +325,10 @@ export const bmw = {
     {
       slug: "chapter-6",
       title: "Chapter 6: Unfinished",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 10,
+      center: [0.75213112975959, -0.6985760821276],
       regions: [],
     },
   ],

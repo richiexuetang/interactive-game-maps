@@ -3,12 +3,13 @@ import Map from "@/components/map/map";
 
 import { getCurrentUser } from "@/lib/firebase/firebase-admin";
 import {
-  createAppUser,
-  fetchGameMapDetails,
+  createUser,
   getAppUser,
   getMetaData,
   getMapDetails,
 } from "@/lib/graphql/api";
+import { getClient } from "@/lib/graphql/apollo-client";
+import { GET_MAP_DATA } from "@/lib/graphql/constants";
 
 export async function generateMetadata({
   params,
@@ -64,25 +65,19 @@ export default async function MapPage({
 }: {
   params: { slug: string };
 }) {
-  const gameMap = await fetchGameMapDetails(params.slug);
+  const { data } = await getClient().query({
+    query: GET_MAP_DATA,
+    variables: { slug: params?.slug },
+  });
+
   const currentUser = await getCurrentUser();
 
-  const appUser = await getAppUser(currentUser?.email ?? "");
-  if (!appUser && currentUser?.email) {
-    const displayName = currentUser?.displayName;
-    await createAppUser({
-      email: currentUser?.email,
-      username: displayName,
-    });
+  let user = await getAppUser(currentUser?.email ?? "");
+
+  if (!user && currentUser?.email) {
+    const { displayName: username, email } = currentUser;
+    user = await createUser({ email, username });
   }
 
-  return (
-    <Map
-      mapData={gameMap}
-      user={{
-        email: currentUser?.email,
-        displayName: currentUser?.displayName,
-      }}
-    />
-  );
+  return <Map user={user} data={data.mapData} />;
 }

@@ -18,4 +18,10 @@ export class Region extends BaseModel {
 
   @Field(() => [Location])
   locations?: Location[] | null;
+
+  @Field(() => Float, { nullable: true })
+  centerX: number | null;
+
+  @Field(() => Float, { nullable: true })
+  centerY: number | null;
 }

@@ -51,6 +51,10 @@ Table Map {
   game Game [not null]
   regions Region [not null]
   NoteMarker NoteMarker [not null]
+  minZoom Int [not null, default: 9]
+  maxZoom Int [not null, default: 14]
+  zoom Int [not null, default: 10]
+  center Decimal[] [not null]
 }
 
 Table Region {
