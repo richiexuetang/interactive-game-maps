@@ -95,28 +95,25 @@ importers:
         version: 6.1.2(@emotion/cache@11.13.1)(@emotion/react@11.13.3(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(next@14.2.13(@babel/core@7.25.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@next/bundle-analyzer':
         specifier: ^14.2.14
-        version: 14.2.14(bufferutil@4.0.8)
+        version: 14.2.14
       '@pothos/core':
         specifier: ^4.2.0
         version: 4.2.0(graphql@16.7.1)
       '@pothos/plugin-prisma':
         specifier: ^4.2.1
-        version: 4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)(typescript@5.5.2)
+        version: 4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)(typescript@5.5.2)
       '@pothos/plugin-prisma-utils':
         specifier: ^1.2.0
-        version: 1.2.0(@pothos/core@4.2.0(graphql@16.7.1))(@pothos/plugin-prisma@4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)(typescript@5.5.2))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)
+        version: 1.2.0(@pothos/core@4.2.0(graphql@16.7.1))(@pothos/plugin-prisma@4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)(typescript@5.5.2))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)
       '@pothos/plugin-relay':
         specifier: ^4.2.1
         version: 4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(graphql@16.7.1)
       '@prisma/client':
         specifier: ^5.20.0
-        version: 5.20.0(prisma@5.20.0)
+        version: 5.20.0(prisma@5.2.0)
       '@vercel/analytics':
         specifier: ^1.3.1
         version: 1.3.1(next@14.2.13(@babel/core@7.25.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
-      '@vercel/postgres':
-        specifier: ^0.10.0
-        version: 0.10.0
       '@vercel/speed-insights':
         specifier: ^1.0.12
         version: 1.0.12(next@14.2.13(@babel/core@7.25.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
@@ -135,9 +132,6 @@ importers:
       graphql-yoga:
         specifier: ^5.7.0
         version: 5.7.0(graphql@16.7.1)
-      install:
-        specifier: ^0.13.0
-        version: 0.13.0
       jotai:
         specifier: ^2.9.3
         version: 2.10.0(@types/react@18.3.3)(react@18.3.1)
@@ -183,7 +177,7 @@ importers:
     devDependencies:
       '@graphql-codegen/cli':
         specifier: ^5.0.2
-        version: 5.0.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)(typescript@5.5.2)
+        version: 5.0.2(@types/node@20.14.8)(graphql@16.7.1)(typescript@5.5.2)
       '@graphql-typed-document-node/core':
         specifier: ^3.2.0
         version: 3.2.0(graphql@16.7.1)
@@ -224,8 +218,8 @@ importers:
         specifier: ^8
         version: 8.4.47
       prisma:
-        specifier: 5.20.0
-        version: 5.20.0
+        specifier: 5.2.0
+        version: 5.2.0
       prisma-dbml-generator:
         specifier: 0.11.0-dev.0
         version: 0.11.0-dev.0
@@ -1359,9 +1353,6 @@ packages:
       '@types/react':
         optional: true
 
-  '@neondatabase/serverless@0.9.5':
-    resolution: {integrity: sha512-siFas6gItqv6wD/pZnvdu34wEqgG3nSE6zWZdq5j2DEsa+VvX8i/5HXJOo06qrw5axPXn+lGCxeR+NLaSPIXug==}
-
   '@next/bundle-analyzer@14.2.14':
     resolution: {integrity: sha512-n5DZtp3sdKidoBZhY50/BAiqkLBj8YUR2oqR3hiEuV8B8+fZ05x59nBJnb6kPTMpV5ACC7hEXNRrRnfqJ4oSkQ==}
 
@@ -1534,23 +1525,17 @@ packages:
   '@prisma/engine-core@4.13.0':
     resolution: {integrity: sha512-D+jooGRXKAZcsBanhvFhqXMvNEiNaP+OaOvFOM/eKQQXM0FwtKc27l7mQFv4dd/zOufr5T+fJyrTTQhWyV8oFg==}
 
-  '@prisma/engines-version@5.20.0-12.06fc58a368dc7be9fbbbe894adf8d445d208c284':
-    resolution: {integrity: sha512-Lg8AS5lpi0auZe2Mn4gjuCg081UZf88k3cn0RCwHgR+6cyHHpttPZBElJTHf83ZGsRNAmVCZCfUGA57WB4u4JA==}
-
   '@prisma/engines@4.13.0':
     resolution: {integrity: sha512-HrniowHRZXHuGT9XRgoXEaP2gJLXM5RMoItaY2PkjvuZ+iHc0Zjbm/302MB8YsPdWozAPHHn+jpFEcEn71OgPw==}
 
   '@prisma/engines@5.0.0':
     resolution: {integrity: sha512-kyT/8fd0OpWmhAU5YnY7eP31brW1q1YrTGoblWrhQJDiN/1K+Z8S1kylcmtjqx5wsUGcP1HBWutayA/jtyt+sg==}
 
-  '@prisma/engines@5.20.0':
-    resolution: {integrity: sha512-DtqkP+hcZvPEbj8t8dK5df2b7d3B8GNauKqaddRRqQBBlgkbdhJkxhoJTrOowlS3vaRt2iMCkU0+CSNn0KhqAQ==}
+  '@prisma/engines@5.2.0':
+    resolution: {integrity: sha512-dT7FOLUCdZmq+AunLqB1Iz+ZH/IIS1Fz2THmKZQ6aFONrQD/BQ5ecJ7g2wGS2OgyUFf4OaLam6/bxmgdOBDqig==}
 
   '@prisma/fetch-engine@4.13.0':
     resolution: {integrity: sha512-khMMm3I8nMUgwd7DoM1wBFjMKn/Z5PZF27EMQGPtquM1nRt601blJbep0qodXR7oHioQolCK8gfbw5Hfdml1mg==}
-
-  '@prisma/fetch-engine@5.20.0':
-    resolution: {integrity: sha512-JVcaPXC940wOGpCOwuqQRTz6I9SaBK0c1BAyC1pcz9xBi+dzFgUu3G/p9GV1FhFs9OKpfSpIhQfUJE9y00zhqw==}
 
   '@prisma/generator-helper@4.13.0':
     resolution: {integrity: sha512-Zx9rtbsEIU/9DKnGRvmjLdyeyhzeeXNFp1alkRh1w//rQ5jTcobiay/jU4Qo+EQOs2bnWEfUeiBoOjfaysdLNg==}
@@ -1560,9 +1545,6 @@ packages:
 
   '@prisma/get-platform@4.13.0':
     resolution: {integrity: sha512-HWBgQNpRi1qEXj24w/qsWCpTW4vKP2/pdiYTyl2SSEVoK4o5izHUt0PQzNl5St5CGr4SDcSyi0C3fXINd46c6A==}
-
-  '@prisma/get-platform@5.20.0':
-    resolution: {integrity: sha512-8/+CehTZZNzJlvuryRgc77hZCWrUDYd/PmlZ7p2yNXtmf2Una4BWnTbak3us6WVdqoz5wmptk6IhsXdG2v5fmA==}
 
   '@prisma/internals@4.13.0':
     resolution: {integrity: sha512-TxdTQFJO0zMCx0Tgb6UZt3WsVt+etvtWx+LaSWf4Pk1ECGte5w+9iiuypwjiLortSn7qm6n5KVWTXFOnnZr4Ww==}
@@ -1835,9 +1817,6 @@ packages:
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
 
-  '@types/pg@8.11.6':
-    resolution: {integrity: sha512-/2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj+16Je5fUKv3lVdVzk/zn9TXOqf+avFCFIE0yQ==}
-
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
@@ -1957,10 +1936,6 @@ packages:
         optional: true
       react:
         optional: true
-
-  '@vercel/postgres@0.10.0':
-    resolution: {integrity: sha512-fSD23DxGND40IzSkXjcFcxr53t3Tiym59Is0jSYIFpG4/0f0KO9SGtcp1sXiebvPaGe7N/tU05cH4yt2S6/IPg==}
-    engines: {node: '>=18.14'}
 
   '@vercel/speed-insights@1.0.12':
     resolution: {integrity: sha512-ZGQ+a7bcfWJD2VYEp2R1LHvRAMyyaFBYytZXsfnbOMkeOvzGNVxUL7aVUvisIrTZjXTSsxG45DKX7yiw6nq2Jw==}
@@ -2351,10 +2326,6 @@ packages:
 
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
-
-  bufferutil@4.0.8:
-    resolution: {integrity: sha512-4T53u4PdgsXqKaIctwF8ifXlRTTmEPJ8iEPWFdGZvcf7sbwYo6FKFEX9eNNAnzFZ7EzJAQ3CJeOtCRA4rDp7Pw==}
-    engines: {node: '>=6.14.2'}
 
   busboy@1.6.0:
     resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
@@ -3553,10 +3524,6 @@ packages:
     resolution: {integrity: sha512-M1WuAmb7pn9zdFRtQYk26ZBoY043Sse0wVDdk4Bppr+JOXyQYybdtvK+l9wUibhtjdjvtoiNy8tk+EgsYIUqKg==}
     engines: {node: '>=12.0.0'}
 
-  install@0.13.0:
-    resolution: {integrity: sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==}
-    engines: {node: '>= 0.10'}
-
   internal-slot@1.0.7:
     resolution: {integrity: sha512-NGnrKwXzSms2qUUih/ILZ5JBqNTSa1+ZmP6flaIp6KmSElgE9qdndzS3cqjrDovwFdmwsGsLdeFgB6suw+1e9g==}
     engines: {node: '>= 0.4'}
@@ -4318,10 +4285,6 @@ packages:
     resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
     engines: {node: '>= 6.13.0'}
 
-  node-gyp-build@4.8.2:
-    resolution: {integrity: sha512-IRUxE4BVsHWXkV/SFOut4qTlagw2aM8T5/vnTsmrHJvVoKueJHRc/JaFND7QDDc61kLYUJ6qlZM3sqTSyx2dTw==}
-    hasBin: true
-
   node-int64@0.4.0:
     resolution: {integrity: sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==}
 
@@ -4409,9 +4372,6 @@ packages:
   object.values@1.2.0:
     resolution: {integrity: sha512-yBYjY9QX2hnRmZHAjG/f13MzmBzxzYgQhFrke06TTyKY5zSTEqkOeukBzIdVA3j3ulu8Qa3MbVFShV7T2RmGtQ==}
     engines: {node: '>= 0.4'}
-
-  obuf@1.1.2:
-    resolution: {integrity: sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==}
 
   on-finished@2.4.1:
     resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
@@ -4565,21 +4525,6 @@ packages:
     resolution: {integrity: sha512-U94a+eXHzct7vAd19GH3UQ2dH4Satbng0MyYTMaQatL0pvYYL5CTPR25HBhKtecl+4bfu1/i3vC6k0hydO5Vcw==}
     engines: {node: '>=14.16'}
 
-  pg-int8@1.0.1:
-    resolution: {integrity: sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==}
-    engines: {node: '>=4.0.0'}
-
-  pg-numeric@1.0.2:
-    resolution: {integrity: sha512-BM/Thnrw5jm2kKLE5uJkXqqExRUY/toLHda65XgFTBTFYZyopbKjBe29Ii3RbkvlsMoFwD+tHeGaCjjv0gHlyw==}
-    engines: {node: '>=4'}
-
-  pg-protocol@1.7.0:
-    resolution: {integrity: sha512-hTK/mE36i8fDDhgDFjy6xNOG+LCorxLG3WO17tku+ij6sVHXh1jQUJ8hYAnRhNla4QVD2H8er/FOjc/+EgC6yQ==}
-
-  pg-types@4.0.2:
-    resolution: {integrity: sha512-cRL3JpS3lKMGsKaWndugWQoLOCoP+Cic8oseVcbr0qhPzYD5DWXK+RZ9LY9wxRf7RQia4SCwQlXk0q6FCPrVng==}
-    engines: {node: '>=10'}
-
   picocolors@1.1.0:
     resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
@@ -4648,25 +4593,6 @@ packages:
     resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postgres-array@3.0.2:
-    resolution: {integrity: sha512-6faShkdFugNQCLwucjPcY5ARoW1SlbnrZjmGl0IrrqewpvxvhSLHimCVzqeuULCbG0fQv7Dtk1yDbG3xv7Veog==}
-    engines: {node: '>=12'}
-
-  postgres-bytea@3.0.0:
-    resolution: {integrity: sha512-CNd4jim9RFPkObHSjVHlVrxoVQXz7quwNFpz7RY1okNNme49+sVyiTvTRobiLV548Hx/hb1BG+iE7h9493WzFw==}
-    engines: {node: '>= 6'}
-
-  postgres-date@2.1.0:
-    resolution: {integrity: sha512-K7Juri8gtgXVcDfZttFKVmhglp7epKb1K4pgrkLxehjqkrgPhfG6OO8LHLkfaqkbpjNRnra018XwAr1yQFWGcA==}
-    engines: {node: '>=12'}
-
-  postgres-interval@3.0.0:
-    resolution: {integrity: sha512-BSNDnbyZCXSxgA+1f5UU2GmwhoI0aU5yMxRGO8CdFEcY2BQF9xm/7MqKnYoM1nJDk8nONNWDk9WeSmePFhQdlw==}
-    engines: {node: '>=12'}
-
-  postgres-range@1.1.4:
-    resolution: {integrity: sha512-i/hbxIE9803Alj/6ytL7UHQxRvZkI9O4Sy+J3HGc4F4oo/2eQAjTSNJ0bfxyse3bH0nuVesCk+3IRLaMtG3H6w==}
-
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -4689,8 +4615,8 @@ packages:
     engines: {node: '>=16.13'}
     hasBin: true
 
-  prisma@5.20.0:
-    resolution: {integrity: sha512-6obb3ucKgAnsGS9x9gLOe8qa51XxvJ3vLQtmyf52CTey1Qcez3A6W6ROH5HIz5Q5bW+0VpmZb8WBohieMFGpig==}
+  prisma@5.2.0:
+    resolution: {integrity: sha512-FfFlpjVCkZwrqxDnP4smlNYSH1so+CbfjgdpioFzGGqlQAEm6VHAYSzV7jJgC3ebtY9dNOhDMS2+4/1DDSM7bQ==}
     engines: {node: '>=16.13'}
     hasBin: true
 
@@ -6890,7 +6816,7 @@ snapshots:
       graphql: 16.7.1
       tslib: 2.6.3
 
-  '@graphql-codegen/cli@5.0.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)(typescript@5.5.2)':
+  '@graphql-codegen/cli@5.0.2(@types/node@20.14.8)(graphql@16.7.1)(typescript@5.5.2)':
     dependencies:
       '@babel/generator': 7.25.7
       '@babel/template': 7.25.7
@@ -6905,8 +6831,8 @@ snapshots:
       '@graphql-tools/graphql-file-loader': 8.0.1(graphql@16.7.1)
       '@graphql-tools/json-file-loader': 8.0.1(graphql@16.7.1)
       '@graphql-tools/load': 8.0.2(graphql@16.7.1)
-      '@graphql-tools/prisma-loader': 8.0.4(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)
-      '@graphql-tools/url-loader': 8.0.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)
+      '@graphql-tools/prisma-loader': 8.0.4(@types/node@20.14.8)(graphql@16.7.1)
+      '@graphql-tools/url-loader': 8.0.2(@types/node@20.14.8)(graphql@16.7.1)
       '@graphql-tools/utils': 10.5.4(graphql@16.7.1)
       '@whatwg-node/fetch': 0.8.8
       chalk: 4.1.2
@@ -6914,7 +6840,7 @@ snapshots:
       debounce: 1.2.1
       detect-indent: 6.1.0
       graphql: 16.7.1
-      graphql-config: 5.1.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)(typescript@5.5.2)
+      graphql-config: 5.1.2(@types/node@20.14.8)(graphql@16.7.1)(typescript@5.5.2)
       inquirer: 8.2.6
       is-glob: 4.0.3
       jiti: 1.21.6
@@ -7094,15 +7020,15 @@ snapshots:
       lodash.sortby: 4.7.0
       tslib: 2.7.0
 
-  '@graphql-tools/executor-graphql-ws@1.3.0(bufferutil@4.0.8)(graphql@16.7.1)':
+  '@graphql-tools/executor-graphql-ws@1.3.0(graphql@16.7.1)':
     dependencies:
       '@graphql-tools/utils': 10.5.4(graphql@16.7.1)
       '@types/ws': 8.5.12
       graphql: 16.7.1
       graphql-ws: 5.16.0(graphql@16.7.1)
-      isomorphic-ws: 5.0.0(ws@8.18.0(bufferutil@4.0.8))
+      isomorphic-ws: 5.0.0(ws@8.18.0)
       tslib: 2.7.0
-      ws: 8.18.0(bufferutil@4.0.8)
+      ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -7120,14 +7046,14 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@graphql-tools/executor-legacy-ws@1.1.0(bufferutil@4.0.8)(graphql@16.7.1)':
+  '@graphql-tools/executor-legacy-ws@1.1.0(graphql@16.7.1)':
     dependencies:
       '@graphql-tools/utils': 10.5.4(graphql@16.7.1)
       '@types/ws': 8.5.12
       graphql: 16.7.1
-      isomorphic-ws: 5.0.0(ws@8.18.0(bufferutil@4.0.8))
+      isomorphic-ws: 5.0.0(ws@8.18.0)
       tslib: 2.7.0
-      ws: 8.18.0(bufferutil@4.0.8)
+      ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -7230,9 +7156,9 @@ snapshots:
       graphql: 16.7.1
       tslib: 2.7.0
 
-  '@graphql-tools/prisma-loader@8.0.4(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)':
+  '@graphql-tools/prisma-loader@8.0.4(@types/node@20.14.8)(graphql@16.7.1)':
     dependencies:
-      '@graphql-tools/url-loader': 8.0.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)
+      '@graphql-tools/url-loader': 8.0.2(@types/node@20.14.8)(graphql@16.7.1)
       '@graphql-tools/utils': 10.5.4(graphql@16.7.1)
       '@types/js-yaml': 4.0.9
       '@whatwg-node/fetch': 0.9.21
@@ -7282,22 +7208,22 @@ snapshots:
       tslib: 2.7.0
       value-or-promise: 1.0.12
 
-  '@graphql-tools/url-loader@8.0.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)':
+  '@graphql-tools/url-loader@8.0.2(@types/node@20.14.8)(graphql@16.7.1)':
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
       '@graphql-tools/delegate': 10.0.21(graphql@16.7.1)
-      '@graphql-tools/executor-graphql-ws': 1.3.0(bufferutil@4.0.8)(graphql@16.7.1)
+      '@graphql-tools/executor-graphql-ws': 1.3.0(graphql@16.7.1)
       '@graphql-tools/executor-http': 1.1.6(@types/node@20.14.8)(graphql@16.7.1)
-      '@graphql-tools/executor-legacy-ws': 1.1.0(bufferutil@4.0.8)(graphql@16.7.1)
+      '@graphql-tools/executor-legacy-ws': 1.1.0(graphql@16.7.1)
       '@graphql-tools/utils': 10.5.4(graphql@16.7.1)
       '@graphql-tools/wrap': 10.0.5(graphql@16.7.1)
       '@types/ws': 8.5.12
       '@whatwg-node/fetch': 0.9.21
       graphql: 16.7.1
-      isomorphic-ws: 5.0.0(ws@8.18.0(bufferutil@4.0.8))
+      isomorphic-ws: 5.0.0(ws@8.18.0)
       tslib: 2.7.0
       value-or-promise: 1.0.12
-      ws: 8.18.0(bufferutil@4.0.8)
+      ws: 8.18.0
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
@@ -7523,13 +7449,9 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.3
 
-  '@neondatabase/serverless@0.9.5':
+  '@next/bundle-analyzer@14.2.14':
     dependencies:
-      '@types/pg': 8.11.6
-
-  '@next/bundle-analyzer@14.2.14(bufferutil@4.0.8)':
-    dependencies:
-      webpack-bundle-analyzer: 4.10.1(bufferutil@4.0.8)
+      webpack-bundle-analyzer: 4.10.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -7632,18 +7554,18 @@ snapshots:
     dependencies:
       graphql: 16.7.1
 
-  '@pothos/plugin-prisma-utils@1.2.0(@pothos/core@4.2.0(graphql@16.7.1))(@pothos/plugin-prisma@4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)(typescript@5.5.2))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)':
+  '@pothos/plugin-prisma-utils@1.2.0(@pothos/core@4.2.0(graphql@16.7.1))(@pothos/plugin-prisma@4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)(typescript@5.5.2))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)':
     dependencies:
       '@pothos/core': 4.2.0(graphql@16.7.1)
-      '@pothos/plugin-prisma': 4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)(typescript@5.5.2)
-      '@prisma/client': 5.20.0(prisma@5.20.0)
+      '@pothos/plugin-prisma': 4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)(typescript@5.5.2)
+      '@prisma/client': 5.20.0(prisma@5.2.0)
       '@prisma/generator-helper': 5.20.0
       graphql: 16.7.1
 
-  '@pothos/plugin-prisma@4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.20.0))(graphql@16.7.1)(typescript@5.5.2)':
+  '@pothos/plugin-prisma@4.2.1(@pothos/core@4.2.0(graphql@16.7.1))(@prisma/client@5.20.0(prisma@5.2.0))(graphql@16.7.1)(typescript@5.5.2)':
     dependencies:
       '@pothos/core': 4.2.0(graphql@16.7.1)
-      '@prisma/client': 5.20.0(prisma@5.20.0)
+      '@prisma/client': 5.20.0(prisma@5.2.0)
       '@prisma/generator-helper': 5.20.0
       graphql: 16.7.1
       typescript: 5.5.2
@@ -7657,9 +7579,9 @@ snapshots:
     optionalDependencies:
       prisma: 5.0.0
 
-  '@prisma/client@5.20.0(prisma@5.20.0)':
+  '@prisma/client@5.20.0(prisma@5.2.0)':
     optionalDependencies:
-      prisma: 5.20.0
+      prisma: 5.2.0
 
   '@prisma/debug@4.13.0':
     dependencies:
@@ -7691,18 +7613,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/engines-version@5.20.0-12.06fc58a368dc7be9fbbbe894adf8d445d208c284': {}
-
   '@prisma/engines@4.13.0': {}
 
   '@prisma/engines@5.0.0': {}
 
-  '@prisma/engines@5.20.0':
-    dependencies:
-      '@prisma/debug': 5.20.0
-      '@prisma/engines-version': 5.20.0-12.06fc58a368dc7be9fbbbe894adf8d445d208c284
-      '@prisma/fetch-engine': 5.20.0
-      '@prisma/get-platform': 5.20.0
+  '@prisma/engines@5.2.0': {}
 
   '@prisma/fetch-engine@4.13.0':
     dependencies:
@@ -7726,12 +7641,6 @@ snapshots:
     transitivePeerDependencies:
       - encoding
       - supports-color
-
-  '@prisma/fetch-engine@5.20.0':
-    dependencies:
-      '@prisma/debug': 5.20.0
-      '@prisma/engines-version': 5.20.0-12.06fc58a368dc7be9fbbbe894adf8d445d208c284
-      '@prisma/get-platform': 5.20.0
 
   '@prisma/generator-helper@4.13.0':
     dependencies:
@@ -7760,10 +7669,6 @@ snapshots:
       ts-pattern: 4.2.2
     transitivePeerDependencies:
       - supports-color
-
-  '@prisma/get-platform@5.20.0':
-    dependencies:
-      '@prisma/debug': 5.20.0
 
   '@prisma/internals@4.13.0':
     dependencies:
@@ -8055,12 +7960,6 @@ snapshots:
 
   '@types/parse-json@4.0.2': {}
 
-  '@types/pg@8.11.6':
-    dependencies:
-      '@types/node': 20.14.8
-      pg-protocol: 1.7.0
-      pg-types: 4.0.2
-
   '@types/prop-types@15.7.13': {}
 
   '@types/qs@6.9.16': {}
@@ -8210,14 +8109,6 @@ snapshots:
     optionalDependencies:
       next: 14.2.13(@babel/core@7.25.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
-
-  '@vercel/postgres@0.10.0':
-    dependencies:
-      '@neondatabase/serverless': 0.9.5
-      bufferutil: 4.0.8
-      ws: 8.18.0(bufferutil@4.0.8)
-    transitivePeerDependencies:
-      - utf-8-validate
 
   '@vercel/speed-insights@1.0.12(next@14.2.13(@babel/core@7.25.7)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     optionalDependencies:
@@ -8734,10 +8625,6 @@ snapshots:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-
-  bufferutil@4.0.8:
-    dependencies:
-      node-gyp-build: 4.8.2
 
   busboy@1.6.0:
     dependencies:
@@ -10068,13 +9955,13 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  graphql-config@5.1.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)(typescript@5.5.2):
+  graphql-config@5.1.2(@types/node@20.14.8)(graphql@16.7.1)(typescript@5.5.2):
     dependencies:
       '@graphql-tools/graphql-file-loader': 8.0.1(graphql@16.7.1)
       '@graphql-tools/json-file-loader': 8.0.1(graphql@16.7.1)
       '@graphql-tools/load': 8.0.2(graphql@16.7.1)
       '@graphql-tools/merge': 9.0.7(graphql@16.7.1)
-      '@graphql-tools/url-loader': 8.0.2(@types/node@20.14.8)(bufferutil@4.0.8)(graphql@16.7.1)
+      '@graphql-tools/url-loader': 8.0.2(@types/node@20.14.8)(graphql@16.7.1)
       '@graphql-tools/utils': 10.5.4(graphql@16.7.1)
       cosmiconfig: 9.0.0(typescript@5.5.2)
       graphql: 16.7.1
@@ -10311,8 +10198,6 @@ snapshots:
       through: 2.3.8
       wrap-ansi: 6.2.0
 
-  install@0.13.0: {}
-
   internal-slot@1.0.7:
     dependencies:
       es-errors: 1.3.0
@@ -10485,9 +10370,9 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isomorphic-ws@5.0.0(ws@8.18.0(bufferutil@4.0.8)):
+  isomorphic-ws@5.0.0(ws@8.18.0):
     dependencies:
-      ws: 8.18.0(bufferutil@4.0.8)
+      ws: 8.18.0
 
   iterator.prototype@1.1.2:
     dependencies:
@@ -11090,8 +10975,6 @@ snapshots:
 
   node-forge@1.3.1: {}
 
-  node-gyp-build@4.8.2: {}
-
   node-int64@0.4.0: {}
 
   node-releases@2.0.18: {}
@@ -11180,8 +11063,6 @@ snapshots:
       call-bind: 1.0.7
       define-properties: 1.2.1
       es-object-atoms: 1.0.0
-
-  obuf@1.1.2: {}
 
   on-finished@2.4.1:
     dependencies:
@@ -11336,22 +11217,6 @@ snapshots:
 
   peek-readable@5.2.0: {}
 
-  pg-int8@1.0.1: {}
-
-  pg-numeric@1.0.2: {}
-
-  pg-protocol@1.7.0: {}
-
-  pg-types@4.0.2:
-    dependencies:
-      pg-int8: 1.0.1
-      pg-numeric: 1.0.2
-      postgres-array: 3.0.2
-      postgres-bytea: 3.0.0
-      postgres-date: 2.1.0
-      postgres-interval: 3.0.0
-      postgres-range: 1.1.4
-
   picocolors@1.1.0: {}
 
   picomatch@2.3.1: {}
@@ -11410,18 +11275,6 @@ snapshots:
       picocolors: 1.1.0
       source-map-js: 1.2.1
 
-  postgres-array@3.0.2: {}
-
-  postgres-bytea@3.0.0:
-    dependencies:
-      obuf: 1.1.2
-
-  postgres-date@2.1.0: {}
-
-  postgres-interval@3.0.0: {}
-
-  postgres-range@1.1.4: {}
-
   prelude-ls@1.2.1: {}
 
   prettier-linter-helpers@1.0.0:
@@ -11442,11 +11295,9 @@ snapshots:
     dependencies:
       '@prisma/engines': 5.0.0
 
-  prisma@5.20.0:
+  prisma@5.2.0:
     dependencies:
-      '@prisma/engines': 5.20.0
-    optionalDependencies:
-      fsevents: 2.3.3
+      '@prisma/engines': 5.2.0
 
   process-nextick-args@2.0.1: {}
 
@@ -12561,7 +12412,7 @@ snapshots:
 
   webidl-conversions@3.0.1: {}
 
-  webpack-bundle-analyzer@4.10.1(bufferutil@4.0.8):
+  webpack-bundle-analyzer@4.10.1:
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       acorn: 8.12.1
@@ -12575,7 +12426,7 @@ snapshots:
       opener: 1.5.2
       picocolors: 1.1.0
       sirv: 2.0.4
-      ws: 7.5.10(bufferutil@4.0.8)
+      ws: 7.5.10
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -12697,13 +12548,9 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@7.5.10(bufferutil@4.0.8):
-    optionalDependencies:
-      bufferutil: 4.0.8
+  ws@7.5.10: {}
 
-  ws@8.18.0(bufferutil@4.0.8):
-    optionalDependencies:
-      bufferutil: 4.0.8
+  ws@8.18.0: {}
 
   xml2js@0.6.2:
     dependencies:

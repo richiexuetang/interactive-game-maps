@@ -43,10 +43,10 @@ const Map = builder.prismaObject("Map", {
     tilePath: t.exposeString("tilePath"),
     order: t.exposeInt("order"),
     gameSlug: t.exposeString("gameSlug"),
-    thumbnailUrl: t.exposeString("thumbnailUrl", { nullable: true }),
+    thumbnailUrl: t.exposeString("thumbnailUrl"),
     game: t.relation("game"),
-    locations: t.relation("locations", { nullable: true }),
-    regions: t.relation("regions", { nullable: true }),
+    locations: t.relation("locations"),
+    regions: t.relation("regions"),
   }),
 });
 
@@ -66,7 +66,7 @@ const Category = builder.prismaObject("Category", {
     id: t.exposeInt("id"),
     title: t.exposeString("title"),
     icon: t.exposeString("icon"),
-    info: t.exposeString("info", { nullable: true }),
+    info: t.exposeString("info"),
     isChecklist: t.exposeBoolean("isChecklist"),
     defaultHidden: t.exposeBoolean("defaultHidden"),
     group: t.relation("group"),
@@ -88,14 +88,10 @@ const Location = builder.prismaObject("Location", {
     category: t.relation("category"),
     map: t.relation("map"),
     mapSlug: t.exposeString("mapSlug"),
-    media: t.relation("media", { nullable: true }),
+    media: t.relation("media"),
     categoryId: t.exposeInt("categoryId"),
     // category: t.relation("category"),
-    description: t.field({
-      type: "String",
-      nullable: true,
-      resolve: () => null,
-    }),
+    description: t.exposeString("description"),
   }),
 });
 
@@ -123,7 +119,7 @@ const User = builder.prismaObject("User", {
   fields: (t) => ({
     id: t.exposeID("id"),
     email: t.exposeString("email"),
-    username: t.exposeString("username", { nullable: true }),
+    username: t.exposeString("username"),
     hideFound: t.exposeBoolean("hideFound"),
     noteMarkers: t.relation("noteMarkers"),
     foundLocations: t.field({
@@ -264,7 +260,6 @@ builder.mutationType({
       resolve: async (_root, args, context, info) => {
         const existing = await prisma.user.findUnique({
           where: { email: args.email },
-          include: { noteMarkers: true },
         });
 
         if (existing) {

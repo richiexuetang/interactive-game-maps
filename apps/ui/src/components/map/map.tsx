@@ -21,6 +21,7 @@ const client = new ApolloClient({
 });
 
 const RitcherMap = ({ user, mapData }: MapProps) => {
+  console.log(user, mapData);
   const Map = useMemo(
     () =>
       dynamic(() => import("./dynamic-map"), {

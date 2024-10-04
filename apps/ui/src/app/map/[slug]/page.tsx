@@ -77,6 +77,11 @@ export default async function MapPage({
   const gameMap = await fetchGameMapDetails(params.slug);
   const currentUser = await getCurrentUser();
 
+  // const appUser = await getAppUser(currentUser?.email ?? "");
+  // if (!appUser && currentUser?.email) {
+  //   const displayName = currentUser?.displayName;
+
+  // }
   let user = null;
   if (currentUser?.email) {
     user = await createAppUser({
