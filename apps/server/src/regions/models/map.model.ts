@@ -12,12 +12,6 @@ export class Map extends BaseModel {
   @Field()
   title: string;
 
-  @Field(() => String, { nullable: true })
-  thumbnailUrl?: string | null;
-
-  @Field()
-  tilePath: string;
-
   @Field()
   gameSlug: string;
 

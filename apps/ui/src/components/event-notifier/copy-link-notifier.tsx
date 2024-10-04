@@ -4,7 +4,7 @@ import { useAtom } from "jotai";
 import { useParams } from "next/navigation";
 import { SyntheticEvent } from "react";
 import { useMapEvents } from "react-leaflet";
-import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard";
+import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { copySnackbarAtom } from "@/store";
 
 /**
@@ -17,7 +17,7 @@ export const CopyLinkNotifier = () => {
   const [openSnackbar, setOpenSnackbar] = useAtom(copySnackbarAtom);
   const params = useParams();
 
-  const [text, copy] = useCopyToClipboard();
+  const copy = useClipboardCopyFn();
 
   const mapEvents = useMapEvents({
     contextmenu: () => {

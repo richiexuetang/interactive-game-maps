@@ -31,10 +31,6 @@ Table Game {
   id Int [pk, increment]
   slug String [unique, not null]
   title String [not null]
-  minZoom Int [not null]
-  maxZoom Int [not null]
-  zoom Int [not null]
-  center Decimal[] [not null]
   groups Group [not null]
   maps Map [not null]
 }
@@ -43,8 +39,6 @@ Table Map {
   id Int [pk, increment]
   slug String [unique, not null]
   title String [not null]
-  thumbnailUrl String
-  tilePath String [not null]
   gameSlug String [not null]
   order Int [not null, default: 1]
   locations Location [not null]

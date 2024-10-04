@@ -29,7 +29,7 @@ export default async function Page() {
       <Grid container spacing={3} sx={{ m: 5 }}>
         {data?.games?.map(({ title, slug }: Game) => (
           <Grid key={slug} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
-            <Link href={`/region/${slug}`}>
+            <Link href={`/game/${slug}`}>
               <Card>
                 <CardActionArea>
                   <CardMedia

@@ -39,33 +39,27 @@ model NoteMarker {
 }
 
 model Game {
-  id      Int       @id @default(autoincrement())
-  slug    String    @unique
-  title   String
-  minZoom Int
-  maxZoom Int
-  zoom    Int
-  center  Decimal[]
-  groups  Group[]
-  maps    Map[]
+  id     Int     @id @default(autoincrement())
+  slug   String  @unique
+  title  String
+  groups Group[]
+  maps   Map[]
 }
 
 model Map {
-  id           Int          @id @default(autoincrement())
-  slug         String       @unique
-  title        String
-  thumbnailUrl String?
-  tilePath     String
-  gameSlug     String
-  order        Int          @default(1)
-  locations    Location[]
-  game         Game         @relation(fields: [gameSlug], references: [slug])
-  regions      Region[]
-  NoteMarker   NoteMarker[]
-  minZoom      Int          @default(9)
-  maxZoom      Int          @default(14)
-  zoom         Int          @default(10)
-  center       Decimal[]    @default([0, 0])
+  id         Int          @id @default(autoincrement())
+  slug       String       @unique
+  title      String
+  gameSlug   String
+  order      Int          @default(1)
+  locations  Location[]
+  game       Game         @relation(fields: [gameSlug], references: [slug])
+  regions    Region[]
+  NoteMarker NoteMarker[]
+  minZoom    Int          @default(9)
+  maxZoom    Int          @default(14)
+  zoom       Int          @default(10)
+  center     Decimal[]    @default([0, 0])
 }
 
 model Region {

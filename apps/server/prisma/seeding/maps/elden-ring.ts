@@ -1,10 +1,6 @@
 export const eldenRing = {
   slug: "elden-ring",
   title: "Elden Ring",
-  zoom: 13,
-  minZoom: 8,
-  maxZoom: 16,
-  center: [0.65676201402282, -0.76234815932221],
   maps: [
     {
       slug: "the-lands-between",

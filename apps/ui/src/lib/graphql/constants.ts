@@ -61,11 +61,11 @@ mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
 export const GET_MAP_DATA = gql(`
 query MapData($slug: String!) {
   mapData(slug: $slug) {
-    tilePath
     center
     maxZoom
     minZoom
     zoom
+    slug
     locations {
       categoryId
           category {
@@ -136,7 +136,6 @@ query GetGames($slug: String!) {
   game(slug: $slug) {
     slug
     title
-    description
   }
 }`);
 
@@ -151,13 +150,9 @@ export const FETCH_MAP_DETAILS = gql`
 
 export const FETCH_GAME_MAP_DETAILS = gql`
   query FetchGameByMap($slug: String!) {
-    fetchGameByMap(slug: $slug) {
+    game(slug: $slug) {
       title
       slug
-      minZoom
-      maxZoom
-      zoom
-      center
       groups {
         id
         title
@@ -171,10 +166,13 @@ export const FETCH_GAME_MAP_DETAILS = gql`
         }
       }
       maps {
-        tilePath
         slug
         order
         title
+        minZoom
+        maxZoom
+        zoom
+        center
         locations {
           categoryId
           category {

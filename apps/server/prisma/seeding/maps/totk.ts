@@ -1,14 +1,14 @@
 export const totk = {
   slug: "zelda-tears-of-the-kingdom",
   title: "Zelda: Tears of the Kingdom",
-  minZoom: 9,
-  maxZoom: 17,
-  zoom: 10,
-  center: [0.70760348036569, -0.71764231663026],
   maps: [
     {
       slug: "hyrule",
       title: "Hyrule",
+      minZoom: 9,
+      maxZoom: 17,
+      zoom: 10,
+      center: [0.70760348036569, -0.71764231663026],
       regions: [
         {
           title: "Akkala Highlands",

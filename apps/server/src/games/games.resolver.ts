@@ -17,6 +17,10 @@ export class GamesResolver {
   async game(@Args("slug") slug: string) {
     return this.prisma.game.findUnique({
       where: { slug },
+      include: {
+        maps: true,
+        groups: { include: { categories: { include: { locations: true } } } },
+      },
     });
   }
 

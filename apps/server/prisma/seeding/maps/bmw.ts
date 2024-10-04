@@ -1,10 +1,6 @@
 export const bmw = {
   slug: "black-myth-wukong",
   title: "Black Myth: Wukong",
-  minZoom: 9,
-  maxZoom: 14,
-  zoom: 10,
-  center: [0.60225040104451, -0.8546284080309799],
   maps: [
     {
       slug: "chapter-1",

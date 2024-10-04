@@ -125,7 +125,7 @@ const DynamicMap = ({ user, data }: MapProps) => {
         className="w-full h-full"
       >
         <RL.TileLayer
-          url={`${process.env.NEXT_PUBLIC_TILES_URL}${data?.tilePath}/{z}/{y}/{x}.jpg`}
+          url={`${process.env.NEXT_PUBLIC_TILES_URL}${data.game?.slug}/${data.slug}/{z}/{y}/{x}.jpg`}
         />
 
         <RL.ZoomControl position="bottomright" />

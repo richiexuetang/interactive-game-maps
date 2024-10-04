@@ -37,8 +37,7 @@ async function seedGame(game: any) {
     await prisma.map.create({
       data: {
         ...mapData,
-        thumbnailUrl: `images/games/${gameSlug}/${mapData.slug}.png`,
-        tilePath: `${gameSlug}/${mapData.slug}`,
+        // tilePath: `${gameSlug}/${mapData.slug}`,
         gameSlug,
         order: i + 1,
       },

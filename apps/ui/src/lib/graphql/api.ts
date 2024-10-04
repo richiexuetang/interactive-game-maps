@@ -113,7 +113,6 @@ export async function getMapsByGame(slug: string) {
         findMapsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {
           gameSlug
           slug
-          thumbnailUrl
           title
         }
       }

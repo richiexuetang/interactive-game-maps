@@ -11,21 +11,6 @@ export class Game extends BaseModel {
   @Field()
   title: string;
 
-  @Field()
-  minZoom: number;
-
-  @Field()
-  maxZoom: number;
-
-  @Field()
-  zoom: number;
-
-  @Field(() => [Number])
-  center: number[];
-
-  @Field(() => String, { nullable: true })
-  description: string | null;
-
   @Field(() => [Map], { nullable: true })
   maps?: Map[] | null;
 

@@ -13,9 +13,9 @@ import {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: { mapSlug: string };
 }): Promise<Metadata> {
-  const region = await getMapDetails(params.slug);
+  const region = await getMapDetails(params.mapSlug);
   const game = await getMetaData(region.gameSlug);
 
   const { title, description } = game;
@@ -49,12 +49,12 @@ export async function generateMetadata({
             `images/games/${region.gameSlug}/favicon-32x32.png`,
           url:
             process.env.CDN_BASE_URL +
-            `images/games/${params.slug}/favicon-32x32.png`,
+            `images/games/${params.mapSlug}/favicon-32x32.png`,
         },
       ],
       apple:
         process.env.CDN_BASE_URL +
-        `images/games/${params.slug}/apple-touch-icon.png`,
+        `images/games/${params.mapSlug}/apple-touch-icon.png`,
     },
   };
 }
@@ -62,9 +62,9 @@ export async function generateMetadata({
 export default async function MapPage({
   params,
 }: {
-  params: { slug: string };
+  params: { mapSlug: string };
 }) {
-  const mapData = await fetchGameMapDetails(params?.slug);
+  const mapData = await fetchGameMapDetails(params?.mapSlug);
 
   const currentUser = await getCurrentUser();
 
