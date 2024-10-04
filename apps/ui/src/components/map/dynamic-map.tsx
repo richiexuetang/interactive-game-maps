@@ -47,9 +47,6 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
   const setOpenSnackbar = useSetAtom(copySnackbarAtom);
   const setHiddenCategories = useSetAtom(hiddenCategoriesAtom);
 
-  const { data: userData } = useQuery(GET_CURRENT_USER, {
-    variables: { email: user?.email },
-  });
   const { data: regionData } = useQuery(
     gql(
       `
@@ -69,12 +66,12 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
 
   //#region Lifecycle Hooks
   React.useEffect(() => {
-    if (userData?.user && !appUser) {
+    if (user && !appUser) {
       setAppUser({
-        ...userData?.user,
+        ...user,
       });
     }
-  }, [userData, appUser, setAppUser]);
+  }, [user, appUser, setAppUser]);
 
   React.useEffect(() => {
     if (!mapConfig && currentMap) {

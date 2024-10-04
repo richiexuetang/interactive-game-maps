@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === "development") {
 
 function makeClient() {
   const httpLink = new HttpLink({
-    uri: "/api/graphql",
+    uri: `${process.env.NEXT_PUBLIC_APP_BASE_URL}/api/graphql`,
   });
 
   return new ApolloClient({

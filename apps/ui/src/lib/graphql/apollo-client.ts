@@ -5,8 +5,6 @@ import {
   InMemoryCache,
 } from "@apollo/experimental-nextjs-app-support";
 
-export const dynamic = "force-dynamic"; // static by default, unless reading the request
-
 export const { getClient, query, PreloadQuery } = registerApolloClient(() => {
   return new ApolloClient({
     cache: new InMemoryCache({}),
