@@ -82,7 +82,6 @@ type Location {
   map: Map!
   mapSlug: String!
   media: [Media!]
-  regionSlug: String
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -182,7 +181,6 @@ type Region {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   id: Float!
-  locations: [Location!]!
   mapSlug: String!
   slug: String!
   title: String!

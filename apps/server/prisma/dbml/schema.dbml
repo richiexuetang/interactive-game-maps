@@ -60,7 +60,6 @@ Table Map {
 Table Region {
   id Int [pk, increment]
   title String [not null]
-  locations Location [not null]
   mapSlug String [not null]
   map Map [not null]
   centerX Decimal
@@ -99,8 +98,6 @@ Table Location {
   map Map [not null]
   mapSlug String [not null]
   media Media [not null]
-  region Region
-  regionId Int
 }
 
 Table Media {
@@ -126,7 +123,5 @@ Ref: Category.groupId > Group.id
 Ref: Location.categoryId > Category.id
 
 Ref: Location.mapSlug > Map.slug
-
-Ref: Location.regionId > Region.id
 
 Ref: Media.locationId > Location.id

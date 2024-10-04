@@ -1,12 +1,10 @@
 "use client";
+import ZapIcon from "@mui/icons-material/ElectricBolt";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
-import { ZapIcon } from "./icons/zap-icon";
 
 export const MainNav = () => {
   return (
@@ -31,17 +29,6 @@ export const MainNav = () => {
           >
             Ritcher Map
           </Typography>
-
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-            <IconButton
-              size="large"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              color="inherit"
-            >
-              <ZapIcon />
-            </IconButton>
-          </Box>
         </Toolbar>
       </Container>
     </AppBar>

@@ -19,6 +19,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-side_quest:before {
+    content: "\E90B";
+    color: #fff;
+}
+
 .icon-whetblade:before {
     content: "\e900";
     color: #fff;
@@ -196,7 +201,7 @@
 }
 
 .icon-portal:before {
-    content: "\e923";
+    content: "\E923";
     color: #fff;
 }
 
@@ -474,22 +479,22 @@
 }
 
 .icon-yaoguai_king:before {
-    content: "\e900";
+    content: "\E94E";
     color: #fff;
 }
 
 .icon-yaoguai_chief:before {
-    content: "\e901";
+    content: "\E95F";
     color: #fff;
 }
 
 .icon-weapon:before {
-    content: "\e903";
+    content: "\E901";
     color: #fff;
 }
 
 .icon-vessel:before {
-    content: "\e904";
+    content: "\E970";
     color: #fff;
 }
 
@@ -504,107 +509,102 @@
 .icon-purple_lingzhi:before,
 .icon-snake_head_mushroom:before,
 .icon-tree_pearl:before {
-    content: "\e905";
-    color: #fff;
-}
-
-.icon-transformation_spell:before {
-    content: "\e906";
+    content: "\E95E";
     color: #fff;
 }
 
 .icon-spirit:before {
-    content: "\e907";
+    content: "\E942";
     color: #fff;
 }
 
 .icon-spell:before {
-    content: "\e908";
+    content: "\E911";
     color: #fff;
 }
 
 .icon-soak:before {
-    content: "\e909";
+    content: "\E966";
     color: #fff;
 }
 
 .icon-point_of_interest:before {
-    content: "\e90f";
+    content: "\E91F";
     color: #fff;
 }
 
 .icon-npc:before {
-    content: "\e910";
+    content: "\E90A";
     color: #fff;
 }
 
 .icon-miscellaneous:before {
-    content: "\e912";
+    content: "\E928";
     color: #fff;
 }
 
 .icon-meditation_spot:before {
-    content: "\e914";
+    content: "\e960";
     color: #fff;
 }
 
 
 .icon-luojia_fragrant_vine:before {
-    content: "\e915";
+    content: "\E71";
     color: #fff;
 }
 
 .icon-key_items:before {
-    content: "\e918";
+    content: "\E935";
     color: #fff;
 }
 
 .icon-keeper_shrine:before {
-    content: "\e919";
+    content: "\e962";
     color: #fff;
 }
 
 .icon-gourd:before {
-    content: "\e91c";
+    content: "\E963";
     color: #fff;
 }
 
 .icon-formula:before {
-    content: "\e91f";
+    content: "\E954";
     color: #fff;
 }
 
-.icon-elite_lesser_yaoguai:before {
-    content: "\e921";
+.icon-lesser_yaoguai:before {
+    content: "\E946";
     color: #fff;
 }
 
 .icon-easter_egg:before {
-    content: "\e922";
+    content: "\E949";
     color: #fff;
 }
 
 .icon-drink:before {
-    content: "\e923";
+    content: "\E964";
     color: #fff;
 }
 
 .icon-curio:before {
-    content: "\e924";
+    content: "\E965";
     color: #fff;
 }
 
 .icon-chest:before {
-    content: "\e926";
+    content: "\E967";
     color: #fff;
 }
 
 .icon-celestial_pill:before {
-    content: "\e928";
+    content: "\E968";
     color: #fff;
 }
 
 .icon-awaken_wine_worm:before {
-    content: "\e92a";
+    content: "\E969";
     color: #fff;
 }

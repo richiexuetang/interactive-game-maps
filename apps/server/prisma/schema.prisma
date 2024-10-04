@@ -72,7 +72,6 @@ model Region {
   id          Int                      @id @default(autoincrement())
   coordinates Unsupported("geometry")?
   title       String
-  locations   Location[]
   mapSlug     String
   map         Map                      @relation(fields: [mapSlug], references: [slug])
   centerX     Decimal?
@@ -113,8 +112,6 @@ model Location {
   map         Map       @relation(fields: [mapSlug], references: [slug])
   mapSlug     String
   media       Media[]
-  region      Region?   @relation(fields: [regionId], references: [id])
-  regionId    Int?
 }
 
 model Media {

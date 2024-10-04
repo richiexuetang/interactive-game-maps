@@ -1,16 +1,15 @@
 import { gql } from "@apollo/client";
 import { remark } from "remark";
 import html from "remark-html";
-import { Region } from "@/__generated__/graphql";
 import { getClient } from "@/lib/graphql/apollo-client";
 import {
   ADD_TO_USER_FOUND,
   CREATE_APP_USER,
   FETCH_GAME_META_DATA,
-  FETCH_GAME_MAP_DETAILS,
   FETCH_MAP_DETAILS,
   GET_CURRENT_USER,
   REMOVE_FROM_USER_FOUND,
+  GET_MAP_DATA,
 } from "@/lib/graphql/constants";
 
 export async function addToUserFound(input: {
@@ -48,34 +47,14 @@ export async function getMapDetails(slug: string) {
 
 export async function fetchGameMapDetails(slug: string) {
   const { data } = await getClient().query({
-    query: FETCH_GAME_MAP_DETAILS,
+    query: GET_MAP_DATA,
     variables: { slug },
   });
 
-  const details = data.fetchGameByMap;
-  const map = details.maps?.find((r: Region) => r.slug === slug);
-  const otherMaps = details.maps?.filter((r: Region) => r.slug !== slug);
-
-  const groups = details.groups;
-  const processedGroups = [];
-
-  for (let i = 0; i < groups.length; i++) {
-    const categories = groups[i].categories;
-    const processedCategories = [];
-    for (let j = 0; j < categories.length; j++) {
-      const processedInfo = await remark()
-        .use(html)
-        .process(categories?.info ?? "");
-      processedCategories.push({
-        ...categories[j],
-        info: processedInfo.toString(),
-      });
-    }
-    processedGroups.push({ ...groups[i], categories: processedCategories });
-  }
+  const details = data.mapData;
 
   const processedLocations = [];
-  const locations = map.locations;
+  const locations = details.locations;
   for (let i = 0; i < locations.length; i++) {
     const curr = locations[i];
     const processedDesc = await remark()
@@ -87,8 +66,7 @@ export async function fetchGameMapDetails(slug: string) {
 
   return {
     ...details,
-    maps: [...otherMaps, { ...map, locations: processedLocations }],
-    groups: processedGroups,
+    locations: processedLocations,
   };
 }
 

@@ -18,9 +18,6 @@ export class Location extends BaseModel {
   @Field(() => Number)
   longitude: number;
 
-  @Field(() => String, { nullable: true })
-  regionSlug?: string | null;
-
   @Field(() => Category, { nullable: true })
   category?: Category | null;
 

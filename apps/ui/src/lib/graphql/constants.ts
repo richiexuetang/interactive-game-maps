@@ -111,8 +111,7 @@ query MapData($slug: String!) {
   }
 }`);
 
-export const GET_MAP_REGIONS = gql(
-  `
+export const GET_MAP_REGIONS = gql(`
   query GetRegionsByMap($slug: String!) {
     getRegionsByMap(slug: $slug) {
       centerX
@@ -121,8 +120,7 @@ export const GET_MAP_REGIONS = gql(
       coordinates
     }
   }
-  `
-);
+  `);
 
 export const FETCH_GAMES = gql(/* GraphQL */ `
   query {

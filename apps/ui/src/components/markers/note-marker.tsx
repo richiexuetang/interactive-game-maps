@@ -69,7 +69,7 @@ export const NoteMarker = ({
     UPDATE_USER_NOTE_MARKER
   );
 
-  const onSubmit = (data: any) => {
+  const onSubmit = async (data: any) => {
     const noteMarker = {
       title: data[`${position}-Title`],
       description: data[`${position}-Description`],
@@ -150,7 +150,7 @@ export const NoteMarker = ({
       });
     }
 
-    const newNoteMarkers = appUser?.noteMarkers.filter(
+    const newNoteMarkers = appUser?.noteMarkers?.filter(
       (marker) => marker.id !== id
     );
     setAppUser((prev) => ({

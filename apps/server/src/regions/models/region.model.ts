@@ -16,9 +16,6 @@ export class Region extends BaseModel {
   @Field()
   slug: string;
 
-  @Field(() => [Location])
-  locations?: Location[] | null;
-
   @Field(() => Float, { nullable: true })
   centerX: number | null;
 

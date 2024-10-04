@@ -25,7 +25,6 @@ export class MapsResolver {
   async mapDetails(@Args("slug") slug: string) {
     return this.prisma.map.findUnique({
       where: { slug },
-      include: { regions: true },
     });
   }
 

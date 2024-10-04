@@ -199,6 +199,7 @@
   background-position: -66px 0;
 }
 
+.sorcery,
 .spell {
   background-position: -99px 0;
 }
@@ -207,17 +208,9 @@
   background-position: -132px 0;
 }
 
-.sorcery {
-  background-position: -165px 0;
-}
-
 .somber_smithing_stone,
 .ancient_smithing_stone {
   background-position: -198px 0;
-}
-
-.transformation_spell {
-  background-position: -165px 0;
 }
 
 .celestial_pill {
@@ -258,7 +251,6 @@
   background-position: -33px -88px;
 }
 
-.key_item,
 .key_item {
   background-position: -66px -88px;
 }
@@ -280,7 +272,6 @@
   background-position: -33px -132px;
 }
 
-.miscellaneous,
 .miscellaneous {
   background-position: -66px -132px;
 }

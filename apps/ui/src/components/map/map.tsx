@@ -1,5 +1,6 @@
 "use client";
 
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { CssBaseline, Theme, ThemeProvider, createTheme } from "@mui/material";
 import { Provider } from "jotai";
 import dynamic from "next/dynamic";
@@ -13,6 +14,11 @@ export interface MapProps {
   user: User | null;
   data: Map;
 }
+
+const client = new ApolloClient({
+  uri: `${process.env.NEXT_PUBLIC_API_BASE_URL}/graphql`,
+  cache: new InMemoryCache(),
+});
 
 const RitcherMap = ({ user, data }: MapProps) => {
   const Map = useMemo(
@@ -28,19 +34,21 @@ const RitcherMap = ({ user, data }: MapProps) => {
   }, [data]);
 
   return (
-    <Provider>
-      <ThemeProvider
-        theme={(theme: Theme) =>
-          createTheme({
-            ...theme,
-            ...innerTheme,
-          })
-        }
-      >
-        <CssBaseline />
-        <Map user={user} data={data} />
-      </ThemeProvider>
-    </Provider>
+    <ApolloProvider client={client}>
+      <Provider>
+        <ThemeProvider
+          theme={(theme: Theme) =>
+            createTheme({
+              ...theme,
+              ...innerTheme,
+            })
+          }
+        >
+          <CssBaseline />
+          <Map user={user} data={data} />
+        </ThemeProvider>
+      </Provider>
+    </ApolloProvider>
   );
 };
 
