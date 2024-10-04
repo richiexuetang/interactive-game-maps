@@ -1,4 +1,3 @@
-import { gql } from "@apollo/client";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
@@ -9,18 +8,12 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Link from "next/link";
 import { Game } from "@/__generated__/graphql";
-import { query } from "@/lib/graphql/apollo-client";
+import { getClient } from "@/lib/graphql/apollo-client";
+import { FETCH_GAMES } from "@/lib/graphql/constants";
 
 export default async function Page() {
-  const { data } = await query({
-    query: gql(/* GraphQL */ `
-      query {
-        games {
-          slug
-          title
-        }
-      }
-    `),
+  const { data } = await getClient().query({
+    query: FETCH_GAMES,
   });
 
   return (
@@ -46,7 +39,7 @@ export default async function Page() {
                       process.env.CDN_BASE_URL +
                       `images/games/${slug}/thumbnail.png`
                     }
-                    alt={title ?? ""}
+                    alt={title}
                   />
                   <CardContent
                     sx={{

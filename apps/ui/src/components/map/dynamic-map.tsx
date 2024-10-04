@@ -1,6 +1,7 @@
 "use client";
 
-import { gql, useQuery } from "@apollo/client";
+import { useQuery } from "@apollo/client";
+import { UserRecord } from "firebase-admin/auth";
 import { useAtom, useSetAtom } from "jotai";
 import { LatLngExpression, Map } from "leaflet";
 import * as L from "leaflet";
@@ -16,8 +17,8 @@ import { RegionLayer } from "../layers/region";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { ProgressTracker } from "../progress-tracker";
 import { Menu } from "../sidebar/left-sidebar";
-import { Game, User } from "@/__generated__/graphql";
-import { GET_CURRENT_USER } from "@/lib/graphql/constants";
+import { Game } from "@/__generated__/graphql";
+import { GET_CURRENT_USER, GET_MAP_REGIONS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
 import {
   userAtom,
@@ -27,7 +28,7 @@ import {
 } from "@/store";
 
 interface MapProps {
-  user: User | null;
+  user: Pick<UserRecord, "email" | "displayName"> | null;
   mapData: Game;
 }
 
@@ -50,29 +51,16 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
   const { data: userData } = useQuery(GET_CURRENT_USER, {
     variables: { email: user?.email },
   });
-  console.log(userData, "user");
-  const { data: regionData } = useQuery(
-    gql(
-      `
-    query GetRegionsByMap($slug: String!) {
-      region(slug: $slug) {
-        title
-        coordinates
-      }
-    }
-    `
-    ),
-    {
-      variables: { slug: currentMap!.slug },
-    }
-  );
+  const { data: regionData } = useQuery(GET_MAP_REGIONS, {
+    variables: { slug: currentMap!.slug },
+  });
   //#endregion
 
   //#region Lifecycle Hooks
   React.useEffect(() => {
-    if (userData?.user && !appUser) {
+    if (userData?.getUser && !appUser) {
       setAppUser({
-        ...userData?.user,
+        ...userData?.getUser,
       });
     }
   }, [userData, appUser, setAppUser]);
@@ -81,7 +69,7 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
     if (!mapConfig && currentMap) {
       setMapConfig({
         ...currentMap,
-        maxZoom: maxZoom ?? 0,
+        maxZoom,
         groups: mapData.groups ?? [],
         gameSlug: mapData.slug,
       });
@@ -105,14 +93,18 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
 
   return (
     <div className={cn("h-[calc(100vh-1rem)]", mapData.slug)}>
-      <Menu maps={mapData.maps ?? []} regions={regionData?.region} map={map} />
+      <Menu
+        maps={mapData.maps ?? []}
+        regions={regionData?.getRegionsByMap}
+        map={map}
+      />
       <RL.MapContainer
         ref={setMap}
         preferCanvas={true}
         renderer={L.canvas()}
-        zoom={zoom ?? 0}
-        minZoom={minZoom ?? 0}
-        maxZoom={maxZoom ?? 0}
+        zoom={zoom}
+        minZoom={minZoom}
+        maxZoom={maxZoom}
         center={center as LatLngExpression}
         attributionControl={false}
         zoomControl={false}
@@ -162,7 +154,7 @@ const DynamicMap = ({ user, mapData }: MapProps) => {
         <CopyLinkNotifier />
         <MarkerRenderer />
         <ProgressTracker />
-        {regionData?.region?.map((sub: any) => (
+        {regionData?.getRegionsByMap?.map((sub: any) => (
           <RegionLayer
             key={sub.title}
             positions={sub.coordinates}

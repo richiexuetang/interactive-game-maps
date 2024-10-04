@@ -1,6 +1,5 @@
 import { atom } from "jotai";
-import { Location, Map } from "@/__generated__/graphql";
-import { Group } from "@/__generated__/graphql";
+import { Group, Location, Map } from "@/__generated__/graphql";
 
 interface CurrentMap extends Map {
   maxZoom: number;
@@ -17,7 +16,7 @@ interface NoteMarker {
 }
 interface User {
   email: string;
-  foundLocations: any[];
+  foundLocations: number[];
   hideFound: boolean;
   noteMarkers: NoteMarker[];
 }

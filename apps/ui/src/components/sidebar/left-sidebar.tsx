@@ -85,7 +85,7 @@ export const Menu = ({ maps, regions: subRegions, map }: MenuProps) => {
     setSearchKeyword(input);
     let filtered =
       currentMap?.locations?.filter((marker) =>
-        marker?.title?.toLowerCase().includes(input.toLowerCase())
+        marker.title.toLowerCase().includes(input.toLowerCase())
       ) ?? [];
     if (input === "") {
       filtered = [];

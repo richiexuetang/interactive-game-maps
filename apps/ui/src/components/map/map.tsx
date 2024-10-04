@@ -2,16 +2,17 @@
 
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { CssBaseline, Theme, ThemeProvider, createTheme } from "@mui/material";
+import { UserRecord } from "firebase-admin/auth";
 import { Provider } from "jotai";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
-import { User, Game } from "@/__generated__/graphql";
+import { Game } from "@/__generated__/graphql";
 import { getDesignTokens } from "@/lib/ui/design-tokens";
 import "@/styles/leaflet.css";
 import "@/styles/icon.css";
 
 export interface MapProps {
-  user: User | null;
+  user: Pick<UserRecord, "email" | "displayName"> | null;
   mapData: Game;
 }
 
@@ -20,8 +21,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-const RitcherMap = ({ user, mapData }: MapProps) => {
-  console.log(user, mapData);
+const RitcherMap = ({ user, mapData: regionData }: MapProps) => {
   const Map = useMemo(
     () =>
       dynamic(() => import("./dynamic-map"), {
@@ -31,8 +31,8 @@ const RitcherMap = ({ user, mapData }: MapProps) => {
   );
 
   const innerTheme = useMemo(() => {
-    return getDesignTokens(mapData.slug!);
-  }, [mapData.slug]);
+    return getDesignTokens(regionData.slug);
+  }, [regionData.slug]);
 
   return (
     <ApolloProvider client={client}>
@@ -46,7 +46,7 @@ const RitcherMap = ({ user, mapData }: MapProps) => {
           }
         >
           <CssBaseline />
-          <Map user={user} mapData={mapData} />
+          <Map user={user} mapData={regionData} />
         </ThemeProvider>
       </Provider>
     </ApolloProvider>

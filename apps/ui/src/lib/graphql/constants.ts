@@ -1,8 +1,8 @@
 import { gql } from "@apollo/client";
 
 export const ADD_TO_USER_FOUND = gql`
-  mutation AddFoundLocations($location: Int!, $email: String!) {
-    addFound(email: $email, location: $location) {
+  mutation AddFoundLocations($data: UpdateFoundLocationInput!) {
+    addFoundLocations(data: $data) {
       email
       foundLocations
     }
@@ -10,8 +10,8 @@ export const ADD_TO_USER_FOUND = gql`
 `;
 
 export const REMOVE_FROM_USER_FOUND = gql`
-  mutation RemoveFoundLocation($location: Int!, $email: String!) {
-    removeFound(email: $email, location: $location) {
+  mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
+    removeFoundLocation(data: $data) {
       email
       foundLocations
     }
@@ -20,7 +20,7 @@ export const REMOVE_FROM_USER_FOUND = gql`
 
 export const GET_CURRENT_USER = gql(`
 query GetUser($email: String!) {
-  user(email: $email) {
+  getUser(email: $email) {
     email,
     foundLocations,
     hideFound,
@@ -37,19 +37,11 @@ query GetUser($email: String!) {
 
 export const CREATE_APP_USER = gql(
   `
-  mutation CreateUser($email: String!) {
-    createUser(email: $email) {
+  mutation CreateUser($data: CreateUserInput!) {
+    createUser(data: $data) {
       email
       username
       foundLocations
-      noteMarkers {
-        id
-        title
-        description
-        mapSlug
-        latitude
-        longitude
-      }
     }
   }
   `
@@ -57,32 +49,106 @@ export const CREATE_APP_USER = gql(
 
 export const TOGGLE_HIDE_FOUND = gql(
   `
-  mutation ToggleHideFoundSetting($email: String!, $hide: Boolean!) {
-    toggleHideFoundSetting(email: $email, hide: $hide) {
-      email
-      foundLocations
-    }
+mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
+  toggleHideFoundSetting(data: $data) {
+    hideFound
+    email
   }
+}
 `
 );
 
+export const GET_MAP_REGIONS = gql(
+  `
+  query GetRegionsByMap($slug: String!) {
+    getRegionsByMap(slug: $slug) {
+      title
+      coordinates
+    }
+  }
+  `
+);
+
+export const FETCH_GAMES = gql(/* GraphQL */ `
+  query {
+    games {
+      slug
+      title
+    }
+  }
+`);
+
+export const FETCH_GAME_META_DATA = gql(`
+query GetGames($slug: String!) {
+  game(slug: $slug) {
+    slug
+    title
+    description
+  }
+}`);
+
+export const FETCH_MAP_DETAILS = gql`
+  query MapDetails($slug: String!) {
+    mapDetails(slug: $slug) {
+      gameSlug
+      title
+    }
+  }
+`;
+
+export const FETCH_GAME_MAP_DETAILS = gql`
+  query FetchGameByMap($slug: String!) {
+    fetchGameByMap(slug: $slug) {
+      title
+      slug
+      minZoom
+      maxZoom
+      zoom
+      center
+      groups {
+        id
+        title
+        categories {
+          id
+          icon
+          info
+          title
+          isChecklist
+          defaultHidden
+        }
+      }
+      maps {
+        tilePath
+        slug
+        order
+        title
+        locations {
+          categoryId
+          category {
+            title
+            id
+            icon
+            info
+          }
+          media {
+            url
+            type
+          }
+          description
+          latitude
+          longitude
+          title
+          id
+        }
+      }
+      slug
+    }
+  }
+`;
+
 export const ADD_USER_NOTE_MARKER = gql`
-  mutation AddNoteMarker(
-    $email: String!
-    $title: String!
-    $description: String!
-    $mapSlug: String!
-    $latitude: Float!
-    $longitude: Float!
-  ) {
-    addNoteMarker(
-      email: $email
-      title: $title
-      description: $description
-      mapSlug: $mapSlug
-      latitude: $latitude
-      longitude: $longitude
-    ) {
+  mutation AddNoteMarker($data: AddNoteInput!) {
+    addNoteMarker(data: $data) {
       id
       title
       description
@@ -94,33 +160,23 @@ export const ADD_USER_NOTE_MARKER = gql`
 `;
 
 export const REMOVE_USER_NOTE_MARKER = gql`
-  mutation RemoveNoteMarker($id: Int!) {
-    removeNoteMarker(id: $id) {
-      id
-      title
-      description
-      mapSlug
-      latitude
-      longitude
+  mutation RemoveNoteMarker($data: RemoveNoteInput!) {
+    removeNoteMarker(data: $data) {
+      noteMarkers {
+        id
+        title
+        description
+        mapSlug
+        latitude
+        longitude
+      }
     }
   }
 `;
 
 export const UPDATE_USER_NOTE_MARKER = gql`
-  mutation UpdateNoteMarker(
-    $title: String!
-    $description: String!
-    $latitude: Float!
-    $longitude: Float!
-    $id: Int!
-  ) {
-    updateNoteMarker(
-      title: $title
-      description: $description
-      latitude: $latitude
-      longitude: $longitude
-      id: $id
-    ) {
+  mutation UpdateNoteMarker($data: UpdateNoteInput!) {
+    updateNoteMarker(data: $data) {
       id
       title
       description
