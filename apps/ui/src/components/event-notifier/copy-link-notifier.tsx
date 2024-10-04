@@ -22,7 +22,7 @@ export const CopyLinkNotifier = () => {
   const mapEvents = useMapEvents({
     contextmenu: () => {
       const center = mapEvents.getCenter();
-      const url = `${process.env.VERCEL_URL}map/${params.slug}?lat=${
+      const url = `https://${process.env.VERCEL_URL}map/${params.slug}?lat=${
         center.lat
       }&lng=${center.lng}&zoom=${mapEvents.getZoom()}`;
       copy(url).then(() => {});
