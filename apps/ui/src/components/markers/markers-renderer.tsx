@@ -32,7 +32,7 @@ export const MarkerRenderer = () => {
           }
           return null;
         }
-        const markerFound = appUser?.foundLocations.includes(id);
+        const markerFound = appUser?.foundLocations?.includes(id);
 
         if (markerFound && appUser?.hideFound) return null;
         if (

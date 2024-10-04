@@ -1,3 +1,4 @@
+import { gql } from "@apollo/client";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
@@ -8,7 +9,8 @@ import Link from "next/link";
 import { Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
 import { getFontClassName } from "@/lib/font";
-import { getMetaData, getMapsByGame } from "@/lib/graphql/api";
+import { getMetaData } from "@/lib/graphql/api";
+import { query } from "@/lib/graphql/apollo-client";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
@@ -62,10 +64,24 @@ export default async function RegionPage({
 }: {
   params: { slug: string };
 }) {
-  const regions = await getMapsByGame(params.slug);
+  const { data } = await query({
+    query: gql`
+      query Maps($slug: String!) {
+        maps(slug: $slug) {
+          gameSlug
+          slug
+          thumbnailUrl
+          title
+        }
+      }
+    `,
+    variables: { slug: params.slug },
+  });
+
+  const maps = data.maps;
   const fontClassName = getFontClassName(params.slug);
 
-  const showRegionMedia = regions.length <= 2;
+  const showRegionMedia = data.length <= 2;
 
   return (
     <div className={cn(params.slug, "bg-bodyBackground h-[100vh]")}>
@@ -88,7 +104,7 @@ export default async function RegionPage({
               >
                 {params.slug.replaceAll("-", " ").toUpperCase() + " MAPS"}
               </Typography>
-              {regions.map(({ slug, thumbnailUrl, title }: Map) => (
+              {maps.map(({ slug, thumbnailUrl, title }: Map) => (
                 <Link key={slug} href={`/map/${slug}`}>
                   <Card sx={{ maxWidth: 350 }}>
                     <CardActionArea>
@@ -96,7 +112,7 @@ export default async function RegionPage({
                         component="img"
                         height="140"
                         image={process.env.CDN_BASE_URL + thumbnailUrl! || ""}
-                        alt={title}
+                        alt={title ?? ""}
                       />
                       <CardContent
                         sx={{
@@ -133,7 +149,7 @@ export default async function RegionPage({
                 {params.slug.replaceAll("-", " ").toUpperCase() + " MAPS"}
               </Typography>
               <div className="flex gap-10 p-6 flex-wrap content-center justify-center">
-                {regions.map(({ slug, title }: Map) => (
+                {maps.map(({ slug, title }: Map) => (
                   <Link key={slug} href={`/map/${slug}`}>
                     <Card sx={{ maxWidth: 350 }}>
                       <CardActionArea>

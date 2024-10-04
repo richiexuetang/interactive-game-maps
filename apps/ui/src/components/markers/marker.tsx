@@ -36,15 +36,15 @@ export const Marker = ({ marker }: MarkerProps) => {
 
   useEffect(() => {
     if (triggeredMarkerId === id && markerRef?.current) {
-      map.setView([latitude, longitude]);
+      map.setView([latitude!, longitude!]);
       markerRef.current.openPopup();
     }
   }, [id, latitude, longitude, map, triggeredMarkerId]);
 
   useEffect(() => {
     const markerId = searchParams.get("marker");
-    if (markerId && id.toString() === markerId) {
-      map.flyTo([latitude, longitude]);
+    if (markerId && id!.toString() === markerId) {
+      map.flyTo([latitude!, longitude!]);
       if (markerRef?.current) {
         markerRef.current.openPopup();
       }
@@ -63,15 +63,15 @@ export const Marker = ({ marker }: MarkerProps) => {
     window.history.replaceState(null, "", "/map/" + params.slug);
   }, [map, params.slug, searchParams]);
 
-  const markerFound = appUser?.foundLocations.includes(id);
+  const markerFound = appUser?.foundLocations?.includes(id);
 
   const handleMarkerFound = () => {
     if (appUser?.email) {
-      const variables = { data: { email: appUser.email, location: id } };
+      const variables = { email: appUser.email, location: id };
       let newFoundLocations = [];
       if (markerFound) {
         removeLocation({ variables });
-        newFoundLocations = appUser.foundLocations.filter(
+        newFoundLocations = appUser.foundLocations?.filter(
           (location) => location !== id
         );
       } else {
@@ -85,7 +85,7 @@ export const Marker = ({ marker }: MarkerProps) => {
   return (
     <RL.Marker
       ref={markerRef}
-      position={[latitude, longitude]}
+      position={[latitude!, longitude!]}
       opacity={markerFound ? 0.5 : 1}
       icon={L.divIcon({
         iconSize: [33, 44],
@@ -94,7 +94,7 @@ export const Marker = ({ marker }: MarkerProps) => {
         tooltipAnchor: [22, -22],
         html: div,
       })}
-      zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
+      zIndexOffset={100 - longitude!} // so markers don't glitch out while zooming
       eventHandlers={{
         contextmenu: () => {
           handleMarkerFound();

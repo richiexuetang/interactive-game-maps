@@ -52,7 +52,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const [appUser, setAppUser] = useAtom(userAtom);
   const currentRegion = useAtomValue(currentMapAtom);
 
-  const markerFound = appUser?.foundLocations.includes(id);
+  const markerFound = appUser?.foundLocations?.includes(id);
   const router = useRouter();
 
   const copy = useClipboardCopyFn();
@@ -69,11 +69,11 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
 
   const handleMarkerFound = () => {
     if (appUser?.email) {
-      const variables = { data: { email: appUser.email, location: id } };
+      const variables = { email: appUser.email, location: id };
       let newFoundLocations = [];
       if (markerFound) {
         removeLocation({ variables });
-        newFoundLocations = appUser.foundLocations.filter(
+        newFoundLocations = appUser.foundLocations?.filter(
           (location) => location !== id
         );
       } else {

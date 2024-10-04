@@ -76,23 +76,20 @@ export const NoteMarker = ({
       latitude: lat,
       longitude: lng,
     };
+    console.log(noteMarker, appUser);
     if (typeof id === "number") {
       updateNoteMarker({
         variables: {
-          data: {
-            id,
-            ...noteMarker,
-          },
+          id,
+          ...noteMarker,
         },
       });
     } else {
       addNoteMarker({
         variables: {
-          data: {
-            email: appUser?.email,
-            ...noteMarker,
-            mapSlug: params.slug,
-          },
+          email: appUser?.email,
+          ...noteMarker,
+          mapSlug: params.slug,
         },
       });
     }
@@ -142,10 +139,8 @@ export const NoteMarker = ({
     if (typeof id === "number") {
       removeNoteMarker({
         variables: {
-          data: {
-            email: appUser?.email,
-            id,
-          },
+          email: appUser?.email,
+          id,
         },
       });
     }
@@ -164,13 +159,11 @@ export const NoteMarker = ({
     if (draggable) {
       updateNoteMarker({
         variables: {
-          data: {
-            id,
-            title: title,
-            description: description,
-            latitude: lat,
-            longitude: lng,
-          },
+          id,
+          title: title,
+          description: description,
+          latitude: lat,
+          longitude: lng,
         },
       });
     }

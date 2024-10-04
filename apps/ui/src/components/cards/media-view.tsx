@@ -33,13 +33,13 @@ export const MediaView = ({ media }: MediaViewProps) => {
           sx={{ cursor: "pointer" }}
           component="img"
           height="350"
-          image={media[activeStep].url}
-          alt={media[activeStep].url}
+          image={media[activeStep].url ?? ""}
+          alt={media[activeStep].url ?? ""}
         />
       )}
       {media[activeStep].type === "video" && (
         <ReactPlayer
-          url={media[activeStep].url.replace("watch?v=", "v/")}
+          url={media[activeStep].url?.replace("watch?v=", "v/")}
           width="100%"
         />
       )}
@@ -77,10 +77,10 @@ export const MediaView = ({ media }: MediaViewProps) => {
       <Modal open={modalOpen} onClose={() => setModalOpen(false)}>
         <Image
           onClick={() => setModalOpen(false)}
-          src={media[0]?.url}
+          src={media[0]?.url ?? ""}
           fill
           objectFit="none"
-          alt={media[0]?.url}
+          alt={media[0]?.url ?? ""}
           className="cursor-pointer"
         />
       </Modal>
