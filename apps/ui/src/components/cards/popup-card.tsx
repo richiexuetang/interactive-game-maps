@@ -109,7 +109,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                   sx={{ width: 15, height: 15 }}
                   onClick={() =>
                     copy(
-                      `https://${process.env.VERCEL_URL}map/${currentRegion?.slug}?marker=${marker.id}`
+                      `${process.env.VERCEL_URL}map/${currentRegion?.slug}?marker=${marker.id}`
                     ).then(() => {
                       setCopyLinkTrigger(true);
                     })
