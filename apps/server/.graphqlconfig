@@ -1,6 +1,6 @@
 {
   "projects": {
-    "nest-prisma-starter": {
+    "ritcher-map-server": {
       "schemaPath": "src/schema.graphql",
       "extensions": {
         "endpoints": {

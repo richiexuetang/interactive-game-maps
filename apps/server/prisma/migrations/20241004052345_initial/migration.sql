@@ -61,9 +61,11 @@ CREATE TABLE "Map" (
 -- CreateTable
 CREATE TABLE "Region" (
     "id" SERIAL NOT NULL,
-    "coordinates" geometry NOT NULL,
+    "coordinates" geometry,
     "title" TEXT NOT NULL,
     "mapSlug" TEXT NOT NULL,
+    "centerX" DECIMAL(65,30),
+    "centerY" DECIMAL(65,30),
 
     CONSTRAINT "Region_pkey" PRIMARY KEY ("id")
 );
@@ -73,6 +75,7 @@ CREATE TABLE "Group" (
     "id" SERIAL NOT NULL,
     "title" TEXT NOT NULL,
     "gameSlug" TEXT NOT NULL,
+    "expandable" BOOLEAN NOT NULL DEFAULT false,
 
     CONSTRAINT "Group_pkey" PRIMARY KEY ("id")
 );
@@ -85,6 +88,7 @@ CREATE TABLE "Category" (
     "info" TEXT,
     "groupId" INTEGER,
     "isChecklist" BOOLEAN NOT NULL DEFAULT false,
+    "defaultHidden" BOOLEAN NOT NULL DEFAULT false,
 
     CONSTRAINT "Category_pkey" PRIMARY KEY ("id")
 );
