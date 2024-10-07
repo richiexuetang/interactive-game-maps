@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "development") {
 
 function makeClient() {
   const httpLink = new HttpLink({
-    uri: "https://apollo-next-poll.up.railway.app/",
+    uri: `${process.env.NEXT_PUBLIC_API_BASE_URL}/graphql`,
   });
 
   return new ApolloClient({

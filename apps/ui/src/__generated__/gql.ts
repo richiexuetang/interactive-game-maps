@@ -14,7 +14,7 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
  */
 const documents = {
     "\n      query Category($id: Float!) {\n        category(id: $id) {\n          id\n          title\n          locations {\n            id\n            title\n          }\n        }\n      }\n    ": types.CategoryDocument,
-    "\n      query Locations($id: Int!) {\n        locations(id: $id) {\n          description\n          title\n          latitude\n          longitude\n          mapSlug\n        }\n      }\n    ": types.LocationsDocument,
+    "\n      query Locations($id: Int!) {\n        locations(id: $id) {\n          id\n          category {\n            title\n          }\n          description\n          title\n          latitude\n          longitude\n          mapSlug\n        }\n      }\n    ": types.LocationsDocument,
     "\n      query FindMapByGame($slug: String!) {\n        findMapsByGame(slug: $slug, orderBy: { field: order, direction: asc }) {\n          gameSlug\n          slug\n          title\n        }\n      }\n    ": types.FindMapByGameDocument,
     "\n  mutation AddFoundLocations($data: UpdateFoundLocationInput!) {\n    addFoundLocations(data: $data) {\n      email\n      foundLocations\n    }\n  }\n": types.AddFoundLocationsDocument,
     "\n  mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {\n    removeFoundLocation(data: $data) {\n      email\n      foundLocations\n    }\n  }\n": types.RemoveFoundLocationDocument,
@@ -52,7 +52,7 @@ export function gql(source: "\n      query Category($id: Float!) {\n        cate
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n      query Locations($id: Int!) {\n        locations(id: $id) {\n          description\n          title\n          latitude\n          longitude\n          mapSlug\n        }\n      }\n    "): (typeof documents)["\n      query Locations($id: Int!) {\n        locations(id: $id) {\n          description\n          title\n          latitude\n          longitude\n          mapSlug\n        }\n      }\n    "];
+export function gql(source: "\n      query Locations($id: Int!) {\n        locations(id: $id) {\n          id\n          category {\n            title\n          }\n          description\n          title\n          latitude\n          longitude\n          mapSlug\n        }\n      }\n    "): (typeof documents)["\n      query Locations($id: Int!) {\n        locations(id: $id) {\n          id\n          category {\n            title\n          }\n          description\n          title\n          latitude\n          longitude\n          mapSlug\n        }\n      }\n    "];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
