@@ -1,5 +1,5 @@
 import { useMutation } from "@apollo/client";
-import { useAtom, useAtomValue } from "jotai";
+import { useAtomValue } from "jotai";
 import * as L from "leaflet";
 import { useParams, useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
@@ -10,7 +10,8 @@ import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
-import { highlightedMarkerAtom, triggeredMarkerAtom, userAtom } from "@/store";
+import { highlightedMarkerAtom, triggeredMarkerAtom } from "@/store";
+import { useAuthStore } from "@/store/auth";
 
 interface MarkerProps {
   marker: Location;
@@ -22,8 +23,9 @@ export const Marker = ({ marker }: MarkerProps) => {
   const { id, title, latitude, longitude, category } = marker;
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
-  const [appUser, setAppUser] = useAtom(userAtom);
   const highlightMarker = useAtomValue(highlightedMarkerAtom);
+  const user = useAuthStore((state) => state.user);
+  const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
   const { icon } = category!;
 
   const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
@@ -71,22 +73,23 @@ export const Marker = ({ marker }: MarkerProps) => {
     }
   }, [map, params, searchParams]);
 
-  const markerFound = appUser?.foundLocations.includes(id);
+  const markerFound = user?.foundLocations.includes(id);
 
   const handleMarkerFound = () => {
-    if (appUser?.email) {
-      const variables = { data: { email: appUser.email, location: id } };
+    if (user?.email) {
+      const variables = { data: { email: user.email, location: id } };
       let newFoundLocations = [];
       if (markerFound) {
         removeLocation({ variables });
-        newFoundLocations = appUser.foundLocations.filter(
+        newFoundLocations = user.foundLocations.filter(
           (location) => location !== id
         );
       } else {
         addLocation({ variables });
-        newFoundLocations = [...appUser.foundLocations, id];
+        newFoundLocations = [...user.foundLocations, id];
       }
-      setAppUser({ ...appUser, foundLocations: newFoundLocations });
+
+      setFoundLocations(newFoundLocations);
     }
   };
 

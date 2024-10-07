@@ -10,7 +10,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { useAtom, useAtomValue } from "jotai";
+import { useAtomValue } from "jotai";
 import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -23,7 +23,8 @@ import {
   REMOVE_USER_NOTE_MARKER,
   UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
-import { currentMapAtom, userAtom } from "@/store";
+import { currentMapAtom } from "@/store";
+import { useAuthStore } from "@/store/auth";
 
 interface NoteMarkerProps {
   latitude: number;
@@ -50,7 +51,7 @@ export const NoteMarker = ({
   });
 
   const currentMap = useAtomValue(currentMapAtom);
-  const params = useParams<{ slug: string }>();
+  const params = useParams<{ mapSlug: string }>();
   const div = document.createElement("div");
   div.className = `icon note-icon-1`;
 
@@ -59,7 +60,6 @@ export const NoteMarker = ({
   const [lng, setLng] = useState(longitude);
   const markerRef = useRef<L.Marker>(null);
   const [editMode, setEditMode] = useState(false);
-  const [appUser, setAppUser] = useAtom(userAtom);
   const copy = useClipboardCopyFn();
   const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
   const [removeNoteMarker, { data: removedData }] = useMutation(
@@ -68,6 +68,8 @@ export const NoteMarker = ({
   const [updateNoteMarker, { data: updateData }] = useMutation(
     UPDATE_USER_NOTE_MARKER
   );
+  const user = useAuthStore((state) => state.user);
+  const setNoteMarkers = useAuthStore((state) => state.setNoteMarkers);
 
   const onSubmit = async (data: any) => {
     const noteMarker = {
@@ -89,9 +91,9 @@ export const NoteMarker = ({
       addNoteMarker({
         variables: {
           data: {
-            email: appUser?.email,
+            email: user?.email,
             ...noteMarker,
-            mapSlug: params.slug,
+            mapSlug: params.mapSlug,
           },
         },
       });
@@ -103,37 +105,28 @@ export const NoteMarker = ({
 
   useEffect(() => {
     if (removedData) {
-      setAppUser({
-        ...appUser!,
-        noteMarkers: [...(removedData.removeNoteMarker.noteMarkers as any)],
-      });
+      setNoteMarkers([...(removedData.removeNoteMarker.noteMarkers as any)]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [removedData]);
 
   useEffect(() => {
     if (updateData) {
-      const markers = appUser?.noteMarkers ?? [];
-      setAppUser({
-        ...appUser!,
-        noteMarkers: [
-          ...markers.slice(0, position),
-          updateData.updateNoteMarker,
-          ...markers.slice(position + 1),
-        ],
-      });
+      const markers = user?.noteMarkers ?? [];
+      setNoteMarkers([
+        ...markers.slice(0, position),
+        updateData.updateNoteMarker,
+        ...markers.slice(position + 1),
+      ]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [updateData]);
 
   useEffect(() => {
     if (data) {
-      let markers = appUser?.noteMarkers ?? [];
+      let markers = user?.noteMarkers ?? [];
       markers[position] = data.addNoteMarker;
-      setAppUser((prev) => ({
-        ...prev!,
-        noteMarkers: [...markers],
-      }));
+      setNoteMarkers([...markers]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
@@ -143,20 +136,15 @@ export const NoteMarker = ({
       removeNoteMarker({
         variables: {
           data: {
-            email: appUser?.email,
+            email: user?.email,
             id,
           },
         },
       });
     }
 
-    const newNoteMarkers = appUser?.noteMarkers?.filter(
-      (marker) => marker.id !== id
-    );
-    setAppUser((prev) => ({
-      ...prev!,
-      noteMarkers: newNoteMarkers ?? [],
-    }));
+    if (!user?.noteMarkers) return;
+    setNoteMarkers(user.noteMarkers.filter(({ id: curId }) => curId !== id));
     setEditMode(false);
   };
 
@@ -224,7 +212,6 @@ export const NoteMarker = ({
                   control={control}
                   render={({ field }) => (
                     <TextField
-                      required
                       label="Note Description"
                       variant="outlined"
                       {...field}
@@ -234,7 +221,7 @@ export const NoteMarker = ({
               </Stack>
             </CardContent>
             <CardActions>
-              <Button size="small" onClick={handleDelete}>
+              <Button size="small" onClick={handleDelete} color="error">
                 Delete
               </Button>
               <Button size="small" type="submit">
@@ -281,7 +268,7 @@ export const NoteMarker = ({
                 onClick={() =>
                   copy(
                     `{latitude: ${lat.toString()},\nlongitude: ${lng.toString()},\n mapSlug: "${
-                      params.slug
+                      params.mapSlug
                     }",\n title: "${getValues(
                       `${position}-Title`
                     )}",\n description: "${getValues(

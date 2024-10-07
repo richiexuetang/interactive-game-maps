@@ -18,6 +18,9 @@ export class GqlConfigService implements GqlOptionsFactory {
       playground: graphqlConfig.playgroundEnabled,
       context: ({ req }) => ({ req }),
       plugins: [ApolloServerPluginLandingPageLocalDefault()],
+      subscriptions: {
+        "graphql-ws": true,
+      },
     };
   }
 }

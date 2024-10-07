@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 import Map from "@/components/map/map";
 
-import { getCurrentUser } from "@/lib/firebase/firebase-admin";
 import {
-  createUser,
   fetchGameMapDetails,
-  getAppUser,
   getMapDetails,
   getMetaData,
 } from "@/lib/graphql/api";
@@ -66,14 +63,5 @@ export default async function MapPage({
 }) {
   const mapData = await fetchGameMapDetails(params?.mapSlug);
 
-  const currentUser = await getCurrentUser();
-
-  let user = await getAppUser(currentUser?.email ?? "");
-
-  if (!user && currentUser?.email) {
-    const { displayName: username, email } = currentUser;
-    user = await createUser({ email, username });
-  }
-
-  return <Map user={user} data={mapData} />;
+  return <Map data={mapData} />;
 }

@@ -3,11 +3,11 @@
 import { jwtDecode } from "jwt-decode";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { UserDef, useAuthState } from "@/store/auth";
+import { UserDef, useAuthStore } from "@/store/auth";
 
 export const GoogleOAuthSuccessRedirect = () => {
   const params = useSearchParams();
-  const { setUser } = useAuthState();
+  const { setUser } = useAuthStore();
   const router = useRouter();
 
   useEffect(() => {

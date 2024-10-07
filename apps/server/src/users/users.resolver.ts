@@ -1,5 +1,5 @@
 import { PrismaService } from "nestjs-prisma";
-import { Resolver, Query, Mutation, Args } from "@nestjs/graphql";
+import { Resolver, Query, Mutation, Args, Subscription } from "@nestjs/graphql";
 import { User } from "./models/app-user.model";
 import { UsersService } from "./users.service";
 import { CreateUserInput } from "./dto/create-user.input";
@@ -9,6 +9,11 @@ import { AddNoteInput } from "./dto/add-note.input";
 import { RemoveNoteInput } from "./dto/remove-note.input";
 import { UpdateNoteInput } from "./dto/update-note.input";
 import { NoteMarker } from "./models/note-marker.model";
+import { UseGuards } from "@nestjs/common";
+import { JwtGuard } from "src/auth/guards/jwt-auth.guard";
+import { PubSub } from "graphql-subscriptions";
+
+const pubSub = new PubSub();
 
 @Resolver(() => User)
 export class UsersResolver {
@@ -29,6 +34,7 @@ export class UsersResolver {
     return this.usersService.createUser(newUserData);
   }
 
+  @UseGuards(JwtGuard)
   @Query(() => User)
   async getUser(@Args("email") email: string) {
     return this.prisma.user.findUnique({
@@ -37,6 +43,14 @@ export class UsersResolver {
     });
   }
 
+  @Subscription((returns) => NoteMarker, {
+    name: "noteMarkerAdded",
+  })
+  subscribeToNoteMarkerAdded() {
+    return pubSub.asyncIterator("noteMarkerAdded");
+  }
+
+  // @UseGuards(JwtGuard)
   @Mutation(() => NoteMarker)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
     const { email, mapSlug, ...noteData } = data;
@@ -48,7 +62,7 @@ export class UsersResolver {
         user: { connect: { email } },
       },
     });
-
+    // pubSub.publish("noteMarkerAdded", { commentAdded: marker });
     return marker;
   }
 

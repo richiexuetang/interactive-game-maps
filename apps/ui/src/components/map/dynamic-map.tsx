@@ -9,54 +9,43 @@ import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
 import { v4 as uuidv4 } from "uuid";
-// import { CustomPopup } from "../cards/popup";
 import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
 // import CanvasMarker from "../layers/canvas-markers";
 import { RegionLayer } from "../layers/region";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { Menu, ProgressTracker } from "../sidebar";
-import { User, Map } from "@/__generated__/graphql";
+import { Map } from "@/__generated__/graphql";
 import { mapContainerOptions } from "@/lib/leaflet/map-container-options";
 import { cn } from "@/lib/utils";
 import {
-  userAtom,
   currentMapAtom,
   copySnackbarAtom,
   hiddenCategoriesAtom,
 } from "@/store";
+import { useAuthStore } from "@/store/auth";
 
 interface MapProps {
-  user: User | null;
   data: Map;
 }
 
 const flatten: any = (ary: any[]) =>
   ary.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
 
-const DynamicMap = ({ user, data }: MapProps) => {
+const DynamicMap = ({ data }: MapProps) => {
   //#region Hooks
   const params = useParams<{ slug: string }>();
   const [map, setMap] = React.useState<L.Map | null>(null);
 
   const { center, zoom, minZoom, maxZoom } = data;
 
-  const [appUser, setAppUser] = useAtom(userAtom);
   const [mapConfig, setMapConfig] = useAtom(currentMapAtom);
   const setOpenSnackbar = useSetAtom(copySnackbarAtom);
   const setHiddenCategories = useSetAtom(hiddenCategoriesAtom);
+  const user = useAuthStore((state) => state.user);
+  const setNoteMarkers = useAuthStore((state) => state.setNoteMarkers);
 
+  console.log(user);
   //#endregion
-
-  //#region Lifecycle Hooks
-  React.useEffect(() => {
-    if (user && !appUser) {
-      setAppUser({
-        ...user,
-        noteMarkers: user.noteMarkers ?? [],
-        foundLocations: user.foundLocations ?? [],
-      });
-    }
-  }, [user, appUser, setAppUser]);
 
   React.useEffect(() => {
     if (!mapConfig) {
@@ -94,20 +83,17 @@ const DynamicMap = ({ user, data }: MapProps) => {
           {
             text: "Add note",
             callback: ({ latlng }: any) => {
-              setAppUser((prev) => ({
-                ...prev!,
-                noteMarkers: [
-                  ...(prev?.noteMarkers ?? []),
-                  {
-                    title: "",
-                    description: "",
-                    latitude: latlng.lat,
-                    longitude: latlng.lng,
-                    id: uuidv4(),
-                    mapSlug: params.slug,
-                  },
-                ],
-              }));
+              setNoteMarkers([
+                ...(user?.noteMarkers ?? []),
+                {
+                  title: "",
+                  description: "",
+                  latitude: latlng.lat,
+                  longitude: latlng.lng,
+                  id: uuidv4(),
+                  mapSlug: params.slug,
+                },
+              ]);
             },
           },
           {

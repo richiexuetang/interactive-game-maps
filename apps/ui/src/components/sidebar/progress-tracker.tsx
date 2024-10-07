@@ -16,10 +16,9 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import { useRouter } from "next/navigation";
 import React from "react";
-import { signOut } from "@/lib/firebase/auth";
 import { getBodyFont } from "@/lib/font";
 import {
   ADD_TO_USER_FOUND,
@@ -27,7 +26,8 @@ import {
   TOGGLE_HIDE_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { userAtom, currentMapAtom, triggeredMarkerAtom } from "@/store";
+import { currentMapAtom, triggeredMarkerAtom } from "@/store";
+import { useAuthStore } from "@/store/auth";
 
 export const ProgressTracker = () => {
   //#region Hooks
@@ -36,18 +36,22 @@ export const ProgressTracker = () => {
   const open = Boolean(anchorEl);
   const currentMap = useAtomValue(currentMapAtom);
   const setTriggerMarkerId = useSetAtom(triggeredMarkerAtom);
-  const [appUser, setAppUser] = useAtom(userAtom);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+  const removeUser = useAuthStore((state) => state.removeUser);
+  const user = useAuthStore((state) => state.user);
+  const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
+  const toggleHide = useAuthStore((state) => state.toggleHideFound);
+
   //#endregion
 
   if (!currentMap) return null;
 
   const { groups, locations, gameSlug } = currentMap;
-  const foundLocations = appUser?.foundLocations;
-  const email = appUser?.email;
+  const foundLocations = user?.foundLocations;
+  const email = user?.email;
 
   //#region Helper Functions
   const getCategoryInfoById = (categoryId: number) =>
@@ -68,38 +72,34 @@ export const ProgressTracker = () => {
 
   const handleMarkerFound = (markerId: number) => {
     if (email) {
+      let newFoundLocations: number[] = user.foundLocations;
+      const data = {
+        variables: { data: { email, location: markerId } },
+      };
       if (foundLocations?.includes(markerId)) {
-        removeLocation({
-          variables: { data: { email: appUser.email, location: markerId } },
-        });
-        const newFoundLocations = appUser.foundLocations.filter(
-          (location) => location !== markerId
-        );
-        setAppUser({ ...appUser, foundLocations: newFoundLocations });
+        removeLocation(data);
+        newFoundLocations.filter((location) => location !== markerId);
       } else {
-        addLocation({
-          variables: { data: { email: appUser.email, location: markerId } },
-        });
-        const newFoundLocations = [...appUser.foundLocations, markerId];
-        setAppUser({ ...appUser, foundLocations: newFoundLocations });
+        addLocation(data);
+        newFoundLocations.push(markerId);
       }
+      setFoundLocations(newFoundLocations);
     }
   };
 
   const toggleHideFound = () => {
-    if (appUser) {
-      const hide = !appUser.hideFound;
+    if (user) {
+      const hide = !user.hideFound;
 
       toggleUserHideFound({
-        variables: { data: { email: appUser.email, hide } },
+        variables: { data: { email, hide } },
       });
-      setAppUser({ ...appUser, hideFound: hide });
+      toggleHide(hide);
     }
   };
 
   const signOutUser = async () => {
-    await signOut();
-    setAppUser(null);
+    removeUser();
     router.back();
   };
 
@@ -140,17 +140,17 @@ export const ProgressTracker = () => {
           Progress Tracker
         </Typography>
         <Divider sx={{ mb: 2 }} />
-        {appUser ? (
+        {user ? (
           <Box display="flex" flexDirection="column">
             <Button
               variant="text"
               sx={{ color: "var(--accent-color)" }}
               startIcon={
-                appUser?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
+                user?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
               }
               onClick={toggleHideFound}
             >
-              {appUser?.hideFound ? "Show Found" : "Hide Found"}
+              {user?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
             <Button onClick={signOutUser}>Log out</Button>
             {groups?.map(({ categories }) =>
@@ -182,7 +182,7 @@ export const ProgressTracker = () => {
                               }}
                             >
                               <Checkbox
-                                checked={appUser?.foundLocations?.includes(
+                                checked={user?.foundLocations?.includes(
                                   markerId
                                 )}
                                 size="small"

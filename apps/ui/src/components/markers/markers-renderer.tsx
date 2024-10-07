@@ -9,18 +9,18 @@ import {
   hiddenCategoriesAtom,
   searchFilterMarkerAtom,
   triggeredMarkerAtom,
-  userAtom,
 } from "@/store";
+import { useAuthStore } from "@/store/auth";
 
 export const MarkerRenderer = () => {
   const params = useParams<{ slug: string }>();
 
   const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
   const currentMap = useAtomValue(currentMapAtom);
-  const appUser = useAtomValue(userAtom);
   const boundedRegion = useAtomValue(boundedRegionAtom);
   const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
   const searchMarkers = useAtomValue(searchFilterMarkerAtom);
+  const user = useAuthStore((state) => state.user);
 
   if (!currentMap) return null;
 
@@ -59,9 +59,9 @@ export const MarkerRenderer = () => {
           }
           return null;
         }
-        const markerFound = appUser?.foundLocations.includes(id);
+        const markerFound = user?.foundLocations.includes(id);
 
-        if (markerFound && appUser?.hideFound) return null;
+        if (markerFound && user?.hideFound) return null;
         if (
           categoryId &&
           hiddenCategories.includes(categoryId) &&
@@ -72,7 +72,7 @@ export const MarkerRenderer = () => {
 
         return <Marker key={id} marker={marker} />;
       })}
-      {appUser?.noteMarkers?.map(
+      {user?.noteMarkers?.map(
         ({ latitude, longitude, title, description, mapSlug, id }, index) => {
           if (params.slug === mapSlug) {
             return (

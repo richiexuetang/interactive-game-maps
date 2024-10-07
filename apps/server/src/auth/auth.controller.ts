@@ -12,12 +12,6 @@ export class AuthController {
   @Get("google")
   async googleAuth(@Req() req) {}
 
-  @UseGuards(JwtGuard)
-  @Get("protected-route")
-  async protectedAuthRoute() {
-    return "I am protected";
-  }
-
   @UseGuards(GoogleOAuthGuard)
   @Get("google-auth-redirect")
   async googleAuthRedirect(@Req() req, @Res() res: Response) {

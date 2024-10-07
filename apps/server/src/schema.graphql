@@ -195,6 +195,10 @@ input RemoveNoteInput {
   id: Float!
 }
 
+type Subscription {
+  noteMarkerAdded: NoteMarker!
+}
+
 input UpdateFoundLocationInput {
   email: String!
   location: Float!

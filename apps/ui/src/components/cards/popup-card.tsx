@@ -13,19 +13,19 @@ import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import { useAtom, useSetAtom } from "jotai";
-import { useParams, useRouter } from "next/navigation";
+import { useSetAtom } from "jotai";
+import { useParams } from "next/navigation";
 import * as React from "react";
 import { MediaView } from "./media-view";
 import { Location } from "@/__generated__/graphql";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
-import { signInWithGoogle } from "@/lib/firebase/auth";
 import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { copySnackbarAtom, userAtom } from "@/store";
+import { copySnackbarAtom } from "@/store";
+import { useAuthStore } from "@/store/auth";
 
 interface PopupCardProps {
   marker: Location;
@@ -49,11 +49,10 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   } = marker;
   const setCopyLinkTrigger = useSetAtom(copySnackbarAtom);
   const params = useParams();
+  const user = useAuthStore((state) => state.user);
+  const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
 
-  const [currentUser, setCurrentUser] = useAtom(userAtom);
-
-  const markerFound = currentUser?.foundLocations.includes(id);
-  const router = useRouter();
+  const markerFound = user?.foundLocations.includes(id);
 
   const copy = useClipboardCopyFn();
 
@@ -62,26 +61,22 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
 
   const handleLogin = async () => {
     window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`;
-    // const ok = await signInWithGoogle();
-    // if (ok) {
-    //   router.refresh();
-    // }
   };
 
   const handleMarkerFound = () => {
-    if (currentUser?.email) {
-      const variables = { data: { email: currentUser.email, location: id } };
+    if (user?.email) {
+      const variables = { data: { email: user.email, location: id } };
       let newFoundLocations = [];
       if (markerFound) {
         removeLocation({ variables });
-        newFoundLocations = currentUser.foundLocations.filter(
+        newFoundLocations = user.foundLocations.filter(
           (location) => location !== id
         );
       } else {
         addLocation({ variables });
-        newFoundLocations = [...currentUser.foundLocations, id];
+        newFoundLocations = [...user.foundLocations, id];
       }
-      setCurrentUser({ ...currentUser, foundLocations: newFoundLocations });
+      setFoundLocations(newFoundLocations);
     }
   };
 
@@ -144,7 +139,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         {id}
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
-        {currentUser?.email ? (
+        {user?.email ? (
           <FormControlLabel
             control={
               <Checkbox checked={markerFound} onChange={handleMarkerFound} />
