@@ -1,3 +1,4 @@
+import { gql } from "@apollo/client";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
@@ -9,11 +10,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { Game } from "@/__generated__/graphql";
 import { getClient } from "@/lib/graphql/apollo-client";
-import { FETCH_GAMES } from "@/lib/graphql/constants";
 
 export default async function Page() {
   const { data } = await getClient().query({
-    query: FETCH_GAMES,
+    query: gql(`
+    query {
+      games {
+        slug
+        title
+      }
+    }
+  `),
   });
 
   return (

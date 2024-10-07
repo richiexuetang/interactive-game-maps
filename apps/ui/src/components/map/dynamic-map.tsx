@@ -44,7 +44,6 @@ const DynamicMap = ({ data }: MapProps) => {
   const user = useAuthStore((state) => state.user);
   const setNoteMarkers = useAuthStore((state) => state.setNoteMarkers);
 
-  console.log(user);
   //#endregion
 
   React.useEffect(() => {

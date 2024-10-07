@@ -46,8 +46,6 @@ export default async function RegionPage({
     variables: { id: Number(params.categoryId) },
   });
 
-  console.log(locationsData.locations);
-
   return (
     <div className={cn(params.gameSlug, "bg-bodyBackground h-[100vh]")}>
       <MainNav />

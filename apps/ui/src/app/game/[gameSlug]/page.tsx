@@ -1,3 +1,4 @@
+import { gql } from "@apollo/client";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
@@ -8,7 +9,6 @@ import Link from "next/link";
 import { Group, Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
 import { getFontClassName } from "@/lib/font";
-import { getMetaData } from "@/lib/graphql/api";
 import { getClient } from "@/lib/graphql/apollo-client";
 import { FETCH_GAME_MAP_DETAILS } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
@@ -18,16 +18,24 @@ export async function generateMetadata({
 }: {
   params: { gameSlug: string };
 }): Promise<Metadata> {
-  const game = await getMetaData(params.gameSlug);
-
-  const { title } = game;
+  const { gameSlug } = params;
+  const { data } = await getClient().query({
+    query: gql(`
+    query GetGames($slug: String!) {
+      game(slug: $slug) {
+        slug
+        title
+      }
+    }`),
+    variables: { slug: gameSlug },
+  });
+  const game = data.game;
   return {
-    title: `${title} | Ritcher Map`,
-    description: `Explore ${title} on Ritcher Map and track all in-game locations.`,
+    title: `${game.title} | Ritcher Map`,
+    description: `Explore ${game.title} on Ritcher Map and track all in-game locations.`,
     openGraph: {
       images: [
-        process.env.CDN_BASE_URL +
-          `images/games/${params.gameSlug}/preview.png`,
+        process.env.CDN_BASE_URL + `images/games/${gameSlug}/preview.png`,
       ],
     },
     icons: {
@@ -37,20 +45,20 @@ export async function generateMetadata({
           sizes: "16x16",
           href:
             process.env.CDN_BASE_URL +
-            `images/games/${params.gameSlug}/favicon-16x16.png`,
+            `images/games/${gameSlug}/favicon-16x16.png`,
           url:
             process.env.CDN_BASE_URL +
-            `images/games/${params.gameSlug}/favicon-16x16.png`,
+            `images/games/${gameSlug}/favicon-16x16.png`,
         },
         {
           type: "image/png",
           sizes: "32x32",
           href:
             process.env.CDN_BASE_URL +
-            `images/games/${params.gameSlug}/favicon-32x32.png`,
+            `images/games/${gameSlug}/favicon-32x32.png`,
           url:
             process.env.CDN_BASE_URL +
-            `images/games/${params.gameSlug}/favicon-32x32.png`,
+            `images/games/${gameSlug}/favicon-32x32.png`,
         },
       ],
       apple:

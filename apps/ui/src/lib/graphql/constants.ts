@@ -18,35 +18,6 @@ export const REMOVE_FROM_USER_FOUND = gql`
   }
 `;
 
-export const GET_CURRENT_USER = gql(`
-query GetUser($email: String!) {
-  getUser(email: $email) {
-    email,
-    foundLocations,
-    hideFound,
-    noteMarkers {
-      id
-      title
-      description
-      mapSlug
-      latitude
-      longitude
-    }
-  }
-}`);
-
-export const CREATE_APP_USER = gql(
-  `
-  mutation CreateUser($data: CreateUserInput!) {
-    createUser(data: $data) {
-      email
-      username
-      foundLocations
-    }
-  }
-  `
-);
-
 export const TOGGLE_HIDE_FOUND = gql(
   `
 mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
@@ -110,43 +81,6 @@ query MapData($slug: String!) {
     }
   }
 }`);
-
-export const GET_MAP_REGIONS = gql(`
-  query GetRegionsByMap($slug: String!) {
-    getRegionsByMap(slug: $slug) {
-      centerX
-      centerY
-      title
-      coordinates
-    }
-  }
-  `);
-
-export const FETCH_GAMES = gql(/* GraphQL */ `
-  query {
-    games {
-      slug
-      title
-    }
-  }
-`);
-
-export const FETCH_GAME_META_DATA = gql(`
-query GetGames($slug: String!) {
-  game(slug: $slug) {
-    slug
-    title
-  }
-}`);
-
-export const FETCH_MAP_DETAILS = gql`
-  query MapDetails($slug: String!) {
-    mapDetails(slug: $slug) {
-      gameSlug
-      title
-    }
-  }
-`;
 
 export const FETCH_GAME_MAP_DETAILS = gql`
   query FetchGameByMap($slug: String!) {
