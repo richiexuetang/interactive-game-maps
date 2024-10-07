@@ -30,6 +30,7 @@ async function bootstrap() {
     app.enableCors({
       origin: [
         "http://localhost:3000", // React Server
+        "https://ritcher-map-v2.vercel.app",
       ],
       credentials: true,
     });
