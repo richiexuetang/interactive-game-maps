@@ -1,11 +1,12 @@
 FROM node:18-alpine AS base
 
-RUN npm i -g pnpm
+RUN npm i -g pnpm@9.12.0
 
 FROM base AS dependencies
 
 WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
+COPY /prisma ./prisma/
 RUN pnpm install
 
 FROM base AS build

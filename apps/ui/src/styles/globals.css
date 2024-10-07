@@ -73,7 +73,7 @@
 }
 
 .gesture {
-  background-position: -297px -88px;
+  background-position: -264px -88px;
 }
 
 .golden_rune {
@@ -81,7 +81,7 @@
 }
 
 .golden_seed {
-  background-position: -396px -88px;
+  background-position: -363px -88px;
 }
 
 .item {
@@ -105,7 +105,7 @@
 }
 
 .quest {
-  background-position: -99px -220px;
+  background-position: -200px -220px;
 }
 
 .rebirth_monument {
@@ -129,7 +129,7 @@
 }
 
 .spirit_ashes {
-  background-position: -330px -264px;
+  background-position: -297px -264px;
 }
 
 .stone_cairn {
@@ -199,7 +199,10 @@
   background-position: -66px 0;
 }
 
-.sorcery,
+.sorcery {
+  background-position: -165px 0;
+}
+
 .spell {
   background-position: -99px 0;
 }
@@ -320,7 +323,7 @@
 }
 
 .side_quest {
-  background-position: -132px -176px;
+  background-position: -99px -352px;
 }
 
 .divine_tower {
@@ -341,7 +344,7 @@
 }
 
 .ghost {
-  background-position: -330px -88px;
+  background-position: -297px -88px;
 }
 
 .dragon_shrine {
@@ -355,7 +358,7 @@
 .great_glovewort,
 .glovewort,
 .ghost_glovewort {
-  background-position: -429px -88px;
+  background-position: -396px -88px;
 }
 
 .elevator {
@@ -367,7 +370,7 @@
 }
 
 .evergaol {
-  background-position: -264px -88px;
+  background-position: -231px -88px;
 }
 
 .elite_enemy {

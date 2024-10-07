@@ -21,5 +21,9 @@ services:
       - "5432:5432"
     env_file:
       - .env
-    # volumes:
-    #   - postgres:/var/lib/postgresql/data
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+volumes:
+  postgres:
+    name: map-db

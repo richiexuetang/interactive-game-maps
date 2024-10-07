@@ -68,6 +68,7 @@ query MapData($slug: String!) {
         slug
       }
       groups {
+        id
         title
         categories {
           id

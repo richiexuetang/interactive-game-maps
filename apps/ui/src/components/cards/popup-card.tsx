@@ -60,7 +60,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
   const handleLogin = async () => {
-    window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`;
+    window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/auth/google`;
   };
 
   const handleMarkerFound = () => {

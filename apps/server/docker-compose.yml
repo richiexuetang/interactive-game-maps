@@ -1,12 +1,13 @@
-version: "3.8"
+version: "3"
 services:
-  nest-api:
-    container_name: nest-api
+  app:
+    image: ritcher-map-api
     build:
       context: .
       dockerfile: Dockerfile
+      target: deploy
     ports:
-      - "5001:5001"
+      - 5001:5001
     depends_on:
       - postgres
     env_file:
@@ -25,4 +26,4 @@ services:
 
 volumes:
   postgres:
-    name: nest-db
+    name: map-db

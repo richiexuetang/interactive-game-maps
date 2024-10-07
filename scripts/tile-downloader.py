@@ -62,7 +62,7 @@ y_highs = {
     17: 65445
 }
 regions = [
-    # "hyrule"
+    "hyrule"
     # "white-orchard",
     # "velen-novigrad",
     # "skellige",
@@ -70,18 +70,18 @@ regions = [
     # "toussaint",
     # "fablesphere",
     # "isle-of-mists"
-    "chapter-1",
-    "chapter-2",
-    "chapter-3",
-    "chapter-4",
-    "chapter-5",
-    "chapter-6",
+    # "chapter-1",
+    # "chapter-2",
+    # "chapter-3",
+    # "chapter-4",
+    # "chapter-5",
+    # "chapter-6",
 ]
 
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"
             "apps/ui/public/tiles")
 
-game_name = "black-myth-wukong"
+game_name = "zelda-tears-of-the-kingdom"
 
 base_uri = "https://tiles.mapgenie.io/games/"
 

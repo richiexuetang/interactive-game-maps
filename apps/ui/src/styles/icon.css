@@ -20,7 +20,7 @@
 }
 
 .icon-side_quest:before {
-    content: "\E90B";
+    content: "\E972";
     color: #fff;
 }
 
@@ -349,7 +349,7 @@
 .icon-ghost_glovewort:before,
 .icon-great_glovewort:before,
 .icon-glovewort:before {
-    content: "\e941";
+    content: "\e93d";
     color: #fff;
 }
 

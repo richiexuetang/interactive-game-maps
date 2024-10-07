@@ -58,6 +58,7 @@ export const Menu = ({ map }: MenuProps) => {
    * @returns
    */
   const handleGroupHide = (groupId: number) => {
+    console.log(groupId)
     const cats = groups.find((group) => group.id === groupId)?.categories;
     if (!cats) return;
 

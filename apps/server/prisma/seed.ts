@@ -44,16 +44,16 @@ async function seedGame(game: any) {
 
     if (regions) {
       for (let j = 0; j < regions.length; j++) {
-        const region = regions[j];
-        const coordinatesString = region.coordinates
+        const map = regions[j];
+        const coordinatesString = map.coordinates
           .map((coord: any) => coord.join(" "))
           .join(", ");
         const coord = `POLYGON((${coordinatesString}))`;
         await prisma.$queryRaw`
                 INSERT INTO "Region" (coordinates, title, "mapSlug", "centerX", "centerY")
-                VALUES (ST_GeomFromText(${coord},4326), ${region.title}, ${
+                VALUES (ST_GeomFromText(${coord},4326), ${map.title}, ${
           mapData.slug
-        }, ${region.centerX ?? null}, ${region.centerY ?? null})`;
+        }, ${map.centerX ?? null}, ${map.centerY ?? null})`;
       }
     }
   }
