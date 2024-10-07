@@ -10,7 +10,6 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { useAtomValue } from "jotai";
 import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -23,8 +22,8 @@ import {
   REMOVE_USER_NOTE_MARKER,
   UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
-import { currentMapAtom } from "@/store";
 import { useAuthStore } from "@/store/auth";
+import { useMapStore } from "@/store/map";
 
 interface NoteMarkerProps {
   latitude: number;
@@ -50,7 +49,7 @@ export const NoteMarker = ({
     },
   });
 
-  const currentMap = useAtomValue(currentMapAtom);
+  const currentMap = useMapStore((state) => state.currentMap);
   const params = useParams<{ mapSlug: string }>();
   const div = document.createElement("div");
   div.className = `icon note-icon-1`;

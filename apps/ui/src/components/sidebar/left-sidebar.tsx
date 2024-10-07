@@ -4,7 +4,6 @@ import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid2";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { useAtom, useAtomValue } from "jotai";
 import * as L from "leaflet";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,11 +15,7 @@ import { ShowHideButtons } from "./components/show-hide-buttons";
 import { SidebarClose } from "./components/sidebar-close";
 import { getFontClassName } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import {
-  hiddenCategoriesAtom,
-  currentMapAtom,
-  boundedRegionAtom,
-} from "@/store";
+import { useMapStore } from "@/store/map";
 
 interface MenuProps {
   map: L.Map | null;
@@ -30,25 +25,31 @@ export const Menu = ({ map }: MenuProps) => {
   //#region Hooks
   const [showMenu, setShowMenu] = useState(true);
 
-  const currentMap = useAtomValue(currentMapAtom);
-  const [hiddenCats, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-  const [boundedRegion, setBoundedRegion] = useAtom(boundedRegionAtom);
+  const currentMap = useMapStore((state) => state.currentMap);
+  const setMap = useMapStore((state) => state.setCurrentMap);
+  const hidden = currentMap?.hiddenCategories ?? [];
   //#endregion
 
   if (!currentMap) return;
 
-  const { game, groups, locations } = currentMap;
+  const { game, groups, locations, hiddenCategories } = currentMap;
 
   //#region Helpers
   const handleHiddenCategory = (categoryId: number) => {
-    const alreadyHidden = hiddenCats.includes(categoryId);
+    const alreadyHidden = hiddenCategories.includes(categoryId);
     if (!alreadyHidden) {
-      setHiddenCategories((prev) => [...prev, categoryId]);
+      setMap({
+        ...currentMap,
+        hiddenCategories: [...hidden, categoryId],
+      });
       return;
     }
-    setHiddenCategories([
-      ...hiddenCats.filter((category) => category != categoryId),
-    ]);
+    setMap({
+      ...currentMap,
+      hiddenCategories: [
+        ...hidden.filter((category) => category != categoryId),
+      ],
+    });
   };
 
   /**
@@ -58,25 +59,27 @@ export const Menu = ({ map }: MenuProps) => {
    * @returns
    */
   const handleGroupHide = (groupId: number) => {
-    console.log(groupId)
     const cats = groups.find((group) => group.id === groupId)?.categories;
     if (!cats) return;
 
     const count = cats.filter((category) =>
-      hiddenCats.includes(category.id)
+      hidden.includes(category.id)
     ).length;
 
-    if (count == cats.length!) {
+    if (count == cats.length) {
       cats.map(
         ({ id }) =>
-          hiddenCats.includes(id) &&
-          setHiddenCategories((prev) => prev.filter((c) => c !== id))
+          hidden.includes(id) &&
+          setMap({
+            ...currentMap,
+            hiddenCategories: hidden.filter((c) => c !== id),
+          })
       );
     } else {
       cats.map(
         ({ id }) =>
-          !hiddenCats.includes(id) &&
-          setHiddenCategories((prev) => [...prev, id])
+          !currentMap.hiddenCategories.includes(id) &&
+          setMap({ ...currentMap, hiddenCategories: [...hidden, id] })
       );
     }
   };
@@ -120,10 +123,12 @@ export const Menu = ({ map }: MenuProps) => {
 
               <Divider orientation="horizontal" flexItem />
 
-              {boundedRegion && (
+              {currentMap?.boundedRegion && (
                 <Chip
-                  label={boundedRegion.title}
-                  onDelete={() => setBoundedRegion(null)}
+                  label={currentMap.boundedRegion.title}
+                  onDelete={() =>
+                    setMap({ ...currentMap!, boundedRegion: null })
+                  }
                 />
               )}
               <MarkerSearch map={map} />
@@ -166,8 +171,9 @@ export const Menu = ({ map }: MenuProps) => {
                             size={6}
                             key={category.title}
                             className={cn(
-                              hiddenCats.includes(category.id) &&
-                                "line-through opacity-80"
+                              currentMap.hiddenCategories.includes(
+                                category.id
+                              ) && "line-through opacity-80"
                             )}
                           >
                             <div

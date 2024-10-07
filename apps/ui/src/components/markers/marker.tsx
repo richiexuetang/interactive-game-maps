@@ -1,5 +1,4 @@
 import { useMutation } from "@apollo/client";
-import { useAtomValue } from "jotai";
 import * as L from "leaflet";
 import { useParams, useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
@@ -10,8 +9,8 @@ import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
-import { highlightedMarkerAtom, triggeredMarkerAtom } from "@/store";
 import { useAuthStore } from "@/store/auth";
+import { useMapStore } from "@/store/map";
 
 interface MarkerProps {
   marker: Location;
@@ -21,27 +20,29 @@ export const Marker = ({ marker }: MarkerProps) => {
   const map = RL.useMap();
   const params = useParams<{ slug: string; gameSlug: string }>();
   const { id, title, latitude, longitude, category } = marker;
+
+  const currentMap = useMapStore((state) => state.currentMap);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
-  const highlightMarker = useAtomValue(highlightedMarkerAtom);
   const user = useAuthStore((state) => state.user);
   const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
   const { icon } = category!;
 
-  const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
   // build div icon
   const div = document.createElement("div");
-  div.className = `icon ${icon} ${highlightMarker === id ? "highlight" : ""}`;
+  div.className = `icon ${icon} ${
+    currentMap?.highlightMarkerId === id ? "highlight" : ""
+  }`;
 
   const searchParams = useSearchParams();
   const markerRef = useRef<L.Marker>(null);
 
   useEffect(() => {
-    if (triggeredMarkerId === id && markerRef?.current) {
+    if (currentMap?.triggeredMarkerPopup === id && markerRef?.current) {
       map.setView([latitude, longitude]);
       markerRef.current.openPopup();
     }
-  }, [id, latitude, longitude, map, triggeredMarkerId]);
+  }, [currentMap?.triggeredMarkerPopup, id, latitude, longitude, map]);
 
   useEffect(() => {
     const markerId = searchParams.get("marker");

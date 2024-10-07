@@ -1,7 +1,6 @@
 "use client";
 
 import { CssBaseline, Theme, ThemeProvider, createTheme } from "@mui/material";
-import { Provider } from "jotai";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import type { Map } from "@/__generated__/graphql";
@@ -27,19 +26,17 @@ const RitcherMap = ({ data }: MapProps) => {
   }, [data]);
 
   return (
-    <Provider>
-      <ThemeProvider
-        theme={(theme: Theme) =>
-          createTheme({
-            ...theme,
-            ...innerTheme,
-          })
-        }
-      >
-        <CssBaseline />
-        <Map data={data} />
-      </ThemeProvider>
-    </Provider>
+    <ThemeProvider
+      theme={(theme: Theme) =>
+        createTheme({
+          ...theme,
+          ...innerTheme,
+        })
+      }
+    >
+      <CssBaseline />
+      <Map data={data} />
+    </ThemeProvider>
   );
 };
 

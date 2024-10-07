@@ -10,27 +10,17 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import React, { useState } from "react";
 import { useDebounceCallback } from "@/hooks";
 import { cn } from "@/lib/utils";
-import {
-  currentMapAtom,
-  highlightedMarkerAtom,
-  searchFilterMarkerAtom,
-  triggeredMarkerAtom,
-} from "@/store";
+import { useMapStore } from "@/store/map";
 
 export const MarkerSearch = ({ map }: any) => {
   const [searchKeyword, setSearchKeyword] = useState("");
-  const setHighlightedMarker = useSetAtom(highlightedMarkerAtom);
-  const [searchFilterMarker, setSearchFilterMarker] = useAtom(
-    searchFilterMarkerAtom
-  );
-  const setTriggeredMarkerId = useSetAtom(triggeredMarkerAtom);
+  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
+  const currentMap = useMapStore((state) => state.currentMap);
   const [showFiltered, setShowFiltered] = useState(false);
-  const currentMap = useAtomValue(currentMapAtom);
-  const debounced = useDebounceCallback(setSearchFilterMarker, 500);
+  const debounced = useDebounceCallback(setCurrentMap, 500);
 
   const inputSearchChange = (input: string) => {
     setSearchKeyword(input);
@@ -41,7 +31,7 @@ export const MarkerSearch = ({ map }: any) => {
     if (input === "") {
       filtered = [];
     }
-    debounced(filtered);
+    debounced({ ...currentMap!, searchFilterMarkers: filtered });
   };
 
   return (
@@ -61,7 +51,10 @@ export const MarkerSearch = ({ map }: any) => {
                   <ClearIcon
                     onClick={() => {
                       setSearchKeyword("");
-                      setSearchFilterMarker([]);
+                      setCurrentMap({
+                        ...currentMap!,
+                        searchFilterMarkers: [],
+                      });
                     }}
                     sx={{ cursor: "pointer" }}
                   />
@@ -73,53 +66,66 @@ export const MarkerSearch = ({ map }: any) => {
           },
         }}
       />
-      {searchFilterMarker?.length > 0 && showFiltered && (
-        <List>
-          {searchFilterMarker.map((marker) => (
-            <React.Fragment key={marker.id}>
-              <ListItem
-                onPointerEnter={() => {
-                  setHighlightedMarker(marker.id);
-                }}
-                onPointerLeave={() => setHighlightedMarker(null)}
-                alignItems="flex-start"
-                onClick={() => {
-                  map?.setView([marker.latitude, marker.longitude], 13);
-                  setTriggeredMarkerId(marker.id);
-                }}
-                key={marker.id}
-                sx={{ cursor: "pointer" }}
-                disablePadding
-              >
-                <ListItemButton>
-                  <ListItemAvatar>
-                    <Avatar>
-                      <span className={cn(`icon-${marker.category?.icon}`)} />
-                    </Avatar>
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={marker.title}
-                    secondary={
-                      <Typography
-                        component="span"
-                        variant="body2"
-                        sx={{
-                          color: "text.primary",
-                          display: "inline",
-                          lineHeight: 2,
-                        }}
-                      >
-                        {marker.category?.title}
-                      </Typography>
-                    }
-                  />
-                </ListItemButton>
-              </ListItem>
-              <Divider variant="inset" component="li" />
-            </React.Fragment>
-          ))}
-        </List>
-      )}
+      {currentMap &&
+        currentMap.searchFilterMarkers.length > 0 &&
+        showFiltered && (
+          <List>
+            {currentMap?.searchFilterMarkers.map((marker) => (
+              <React.Fragment key={marker.id}>
+                <ListItem
+                  onPointerEnter={() => {
+                    setCurrentMap({
+                      ...currentMap!,
+                      highlightMarkerId: marker.id,
+                    });
+                  }}
+                  onPointerLeave={() =>
+                    setCurrentMap({
+                      ...currentMap!,
+                      highlightMarkerId: null,
+                    })
+                  }
+                  alignItems="flex-start"
+                  onClick={() => {
+                    map?.setView([marker.latitude, marker.longitude], 13);
+                    setCurrentMap({
+                      ...currentMap!,
+                      triggeredMarkerPopup: marker.id,
+                    });
+                  }}
+                  key={marker.id}
+                  sx={{ cursor: "pointer" }}
+                  disablePadding
+                >
+                  <ListItemButton>
+                    <ListItemAvatar>
+                      <Avatar>
+                        <span className={cn(`icon-${marker.category?.icon}`)} />
+                      </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText
+                      primary={marker.title}
+                      secondary={
+                        <Typography
+                          component="span"
+                          variant="body2"
+                          sx={{
+                            color: "text.primary",
+                            display: "inline",
+                            lineHeight: 2,
+                          }}
+                        >
+                          {marker.category?.title}
+                        </Typography>
+                      }
+                    />
+                  </ListItemButton>
+                </ListItem>
+                <Divider variant="inset" component="li" />
+              </React.Fragment>
+            ))}
+          </List>
+        )}
     </>
   );
 };

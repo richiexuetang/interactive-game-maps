@@ -13,7 +13,6 @@ import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import { useSetAtom } from "jotai";
 import { useParams } from "next/navigation";
 import * as React from "react";
 import { MediaView } from "./media-view";
@@ -24,8 +23,8 @@ import {
   REMOVE_FROM_USER_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { copySnackbarAtom } from "@/store";
 import { useAuthStore } from "@/store/auth";
+import { useMapStore } from "@/store/map";
 
 interface PopupCardProps {
   marker: Location;
@@ -47,10 +46,10 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
-  const setCopyLinkTrigger = useSetAtom(copySnackbarAtom);
   const params = useParams();
   const user = useAuthStore((state) => state.user);
   const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
+  const toggleCopySnackbar = useMapStore((state) => state.toggleCopySnackbar);
 
   const markerFound = user?.foundLocations.includes(id);
 
@@ -107,7 +106,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                     copy(
                       `${process.env.NEXT_PUBLIC_APP_BASE_URL}/map/${params?.slug}?marker=${marker.id}`
                     ).then(() => {
-                      setCopyLinkTrigger(true);
+                      toggleCopySnackbar();
                     })
                   }
                 />

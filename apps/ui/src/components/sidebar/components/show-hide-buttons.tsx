@@ -1,7 +1,6 @@
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import { useAtom, useAtomValue } from "jotai";
-import { currentMapAtom, hiddenCategoriesAtom } from "@/store";
+import { useMapStore } from "@/store/map";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",
@@ -23,24 +22,32 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 }));
 
 export const ShowHideButtons = () => {
-  const [hiddenCategories, setHiddenCategories] = useAtom(hiddenCategoriesAtom);
-  const map = useAtomValue(currentMapAtom);
+  const setMap = useMapStore((state) => state.setCurrentMap);
+  const currentMap = useMapStore((state) => state.currentMap);
+  const map = useMapStore((state) => state.currentMap);
+  const hidden = currentMap?.hiddenCategories ?? [];
 
   const showAll = () => {
     map?.groups?.map((group) =>
       group.categories?.map((category) => {
-        if (hiddenCategories.includes(category.id)) {
-          setHiddenCategories((prev) => prev.filter((p) => p !== category.id));
+        if (hidden.includes(category.id)) {
+          setMap({
+            ...currentMap!,
+            hiddenCategories: hidden.filter((c) => c !== category.id),
+          });
         }
       })
     );
   };
 
   const hideAll = () => {
-    map?.groups?.map((group) =>
-      group.categories?.map((category) => {
-        if (!hiddenCategories.includes(category.id)) {
-          setHiddenCategories((prev) => [...prev, category.id]);
+    map?.groups?.map(({ categories }) =>
+      categories?.map(({ id }) => {
+        if (!hidden.includes(id)) {
+          setMap({
+            ...currentMap!,
+            hiddenCategories: [...hidden, id],
+          });
         }
       })
     );

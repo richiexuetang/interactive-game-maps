@@ -16,7 +16,6 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import { useAtomValue, useSetAtom } from "jotai";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { getBodyFont } from "@/lib/font";
@@ -26,16 +25,16 @@ import {
   TOGGLE_HIDE_FOUND,
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
-import { currentMapAtom, triggeredMarkerAtom } from "@/store";
 import { useAuthStore } from "@/store/auth";
+import { useMapStore } from "@/store/map";
 
 export const ProgressTracker = () => {
   //#region Hooks
   const router = useRouter();
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
-  const currentMap = useAtomValue(currentMapAtom);
-  const setTriggerMarkerId = useSetAtom(triggeredMarkerAtom);
+  const currentMap = useMapStore((state) => state.currentMap);
+  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
@@ -198,7 +197,12 @@ export const ProgressTracker = () => {
                                     height: 15,
                                     cursor: "pointer",
                                   }}
-                                  onClick={() => setTriggerMarkerId(markerId)}
+                                  onClick={() =>
+                                    setCurrentMap({
+                                      ...currentMap,
+                                      triggeredMarkerPopup: markerId,
+                                    })
+                                  }
                                 />
                               </IconButton>
                             </AccordionDetails>

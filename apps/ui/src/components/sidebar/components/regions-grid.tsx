@@ -2,9 +2,8 @@ import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
-import { useAtomValue, useSetAtom } from "jotai";
 import React from "react";
-import { focusRegionIdAtom, currentMapAtom, boundedRegionAtom } from "@/store";
+import { useMapStore } from "@/store/map";
 
 const UnderlineButton = styled(Button)(({ theme }) => ({
   boxShadow: "none",
@@ -25,9 +24,8 @@ const UnderlineButton = styled(Button)(({ theme }) => ({
 }));
 
 export const RegionsGrid = () => {
-  const currentMap = useAtomValue(currentMapAtom);
-  const setSubRegionId = useSetAtom(focusRegionIdAtom);
-  const setBoundedRegion = useSetAtom(boundedRegionAtom);
+  const currentMap = useMapStore((state) => state.currentMap);
+  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
 
   if (!currentMap || currentMap.regions?.length === 0) return;
   const { regions } = currentMap;
@@ -39,10 +37,12 @@ export const RegionsGrid = () => {
         {regions?.map((region) => (
           <div key={region.title} className="flex flex-start">
             <UnderlineButton
-              onClick={() => setSubRegionId(region.title)}
+              onClick={() =>
+                setCurrentMap({ ...currentMap, focusedRegionId: region.title })
+              }
               onContextMenu={(e) => {
                 e.preventDefault();
-                setBoundedRegion(region);
+                setCurrentMap({ ...currentMap!, boundedRegion: region });
               }}
               sx={{ fontSize: 14, whiteSpace: "nowrap" }}
               variant="text"

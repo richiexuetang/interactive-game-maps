@@ -1,8 +1,7 @@
-import { useAtom } from "jotai";
 import * as L from "leaflet";
 import { useEffect, useRef, useState } from "react";
 import { Marker, Polygon, useMap } from "react-leaflet";
-import { focusRegionIdAtom } from "@/store";
+import { useMapStore } from "@/store/map";
 
 interface RegionLayerProps {
   positions?: number[][][] | null;
@@ -10,17 +9,20 @@ interface RegionLayerProps {
   centerX?: number | null;
   centerY?: number | null;
 }
+
 export const RegionLayer = ({
   positions,
   id,
   centerX,
   centerY,
 }: RegionLayerProps) => {
-  const [triggerRegion, setTriggerRegion] = useAtom(focusRegionIdAtom);
   const polygonRef = useRef<L.Polygon | null>(null);
   const map = useMap();
   const [center, setCenter] = useState<L.LatLng | null>(null);
+  const currentMap = useMapStore((state) => state.currentMap);
+  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
 
+  //#region Hooks
   useEffect(() => {
     if (polygonRef?.current) {
       const center = polygonRef.current.getBounds().getCenter();
@@ -29,14 +31,15 @@ export const RegionLayer = ({
   }, [polygonRef]);
 
   useEffect(() => {
-    if (triggerRegion && triggerRegion === id) {
+    if (currentMap?.focusedRegionId && currentMap.focusedRegionId === id) {
       const bounds = polygonRef?.current?.getBounds();
       if (bounds) {
         map.fitBounds(bounds);
       }
-      setTriggerRegion(null);
+      setCurrentMap({ ...currentMap, focusedRegionId: null });
     }
-  }, [id, map, setTriggerRegion, triggerRegion]);
+  }, [currentMap, currentMap?.focusedRegionId, id, map, setCurrentMap]);
+  //#endregion
 
   const iconWidth = id.length * 10;
 
@@ -47,9 +50,7 @@ export const RegionLayer = ({
     html: `${id}`,
   });
 
-  if (!positions) {
-    return null;
-  }
+  if (!positions) return null;
 
   return (
     <>

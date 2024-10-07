@@ -1,25 +1,14 @@
-import { useAtomValue } from "jotai";
 import { useParams } from "next/navigation";
 import * as React from "react";
 import { Marker } from "./marker";
 import { NoteMarker } from "./note-marker";
-import {
-  boundedRegionAtom,
-  currentMapAtom,
-  hiddenCategoriesAtom,
-  searchFilterMarkerAtom,
-  triggeredMarkerAtom,
-} from "@/store";
 import { useAuthStore } from "@/store/auth";
+import { useMapStore } from "@/store/map";
 
 export const MarkerRenderer = () => {
   const params = useParams<{ slug: string }>();
 
-  const hiddenCategories = useAtomValue(hiddenCategoriesAtom);
-  const currentMap = useAtomValue(currentMapAtom);
-  const boundedRegion = useAtomValue(boundedRegionAtom);
-  const triggeredMarkerId = useAtomValue(triggeredMarkerAtom);
-  const searchMarkers = useAtomValue(searchFilterMarkerAtom);
+  const currentMap = useMapStore((state) => state.currentMap);
   const user = useAuthStore((state) => state.user);
 
   if (!currentMap) return null;
@@ -35,7 +24,9 @@ export const MarkerRenderer = () => {
     return [minX, minY, maxX, maxY];
   }
   const flattenBounds = getMarkerBounds(
-    boundedRegion?.coordinates ? boundedRegion.coordinates[0] : null
+    currentMap?.boundedRegion?.coordinates
+      ? currentMap?.boundedRegion.coordinates[0]
+      : null
   );
 
   return (
@@ -53,8 +44,10 @@ export const MarkerRenderer = () => {
             return null;
           }
         }
-        if (searchMarkers.length) {
-          if (searchMarkers.find((marker) => marker.id === id)) {
+        if (currentMap?.searchFilterMarkers.length > 0) {
+          if (
+            currentMap?.searchFilterMarkers.find((marker) => marker.id === id)
+          ) {
             return <Marker key={id} marker={marker} />;
           }
           return null;
@@ -64,8 +57,8 @@ export const MarkerRenderer = () => {
         if (markerFound && user?.hideFound) return null;
         if (
           categoryId &&
-          hiddenCategories.includes(categoryId) &&
-          id !== triggeredMarkerId
+          currentMap.hiddenCategories.includes(categoryId) &&
+          id !== currentMap?.triggeredMarkerPopup
         ) {
           return null;
         }

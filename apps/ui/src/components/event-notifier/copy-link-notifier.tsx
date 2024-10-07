@@ -1,11 +1,10 @@
 import Alert from "@mui/material/Alert";
 import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
-import { useAtom } from "jotai";
 import { useParams } from "next/navigation";
 import { SyntheticEvent } from "react";
 import { useMapEvents } from "react-leaflet";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
-import { copySnackbarAtom } from "@/store";
+import { useMapStore } from "@/store/map";
 
 /**
  * Displays a snackbar notification when a user copies a link from popup or context menu.
@@ -14,7 +13,8 @@ import { copySnackbarAtom } from "@/store";
  * @returns {React.ReactElement}
  */
 export const CopyLinkNotifier = () => {
-  const [openSnackbar, setOpenSnackbar] = useAtom(copySnackbarAtom);
+  const currentMap = useMapStore((state) => state.currentMap);
+  const toggleCopySnackbar = useMapStore((state) => state.toggleCopySnackbar);
   const params = useParams();
 
   const copy = useClipboardCopyFn();
@@ -33,12 +33,14 @@ export const CopyLinkNotifier = () => {
     _?: Event | SyntheticEvent<any, Event>,
     reason?: SnackbarCloseReason
   ) => {
-    setOpenSnackbar(reason === "clickaway" ? openSnackbar : false);
+    if (reason === "clickaway") {
+      toggleCopySnackbar();
+    }
   };
 
   return (
     <Snackbar
-      open={openSnackbar ?? false}
+      open={currentMap?.copySnackbar! ?? false}
       autoHideDuration={5000}
       onClose={handleSnackbarClose}
       anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
