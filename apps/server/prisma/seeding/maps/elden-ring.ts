@@ -6,7 +6,7 @@ export const eldenRing = {
       slug: "the-lands-between",
       title: "The Lands Between",
       minZoom: 8,
-      maxZoom: 17,
+      maxZoom: 16,
       zoom: 13,
       center: [0.65676201402282, -0.76234815932221],
       regions: [

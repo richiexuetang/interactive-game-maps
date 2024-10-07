@@ -498,17 +498,7 @@
     color: #fff;
 }
 
-.icon-licorice:before,
-.icon-nine-capped_lingzhi:before,
-.icon-aged_ginseng:before,
-.icon-celestial_pear:before,
-.icon-gentian:before,
-.icon-fire_bellflower:before,
-.icon-jade_lotus:before,
-.icon-millenium_ginseng:before,
-.icon-purple_lingzhi:before,
-.icon-snake_head_mushroom:before,
-.icon-tree_pearl:before {
+.icon-materials:before {
     content: "\E95E";
     color: #fff;
 }

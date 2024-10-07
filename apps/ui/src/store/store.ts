@@ -33,3 +33,5 @@ export const copySnackbarAtom = atom<null | boolean>(false);
 export const searchFilterMarkerAtom = atom<Location[]>([]);
 export const triggeredMarkerAtom = atom<null | number>(null);
 export const highlightedMarkerAtom = atom<null | number>(null);
+export const markersRefAtom = atom<object>({});
+export const openPopupAtom = atom<null | number>(null);

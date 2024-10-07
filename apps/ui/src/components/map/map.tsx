@@ -34,21 +34,19 @@ const RitcherMap = ({ user, data }: MapProps) => {
   }, [data]);
 
   return (
-    <ApolloProvider client={client}>
-      <Provider>
-        <ThemeProvider
-          theme={(theme: Theme) =>
-            createTheme({
-              ...theme,
-              ...innerTheme,
-            })
-          }
-        >
-          <CssBaseline />
-          <Map user={user} data={data} />
-        </ThemeProvider>
-      </Provider>
-    </ApolloProvider>
+    <Provider>
+      <ThemeProvider
+        theme={(theme: Theme) =>
+          createTheme({
+            ...theme,
+            ...innerTheme,
+          })
+        }
+      >
+        <CssBaseline />
+        <Map user={user} data={data} />
+      </ThemeProvider>
+    </Provider>
   );
 };
 

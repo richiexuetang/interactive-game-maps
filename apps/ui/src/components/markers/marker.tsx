@@ -18,7 +18,7 @@ interface MarkerProps {
 
 export const Marker = ({ marker }: MarkerProps) => {
   const map = RL.useMap();
-  const params = useParams<{ slug: string }>();
+  const params = useParams<{ slug: string; gameSlug: string }>();
   const { id, title, latitude, longitude, category } = marker;
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
@@ -48,9 +48,13 @@ export const Marker = ({ marker }: MarkerProps) => {
       if (markerRef?.current) {
         markerRef.current.openPopup();
       }
+      window.history.replaceState(
+        null,
+        "",
+        `game/${params.gameSlug}/map/${params.slug}`
+      );
     }
-    window.history.replaceState(null, "", "/map/" + params.slug);
-  }, [id, latitude, longitude, map, params.slug, searchParams]);
+  }, [marker, map, params, searchParams, id, latitude, longitude]);
 
   useEffect(() => {
     const lat = searchParams.get("lat");
@@ -59,9 +63,13 @@ export const Marker = ({ marker }: MarkerProps) => {
 
     if (lat && lng && zoom) {
       map.flyTo([parseFloat(lat), parseFloat(lng)], parseFloat(zoom));
+      window.history.replaceState(
+        null,
+        "",
+        `game/${params.gameSlug}/map/${params.slug}`
+      );
     }
-    window.history.replaceState(null, "", "/map/" + params.slug);
-  }, [map, params.slug, searchParams]);
+  }, [map, params, searchParams]);
 
   const markerFound = appUser?.foundLocations.includes(id);
 

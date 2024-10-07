@@ -13,8 +13,10 @@ export const MapSwitcher = () => {
   return (
     <FormControl fullWidth>
       <Select
-        value={params.slug}
-        onChange={(event) => router.replace(`/map/${event.target.value}`)}
+        value={params.mapSlug}
+        onChange={(event) =>
+          router.replace(`/game/${params.gameSlug}/map/${event.target.value}`)
+        }
       >
         {currentMap?.game?.maps?.map(({ title, slug }, index) => (
           <MenuItem key={`${title}${index}`} value={slug}>

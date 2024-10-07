@@ -9,11 +9,14 @@ import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
 import { v4 as uuidv4 } from "uuid";
+// import { CustomPopup } from "../cards/popup";
 import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
+// import CanvasMarker from "../layers/canvas-markers";
 import { RegionLayer } from "../layers/region";
 import { MarkerRenderer } from "../markers/markers-renderer";
 import { Menu, ProgressTracker } from "../sidebar";
 import { User, Map } from "@/__generated__/graphql";
+import { mapContainerOptions } from "@/lib/leaflet/map-container-options";
 import { cn } from "@/lib/utils";
 import {
   userAtom,
@@ -78,22 +81,15 @@ const DynamicMap = ({ user, data }: MapProps) => {
   return (
     <div className={cn("h-[calc(100vh-1rem)]", data.game?.slug)}>
       <Menu map={map} />
+      {/* <CustomPopup /> */}
       <RL.MapContainer
         ref={setMap}
         zoom={zoom}
         minZoom={minZoom}
         maxZoom={maxZoom}
         center={center as L.LatLngExpression}
-        attributionControl={false}
-        zoomControl={false}
-        scrollWheelZoom={false}
+        {...mapContainerOptions}
         // @ts-ignore
-        fullscreenControl={true}
-        fullscreenControlOptions={{ position: "topright" }}
-        // @ts-ignore
-        smoothWheelZoom={true}
-        contextmenu={true}
-        contextmenuWidth={140}
         contextmenuItems={[
           {
             text: "Add note",
@@ -121,7 +117,6 @@ const DynamicMap = ({ user, data }: MapProps) => {
             },
           },
         ]}
-        smoothSensitivity={15}
         className="w-full h-full"
       >
         <RL.TileLayer
@@ -129,6 +124,7 @@ const DynamicMap = ({ user, data }: MapProps) => {
         />
 
         <RL.ZoomControl position="bottomright" />
+        {/* <CanvasMarker /> */}
         <CopyLinkNotifier />
         <MarkerRenderer />
         <ProgressTracker />

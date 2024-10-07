@@ -366,9 +366,9 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-1",
+              title: "Loong Claw Grove",
               description:
                 "**Location** Use the Loong Scale (from Chapter 2) on the large waterfall on left side of 'Outside The Forest' region.",
-              title: "Loong Claw Grove",
               latitude: 1.002,
               longitude: -0.978,
             },
@@ -500,7 +500,7 @@ export const bmw = {
               mapSlug: "chapter-2",
               title: "Cellar",
               latitude: 0.60819415029945,
-              longitude: "-0.96845351356413",
+              longitude: -0.96845351356413,
             },
             {
               mapSlug: "chapter-2",
@@ -980,6 +980,7 @@ export const bmw = {
         },
         {
           title: "Meditation Spot",
+          isChecklist: true,
           info: "Meditation Spots unlock 1 free Skill Point. Finding all Meditation Spots awards the Scenic Seeker achievement",
           locations: [
             {
@@ -1022,7 +1023,6 @@ export const bmw = {
                 },
               ],
             },
-            // Chapter 2
             {
               mapSlug: "chapter-2",
               title: "The Altar, Sandgate Village",
@@ -1085,7 +1085,6 @@ export const bmw = {
                 },
               ],
             },
-            // Chapter 3
             {
               mapSlug: "chapter-3",
               title: "The Shade, Mirrormere Meditation Spot",
@@ -1199,16 +1198,45 @@ export const bmw = {
               longitude: "-0.82408189773636",
             },
             {
+              mapSlug: "chapter-1",
+              title: "Bell #1",
+              description:
+                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the Ancient Guanyin Temple",
+              latitude: "1.05507847702290",
+              longitude: "-0.88899135589426",
+              media: [
+                {
+                  url: "https://media.mapgenie.io/storage/media/4871358e-29a1-4394-9bfd-f3c32268c75a.png",
+                  type: "image",
+                },
+              ],
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Bell #2",
+              description: "**Location:** Up the stairs from the Guangmou",
+              latitude: "0.73368213135215",
+              longitude: "-0.44250011444345",
+            },
+            {
+              mapSlug: "chapter-1",
+              title: "Bell #3",
+              description:
+                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the Ancient Guanyin Temple",
+              latitude: "0.60294945749547",
+              longitude: "-0.48425674438434",
+              media: [
+                {
+                  url: "https://media.mapgenie.io/storage/media/d855bc0f-d243-4eae-96ca-a44db1ff0e6e.jpg",
+                  type: "image",
+                },
+              ],
+            },
+            {
               mapSlug: "chapter-2",
               title: "Start Location",
               latitude: "0.43571479327178",
               longitude: "-0.59239428223640",
-            },
-            {
-              mapSlug: "chapter-3",
-              title: "Start Location",
-              latitude: "0.25685119391957",
-              longitude: "-0.94701281991155",
             },
             {
               mapSlug: "chapter-3",
@@ -1254,6 +1282,7 @@ export const bmw = {
             {
               mapSlug: "chapter-3",
               title: "Purple Sealed Gate",
+              description: "",
               latitude: "0.59188594676564",
               longitude: "-0.65380185842594",
             },
@@ -1279,9 +1308,17 @@ export const bmw = {
               mapSlug: "chapter-3",
               title: "Serpent",
               description:
-                "After visiting the skeleton then the Turtle Tear Soak will drop",
+                "After visiting the skeleton then the [Turtle Tear Soak](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=400488) will drop",
               latitude: "0.94157391334011",
               longitude: "-0.68897366523655",
+            },
+            {
+              mapSlug: "chapter-3",
+              title: "Quest?",
+              description:
+                "Corpse leaning on the arch. Gives fox transformation item",
+              latitude: "1.07938675706780",
+              longitude: "-0.63735317896339",
             },
             {
               mapSlug: "chapter-3",
@@ -5374,6 +5411,14 @@ export const bmw = {
           title: "Side Quest",
           locations: [
             {
+              mapSlug: "chapter-1",
+              title: "Three Bell Questline",
+              description:
+                "A secret area that can only be accessed by ringing the 3 Bells:\n\n- Bell #1\n\n- Bell #2\n\n- Bell #3",
+              latitude: 0.88748241485041,
+              longitude: -0.74017861950489,
+            },
+            {
               mapSlug: "chapter-2",
               title: "Xu Dog's Quest",
               description:
@@ -5406,49 +5451,6 @@ export const bmw = {
         {
           title: "Easter Egg",
           locations: [
-            {
-              mapSlug: "chapter-1",
-              title: "Bell #1",
-              description:
-                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the Ancient Guanyin Temple",
-              latitude: "1.05507847702290",
-              longitude: "-0.88899135589426",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/4871358e-29a1-4394-9bfd-f3c32268c75a.png",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "chapter-1",
-              title: "Ancient Guanyin Temple",
-              description:
-                "A secret area that can only be accessed by ringing the 3 Bells:\n\n- Bell #1",
-              latitude: "0.88748241485041",
-              longitude: "-0.74017861950489",
-            },
-            {
-              mapSlug: "chapter-1",
-              title: "Bell #3",
-              description:
-                "Interact with the pole to ring the bell. Activate all 3 bells to reveal the Ancient Guanyin Temple",
-              latitude: "0.60294945749547",
-              longitude: "-0.48425674438434",
-              media: [
-                {
-                  url: "https://media.mapgenie.io/storage/media/d855bc0f-d243-4eae-96ca-a44db1ff0e6e.jpg",
-                  type: "image",
-                },
-              ],
-            },
-            {
-              mapSlug: "chapter-1",
-              title: "Bell #2",
-              description: "**Location:** Up the stairs from the Guangmou",
-              latitude: "0.73368213135215",
-              longitude: "-0.44250011444345",
-            },
             {
               mapSlug: "chapter-1",
               title: "Secret: Waterfall Cave",
@@ -5626,7 +5628,7 @@ export const bmw = {
             },
             {
               mapSlug: "chapter-1",
-              title: "Horse Guai",
+              title: "Ma Tianba",
               latitude: "0.75142065659566",
               longitude: "-0.71358195101905",
               media: [
@@ -5867,6 +5869,7 @@ export const bmw = {
         {
           title: "Aged Ginseng",
           defaultHidden: true,
+          icon: "materials",
           locations: [
             {
               mapSlug: "chapter-1",
@@ -6041,6 +6044,7 @@ export const bmw = {
         {
           title: "Purple Lingzhi",
           defaultHidden: true,
+          icon: "materials",
           locations: [
             {
               mapSlug: "chapter-1",
@@ -6182,6 +6186,7 @@ export const bmw = {
         {
           title: "Fire Bellflower",
           defaultHidden: true,
+          icon: "materials",
           locations: [
             {
               mapSlug: "chapter-2",
@@ -6281,11 +6286,13 @@ export const bmw = {
         {
           title: "Fragrant Jade Flower",
           defaultHidden: true,
+          icon: "materials",
           locations: [],
         },
         {
           title: "Licorice",
           defaultHidden: true,
+          icon: "materials",
           locations: [
             {
               mapSlug: "chapter-2",

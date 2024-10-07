@@ -8,6 +8,8 @@ import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
 import { UsersModule } from "./users/users.module";
 import { MapsModule } from "./regions/maps.module";
+import { MarkersModule } from "./markers/markers.module";
+import { AuthModule } from "./auth/auth.module";
 
 @Module({
   imports: [
@@ -16,6 +18,7 @@ import { MapsModule } from "./regions/maps.module";
       load: [config],
       envFilePath: ".env",
     }),
+
     PrismaModule.forRoot({
       isGlobal: true,
       prismaServiceOptions: {
@@ -36,6 +39,8 @@ import { MapsModule } from "./regions/maps.module";
     GamesModule,
     MapsModule,
     UsersModule,
+    MarkersModule,
+    AuthModule,
   ],
   controllers: [],
   providers: [],

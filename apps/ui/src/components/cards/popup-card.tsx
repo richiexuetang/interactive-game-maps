@@ -61,10 +61,11 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
 
   const handleLogin = async () => {
-    const ok = await signInWithGoogle();
-    if (ok) {
-      router.refresh();
-    }
+    window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`;
+    // const ok = await signInWithGoogle();
+    // if (ok) {
+    //   router.refresh();
+    // }
   };
 
   const handleMarkerFound = () => {
@@ -104,7 +105,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           >
             {markerTitle}
             <Tooltip title="Copy link">
-              <IconButton sx={{ pl: 2 }}>
+              <IconButton sx={{ ml: 2 }}>
                 <LinkIcon
                   sx={{ width: 18, height: 18 }}
                   onClick={() =>

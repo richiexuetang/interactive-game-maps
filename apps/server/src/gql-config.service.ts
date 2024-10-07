@@ -15,7 +15,7 @@ export class GqlConfigService implements GqlOptionsFactory {
       sortSchema: graphqlConfig.sortSchema,
       installSubscriptionHandlers: true,
       includeStacktraceInErrorResponses: graphqlConfig.debug,
-      playground: false,
+      playground: graphqlConfig.playgroundEnabled,
       context: ({ req }) => ({ req }),
       plugins: [ApolloServerPluginLandingPageLocalDefault()],
     };

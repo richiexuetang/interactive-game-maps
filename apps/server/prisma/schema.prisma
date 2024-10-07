@@ -14,14 +14,17 @@ datasource db {
 }
 
 model User {
-  id             String       @id @default(cuid())
-  createdAt      DateTime     @default(now())
-  updatedAt      DateTime     @updatedAt
-  email          String       @unique
+  id             String       @id @default(uuid())
+  email          String       @unique @db.Text
+  picture        String?      @db.Text
+  password       String?      @db.Text
   foundLocations Int[]
   username       String?
   hideFound      Boolean      @default(false)
   noteMarkers    NoteMarker[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model NoteMarker {
@@ -96,16 +99,22 @@ model Category {
 }
 
 model Location {
-  id          Int       @id @default(autoincrement())
+  id          Int          @id @default(autoincrement())
   title       String
   description String?
   latitude    Decimal
   longitude   Decimal
   categoryId  Int?
-  category    Category? @relation(fields: [categoryId], references: [id])
-  map         Map       @relation(fields: [mapSlug], references: [slug])
+  category    Category?    @relation(fields: [categoryId], references: [id])
+  map         Map          @relation(fields: [mapSlug], references: [slug])
   mapSlug     String
   media       Media[]
+  type        LocationType @default(MARKER)
+}
+
+enum LocationType {
+  MARKER
+  TEXT
 }
 
 model Media {

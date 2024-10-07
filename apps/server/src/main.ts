@@ -5,8 +5,11 @@ import { PrismaClientExceptionFilter } from "nestjs-prisma";
 import { AppModule } from "./app.module";
 import type { CorsConfig, NestConfig } from "./common/configs/config.interface";
 
+const cookieParser = require("cookie-parser");
+
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  app.setGlobalPrefix("/api");
   // Validation
   app.useGlobalPipes(new ValidationPipe());
 
@@ -23,7 +26,13 @@ async function bootstrap() {
 
   // Cors
   if (corsConfig.enabled) {
-    app.enableCors();
+    app.use(cookieParser());
+    app.enableCors({
+      origin: [
+        "http://localhost:3000", // React Server
+      ],
+      credentials: true,
+    });
   }
 
   await app.listen(process.env.PORT || nestConfig.port || 5001);
