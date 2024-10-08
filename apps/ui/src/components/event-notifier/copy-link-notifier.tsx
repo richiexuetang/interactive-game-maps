@@ -14,7 +14,7 @@ import { useMapStore } from "@/store/map";
  */
 export const CopyLinkNotifier = () => {
   const currentMap = useMapStore((state) => state.currentMap);
-  const toggleCopySnackbar = useMapStore((state) => state.toggleCopySnackbar);
+  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const params = useParams();
 
   const copy = useClipboardCopyFn();
@@ -34,7 +34,10 @@ export const CopyLinkNotifier = () => {
     reason?: SnackbarCloseReason
   ) => {
     if (reason === "clickaway") {
-      toggleCopySnackbar();
+      setCurrentMap({
+        ...currentMap!,
+        copySnackbar: !currentMap?.copySnackbar,
+      });
     }
   };
 
