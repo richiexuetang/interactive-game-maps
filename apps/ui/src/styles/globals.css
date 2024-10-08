@@ -636,9 +636,135 @@
   background-position: -165px -572px;
 }
 
+.shrine_quest {
+  background-position: 0 -616px;
+}
+
+.side_adventure {
+  background-position: -33px -616px;
+}
+
+.totk_side_quest {
+  background-position: -66px -616px;
+}
+
+.totk_main_quest {
+  background-position: -99px -616px;
+}
+
+.memory {
+  background-position: -132px -616px;
+}
+
+.wizzrobe {
+  background-position: -198px -616px;
+}
+
+.yiga {
+  background-position: -231px -616px;
+}
+
+.dragon,
+.octorok,
+.stanlox,
+.frox,
+.gleeok,
+.stronghold,
+.miniboss,
+.zonai {
+  background-position: -264px -616px;
+}
+
+.talus {
+  background-position: -297px -616px;
+}
+
+.flux_construct {
+  background-position: -330px -616px;
+}
+
+.lynel {
+  background-position: -363px -616px;
+}
+
+.hinox {
+  background-position: 0 -660px;
+}
+
+.molduga {
+  background-position: -33px -660px;
+}
+
+.cooking_pot {
+  background-position: -66px -660px;
+}
+
+.hudson_sign {
+  background-position: -99px -660px;
+}
+
+.unique_horse {
+  background-position: -132px -660px;
+}
+
+.vehicle {
+  background-position: -165px -660px;
+}
+
+.npc {
+  background-position: -198px -660px;
+}
+
+.lore {
+  background-position: -231px -660px;
+}
+
+.miscellaneous {
+  background-position: -264px -660px;
+}
+
+.well {
+  background-position: -297px -660px;
+}
+
+.satori_tree {
+  background-position: 0 -704px;
+}
+
+.falling_platform {
+  background-position: -33px -704px;
+}
+
+.easter_egg {
+  background-position: -66px -704px;
+}
+
+.quest_objective {
+  background-position: -99px -704px;
+}
+
+.ore_deposit {
+  background-position: -132px -704px;
+}
+
+.mushroom {
+  background-position: -165px -704px;
+}
+
+.fruit_tree {
+  background-position: -198px -704px;
+}
+
+.land_creature {
+  background-position: -231px -704px;
+}
+
+.aquatiic_creature {
+  background-position: -264px -704px;
+}
+
 .note-icon-1 {
   background-position: 0 -352px;
-
 }
 
 .note-icon-2 {

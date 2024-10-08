@@ -579,10 +579,9 @@
 }
 
 .icon-bandit_camp:before {
-    content: "\E998";
+    content: "\E800";
     color: #fff;
 }
-
 
 .icon-temple:before,
 .icon-building:before {
@@ -657,5 +656,15 @@
 
 .icon-zonai_survey_team_base {
     content: "\E207";
+    color: #fff;
+}
+
+.icon-beast_den:before {
+    content: "\E801";
+    color: #fff;
+}
+
+.icon-battle_arena:before {
+    content: "\E800";
     color: #fff;
 }

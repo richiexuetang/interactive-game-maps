@@ -1,7 +1,6 @@
 export const gow = {
   slug: "god-of-war-ragnarok",
   title: "God of War: Ragnarok",
-
   maps: [
     {
       title: "Sindri's House",

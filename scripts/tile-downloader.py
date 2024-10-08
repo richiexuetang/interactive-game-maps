@@ -4,14 +4,9 @@ import cv2
 import os
 from pathlib import Path
 current_path = os.getcwd()
-try:
-    os.mkdir(current_path + "\\apps\\ui\\public\\tiles\\")
-except FileExistsError:
-    pass
 
-
-zoom_start = 14
-zoom_end = 14
+zoom_start = 15
+zoom_end = 15
 
 lows = {
     8: 127,
@@ -62,7 +57,7 @@ y_highs = {
     17: 65445
 }
 regions = [
-    "hyrule"
+    # "hyrule"
     # "white-orchard",
     # "velen-novigrad",
     # "skellige",
@@ -76,12 +71,16 @@ regions = [
     # "chapter-4",
     # "chapter-5",
     # "chapter-6",
+    "nautiloid/default-v2/",
+    "wilderness/default-v4/",
+    "shadow-cursed-lands/default-v3/",
+    "baldurs-gate/default-v4/"
 ]
-
+# rdr2/world/atlas-v1/
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"
             "apps/ui/public/tiles")
-
-game_name = "zelda-tears-of-the-kingdom"
+            
+game_name = "baldurs-gate-3"
 
 base_uri = "https://tiles.mapgenie.io/games/"
 
@@ -101,7 +100,7 @@ for z in range(zoom_start, zoom_end+1):
     for x in range(lows[z], highs[z] + 1):
         for y in range(y_lows[z], y_highs[z] + 1):
             for region in regions:
-                uri = (base_uri + game_name + "/" + region + "/paper-v1/"
+                uri = (base_uri + game_name + "/" + region 
                        + str(z) + "/" + str(x) + "/" + str(y) + ".jpg")
 
                 directory = "{dir}/{game_name}/{region}/{z}/{x}".format(

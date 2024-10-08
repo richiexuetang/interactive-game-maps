@@ -28,7 +28,7 @@ export async function generateMetadata({
   const gameTitle = titleCase(map.gameSlug.replaceAll("-", " "));
   return {
     title: `${map.title} | ${gameTitle} | Ritcher Map`,
-    description: "",
+    description: `${gameTitle} Interactive Map - All Hidden Collectibles, Bosses, Secret Easter Eggs, Equipment, Upgrades, Quest Locations & more! Use the progress tracker to get 100% completion!`,
     openGraph: {
       type: "website",
       images: [
@@ -40,27 +40,17 @@ export async function generateMetadata({
         {
           type: "image/png",
           sizes: "16x16",
-          href:
-            process.env.CDN_BASE_URL +
-            `images/games/${gameSlug}/favicon-16x16.png`,
-          url:
-            process.env.CDN_BASE_URL +
-            `images/games/${gameSlug}/favicon-16x16.png`,
+          href: `/images/games/${gameSlug}/favicon-16x16.png`,
+          url: `/images/games/${gameSlug}/favicon-16x16.png`,
         },
         {
           type: "image/png",
           sizes: "32x32",
-          href:
-            process.env.CDN_BASE_URL +
-            `images/games/${gameSlug}/favicon-32x32.png`,
-          url:
-            process.env.CDN_BASE_URL +
-            `images/games/${mapSlug}/favicon-32x32.png`,
+          href: `/images/games/${gameSlug}/favicon-32x32.png`,
+          url: `/images/games/${mapSlug}/favicon-32x32.png`,
         },
       ],
-      apple:
-        process.env.CDN_BASE_URL +
-        `images/games/${mapSlug}/apple-touch-icon.png`,
+      apple: `/images/games/${mapSlug}/apple-touch-icon.png`,
     },
   };
 }
