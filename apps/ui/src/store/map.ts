@@ -2,6 +2,18 @@
 import { create } from "zustand";
 import { Group, Location, Map, Region } from "@/__generated__/graphql";
 
+export const defaultState = {
+  maxZoom: 0,
+  groups: [],
+  hiddenCategories: [],
+  focusedRegionId: null,
+  copySnackbar: false,
+  highlightMarkerId: null,
+  triggeredMarkerPopup: null,
+  searchFilterMarkers: [],
+  boundedRegion: null,
+};
+
 export interface CurrentMapDef extends Map {
   maxZoom: number;
   groups: Group[];
@@ -18,25 +30,11 @@ export interface CurrentMapDef extends Map {
 export interface CurrentMapStateDef {
   currentMap: CurrentMapDef | null;
   setCurrentMap(map: CurrentMapDef): void;
-  toggleCopySnackbar(): void;
 }
 
 export const useMapStore = create<CurrentMapStateDef>()((set) => ({
   currentMap: null,
   setCurrentMap: (map: CurrentMapDef) => {
     set({ currentMap: map });
-  },
-  toggleCopySnackbar: () => {
-    set((state) => {
-      if (state.currentMap) {
-        return {
-          currentMap: {
-            ...state.currentMap,
-            copySnackbar: !state.currentMap.copySnackbar,
-          },
-        };
-      }
-      return state;
-    });
   },
 }));

@@ -42,6 +42,7 @@ export const NoteMarker = ({
   id,
   position,
 }: NoteMarkerProps) => {
+  //#region Hooks
   const { control, handleSubmit, getValues } = useForm({
     defaultValues: {
       [`${position}-Title`]: title ?? "",
@@ -49,17 +50,19 @@ export const NoteMarker = ({
     },
   });
 
-  const currentMap = useMapStore((state) => state.currentMap);
   const params = useParams<{ mapSlug: string }>();
-  const div = document.createElement("div");
-  div.className = `icon note-icon-1`;
-
   const [draggable, setDraggable] = useState(typeof id === "string");
   const [lat, setLat] = useState(latitude);
   const [lng, setLng] = useState(longitude);
-  const markerRef = useRef<L.Marker>(null);
   const [editMode, setEditMode] = useState(false);
+
+  const markerRef = useRef<L.Marker>(null);
   const copy = useClipboardCopyFn();
+
+  const currentMap = useMapStore((state) => state.currentMap);
+  const user = useAuthStore((state) => state.user);
+  const setNoteMarkers = useAuthStore((state) => state.setNoteMarkers);
+
   const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
   const [removeNoteMarker, { data: removedData }] = useMutation(
     REMOVE_USER_NOTE_MARKER
@@ -67,8 +70,10 @@ export const NoteMarker = ({
   const [updateNoteMarker, { data: updateData }] = useMutation(
     UPDATE_USER_NOTE_MARKER
   );
-  const user = useAuthStore((state) => state.user);
-  const setNoteMarkers = useAuthStore((state) => state.setNoteMarkers);
+  //#endregion
+
+  const div = document.createElement("div");
+  div.className = `icon note-icon-1`;
 
   const onSubmit = async (data: any) => {
     const noteMarker = {

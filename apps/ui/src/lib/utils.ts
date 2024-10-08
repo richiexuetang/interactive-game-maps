@@ -13,3 +13,26 @@ export function titleCase(str: string) {
   }
   return splitStr.join(" ");
 }
+
+export const flatten: any = (ary: any[]) =>
+  ary.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
+
+export function getMarkerBounds(arr: number[][] | null) {
+  if (!arr || !Array.isArray(arr) || arr.length === 0) return null;
+
+  const minX = Math.min(...arr.map((subArr) => subArr[0]));
+  const minY = Math.min(...arr.map((subArr) => subArr[1]));
+  const maxX = Math.max(...arr.map((subArr) => subArr[0]));
+  const maxY = Math.max(...arr.map((subArr) => subArr[1]));
+
+  return [minX, minY, maxX, maxY];
+}
+
+export const pointIsInBounds = (point: number[], bounds: number[]) => {
+  return (
+    point[0] < bounds[0] ||
+    point[0] > bounds[2] ||
+    point[1] < bounds[1] ||
+    point[1] > bounds[3]
+  );
+};
