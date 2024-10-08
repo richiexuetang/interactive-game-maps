@@ -1,22 +1,57 @@
 export const hogwarts = {
   slug: "hogwarts-legacy",
   title: "Hogwarts Legacy",
-  zoom: 9,
-  minZoom: 8,
-  maxZoom: 14,
-  center: [0.847054938872, -0.74445750270152],
   maps: [
     {
       slug: "world",
       title: "World",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 12,
+      center: [0.847054938872, -0.74445750270152],
+      // regions: [
+      //   {
+      //     title: "Clagmar Coast",
+      //     centerX: "-0.54753558509414",
+      //     centerY: "0.44161957354551",
+      //   },
+      //   {
+      //     title: "Coastal Cavern",
+      //     centerX: "-0.68687086864230",
+      //     centerY: "0.64601463029603",
+      //   },
+      //   {
+      //     title: "Cragcroftshire",
+      //     centerX: "-0.54890887610977",
+      //     centerY: "0.49277296154809",
+      //   },
+      //   {
+      //     title: "Feldcroft Region",
+      //     centerX: "-0.82694655223605",
+      //     centerY: "0.67862811234424",
+      //   },
+      //   {
+      //     title: "Forbidden Forest",
+      //     centerX: "-0.73645247340145",
+      //     centerY: "0.95123869691748",
+      //   },
+      // ],
     },
     {
       slug: "hogwarts",
       title: "Hogwarts",
+      zoom: 13,
+      center: [0.81168800538754, -0.70660443990578],
+      minZoom: 9,
+      maxZoom: 15,
     },
     {
       slug: "hogsmeade",
       title: "Hogsmeade",
+      minZoom: 9,
+      maxZoom: 14,
+      zoom: 13,
+      center: [0.64860488174709, -0.74674498667326],
     },
   ],
   groups: [
@@ -1175,6 +1210,7 @@ export const hogwarts = {
         },
         {
           title: "Dungeon",
+          icon: "hogwarts_dungeon",
           locations: [
             {
               mapSlug: "world",

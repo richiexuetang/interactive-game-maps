@@ -44,7 +44,7 @@
     color: #fff;
 }
 
-.icon-transition:before {
+.icon-portal:before {
     content: "\e904";
     color: #fff;
 }
@@ -109,6 +109,7 @@
     color: #fff;
 }
 
+.icon-spell:before,
 .icon-sorcery:before {
     content: "\e911";
     color: #fff;
@@ -149,6 +150,7 @@
     color: #fff;
 }
 
+.icon-mimics_tear:before,
 .icon-crystal_tear:before,
 .icon-sacred_tear:before {
     content: "\e919";
@@ -200,11 +202,7 @@
     color: #fff;
 }
 
-.icon-portal:before {
-    content: "\E923";
-    color: #fff;
-}
-
+.icon-gourd:before,
 .icon-perfume_bottle:before {
     content: "\e924";
     color: #fff;
@@ -217,11 +215,6 @@
 
 .icon-nascient_butterfly:before {
     content: "\e926";
-    color: #fff;
-}
-
-.icon-multiplayer_item:before {
-    content: "\e927";
     color: #fff;
 }
 
@@ -245,11 +238,6 @@
     color: #fff;
 }
 
-.icon-mimics_tear:before {
-    content: "\e92c";
-    color: #fff;
-}
-
 .icon-merchant:before {
     content: "\e92d";
     color: #fff;
@@ -257,11 +245,6 @@
 
 .icon-memory_stone:before {
     content: "\e92e";
-    color: #fff;
-}
-
-.icon-martyr_effigy:before {
-    content: "\e92f";
     color: #fff;
 }
 
@@ -285,6 +268,7 @@
     color: #fff;
 }
 
+.icon-point_of_interest:before,
 .icon-landmark:before {
     content: "\e934";
     color: #fff;
@@ -488,13 +472,8 @@
     color: #fff;
 }
 
-.icon-weapon:before {
-    content: "\E901";
-    color: #fff;
-}
-
 .icon-vessel:before {
-    content: "\E970";
+    content: "\E92F";
     color: #fff;
 }
 
@@ -508,13 +487,8 @@
     color: #fff;
 }
 
-.icon-spell:before {
-    content: "\E911";
-    color: #fff;
-}
-
 .icon-soak:before {
-    content: "\E966";
+    content: "\E941";
     color: #fff;
 }
 
@@ -540,7 +514,7 @@
 
 
 .icon-luojia_fragrant_vine:before {
-    content: "\E71";
+    content: "\E971";
     color: #fff;
 }
 
@@ -575,26 +549,113 @@
 }
 
 .icon-drink:before {
-    content: "\E964";
+    content: "\E313";
     color: #fff;
 }
 
 .icon-curio:before {
-    content: "\E965";
+    content: "\E311";
     color: #fff;
 }
 
 .icon-chest:before {
-    content: "\E967";
+    content: "\E312";
     color: #fff;
 }
 
 .icon-celestial_pill:before {
-    content: "\E968";
+    content: "\E310";
     color: #fff;
 }
 
 .icon-awaken_wine_worm:before {
-    content: "\E969";
+    content: "\E999";
+    color: #fff;
+}
+
+.icon-ancient_magic_hotspot:before {
+    content: "\E989";
+    color: #fff;
+}
+
+.icon-bandit_camp:before {
+    content: "\E998";
+    color: #fff;
+}
+
+
+.icon-temple:before,
+.icon-building:before {
+    content: "\E272";
+    color: #fff;
+}
+
+.icon-cave:before {
+    content: "\E271";
+    color: #fff;
+}
+
+.icon-chasm:before {
+    content: "\E265";
+    color: #fff;
+}
+
+.icon-area:before {
+    content: "\E229";
+    color: #fff;
+}
+
+.icon-goddess_status:before {
+    content: "\E249";
+    color: #fff;
+}
+
+/* .icon-landmark:before {
+    content: "\E265";
+    color: #fff;
+} */
+
+.icon-lighthouse:before {
+    content: "\E244";
+    color: #fff;
+}
+
+.icon-lightroot:before {
+    content: "\E243";
+    color: #fff;
+}
+
+.icon-settlement:before {
+    content: "\E273";
+    color: #fff;
+}
+
+.icon-shrine:before {
+    content: "\E223";
+    color: #fff;
+}
+
+.icon-skyview_tower:before {
+    content: "\E219";
+    color: #fff;
+}
+
+.icon-tech_lab:before {
+    content: "\E217";
+    color: #fff;
+}
+
+.icon-settlement:before {
+    content: "\E273";
+    color: #fff;
+}
+
+.icon-shrine:before {
+    content: "\E223";
+    color: #fff;
+}
+
+.icon-zonai_survey_team_base {
+    content: "\E207";
     color: #fff;
 }

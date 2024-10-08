@@ -25,7 +25,7 @@ export const SidebarClose = ({ showMenu, setShowMenu }: SidebarCloseProps) => {
 
   return (
     <SidebarClosePaper
-      className={cn(showMenu && "left-96", "!bg-sidebarBackground")}
+      className={cn(showMenu && "left-[425px]", "!bg-sidebarBackground")}
     >
       <Tooltip title={chevronText}>
         <IconButton onClick={() => setShowMenu((prev) => !prev)}>

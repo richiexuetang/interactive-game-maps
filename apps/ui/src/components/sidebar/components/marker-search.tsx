@@ -39,7 +39,7 @@ export const MarkerSearch = ({ map }: any) => {
       <TextField
         fullWidth
         label="Search for markers..."
-        variant="filled"
+        variant="outlined"
         onFocus={() => setShowFiltered(true)}
         value={searchKeyword}
         onChange={(e) => inputSearchChange(e.target.value)}

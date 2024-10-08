@@ -5,6 +5,11 @@ import { getMarkerBounds, pointIsInBounds } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
 
+/**
+ * Handles rendering of markers (user note markers and game location markers)
+ *
+ * @returns
+ */
 export const MarkersRenderer = () => {
   const currentMap = useMapStore((state) => state.currentMap);
   const user = useAuthStore((state) => state.user);

@@ -34,6 +34,11 @@ interface NoteMarkerProps {
   position: number;
 }
 
+/**
+ * User custom note marker
+ *
+ * @returns
+ */
 export const NoteMarker = ({
   latitude,
   longitude,
@@ -52,8 +57,7 @@ export const NoteMarker = ({
 
   const params = useParams<{ mapSlug: string }>();
   const [draggable, setDraggable] = useState(typeof id === "string");
-  const [lat, setLat] = useState(latitude);
-  const [lng, setLng] = useState(longitude);
+  const [coordinate, setCoordinate] = useState({ latitude, longitude });
   const [editMode, setEditMode] = useState(false);
 
   const markerRef = useRef<L.Marker>(null);
@@ -61,7 +65,7 @@ export const NoteMarker = ({
 
   const currentMap = useMapStore((state) => state.currentMap);
   const user = useAuthStore((state) => state.user);
-  const setNoteMarkers = useAuthStore((state) => state.setNoteMarkers);
+  const setUser = useAuthStore((state) => state.setUser);
 
   const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
   const [removeNoteMarker, { data: removedData }] = useMutation(
@@ -70,6 +74,7 @@ export const NoteMarker = ({
   const [updateNoteMarker, { data: updateData }] = useMutation(
     UPDATE_USER_NOTE_MARKER
   );
+  const noteMarkers = user?.noteMarkers ?? [];
   //#endregion
 
   const div = document.createElement("div");
@@ -79,8 +84,7 @@ export const NoteMarker = ({
     const noteMarker = {
       title: data[`${position}-Title`],
       description: data[`${position}-Description`],
-      latitude: lat,
-      longitude: lng,
+      ...coordinate,
     };
     if (typeof id === "number") {
       updateNoteMarker({
@@ -96,8 +100,8 @@ export const NoteMarker = ({
         variables: {
           data: {
             email: user?.email,
-            ...noteMarker,
             mapSlug: params.mapSlug,
+            ...noteMarker,
           },
         },
       });
@@ -107,48 +111,24 @@ export const NoteMarker = ({
     setDraggable(false);
   };
 
-  useEffect(() => {
-    if (removedData) {
-      setNoteMarkers([...(removedData.removeNoteMarker.noteMarkers as any)]);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [removedData]);
-
-  useEffect(() => {
-    if (updateData) {
-      const markers = user?.noteMarkers ?? [];
-      setNoteMarkers([
-        ...markers.slice(0, position),
-        updateData.updateNoteMarker,
-        ...markers.slice(position + 1),
-      ]);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [updateData]);
-
-  useEffect(() => {
-    if (data) {
-      let markers = user?.noteMarkers ?? [];
-      markers[position] = data.addNoteMarker;
-      setNoteMarkers([...markers]);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
-
   const handleDelete = () => {
+    if (!user) return;
+
     if (typeof id === "number") {
       removeNoteMarker({
         variables: {
           data: {
-            email: user?.email,
+            email: user.email,
             id,
           },
         },
       });
     }
 
-    if (!user?.noteMarkers) return;
-    setNoteMarkers(user.noteMarkers.filter(({ id: curId }) => curId !== id));
+    setUser({
+      ...user,
+      noteMarkers: noteMarkers.filter(({ id: curId }) => curId !== id),
+    });
     setEditMode(false);
   };
 
@@ -158,10 +138,10 @@ export const NoteMarker = ({
         variables: {
           data: {
             id,
-            title: title,
-            description: description,
-            latitude: lat,
-            longitude: lng,
+            title,
+            description,
+            latitude: coordinate.latitude,
+            longitude: coordinate.longitude,
           },
         },
       });
@@ -169,6 +149,40 @@ export const NoteMarker = ({
 
     setDraggable(!draggable);
   };
+
+  //#region Lifecycle
+  useEffect(() => {
+    if (removedData) {
+      setUser({
+        ...user!,
+        noteMarkers: [...(removedData.removeNoteMarker.noteMarkers as any)],
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [removedData]);
+
+  useEffect(() => {
+    if (updateData) {
+      setUser({
+        ...user!,
+        noteMarkers: [
+          ...noteMarkers.slice(0, position),
+          updateData.updateNoteMarker,
+          ...noteMarkers.slice(position + 1),
+        ],
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [updateData]);
+
+  useEffect(() => {
+    if (data) {
+      setUser({ ...user!, noteMarkers: [...noteMarkers, data.addNoteMarker] });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
+  //#endregion
+
   return (
     <>
       <Modal open={editMode} onClose={() => setEditMode(false)}>
@@ -237,7 +251,7 @@ export const NoteMarker = ({
       </Modal>
       <Marker
         ref={markerRef}
-        position={[lat, lng] as any}
+        position={[coordinate.latitude, coordinate.longitude]}
         draggable={draggable}
         icon={L.divIcon({
           iconSize: [33, 44],
@@ -254,8 +268,8 @@ export const NoteMarker = ({
             }
           },
           dragend: (e) => {
-            setLat(e.target.getLatLng().lat);
-            setLng(e.target.getLatLng().lng);
+            const { lat, lng } = e.target.getLatLng();
+            setCoordinate({ latitude: lat, longitude: lng });
           },
         }}
       >
@@ -271,17 +285,17 @@ export const NoteMarker = ({
                 sx={{ color: "text.secondary", cursor: "pointer" }}
                 onClick={() =>
                   copy(
-                    `{latitude: ${lat.toString()},\nlongitude: ${lng.toString()},\n mapSlug: "${
+                    `{\nlatitude: ${coordinate.latitude.toString()},\nlongitude: ${coordinate.longitude.toString()},\n mapSlug: "${
                       params.mapSlug
                     }",\n title: "${getValues(
                       `${position}-Title`
                     )}",\n description: "${getValues(
                       `${position}-Description`
-                    )}"},`
+                    )}"},\n`
                   )
                 }
               >
-                {lat}, {lng}
+                Copy to clipboard
               </Typography>
             </CardContent>
             <CardActions>

@@ -71,6 +71,5 @@ export default async function MapPage({
   params: { mapSlug: string };
 }) {
   const mapData = await fetchGameMapDetails(params?.mapSlug);
-
   return <Map data={mapData} />;
 }

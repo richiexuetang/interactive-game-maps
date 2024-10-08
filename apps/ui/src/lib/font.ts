@@ -14,7 +14,7 @@ export const hyliaRegular = localFont({
 export const masonRegular = localFont({
   src: [
     {
-      path: "../../public/fonts/Mason-Regular.ttf",
+      path: "../../public/fonts/mason.ttf",
       weight: "500",
       style: "normal",
     },
@@ -66,6 +66,28 @@ const hybrid = localFont({
   variable: "--font-hybrid",
 });
 
+const gillSansNova = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Gill-Sans-Nova-Book.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-gill-sans-nova",
+});
+
+const berserker = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Berserker-Regular.woff",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-gill-sans-nova",
+});
+
 export const getBodyFont = (font: any) => {
   switch (font) {
     case "zelda-tears-of-the-kingdom":
@@ -78,6 +100,8 @@ export const getBodyFont = (font: any) => {
       return mantiniaRegular.className;
     case "hogwarts-legacy":
       return hybrid.className;
+    case "god-of-war-ragnarok":
+      return gillSansNova.className;
     default:
       console.log(`${font} does not have a corresponding font`);
   }
@@ -95,6 +119,8 @@ export const getFontClassName = (font: any) => {
       return mantiniaRegular.className;
     case "hogwarts-legacy":
       return optiCollumnaSolid.className;
+    case "god-of-war-ragnarok":
+      return berserker.className;
     default:
       console.log(`${font} does not have a corresponding font`);
   }

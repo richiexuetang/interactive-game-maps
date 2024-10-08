@@ -1,38 +1,50 @@
 export const witcher3 = {
   slug: "witcher-3",
   title: "The Witcher 3: Wild Hunt",
-  zoom: 9,
-  minZoom: 8,
-  maxZoom: 14,
-  center: [83.937238401332, -168.44211701243],
   maps: [
     {
       slug: "white-orchard",
       title: "White Orchard",
+      zoom: 9,
+      minZoom: 8,
+      maxZoom: 14,
+      center: [83.937238401332, -168.44211701243],
     },
     {
       slug: "velen-novigrad",
       title: "Velen Novigrad",
+      zoom: 9,
+      minZoom: 8,
+      maxZoom: 14,
+      center: [83.937238401332, -168.44211701243],
     },
     {
       slug: "skellige",
       title: "Skellige Isles",
+      zoom: 9,
+      minZoom: 8,
+      maxZoom: 14,
+      center: [83.937238401332, -168.44211701243],
     },
     {
       slug: "kaer-morhen",
       title: "Kaer Morhen",
+      zoom: 9,
     },
     {
       slug: "toussaint",
       title: "Toussaint",
+      minZoom: 8,
     },
     {
       slug: "fablesphere",
       title: "Fablesphere",
+      maxZoom: 14,
     },
     {
       slug: "isle-of-mists",
       title: "Isle of Mists",
+      center: [83.937238401332, -168.44211701243],
     },
   ],
   groups: [

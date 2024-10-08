@@ -45,6 +45,17 @@ async function seedGame(game: any) {
     if (regions) {
       for (let j = 0; j < regions.length; j++) {
         const map = regions[j];
+        if (!map.coordinates) {
+          await prisma.region.create({
+            data: {
+              title: map.title,
+              mapSlug: mapData.slug,
+              centerX: map.centerX ?? null,
+              centerY: map.centerY ?? null,
+            },
+          });
+          continue;
+        }
         const coordinatesString = map.coordinates
           .map((coord: any) => coord.join(" "))
           .join(", ");

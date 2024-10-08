@@ -66,22 +66,18 @@ export const Menu = ({ map }: MenuProps) => {
       hidden.includes(category.id)
     ).length;
 
+    const newHidden = hidden;
     if (count == cats.length) {
       cats.map(
-        ({ id }) =>
-          hidden.includes(id) &&
-          setMap({
-            ...currentMap,
-            hiddenCategories: hidden.filter((c) => c !== id),
-          })
+        ({ id }) => hidden.includes(id) && newHidden.filter((c) => c !== id)
       );
     } else {
       cats.map(
         ({ id }) =>
-          !currentMap.hiddenCategories.includes(id) &&
-          setMap({ ...currentMap, hiddenCategories: [...hidden, id] })
+          !currentMap.hiddenCategories.includes(id) && newHidden.push(id)
       );
     }
+    setMap({ ...currentMap, hiddenCategories: newHidden });
   };
   //#endregion
 
@@ -91,116 +87,115 @@ export const Menu = ({ map }: MenuProps) => {
 
       {showMenu && (
         <Collapse in={showMenu} orientation="horizontal">
-          <Paper className="overflow-y-scroll absolute left-0 z-[499] w-96 h-full !bg-sidebarBackground">
-            <div className="relative flex flex-col p-5 gap-4 items-center">
-              <Link href={`/game/${game?.slug}`}>
-                <Image
-                  src={`/images/games/${game?.slug}/logo-512.png`}
-                  width="360"
-                  height="70"
-                  alt="sidebar logo"
-                  className="cursor-pointer"
-                  priority
-                />
-              </Link>
-              <h1
-                className={cn(
-                  "text-accent text-center",
-                  getFontClassName(game?.slug)
-                )}
-              >
-                {game?.slug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
-              </h1>
-              <Divider orientation="horizontal" flexItem />
+          <Paper className="overflow-y-scroll absolute left-0 z-[499] w-[425px] h-full !bg-sidebarBackground flex flex-col p-5 gap-4">
+            <Link href={`/game/${game?.slug}`}>
+              <Image
+                src={`/images/games/${game?.slug}/logo-512.png`}
+                width="360"
+                height="70"
+                alt="sidebar logo"
+                className="cursor-pointer"
+                priority
+              />
+            </Link>
+            <h1
+              className={cn(
+                "text-accent text-center",
+                getFontClassName(game?.slug)
+              )}
+            >
+              {game?.slug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
+            </h1>
+            <Divider orientation="horizontal" flexItem />
 
-              <MapSwitcher />
+            <MapSwitcher />
 
-              <RegionsGrid />
+            <RegionsGrid />
 
-              <Divider orientation="horizontal" flexItem />
+            <Divider orientation="horizontal" flexItem />
 
-              <ShowHideButtons />
+            <ShowHideButtons />
 
-              <Divider orientation="horizontal" flexItem />
+            <Divider orientation="horizontal" flexItem />
 
-              {currentMap?.boundedRegion && (
+            {currentMap?.boundedRegion && (
+              <div className="items-center">
                 <Chip
                   label={currentMap.boundedRegion.title}
                   onDelete={() =>
                     setMap({ ...currentMap!, boundedRegion: null })
                   }
                 />
-              )}
-              <MarkerSearch map={map} />
+              </div>
+            )}
+            <MarkerSearch map={map} />
 
-              <Divider orientation="horizontal" flexItem />
+            <Divider orientation="horizontal" flexItem />
 
-              {groups?.map((group, index) => {
-                const counts: any = {};
-                group.categories?.map((category) => {
-                  const count = locations?.filter(
-                    ({ categoryId }) => categoryId == category.id
-                  ).length;
-                  counts[`${category.title}`] = count;
-                });
+            {groups?.map((group, index) => {
+              const counts: any = {};
+              group.categories?.map((category) => {
+                const count = locations?.filter(
+                  ({ categoryId }) => categoryId == category.id
+                ).length;
+                counts[`${category.title}`] = count;
+              });
 
-                const sumValues = Object.values(counts).reduce(
-                  (a: any, b: any) => a + b,
-                  0
-                );
+              const sumValues = Object.values(counts).reduce(
+                (a: any, b: any) => a + b,
+                0
+              );
 
-                if (sumValues === 0) return null;
+              if (sumValues === 0) return null;
 
-                return (
-                  <React.Fragment key={`${group.id}_${index}`}>
-                    <h1
-                      className="text-lg uppercase w-full text-text cursor-pointer"
-                      onClick={() => handleGroupHide(group.id)}
-                    >
-                      {group.title}
-                    </h1>
-                    <Grid container spacing={1} sx={{ minWidth: 350 }}>
-                      {group.categories?.map((category) => {
-                        const count = locations?.filter(
-                          ({ categoryId }) => categoryId === category.id
-                        ).length;
-                        if (!count) return null;
+              return (
+                <React.Fragment key={`${group.id}_${index}`}>
+                  <h1
+                    className="text-lg uppercase w-full text-text cursor-pointer"
+                    onClick={() => handleGroupHide(group.id)}
+                  >
+                    {group.title}
+                  </h1>
+                  <Grid container spacing={1} sx={{ minWidth: 350 }}>
+                    {group.categories?.map((category) => {
+                      const count = locations?.filter(
+                        ({ categoryId }) => categoryId === category.id
+                      ).length;
+                      if (!count) return null;
 
-                        return (
-                          <Grid
-                            size={6}
-                            key={category.title}
-                            className={cn(
-                              currentMap.hiddenCategories.includes(
-                                category.id
-                              ) && "line-through opacity-80"
-                            )}
+                      return (
+                        <Grid
+                          size={6}
+                          key={category.title}
+                          className={cn(
+                            currentMap.hiddenCategories.includes(category.id) &&
+                              "line-through opacity-80"
+                          )}
+                        >
+                          <div
+                            className="w-full flex items-center !cursor-pointer uppercase px-2 py-1 hover:opacity-80"
+                            onClick={() => handleHiddenCategory(category.id)}
                           >
-                            <div
-                              className="w-full flex items-center !cursor-pointer uppercase px-2 py-1 hover:opacity-80"
-                              onClick={() => handleHiddenCategory(category.id)}
+                            <span
+                              className={cn(`icon-${category.icon}`, "mr-1")}
+                            />
+                            <Typography variant="caption">
+                              {category.title}
+                            </Typography>
+                            <Typography
+                              variant="caption"
+                              sx={{ flex: 1, textAlign: "right" }}
                             >
-                              <span
-                                className={cn(`icon-${category.icon}`, "mr-1")}
-                              />
-                              <Typography variant="caption">
-                                {category.title}
-                              </Typography>
-                              <Typography
-                                variant="caption"
-                                sx={{ flex: 1, textAlign: "right" }}
-                              >
-                                {count}
-                              </Typography>
-                            </div>
-                          </Grid>
-                        );
-                      })}
-                    </Grid>
-                  </React.Fragment>
-                );
-              })}
-            </div>
+                              {count}
+                            </Typography>
+                          </div>
+                        </Grid>
+                      );
+                    })}
+                  </Grid>
+                </React.Fragment>
+              );
+            })}
           </Paper>
         </Collapse>
       )}

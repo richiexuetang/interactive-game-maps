@@ -1,8 +1,8 @@
 import { bmw } from "./bmw";
 import { eldenRing } from "./elden-ring";
-// import { gow } from "./gow";
-// import { hogwarts } from "./hogwarts";
-// import { totk } from "./totk";
-// import { witcher3 } from "./witcher";
+import { gow } from "./gow";
+import { hogwarts } from "./hogwarts";
+import { totk } from "./totk";
+import { witcher3 } from "./witcher";
 
-export const games = [bmw, eldenRing];
+export const games = [bmw, eldenRing, hogwarts, totk, gow, witcher3];

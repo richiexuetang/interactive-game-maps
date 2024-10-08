@@ -49,7 +49,9 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const params = useParams();
   const user = useAuthStore((state) => state.user);
   const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
-  const toggleCopySnackbar = useMapStore((state) => state.toggleCopySnackbar);
+
+  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
+  const currentMap = useMapStore((state) => state.currentMap);
 
   const markerFound = user?.foundLocations.includes(id);
 
@@ -106,7 +108,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                     copy(
                       `${process.env.NEXT_PUBLIC_APP_BASE_URL}/map/${params?.slug}?marker=${marker.id}`
                     ).then(() => {
-                      toggleCopySnackbar();
+                      setCurrentMap({ ...currentMap!, copySnackbar: true });
                     })
                   }
                 />

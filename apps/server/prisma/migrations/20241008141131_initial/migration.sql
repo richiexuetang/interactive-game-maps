@@ -4,15 +4,20 @@ CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 -- CreateExtension
 CREATE EXTENSION IF NOT EXISTS "postgis";
 
+-- CreateEnum
+CREATE TYPE "LocationType" AS ENUM ('MARKER', 'TEXT');
+
 -- CreateTable
 CREATE TABLE "User" (
     "id" TEXT NOT NULL,
-    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL,
     "email" TEXT NOT NULL,
+    "picture" TEXT,
+    "password" TEXT,
     "foundLocations" INTEGER[],
     "username" TEXT,
     "hideFound" BOOLEAN NOT NULL DEFAULT false,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
@@ -37,10 +42,6 @@ CREATE TABLE "Game" (
     "id" SERIAL NOT NULL,
     "slug" TEXT NOT NULL,
     "title" TEXT NOT NULL,
-    "minZoom" INTEGER NOT NULL,
-    "maxZoom" INTEGER NOT NULL,
-    "zoom" INTEGER NOT NULL,
-    "center" DECIMAL(65,30)[],
 
     CONSTRAINT "Game_pkey" PRIMARY KEY ("id")
 );
@@ -50,10 +51,12 @@ CREATE TABLE "Map" (
     "id" SERIAL NOT NULL,
     "slug" TEXT NOT NULL,
     "title" TEXT NOT NULL,
-    "thumbnailUrl" TEXT,
-    "tilePath" TEXT NOT NULL,
     "gameSlug" TEXT NOT NULL,
     "order" INTEGER NOT NULL DEFAULT 1,
+    "minZoom" INTEGER NOT NULL DEFAULT 9,
+    "maxZoom" INTEGER NOT NULL DEFAULT 14,
+    "zoom" INTEGER NOT NULL DEFAULT 10,
+    "center" DECIMAL(65,30)[] DEFAULT ARRAY[0, 0]::DECIMAL(65,30)[],
 
     CONSTRAINT "Map_pkey" PRIMARY KEY ("id")
 );
@@ -102,7 +105,7 @@ CREATE TABLE "Location" (
     "longitude" DECIMAL(65,30) NOT NULL,
     "categoryId" INTEGER,
     "mapSlug" TEXT NOT NULL,
-    "regionId" INTEGER,
+    "type" "LocationType" NOT NULL DEFAULT 'MARKER',
 
     CONSTRAINT "Location_pkey" PRIMARY KEY ("id")
 );
@@ -152,9 +155,6 @@ ALTER TABLE "Location" ADD CONSTRAINT "Location_categoryId_fkey" FOREIGN KEY ("c
 
 -- AddForeignKey
 ALTER TABLE "Location" ADD CONSTRAINT "Location_mapSlug_fkey" FOREIGN KEY ("mapSlug") REFERENCES "Map"("slug") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Location" ADD CONSTRAINT "Location_regionId_fkey" FOREIGN KEY ("regionId") REFERENCES "Region"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Media" ADD CONSTRAINT "Media_locationId_fkey" FOREIGN KEY ("locationId") REFERENCES "Location"("id") ON DELETE SET NULL ON UPDATE CASCADE;

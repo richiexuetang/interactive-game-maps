@@ -50,15 +50,16 @@ export const RegionLayer = ({
     html: `${id}`,
   });
 
-  if (!positions) return null;
-
   return (
     <>
-      <Polygon
-        ref={polygonRef}
-        positions={positions as any}
-        pathOptions={{ fillColor: "transparent", color: "transparent" }}
-      />
+      {positions && (
+        <Polygon
+          ref={polygonRef}
+          positions={positions as any}
+          pathOptions={{ fillColor: "transparent", color: "transparent" }}
+        />
+      )}
+
       {center &&
         (centerX && centerY ? (
           <Marker

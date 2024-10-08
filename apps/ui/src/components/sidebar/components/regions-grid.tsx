@@ -31,9 +31,15 @@ export const RegionsGrid = () => {
   const { regions } = currentMap;
 
   return (
-    <>
+    <div className="text-center">
       <Divider orientation="horizontal" flexItem />
-      <Grid container spacing={1} justifyContent="center" alignContent="center">
+      <Grid
+        container
+        spacing={1}
+        justifyContent="center"
+        alignContent="center"
+        my={1}
+      >
         {regions?.map((region) => (
           <div key={region.title} className="flex flex-start">
             <UnderlineButton
@@ -53,6 +59,6 @@ export const RegionsGrid = () => {
         ))}
       </Grid>
       <span className="text-xs">Tip: Right click to focus on that region</span>
-    </>
+    </div>
   );
 };

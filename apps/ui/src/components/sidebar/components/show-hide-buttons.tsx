@@ -25,36 +25,24 @@ export const ShowHideButtons = () => {
   const setMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
   const map = useMapStore((state) => state.currentMap);
-  const hidden = currentMap?.hiddenCategories ?? [];
 
   const showAll = () => {
-    map?.groups?.map((group) =>
-      group.categories?.map((category) => {
-        if (hidden.includes(category.id)) {
-          setMap({
-            ...currentMap!,
-            hiddenCategories: hidden.filter((c) => c !== category.id),
-          });
-        }
-      })
-    );
+    setMap({ ...currentMap!, hiddenCategories: [] });
   };
 
   const hideAll = () => {
+    const allCategories: number[] = [];
     map?.groups?.map(({ categories }) =>
-      categories?.map(({ id }) => {
-        if (!hidden.includes(id)) {
-          setMap({
-            ...currentMap!,
-            hiddenCategories: [...hidden, id],
-          });
-        }
-      })
+      categories?.map(({ id }) => allCategories.push(id))
     );
+    setMap({
+      ...currentMap!,
+      hiddenCategories: allCategories,
+    });
   };
 
   return (
-    <div className="flex gap-5">
+    <div className="flex gap-5 content-center justify-center">
       <UnderlineButton onClick={showAll}>SHOW ALL</UnderlineButton>
       <UnderlineButton onClick={hideAll}>HIDE ALL</UnderlineButton>
     </div>

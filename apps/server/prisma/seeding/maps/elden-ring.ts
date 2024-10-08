@@ -17706,6 +17706,7 @@ export const eldenRing = {
         },
         {
           title: "Spirit Ashes",
+          isChecklist: true,
           icon: "spirit_ashes",
           locations: [
             {
@@ -18607,6 +18608,7 @@ export const eldenRing = {
       categories: [
         {
           title: "Armor",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "the-lands-between",
@@ -20440,6 +20442,7 @@ export const eldenRing = {
         },
         {
           title: "Ash of War",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "the-lands-between",
@@ -21747,6 +21750,7 @@ export const eldenRing = {
         },
         {
           title: "Incantation",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "the-lands-between",
@@ -24000,6 +24004,7 @@ export const eldenRing = {
         },
         {
           title: "Sorcery",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "the-lands-between",
@@ -24842,6 +24847,7 @@ export const eldenRing = {
         },
         {
           title: "Talisman",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "the-lands-between",
@@ -26507,6 +26513,7 @@ export const eldenRing = {
         },
         {
           title: "Weapon",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "the-lands-between",
