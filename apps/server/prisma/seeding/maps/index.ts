@@ -3,6 +3,6 @@ import { eldenRing } from "./elden-ring";
 import { gow } from "./gow";
 import { hogwarts } from "./hogwarts";
 import { totk } from "./totk";
-import { witcher3 } from "./witcher";
+import { witcher3 } from "./witcher3";
 
-export const games = [bmw, eldenRing, hogwarts, totk, gow, witcher3];
+export const maps = [eldenRing, totk, bmw, hogwarts, gow, witcher3];

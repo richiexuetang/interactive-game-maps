@@ -1,5 +1,4 @@
 import Chip from "@mui/material/Chip";
-import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid2";
 import Paper from "@mui/material/Paper";
@@ -82,128 +81,123 @@ export const Menu = ({ map }: MenuProps) => {
   //#endregion
 
   return (
-    <div className={`${game?.slug} sidebar overflow-scroll z-[100000]`}>
+    <div>
       <SidebarClose showMenu={showMenu} setShowMenu={setShowMenu} />
 
       {showMenu && (
-        <Collapse in={showMenu} orientation="horizontal">
-          <Paper className="overflow-y-scroll absolute left-0 z-[499] w-[425px] h-full !bg-sidebarBackground flex flex-col p-5 gap-4">
-            <Link href={`/game/${game?.slug}`}>
-              <Image
-                src={`/images/games/${game?.slug}/logo-512.png`}
-                width="360"
-                height="70"
-                alt="sidebar logo"
-                className="cursor-pointer"
-                priority
-              />
-            </Link>
-            <h1
-              className={cn(
-                "text-accent text-center",
-                getFontClassName(game?.slug)
-              )}
-            >
-              {game?.slug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
-            </h1>
-            <Divider orientation="horizontal" flexItem />
-
-            <MapSwitcher />
-
-            <RegionsGrid />
-
-            <Divider orientation="horizontal" flexItem />
-
-            <ShowHideButtons />
-
-            <Divider orientation="horizontal" flexItem />
-
-            {currentMap?.boundedRegion && (
-              <div className="items-center">
-                <Chip
-                  label={currentMap.boundedRegion.title}
-                  onDelete={() =>
-                    setMap({ ...currentMap!, boundedRegion: null })
-                  }
-                />
-              </div>
+        <Paper className="overflow-y-scroll absolute left-0 z-[499] w-[425px] h-full !bg-sidebarBackground flex flex-col p-5 gap-4">
+          <Link href={`/game/${game?.slug}`}>
+            <Image
+              src={`/images/games/${game?.slug}/logo-512.png`}
+              width="360"
+              height="70"
+              alt="sidebar logo"
+              className="cursor-pointer"
+              priority
+            />
+          </Link>
+          <h1
+            className={cn(
+              "text-accent text-center",
+              getFontClassName(game?.slug)
             )}
-            <MarkerSearch map={map} />
+          >
+            {game?.slug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
+          </h1>
+          <Divider orientation="horizontal" flexItem />
 
-            <Divider orientation="horizontal" flexItem />
+          <MapSwitcher />
 
-            {groups?.map((group, index) => {
-              const counts: any = {};
-              group.categories?.map((category) => {
-                const count = locations?.filter(
-                  ({ categoryId }) => categoryId == category.id
-                ).length;
-                counts[`${category.title}`] = count;
-              });
+          <RegionsGrid />
 
-              const sumValues = Object.values(counts).reduce(
-                (a: any, b: any) => a + b,
-                0
-              );
+          <Divider orientation="horizontal" flexItem />
 
-              if (sumValues === 0) return null;
+          <ShowHideButtons />
 
-              return (
-                <React.Fragment key={`${group.id}_${index}`}>
-                  <h1
-                    className="text-lg uppercase w-full text-text cursor-pointer"
-                    onClick={() => handleGroupHide(group.id)}
-                  >
-                    {group.title}
-                  </h1>
-                  <Grid container spacing={1} sx={{ minWidth: 350 }}>
-                    {group.categories?.map((category) => {
-                      const count = locations?.filter(
-                        ({ categoryId }) => categoryId === category.id
-                      ).length;
-                      if (!count) return null;
+          <Divider orientation="horizontal" flexItem />
 
-                      return (
-                        <Grid
-                          size={6}
-                          key={category.title}
-                          className={cn(
-                            currentMap.hiddenCategories.includes(category.id) &&
-                              "line-through opacity-80"
-                          )}
+          {currentMap?.boundedRegion && (
+            <div className="items-center">
+              <Chip
+                label={currentMap.boundedRegion.title}
+                onDelete={() => setMap({ ...currentMap!, boundedRegion: null })}
+              />
+            </div>
+          )}
+          <MarkerSearch map={map} />
+
+          <Divider orientation="horizontal" flexItem />
+
+          {groups?.map((group, index) => {
+            const counts: any = {};
+            group.categories?.map((category) => {
+              const count = locations?.filter(
+                ({ categoryId }) => categoryId == category.id
+              ).length;
+              counts[`${category.title}`] = count;
+            });
+
+            const sumValues = Object.values(counts).reduce(
+              (a: any, b: any) => a + b,
+              0
+            );
+
+            if (sumValues === 0) return null;
+
+            return (
+              <React.Fragment key={`${group.id}_${index}`}>
+                <h1
+                  className="text-lg uppercase w-full text-text cursor-pointer"
+                  onClick={() => handleGroupHide(group.id)}
+                >
+                  {group.title}
+                </h1>
+                <Grid container spacing={1} sx={{ minWidth: 350 }}>
+                  {group.categories?.map((category) => {
+                    const count = locations?.filter(
+                      ({ categoryId }) => categoryId === category.id
+                    ).length;
+                    if (!count) return null;
+
+                    return (
+                      <Grid
+                        size={6}
+                        key={category.title}
+                        className={cn(
+                          currentMap.hiddenCategories.includes(category.id) &&
+                            "line-through opacity-80"
+                        )}
+                      >
+                        <div
+                          className="w-full flex items-center !cursor-pointer uppercase px-2 hover:opacity-80"
+                          onClick={() => handleHiddenCategory(category.id)}
                         >
-                          <div
-                            className="w-full flex items-center !cursor-pointer uppercase px-2 py-1 hover:opacity-80"
-                            onClick={() => handleHiddenCategory(category.id)}
+                          <span
+                            className={cn(`icon-${category.icon}`, "mr-2")}
+                          />
+                          <Typography
+                            variant="caption"
+                            sx={{
+                              fontSize: "12px",
+                            }}
                           >
-                            <span
-                              className={cn(`icon-${category.icon}`, "mr-2")}
-                            />
-                            <Typography
-                              variant="caption"
-                              sx={{
-                                textOverflow: "ellipsis",
-                                fontSize: "10px",
-                              }}
-                            >
-                              {category.title}
-                            </Typography>
-                            <Typography
-                              variant="caption"
-                              sx={{ flex: 1, textAlign: "right" }}
-                            >
-                              {count}
-                            </Typography>
-                          </div>
-                        </Grid>
-                      );
-                    })}
-                  </Grid>
-                </React.Fragment>
-              );
-            })}
-          </Paper>
-        </Collapse>
+                            {category.title}
+                          </Typography>
+                          <Typography
+                            variant="caption"
+                            sx={{ flex: 1, textAlign: "right" }}
+                          >
+                            {count}
+                          </Typography>
+                        </div>
+                      </Grid>
+                    );
+                  })}
+                </Grid>
+              </React.Fragment>
+            );
+          })}
+        </Paper>
       )}
     </div>
   );

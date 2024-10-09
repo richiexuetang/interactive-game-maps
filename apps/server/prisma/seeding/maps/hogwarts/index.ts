@@ -673,7 +673,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Mooncalf Den",
-              description: "",
               latitude: "0.64934353724848",
               longitude: "-0.82373321056389",
             },
@@ -934,7 +933,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Giant Purple Toad Den",
-              description: "",
               latitude: "0.96080146579724",
               longitude: "-0.75947833302059",
             },
@@ -1057,7 +1055,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Dugbog Lair",
-              description: "",
               latitude: "0.57224615999178",
               longitude: "-0.62112100464324",
             },
@@ -1227,7 +1224,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Korrow Ruins",
-              description: "",
               latitude: "0.90420049953867",
               longitude: "-0.81117591702498",
             },
@@ -1798,7 +1794,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Charms Classroom",
-              description: "",
               latitude: "0.72800423766061",
               longitude: "-0.74833946425790",
             },
@@ -2041,7 +2036,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Lower Hogsfield",
-              description: "",
               latitude: "0.80087189944959",
               longitude: "-0.72654746337222",
             },
@@ -2161,70 +2155,60 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Map Chamber",
-              description: "",
               latitude: "0.82845210884805",
               longitude: "-0.82008256592201",
             },
             {
               mapSlug: "hogwarts",
               title: "Dungeons",
-              description: "",
               latitude: "0.82330027203278",
               longitude: "-0.77915811269816",
             },
             {
               mapSlug: "hogwarts",
               title: "Alchemy Class",
-              description: "",
               latitude: "0.83319886260536",
               longitude: "-0.76144158840350",
             },
             {
               mapSlug: "hogwarts",
               title: "Muggle Studies",
-              description: "",
               latitude: "0.83864316742986",
               longitude: "-0.76586723327708",
             },
             {
               mapSlug: "hogwarts",
               title: "North Hall",
-              description: "",
               latitude: "0.81429124340673",
               longitude: "-0.70556581020313",
             },
             {
               mapSlug: "hogwarts",
               title: "Long Gallery",
-              description: "",
               latitude: "0.81706436648631",
               longitude: "-0.65793514251686",
             },
             {
               mapSlug: "hogwarts",
               title: "Library",
-              description: "",
               latitude: "0.81844824537752",
               longitude: "-0.69748163223522",
             },
             {
               mapSlug: "hogwarts",
               title: "Restricted Section",
-              description: "",
               latitude: "0.86370832654421",
               longitude: "-0.71389138698561",
             },
             {
               mapSlug: "hogwarts",
               title: "Greenhouses",
-              description: "",
               latitude: "0.83809605536300",
               longitude: "-0.67956447601296",
             },
             {
               mapSlug: "hogwarts",
               title: "Central Hall",
-              description: "",
               latitude: "0.81549275151418",
               longitude: "-0.69096386432625",
             },
@@ -2237,14 +2221,12 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Transfiguration Courtyard",
-              description: "",
               latitude: "0.80920092161186",
               longitude: "-0.69898903369841",
             },
             {
               mapSlug: "hogwarts",
               title: "Transfiguration Class",
-              description: "",
               latitude: "0.80352056551429",
               longitude: "-0.70634365081744",
             },
@@ -2275,21 +2257,18 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Defence Against the Dark Arts Tower",
-              description: "",
               latitude: "0.76848125485247",
               longitude: "-0.68967903369708",
             },
             {
               mapSlug: "hogwarts",
               title: "Pungent Passage",
-              description: "",
               latitude: "0.78866683950845",
               longitude: "-0.70346272819745",
             },
             {
               mapSlug: "hogwarts",
               title: "West Tower",
-              description: "",
               latitude: "0.78676719265229",
               longitude: "-0.71202045565988",
             },
@@ -2320,21 +2299,18 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Viaduct Entrance",
-              description: "",
               latitude: "0.75036116842661",
               longitude: "-0.69820975891469",
             },
             {
               mapSlug: "hogwarts",
               title: "Clock Tower",
-              description: "",
               latitude: "0.64806342202429",
               longitude: "-0.81440448760995",
             },
             {
               mapSlug: "hogwarts",
               title: "Hospital Wing",
-              description: "",
               latitude: "0.65271724671711",
               longitude: "-0.77074178695891",
             },
@@ -3222,7 +3198,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Fort Archie",
-              description: "",
               latitude: "0.77842862985241",
               longitude: "-0.72874350761919",
             },
@@ -3253,7 +3228,6 @@ export const hogwarts = {
             {
               mapSlug: "hogsmeade",
               title: "Honeydukes",
-              description: "",
               latitude: "0.68342796916353",
               longitude: "-0.63929538483507",
             },
@@ -4598,7 +4572,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "5x Balloon",
-              description: "",
               latitude: "0.81997348632439",
               longitude: "-0.74552670005710",
             },
@@ -4648,7 +4621,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Balloons",
-              description: "",
               latitude: "0.49928297424388",
               longitude: "-0.51209434569048",
             },
@@ -4715,7 +4687,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "5x Balloon",
-              description: "",
               latitude: "0.69854214053026",
               longitude: "-0.73879550275327",
             },
@@ -4785,7 +4756,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Broom Racing Event",
-              description: "",
               latitude: "0.84687129451618",
               longitude: "-0.76470851898182",
             },
@@ -5749,6 +5719,7 @@ export const hogwarts = {
         },
         {
           title: "Field Guide Page",
+          isChecklist: true,
           info: "Field Guide Pages are hidden everywhere. Collecting one grants 80 XP and adds it to the collection log.",
           locations: [
             {
@@ -11885,7 +11856,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Chest",
-              description: "",
               latitude: "0.83967302522521",
               longitude: "-0.76492309570330",
             },
@@ -11906,7 +11876,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description: "",
               latitude: "0.58344011485218",
               longitude: "-0.68096458911808",
             },
@@ -15396,7 +15365,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Level I Lock",
-              description: "",
               latitude: "1.00581963082950",
               longitude: "-0.74025213718426",
             },
@@ -15433,21 +15401,18 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Level II Lock",
-              description: "",
               latitude: "0.66954111140029",
               longitude: "-0.81785053157421",
             },
             {
               mapSlug: "world",
               title: "Level I Lock",
-              description: "",
               latitude: "0.77036488403580",
               longitude: "-0.66334580496445",
             },
             {
               mapSlug: "world",
               title: "Level II Lock",
-              description: "",
               latitude: "0.76816529303071",
               longitude: "-0.66324976405111",
             },
@@ -15526,7 +15491,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Level I Lock",
-              description: "",
               latitude: "0.80962735028772",
               longitude: "-0.70829093456136",
             },
@@ -15539,7 +15503,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Level I Lock",
-              description: "",
               latitude: "0.79366976875521",
               longitude: "-0.73190510272923",
             },
@@ -15558,7 +15521,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Level III Lock",
-              description: "",
               latitude: "0.76772180569273",
               longitude: "-0.71566164493629",
             },
@@ -15625,7 +15587,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Level I Lock",
-              description: "",
               latitude: "0.55965010474999",
               longitude: "-0.80267786979590",
             },
@@ -15699,7 +15660,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Level III Lock",
-              description: "",
               latitude: "0.52116211812167",
               longitude: "-0.58622896671363",
             },
@@ -15766,7 +15726,6 @@ export const hogwarts = {
             {
               mapSlug: "hogsmeade",
               title: "Level I Lock",
-              description: "",
               latitude: "0.66933539935133",
               longitude: "-0.75269758701268",
             },
@@ -15926,7 +15885,6 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Letter from Eddie Thistlewood",
-              description: "",
               latitude: "0.94828831147721",
               longitude: "-0.68496213339430",
             },
@@ -15971,14 +15929,12 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "A Letter from Sebastian Sallow to his Sister Anne",
-              description: "",
               latitude: "0.67261235379837",
               longitude: "-0.81935840734128",
             },
             {
               mapSlug: "world",
               title: "A Letter from Anne Sallow to Sebastian Sallow",
-              description: "",
               latitude: "0.67256944141103",
               longitude: "-0.81888633855465",
             },
@@ -16028,7 +15984,6 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Letter from Eleanor Everleigh",
-              description: "",
               latitude: "0.83406244249612",
               longitude: "-0.68437099456980",
             },
@@ -16055,21 +16010,18 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Note to Professor Binns",
-              description: "",
               latitude: "0.80589408637456",
               longitude: "-0.70906341075747",
             },
             {
               mapSlug: "hogwarts",
               title: "Faculty Gathering Note",
-              description: "",
               latitude: "0.80362247943282",
               longitude: "-0.70191800594330",
             },
             {
               mapSlug: "hogwarts",
               title: "Note from Madam Kogawa",
-              description: "",
               latitude: "0.76879459285205",
               longitude: "-0.71407377719893",
             },

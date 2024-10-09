@@ -1,14 +1,14 @@
 import { PrismaClient, Prisma } from "@prisma/client";
-import { games } from "./seeding/maps";
+import { games } from "./seeding";
 
 const prisma = new PrismaClient();
 const tableNames = Object.values(Prisma.ModelName);
 
 async function main() {
-  // await refreshDatabase();
-  // for (let i = 0; i < games.length; i++) {
-  //   await seedGame(games[i]);
-  // }
+  await refreshDatabase();
+  for (let i = 0; i < games.length; i++) {
+    await seedGame(games[i]);
+  }
 }
 
 /**

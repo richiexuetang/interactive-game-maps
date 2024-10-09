@@ -83,9 +83,9 @@ export default async function RegionPage({
   const showRegionMedia = game.maps.length <= 2;
 
   return (
-    <div className={cn(params.gameSlug, "bg-bodyBackground h-[100vh]")}>
+    <div className={cn(params.gameSlug, "h-[100vh]")}>
       <MainNav />
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-bodyBackground">
         <div className="py-8">
           <h2 className="text-center font-text text-accent text-xl">
             {game.title.toUpperCase() + " MAPS"}

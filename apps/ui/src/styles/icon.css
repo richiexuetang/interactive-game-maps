@@ -19,822 +19,1955 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-side_quest:before {
-    content: "\E972";
-    color: #fff;
-}
-
-.icon-whetblade:before {
-    content: "\e900";
-    color: #fff;
-}
-
-.icon-weapon:before {
-    content: "\e901";
-    color: #fff;
-}
-
-.icon-wandering_mausoleum:before {
-    content: "\e902";
-    color: #fff;
-}
-
-.icon-trinas_lilly:before {
-    content: "\e903";
-    color: #fff;
-}
-
-.icon-portal:before {
-    content: "\e904";
-    color: #fff;
-}
-
-.icon-trainer:before {
-    content: "\e905";
-    color: #fff;
-}
-
-.icon-tool:before {
-    content: "\e906";
-    color: #fff;
-}
-
-.icon-teardrop_scarab:before {
-    content: "\e907";
-    color: #fff;
-}
-
-.icon-talisman_pouch:before {
-    content: "\e908";
-    color: #fff;
-}
-
-.icon-talisman:before {
-    content: "\e909";
-    color: #fff;
-}
-
-.icon-summoning_sigil:before {
-    content: "\e90a";
-    color: #fff;
-}
-
-.icon-stonesword_key:before {
-    content: "\e90b";
-    color: #fff;
-}
-
-.icon-stone_cairn:before {
-    content: "\e90c";
-    color: #fff;
-}
-
-.icon-stake_of_marika:before {
-    content: "\e90d";
-    color: #fff;
-}
-
-.icon-spiritspring_jump:before {
-    content: "\e90e";
-    color: #fff;
-}
-
-.icon-spirit_ashes:before {
-    content: "\e90f";
-    color: #fff;
-}
-
-.icon-spellbook:before {
-    content: "\e910";
-    color: #fff;
-}
-
-.icon-spell:before,
-.icon-sorcery:before {
-    content: "\e911";
-    color: #fff;
-}
-
-.icon-somber_smithing_stone:before {
-    content: "\e912";
-    color: #fff;
-}
-
-.icon-smithing_table:before {
-    content: "\e913";
-    color: #fff;
-}
-
-.icon-smithing_stone:before {
-    content: "\e914";
-    color: #fff;
-}
-
-.icon-slumbering_egg:before {
-    content: "\e915";
-    color: #fff;
-}
-
-.icon-site_of_grace:before {
-    content: "\E916";
-    color: #d2b97c;
-}
-
-.icon-shield:before {
-    content: "\e917";
-    color: #fff;
-}
-
-.icon-scadutree_fragment:before {
-    content: "\e918";
-    color: #fff;
-}
-
-.icon-mimics_tear:before,
-.icon-crystal_tear:before,
-.icon-sacred_tear:before {
-    content: "\e919";
-    color: #fff;
-}
-
-.icon-sacramental_bud:before {
-    content: "\e91a";
-    color: #fff;
-}
-
-.icon-rune_arc:before {
-    content: "\e91b";
-    color: #fff;
-}
-
-.icon-ruin_fragment:before {
-    content: "\e91c";
-    color: #fff;
-}
-
-.icon-ritual_pot:before {
-    content: "\e91d";
-    color: #fff;
-}
-
-.icon-revered_spirit_ash:before {
-    content: "\e91e";
-    color: #fff;
-}
-
-.icon-remembrance:before {
-    content: "\e91f";
-    color: #fff;
-}
-
-.icon-rebirth_monument:before {
-    content: "\e920";
-    color: #fff;
-}
-
-.icon-quest:before {
-    content: "\e921";
-    color: #fff;
-}
-
-.icon-puzzle:before {
-    content: "\e922";
-    color: #fff;
-}
-
-.icon-gourd:before,
-.icon-perfume_bottle:before {
-    content: "\e924";
-    color: #fff;
-}
-
-.icon-painting:before {
-    content: "\e925";
-    color: #fff;
-}
-
-.icon-nascient_butterfly:before {
-    content: "\e926";
-    color: #fff;
-}
-
-.icon-miscellaneous:before {
-    content: "\e928";
-    color: #fff;
-}
-
-.icon-miquellas_lilly:before {
-    content: "\e929";
-    color: #fff;
-}
-
-.icon-miquellas_cross:before {
-    content: "\e92a";
-    color: #fff;
-}
-
-.icon-minor_erdtree:before {
-    content: "\e92b";
-    color: #fff;
-}
-
-.icon-merchant:before {
-    content: "\e92d";
-    color: #fff;
-}
-
-.icon-memory_stone:before {
-    content: "\e92e";
-    color: #fff;
-}
-
-.icon-map_fragment:before {
-    content: "\e930";
-    color: #fff;
-}
-
-.icon-lore:before {
-    content: "\e931";
-    color: #fff;
-}
-
-.icon-location:before {
-    content: "\e932";
-    color: #fff;
-}
-
-.icon-legacy_dungeon:before {
-    content: "\e933";
-    color: #fff;
-}
-
-.icon-point_of_interest:before,
-.icon-landmark:before {
-    content: "\e934";
-    color: #fff;
-}
-
-.icon-key_item:before {
-    content: "\e935";
-    color: #fff;
-}
-
-.icon-item:before {
-    content: "\e936";
-    color: #fff;
-}
-
-.icon-invasion:before {
-    content: "\e937";
-    color: #fff;
-}
-
-.icon-incantation:before {
-    content: "\e938";
-    color: #fff;
-}
-
-.icon-imp_seal_statue:before {
-    content: "\e939";
-    color: #fff;
-}
-
-.icon-hidden_passage:before {
-    content: "\e93a";
-    color: #fff;
-}
-
-.icon-guiding_statue:before {
-    content: "\e93b";
-    color: #fff;
-}
-
-.icon-great_rune:before {
-    content: "\e93c";
-    color: #fff;
-}
-
-.icon-boss:before,
-.icon-great_boss:before {
-    content: "\e93e";
-    color: #fff;
-}
-
-.icon-golden_seed:before {
-    content: "\e93f";
-    color: #fff;
-}
-
-.icon-golden_rune:before {
-    content: "\e940";
-    color: #fff;
-}
-
-.icon-ghost_glovewort:before,
-.icon-great_glovewort:before,
-.icon-glovewort:before {
-    content: "\e93d";
-    color: #fff;
-}
-
-.icon-ghost:before {
-    content: "\e943";
-    color: #fff;
-}
-
-.icon-gesture:before {
-    content: "\e944";
-    color: #fff;
-}
-
-.icon-evergaol:before {
-    content: "\e945";
-    color: #fff;
-}
-
-.icon-enemy:before {
-    content: "\E917";
-    color: #fff;
-}
-
-.icon-elite_enemy:before {
-    content: "\e947";
-    color: #fff;
-}
-
-.icon-elevator:before {
-    content: "\e948";
-    color: #fff;
-}
-
-.icon-easter_egg:before {
-    content: "\e949";
-    color: #fff;
-}
-
-/* .icon-dungeon:before {
-    content: "\e94a";
-    color: #fff;
-} */
-
-.icon-dragon_shrine:before {
-    content: "\e94b";
-    color: #fff;
-}
-
-.icon-dragon_heart:before {
-    content: "\e94c";
-    color: #fff;
-}
-
-.icon-divine_tower:before {
-    content: "\e94d";
-    color: #fff;
-}
-
-.icon-demigod:before {
-    content: "\e94e";
-    color: #fff;
-}
-
-.icon-deathroot:before {
-    content: "\e94f";
-    color: #fff;
-}
-
-.icon-creature:before {
-    content: "\e951";
-    color: #fff;
-}
-
-.icon-cracked_pot:before {
-    content: "\e953";
-    color: #fff;
-}
-
-.icon-cookbook:before {
-    content: "\e954";
-    color: #fff;
-}
-
-.icon-consumable:before {
-    content: "\e955";
-    color: #fff;
-}
-
-.icon-character:before {
-    content: "\e956";
-    color: #fff;
-}
-
-.icon-cerulean_scarab:before {
-    content: "\e957";
-    color: #fff;
-}
-
-.icon-bolstering_material:before {
-    content: "\e959";
-    color: #fff;
-}
-
-.icon-birdseye_telescope:before {
-    content: "\e95a";
-    color: #fff;
-}
-
-.icon-bell_bearing:before {
-    content: "\e95b";
-    color: #fff;
-}
-
-.icon-ash_of_war:before {
-    content: "\e95c";
-    color: #fff;
-}
-
-.icon-armor:before {
-    content: "\e115";
-    color: #fff;
-}
-
-.icon-ancient_smithing_stone:before {
-    content: "\e95e";
-    color: #c2dae8;
-}
-
 .icon-yaoguai_king:before {
-    content: "\E94E";
-    color: #fff;
-}
-
-.icon-yaoguai_chief:before {
-    content: "\E116";
-    color: #fff;
-}
-
-.icon-vessel:before {
-    content: "\E92F";
-    color: #fff;
-}
-
-.icon-materials:before {
-    content: "\E120";
-    color: #fff;
-}
-
-.icon-spirit:before {
-    content: "\E111";
-    color: #fff;
-}
-
-.icon-soak:before {
-    content: "\E114";
-    color: #fff;
-}
-
-.icon-point_of_interest:before {
-    content: "\E91F";
-    color: #fff;
-}
-
-.icon-npc:before {
-    content: "\E90A";
-    color: #fff;
-}
-
-.icon-miscellaneous:before {
-    content: "\E928";
-    color: #fff;
-}
-
-.icon-meditation_spot:before {
-    content: "\e914";
-    color: #fff;
-}
-
-
-.icon-luojia_fragrant_vine:before {
-    content: "\E110";
-    color: #fff;
-}
-
-.icon-key_items:before {
-    content: "\E935";
-    color: #fff;
-}
-
-.icon-keeper_shrine:before {
     content: "\e100";
     color: #fff;
 }
 
-.icon-gourd:before {
-    content: "\E924";
+.icon-yaoguai_chief:before {
+    content: "\e101";
     color: #fff;
 }
 
-.icon-formula:before {
-    content: "\E954";
+.icon-weapon:before {
+    content: "\e103";
     color: #fff;
 }
 
-.icon-lesser_yaoguai:before {
-    content: "\E946";
+.icon-vessel:before {
+    content: "\e104";
     color: #fff;
 }
 
-.icon-easter_egg:before {
-    content: "\E949";
+.icon-materials:before {
+    content: "\e105";
     color: #fff;
 }
 
-.icon-drink:before {
-    content: "\E112";
+.icon-transformation_spell:before {
+    content: "\e106";
     color: #fff;
 }
 
-.icon-curio:before {
-    content: "\E113";
+.icon-spirit:before {
+    content: "\e107";
     color: #fff;
 }
 
-.icon-chest:before {
-    content: "\E312";
+.icon-spell:before {
+    content: "\e108";
     color: #fff;
 }
 
-.icon-celestial_pill:before {
-    content: "\E91B";
-    color: #fff;
-}
-
-.icon-awaken_wine_worm:before {
-    content: "\E121";
-    color: #fff;
-}
-
-.icon-temple:before,
-.icon-building:before {
-    content: "\E272";
-    color: #fff;
-}
-
-.icon-cave:before {
-    content: "\E271";
-    color: #fff;
-}
-
-.icon-chasm:before {
-    content: "\E265";
-    color: #fff;
-}
-
-.icon-area:before {
-    content: "\E229";
-    color: #fff;
-}
-
-.icon-goddess_status:before {
-    content: "\E249";
-    color: #fff;
-}
-
-/* .icon-landmark:before {
-    content: "\E265";
-    color: #fff;
-} */
-
-.icon-lighthouse:before {
-    content: "\E244";
-    color: #fff;
-}
-
-.icon-lightroot:before {
-    content: "\E243";
-    color: #fff;
-}
-
-.icon-settlement:before {
-    content: "\E273";
-    color: #fff;
-}
-
-.icon-shrine:before {
-    content: "\E223";
-    color: #fff;
-}
-
-.icon-skyview_tower:before {
-    content: "\E219";
-    color: #fff;
-}
-
-.icon-tech_lab:before {
-    content: "\E217";
-    color: #fff;
-}
-
-.icon-settlement:before {
-    content: "\E273";
-    color: #fff;
-}
-
-.icon-shrine:before {
-    content: "\E223";
-    color: #fff;
-}
-
-.icon-zonai_survey_team_base {
-    content: "\E207";
-    color: #fff;
-}
-
-.icon-ancient_magic_hotspot:before {
-    content: "\E810";
-    color: #fff;
-}
-
-.icon-bandit_camp:before {
-    content: "\E002";
-    color: #fff;
-}
-
-.icon-battle_arena:before {
-    content: "\E003";
-    color: #fff;
-}
-
-.icon-beast_den:before {
-    content: "\E004";
-    color: #fff;
-}
-
-.icon-creature_lair:before {
-    content: "\E005";
-    color: #fff;
-}
-
-.icon-hogwarts_dungeon:before {
-    content: "\E006";
-    color: #fff;
-}
-
-.icon-floo_flame:before {
-    content: "\E007";
-    color: #fff;
-}
-
-.icon-hamlet:before {
-    content: "\E008";
-    color: #fff;
-}
-
-.icon-hedge_maze:before {
-    content: "\E009";
-    color: #fff;
-}
-
-.icon-vendor:before {
-    content: "\E010";
-    color: #fff;
-}
-
-.icon-location:before {
-    content: "\E011";
-    color: #fff;
-}
-
-.icon-merlin_trial:before {
-    content: "\E013";
-    color: #fff;
-}
-
-.icon-point_of_interest:before {
-    content: "\E014";
-    color: #fff;
-}
-
-.icon-astronomy_table:before {
-    content: "\E015";
-    color: #fff;
-}
-
-.icon-balloon:before {
-    content: "\E801";
-    color: #fff;
-}
-
-.icon-broom_trial:before {
-    content: "\E016";
-    color: #fff;
-}
-
-.icon-collection_chest:before {
-    content: "\E017";
-    color: #fff;
-}
-
-.icon-conjuration:before {
-    content: "\E018";
-    color: #fff;
-}
-
-.icon-demiguise_statue:before {
-    content: "\E019";
-    color: #fff;
-}
-
-.icon-field_guide_page:before {
-    content: "\E020";
-    color: #fff;
-}
-
-.icon-landing_platform:before {
-    content: "\E021";
-    color: #fff;
-}
-
-.icon-treasure_vault:before {
-    content: "\E022";
-    color: #fff;
-}
-
-.icon-wand_handle:before {
-    content: "\E023";
-    color: #fff;
-}
-
-.icon-trait:before {
-    content: "\E024";
-    color: #fff;
-}
-
-.icon-main_quest:before {
-    content: "\E025";
-    color: #fff;
-}
-
-.icon-relationship_quest:before {
-    content: "\E026";
+.icon-soak:before {
+    content: "\e109";
     color: #fff;
 }
 
 .icon-side_quest:before {
-    content: "\E027";
+    content: "\e10b";
     color: #fff;
 }
 
-.icon-chest:before {
-    content: "\E028";
-    color: #fff;
-}
-
-.icon-eye_chest:before {
-    content: "\E029";
-    color: #fff;
-}
-
-.icon-ingredient:before {
-    content: "\E030";
-    color: #fff;
-}
-
-.icon-legendary_chest:before {
-    content: "\E031";
-    color: #fff;
-}
-
-.icon-infamous_foe:before {
-    content: "\E032";
-    color: #fff;
-}
-
-.icon-butterflies:before {
-    content: "\E033";
-    color: #fff;
-}
-
-.icon-easter_egg:before {
-    content: "\E034";
-    color: #fff;
-}
-
-.icon-lock:before {
-    content: "\E035";
-    color: #fff;
-}
-
-.icon-lore_note:before {
-    content: "\E036";
-    color: #fff;
-}
-
-.icon-miscellaneous:before {
-    content: "\E037";
+.icon-point_of_interest:before {
+    content: "\e10f";
     color: #fff;
 }
 
 .icon-npc:before {
-    content: "\E038";
+    content: "\e110";
     color: #fff;
+}
+
+.icon-miscellaneous:before {
+    content: "\e112";
+    color: #fff;
+}
+
+.icon-meditation_spot:before {
+    content: "\e114";
+    color: #fff;
+}
+
+.icon-luojia_fragrant_vine:before {
+    content: "\e115";
+    color: #fff;
+}
+
+.icon-lesser_yaoguai:before {
+    content: "\e117";
+    color: #fff;
+}
+
+.icon-key_item:before {
+    content: "\e118";
+    color: #fff;
+}
+
+.icon-keeper_shrine:before {
+    content: "\e119";
+    color: #fff;
+}
+
+.icon-item:before {
+    content: "\e11b";
+    color: #fff;
+}
+
+.icon-gourd:before {
+    content: "\e11c";
+    color: #fff;
+}
+
+.icon-formula:before {
+    content: "\e11f";
+    color: #fff;
+}
+
+.icon-elite_lesser_yaoguai:before {
+    content: "\e121";
+    color: #fff;
+}
+
+.icon-easter_egg:before {
+    content: "\e122";
+    color: #fff;
+}
+
+.icon-drink:before {
+    content: "\e123";
+    color: #fff;
+}
+
+.icon-curio:before {
+    content: "\e124";
+    color: #fff;
+}
+
+.icon-consumable:before {
+    content: "\e125";
+    color: #fff;
+}
+
+.icon-chest:before {
+    content: "\e126";
+    color: #fff;
+}
+
+.icon-character:before {
+    content: "\e127";
+    color: #fff;
+}
+
+.icon-celestial_pill:before {
+    content: "\e128";
+    color: #fff;
+}
+
+.icon-awaken_wine_worm:before {
+    content: "\e12a";
+    color: #fff;
+}
+
+.icon-armor:before {
+    content: "\e12b";
+    color: #fff;
+}
+
+/* Elden Ring */
+
+.icon-whetblade:before {
+    content: "\e200";
+    color: #fff;
+}
+
+.icon-weapon:before {
+    content: "\e201";
+    color: #fff;
+}
+
+.icon-wandering_mausoleum:before {
+    content: "\e202";
+    color: #fff;
+}
+
+.icon-trinas_lilly:before {
+    content: "\e203";
+    color: #fff;
+}
+
+.icon-transition:before {
+    content: "\e204";
+    color: #fff;
+}
+
+.icon-trainer:before {
+    content: "\e205";
+    color: #fff;
+}
+
+.icon-tool:before {
+    content: "\e206";
+    color: #fff;
+}
+
+.icon-teardrop_scarab:before {
+    content: "\e207";
+    color: #fff;
+}
+
+.icon-talisman_pouch:before {
+    content: "\e208";
+    color: #fff;
+}
+
+.icon-talisman:before {
+    content: "\e209";
+    color: #fff;
+}
+
+.icon-summoning_sigil:before {
+    content: "\e20a";
+    color: #fff;
+}
+
+.icon-stonesword_key:before {
+    content: "\e20b";
+    color: #fff;
+}
+
+.icon-stone_cairn:before {
+    content: "\e20c";
+    color: #fff;
+}
+
+.icon-stake_of_marika:before {
+    content: "\e20d";
+    color: #fff;
+}
+
+.icon-spiritspring_jump:before {
+    content: "\e20e";
+    color: #fff;
+}
+
+.icon-spirit_ashes:before {
+    content: "\e20f";
+    color: #fff;
+}
+
+.icon-spellbook:before {
+    content: "\e210";
+    color: #fff;
+}
+
+.icon-sorcery:before {
+    content: "\e211";
+    color: #fff;
+}
+
+.icon-somber_smithing_stone:before {
+    content: "\e212";
+    color: #fff;
+}
+
+.icon-smithing_table:before {
+    content: "\e213";
+    color: #fff;
+}
+
+.icon-smithing_stone:before {
+    content: "\e214";
+    color: #fff;
+}
+
+.icon-slumbering_egg:before {
+    content: "\e215";
+    color: #fff;
+}
+
+.icon-site_of_grace:before {
+    content: "\e216";
+    color: #d2b97c;
+}
+
+.icon-shield:before {
+    content: "\e217";
+    color: #fff;
+}
+
+.icon-scadutree_fragment:before {
+    content: "\e218";
+    color: #fff;
+}
+
+.icon-sacred_tear:before {
+    content: "\e219";
+    color: #fff;
+}
+
+.icon-sacramental_bud:before {
+    content: "\e21a";
+    color: #fff;
+}
+
+.icon-rune_arc:before {
+    content: "\e21b";
+    color: #fff;
+}
+
+.icon-ruin_fragment:before {
+    content: "\e21c";
+    color: #fff;
+}
+
+.icon-ritual_pot:before {
+    content: "\e21d";
+    color: #fff;
+}
+
+.icon-revered_spirit_ash:before {
+    content: "\e21e";
+    color: #fff;
+}
+
+.icon-remembrance:before {
+    content: "\e21f";
+    color: #fff;
+}
+
+.icon-rebirth_monument:before {
+    content: "\e220";
+    color: #fff;
+}
+
+.icon-quest:before {
+    content: "\e221";
+    color: #fff;
+}
+
+.icon-puzzle:before {
+    content: "\e222";
+    color: #fff;
+}
+
+.icon-portal:before {
+    content: "\e223";
+    color: #fff;
+}
+
+.icon-perfume_bottle:before {
+    content: "\e224";
+    color: #fff;
+}
+
+.icon-painting:before {
+    content: "\e225";
+    color: #fff;
+}
+
+.icon-nascient_butterfly:before {
+    content: "\e226";
+    color: #fff;
+}
+
+.icon-multiplayer_item:before {
+    content: "\e227";
+    color: #fff;
+}
+
+.icon-miscellaneous:before {
+    content: "\e228";
+    color: #fff;
+}
+
+.icon-miquellas_lilly:before {
+    content: "\e229";
+    color: #fff;
+}
+
+.icon-miquellas_cross:before {
+    content: "\e22a";
+    color: #fff;
+}
+
+.icon-minor_erdtree:before {
+    content: "\e22b";
+    color: #fff;
+}
+
+.icon-mimics_tear:before {
+    content: "\e22c";
+    color: #fff;
+}
+
+.icon-merchant:before {
+    content: "\e22d";
+    color: #fff;
+}
+
+.icon-memory_stone:before {
+    content: "\e22e";
+    color: #fff;
+}
+
+.icon-martyr_effigy:before {
+    content: "\e22f";
+    color: #fff;
+}
+
+.icon-map_fragment:before {
+    content: "\e230";
+    color: #fff;
+}
+
+.icon-lore:before {
+    content: "\e231";
+    color: #fff;
+}
+
+.icon-location:before {
+    content: "\e232";
+    color: #fff;
+}
+
+.icon-legacy_dungeon:before {
+    content: "\e233";
+    color: #fff;
+}
+
+.icon-landmark:before {
+    content: "\e234";
+    color: #fff;
+}
+
+.icon-key_item:before {
+    content: "\e235";
+    color: #fff;
+}
+
+.icon-item:before {
+    content: "\e236";
+    color: #fff;
+}
+
+.icon-invasion:before {
+    content: "\e237";
+    color: #fff;
+}
+
+.icon-incantation:before {
+    content: "\e238";
+    color: #fff;
+}
+
+.icon-imp_seal_statue:before {
+    content: "\e239";
+    color: #fff;
+}
+
+.icon-hidden_passage:before {
+    content: "\e23a";
+    color: #fff;
+}
+
+.icon-guiding_statue:before {
+    content: "\e23b";
+    color: #fff;
+}
+
+.icon-great_rune:before {
+    content: "\e23c";
+    color: #fff;
+}
+
+.icon-great_glovewort:before {
+    content: "\e23d";
+    color: #c2dae8;
+}
+
+.icon-great_boss:before {
+    content: "\e23e";
+    color: #fff;
+}
+
+.icon-golden_seed:before {
+    content: "\e23f";
+    color: #fff;
+}
+
+.icon-golden_rune:before {
+    content: "\e240";
+    color: #fff;
+}
+
+.icon-glovewort:before {
+    content: "\e241";
+    color: #fff;
+}
+
+.icon-ghost_glovewort:before {
+    content: "\e242";
+    color: #fff;
+}
+
+.icon-ghost:before {
+    content: "\e243";
+    color: #fff;
+}
+
+.icon-gesture:before {
+    content: "\e244";
+    color: #fff;
+}
+
+.icon-evergaol:before {
+    content: "\e245";
+    color: #fff;
+}
+
+.icon-enemy:before {
+    content: "\e246";
+    color: #fff;
+}
+
+.icon-elite_enemy:before {
+    content: "\e247";
+    color: #fff;
+}
+
+.icon-elevator:before {
+    content: "\e248";
+    color: #fff;
+}
+
+.icon-easter_egg:before {
+    content: "\e249";
+    color: #fff;
+}
+
+.icon-dungeon:before {
+    content: "\e24a";
+    color: #fff;
+}
+
+.icon-dragon_shrine:before {
+    content: "\e24b";
+    color: #fff;
+}
+
+.icon-dragon_heart:before {
+    content: "\e24c";
+    color: #fff;
+}
+
+.icon-divine_tower:before {
+    content: "\e24d";
+    color: #fff;
+}
+
+.icon-demigod:before {
+    content: "\e24e";
+    color: #fff;
+}
+
+.icon-deathroot:before {
+    content: "\e24f";
+    color: #fff;
+}
+
+.icon-crystal_tear:before {
+    content: "\e250";
+    color: #fff;
+}
+
+.icon-creature:before {
+    content: "\e251";
+    color: #fff;
+}
+
+.icon-crafting_material:before {
+    content: "\e252";
+    color: #fff;
+}
+
+.icon-cracked_pot:before {
+    content: "\e253";
+    color: #fff;
+}
+
+.icon-cookbook:before {
+    content: "\e254";
+    color: #fff;
+}
+
+.icon-consumable:before {
+    content: "\e255";
+    color: #fff;
+}
+
+.icon-character:before {
+    content: "\e256";
+    color: #fff;
+}
+
+.icon-cerulean_scarab:before {
+    content: "\e257";
+    color: #fff;
+}
+
+.icon-boss:before {
+    content: "\e258";
+    color: #fff;
+}
+
+.icon-bolstering_material:before {
+    content: "\e259";
+    color: #fff;
+}
+
+.icon-birdseye_telescope:before {
+    content: "\e25a";
+    color: #fff;
+}
+
+.icon-bell_bearing:before {
+    content: "\e25b";
+    color: #fff;
+}
+
+.icon-ash_of_war:before {
+    content: "\e25c";
+    color: #fff;
+}
+
+.icon-armor:before {
+    content: "\e25d";
+    color: #fff;
+}
+
+.icon-ancient_smithing_stone:before {
+    content: "\e25e";
+    color: #c2dae8;
+}
+
+.icon-ammunition:before {
+    content: "\e25f";
+    color: #fff;
+}
+
+/* gow */
+.icon-armor_set:before {
+    content: "\e300";
+    color: #fff;
+}
+
+.icon-ingredient:before {
+    content: "\e301";
+    color: #fff;
+}
+
+.icon-sleeping_troll:before {
+    content: "\e302";
+    color: #fff;
+}
+
+.icon-wood_chest:before {
+    content: "\e303";
+    color: #fff;
+}
+
+.icon-crystalline:before {
+    content: "\e304";
+    color: #fff;
+}
+
+.icon-wishing_well:before {
+    content: "\e305";
+    color: #fff;
+}
+
+.icon-celestial_altar:before {
+    content: "\e306";
+    color: #fff;
+}
+
+.icon-seasonal_stag:before {
+    content: "\e307";
+    color: #fff;
+}
+
+.icon-amulet_enhancement:before {
+    content: "\e308";
+    color: #fff;
+}
+
+.icon-area:before {
+    content: "\e309";
+    color: #fff;
+}
+
+.icon-muspelheim_trial:before {
+    content: "\e30a";
+    color: #fff;
+}
+
+.icon-artifact:before {
+    content: "\e30b";
+    color: #fff;
+}
+
+.icon-barrier:before {
+    content: "\e30c";
+    color: #fff;
+}
+
+.icon-berserker_gravestone:before {
+    content: "\e30d";
+    color: #fff;
+}
+
+.icon-boss:before {
+    content: "\e30e";
+    color: #fff;
+}
+
+.icon-buried_treasure:before {
+    content: "\e30f";
+    color: #fff;
+}
+
+.icon-chest_rune:before {
+    content: "\e310";
+    color: #fff;
+}
+
+.icon-crater_hunt:before {
+    content: "\e311";
+    color: #fff;
+}
+
+.icon-dock:before {
+    content: "\e312";
+    color: #fff;
+}
+
+.icon-draugr_hole:before {
+    content: "\e313";
+    color: #fff;
+}
+
+.icon-easter_egg:before {
+    content: "\e314";
+    color: #fff;
+}
+
+.icon-entrance:before {
+    content: "\e315";
+    color: #fff;
+}
+
+.icon-favor:before {
+    content: "\e316";
+    color: #fff;
+}
+
+.icon-hacksilver:before {
+    content: "\e317";
+    color: #fff;
+}
+
+.icon-hel_tear:before {
+    content: "\e318";
+    color: #fff;
+}
+
+.icon-interactable:before {
+    content: "\e319";
+    color: #fff;
+}
+
+.icon-jewel_of_yggdrasil:before {
+    content: "\e31a";
+    color: #fff;
+}
+
+.icon-kol_raider_camp:before {
+    content: "\e31b";
+    color: #fff;
+}
+
+.icon-kvasirs_poem:before {
+    content: "\e31c";
+    color: #fff;
+}
+
+.icon-legendary_chest:before {
+    content: "\e31d";
+    color: #fff;
+}
+
+.icon-light_bridge:before {
+    content: "\e31e";
+    color: #fff;
+}
+
+.icon-lindwyrm:before {
+    content: "\e31f";
+    color: #fff;
+}
+
+.icon-lore:before {
+    content: "\e320";
+    color: #fff;
+}
+
+.icon-miniboss:before {
+    content: "\e321";
+    color: #fff;
+}
+
+.icon-miscellaneous:before {
+    content: "\e322";
+    color: #fff;
+}
+
+.icon-mystic_gateway:before {
+    content: "\e323";
+    color: #fff;
+}
+
+.icon-nine_realms_in_bloom:before {
+    content: "\e324";
+    color: #fff;
+}
+
+.icon-nornir_chest:before {
+    content: "\e325";
+    color: #fff;
+}
+
+.icon-odins_raven:before {
+    content: "\e326";
+    color: #fff;
+}
+
+.icon-other_loot:before {
+    content: "\e327";
+    color: #fff;
+}
+
+.icon-point_of_interest:before {
+    content: "\e328";
+    color: #fff;
+}
+
+.icon-red_coffin:before {
+    content: "\e329";
+    color: #fff;
+}
+
+.icon-relic:before {
+    content: "\e32a";
+    color: #fff;
+}
+
+.icon-remnant_of_asgard:before {
+    content: "\e32b";
+    color: #fff;
+}
+
+.icon-shield:before {
+    content: "\e32c";
+    color: #fff;
+}
+
+.icon-shop:before {
+    content: "\e32d";
+    color: #fff;
+}
+
+.icon-the_path:before {
+    content: "\e32e";
+    color: #fff;
+}
+
+.icon-transition_line:before {
+    content: "\e32f";
+    color: #fff;
+}
+
+.icon-transition:before {
+    content: "\e330";
+    color: #fff;
+}
+
+.icon-treasure_map:before {
+    content: "\e331";
+    color: #fff;
+}
+
+.icon-yggdrasil_fragment:before {
+    content: "\e332";
+    color: #fff;
+}
+
+.icon-yggdrasil_rift:before {
+    content: "\e333";
+    color: #fff;
+}
+
+.icon-yggdrasils_dew:before {
+    content: "\e334";
+    color: #fff;
+}
+
+/* hogwarts */
+.icon-wand_handle:before {
+    content: "\e400";
+    color: #fff;
+}
+
+.icon-vendor:before {
+    content: "\e401";
+    color: #fff;
+}
+
+.icon-treasure_vault:before {
+    content: "\e402";
+    color: #fff;
+}
+
+.icon-trait:before {
+    content: "\e403";
+    color: #fff;
+}
+
+.icon-side_quest:before {
+    content: "\e405";
+    color: #fff;
+}
+
+.icon-relationship_quest:before {
+    content: "\e406";
+    color: #fff;
+}
+
+.icon-puzzle:before {
+    content: "\e407";
+    color: #fff;
+}
+
+.icon-point_of_interest:before {
+    content: "\e408";
+    color: #fff;
+}
+
+.icon-npc:before {
+    content: "\e409";
+    color: #fff;
+}
+
+.icon-moth:before {
+    content: "\e40a";
+    color: #fff;
+}
+
+.icon-miscellaneous:before {
+    content: "\e40b";
+    color: #fff;
+}
+
+.icon-minor_loot:before {
+    content: "\e40c";
+    color: #fff;
+}
+
+.icon-merlin_trial:before {
+    content: "\e40d";
+    color: #fff;
+}
+
+.icon-main_quest:before {
+    content: "\e40e";
+    color: #fff;
+}
+
+.icon-lore_note:before {
+    content: "\e40f";
+    color: #fff;
+}
+
+.icon-lock:before {
+    content: "\e410";
+    color: #fff;
+}
+
+.icon-location:before {
+    content: "\e411";
+    color: #fff;
+}
+
+.icon-legendary_chest:before {
+    content: "\e412";
+    color: #fff;
+}
+
+.icon-landing_platform:before {
+    content: "\e413";
+    color: #fff;
+}
+
+.icon-ingredient:before {
+    content: "\e414";
+    color: #fff;
+}
+
+.icon-infamous_foe:before {
+    content: "\e415";
+    color: #fff;
+}
+
+.icon-house_coin:before {
+    content: "\e416";
+    color: #fff;
+}
+
+.icon-hedge_maze:before {
+    content: "\e417";
+    color: #fff;
+}
+
+.icon-hamlet:before {
+    content: "\e418";
+    color: #f9f9f9;
+}
+
+.icon-gear_chest:before {
+    content: "\e419";
+    color: #fff;
+}
+
+.icon-gear:before {
+    content: "\e41a";
+    color: #fff;
+}
+
+.icon-floo_flame:before {
+    content: "\e41b";
+    color: #a2dd9f;
+}
+
+.icon-field_guide_page:before {
+    content: "\e41c";
+    color: #fff;
+}
+
+.icon-eye_chest:before {
+    content: "\e41d";
+    color: #fff;
+}
+
+.icon-easter_egg:before {
+    content: "\e41e";
+    color: #fff;
+}
+
+.icon-dungeon:before {
+    content: "\e41f";
+    color: #fff;
+}
+
+.icon-demiguise_statue:before {
+    content: "\e420";
+    color: #fff;
+}
+
+.icon-daedalian_key:before {
+    content: "\e421";
+    color: #fff;
+}
+
+.icon-creature_lair:before {
+    content: "\e422";
+    color: #fff;
+}
+
+.icon-conjuration:before {
+    content: "\e427";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.97;
+}
+
+.icon-collection_chest:before {
+    content: "\e428";
+    color: #fff;
+}
+
+.icon-chest:before {
+    content: "\e429";
+    color: #fff;
+}
+
+.icon-cairn_dungeon:before {
+    content: "\e42a";
+    color: #fff;
+}
+
+.icon-butterflies:before {
+    content: "\e42b";
+    color: #fff;
+}
+
+.icon-broom_trial:before {
+    content: "\e42c";
+    color: #fff;
+}
+
+.icon-broom:before {
+    content: "\e42d";
+    color: #fff;
+}
+
+.icon-beast_den:before {
+    content: "\e42e";
+    color: #fff;
+}
+
+.icon-beast:before {
+    content: "\e42f";
+    color: #fff;
+}
+
+.icon-battle_arena:before {
+    content: "\e430";
+    color: #fff;
+}
+
+.icon-bandit_camp:before {
+    content: "\e431";
+    color: #fff;
+}
+
+.icon-balloon:before {
+    content: "\e432";
+    color: #fff;
+}
+
+.icon-astronomy_table:before {
+    content: "\e433";
+    color: #fff;
+}
+
+.icon-assignment:before {
+    content: "\e434";
+    color: #fff;
+}
+
+.icon-ancient_magic_hotspot:before {
+    content: "\e435";
+    color: #fff;
+}
+
+/* totk */
+
+.icon-zonai_survey_team_base:before {
+    content: "\e900";
+    color: #fff8ec;
+}
+
+.icon-zonai_relief:before {
+    content: "\e901";
+    color: #fff8ec;
+}
+
+.icon-zonai_component:before {
+    content: "\e902";
+    color: #fff8ec;
+}
+
+.icon-zonai_charge:before {
+    content: "\e903";
+    color: #fff8ec;
+}
+
+.icon-zonai:before {
+    content: "\e904";
+    color: #fff8ec;
+}
+
+.icon-yiga_schematic:before {
+    content: "\e905";
+    color: #fff8ec;
+}
+
+.icon-yiga:before {
+    content: "\e906";
+    color: #fff8ec;
+}
+
+.icon-wizzrobe:before {
+    content: "\e907";
+    color: #fff8ec;
+}
+
+.icon-well:before {
+    content: "\e908";
+    color: #fff8ec;
+}
+
+.icon-weapon:before {
+    content: "\e909";
+    color: #fff8ec;
+}
+
+.icon-vehicle:before {
+    content: "\e90a";
+    color: #fff8ec;
+}
+
+.icon-unique_horse:before {
+    content: "\e90b";
+    color: #fff8ec;
+}
+
+.icon-treasure:before {
+    content: "\e90c";
+    color: #fff8ec;
+}
+
+.icon-travelling_merchant:before {
+    content: "\e90d";
+    color: #fff8ec;
+}
+
+.icon-temple:before {
+    content: "\e90e";
+    color: #fff8ec;
+}
+
+.icon-tech_lab:before {
+    content: "\e90f";
+    color: #fff8ec;
+}
+
+.icon-talus:before {
+    content: "\e910";
+    color: #fff8ec;
+}
+
+.icon-stronghold:before {
+    content: "\e911";
+    color: #fff8ec;
+}
+
+.icon-stalnox:before {
+    content: "\e912";
+    color: #fff8ec;
+}
+
+.icon-stable:before {
+    content: "\e913";
+    color: #fff8ec;
+}
+
+.icon-skyview_tower:before {
+    content: "\e914";
+    color: #fff8ec;
+}
+
+.icon-side_quest:before {
+    content: "\e915";
+    color: #fff8ec;
+}
+
+.icon-side_adventure:before {
+    content: "\e916";
+    color: #fff8ec;
+}
+
+.icon-shrine_quest:before {
+    content: "\e917";
+    color: #fff8ec;
+}
+
+.icon-shrine:before {
+    content: "\e918";
+    color: #fff8ec;
+}
+
+.icon-shield:before {
+    content: "\e919";
+    color: #fff8ec;
+}
+
+.icon-settlement:before {
+    content: "\e91a";
+    color: #fff8ec;
+}
+
+.icon-schema_stone:before {
+    content: "\e91b";
+    color: #fff8ec;
+}
+
+.icon-satori_tree:before {
+    content: "\e91c";
+    color: #fff8ec;
+}
+
+.icon-sages_will:before {
+    content: "\e91d";
+    color: #fff8ec;
+}
+
+.icon-rupees:before {
+    content: "\e91e";
+    color: #fff8ec;
+}
+
+.icon-quest_objective:before {
+    content: "\e91f";
+    color: #fff8ec;
+}
+
+.icon-province:before {
+    content: "\e920";
+    color: #fff8ec;
+}
+
+.icon-point_of_interest:before {
+    content: "\e921";
+    color: #fff8ec;
+}
+
+.icon-poe:before {
+    content: "\e922";
+    color: #fff8ec;
+}
+
+.icon-paraglider_fabric:before {
+    content: "\e923";
+    color: #fff8ec;
+}
+
+.icon-ore_deposit:before {
+    content: "\e924";
+    color: #fff8ec;
+}
+
+.icon-octorok:before {
+    content: "\e925";
+    color: #fff8ec;
+}
+
+.icon-npc:before {
+    content: "\e926";
+    color: #fff8ec;
+}
+
+.icon-mushroom:before {
+    content: "\e927";
+    color: #fff8ec;
+}
+
+.icon-molduga:before {
+    content: "\e928";
+    color: #fff8ec;
+}
+
+.icon-miscellaneous:before {
+    content: "\e929";
+    color: #fff8ec;
+}
+
+.icon-miniboss:before {
+    content: "\e92a";
+    color: #fff8ec;
+}
+
+.icon-mini_game:before {
+    content: "\e92b";
+    color: #fff8ec;
+}
+
+.icon-memory:before {
+    content: "\e92c";
+    color: #fff8ec;
+}
+
+.icon-material:before {
+    content: "\e92d";
+    color: #fff8ec;
+}
+
+.icon-master_sword:before {
+    content: "\e92e";
+    color: #fff8ec;
+}
+
+.icon-main_quest:before {
+    content: "\e92f";
+    color: #fff8ec;
+}
+
+.icon-lynel:before {
+    content: "\e930";
+    color: #fff8ec;
+}
+
+.icon-lore:before {
+    content: "\e931";
+    color: #fff8ec;
+}
+
+.icon-lightroot:before {
+    content: "\e932";
+    color: #fff8ec;
+}
+
+.icon-lighthouse:before {
+    content: "\e933";
+    color: #fff8ec;
+}
+
+.icon-landmark:before {
+    content: "\e934";
+    color: #fff8ec;
+}
+
+.icon-korok_seed:before {
+    content: "\e935";
+    color: #fff8ec;
+}
+
+.icon-koltin:before {
+    content: "\e936";
+    color: #fffef2;
+}
+
+.icon-key_item:before {
+    content: "\e937";
+    color: #fff8ec;
+}
+
+.icon-jewelry_shop:before {
+    content: "\e938";
+    color: #fff8ec;
+}
+
+.icon-inn:before {
+    content: "\e939";
+    color: #fff8ec;
+}
+
+.icon-hudson_sign:before {
+    content: "\e93a";
+    color: #fff8ec;
+}
+
+.icon-hinox:before {
+    content: "\e93b";
+    color: #fff8ec;
+}
+
+.icon-hestu:before {
+    content: "\e93c";
+    color: #fff8ec;
+}
+
+.icon-heart_container:before {
+    content: "\e93d";
+    color: #fff8ec;
+}
+
+.icon-guardian:before {
+    content: "\e93e";
+    color: #fff8ec;
+}
+
+.icon-great_fairy:before {
+    content: "\e93f";
+    color: #fff8ec;
+}
+
+.icon-goddess_statue:before {
+    content: "\e940";
+    color: #fff8ec;
+}
+
+.icon-gleeok:before {
+    content: "\e941";
+    color: #fff8ec;
+}
+
+.icon-geoglyph:before {
+    content: "\e942";
+    color: #fff8ec;
+}
+
+.icon-general_store:before {
+    content: "\e943";
+    color: #fff8ec;
+}
+
+.icon-gem:before {
+    content: "\e944";
+    color: #fff8ec;
+}
+
+.icon-frox:before {
+    content: "\e945";
+    color: #fff8ec;
+}
+
+.icon-falling_platform:before {
+    content: "\e946";
+    color: #fff8ec;
+}
+
+.icon-enemy_camp:before {
+    content: "\e947";
+    color: #fff8ec;
+}
+
+.icon-elixir:before {
+    content: "\e948";
+    color: #fff8ec;
+}
+
+.icon-easter_egg:before {
+    content: "\e949";
+    color: #fff8ec;
+}
+
+.icon-dye_shop:before {
+    content: "\e94a";
+    color: #fff8ec;
+}
+
+.icon-dragon_tear:before {
+    content: "\e94b";
+    color: #fff8ec;
+}
+
+.icon-dragon:before {
+    content: "\e94c";
+    color: #fff8ec;
+}
+
+.icon-divine_beast:before {
+    content: "\e94d";
+    color: #fff8ec;
+}
+
+.icon-device_dispenser:before {
+    content: "\e94e";
+    color: #fff8ec;
+}
+
+.icon-crystal_refinery:before {
+    content: "\e94f";
+    color: #fff8ec;
+}
+
+.icon-creature_fish:before {
+    content: "\e950";
+    color: #fff8ec;
+}
+
+.icon-creature:before {
+    content: "\e951";
+    color: #fff8ec;
+}
+
+.icon-cracked_wall:before {
+    content: "\e952";
+    color: #fff8ec;
+}
+
+.icon-cooking_pot:before {
+    content: "\e953";
+    color: #fff8ec;
+}
+
+.icon-chasm:before {
+    content: "\e954";
+    color: #fff8ec;
+}
+
+.icon-cave_entrance:before {
+    content: "\e955";
+    color: #fff8ec;
+}
+
+.icon-cave:before {
+    content: "\e956";
+    color: #fff8ec;
+}
+
+.icon-building:before {
+    content: "\e957";
+    color: #fff8ec;
+}
+
+.icon-bubbulfrog:before {
+    content: "\e958";
+    color: #fff8ec;
+}
+
+.icon-boss:before {
+    content: "\e959";
+    color: #fff8ec;
+}
+
+.icon-blupee:before {
+    content: "\e95a";
+    color: #fff8ec;
+}
+
+.icon-bargainer_statue:before {
+    content: "\e95b";
+    color: #fff8ec;
+}
+
+.icon-arrows:before {
+    content: "\e95c";
+    color: #fff8ec;
+}
+
+.icon-armor_shop:before {
+    content: "\e95d";
+    color: #fff8ec;
+}
+
+.icon-armor:before {
+    content: "\e95e";
+    color: #fff8ec;
+}
+
+.icon-area:before {
+    content: "\e95f";
+    color: #fff8ec;
+}
+
+/* witcher3 */
+
+.icon-gwent_merchant:before {
+    content: "\e500";
+    color: rgb(255, 255, 255);
+}
+
+.icon-npc:before {
+    content: "\e503";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-abandoned_site:before {
+    content: "\e505";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-alchemy_supplies:before {
+    content: "\e507";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-armorer:before {
+    content: "\e509";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-armorers_table:before {
+    content: "\e50b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-bandit_camp:before {
+    content: "\e50c";
+    color: rgb(255, 255, 255);
+}
+
+.icon-barber:before {
+    content: "\e50f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-blacksmith:before {
+    content: "\e511";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-book:before {
+    content: "\e513";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-brothel:before {
+    content: "\e515";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-chest:before {
+    content: "\e517";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-contract:before {
+    content: "\e51a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-dye_merchant:before {
+    content: "\e51e";
+    color: rgb(255, 255, 255);
+}
+
+.icon-entrance:before {
+    content: "\e520";
+    color: rgb(255, 255, 255);
+}
+
+.icon-fistfight:before {
+    content: "\e522";
+    color: rgb(255, 255, 255);
+}
+
+.icon-grindstone:before {
+    content: "\e525";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-guarded_treasure:before {
+    content: "\e527";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-gwent_card:before {
+    content: "\e52b";
+    margin-left: -1em;
+    color: rgb(52, 52, 68);
+}
+
+.icon-gwent_player:before {
+    content: "\e52c";
+    color: rgb(255, 255, 255);
+}
+
+.icon-gwent_quest:before {
+    content: "\e52f";
+    margin-left: -1em;
+    color: rgb(52, 52, 68);
+}
+
+.icon-hanse_base:before {
+    content: "\e530";
+    color: rgb(255, 255, 255);
+}
+
+.icon-harbor:before {
+    content: "\e534";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-herbalist:before {
+    content: "\e536";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-hidden_treasure:before {
+    content: "\e538";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-horse_race:before {
+    content: "\e53a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-innkeep:before {
+    content: "\e53d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-knight_in_distress:before {
+    content: "\e541";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-lebioda_monument:before {
+    content: "\e544";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-magic_lamp:before {
+    content: "\e546";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-main_quest:before {
+    content: "\e549";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-miscellaneous:before {
+    content: "\e54b";
+    color: rgb(255, 255, 255);
+}
+
+.icon-monster_den:before {
+    content: "\e54e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-monster_nest:before {
+    content: "\e54f";
+    color: rgb(255, 255, 255);
+}
+
+.icon-mutagen:before {
+    content: "\e564";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-notice_board:before {
+    content: "\e566";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-oil:before {
+    content: "\e56a";
+    color: rgb(255, 255, 255);
+}
+
+.icon-person_in_distress:before {
+    content: "\e56d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-place_of_power:before {
+    content: "\e56e";
+    color: rgb(255, 255, 255);
+}
+
+.icon-point_of_interest:before {
+    content: "\e570";
+    color: rgb(255, 255, 255);
+}
+
+.icon-portal:before {
+    content: "\e572";
+    color: rgb(255, 255, 255);
+}
+
+.icon-quest_item:before {
+    content: "\e574";
+    color: rgb(255, 255, 255);
+}
+
+.icon-recipe:before {
+    content: "\e576";
+    color: rgb(255, 255, 255);
+}
+
+.icon-relic_item:before {
+    content: "\e579";
+    color: rgb(255, 255, 255);
+}
+
+.icon-runewright:before {
+    content: "\e57c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-secondary_quest:before {
+    content: "\e57f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-shopkeeper:before {
+    content: "\e582";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-signal_fire:before {
+    content: "\e584";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-signpost:before {
+    content: "\e586";
+    margin-left: -1em;
+    color: rgb(137, 216, 137);
+}
+
+.icon-smugglers_cache:before {
+    content: "\e587";
+    color: rgb(255, 255, 255);
+}
+
+
+.icon-spoils_of_war:before {
+    content: "\e589";
+    color: rgb(255, 255, 255);
+}
+
+.icon-stash:before {
+    content: "\e58c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-treasure_chest:before {
+    content: "\e58e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-vineyard_infestation:before {
+    content: "\e590";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-vinters_contract:before {
+    content: "\e592";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-witcher_gear:before {
+    content: "\e593";
+    color: rgb(255, 255, 255);
 }
