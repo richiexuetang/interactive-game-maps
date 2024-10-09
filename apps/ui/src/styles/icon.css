@@ -372,10 +372,10 @@
     color: #fff;
 }
 
-.icon-dungeon:before {
+/* .icon-dungeon:before {
     content: "\e94a";
     color: #fff;
-}
+} */
 
 .icon-dragon_shrine:before {
     content: "\e94b";
@@ -453,7 +453,7 @@
 }
 
 .icon-armor:before {
-    content: "\e95d";
+    content: "\e115";
     color: #fff;
 }
 
@@ -468,7 +468,7 @@
 }
 
 .icon-yaoguai_chief:before {
-    content: "\E95F";
+    content: "\E116";
     color: #fff;
 }
 
@@ -478,17 +478,17 @@
 }
 
 .icon-materials:before {
-    content: "\E95E";
+    content: "\E120";
     color: #fff;
 }
 
 .icon-spirit:before {
-    content: "\E942";
+    content: "\E111";
     color: #fff;
 }
 
 .icon-soak:before {
-    content: "\E941";
+    content: "\E114";
     color: #fff;
 }
 
@@ -508,13 +508,13 @@
 }
 
 .icon-meditation_spot:before {
-    content: "\e960";
+    content: "\e914";
     color: #fff;
 }
 
 
 .icon-luojia_fragrant_vine:before {
-    content: "\E971";
+    content: "\E110";
     color: #fff;
 }
 
@@ -524,12 +524,12 @@
 }
 
 .icon-keeper_shrine:before {
-    content: "\e962";
+    content: "\e100";
     color: #fff;
 }
 
 .icon-gourd:before {
-    content: "\E963";
+    content: "\E924";
     color: #fff;
 }
 
@@ -549,12 +549,12 @@
 }
 
 .icon-drink:before {
-    content: "\E313";
+    content: "\E112";
     color: #fff;
 }
 
 .icon-curio:before {
-    content: "\E311";
+    content: "\E113";
     color: #fff;
 }
 
@@ -564,22 +564,12 @@
 }
 
 .icon-celestial_pill:before {
-    content: "\E310";
+    content: "\E91B";
     color: #fff;
 }
 
 .icon-awaken_wine_worm:before {
-    content: "\E999";
-    color: #fff;
-}
-
-.icon-ancient_magic_hotspot:before {
-    content: "\E989";
-    color: #fff;
-}
-
-.icon-bandit_camp:before {
-    content: "\E800";
+    content: "\E121";
     color: #fff;
 }
 
@@ -659,12 +649,192 @@
     color: #fff;
 }
 
-.icon-beast_den:before {
-    content: "\E801";
+.icon-ancient_magic_hotspot:before {
+    content: "\E810";
+    color: #fff;
+}
+
+.icon-bandit_camp:before {
+    content: "\E002";
     color: #fff;
 }
 
 .icon-battle_arena:before {
-    content: "\E800";
+    content: "\E003";
+    color: #fff;
+}
+
+.icon-beast_den:before {
+    content: "\E004";
+    color: #fff;
+}
+
+.icon-creature_lair:before {
+    content: "\E005";
+    color: #fff;
+}
+
+.icon-hogwarts_dungeon:before {
+    content: "\E006";
+    color: #fff;
+}
+
+.icon-floo_flame:before {
+    content: "\E007";
+    color: #fff;
+}
+
+.icon-hamlet:before {
+    content: "\E008";
+    color: #fff;
+}
+
+.icon-hedge_maze:before {
+    content: "\E009";
+    color: #fff;
+}
+
+.icon-vendor:before {
+    content: "\E010";
+    color: #fff;
+}
+
+.icon-location:before {
+    content: "\E011";
+    color: #fff;
+}
+
+.icon-merlin_trial:before {
+    content: "\E013";
+    color: #fff;
+}
+
+.icon-point_of_interest:before {
+    content: "\E014";
+    color: #fff;
+}
+
+.icon-astronomy_table:before {
+    content: "\E015";
+    color: #fff;
+}
+
+.icon-balloon:before {
+    content: "\E801";
+    color: #fff;
+}
+
+.icon-broom_trial:before {
+    content: "\E016";
+    color: #fff;
+}
+
+.icon-collection_chest:before {
+    content: "\E017";
+    color: #fff;
+}
+
+.icon-conjuration:before {
+    content: "\E018";
+    color: #fff;
+}
+
+.icon-demiguise_statue:before {
+    content: "\E019";
+    color: #fff;
+}
+
+.icon-field_guide_page:before {
+    content: "\E020";
+    color: #fff;
+}
+
+.icon-landing_platform:before {
+    content: "\E021";
+    color: #fff;
+}
+
+.icon-treasure_vault:before {
+    content: "\E022";
+    color: #fff;
+}
+
+.icon-wand_handle:before {
+    content: "\E023";
+    color: #fff;
+}
+
+.icon-trait:before {
+    content: "\E024";
+    color: #fff;
+}
+
+.icon-main_quest:before {
+    content: "\E025";
+    color: #fff;
+}
+
+.icon-relationship_quest:before {
+    content: "\E026";
+    color: #fff;
+}
+
+.icon-side_quest:before {
+    content: "\E027";
+    color: #fff;
+}
+
+.icon-chest:before {
+    content: "\E028";
+    color: #fff;
+}
+
+.icon-eye_chest:before {
+    content: "\E029";
+    color: #fff;
+}
+
+.icon-ingredient:before {
+    content: "\E030";
+    color: #fff;
+}
+
+.icon-legendary_chest:before {
+    content: "\E031";
+    color: #fff;
+}
+
+.icon-infamous_foe:before {
+    content: "\E032";
+    color: #fff;
+}
+
+.icon-butterflies:before {
+    content: "\E033";
+    color: #fff;
+}
+
+.icon-easter_egg:before {
+    content: "\E034";
+    color: #fff;
+}
+
+.icon-lock:before {
+    content: "\E035";
+    color: #fff;
+}
+
+.icon-lore_note:before {
+    content: "\E036";
+    color: #fff;
+}
+
+.icon-miscellaneous:before {
+    content: "\E037";
+    color: #fff;
+}
+
+.icon-npc:before {
+    content: "\E038";
     color: #fff;
 }

@@ -137,7 +137,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             />
           </CardContentTypography>
         )}
-        {id}
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
         {user?.email ? (

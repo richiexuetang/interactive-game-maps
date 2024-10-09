@@ -763,16 +763,176 @@
   background-position: -264px -704px;
 }
 
+.ancient_magic_hotspot {
+  background-position: 0 -748px;
+}
+
+.bandit_camp {
+  background-position: -33px -748px;
+}
+
+.battle_arena {
+  background-position: -66px -748px;
+}
+
+.beast_den {
+  background-position: -99px -748px;
+}
+
+.creature_lair {
+  background-position: -132px -748px;
+}
+
+.hogwarts_dungeon {
+  background-position: -165px -748px;
+}
+
+.floo_flame {
+  background-position: -198px -748px;
+}
+
+.hamlet {
+  background-position: -231px -748px;
+}
+
 .note-icon-1 {
-  background-position: 0 -352px;
+  background-position: -264px -748px;
 }
 
 .note-icon-2 {
-  background-position: -33px -352px;
+  background-position: -297px -748px;
 }
 
 .note-icon-3 {
-  background-position: -66px -352px;
+  background-position: -330px -748px;
+}
+
+.hedge_maze {
+  background-position: 0 -792px;
+}
+
+.location {
+  background-position: -33px -792px;
+}
+
+.merlin_trial {
+  background-position: -66px -792px;
+}
+
+.point_of_interest {
+  background-position: -99px -792px;
+}
+
+.treasure_vault {
+  background-position: -132px -792px;
+}
+
+.vendor {
+  background-position: -165px -792px;
+}
+
+.astronomy_table {
+  background-position: 0 -836px;
+}
+
+.balloon {
+  background-position: -33px -836px;
+}
+
+.broom_trial {
+  background-position: -66px -836px;
+}
+
+.collection_chest {
+  background-position: -99px -836px;
+}
+
+.conjuration {
+  background-position: -132px -836px;
+}
+
+.demiguise_statue {
+  background-position: -165px -836px;
+}
+
+.field_guide_page {
+  background-position: -198px -836px;
+}
+
+.landing_platform {
+  background-position: -231px -836px;
+}
+
+.trait {
+  background-position: -264px -836px;
+}
+
+.wand_handle {
+  background-position: -297px -836px;
+}
+
+.moth {
+  background-position: -330px -836px;
+}
+
+.main_quest {
+  background-position: 0 -880px;
+}
+
+.relationship_quest {
+  background-position: -33px -880px;
+}
+
+.side_quest {
+  background-position: -66px -880px;
+}
+
+.chest {
+  background-position: -99px -880px;
+}
+
+.key_item {
+  background-position: -132px -880px;
+}
+
+.eye_chest {
+  background-position: -165px -880px;
+}
+
+.ingredient {
+  background-position: -198px -880px;
+}
+
+.legendary_chest {
+  background-position: -231px -880px;
+}
+
+.infamous_foe {
+  background-position: -264px -880px;
+}
+
+.easter_egg {
+  background-position: -33px -924px;
+}
+
+.butterflies {
+  background-position: -66px -924px;
+}
+
+.puzzle {
+  background-position: -99px -924px;
+}
+
+.miscellaneous {
+  background-position: -132px -924px;
+}
+
+.lock {
+  background-position: -165px -924px;
+}
+
+.lore_note {
+  background-position: -198px -924px;
 }
 
 /* .cerulean_scarab {
