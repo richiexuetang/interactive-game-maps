@@ -48,7 +48,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   } = marker;
   const params = useParams();
   const user = useAuthStore((state) => state.user);
-  const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
+  const setUser = useAuthStore((state) => state.setUser);
 
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
@@ -77,7 +77,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         addLocation({ variables });
         newFoundLocations = [...user.foundLocations, id];
       }
-      setFoundLocations(newFoundLocations);
+      setUser({ ...user, foundLocations: newFoundLocations });
     }
   };
 

@@ -65,11 +65,11 @@ export const Menu = ({ map }: MenuProps) => {
       hidden.includes(category.id)
     ).length;
 
-    const newHidden = hidden;
+    let newHidden = hidden;
     if (count == cats.length) {
-      cats.map(
-        ({ id }) => hidden.includes(id) && newHidden.filter((c) => c !== id)
-      );
+      cats.map(({ id }) => {
+        newHidden = newHidden.filter((cat) => cat != id);
+      });
     } else {
       cats.map(
         ({ id }) =>

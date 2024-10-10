@@ -41,8 +41,7 @@ export const ProgressTracker = () => {
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
   const removeUser = useAuthStore((state) => state.removeUser);
   const user = useAuthStore((state) => state.user);
-  const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
-  const toggleHide = useAuthStore((state) => state.toggleHideFound);
+  const setUser = useAuthStore((state) => state.setUser);
 
   //#endregion
 
@@ -82,7 +81,7 @@ export const ProgressTracker = () => {
         addLocation(data);
         newFoundLocations.push(markerId);
       }
-      setFoundLocations(newFoundLocations);
+      setUser({ ...user, foundLocations: newFoundLocations });
     }
   };
 
@@ -93,13 +92,13 @@ export const ProgressTracker = () => {
       toggleUserHideFound({
         variables: { data: { email, hide } },
       });
-      toggleHide(hide);
+      setUser({ ...user, hideFound: hide });
     }
   };
 
-  const signOutUser = async () => {
+  const signOutUser = () => {
     removeUser();
-    router.back();
+    router.refresh();
   };
 
   return (

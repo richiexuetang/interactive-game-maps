@@ -69,18 +69,8 @@
     color: #fff;
 }
 
-.icon-point_of_interest:before {
-    content: "\e10f";
-    color: #fff;
-}
-
 .icon-npc:before {
     content: "\e110";
-    color: #fff;
-}
-
-.icon-miscellaneous:before {
-    content: "\e112";
     color: #fff;
 }
 
@@ -109,13 +99,8 @@
     color: #fff;
 }
 
-.icon-item:before {
-    content: "\e11b";
-    color: #fff;
-}
-
 .icon-gourd:before {
-    content: "\e11c";
+    content: "\e224";
     color: #fff;
 }
 
@@ -144,18 +129,8 @@
     color: #fff;
 }
 
-.icon-consumable:before {
-    content: "\e125";
-    color: #fff;
-}
-
 .icon-chest:before {
     content: "\e126";
-    color: #fff;
-}
-
-.icon-character:before {
-    content: "\e127";
     color: #fff;
 }
 
@@ -169,11 +144,6 @@
     color: #fff;
 }
 
-.icon-armor:before {
-    content: "\e12b";
-    color: #fff;
-}
-
 /* Elden Ring */
 
 .icon-whetblade:before {
@@ -181,18 +151,13 @@
     color: #fff;
 }
 
-.icon-weapon:before {
+.icon-elden_ring_weapon:before {
     content: "\e201";
     color: #fff;
 }
 
 .icon-wandering_mausoleum:before {
     content: "\e202";
-    color: #fff;
-}
-
-.icon-trinas_lilly:before {
-    content: "\e203";
     color: #fff;
 }
 
@@ -266,6 +231,7 @@
     color: #fff;
 }
 
+.icon-smithing_stone:before,
 .icon-somber_smithing_stone:before {
     content: "\e212";
     color: #fff;
@@ -273,11 +239,6 @@
 
 .icon-smithing_table:before {
     content: "\e213";
-    color: #fff;
-}
-
-.icon-smithing_stone:before {
-    content: "\e214";
     color: #fff;
 }
 
@@ -298,11 +259,6 @@
 
 .icon-scadutree_fragment:before {
     content: "\e218";
-    color: #fff;
-}
-
-.icon-sacred_tear:before {
-    content: "\e219";
     color: #fff;
 }
 
@@ -381,6 +337,7 @@
     color: #fff;
 }
 
+.icon-trinas_lilly:before,
 .icon-miquellas_lilly:before {
     content: "\e229";
     color: #fff;
@@ -393,11 +350,6 @@
 
 .icon-minor_erdtree:before {
     content: "\e22b";
-    color: #fff;
-}
-
-.icon-mimics_tear:before {
-    content: "\e22c";
     color: #fff;
 }
 
@@ -436,12 +388,13 @@
     color: #fff;
 }
 
+.icon-point_of_interest:before,
 .icon-landmark:before {
     content: "\e234";
     color: #fff;
 }
 
-.icon-key_item:before {
+.icon-totk_key_item:before {
     content: "\e235";
     color: #fff;
 }
@@ -451,6 +404,7 @@
     color: #fff;
 }
 
+.icon-character:before,
 .icon-invasion:before {
     content: "\e237";
     color: #fff;
@@ -501,15 +455,12 @@
     color: #fff;
 }
 
+.icon-ghost_glovewort:before,
 .icon-glovewort:before {
     content: "\e241";
     color: #fff;
 }
 
-.icon-ghost_glovewort:before {
-    content: "\e242";
-    color: #fff;
-}
 
 .icon-ghost:before {
     content: "\e243";
@@ -576,13 +527,10 @@
     color: #fff;
 }
 
+.icon-mimics_tear:before,
+.icon-sacred_tear:before,
 .icon-crystal_tear:before {
     content: "\e250";
-    color: #fff;
-}
-
-.icon-creature:before {
-    content: "\e251";
     color: #fff;
 }
 
@@ -662,7 +610,7 @@
     color: #fff;
 }
 
-.icon-ingredient:before {
+.icon-gow_ingredient:before {
     content: "\e301";
     color: #fff;
 }
@@ -727,7 +675,7 @@
     color: #fff;
 }
 
-.icon-gow_boss:before {
+.icon-boss:before {
     content: "\e30e";
     color: #fff;
 }
@@ -757,12 +705,12 @@
     color: #fff;
 }
 
-.icon-easter_egg:before {
+.icon-gow_easter_egg:before {
     content: "\e314";
     color: #fff;
 }
 
-.icon-entrance:before {
+.icon-witcher_entrance:before {
     content: "\e315";
     color: #fff;
 }
@@ -822,12 +770,12 @@
     color: #fff;
 }
 
-.icon-miniboss:before {
+.icon-gow_miniboss:before {
     content: "\e321";
     color: #fff;
 }
 
-.icon-miscellaneous:before {
+.icon-gow_miscellaneous:before {
     content: "\e322";
     color: #fff;
 }
@@ -857,7 +805,7 @@
     color: #fff;
 }
 
-.icon-point_of_interest:before {
+.icon-gow_poi:before {
     content: "\e328";
     color: #fff;
 }
@@ -877,7 +825,7 @@
     color: #fff;
 }
 
-.icon-shield:before {
+.icon-gow_shield:before {
     content: "\e32c";
     color: #fff;
 }
@@ -943,7 +891,7 @@
     color: #fff;
 }
 
-.icon-side_quest:before {
+.icon-hogwarts_side_quest:before {
     content: "\e405";
     color: #fff;
 }
@@ -953,17 +901,17 @@
     color: #fff;
 }
 
-.icon-puzzle:before {
+.icon-hogwarts_puzzle:before {
     content: "\e407";
     color: #fff;
 }
 
-.icon-point_of_interest:before {
+.icon-hogwarts_poi:before {
     content: "\e408";
     color: #fff;
 }
 
-.icon-npc:before {
+.icon-hogwarts_npc:before {
     content: "\e409";
     color: #fff;
 }
@@ -973,7 +921,7 @@
     color: #fff;
 }
 
-.icon-miscellaneous:before {
+.icon-hogwarts_miscellaneous:before {
     content: "\e40b";
     color: #fff;
 }
@@ -988,7 +936,7 @@
     color: #fff;
 }
 
-.icon-main_quest:before {
+.icon-hogwarts_main_quest:before {
     content: "\e40e";
     color: #fff;
 }
@@ -1068,7 +1016,7 @@
     color: #fff;
 }
 
-.icon-easter_egg:before {
+.icon-hogwarts_easter_egg:before {
     content: "\e41e";
     color: #fff;
 }
@@ -1120,23 +1068,15 @@
     color: #fff;
 }
 
+.icon-broom:before,
 .icon-broom_trial:before {
     content: "\e42c";
     color: #fff;
 }
 
-.icon-broom:before {
-    content: "\e42d";
-    color: #fff;
-}
-
+.icon-beast:before,
 .icon-beast_den:before {
     content: "\e42e";
-    color: #fff;
-}
-
-.icon-beast:before {
-    content: "\e42f";
     color: #fff;
 }
 
@@ -1192,6 +1132,14 @@
     color: #fff8ec;
 }
 
+.icon-bubbulfrog:before,
+.icon-dragon:before,
+.icon-frox:before,
+.icon-gleeok:before,
+.icon-miniboss:before,
+.icon-octorok:before,
+.icon-stalnox:before,
+.icon-stronghold:before,
 .icon-zonai:before {
     content: "\e904";
     color: #fff8ec;
@@ -1217,7 +1165,7 @@
     color: #fff8ec;
 }
 
-.icon-weapon:before {
+.icon-totk_weapon:before {
     content: "\e909";
     color: #fff8ec;
 }
@@ -1242,6 +1190,7 @@
     color: #fff8ec;
 }
 
+.icon-building:before,
 .icon-temple:before {
     content: "\e90e";
     color: #fff8ec;
@@ -1257,16 +1206,6 @@
     color: #fff8ec;
 }
 
-.icon-stronghold:before {
-    content: "\e911";
-    color: #fff8ec;
-}
-
-.icon-stalnox:before {
-    content: "\e912";
-    color: #fff8ec;
-}
-
 .icon-stable:before {
     content: "\e913";
     color: #fff8ec;
@@ -1277,7 +1216,7 @@
     color: #fff8ec;
 }
 
-.icon-side_quest:before {
+.icon-totk_side_quest:before {
     content: "\e915";
     color: #fff8ec;
 }
@@ -1297,7 +1236,7 @@
     color: #fff8ec;
 }
 
-.icon-shield:before {
+.icon-totk_shield:before {
     content: "\e919";
     color: #fff8ec;
 }
@@ -1337,7 +1276,7 @@
     color: #fff8ec;
 }
 
-.icon-point_of_interest:before {
+.icon-totk_poi:before {
     content: "\e921";
     color: #fff8ec;
 }
@@ -1357,12 +1296,7 @@
     color: #fff8ec;
 }
 
-.icon-octorok:before {
-    content: "\e925";
-    color: #fff8ec;
-}
-
-.icon-npc:before {
+.icon-npcs:before {
     content: "\e926";
     color: #fff8ec;
 }
@@ -1377,13 +1311,8 @@
     color: #fff8ec;
 }
 
-.icon-miscellaneous:before {
+.icon-totk_miscellaneous:before {
     content: "\e929";
-    color: #fff8ec;
-}
-
-.icon-miniboss:before {
-    content: "\e92a";
     color: #fff8ec;
 }
 
@@ -1407,7 +1336,7 @@
     color: #fff8ec;
 }
 
-.icon-main_quest:before {
+.icon-totk_main_quest:before {
     content: "\e92f";
     color: #fff8ec;
 }
@@ -1432,11 +1361,7 @@
     color: #fff8ec;
 }
 
-/* .icon-landmark:before {
-    content: "\e934";
-    color: #fff8ec;
-} */
-
+.icon-hestu:before,
 .icon-korok_seed:before {
     content: "\e935";
     color: #fff8ec;
@@ -1472,11 +1397,6 @@
     color: #fff8ec;
 }
 
-.icon-hestu:before {
-    content: "\e93c";
-    color: #fff8ec;
-}
-
 .icon-heart_container:before {
     content: "\e93d";
     color: #fff8ec;
@@ -1497,11 +1417,6 @@
     color: #fff8ec;
 }
 
-.icon-gleeok:before {
-    content: "\e941";
-    color: #fff8ec;
-}
-
 .icon-geoglyph:before {
     content: "\e942";
     color: #fff8ec;
@@ -1514,11 +1429,6 @@
 
 .icon-gem:before {
     content: "\e944";
-    color: #fff8ec;
-}
-
-.icon-frox:before {
-    content: "\e945";
     color: #fff8ec;
 }
 
@@ -1549,11 +1459,6 @@
 
 .icon-dragon_tear:before {
     content: "\e94b";
-    color: #fff8ec;
-}
-
-.icon-dragon:before {
-    content: "\e94c";
     color: #fff8ec;
 }
 
@@ -1607,16 +1512,6 @@
     color: #fff8ec;
 }
 
-.icon-building:before {
-    content: "\e957";
-    color: #fff8ec;
-}
-
-.icon-bubbulfrog:before {
-    content: "\e958";
-    color: #fff8ec;
-}
-
 /* .icon-boss:before {
     content: "\e959";
     color: #fff8ec;
@@ -1637,13 +1532,9 @@
     color: #fff8ec;
 }
 
+.icon-totk_armor:before,
 .icon-armor_shop:before {
     content: "\e95d";
-    color: #fff8ec;
-}
-
-.icon-armor:before {
-    content: "\e95e";
     color: #fff8ec;
 }
 
@@ -1659,7 +1550,7 @@
     color: rgb(255, 255, 255);
 }
 
-.icon-npc:before {
+.icon-witcher_npc:before {
     content: "\e503";
     margin-left: -1em;
     color: rgb(255, 255, 255);
@@ -1689,7 +1580,7 @@
     color: rgb(255, 255, 255);
 }
 
-.icon-bandit_camp:before {
+.icon-witcher_bandit_camp:before {
     content: "\e50c";
     color: rgb(255, 255, 255);
 }
@@ -1827,13 +1718,7 @@
     color: rgb(255, 255, 255);
 }
 
-.icon-main_quest:before {
-    content: "\e549";
-    margin-left: -1em;
-    color: rgb(255, 255, 255);
-}
-
-.icon-miscellaneous:before {
+.icon-witcher_miscellaneous:before {
     content: "\e54b";
     color: rgb(255, 255, 255);
 }
@@ -1877,7 +1762,7 @@
     color: rgb(255, 255, 255);
 }
 
-.icon-point_of_interest:before {
+.icon-witcher_poi:before {
     content: "\e570";
     color: rgb(255, 255, 255);
 }
@@ -1908,6 +1793,7 @@
     color: rgb(255, 255, 255);
 }
 
+.icon-witcher_main_quest:before,
 .icon-secondary_quest:before {
     content: "\e57f";
     margin-left: -1em;

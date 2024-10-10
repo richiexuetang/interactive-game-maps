@@ -71,10 +71,7 @@ regions = [
     # "chapter-4",
     # "chapter-5",
     # "chapter-6",
-    "nautiloid/default-v2/",
-    "wilderness/default-v4/",
-    "shadow-cursed-lands/default-v3/",
-    "baldurs-gate/default-v4/"
+    "sindris-house"
 ]
 # rdr2/world/atlas-v1/
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"

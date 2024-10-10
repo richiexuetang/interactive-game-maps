@@ -585,11 +585,12 @@
   background-position: -132px -220px;
 }
 
+.koltin,
 .general_store {
   background-position: -165px -220px;
 }
 
-.hetsu {
+.hestu {
   background-position: -198px -220px;
 }
 
@@ -665,7 +666,7 @@
   background-position: -99px -264px;
 }
 
-.rupee {
+.travelling_merchant {
   background-position: -132px -264px;
 }
 
@@ -713,6 +714,12 @@
   background-position: -495px -264px;
 }
 
+.stalnox,
+.gleeok,
+.stronghold,
+.octorok,
+.miniboss,
+.frox,
 .dragon {
   background-position: -528px -264px;
 }
@@ -777,8 +784,12 @@
   background-position: -297px -308px;
 }
 
-.cave_entrance {
+.quest_objective {
   background-position: -330px -308px;
+}
+
+.cave_entrance {
+  background-position: -363px -308px;
 }
 
 .ore_deposit {
@@ -807,6 +818,514 @@
 
 .bandit_camp {
   background-position: -33px -352px;
+}
+
+.battle_arena {
+  background-position: -66px -352px;
+}
+
+.beast_den {
+  background-position: -99px -352px;
+}
+
+.creature_lair {
+  background-position: -132px -352px;
+}
+
+.hogwarts_dungeon {
+  background-position: -165px -352px;
+}
+
+.floo_flame {
+  background-position: -198px -352px;
+}
+
+.hamlet {
+  background-position: -231px -352px;
+}
+
+.hedge_maze {
+  background-position: -264px -352px;
+}
+
+.location {
+  background-position: -297px -352px;
+}
+
+.hogwarts_poi {
+  background-position: -330px -352px;
+}
+
+.treasure_vault {
+  background-position: -363px -352px;
+}
+
+.vendor {
+  background-position: -396px -352px;
+}
+
+.vendor {
+  background-position: -429px -352px;
+}
+
+.astronomy_table {
+  background-position: -462px -352px;
+}
+
+.balloon {
+  background-position: -495px -352px;
+}
+
+.broom_trial {
+  background-position: -528px -352px;
+}
+
+.collection_chest {
+  background-position: -561px -352px;
+}
+
+.conjuration {
+  background-position: -594px -352px;
+}
+
+.demiguise_statue {
+  background-position: -627px -352px;
+}
+
+.field_guide_page {
+  background-position: -660px -352px;
+}
+
+.landing_platform {
+  background-position: -693px -352px;
+}
+
+.trait {
+  background-position: -726px -352px;
+}
+
+.wand_handle {
+  background-position: -759px -352px;
+}
+
+.hogwarts_main_quest {
+  background-position: 0 -396px;
+}
+
+.relationship_quest {
+  background-position: -33px -396px;
+}
+
+.hogwarts_side_quest {
+  background-position: -66px -396px;
+}
+
+.assignment {
+  background-position: -99px -396px;
+}
+
+.hogwarts_chest {
+  background-position: -132px -396px;
+}
+
+.hogwarts_key_item {
+  background-position: -165px -396px;
+}
+
+.eye_chest {
+  background-position: -198px -396px;
+}
+
+.ingredient {
+  background-position: -231px -396px;
+}
+
+.hogwarts_legendary_chest {
+  background-position: -264px -396px;
+}
+
+.infamous_foe {
+  background-position: -297px -396px;
+}
+
+/* .arithmancy_door {
+
+} */
+
+.npc {
+  background-position: -330px -396px;
+}
+
+.easter_egg {
+  background-position: -363px -396px;
+}
+
+.butterflies {
+  background-position: -396px -396px;
+}
+
+.puzzle {
+  background-position: -429px -396px;
+}
+
+.miscellaneous {
+  background-position: -462px -396px;
+}
+
+.lock {
+  background-position: -495px -396px;
+}
+
+.lore_note {
+  background-position: -528px -396px;
+}
+
+.celestial_altar {
+  background-position: 0 -440px;
+}
+
+.dock {
+  background-position: -33px -440px;
+}
+
+.entrance {
+  background-position: -66px -440px;
+}
+
+.mystic_gateway {
+  background-position: -99px -440px;
+}
+
+.gow_poi {
+  background-position: -132px -440px;
+}
+
+.shop {
+  background-position: -165px -440px;
+}
+
+.armor_set {
+  background-position: -198px -440px;
+}
+
+.artifact {
+  background-position: -231px -440px;
+}
+
+.buried_treasure {
+  background-position: -264px -440px;
+}
+
+.jewel_of_yggdrasil {
+  background-position: -297px -440px;
+}
+
+.kvasirs_poem {
+  background-position: -330px -440px;
+}
+
+.gow_lore {
+  background-position: -363px -440px;
+}
+
+.nine_realms_in_bloom {
+  background-position: -396px -440px;
+}
+
+.odins_raven {
+  background-position: -429px -440px;
+}
+
+.relic {
+  background-position: -462px -440px;
+}
+
+.seasonal_stag {
+  background-position: -495px -440px;
+}
+
+.gow_shield {
+  background-position: -528px -440px;
+}
+
+.gow_legendary_chest {
+  background-position: -561px -440px;
+}
+
+.nornir_chest {
+  background-position: -594px -440px;
+}
+
+.red_coffin {
+  background-position: -627px -440px;
+}
+
+.other_loot {
+  background-position: -660px -440px;
+}
+
+.treasure_map {
+  background-position: -693px -440px;
+}
+
+.yggdrasils_dew {
+  background-position: -726px -440px;
+}
+
+.hel_tear {
+  background-position: 0 -484px;
+}
+
+.muspelheim_trial {
+  background-position: -33px -484px;
+}
+
+.yggdrasil_rift {
+  background-position: -66px -484px;
+}
+
+.lindwyrm {
+  background-position: -99px -484px;
+}
+
+.draugr_hole {
+  background-position: -132px -484px;
+}
+
+.remnant_of_asgard {
+  background-position: -165px -484px;
+}
+
+.favor {
+  background-position: -198px -484px;
+}
+
+.berserker_gravestone {
+  background-position: -231px -484px;
+}
+
+.unknown_3 {
+  background-position: -264px -484px;
+}
+
+.gow_miscellaneous {
+  background-position: -297px -484px;
+}
+
+.wishing_well {
+  background-position: -330px -484px;
+}
+
+.sleeping_troll {
+  background-position: -363px -484px;
+}
+
+.gow_miniboss {
+  background-position: -396px -484px;
+}
+
+.gow_ingredient {
+  background-position: -429px -484px;
+}
+
+.abandoned_site {
+  background-position: 0 -528px;
+}
+
+.witcher_bandit_camp {
+  background-position: -33px -528px;
+}
+
+.contract {
+  background-position: -66px -528px;
+}
+
+.witcher_entrance {
+  background-position: -99px -528px;
+}
+
+.guarded_treasure {
+  background-position: -132px -528px;
+}
+
+.harbor {
+  background-position: -165px -528px;
+}
+
+.magic_lamp {
+  background-position: -198px -528px;
+}
+
+.monster_den {
+  background-position: -231px -528px;
+}
+
+.monster_nest {
+  background-position: -264px -528px;
+}
+
+.notice_board {
+  background-position: -297px -528px;
+}
+
+.person_in_distress {
+  background-position: -330px -528px;
+}
+
+.place_of_power {
+  background-position: -363px -528px;
+}
+
+.witcher_poi {
+  background-position: -396px -528px;
+}
+
+.signpost {
+  background-position: -429px -528px;
+}
+
+.smugglers_cache {
+  background-position: -462px -528px;
+}
+
+.spoils_of_war {
+  background-position: -495px -528px;
+}
+
+.stash {
+  background-position: -528px -528px;
+}
+
+.vinters_contract {
+  background-position: -561px -528px;
+}
+
+.witcher_portal {
+  background-position: -594px -528px;
+}
+
+.knight_in_distress {
+  background-position: -627px -528px;
+}
+
+.lebioda_monument {
+  background-position: -660px -528px;
+}
+
+.hanse_base {
+  background-position: -693px -528px;
+}
+
+.vineyard_infestation {
+  background-position: -726px -528px;
+}
+
+.alchemy_supplies {
+  background-position: 0 -572px;
+}
+
+.armorer {
+  background-position: -33px -572px;
+}
+
+.armorers_table {
+  background-position: -66px -572px;
+}
+
+.barber {
+  background-position: -99px -572px;
+}
+
+.blacksmith {
+  background-position: -132px -572px;
+}
+
+.brothel {
+  background-position: -165px -572px;
+}
+
+.grindstone {
+  background-position: -231px -572px;
+}
+
+.gwent_player {
+  background-position: -264px -572px;
+}
+
+.herbalist {
+  background-position: -297px -572px;
+}
+
+.innkeep {
+  background-position: -330px -572px;
+}
+
+.runewright {
+  background-position: -363px -572px;
+}
+
+.shopkeeper {
+  background-position: -396px -572px;
+}
+
+.fistfight {
+  background-position: 0 -616px;
+}
+
+.gwent_card {
+  background-position: -33px -616px;
+}
+
+.hidden_treasure {
+  background-position: -66px -616px
+}
+
+.horse_race {
+  background-position: -99px -616px;
+}
+
+.witcher_main_quest {
+  background-position: -132px -616px;
+}
+
+.secondary_quest {
+  background-position: -165px -616px;
+}
+
+.book {
+  background-position: -198px -616px;
+}
+
+.witcher_chest {
+  background-position: -231px -616px;
+}
+
+.gwent_card {
+  background-position: -264px -616px;
+}
+
+.mutagen {
+  background-position: -297px -616px;
+}
+
+.quest_item {
+  background-position: -330px -616px;
+}
+
+.recipe {
+  background-position: -363px -616px;
+}
+
+.witcher_gear {
+  background-position: -396px -616px;
+}
+
+.witcher_miscellaneous {
+  background-position: -429px -616px;
+}
+
+.witcher_npc {
+  background-position: -462px -616px;
 }
 
 .zelda-tears-of-the-kingdom {

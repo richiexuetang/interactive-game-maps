@@ -2,7 +2,12 @@ import { useMutation } from "@apollo/client";
 import * as L from "leaflet";
 import { useParams, useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
-import * as RL from "react-leaflet";
+import {
+  Popup,
+  useMap,
+  Tooltip,
+  Marker as RLeafletMarker,
+} from "react-leaflet";
 import { PopupCard } from "../cards/popup-card";
 import { Location } from "@/__generated__/graphql";
 import {
@@ -17,7 +22,7 @@ interface MarkerProps {
 }
 
 export const Marker = ({ marker }: MarkerProps) => {
-  const map = RL.useMap();
+  const map = useMap();
   const params = useParams<{ slug: string; gameSlug: string }>();
   const { id, title, latitude, longitude, category } = marker;
 
@@ -25,7 +30,7 @@ export const Marker = ({ marker }: MarkerProps) => {
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
   const user = useAuthStore((state) => state.user);
-  const setFoundLocations = useAuthStore((state) => state.setFoundLocations);
+  const setUser = useAuthStore((state) => state.setUser);
   const { icon } = category!;
 
   // build div icon
@@ -90,12 +95,12 @@ export const Marker = ({ marker }: MarkerProps) => {
         newFoundLocations = [...user.foundLocations, id];
       }
 
-      setFoundLocations(newFoundLocations);
+      setUser({ ...user, foundLocations: newFoundLocations });
     }
   };
 
   return (
-    <RL.Marker
+    <RLeafletMarker
       ref={markerRef}
       position={[latitude, longitude]}
       opacity={markerFound ? 0.5 : 1}
@@ -108,15 +113,13 @@ export const Marker = ({ marker }: MarkerProps) => {
       })}
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
       eventHandlers={{
-        contextmenu: () => {
-          handleMarkerFound();
-        },
+        contextmenu: () => handleMarkerFound(),
       }}
     >
-      <RL.Popup>
+      <Popup>
         <PopupCard marker={marker} />
-      </RL.Popup>
-      <RL.Tooltip>{title}</RL.Tooltip>
-    </RL.Marker>
+      </Popup>
+      <Tooltip>{title}</Tooltip>
+    </RLeafletMarker>
   );
 };

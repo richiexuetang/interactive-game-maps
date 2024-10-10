@@ -46,7 +46,12 @@ export const MarkersRenderer = () => {
 
         const markerFound = user?.foundLocations.includes(id);
 
-        if (markerFound && user?.hideFound) return null;
+        if (
+          markerFound &&
+          user?.hideFound &&
+          currentMap.triggeredMarkerPopup !== id
+        )
+          return null;
         if (
           catId &&
           hiddenCategories.includes(catId) &&
