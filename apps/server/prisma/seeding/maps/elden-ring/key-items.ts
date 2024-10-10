@@ -4077,7 +4077,7 @@ export const keyItems = [
   },
   {
     title: "Scadutree Fragment",
-    icon: "scadutree_fragment",
+    info: "Scadutree Fragments can be consumed to bolster your Scadutree Blessing, which increases your Attack Power and Damage Negation in the Shadow Realm.",
     locations: [
       {
         mapSlug: "the-shadow-realm",

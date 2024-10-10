@@ -13,7 +13,7 @@ export const totk = {
     {
       slug: "hyrule",
       title: "Hyrule",
-      minZoom: 9,
+      minZoom: 10,
       maxZoom: 17,
       zoom: 10,
       center: [0.70760348036569, -0.71764231663026],
@@ -474,22 +474,5 @@ export const totk = {
       ],
     },
   ],
-  groups: [
-    locations,
-    services,
-    collectibles,
-    loot,
-    quests,
-    enemies,
-    other,
-    // {
-    //   title: "Ore Deposits",
-    // },
-    // {
-    //   title: "Materials",
-    // },
-    // {
-    //   title: "Creatures",
-    // },
-  ],
+  groups: [locations, services, collectibles, loot, quests, enemies, other],
 };

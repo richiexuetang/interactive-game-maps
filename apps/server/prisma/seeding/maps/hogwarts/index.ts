@@ -15311,6 +15311,7 @@ export const hogwarts = {
         },
         {
           title: "Easter Egg",
+          icon: "hogwarts_easter_egg",
           locations: [
             {
               mapSlug: "world",
@@ -16209,6 +16210,7 @@ export const hogwarts = {
         },
         {
           title: "Miscellaneous",
+          icon: "hogwarts_miscellaneous",
           locations: [
             {
               mapSlug: "world",
@@ -16459,6 +16461,7 @@ export const hogwarts = {
         },
         {
           title: "NPC",
+          icon: "hogwarts_npc",
           locations: [
             {
               mapSlug: "world",
@@ -16526,6 +16529,7 @@ export const hogwarts = {
         },
         {
           title: "Puzzle",
+          icon: "hogwarts_puzzle",
           locations: [
             {
               mapSlug: "hogwarts",

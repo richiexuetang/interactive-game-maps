@@ -264,6 +264,7 @@ export const witcher3 = {
         },
         {
           title: "Bandit Camp",
+          icon: "witcher_bandit_camp",
           locations: [
             {
               mapSlug: "white-orchard",
@@ -852,6 +853,7 @@ export const witcher3 = {
         },
         {
           title: "Entrance",
+          icon: "witcher_entrance",
           locations: [
             {
               mapSlug: "white-orchard",
@@ -14013,6 +14015,7 @@ export const witcher3 = {
       categories: [
         {
           title: "Miscellaneous",
+          icon: "witcher_miscellaneous",
           locations: [
             {
               mapSlug: "white-orchard",
@@ -14297,6 +14300,7 @@ export const witcher3 = {
         },
         {
           title: "NPC",
+          icon: "witcher_npc",
           locations: [
             {
               mapSlug: "velen-novigrad",
