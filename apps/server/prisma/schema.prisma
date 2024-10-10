@@ -14,14 +14,14 @@ datasource db {
 }
 
 model User {
-  id             String       @id @default(uuid())
-  email          String       @unique @db.Text
-  picture        String?      @db.Text
-  password       String?      @db.Text
-  foundLocations Int[]
-  username       String?
-  hideFound      Boolean      @default(false)
-  noteMarkers    NoteMarker[]
+  id           String       @id @default(uuid())
+  email        String       @unique @db.Text
+  picture      String?      @db.Text
+  password     String?      @db.Text
+  username     String?
+  hideFound    Boolean      @default(false)
+  noteMarkers  NoteMarker[]
+  foundMarkers Location[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -110,6 +110,7 @@ model Location {
   mapSlug     String
   media       Media[]
   type        LocationType @default(MARKER)
+  users       User[]
 }
 
 enum LocationType {

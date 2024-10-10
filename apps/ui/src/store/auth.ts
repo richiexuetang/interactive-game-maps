@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
+import { Location } from "@/__generated__/graphql";
 
 interface NoteMarker {
   id: string | number;
@@ -18,7 +19,7 @@ export interface UserDef {
   fullName: string;
   picture: string;
   updatedAt: string;
-  foundLocations: number[];
+  foundMarkers: Location[];
   noteMarkers: NoteMarker[];
   hideFound: boolean;
 }

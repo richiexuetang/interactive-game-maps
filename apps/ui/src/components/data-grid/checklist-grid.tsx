@@ -21,7 +21,9 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
       renderCell: (params) => {
         return (
           <Checkbox
-            checked={user?.foundLocations.includes(params.id as number)}
+            checked={user?.foundMarkers
+              .map((m) => m.id)
+              .includes(params.id as number)}
           />
         );
       },

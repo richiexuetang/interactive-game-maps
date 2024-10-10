@@ -17,7 +17,7 @@ import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import { useRouter } from "next/navigation";
-import React from "react";
+import React, { useEffect } from "react";
 import { getBodyFont } from "@/lib/font";
 import {
   ADD_TO_USER_FOUND,
@@ -37,18 +37,40 @@ export const ProgressTracker = () => {
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+  const [addLocation, { data: addData }] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation, { data: removeData }] = useMutation(
+    REMOVE_FROM_USER_FOUND
+  );
   const removeUser = useAuthStore((state) => state.removeUser);
   const user = useAuthStore((state) => state.user);
   const setUser = useAuthStore((state) => state.setUser);
 
   //#endregion
 
+  useEffect(() => {
+    if (addData) {
+      setUser({
+        ...user!,
+        foundMarkers: addData.addFoundLocation.foundMarkers,
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [addData]);
+
+  useEffect(() => {
+    if (removeData) {
+      setUser({
+        ...user!,
+        foundMarkers: removeData.removeFoundLocation.foundMarkers,
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [removeData]);
+
   if (!currentMap) return null;
 
   const { groups, locations, gameSlug } = currentMap;
-  const foundLocations = user?.foundLocations;
+  const foundMarkers = user?.foundMarkers;
   const email = user?.email;
 
   //#region Helper Functions
@@ -58,7 +80,7 @@ export const ProgressTracker = () => {
       ?.categories?.find(({ id }) => id === categoryId);
 
   const totalFoundForCategory = (categoryId: number) =>
-    foundLocations?.filter(
+    foundMarkers?.filter(
       (location) =>
         locations?.find(({ id }) => id.toString() == location.toString())
           ?.categoryId === categoryId
@@ -70,18 +92,14 @@ export const ProgressTracker = () => {
 
   const handleMarkerFound = (markerId: number) => {
     if (email) {
-      let newFoundLocations: number[] = user.foundLocations;
       const data = {
         variables: { data: { email, location: markerId } },
       };
-      if (foundLocations?.includes(markerId)) {
+      if (foundMarkers?.map(({ id }) => id).includes(markerId)) {
         removeLocation(data);
-        newFoundLocations.filter((location) => location !== markerId);
       } else {
         addLocation(data);
-        newFoundLocations.push(markerId);
       }
-      setUser({ ...user, foundLocations: newFoundLocations });
     }
   };
 
@@ -180,9 +198,11 @@ export const ProgressTracker = () => {
                               }}
                             >
                               <Checkbox
-                                checked={user?.foundLocations?.includes(
-                                  markerId
-                                )}
+                                checked={
+                                  user?.foundMarkers
+                                    ?.map((m) => m.id)
+                                    .includes(markerId) ?? false
+                                }
                                 size="small"
                                 onChange={() => handleMarkerFound(markerId)}
                               />

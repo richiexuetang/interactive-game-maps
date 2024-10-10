@@ -26,11 +26,6 @@ type Category {
   updatedAt: DateTime!
 }
 
-input CreateUserInput {
-  email: String!
-  username: String
-}
-
 """
 A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
 """
@@ -122,9 +117,8 @@ type Media {
 }
 
 type Mutation {
-  addFoundLocations(data: UpdateFoundLocationInput!): User!
+  addFoundLocation(data: UpdateFoundLocationInput!): User!
   addNoteMarker(data: AddNoteInput!): NoteMarker!
-  createUser(data: CreateUserInput!): User
   removeFoundLocation(data: UpdateFoundLocationInput!): User!
   removeNoteMarker(data: RemoveNoteInput!): User!
   toggleHideFoundSetting(data: UpdateHideFoundInput!): User!
@@ -221,7 +215,7 @@ type User {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   email: String!
-  foundLocations: [Int!]
+  foundMarkers: [Location!]
   hideFound: Boolean!
   id: String!
   noteMarkers: [NoteMarker!]

@@ -46,38 +46,58 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
+
+  //#region Hooks
   const params = useParams();
+
   const user = useAuthStore((state) => state.user);
   const setUser = useAuthStore((state) => state.setUser);
-
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
 
-  const markerFound = user?.foundLocations.includes(id);
+  const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 
   const copy = useClipboardCopyFn();
 
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
+  const [addLocation, { data }] = useMutation(ADD_TO_USER_FOUND);
+  const [removeLocation, { data: removeData }] = useMutation(
+    REMOVE_FROM_USER_FOUND
+  );
+  //#endregion
 
   const handleLogin = async () => {
     window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/auth/google`;
   };
 
-  const handleMarkerFound = () => {
-    if (user?.email) {
-      const variables = { data: { email: user.email, location: id } };
-      let newFoundLocations = [];
-      if (markerFound) {
-        removeLocation({ variables });
-        newFoundLocations = user.foundLocations.filter(
-          (location) => location !== id
-        );
-      } else {
+  React.useEffect(() => {
+    if (data) {
+      setUser({
+        ...user!,
+        foundMarkers: data.addFoundLocation.foundMarkers ?? [],
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
+
+  React.useEffect(() => {
+    if (removeData && removeData.removeFoundLocation) {
+      setUser({
+        ...user!,
+        foundMarkers: removeData.removeFoundLocation.foundMarkers ?? [],
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [removeData]);
+
+  const handleMarkerFound = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (user) {
+      const { email } = user;
+      const variables = { data: { email, location: id } };
+      if (e.target.checked) {
         addLocation({ variables });
-        newFoundLocations = [...user.foundLocations, id];
+      } else {
+        removeLocation({ variables });
       }
-      setUser({ ...user, foundLocations: newFoundLocations });
     }
   };
 

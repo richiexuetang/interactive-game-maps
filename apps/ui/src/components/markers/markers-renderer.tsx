@@ -44,7 +44,7 @@ export const MarkersRenderer = () => {
           return null;
         }
 
-        const markerFound = user?.foundLocations.includes(id);
+        const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 
         if (
           markerFound &&

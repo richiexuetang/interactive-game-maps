@@ -1,10 +1,16 @@
 import { gql } from "@apollo/client";
 
 export const ADD_TO_USER_FOUND = gql`
-  mutation AddFoundLocations($data: UpdateFoundLocationInput!) {
-    addFoundLocations(data: $data) {
+  mutation AddFoundLocation($data: UpdateFoundLocationInput!) {
+    addFoundLocation(data: $data) {
       email
-      foundLocations
+      foundMarkers {
+        id
+        title
+        description
+        latitude
+        longitude
+      }
     }
   }
 `;
@@ -13,7 +19,13 @@ export const REMOVE_FROM_USER_FOUND = gql`
   mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
     removeFoundLocation(data: $data) {
       email
-      foundLocations
+      foundMarkers {
+        id
+        title
+        description
+        latitude
+        longitude
+      }
     }
   }
 `;

@@ -1,6 +1,7 @@
 import { gql } from "@apollo/client";
-import { Box, Breadcrumbs, Typography } from "@mui/material";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
 import { ChecklistGrid } from "@/components/data-grid/checklist-grid";
 import { MainNav } from "@/components/main-nav";
 import { getClient } from "@/lib/graphql/apollo-client";

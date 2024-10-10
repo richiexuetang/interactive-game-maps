@@ -1,6 +1,6 @@
 import { PrismaService } from "nestjs-prisma";
 import { Resolver, Query, Mutation, Args, Subscription } from "@nestjs/graphql";
-import { User } from "./models/app-user.model";
+import { User } from "./models/user.model";
 import { UsersService } from "./users.service";
 import { CreateUserInput } from "./dto/create-user.input";
 import { UpdateFoundLocationInput } from "./dto/update-found-location.input";
@@ -22,24 +22,12 @@ export class UsersResolver {
     private prisma: PrismaService
   ) {}
 
-  @Mutation(() => User, { nullable: true })
-  async createUser(@Args("data") newUserData: CreateUserInput) {
-    const existingUser = await this.prisma.user.findUnique({
-      where: { email: newUserData.email },
-    });
-    if (existingUser) {
-      return null;
-    }
-
-    return this.usersService.createUser(newUserData);
-  }
-
   @UseGuards(JwtGuard)
   @Query(() => User)
   async getUser(@Args("email") email: string) {
     return this.prisma.user.findUnique({
       where: { email },
-      include: { noteMarkers: true },
+      include: { noteMarkers: true, foundMarkers: true },
     });
   }
 
@@ -68,35 +56,22 @@ export class UsersResolver {
 
   @Mutation(() => User)
   async removeNoteMarker(@Args("data") data: RemoveNoteInput) {
-    await this.prisma.noteMarker.delete({ where: { id: data.id } });
-    return await this.usersService.findUserByEmail(data.email);
+    const { id, email } = data;
+    await this.prisma.noteMarker.delete({ where: { id } });
+    return await this.usersService.findUserByEmail(email);
   }
 
   @Mutation(() => NoteMarker)
   async updateNoteMarker(@Args("data") data: UpdateNoteInput) {
-    await this.prisma.noteMarker.update({
-      where: { id: data.id },
-      data: {
-        title: data.title,
-        description: data.description,
-        latitude: data.latitude,
-        longitude: data.longitude,
-      },
-    });
-    return this.prisma.noteMarker.findUnique({ where: { id: data.id } });
-  }
+    const { id, ...markerData } = data;
 
-  @Mutation(() => User)
-  async addFoundLocations(@Args("data") data: UpdateFoundLocationInput) {
-    const user = await this.usersService.findUserByEmail(data.email);
-    const locations = user.foundLocations;
-    const newLocations = [...locations, data.location];
-    return await this.prisma.user.update({
-      data: { foundLocations: newLocations },
-      where: {
-        email: data.email,
+    await this.prisma.noteMarker.update({
+      where: { id },
+      data: {
+        ...markerData,
       },
     });
+    return this.prisma.noteMarker.findUnique({ where: { id } });
   }
 
   @Mutation(() => User)
@@ -110,17 +85,50 @@ export class UsersResolver {
   }
 
   @Mutation(() => User)
+  async addFoundLocation(@Args("data") data: UpdateFoundLocationInput) {
+    const { email, location } = data;
+    const existingLocation = await this.prisma.location.findUnique({
+      where: { id: location },
+    });
+
+    const newLocation = {
+      create: { ...existingLocation },
+      where: { id: location },
+    };
+
+    return await this.prisma.user.upsert({
+      where: { email },
+      create: {
+        email,
+        foundMarkers: {
+          connectOrCreate: newLocation,
+        },
+      },
+      update: {
+        foundMarkers: {
+          connectOrCreate: newLocation,
+        },
+      },
+      include: { foundMarkers: true },
+    });
+  }
+
+  @Mutation(() => User)
   async removeFoundLocation(@Args("data") data: UpdateFoundLocationInput) {
     const user = await this.usersService.findUserByEmail(data.email);
-    const locations = user.foundLocations;
-    const newLocations = locations.filter(
-      (location) => location !== data.location
-    );
+
     return await this.prisma.user.update({
-      data: { foundLocations: newLocations },
       where: {
         email: data.email,
       },
+      data: {
+        foundMarkers: {
+          set: user.foundMarkers.filter(
+            (location) => location.id !== data.location
+          ),
+        },
+      },
+      include: { foundMarkers: true },
     });
   }
 }

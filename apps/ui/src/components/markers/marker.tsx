@@ -79,23 +79,26 @@ export const Marker = ({ marker }: MarkerProps) => {
     }
   }, [map, params, searchParams]);
 
-  const markerFound = user?.foundLocations.includes(id);
+  const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 
   const handleMarkerFound = () => {
     if (user?.email) {
       const variables = { data: { email: user.email, location: id } };
-      let newFoundLocations = [];
+      let newFoundMarkers = [];
       if (markerFound) {
         removeLocation({ variables });
-        newFoundLocations = user.foundLocations.filter(
-          (location) => location !== id
+        newFoundMarkers = user.foundMarkers.filter(
+          (location) => location.id !== id
         );
       } else {
         addLocation({ variables });
-        newFoundLocations = [...user.foundLocations, id];
+        newFoundMarkers = [
+          ...user.foundMarkers,
+          currentMap?.locations?.find((loc) => loc.id === id)!,
+        ];
       }
 
-      setUser({ ...user, foundLocations: newFoundLocations });
+      setUser({ ...user, foundMarkers: newFoundMarkers });
     }
   };
 
