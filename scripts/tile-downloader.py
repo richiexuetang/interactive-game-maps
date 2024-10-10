@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 current_path = os.getcwd()
 
-zoom_start = 15
-zoom_end = 15
+zoom_start = 13
+zoom_end = 13
 
 lows = {
     8: 127,
@@ -71,13 +71,22 @@ regions = [
     # "chapter-4",
     # "chapter-5",
     # "chapter-6",
-    "sindris-house"
+    # "sindris-house/",
+    "vanaheim/",
+    "alfheim/",
+    "muspelheim/",
+    "midgard/",
+    "niflheim/",
+    "svartalfheim/",
+    "jotunheim/",
+    "asgard/",
+    "helheim/",
 ]
 # rdr2/world/atlas-v1/
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"
             "apps/ui/public/tiles")
             
-game_name = "baldurs-gate-3"
+game_name = "god-of-war-ragnarok"
 
 base_uri = "https://tiles.mapgenie.io/games/"
 
@@ -97,11 +106,11 @@ for z in range(zoom_start, zoom_end+1):
     for x in range(lows[z], highs[z] + 1):
         for y in range(y_lows[z], y_highs[z] + 1):
             for region in regions:
-                uri = (base_uri + game_name + "/" + region 
+                uri = (base_uri + game_name + "/" + region + "default-v1/"
                        + str(z) + "/" + str(x) + "/" + str(y) + ".jpg")
 
-                directory = "{dir}/{game_name}/{region}/{z}/{x}".format(
-                    dir=dir_name, region=region, z=z, x=x, game_name=game_name)
+                directory = "{dir}/{game_name}/{region}/{z}/{y}".format(
+                    dir=dir_name, region=region, z=z, y=y, game_name=game_name)
 
                 if not os.path.exists(directory):
                     os.makedirs(directory)
@@ -109,4 +118,4 @@ for z in range(zoom_start, zoom_end+1):
                 if (Path(file_path).is_file()):
                     print(file_path, "exists!")
                 else:
-                    downloadImage(uri, directory + "/{y}.jpg".format(y=y))
+                    downloadImage(uri, directory + "/{x}.jpg".format(x=x))

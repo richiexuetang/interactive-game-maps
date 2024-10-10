@@ -78,7 +78,7 @@ export const NoteMarker = ({
   //#endregion
 
   const div = document.createElement("div");
-  div.className = `icon note-icon-1`;
+  div.className = `icon note_marker_1`;
 
   const onSubmit = async (data: any) => {
     const noteMarker = {

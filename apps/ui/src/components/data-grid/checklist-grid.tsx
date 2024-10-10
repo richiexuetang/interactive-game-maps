@@ -1,20 +1,40 @@
+"use client";
+
+import { Checkbox } from "@mui/material";
 import { DataGrid, GridRowsProp, GridColDef } from "@mui/x-data-grid";
 import * as React from "react";
 import { Location } from "@/__generated__/graphql";
-
-const columns: GridColDef[] = [
-  { field: "found", headerName: "Found", width: 150 },
-  { field: "title", headerName: "Name", width: 150 },
-  { field: "categoryId", headerName: "Category", width: 150 },
-  { field: "mapSlug", headerName: "Map", width: 150 },
-  { field: "description", headerName: "Info", width: 150 },
-];
+import { useAuthStore } from "@/store";
 
 interface ChecklistGridProps {
   locations: Location[];
 }
 
 export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
+  const user = useAuthStore((state) => state.user);
+
+  const columns: GridColDef[] = [
+    {
+      field: "found",
+      headerName: "Found",
+      display: "flex",
+      renderCell: (params) => {
+        return (
+          <Checkbox
+            checked={user?.foundLocations.includes(params.id as number)}
+          />
+        );
+      },
+      editable: true,
+      width: 180,
+      type: "boolean",
+    },
+    { field: "title", headerName: "Name", width: 150 },
+    // { field: "categoryId", headerName: "Category", width: 150 },
+    { field: "mapSlug", headerName: "Map", width: 150 },
+    { field: "description", headerName: "Info", width: 650 },
+  ];
+
   const rows: GridRowsProp = locations.map((location) => ({
     id: location.id,
     found: "No",
@@ -25,7 +45,7 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   }));
 
   return (
-    <div style={{ height: 300, width: "100%" }}>
+    <div className="w-full h-full">
       <DataGrid rows={rows} columns={columns} />
     </div>
   );

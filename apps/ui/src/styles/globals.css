@@ -199,6 +199,8 @@
   background-position: -594px 0;
 }
 
+.house_token,
+.arithmancy_door,
 .note_marker_1 {
   background-position: -627px 0;
 }
@@ -419,6 +421,7 @@
   background-position: -231px -132px;
 }
 
+.lesser_yaoguai,
 .enemy {
   background-position: -264px -132px;
 }
@@ -432,6 +435,8 @@
   background-position: -330px -132px;
 }
 
+.somber_smithing_stone,
+.smithing_stone,
 .ancient_smithing_stone {
   background-position: -363px -132px;
 }
@@ -528,11 +533,6 @@
   background-position: -462px -176px;
 }
 
-/* 
-.landmark {
-  background-position: -495px -176px;
-} */
-
 .lighthouse {
   background-position: -528px -176px;
 }
@@ -542,6 +542,10 @@
 }
 
 .totk_poi {
+  background-position: -594px -176px;
+}
+
+.province {
   background-position: -627px -176px;
 }
 
@@ -764,7 +768,7 @@
   background-position: -132px -308px;
 }
 
-.totk_misc {
+.totk_miscellaneous {
   background-position: -165px -308px;
 }
 
@@ -852,15 +856,15 @@
   background-position: -297px -352px;
 }
 
-.hogwarts_poi {
+.merlin_trial {
   background-position: -330px -352px;
 }
 
-.treasure_vault {
+.hogwarts_poi {
   background-position: -363px -352px;
 }
 
-.vendor {
+.treasure_vault {
   background-position: -396px -352px;
 }
 
@@ -908,6 +912,10 @@
   background-position: -759px -352px;
 }
 
+.moth {
+  background-position: -792px -352px;
+}
+
 .hogwarts_main_quest {
   background-position: 0 -396px;
 }
@@ -928,7 +936,7 @@
   background-position: -132px -396px;
 }
 
-.hogwarts_key_item {
+.daedalian_key {
   background-position: -165px -396px;
 }
 
@@ -948,15 +956,11 @@
   background-position: -297px -396px;
 }
 
-/* .arithmancy_door {
-
-} */
-
-.npc {
+.hogwarts_npc {
   background-position: -330px -396px;
 }
 
-.easter_egg {
+.hogwarts_easter_egg {
   background-position: -363px -396px;
 }
 
@@ -964,11 +968,11 @@
   background-position: -396px -396px;
 }
 
-.puzzle {
+.hogwarts_puzzle {
   background-position: -429px -396px;
 }
 
-.miscellaneous {
+.hogwarts_miscellaneous {
   background-position: -462px -396px;
 }
 

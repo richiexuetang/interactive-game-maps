@@ -47,7 +47,7 @@ export default async function RegionPage({
   });
 
   return (
-    <div className={cn(params.gameSlug, "bg-bodyBackground h-[100vh]")}>
+    <div className={cn(params.gameSlug, "h-[100vh] !bg-bodyBackground")}>
       <MainNav />
       <Breadcrumbs sx={{ m: 5 }}>
         <Link href="/">Home</Link>
@@ -56,9 +56,9 @@ export default async function RegionPage({
         </Link>
         <Typography>{data.category.title}</Typography>
       </Breadcrumbs>
-      <Box sx={{ m: 5 }}>
+      <div className="bg-bodyBackground p-5">
         <ChecklistGrid locations={locationsData.locations} />
-      </Box>
+      </div>
     </div>
   );
 }
