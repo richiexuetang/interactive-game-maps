@@ -1325,6 +1325,7 @@ export const gow = {
         },
         {
           title: "Point of Interest",
+          icon: "gow_poi",
           locations: [
             {
               mapSlug: "vanaheim",
@@ -2792,6 +2793,7 @@ export const gow = {
         },
         {
           title: "Lore",
+          icon: "gow_lore",
           locations: [
             {
               mapSlug: "vanaheim",
@@ -4884,6 +4886,7 @@ export const gow = {
         },
         {
           title: "Shield",
+          icon: "gow_shield",
           locations: [
             {
               mapSlug: "sindris-house",
@@ -4926,6 +4929,7 @@ export const gow = {
       categories: [
         {
           title: "Legendary Chest",
+          icon: "gow_legendary_chest",
           locations: [
             {
               mapSlug: "vanaheim",
@@ -8554,7 +8558,7 @@ export const gow = {
         },
         {
           title: "Miniboss",
-          icon: "boss",
+          icon: "gow_miniboss",
           locations: [
             {
               mapSlug: "vanaheim",

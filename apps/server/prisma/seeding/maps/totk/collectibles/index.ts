@@ -798,6 +798,7 @@ export const collectibles = {
         },
       ],
       title: "Key Item",
+      icon: "totk_key_item",
     },
     {
       locations: [

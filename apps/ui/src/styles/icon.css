@@ -727,7 +727,7 @@
     color: #fff;
 }
 
-.icon-boss:before {
+.icon-gow_boss:before {
     content: "\e30e";
     color: #fff;
 }
@@ -802,7 +802,7 @@
     color: #fff;
 }
 
-.icon-legendary_chest:before {
+.icon-gow_legendary_chest:before {
     content: "\e31d";
     color: #fff;
 }
@@ -817,7 +817,7 @@
     color: #fff;
 }
 
-.icon-lore:before {
+.icon-gow_lore:before {
     content: "\e320";
     color: #fff;
 }
@@ -1008,7 +1008,7 @@
     color: #fff;
 }
 
-.icon-legendary_chest:before {
+.icon-hogwarts_legendary_chest:before {
     content: "\e412";
     color: #fff;
 }
@@ -1073,7 +1073,7 @@
     color: #fff;
 }
 
-.icon-dungeon:before {
+.icon-hogwarts_dungeon:before {
     content: "\e41f";
     color: #fff;
 }
@@ -1105,7 +1105,7 @@
     color: #fff;
 }
 
-.icon-chest:before {
+.icon-hogwarts_chest:before {
     content: "\e429";
     color: #fff;
 }
@@ -1417,7 +1417,7 @@
     color: #fff8ec;
 }
 
-.icon-lore:before {
+.icon-totk_lore:before {
     content: "\e931";
     color: #fff8ec;
 }
@@ -1432,10 +1432,10 @@
     color: #fff8ec;
 }
 
-.icon-landmark:before {
+/* .icon-landmark:before {
     content: "\e934";
     color: #fff8ec;
-}
+} */
 
 .icon-korok_seed:before {
     content: "\e935";
@@ -1617,10 +1617,10 @@
     color: #fff8ec;
 }
 
-.icon-boss:before {
+/* .icon-boss:before {
     content: "\e959";
     color: #fff8ec;
-}
+} */
 
 .icon-blupee:before {
     content: "\e95a";
@@ -1718,7 +1718,7 @@
     color: rgb(255, 255, 255);
 }
 
-.icon-chest:before {
+.icon-witcher_chest:before {
     content: "\e517";
     margin-left: -1em;
     color: rgb(255, 255, 255);
@@ -1882,7 +1882,7 @@
     color: rgb(255, 255, 255);
 }
 
-.icon-portal:before {
+.icon-witcher_portal:before {
     content: "\e572";
     color: rgb(255, 255, 255);
 }

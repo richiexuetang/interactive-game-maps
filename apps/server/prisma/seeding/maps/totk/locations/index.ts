@@ -1247,6 +1247,7 @@ export const locations = {
         },
       ],
       title: "Point of Interest",
+      icon: "totk_poi",
     },
     {
       locations: [

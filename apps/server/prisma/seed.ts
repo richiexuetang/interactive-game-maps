@@ -5,10 +5,23 @@ const prisma = new PrismaClient();
 const tableNames = Object.values(Prisma.ModelName);
 
 async function main() {
-  await refreshDatabase();
-  for (let i = 0; i < games.length; i++) {
-    await seedGame(games[i]);
-  }
+  // await refreshDatabase();
+  // for (let i = 0; i < games.length; i++) {
+  //   await seedGame(games[i]);
+  // }
+
+  const categories = await prisma.category.findMany({});
+  const icons = new Set();
+  const dups = new Set();
+  categories.map((category) => {
+    if (icons.has(category.icon)) {
+      dups.add(category.icon);
+    } else {
+      icons.add(category.icon);
+    }
+  });
+
+  dups.forEach((dup) => console.log("Duplicate icon:", dup));
 }
 
 /**

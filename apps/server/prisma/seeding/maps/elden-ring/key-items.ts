@@ -2141,7 +2141,6 @@ export const keyItems = [
   },
   {
     title: "Key Item",
-    icon: "key_item",
     locations: [
       {
         mapSlug: "the-lands-between",

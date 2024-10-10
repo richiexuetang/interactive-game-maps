@@ -6341,6 +6341,7 @@ export const loot = {
       ],
       info: "Weapons are used by Link to fight his way through enemies. Weapons found in the overworld might be of a higher tier, depending on your game's progress.",
       title: "Weapon",
+      icon: "totk_weapon",
     },
   ],
 };

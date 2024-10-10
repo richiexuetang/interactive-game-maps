@@ -3186,6 +3186,7 @@ export const hogwarts = {
         },
         {
           title: "Point of Interest",
+          icon: "hogwarts_poi",
           locations: [
             {
               mapSlug: "world",
@@ -8947,7 +8948,7 @@ export const hogwarts = {
         },
         {
           title: "Main Quest",
-          icon: "main_quest",
+          icon: "hogwarts_main_quest",
           locations: [
             {
               mapSlug: "world",
@@ -9390,6 +9391,7 @@ export const hogwarts = {
         },
         {
           title: "Side Quest",
+          icon: "hogwarts_side_quest",
           locations: [
             {
               mapSlug: "world",
@@ -9861,6 +9863,7 @@ export const hogwarts = {
       categories: [
         {
           title: "Chest",
+          icon: "hogwarts_chest",
           info: "Chests can contain a variety of items, such as galleons, Wiggenweld potions or gear. Large and Locked chests always contain gear. Contents are randomized from player to player.",
           locations: [
             {
@@ -14535,6 +14538,7 @@ export const hogwarts = {
         },
         {
           title: "Legendary Chest",
+          icon: "hogwarts_legendary_chest",
           info: "Legendary Chests contain a legendary piece of gear, scaled to your level.",
           locations: [
             {

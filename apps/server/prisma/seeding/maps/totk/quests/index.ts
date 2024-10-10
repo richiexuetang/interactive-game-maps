@@ -378,6 +378,7 @@ export const quests = {
         },
       ],
       title: "Main Quest",
+      icon: "totk_main_quest",
     },
     {
       locations: [
@@ -3790,6 +3791,7 @@ export const quests = {
         },
       ],
       title: "Side Quest",
+      icon: "totk_side_quest",
     },
   ],
 };

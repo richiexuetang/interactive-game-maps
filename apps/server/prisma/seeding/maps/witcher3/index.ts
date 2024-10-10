@@ -3258,6 +3258,7 @@ export const witcher3 = {
         },
         {
           title: "Point of Interest",
+          icon: "witcher_poi",
           locations: [
             {
               mapSlug: "white-orchard",
@@ -3822,6 +3823,7 @@ export const witcher3 = {
         },
         {
           title: "Portal",
+          icon: "witcher_portal",
           locations: [
             {
               mapSlug: "toussaint",
@@ -8789,6 +8791,7 @@ export const witcher3 = {
         },
         {
           title: "Main Quest",
+          icon: "witcher_main_quest",
           locations: [
             {
               mapSlug: "white-orchard",
@@ -11142,6 +11145,7 @@ export const witcher3 = {
         },
         {
           title: "Chest",
+          icon: "witcher_chest",
           locations: [
             {
               mapSlug: "white-orchard",
@@ -13446,6 +13450,7 @@ export const witcher3 = {
         },
         {
           title: "Witcher Gear",
+          isChecklist: true,
           locations: [
             {
               mapSlug: "white-orchard",

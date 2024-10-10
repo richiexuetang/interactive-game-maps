@@ -83,7 +83,7 @@ export default async function RegionPage({
   const showRegionMedia = game.maps.length <= 2;
 
   return (
-    <div className={cn(params.gameSlug, "h-[100vh]")}>
+    <div className={cn(params.gameSlug, "h-[100vh] bg-bodyBackground")}>
       <MainNav />
       <div className="flex flex-col bg-bodyBackground">
         <div className="py-8">
@@ -138,9 +138,12 @@ export default async function RegionPage({
                         justifyContent: "center",
                         alignContent: "center",
                         display: "flex",
+                        width: "325px",
                       }}
                     >
-                      <h4 className="font-body text-accent">{title}</h4>
+                      <h4 className="font-body text-accent overflow-ellipsis">
+                        {title}
+                      </h4>
                     </CardContent>
                   )}
                 </CardActionArea>
