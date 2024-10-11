@@ -977,7 +977,7 @@ export const locations = {
           mapSlug: "chapter-3",
           title: "Serpent",
           description:
-            "After visiting the skeleton then the [Turtle Tear Soak](https://mapgenie.io/black-myth-wukong/maps/chapter-3?locationIds=400488) will drop",
+            "After visiting the skeleton then the Turtle Tear Soak will drop",
           latitude: "0.94157391334011",
           longitude: "-0.68897366523655",
         },

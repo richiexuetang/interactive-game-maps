@@ -994,7 +994,6 @@ export const items = [
   },
   {
     title: "Golden Seed",
-    icon: "golden_seed",
     locations: [
       {
         mapSlug: "the-lands-between",
@@ -1574,48 +1573,6 @@ export const items = [
             type: "image",
           },
         ],
-      },
-    ],
-  },
-  {
-    title: "Item",
-    icon: "item",
-    locations: [
-      {
-        mapSlug: "the-lands-between",
-        title: "Maiden's Blood (Varre's Questline)",
-        description:
-          "**Related Quest:** Varr\u00e9's Quest\n\nAfter defeating the Grafted Scion, continue back to the room you started the game in. Laying against the wall is the remains of a maiden. Interact with her body to soak the cloth with her blood to give to Varre.",
-        latitude: "0.63734046613423",
-        longitude: "-0.76402966735247",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Cross Map & New Cross Map",
-        description: "**Location:** Given by Hornsent.",
-        latitude: "0.68711719917263",
-        longitude: "-0.71144253015501",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Furnace Keeper's Notes",
-        description: "",
-        latitude: "0.70800536525222",
-        longitude: "-0.70569925010113",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Cross Map",
-        description: "**Location:** Given by Hornsent",
-        latitude: "0.66157336958662",
-        longitude: "-0.73343607094915",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Starlight Shard",
-        description: "Dropped by the demi-human",
-        latitude: "0.62707721513083",
-        longitude: "-0.72503658775776",
       },
     ],
   },

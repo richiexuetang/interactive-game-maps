@@ -20,7 +20,7 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-          title: "Luminous Stone [Chest]",
+          title: "Luminous Stone Chest]",
           latitude: "0.62616698327836",
           longitude: "-0.68518426880035",
         },
@@ -32,8 +32,7 @@ export const oreDeposits = {
       locations: [
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite [Chest]",
+          title: "Zonaite Chest]",
           description:
             "**Location:** In the chest in the small shrine  \n**Coordinates:** 0432 -1806 1449",
           latitude: "0.98808889045861",
@@ -47,17 +46,14 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
           title: "38x Zonaite",
-          description:
-            "**Location:** Inside [Mining Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276623)\r\n\r\n- 4 nodes in the cavern near the helper construct (before the [Forge Construct](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276621))\r\n- 9 nodes in the cavern with the [Forge Construct](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276621)",
+          description: "**Location:** Inside [Mining Cave",
           latitude: "0.99193326311570",
           longitude: "-0.68860083818345",
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description:
             "**Location:** In the ruin  \n**Coordinates:** 0389 -1183 1474",
           latitude: "1.00821521391620",
@@ -71,8 +67,7 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description: "**Location:** On top of the platform",
           latitude: "0.74423264599923",
           longitude: "-0.75035332079045",
@@ -109,8 +104,7 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           latitude: "1.04491405752890",
           longitude: "-0.74266956735309",
         },
@@ -138,14 +132,14 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description: "On top of the building",
           latitude: "0.31736030242809",
           longitude: "-0.72877974777629",
         },
         {
           mapSlug: "hyrule",
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description:
             "Underground, there are several holes in the building that lead here",
           latitude: "0.31976639103861",
@@ -251,7 +245,6 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
           title: "Large Zonaite",
           description: "**Coordinates:** -1227 -0041 0416",
           latitude: "1.04490551771880",
@@ -290,7 +283,6 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
           title: "Zonaite x3",
           description: "**Location:** Trapped within an ice block.",
           latitude: "0.81138922329477",
@@ -304,15 +296,13 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description: "**Location:** Within the ice block",
           latitude: "0.79418911961787",
           longitude: "-0.83981743138335",
         },
         {
           mapSlug: "hyrule",
-
           title: "3x Zonaite",
           description: "melt an ice block",
           latitude: "0.81029337264776",
@@ -320,15 +310,13 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonite x3 [Chest]",
+          title: "Zonite x3 Chest]",
           latitude: "0.62402211632640",
           longitude: "-0.55647572154717",
         },
         {
           mapSlug: "hyrule",
-
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description: "Floating on ceiling",
           latitude: "1.06991866731350",
           longitude: "-0.49005991272090",
@@ -402,8 +390,7 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description:
             "**Location:** On a floating island to the left of the temple.",
           latitude: "1.13779627246370",
@@ -490,8 +477,7 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description:
             "**Location:** Accessible from the ledge with zonai components on the other side of the room. Or use Ascend to get to the ledge.\n\n**Coordinates:** 1356 3059 -0767",
           latitude: "0.46808410129701",
@@ -600,22 +586,20 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           latitude: "0.46666919136061",
           longitude: "-0.64933057872909",
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description: "**Coordinates:** 2332, 1479, 0193",
           latitude: "0.75074177737672",
           longitude: "-0.62790901963595",
         },
         {
           mapSlug: "hyrule",
-
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description: "Melt the ice.",
           latitude: "0.80383400380904",
           longitude: "-0.83118118549120",
@@ -628,16 +612,14 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description: "Inside the ruin. Use Ascend to access.",
           latitude: "0.66154497631170",
           longitude: "-0.79711032221124",
         },
         {
           mapSlug: "hyrule",
-
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description: "",
           latitude: "0.62530447416549",
           longitude: "-0.85208626135792",
@@ -650,7 +632,6 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-
           title: "Zonaite x3",
           description: "**Location:** Ascend from under the rock",
           latitude: "0.59284206748828",
@@ -815,14 +796,14 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description: "Bottom floor, at the end of a small hall.",
           latitude: "0.30891021028179",
           longitude: "-0.68546973368723",
         },
         {
           mapSlug: "hyrule",
-          title: "Large Zonaite [Chest]",
+          title: "Large Zonaite Chest]",
           description:
             "Top room of the depot, behind some lasers. Also has ten zonaite in the room.",
           latitude: "0.30715598111628",
@@ -830,7 +811,7 @@ export const oreDeposits = {
         },
         {
           mapSlug: "hyrule",
-          title: "Zonaite x3 [Chest]",
+          title: "Zonaite x3 Chest]",
           description:
             "In the room with the wing components, near the top of the depot.",
           latitude: "0.31079226666151",

@@ -31,8 +31,8 @@ export default async function Page() {
         sx={{
           justifyContent: "center",
           alignItems: "center",
-          my: 6,
-          pb: 10,
+          my: 3,
+          pb: 8,
         }}
       >
         <Image
@@ -40,7 +40,7 @@ export default async function Page() {
           width={200}
           height={100}
           alt="app logo"
-          className="my-10"
+          className="my-8"
         />
         <Grid container spacing={3} sx={{ m: 8 }}>
           {data?.games?.map(({ title, slug }: Game) => (

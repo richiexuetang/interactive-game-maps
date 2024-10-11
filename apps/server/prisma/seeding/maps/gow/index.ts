@@ -1083,7 +1083,7 @@ export const gow = {
               mapSlug: "muspelheim",
               title: "The Crucible",
               description:
-                "**Requires:** Find both Muspelheim Seed halves in svarthelheim to gain access to The Crucible -\n- [Muspelheim Seed Half](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217117) (svarthelheim)\n- [Muspelheim Seed Half](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217122) (svarthelheim)",
+                "**Requires:** Find both Muspelheim Seed halves in svarthelheim to gain access to The Crucible -\n- [Muspelheim Seed Half",
               latitude: "0.78813064189694",
               longitude: "-0.86799514255316",
               media: [
@@ -1331,7 +1331,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Mysterious Orb",
               description:
-                "Just after landing on the beach, find this Key Item on the ground to the left, near a grindstone and bellows.\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
+                "Just after landing on the beach, find this Key Item on the ground to the left, near a grindstone and bellows.\n\n**Associated Favor:** The Mysterious Orb",
               latitude: "0.37551253967675",
               longitude: "-0.68862410945474",
               media: [
@@ -1345,7 +1345,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Alfheim Barrens Key Half",
               description:
-                "**Requires:** Completion of Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)\n\nOn the ground in the snow",
+                "**Requires:** Completion of Favor [Freyr's Gift\n\nOn the ground in the snow",
               latitude: "0.83988757370950",
               longitude: "-0.86921218400354",
             },
@@ -1353,15 +1353,14 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Alfheim Barrens Key Half",
               description:
-                "**Requires:** Completion of Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)\n\nOn the ground in the snow",
+                "**Requires:** Completion of Favor [Freyr's Gift\n\nOn the ground in the snow",
               latitude: "0.81509582476814",
               longitude: "-0.79203486442455",
             },
             {
               mapSlug: "midgard",
               title: "Fj\u00f3turlund Vault Key Half",
-              description:
-                "**Requires:** Favor [Sigrun's Curse](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216936)",
+              description: "**Requires:** Favor [Sigrun's Curse",
               latitude: "0.84304151653272",
               longitude: "-0.56539893150423",
             },
@@ -1369,7 +1368,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Fj\u00f3turlund Vault Key Half",
               description:
-                "**Requires:** Favor [Sigrun's Curse](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216936)\n\nNear the end of the Derelict Outpost - at the top of the cliff, just above the platform with the [Ivaldi's Anvil](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216467), at the base of an altar.",
+                "**Requires:** Favor [Sigrun's Curse, at the base of an altar.",
               latitude: "0.65941704063889",
               longitude: "-0.81507544508952",
             },
@@ -1675,7 +1674,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Lunda's Lost Set (Kratos)",
               description:
-                "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
+                "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor The Mysterious Orb",
               latitude: "0.51623193395690",
               longitude: "-0.68583782806709",
               media: [
@@ -1689,7 +1688,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Fallen Stars Set (Kratos)",
               description:
-                "**Level:** 6  \n**Unlock:** \n- [Bracers of Fallen Stars](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219704)\n- [Plackart of Fallen Stars](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219706)\n- [Waist Guard of Fallen Stars](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219718)",
+                "**Level:** 6  \n**Unlock:** \n- Bracers of Fallen Stars",
               latitude: "0.85489172265960",
               longitude: "-0.71325407583413",
               media: [
@@ -1738,7 +1737,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Regal Vanir Garments (Freya)",
               description:
-                "**Unlock:** Reward for completing Favor [Freya's Missing Peace](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217256)",
+                "**Unlock:** Reward for completing Favor [Freya's Missing Peace",
               latitude: "0.47520575529212",
               longitude: "-0.71678325077806",
             },
@@ -1759,8 +1758,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Radiance Set (Kratos)",
-              description:
-                "**Level:** 4  \n**Unlock:** \n- [Belt of Radiance](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216562)\n- [Shoulder Straps of Radiance](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216568)\n- [Gauntlets of Radiance](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216580)",
+              description: "**Level:** 4  \n**Unlock:** \n- Belt of Radiance",
               latitude: "0.70383093553374",
               longitude: "-0.55544466187914",
               media: [
@@ -1801,8 +1799,7 @@ export const gow = {
             {
               mapSlug: "muspelheim",
               title: "The Queen's Armor (Freya)",
-              description:
-                "**Unlock:** Reward for defeating [Gn\u00e1](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216511)",
+              description: "**Unlock:** Reward for defeating [Gn\u00e1",
               latitude: "0.76557569024084",
               longitude: "-0.82366227371890",
             },
@@ -1824,7 +1821,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Guiding Light Set (Kratos)",
               description:
-                "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439).  Each armor piece can also be retrieved from near the objectives for the Favor - \n- [Waist Guard of Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216428)\n- [Guantlets of Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216477)\n- [Breastplate of Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216480)",
+                "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [Guiding Light",
               latitude: "0.80819144503265",
               longitude: "-0.64209946089292",
               media: [
@@ -1838,7 +1835,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Steinbjorn Set (Kratos)",
               description:
-                "**Level:** 6  \n**Unlock:** Craftable at the Shop after obtaining the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) and overcoming the 3 Sleeping Troll encounters:\n- [Blodugr Steinn](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219571) (Midgard)\n- [Bjarg Stormr](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219572) (Alfheim)\n- [G\u00f6lrab of the Ashes and Frost](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219573) (Vanaheim)",
+                "**Level:** 6  \n**Unlock:** Craftable at the Shop after obtaining the [Mystical Heirloom",
               latitude: "0.68531959174460",
               longitude: "-0.64584748646757",
               media: [
@@ -1919,7 +1916,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Ni\u00f0avellir's Finest Set (Kratos)",
               description:
-                "**Level:** 2  \n**Unlock:** Craftable at any Shop after completing Favor [In Service of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217079)",
+                "**Level:** 2  \n**Unlock:** Craftable at any Shop after completing Favor [In Service of Asgard",
               latitude: "0.73187394620824",
               longitude: "-0.57953083216256",
               media: [
@@ -1949,7 +1946,7 @@ export const gow = {
               mapSlug: "niflheim",
               title: "Raven Tears Set (Kratos)",
               description:
-                "**Level:** 3  \n**Unlock:** \n- [Girdle of Raven Tears](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216526)\n- [Bracers of Raven Tears](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216527)\n- [Cuirass of Raven Tears](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216528)",
+                "**Level:** 3  \n**Unlock:** \n- [Girdle of Raven Tears",
               latitude: "0.74948157922431",
               longitude: "-0.90142914924871",
               media: [
@@ -1968,8 +1965,7 @@ export const gow = {
             {
               mapSlug: "vanaheim",
               title: "Family Crests - Skirnir's Crest",
-              description:
-                "On the ground in front of the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217194)",
+              description: "On the ground in front of the [Mystic Gateway",
               latitude: "0.48811322100141",
               longitude: "-0.71720123290709",
               media: [
@@ -2055,7 +2051,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Tributes to Freyr - Harp",
               description:
-                "In a small cave just South-East of the entrance to The Barrens from The Canyons\n\n**Requires:** Completion of Favor [Secret of the Sands](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216418).",
+                "In a small cave just South-East of the entrance to The Barrens from The Canyons\n\n**Requires:** Completion of Favor [Secret of the Sands.",
               latitude: "0.64394952980052",
               longitude: "-0.62110384526491",
               media: [
@@ -2085,8 +2081,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Tributes to Freyr - Horn",
-              description:
-                "On the ground next to the [lore marker](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216577)",
+              description: "On the ground next to the [lore marker",
               latitude: "0.81553197086650",
               longitude: "-0.61814610578267",
               media: [
@@ -2329,7 +2324,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Under the Rainbow Treasure",
               description:
-                "**Treasure Map:** [Under the Rainbow](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217231)\n\n**Reward:** \n- Amulet Enchantment - Niflheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Rune",
+                "**Treasure Map:** [Under the Rainbow\n\n**Reward:** \n- Amulet Enchantment - Niflheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Rune",
               latitude: "0.37011335830979",
               longitude: "-0.73398115942285",
               media: [
@@ -2343,7 +2338,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "The Giant's Toes Treasure",
               description:
-                "Behind the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217194)\n\n**Treasure Map:** [The Giant's Toes](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217248)\n\n**Reward:** \n- Amulet Enchantment - Vanaheim\u2019s Power\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
+                "Behind the [Mystic Gateway\n\n**Reward:** \n- Amulet Enchantment - Vanaheim\u2019s Power\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
               latitude: "0.43096255191595",
               longitude: "-0.71547389030434",
               media: [
@@ -2357,7 +2352,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "A Scar is Born Treasure",
               description:
-                "On the ground under the archway \n\n**Treasure Map:** [A Scar is Born](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217305)\n\n**Reward:** \n- Amulet Enchantment - Asgard\u2019s Justice\n- 4 Asgardian Ingots\n- 4 Luminous Alloy\n- 4 Petrified Bones\n- 75 Shattered Runes",
+                "On the ground under the archway \n\n**Treasure Map:** A Scar is Born\n\n**Reward:** \n- Amulet Enchantment - Asgard\u2019s Justice\n- 4 Asgardian Ingots\n- 4 Luminous Alloy\n- 4 Petrified Bones\n- 75 Shattered Runes",
               latitude: "0.88712830540743",
               longitude: "-0.68751730097938",
               media: [
@@ -2371,7 +2366,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Vulture's Gold Treasure",
               description:
-                "Found inside the mouth of the giant skull.\n\n**Treasure Map:** [Vulture's Gold](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216563)  \n\n**Reward:**\n- Companion Accessory - Lethal Detonation\n- 1 Stonewood\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 10 Shattered Runes",
+                "Found inside the mouth of the giant skull.\n\n**Treasure Map:** [Vulture's Gold  \n\n**Reward:**\n- Companion Accessory - Lethal Detonation\n- 1 Stonewood\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 10 Shattered Runes",
               latitude: "0.77200057500508",
               longitude: "-0.53790422467617",
               media: [
@@ -2385,7 +2380,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Forgotten Tower Treasure",
               description:
-                "**Treasure Map:** [Forgotten Tower](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216593)\n\n**Reward:** \n- Amulet Enchantment - Alfheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
+                "**Treasure Map:** [Forgotten Tower\n\n**Reward:** \n- Amulet Enchantment - Alfheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
               latitude: "0.93394672740395",
               longitude: "-0.81771377088376",
               media: [
@@ -2399,7 +2394,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Demise of Dagestr Treasure",
               description:
-                "**Treasure Map:** [Demise of Dagestr](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217159) (svarthelheim)\n\n**Reward:** \n- Amulet Enchantment - Helheim\u2019s Force\n- 2 Asgardian Ingots\n- 2 Luminous Alloy\n- 2 Petrified Bones\n- 40 Shattered Runes",
+                "**Treasure Map:** Demise of Dagestr\n\n**Reward:** \n- Amulet Enchantment - Helheim\u2019s Force\n- 2 Asgardian Ingots\n- 2 Luminous Alloy\n- 2 Petrified Bones\n- 40 Shattered Runes",
               latitude: "0.79520567607227",
               longitude: "-0.69409728223849",
               media: [
@@ -2413,7 +2408,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Viking's Gift Treasure",
               description:
-                "On the ground just in frond of the large doors\n\n**Treasure Map:** [Viking's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216460)\n\n**Reward:**\n- Amulet Enchantment - Midgard\u2019s Justice\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 25 Shattered Runes",
+                "On the ground just in frond of the large doors\n\n**Treasure Map:** [Viking's Gift\n\n**Reward:**\n- Amulet Enchantment - Midgard\u2019s Justice\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 25 Shattered Runes",
               latitude: "0.77828874742430",
               longitude: "-0.46895742416359",
               media: [
@@ -2427,7 +2422,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Washed Ashore Treasure",
               description:
-                "**Treasure Map:** [Washed Ashore](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217137)\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Virtue\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+                "**Treasure Map:** [Washed Ashore\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Virtue\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
               latitude: "0.79264853394062",
               longitude: "-0.57934312502636",
               media: [
@@ -2441,7 +2436,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Mining Glory Treasure",
               description:
-                "**Treasure Map:** [Mining Glory](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217110)\n\n**Reward:** \n- Amulet Enchantment - Muspelheim\u2019s Blessing\n-1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+                "**Treasure Map:** [Mining Glory\n\n**Reward:** \n- Amulet Enchantment - Muspelheim\u2019s Blessing\n-1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
               latitude: "0.58350713626018",
               longitude: "-0.80196910694781",
               media: [
@@ -2455,7 +2450,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Fruits of Industry Treasure",
               description:
-                "**Treasure Map:** [Fruits of Industry](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217121)\n\n**Reward:** \n- Amulet Enchantment - svarthelheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+                "**Treasure Map:** [Fruits of Industry\n\n**Reward:** \n- Amulet Enchantment - svarthelheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
               latitude: "0.81190968163736",
               longitude: "-0.68713903426968",
               media: [
@@ -2537,8 +2532,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Jewel of Yggdrasil",
-              description:
-                "Drops from defeating the [Frost Phantom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219051)",
+              description: "Drops from defeating the [Frost Phantom",
               latitude: "0.85859272650404",
               longitude: "-0.79579475724842",
               media: [
@@ -2712,7 +2706,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Kvasir's Poem - The Dead Do Not Ride",
               description:
-                "From down in the cellar, climb out the hole in the ceiling to the left of the [Nornir Chest](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216446) and up to the ledge with a Red Coffin and the poem on the floor",
+                "From down in the cellar, climb out the hole in the ceiling to the left of the [Nornir Chest and up to the ledge with a Red Coffin and the poem on the floor",
               latitude: "0.85043287736413",
               longitude: "-0.57526946067549",
               media: [
@@ -3057,8 +3051,7 @@ export const gow = {
             {
               mapSlug: "vanaheim",
               title: "Living Masterpiece",
-              description:
-                "Just east of the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217194)",
+              description: "Just east of the [Mystic Gateway",
               latitude: "0.42813021879390",
               longitude: "-0.70809245109555",
               media: [
@@ -3193,8 +3186,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Broken History",
-              description:
-                "At the base of the statue near the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216409)",
+              description: "At the base of the statue near the [Mystic Gateway",
               latitude: "0.56312444367769",
               longitude: "-0.79762657479219",
               media: [
@@ -3393,8 +3385,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "The Enlightened One",
-              description:
-                "**Requires:** Completion of Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)",
+              description: "**Requires:** Completion of Favor [Freyr's Gift",
               latitude: "0.93446164308797",
               longitude: "-0.80569747451497",
               media: [
@@ -3450,7 +3441,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Tyr's Right Bracer",
               description:
-                "**Requires:** Completion of story quest _Into the Fire_\n\nOn the large armature behind the brambles\n\n**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
+                "**Requires:** Completion of story quest _Into the Fire_\n\nOn the large armature behind the brambles\n\n**Associated Favor:** [Guiding Light",
               latitude: "0.82172556905445",
               longitude: "-0.58902382850493",
               media: [
@@ -3532,8 +3523,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Tyr's Left Bracer",
-              description:
-                "**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
+              description: "**Associated Favor:** [Guiding Light",
               latitude: "0.80275889299082",
               longitude: "-0.64964175224281",
               media: [
@@ -3546,8 +3536,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Tyr's Helmet",
-              description:
-                "**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
+              description: "**Associated Favor:** [Guiding Light",
               latitude: "0.76406359945597",
               longitude: "-0.56264162063471",
               media: [
@@ -3560,8 +3549,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Tyr's Spear",
-              description:
-                "**Associated Favor:** [Guiding Light](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216439)",
+              description: "**Associated Favor:** [Guiding Light",
               latitude: "0.70411578698129",
               longitude: "-0.50483465194651",
               media: [
@@ -3826,7 +3814,7 @@ export const gow = {
               mapSlug: "helheim",
               title: "Hr\u00e6svelgr",
               description:
-                "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216516)",
+                "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway",
               latitude: "0.56884840040343",
               longitude: "-0.86168846913023",
               media: [
@@ -3871,8 +3859,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Dawnbloom",
-              description:
-                "**Requires:** Complete Favor [Song of the Sands](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219422)",
+              description: "**Requires:** Complete Favor [Song of the Sands",
               latitude: "0.83937264487514",
               longitude: "-0.89581969743543",
               media: [
@@ -3890,7 +3877,7 @@ export const gow = {
               mapSlug: "muspelheim",
               title: "Ashpetal",
               description:
-                "**Requires:** Secure entry to [The Crucible](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216504) to gain access to this flower",
+                "**Requires:** Secure entry to The Crucible to gain access to this flower",
               latitude: "0.79173518820974",
               longitude: "-0.85048568210334",
               media: [
@@ -3904,7 +3891,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Mirkweed",
               description:
-                "**Requires:** Speak with [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) (Sindri's House) after completing all story quests",
+                "**Requires:** Speak with [Ratatoskr after completing all story quests",
               latitude: "0.50595496677302",
               longitude: "-0.63149674578526",
               media: [
@@ -3932,7 +3919,7 @@ export const gow = {
               mapSlug: "jotunheim",
               title: "Ironbell",
               description:
-                "**Requires:** Speak with [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) (Sindri's House) after completing all story quests",
+                "**Requires:** Speak with [Ratatoskr after completing all story quests",
               latitude: "0.68455595291158",
               longitude: "-0.65680623045853",
               media: [
@@ -3960,7 +3947,7 @@ export const gow = {
               mapSlug: "niflheim",
               title: "Frostfinger",
               description:
-                "**Requires:** Speak with [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) (Sindri's House) after completing all story quests",
+                "**Requires:** Speak with [Ratatoskr after completing all story quests",
               latitude: "0.63200158309630",
               longitude: "-0.60317296498292",
               media: [
@@ -4310,8 +4297,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Odin's Raven",
-              description:
-                "On top of the ledge behind the [lore marker](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216605)",
+              description: "On top of the ledge behind the [lore marker",
               latitude: "0.85104434842219",
               longitude: "-0.90217116838269",
               media: [
@@ -4612,7 +4598,7 @@ export const gow = {
               mapSlug: "helheim",
               title: "Odin's Raven",
               description:
-                "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216516).  On the rock just behind and above the [Hr\u00e6svelgr](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216517) lore stone",
+                "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway lore stone",
               latitude: "0.56689305266323",
               longitude: "-0.85901259869223",
               media: [
@@ -4653,7 +4639,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Glaive of Dodher",
               description:
-                "Obtained from defeating [Fiske](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219269) during story quest _The Reckoning_",
+                "Obtained from defeating [Fiske during story quest _The Reckoning_",
               latitude: "0.60318190900462",
               longitude: "-0.69933575629722",
               media: [
@@ -4681,7 +4667,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Hilt of Tyrfing",
               description:
-                "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217333) scroll - this relic can be crafted at any Shop",
+                "Unlocked after obtaining The Lost Pages scroll - this relic can be crafted at any Shop",
               latitude: "0.86406086851537",
               longitude: "-0.73276405662369",
               media: [
@@ -4708,8 +4694,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Hilt of Gram",
-              description:
-                "Found in the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216556)",
+              description: "Found in the [Legendary Chest",
               latitude: "0.43816634912183",
               longitude: "-0.86477564519964",
               media: [
@@ -4727,7 +4712,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Hilt of Angrvadall",
               description:
-                "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216581) scroll - this relic can be crafted at any Shop",
+                "Unlocked after obtaining The Lost Pages scroll - this relic can be crafted at any Shop",
               latitude: "0.80797257668458",
               longitude: "-0.62608559704930",
               media: [
@@ -4741,7 +4726,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Hilt of Dainsleif",
               description:
-                "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216592) scroll - this relic can be crafted at any Shop",
+                "Unlocked after obtaining The Lost Pages scroll - this relic can be crafted at any Shop",
               latitude: "0.91523564269529",
               longitude: "-0.70914535387405",
               media: [
@@ -4755,7 +4740,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Mystical Heirloom",
               description:
-                "**Requires:** Draupnir Spear to access\n\nOn the ground next to the lore scroll.  \n\n**Use:** Ring the Mystical Heirloom to awaken Sleeping Bosses across the realms:\n- [Blodugr Steinn](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219571) (Midgard)\n- [Bjarg Stormr](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219572) (Alfheim)\n- [G\u00f6lrab of the Ashes and Frost](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219573) (Vanaheim)\n- [The Everlasting](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217925) (svarthelheim)",
+                "**Requires:** Draupnir Spear to access\n\nOn the ground next to the lore scroll.  \n\n**Use:** Ring the Mystical Heirloom to awaken Sleeping Bosses across the realms:\n- Blodugr Steinn",
               latitude: "0.68737938046614",
               longitude: "-0.64248870804306",
               media: [
@@ -4769,7 +4754,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Hilt of Ridill",
               description:
-                "Unlocked after obtaining [The Lost Pages](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216474) scroll - this relic can be crafted at any Shop",
+                "Unlocked after obtaining The Lost Pages scroll - this relic can be crafted at any Shop",
               latitude: "0.66423869655419",
               longitude: "-0.66229967767867",
               media: [
@@ -4786,8 +4771,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Hilt of Skofnung",
-              description:
-                "Obtained from defeating [King Hrolf Kraki](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216496)",
+              description: "Obtained from defeating [King Hrolf Kraki",
               latitude: "0.81300391289402",
               longitude: "-0.38927510616691",
               media: [
@@ -4814,8 +4798,7 @@ export const gow = {
             {
               mapSlug: "niflheim",
               title: "M\u00f3tsognir's Call",
-              description:
-                "On the floor next to the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216539)",
+              description: "On the floor next to the [Legendary Chest",
               latitude: "0.73967747190882",
               longitude: "-0.85823841952524",
               media: [
@@ -4828,8 +4811,7 @@ export const gow = {
             {
               mapSlug: "niflheim",
               title: "Hilt of Forsbrandr",
-              description:
-                "Obtained from defeating [The Raven Keeper](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216533)",
+              description: "Obtained from defeating The Raven Keeper",
               latitude: "0.78129630114039",
               longitude: "-0.89899664414719",
             },
@@ -4921,7 +4903,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Shatter Star Shield",
               description:
-                "**Level:** 3  \n**Unlock:** Found in the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217217)",
+                "**Level:** 3  \n**Unlock:** Found in the [Legendary Chest",
               latitude: "0.63117262016092",
               longitude: "-0.64957410218389",
             },
@@ -5000,7 +4982,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "R\u00f6nd of Restoration",
               description:
-                "In a small hut beyond the opening found just behind the [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217219)",
+                "In a small hut beyond the opening found just behind the Draugr Hole",
               latitude: "0.61452245050779",
               longitude: "-0.66837102296381",
               media: [
@@ -5128,7 +5110,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "R\u00f6nd of Affliction",
               description:
-                "**Requires:** Completion of Favor [Secret of the Sands](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216418)\n\nIn a small cave just South-East of the entrance to The Barrens from The Canyons (the same cave as [Tribute to Freyr #3 - Harp](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216420)).  Break the Nest Vines using the nearby Twilight Stone to access.",
+                "**Requires:** Completion of Favor [Secret of the Sands.  Break the Nest Vines using the nearby Twilight Stone to access.",
               latitude: "0.64067890527082",
               longitude: "-0.62498270808669",
               media: [
@@ -5161,8 +5143,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Hilt of Gram",
-              description:
-                "Contains [Hilt of Gram](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219055)",
+              description: "Contains [Hilt of Gram",
               latitude: "0.43411299659978",
               longitude: "-0.86112050797769",
               media: [
@@ -5608,7 +5589,7 @@ export const gow = {
               mapSlug: "helheim",
               title: "Onslaught Shield",
               description:
-                "Find this [shield](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=219819) in the chest rewarded for defeating Garm\n\n**Note:** You cannot return to this location.  If you don't open the chest but progress forward, this shield can be purchased from any Shop.",
+                "Find this [shield in the chest rewarded for defeating Garm\n\n**Note:** You cannot return to this location.  If you don't open the chest but progress forward, this shield can be purchased from any Shop.",
               latitude: "0.75084264398451",
               longitude: "-0.59663576485804",
               media: [
@@ -5924,7 +5905,6 @@ export const gow = {
                 },
               ],
             },
-
             {
               mapSlug: "alfheim",
               title: "Nornir Chest",
@@ -6025,7 +6005,7 @@ export const gow = {
               mapSlug: "muspelheim",
               title: "Nornir Chest",
               description:
-                "**Requires:** Complete the first 6 Muspelheim Trials:\n- [Weapon Mastery [1]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216508)\n- [Flawless [2]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218794)\n- [Ring Out Challenge [1]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216509)\n- [Feed the Rift [2]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218795)\n- [Population Control [1]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216510)\n- [King of the Hill [2]](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218798)",
+                "**Requires:** Complete the first 6 Muspelheim Trials:\n- [Weapon Mastery [1]",
               latitude: "0.80426525331329",
               longitude: "-0.84070098362557",
               media: [
@@ -6091,7 +6071,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Nornir Chest",
               description:
-                "Standing on the platform with the [artifact](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217098), the three seals can be seen.  Destroy them all to unlock this chest.",
+                "Standing on the platform with the artifact, the three seals can be seen.  Destroy them all to unlock this chest.",
               latitude: "0.51415389891531",
               longitude: "-0.64295914767195",
               media: [
@@ -6243,7 +6223,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Bracers of Fallen Stars",
               description:
-                "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
+                "Obtainable by throwing Crystal Fragments into the [Wishing Well",
               latitude: "0.85158892108416",
               longitude: "-0.72048535056348",
             },
@@ -6251,7 +6231,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Plackart of Fallen Stars",
               description:
-                "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
+                "Obtainable by throwing Crystal Fragments into the [Wishing Well",
               latitude: "0.85141727866386",
               longitude: "-0.71705212302413",
             },
@@ -6259,7 +6239,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Runic Hailstone Knob",
               description:
-                "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
+                "Obtainable by throwing Crystal Fragments into the [Wishing Well",
               latitude: "0.84832771379303",
               longitude: "-0.71550717063178",
             },
@@ -6267,7 +6247,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Celestial Panacea",
               description:
-                "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
+                "Obtainable by throwing Crystal Fragments into the [Wishing Well",
               latitude: "0.84506650375337",
               longitude: "-0.71602215476258",
             },
@@ -6275,7 +6255,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Hind of Volatile Might",
               description:
-                "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
+                "Obtainable by throwing Crystal Fragments into the [Wishing Well",
               latitude: "0.85193474866627",
               longitude: "-0.72374582290593",
             },
@@ -6283,7 +6263,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Waist Guard of Fallen Stars",
               description:
-                "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219695)",
+                "Obtainable by throwing Crystal Fragments into the [Wishing Well",
               latitude: "0.85313370253166",
               longitude: "-0.72683682151364",
             },
@@ -6291,7 +6271,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Waist Guard of Guiding Light",
               description:
-                "On the ground under the brambles next to [Tyr's Right Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216427)",
+                "On the ground under the brambles next to Tyr's Right Bracer",
               latitude: "0.81971202489122",
               longitude: "-0.59112590698970",
               media: [
@@ -6304,8 +6284,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Guantlets of Guiding Light",
-              description:
-                "On the ground near [Tyr's Left Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216476)",
+              description: "On the ground near Tyr's Left Bracer",
               latitude: "0.80518337123685",
               longitude: "-0.65283894538891",
               media: [
@@ -6318,8 +6297,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Breastplate of Guiding Light",
-              description:
-                "On the ground next to [Tyr's Helmet](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216479)",
+              description: "On the ground next to Tyr's Helmet",
               latitude: "0.76595089010188",
               longitude: "-0.56056292715991",
               media: [
@@ -6332,8 +6310,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "J\u00f6tunheim's Essence",
-              description:
-                "On the ground next to [Tyr's Spear](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216489)",
+              description: "On the ground next to Tyr's Spear",
               latitude: "0.70238705900714",
               longitude: "-0.50761526640426",
               media: [
@@ -6352,7 +6329,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Lunda's Broken Belt",
               description:
-                "Behind the locked door that requires the Chisel to access\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
+                "Behind the locked door that requires the Chisel to access\n\n**Associated Favor:** The Mysterious Orb",
               latitude: "0.42584741455433",
               longitude: "-0.67695539927513",
             },
@@ -6360,7 +6337,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Lunda's Broken Bracers",
               description:
-                "In the coffin sitting against the stone wall, just across the drawbridge.  Beware of the poisonous plants near the coffin.\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
+                "In the coffin sitting against the stone wall, just across the drawbridge.  Beware of the poisonous plants near the coffin.\n\n**Associated Favor:** The Mysterious Orb",
               latitude: "0.41211487161272",
               longitude: "-0.71163099742535",
             },
@@ -6368,7 +6345,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Lunda's Broken Cuirass",
               description:
-                "In the upper left corner of the beach after docking\n\n**Associated Favor:** [The Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217264)",
+                "In the upper left corner of the beach after docking\n\n**Associated Favor:** The Mysterious Orb",
               latitude: "0.39632755025011",
               longitude: "-0.68777006608002",
             },
@@ -6444,8 +6421,7 @@ export const gow = {
             {
               mapSlug: "midgard",
               title: "Red Coffin",
-              description:
-                "On the ledge near the [Kvasir's Poem](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216452)",
+              description: "On the ledge near the [Kvasir's Poem",
               latitude: "0.85456302203674",
               longitude: "-0.57508707046682",
             },
@@ -6653,7 +6629,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Under the Rainbow",
               description:
-                "In the corner on the ground\n\n**Treasure:** [Under the Rainbow](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217245)",
+                "In the corner on the ground\n\n**Treasure:** [Under the Rainbow",
               latitude: "0.44349296816270",
               longitude: "-0.67872845150893",
               media: [
@@ -6666,8 +6642,7 @@ export const gow = {
             {
               mapSlug: "vanaheim",
               title: "The Giant's Toes",
-              description:
-                "**Treasure:** [The Giant's Toes](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217257)",
+              description: "**Treasure:** The Giant's Toes",
               latitude: "0.37337485582235",
               longitude: "-0.75080397436389",
               media: [
@@ -6680,8 +6655,7 @@ export const gow = {
             {
               mapSlug: "vanaheim",
               title: "A Scar is Born",
-              description:
-                "**Treasure:** [A Scar is Born](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217330)",
+              description: "**Treasure:** A Scar is Born",
               latitude: "0.87455465620798",
               longitude: "-0.75491994084109",
               media: [
@@ -6694,8 +6668,7 @@ export const gow = {
             {
               mapSlug: "alfheim",
               title: "Vulture's Gold",
-              description:
-                "Up the path to the left from the [Mystic Gateway](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216409)\n\n**Treasure:** [Vulture's Gold](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216424)",
+              description: "Up the path to the left from the [Mystic Gateway",
               latitude: "0.57647963816197",
               longitude: "-0.78341353588223",
               media: [
@@ -6709,7 +6682,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Forgotten Tower",
               description:
-                "On the shelf next to the chest that contains a Jewel of Yggdrasil\n\n**Treasure:** [Forgotten Tower](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216597)",
+                "On the shelf next to the chest that contains a Jewel of Yggdrasil\n\n**Treasure:** [Forgotten Tower",
               latitude: "0.90979661029998",
               longitude: "-0.70075089823720",
               media: [
@@ -6723,7 +6696,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Viking's Gift",
               description:
-                "**Treasure:** [Viking's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216485)\n\nInside the Raider's Fort - on the ground near the campfire",
+                "**Treasure:** [Viking's Gift\n\nInside the Raider's Fort - on the ground near the campfire",
               latitude: "0.76335885427549",
               longitude: "-0.67954255415776",
               media: [
@@ -6736,8 +6709,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Mining Glory",
-              description:
-                "On the upper platform next to the [Legendary Chest](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217109)\n\n**Treasure:** [Mining Glory](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217169)",
+              description: "On the upper platform next to the [Legendary Chest",
               latitude: "0.73893719701243",
               longitude: "-0.55810707435722",
               media: [
@@ -6750,8 +6722,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Fruits of Industry",
-              description:
-                "**Treasure:** [Fruits of Industry](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=218787)",
+              description: "**Treasure:** [Fruits of Industry",
               latitude: "0.86641726050510",
               longitude: "-0.55233545781596",
               media: [
@@ -6764,8 +6735,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Washed Ashore",
-              description:
-                "**Treasure:** [Washed Ashore](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217148)",
+              description: "**Treasure:** [Washed Ashore",
               latitude: "0.92077572415565",
               longitude: "-0.57537466983462",
               media: [
@@ -6778,8 +6748,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Demise of Dagestr",
-              description:
-                "**Treasure:** [Demise of Dagestr](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216475) (Midgard)",
+              description: "**Treasure:** Demise of Dagestr",
               latitude: "0.50986212799933",
               longitude: "-0.79906277566280",
               media: [
@@ -6909,7 +6878,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Yggdrasil's Dew of Vitality",
               description:
-                "**Requires:** Complete story quest _The Reckoning_\n\nTo gain access to this Dew, dock at the [Bay of Bounty](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217090), climb the chain, and activate the Runic Slate",
+                "**Requires:** Complete story quest _The Reckoning_\n\nTo gain access to this Dew, dock at the Bay of Bounty, climb the chain, and activate the Runic Slate",
               latitude: "0.91464474509779",
               longitude: "-0.57957894732667",
               media: [
@@ -6945,13 +6914,13 @@ export const gow = {
         {
           title: "Berserker Gravestone",
           icon: "berserker_gravestone",
-          info: "**Requires:** Completion of story quest The Word of Fate  \n**Associated Favor:** [Fit for a King](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216481) (Midgard)",
+          info: "**Requires:** Completion of story quest The Word of Fate  \n**Associated Favor:** [Fit for a King",
           locations: [
             {
               mapSlug: "svarthelheim",
               title: "Hardrefill the Callous",
               description:
-                "**Power Level:** 5  \n**Reward:**  \n- Asgard's Fortitude Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes\n\n**Associated Favor:** [Fit for a King](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216481) (Midgard)",
+                "**Power Level:** 5  \n**Reward:**  \n- Asgard's Fortitude Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes\n\n**Associated Favor:** [Fit for a King",
               latitude: "0.73136716872182",
               longitude: "-0.68128973937453",
               media: [
@@ -7077,7 +7046,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "King Hrolf Kraki",
               description:
-                "**Requires:** Completion of all other Berserker Gravestones  \n**Power Level:** 9  \n**Reward:** \n- [Hilt of Skofnung](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219419)\n- Helheim's Virtue Enchantment\n- Bonded Leather\n- Hacksilver",
+                "**Requires:** Completion of all other Berserker Gravestones  \n**Power Level:** 9  \n**Reward:** \n- [Hilt of Skofnung\n- Helheim's Virtue Enchantment\n- Bonded Leather\n- Hacksilver",
               latitude: "0.80836951965630",
               longitude: "-0.39271831512494",
               media: [
@@ -7092,7 +7061,7 @@ export const gow = {
         {
           title: "Draugr Hole",
           icon: "draugr_hole",
-          info: "**Associated Favor:** [Born From Fire](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219823) (svarthelheim)",
+          info: "**Associated Favor:** Born From Fire",
           locations: [
             {
               mapSlug: "vanaheim",
@@ -7177,7 +7146,7 @@ export const gow = {
               mapSlug: "sindris-house",
               title: "The Lost Lindwyrms",
               description:
-                "**Requires:** Complete story quest _The Word of Fate_\n\n**Objectives:** Activate Yggdrasil Rifts across the Realms to retrieve the 6 Lost Lindwyrms - \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219264) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219263) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219262) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219210) (svarthelheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219266) (Vanaheim)\n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219265) (Vanaheim)\n\n**Reward:**\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Hacksilver\n- Dust of Realms\n- Lindwyrm Scales\n- 1 Gale Flame",
+                "**Requires:** Complete story quest _The Word of Fate_\n\n**Objectives:** Activate Yggdrasil Rifts across the Realms to retrieve the 6 Lost Lindwyrms - \n- [Lost Lindwyrm\n\n**Reward:**\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Hacksilver\n- Dust of Realms\n- Lindwyrm Scales\n- 1 Gale Flame",
               latitude: "0.64847992133789",
               longitude: "-0.78951358795348",
               media: [
@@ -7191,7 +7160,7 @@ export const gow = {
               mapSlug: "sindris-house",
               title: "A Stag For All Seasons",
               description:
-                "**Requires:** Complete Favor [The Scent of Survival](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219951) (Vanaheim) to gain access to The Crater  \n\n**Objectives:** Accept the magical food from [Ratatoskr](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218792) and feed each of the 4 Stags throughout The Crater in Vanaheim -\n- [Stag of Winter](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217283) (Vanaheim)\n- [Stag of Spring](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217284) (Vanaheim)\n- [Stag of Summer](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217288) (Vanaheim)\n- [Stag of Autumn](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217294) (Vanaheim)   \n\n**Reward:** \n- 4500 Kratos XP\n- 1125 Companion XP\n- Whispering Slab \n- Rond of Disruption",
+                "**Requires:** Complete Favor The Scent of Survival   \n\n**Reward:** \n- 4500 Kratos XP\n- 1125 Companion XP\n- Whispering Slab \n- Rond of Disruption",
               latitude: "0.60908362961065",
               longitude: "-0.80216636096489",
               media: [
@@ -7243,7 +7212,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Freya's Missing Peace",
               description:
-                "Automatically obtained upon first accessing The River Delta\n\n**Reward:**\n- 1500 Freya XP\n- Mardoll (optional sword for Freya)\n- Steel Harmony\n- [Regal Vanir Garments (Freya)](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219811)",
+                "Automatically obtained upon first accessing The River Delta\n\n**Reward:**\n- 1500 Freya XP\n- Mardoll (optional sword for Freya)\n- Steel Harmony\n- [Regal Vanir Garments (Freya)",
               latitude: "0.47297423378197",
               longitude: "-0.72045841917179",
               media: [
@@ -7257,7 +7226,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "The Mysterious Orb",
               description:
-                "**Requires:** Complete story quest _The Reckoning_.  Speak with L\u00fanda at the [Shop](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217195)\n\n**Objectives:** Retrieve the following and return to L\u00fanda - \n- [Lunda's Broken Belt](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219687)\n- [Lunda's Broken Bracers](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219688)\n- [Lunda's Broken Cuirass](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219689)\n- [Mysterious Orb](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219690)\n\n**Reward:** \n- 1000 Kratos XP\n- 250 Companion XP\n- Lunda's Full Armor set (optional)",
+                "**Requires:** Complete story quest _The Reckoning_.  Speak with L\u00fanda at the [Shop",
               latitude: "0.51099373642955",
               longitude: "-0.68929186525907",
               media: [
@@ -7494,7 +7463,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "The Desert Door",
               description:
-                "**Requires:** Complete Favor [Freyr's Gift](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216601)\n\nBegin this quest by picking up either one of the Key Halves:\n- [Alfheim Barrens Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216603)\n- [Alfheim Barrens Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216611)\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Freya XP\n- Amulet Enchantment\n- Skirnir's Gambanteinn",
+                "**Requires:** Complete Favor [Freyr's Gift\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Freya XP\n- Amulet Enchantment\n- Skirnir's Gambanteinn",
               latitude: "0.84421083289921",
               longitude: "-0.87281227111879",
               media: [
@@ -7522,7 +7491,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "The Elven Sanctum",
               description:
-                "**Requires:** Completion of story quest _The Reckoning_\n\nSpeak with Belya and Byggvir in Freyr's Camp (in [Vanaheim](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim)) to begin this quest\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Companion XP",
+                "**Requires:** Completion of story quest _The Reckoning_\n\nSpeak with Belya and Byggvir in Freyr's Camp (in [Vanaheim to begin this quest\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Companion XP",
               latitude: "0.89897453934920",
               longitude: "-0.72300094579646",
               media: [
@@ -7536,7 +7505,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Nine Realms in Bloom",
               description:
-                "This Favor begins after obtaining your first Nine Realms Flower  \n\n**Objectives:** Retrieve flowers from across the Realms -    \n- [Dawnbloom](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216604) (Alfheim)\n- [Sparkthorn](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217111) (svarthelheim)\n- [Ashpetal](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216505) (Muspelheim)\n- [Soulblossom](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216521) (Helheim)\n- [Starblush](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217299) (Vanaheim)\n- [Dreamshade](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216537) (Niflheim)\n- [Frostfinger](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216523) (Niflheim)\n- [Mirkweed](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=218793) (Midgard)\n- [Ironbell](https://mapgenie.io/god-of-war-ragnarok/maps/jotunheim?locationIds=216513) (Jotunheim)\n\n**Reward:** \n- 750 Kratos XP\n- 750 Companion XP",
+                "This Favor begins after obtaining your first Nine Realms Flower  \n\n**Objectives:** Retrieve flowers from across the Realms -    \n- Dawnbloom\n\n**Reward:** \n- 750 Kratos XP\n- 750 Companion XP",
               latitude: "0.84557969471093",
               longitude: "-0.89027635133090",
               media: [
@@ -7549,8 +7518,7 @@ export const gow = {
             {
               mapSlug: "muspelheim",
               title: "The Final Challenges",
-              description:
-                "**Requires:** Completion of Favor [The Crucible](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=218797)",
+              description: "**Requires:** Completion of Favor The Crucible",
               latitude: "0.80977392015335",
               longitude: "-0.83127020948859",
               media: [
@@ -7563,8 +7531,7 @@ export const gow = {
             {
               mapSlug: "muspelheim",
               title: "The Crucible",
-              description:
-                "**Requires:** Secure [The Crucible](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216504) gateway to access this area  \n\n**Objectives:** Complete the first 6 Muspelheim Trials  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP\n- [Undying Pyres Set (Kratos)](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=219694)\n- Divine Ashes",
+              description: "**Requires:** Secure The Crucible\n- Divine Ashes",
               latitude: "0.80528537737146",
               longitude: "-0.84738975956026",
               media: [
@@ -7578,7 +7545,7 @@ export const gow = {
               mapSlug: "muspelheim",
               title: "Defend Your Valor",
               description:
-                "**Requires:** Complete all story quests\n\nPick up the item on the ground near the campfire to begin this Favor and the epic fight with [Gn\u00e1](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216511)",
+                "**Requires:** Complete all story quests\n\nPick up the item on the ground near the campfire to begin this Favor and the epic fight with [Gn\u00e1",
               latitude: "0.76714478461678",
               longitude: "-0.83153453888525",
               media: [
@@ -7592,7 +7559,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Guiding Light",
               description:
-                "**Requires:** Begin story quest _The Word of Fate_.  Automatically obtained the first time you read the runes from one of Tyr's statue pieces, spread out throughout Midgard  \n\n**Objectives:** Find all 4 pieces of Tyr's statue and read the runes found on them (each statue piece also has buried treasure to be retrieved nearby) -    \n- [Tyr's Left Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216476)\n- [Tyr's Right Bracer](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216427)\n- [Tyr's Helmet](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216479)\n- [Tyr's Spear](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216489)\n\n**Reward:** \n- 750 Kratos XP\n- 200 Companion XP",
+                "**Requires:** Begin story quest _The Word of Fate_.  Automatically obtained the first time you read the runes from one of Tyr's statue pieces, spread out throughout Midgard  \n\n**Objectives:** Find all 4 pieces of Tyr's statue and read the runes found on them (each statue piece also has buried treasure to be retrieved nearby) -    \n- Tyr's Left Bracer\n\n**Reward:** \n- 750 Kratos XP\n- 200 Companion XP",
               latitude: "0.80475426014580",
               longitude: "-0.64568281173533",
               media: [
@@ -7606,7 +7573,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Fit for a King",
               description:
-                "Automatically obtained during story quest _The Word of Fate_.  \n\n**Objectives:** Defeat all Berserkers across the Realms -\n- [Fraekni the Zealous](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216478) (Midgard)\n- [Hardrefill the Callous](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217113) (svarthelheim)\n- [Beirgadr the Feared](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217134) (svarthelheim)\n- [Hvitserkr the Bold](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217223) (Vanaheim)\n- [Hjalti the Stolid](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216609) (Alfheim)\n- [Svipdagr the Cold and the Sisters of Illska](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216419) (Alfheim)\n- [Haklangr the Bearded](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217287) (Vanaheim)\n- [Bodvar the Fierce and Starolfr the Troublesome](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217165) (svarthelheim)\n- [Skjothendi the Unerring](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216524) (Niflheim)\n- [King Hrolf Kraki](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216496) (Midgard)  \n\n**Reward:** \n- Kratos XP\n- Companion XP",
+                "Automatically obtained during story quest _The Word of Fate_.  \n\n**Objectives:** Defeat all Berserkers across the Realms -\n- [Fraekni the Zealous  \n\n**Reward:** \n- Kratos XP\n- Companion XP",
               latitude: "0.80723237606270",
               longitude: "-0.39756774902435",
               media: [
@@ -7620,7 +7587,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Across the Realms",
               description:
-                "**Requires:** Begin story quest _The Word of Fate_.  Pick up the book near the rainbow campfire to start this Favor  \n\n**Objectives:** Retrieve all Ingredients across the Realms and return to the campfire to craft the Meal of Comfort - \n- [Nordic Gourd](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=219952) (Midgard)\n- [Elven Cap](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=219953) (Alfheim)\n- [Prongfruit](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219954) (svarthelheim)\n- [Bantam Melon](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219955) (Vanaheim)  \n\n**Reward:** \n- 1,000 Kratos XP\n- 350 Companion XP\n- 30 Whispering Slabs\n- Meal of Comfort (+5 to all stats)",
+                "**Requires:** Begin story quest _The Word of Fate_.  Pick up the book near the rainbow campfire to start this Favor  \n\n**Objectives:** Retrieve all Ingredients across the Realms and return to the campfire to craft the Meal of Comfort - \n- [Nordic Gourd",
               latitude: "0.81248898057396",
               longitude: "-0.48072695732051",
               media: [
@@ -7634,7 +7601,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Sigrun's Curse",
               description:
-                "**Requires:** Automatically obtained upon exploring either The Derelict Outpost or The Oarsmen regions  \n\n**Objectives:** Retrieve the key pieces to open the Vault, then defeat the enemies inside - \n- [Fj\u00f3turlund Vault Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216445)  \n- [Fj\u00f3turlund Vault Key Half](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216468)\n\n**Reward:** \n- 1500 Kratos XP\n- 375 Companion XP",
+                "**Requires:** Automatically obtained upon exploring either The Derelict Outpost or The Oarsmen regions  \n\n**Objectives:** Retrieve the key pieces to open the Vault, then defeat the enemies inside - \n- [Fj\u00f3turlund Vault Key Half\n\n**Reward:** \n- 1500 Kratos XP\n- 375 Companion XP",
               latitude: "0.65593983407486",
               longitude: "-0.77047320334540",
               media: [
@@ -7648,7 +7615,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "The Last Remnants of Asgard",
               description:
-                "**Requires:** Automatically obtained after completion of all story quests.  \n\n**Objectives:** Secure and clear out the wreckage from Asgard across the Realms - \n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216415) (Midgard)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216486) (Midgard)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217164) (svarthelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217116) (svarthelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217101) (svarthelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/muspelheim?locationIds=216501) (Muspelheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216569) (Alfheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216547) (Alfheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217206) (Vanaheim)\n- [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217205) (Vanaheim)  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP",
+                "**Requires:** Automatically obtained after completion of all story quests.  \n\n**Objectives:** Secure and clear out the wreckage from Asgard across the Realms - \n- The Last Remnants of Asgard  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP",
               latitude: "0.73802695159959",
               longitude: "-0.70428371429352",
             },
@@ -7656,7 +7623,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Animal Instincts",
               description:
-                "**Requires:** Automatically obtained upon invading any Kol Raider Camp.    \n\n**Objectives:** Eliminate all Kol Raider Camps to complete this Favor -\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216456)\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216457)\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216459)\n- [Kol Raider Camp](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216461)  \n\n**Reward:** \n- 1,000 Kratos XP\n- 250 Companion XP",
+                "**Requires:** Automatically obtained upon invading any Kol Raider Camp.    \n\n**Objectives:** Eliminate all Kol Raider Camps to complete this Favor -\n- [Kol Raider Camp  \n\n**Reward:** \n- 1,000 Kratos XP\n- 250 Companion XP",
               latitude: "0.65933853677492",
               longitude: "-0.59578074813373",
               media: [
@@ -7740,7 +7707,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Born From Fire",
               description:
-                "Automatically obtained upon starting your first Draugr Hole activity\n\n**Objectives:** Close all Draugr Holes across the Realms - \n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217124) (svarthelheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217167) (svarthelheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216582) (Alfheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216437) (Midgard)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217219) (Vanaheim)\n- [Draugr Hole](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217326) (Vanaheim)\n\n**Reward:** \n- Kratos XP\n- Companion XP",
+                "Automatically obtained upon starting your first Draugr Hole activity\n\n**Objectives:** Close all Draugr Holes across the Realms - \n- Draugr Hole\n\n**Reward:** \n- Kratos XP\n- Companion XP",
               latitude: "0.83944840594222",
               longitude: "-0.63211055770472",
               media: [
@@ -7754,7 +7721,7 @@ export const gow = {
               mapSlug: "helheim",
               title: "Hel to Pay",
               description:
-                "Automatically obtained after closing the [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216514) during story quest _Reunion_.  Note that the first 2 Hel Tears are part of the story and cannot be missed.\n\n**Objectives:** Close all Hel Tears across the Realms - \n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=218791) (Sindri's House)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216514) (Helheim)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217100) (svarthelheim)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216417) (Midgard)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216542) (Alfheim)\n- [Hel Tear](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217197) (Vanaheim)\n\n**Reward:** \n- Weapon Upgrade - Frozen Flame\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Essence of Hel\n- Dust of Realms\n- Hacksilver",
+                "Automatically obtained after closing the [Hel Tear\n\n**Reward:** \n- Weapon Upgrade - Frozen Flame\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Essence of Hel\n- Dust of Realms\n- Hacksilver",
               latitude: "0.51267568346543",
               longitude: "-0.75235584588344",
               media: [
@@ -7782,7 +7749,7 @@ export const gow = {
               mapSlug: "niflheim",
               title: "The Eyes of Odin",
               description:
-                "Automatically obtained after killing your first Odin's Raven in any Realm.  This quest concludes after you've killed all 48 Ravens, opened all 6 Raven chests in Niflheim, and defeated [The Raven Keeper](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216533)",
+                "Automatically obtained after killing your first Odin's Raven in any Realm.  This quest concludes after you've killed all 48 Ravens, opened all 6 Raven chests in Niflheim, and defeated The Raven Keeper",
               latitude: "0.77671903712991",
               longitude: "-0.88548481444599",
               media: [
@@ -7797,13 +7764,13 @@ export const gow = {
         {
           title: "Hel Tear",
           icon: "hel_tear",
-          info: "**Associated Favor:** [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515) (Helheim)",
+          info: "**Associated Favor:** [Hel to Pay",
           locations: [
             {
               mapSlug: "sindris-house",
               title: "Hel Tear",
               description:
-                "This Hel Tear must be closed as part of story quest _Unleashing Hel_ and cannot be missed.\n\n**Note:** The Favor for closing Hel Tears, [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515) (Helheim), does not begin until the subsequent story quest _Reunion_.  However this Hel Tear is still tracked as one of 6 needed for the Favor.",
+                "This Hel Tear must be closed as part of story quest _Unleashing Hel_ and cannot be missed.\n\n**Note:** The Favor for closing Hel Tears, [Hel to Pay, does not begin until the subsequent story quest _Reunion_.  However this Hel Tear is still tracked as one of 6 needed for the Favor.",
               latitude: "0.60853818350051",
               longitude: "-0.72519864320111",
               media: [
@@ -7867,7 +7834,7 @@ export const gow = {
               mapSlug: "helheim",
               title: "Hel Tear",
               description:
-                "This Hel Tear must be closed during the story quest _Reunion_ and cannot be missed.\n\n**Note:** This Hel Tear is tracked as one of 6 needed to complete Favor [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515).",
+                "This Hel Tear must be closed during the story quest _Reunion_ and cannot be missed.\n\n**Note:** This Hel Tear is tracked as one of 6 needed to complete Favor [Hel to Pay.",
               latitude: "0.50757944768083",
               longitude: "-0.74637901150740",
               media: [
@@ -7882,13 +7849,12 @@ export const gow = {
         {
           title: "Lindwyrm",
           icon: "lindwyrm",
-          info: "**Associated Favor:** [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+          info: "**Associated Favor:** The Lost Lindwyrms",
           locations: [
             {
               mapSlug: "vanaheim",
               title: "Lost Lindwyrm",
-              description:
-                "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217329)",
+              description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.91985326094401",
               longitude: "-0.70287626716910",
               media: [
@@ -7901,8 +7867,7 @@ export const gow = {
             {
               mapSlug: "vanaheim",
               title: "Lost Lindwyrm",
-              description:
-                "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=217324)",
+              description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.95447547743436",
               longitude: "-0.76248303469788",
               media: [
@@ -7915,8 +7880,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
-              description:
-                "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217093)",
+              description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.85329345303175",
               longitude: "-0.80720516216866",
               media: [
@@ -7929,8 +7893,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
-              description:
-                "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217119)",
+              description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.85336639521083",
               longitude: "-0.55800966507914",
               media: [
@@ -7947,8 +7910,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
-              description:
-                "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217136)",
+              description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.94041286556296",
               longitude: "-0.57062920047377",
               media: [
@@ -7965,8 +7927,7 @@ export const gow = {
             {
               mapSlug: "svarthelheim",
               title: "Lost Lindwyrm",
-              description:
-                "Obtained from the [Yggdrasil Rift](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=217163)",
+              description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.61987404803629",
               longitude: "-0.82634023362584",
               media: [
@@ -8159,7 +8120,7 @@ export const gow = {
         {
           title: "Remnant of Asgard",
           icon: "remnant_of_asgard",
-          info: "**Requires:** Completion of all story quests.  \n**Associated Favor:** [The Last Remnants of Asgard](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=217210) (Midgard)",
+          info: "**Requires:** Completion of all story quests.  \n**Associated Favor:** The Last Remnants of Asgard",
           locations: [
             {
               mapSlug: "svarthelheim",
@@ -8197,7 +8158,6 @@ export const gow = {
                 },
               ],
             },
-
             {
               mapSlug: "vanaheim",
               title: "The Last Remnants of Asgard",
@@ -8309,7 +8269,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Yggdrasil Rift",
               description:
-                "**Requires:** Nighttime \n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219266)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+                "**Requires:** Nighttime \n\n**Reward:** \n- [Lost Lindwyrm",
               latitude: "0.95110876228048",
               longitude: "-0.75909787310366",
               media: [
@@ -8322,8 +8282,7 @@ export const gow = {
             {
               mapSlug: "vanaheim",
               title: "Yggdrasil Rift",
-              description:
-                "**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219265)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+              description: "**Reward:** \n- [Lost Lindwyrm",
               latitude: "0.91705828882164",
               longitude: "-0.69879666385259",
               media: [
@@ -8415,7 +8374,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
-                "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219210)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+                "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm",
               latitude: "0.85154963170316",
               longitude: "-0.80338755625161",
               media: [
@@ -8441,7 +8400,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
-                "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219262)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+                "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm",
               latitude: "0.85105532226697",
               longitude: "-0.55420871208835",
               media: [
@@ -8455,7 +8414,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
-                "**Requires:** Draupnir Spear for access\n\n**Rewards:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219263)\n- 2 Lindwrym Scales\n- 1 Gale Spark\n- 25 Dust of Realms\n- 3,000 Hacksilver\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+                "**Requires:** Draupnir Spear for access\n\n**Rewards:** \n- [Lost Lindwyrm",
               latitude: "0.93759632685466",
               longitude: "-0.56747824648386",
               media: [
@@ -8481,7 +8440,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "Yggdrasil Rift",
               description:
-                "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm](https://mapgenie.io/god-of-war-ragnarok/maps/svarthelheim?locationIds=219264)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://mapgenie.io/god-of-war-ragnarok/maps/sindris-house?locationIds=216615) (Sindri's House)",
+                "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm",
               latitude: "0.61647177390776",
               longitude: "-0.82259348057781",
               media: [
@@ -8501,7 +8460,7 @@ export const gow = {
         {
           title: "Ingredient",
           icon: "gow_ingredient",
-          info: "**Associated Favor:** [Across the Realms](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216495) (Midgard)",
+          info: "**Associated Favor:** Across the Realms",
           locations: [
             {
               mapSlug: "vanaheim",
@@ -8569,7 +8528,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Fiske",
               description:
-                "Encountered during story quest _The Reckoning_\n\n**Reward:**\n- [Glaive of Dodher](https://mapgenie.io/god-of-war-ragnarok/maps/vanaheim?locationIds=219270)",
+                "Encountered during story quest _The Reckoning_\n\n**Reward:**\n- [Glaive of Dodher",
               latitude: "0.60441543905846",
               longitude: "-0.70324215171064",
               media: [
@@ -8641,7 +8600,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Gravel Belly",
               description:
-                "**Requires:** Begin Favor [The Desert Door](https://mapgenie.io/god-of-war-ragnarok/maps/alfheim?locationIds=216613)\n\n**Reward:**\n- Skirnir's Gambanteinn \n- Dragon Tooth\n- Dragon Claw\n- Hacksilver",
+                "**Requires:** Begin Favor The Desert Door\n\n**Reward:**\n- Skirnir's Gambanteinn \n- Dragon Tooth\n- Dragon Claw\n- Hacksilver",
               latitude: "0.93798023156269",
               longitude: "-0.81170562269114",
             },
@@ -8707,8 +8666,7 @@ export const gow = {
             {
               mapSlug: "niflheim",
               title: "The Raven Keeper",
-              description:
-                "**Requires:** Only spawns near the [The Raven Tree](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216534) after you open the final [chest](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216529).  Begin the fight in this arena.  [The Pale One](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216535), a dragon, spawns when The Raven Keeper's health gets around 30%\n\n**Reward:**\n- Niflheim's Justice - Amulet Enhancement \n- [Hilt of Forsbrandr](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=219418)",
+              description: "**Requires:** Only spawns near the The Raven Tree",
               latitude: "0.77658143645708",
               longitude: "-0.89548893830994",
             },
@@ -8716,7 +8674,7 @@ export const gow = {
               mapSlug: "niflheim",
               title: "The Pale One",
               description:
-                "Spawns close to the end of the fight with [The Raven Keeper](https://mapgenie.io/god-of-war-ragnarok/maps/niflheim?locationIds=216533)",
+                "Spawns close to the end of the fight with The Raven Keeper",
               latitude: "0.77589485396611",
               longitude: "-0.89136906526736",
             },
@@ -8729,7 +8687,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "G\u00f6lrab of the Ashes and Frost",
               description:
-                "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) (Midgard) to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Momentous Stride\n- 2 Slumber Stones\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 687 Hacksilver",
+                "**Requires:** Use the [Mystical Heirloom to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Momentous Stride\n- 2 Slumber Stones\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 687 Hacksilver",
               latitude: "0.43134042490706",
               longitude: "-0.67953031991496",
               media: [
@@ -8743,7 +8701,7 @@ export const gow = {
               mapSlug: "alfheim",
               title: "Bjarg Stormr",
               description:
-                "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) (Midgard) to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Stone of Idol Souls\n- 1 Slumber Stones\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 507 Hacksilver",
+                "**Requires:** Use the [Mystical Heirloom to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Stone of Idol Souls\n- 1 Slumber Stones\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 507 Hacksilver",
               latitude: "0.84842073775260",
               longitude: "-0.90555181759456",
               media: [
@@ -8757,7 +8715,7 @@ export const gow = {
               mapSlug: "midgard",
               title: "Blodugr Steinn",
               description:
-                "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Poison Protector\n- 1 Slumber Stone\n- 5 Beast Bone\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 464 Hacksilver",
+                "**Requires:** Use the [Mystical Heirloom to awaken this boss\n\n**Reward:**\n- Amulet Enchantment - Poison Protector\n- 1 Slumber Stone\n- 5 Beast Bone\n- 25 Bonded Leather\n- 40 Shattered Runes\n- 464 Hacksilver",
               latitude: "0.63967246629355",
               longitude: "-0.78908188986367",
               media: [
@@ -8771,7 +8729,7 @@ export const gow = {
               mapSlug: "svarthelheim",
               title: "The Everlasting",
               description:
-                "**Requires:** Use the [Mystical Heirloom](https://mapgenie.io/god-of-war-ragnarok/maps/midgard?locationIds=216493) (Midgard) to awaken this boss\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Force\n- 3 Dragon Claws\n- 40 Bonded Leather\n- 75 Shattered Runes\n- 50,000 Hacksilver",
+                "**Requires:** Use the [Mystical Heirloom to awaken this boss\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Force\n- 3 Dragon Claws\n- 40 Bonded Leather\n- 75 Shattered Runes\n- 50,000 Hacksilver",
               latitude: "0.80397708509193",
               longitude: "-0.58385155269167",
               media: [

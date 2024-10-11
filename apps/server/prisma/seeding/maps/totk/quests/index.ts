@@ -593,7 +593,6 @@ export const quests = {
               url: "https://media.mapgenie.io/storage/media/186da0e7-77f5-4e7c-8d82-e7f88a9289c5.jpg",
               type: "image",
             },
-
             {
               url: "https://media.mapgenie.io/storage/media/7561e9da-43c9-4d1d-af1c-71d23fbabc51.jpg",
               type: "image",

@@ -2381,7 +2381,6 @@ export const locations = {
               url: "https://media.mapgenie.io/storage/media/4f94c49e-325e-4804-a2bf-3e025c45f429.jpg",
               type: "image",
             },
-
             {
               url: "https://media.mapgenie.io/storage/media/f8b23c27-4da9-4bfe-bb69-ae7aa6aa62ab.jpg",
               type: "image",
@@ -2774,7 +2773,6 @@ export const locations = {
               url: "https://media.mapgenie.io/storage/media/f4e3b026-f796-47ea-9985-b17d4c8c5ea7.jpg",
               type: "image",
             },
-
             {
               url: "https://media.mapgenie.io/storage/media/c6994c3b-33f2-4637-b27d-a8cf20dd4398.jpg",
               type: "image",

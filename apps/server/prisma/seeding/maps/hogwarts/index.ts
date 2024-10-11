@@ -232,376 +232,329 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251928)",
+              description: "**Reward:** Trait",
               latitude: "0.92067564982148",
               longitude: "-0.75198602046825",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251996)",
+              description: "**Reward:** Trait",
               latitude: "1.01100325757250",
               longitude: "-0.70770850443401",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252026)",
+              description: "**Reward:** Trait",
               latitude: "0.98282850603219",
               longitude: "-0.74100435785712",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252030)",
+              description: "**Reward:** Trait",
               latitude: "0.98532528392367",
               longitude: "-0.68004727363441",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268247)",
+              description: "**Reward:** Trait",
               latitude: "0.66397616501540",
               longitude: "-0.82613903173106",
             },
             {
               mapSlug: "world",
               title: "Bandit Camp Castle",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268273); [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268274)",
+              description: "**Reward:** Trait",
               latitude: "0.68006831209487",
               longitude: "-0.83506542333259",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268310)",
+              description: "**Reward:** Trait",
               latitude: "0.72794698003106",
               longitude: "-0.79884115065164",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268189)",
+              description: "**Reward:** Trait",
               latitude: "0.63283303685492",
               longitude: "-0.78875412910577",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268188)",
+              description: "**Reward:** Trait",
               latitude: "0.62815554755309",
               longitude: "-0.78926911323681",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268183)",
+              description: "**Reward:** Trait",
               latitude: "0.64238147129660",
               longitude: "-0.77125398239934",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268147)",
+              description: "**Reward:** Trait",
               latitude: "0.67907248552545",
               longitude: "-0.73271748856041",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268394)",
+              description: "**Reward:** Trait",
               latitude: "0.64042271210988",
               longitude: "-0.70424811936840",
             },
             {
               mapSlug: "world",
               title: "Bandit Camp Castle",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268403)\n\n**Note:** [Iona Morgan](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252156) is based here",
+              description: "**Reward:** Trait is based here",
               latitude: "0.61587656073441",
               longitude: "-0.66326362724143",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268405)",
+              description: "**Reward:** Trait",
               latitude: "0.60291685986365",
               longitude: "-0.67536575431674",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252166)",
+              description: "**Reward:** Trait",
               latitude: "0.58761281879278",
               longitude: "-0.67236168022123",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268409)",
+              description: "**Reward:** Trait",
               latitude: "0.55190526574752",
               longitude: "-0.64446695190861",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268417)",
+              description: "**Reward:** Trait",
               latitude: "0.62724357075822",
               longitude: "-0.62684152268659",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268422)",
+              description: "**Reward:** Trait",
               latitude: "0.59986515125150",
               longitude: "-0.61903093003535",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268425)",
+              description: "**Reward:** Trait",
               latitude: "0.60273085517279",
               longitude: "-0.59248686343523",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268429)",
+              description: "**Reward:** Trait",
               latitude: "0.58711051199796",
               longitude: "-0.56725264102272",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268515)",
+              description: "**Reward:** Trait",
               latitude: "0.55363820259016",
               longitude: "-0.59660673646618",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268470)",
+              description: "**Reward:** Trait",
               latitude: "0.56589670962840",
               longitude: "-0.58482833702695",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268434)",
+              description: "**Reward:** Trait",
               latitude: "0.57233071303732",
               longitude: "-0.54540649140688",
             },
             {
               mapSlug: "world",
               title: "Bandit Camp Castle",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268377)",
+              description: "**Reward:** Trait",
               latitude: "0.70670939334470",
               longitude: "-0.67224137570051",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252418)",
+              description: "**Reward:** Trait",
               latitude: "0.82383619242070",
               longitude: "-0.66455647076140",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267563)",
+              description: "**Reward:** Trait",
               latitude: "0.89658947954258",
               longitude: "-0.74590911016622",
             },
             {
               mapSlug: "world",
               title: "Bandit Camp Castle",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267556) and [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267559)",
+              description: "**Reward:** Trait",
               latitude: "0.90111097820143",
               longitude: "-0.80800018155111",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267548)",
+              description: "**Reward:** Trait",
               latitude: "0.92428668600301",
               longitude: "-0.76714848178202",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267532)",
+              description: "**Reward:** Trait",
               latitude: "0.94076717758311",
               longitude: "-0.69725415356510",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268609)",
+              description: "**Reward:** Trait",
               latitude: "0.49878460941149",
               longitude: "-0.60358693318599",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268674)",
+              description: "**Reward:** Trait",
               latitude: "0.48228641208426",
               longitude: "-0.61405184055022",
             },
             {
               mapSlug: "world",
               title: "Bandit Camp Castle",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268753); [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268754)",
+              description: "**Reward:** Trait",
               latitude: "0.43840229890647",
               longitude: "-0.53736447972693",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268747)",
+              description: "**Reward:** Trait",
               latitude: "0.43594617917293",
               longitude: "-0.56485803806586",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268757)",
+              description: "**Reward:** Trait",
               latitude: "0.45644728313110",
               longitude: "-0.56994313851015",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268758)",
+              description: "**Reward:** Trait",
               latitude: "0.47491833488488",
               longitude: "-0.56491333939968",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268777)",
+              description: "**Reward:** Trait",
               latitude: "0.47893959755373",
               longitude: "-0.53707735264652",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266449)",
+              description: "**Reward:** Trait",
               latitude: "0.97249191129042",
               longitude: "-0.70630611298955",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268145)",
+              description: "**Reward:** Trait",
               latitude: "0.68742422310977",
               longitude: "-0.73564063467134",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267534)",
+              description: "**Reward:** Trait",
               latitude: "0.94565240208382",
               longitude: "-0.72893341204951",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267536)",
+              description: "**Reward:** Trait",
               latitude: "0.95054408153480",
               longitude: "-0.73219497821117",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266431)",
+              description: "**Reward:** Trait",
               latitude: "0.98093496288045",
               longitude: "-0.67291932052470",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266437)",
+              description: "**Reward:** Trait",
               latitude: "0.96969277169335",
               longitude: "-0.67952828353793",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267519)",
+              description: "**Reward:** Trait",
               latitude: "0.96022902631978",
               longitude: "-0.74841123164583",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268283)",
+              description: "**Reward:** Trait",
               latitude: "0.69352467416707",
               longitude: "-0.83831014145937",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268312)",
+              description: "**Reward:** Trait",
               latitude: "0.73272619586373",
               longitude: "-0.80192548358502",
             },
             {
               mapSlug: "world",
               title: "Small Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268321)",
+              description: "**Reward:** Trait",
               latitude: "0.74397391724986",
               longitude: "-0.77967048344883",
             },
             {
               mapSlug: "world",
               title: "Medium Bandit Camp",
-              description:
-                "**Reward:** [Trait](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268324)",
+              description: "**Reward:** Trait",
               latitude: "0.74394608198439",
               longitude: "-0.75848310563615",
             },
@@ -1306,8 +1259,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Hidden Herbology Corridor",
-              description:
-                "**Associated Quest:** [Venomous Valour](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252602)",
+              description: "**Associated Quest:** [Venomous Valour",
               latitude: "0.82641647049610",
               longitude: "-0.68197207256293",
             },
@@ -1333,8 +1285,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Hidden Herbology Corridor",
-              description:
-                "**Associated Quest:** [Venomous Valour](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252602)",
+              description: "**Associated Quest:** [Venomous Valour",
               latitude: "0.91082521167493",
               longitude: "-0.82349782392488",
             },
@@ -1481,7 +1432,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "East South Sea Bog",
               description:
-                "**Location:** In the cavern leading to the Coastal Cave; access from [here](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268397).",
+                "**Location:** In the cavern leading to the Coastal Cave; access from [here.",
               latitude: "0.65053903441974",
               longitude: "-0.69257574619485",
             },
@@ -1709,7 +1660,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Jackdaw's Tomb",
               description:
-                "**Location:** In the Forbidden Forest, just outside [Jackdaw's Tomb](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253020)",
+                "**Location:** In the Forbidden Forest, just outside [Jackdaw's Tomb",
               latitude: "0.93695577002657",
               longitude: "-0.74560582637810",
             },
@@ -2490,7 +2441,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Merlin Trial",
               description:
-                "**Location:** On the beach, at the end of the crevice.  \n**Required Spell(s):** Depulso.  \n**Solution:** Guide the [Boulder](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268245) to the goal, just north of the starting platform.",
+                "**Location:** On the beach, at the end of the crevice.  \n**Required Spell(s):** Depulso.  \n**Solution:** Guide the Boulder to the goal, just north of the starting platform.",
               latitude: "0.65054454609486",
               longitude: "-0.82914310582774",
             },
@@ -3192,7 +3143,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Hogwarts Grounds",
               description:
-                "**Note:** Locations on the Hogwarts Grounds are marked on the [Hogwarts Map](https://mapgenie.io/hogwarts-legacy/maps/hogwarts)",
+                "**Note:** Locations on the Hogwarts Grounds are marked on the [Hogwarts Map",
               latitude: "0.84882876506396",
               longitude: "-0.73882295522355",
             },
@@ -3272,7 +3223,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Requires spell:** Alohomora II  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251999)",
+                "**Requires spell:** Alohomora II  \n**Reward:** [Large Chest",
               latitude: "1.00095314731670",
               longitude: "-0.69963095068101",
             },
@@ -3280,7 +3231,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252014)",
+                "**Required spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.97873524186606",
               longitude: "-0.69926456394657",
             },
@@ -3288,15 +3239,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required spell:** Confringo; Windargium Leviosa  \n**Solution:** Flip the bloc around (so the arrow points down), then place it in the alcove.  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252020)",
+                "**Required spell:** Confringo; Windargium Leviosa  \n**Solution:** Flip the bloc around (so the arrow points down), then place it in the alcove.  \n**Reward:** Chest",
               latitude: "0.99001818482120",
               longitude: "-0.71949689717096",
             },
             {
               mapSlug: "world",
               title: "Treasure Vault",
-              description:
-                "**Required spell:** Confringo  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252022); [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252023)",
+              description: "**Required spell:** Confringo  \n**Reward:** Chest",
               latitude: "0.99522197838905",
               longitude: "-0.72647107621884",
             },
@@ -3304,7 +3254,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252033)",
+                "**Required spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.98176383515096",
               longitude: "-0.74820220470440",
             },
@@ -3312,7 +3262,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required spell:** Any Fire spell  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268272)",
+                "**Required spell:** Any Fire spell  \n**Reward:** [Large Chest",
               latitude: "0.65372007586765",
               longitude: "-0.82862812169716",
             },
@@ -3320,7 +3270,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from down the path), Levioso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268285)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from down the path), Levioso  \n**Reward:** [Large Chest",
               latitude: "0.69242704469295",
               longitude: "-0.81841426976601",
             },
@@ -3328,7 +3278,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Lumos; Any Fire spell  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268241)",
+                "**Required Spell:** Lumos; Any Fire spell  \n**Reward:** [Large Chest",
               latitude: "0.65137130129786",
               longitude: "-0.79810967415560",
             },
@@ -3336,7 +3286,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268190); [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268191)",
+                "**Required Spell:** Accio  \n**Reward:** [Large Chest",
               latitude: "0.62622447276497",
               longitude: "-0.79218735664534",
             },
@@ -3344,7 +3294,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to burn the vines of the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267687)'s 1st bubble); Wingardium Leviosa (to move the cube towards the plate in front of the door); Glacius  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268182)",
+                "**Required Spell:** Any Fire spell (to burn the vines of the Ancient Magic Hotspot",
               latitude: "0.62169810207154",
               longitude: "-0.75809204534739",
             },
@@ -3352,7 +3302,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268184)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.64590030713747",
               longitude: "-0.77442971787326",
             },
@@ -3360,7 +3310,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268164)  \n**Note:** Access from the eastern door in the house just west of the marker.",
+                "**Required Spell:** None  \n**Reward:** [Large Chest  \n**Note:** Access from the eastern door in the house just west of the marker.",
               latitude: "0.64817354914099",
               longitude: "-0.75022771626931",
             },
@@ -3368,7 +3318,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso (to spin the switches); Glacius/Arresto Momentum (to keep them open); Wingardium Leviosa  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268240)",
+                "**Required Spell:** Depulso (to spin the switches); Glacius/Arresto Momentum (to keep them open); Wingardium Leviosa  \n**Reward:** [Large Chest",
               latitude: "0.66173773718178",
               longitude: "-0.75562187775884",
             },
@@ -3376,7 +3326,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268143)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.70557189399017",
               longitude: "-0.75003494825518",
             },
@@ -3384,7 +3334,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso (to open the jammed doors); Wingardium Leviosa (to lift the cube above the bars); Incendio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268141)",
+                "**Required Spell:** Depulso (to open the jammed doors); Wingardium Leviosa (to lift the cube above the bars); Incendio  \n**Reward:** [Large Chest",
               latitude: "0.71254984414033",
               longitude: "-0.72922670462449",
             },
@@ -3392,7 +3342,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from above); Levioso; Any Fire spell (to kill the Inferi inside) \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268128)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from above); Levioso; Any Fire spell (to kill the Inferi inside) \n**Reward:** [Large Chest",
               latitude: "0.72884530953888",
               longitude: "-0.73291742422157",
             },
@@ -3400,7 +3350,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio (on the switch, in the crevice just right of the door)  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268136); [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268137)",
+                "**Required Spell:** Accio (on the switch, in the crevice just right of the door)  \n**Reward:** Chest",
               latitude: "0.70970995621052",
               longitude: "-0.70561650090784",
             },
@@ -3408,7 +3358,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Windardium Leviosa (to move the nearby cube on the plate), then Levioso.  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268121)",
+                "**Required Spell:** Windardium Leviosa (to move the nearby cube on the plate), then Levioso.  \n**Reward:** [Large Chest",
               latitude: "0.76761108229678",
               longitude: "-0.74222263842151",
             },
@@ -3416,7 +3366,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268322)",
+                "**Required Spell:** Any Fire spell  \n**Reward:** [Large Chest",
               latitude: "0.76016395612662",
               longitude: "-0.76514449818495",
             },
@@ -3424,7 +3374,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio (to bring the nearby cube on the plate), then Incendio to activate it.  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268092)",
+                "**Required Spell:** Accio (to bring the nearby cube on the plate), then Incendio to activate it.  \n**Reward:** [Large Chest",
               latitude: "0.80974190035708",
               longitude: "-0.72798372692768",
             },
@@ -3432,7 +3382,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268391)",
+                "**Required Spell:** Depulso  \n**Reward:** [Large Chest",
               latitude: "0.65138480330097",
               longitude: "-0.71646874327848",
             },
@@ -3440,7 +3390,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora III  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268393)",
+                "**Required Spell:** Alohomora III  \n**Reward:** [Large Chest",
               latitude: "0.64417548625801",
               longitude: "-0.71758454222865",
             },
@@ -3448,7 +3398,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Windardium Leviosa (to bring the cube from the broken carts, at the entrance of the bog directly west); Glacius  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268396)",
+                "**Required Spell:** Windardium Leviosa (to bring the cube from the broken carts, at the entrance of the bog directly west); Glacius  \n**Reward:** [Large Chest",
               latitude: "0.65369379900403",
               longitude: "-0.69703638553509",
             },
@@ -3456,7 +3406,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268398)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.65174058646295",
               longitude: "-0.69429235996392",
             },
@@ -3464,7 +3414,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268404)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.60271820493703",
               longitude: "-0.66643936271689",
             },
@@ -3472,7 +3422,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora III (to unlock the cage in the bandit camp); Wingardium Leviosa (to bring the cube to the plate); Incendio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268407)",
+                "**Required Spell:** Alohomora III (to unlock the cage in the bandit camp); Wingardium Leviosa (to bring the cube to the plate); Incendio  \n**Reward:** [Large Chest",
               latitude: "0.58975847274557",
               longitude: "-0.66789848442053",
             },
@@ -3480,7 +3430,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Location:** Dive Spot just off the island  \n**Required Spell:** Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268477)",
+                "**Location:** Dive Spot just off the island  \n**Required Spell:** Accio  \n**Reward:** [Large Chest",
               latitude: "0.54572573967755",
               longitude: "-0.64137704712374",
             },
@@ -3488,7 +3438,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268481)",
+                "**Required Spell:** Alohomora II  \n**Reward:** [Large Chest",
               latitude: "0.54546825928618",
               longitude: "-0.63545472961891",
             },
@@ -3496,7 +3446,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Disillusionment  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268505)",
+                "**Required Spell:** Disillusionment  \n**Reward:** [Large Chest",
               latitude: "0.54143439838957",
               longitude: "-0.62129266601983",
             },
@@ -3504,7 +3454,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II; Any Fire spell (to kill the Inferi guarding the chest)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268410)",
+                "**Required Spell:** Alohomora II; Any Fire spell (to kill the Inferi guarding the chest)  \n**Reward:** [Large Chest",
               latitude: "0.58620725423060",
               longitude: "-0.65788312896026",
             },
@@ -3512,7 +3462,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from down the eastern path, in a grave); Glacius; Depulso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268411)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from down the eastern path, in a grave); Glacius; Depulso  \n**Reward:** [Large Chest",
               latitude: "0.58955447488104",
               longitude: "-0.64698263152343",
             },
@@ -3520,7 +3470,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora III  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268412)",
+                "**Required Spell:** Alohomora III  \n**Reward:** [Large Chest",
               latitude: "0.59599143200337",
               longitude: "-0.64303441985405",
             },
@@ -3528,7 +3478,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso; Transfiguration  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268420)",
+                "**Required Spell:** Depulso; Transfiguration  \n**Reward:** [Large Chest",
               latitude: "0.63307970457137",
               longitude: "-0.61164949082641",
             },
@@ -3536,7 +3486,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268424)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.60908197097207",
               longitude: "-0.59969664126757",
             },
@@ -3544,7 +3494,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Location:** Dive Spot  \n**Required Spell:** Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268467)",
+                "**Location:** Dive Spot  \n**Required Spell:** Accio  \n**Reward:** [Large Chest",
               latitude: "0.57784127666126",
               longitude: "-0.59162855655072",
             },
@@ -3552,7 +3502,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268526)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.56428070148887",
               longitude: "-0.60132742434695",
             },
@@ -3560,7 +3510,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora III (to open the cage in the bandit camp); Wingardium Leviosa (to bring the cube from the cage to the plate); Glacius; Transformation  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268518)",
+                "**Required Spell:** Alohomora III (to open the cage in the bandit camp); Wingardium Leviosa (to bring the cube from the cage to the plate); Glacius; Transformation  \n**Reward:** [Large Chest",
               latitude: "0.55655630904208",
               longitude: "-0.59755087403943",
             },
@@ -3568,7 +3518,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio (pull the switches seen by Revelio)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268433)",
+                "**Required Spell:** Accio (pull the switches seen by Revelio)  \n**Reward:** [Large Chest",
               latitude: "0.56924096157772",
               longitude: "-0.56437507356060",
             },
@@ -3576,7 +3526,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268442)",
+                "**Required Spell:** Depulso  \n**Reward:** [Large Chest",
               latitude: "0.57070001108509",
               longitude: "-0.55029884065056",
             },
@@ -3584,7 +3534,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from atop the entrance); Levioso; Incendio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268606)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from atop the entrance); Levioso; Incendio  \n**Reward:** [Large Chest",
               latitude: "0.51802123340194",
               longitude: "-0.59654869001744",
             },
@@ -3592,7 +3542,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from the rocky shore, left of the plate); Incendio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268607)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from the rocky shore, left of the plate); Incendio  \n**Reward:** [Large Chest",
               latitude: "0.51633462503584",
               longitude: "-0.57550590522209",
             },
@@ -3600,7 +3550,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268384)",
+                "**Required Spell:** Depulso  \n**Reward:** [Large Chest",
               latitude: "0.67908543183182",
               longitude: "-0.69450442452282",
             },
@@ -3608,7 +3558,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to burn away the vine-covered ladder nearby); Wingardium Leviosa (to bring the cube from outside the ruins, just east); Levioso; Glacius  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268374)",
+                "**Required Spell:** Any Fire spell (to burn away the vine-covered ladder nearby); Wingardium Leviosa (to bring the cube from outside the ruins, just east); Levioso; Glacius  \n**Reward:** [Large Chest",
               latitude: "0.75583139243554",
               longitude: "-0.68739237652716",
             },
@@ -3616,7 +3566,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Windardium Leviosa (to bring the cube just southwest); Glacius  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268332)",
+                "**Required Spell:** Windardium Leviosa (to bring the cube just southwest); Glacius  \n**Reward:** Chest",
               latitude: "0.77836896262902",
               longitude: "-0.65794948890994",
             },
@@ -3624,7 +3574,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio (to pull the switch, on the eastern path); Wingardium Leviosa (to guide the skeletons on the central plate)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268340)",
+                "**Required Spell:** Accio (to pull the switch, on the eastern path); Wingardium Leviosa (to guide the skeletons on the central plate)  \n**Reward:** [Large Chest",
               latitude: "0.77159982106262",
               longitude: "-0.64335827186635",
             },
@@ -3632,7 +3582,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268329)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.78802929794595",
               longitude: "-0.68177954114643",
             },
@@ -3640,7 +3590,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio (to pull the switch on a high ledge, opposite the door).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268089)",
+                "**Required Spell:** Accio (to pull the switch on a high ledge, opposite the door).  \n**Reward:** [Large Chest",
               latitude: "0.81293037759325",
               longitude: "-0.70046973783462",
             },
@@ -3648,7 +3598,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from the crossroads to the north on the plate); Incendio; Glacius (to extinguish the flame in the left brazier).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267609)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from the crossroads to the north on the plate); Incendio; Glacius (to extinguish the flame in the left brazier).  \n**Reward:** [Large Chest",
               latitude: "0.81284836042894",
               longitude: "-0.68043351173389",
             },
@@ -3656,7 +3606,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II; Any Fire spell (to kill the Inferi guarding the chest).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267608)",
+                "**Required Spell:** Alohomora II; Any Fire spell (to kill the Inferi guarding the chest).  \n**Reward:** [Large Chest",
               latitude: "0.81816932408810",
               longitude: "-0.67494034767137",
             },
@@ -3664,7 +3614,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to grab the cube near the door and bring it to the plate at the bottom of the stairs), then Levioso.  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267604)",
+                "**Required Spell:** Wingardium Leviosa (to grab the cube near the door and bring it to the plate at the bottom of the stairs), then Levioso.  \n**Reward:** [Large Chest",
               latitude: "0.83577253338466",
               longitude: "-0.69127047219106",
             },
@@ -3672,7 +3622,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Windardium Leviosa (to bring the [Cube](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267583) on the plate), then Levioso on the cube.  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267584)",
+                "**Required Spell:** Windardium Leviosa (to bring the Cube",
               latitude: "0.86706975314507",
               longitude: "-0.69461786904307",
             },
@@ -3680,7 +3630,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267554)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.91827622895890",
               longitude: "-0.79392331018556",
             },
@@ -3688,7 +3638,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to kill the Inferi guarding the entrance); Lumos (to get past the vines on the floor)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267546)",
+                "**Required Spell:** Any Fire spell (to kill the Inferi guarding the entrance); Lumos (to get past the vines on the floor)  \n**Reward:** [Large Chest",
               latitude: "0.92214147623397",
               longitude: "-0.77178333895785",
             },
@@ -3696,7 +3646,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267549)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.92445832503940",
               longitude: "-0.76895177364182",
             },
@@ -3704,7 +3654,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267579)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.89724734940901",
               longitude: "-0.66341882651159",
             },
@@ -3712,7 +3662,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267570)",
+                "**Required Spell:** Alohomora II  \n**Reward:** [Large Chest",
               latitude: "0.92672882213230",
               longitude: "-0.64824257607182",
             },
@@ -3720,7 +3670,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to defeat the Inferi); Alohomora III  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267530)",
+                "**Required Spell:** Any Fire spell (to defeat the Inferi); Alohomora III  \n**Reward:** [Large Chest",
               latitude: "0.94907238341528",
               longitude: "-0.69559431651325",
             },
@@ -3728,7 +3678,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora I  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266453)",
+                "**Required Spell:** Alohomora I  \n**Reward:** [Large Chest",
               latitude: "0.95662443954545",
               longitude: "-0.69653845408683",
             },
@@ -3736,7 +3686,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268666)",
+                "**Required Spell:** Accio  \n**Reward:** [Large Chest",
               latitude: "0.50874058443129",
               longitude: "-0.62770535664217",
             },
@@ -3744,7 +3694,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso; Wingardium Leviosa (place the cube with the arrow pointing down).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268610)",
+                "**Required Spell:** Depulso; Wingardium Leviosa (place the cube with the arrow pointing down).  \n**Reward:** [Large Chest",
               latitude: "0.48769355173744",
               longitude: "-0.60838701511031",
             },
@@ -3752,7 +3702,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to burn away the spider webs)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268673)",
+                "**Required Spell:** Any Fire spell (to burn away the spider webs)  \n**Reward:** [Large Chest",
               latitude: "0.45572049314593",
               longitude: "-0.61817171358578",
             },
@@ -3760,7 +3710,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268746)  \n**Note:** Entrance to the Treasure Vault is through a diving spot, under the stone bridge just north.",
+                "**Required Spell:** Depulso  \n**Reward:** [Large Chest  \n**Note:** Entrance to the Treasure Vault is through a diving spot, under the stone bridge just north.",
               latitude: "0.43556136818609",
               longitude: "-0.60144171396379",
             },
@@ -3768,7 +3718,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II; Any Fire spell (to kill the Inferi guarding the door)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268750)",
+                "**Required Spell:** Alohomora II; Any Fire spell (to kill the Inferi guarding the door)  \n**Reward:** [Large Chest",
               latitude: "0.43067775911014",
               longitude: "-0.50869702977562",
             },
@@ -3776,15 +3726,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from the nearby poacher tent); Levioso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268753)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from the nearby poacher tent); Levioso  \n**Reward:** [Large Chest",
               latitude: "0.43084941563603",
               longitude: "-0.52723645848630",
             },
             {
               mapSlug: "world",
               title: "Treasure Vault",
-              description:
-                "**Required Spell:** None  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268676)",
+              description: "**Required Spell:** None  \n**Reward:** Chest",
               latitude: "0.42993860576955",
               longitude: "-0.55421583923672",
             },
@@ -3792,7 +3741,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Lumos  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268677)",
+                "**Required Spell:** Lumos  \n**Reward:** [Large Chest",
               latitude: "0.43680446116474",
               longitude: "-0.56314142429611",
             },
@@ -3800,7 +3749,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube floating in the small puddle further down the path); Levioso; Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268762)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube floating in the small puddle further down the path); Levioso; Accio  \n**Reward:** [Large Chest",
               latitude: "0.46411453506920",
               longitude: "-0.55682823459873",
             },
@@ -3808,7 +3757,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from the nearby skeleton); Glacius; Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252357)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from the nearby skeleton); Glacius; Accio  \n**Reward:** [Large Chest",
               latitude: "0.47397422968048",
               longitude: "-0.56989151933092",
             },
@@ -3816,7 +3765,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268759)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.48144124002988",
               longitude: "-0.56680161454605",
             },
@@ -3824,7 +3773,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268760)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.47792230512947",
               longitude: "-0.56568581559588",
             },
@@ -3832,7 +3781,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268766)",
+                "**Required Spell:** Accio  \n**Reward:** [Large Chest",
               latitude: "0.47766482201675",
               longitude: "-0.54654557206555",
             },
@@ -3840,7 +3789,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to ignite the floating braziers).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268765)",
+                "**Required Spell:** Any Fire spell (to ignite the floating braziers).  \n**Reward:** [Large Chest",
               latitude: "0.47517581809944",
               longitude: "-0.54706055619613",
             },
@@ -3903,7 +3852,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso; Incendio; Wingardium Leviosa (to guide the cube above the bars and on the plate).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268776)",
+                "**Required Spell:** Depulso; Incendio; Wingardium Leviosa (to guide the cube above the bars and on the plate).  \n**Reward:** [Large Chest",
               latitude: "0.48953000128334",
               longitude: "-0.55012402336615",
             },
@@ -3911,7 +3860,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora III  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268775)",
+                "**Required Spell:** Alohomora III  \n**Reward:** [Large Chest",
               latitude: "0.48995913904824",
               longitude: "-0.55853543083700",
             },
@@ -3919,7 +3868,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268771)",
+                "**Required Spell:** Any Fire spell  \n**Reward:** [Large Chest",
               latitude: "0.50239276829423",
               longitude: "-0.57007133960698",
             },
@@ -3927,7 +3876,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268774)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.50203091186660",
               longitude: "-0.56484273473012",
             },
@@ -3935,7 +3884,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from the rowboat further east on the beach); Levioso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268608)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from the rowboat further east on the beach); Levioso  \n**Reward:** [Large Chest",
               latitude: "0.50091679403353",
               longitude: "-0.58852560574326",
             },
@@ -3943,7 +3892,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Accio (on the switch east of the entrance); Wingardium Leviosa or Accio (to move the block in the room and move the floor to access the chest)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268113)",
+                "**Required Spell:** Accio (on the switch east of the entrance); Wingardium Leviosa or Accio (to move the block in the room and move the floor to access the chest)  \n**Reward:** [Large Chest",
               latitude: "0.78117495750675",
               longitude: "-0.72264952874187",
               media: [
@@ -3957,7 +3906,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268376)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.73133570066304",
               longitude: "-0.69932100667657",
             },
@@ -3965,7 +3914,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267539)",
+                "**Required Spell:** Any Fire spell  \n**Reward:** [Large Chest",
               latitude: "0.93441009517114",
               longitude: "-0.72815028425451",
             },
@@ -3973,7 +3922,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Depulso (to open the door); any Fire Spell (to light the 3 unlit braziers).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267527)",
+                "**Required Spell:** Depulso (to open the door); any Fire Spell (to light the 3 unlit braziers).  \n**Reward:** [Large Chest",
               latitude: "0.96277529350453",
               longitude: "-0.75887751820125",
             },
@@ -3981,7 +3930,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Windargium Leviosa (to bring the cube from up the path), then Incendio.  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268120)",
+                "**Required Spell:** Windargium Leviosa (to bring the cube from up the path), then Incendio.  \n**Reward:** Chest",
               latitude: "0.77634895178184",
               longitude: "-0.77140019266648",
             },
@@ -3989,7 +3938,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Nothing  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266442)",
+                "**Required Spell:** Nothing  \n**Reward:** [Large Chest",
               latitude: "0.96986440848116",
               longitude: "-0.67600922531043",
             },
@@ -3997,7 +3946,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to bring the cube from the southern ledge), then Incendio the box.  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266444)",
+                "**Required Spell:** Wingardium Leviosa (to bring the cube from the southern ledge), then Incendio the box.  \n**Reward:** [Large Chest",
               latitude: "0.97358329478068",
               longitude: "-0.68069931876689",
             },
@@ -4005,7 +3954,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Windardium Levioso (to bring the nearby cube on the plate), then Levioso on the cube to reveal a staircase in the middle of the ruins.  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267517)",
+                "**Required Spell:** Windardium Levioso (to bring the nearby cube on the plate), then Levioso on the cube to reveal a staircase in the middle of the ruins.  \n**Reward:** [Large Chest",
               latitude: "0.96978048632533",
               longitude: "-0.74455920474603",
             },
@@ -4013,7 +3962,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267542)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.92637236672961",
               longitude: "-0.75552647433871",
             },
@@ -4021,7 +3970,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire Spell  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267551)",
+                "**Required Spell:** Any Fire Spell  \n**Reward:** [Large Chest",
               latitude: "0.91522856497706",
               longitude: "-0.76902948110850",
             },
@@ -4029,7 +3978,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267565)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.90111050175605",
               longitude: "-0.74977426522179",
             },
@@ -4037,7 +3986,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267595)",
+                "**Required Spell:** Alohomora II  \n**Reward:** Chest",
               latitude: "0.84758943149598",
               longitude: "-0.68510798939218",
             },
@@ -4045,7 +3994,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268305)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.72601394845697",
               longitude: "-0.81414623077006",
             },
@@ -4053,7 +4002,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora II  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268284)",
+                "**Required Spell:** Alohomora II  \n**Reward:** [Large Chest",
               latitude: "0.69441517033550",
               longitude: "-0.83048233586200",
             },
@@ -4061,7 +4010,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Trial",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268109)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.79815445548723",
               longitude: "-0.77024995881300",
             },
@@ -4069,7 +4018,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell (to burn awat the vines covering the cube, just above the entrance); Wingardium Leviosa (to bring the cube); Levioso; Accio (to pull the switches; use Revelio to see which).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268150)",
+                "**Required Spell:** Any Fire spell (to burn awat the vines covering the cube, just above the entrance); Wingardium Leviosa (to bring the cube); Levioso; Accio (to pull the switches; use Revelio to see which).  \n**Reward:** [Large Chest",
               latitude: "0.68795349048514",
               longitude: "-0.72851773620533",
             },
@@ -4077,7 +4026,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to move the cube on the right side of the room).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268186)",
+                "**Required Spell:** Wingardium Leviosa (to move the cube on the right side of the room).  \n**Reward:** [Large Chest",
               latitude: "0.64540344772975",
               longitude: "-0.78098245148828",
             },
@@ -4085,7 +4034,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingdarim Levosa, Incendio  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268264)",
+                "**Required Spell:** Wingdarim Levosa, Incendio  \n**Reward:** [Large Chest",
               latitude: "0.66727180229562",
               longitude: "-0.80050468872085",
             },
@@ -4093,7 +4042,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vaut",
               description:
-                "**Required Spell:** Accio; Wingardium Leviosa  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268267)",
+                "**Required Spell:** Accio; Wingardium Leviosa  \n**Reward:** [Large Chest",
               latitude: "0.67350112317270",
               longitude: "-0.84801867789218",
             },
@@ -4101,7 +4050,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Any Fire spell  \n**Reward:** [Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268275)",
+                "**Required Spell:** Any Fire spell  \n**Reward:** Chest",
               latitude: "0.68847591691248",
               longitude: "-0.84337537327204",
             },
@@ -4109,7 +4058,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to grab the cube from the western cliffside); Levioso  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268303)",
+                "**Required Spell:** Wingardium Leviosa (to grab the cube from the western cliffside); Levioso  \n**Reward:** [Large Chest",
               latitude: "0.72011310452180",
               longitude: "-0.82123353651207",
             },
@@ -4117,7 +4066,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Wingardium Leviosa (to grab the cube from the higher platform to the south); Glacius; Accio (to pull the correct switches, seen by Revelio).  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268314)",
+                "**Required Spell:** Wingardium Leviosa (to grab the cube from the higher platform to the south); Glacius; Accio (to pull the correct switches, seen by Revelio).  \n**Reward:** [Large Chest",
               latitude: "0.73596620100493",
               longitude: "-0.80001605403893",
             },
@@ -4125,7 +4074,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Reparo (to repair the stone archway in the northern ruins and access the vault)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268317)",
+                "**Required Spell:** Reparo (to repair the stone archway in the northern ruins and access the vault)  \n**Reward:** [Large Chest",
               latitude: "0.73114297894270",
               longitude: "-0.78170966914576",
             },
@@ -4133,7 +4082,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268387)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.66051998133007",
               longitude: "-0.70960898840690",
             },
@@ -4141,7 +4090,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Alohomora I  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268416)",
+                "**Required Spell:** Alohomora I  \n**Reward:** [Large Chest",
               latitude: "0.60739252232648",
               longitude: "-0.63433099338879",
             },
@@ -4149,7 +4098,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** None  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268460)",
+                "**Required Spell:** None  \n**Reward:** [Large Chest",
               latitude: "0.55705063098401",
               longitude: "-0.54288537742497",
             },
@@ -4157,7 +4106,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268484)",
+                "**Required Spell:** Confringo  \n**Reward:** [Large Chest",
               latitude: "0.54716763123564",
               longitude: "-0.63002845001366",
             },
@@ -4165,7 +4114,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure Vault",
               description:
-                "**Required Spell:** Confringo (to shoot the floating boulders)  \n**Reward:** [Large Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268773)",
+                "**Required Spell:** Confringo (to shoot the floating boulders)  \n**Reward:** [Large Chest",
               latitude: "0.50716338956059",
               longitude: "-0.55324753422326",
             },
@@ -4787,7 +4736,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Treasure-Seeker's Bicorne Hat",
               description:
-                "**Location:** Use Levioso on the tree to reveal the chest. Part of [Well, Well, Well](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252259).",
+                "**Location:** Use Levioso on the tree to reveal the chest. Part of [Well, Well, Well.",
               latitude: "0.63181718958839",
               longitude: "-0.76018182358623",
             },
@@ -4837,8 +4786,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251991).",
+              description: "**Location:** Follow the Butterflies.",
               latitude: "1.01735838536660",
               longitude: "-0.71964827527793",
             },
@@ -4846,7 +4794,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Conjuration",
               description:
-                "**Location:** In a small patch of flowers in the woods.  Use the nearby [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252399) to guide you to it.",
+                "**Location:** In a small patch of flowers in the woods.  Use the nearby Butterflies to guide you to it.",
               latitude: "0.71076843240945",
               longitude: "-0.73776270900530",
               media: [
@@ -4859,8 +4807,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252403)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.77673094240393",
               longitude: "-0.68713533592185",
               media: [
@@ -4903,24 +4850,21 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253136)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.94787199369112",
               longitude: "-0.72318201811488",
             },
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267544)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.91922268070800",
               longitude: "-0.77305977846635",
             },
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267577)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.89556012641512",
               longitude: "-0.66895944131498",
             },
@@ -4943,8 +4887,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252414)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.82909369534938",
               longitude: "-0.68605726218121",
             },
@@ -4959,8 +4902,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253131)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.82977413837512",
               longitude: "-0.77256433870003",
             },
@@ -4995,8 +4937,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252961)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.63290169878854",
               longitude: "-0.79429127227053",
             },
@@ -5019,8 +4960,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268040)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.71734333538890",
               longitude: "-0.82249999699772",
             },
@@ -5034,24 +4974,21 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267700)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.69978205269357",
               longitude: "-0.68464395894707",
             },
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268401)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.62808659137153",
               longitude: "-0.66500366230702",
             },
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267688)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.55708167115242",
               longitude: "-0.64617482308287",
             },
@@ -5105,8 +5042,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Conjuration",
-              description:
-                "**Location:** Follow the [Butterflies](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267705)",
+              description: "**Location:** Follow the Butterflies",
               latitude: "0.46637230796777",
               longitude: "-0.56072338147646",
             },
@@ -5121,24 +5057,21 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252526) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.58283933115102",
               longitude: "-0.68062126636434",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252525) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.81542838501562",
               longitude: "-0.66803634166709",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252581) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.81184307691521",
               longitude: "-0.69545638446240",
             },
@@ -5146,7 +5079,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** From [Towards the Bell Tower](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252649), climb the wooden staircase all the way up. The chest is on the balcony, against a wall.",
+                "**Location:** From Towards the Bell Tower, climb the wooden staircase all the way up. The chest is on the balcony, against a wall.",
               latitude: "0.79817812707500",
               longitude: "-0.72440028190621",
             },
@@ -5154,15 +5087,14 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** From [Towards the Bell Tower](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252649), climb the wooden staircase all the way up. Then, interact with the Frog Statue to teleport to a nearby tower; the chest is against a wall.",
+                "**Location:** From Towards the Bell Tower, climb the wooden staircase all the way up. Then, interact with the Frog Statue to teleport to a nearby tower; the chest is against a wall.",
               latitude: "0.79823176604866",
               longitude: "-0.72321474552123",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252658) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.78727599100908",
               longitude: "-0.73272049427050",
             },
@@ -5170,7 +5102,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** On the floor, in the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252702) room.",
+                "**Location:** On the floor, in the Arithmancy Door room.",
               latitude: "0.72769520310567",
               longitude: "-0.74749259834408",
             },
@@ -5178,7 +5110,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** Under the bridge; solve the [Bridge Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252731) to access.",
+                "**Location:** Under the bridge; solve the Bridge Puzzle to access.",
               latitude: "0.74495813953224",
               longitude: "-0.69001805592305",
             },
@@ -5186,23 +5118,21 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** In the hallway beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252775)",
+                "**Location:** In the hallway beyond the Arithmancy Door",
               latitude: "0.77867916752201",
               longitude: "-0.66430201607494",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252778)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.77788593893499",
               longitude: "-0.66464908560141",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252781)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.77704313339706",
               longitude: "-0.66707857228374",
             },
@@ -5210,15 +5140,14 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** On a table, behind the [Unicorn Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252799).",
+                "**Location:** On a table, behind the [Unicorn Door.",
               latitude: "0.66340961424358",
               longitude: "-0.83198563420689",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** Beyond the [Twin Dragon Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252809)",
+              description: "**Location:** Beyond the Twin Dragon Door",
               latitude: "0.64668778176035",
               longitude: "-0.79907111784070",
             },
@@ -5226,31 +5155,28 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Conjuration",
               description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252838), on a branching walkway under a window.",
+                "**Location:** Beyond the Arithmancy Door, on a branching walkway under a window.",
               latitude: "0.60058211878042",
               longitude: "-0.67107793910728",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252866)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.57448130460718",
               longitude: "-0.66580732414971",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253233)",
+              description: "**Location:** In the Arithmancy Door",
               latitude: "0.54373861243275",
               longitude: "-0.66384762087647",
             },
             {
               mapSlug: "hogwarts",
               title: "Conjuration",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253282)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.68466798869430",
               longitude: "-0.59204735431305",
             },
@@ -5767,7 +5693,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Broken Binoculars",
               description:
-                "**How to acquire:** Revelio  \n**Location:** On the tower, near the 2nd bubble of the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268042)",
+                "**How to acquire:** Revelio  \n**Location:** On the tower, near the 2nd bubble of the Ancient Magic Hotspot",
               latitude: "0.69560254719580",
               longitude: "-0.82347828038633",
             },
@@ -6001,7 +5927,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Statue",
               description:
-                "**Location:** After going through the first [Toad Statue](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252499).  \n**How to Acquire:** Levioso",
+                "**Location:** After going through the first Toad Statue.  \n**How to Acquire:** Levioso",
               latitude: "0.82374238228989",
               longitude: "-0.76285243034383",
             },
@@ -6097,7 +6023,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Gorgon Portrait",
               description:
-                "**Location:** In front of the empty portrait, past the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252525)  \n**How to Acquire:** Revelio",
+                "**Location:** In front of the empty portrait, past the Arithmancy Door  \n**How to Acquire:** Revelio",
               latitude: "0.81650652370256",
               longitude: "-0.66879272460906",
             },
@@ -6105,7 +6031,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Halfway through the Long Gallery  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252535) back.",
+                "**Location:** Halfway through the Long Gallery  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.81705900261753",
               longitude: "-0.66056907177159",
             },
@@ -6153,7 +6079,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** In the alcove, on the 2nd floor.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252567) back.",
+                "**Location:** In the alcove, on the 2nd floor.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.83413753638864",
               longitude: "-0.70884883403565",
             },
@@ -6279,7 +6205,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** On the first landing, against the eastern wall.  \n**How to Acquire:** Lumos to reveal the painting, the bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252636) back.",
+                "**Location:** On the first landing, against the eastern wall.  \n**How to Acquire:** Lumos to reveal the painting, the bring the [Moth back.",
               latitude: "0.81270085377678",
               longitude: "-0.72050034999970",
             },
@@ -6311,7 +6237,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Just beyond the door to the Pungent Passage  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252672) back.",
+                "**Location:** Just beyond the door to the Pungent Passage  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.78700511346294",
               longitude: "-0.70220768451807",
             },
@@ -6335,7 +6261,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Against the wall, in the middle of the landing.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252685) back.",
+                "**Location:** Against the wall, in the middle of the landing.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.73911581091724",
               longitude: "-0.70811223052928",
             },
@@ -6389,7 +6315,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Next to the fireplace.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252724) back.",
+                "**Location:** Next to the fireplace.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.74542073151521",
               longitude: "-0.85256077816038",
             },
@@ -6421,7 +6347,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Palmistry Model",
               description:
-                "**Location:** Inside the [Divination classroom](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252770), in front of the inner circle of tables.  \n**How to Acquire:** Revelio",
+                "**Location:** Inside the Divination classroom, in front of the inner circle of tables.  \n**How to Acquire:** Revelio",
               latitude: "0.77967070304577",
               longitude: "-0.65349327940112",
             },
@@ -6445,7 +6371,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Inside the locked room.  \n**How to Acquire:** Lumos to reveal the painting, the bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252792) back.",
+                "**Location:** Inside the locked room.  \n**How to Acquire:** Lumos to reveal the painting, the bring the [Moth back.",
               latitude: "0.66215533100963",
               longitude: "-0.83827735959935",
             },
@@ -6573,7 +6499,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** At the bottom of the spiral staircase, near the door toward the Viaduct Entrance.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252874) back.",
+                "**Location:** At the bottom of the spiral staircase, near the door toward the Viaduct Entrance.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.58319353475238",
               longitude: "-0.68213138589113",
             },
@@ -6635,7 +6561,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Behind the 1st floor locked door, in the corner of the room.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252951) back.",
+                "**Location:** Behind the 1st floor locked door, in the corner of the room.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.90730675168335",
               longitude: "-0.85674750457243",
             },
@@ -6723,7 +6649,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Against the wall, above the benches.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253070)  \n**Note:** Part of the [Like a Moth to a Frame](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253124) quest.",
+                "**Location:** Against the wall, above the benches.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth quest.",
               latitude: "0.81696018320238",
               longitude: "-0.68887957711115",
             },
@@ -6739,7 +6665,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Ravenclaw Doorknocker",
               description:
-                "**Location:** In front of the [Ravenclaw Common Room Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252876).\n**How to Acquire:** Revelio",
+                "**Location:** In front of the [Ravenclaw Common Room Door.\n**How to Acquire:** Revelio",
               latitude: "0.58063232577101",
               longitude: "-0.75772720114875",
             },
@@ -6875,7 +6801,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Against the wall, just before the Great Hall.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253273) back.",
+                "**Location:** Against the wall, just before the Great Hall.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.68098313893681",
               longitude: "-0.59581520368349",
             },
@@ -6923,7 +6849,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** On the wall near the bottom of the stairs.  \n**How to Acquire:** Lumos to reveal the painting, the bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253297) back.",
+                "**Location:** On the wall near the bottom of the stairs.  \n**How to Acquire:** Lumos to reveal the painting, the bring the [Moth back.",
               latitude: "0.69951889020236",
               longitude: "-0.60068192961194",
               media: [
@@ -7041,7 +6967,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** On the wall, beyond the [Hidden Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253329)  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253333) back.",
+                "**Location:** On the wall, beyond the [Hidden Door back.",
               latitude: "0.67486752831128",
               longitude: "-0.62100818563101",
             },
@@ -7057,7 +6983,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** On the wall, beside the bathrooms.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253346) back.",
+                "**Location:** On the wall, beside the bathrooms.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.65075880613754",
               longitude: "-0.59698454998461",
             },
@@ -7135,7 +7061,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Lumos Painting",
               description:
-                "**Location:** Just right of the Headmaster Gargoyle.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253373) back.",
+                "**Location:** Just right of the Headmaster Gargoyle.  \n**How to Acquire:** Lumos to reveal the painting, then bring the [Moth back.",
               latitude: "0.49828317781306",
               longitude: "-0.60711182135020",
             },
@@ -7183,7 +7109,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Brazier",
               description:
-                "**Location:** In the room beyond the [Hidden Staircase](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253380)  \n**How to Acquire:** Any Fire spell.",
+                "**Location:** In the room beyond the [Hidden Staircase  \n**How to Acquire:** Any Fire spell.",
               latitude: "0.61610763028335",
               longitude: "-0.68393647670663",
             },
@@ -7255,7 +7181,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Field Guide Page",
               description:
-                "**Location:** Flying high above the [Wooden Cat](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252523) Field Guide Page  \n**How to Acquire:** Accio",
+                "**Location:** Flying high above the [Wooden Cat Field Guide Page  \n**How to Acquire:** Accio",
               latitude: "0.82288262104139",
               longitude: "-0.66974389509150",
             },
@@ -7271,7 +7197,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Field Guide Page",
               description:
-                "**How to acquire:** Accio  \n**Location:** Flying around Scrolls & Tomes' 2nd level. Press the [Switch](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251519) to access.",
+                "**How to acquire:** Accio  \n**Location:** Flying around Scrolls & Tomes' 2nd level. Press the [Switch to access.",
               latitude: "0.59854317903931",
               longitude: "-0.76251696604487",
             },
@@ -7295,7 +7221,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Lumos Portrait",
               description:
-                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251530) back.  \n**Location:** Beside the Eye Chest, against the wall.",
+                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth back.  \n**Location:** Beside the Eye Chest, against the wall.",
               latitude: "0.62288249422510",
               longitude: "-0.77860772609583",
               media: [
@@ -7477,7 +7403,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Lumos Portrait",
               description:
-                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251608) back.  \n**Location:** Against the wall behind Bingle & Blatch..",
+                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth back.  \n**Location:** Against the wall behind Bingle & Blatch..",
               latitude: "0.62452361232238",
               longitude: "-0.70459616336069",
             },
@@ -7509,7 +7435,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Lumos Portrait",
               description:
-                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251627) back.  \n**Location:** Inside the watermill.",
+                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth back.  \n**Location:** Inside the watermill.",
               latitude: "0.74014572043369",
               longitude: "-0.63949227333271",
             },
@@ -7533,7 +7459,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Lumos Portrait",
               description:
-                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251637) back.  \n**Location:** Against the eastern wall of Dogweed & Deathcap",
+                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth back.  \n**Location:** Against the eastern wall of Dogweed & Deathcap",
               latitude: "0.78231168784664",
               longitude: "-0.68864643573656",
             },
@@ -7549,7 +7475,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Lumos Portrait",
               description:
-                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251641) back.  \n**Location:** Against the wall inside the Old Fool's House.",
+                "**How to acquire:** Lumos to reveal the portrait, then bring the [Moth back.  \n**Location:** Against the wall inside the Old Fool's House.",
               latitude: "0.76299081111387",
               longitude: "-0.74751019477935",
             },
@@ -7988,7 +7914,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On top of the troll statue  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252534)",
+                "**Location:** On top of the troll statue  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.82117845465075",
               longitude: "-0.66640555858817",
             },
@@ -7996,7 +7922,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On the lectern, facing the library.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252566)",
+                "**Location:** On the lectern, facing the library.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.83971057211599",
               longitude: "-0.71408450603221",
             },
@@ -8004,7 +7930,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On the potted plant.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252635)",
+                "**Location:** On the potted plant.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.80988213469995",
               longitude: "-0.70979833602883",
             },
@@ -8012,7 +7938,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** In front of the centaur mural.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252671)",
+                "**Location:** In front of the centaur mural.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.78640435527642",
               longitude: "-0.70998609066049",
             },
@@ -8020,7 +7946,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On the middle wooden pillar.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252686)",
+                "**Location:** On the middle wooden pillar.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.74561276133994",
               longitude: "-0.72760471794749",
             },
@@ -8028,7 +7954,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On top of the blackboard.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252723)",
+                "**Location:** On top of the blackboard.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.76813968078335",
               longitude: "-0.82382379769484",
             },
@@ -8036,7 +7962,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On a pillar, at the end of the covered portion of the courtyard.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252791)",
+                "**Location:** On a pillar, at the end of the covered portion of the courtyard.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.66228406844294",
               longitude: "-0.83947898923813",
             },
@@ -8044,7 +7970,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On the wall, underneath the paintings.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252873)",
+                "**Location:** On the wall, underneath the paintings.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.58061874689645",
               longitude: "-0.68303260812115",
             },
@@ -8052,7 +7978,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** Outside the tower, against the wall.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252958)",
+                "**Location:** Outside the tower, against the wall.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.90692056199066",
               longitude: "-0.84769236693816",
             },
@@ -8060,7 +7986,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On the wall next to the Statue of Gregory the Smarmy.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253207)  \n**Note:** Part of [Like a Moth to a Frame](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253124)",
+                "**Location:** On the wall next to the Statue of Gregory the Smarmy.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.81206832831327",
               longitude: "-0.69218405862009",
             },
@@ -8068,7 +7994,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On the golden chair behind the lecturn.  \n**Corresponding portrait:**  [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253272)",
+                "**Location:** On the golden chair behind the lecturn.  \n**Corresponding portrait:**  [Lumos Painting",
               latitude: "0.67182137806890",
               longitude: "-0.59260098047832",
             },
@@ -8076,7 +8002,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** Behind the kelpie statue.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253296)",
+                "**Location:** Behind the kelpie statue.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.69039436897641",
               longitude: "-0.59862687617712",
             },
@@ -8084,7 +8010,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** Inside the bathroom, on top of a towel rack.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253332)",
+                "**Location:** Inside the bathroom, on top of a towel rack.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.67811609552398",
               longitude: "-0.61939240593463",
             },
@@ -8092,7 +8018,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** On a pillar, between the two torches.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253345)",
+                "**Location:** On a pillar, between the two torches.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.64563699716228",
               longitude: "-0.59130181872703",
             },
@@ -8100,7 +8026,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Moth",
               description:
-                "**Location:** High in the wooden frame.  \n**Corresponding portrait:** [Lumos Painting](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253372)",
+                "**Location:** High in the wooden frame.  \n**Corresponding portrait:** [Lumos Painting",
               latitude: "0.54251576295235",
               longitude: "-0.58555041899294",
             },
@@ -8108,7 +8034,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Moth",
               description:
-                "**Location:** On a barrel, behind the Hog's Head  \n**Corresponding portrait:** [Lumos Portrait](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251529)",
+                "**Location:** On a barrel, behind the Hog's Head  \n**Corresponding portrait:** [Lumos Portrait",
               latitude: "0.64270817395349",
               longitude: "-0.79311311244794",
             },
@@ -8116,7 +8042,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Moth",
               description:
-                "**Location:** On top of two wooden crates, beside the stone fence.  \n**Corresponding portrait:** [Lumos Portrait](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251607)",
+                "**Location:** On top of two wooden crates, beside the stone fence.  \n**Corresponding portrait:** [Lumos Portrait",
               latitude: "0.60901286700107",
               longitude: "-0.68193583203623",
             },
@@ -8124,7 +8050,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Moth",
               description:
-                "**Location:** On top of a lamp post.  \n**Corresponding portrait:** [Lumos Portrait](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251626)",
+                "**Location:** On top of a lamp post.  \n**Corresponding portrait:** [Lumos Portrait",
               latitude: "0.71997178212341",
               longitude: "-0.62472939491141",
             },
@@ -8132,7 +8058,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Moth",
               description:
-                "**Location:** On top of the chimney.  \n**Corresponding portrait:** [Lumos Portrait](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251636)",
+                "**Location:** On top of the chimney.  \n**Corresponding portrait:** [Lumos Portrait",
               latitude: "0.78829056543347",
               longitude: "-0.68890309671283",
             },
@@ -8140,7 +8066,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Moth",
               description:
-                "**Location:** On top of a wooden box, at the base of the cliff.  \n**Corresponding portrait:** [Lumos Portrait](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251640)",
+                "**Location:** On top of a wooden box, at the base of the cliff.  \n**Corresponding portrait:** [Lumos Portrait",
               latitude: "0.76950101464662",
               longitude: "-0.75080746223477",
             },
@@ -8169,7 +8095,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252025)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.98231092542089",
               longitude: "-0.73962986469516",
             },
@@ -8177,7 +8103,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252029)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.98533064754888",
               longitude: "-0.67900657653888",
             },
@@ -8185,7 +8111,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252258)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.82608041168484",
               longitude: "-0.66525529776408",
               media: [
@@ -8199,7 +8125,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Behind a stack of breakable boxes to the left of the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266432).",
+                "**Location:** Behind a stack of breakable boxes to the left of the [Medium Bandit Camp.",
               latitude: "0.98018987717620",
               longitude: "-0.67261800342700",
             },
@@ -8207,7 +8133,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Inside the main tent of the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266436)",
+                "**Location:** Inside the main tent of the [Medium Bandit Camp",
               latitude: "0.97023495948494",
               longitude: "-0.67811116749019",
             },
@@ -8215,7 +8141,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252954)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.97385330267453",
               longitude: "-0.70695674956003",
             },
@@ -8223,7 +8149,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267518)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.96064641788127",
               longitude: "-0.74731103875159",
             },
@@ -8231,7 +8157,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252311)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.94112069795760",
               longitude: "-0.69865647611065",
             },
@@ -8239,7 +8165,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253025)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.94624143338372",
               longitude: "-0.72758775695581",
             },
@@ -8247,7 +8173,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253031)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.95080816490388",
               longitude: "-0.73087277107140",
             },
@@ -8255,7 +8181,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252287)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.92427498429346",
               longitude: "-0.76577977600180",
             },
@@ -8263,7 +8189,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** In the large room at the base of [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252281)",
+                "**Location:** In the large room at the base of Bandit Camp Castle",
               latitude: "0.90230075725252",
               longitude: "-0.80663901827958",
             },
@@ -8271,7 +8197,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** In the room at the top of the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252281)",
+                "**Location:** In the room at the top of the Bandit Camp Castle",
               latitude: "0.90117339470462",
               longitude: "-0.80655666590322",
             },
@@ -8279,7 +8205,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252276)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.89689361392724",
               longitude: "-0.74472586065764",
             },
@@ -8287,7 +8213,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253015)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.68764562735740",
               longitude: "-0.73643773881218",
             },
@@ -8295,31 +8221,28 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252105)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.67978483172383",
               longitude: "-0.73193162766716",
             },
             {
               mapSlug: "world",
               title: "Trait",
-              description:
-                "**Location:** [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252092)",
+              description: "**Location:** [Small Bandit Camp",
               latitude: "0.64255453397607",
               longitude: "-0.77045166448814",
             },
             {
               mapSlug: "world",
               title: "Trait",
-              description:
-                "**Location:** [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252083)",
+              description: "**Location:** [Medium Bandit Camp",
               latitude: "0.62836152960768",
               longitude: "-0.78849663704056",
             },
             {
               mapSlug: "world",
               title: "Trait",
-              description:
-                "**Location:** [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252081)",
+              description: "**Location:** [Small Bandit Camp",
               latitude: "0.63291028054799",
               longitude: "-0.78802456825394",
             },
@@ -8327,7 +8250,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252059)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.66480205343120",
               longitude: "-0.82631328776267",
             },
@@ -8335,7 +8258,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252067)",
+                "**Location:** Reward for clearing the Bandit Camp Castle",
               latitude: "0.68057467824226",
               longitude: "-0.83409059542147",
             },
@@ -8343,7 +8266,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252067)",
+                "**Location:** Reward for clearing the Bandit Camp Castle",
               latitude: "0.68005114873538",
               longitude: "-0.83400476473300",
             },
@@ -8351,7 +8274,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268045)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.69385939010434",
               longitude: "-0.83735216158358",
             },
@@ -8359,7 +8282,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252075)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.72821739376093",
               longitude: "-0.79809924288442",
             },
@@ -8367,23 +8290,21 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268311)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.73293217345268",
               longitude: "-0.80278379046979",
             },
             {
               mapSlug: "world",
               title: "Trait",
-              description:
-                "**Location:** [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268318)",
+              description: "**Location:** [Small Bandit Camp",
               latitude: "0.74396562890792",
               longitude: "-0.78047741090083",
             },
             {
               mapSlug: "world",
               title: "Trait",
-              description:
-                "**Location:** [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268323)",
+              description: "**Location:** [Medium Bandit Camp",
               latitude: "0.74436661767166",
               longitude: "-0.75779646012833",
             },
@@ -8391,7 +8312,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252242)",
+                "**Location:** Reward for clearing the Bandit Camp Castle",
               latitude: "0.70686387840076",
               longitude: "-0.67082521810234",
             },
@@ -8399,7 +8320,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252140)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.64111684283498",
               longitude: "-0.70266628323623",
             },
@@ -8407,7 +8328,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252155)",
+                "**Location:** Reward for clearing the Bandit Camp Castle",
               latitude: "0.61551609422784",
               longitude: "-0.66407942363918",
             },
@@ -8415,7 +8336,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252161)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.60313017100300",
               longitude: "-0.67707488253497",
             },
@@ -8423,7 +8344,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252166)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.58836809065004",
               longitude: "-0.67397687955502",
             },
@@ -8431,7 +8352,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252173)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.55227912995779",
               longitude: "-0.64325657967466",
             },
@@ -8439,7 +8360,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252191)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.62714058167441",
               longitude: "-0.62534754159362",
             },
@@ -8447,7 +8368,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252198)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.59984798762610",
               longitude: "-0.62023907457692",
             },
@@ -8455,7 +8376,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268425)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.60300638452228",
               longitude: "-0.59362269696506",
             },
@@ -8463,7 +8384,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252204)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.58752247922962",
               longitude: "-0.56876745268662",
             },
@@ -8471,7 +8392,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268434)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.57248520213853",
               longitude: "-0.54406175581129",
             },
@@ -8479,7 +8400,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252217)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.56612260824138",
               longitude: "-0.58404475383860",
             },
@@ -8487,7 +8408,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252213)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.55446907990398",
               longitude: "-0.59575774621390",
             },
@@ -8495,7 +8416,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252314)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.49890936649570",
               longitude: "-0.60227810117302",
             },
@@ -8503,7 +8424,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252322)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.48158262690776",
               longitude: "-0.61305184895817",
             },
@@ -8511,7 +8432,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252352)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.43591502614878",
               longitude: "-0.56605379605134",
             },
@@ -8519,7 +8440,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252348)",
+                "**Location:** Reward for clearing the Bandit Camp Castle",
               latitude: "0.43915758838826",
               longitude: "-0.53627034432438",
             },
@@ -8527,7 +8448,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Bandit Camp Castle](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252348)",
+                "**Location:** Reward for clearing the Bandit Camp Castle",
               latitude: "0.43853962712985",
               longitude: "-0.53575536019352",
             },
@@ -8535,7 +8456,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252353)",
+                "**Location:** Reward for clearing the [Small Bandit Camp",
               latitude: "0.45660177503775",
               longitude: "-0.57123059883729",
             },
@@ -8543,7 +8464,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252361)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.47502867375717",
               longitude: "-0.56369570306713",
             },
@@ -8551,7 +8472,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Trait",
               description:
-                "**Location:** Reward for clearing the [Medium Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252375)",
+                "**Location:** Reward for clearing the [Medium Bandit Camp",
               latitude: "0.47875077820508",
               longitude: "-0.53557801711156",
             },
@@ -8747,7 +8668,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Wand Handle",
               description:
-                "**Location:** From [Towards the Bell Tower](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252649), climb the wooden staircase all the way up. Then, interact with the Frog Statue to teleport to a nearby tower; the chest is against a wall.",
+                "**Location:** From Towards the Bell Tower, climb the wooden staircase all the way up. Then, interact with the Frog Statue to teleport to a nearby tower; the chest is against a wall.",
               latitude: "0.79927236201966",
               longitude: "-0.72331130504551",
             },
@@ -8770,15 +8691,14 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Wand Handle",
               description:
-                "**Location:** Under the bridge; solve the [Bridge Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252731) to access.",
+                "**Location:** Under the bridge; solve the Bridge Puzzle to access.",
               latitude: "0.74723145175250",
               longitude: "-0.69019754315752",
             },
             {
               mapSlug: "hogwarts",
               title: "Wand Handle",
-              description:
-                "**Location:** Beyond the [Twin Dragon Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252809)",
+              description: "**Location:** Beyond the Twin Dragon Door",
               latitude: "0.64617283040522",
               longitude: "-0.79885654111945",
             },
@@ -8806,7 +8726,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Wand Handle",
               description:
-                "**Location:** In a secret room above the hallway; use the [Toad Statue](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253224) to access.",
+                "**Location:** In a secret room above the hallway; use the Toad Statue to access.",
               latitude: "0.67065381422853",
               longitude: "-0.61192486586233",
             },
@@ -8835,7 +8755,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Wand Handle",
               description:
-                "**Location:** In the room beyond the [Hidden Staircase](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253380)",
+                "**Location:** In the room beyond the [Hidden Staircase",
               latitude: "0.61683574657131",
               longitude: "-0.68374384424862",
             },
@@ -9064,7 +8984,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Fire and Vice",
               description:
-                "**Requirements:** Level 19. Complete [Charles Rookwood's Trial](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=390371)\n\n**How To Begin:** Meet Poppy Sweeting\n\n**Rewards:**\n- 260 XP\n- ??\n\nFire and Vice is the thirtieth main quest within Hogwarts Legacy; where you track down the infamous Horntail Hall, and deal with the poachers inside; whilst uncovering a shocking secret they\u2019ve been harboring.",
+                "**Requirements:** Level 19. Complete Charles Rookwood's Trial\n\n**How To Begin:** Meet Poppy Sweeting\n\n**Rewards:**\n- 260 XP\n- ??\n\nFire and Vice is the thirtieth main quest within Hogwarts Legacy; where you track down the infamous Horntail Hall, and deal with the poachers inside; whilst uncovering a shocking secret they\u2019ve been harboring.",
               latitude: "0.98195960766063",
               longitude: "-0.75026482343509",
             },
@@ -9437,7 +9357,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Well, Well, Well",
               description:
-                "**Requirements:** ??  \n**How To Begin:** Talk to the [Magical Well southeast of Aranshire](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252259)\n**Rewards:**\n- Treasure-Seeker's Bicorne Hat\n- 180 XP\n- 400 Gold",
+                "**Requirements:** ??  \n**How To Begin:** Talk to the [Magical Well southeast of Aranshire\n**Rewards:**\n- Treasure-Seeker's Bicorne Hat\n- 180 XP\n- 400 Gold",
               latitude: "0.82134735897807",
               longitude: "-0.67030712688964",
             },
@@ -9469,7 +9389,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Cursed Tomb Treasure",
               description:
-                "**Requirements:** Alohomora III  \n**How To Begin:** Inspect the body in the corner of the room with [Ailsa Travers](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252318) and the [Lord of the Manor](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268632).  \n**Rewards:**\n- Map Mysterious Map Fragment to outfit appearance Treasure-seeker's attire (location is the [Tomb of Treachery](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252148))",
+                "**Requirements:** Alohomora III  \n**How To Begin:** Inspect the body in the corner of the room with Ailsa Travers",
               latitude: "0.49526568359359",
               longitude: "-0.62148263172787",
             },
@@ -9555,7 +9475,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Well Well Well Solution",
               description:
-                "**Related Quest:** [Well, Well, Well](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252259)\n\nCan be found on top of the island near the Ancient Magic Hotspot in the Feldcroft region; use Levioso to lift the tree and search the chest; tree will glow with Revelio",
+                "**Related Quest:** [Well, Well, Well\n\nCan be found on top of the island near the Ancient Magic Hotspot in the Feldcroft region; use Levioso to lift the tree and search the chest; tree will glow with Revelio",
               latitude: "0.63176113707026",
               longitude: "-0.76015005443134",
             },
@@ -9643,7 +9563,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Summoner's Court: Match I",
               description:
-                "**Requirements:** Complete [Trials of Merlin](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=278042)    \n**How To Begin:** Speak to Leander Prewett at the Summoner's Court  \n**Rewards:** 180XP",
+                "**Requirements:** Complete Trials of Merlin    \n**How To Begin:** Speak to Leander Prewett at the Summoner's Court  \n**Rewards:** 180XP",
               latitude: "0.88681555954824",
               longitude: "-0.84795565433992",
             },
@@ -9651,7 +9571,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Summoner's Court: Match 2",
               description:
-                "**Requirements:** Complete [Summoner's Court: Match 1](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=267590).   \n**Rewards:** 180XP    \n\nMatch 2 is against Samantha Dale.",
+                "**Requirements:** Complete [Summoner's Court: Match 1.   \n**Rewards:** 180XP    \n\nMatch 2 is against Samantha Dale.",
               latitude: "0.88767121152324",
               longitude: "-0.84863985277822",
             },
@@ -9667,7 +9587,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Summoner's Court: Match 4",
               description:
-                "**Requirements:** Complete [Summoner's Court: Match 3](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=268288)  \n**Rewards:** 180 XP  \n\nMatch 4 is against Charlotte Morrison.",
+                "**Requirements:** Complete [Summoner's Court: Match 3  \n**Rewards:** 180 XP  \n\nMatch 4 is against Charlotte Morrison.",
               latitude: "0.88884597657665",
               longitude: "-0.84869756016059",
             },
@@ -9675,7 +9595,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Summoner's Court: Match 3",
               description:
-                "**Requirements:** Complete [Summoner's Court: Match 2](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=268234)  \n**Rewards:** 180 XP\n\nMatch 3 is against Grace Pinch-Smedley",
+                "**Requirements:** Complete [Summoner's Court: Match 2  \n**Rewards:** 180 XP\n\nMatch 3 is against Grace Pinch-Smedley",
               latitude: "0.88760158113911",
               longitude: "-0.84736718448933",
             },
@@ -9715,7 +9635,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Crossed Wands Round 2",
               description:
-                "**Requirements:** Complete [Crossed Wands Round 1](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=268634)    \n**How To Begin:** Speak with Lucan Brattleby",
+                "**Requirements:** Complete Crossed Wands Round 1    \n**How To Begin:** Speak with Lucan Brattleby",
               latitude: "0.66406336552784",
               longitude: "-0.83917397444277",
             },
@@ -9763,7 +9683,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Summoner's Court: Match 5",
               description:
-                "**Requirements:** Complete [Summoner's Court: Match 4](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=268287)    \n**How To Begin:** Speak to Professor Ronen at the Summoner's Court   \n**Rewards:**\n- 180 XP\n- Summoner's Court Champion Gloves",
+                "**Requirements:** Complete [Summoner's Court: Match 4    \n**How To Begin:** Speak to Professor Ronen at the Summoner's Court   \n**Rewards:**\n- 180 XP\n- Summoner's Court Champion Gloves",
               latitude: "0.88885091415387",
               longitude: "-0.84745148100158",
             },
@@ -9842,7 +9762,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Sweeping the Competition",
               description:
-                '**Requirements:** Complete "Percival Rackham\'s Trial" main quest and the [Flight Test](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=253069) side quest\n\n**How To Begin:** Purchase broom Enhancement from Albie Weekes (1,000).\n\n**Rewards:**\n-  180 XP',
+                '**Requirements:** Complete "Percival Rackham\'s Trial" main quest and the [Flight Test.\n\n**Rewards:**\n-  180 XP',
               latitude: "0.62245051581236",
               longitude: "-0.72044632426093",
             },
@@ -9920,8 +9840,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** Within the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251998)",
+              description: "**Location:** Within the Treasure Vault",
               latitude: "1.00086732972420",
               longitude: "-0.69851515173102",
             },
@@ -9935,8 +9854,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** In the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252013)",
+              description: "**Location:** In the Treasure Vault",
               latitude: "0.97882106003010",
               longitude: "-0.70020870152035",
             },
@@ -9950,8 +9868,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** In the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252019)",
+              description: "**Location:** In the Treasure Vault",
               latitude: "0.99153181347913",
               longitude: "-0.71908963703399",
             },
@@ -9959,15 +9876,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Chest",
               description:
-                "**Location:** In the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252021), by the entrance.",
+                "**Location:** In the Treasure Vault, by the entrance.",
               latitude: "0.99530779612886",
               longitude: "-0.72526944658122",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252021)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.99479288965766",
               longitude: "-0.72492612382746",
             },
@@ -9975,15 +9891,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Chest",
               description:
-                "**Location:** [Small Bandit Camp](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252025) - In the maint tent",
+                "**Location:** [Small Bandit Camp - In the maint tent",
               latitude: "0.98359819628959",
               longitude: "-0.73954403400762",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252032)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.98193795301266",
               longitude: "-0.74914743932001",
             },
@@ -9997,7 +9912,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Gear Chest",
               description:
-                "**Location:** At the rear of the cottage containing the [Central Hogwarts Valley](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251654) Floo Flame",
+                "**Location:** At the rear of the cottage containing the Central Hogwarts Valley Floo Flame",
               latitude: "0.77664511960660",
               longitude: "-0.70696222495741",
               media: [
@@ -10119,16 +10034,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266438)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.97036761724038",
               longitude: "-0.67462094594102",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=266439)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.97400068469994",
               longitude: "-0.68147114066631",
             },
@@ -10165,8 +10078,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252310)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.95721346897209",
               longitude: "-0.69506860080204",
             },
@@ -10227,8 +10139,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267516)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.97019787671454",
               longitude: "-0.74302985840942",
             },
@@ -10267,16 +10178,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253034)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.96336432187157",
               longitude: "-0.76092493541444",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252309)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.94931813852025",
               longitude: "-0.69665565798281",
             },
@@ -10291,24 +10200,21 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253027)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.93465585131039",
               longitude: "-0.72685902438754",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267541)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.92662982513062",
               longitude: "-0.75423901401157",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252285)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.92230113476545",
               longitude: "-0.77324704589927",
             },
@@ -10322,16 +10228,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252286)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.92487572088807",
               longitude: "-0.77007131042563",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267550)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.91547432244461",
               longitude: "-0.76767179614884",
             },
@@ -10345,8 +10249,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252284)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.91893478453352",
               longitude: "-0.79561880299606",
             },
@@ -10385,8 +10288,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267562)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.90118462004399",
               longitude: "-0.75073305388007",
             },
@@ -10394,7 +10296,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Large Chest",
               description:
-                "**Location:** In the secret alcove of the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252969).",
+                "**Location:** In the secret alcove of the Ancient Magic Hotspot.",
               latitude: "0.90976797770466",
               longitude: "-0.73753749907742",
             },
@@ -10408,8 +10310,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252302)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.92723203716388",
               longitude: "-0.64690433480789",
             },
@@ -10417,7 +10318,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Large Chest",
               description:
-                "**Location:** In an alcove, covered by vines. Following the path to the [Merlin Trial](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252404), turn right once in the room, using Lumos to repel the vines.",
+                "**Location:** In an alcove, covered by vines. Following the path to the [Merlin Trial, turn right once in the room, using Lumos to repel the vines.",
               latitude: "0.93582378878735",
               longitude: "-0.64292462385605",
             },
@@ -10425,23 +10326,21 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Large Chest",
               description:
-                "**Location:** Next to the third bubble of the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253132)",
+                "**Location:** Next to the third bubble of the Ancient Magic Hotspot",
               latitude: "0.92225871102343",
               longitude: "-0.67166592479670",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252295)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.89749310809673",
               longitude: "-0.66174966348294",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252266)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.86765879723004",
               longitude: "-0.69329851372478",
             },
@@ -10449,7 +10348,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Chest",
               description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267594). Walk over the little tornados to spawn the chest.",
+                "**Location:** At the end of the Treasure Vault. Walk over the little tornados to spawn the chest.",
               latitude: "0.84792101471831",
               longitude: "-0.68632522508682",
             },
@@ -10478,8 +10377,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252260)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.83622554978511",
               longitude: "-0.68978477500716",
             },
@@ -10494,16 +10392,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252256)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.81867255364365",
               longitude: "-0.67346711973061",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252255)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.81360000598056",
               longitude: "-0.67905737338130",
             },
@@ -10532,24 +10428,21 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252254)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.81303570655730",
               longitude: "-0.70110130176989",
             },
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252254)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.81225160600259",
               longitude: "-0.70135235465207",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252132)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.80977622998948",
               longitude: "-0.72875441059806",
             },
@@ -10608,8 +10501,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268108)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.79831751875487",
               longitude: "-0.77119409638624",
             },
@@ -10623,8 +10515,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252937)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.78132943995543",
               longitude: "-0.72419287530292",
             },
@@ -10655,16 +10546,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253040)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.77607432035426",
               longitude: "-0.77343581579120",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252121)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.76750809628409",
               longitude: "-0.74358778919359",
             },
@@ -10696,15 +10585,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Bag",
               description:
-                "**Location:** Near the 2nd bubble of the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268036), on the wooden balcony.",
+                "**Location:** Near the 2nd bubble of the Ancient Magic Hotspot, on the wooden balcony.",
               latitude: "0.72772770061229",
               longitude: "-0.73881806864766",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252112)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.72930875851903",
               longitude: "-0.73218786336952",
             },
@@ -10732,16 +10620,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252116)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.71021631918194",
               longitude: "-0.70471214908484",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252116)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.70956405680296",
               longitude: "-0.70471214908484",
             },
@@ -10756,16 +10642,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252111)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.71280240490947",
               longitude: "-0.72851001543290",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252110)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.70569204862734",
               longitude: "-0.75110783186068",
             },
@@ -10787,8 +10671,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268149)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.68815947006998",
               longitude: "-0.72954770446704",
             },
@@ -10811,8 +10694,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252100)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.64919486965955",
               longitude: "-0.75023657863036",
             },
@@ -10841,24 +10723,21 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252091)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.62181825874604",
               longitude: "-0.75717774948955",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252094)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.64632085155608",
               longitude: "-0.77345573858482",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268185)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.64668224447731",
               longitude: "-0.78106828217675",
             },
@@ -10873,16 +10752,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252088)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.62547779189441",
               longitude: "-0.79347481697220",
             },
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252088)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.62522031516559",
               longitude: "-0.79167237251419",
             },
@@ -10903,16 +10780,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252103)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.66266464827806",
               longitude: "-0.75696321284968",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252079)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.65175143259443",
               longitude: "-0.79646611952993",
             },
@@ -10966,72 +10841,63 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268263)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.66726322059458",
               longitude: "-0.80123424957291",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268266)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.67366419099725",
               longitude: "-0.84900573080965",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252056)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.65392619687864",
               longitude: "-0.82775067763142",
             },
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268271)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.68808112501835",
               longitude: "-0.84293115633456",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268044)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.69386244645038",
               longitude: "-0.82964544275286",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252071)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.69292482787866",
               longitude: "-0.81677083948138",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268301)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.72027617073271",
               longitude: "-0.82038762976165",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268039)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.72617461326297",
               longitude: "-0.81490398106754",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268313)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.73617217844455",
               longitude: "-0.79924357784263",
             },
@@ -11046,8 +10912,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268315)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.73104857365716",
               longitude: "-0.78076553157253",
             },
@@ -11068,8 +10933,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252123)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.76049008559688",
               longitude: "-0.76723659203977",
             },
@@ -11106,8 +10970,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252253)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.78861289295624",
               longitude: "-0.68014875806538",
             },
@@ -11129,8 +10992,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252249)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.77939025423450",
               longitude: "-0.65719626721323",
             },
@@ -11144,8 +11006,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252250)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.77090465625693",
               longitude: "-0.64329483840804",
             },
@@ -11167,8 +11028,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252243)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.75505551618618",
               longitude: "-0.68724511215276",
             },
@@ -11176,15 +11036,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Large Chest",
               description:
-                "**Location:** At the bottom of the building with the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268373)'s 2nd bubble.",
+                "**Location:** At the bottom of the building with the Ancient Magic Hotspot's 2nd bubble.",
               latitude: "0.75823097474531",
               longitude: "-0.68561432907170",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252945)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.73149018488571",
               longitude: "-0.70063469955510",
             },
@@ -11215,7 +11074,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Large Chest",
               description:
-                "**Location:** Near the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253002)'s 2nd bubble.",
+                "**Location:** Near the Ancient Magic Hotspot's 2nd bubble.",
               latitude: "0.71009526274574",
               longitude: "-0.70151253213307",
             },
@@ -11229,32 +11088,28 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252239)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.67958321640540",
               longitude: "-0.69604937691540",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268386)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.66196184244143",
               longitude: "-0.70823569739127",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252136)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.65158618991265",
               longitude: "-0.71480046865017",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252137)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.64352321499691",
               longitude: "-0.71773226514522",
             },
@@ -11269,16 +11124,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252142)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.65256090909689",
               longitude: "-0.69716201679965",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252144)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.65129429730919",
               longitude: "-0.69533074517548",
             },
@@ -11293,48 +11146,42 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252162)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.60304434506923",
               longitude: "-0.66480109408282",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252167)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.58989579771411",
               longitude: "-0.66668127103451",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252184)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.58591913094800",
               longitude: "-0.65702892468184",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252186)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.58953731122359",
               longitude: "-0.64575212103222",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252187)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.59597426836617",
               longitude: "-0.64180390936230",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268414)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.60780448803740",
               longitude: "-0.63290064217956",
             },
@@ -11349,24 +11196,21 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252194)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.63323419194896",
               longitude: "-0.60992550992653",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252201)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.60911718608473",
               longitude: "-0.59826816476509",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252218)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.56853718619604",
               longitude: "-0.56500444379957",
             },
@@ -11380,16 +11224,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252221)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.57025371519950",
               longitude: "-0.55158630097770",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268459)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.55717937093054",
               longitude: "-0.54219873191716",
             },
@@ -11403,40 +11245,35 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252207)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.57782411296806",
               longitude: "-0.59299874771889",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252174)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.54539663797228",
               longitude: "-0.64235388854700",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252176)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.54691015090625",
               longitude: "-0.63440581512596",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268483)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.54708180446041",
               longitude: "-0.62882682037498",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252179)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.54163180172718",
               longitude: "-0.62064893585626",
             },
@@ -11458,16 +11295,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252214)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.55782654473625",
               longitude: "-0.59661605309866",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252210)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.56357692550483",
               longitude: "-0.60047789117293",
             },
@@ -11497,32 +11332,28 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252232)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.51697414328524",
               longitude: "-0.59573617444173",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252235)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.51657494277206",
               longitude: "-0.57425915493078",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252392)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.50009609922594",
               longitude: "-0.58775091688296",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252321)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.48810552567718",
               longitude: "-0.60728799114759",
             },
@@ -11596,32 +11427,28 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252315)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.50889199131420",
               longitude: "-0.62691012660357",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252327)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.45562265017258",
               longitude: "-0.61667104267139",
             },
             {
               mapSlug: "world",
               title: "Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252350)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.43025376014842",
               longitude: "-0.55305074674277",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252351)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.43697291153467",
               longitude: "-0.56219148197166",
             },
@@ -11642,8 +11469,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252330)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.43568152846269",
               longitude: "-0.60054049173478",
             },
@@ -11657,8 +11483,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252343)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.43065035318533",
               longitude: "-0.50733983516915",
             },
@@ -11673,56 +11498,49 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252344)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.43098155304960",
               longitude: "-0.52578787744437",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252359)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.48236818024928",
               longitude: "-0.56566635650666",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252360)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.47900373723906",
               longitude: "-0.56463638824494",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252357)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.47418022099593",
               longitude: "-0.57098785919220",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252355)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.46340024423376",
               longitude: "-0.55691162628205",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252365)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.47507282638634",
               longitude: "-0.54792834313781",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252364)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.47850593505331",
               longitude: "-0.54801417382629",
             },
@@ -11737,40 +11555,35 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252389)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.50250633397587",
               longitude: "-0.57135780949182",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268772)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.50699173490633",
               longitude: "-0.55204590458459",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252390)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.50208241144585",
               longitude: "-0.56354721684045",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252388)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.48980908281718",
               longitude: "-0.55968483585901",
             },
             {
               mapSlug: "world",
               title: "Large Chest",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252387)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.48951283734373",
               longitude: "-0.54908090045076",
             },
@@ -11885,8 +11698,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252525) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.81662989278368",
               longitude: "-0.66717803478204",
             },
@@ -12001,8 +11813,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252581) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.81227218725508",
               longitude: "-0.69571387652863",
             },
@@ -12099,15 +11910,14 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Locked Chest",
               description:
-                "**Location:** From [Towards the Bell Tower](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252649), climb the staircase; the chest is at the end of the first landing, underneath a portrait.",
+                "**Location:** From Towards the Bell Tower, climb the staircase; the chest is at the end of the first landing, underneath a portrait.",
               latitude: "0.79917044799339",
               longitude: "-0.72554290294607",
             },
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252658) room.",
+              description: "**Location:** In the Arithmancy Door room.",
               latitude: "0.78736181359334",
               longitude: "-0.73177635669671",
             },
@@ -12206,7 +12016,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Large Chest",
               description:
-                "**Location:** In the far corner of the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252702) room.",
+                "**Location:** In the far corner of the Arithmancy Door room.",
               latitude: "0.72833888130504",
               longitude: "-0.74616222267278",
             },
@@ -12264,16 +12074,14 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252778)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.77833213003305",
               longitude: "-0.66440117879699",
             },
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252781)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.77699355659603",
               longitude: "-0.66752480453084",
             },
@@ -12339,7 +12147,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Large Chest",
               description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252838); at the end of the wooden walkway.",
+                "**Location:** Beyond the Arithmancy Door; at the end of the wooden walkway.",
               latitude: "0.59985716440676",
               longitude: "-0.67097436851330",
             },
@@ -12403,8 +12211,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252866)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.57430965185705",
               longitude: "-0.66559274742846",
             },
@@ -12450,7 +12257,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Small Chest",
               description:
-                "**Location:** In [Madam Kogawa's Office](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252891), just past the door.",
+                "**Location:** In [Madam Kogawa's Office, just past the door.",
               latitude: "0.81583091128427",
               longitude: "-0.70824492647503",
             },
@@ -12458,7 +12265,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Locked Chest",
               description:
-                "**Location:** [Madam Kogawa's Office](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252891) - Against the far wall.  \n**Lock:** Level II",
+                "**Location:** [Madam Kogawa's Office - Against the far wall.  \n**Lock:** Level II",
               latitude: "0.81700424663947",
               longitude: "-0.70734239898138",
             },
@@ -12647,8 +12454,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** In the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253233)",
+              description: "**Location:** In the Arithmancy Door",
               latitude: "0.54412483312624",
               longitude: "-0.66440552035157",
             },
@@ -12750,8 +12556,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** Beyond the [Arithmancy Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253282)",
+              description: "**Location:** Beyond the Arithmancy Door",
               latitude: "0.68539114235605",
               longitude: "-0.59271715461688",
             },
@@ -12818,8 +12623,7 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Large Chest",
-              description:
-                "**Location:** Just beyond the [Hidden Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253329)",
+              description: "**Location:** Just beyond the [Hidden Door",
               latitude: "0.67397261901594",
               longitude: "-0.62000146839353",
             },
@@ -13077,7 +12881,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Chest",
               description:
-                "**Location:** On Tomes & Scrolls' 2nd story; press the [Switch](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251519) to activate the staircase.",
+                "**Location:** On Tomes & Scrolls' 2nd story; press the [Switch to activate the staircase.",
               latitude: "0.59880835451457",
               longitude: "-0.75711250305309",
             },
@@ -13730,7 +13534,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Bag",
               description:
-                "**Location:** On the bench next to [Spintwitches Sporting Needs](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=251604)",
+                "**Location:** On the bench next to [Spintwitches Sporting Needs",
               latitude: "0.61497521556126",
               longitude: "-0.72808062015480",
             },
@@ -13744,7 +13548,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Fluttering amidst the bookshelves.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252564)",
+                "**Location:** Fluttering amidst the bookshelves.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.81628660488836",
               longitude: "-0.69940745830516",
             },
@@ -13752,7 +13556,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Under the staircase.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252730)",
+                "**Location:** Under the staircase.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.74784693807820",
               longitude: "-0.69984435402051",
             },
@@ -13760,7 +13564,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** In the middle of the hallway.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252834)",
+                "**Location:** In the middle of the hallway.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.60141519330401",
               longitude: "-0.67399154010633",
             },
@@ -13768,7 +13572,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Near the Potions Classroom Floo Flame.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252539)",
+                "**Location:** Near the Potions Classroom Floo Flame.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.80959248505437",
               longitude: "-0.68831304030024",
             },
@@ -13776,7 +13580,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** On the raised dais, next to the portraits.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252584)",
+                "**Location:** On the raised dais, next to the portraits.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.81993243909990",
               longitude: "-0.69083822536001",
             },
@@ -13784,7 +13588,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** ??  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252827)",
+                "**Location:** ??  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.63989894903203",
               longitude: "-0.76468496208386",
             },
@@ -13792,7 +13596,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Right after you pass the alchemy door the key is in the center of the hall  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252495)",
+                "**Location:** Right after you pass the alchemy door the key is in the center of the hall  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.83356180032133",
               longitude: "-0.76559208007981",
             },
@@ -13800,7 +13604,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** In front of the sleeping dragon statue.\n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252511)",
+                "**Location:** In front of the sleeping dragon statue.\n**Associated cabinet:** [House Cabinet",
               latitude: "0.83744166632522",
               longitude: "-0.77035632726592",
             },
@@ -13808,7 +13612,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** On top of the stairs (not in the corridor)  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252865)",
+                "**Location:** On top of the stairs (not in the corridor)  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.57773046823668",
               longitude: "-0.67392352750133",
             },
@@ -13816,7 +13620,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Floating around the northwestern portion of the Great Hall.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253279)",
+                "**Location:** Floating around the northwestern portion of the Great Hall.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.67836815153842",
               longitude: "-0.59213658206608",
             },
@@ -13824,7 +13628,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** ??  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253129)",
+                "**Location:** ??  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.68589422049438",
               longitude: "-0.59564753217265",
             },
@@ -13832,7 +13636,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Flying in circles, in front of the stone archway.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252621)",
+                "**Location:** Flying in circles, in front of the stone archway.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.67871410242779",
               longitude: "-0.60958242130013",
             },
@@ -13840,7 +13644,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Next to the rhino skeleton.\n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252678)",
+                "**Location:** Next to the rhino skeleton.\n**Associated cabinet:** [House Cabinet",
               latitude: "0.78179396551900",
               longitude: "-0.69508884649065",
             },
@@ -13848,7 +13652,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** Hovering near the staircase, on the lower level.  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252638)",
+                "**Location:** Hovering near the staircase, on the lower level.  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.81491575304881",
               longitude: "-0.70542508702195",
             },
@@ -13856,7 +13660,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                "**Location:** ??  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252812)",
+                "**Location:** ??  \n**Associated cabinet:** [House Cabinet",
               latitude: "0.65723096812701",
               longitude: "-0.82190158623749",
             },
@@ -13864,7 +13668,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Daedalian Key",
               description:
-                '**Location:** First key found during the introduction to the quest "The Daedalian Keys"  \n**Associated cabinet:** [House Cabinet](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252720)',
+                '**Location:** First key found during the introduction to the quest "The Daedalian Keys"  \n**Associated cabinet:** [House Cabinet',
               latitude: "0.74090447209089",
               longitude: "-0.85063432635172",
             },
@@ -13948,7 +13752,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Eye Chest",
               description:
-                "**Location:** Behind the [Angry Face Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252805)  \n**Contents:** 500 galleons",
+                "**Location:** Behind the Angry Face Door  \n**Contents:** 500 galleons",
               latitude: "0.65526669664251",
               longitude: "-0.82265966369530",
             },
@@ -14204,7 +14008,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** Dungeons - Against the northern wall.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253198)",
+                "**Location:** Dungeons - Against the northern wall.  \n**Associated Key:** Daedalian Key",
               latitude: "0.82847867105519",
               longitude: "-0.76284170150751",
             },
@@ -14212,7 +14016,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** On the top landing, left of the hallway.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253202)",
+                "**Location:** On the top landing, left of the hallway.  \n**Associated Key:** Daedalian Key",
               latitude: "0.84439355330565",
               longitude: "-0.78217473633808",
             },
@@ -14220,7 +14024,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** At the eastern end of the Long Gallery, at the base of the stairs.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253054)",
+                "**Location:** At the eastern end of the Long Gallery, at the base of the stairs.  \n**Associated Key:** Daedalian Key",
               latitude: "0.81208287009493",
               longitude: "-0.65061436403175",
             },
@@ -14228,7 +14032,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** Against the back wall  of the library, on the 1st floor.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252561)",
+                "**Location:** Against the back wall  of the library, on the 1st floor.  \n**Associated Key:** Daedalian Key",
               latitude: "0.82272324806799",
               longitude: "-0.69957911968262",
             },
@@ -14236,7 +14040,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** On the lower landing, in front of the Arithmancy Door.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253056)",
+                "**Location:** On the lower landing, in front of the Arithmancy Door.  \n**Associated Key:** Daedalian Key",
               latitude: "0.81364534003545",
               longitude: "-0.69399726275856",
             },
@@ -14244,7 +14048,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** Against the wall, on the lower level.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253315)",
+                "**Location:** Against the wall, on the lower level.  \n**Associated Key:** Daedalian Key",
               latitude: "0.68236755684488",
               longitude: "-0.61870172799510",
             },
@@ -14252,7 +14056,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** At the top of the stairs, against the eastern wall.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253366)",
+                "**Location:** At the top of the stairs, against the eastern wall.  \n**Associated Key:** Daedalian Key",
               latitude: "0.79478609792993",
               longitude: "-0.72964133380728",
             },
@@ -14260,7 +14064,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** On a balcony, against the wall  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253365)",
+                "**Location:** On a balcony, against the wall  \n**Associated Key:** Daedalian Key",
               latitude: "0.76812659691322",
               longitude: "-0.70509538970748",
             },
@@ -14268,7 +14072,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** In the classroom, near the top of the Astronomy Tower.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=267512)",
+                "**Location:** In the classroom, near the top of the Astronomy Tower.  \n**Associated Key:** Daedalian Key",
               latitude: "0.74189862453468",
               longitude: "-0.82444167741812",
             },
@@ -14276,7 +14080,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** On the landing, just left of the staircase.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252767)",
+                "**Location:** On the landing, just left of the staircase.  \n**Associated Key:** Daedalian Key",
               latitude: "0.75362328028950",
               longitude: "-0.69938730496244",
             },
@@ -14284,7 +14088,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** At the western end of the walkway.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253385)",
+                "**Location:** At the western end of the walkway.  \n**Associated Key:** Daedalian Key",
               latitude: "0.64766939434374",
               longitude: "-0.80690103212436",
             },
@@ -14292,7 +14096,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** Just north of the spiraling staircase.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253191)",
+                "**Location:** Just north of the spiraling staircase.  \n**Associated Key:** Daedalian Key",
               latitude: "0.64584897103167",
               longitude: "-0.76036652663652",
             },
@@ -14300,7 +14104,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** At the bottom of the staircase, in the alcove.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252833)",
+                "**Location:** At the bottom of the staircase, in the alcove.  \n**Associated Key:** Daedalian Key",
               latitude: "0.56855290666223",
               longitude: "-0.67917781184438",
             },
@@ -14308,7 +14112,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** In the corridor leading from the Grand Staircase to the Reception Hall.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253226)",
+                "**Location:** In the corridor leading from the Grand Staircase to the Reception Hall.  \n**Associated Key:** Daedalian Key",
               latitude: "0.57519585427332",
               longitude: "-0.66563375505143",
             },
@@ -14316,7 +14120,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** Next to the exit to the Viaduct Courtyard  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253294)",
+                "**Location:** Next to the exit to the Viaduct Courtyard  \n**Associated Key:** Daedalian Key",
               latitude: "0.68995712060504",
               longitude: "-0.59377858285231",
             },
@@ -14324,7 +14128,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "House Cabinet",
               description:
-                "**Location:** On the landing.  \n**Associated Key:** [Daedalian Key](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253278)",
+                "**Location:** On the landing.  \n**Associated Key:** Daedalian Key",
               latitude: "0.68184458850943",
               longitude: "-0.59775755591335",
             },
@@ -14509,15 +14313,14 @@ export const hogwarts = {
               mapSlug: "world",
               title: "19x Moonstone",
               description:
-                "Scattered around the [Merlin Trial](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252294) and the path up and down the hill",
+                "Scattered around the [Merlin Trial and the path up and down the hill",
               latitude: "0.90198631257438",
               longitude: "-0.66783076407378",
             },
             {
               mapSlug: "world",
               title: "6x Ashwinder Eggs",
-              description:
-                "Scatter around [Merlin Trial](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252294) and the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252295)",
+              description: "Scatter around [Merlin Trial",
               latitude: "0.90172885240698",
               longitude: "-0.66594248892747",
             },
@@ -14560,7 +14363,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Legendary Chest",
               description:
-                "**Location:** Under the rocky cliff, behind [Quagmire Troll](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267696)",
+                "**Location:** Under the rocky cliff, behind [Quagmire Troll",
               latitude: "0.68409993369629",
               longitude: "-0.70517789913060",
             },
@@ -14568,23 +14371,21 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Legendary Chest",
               description:
-                "**Location:** Inside the highest tower. From the 3rd bubble of the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268037), move the block near the wooden platform, then climb on it to access the chest.",
+                "**Location:** Inside the highest tower. From the 3rd bubble of the Ancient Magic Hotspot, move the block near the wooden platform, then climb on it to access the chest.",
               latitude: "0.72648139969547",
               longitude: "-0.73814591981901",
             },
             {
               mapSlug: "world",
               title: "Legendary Chest",
-              description:
-                "**Location:** In the center of the [Hedge Maze](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268056)",
+              description: "**Location:** In the center of the [Hedge Maze",
               latitude: "0.78928171657914",
               longitude: "-0.73402952245084",
             },
             {
               mapSlug: "world",
               title: "Legendary Chest",
-              description:
-                "**Location:** In the [Hedge Maze](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253137)",
+              description: "**Location:** In the [Hedge Maze",
               latitude: "0.94387238609519",
               longitude: "-0.67973534604119",
             },
@@ -14669,7 +14470,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Legendary Chest",
               description:
-                "**Location:** Reward for completing the [Hedge Maze](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268413)",
+                "**Location:** Reward for completing the [Hedge Maze",
               latitude: "0.60219157221473",
               longitude: "-0.62958290935789",
             },
@@ -14700,7 +14501,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Legendary Chest",
               description:
-                "**Location:** In the ruins, with the [Ancient Magic Hotspot](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267680)'s 2nd bubble",
+                "**Location:** In the ruins, with the Ancient Magic Hotspot's 2nd bubble",
               latitude: "0.57736653489625",
               longitude: "-0.61487986329733",
             },
@@ -14777,7 +14578,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Legendary Chest",
               description:
-                "**Location:** At the end of the Toad Statue chain; start [here](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252499), then travel from statue to statue, following the dotted lines.",
+                "**Location:** At the end of the Toad Statue chain; start [here, then travel from statue to statue, following the dotted lines.",
               latitude: "0.81927964525441",
               longitude: "-0.74748873710627",
             },
@@ -14793,7 +14594,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Legendary Chest",
               description:
-                "**Location:** From [Towards the Bell Tower](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252649), climb the wooden staircase all the way up. The chest is on the balcony, in an alcove.",
+                "**Location:** From Towards the Bell Tower, climb the wooden staircase all the way up. The chest is on the balcony, in an alcove.",
               latitude: "0.79927236201966",
               longitude: "-0.72445392608685",
             },
@@ -14801,15 +14602,14 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Legendary Chest",
               description:
-                "**Location:** Under the bridge; solve the [Bridge Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252731) to access.",
+                "**Location:** Under the bridge; solve the Bridge Puzzle to access.",
               latitude: "0.74609479578918",
               longitude: "-0.68798386726286",
             },
             {
               mapSlug: "hogwarts",
               title: "Legendary Chest",
-              description:
-                "**Location:** Beyond the [Praying Mantis Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252807)",
+              description: "**Location:** Beyond the [Praying Mantis Door",
               latitude: "0.63577723379652",
               longitude: "-0.78849191615271",
             },
@@ -14901,7 +14701,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "The Grim",
               description:
-                "**Location:** Inside a cave by the stream, along with [The White Wolf](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252397)  \n**Type:** Mongrel",
+                "**Location:** Inside a cave by the stream, along with The White Wolf  \n**Type:** Mongrel",
               latitude: "0.70024833203756",
               longitude: "-0.75025141239314",
             },
@@ -14931,7 +14731,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Ailsa Travers",
               description:
-                "**Location:** Under the manor, beyond the [Level III Lock](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268647)    \n**Type:** Ashwinder",
+                "**Location:** Under the manor, beyond the [Level III Lock    \n**Type:** Ashwinder",
               latitude: "0.49595230341293",
               longitude: "-0.62195470051472",
             },
@@ -14955,7 +14755,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "The White Wolf",
               description:
-                "**Location:** Inside a cave by the stream, along with [The Grim](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252108) \n**Type:** Mongrel",
+                "**Location:** Inside a cave by the stream, along with The Grim \n**Type:** Mongrel",
               latitude: "0.70126749523224",
               longitude: "-0.75026750564669",
             },
@@ -14987,7 +14787,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Lord of the Manor",
               description:
-                "**Location:** Under the manor, beyond the [Level III Lock](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268647)  \n**Type:** Inferi",
+                "**Location:** Under the manor, beyond the [Level III Lock  \n**Type:** Inferi",
               latitude: "0.49599521714930",
               longitude: "-0.62096764759723",
             },
@@ -15003,7 +14803,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Pergit",
               description:
-                "**Location:** [Korrow Ruins](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252282)\n\n**Type:** Goblin\n\n**Related Quest(s):** _The Tale of Rowland Oakes_ Side Quest\n\n**Rewards:** Adds to Infamous Foe Defeat challenge\n\nPergit is a goblin rebel who fights under Ranrok\u2019s banner. He is notorious for his callousness towards everyone except those he truly fears or admires.",
+                "**Location:** [Korrow Ruins:** _The Tale of Rowland Oakes_ Side Quest\n\n**Rewards:** Adds to Infamous Foe Defeat challenge\n\nPergit is a goblin rebel who fights under Ranrok\u2019s banner. He is notorious for his callousness towards everyone except those he truly fears or admires.",
               latitude: "0.90529109485303",
               longitude: "-0.81133542982369",
             },
@@ -15027,7 +14827,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "The Insatiable Spider",
               description:
-                "**Location:** Mary Portman's Cellar, Aranshire\n\n**Type:** Spider\n\n**Related Quest(s):** [Tangled Web](https://mapgenie.io/hogwarts-legacy/maps/hogsmeade?locationIds=271746) Side Quest",
+                "**Location:** Mary Portman's Cellar, Aranshire\n\n**Type:** Spider\n\n**Related Quest(s):** Tangled Web Side Quest",
               latitude: "0.82722612861305",
               longitude: "-0.67550688445323",
             },
@@ -15172,8 +14972,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=251992)",
+              description: "**Related treasure:** Conjuration",
               latitude: "1.00817424663350",
               longitude: "-0.73114871978743",
             },
@@ -15181,7 +14980,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Butterflies",
               description:
-                "**Related Treasure:** [Conjuration Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252401) to the west",
+                "**Related Treasure:** Conjuration Chest to the west",
               latitude: "0.71126592455190",
               longitude: "-0.73464734612540",
               media: [
@@ -15195,7 +14994,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Butterflies",
               description:
-                "Found under the railway bridge arch, slightly to the west.\n\n**Related Treasure:** [Conjuration Chest](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252405)",
+                "Found under the railway bridge arch, slightly to the west.\n\n**Related Treasure:** Conjuration Chest",
               latitude: "0.77853322085421",
               longitude: "-0.69185602378823",
               media: [
@@ -15208,72 +15007,63 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267606)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.82395609188208",
               longitude: "-0.68379672854869",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268192)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.63059118816946",
               longitude: "-0.79262870483397",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268104)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.83976797146698",
               longitude: "-0.77563027495694",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267537)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.94402184073274",
               longitude: "-0.73185165545763",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267545)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.91965335363845",
               longitude: "-0.76894793558537",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=267578)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.90801573653198",
               longitude: "-0.66920132732443",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268408)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.56603082171623",
               longitude: "-0.64604386457771",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268378)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.69847802637416",
               longitude: "-0.67618371248290",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268678)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.47050754219683",
               longitude: "-0.56489388031037",
               media: [
@@ -15286,16 +15076,14 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268304)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.71580660980425",
               longitude: "-0.82102861178984",
             },
             {
               mapSlug: "world",
               title: "Butterflies",
-              description:
-                "**Related Treasure:** [Conjuration](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=268402)",
+              description: "**Related Treasure:** Conjuration",
               latitude: "0.63409812516586",
               longitude: "-0.66592682481328",
             },
@@ -15875,8 +15663,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Goblin Note",
-              description:
-                "Found during [Percival Rackham's Trail](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=253089)",
+              description: "Found during [Percival Rackham's Trail",
               latitude: "0.99551052430919",
               longitude: "-0.71847786503733",
             },
@@ -15920,8 +15707,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Diary Entry",
-              description:
-                "**Location:** At the end of the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252110)",
+              description: "**Location:** At the end of the Treasure Vault",
               latitude: "0.70534875190146",
               longitude: "-0.75110783186068",
             },
@@ -16120,16 +15906,14 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Letter from Imelda Reyes",
-              description:
-                "**Location:** [Madam Kogawa's Office](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252891)",
+              description: "**Location:** [Madam Kogawa's Office",
               latitude: "0.81571691699432",
               longitude: "-0.70712782226022",
             },
             {
               mapSlug: "hogwarts",
               title: "Letter From Professor Weasley",
-              description:
-                "**Location:** [Madam Kogawa's Office](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252891)",
+              description: "**Location:** [Madam Kogawa's Office",
               latitude: "0.81631767087951",
               longitude: "-0.70678449950609",
             },
@@ -16238,8 +16022,7 @@ export const hogwarts = {
             {
               mapSlug: "world",
               title: "Cube",
-              description:
-                "Cube for the [Treasure Vault](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252266)",
+              description: "Cube for the Treasure Vault",
               latitude: "0.86349240465648",
               longitude: "-0.69398515923260",
             },
@@ -16260,7 +16043,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Owlery",
               description:
-                "All Locations here are marked on our [Hogwarts Interactive map](https://mapgenie.io/hogwarts-legacy/maps/hogwarts)",
+                "All Locations here are marked on our [Hogwarts Interactive map",
               latitude: "0.82647373397832",
               longitude: "-0.75311483040098",
             },
@@ -16268,7 +16051,7 @@ export const hogwarts = {
               mapSlug: "world",
               title: "Note: Astronomy Table - Phoenix",
               description:
-                "The [Phoenix Astronomy Table](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=267513) is marked on the Hogwarts interior map",
+                "The [Phoenix Astronomy Table is marked on the Hogwarts interior map",
               latitude: "0.86474354144916",
               longitude: "-0.73603034019399",
             },
@@ -16276,7 +16059,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Toad Statue",
               description:
-                "On interaction, teleports you to the associated Toad Statue; leads to the [Legendary Chest](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252498).",
+                "On interaction, teleports you to the associated Toad Statue; leads to the [Legendary Chest.",
               latitude: "0.82940661824733",
               longitude: "-0.76439738273712",
             },
@@ -16304,32 +16087,28 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "Unicorn Door",
-              description:
-                "Part of the [Clock Tower Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252800).",
+              description: "Part of the Clock Tower Puzzle.",
               latitude: "0.66405330121485",
               longitude: "-0.83271519505942",
             },
             {
               mapSlug: "hogwarts",
               title: "Angry Face Door",
-              description:
-                "Part of the [Clock Tower Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252800)",
+              description: "Part of the Clock Tower Puzzle",
               latitude: "0.65646824755447",
               longitude: "-0.82235925628530",
             },
             {
               mapSlug: "hogwarts",
               title: "Praying Mantis Door",
-              description:
-                "Part of the [Clock Tower Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252800)",
+              description: "Part of the Clock Tower Puzzle",
               latitude: "0.63672131315863",
               longitude: "-0.78741903254641",
             },
             {
               mapSlug: "hogwarts",
               title: "Twin Dragon Door",
-              description:
-                "Part of the [Clock Tower Puzzle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252800)",
+              description: "Part of the Clock Tower Puzzle",
               latitude: "0.64621574302087",
               longitude: "-0.80001525541451",
             },
@@ -16351,7 +16130,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Madam Kogawa's Office",
               description:
-                "A small room outside the castle, accessible from a staircase beside the Summoner's Court. Contains:\n- [Small Chest](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252889)\n- [Letter from Imelda Reyes](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252892)\n- [Letter From Professor Wealsey](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252893)\n- [Locked Chest](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252894)",
+                "A small room outside the castle, accessible from a staircase beside the Summoner's Court. Contains:\n- [Small Chest",
               latitude: "0.88343609986836",
               longitude: "-0.84737281555172",
             },
@@ -16359,7 +16138,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Toad Statue",
               description:
-                "Teleports the player to a secret room with a [Wand Handle](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253225)",
+                "Teleports the player to a secret room with a [Wand Handle",
               latitude: "0.66902314259143",
               longitude: "-0.61042282881382",
             },
@@ -16373,16 +16152,14 @@ export const hogwarts = {
             {
               mapSlug: "hogwarts",
               title: "To the Underground Harbour",
-              description:
-                "**Destination:** [To the Viaduct Courtyard](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253304)",
+              description: "**Destination:** To the Viaduct Courtyard",
               latitude: "0.69806980051274",
               longitude: "-0.60181041467865",
             },
             {
               mapSlug: "hogwarts",
               title: "To the Viaduct Courtyard",
-              description:
-                "**Destination:** [To the Underground Harbour](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=253303)",
+              description: "**Destination:** To the Underground Harbour",
               latitude: "0.72883771644462",
               longitude: "-0.62060733545501",
             },
@@ -16445,7 +16222,7 @@ export const hogwarts = {
               mapSlug: "hogsmeade",
               title: "Chocolate Frogs",
               description:
-                "**Location:** Past enchanted garden to stone patio. Stone bench near the railing.  \n**How to Acquire:** Revelio  \n\n**Note:** This Field Guide Page belongs to the Highlands collectible count.  The actual page location is on the World Map [here](https://mapgenie.io/hogwarts-legacy/maps/world?locationIds=252271)",
+                "**Location:** Past enchanted garden to stone patio. Stone bench near the railing.  \n**How to Acquire:** Revelio  \n\n**Note:** This Field Guide Page belongs to the Highlands collectible count.  The actual page location is on the World Map [here",
               latitude: "0.57038602810348",
               longitude: "-0.69010025172929",
             },
@@ -16549,7 +16326,7 @@ export const hogwarts = {
               mapSlug: "hogwarts",
               title: "Clock Tower Puzzle",
               description:
-                "**Solution:** Using either Glacius or Arresto Momentum, stop the pendulum at one of four positions to unlock its corresponding door. Enter all 4 doors to complete the puzzle. From left to right (when looking from the platform), the positions are:\n- [Unicorn Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252799)\n- [Angry Face Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252805)\n- [Twin Dragon Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252809)\n- [Praying Mantis Door](https://mapgenie.io/hogwarts-legacy/maps/hogwarts?locationIds=252807)",
+                "**Solution:** Using either Glacius or Arresto Momentum, stop the pendulum at one of four positions to unlock its corresponding door. Enter all 4 doors to complete the puzzle. From left to right (when looking from the platform), the positions are:\n- [Unicorn Door",
               latitude: "0.65581410168340",
               longitude: "-0.81893936955868",
             },

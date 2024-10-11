@@ -1,535 +1,170 @@
 export const materials = [
   {
-    title: "Ancient Smithing Stone",
-    locations: [
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "Sold by Gurranq, Beast Clergyman.",
-        latitude: "0.69461316057568",
-        longitude: "-0.62756737021296",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/0b4f0bd5-b128-4a88-8edb-79f19d4d227f.png",
-            type: "image",
-          },
-          {
-            url: "https://media.mapgenie.io/storage/media/da0889c0-0abf-43b6-b409-a18d2edbdc36.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "On the edge of the frozen waterfall above the Magma Wyrm",
-        latitude: "0.83565684611865",
-        longitude: "-0.63630101397590",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/1ea32e4d-6459-4b7a-bd48-64719d0859a0.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "**Location:** At the bottom of a pit, on a dead body.",
-        latitude: "0.82005241169381",
-        longitude: "-0.66754799394681",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/61756e41-1240-4dd2-a309-11fdb6d59e92.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "Inside the mouth in the skull.",
-        latitude: "0.79750256899960",
-        longitude: "-0.62651832427133",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/a2a6f55c-4e6b-44d1-8be4-fd6371834f4b.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "**Location:** On top of the tower in a chest",
-        latitude: "0.88516294617091",
-        longitude: "-0.63691131792660",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/6b6199af-5f83-41f7-992f-ac6b17c49c37.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "Dropped by the Night\u2019s Cavalry pair guarding the wagon",
-        latitude: "0.82386234846918",
-        longitude: "-0.65668968222079",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "After obtaining Cleanrot ashes, exit door and jump to pillar to the west, climb up, jump the small ledge, and it is in the chest in the first room.",
-        latitude: "0.89397137460459",
-        longitude: "-0.64078941054382",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/2b69b59f-fe9f-4549-bb4a-6f5eca2fdd59.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "At the end of the wall past the patrolling Erdtree Avatar",
-        latitude: "0.88726554649023",
-        longitude: "-0.63872130411966",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/7e915bd9-5968-4ee8-b61b-cf70decaff3c.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "Awarded by Latenna for summoning her in front of the giant sleeping Albinauric woman",
-        latitude: "0.85631250628923",
-        longitude: "-0.66811225472554",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/40e5c680-8482-4029-9421-a0be4f6f53bc.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "Obtain by defeating the dragon that attacks you while traversing the main road.",
-        latitude: "0.72867732185409",
-        longitude: "-0.52105046571441",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/8dc52293-ffda-47e1-8e44-2b73b7a4d9c7.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Given by Witch-Hunter Jerren after completing Sorceress Sellen's Quest, challenging her.",
-        latitude: "0.72192025271538",
-        longitude: "-0.80548346042590",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/7a9c26d1-a839-4934-a172-11f97b23f735.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description: "In a chest at the altar",
-        latitude: "0.28132383485165",
-        longitude: "-0.64850536012597",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/36159615-add2-4e76-9b79-eaa5318cc89e.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description: "Dropped by Anastasia Tarnished-Eater.",
-        latitude: "0.82974838940895",
-        longitude: "-0.66060994863972",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/51596657-9d83-4e24-b1ee-4f357d0546ba.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "Dropped by the dragon on the round platform that was casting lightning bolts",
-        latitude: "0.74035477092258",
-        longitude: "-0.51442173950845",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/4e39d26f-a5d6-46c4-b608-78e40be67d38.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "Located behind the lightning spamming dragon in a gazebo.",
-        latitude: "0.73947662583196",
-        longitude: "-0.51258977561978",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/76b57c2c-c354-4b40-9d72-5062ef573a09.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** On a corpse hanging on a ledge, guarded by a Beastman. Accessible by a floating tilted pillar at the south-east of the Imp Seal Statue.",
-        latitude: "0.74114065822300",
-        longitude: "-0.52115781135788",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/dd7f788a-d6f6-4beb-9d49-23f5e908a9e6.jpeg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** On a corpse in front of the building, guarded by a Twin-Blade Gargoyle. Appears only after defeating Maliketh.",
-        latitude: "0.77423120462456",
-        longitude: "-0.70246417529847",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/46f86cfa-229f-4d9d-839e-1fccad5b339a.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "At the altar, guarded by 1 Crusader and 2 Misbegotten.",
-        latitude: "0.88486274078116",
-        longitude: "-0.64239823355834",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/04690df6-531d-4586-bd9c-d5bce4b20bdb.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** After defeating Malenia, Blade of Miquella and this.",
-        latitude: "0.89009598189628",
-        longitude: "-0.64395546334467",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/12b3dd89-3854-4dfd-9247-12152b39319c.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description: "Rewarded by Nepheli Loux (Throne Room)",
-        latitude: "0.65273094854408",
-        longitude: "-0.75390726327862",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/daba6f6f-9743-4bd9-a657-9be1524e4d68.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Sold by Gatekeeper Gostoc (Throne Room) for 20,000 Runes.",
-        latitude: "0.65417656518150",
-        longitude: "-0.75277805328381",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/c2805d3f-0037-454f-9350-aef675c4c545.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description: "**Location:** Dropped by Ghostflame Dragon",
-        latitude: "0.67469958112682",
-        longitude: "-0.70092336276591",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description: "**Location:** Dropped by Ghostflame Dragon",
-        latitude: "0.67834063616850",
-        longitude: "-0.74207966361641",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Inside the Ruined Forge Lava Intake - examine the altar after ascending the pipe to the uppermost room",
-        latitude: "0.66041765484903",
-        longitude: "-0.71562074124742",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/2f8a6a3a-f35d-42d4-aa20-96d61f4dd0ff.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description: "**Location:** Dropped by Magma Wyrm",
-        latitude: "0.64915162237705",
-        longitude: "-0.71580638020359",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** In the chest after taking the elevator to the top of Supressing Pillar",
-        latitude: "0.64682309257277",
-        longitude: "-0.71132920682433",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/40b7bdb5-1b2b-4a58-842a-fd560383359a.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Inside Taylew's Ruined Forge - on the corpse on the platform to the north at the top of the pipe",
-        latitude: "0.72081747957567",
-        longitude: "-0.71276378627175",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Inside Taylew's Ruined Forge, find this item in the altar at the top of the pipe on the southern platform",
-        latitude: "0.72225323300437",
-        longitude: "-0.71271904868703",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description: "**Location:** Dropped by Ancient Dragon Senessax",
-        latitude: "0.62579195478303",
-        longitude: "-0.65117351898593",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description: "**Location:** Dropped by Ancient Dragon Senessax",
-        latitude: "0.62513393179002",
-        longitude: "-0.65114451739890",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Acquired after examining the altar of the Ruined Forge of Starfall Past. The altar is found on the second level. To reach the altar, you must pull the lever to make the iron door rise, and use it as a platform to jump across to the second level where the altar is.",
-        latitude: "0.67581584036640",
-        longitude: "-0.70899568498334",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description: "**Location:** Obtained from the Ghostflame Dragon",
-        latitude: "0.61366234147137",
-        longitude: "-0.71603870469175",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Taylew's Ruined Forge, jump to the left. Continue to the left corridor past 2 golem guards.",
-        latitude: "0.72181699586189",
-        longitude: "-0.71322821080662",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/81bad493-28b3-4d44-815b-6d30b0b35f00.png",
-            type: "image",
-          },
-          {
-            url: "https://media.mapgenie.io/storage/media/1369b464-f439-4041-84b1-8114ae693d43.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** On a corpse inside a cave.  Follow the Spiritspring jumps from the Jagged Peak Mountainside site of grace and continue past the dead dragons.  Protected by Red Fulgurbloom Slimes.",
-        latitude: "0.63293274521887",
-        longitude: "-0.64994431343590",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/3ff8e71d-a927-4401-b9e3-d0eed43bc07e.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "From this nearby Ancient Smithing Stone head back towards the edge with the spirit spring jump. Looking to the right you will see a ledge you can drop down to. Follow it to it's end and you will find the Somber Ancient Dragon Smithing Stone.",
-        latitude: "0.63193410446483",
-        longitude: "-0.65080990876990",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Somber Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Down the elevator just before the Cleansing Chamber Anteroom Site of Grace, guarded by a Curseblade.",
-        latitude: "0.68689526233317",
-        longitude: "-0.76067179441196",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/eb93590d-a544-4232-a35b-b231fd1d20a5.jpeg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Along the Spiritspring Jumps path, before the Site of Grace.",
-        latitude: "0.62937614394399",
-        longitude: "-0.64498294473765",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/9cbb83e1-d62e-405e-8075-252f168af005.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ancient Dragon Smithing Stone",
-        description:
-          "**Location:** Taylew's Ruined Forge - Beyond the 2nd platform, on the left, on a corpse slumped over the balcony.",
-        latitude: "0.72164659138383",
-        longitude: "-0.71245559999028",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/a4c20b6b-0de8-4358-b4c7-4990f20e9077.jpg",
-            type: "image",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Ghost Glovewort",
-    locations: [
-      {
-        mapSlug: "the-lands-between",
-        title: "Ghost Glovewort [1]",
-        description: "**Location:** In Stormfoot Catacombs.",
-        latitude: "0.62508713928788",
-        longitude: "-0.73438614606729",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ghost Glovewort [1]",
-        latitude: "0.37535478045027",
-        longitude: "-0.79336017048956",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ghost Glovewort [3]",
-        description:
-          "**Location:** In Nokron, in front of a tree in a garden near the corpse with Golden Rune [7].",
-        latitude: "0.27648725358158",
-        longitude: "-0.68977091147082",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ghost Glovewort [3] & Ghost Glovewort [4]",
-        description:
-          "**Location:** East of Nokron Site of Grace guarded by two Fallen Hawks Soldier.",
-        latitude: "0.27480470076031",
-        longitude: "-0.69406376062832",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ghost Glovewort [4]",
-        description:
-          "In a patch of grass close to the brazier and Ancestor Spirit Corpse",
-        latitude: "0.29178199560185",
-        longitude: "-0.68187180368332",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ghost Glovewart [1]",
-        description: "**Location:** On a corpse, laying on the ground.",
-        latitude: "0.71220745923804",
-        longitude: "-0.69522091547083",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ghost Glovewort [1]",
-        description: "**Location:** On the corpse fallen from the gallows.",
-        latitude: "0.66607567958370",
-        longitude: "-0.69970432692324",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Ghost Glovewort (2)",
-        description: "On a corpse in between the scattered coffins",
-        latitude: "0.70987947142102",
-        longitude: "-0.75756347168704",
-      },
-    ],
-  },
-  {
     title: "Glovewort",
     defaultHidden: true,
     locations: [
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Ghost Glovewort",
+        description:
+          "**Location:** After defeating the boss  - under the giant throne with a giant corpse sitting on it",
+        latitude: "0.38637365258899",
+        longitude: "-0.79836642230893",
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Grave Glovewort",
+        description: "In the attic, accessible via the roof outside",
+        latitude: "0.73232542039526",
+        longitude: "-0.52455464140218",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/f97d1c04-0644-4bc0-b37e-7eecca941397.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Grave Glovewort",
+        description:
+          "Underneath the ruin. On an altar.\n\nTo access, from the Dragon Temple site of grace, jump down onto the stairs and take the second doorway on the right.\n\n**Note:** 3 Skeletons hanging on the ceiling will drop down after picking this up.",
+        latitude: "0.73818482896344",
+        longitude: "-0.52540981646018",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/b3d79cd5-4803-4682-b360-e46663623257.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Ghost Glovewort",
+        description:
+          "**Location:** In a chest inside the building, guarded by a Silver Ball.",
+        latitude: "0.39095248524060",
+        longitude: "-0.79425614684547",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/085cea7f-0bc8-4f2d-953c-40c2a8c202d0.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Ghost Glovewort",
+        description:
+          "**Location:** In the chest with Fingerslayer Blade at the end of Nokron (under the giant statue)",
+        latitude: "0.28514280178480",
+        longitude: "-0.68354459987077",
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Grave Glovewort",
+        description:
+          "**Location:** In a room with a Fire Prelate, next to Giant's Seal.",
+        latitude: "0.80803637146913",
+        longitude: "-0.64077078441164",
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "2x Great Grave Glovewort",
+        description:
+          "**Location:** reward for killing Putrid Grave Warden Duelist.",
+        latitude: "0.82056762455472",
+        longitude: "-0.63914704504749",
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Grave Glovewort",
+        description:
+          "**Location:** Inside the rot pond with the Ulcerated Tree Spirit.",
+        latitude: "0.88818927352935",
+        longitude: "-0.64238435099458",
+      },
+      {
+        mapSlug: "the-lands-between",
+        title: "Great Ghost Glovewort",
+        description:
+          "**Location:** Inside a large cave, guarded by several Rotten Ghouls.",
+        latitude: "0.28233018719143",
+        longitude: "-0.65185161274769",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Ghost Glovewort",
+        description:
+          "**Location:** Inside Fog Rift Catacombs - in the far room after ascending the stairs, guarded by a black knight and a soldier",
+        latitude: "0.69850368505269",
+        longitude: "-0.72791934013307",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/4ba9f476-8d4e-4c90-9957-a5b943bf7948.jpg",
+            type: "image",
+          },
+        ],
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Grave Glovewort",
+        description:
+          "**Location:** On a corpse, at the end of the stone ledge.",
+        latitude: "0.71273182684570",
+        longitude: "-0.69472384564571",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Grave Glovewart",
+        latitude: "0.61138658004779",
+        longitude: "-0.70975627478438",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Grave Glovewort",
+        latitude: "0.60604621151006",
+        longitude: "-0.70623039560007",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Grave Glovewort",
+        description:
+          "Ont top of the large structure next to the Demi-Human Queen enemy. Access by climbing up the rocks on the coastline.",
+        latitude: "0.63448220197645",
+        longitude: "-0.73760718764876",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Grave Glovewort",
+        description:
+          "Accessible via the Passage to Southern Nameless Mausoleum tunnel",
+        latitude: "0.62044853281814",
+        longitude: "-0.72992630302809",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Ghost Glovewort",
+        description: "**Location:** Inside Scorpion River Catacombs",
+        latitude: "0.70680583870229",
+        longitude: "-0.75755573809104",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Grave Glovewort",
+        description:
+          "**Location:** On the boat - accessible by dropping down from Charo's hidden Grave",
+        latitude: "0.61531258113652",
+        longitude: "-0.71223814458060",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Great Ghost Glovewort",
+        description:
+          "Dropped by big imp statue that fires fireballs in Darklight Catacombs.",
+        latitude: "0.67310297391616",
+        longitude: "-0.67998088896164",
+      },
       {
         mapSlug: "the-lands-between",
         title: "5x Grave Glovewort [1]",
@@ -1382,1008 +1017,69 @@ export const materials = [
         latitude: "0.59442358009333",
         longitude: "-0.71169861698365",
       },
-    ],
-  },
-  {
-    title: "Great Glovewort",
-    defaultHidden: true,
-    locations: [
       {
         mapSlug: "the-lands-between",
-        title: "Great Ghost Glovewort",
-        description:
-          "**Location:** After defeating the boss  - under the giant throne with a giant corpse sitting on it",
-        latitude: "0.38637365258899",
-        longitude: "-0.79836642230893",
+        title: "Ghost Glovewort [1]",
+        description: "**Location:** In Stormfoot Catacombs.",
+        latitude: "0.62508713928788",
+        longitude: "-0.73438614606729",
       },
       {
         mapSlug: "the-lands-between",
-        title: "Great Grave Glovewort",
-        description: "In the attic, accessible via the roof outside",
-        latitude: "0.73232542039526",
-        longitude: "-0.52455464140218",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/f97d1c04-0644-4bc0-b37e-7eecca941397.jpg",
-            type: "image",
-          },
-        ],
+        title: "Ghost Glovewort [1]",
+        latitude: "0.37535478045027",
+        longitude: "-0.79336017048956",
       },
       {
         mapSlug: "the-lands-between",
-        title: "Great Grave Glovewort",
+        title: "Ghost Glovewort [3]",
         description:
-          "Underneath the ruin. On an altar.\n\nTo access, from the Dragon Temple site of grace, jump down onto the stairs and take the second doorway on the right.\n\n**Note:** 3 Skeletons hanging on the ceiling will drop down after picking this up.",
-        latitude: "0.73818482896344",
-        longitude: "-0.52540981646018",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/b3d79cd5-4803-4682-b360-e46663623257.jpg",
-            type: "image",
-          },
-        ],
+          "**Location:** In Nokron, in front of a tree in a garden near the corpse with Golden Rune [7].",
+        latitude: "0.27648725358158",
+        longitude: "-0.68977091147082",
       },
       {
         mapSlug: "the-lands-between",
-        title: "Great Ghost Glovewort",
+        title: "Ghost Glovewort [3] & Ghost Glovewort [4]",
         description:
-          "**Location:** In a chest inside the building, guarded by a Silver Ball.",
-        latitude: "0.39095248524060",
-        longitude: "-0.79425614684547",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/085cea7f-0bc8-4f2d-953c-40c2a8c202d0.jpg",
-            type: "image",
-          },
-        ],
+          "**Location:** East of Nokron Site of Grace guarded by two Fallen Hawks Soldier.",
+        latitude: "0.27480470076031",
+        longitude: "-0.69406376062832",
       },
       {
         mapSlug: "the-lands-between",
-        title: "Great Ghost Glovewort",
+        title: "Ghost Glovewort [4]",
         description:
-          "**Location:** In the chest with Fingerslayer Blade at the end of Nokron (under the giant statue)",
-        latitude: "0.28514280178480",
-        longitude: "-0.68354459987077",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Great Grave Glovewort",
-        description:
-          "**Location:** In a room with a Fire Prelate, next to Giant's Seal.",
-        latitude: "0.80803637146913",
-        longitude: "-0.64077078441164",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Great Grave Glovewort",
-        description:
-          "**Location:** reward for killing Putrid Grave Warden Duelist.",
-        latitude: "0.82056762455472",
-        longitude: "-0.63914704504749",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Great Grave Glovewort",
-        description:
-          "**Location:** Inside the rot pond with the Ulcerated Tree Spirit.",
-        latitude: "0.88818927352935",
-        longitude: "-0.64238435099458",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Great Ghost Glovewort",
-        description:
-          "**Location:** Inside a large cave, guarded by several Rotten Ghouls.",
-        latitude: "0.28233018719143",
-        longitude: "-0.65185161274769",
+          "In a patch of grass close to the brazier and Ancestor Spirit Corpse",
+        latitude: "0.29178199560185",
+        longitude: "-0.68187180368332",
       },
       {
         mapSlug: "the-shadow-realm",
-        title: "Great Ghost Glovewort",
-        description:
-          "**Location:** Inside Fog Rift Catacombs - in the far room after ascending the stairs, guarded by a black knight and a soldier",
-        latitude: "0.69850368505269",
-        longitude: "-0.72791934013307",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/4ba9f476-8d4e-4c90-9957-a5b943bf7948.jpg",
-            type: "image",
-          },
-        ],
+        title: "Ghost Glovewart [1]",
+        description: "**Location:** On a corpse, laying on the ground.",
+        latitude: "0.71220745923804",
+        longitude: "-0.69522091547083",
       },
       {
         mapSlug: "the-shadow-realm",
-        title: "Great Grave Glovewort",
-        description:
-          "**Location:** On a corpse, at the end of the stone ledge.",
-        latitude: "0.71273182684570",
-        longitude: "-0.69472384564571",
+        title: "Ghost Glovewort [1]",
+        description: "**Location:** On the corpse fallen from the gallows.",
+        latitude: "0.66607567958370",
+        longitude: "-0.69970432692324",
       },
       {
         mapSlug: "the-shadow-realm",
-        title: "Great Grave Glovewart",
-        latitude: "0.61138658004779",
-        longitude: "-0.70975627478438",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Great Grave Glovewort",
-        latitude: "0.60604621151006",
-        longitude: "-0.70623039560007",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Great Grave Glovewort",
-        description:
-          "Ont top of the large structure next to the Demi-Human Queen enemy. Access by climbing up the rocks on the coastline.",
-        latitude: "0.63448220197645",
-        longitude: "-0.73760718764876",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Great Grave Glovewort",
-        description:
-          "Accessible via the Passage to Southern Nameless Mausoleum tunnel",
-        latitude: "0.62044853281814",
-        longitude: "-0.72992630302809",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Great Ghost Glovewort",
-        description: "**Location:** Inside Scorpion River Catacombs",
-        latitude: "0.70680583870229",
-        longitude: "-0.75755573809104",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Great Grave Glovewort",
-        description:
-          "**Location:** On the boat - accessible by dropping down from Charo's hidden Grave",
-        latitude: "0.61531258113652",
-        longitude: "-0.71223814458060",
-      },
-      {
-        mapSlug: "the-shadow-realm",
-        title: "Great Ghost Glovewort",
-        description:
-          "Dropped by big imp statue that fires fireballs in Darklight Catacombs.",
-        latitude: "0.67310297391616",
-        longitude: "-0.67998088896164",
+        title: "Ghost Glovewort (2)",
+        description: "On a corpse in between the scattered coffins",
+        latitude: "0.70987947142102",
+        longitude: "-0.75756347168704",
       },
     ],
   },
   {
-    title: "Miquella's Lily",
+    title: "Smithing Stone",
     defaultHidden: true,
-    icon: "miquellas_lilly",
-    locations: [
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In front of the cliffside between the trees.",
-        latitude: "0.64615511230645",
-        longitude: "-0.63389127576848",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** Behind a broken pillar on the cliff, near the Gatekeeper Statue.",
-        latitude: "0.64689660426538",
-        longitude: "-0.63095205093245",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In Village of the Albinaurics before the stone bridge. Guarded by a Perfumer.",
-        latitude: "0.67599944207673",
-        longitude: "-0.80830593088410",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        description:
-          "**Location:** Under the academy near the Stone Sword Key, guarded by five lake humanoid creatures.",
-        latitude: "0.72037676369402",
-        longitude: "-0.80204336019520",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** In front of a tree on the cliff.",
-        latitude: "0.68594235179546",
-        longitude: "-0.61324249103924",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Under an arch at the right of the tower.",
-        latitude: "0.66916430606113",
-        longitude: "-0.61222539921107",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Miquella's Lily",
-        description:
-          "**Location:** Around the road guarded by various Erdtree Guards.",
-        latitude: "0.66116448318959",
-        longitude: "-0.63087469924378",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** South of the fort in front of a big tree near the cliff.",
-        latitude: "0.64931907566007",
-        longitude: "-0.63004784591820",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Behind Fort Faroth on a ledge.",
-        latitude: "0.65133596691376",
-        longitude: "-0.62779479034523",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** Behind a tree near the cliff, guarded by a Harpy.",
-        latitude: "0.60828565395976",
-        longitude: "-0.62312216087800",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** On a cliff fronting the swamp.\n\n**Warning:** Various Poison Flower & Mushroom Mage guard the way to it.",
-        latitude: "0.63488309258743",
-        longitude: "-0.67269931515750",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In an alley between two house, right from the main road of Siella.",
-        latitude: "0.64637053459779",
-        longitude: "-0.64167530728253",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** At the end of the rightest part of the town, guarded by an Aristocrat Mage and a Sellia Sorcerer.",
-        latitude: "0.64765811601288",
-        longitude: "-0.64116437965853",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Miquella's Lily",
-        description:
-          "**Location:** Against the tombs in the area with the Red Wolf.",
-        latitude: "0.76425948655169",
-        longitude: "-0.78796661928041",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** Behind a tree at the back of the upper garden, with a Giant Wolf nearby.",
-        latitude: "0.77101235974864",
-        longitude: "-0.79721096264697",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/0e51c59b-da68-4699-83cd-d56a24c3422e.jpeg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On a ledge near a tree.",
-        latitude: "0.76589965733729",
-        longitude: "-0.80474260556792",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Left of a massive rock near the cliff.",
-        latitude: "0.73257621007170",
-        longitude: "-0.81688532719559",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** Under a massive rock near some glintstone gems.",
-        latitude: "0.72508473548697",
-        longitude: "-0.80763513450918",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** Right of the mushroom pile.\n\n**Warning:** Guarded by one Pumpkin Head, 4 Redmane Soldiers & 4 Aristocrats Mage.",
-        latitude: "0.64253622020274",
-        longitude: "-0.66817430844768",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In some bushes east of the Church of Inhibition at a lower elevation.",
-        latitude: "0.75519510373218",
-        longitude: "-0.77601642508429",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/16466490-f705-471a-bb14-2b193e7c70e5.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** To the east of the Converted Fringe Tower.",
-        latitude: "0.74868012572307",
-        longitude: "-0.75822643821402",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** Between some trees and bushes in the cliff path to Golden Lineage Evergaol.",
-        latitude: "0.76393323922343",
-        longitude: "-0.76498183434396",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        description:
-          "**Location:** On the same ledge than the Stalwart Horn Charm.",
-        latitude: "0.73881817035456",
-        longitude: "-0.78101650850246",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/1cf824e4-d2d0-4523-aa7a-6a93fb83b9f6.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On the cliff behind of Craftsman's Shack.",
-        latitude: "0.78929535121176",
-        longitude: "-0.78720749340786",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/602fe8b9-43c9-47ab-8b44-2cb407f1cdbd.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In a little path between the rocks near the magma lake.",
-        latitude: "0.79470900193871",
-        longitude: "-0.80218755289428",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In front of the Seethewater Cave guarded by a Soldier.",
-        latitude: "0.80699036151650",
-        longitude: "-0.78000771123163",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In front of the cliff at the right of the tomb with a Mad Pumpkin.",
-        latitude: "0.81415746316422",
-        longitude: "-0.75134010234814",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        description: "**Location:** On the cliff behind the Shaded Castle.",
-        latitude: "0.81826215474922",
-        longitude: "-0.75762429331252",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Against a tree, guarded by two Wolves.",
-        latitude: "0.78046854534807",
-        longitude: "-0.71971548963447",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "10x Miquella's Lily",
-        description:
-          "**Location:** Left of the rock formation, guarded by five Miranda and a Perfumer.",
-        latitude: "0.78211999263179",
-        longitude: "-0.79067041952084",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On a ledge east of Lux Ruin.",
-        latitude: "0.77866741101839",
-        longitude: "-0.76703898294687",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Between the trees left of Lux Ruins.",
-        latitude: "0.77928398432975",
-        longitude: "-0.77150266678882",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On the cliff beside some trees.",
-        latitude: "0.77801809858447",
-        longitude: "-0.77143829377795",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Beside a wall in the bottom ruin.",
-        latitude: "0.78249652576316",
-        longitude: "-0.77067599031369",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** At the end of the cliff.",
-        latitude: "0.81712853440537",
-        longitude: "-0.77621315356998",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Near the rock cliff.",
-        latitude: "0.80735978865040",
-        longitude: "-0.77272458656162",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** On the ledge of the left part of the camp, in front of the trebuchet.",
-        latitude: "0.76157322476332",
-        longitude: "-0.78187672908919",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In front of a big tree near the cliff to Minor Erdtree.\n**Warning** 5 Erdtree Guards will appear to defends it.",
-        latitude: "0.66197026553031",
-        longitude: "-0.67535546484970",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In the bushes in front of a giant statue between two columns.",
-        latitude: "0.74146980113926",
-        longitude: "-0.77327293788619",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On a ledge below the lore stone.",
-        latitude: "0.78366275694461",
-        longitude: "-0.74144965792078",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        latitude: "0.68649552485081",
-        longitude: "-0.76148322216952",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Miquella's Lily",
-        description:
-          "**Location:** On flower pots in a small court, guarded by a Soldier and a Leyndell Knight.",
-        latitude: "0.77555921254947",
-        longitude: "-0.69311444058860",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** In front of the lore stone.",
-        latitude: "0.79502659540934",
-        longitude: "-0.70871458017504",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        latitude: "0.70670801875956",
-        longitude: "-0.81053528628146",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Miquela's Lily",
-        description: "**Location:** In four flower pots around a fountain.",
-        latitude: "0.77589799889481",
-        longitude: "-0.68838209090879",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** In front of some tombs, guarded by a Skeleton.",
-        latitude: "0.85025242124634",
-        longitude: "-0.61833518314987",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On the slope in front of the Golden Seed.",
-        latitude: "0.84226408120018",
-        longitude: "-0.61359351342955",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On a ledge left of the Golden Seed.",
-        latitude: "0.83981817011414",
-        longitude: "-0.61421578592120",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        description: "On a corpse next to a stone pillar of gravestones.",
-        latitude: "0.82741893558394",
-        longitude: "-0.64448836837576",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "Tucked into the cliff wall.",
-        latitude: "0.83011252953959",
-        longitude: "-0.64542413574773",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "Behind the sleeping Rune Bear.",
-        latitude: "0.84197827153474",
-        longitude: "-0.67655642711884",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        description: "By some crystals",
-        latitude: "0.77704890204828",
-        longitude: "-0.80707230670211",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "Next to a sarcophagus guarded by a dredgling.",
-        latitude: "0.81591316531740",
-        longitude: "-0.64868469364845",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miqella's Lily",
-        latitude: "0.81927964525346",
-        longitude: "-0.65876394510030",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        latitude: "0.82818795522226",
-        longitude: "-0.67595649460569",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        latitude: "0.84494420068063",
-        longitude: "-0.67741989786731",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Under an arch between two buildings.",
-        latitude: "0.84702666306957",
-        longitude: "-0.65899895137406",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Beside the building corner.",
-        latitude: "0.84756304621664",
-        longitude: "-0.65902040904783",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Miquella's Lily",
-        description: "**Location:** On two bushes beside the road.",
-        latitude: "0.84451882376699",
-        longitude: "-0.65710042957519",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "15x Miquela's Lily",
-        description: "**Location:** Scattered around the cemetery.",
-        latitude: "0.89135411108218",
-        longitude: "-0.63550629511940",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description:
-          "**Location:** On the corner between the hill and the cliff.",
-        latitude: "0.81495092867675",
-        longitude: "-0.65695699046375",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** On a bush guarded by a Wolf.",
-        latitude: "0.84428737721971",
-        longitude: "-0.66082824927798",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        latitude: "0.76988761731634",
-        longitude: "-0.73158033921803",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "**Location:** Next to the tree at the fork in the road",
-        latitude: "0.61739106925104",
-        longitude: "-0.64548382857828",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "At the edge of the cliff - near the Banished Knight",
-        latitude: "0.61899760795565",
-        longitude: "-0.66167453730736",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "Between the bushes and trees",
-        latitude: "0.80446304160517",
-        longitude: "-0.71720812778082",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "In a bush by the Mad Pumpkin.",
-        latitude: "0.80225334618368",
-        longitude: "-0.75183852393278",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "On a small ledge accessed from the water.",
-        latitude: "0.69070172141190",
-        longitude: "-0.76884726205196",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Miquella's Lily",
-        description: "At the bottom of the cliff next to a large rock",
-        latitude: "0.80137090576396",
-        longitude: "-0.75037390855604",
-      },
-    ],
-  },
-  {
-    title: "Ruin Fragment",
-    defaultHidden: true,
-    icon: "ruin_fragment",
-    locations: [
-      {
-        mapSlug: "the-lands-between",
-        title: "Ruin Fragment (4)",
-        description: "Found on a slab of the ruins",
-        latitude: "0.62687874797564",
-        longitude: "-0.73381215333745",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/6910a31d-4d2a-4dcc-acdb-0840f29530a8.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Ruin Fragment",
-        description: "On the top and side of the ruin",
-        latitude: "0.62421547316269",
-        longitude: "-0.72253346443273",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/9e097753-7a67-4453-bff3-5f4819238d7c.png",
-            type: "image",
-          },
-          {
-            url: "https://media.mapgenie.io/storage/media/3667c41f-e857-4a06-aed1-845e0025c5b0.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ruin Fragment",
-        latitude: "0.63003107824335",
-        longitude: "-0.71238656525750",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/70c0a6cf-207e-4c59-adc6-ced20184aa94.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ruin Fragment (3)",
-        latitude: "0.62774080657618",
-        longitude: "-0.72372762823693",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/2c3476de-16c1-4332-a7bc-b1615a594da9.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        description:
-          "At the base of the cliff near the corpse. Around the collapsed structure",
-        latitude: "0.61439379753679",
-        longitude: "-0.70387065410711",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        description: "Around and on top of the ruin",
-        latitude: "0.58328723686409",
-        longitude: "-0.69900915026702",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        description: "**Location:** In a corpse dangling from the ledge.",
-        latitude: "0.63541838332949",
-        longitude: "-0.74783205986066",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/6c604f9a-fba2-4527-a6ce-e41f0d67f7a7.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        description: "On the ruin by the Site of Grace",
-        latitude: "0.58411465540559",
-        longitude: "-0.69556251168154",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Ruin Fragment",
-        description: "",
-        latitude: "0.57133323814703",
-        longitude: "-0.70165112614669",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        description: "On the ruin",
-        latitude: "0.57778630855788",
-        longitude: "-0.70363059639712",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        description: "Around the ruin",
-        latitude: "0.57332736105712",
-        longitude: "-0.72812989354128",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        latitude: "0.58378764433202",
-        longitude: "-0.72569612328456",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        description:
-          "Found on a corpse. Two demi-humans will spawn from the ground.",
-        latitude: "0.59416167921403",
-        longitude: "-0.70666015148205",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/30b50b73-de46-469b-a7af-b0bee9a01ec2.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Ruin Fragment",
-        description:
-          "**Location:** Above Hunter Yura on the ruined building.  In front the broken Arch.",
-        latitude: "0.60936800601657",
-        longitude: "-0.71134959633019",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/23990f8e-2037-4bf4-98d2-ae03223712ad.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        latitude: "0.58857591140082",
-        longitude: "-0.70835936632750",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Ruin Fragment",
-        latitude: "0.59134667402074",
-        longitude: "-0.72036441668593",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        latitude: "0.62281319978913",
-        longitude: "-0.73079460754973",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/76efc914-8023-42b6-8300-9db5ce262351.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        description: "**Location:** Around the fallen ruins.",
-        latitude: "0.74602344778046",
-        longitude: "-0.80315806780192",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Sanctuary Stone",
-        description: "**Location:** Among the fallen ruins.",
-        latitude: "0.75110386178211",
-        longitude: "-0.80213579167707",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Sanctuary Stone",
-        description:
-          "**Location:** On a corpse in front of the fallen ruin, guarded by a Cuckoo Knight and three Soldies.",
-        latitude: "0.75017002201371",
-        longitude: "-0.78861470210731",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Sanctuary Stone",
-        description: "**Location:** On the fallen ruin.",
-        latitude: "0.69881506544590",
-        longitude: "-0.75982511573804",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Sanctuary Stone",
-        description: "**Location:** Among the fallen ruin.",
-        latitude: "0.75199376743429",
-        longitude: "-0.78425879466752",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        description: "Respawns.",
-        latitude: "0.61533740556523",
-        longitude: "-0.72799657200662",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/d4f6a539-b1ba-4ad9-b126-d48c01ce94b0.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "14x Ruin Fragment & 3x Sanctuary Stone",
-        description:
-          "**Location:** Scattered on the bridge to the Divine Tower.",
-        latitude: "0.70703421481856",
-        longitude: "-0.74628956880559",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        latitude: "0.66683460081124",
-        longitude: "-0.75591310639924",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        latitude: "0.67393683565918",
-        longitude: "-0.75878772235473",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Ruin Fragment",
-        latitude: "0.70197420431432",
-        longitude: "-0.76544138729209",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        description: "On and around the ruins by the beach.",
-        latitude: "0.61820394887229",
-        longitude: "-0.73556815051359",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/a3d506d1-3336-4bd1-a47d-2e3cac94baf3.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        latitude: "0.63504245749532",
-        longitude: "-0.72959712951385",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Ruin Fragment",
-        latitude: "0.61517643467570",
-        longitude: "-0.71925498077400",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/0f2a0ab3-76b9-4b84-be91-1c1bf1861033.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Ruin Fragment",
-        latitude: "0.61903344595765",
-        longitude: "-0.70944106345047",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Ruin Fragment",
-        latitude: "0.62907635200524",
-        longitude: "-0.71341014440196",
-      },
-    ],
-  },
-  {
-    title: "Somber Smithing Stone",
-    defaultHidden: true,
-    icon: "somber_smithing_stone",
     locations: [
       {
         mapSlug: "the-shadow-realm",
@@ -2766,1270 +1462,464 @@ export const materials = [
         latitude: "0.68897118758645",
         longitude: "-0.75682222575358",
       },
-    ],
-  },
-  {
-    title: "Trina's Lilly",
-    defaultHidden: true,
-    icon: "trinas_lilly",
-    locations: [
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "In the pond",
-        latitude: "0.58427289750968",
-        longitude: "-0.70324972271902",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Trina's Lily",
-        latitude: "0.62086022774898",
-        longitude: "-0.69409534335173",
+        title: "Ancient Dragon Smithing Stone",
+        description: "Sold by Gurranq, Beast Clergyman.",
+        latitude: "0.69461316057568",
+        longitude: "-0.62756737021296",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/5d31c68e-a410-4991-9f37-3d919a370d3a.png",
+            url: "https://media.mapgenie.io/storage/media/0b4f0bd5-b128-4a88-8edb-79f19d4d227f.png",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/da0889c0-0abf-43b6-b409-a18d2edbdc36.png",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "3x Trina's Lilly",
-        description:
-          "**Location:** Under the fallen ruins, guarded by a giant crab",
-        latitude: "0.62015887122439",
-        longitude: "-0.72009935975237",
+        title: "Ancient Dragon Smithing Stone",
+        description: "On the edge of the frozen waterfall above the Magma Wyrm",
+        latitude: "0.83565684611865",
+        longitude: "-0.63630101397590",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/ecf4acf6-f26c-4a30-aea4-5263d7f08331.png",
+            url: "https://media.mapgenie.io/storage/media/1ea32e4d-6459-4b7a-bd48-64719d0859a0.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        latitude: "0.64499729480789",
-        longitude: "-0.69343551993330",
+        title: "Ancient Dragon Smithing Stone",
+        description: "**Location:** At the bottom of a pit, on a dead body.",
+        latitude: "0.82005241169381",
+        longitude: "-0.66754799394681",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/6cf343b8-d3cc-4499-a9dd-6eba4bbb5c17.png",
+            url: "https://media.mapgenie.io/storage/media/61756e41-1240-4dd2-a309-11fdb6d59e92.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description:
-          "On a rocky platform near the top as you descend the cliff",
-        latitude: "0.58297209362708",
-        longitude: "-0.70988014340432",
+        title: "Ancient Dragon Smithing Stone",
+        description: "Inside the mouth in the skull.",
+        latitude: "0.79750256899960",
+        longitude: "-0.62651832427133",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/9d071b2a-c6d2-407a-9183-2147cc74d68d.png",
+            url: "https://media.mapgenie.io/storage/media/a2a6f55c-4e6b-44d1-8be4-fd6371834f4b.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "5x Trina's Lilly",
-        description: "In the ruins",
-        latitude: "0.58884180113724",
-        longitude: "-0.72614505887179",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.61661990255995",
-        longitude: "-0.71057215333110",
+        title: "Ancient Dragon Smithing Stone",
+        description: "**Location:** On top of the tower in a chest",
+        latitude: "0.88516294617091",
+        longitude: "-0.63691131792660",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/53d427dc-840c-4e5b-a190-02456675ef11.png",
+            url: "https://media.mapgenie.io/storage/media/6b6199af-5f83-41f7-992f-ac6b17c49c37.png",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In the corner of the fountain courtyard.",
-        latitude: "0.71995032614754",
-        longitude: "-0.80762654542855",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** On a small outcrop in the cemetery, near the exit.",
-        latitude: "0.71900358101405",
-        longitude: "-0.80210924148642",
+          "Dropped by the Night\u2019s Cavalry pair guarding the wagon",
+        latitude: "0.82386234846918",
+        longitude: "-0.65668968222079",
       },
       {
         mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description: "**Location:** In a grassy area, past the Illusory Wall.",
-        latitude: "0.71507311151382",
-        longitude: "-0.80031484365549",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "**Location:** In the flowerbed of the main courtyard.",
-        latitude: "0.71673326929121",
-        longitude: "-0.80168008804426",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "**Location:** At the far end of the courtyard.",
-        latitude: "0.71864419329060",
-        longitude: "-0.79964831471531",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lilly",
-        latitude: "0.64257273092119",
-        longitude: "-0.70070430636466",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description:
+          "After obtaining Cleanrot ashes, exit door and jump to pillar to the west, climb up, jump the small ledge, and it is in the chest in the first room.",
+        latitude: "0.89397137460459",
+        longitude: "-0.64078941054382",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/cfa72275-7289-495b-b42f-1cc5c55fd6db.png",
+            url: "https://media.mapgenie.io/storage/media/2b69b59f-fe9f-4549-bb4a-6f5eca2fdd59.png",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.64788048598155",
-        longitude: "-0.68531781434922",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description:
+          "At the end of the wall past the patrolling Erdtree Avatar",
+        latitude: "0.88726554649023",
+        longitude: "-0.63872130411966",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/52d02edb-9ac8-4954-ad0f-f9ae192fd94e.png",
+            url: "https://media.mapgenie.io/storage/media/7e915bd9-5968-4ee8-b61b-cf70decaff3c.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description: "Under the bridge.",
-        latitude: "0.64773699697172",
-        longitude: "-0.70864096283753",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.65122576568602",
-        longitude: "-0.71816677052715",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        latitude: "0.65119280126017",
-        longitude: "-0.69525137543621",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description:
+          "Awarded by Latenna for summoning her in front of the giant sleeping Albinauric woman",
+        latitude: "0.85631250628923",
+        longitude: "-0.66811225472554",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/fbc4a664-89ca-47a6-bb20-b62d5f9a6a8f.png",
+            url: "https://media.mapgenie.io/storage/media/40e5c680-8482-4029-9421-a0be4f6f53bc.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "On the lower level cliff edge",
-        latitude: "0.27698055246776",
-        longitude: "-0.67546951550578",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "Hidden in alcove on Siofra River level underneath bridge",
-        latitude: "0.28414291409885",
-        longitude: "-0.67858700530078",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Trina's Lily",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "3 are on a small cliffside, north west of the Giant Miranda. 1 of them is directly behind the Giant Miranda.",
-        latitude: "0.59432307255045",
-        longitude: "-0.71633390607519",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.59535649131321",
-        longitude: "-0.70343347254479",
+          "Obtain by defeating the dragon that attacks you while traversing the main road.",
+        latitude: "0.72867732185409",
+        longitude: "-0.52105046571441",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/938a0cc0-61d8-4beb-be2a-4447f249e547.jpg",
+            url: "https://media.mapgenie.io/storage/media/8dc52293-ffda-47e1-8e44-2b73b7a4d9c7.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** In the corner of the cliff behind a massive rock.",
-        latitude: "0.68548066044593",
-        longitude: "-0.82442158823247",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "11x Trina's Lily",
-        description:
-          "**Location:** In the swamp. Nine against a big tree with many Crabs around, one behind the massive rock with a coughing Ghoul and another one nearby between a tree and a stump.",
-        latitude: "0.67960407875019",
-        longitude: "-0.80888528803160",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description: "**Location:** At the soutwest corner of the fallen ruin.",
-        latitude: "0.69544177215622",
-        longitude: "-0.78692175129018",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In front of the metal door of the church.",
-        latitude: "0.70184772371924",
-        longitude: "-0.78461562452833",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description: "**Location:** Between two fallen houses.",
-        latitude: "0.69672455429627",
-        longitude: "-0.77339439883497",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Between three Albinauric at the right of the Crystal Tear.",
-        latitude: "0.68613451838509",
-        longitude: "-0.79036715429208",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Between the massive rocks right of the road.",
-        latitude: "0.66802826750360",
-        longitude: "-0.77857450281090",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Left of the Slumbering Wolf's Shack, near the rocks.",
-        latitude: "0.66659174499740",
-        longitude: "-0.78681473278249",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description: "**Location:** Between two ruins, west of the Ritual Pot.",
-        latitude: "0.67694915436266",
-        longitude: "-0.77480986251388",
+          "**Location:** Given by Witch-Hunter Jerren after completing Sorceress Sellen's Quest, challenging her.",
+        latitude: "0.72192025271538",
+        longitude: "-0.80548346042590",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/b51c04eb-b974-43d8-93c8-bfb9feac9bfb.png",
+            url: "https://media.mapgenie.io/storage/media/7a9c26d1-a839-4934-a172-11f97b23f735.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description: "**Location:** In front of the ledge to Tombsward Cave.",
-        latitude: "0.58378371760732",
-        longitude: "-0.72857207013027",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Near the cliff on the right of Castle Morne.",
-        latitude: "0.55606885581882",
-        longitude: "-0.70939930505654",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description:
-          "**Location:** In the water between two ruins, near a Giant Glintstone Flower.",
-        latitude: "0.70641315022478",
-        longitude: "-0.81375205823352",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "6x Trina's Lily",
-        description:
-          "**Location:** In Forsaken Ruins, 4 near the Imp Seal Statue and 2 other in the ruins.",
-        latitude: "0.65489035367744",
-        longitude: "-0.67483800041614",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a ledge with some pillar structure.",
-        latitude: "0.59200493456214",
-        longitude: "-0.70258246402949",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** On the cliff after the Impaler's Catacombs door.",
-        latitude: "0.59306401881628",
-        longitude: "-0.69448599636601",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description: "In a chest at the altar",
+        latitude: "0.28132383485165",
+        longitude: "-0.64850536012597",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/a7bd4450-4314-40f9-8c2c-ab31ef55d47b.png",
+            url: "https://media.mapgenie.io/storage/media/36159615-add2-4e76-9b79-eaa5318cc89e.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Near bushes on the cliff.",
-        latitude: "0.60853662929601",
-        longitude: "-0.69737188916099",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description: "Dropped by Anastasia Tarnished-Eater.",
+        latitude: "0.82974838940895",
+        longitude: "-0.66060994863972",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/8fe9a374-386b-45d6-83bf-e43dd2c5ee5a.png",
+            url: "https://media.mapgenie.io/storage/media/51596657-9d83-4e24-b1ee-4f357d0546ba.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Behind the fort in the bush.",
-        latitude: "0.61431911878329",
-        longitude: "-0.68065913552095",
+        title: "Ancient Dragon Smithing Stone",
+        description:
+          "Dropped by the dragon on the round platform that was casting lightning bolts",
+        latitude: "0.74035477092258",
+        longitude: "-0.51442173950845",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/f04cd691-7047-420d-a61a-658611b5232c.png",
+            url: "https://media.mapgenie.io/storage/media/4e39d26f-a5d6-46c4-b608-78e40be67d38.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Under an arch at the back of the Tower.",
-        latitude: "0.77056904267631",
-        longitude: "-0.81627045405739",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "5x Trina's Lily",
-        description: "**Location:** Gathered in the upper part of the pond.",
-        latitude: "0.76166649926361",
-        longitude: "-0.79266087440641",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        title: "Somber Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Behind a tree on a ledge north of the little annex of the camp, after the Mad Pumpkin.",
-        latitude: "0.73366480612877",
-        longitude: "-0.82136106894708",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description:
-          "**Location:** In front of a massive rock south of the Golden Seed.",
-        latitude: "0.77032186663686",
-        longitude: "-0.77730587274309",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description:
-          "**Location:** Against a tree on the coast, near four Lake Lurker.",
-        latitude: "0.72736294308503",
-        longitude: "-0.81347477701897",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** East of the coast, under the massive rocks near the cliffside.",
-        latitude: "0.72594516079019",
-        longitude: "-0.78572548719893",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On the bridge south of the Merchant.",
-        latitude: "0.71567578273090",
-        longitude: "-0.79764253848276",
+          "Located behind the lightning spamming dragon in a gazebo.",
+        latitude: "0.73947662583196",
+        longitude: "-0.51258977561978",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/2bd71c17-9fca-4d15-bf92-8d43ff722d0c.png",
+            url: "https://media.mapgenie.io/storage/media/76b57c2c-c354-4b40-9d72-5062ef573a09.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** In the water under the bridge, near the East Gate Bridge Trestle Site of Grace.",
-        latitude: "0.73070020377529",
-        longitude: "-0.80113246313854",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily, 2x Miquella's Lily & 2x Arteria Leaf",
-        description:
-          "**Location:** Among Jarbug\n- Trina's Lily beside a Giant Living Jar under the bridge.\n- Trina's Lily back of the house with the giant jar with Ritual Pot.\n- Arteria Leaf against the wall of Carian Study Hall on the north-west.\n- Arteria Leaf & Miquela's Lily in the bushes in front of the right house.\n- Miquela's Lily beside the Giant Living Jar in front of the Site of Grace.",
-        latitude: "0.70210945784125",
-        longitude: "-0.75714544202739",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** On a corpse in the pond, beside a large headstone",
-        latitude: "0.69999665194226",
-        longitude: "-0.76150876478744",
+          "**Location:** On a corpse hanging on a ledge, guarded by a Beastman. Accessible by a floating tilted pillar at the south-east of the Imp Seal Statue.",
+        latitude: "0.74114065822300",
+        longitude: "-0.52115781135788",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/33d18168-d226-4acc-8af5-65aece4d322c.png",
+            url: "https://media.mapgenie.io/storage/media/dd7f788a-d6f6-4beb-9d49-23f5e908a9e6.jpeg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        title: "Somber Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Near a big rock on the cliff guarded by three White Wolf.",
-        latitude: "0.69624183806184",
-        longitude: "-0.76462012724480",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Directly below the Guidance Statue",
-        latitude: "0.62030798312558",
-        longitude: "-0.73110578408424",
+          "**Location:** On a corpse in front of the building, guarded by a Twin-Blade Gargoyle. Appears only after defeating Maliketh.",
+        latitude: "0.77423120462456",
+        longitude: "-0.70246417529847",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/785c5c59-5831-4c18-8554-e2206b45f193.png",
+            url: "https://media.mapgenie.io/storage/media/46f86cfa-229f-4d9d-839e-1fccad5b339a.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Between the cliffside of Church of Inhibition and a massive rock, north of a Giant Glintstone Flower.",
-        latitude: "0.75503172356454",
-        longitude: "-0.77930954359078",
+        title: "Ancient Dragon Smithing Stone",
+        description: "At the altar, guarded by 1 Crusader and 2 Misbegotten.",
+        latitude: "0.88486274078116",
+        longitude: "-0.64239823355834",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/a99d6947-0b2b-4c80-8a51-f5fdd80ca0ce.png",
+            url: "https://media.mapgenie.io/storage/media/04690df6-531d-4586-bd9c-d5bce4b20bdb.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        title: "Somber Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Behind a column right of the giant statue on the ledge.",
-        latitude: "0.74018405243307",
-        longitude: "-0.77135297873468",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** On the end of the cliff near some massive rocks.",
-        latitude: "0.72082386680493",
-        longitude: "-0.77935695043436",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Between some stones, south of the big rock.",
-        latitude: "0.28785474358098",
-        longitude: "-0.68023004071233",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In Nokron, against a great erected rock.",
-        latitude: "0.29392773478342",
-        longitude: "-0.67911217329336",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Near a tree on a ledge.",
-        latitude: "0.28596527279747",
-        longitude: "-0.68239519712813",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In a bush left of the Brazier.",
-        latitude: "0.28746729103901",
-        longitude: "-0.67730972883999",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "In the courtyard with the Lion Guardian boss.",
-        latitude: "0.64134837935893",
-        longitude: "-0.74703193883144",
+          "**Location:** After defeating Malenia, Blade of Miquella and this.",
+        latitude: "0.89009598189628",
+        longitude: "-0.64395546334467",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/a55964d4-dd17-41a0-90b1-486e862158cc.png",
+            url: "https://media.mapgenie.io/storage/media/12b3dd89-3854-4dfd-9247-12152b39319c.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description: "**Location:** On the cliffside",
-        latitude: "0.59502485201538",
-        longitude: "-0.70935630240675",
+        title: "Ancient Dragon Smithing Stone",
+        description: "Rewarded by Nepheli Loux (Throne Room)",
+        latitude: "0.65273094854408",
+        longitude: "-0.75390726327862",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/fbe0d90c-1ac7-4d43-93f1-b484dbcf7b46.png",
+            url: "https://media.mapgenie.io/storage/media/daba6f6f-9743-4bd9-a657-9be1524e4d68.jpg",
             type: "image",
           },
         ],
       },
       {
         mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Below the bridge near some bats",
-        latitude: "0.72392938839690",
-        longitude: "-0.80691728667350",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a bush between a tree and a stone.",
-        latitude: "0.29435098246705",
-        longitude: "-0.68562245353405",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Between a big rock and some trees on a ledge.",
-        latitude: "0.29061739616621",
-        longitude: "-0.68319773658453",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Trina's Lilly",
-        description: "**Location:** On a dead body hanging over the wall.",
-        latitude: "0.61774905060473",
-        longitude: "-0.70192516371239",
+          "**Location:** Sold by Gatekeeper Gostoc (Throne Room) for 20,000 Runes.",
+        latitude: "0.65417656518150",
+        longitude: "-0.75277805328381",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/3509a861-85cc-4147-9466-621ca4dd9dfa.png",
+            url: "https://media.mapgenie.io/storage/media/c2805d3f-0037-454f-9350-aef675c4c545.jpg",
             type: "image",
           },
         ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description: "**Location:** Dropped by Ghostflame Dragon",
+        latitude: "0.67469958112682",
+        longitude: "-0.70092336276591",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description: "**Location:** Dropped by Ghostflame Dragon",
+        latitude: "0.67834063616850",
+        longitude: "-0.74207966361641",
+      },
+      {
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Behind the abandoned house, guarded by a Demi-Human.",
-        latitude: "0.79280967071308",
-        longitude: "-0.79490925560535",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On the ledge in a bush in front of a tree.",
-        latitude: "0.80994004660269",
-        longitude: "-0.73566083449901",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a ledge near two trees.",
-        latitude: "0.80560819920002",
-        longitude: "-0.74726631585364",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Left of the cliff in front of a tree.",
-        latitude: "0.80098400176784",
-        longitude: "-0.75708487925482",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** In front of the wall, behind the Shaded Castle.",
-        latitude: "0.81724978585405",
-        longitude: "-0.75749727555447",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a ledge near a tree.",
-        latitude: "0.79005319383712",
-        longitude: "-0.76026751893883",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Near the cliff between some trees.",
-        latitude: "0.77110186520929",
-        longitude: "-0.74181575135404",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description: "**Location:** In front of Sage's Cave entrance.",
-        latitude: "0.78772560238306",
-        longitude: "-0.77717163901457",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Near the cliff between some bushes and trees.",
-        latitude: "0.77391748733713",
-        longitude: "-0.77097328382231",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Near the cliff where three Demi-Humans guard a Lightningproof Dried Liver.",
-        latitude: "0.78130444855542",
-        longitude: "-0.77303105494579",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Against the rock cliff.",
-        latitude: "0.79441819730245",
-        longitude: "-0.76713335660472",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description:
-          "**Location:** In the water on the corner of two broken wall.",
-        latitude: "0.78963359359773",
-        longitude: "-0.77292692807725",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Near the cliff between the rocks.",
-        latitude: "0.82110610363442",
-        longitude: "-0.77992920650809",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** At the end of a cliff, guarded by two Marionette Soldiers.",
-        latitude: "0.81919817190071",
-        longitude: "-0.77913831095785",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Before the bottom of the Water Wheel, jump on a ledge to the south with a big chunk of crystal.",
-        latitude: "0.71542579451999",
-        longitude: "-0.80221621900893",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Against the cliff right of the shore.",
-        latitude: "0.28914055647391",
-        longitude: "-0.68936413375167",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Between the cliffside and a tree, on a ledge left of the road.",
-        latitude: "0.75133484526509",
-        longitude: "-0.79460024107340",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** On a ledge near the cliff, southwest from the Black Knife Catacombs entrance.",
-        latitude: "0.74961079223864",
-        longitude: "-0.76213585803001",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** At the bottom of the cliff, guarded by a Colossal Bear.",
-        latitude: "0.73220261521348",
-        longitude: "-0.76873443946619",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
-        description:
-          "**Location:** Beside a column left of the pond with the Wandering Mausoleum.",
-        latitude: "0.73875036082605",
-        longitude: "-0.77785193091597",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** By the brazier.",
-        latitude: "0.28915954583509",
-        longitude: "-0.67057860701084",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.28312082451365",
-        longitude: "-0.66653928173483",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Behind the pilar, near the dire wolf",
-        latitude: "0.60629695804201",
-        longitude: "-0.71588760577828",
+          "**Location:** Inside the Ruined Forge Lava Intake - examine the altar after ascending the pipe to the uppermost room",
+        latitude: "0.66041765484903",
+        longitude: "-0.71562074124742",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/d6fa8313-cc2c-4d87-b646-aedc1d744a05.png",
+            url: "https://media.mapgenie.io/storage/media/2f8a6a3a-f35d-42d4-aa20-96d61f4dd0ff.jpg",
             type: "image",
           },
         ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Guarded by 3 Ogres",
-        latitude: "0.73497873620374",
-        longitude: "-0.78042100633772",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
+        description: "**Location:** Dropped by Magma Wyrm",
+        latitude: "0.64915162237705",
+        longitude: "-0.71580638020359",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Under the north-most arch.",
-        latitude: "0.58243400154747",
-        longitude: "-0.73621730265606",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "4x Trina's Lilly",
-        description: "**Location:** In the water",
-        latitude: "0.68688675864396",
-        longitude: "-0.76807535758979",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
+        description:
+          "**Location:** In the chest after taking the elevator to the top of Supressing Pillar",
+        latitude: "0.64682309257277",
+        longitude: "-0.71132920682433",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/860e1d27-a87b-44d3-8ae2-8cfe7a891539.png",
+            url: "https://media.mapgenie.io/storage/media/40b7bdb5-1b2b-4a58-842a-fd560383359a.jpg",
             type: "image",
           },
         ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "2x Trina's Lily",
-        description: "**Location:** Under the bridge, guarded by Rune Bear",
-        latitude: "0.71005775106569",
-        longitude: "-0.79770719514130",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Near some trees, between the cliff and the wall.",
-        latitude: "0.80559466331965",
-        longitude: "-0.71379446739232",
+          "**Location:** Inside Taylew's Ruined Forge - on the corpse on the platform to the north at the top of the pipe",
+        latitude: "0.72081747957567",
+        longitude: "-0.71276378627175",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** In the middle of some trees, left of the cliff.",
-        latitude: "0.79246039821359",
-        longitude: "-0.69383826623883",
+          "**Location:** Inside Taylew's Ruined Forge, find this item in the altar at the top of the pipe on the southern platform",
+        latitude: "0.72225323300437",
+        longitude: "-0.71271904868703",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Between the wall and the ledge.",
-        latitude: "0.80538505561373",
-        longitude: "-0.69583663016817",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
+        description: "**Location:** Dropped by Ancient Dragon Senessax",
+        latitude: "0.62579195478303",
+        longitude: "-0.65117351898593",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On the slope of the ledge.",
-        latitude: "0.78505147404996",
-        longitude: "-0.73253061452937",
+        mapSlug: "the-shadow-realm",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description: "**Location:** Dropped by Ancient Dragon Senessax",
+        latitude: "0.62513393179002",
+        longitude: "-0.65114451739890",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a tree in front of the wall.",
-        latitude: "0.78144692198093",
-        longitude: "-0.73225166481382",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a tree in front of the cliffside.",
-        latitude: "0.80119944319264",
-        longitude: "-0.73219658329012",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Near some trees in front of the wall.",
-        latitude: "0.79562099010715",
-        longitude: "-0.72554470493534",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** between some trees in front of the wall.",
-        latitude: "0.79708999188011",
-        longitude: "-0.72479506030223",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lilly",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** By a tree to the north-west of the Boilprawn Shack",
-        latitude: "0.69109510916461",
-        longitude: "-0.78887283571299",
+          "**Location:** Acquired after examining the altar of the Ruined Forge of Starfall Past. The altar is found on the second level. To reach the altar, you must pull the lever to make the iron door rise, and use it as a platform to jump across to the second level where the altar is.",
+        latitude: "0.67581584036640",
+        longitude: "-0.70899568498334",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "On the cliff, next to the tree under the bushes",
-        latitude: "0.68448397936764",
-        longitude: "-0.80972208806423",
+        mapSlug: "the-shadow-realm",
+        title: "Somber Ancient Dragon Smithing Stone",
+        description: "**Location:** Obtained from the Ghostflame Dragon",
+        latitude: "0.61366234147137",
+        longitude: "-0.71603870469175",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** On lower cliff.  Accessible by jumping up the spiritspring to the south.",
-        latitude: "0.80232412786474",
-        longitude: "-0.75919918844923",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On the cliff beside a ghost tree.",
-        latitude: "0.83652567213770",
-        longitude: "-0.62381501739128",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Against a dead tree in front of the frozen river.",
-        latitude: "0.84232844726053",
-        longitude: "-0.61749880975503",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** At the right of the little bridge.",
-        latitude: "0.83007878858582",
-        longitude: "-0.62622174460691",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On the cliff near a big tree.",
-        latitude: "0.79947836172330",
-        longitude: "-0.64678009545727",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Against a tree in front of the cliff wall.",
-        latitude: "0.80668743134370",
-        longitude: "-0.64366873300568",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Against a tree in front of the cliff.",
-        latitude: "0.79189132920941",
-        longitude: "-0.64635286886030",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On the cliff behind a fallen pillar.",
-        latitude: "0.78281043426956",
-        longitude: "-0.66388648171315",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In a bush at the left of the stairs.",
-        latitude: "0.82710559386121",
-        longitude: "-0.61676297872651",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "On the edge of the pond, guarded by a giant land octopus.",
-        latitude: "0.63529609282160",
-        longitude: "-0.72427654706766",
+          "**Location:** Taylew's Ruined Forge, jump to the left. Continue to the left corridor past 2 golem guards.",
+        latitude: "0.72181699586189",
+        longitude: "-0.71322821080662",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/c374edea-eecf-4ae8-99fe-d3da773c98eb.png",
+            url: "https://media.mapgenie.io/storage/media/81bad493-28b3-4d44-815b-6d30b0b35f00.png",
+            type: "image",
+          },
+          {
+            url: "https://media.mapgenie.io/storage/media/1369b464-f439-4041-84b1-8114ae693d43.png",
             type: "image",
           },
         ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "3x Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** North of the spiritsong jump - guarded by 2 bears",
-        latitude: "0.63920361159870",
-        longitude: "-0.70693666424506",
+          "**Location:** On a corpse inside a cave.  Follow the Spiritspring jumps from the Jagged Peak Mountainside site of grace and continue past the dead dragons.  Protected by Red Fulgurbloom Slimes.",
+        latitude: "0.63293274521887",
+        longitude: "-0.64994431343590",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/c94ee7ac-2779-4090-92da-ed55ea2181b6.png",
+            url: "https://media.mapgenie.io/storage/media/3ff8e71d-a927-4401-b9e3-d0eed43bc07e.png",
             type: "image",
           },
         ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In front of a tree on the ledge.",
-        latitude: "0.83834985478407",
-        longitude: "-0.60987838481566",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Behind the sleeping Rune Bear.",
-        latitude: "0.84191390546846",
-        longitude: "-0.67629893505355",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Somber Ancient Dragon Smithing Stone",
         description:
-          "**Location:** On a small ledge in front of the cliff wall.",
-        latitude: "0.83423787334219",
-        longitude: "-0.60435220753843",
+          "From this nearby Ancient Smithing Stone head back towards the edge with the spirit spring jump. Looking to the right you will see a ledge you can drop down to. Follow it to it's end and you will find the Somber Ancient Dragon Smithing Stone.",
+        latitude: "0.63193410446483",
+        longitude: "-0.65080990876990",
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "In area with two Giant Octopi",
-        latitude: "0.83291767116621",
-        longitude: "-0.64120039784655",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.81881553544916",
-        longitude: "-0.65784893042203",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.83136335766613",
-        longitude: "-0.67496944168730",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "13x Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Somber Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Gathered at the right of the Apostate Derelict, with some Jellyfish around.",
-        latitude: "0.85692440605146",
-        longitude: "-0.66743336052878",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In front of the cliff wall, near a bush.",
-        latitude: "0.84640940086561",
-        longitude: "-0.64659355091126",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Next to the two Scarab and the Arteria Leaf.",
-        latitude: "0.83781750980565",
-        longitude: "-0.63922507942678",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** In front of the cliff wall, beside the Portal.",
-        latitude: "0.83154179435351",
-        longitude: "-0.63758045162865",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "**Location:** Follow the cliff wall to the left after exiting Hidden Path to the Haligtree.",
-        latitude: "0.80728167931164",
-        longitude: "-0.65414229825780",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** In front of the rock wall on the path.",
-        latitude: "0.83527580494774",
-        longitude: "-0.63256225644426",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** On a ledge under a tilted trunk.",
-        latitude: "0.83727374622393",
-        longitude: "-0.67399068317937",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** Next to a large rock.",
-        latitude: "0.27964152163386",
-        longitude: "-0.67110019429455",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "",
-        latitude: "0.28770819737074",
-        longitude: "-0.68251389432479",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Behind the Giant-Conquering Hero's Grave",
-        latitude: "0.80686102416104",
-        longitude: "-0.64204134529018",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.81324260545850",
-        longitude: "-0.78434382767963",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "On a ledge against the cliff near the spiritspring jump",
-        latitude: "0.58353532836240",
-        longitude: "-0.71181155618820",
+          "**Location:** Down the elevator just before the Cleansing Chamber Anteroom Site of Grace, guarded by a Curseblade.",
+        latitude: "0.68689526233317",
+        longitude: "-0.76067179441196",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/a246107d-59a2-470a-a149-60109c1e94c3.png",
+            url: "https://media.mapgenie.io/storage/media/eb93590d-a544-4232-a35b-b231fd1d20a5.jpeg",
             type: "image",
           },
         ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "In the bush, just before the cliff edge.",
-        latitude: "0.29381279424173",
-        longitude: "-0.66964325212984",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.65213306737718",
-        longitude: "-0.70668429136390",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Behind pile of stone next to the rune",
-        latitude: "0.27957664920893",
-        longitude: "-0.68125662081226",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina\u2019s Lily",
-        latitude: "0.84396339058692",
-        longitude: "-0.62025962263829",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "**Location:** By Land Octopus",
-        latitude: "0.28646378312204",
-        longitude: "-0.67512457501530",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.64095274469915",
-        longitude: "-0.75287693987252",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily x2",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "Accessed by jumping on crates, then wall from area with 2 knights. Accessible by ladder through route in courtyard that leads to stonesword imp statue",
-        latitude: "0.64353692432660",
-        longitude: "-0.74776436786422",
+          "**Location:** Along the Spiritspring Jumps path, before the Site of Grace.",
+        latitude: "0.62937614394399",
+        longitude: "-0.64498294473765",
+        media: [
+          {
+            url: "https://media.mapgenie.io/storage/media/9cbb83e1-d62e-405e-8075-252f168af005.jpg",
+            type: "image",
+          },
+        ],
       },
       {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
+        mapSlug: "the-shadow-realm",
+        title: "Ancient Dragon Smithing Stone",
         description:
-          "**Location:** Next to the small erdtree with the golden seed.",
-        latitude: "0.64604999503166",
-        longitude: "-0.74831795135779",
+          "**Location:** Taylew's Ruined Forge - Beyond the 2nd platform, on the left, on a corpse slumped over the balcony.",
+        latitude: "0.72164659138383",
+        longitude: "-0.71245559999028",
         media: [
           {
-            url: "https://media.mapgenie.io/storage/media/369c563a-0670-4186-91e7-2c77697396e9.png",
+            url: "https://media.mapgenie.io/storage/media/a4c20b6b-0de8-4358-b4c7-4990f20e9077.jpg",
             type: "image",
           },
         ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "After the secret jump from the jar area.",
-        latitude: "0.64745965001303",
-        longitude: "-0.75263255506047",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/f5eaee67-4112-4810-930b-f3ecc0975645.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "On the hidden path after the fire grease. Behind a rock.",
-        latitude: "0.63548596770231",
-        longitude: "-0.74740294000912",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/44aac94c-54bf-4c2e-a4c6-237cbffa32e5.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "On cliffside",
-        latitude: "0.58592318152625",
-        longitude: "-0.71936017515077",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily x2",
-        latitude: "0.61364636411990",
-        longitude: "-0.71604061170683",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/7a7a2063-8f86-4888-872f-dd82d5c33298.jpg",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.64275108660138",
-        longitude: "-0.71114621265130",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "Collect after killing the Rune Bear",
-        latitude: "0.59085626787193",
-        longitude: "-0.70648343480028",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        latitude: "0.76850950274755",
-        longitude: "-0.72864467960144",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Outside of the castle next to a bush.",
-        latitude: "0.85488855969770",
-        longitude: "-0.62461148010902",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lilly",
-        description: "On the the ledge above the Gatefront grace.",
-        latitude: "0.63214313083651",
-        longitude: "-0.72262893666351",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description: "Hidden in the bushes on the small island",
-        latitude: "0.72243091920184",
-        longitude: "-0.78989602561044",
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "Behind the small cliff edge, next to the raised rock with a perched owl.",
-        latitude: "0.63427502548382",
-        longitude: "-0.69096766824288",
-        media: [
-          {
-            url: "https://media.mapgenie.io/storage/media/f581dc90-d9ec-40c2-a6b0-fa5a89cb0137.png",
-            type: "image",
-          },
-        ],
-      },
-      {
-        mapSlug: "the-lands-between",
-        title: "Trina's Lily",
-        description:
-          "Under some bushes near Golden Rune [4]. Left side after Invasion Boss Moongrum",
-        latitude: "0.71867021027155",
-        longitude: "-0.80149332135704",
       },
     ],
   },

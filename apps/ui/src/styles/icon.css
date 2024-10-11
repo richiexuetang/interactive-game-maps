@@ -312,23 +312,8 @@
     color: #fff;
 }
 
-.icon-perfume_bottle:before {
-    content: "\e224";
-    color: #fff;
-}
-
 .icon-painting:before {
     content: "\e225";
-    color: #fff;
-}
-
-.icon-nascient_butterfly:before {
-    content: "\e226";
-    color: #fff;
-}
-
-.icon-multiplayer_item:before {
-    content: "\e227";
     color: #fff;
 }
 
@@ -360,11 +345,6 @@
 
 .icon-memory_stone:before {
     content: "\e22e";
-    color: #fff;
-}
-
-.icon-martyr_effigy:before {
-    content: "\e22f";
     color: #fff;
 }
 

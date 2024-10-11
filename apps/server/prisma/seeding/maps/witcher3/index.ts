@@ -616,7 +616,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Devil by the Well",
               description:
-                "_Warning: Unavailable after starting On Thin Ice (Main Quest, Act III)._\n\n**Quest Giver:** Odolan or [Notice Board](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19419)\n\n**Level:** 2\n\nMalicious beings usually haunt the ruins of castles, fortresses or, as a last resort, towers. The wraith of White Orchard, however, chose a much more quotidian site for its haunting: a well. A White Orchard peasant by the name of Odolan wanted someone to chase off the phantom and Geralt accepted the job.\n\n**Rewards:**\n- Kill Contract & Accept Reward\n    - 50 XP\n    - 20 x Crowns\n- Kill Contract & Refuse Reward\n    - 50 XP\n    - Amethyst\n\n_Note: After completing the contract, speak to [Tomira](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19417) for additional rewards._",
+                "_Warning: Unavailable after starting On Thin Ice (Main Quest, Act III)._\n\n**Quest Giver:** Odolan or [Notice Board for additional rewards._",
               latitude: "83.93206335365000",
               longitude: "-168.35122019458000",
             },
@@ -702,7 +702,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Doors Slamming Shut",
               description:
-                "Read the note on the [Hierarch Square Notice Board](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19766) and then speak to Count Kurt Dysart",
+                "Read the note on the [Hierarch Square Notice Board and then speak to Count Kurt Dysart",
               latitude: "83.94764420731800",
               longitude: "-168.37469260463000",
             },
@@ -753,7 +753,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Contract: The Apiarian Phantom",
               description:
-                "**Quest Giver:** Read the notice on the [Yantra Notice Board](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19770)    \n**Level:** 14  \n**Rewards:**  \n- XP\n- Wild Hunt hound trophy",
+                "**Quest Giver:** Read the notice on the [Yantra Notice Board    \n**Level:** 14  \n**Rewards:**  \n- XP\n- Wild Hunt hound trophy",
               latitude: "83.95947500897200",
               longitude: "-168.26819352177000",
             },
@@ -915,7 +915,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Ghoul Cave",
               description:
-                "Note: Relevant to [Another Quest](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=30633), so avoid if you want to encounter it naturally.",
+                "Note: Relevant to Another Quest, so avoid if you want to encounter it naturally.",
               latitude: "83.87806158743162",
               longitude: "-168.13785015471973",
             },
@@ -1598,7 +1598,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Guarded Treasure",
               description:
-                "Underground. In the White Orchard cemetery.\n\n**Monsters:** Wraith  \n**Loot:**\n- [Serpentine Silver Sword](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=30619)",
+                "Underground. In the White Orchard cemetery.\n\n**Monsters:** Wraith  \n**Loot:**\n- [Serpentine Silver Sword",
               latitude: "83.95723813822000",
               longitude: "-168.33331281216000",
             },
@@ -2994,8 +2994,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Person in Distress",
-              description:
-                "This merchant will move to [Claywich](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19507) once rescued",
+              description: "This merchant will move to Claywich once rescued",
               latitude: "83.89048738447200",
               longitude: "-168.37329732523000",
             },
@@ -3017,15 +3016,14 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Person in Distress",
               description:
-                "Will become the [Armorer](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=30643) in [Mulbrydale](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19359) after being rescued\n\n**Enemies:** Lvl 14 Nilfgaardian Deserters",
+                "Will become the Armorer after being rescued\n\n**Enemies:** Lvl 14 Nilfgaardian Deserters",
               latitude: "83.90858815573900",
               longitude: "-168.36111939636000",
             },
             {
               mapSlug: "skellige",
               title: "Person in Distress",
-              description:
-                "**Person:** [Herbalist](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30555)",
+              description: "**Person:** [Herbalist",
               latitude: "83.91521603143400",
               longitude: "-168.11724260127000",
             },
@@ -3207,8 +3205,7 @@ export const witcher3 = {
             {
               mapSlug: "skellige",
               title: "Place of Power - Igni",
-              description:
-                "Underground. Inside the [Ancient Crypt](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29549)",
+              description: "Underground. Inside the Ancient Crypt",
               latitude: "83.93452827338200",
               longitude: "-168.19328069687000",
             },
@@ -3552,7 +3549,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Guarded Portal",
               description:
-                "Guarded by a level 50 mini boss that appears after activating all three switches in the area:\n\n- [Switch #1](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=248628)\n- [Switch #2](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=248629)\n- [Switch #3](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=248626)",
+                "Guarded by a level 50 mini boss that appears after activating all three switches in the area:\n\n- [Switch #1",
               latitude: "83.87326748646700",
               longitude: "-168.18630891683000",
             },
@@ -4823,7 +4820,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Ancient Crypt",
               description:
-                "Accessible by climbing down the mountain from [Fort Etnir](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30538) (or by sea)",
+                "Accessible by climbing down the mountain from [Fort Etnir",
               latitude: "83.93695552371200",
               longitude: "-168.17898452282000",
             },
@@ -5853,7 +5850,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Gremist",
               description:
-                "**Note:** Will only become available after completing [Practicum in Advanced Alchemy](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30549)",
+                "**Note:** Will only become available after completing [Practicum in Advanced Alchemy",
               latitude: "83.92467864097800",
               longitude: "-168.02431554889000",
             },
@@ -5883,8 +5880,7 @@ export const witcher3 = {
             {
               mapSlug: "white-orchard",
               title: "Willis",
-              description:
-                "Must complete [Twisted Firestarter](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19472) to unlock Willis as an armorer. \n\n**Warning:** The secondary quest will automatically fail if not completed before Geralt leaves White Orchard for Vizima, after completing [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373).",
+              description: "Must complete Twisted Firestarter.",
               latitude: "83.93010595829400",
               longitude: "-168.30685615540000",
             },
@@ -5921,7 +5917,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Amateur Armorer",
               description:
-                "Only appears after being [rescued from the south-west](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=30639)",
+                "Only appears after being [rescued from the south-west",
               latitude: "83.91417007418400",
               longitude: "-168.31652155327000",
             },
@@ -6206,7 +6202,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Hattari - Master Blacksmith",
               description:
-                "**Note:** Must complete _[Of Swords and Dumplings](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=30518)_ in order to unlock.",
+                "**Note:** Must complete _[Of Swords and Dumplings_ in order to unlock.",
               latitude: "83.94259913232200",
               longitude: "-168.39317229494000",
             },
@@ -6577,7 +6573,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Aldert Geert",
               description:
-                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)._\n\n**Gwent Deck:** Nilfgaardian Empire\n\n**Reward:** [Zoltan Chivay](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=180896) (Gwent Card)",
+                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries",
               latitude: "83.93365245753200",
               longitude: "-168.27832281589000",
             },
@@ -6632,7 +6628,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Gwent Player",
               description:
-                "**Player:** [Loan Shark](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20056)  \n**Gwent Card:** Vanhemar",
+                "**Player:** [Loan Shark  \n**Gwent Card:** Vanhemar",
               latitude: "83.94860765722808",
               longitude: "-168.33142457981808",
             },
@@ -6654,8 +6650,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Gwent Player",
-              description:
-                "[Shopkeeper](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20054)",
+              description: "[Shopkeeper",
               latitude: "83.94560217598054",
               longitude: "-168.35126437992892",
             },
@@ -6670,7 +6665,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Innkeep",
               description:
-                "**Player:** [Innkeep](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20086)  \n**Gwent Card:** Vattier De Rideaux",
+                "**Player:** [Innkeep  \n**Gwent Card:** Vattier De Rideaux",
               latitude: "83.94320624251338",
               longitude: "-168.28181331232850",
             },
@@ -6758,7 +6753,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Gwent Player - Scoia'tael Merchant",
               description:
-                "**Player:** [Scoia'tael Merchant](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20421)  \n**Unique Gwent Cards:** Francesca Findabair, Cirilla Fiona Elen Riannon",
+                "**Player:** [Scoia'tael Merchant  \n**Unique Gwent Cards:** Francesca Findabair, Cirilla Fiona Elen Riannon",
               latitude: "83.93826812915495",
               longitude: "-168.45975705696890",
             },
@@ -7228,7 +7223,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "Gwent Player - The Pheasantry Innkeep",
               description:
-                "**Gwent Deck:** Monsters\n\n**Leader Card:** ??\n\n**Reward:**[Draig Bon-Dhu](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=216006)",
+                "**Gwent Deck:** Monsters\n\n**Leader Card:** ??\n\n**Reward:**Draig Bon-Dhu",
               latitude: "83.88062121076700",
               longitude: "-168.16678953699000",
             },
@@ -7236,7 +7231,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "Gwent Player - Rafael de Surmann",
               description:
-                "**Gwent Deck:** Nilfgaardian Empire \n\n**Leader Card:** ??\n\n**Reward:**  [King Bran](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=216016)",
+                "**Gwent Deck:** Nilfgaardian Empire \n\n**Leader Card:** ??\n\n**Reward:**  [King Bran",
               latitude: "83.88356094301900",
               longitude: "-168.15914850488000",
             },
@@ -7260,7 +7255,7 @@ export const witcher3 = {
               mapSlug: "fablesphere",
               title: "Gwent Player - Little Flint Girl",
               description:
-                "**Gwent Deck:** ??\n\n**Leader Card:** ??\n\n**Reward:** [Syanna's Ribbon](https://mapgenie.io/witcher-3/maps/fablesphere?locationIds=216177)",
+                "**Gwent Deck:** ??\n\n**Leader Card:** ??\n\n**Reward:** [Syanna's Ribbon",
               latitude: "83.92340951253700",
               longitude: "-168.50526664166000",
             },
@@ -7281,7 +7276,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Herbalist",
               description:
-                "Only appears after defeating the Ghouls and Alghouls nearby.\n\n**Formulas:**  \n- [White Gull](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=221070)\n- [Dwarven Spirit](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=221071)",
+                "Only appears after defeating the Ghouls and Alghouls nearby.\n\n**Formulas:**  \n- [White Gull",
               latitude: "83.91747068026100",
               longitude: "-168.15275314791000",
             },
@@ -8071,8 +8066,7 @@ export const witcher3 = {
             {
               mapSlug: "fablesphere",
               title: "Little Flint Girl",
-              description:
-                "**Notable Items:**\n- [Syanna's Ribbon](https://mapgenie.io/witcher-3/maps/fablesphere?locationIds=216177)",
+              description: "**Notable Items:**\n- [Syanna's Ribbon",
               latitude: "83.92342756348900",
               longitude: "-168.50028634071000",
             },
@@ -8623,7 +8617,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Hidden Treasure",
               description:
-                "**Location:** Inside the [Ancient Crypt](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29549), in the middle area near a Venomous Arachas.  \n**Level:** 28  \n**Monsters:** Venomous Arachas  (also trap spikes)\n**Quest Items:**\n- Elven-made Key (found on a body impaled on the spikes)  \n\n**Rewards:**\n- ??\n\n**Tip:** Use your Witcher senses to detect where the spikes are in the trap room.",
+                "**Location:** Inside the Ancient Crypt  \n\n**Rewards:**\n- ??\n\n**Tip:** Use your Witcher senses to detect where the spikes are in the trap room.",
               latitude: "83.93351583023900",
               longitude: "-168.17741274834000",
             },
@@ -8652,8 +8646,7 @@ export const witcher3 = {
             {
               mapSlug: "kaer-morhen",
               title: "Hidden Treasure",
-              description:
-                "Inside the [Silver Sword Cave](https://mapgenie.io/witcher-3/maps/kaer-morhen?locationIds=22379)",
+              description: "Inside the [Silver Sword Cave",
               latitude: "83.92046522405369",
               longitude: "-168.07363807076638",
             },
@@ -8762,7 +8755,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "Treasure Hunt: Spoontaneous Profits!",
               description:
-                "Enter the [Trastamara Estate Ruins](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=215953) and pick up the Spoon Key to begin.\n\n**Level:** 42  \n**Monsters:** Beann'shie  \n**Quest Items:**\n- Spoon Key\n\n**Rewards:**\n- ??",
+                "Enter the Trastamara Estate Ruins and pick up the Spoon Key to begin.\n\n**Level:** 42  \n**Monsters:** Beann'shie  \n**Quest Items:**\n- Spoon Key\n\n**Rewards:**\n- ??",
               latitude: "83.86474961133000",
               longitude: "-167.76649798130000",
             },
@@ -8799,7 +8792,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Lilac and Gooseberries",
               description:
-                '**Previous:** Kaer Morhen\n\n**Level:** 1\n\nYennefer had contacted Geralt\u2014finally. They had not seen each other in years. And then she\'d sent him a letter, smelling of lilac and gooseberries, of course, asking him to meet her in the village of Willoughby. "About a matter of great importance," she had written.\n\n**Rewards:**\n- 250 XP\n\n**Next:** [The Beast of White Orchard](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=180893)',
+                '**Previous:** Kaer Morhen\n\n**Level:** 1\n\nYennefer had contacted Geralt\u2014finally. They had not seen each other in years. And then she\'d sent him a letter, smelling of lilac and gooseberries, of course, asking him to meet her in the village of Willoughby. "About a matter of great importance," she had written.\n\n**Rewards:**\n- 250 XP\n\n**Next:** The Beast of White Orchard',
               latitude: "83.93789997986600",
               longitude: "-167.94593811035000",
             },
@@ -8807,15 +8800,14 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "The Incident in White Orchard",
               description:
-                "**Previous:** [The Beast at White Orchard](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=180893)\n\n**Level:** 2\n\nWhile searching for Yennefer, Geralt and Vesemir stopped by the tavern in the village of White Orchard. When a row erupted in the establishment soon afterwards, Vesemir decided to defend the besieged innkeep.\n\n**Rewards:**\n- 300 XP\n\n**Next:** Imperial Audience",
+                "**Previous:** The Beast at White Orchard\n\n**Level:** 2\n\nWhile searching for Yennefer, Geralt and Vesemir stopped by the tavern in the village of White Orchard. When a row erupted in the establishment soon afterwards, Vesemir decided to defend the besieged innkeep.\n\n**Rewards:**\n- 300 XP\n\n**Next:** Imperial Audience",
               latitude: "83.93282641091000",
               longitude: "-168.25870513916000",
             },
             {
               mapSlug: "white-orchard",
               title: "The Beast of White Orchard",
-              description:
-                "**Previous:** [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)\n\n**Level:** 2\n\nThe commander of the Nilfgaardian garrison in White Orchard knew where Yennefer had gone. Shrewdly, he was unwilling to share this information for free. A man with substantial experience, he knew full well Geralt would do anything to find the sorceress. As luck would have it, there was a griffin about, a beast the commander's soldiers had been unable to hunt down. The commander could demand but one thing: the monster's head in exchange for his help.\n\n**Rewards:**\n- 300 XP\n\n**Next:** [The Incident at White Orchard](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=180892)",
+              description: "**Previous:** [Lilac and Gooseberries",
               latitude: "83.95820093594200",
               longitude: "-168.55650920370000",
             },
@@ -8932,7 +8924,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "A Frying Pan, Spick and Span",
               description:
-                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)._\n\n**Guest Giver:** Old Woman\n\n**Level:** N/A\n\nMany think that the life of a witcher consists of nothing but adventure after grand adventure, an endless stream of contracts on manticores, bruxae and other exotic beasts. In truth, Geralt would often take on more banal tasks, ones lesser bards fear mentioning, for they lack the skill required to make a masterwork of the mundane. By way of example, once in White Orchard he was hired to retrieve a woman's... frying pan.\n\n**Rewards:**\n- 10 XP\n- 5 x Baked Apple\n- 5 x Bread\n- 5 x Apple Juice",
+                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries._\n\n**Guest Giver:** Old Woman\n\n**Level:** N/A\n\nMany think that the life of a witcher consists of nothing but adventure after grand adventure, an endless stream of contracts on manticores, bruxae and other exotic beasts. In truth, Geralt would often take on more banal tasks, ones lesser bards fear mentioning, for they lack the skill required to make a masterwork of the mundane. By way of example, once in White Orchard he was hired to retrieve a woman's... frying pan.\n\n**Rewards:**\n- 10 XP\n- 5 x Baked Apple\n- 5 x Bread\n- 5 x Apple Juice",
               latitude: "83.93862364079600",
               longitude: "-168.38469915146000",
             },
@@ -8940,7 +8932,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Precious Cargo",
               description:
-                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)._\n\n**Guest Giver:** Forlorn Merchant\n\n**Level:** N/A\n\nThe merchant Geralt found standing by the side of the road in White Orchard was extremely distraught. He had been hauling some precious goods to the Nilfgaardian camp when his horse spooked and veered off the road, pulling the merchant's cart with it and dumping the whole works in the foggy swamp outside the camp.\n\n**Rewards:**\n- Let Merchant Go & Keep Box\n    - 10 XP\n    - 50 x Crowns\n    - 5 x Celandine\n    - 4 x White Myrtle\n- Let Merchant Go & Return Box\n    - 10 XP\n    - 30 x Crowns\n- Turn In Merchant\n    - 10 XP\n    - 30 x Crowns",
+                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries._\n\n**Guest Giver:** Forlorn Merchant\n\n**Level:** N/A\n\nThe merchant Geralt found standing by the side of the road in White Orchard was extremely distraught. He had been hauling some precious goods to the Nilfgaardian camp when his horse spooked and veered off the road, pulling the merchant's cart with it and dumping the whole works in the foggy swamp outside the camp.\n\n**Rewards:**\n- Let Merchant Go & Keep Box\n    - 10 XP\n    - 50 x Crowns\n    - 5 x Celandine\n    - 4 x White Myrtle\n- Let Merchant Go & Return Box\n    - 10 XP\n    - 30 x Crowns\n- Turn In Merchant\n    - 10 XP\n    - 30 x Crowns",
               latitude: "83.94790322637600",
               longitude: "-168.51851463318000",
             },
@@ -8948,7 +8940,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Twisted Firestarter",
               description:
-                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)._\n\n**Guest Giver:** [Willis](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19459) or [Notice Board](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19419)\n\n**Level:** N/A\n\nThere were only a handful of nonhumans in White Orchard. One of them was the dwarf Willis, an excellent blacksmith whose wares attracted peasants from far and wide. Sadly, his forge had burned to the ground shortly before Geralt arrived. Willis suspected the fire had been started deliberately and asked the witcher to investigate this alleged arson.\n\n**Rewards:**\n- 50 XP\n- 20 x Crowns\n- Unlocks Blacksmith",
+                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries\n\n**Level:** N/A\n\nThere were only a handful of nonhumans in White Orchard. One of them was the dwarf Willis, an excellent blacksmith whose wares attracted peasants from far and wide. Sadly, his forge had burned to the ground shortly before Geralt arrived. Willis suspected the fire had been started deliberately and asked the witcher to investigate this alleged arson.\n\n**Rewards:**\n- 50 XP\n- 20 x Crowns\n- Unlocks Blacksmith",
               latitude: "83.93040772359500",
               longitude: "-168.30771446228000",
             },
@@ -8956,7 +8948,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Missing in Action",
               description:
-                '_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)._\n\n**Guest Giver:** Dune or [Notice Board](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19419): "Brother Missing"\n\n**Level:** N/A\n\nGeralt was far from the only person in White Orchard looking for a lost loved one. War had divided many families, including that of a certain villager whose brother went missing after the last big battle.\n\n**Rewards:**\n- 25 XP\n- 25 x Crowns',
+                '_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries: "Brother Missing"\n\n**Level:** N/A\n\nGeralt was far from the only person in White Orchard looking for a lost loved one. War had divided many families, including that of a certain villager whose brother went missing after the last big battle.\n\n**Rewards:**\n- 25 XP\n- 25 x Crowns',
               latitude: "83.92405672415600",
               longitude: "-167.98112869263000",
             },
@@ -8964,7 +8956,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "On Death's Bed",
               description:
-                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=20373)._\n\n**Guest Giver:** [Tomira](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19417)\n\n**Level:** 2\n\nOnce again Geralt had a near impossible choice to make\u2014a choice between a greater and lesser evil. While preparing to hunt the griffin, he had come across one of the beast's victims\u2014a simple peasant woman named Lena. She had been on her way to meet her lover when the griffin attacked. The beast had mortally wounded her. A witcher's potion could save her life... or cause her to perish in agony.\n\n**Rewards:**\n- 350 XP\n- 50 x Crowns\n- Formula: Cursed Oil\n- Book: [Of Sweat and Blood](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=180895)",
+                "_Warning: Unavailable after Geralt leaves for Vizima at the end of [Lilac and Gooseberries",
               latitude: "83.93308948802100",
               longitude: "-168.46909761429000",
             },
@@ -9291,7 +9283,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Last Rites",
               description:
-                "**Given By:** Crying Old Woman (Appears at NIGHT only)\n\n**Prerequisite:** Complete [Defenders of the Faith](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19685)\n\n**Level:** 9\n\n**Rewards:** 25xp & 20 Crowns\n\n**Note:** Return to the grave afterwards with the magic lamp to receive another 25xp",
+                "**Given By:** Crying Old Woman (Appears at NIGHT only)\n\n**Prerequisite:** Complete Defenders of the Faith\n\n**Level:** 9\n\n**Rewards:** 25xp & 20 Crowns\n\n**Note:** Return to the grave afterwards with the magic lamp to receive another 25xp",
               latitude: "83.90707821682400",
               longitude: "-168.56827353537000",
             },
@@ -9451,7 +9443,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Love's Cruel Snares",
               description:
-                "**Guest Giver:** Crying woman near the [Abandoned Boatyard](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=215880)  \n**Level:** 10  \n**Prerequisite:** Clear out the bandits west of the [Abandoned Boatyard](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=215880) where the [Diagram: Griffin Steel Sword - Enhanced](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=215885) is located\n\n**Rewards:** \n- ??",
+                "**Guest Giver:** Crying woman near the Abandoned Boatyard is located\n\n**Rewards:** \n- ??",
               latitude: "83.89165223817000",
               longitude: "-168.67034574639000",
             },
@@ -9563,7 +9555,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "The Soldier Statuette",
               description:
-                "**Guest Giver:** Obtained when entering the secret room in [Caeser Bilzen's House](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=30523) during [A Dangerous Game](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=154532).   \n**Level:** 14  \n**Rewards:** \n- ??\n\n**Note:** Requires Triss Merigold",
+                "**Guest Giver:** Obtained when entering the secret room in Caeser Bilzen's House.   \n**Level:** 14  \n**Rewards:** \n- ??\n\n**Note:** Requires Triss Merigold",
               latitude: "83.94634372558300",
               longitude: "-168.37264777109000",
             },
@@ -9643,7 +9635,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Hazardous Goods (Part 2)",
               description:
-                "**Guest Giver:** Gert Borel\n\nA few weeks after completing the [first part of the quest](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19752), you'll get a small side quest here.",
+                "**Guest Giver:** Gert Borel\n\nA few weeks after completing the [first part of the quest, you'll get a small side quest here.",
               latitude: "83.89659835299900",
               longitude: "-168.13418811064000",
             },
@@ -9659,7 +9651,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Ghosts of the Past",
               description:
-                "**Guest Giver:** Dolores\n\n**Level:** 6\n\nThis quest can only be triggered if when importing a save or setting facts for Witcher 2, Letho was spared.\n\nSlightly changes the outcome of [The Fall of the House of Reardon](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19749), but can be done independently.",
+                "**Guest Giver:** Dolores\n\n**Level:** 6\n\nThis quest can only be triggered if when importing a save or setting facts for Witcher 2, Letho was spared.\n\nSlightly changes the outcome of The Fall of the House of Reardon, but can be done independently.",
               latitude: "83.89643267048300",
               longitude: "-168.19289183493000",
             },
@@ -9990,7 +9982,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "There Can Be Only One",
               description:
-                '**Guest Giver:** Read the notice entitled  "Test Yourself with the Trials of the Virtues!" on the [Beauclair Notice Board](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=29771).  \n**Level:** 43  \n**Rewards:** \n- ??',
+                '**Guest Giver:** Read the notice entitled  "Test Yourself with the Trials of the Virtues!" on the Beauclair Notice Board.  \n**Level:** 43  \n**Rewards:** \n- ??',
               latitude: "83.88310334674700",
               longitude: "-168.13552293609000",
             },
@@ -10006,7 +9998,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "Till Death Do You Part",
               description:
-                "**Guest Giver:** [The Clever Clogs Tavern Innkeep](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=216001)  \n**Level:** ??  \n**Rewards:** \n- ??",
+                "**Guest Giver:** The Clever Clogs Tavern Innkeep  \n**Level:** ??  \n**Rewards:** \n- ??",
               latitude: "83.87642370729200",
               longitude: "-168.12900630833000",
             },
@@ -10014,7 +10006,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "Goodness, Gracious, Great Balls of Granite!",
               description:
-                "**Guest Giver:** Speak to Rolande in [Lolivier Square](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=216022)    \n**Level:** 36  \n**Rewards:** \n- ??",
+                "**Guest Giver:** Speak to Rolande in [Lolivier Square    \n**Level:** 36  \n**Rewards:** \n- ??",
               latitude: "83.88255182353200",
               longitude: "-168.11981136235000",
             },
@@ -10046,7 +10038,7 @@ export const witcher3 = {
               mapSlug: "fablesphere",
               title: "Duck, Duck, Goosed!",
               description:
-                "**Guest Giver:** Obtained from the [Snowy Village Notice Board](https://mapgenie.io/witcher-3/maps/fablesphere?locationIds=216178)  \n**Level:** 47  \n**Rewards:** \n- Golden Egg (gives +1 ability point when eaten)",
+                "**Guest Giver:** Obtained from the [Snowy Village Notice Board",
               latitude: "83.92337316903600",
               longitude: "-168.51436469464000",
             },
@@ -10083,7 +10075,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Of Sweat and Blood",
               description:
-                "Reward for completing [On Death's Bed](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19478).\n\nUnlocks bestiary entries:\n- Nightwraith\n- Noonwraith\n- Plague Maiden",
+                "Reward for completing [On Death's Bed.\n\nUnlocks bestiary entries:\n- Nightwraith\n- Noonwraith\n- Plague Maiden",
               latitude: "83.93354497667500",
               longitude: "-168.47440733601000",
             },
@@ -10105,7 +10097,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Yellowed Diary",
               description:
-                "**Related Quest:** [Devil by the Well](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19473) (Witcher Contract)\n\nInside the house, on the bed.",
+                "**Related Quest:** Devil by the Well\n\nInside the house, on the bed.",
               latitude: "83.91463222028700",
               longitude: "-168.27697332726000",
             },
@@ -10910,7 +10902,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Crumpled Letter",
               description:
-                "[Kingfisher Inn Sewers](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20042) - on a corpse near the rat feeding ground.",
+                "[Kingfisher Inn Sewers - on a corpse near the rat feeding ground.",
               latitude: "83.94706926082593",
               longitude: "-168.38851699748090",
             },
@@ -11116,16 +11108,14 @@ export const witcher3 = {
             {
               mapSlug: "skellige",
               title: "The knight Chalimir's letter",
-              description:
-                "Found with the [Ursine Silver Sword](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29516) in [Fort Etnir](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30538)",
+              description: "Found with the [Ursine Silver Sword",
               latitude: "83.93514750402500",
               longitude: "-168.15711379051000",
             },
             {
               mapSlug: "skellige",
               title: "Arrest warrant for the witcher Gerd",
-              description:
-                "Found with the [Ursine Steel Sword - Enhanced](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29492)",
+              description: "Found with the [Ursine Steel Sword - Enhanced",
               latitude: "83.93525166791600",
               longitude: "-168.15737138334000",
             },
@@ -11232,7 +11222,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Chest",
               description:
-                "Enter through the [Underwater Entrance](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19452) and swim until you reach the first large cave. Swim to the bottom of the water.",
+                "Enter through the [Underwater Entrance and swim until you reach the first large cave. Swim to the bottom of the water.",
               latitude: "83.91632570389700",
               longitude: "-168.27785514679000",
             },
@@ -11873,8 +11863,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Good Chest",
-              description:
-                "Inside the [Spawning Pools](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19805) cave.",
+              description: "Inside the [Spawning Pools cave.",
               latitude: "83.88163292512874",
               longitude: "-168.26698284659903",
             },
@@ -11951,7 +11940,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Relic Chest - Assassin's Boots",
               description:
-                "Inside the basement of [Rudolf de Jonkheer's House](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20031). You need to blast the wall down.",
+                "Inside the basement of [Rudolf de Jonkheer's House. You need to blast the wall down.",
               latitude: "83.94542525992611",
               longitude: "-168.36119175282624",
             },
@@ -12153,39 +12142,35 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "6 x Good Chest",
               description:
-                "[Kingfisher Inn Sewers](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20042) - after the rat feeding ground. Up some steps. Near the area with the small fire and mattress.",
+                "[Kingfisher Inn Sewers - after the rat feeding ground. Up some steps. Near the area with the small fire and mattress.",
               latitude: "83.94706926082594",
               longitude: "-168.38551292338423",
             },
             {
               mapSlug: "velen-novigrad",
               title: "Good Chest",
-              description:
-                "[Kingfisher Inn Sewers](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20042)",
+              description: "[Kingfisher Inn Sewers",
               latitude: "83.94663934194968",
               longitude: "-168.39289267147802",
             },
             {
               mapSlug: "velen-novigrad",
               title: "2 x Good Chest",
-              description:
-                "[Kingfisher Inn Sewers](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20042) - In the Katakan chamber",
+              description: "[Kingfisher Inn Sewers - In the Katakan chamber",
               latitude: "83.94750833452190",
               longitude: "-168.41245230189458",
             },
             {
               mapSlug: "velen-novigrad",
               title: "Good Chest",
-              description:
-                "At the entrance to the [Kingfisher Inn Sewers](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20042).",
+              description: "At the entrance to the [Kingfisher Inn Sewers.",
               latitude: "83.94702812719272",
               longitude: "-168.41378818939188",
             },
             {
               mapSlug: "velen-novigrad",
               title: "Good Chest",
-              description:
-                "At the entrance to the [Kingfisher Inn Sewers](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=20042).",
+              description: "At the entrance to the [Kingfisher Inn Sewers.",
               latitude: "83.94708243093870",
               longitude: "-168.41355339587722",
             },
@@ -12672,7 +12657,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Good Chest",
               description:
-                "Inside the [Water Hag Cave](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29936). In the area with the corpses and the boat",
+                "Inside the [Water Hag Cave. In the area with the corpses and the boat",
               latitude: "83.92562332070521",
               longitude: "-168.24437583512088",
             },
@@ -12680,7 +12665,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Superior Chest",
               description:
-                "Inside the [Water Hag Cave](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29936). At the very back in the small alcove",
+                "Inside the [Water Hag Cave. At the very back in the small alcove",
               latitude: "83.92582407876712",
               longitude: "-168.24153748529955",
             },
@@ -12688,7 +12673,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Good Chest",
               description:
-                "Inside the [Water Hag Cave](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29936). At the very back in the small alcove",
+                "Inside the [Water Hag Cave. At the very back in the small alcove",
               latitude: "83.92591395539023",
               longitude: "-168.24333992975755",
             },
@@ -12756,8 +12741,7 @@ export const witcher3 = {
             {
               mapSlug: "skellige",
               title: "Chest",
-              description:
-                "Underwater at the very back of the [Harpy Cave](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29526)",
+              description: "Underwater at the very back of the [Harpy Cave",
               latitude: "83.90031397789400",
               longitude: "-168.60376921638000",
             },
@@ -12822,7 +12806,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Good Chest",
               description:
-                "Inside the [Entrance - Ancient Crypt](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29549) - beside one of the mirrors",
+                "Inside the [Entrance - Ancient Crypt - beside one of the mirrors",
               latitude: "83.93194184418100",
               longitude: "-168.18436503410000",
             },
@@ -12830,7 +12814,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Relic Chest",
               description:
-                "**Location:** Inside the [Entrance - Ancient Crypt](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29549), inside a small building after the mirror area.\n\nAlso has a regular chest nearby",
+                "**Location:** Inside the [Entrance - Ancient Crypt, inside a small building after the mirror area.\n\nAlso has a regular chest nearby",
               latitude: "83.93174609405400",
               longitude: "-168.20170772561000",
             },
@@ -12838,7 +12822,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "3x Good Chest",
               description:
-                "**Location:** Inside the [Ancient Crypt](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29549), defended by a Venemous Arachas.",
+                "**Location:** Inside the Ancient Crypt, defended by a Venemous Arachas.",
               latitude: "83.93394894522300",
               longitude: "-168.17902207375000",
             },
@@ -12846,7 +12830,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "2x Good Chest",
               description:
-                "**Location:** Inside the [Ancient Crypt](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29549) - in a side chamber",
+                "**Location:** Inside the Ancient Crypt - in a side chamber",
               latitude: "83.93359030205300",
               longitude: "-168.19442060094000",
             },
@@ -12901,16 +12885,14 @@ export const witcher3 = {
             {
               mapSlug: "skellige",
               title: "Chest",
-              description:
-                "Inside [Yustianna's Grotto](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29548)",
+              description: "Inside [Yustianna's Grotto",
               latitude: "83.93169109587600",
               longitude: "-168.08699349219000",
             },
             {
               mapSlug: "skellige",
               title: "Chest",
-              description:
-                "Inside [Yustianna's Grotto](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29548)",
+              description: "Inside [Yustianna's Grotto",
               latitude: "83.93138258866700",
               longitude: "-168.08810929114000",
             },
@@ -12918,7 +12900,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Chest",
               description:
-                "Inside [Yustianna's Grotto](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29548) next the illusion in the main room",
+                "Inside [Yustianna's Grotto next the illusion in the main room",
               latitude: "83.93107406583300",
               longitude: "-168.09411743933000",
             },
@@ -12926,7 +12908,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Chest",
               description:
-                "Inside [Yustianna's Grotto](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29548) next to the central elevated pace leading to the illusion",
+                "Inside [Yustianna's Grotto next to the central elevated pace leading to the illusion",
               latitude: "83.93095609709000",
               longitude: "-168.09600571448000",
             },
@@ -12934,7 +12916,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Chest",
               description:
-                "Inside [Yustianna's Grotto](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29548) next to the cooking place",
+                "Inside [Yustianna's Grotto next to the cooking place",
               latitude: "83.93098785813000",
               longitude: "-168.09836605841000",
             },
@@ -13190,7 +13172,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Zoltan Chivay",
               description:
-                "Can be won from [Aldert Geert](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19457). However, if Geralt has left for Vizima and Aldert is no longer at the White Orchard Inn, then the card can be found beneath the Hanged Man's Tree in Velen.\n\n**Deck Type:** Neutral\n\n**Row:** Close Combat\n\n**Strength:** 5",
+                "Can be won from Aldert Geert. However, if Geralt has left for Vizima and Aldert is no longer at the White Orchard Inn, then the card can be found beneath the Hanged Man's Tree in Velen.\n\n**Deck Type:** Neutral\n\n**Row:** Close Combat\n\n**Strength:** 5",
               latitude: "83.93362637953000",
               longitude: "-168.28131079674000",
             },
@@ -13198,7 +13180,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Foltest: Lord Commander of the North",
               description:
-                "Purchased from [Elsa, the White Orchard Innkeep](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19456) or [Bram](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19458).\n\n**Deck Type:** Northern Realms\n\n**Row:** Leader\n\n**Strength:** N/A",
+                "Purchased from [Elsa, the White Orchard Innkeep.\n\n**Deck Type:** Northern Realms\n\n**Row:** Leader\n\n**Strength:** N/A",
               latitude: "83.93350732636400",
               longitude: "-168.25248777866000",
             },
@@ -13206,7 +13188,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Catapult",
               description:
-                "Purchased from [Elsa, the White Orchard Innkeep](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19456) or [Bram](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19458).\n\n**Deck Type:** Northern Realms\n\n**Row:** Siege Combat\n\n**Strength:** 8",
+                "Purchased from [Elsa, the White Orchard Innkeep.\n\n**Deck Type:** Northern Realms\n\n**Row:** Siege Combat\n\n**Strength:** 8",
               latitude: "83.93351866486100",
               longitude: "-168.24963390827000",
             },
@@ -13214,7 +13196,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Blue Stripes Commando",
               description:
-                "Purchased from [Elsa, the White Orchard Innkeep](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19456) or [Bram](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19458).\n\n**Deck Type:** Northern Realms\n\n**Row:** Close Combat\n\n**Strength:** 4",
+                "Purchased from [Elsa, the White Orchard Innkeep.\n\n**Deck Type:** Northern Realms\n\n**Row:** Close Combat\n\n**Strength:** 4",
               latitude: "83.93351469638900",
               longitude: "-168.24693024158000",
             },
@@ -13222,7 +13204,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Crinfrid Reavers Dragon Hunter",
               description:
-                "Purchased from [Elsa, the White Orchard Innkeep](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19456) or [Bram](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19458).\n\n**Deck Type:** Northern Realms\n\n**Row:** Ranged Combat\n\n**Strength:** 5",
+                "Purchased from [Elsa, the White Orchard Innkeep.\n\n**Deck Type:** Northern Realms\n\n**Row:** Ranged Combat\n\n**Strength:** 5",
               latitude: "83.93350109018100",
               longitude: "-168.25537919998000",
             },
@@ -13250,24 +13232,21 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Eredin Br\u00e9acc Glas: The Treacherous",
-              description:
-                "Purchased from [Dulla kh'Amanni](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=216190)",
+              description: "Purchased from Dulla kh'Amanni",
               latitude: "83.96077251721800",
               longitude: "-167.94286429882000",
             },
             {
               mapSlug: "velen-novigrad",
               title: "Gaunter O'Dimm: Darkness",
-              description:
-                "Purchased from [Dulla kh'Amanni](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=216190)",
+              description: "Purchased from Dulla kh'Amanni",
               latitude: "83.96077712261000",
               longitude: "-167.94429166316000",
             },
             {
               mapSlug: "velen-novigrad",
               title: "Francesca Findabair: Hope of the Aen Seidhe",
-              description:
-                "Purchased from [Dulla kh'Amanni](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=216190)",
+              description: "Purchased from Dulla kh'Amanni",
               latitude: "83.96076344187200",
               longitude: "-167.94156610966000",
             },
@@ -13283,7 +13262,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "Draig Bon-Dhu",
               description:
-                "Reward for defeating [Gwent Player - The Pheasantry Innkeep](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=216007)",
+                "Reward for defeating [Gwent Player - The Pheasantry Innkeep",
               latitude: "83.88073792825800",
               longitude: "-168.16657055351000",
             },
@@ -13291,7 +13270,7 @@ export const witcher3 = {
               mapSlug: "toussaint",
               title: "King Bran",
               description:
-                "Rewarded for defeating [Gwent Player - Rafael de Surmann](https://mapgenie.io/witcher-3/maps/toussaint?locationIds=216015)",
+                "Rewarded for defeating [Gwent Player - Rafael de Surmann",
               latitude: "83.88338718167000",
               longitude: "-168.15914850488000",
             },
@@ -13303,8 +13282,7 @@ export const witcher3 = {
             {
               mapSlug: "white-orchard",
               title: "Noonwraith Mutagen",
-              description:
-                "Dropped by the Noonwrath, from [Devil by the Well](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19473) (Witcher Contract).",
+              description: "Dropped by the Noonwrath, from Devil by the Well.",
               latitude: "83.91276765341800",
               longitude: "-168.28590307605000",
             },
@@ -13325,7 +13303,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Ornate Bracelet",
               description:
-                "**Related Quest:** [Devil by the Well](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19473) (Witcher Contract)\n\nUnderwater, within the cave. Accessible via the [underwater entrance](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19452) in the nearby lake or by jumping into the [well](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19451) at the center of the abandoned village.",
+                "**Related Quest:** Devil by the Well at the center of the abandoned village.",
               latitude: "83.91357766888900",
               longitude: "-168.28548575874000",
             },
@@ -13423,7 +13401,7 @@ export const witcher3 = {
               mapSlug: "fablesphere",
               title: "Syanna's Ribbon",
               description:
-                "Can be obtained from the [Little Flint Girl](https://mapgenie.io/witcher-3/maps/fablesphere?locationIds=216175) after defeating her in a game of Gwent.",
+                "Can be obtained from the [Little Flint Girl after defeating her in a game of Gwent.",
               latitude: "83.92277334928000",
               longitude: "-168.49788308144000",
             },
@@ -13436,7 +13414,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "White Gull",
               description:
-                "Purchased from the [Herbalist](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19453), who appears after clearing the area of Ghouls.",
+                "Purchased from the [Herbalist, who appears after clearing the area of Ghouls.",
               latitude: "83.91749334098500",
               longitude: "-168.14971625805000",
             },
@@ -13444,7 +13422,7 @@ export const witcher3 = {
               mapSlug: "white-orchard",
               title: "Dwarven Spirit",
               description:
-                "Purchased from the [Herbalist](https://mapgenie.io/witcher-3/maps/white-orchard?locationIds=19453), who appears after clearing the area of Ghouls.",
+                "Purchased from the [Herbalist, who appears after clearing the area of Ghouls.",
               latitude: "83.91746605694100",
               longitude: "-168.15589606762000",
             },
@@ -13506,8 +13484,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Ursine Silver Sword - Superior",
-              description:
-                "Inside the [Spawning Pools](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19805) cave.",
+              description: "Inside the [Spawning Pools cave.",
               latitude: "83.88223659765208",
               longitude: "-168.26785631617827",
             },
@@ -13521,8 +13498,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Feline Steel Sword - Enhanced",
-              description:
-                'Inside the ["Hog Hut"](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19837)',
+              description: 'Inside the ["Hog Hut"',
               latitude: "83.89851699120900",
               longitude: "-168.17398095031000",
             },
@@ -13591,8 +13567,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Ursine Steel Sword - Mastercrafted",
-              description:
-                "Inside the [Bear Cave](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19697)",
+              description: "Inside the Bear Cave",
               latitude: "83.90956667668200",
               longitude: "-168.60200063004000",
             },
@@ -13606,8 +13581,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Griffin Silver Sword - Enhanced",
-              description:
-                "Inside the [Ghoul Cave](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19791)",
+              description: "Inside the [Ghoul Cave",
               latitude: "83.87855585093900",
               longitude: "-168.13699184783000",
             },
@@ -13634,7 +13608,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Ursine Armor Set - Superior",
               description:
-                "Inside the [Granite Pit](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=30636). Inside an alcove on the left hand side as you enter.",
+                "Inside the [Granite Pit. Inside an alcove on the left hand side as you enter.",
               latitude: "83.91976860892900",
               longitude: "-168.31479617791000",
             },
@@ -13648,8 +13622,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Feline Armor - Enhanced",
-              description:
-                "On the top floor of [Aeramas' Abandoned Manor](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=19586)",
+              description: "On the top floor of Aeramas' Abandoned Manor",
               latitude: "83.92561874192700",
               longitude: "-167.95712248107000",
             },
@@ -13702,15 +13675,14 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Feline Armor",
               description:
-                "**Location:** Found inside the [Passages Under Temple Isle](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=29322).  You'll need _Keira Metz's amulet_ to access.",
+                "**Location:** Found inside the [Passages Under Temple Isle.  You'll need _Keira Metz's amulet_ to access.",
               latitude: "83.95617252855500",
               longitude: "-168.43041028059000",
             },
             {
               mapSlug: "skellige",
               title: "Ursine Crossbow",
-              description:
-                "Inside [The Womb](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29520) - on a skeleton.",
+              description: "Inside The Womb - on a skeleton.",
               latitude: "83.94060621769200",
               longitude: "-168.56922055264000",
             },
@@ -13725,7 +13697,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Ursine Gear Set (Armor/Gauntlets/Trousers/Boots)",
               description:
-                "Inside [Castle Tuirsearch](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30534) - in the chest at the end of the tunnels.",
+                "Inside Castle Tuirsearch - in the chest at the end of the tunnels.",
               latitude: "83.95928853736200",
               longitude: "-167.94310100082000",
             },
@@ -13745,24 +13717,21 @@ export const witcher3 = {
             {
               mapSlug: "skellige",
               title: "Griffin Silver Sword - Superior",
-              description:
-                "Inside the [Peninsula Tomb](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29537) - at the very end",
+              description: "Inside the [Peninsula Tomb - at the very end",
               latitude: "83.89180412099600",
               longitude: "-168.12542085267000",
             },
             {
               mapSlug: "skellige",
               title: "Ursine Boots - Enhanced",
-              description:
-                "Inside the [Angry Troll Cave](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30571)",
+              description: "Inside the Angry Troll Cave",
               latitude: "83.90355695518700",
               longitude: "-168.27576651169000",
             },
             {
               mapSlug: "skellige",
               title: "Ursine Armor - Enhanced",
-              description:
-                "Inside the [Bandit Cave](https://mapgenie.io/witcher-3/maps/skellige?locationIds=29541)",
+              description: "Inside the Bandit Cave",
               latitude: "83.90415789746800",
               longitude: "-168.01267068683000",
             },
@@ -13801,7 +13770,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Ursine Silver Sword",
               description:
-                "**Location:** Found on a skeleton in the [Fort Etnir](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30538) ruins",
+                "**Location:** Found on a skeleton in the [Fort Etnir ruins",
               latitude: "83.93516734103700",
               longitude: "-168.15770119429000",
             },
@@ -13888,16 +13857,14 @@ export const witcher3 = {
             {
               mapSlug: "kaer-morhen",
               title: "Wolven Gauntlets - Superior",
-              description:
-                "Inside the[Mine](https://mapgenie.io/witcher-3/maps/kaer-morhen?locationIds=22375)",
+              description: "Inside the[Mine",
               latitude: "83.91344593723400",
               longitude: "-168.30128247751000",
             },
             {
               mapSlug: "kaer-morhen",
               title: "Wolven Gauntlets - Enhanced",
-              description:
-                "Inside a chest in the [Forktail Cave](https://mapgenie.io/witcher-3/maps/kaer-morhen?locationIds=22377)",
+              description: "Inside a chest in the [Forktail Cave",
               latitude: "83.90589691381800",
               longitude: "-168.16935508655000",
             },
@@ -13916,8 +13883,7 @@ export const witcher3 = {
             {
               mapSlug: "kaer-morhen",
               title: "Wolven Trousers - Superior",
-              description:
-                "Inside the [Trials of the Grasses](https://mapgenie.io/witcher-3/maps/kaer-morhen?locationIds=22366) cave",
+              description: "Inside the Trials of the Grasses cave",
               latitude: "83.93020124558200",
               longitude: "-168.34655739422000",
             },
@@ -14139,7 +14105,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Portal Switch #3",
               description:
-                "Activate the 3 switches to unlock the [hidden dungeon](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=248627)",
+                "Activate the 3 switches to unlock the [hidden dungeon",
               latitude: "83.87208209242600",
               longitude: "-168.16784763678000",
             },
@@ -14147,7 +14113,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Portal Switch #1",
               description:
-                "Activate the 3 switches to unlock the [hidden dungeon](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=248627)",
+                "Activate the 3 switches to unlock the [hidden dungeon",
               latitude: "83.87149700857400",
               longitude: "-168.19669338686000",
             },
@@ -14155,7 +14121,7 @@ export const witcher3 = {
               mapSlug: "velen-novigrad",
               title: "Portal Switch #2",
               description:
-                "Activate the 3 switches to unlock the [hidden dungeon](https://mapgenie.io/witcher-3/maps/velen-novigrad?locationIds=248627)",
+                "Activate the 3 switches to unlock the [hidden dungeon",
               latitude: "83.87423718441100",
               longitude: "-168.20419328188000",
             },
@@ -14204,8 +14170,7 @@ export const witcher3 = {
             {
               mapSlug: "skellige",
               title: "Mage's Ship",
-              description:
-                "Visited during [The Last Wish](https://mapgenie.io/witcher-3/maps/skellige?locationIds=153964)",
+              description: "Visited during The Last Wish",
               latitude: "83.93515458868000",
               longitude: "-168.12080740929000",
             },
@@ -14226,7 +14191,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Beann'shie (Relic)",
               description:
-                "Found in the Guarded Treasure of the [Fort Etnir](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30538) ruins",
+                "Found in the Guarded Treasure of the [Fort Etnir ruins",
               latitude: "83.93535153877100",
               longitude: "-168.16234946251000",
             },
@@ -14241,7 +14206,7 @@ export const witcher3 = {
               mapSlug: "skellige",
               title: "Gold Necklace with Diamonds",
               description:
-                "Underwater. On a sunken ship inside a chest.\n\nRelated to the [The Price of Honor](https://mapgenie.io/witcher-3/maps/skellige?locationIds=30580) quest.",
+                "Underwater. On a sunken ship inside a chest.\n\nRelated to the The Price of Honor quest.",
               latitude: "83.88185362762000",
               longitude: "-167.77967281938000",
             },
