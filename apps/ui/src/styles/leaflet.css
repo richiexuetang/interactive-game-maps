@@ -758,6 +758,13 @@ svg.leaflet-image-layer.leaflet-interactive path {
     font-family: var(--text-font-family);
 }
 
+.marker-text-label {
+    white-space: pre;
+    font-size: 10px;
+    color: white;
+    font-family: var(--text-font-family);
+}
+
 /* Context menu */
 .leaflet-contextmenu {
     display: none;

@@ -1,6 +1,7 @@
 import * as L from "leaflet";
 import { useEffect, useRef, useState } from "react";
-import { Marker, Polygon, useMap } from "react-leaflet";
+import { Polygon, useMap } from "react-leaflet";
+import { TextMarker } from "../leaflet";
 import { useMapStore } from "@/store/map";
 
 interface RegionLayerProps {
@@ -31,25 +32,16 @@ export const RegionLayer = ({
   }, [polygonRef]);
 
   useEffect(() => {
-    if (currentMap?.focusedRegionId && currentMap.focusedRegionId === id) {
-      const bounds = polygonRef?.current?.getBounds();
-      if (bounds) {
-        map.fitBounds(bounds);
-      }
+    if (currentMap?.focusedRegionId === id && polygonRef?.current) {
+      map.fitBounds(polygonRef.current.getBounds());
+
       setCurrentMap({ ...currentMap, focusedRegionId: null });
     }
-  }, [currentMap, currentMap?.focusedRegionId, id, map, setCurrentMap]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentMap?.focusedRegionId, id, map]);
   //#endregion
 
-  const iconWidth = id.length * 10;
-
-  const text = L.divIcon({
-    className: "map-label",
-    iconSize: [iconWidth, 12],
-    iconAnchor: [iconWidth / 2, 12],
-    html: `${id}`,
-  });
-
+  const position = center ? center : [centerX ?? 0, centerY ?? 0];
   return (
     <>
       {positions && (
@@ -60,16 +52,7 @@ export const RegionLayer = ({
         />
       )}
 
-      {center &&
-        (centerX && centerY ? (
-          <Marker
-            position={[centerY, centerX]}
-            icon={text}
-            zIndexOffset={-1000}
-          />
-        ) : (
-          <Marker position={center} icon={text} zIndexOffset={-1000} />
-        ))}
+      {center && <TextMarker position={position} text={id} type="REGION" />}
     </>
   );
 };

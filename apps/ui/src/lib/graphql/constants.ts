@@ -61,6 +61,7 @@ query MapData($slug: String!) {
             url
             type
           }
+          type
           description
           latitude
           longitude
@@ -120,24 +121,6 @@ export const FETCH_GAME_MAP_DETAILS = gql`
         maxZoom
         zoom
         center
-        locations {
-          categoryId
-          category {
-            title
-            id
-            icon
-            info
-          }
-          media {
-            url
-            type
-          }
-          description
-          latitude
-          longitude
-          title
-          id
-        }
       }
       slug
     }

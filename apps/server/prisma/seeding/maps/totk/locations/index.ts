@@ -8,6 +8,7 @@ export const locations = {
   categories: [
     {
       title: "Area",
+      defaultHidden: true,
       locations: [...area],
     },
     {
@@ -24,6 +25,7 @@ export const locations = {
       locations: [...chasm],
     },
     {
+      title: "Goddess Statue",
       locations: [
         {
           mapSlug: "hyrule",
@@ -199,9 +201,9 @@ export const locations = {
           longitude: "-0.60911652516791",
         },
       ],
-      title: "Goddess Statue",
     },
     {
+      title: "Great Fairy",
       locations: [
         {
           mapSlug: "hyrule",
@@ -256,9 +258,10 @@ export const locations = {
           ],
         },
       ],
-      title: "Great Fairy",
     },
     {
+      title: "Lighthouse",
+      info: "Use ascend while standing underneath it to return to the Surface",
       locations: [
         {
           mapSlug: "hyrule",
@@ -372,10 +375,9 @@ export const locations = {
           longitude: "-0.74047066554402",
         },
       ],
-      title: "Lighthouse",
-      info: "Use ascend while standing underneath it to return to the Surface",
     },
     {
+      title: "Lightroot",
       locations: [
         {
           mapSlug: "hyrule",
@@ -1103,9 +1105,10 @@ export const locations = {
           longitude: "-0.67361645866479",
         },
       ],
-      title: "Lightroot",
     },
     {
+      title: "Point of Interest",
+      icon: "totk_poi",
       locations: [
         {
           mapSlug: "hyrule",
@@ -1246,8 +1249,6 @@ export const locations = {
           longitude: "-0.72176094366117",
         },
       ],
-      title: "Point of Interest",
-      icon: "totk_poi",
     },
     {
       locations: [

@@ -72,6 +72,7 @@ type Location {
   mapSlug: String!
   media: [Media!]
   title: String!
+  type: String
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!

@@ -17,16 +17,17 @@ import {
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
 
-interface MarkerProps {
-  marker: Location;
-}
-
-export const Marker = ({ marker }: MarkerProps) => {
+export const Marker = ({ markerId }: { markerId: number }) => {
   const map = useMap();
-  const params = useParams<{ slug: string; gameSlug: string }>();
-  const { id, title, latitude, longitude, category } = marker;
+  const params = useParams<{ mapSlug: string; gameSlug: string }>();
+  const searchParams = useSearchParams();
 
   const currentMap = useMapStore((state) => state.currentMap);
+  const marker: Location = currentMap?.locations?.find(
+    (loc) => loc.id === markerId
+  ) as Location;
+  const { id, title, latitude, longitude, category } = marker;
+
   const [addLocation] = useMutation(ADD_TO_USER_FOUND);
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
   const user = useAuthStore((state) => state.user);
@@ -39,7 +40,6 @@ export const Marker = ({ marker }: MarkerProps) => {
     currentMap?.highlightMarkerId === id ? "highlight" : ""
   }`;
 
-  const searchParams = useSearchParams();
   const markerRef = useRef<L.Marker>(null);
 
   useEffect(() => {
@@ -47,7 +47,8 @@ export const Marker = ({ marker }: MarkerProps) => {
       map.setView([latitude, longitude]);
       markerRef.current.openPopup();
     }
-  }, [currentMap?.triggeredMarkerPopup, id, latitude, longitude, map]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentMap?.triggeredMarkerPopup]);
 
   useEffect(() => {
     const markerId = searchParams.get("marker");
@@ -59,10 +60,11 @@ export const Marker = ({ marker }: MarkerProps) => {
       window.history.replaceState(
         null,
         "",
-        `game/${params.gameSlug}/map/${params.slug}`
+        `game/${params.gameSlug}/map/${params.mapSlug}`
       );
     }
-  }, [marker, map, params, searchParams, id, latitude, longitude]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [marker, map, params, searchParams]);
 
   useEffect(() => {
     const lat = searchParams.get("lat");
@@ -71,13 +73,8 @@ export const Marker = ({ marker }: MarkerProps) => {
 
     if (lat && lng && zoom) {
       map.flyTo([parseFloat(lat), parseFloat(lng)], parseFloat(zoom));
-      window.history.replaceState(
-        null,
-        "",
-        `game/${params.gameSlug}/map/${params.slug}`
-      );
     }
-  }, [map, params, searchParams]);
+  }, [map, searchParams]);
 
   const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 

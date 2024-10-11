@@ -1,6 +1,6 @@
 FROM node:18-alpine AS base
 
-RUN npm i -g pnpm@9.12.0
+RUN npm i -g pnpm@9.4.0
 
 FROM base AS dependencies
 
@@ -15,6 +15,7 @@ WORKDIR /app
 COPY . .
 COPY --from=dependencies /app/node_modules ./node_modules
 RUN pnpm server:build
+RUN pnpm migrate:deploy
 RUN pnpm prune --prod
 
 FROM base AS deploy

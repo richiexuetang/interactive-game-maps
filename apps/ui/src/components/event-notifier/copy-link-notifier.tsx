@@ -22,9 +22,11 @@ export const CopyLinkNotifier = () => {
   const mapEvents = useMapEvents({
     contextmenu: () => {
       const center = mapEvents.getCenter();
-      const url = `${process.env.NEXT_PUBLIC_APP_BASE_URL}/map/${
-        params.slug
-      }?lat=${center.lat}&lng=${center.lng}&zoom=${mapEvents.getZoom()}`;
+      const url = `${process.env.NEXT_PUBLIC_APP_BASE_URL}/game/${
+        params.gameSlug
+      }/map/${params.mapSlug}?lat=${center.lat}&lng=${
+        center.lng
+      }&zoom=${mapEvents.getZoom()}`;
       copy(url).then(() => {});
     },
   });

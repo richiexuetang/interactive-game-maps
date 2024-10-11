@@ -24,6 +24,9 @@ export class Location extends BaseModel {
   @Field(() => Number, { nullable: true })
   categoryId?: number | null;
 
+  @Field(() => String, { nullable: true })
+  type: string;
+  
   @Field(() => Map)
   map: Map;
 
