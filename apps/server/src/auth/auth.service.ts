@@ -49,7 +49,7 @@ export class AuthService {
   private async findUserByEmail(email: string) {
     const user = await this.prismaService.user.findFirst({
       where: { email },
-      include: { noteMarkers: true },
+      include: { noteMarkers: true, foundMarkers: true },
     });
 
     if (!user) return null;
@@ -68,6 +68,8 @@ export class AuthService {
           email: user.email,
           username: fullName,
           picture: user.picture,
+          foundMarkers: null,
+          noteMarkers: null,
         },
       });
 

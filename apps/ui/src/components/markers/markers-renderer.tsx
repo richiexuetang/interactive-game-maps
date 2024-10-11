@@ -59,7 +59,7 @@ export const MarkersRenderer = () => {
             return null;
           }
 
-          const markerFound = foundMarkers.map((m) => m.id).includes(id);
+          const markerFound = foundMarkers?.map((m) => m.id).includes(id);
 
           if (
             markerFound &&

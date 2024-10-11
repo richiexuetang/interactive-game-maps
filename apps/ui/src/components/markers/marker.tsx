@@ -1,4 +1,3 @@
-import { useMutation } from "@apollo/client";
 import * as L from "leaflet";
 import { useParams, useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
@@ -10,10 +9,6 @@ import {
 } from "react-leaflet";
 import { PopupCard } from "../cards/popup-card";
 import { Location } from "@/__generated__/graphql";
-import {
-  ADD_TO_USER_FOUND,
-  REMOVE_FROM_USER_FOUND,
-} from "@/lib/graphql/constants";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
 
@@ -21,6 +16,7 @@ export const Marker = ({ markerId }: { markerId: number }) => {
   const map = useMap();
   const params = useParams<{ mapSlug: string; gameSlug: string }>();
   const searchParams = useSearchParams();
+  const markerRef = useRef<L.Marker>(null);
 
   const currentMap = useMapStore((state) => state.currentMap);
   const marker: Location = currentMap?.locations?.find(
@@ -28,10 +24,7 @@ export const Marker = ({ markerId }: { markerId: number }) => {
   ) as Location;
   const { id, title, latitude, longitude, category } = marker;
 
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND);
   const user = useAuthStore((state) => state.user);
-  const setUser = useAuthStore((state) => state.setUser);
   const { icon } = category!;
 
   // build div icon
@@ -39,8 +32,6 @@ export const Marker = ({ markerId }: { markerId: number }) => {
   div.className = `icon ${icon} ${
     currentMap?.highlightMarkerId === id ? "highlight" : ""
   }`;
-
-  const markerRef = useRef<L.Marker>(null);
 
   useEffect(() => {
     if (currentMap?.triggeredMarkerPopup === id && markerRef?.current) {
@@ -78,27 +69,6 @@ export const Marker = ({ markerId }: { markerId: number }) => {
 
   const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 
-  const handleMarkerFound = () => {
-    if (user?.email) {
-      const variables = { data: { email: user.email, location: id } };
-      let newFoundMarkers = [];
-      if (markerFound) {
-        removeLocation({ variables });
-        newFoundMarkers = user.foundMarkers.filter(
-          (location) => location.id !== id
-        );
-      } else {
-        addLocation({ variables });
-        newFoundMarkers = [
-          ...user.foundMarkers,
-          currentMap?.locations?.find((loc) => loc.id === id)!,
-        ];
-      }
-
-      setUser({ ...user, foundMarkers: newFoundMarkers });
-    }
-  };
-
   return (
     <RLeafletMarker
       ref={markerRef}
@@ -112,9 +82,6 @@ export const Marker = ({ markerId }: { markerId: number }) => {
         html: div,
       })}
       zIndexOffset={100 - longitude} // so markers don't glitch out while zooming
-      eventHandlers={{
-        contextmenu: () => handleMarkerFound(),
-      }}
     >
       <Popup>
         <PopupCard marker={marker} />
