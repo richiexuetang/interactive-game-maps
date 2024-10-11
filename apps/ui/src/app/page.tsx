@@ -9,6 +9,7 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Link from "next/link";
 import { Game } from "@/__generated__/graphql";
+import { Footer } from "@/components/ui/footer";
 import { getClient } from "@/lib/graphql/apollo-client";
 
 export default async function Page() {
@@ -24,45 +25,55 @@ export default async function Page() {
   });
 
   return (
-    <Stack
-      direction="column"
-      sx={{
-        justifyContent: "center",
-        alignItems: "center",
-        my: 6,
-      }}
-    >
-      <Image src="/images/logo.png" width={200} height={100} alt="app logo" />
-      <Grid container spacing={3} sx={{ m: 5 }}>
-        {data?.games?.map(({ title, slug }: Game) => (
-          <Grid key={slug} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
-            <Link href={`/game/${slug}`}>
-              <Card>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image={
-                      process.env.CDN_BASE_URL +
-                      `images/games/${slug}/thumbnail.png`
-                    }
-                    alt={title}
-                  />
-                  <CardContent
-                    sx={{
-                      justifyContent: "center",
-                      alignContent: "center",
-                      display: "flex",
-                    }}
-                  >
-                    <Typography variant="body1">{title}</Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </Link>
-          </Grid>
-        ))}
-      </Grid>
-    </Stack>
+    <div>
+      <Stack
+        direction="column"
+        sx={{
+          justifyContent: "center",
+          alignItems: "center",
+          my: 6,
+          pb: 10,
+        }}
+      >
+        <Image
+          src="/images/logo.png"
+          width={200}
+          height={100}
+          alt="app logo"
+          className="my-10"
+        />
+        <Grid container spacing={3} sx={{ m: 8 }}>
+          {data?.games?.map(({ title, slug }: Game) => (
+            <Grid key={slug} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
+              <Link href={`/game/${slug}`}>
+                <Card>
+                  <CardActionArea>
+                    <CardMedia
+                      component="img"
+                      height="140"
+                      image={
+                        process.env.CDN_BASE_URL +
+                        `images/games/${slug}/thumbnail.png`
+                      }
+                      alt={title}
+                    />
+                    <CardContent
+                      sx={{
+                        justifyContent: "center",
+                        alignContent: "center",
+                        display: "flex",
+                      }}
+                    >
+                      <Typography variant="body1">{title}</Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Link>
+            </Grid>
+          ))}
+        </Grid>
+      </Stack>
+      <Footer />
+    </div>
   );
 }

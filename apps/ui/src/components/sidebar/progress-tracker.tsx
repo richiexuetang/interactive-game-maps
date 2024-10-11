@@ -155,7 +155,9 @@ export const ProgressTracker = () => {
         >
           Progress Tracker
         </Typography>
+
         <Divider sx={{ mb: 2 }} />
+
         {user ? (
           <Box display="flex" flexDirection="column">
             <Button
