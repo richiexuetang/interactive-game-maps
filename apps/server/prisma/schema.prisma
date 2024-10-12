@@ -42,11 +42,12 @@ model NoteMarker {
 }
 
 model Game {
-  id     Int     @id @default(autoincrement())
-  slug   String  @unique
-  title  String
-  groups Group[]
-  maps   Map[]
+  id             Int              @id @default(autoincrement())
+  slug           String           @unique
+  title          String
+  groups         Group[]
+  maps           Map[]
+  ChecklistGuide ChecklistGuide[]
 }
 
 model Map {
@@ -87,15 +88,16 @@ model Group {
 }
 
 model Category {
-  id            Int        @id @default(autoincrement())
-  title         String
-  icon          String
-  info          String?
-  groupId       Int?
-  group         Group?     @relation(fields: [groupId], references: [id])
-  locations     Location[]
-  isChecklist   Boolean    @default(false)
-  defaultHidden Boolean    @default(false)
+  id              Int              @id @default(autoincrement())
+  title           String
+  icon            String
+  info            String?
+  groupId         Int?
+  group           Group?           @relation(fields: [groupId], references: [id])
+  locations       Location[]
+  isChecklist     Boolean          @default(false)
+  defaultHidden   Boolean          @default(false)
+  checklistGuides ChecklistGuide[]
 }
 
 model Location {
@@ -124,4 +126,12 @@ model Media {
   type       String
   locationId Int?
   location   Location? @relation(fields: [locationId], references: [id])
+}
+
+model ChecklistGuide {
+  id         Int        @id @default(autoincrement())
+  title      String
+  categories Category[]
+  gameSlug   String
+  game       Game       @relation(fields: [gameSlug], references: [slug])
 }

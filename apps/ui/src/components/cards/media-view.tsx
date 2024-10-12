@@ -13,6 +13,11 @@ interface MediaViewProps {
   media: Media[];
 }
 
+/**
+ * Displays images and videos for a location marker, used in Popup cards.
+ *
+ * @component
+ */
 export const MediaView = ({ media }: MediaViewProps) => {
   const [modalOpen, setModalOpen] = React.useState(false);
   const [activeStep, setActiveStep] = React.useState(0);

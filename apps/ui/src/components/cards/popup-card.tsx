@@ -45,8 +45,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
 
-  const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
-
   const copy = useClipboardCopyFn();
 
   const [addLocation, { data }] = useMutation(ADD_TO_USER_FOUND);
@@ -55,27 +53,31 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   );
   //#endregion
 
-  const handleLogin = async () => {
-    window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/auth/google`;
-  };
-
+  //#region Lifecycle Hooks
   React.useEffect(() => {
-    if (!data || user) return;
+    if (!data || !user) return;
 
     setUser({
       ...user!,
       foundMarkers: data.addFoundLocation.foundMarkers ?? [],
     });
-  }, [data, setUser, user]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
 
   React.useEffect(() => {
-    if (!removeData || user) return;
+    if (!removeData || !user) return;
 
     setUser({
       ...user!,
       foundMarkers: removeData.removeFoundLocation.foundMarkers ?? [],
     });
-  }, [removeData, setUser, user]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [removeData]);
+  //#endregion
+
+  const handleLogin = () => {
+    window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/auth/google`;
+  };
 
   const handleMarkerFound = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!user) return;
@@ -91,6 +93,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
 
   if (!category) return null;
   const { icon, info, title } = category;
+  const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 
   return (
     <Card sx={{ minWidth: 325 }}>

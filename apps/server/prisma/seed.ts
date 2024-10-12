@@ -1,5 +1,6 @@
 import { PrismaClient, Prisma } from "@prisma/client";
 import { games } from "./seeding";
+import { bmwChecklist } from "./seeding/checklists/bmw";
 
 const prisma = new PrismaClient();
 const tableNames = Object.values(Prisma.ModelName);
@@ -9,8 +10,39 @@ async function main() {
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }
+  await seedChecklist(bmwChecklist[0]);
 }
 
+async function seedChecklist(checklist: any) {
+  const { title, categories, gameSlug } = checklist;
+
+  for (let i = 0; i < categories.length; i++) {
+    const category = categories[i];
+    const existCategory = await prisma.category.findFirstOrThrow({
+      where: { icon: category },
+    });
+
+    await prisma.checklistGuide.upsert({
+      where: { id: i },
+      create: {
+        title: title,
+        // gameSlug: gameSlug,
+        game: { connect: { slug: gameSlug } },
+        categories: {
+          connect: { id: existCategory.id },
+        },
+      },
+      update: {
+        // title: title,
+        // gameSlug: gameSlug,
+        game: { connect: { slug: gameSlug } },
+        categories: {
+          connect: { id: existCategory.id },
+        },
+      },
+    });
+  }
+}
 /**
  * Reset the database by truncating all tables and resetting the auto-incrementing ID
  */

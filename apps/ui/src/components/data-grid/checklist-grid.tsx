@@ -32,7 +32,6 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
       type: "boolean",
     },
     { field: "title", headerName: "Name", width: 150 },
-    // { field: "categoryId", headerName: "Category", width: 150 },
     { field: "mapSlug", headerName: "Map", width: 150 },
     { field: "description", headerName: "Info", width: 650 },
   ];

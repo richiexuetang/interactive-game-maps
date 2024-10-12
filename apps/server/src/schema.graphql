@@ -26,6 +26,20 @@ type Category {
   updatedAt: DateTime!
 }
 
+type ChecklistGuide {
+  categories: [Category!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  game: Game!
+  gameSlug: String!
+  id: Float!
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
 """
 A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
 """
@@ -151,6 +165,7 @@ enum OrderDirection {
 
 type Query {
   category(id: Float!): Category!
+  checklists(slug: String!): [ChecklistGuide!]!
   fetchGameByMap(slug: String!): Game!
   findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!
   game(slug: String!): Game!
