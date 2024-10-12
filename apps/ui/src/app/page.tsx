@@ -1,4 +1,6 @@
 import { gql } from "@apollo/client";
+import StarOutlineIcon from "@mui/icons-material/StarOutline";
+import { IconButton } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
@@ -9,6 +11,7 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Link from "next/link";
 import { Game } from "@/__generated__/graphql";
+import { GameCard } from "@/components/cards/game-card";
 import { Footer } from "@/components/ui/footer";
 import { getClient } from "@/lib/graphql/apollo-client";
 
@@ -43,33 +46,8 @@ export default async function Page() {
           className="my-8"
         />
         <Grid container spacing={3} sx={{ m: 8 }}>
-          {data?.games?.map(({ title, slug }: Game) => (
-            <Grid key={slug} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
-              <Link href={`/game/${slug}`}>
-                <Card>
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image={
-                        process.env.CDN_BASE_URL +
-                        `images/games/${slug}/thumbnail.png`
-                      }
-                      alt={title}
-                    />
-                    <CardContent
-                      sx={{
-                        justifyContent: "center",
-                        alignContent: "center",
-                        display: "flex",
-                      }}
-                    >
-                      <Typography variant="body1">{title}</Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
-              </Link>
-            </Grid>
+          {data?.games?.map((game: Game) => (
+            <GameCard key={game.slug} game={game} />
           ))}
         </Grid>
       </Stack>
