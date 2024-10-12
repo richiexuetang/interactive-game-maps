@@ -10,9 +10,7 @@ import CardHeader from "@mui/material/CardHeader";
 import Checkbox from "@mui/material/Checkbox";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import IconButton from "@mui/material/IconButton";
-import { styled } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
 import { useParams } from "next/navigation";
 import * as React from "react";
 import { MediaView } from "./media-view";
@@ -29,14 +27,6 @@ import { useMapStore } from "@/store/map";
 interface PopupCardProps {
   marker: Location;
 }
-
-const CardContentTypography = styled(Typography)(() => ({
-  color: "var(--text-color)",
-}));
-
-const StyledCard = styled(Card)(() => ({
-  minWidth: 325,
-}));
 
 export const PopupCard = ({ marker }: PopupCardProps) => {
   const {
@@ -70,34 +60,32 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   };
 
   React.useEffect(() => {
-    if (data) {
-      setUser({
-        ...user!,
-        foundMarkers: data.addFoundLocation.foundMarkers ?? [],
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+    if (!data || user) return;
+
+    setUser({
+      ...user!,
+      foundMarkers: data.addFoundLocation.foundMarkers ?? [],
+    });
+  }, [data, setUser, user]);
 
   React.useEffect(() => {
-    if (removeData && removeData.removeFoundLocation) {
-      setUser({
-        ...user!,
-        foundMarkers: removeData.removeFoundLocation.foundMarkers ?? [],
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [removeData]);
+    if (!removeData || user) return;
+
+    setUser({
+      ...user!,
+      foundMarkers: removeData.removeFoundLocation.foundMarkers ?? [],
+    });
+  }, [removeData, setUser, user]);
 
   const handleMarkerFound = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (user) {
-      const { email } = user;
-      const variables = { data: { email, location: id } };
-      if (e.target.checked) {
-        addLocation({ variables });
-      } else {
-        removeLocation({ variables });
-      }
+    if (!user) return;
+
+    const { email } = user;
+    const variables = { data: { email, location: id } };
+    if (e.target.checked) {
+      addLocation({ variables });
+    } else {
+      removeLocation({ variables });
     }
   };
 
@@ -105,7 +93,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const { icon, info, title } = category;
 
   return (
-    <StyledCard>
+    <Card sx={{ minWidth: 325 }}>
       <CardHeader
         avatar={
           <Avatar>
@@ -142,20 +130,24 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
 
       <CardContent>
         {description && (
-          // @ts-ignore
-          <CardContentTypography variant="body2" component="div">
+          <CardContent
+            sx={{
+              p: "0 !important",
+              color: "var(--text-color)",
+              fontSize: "0.875rem",
+            }}
+          >
             <div dangerouslySetInnerHTML={{ __html: description }} />
-          </CardContentTypography>
+          </CardContent>
         )}
 
         {info && (
-          // @ts-ignore
-          <CardContentTypography variant="body2" component="div">
+          <CardContent sx={{ p: "0 !important", color: "var(--text-color)" }}>
             <div
               className="text-xs mt-7 italic"
               dangerouslySetInnerHTML={{ __html: info }}
             />
-          </CardContentTypography>
+          </CardContent>
         )}
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
@@ -174,6 +166,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           </Tooltip>
         )}
       </CardActions>
-    </StyledCard>
+    </Card>
   );
 };

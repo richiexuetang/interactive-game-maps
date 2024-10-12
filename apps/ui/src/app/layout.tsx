@@ -11,7 +11,7 @@ import "@/styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Ritcher Map | Awesome Interactive Game Maps",
-  description: "",
+  description: "Interactive game maps for Elden Ring, Witcher 3, and more.",
   keywords:
     "game maps, interactive maps, game locations, game guides, Elden Ring, Tears of the Kingdom, Black myth wukong, Witcher 3, Hogwarts Legacy",
   icons: [
@@ -20,6 +20,12 @@ export const metadata: Metadata = {
       sizes: "32x32",
       href: "https://cdn.mapgenie.io/favicons/mapgenie/favicon-32x32.png",
       url: "https://cdn.mapgenie.io/favicons/mapgenie/favicon-32x32.png",
+    },
+    {
+      type: "favicon",
+      sizes: "16x16",
+      href: `${process.env.NEXT_PUBLIC_CDN_URL}/favicons/images/favicon.ico`,
+      url: `${process.env.NEXT_PUBLIC_CDN_URL}/favicons/images/favicon.ico`,
     },
   ],
   openGraph: {

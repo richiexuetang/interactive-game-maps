@@ -2,7 +2,6 @@
   "name": "ritcher-map",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "pnpm run --parallel dev",
     "build": "pnpm run --parallel build",
     "prisma:studio": "pnpm --filter server prisma:studio",
@@ -20,10 +19,7 @@
     "ui:prod": "pnpm --filter ui start"
   },
   "dependencies": {
-    "@pnpm/make-dedicated-lockfile": "^0.6.18",
-    "graphql": "16.7.1",
-    "install": "^0.13.0",
-    "sprity": "^1.0.8"
+    "graphql": "16.7.1"
   },
   "devDependencies": {
     "@nestjs/cli": "10.1.10",
@@ -33,8 +29,6 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "gulp": "^5.0.0",
-    "gulp-if": "^3.0.0",
     "prettier": "2.8.8",
     "ts-loader": "9.4.4",
     "tsconfig-paths": "4.2.0",

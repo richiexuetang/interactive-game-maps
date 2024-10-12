@@ -1,26 +1,26 @@
-FROM node:18-alpine AS base
+FROM node:16 AS builder
 
-RUN npm i -g pnpm@9.12.0
-
-FROM base AS dependencies
-
+# Create app directory
 WORKDIR /app
-COPY package.json pnpm-lock.yaml ./
-COPY /prisma ./prisma/
-RUN pnpm install
 
-FROM base AS build
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+COPY package*.json ./
+COPY prisma ./prisma/
 
-WORKDIR /app
+# Install app dependencies
+RUN npm install
+
 COPY . .
-COPY --from=dependencies /app/node_modules ./node_modules
-RUN pnpm build
-RUN pnpm prune --prod
 
-FROM base AS deploy
+RUN npm run build
+
+FROM node:16
 
 WORKDIR /app
-COPY --from=build /app/dist/ ./dist/
-COPY --from=build /app/node_modules ./node_modules
 
-CMD [ "node", "dist/main.js" ]
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/dist ./dist
+
+EXPOSE 5001
+CMD [ "npm", "run", "start:prod" ]

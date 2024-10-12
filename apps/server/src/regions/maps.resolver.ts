@@ -33,7 +33,9 @@ export class MapsResolver {
     const map = await this.prisma.map.findUnique({
       where: { slug },
       include: {
-        locations: true,
+        locations: {
+          include: { category: true, media: true },
+        },
         regions: true,
         game: {
           include: {
@@ -65,7 +67,7 @@ export class MapsResolver {
     });
 
     map.regions = [...result];
-    map.locations = [...locations];
+    // map.locations = [...locations];
     return map;
   }
 

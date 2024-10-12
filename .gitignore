@@ -8,3 +8,7 @@ tiles
 .vercel
 map-api.pem
 map-data
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

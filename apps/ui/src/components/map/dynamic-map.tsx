@@ -12,7 +12,7 @@ import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
 import { RegionLayer } from "../layers/region";
 import { MarkersRenderer } from "../markers/markers-renderer";
 import { Menu, ProgressTracker } from "../sidebar";
-import { Category, Map } from "@/__generated__/graphql";
+import type { Category, Map } from "@/__generated__/graphql";
 import { mapContainerOptions } from "@/lib/leaflet/map-container-options";
 import { cn, flatten } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";

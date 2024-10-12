@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Marker } from "./marker";
 import { NoteMarkers } from "./note-markers";
+import { MapMarker } from "../leaflet";
 import { TextMarker } from "../leaflet";
 import { getMarkerBounds, pointIsInBounds } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
@@ -54,7 +54,7 @@ export const MarkersRenderer = () => {
 
           if (searchFilterMarkers.length > 0) {
             if (searchFilterMarkers.find((marker) => marker.id === id)) {
-              return <Marker key={id} markerId={id} />;
+              return <MapMarker key={id} markerId={id} />;
             }
             return null;
           }
@@ -75,7 +75,7 @@ export const MarkersRenderer = () => {
             return null;
           }
 
-          return <Marker key={id} markerId={id} />;
+          return <MapMarker key={id} markerId={id} />;
         }
       )}
 
