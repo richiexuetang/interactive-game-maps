@@ -16,11 +16,14 @@ import { cn } from "@/lib/utils";
 import { useMapStore } from "@/store/map";
 
 export const MarkerSearch = ({ map }: any) => {
+  //#region State
   const [searchKeyword, setSearchKeyword] = useState("");
+  const [showFiltered, setShowFiltered] = useState(false);
+
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
-  const [showFiltered, setShowFiltered] = useState(false);
   const debounced = useDebounceCallback(setCurrentMap, 500);
+  //#endregion
 
   const inputSearchChange = (input: string) => {
     setSearchKeyword(input);

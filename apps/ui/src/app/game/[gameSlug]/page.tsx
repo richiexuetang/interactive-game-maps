@@ -30,6 +30,7 @@ export async function generateMetadata({
     variables: { slug: gameSlug },
   });
   const game = data.game;
+
   return {
     title: `${game.title} | Ritcher Map`,
     description: `Explore ${game.title} on Ritcher Map and track all in-game locations.`,
@@ -77,6 +78,18 @@ export default async function RegionPage({
     query: FETCH_GAME_MAP_DETAILS,
     variables: { slug: params.gameSlug },
   });
+
+  const { data: checklistData } = await getClient().query({
+    query: gql`
+      query Checklists($slug: String!) {
+        checklists(slug: $slug) {
+          title
+        }
+      }
+    `,
+    variables: { slug: params.gameSlug },
+  });
+
   const game = data.game;
   const fontClassName = getFontClassName(params.gameSlug);
 

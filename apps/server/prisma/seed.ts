@@ -1,6 +1,6 @@
 import { PrismaClient, Prisma } from "@prisma/client";
 import { games } from "./seeding";
-import { bmwChecklist } from "./seeding/checklists/bmw";
+import { checklists } from "./seeding/checklists";
 
 const prisma = new PrismaClient();
 const tableNames = Object.values(Prisma.ModelName);
@@ -10,37 +10,43 @@ async function main() {
   for (let i = 0; i < games.length; i++) {
     await seedGame(games[i]);
   }
-  await seedChecklist(bmwChecklist[0]);
+
+  for (let i = 0; i < checklists.length; i++) {
+    await seedChecklist(checklists[i]);
+  }
 }
 
 async function seedChecklist(checklist: any) {
   const { title, categories, gameSlug } = checklist;
 
+  if (!title) {
+    console.log("No checklist title provided", checklist);
+    return;
+  }
+
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i];
-    const existCategory = await prisma.category.findFirstOrThrow({
-      where: { icon: category },
+    const existCategory = await prisma.category.findUniqueOrThrow({
+      where: { id: category },
     });
 
     await prisma.checklistGuide.upsert({
       where: { id: i },
       create: {
         title: title,
-        // gameSlug: gameSlug,
         game: { connect: { slug: gameSlug } },
         categories: {
           connect: { id: existCategory.id },
         },
       },
       update: {
-        // title: title,
-        // gameSlug: gameSlug,
         game: { connect: { slug: gameSlug } },
         categories: {
           connect: { id: existCategory.id },
         },
       },
     });
+    console.log("seeded checklist", title, existCategory.id);
   }
 }
 /**

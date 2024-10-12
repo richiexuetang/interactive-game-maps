@@ -95,7 +95,6 @@ model Category {
   groupId         Int?
   group           Group?           @relation(fields: [groupId], references: [id])
   locations       Location[]
-  isChecklist     Boolean          @default(false)
   defaultHidden   Boolean          @default(false)
   checklistGuides ChecklistGuide[]
 }
