@@ -1,18 +1,10 @@
 import { gql } from "@apollo/client";
-import StarOutlineIcon from "@mui/icons-material/StarOutline";
-import { IconButton } from "@mui/material";
-import Card from "@mui/material/Card";
-import CardActionArea from "@mui/material/CardActionArea";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import Link from "next/link";
 import { Game } from "@/__generated__/graphql";
 import { GameCard } from "@/components/cards/game-card";
-import { Footer } from "@/components/ui/footer";
+import { AppLayout } from "@/components/ui/app-layout";
 import { getClient } from "@/lib/graphql/apollo-client";
 
 export default async function Page() {
@@ -28,7 +20,7 @@ export default async function Page() {
   });
 
   return (
-    <div>
+    <AppLayout>
       <Stack
         direction="column"
         sx={{
@@ -51,7 +43,6 @@ export default async function Page() {
           ))}
         </Grid>
       </Stack>
-      <Footer />
-    </div>
+    </AppLayout>
   );
 }

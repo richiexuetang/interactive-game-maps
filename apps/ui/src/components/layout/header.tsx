@@ -4,7 +4,7 @@ import React from "react";
 import { layoutClasses } from "./layout-classes";
 import { styled } from "./zero-styled";
 
-export function applyHeaderStyle(params?: {
+export function applyHeaderStyles(params?: {
   height: string | Partial<Record<Breakpoint, string>>;
   fullWidth?: boolean | Breakpoint;
 }) {
@@ -14,7 +14,6 @@ export function applyHeaderStyle(params?: {
     "${layoutClasses.EdgeSidebar} ${layoutClasses.Content} ${layoutClasses.EdgeSidebarRight}"
     "${layoutClasses.EdgeSidebar} ${layoutClasses.Footer} ${layoutClasses.EdgeSidebarRight}"
   `;
-
   return {
     height,
     ...(fullWidth && { zIndex: 3 }),
@@ -48,6 +47,7 @@ const StyledHeader = styled("header")(({ theme }) => ({
   position: "sticky",
   background: (theme.vars || theme).palette.background.paper,
   borderBottom: `1px solid ${(theme.vars || theme).palette.divider}`,
+  color: "white",
 }));
 
 const Header = React.forwardRef<HTMLElement, BoxProps>(function Header(
