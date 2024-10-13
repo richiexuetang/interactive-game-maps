@@ -1,6 +1,5 @@
 import { Field, Float, ObjectType } from "@nestjs/graphql";
-import { BaseModel } from "src/common/models/base.model";
-import { Location } from "src/markers/models/location.model";
+import { BaseModel } from "../../common/models/base.model";
 
 @ObjectType()
 export class Region extends BaseModel {

@@ -29,6 +29,7 @@ export interface AuthStateDef {
   user: UserDef | null;
   setUser: (data: UserDef) => void;
   removeUser: () => void;
+  addNote: (note: NoteMarker) => void;
 }
 
 export const useAuthStore = create(
@@ -37,6 +38,14 @@ export const useAuthStore = create(
       user: null,
       setUser: (user: UserDef) => {
         set({ user });
+      },
+      addNote: (note: NoteMarker) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            noteMarkers: [...state.user!.noteMarkers, note],
+          },
+        }));
       },
       removeUser: () => {
         set({ user: null });

@@ -1,5 +1,5 @@
 import { Args, Int, Query, Resolver } from "@nestjs/graphql";
-import { PrismaService } from "nestjs-prisma";
+import { PrismaService } from "../common/prisma.service";
 import { Category } from "./models/category.model";
 import { Location } from "./models/location.model";
 

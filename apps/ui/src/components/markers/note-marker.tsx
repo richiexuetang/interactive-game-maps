@@ -18,7 +18,6 @@ import { Marker, Popup } from "react-leaflet";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { getBodyFont } from "@/lib/font";
 import {
-  ADD_USER_NOTE_MARKER,
   REMOVE_USER_NOTE_MARKER,
   UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
@@ -32,6 +31,7 @@ interface NoteMarkerProps {
   description: string | null;
   id?: number | string;
   position: number;
+  addNoteMarker: any;
 }
 
 /**
@@ -46,6 +46,7 @@ export const NoteMarker = ({
   description,
   id,
   position,
+  addNoteMarker,
 }: NoteMarkerProps) => {
   //#region Hooks
   const { control, handleSubmit, getValues } = useForm({
@@ -67,7 +68,7 @@ export const NoteMarker = ({
   const user = useAuthStore((state) => state.user);
   const setUser = useAuthStore((state) => state.setUser);
 
-  const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
+  // const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
   const [removeNoteMarker, { data: removedData }] = useMutation(
     REMOVE_USER_NOTE_MARKER
   );
@@ -153,13 +154,13 @@ export const NoteMarker = ({
   //#region Lifecycle
   useEffect(() => {
     if (removedData) {
+      console.log(removedData);
       setUser({
         ...user!,
         noteMarkers: [...(removedData.removeNoteMarker.noteMarkers as any)],
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [removedData]);
+  }, [removedData, setUser, user?.noteMarkers]);
 
   useEffect(() => {
     if (updateData) {
@@ -173,14 +174,14 @@ export const NoteMarker = ({
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [updateData]);
+  }, [updateData, user?.noteMarkers]);
 
-  useEffect(() => {
-    if (data) {
-      setUser({ ...user!, noteMarkers: [...noteMarkers, data.addNoteMarker] });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+  // useEffect(() => {
+  //   if (data) {
+  //     setUser({ ...user!, noteMarkers: [...noteMarkers, data.addNoteMarker] });
+  //   }
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [data]);
   //#endregion
 
   return (

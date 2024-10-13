@@ -1,8 +1,8 @@
 import { Args, Query, Resolver } from "@nestjs/graphql";
-import { PrismaService } from "nestjs-prisma";
 import { Map } from "./models/map.model";
 import { Region } from "./models/region.model";
 import { MapOrder } from "./dto/map-order.input";
+import { PrismaService } from "../common/prisma.service";
 
 @Resolver(() => Map)
 export class MapsResolver {
@@ -60,11 +60,6 @@ export class MapsResolver {
         result.push({ ...regions[i], coordinates: coords.coordinates });
       }
     }
-
-    const locations = await this.prisma.location.findMany({
-      where: { mapSlug: slug },
-      include: { category: true },
-    });
 
     map.regions = [...result];
     // map.locations = [...locations];

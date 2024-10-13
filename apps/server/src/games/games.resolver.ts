@@ -1,6 +1,6 @@
 import { Args, Query, Resolver } from "@nestjs/graphql";
 import { Game } from "./models/game.model";
-import { PrismaService } from "nestjs-prisma";
+import { PrismaService } from "../common/prisma.service";
 
 @Resolver(() => Game)
 export class GamesResolver {

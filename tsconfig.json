@@ -1,24 +1,25 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Default",
+  "compileOnSave": false,
   "compilerOptions": {
-    "composite": false,
-    "declaration": true,
-    "declarationMap": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "inlineSources": false,
-    "isolatedModules": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "preserveWatchOutput": true,
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
     "skipLibCheck": true,
-    "strict": true,
-    "baseUrl": "./",
+    "target": "es2017",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "incremental": true,
+    "rootDir": ".",
     "paths": {}
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist",
+    "tmp"
   ]
 }

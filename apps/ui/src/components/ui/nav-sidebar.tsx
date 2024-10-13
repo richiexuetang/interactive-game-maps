@@ -1,3 +1,7 @@
+import HomeIcon from "@mui/icons-material/Home";
+import SearchIcon from "@mui/icons-material/Search";
+import SettingsIcon from "@mui/icons-material/Settings";
+import { TextField } from "@mui/material";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -36,48 +40,107 @@ export const IconList = ({ count = 4 }: { count?: number }) => (
   </>
 );
 
-export const InsetList = ({ count = 4 }: { count?: number }) => (
-  <>
-    {[...Array(count).fill(undefined)].map((_, index) => (
-      <ListItem key={index}>
-        <ListItemText
-          inset
-          primary={
-            <Circle
-              sx={{
-                height: 16,
-                width: randomBetween(56, 136),
-                borderRadius: 1,
-              }}
-            />
-          }
-          sx={{
-            "@container (max-width: 254px)": {
-              width: 0,
-              overflow: "hidden",
-            },
-          }}
-        />
-      </ListItem>
-    ))}
-  </>
+// export const InsetList = ({ count = 4 }: { count?: number }) => (
+//   <>
+//     {[...Array(count).fill(undefined)].map((_, index) => (
+//       <ListItem key={index}>
+//         <ListItemText
+//           inset
+//           primary={
+//             <Circle
+//               sx={{
+//                 height: 16,
+//                 width: randomBetween(56, 136),
+//                 borderRadius: 1,
+//               }}
+//             />
+//           }
+//           sx={{
+//             "@container (max-width: 254px)": {
+//               width: 0,
+//               overflow: "hidden",
+//             },
+//           }}
+//         />
+//       </ListItem>
+//     ))}
+//   </>
+// );
+
+export const IconListItem = ({
+  icon,
+  children,
+}: {
+  icon: React.ReactElement;
+  children: any;
+}) => (
+  <ListItem>
+    <ListItemIcon sx={{ cursor: "pointer" }}>{icon}</ListItemIcon>
+    {children}
+  </ListItem>
 );
 
 export const NavSidebarMockup = () => {
   return (
     <>
       <List>
-        <IconList count={2} />
+        <IconListItem icon={<HomeIcon />}>
+          <ListItemText
+            primary={
+              <Circle
+                sx={{
+                  height: 16,
+                  width: randomBetween(56, 136),
+                  borderRadius: 1,
+                }}
+              />
+            }
+            sx={{
+              "@container (max-width: 254px)": {
+                width: 0,
+                overflow: "hidden",
+              },
+            }}
+          />
+        </IconListItem>
       </List>
       <Divider />
       <List>
-        <IconList count={1} />
-        <InsetList count={2} />
+        <IconListItem icon={<SearchIcon />}>
+          <ListItemText
+            primary={
+              <TextField label="Search for maps..." variant="outlined" />
+            }
+            sx={{
+              "@container (max-width: 254px)": {
+                width: 0,
+                overflow: "hidden",
+              },
+            }}
+          />
+        </IconListItem>
       </List>
       <Divider />
       <List>
-        <IconList count={1} />
-        <InsetList count={2} />
+        <IconListItem icon={<SettingsIcon />}>
+          <ListItemText
+            primary={
+              <Circle
+                sx={{
+                  height: 16,
+                  width: randomBetween(56, 136),
+                  borderRadius: 1,
+                }}
+              />
+            }
+            sx={{
+              "@container (max-width: 254px)": {
+                width: 0,
+                overflow: "hidden",
+              },
+            }}
+          />
+        </IconListItem>
       </List>
     </>
   );

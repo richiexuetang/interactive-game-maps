@@ -1,6 +1,6 @@
 import ZapIcon from "@mui/icons-material/ElectricBolt";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import Avatar from "@mui/material/Avatar";
+import { Avatar } from "@mui/material";
 import Box, { BoxProps } from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import React from "react";
@@ -51,10 +51,20 @@ export const AppHeader = ({
           gap: { xs: 2, md: 3 },
         }}
       >
-        <GitHubIcon />
+        <GitHubIcon
+          sx={{ cursor: "pointer" }}
+          onClick={() =>
+            window.open(
+              "https://github.com/richiexuetang/interactive-game-maps",
+              "_blank"
+            )
+          }
+        />
       </Box>
 
-      <Avatar sx={{ width: 32, height: 32, ml: { xs: 0, sm: 2 } }} />
+      <Avatar
+        sx={{ cursor: "pointer", width: 32, height: 32, ml: { xs: 0, sm: 2 } }}
+      />
     </Box>
   );
 };

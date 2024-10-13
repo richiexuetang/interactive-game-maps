@@ -2,7 +2,7 @@ import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "../../common/models/base.model";
 import { Category } from "./category.model";
 import { Media } from "./media.model";
-import { Map } from "../../regions/models/map.model";
+import { Map } from "../../maps/models/map.model";
 
 @ObjectType()
 export class Location extends BaseModel {
@@ -26,7 +26,7 @@ export class Location extends BaseModel {
 
   @Field(() => String, { nullable: true })
   type: string;
-  
+
   @Field(() => Map)
   map: Map;
 

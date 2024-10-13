@@ -26,7 +26,7 @@ const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
   const { center, zoom, minZoom, maxZoom } = data;
 
   const user = useAuthStore((state) => state.user);
-  const setUser = useAuthStore((state) => state.setUser);
+  const addNote = useAuthStore((state) => state.addNote);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
   //#endregion
@@ -73,20 +73,16 @@ const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
             callback: ({ latlng }: any) => {
               if (!user) return;
 
-              setUser({
-                ...user,
-                noteMarkers: [
-                  ...user.noteMarkers,
-                  {
-                    title: "",
-                    description: "",
-                    latitude: latlng.lat,
-                    longitude: latlng.lng,
-                    id: uuidv4(),
-                    mapSlug: params.mapSlug,
-                  },
-                ],
+              addNote({
+                title: "",
+                description: "",
+                latitude: latlng.lat,
+                longitude: latlng.lng,
+                id: uuidv4(),
+                mapSlug: params.mapSlug,
               });
+
+              console.log(user);
             },
           },
           {

@@ -3,7 +3,7 @@ import { ObjectType, Field, Int } from "@nestjs/graphql";
 import { IsEmail } from "class-validator";
 import { NoteMarker } from "./note-marker.model";
 import { Location } from "src/markers/models/location.model";
-import { Map } from "src/regions/models/map.model";
+import { Map } from "src/maps/models/map.model";
 
 @ObjectType()
 export class User {

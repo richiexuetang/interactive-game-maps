@@ -46,7 +46,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
           }
         />
       </Header>
-      <EdgeSidebar
+      {/* <EdgeSidebar
         sx={(theme) => ({
           ...applyEdgeSidebarStyles({
             theme,
@@ -80,7 +80,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
             />
           </ButtonBase>
         </EdgeSidebarContent>
-      </EdgeSidebar>
+      </EdgeSidebar> */}
       <Content>{children}</Content>
       <Footer>
         <div className="bg-gray-900">

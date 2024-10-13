@@ -1,17 +1,15 @@
 import { GraphQLModule } from "@nestjs/graphql";
-import { Logger, Module } from "@nestjs/common";
-import { ConfigModule, ConfigService } from "@nestjs/config";
-import { PrismaModule, loggingMiddleware } from "nestjs-prisma";
+import { Module } from "@nestjs/common";
+import { ConfigModule } from "@nestjs/config";
 import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
-import { UsersModule } from "./users/users.module";
-import { MapsModule } from "./regions/maps.module";
+import { MapsModule } from "./maps/maps.module";
 import { MarkersModule } from "./markers/markers.module";
 import { AuthModule } from "./auth/auth.module";
 import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module";
-import { JwtModule } from "@nestjs/jwt";
+import { PrismaModule } from "./common/prisma.module";
 
 @Module({
   imports: [
@@ -21,17 +19,7 @@ import { JwtModule } from "@nestjs/jwt";
       envFilePath: ".env",
     }),
 
-    PrismaModule.forRoot({
-      isGlobal: true,
-      prismaServiceOptions: {
-        middlewares: [
-          loggingMiddleware({
-            logger: new Logger("PrismaMiddleware"),
-            logLevel: "log",
-          }),
-        ],
-      },
-    }),
+    PrismaModule,
 
     GraphQLModule.forRootAsync<ApolloDriverConfig>({
       driver: ApolloDriver,
