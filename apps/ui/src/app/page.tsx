@@ -27,7 +27,7 @@ export default async function Page() {
           alt="app logo"
           className="my-8"
         />
-        <Grid container spacing={3} sx={{ m: 8 }}>
+        <Grid container spacing={4} sx={{ m: 8 }}>
           {games?.map((game) => (
             <GameCard key={game.slug} game={game} />
           ))}

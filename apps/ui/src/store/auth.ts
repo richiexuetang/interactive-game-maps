@@ -30,6 +30,9 @@ export interface AuthStateDef {
   setUser: (data: UserDef) => void;
   removeUser: () => void;
   addNote: (note: NoteMarker) => void;
+  setNotes: (notes: NoteMarker[]) => void;
+  setFavorites: (map: Map[]) => void;
+  setFoundMarkers: (locations: Location[]) => void;
 }
 
 export const useAuthStore = create(
@@ -43,7 +46,31 @@ export const useAuthStore = create(
         set((state) => ({
           user: {
             ...state.user!,
-            noteMarkers: [...state.user!.noteMarkers, note],
+            noteMarkers: [...(state.user!.noteMarkers ?? []), note],
+          },
+        }));
+      },
+      setNotes: (noteMarkers: NoteMarker[]) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            noteMarkers,
+          },
+        }));
+      },
+      setFavorites: (favoriteMaps: Map[]) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            favoriteMaps,
+          },
+        }));
+      },
+      setFoundMarkers: (foundMarkers: Location[]) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            foundMarkers,
           },
         }));
       },

@@ -102,7 +102,7 @@ type Map {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   game: Game
-  gameSlug: String!
+  gameSlug: String
   id: Float!
   locations: [Location!]
   maxZoom: Float!

@@ -5,9 +5,7 @@ import { remark } from "remark";
 import html from "remark-html";
 import { ChecklistGrid } from "@/components/data-grid/checklist-grid";
 import { MainNav } from "@/components/main-nav";
-import { getSdk } from "@/generated/graphql";
 import { getClient } from "@/lib/getClient";
-import { client } from "@/lib/graphqlClient";
 import { cn, titleCase } from "@/lib/utils";
 
 export default async function RegionPage({

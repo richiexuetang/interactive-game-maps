@@ -12,12 +12,13 @@ import {
 } from "@mui/material";
 import * as L from "leaflet";
 import { useParams } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { Marker, Popup } from "react-leaflet";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { getBodyFont } from "@/lib/font";
 import {
+  ADD_USER_NOTE_MARKER,
   REMOVE_USER_NOTE_MARKER,
   UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
@@ -31,7 +32,6 @@ interface NoteMarkerProps {
   description: string | null;
   id?: number | string;
   position: number;
-  addNoteMarker: any;
 }
 
 /**
@@ -46,7 +46,6 @@ export const NoteMarker = ({
   description,
   id,
   position,
-  addNoteMarker,
 }: NoteMarkerProps) => {
   //#region Hooks
   const { control, handleSubmit, getValues } = useForm({
@@ -66,15 +65,46 @@ export const NoteMarker = ({
 
   const currentMap = useMapStore((state) => state.currentMap);
   const user = useAuthStore((state) => state.user);
-  const setUser = useAuthStore((state) => state.setUser);
+  const addNote = useAuthStore((state) => state.addNote);
+  const setNotes = useAuthStore((state) => state.setNotes);
 
-  // const [addNoteMarker, { data }] = useMutation(ADD_USER_NOTE_MARKER);
-  const [removeNoteMarker, { data: removedData }] = useMutation(
-    REMOVE_USER_NOTE_MARKER
-  );
-  const [updateNoteMarker, { data: updateData }] = useMutation(
-    UPDATE_USER_NOTE_MARKER
-  );
+  const [addNoteMarker] = useMutation(ADD_USER_NOTE_MARKER, {
+    variables: {
+      data: {
+        email: user?.email,
+        mapSlug: params.mapSlug,
+        title: getValues(`${position}-Title`),
+        description: getValues(`${position}-Description`),
+        ...coordinate,
+      },
+    },
+    onCompleted: (data) => addNote(data.addNoteMarker),
+  });
+  const [removeNoteMarker] = useMutation(REMOVE_USER_NOTE_MARKER, {
+    variables: {
+      data: {
+        email: user?.email,
+        id,
+      },
+    },
+    onCompleted: (data) => setNotes(data.removeNoteMarker.noteMarkers),
+  });
+  const [updateNoteMarker] = useMutation(UPDATE_USER_NOTE_MARKER, {
+    variables: {
+      data: {
+        id,
+        title: getValues(`${position}-Title`),
+        description: getValues(`${position}-Description`),
+        ...coordinate,
+      },
+    },
+    onCompleted: (data) =>
+      setNotes([
+        ...noteMarkers.slice(0, position),
+        data.updateNoteMarker,
+        ...noteMarkers.slice(position + 1),
+      ]),
+  });
   const noteMarkers = user?.noteMarkers ?? [];
   //#endregion
 
@@ -97,15 +127,7 @@ export const NoteMarker = ({
         },
       });
     } else {
-      addNoteMarker({
-        variables: {
-          data: {
-            email: user?.email,
-            mapSlug: params.mapSlug,
-            ...noteMarker,
-          },
-        },
-      });
+      addNoteMarker();
     }
 
     setEditMode(false);
@@ -113,76 +135,22 @@ export const NoteMarker = ({
   };
 
   const handleDelete = () => {
-    if (!user) return;
-
     if (typeof id === "number") {
-      removeNoteMarker({
-        variables: {
-          data: {
-            email: user.email,
-            id,
-          },
-        },
-      });
+      removeNoteMarker();
+    } else {
+      setNotes(noteMarkers.filter(({ id: curId }) => curId !== id));
     }
 
-    setUser({
-      ...user,
-      noteMarkers: noteMarkers.filter(({ id: curId }) => curId !== id),
-    });
     setEditMode(false);
   };
 
   const onMoveSave = () => {
     if (draggable) {
-      updateNoteMarker({
-        variables: {
-          data: {
-            id,
-            title,
-            description,
-            latitude: coordinate.latitude,
-            longitude: coordinate.longitude,
-          },
-        },
-      });
+      updateNoteMarker();
     }
 
     setDraggable(!draggable);
   };
-
-  //#region Lifecycle
-  useEffect(() => {
-    if (removedData) {
-      console.log(removedData);
-      setUser({
-        ...user!,
-        noteMarkers: [...(removedData.removeNoteMarker.noteMarkers as any)],
-      });
-    }
-  }, [removedData, setUser, user?.noteMarkers]);
-
-  useEffect(() => {
-    if (updateData) {
-      setUser({
-        ...user!,
-        noteMarkers: [
-          ...noteMarkers.slice(0, position),
-          updateData.updateNoteMarker,
-          ...noteMarkers.slice(position + 1),
-        ],
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [updateData, user?.noteMarkers]);
-
-  // useEffect(() => {
-  //   if (data) {
-  //     setUser({ ...user!, noteMarkers: [...noteMarkers, data.addNoteMarker] });
-  //   }
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [data]);
-  //#endregion
 
   return (
     <>

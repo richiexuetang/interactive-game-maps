@@ -1,6 +1,6 @@
 "use client";
 
-import { gql, useMutation } from "@apollo/client";
+import { useMutation } from "@apollo/client";
 import StarIcon from "@mui/icons-material/Star";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import { IconButton } from "@mui/material";
@@ -11,73 +11,38 @@ import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
-import { useEffect } from "react";
 import { GamesQuery } from "@/generated/graphql";
-import { ADD_FAVORITE } from "@/lib/graphql/constants";
+import { ADD_FAVORITE, REMOVE_FAVORITE } from "@/lib/graphql/constants";
 import { useAuthStore } from "@/store";
 
 export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
   const user = useAuthStore((state) => state.user);
-  const setUser = useAuthStore((state) => state.setUser);
+  const setFavorites = useAuthStore((state) => state.setFavorites);
 
-  const [addFavorite, { data: addData }] = useMutation(ADD_FAVORITE);
+  //#region graphql
+  const [addFavorite] = useMutation(ADD_FAVORITE, {
+    variables: { data: { email: user?.email, gameSlug: game.slug } },
+    onCompleted: (data) => setFavorites(data.addFavorite.favoriteMaps),
+  });
 
-  const [removeFavorite, { data: removeData }] = useMutation(gql`
-    mutation RemoveFavorite($data: AddFavoriteInput!) {
-      removeFavorite(data: $data) {
-        email
-        favoriteMaps {
-          title
-          id
-          slug
-        }
-      }
-    }
-  `);
+  const [removeFavorite] = useMutation(REMOVE_FAVORITE, {
+    variables: { data: { email: user?.email, gameSlug: game.slug } },
+    onCompleted: (data) => setFavorites(data.removeFavorite.favoriteMaps),
+  });
+  //#endregion
 
-  useEffect(() => {
-    if (addData) {
-      setUser({
-        ...user!,
-        favoriteMaps: addData?.addFavorite?.favoriteMaps as any[],
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [addData]);
-  useEffect(() => {
-    if (removeData) {
-      setUser({
-        ...user!,
-        favoriteMaps: removeData?.removeFavorite?.favoriteMaps as any[],
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [removeData]);
-
-  const handleFavorite = (e: any) => {
+  const toggleFavorite = (e: any) => {
     e.preventDefault();
+    if (!user?.email) return;
 
-    if (user?.favoriteMaps?.some((fav) => fav.slug === game.slug)) {
-      removeFavorite({
-        variables: {
-          data: {
-            email: user?.email,
-            gameSlug: game.slug,
-          },
-        },
-      });
+    if (user.favoriteMaps?.some(({ slug }) => slug === game.slug)) {
+      removeFavorite();
     } else {
-      addFavorite({
-        variables: {
-          data: {
-            email: user?.email,
-            gameSlug: game.slug,
-          },
-        },
-      });
+      addFavorite();
     }
   };
+
   return (
     <Grid key={slug} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
       <Card>
@@ -85,9 +50,9 @@ export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
           {user && (
             <IconButton
               sx={{ position: "absolute", right: 0, top: 0 }}
-              onClick={handleFavorite}
+              onClick={toggleFavorite}
             >
-              {user?.favoriteMaps?.some((fav) => fav.slug === game.slug) ? (
+              {user?.favoriteMaps.some(({ slug }) => slug === game.slug) ? (
                 <StarIcon />
               ) : (
                 <StarOutlineIcon />

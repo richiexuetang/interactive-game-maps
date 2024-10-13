@@ -1,4 +1,3 @@
-import { PrismaService } from "nestjs-prisma";
 import { Resolver, Mutation, Args, Subscription } from "@nestjs/graphql";
 import { PubSub } from "graphql-subscriptions";
 import { User } from "src/users/models/user.model";
@@ -11,6 +10,7 @@ import { UpdateNoteInput } from "src/users/dto/update-note.input";
 import { AddFavoriteInput } from "src/users/dto/add-favorite.input";
 import { UseGuards } from "@nestjs/common";
 import { GqlAuthGuard } from "./guards/gql-auth.guard";
+import { PrismaService } from "../common/prisma.service";
 
 const pubSub = new PubSub();
 
@@ -25,7 +25,7 @@ export class AuthResolver {
     return pubSub.asyncIterator("noteMarkerAdded");
   }
 
-  @UseGuards(GqlAuthGuard)
+  // @UseGuards(GqlAuthGuard)
   @Mutation(() => NoteMarker)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
     const { email, mapSlug, ...noteData } = data;

@@ -262,6 +262,18 @@ export const ADD_FAVORITE = gql`
   }
 `;
 
+export const REMOVE_FAVORITE = gql`
+  mutation RemoveFavorite($data: AddFavoriteInput!) {
+    removeFavorite(data: $data) {
+      favoriteMaps {
+        title
+        id
+        slug
+      }
+    }
+  }
+`;
+
 export const removeFavorite = gql`
   mutation RemoveFavorite($data: AddFavoriteInput!) {
     removeFavorite(data: $data) {
