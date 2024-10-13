@@ -1,23 +1,14 @@
-import { gql } from "@apollo/client";
 import Grid from "@mui/material/Grid2";
 import Stack from "@mui/material/Stack";
 import Image from "next/image";
-import { Game } from "@/__generated__/graphql";
 import { GameCard } from "@/components/cards/game-card";
 import { AppLayout } from "@/components/ui/app-layout";
-import { getClient } from "@/lib/graphql/apollo-client";
+import { getSdk } from "@/generated/graphql";
+import { client } from "@/lib/graphqlClient";
 
 export default async function Page() {
-  const { data } = await getClient().query({
-    query: gql(`
-    query {
-      games {
-        slug
-        title
-      }
-    }
-  `),
-  });
+  const sdk = getSdk(client);
+  const { games } = await sdk.Games({});
 
   return (
     <AppLayout>
@@ -38,7 +29,7 @@ export default async function Page() {
           className="my-8"
         />
         <Grid container spacing={3} sx={{ m: 8 }}>
-          {data?.games?.map((game: Game) => (
+          {games?.map((game) => (
             <GameCard key={game.slug} game={game} />
           ))}
         </Grid>

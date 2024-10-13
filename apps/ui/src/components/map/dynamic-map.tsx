@@ -12,13 +12,13 @@ import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
 import { RegionLayer } from "../layers/region";
 import { MarkersRenderer } from "../markers/markers-renderer";
 import { Menu, ProgressTracker } from "../sidebar";
-import type { Category, Map } from "@/__generated__/graphql";
+import { Category, MapDataQuery } from "@/generated/graphql";
 import { mapContainerOptions } from "@/lib/leaflet/map-container-options";
 import { cn, flatten } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { defaultState, useMapStore } from "@/store/map";
 
-const DynamicMap = ({ data }: { data: Map }) => {
+const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
   //#region Hooks
   const params = useParams<{ mapSlug: string; gameSlug: string }>();
   const [map, setMap] = React.useState<L.Map | null>(null);
@@ -42,11 +42,11 @@ const DynamicMap = ({ data }: { data: Map }) => {
         categories?.filter(({ id, defaultHidden }) => id && defaultHidden)
       )
     );
-
+    // @ts-ignore
     setCurrentMap({
       ...defaultState,
       ...data,
-      groups: groups,
+      groups,
       gameSlug: slug ?? "",
       hiddenCategories: defaultHidden.map(({ id }: Category) => id),
     });

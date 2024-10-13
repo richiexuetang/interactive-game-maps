@@ -2,8 +2,8 @@ import * as L from "leaflet";
 import { useParams, useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { Popup, useMap, Tooltip, Marker } from "react-leaflet";
-import { Location } from "@/__generated__/graphql";
 import { PopupCard } from "@/components/cards/popup-card";
+import { Location } from "@/generated/graphql";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
 

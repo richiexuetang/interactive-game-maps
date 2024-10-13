@@ -1,4 +1,3 @@
-import { gql } from "@apollo/client";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
@@ -6,7 +5,8 @@ import { remark } from "remark";
 import html from "remark-html";
 import { ChecklistGrid } from "@/components/data-grid/checklist-grid";
 import { MainNav } from "@/components/main-nav";
-import { getClient } from "@/lib/graphql/apollo-client";
+import { getSdk } from "@/generated/graphql";
+import { client } from "@/lib/graphqlClient";
 import { cn, titleCase } from "@/lib/utils";
 
 export default async function RegionPage({
@@ -14,37 +14,16 @@ export default async function RegionPage({
 }: {
   params: { id: string; gameSlug: string };
 }) {
-  const { data } = await getClient().query({
-    query: gql`
-      query Checklist($id: Int!) {
-        checklist(id: $id) {
-          title
-          categories {
-            title
-            locations {
-              id
-              title
-              description
-              latitude
-              longitude
-              mapSlug
-              map {
-                slug
-              }
-              category {
-                title
-              }
-            }
-          }
-        }
-      }
-    `,
-    variables: { id: Number(params.id) },
-  });
+  const sdk = getSdk(client);
+  const { checklist } = await sdk.Checklist({ id: Number(params.id) });
 
-  const locations = data.checklist.categories.flatMap(
+  const locations = checklist.categories?.flatMap(
     (category: any) => category.locations
   );
+
+  if (!locations) {
+    return null;
+  }
 
   const processedLocations = [];
   for (let i = 0; i < locations.length; i++) {
@@ -64,7 +43,7 @@ export default async function RegionPage({
         <Link underline="hover" href={`/game/${params.gameSlug}`}>
           {titleCase(params.gameSlug.replaceAll("-", " "))}
         </Link>
-        <Typography>{data.checklist.title}</Typography>
+        <Typography>{checklist.title}</Typography>
       </Breadcrumbs>
       <div className="bg-bodyBackground p-5">
         <ChecklistGrid locations={processedLocations} />

@@ -1,6 +1,13 @@
 /* eslint-disable no-unused-vars */
 import { create } from "zustand";
-import { Group, Location, Map, Region } from "@/__generated__/graphql";
+import {
+  Group,
+  Location,
+  Map,
+  MapDataQuery,
+  Maybe,
+  Region,
+} from "@/generated/graphql";
 
 export const defaultState = {
   maxZoom: 0,
@@ -16,7 +23,7 @@ export const defaultState = {
 
 export interface CurrentMapDef extends Map {
   maxZoom: number;
-  groups: Group[];
+  groups?: any;
   hiddenCategories: number[];
   focusedRegionId: string | null;
   copySnackbar: boolean;

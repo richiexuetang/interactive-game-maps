@@ -9,10 +9,10 @@ import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
-import { Game } from "@/__generated__/graphql";
+import { GamesQuery } from "@/generated/graphql";
 import { useAuthStore } from "@/store";
 
-export const GameCard = ({ game }: { game: Game }) => {
+export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
   const user = useAuthStore((state) => state.user);
 

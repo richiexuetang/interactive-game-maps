@@ -1,8 +1,8 @@
-import { gql } from "@apollo/client";
 import type { Metadata } from "next";
 import Map from "@/components/map/map";
+import { getSdk } from "@/generated/graphql";
 import { fetchGameMapDetails } from "@/lib/graphql/api";
-import { getClient } from "@/lib/graphql/apollo-client";
+import { client } from "@/lib/graphqlClient";
 import { titleCase } from "@/lib/utils";
 
 export async function generateMetadata({
@@ -11,23 +11,12 @@ export async function generateMetadata({
   params: { mapSlug: string; gameSlug: string };
 }): Promise<Metadata> {
   const { gameSlug, mapSlug } = params;
+  const sdk = getSdk(client);
+  const { mapDetails } = await sdk.MapDetails({ slug: mapSlug });
 
-  const { data } = await getClient().query({
-    query: gql`
-      query MapDetails($slug: String!) {
-        mapDetails(slug: $slug) {
-          gameSlug
-          title
-        }
-      }
-    `,
-    variables: { slug: mapSlug },
-  });
-
-  const map = data.mapDetails;
-  const gameTitle = titleCase(map.gameSlug.replaceAll("-", " "));
+  const gameTitle = titleCase(gameSlug.replaceAll("-", " "));
   return {
-    title: `${map.title} | ${gameTitle} | Ritcher Map`,
+    title: `${mapDetails.title} | ${gameTitle} | Ritcher Map`,
     description: `${gameTitle} Interactive Map - All Hidden Collectibles, Bosses, Secret Easter Eggs, Equipment, Upgrades, Quest Locations & more! Use the progress tracker to get 100% completion!`,
     openGraph: {
       type: "website",
@@ -61,5 +50,8 @@ export default async function MapPage({
   params: { mapSlug: string };
 }) {
   const mapData = await fetchGameMapDetails(params?.mapSlug);
+  if (!mapData) {
+    return null;
+  }
   return <Map data={mapData} />;
 }

@@ -7,7 +7,7 @@ import Modal from "@mui/material/Modal";
 import Image from "next/image";
 import React from "react";
 import ReactPlayer from "react-player";
-import { Media } from "@/__generated__/graphql";
+import { Media } from "@/generated/graphql";
 
 interface MediaViewProps {
   media: Media[];

@@ -8,7 +8,7 @@ import {
   Marker as RLeafletMarker,
 } from "react-leaflet";
 import { PopupCard } from "../cards/popup-card";
-import { Location } from "@/__generated__/graphql";
+import { Location } from "@/generated/graphql";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
 

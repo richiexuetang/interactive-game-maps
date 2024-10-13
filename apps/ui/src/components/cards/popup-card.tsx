@@ -14,7 +14,7 @@ import Tooltip from "@mui/material/Tooltip";
 import { useParams } from "next/navigation";
 import * as React from "react";
 import { MediaView } from "./media-view";
-import { Location } from "@/__generated__/graphql";
+import { Location } from "@/generated/graphql";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import {
   ADD_TO_USER_FOUND,

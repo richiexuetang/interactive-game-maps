@@ -3,7 +3,7 @@
 import { Checkbox } from "@mui/material";
 import { DataGrid, GridRowsProp, GridColDef } from "@mui/x-data-grid";
 import * as React from "react";
-import { Location } from "@/__generated__/graphql";
+import { Location } from "@/generated/graphql";
 import { titleCase } from "@/lib/utils";
 import { useAuthStore } from "@/store";
 

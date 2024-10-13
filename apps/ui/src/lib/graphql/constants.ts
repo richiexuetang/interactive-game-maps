@@ -1,5 +1,91 @@
 import { gql } from "@apollo/client";
 
+export const ChecklistDocument = gql`
+  query Checklist($id: Int!) {
+    checklist(id: $id) {
+      title
+      categories {
+        title
+        locations {
+          id
+          title
+          description
+          latitude
+          longitude
+          mapSlug
+          map {
+            slug
+          }
+          category {
+            title
+          }
+        }
+      }
+    }
+  }
+`;
+export const MapDetailsDocument = gql`
+  query MapDetails($slug: String!) {
+    mapDetails(slug: $slug) {
+      gameSlug
+      title
+    }
+  }
+`;
+export const GetGamesDocument = gql`
+  query GetGames($slug: String!) {
+    game(slug: $slug) {
+      slug
+      title
+    }
+  }
+`;
+export const ChecklistsDocument = gql`
+  query Checklists($slug: String!) {
+    checklists(slug: $slug) {
+      id
+      title
+    }
+  }
+`;
+export const GamesDocument = gql`
+  query Games {
+    games {
+      slug
+      title
+    }
+  }
+`;
+
+export const fetchGameByMap = gql`
+  query FetchGameByMap($slug: String!) {
+    game(slug: $slug) {
+      title
+      slug
+      groups {
+        id
+        title
+        categories {
+          id
+          icon
+          info
+          title
+          defaultHidden
+        }
+      }
+      maps {
+        slug
+        order
+        title
+        minZoom
+        maxZoom
+        zoom
+        center
+      }
+      slug
+    }
+  }
+`;
 export const ADD_TO_USER_FOUND = gql`
   mutation AddFoundLocation($data: UpdateFoundLocationInput!) {
     addFoundLocation(data: $data) {

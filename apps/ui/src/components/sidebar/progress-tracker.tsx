@@ -76,8 +76,10 @@ export const ProgressTracker = () => {
   //#region Helper Functions
   const getCategoryInfoById = (categoryId: number) =>
     groups
-      ?.find((group) => group.categories?.find(({ id }) => id === categoryId))
-      ?.categories?.find(({ id }) => id === categoryId);
+      ?.find((group: any) =>
+        group.categories?.find(({ id }: any) => id === categoryId)
+      )
+      ?.categories?.find(({ id }: any) => id === categoryId);
 
   const totalFoundForCategory = (categoryId: number) =>
     foundMarkers?.filter(
@@ -171,8 +173,8 @@ export const ProgressTracker = () => {
               {user?.hideFound ? "Show Found" : "Hide Found"}
             </Button>
             <Button onClick={signOutUser}>Log out</Button>
-            {groups?.map(({ categories }) =>
-              categories?.map(({ id, icon }) => {
+            {groups?.map(({ categories }: any) =>
+              categories?.map(({ id, icon }: any) => {
                 if (totalForCategory(id) !== 0) {
                   return (
                     <Accordion key={id}>
