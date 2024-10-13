@@ -25,6 +25,12 @@ export class AuthService {
     private prismaService: PrismaService
   ) {}
 
+  validateToken(token: string) {
+    return this.jwtService.verify(token, {
+      secret: process.env.JWT_SECRET_KEY,
+    });
+  }
+
   async signInWithGoogle(
     user: GoogleUser,
     res: Response
@@ -49,7 +55,7 @@ export class AuthService {
   private async findUserByEmail(email: string) {
     const user = await this.prismaService.user.findFirst({
       where: { email },
-      include: { noteMarkers: true, foundMarkers: true },
+      include: { noteMarkers: true, foundMarkers: true, favoriteMaps: true },
     });
 
     if (!user) return null;
@@ -68,9 +74,8 @@ export class AuthService {
           email: user.email,
           username: fullName,
           picture: user.picture,
-          foundMarkers: null,
-          noteMarkers: null,
         },
+        include: { noteMarkers: true, foundMarkers: true, favoriteMaps: true },
       });
 
       const encodedUser = this.encodeUserDataAsJwt(newUser);

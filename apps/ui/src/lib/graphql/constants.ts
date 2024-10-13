@@ -251,3 +251,23 @@ export const UPDATE_USER_NOTE_MARKER = gql`
     }
   }
 `;
+
+export const ADD_FAVORITE = gql`
+  mutation AddFavorite($data: AddFavoriteInput!) {
+    addFavorite(data: $data) {
+      favoriteMaps {
+        slug
+      }
+    }
+  }
+`;
+
+export const removeFavorite = gql`
+  mutation RemoveFavorite($data: AddFavoriteInput!) {
+    removeFavorite(data: $data) {
+      favoriteMaps {
+        slug
+      }
+    }
+  }
+`;

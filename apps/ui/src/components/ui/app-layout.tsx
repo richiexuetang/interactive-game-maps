@@ -70,7 +70,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
           <ButtonBase
             className={layoutClasses.EdgeSidebarCollapser}
             onClick={(event) => toggleEdgeSidebarCollapse({ event })}
-            sx={{ height: 48, mt: "auto" }}
+            sx={{ height: 48, mt: "auto", color: "white" }}
           >
             <KeyboardArrowLeft
               className={layoutClasses.EdgeSidebarUncollapsedVisible}

@@ -6,8 +6,9 @@ import Typography from "@mui/material/Typography";
 import { Metadata } from "next";
 import Link from "next/link";
 import { MainNav } from "@/components/main-nav";
-import { getSdk } from "@/generated/graphql";
+import { ChecklistGuide, getSdk, Map } from "@/generated/graphql";
 import { getFontClassName } from "@/lib/font";
+import { getClient } from "@/lib/getClient";
 import { client } from "@/lib/graphqlClient";
 import { cn } from "@/lib/utils";
 
@@ -17,7 +18,7 @@ export async function generateMetadata({
   params: { gameSlug: string };
 }): Promise<Metadata> {
   const { gameSlug } = params;
-  const sdk = getSdk(client);
+  const sdk = getClient();
   const { game } = await sdk.GetGames({ slug: gameSlug });
 
   return {
@@ -91,7 +92,7 @@ export default async function RegionPage({
             fontClassName
           )}
         >
-          {game.maps.map(({ slug, title }: any) => (
+          {game.maps.map(({ slug, title }: Partial<Map>) => (
             <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
               <Card sx={{ maxWidth: 350 }}>
                 <CardActionArea>
@@ -155,7 +156,7 @@ export default async function RegionPage({
               {game.title.toUpperCase() + " CHECKLIST"}
             </h2>
             <div className="flex gap-6 p-6 flex-wrap content-center justify-center">
-              {checklists?.map(({ title, id }: any) => (
+              {checklists?.map(({ title, id }: Partial<ChecklistGuide>) => (
                 <Link key={title} href={`/game/${game.slug}/guide/${id}`}>
                   <Card sx={{ minWidth: 350 }}>
                     <CardActionArea>

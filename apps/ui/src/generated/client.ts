@@ -1,5 +1,6 @@
-import { GraphQLClient, RequestOptions } from 'graphql-request';
-import gql from 'graphql-tag';
+import { GraphQLClient } from 'graphql-request';
+import { RequestInit } from 'graphql-request/dist/types.dom';
+import { useQuery, useMutation, UseQueryOptions, UseMutationOptions } from '@tanstack/react-query';
 export type Maybe<T> = T | null;
 export type InputMaybe<T> = Maybe<T>;
 export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
@@ -7,7 +8,14 @@ export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: 
 export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };
 export type MakeEmpty<T extends { [key: string]: unknown }, K extends keyof T> = { [_ in K]?: never };
 export type Incremental<T> = T | { [P in keyof T]?: P extends ' $fragmentName' | '__typename' ? T[P] : never };
-type GraphQLClientRequestHeaders = RequestOptions['requestHeaders'];
+
+function fetcher<TData, TVariables extends { [key: string]: any }>(client: GraphQLClient, query: string, variables?: TVariables, requestHeaders?: RequestInit['headers']) {
+  return async (): Promise<TData> => client.request({
+    document: query,
+    variables,
+    requestHeaders
+  });
+}
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
   ID: { input: string; output: string; }
@@ -450,7 +458,7 @@ export type RemoveFavoriteMutationVariables = Exact<{
 export type RemoveFavoriteMutation = { __typename?: 'Mutation', removeFavorite: { __typename?: 'User', favoriteMaps?: Array<{ __typename?: 'Map', slug: string }> | null } };
 
 
-export const ChecklistDocument = gql`
+export const ChecklistDocument = `
     query Checklist($id: Int!) {
   checklist(id: $id) {
     title
@@ -474,7 +482,21 @@ export const ChecklistDocument = gql`
   }
 }
     `;
-export const MapDetailsDocument = gql`
+export const useChecklistQuery = <
+      TData = ChecklistQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables: ChecklistQueryVariables,
+      options?: UseQueryOptions<ChecklistQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<ChecklistQuery, TError, TData>(
+      ['Checklist', variables],
+      fetcher<ChecklistQuery, ChecklistQueryVariables>(client, ChecklistDocument, variables, headers),
+      options
+    );
+export const MapDetailsDocument = `
     query MapDetails($slug: String!) {
   mapDetails(slug: $slug) {
     gameSlug
@@ -482,7 +504,21 @@ export const MapDetailsDocument = gql`
   }
 }
     `;
-export const GetGamesDocument = gql`
+export const useMapDetailsQuery = <
+      TData = MapDetailsQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables: MapDetailsQueryVariables,
+      options?: UseQueryOptions<MapDetailsQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<MapDetailsQuery, TError, TData>(
+      ['MapDetails', variables],
+      fetcher<MapDetailsQuery, MapDetailsQueryVariables>(client, MapDetailsDocument, variables, headers),
+      options
+    );
+export const GetGamesDocument = `
     query GetGames($slug: String!) {
   game(slug: $slug) {
     slug
@@ -490,7 +526,21 @@ export const GetGamesDocument = gql`
   }
 }
     `;
-export const ChecklistsDocument = gql`
+export const useGetGamesQuery = <
+      TData = GetGamesQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables: GetGamesQueryVariables,
+      options?: UseQueryOptions<GetGamesQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<GetGamesQuery, TError, TData>(
+      ['GetGames', variables],
+      fetcher<GetGamesQuery, GetGamesQueryVariables>(client, GetGamesDocument, variables, headers),
+      options
+    );
+export const ChecklistsDocument = `
     query Checklists($slug: String!) {
   checklists(slug: $slug) {
     id
@@ -498,7 +548,21 @@ export const ChecklistsDocument = gql`
   }
 }
     `;
-export const GamesDocument = gql`
+export const useChecklistsQuery = <
+      TData = ChecklistsQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables: ChecklistsQueryVariables,
+      options?: UseQueryOptions<ChecklistsQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<ChecklistsQuery, TError, TData>(
+      ['Checklists', variables],
+      fetcher<ChecklistsQuery, ChecklistsQueryVariables>(client, ChecklistsDocument, variables, headers),
+      options
+    );
+export const GamesDocument = `
     query Games {
   games {
     slug
@@ -506,7 +570,21 @@ export const GamesDocument = gql`
   }
 }
     `;
-export const FetchGameByMapDocument = gql`
+export const useGamesQuery = <
+      TData = GamesQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables?: GamesQueryVariables,
+      options?: UseQueryOptions<GamesQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<GamesQuery, TError, TData>(
+      variables === undefined ? ['Games'] : ['Games', variables],
+      fetcher<GamesQuery, GamesQueryVariables>(client, GamesDocument, variables, headers),
+      options
+    );
+export const FetchGameByMapDocument = `
     query FetchGameByMap($slug: String!) {
   game(slug: $slug) {
     title
@@ -535,7 +613,21 @@ export const FetchGameByMapDocument = gql`
   }
 }
     `;
-export const AddFoundLocationDocument = gql`
+export const useFetchGameByMapQuery = <
+      TData = FetchGameByMapQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables: FetchGameByMapQueryVariables,
+      options?: UseQueryOptions<FetchGameByMapQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<FetchGameByMapQuery, TError, TData>(
+      ['FetchGameByMap', variables],
+      fetcher<FetchGameByMapQuery, FetchGameByMapQueryVariables>(client, FetchGameByMapDocument, variables, headers),
+      options
+    );
+export const AddFoundLocationDocument = `
     mutation AddFoundLocation($data: UpdateFoundLocationInput!) {
   addFoundLocation(data: $data) {
     email
@@ -549,7 +641,20 @@ export const AddFoundLocationDocument = gql`
   }
 }
     `;
-export const RemoveFoundLocationDocument = gql`
+export const useAddFoundLocationMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<AddFoundLocationMutation, TError, AddFoundLocationMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<AddFoundLocationMutation, TError, AddFoundLocationMutationVariables, TContext>(
+      ['AddFoundLocation'],
+      (variables?: AddFoundLocationMutationVariables) => fetcher<AddFoundLocationMutation, AddFoundLocationMutationVariables>(client, AddFoundLocationDocument, variables, headers)(),
+      options
+    );
+export const RemoveFoundLocationDocument = `
     mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
   removeFoundLocation(data: $data) {
     email
@@ -563,7 +668,20 @@ export const RemoveFoundLocationDocument = gql`
   }
 }
     `;
-export const ToggleHideFoundSettingDocument = gql`
+export const useRemoveFoundLocationMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<RemoveFoundLocationMutation, TError, RemoveFoundLocationMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<RemoveFoundLocationMutation, TError, RemoveFoundLocationMutationVariables, TContext>(
+      ['RemoveFoundLocation'],
+      (variables?: RemoveFoundLocationMutationVariables) => fetcher<RemoveFoundLocationMutation, RemoveFoundLocationMutationVariables>(client, RemoveFoundLocationDocument, variables, headers)(),
+      options
+    );
+export const ToggleHideFoundSettingDocument = `
     mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
   toggleHideFoundSetting(data: $data) {
     hideFound
@@ -571,7 +689,20 @@ export const ToggleHideFoundSettingDocument = gql`
   }
 }
     `;
-export const MapDataDocument = gql`
+export const useToggleHideFoundSettingMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<ToggleHideFoundSettingMutation, TError, ToggleHideFoundSettingMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<ToggleHideFoundSettingMutation, TError, ToggleHideFoundSettingMutationVariables, TContext>(
+      ['ToggleHideFoundSetting'],
+      (variables?: ToggleHideFoundSettingMutationVariables) => fetcher<ToggleHideFoundSettingMutation, ToggleHideFoundSettingMutationVariables>(client, ToggleHideFoundSettingDocument, variables, headers)(),
+      options
+    );
+export const MapDataDocument = `
     query MapData($slug: String!) {
   mapData(slug: $slug) {
     center
@@ -625,7 +756,21 @@ export const MapDataDocument = gql`
   }
 }
     `;
-export const AddNoteMarkerDocument = gql`
+export const useMapDataQuery = <
+      TData = MapDataQuery,
+      TError = unknown
+    >(
+      client: GraphQLClient,
+      variables: MapDataQueryVariables,
+      options?: UseQueryOptions<MapDataQuery, TError, TData>,
+      headers?: RequestInit['headers']
+    ) =>
+    useQuery<MapDataQuery, TError, TData>(
+      ['MapData', variables],
+      fetcher<MapDataQuery, MapDataQueryVariables>(client, MapDataDocument, variables, headers),
+      options
+    );
+export const AddNoteMarkerDocument = `
     mutation AddNoteMarker($data: AddNoteInput!) {
   addNoteMarker(data: $data) {
     id
@@ -637,7 +782,20 @@ export const AddNoteMarkerDocument = gql`
   }
 }
     `;
-export const RemoveNoteMarkerDocument = gql`
+export const useAddNoteMarkerMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<AddNoteMarkerMutation, TError, AddNoteMarkerMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<AddNoteMarkerMutation, TError, AddNoteMarkerMutationVariables, TContext>(
+      ['AddNoteMarker'],
+      (variables?: AddNoteMarkerMutationVariables) => fetcher<AddNoteMarkerMutation, AddNoteMarkerMutationVariables>(client, AddNoteMarkerDocument, variables, headers)(),
+      options
+    );
+export const RemoveNoteMarkerDocument = `
     mutation RemoveNoteMarker($data: RemoveNoteInput!) {
   removeNoteMarker(data: $data) {
     noteMarkers {
@@ -651,7 +809,20 @@ export const RemoveNoteMarkerDocument = gql`
   }
 }
     `;
-export const UpdateNoteMarkerDocument = gql`
+export const useRemoveNoteMarkerMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<RemoveNoteMarkerMutation, TError, RemoveNoteMarkerMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<RemoveNoteMarkerMutation, TError, RemoveNoteMarkerMutationVariables, TContext>(
+      ['RemoveNoteMarker'],
+      (variables?: RemoveNoteMarkerMutationVariables) => fetcher<RemoveNoteMarkerMutation, RemoveNoteMarkerMutationVariables>(client, RemoveNoteMarkerDocument, variables, headers)(),
+      options
+    );
+export const UpdateNoteMarkerDocument = `
     mutation UpdateNoteMarker($data: UpdateNoteInput!) {
   updateNoteMarker(data: $data) {
     id
@@ -663,7 +834,20 @@ export const UpdateNoteMarkerDocument = gql`
   }
 }
     `;
-export const AddFavoriteDocument = gql`
+export const useUpdateNoteMarkerMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<UpdateNoteMarkerMutation, TError, UpdateNoteMarkerMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<UpdateNoteMarkerMutation, TError, UpdateNoteMarkerMutationVariables, TContext>(
+      ['UpdateNoteMarker'],
+      (variables?: UpdateNoteMarkerMutationVariables) => fetcher<UpdateNoteMarkerMutation, UpdateNoteMarkerMutationVariables>(client, UpdateNoteMarkerDocument, variables, headers)(),
+      options
+    );
+export const AddFavoriteDocument = `
     mutation AddFavorite($data: AddFavoriteInput!) {
   addFavorite(data: $data) {
     favoriteMaps {
@@ -672,7 +856,20 @@ export const AddFavoriteDocument = gql`
   }
 }
     `;
-export const RemoveFavoriteDocument = gql`
+export const useAddFavoriteMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<AddFavoriteMutation, TError, AddFavoriteMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<AddFavoriteMutation, TError, AddFavoriteMutationVariables, TContext>(
+      ['AddFavorite'],
+      (variables?: AddFavoriteMutationVariables) => fetcher<AddFavoriteMutation, AddFavoriteMutationVariables>(client, AddFavoriteDocument, variables, headers)(),
+      options
+    );
+export const RemoveFavoriteDocument = `
     mutation RemoveFavorite($data: AddFavoriteInput!) {
   removeFavorite(data: $data) {
     favoriteMaps {
@@ -681,59 +878,16 @@ export const RemoveFavoriteDocument = gql`
   }
 }
     `;
-
-export type SdkFunctionWrapper = <T>(action: (requestHeaders?:Record<string, string>) => Promise<T>, operationName: string, operationType?: string, variables?: any) => Promise<T>;
-
-
-const defaultWrapper: SdkFunctionWrapper = (action, _operationName, _operationType, _variables) => action();
-
-export function getSdk(client: GraphQLClient, withWrapper: SdkFunctionWrapper = defaultWrapper) {
-  return {
-    Checklist(variables: ChecklistQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ChecklistQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<ChecklistQuery>(ChecklistDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Checklist', 'query', variables);
-    },
-    MapDetails(variables: MapDetailsQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<MapDetailsQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<MapDetailsQuery>(MapDetailsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'MapDetails', 'query', variables);
-    },
-    GetGames(variables: GetGamesQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<GetGamesQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<GetGamesQuery>(GetGamesDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'GetGames', 'query', variables);
-    },
-    Checklists(variables: ChecklistsQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ChecklistsQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<ChecklistsQuery>(ChecklistsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Checklists', 'query', variables);
-    },
-    Games(variables?: GamesQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<GamesQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<GamesQuery>(GamesDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Games', 'query', variables);
-    },
-    FetchGameByMap(variables: FetchGameByMapQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<FetchGameByMapQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<FetchGameByMapQuery>(FetchGameByMapDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'FetchGameByMap', 'query', variables);
-    },
-    AddFoundLocation(variables: AddFoundLocationMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<AddFoundLocationMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<AddFoundLocationMutation>(AddFoundLocationDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'AddFoundLocation', 'mutation', variables);
-    },
-    RemoveFoundLocation(variables: RemoveFoundLocationMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<RemoveFoundLocationMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<RemoveFoundLocationMutation>(RemoveFoundLocationDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'RemoveFoundLocation', 'mutation', variables);
-    },
-    ToggleHideFoundSetting(variables: ToggleHideFoundSettingMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ToggleHideFoundSettingMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<ToggleHideFoundSettingMutation>(ToggleHideFoundSettingDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'ToggleHideFoundSetting', 'mutation', variables);
-    },
-    MapData(variables: MapDataQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<MapDataQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<MapDataQuery>(MapDataDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'MapData', 'query', variables);
-    },
-    AddNoteMarker(variables: AddNoteMarkerMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<AddNoteMarkerMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<AddNoteMarkerMutation>(AddNoteMarkerDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'AddNoteMarker', 'mutation', variables);
-    },
-    RemoveNoteMarker(variables: RemoveNoteMarkerMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<RemoveNoteMarkerMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<RemoveNoteMarkerMutation>(RemoveNoteMarkerDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'RemoveNoteMarker', 'mutation', variables);
-    },
-    UpdateNoteMarker(variables: UpdateNoteMarkerMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<UpdateNoteMarkerMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<UpdateNoteMarkerMutation>(UpdateNoteMarkerDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'UpdateNoteMarker', 'mutation', variables);
-    },
-    AddFavorite(variables: AddFavoriteMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<AddFavoriteMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<AddFavoriteMutation>(AddFavoriteDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'AddFavorite', 'mutation', variables);
-    },
-    RemoveFavorite(variables: RemoveFavoriteMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<RemoveFavoriteMutation> {
-      return withWrapper((wrappedRequestHeaders) => client.request<RemoveFavoriteMutation>(RemoveFavoriteDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'RemoveFavorite', 'mutation', variables);
-    }
-  };
-}
-export type Sdk = ReturnType<typeof getSdk>;
+export const useRemoveFavoriteMutation = <
+      TError = unknown,
+      TContext = unknown
+    >(
+      client: GraphQLClient,
+      options?: UseMutationOptions<RemoveFavoriteMutation, TError, RemoveFavoriteMutationVariables, TContext>,
+      headers?: RequestInit['headers']
+    ) =>
+    useMutation<RemoveFavoriteMutation, TError, RemoveFavoriteMutationVariables, TContext>(
+      ['RemoveFavorite'],
+      (variables?: RemoveFavoriteMutationVariables) => fetcher<RemoveFavoriteMutation, RemoveFavoriteMutationVariables>(client, RemoveFavoriteDocument, variables, headers)(),
+      options
+    );

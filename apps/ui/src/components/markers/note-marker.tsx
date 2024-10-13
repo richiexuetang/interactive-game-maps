@@ -30,7 +30,7 @@ interface NoteMarkerProps {
   longitude: number;
   title: string | null;
   description: string | null;
-  id?: any;
+  id?: number | string;
   position: number;
 }
 

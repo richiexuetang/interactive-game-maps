@@ -1,25 +1,20 @@
 import { PrismaService } from "nestjs-prisma";
-import { Resolver, Query, Mutation, Args, Subscription } from "@nestjs/graphql";
-import { User } from "./models/user.model";
-import { UsersService } from "./users.service";
-import { UpdateFoundLocationInput } from "./dto/update-found-location.input";
-import { UpdateHideFoundInput } from "./dto/update-hide-found.input";
-import { AddNoteInput } from "./dto/add-note.input";
-import { RemoveNoteInput } from "./dto/remove-note.input";
-import { UpdateNoteInput } from "./dto/update-note.input";
-import { NoteMarker } from "./models/note-marker.model";
-import { UseGuards } from "@nestjs/common";
-import { JwtGuard } from "src/auth/guards/jwt-auth.guard";
+import { Resolver, Mutation, Args, Subscription } from "@nestjs/graphql";
 import { PubSub } from "graphql-subscriptions";
+import { User } from "src/users/models/user.model";
+import { NoteMarker } from "src/users/models/note-marker.model";
+import { AddNoteInput } from "src/users/dto/add-note.input";
+import { RemoveNoteInput } from "src/users/dto/remove-note.input";
+import { UpdateFoundLocationInput } from "src/users/dto/update-found-location.input";
+import { UpdateHideFoundInput } from "src/users/dto/update-hide-found.input";
+import { UpdateNoteInput } from "src/users/dto/update-note.input";
+import { AddFavoriteInput } from "src/users/dto/add-favorite.input";
 
 const pubSub = new PubSub();
 
 @Resolver(() => User)
-export class UsersResolver {
-  constructor(
-    private usersService: UsersService,
-    private prisma: PrismaService
-  ) {}
+export class AuthResolver {
+  constructor(private prisma: PrismaService) {}
 
   @Subscription((returns) => NoteMarker, {
     name: "noteMarkerAdded",
@@ -28,7 +23,6 @@ export class UsersResolver {
     return pubSub.asyncIterator("noteMarkerAdded");
   }
 
-  @UseGuards(JwtGuard)
   @Mutation(() => NoteMarker)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
     const { email, mapSlug, ...noteData } = data;
@@ -48,7 +42,37 @@ export class UsersResolver {
   async removeNoteMarker(@Args("data") data: RemoveNoteInput) {
     const { id, email } = data;
     await this.prisma.noteMarker.delete({ where: { id } });
-    return await this.usersService.findUserByEmail(email);
+    return await this.prisma.user.findUnique({ where: { email } });
+  }
+
+  @Mutation(() => User)
+  async addFavorite(@Args("data") data: AddFavoriteInput) {
+    const { email, gameSlug } = data;
+
+    return await this.prisma.user.update({
+      where: { email },
+      data: {
+        favoriteMaps: {
+          connect: { slug: gameSlug },
+        },
+      },
+      include: { favoriteMaps: true },
+    });
+  }
+
+  @Mutation(() => User)
+  async removeFavorite(@Args("data") data: AddFavoriteInput) {
+    const { email, gameSlug } = data;
+
+    return await this.prisma.user.update({
+      where: { email },
+      data: {
+        favoriteMaps: {
+          disconnect: { slug: gameSlug },
+        },
+      },
+      include: { favoriteMaps: true },
+    });
   }
 
   @Mutation(() => NoteMarker)
@@ -105,7 +129,10 @@ export class UsersResolver {
 
   @Mutation(() => User)
   async removeFoundLocation(@Args("data") data: UpdateFoundLocationInput) {
-    const user = await this.usersService.findUserByEmail(data.email);
+    const user = await await this.prisma.user.findUnique({
+      where: { email: data.email },
+      include: { foundMarkers: true },
+    });
 
     return await this.prisma.user.update({
       where: {

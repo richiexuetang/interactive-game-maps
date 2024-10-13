@@ -3,11 +3,10 @@ import Stack from "@mui/material/Stack";
 import Image from "next/image";
 import { GameCard } from "@/components/cards/game-card";
 import { AppLayout } from "@/components/ui/app-layout";
-import { getSdk } from "@/generated/graphql";
-import { client } from "@/lib/graphqlClient";
+import { getClient } from "@/lib/getClient";
 
 export default async function Page() {
-  const sdk = getSdk(client);
+  const sdk = getClient();
   const { games } = await sdk.Games({});
 
   return (

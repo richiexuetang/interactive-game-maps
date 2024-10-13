@@ -1,6 +1,6 @@
 import { GraphQLModule } from "@nestjs/graphql";
 import { Logger, Module } from "@nestjs/common";
-import { ConfigModule } from "@nestjs/config";
+import { ConfigModule, ConfigService } from "@nestjs/config";
 import { PrismaModule, loggingMiddleware } from "nestjs-prisma";
 import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
@@ -11,6 +11,7 @@ import { MapsModule } from "./regions/maps.module";
 import { MarkersModule } from "./markers/markers.module";
 import { AuthModule } from "./auth/auth.module";
 import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module";
+import { JwtModule } from "@nestjs/jwt";
 
 @Module({
   imports: [
@@ -40,7 +41,7 @@ import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module
     ChecklistGuidesModule,
     GamesModule,
     MapsModule,
-    UsersModule,
+    // UsersModule,
     MarkersModule,
     AuthModule,
   ],

@@ -2,6 +2,11 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+input AddFavoriteInput {
+  email: String!
+  gameSlug: String!
+}
+
 input AddNoteInput {
   description: String!
   email: String!
@@ -131,8 +136,10 @@ type Media {
 }
 
 type Mutation {
+  addFavorite(data: AddFavoriteInput!): User!
   addFoundLocation(data: UpdateFoundLocationInput!): User!
   addNoteMarker(data: AddNoteInput!): NoteMarker!
+  removeFavorite(data: AddFavoriteInput!): User!
   removeFoundLocation(data: UpdateFoundLocationInput!): User!
   removeNoteMarker(data: RemoveNoteInput!): User!
   toggleHideFoundSetting(data: UpdateHideFoundInput!): User!
@@ -171,7 +178,6 @@ type Query {
   game(slug: String!): Game!
   games: [Game!]!
   getRegionsByMap(slug: String!): [Region!]!
-  getUser(email: String!): User!
   locations(id: Int!): [Location!]!
   mapData(slug: String!): Map!
   mapDetails(slug: String!): Map!
@@ -231,6 +237,7 @@ type User {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   email: String!
+  favoriteMaps: [Map!]
   foundMarkers: [Location!]
   hideFound: Boolean!
   id: String!

@@ -1,10 +1,10 @@
 import { InputType, Field } from "@nestjs/graphql";
 
 @InputType()
-export class CreateUserInput {
+export class AddFavoriteInput {
   @Field()
   email: string;
 
-  @Field({ nullable: true })
-  username?: string;
+  @Field()
+  gameSlug: string;
 }

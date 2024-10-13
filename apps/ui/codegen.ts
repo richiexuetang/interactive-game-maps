@@ -16,6 +16,16 @@ const config: CodegenConfig = {
         isReactHook: false,
       },
     },
+    "./src/generated/client.ts": {
+      plugins: [
+        "typescript",
+        "typescript-operations",
+        "typescript-react-query",
+      ],
+      config: {
+        fetcher: "graphql-request",
+      },
+    },
   },
 };
 

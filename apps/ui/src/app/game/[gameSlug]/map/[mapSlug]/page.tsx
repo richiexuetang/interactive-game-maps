@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import Map from "@/components/map/map";
-import { getSdk } from "@/generated/graphql";
+import { getClient } from "@/lib/getClient";
 import { fetchGameMapDetails } from "@/lib/graphql/api";
-import { client } from "@/lib/graphqlClient";
 import { titleCase } from "@/lib/utils";
 
 export async function generateMetadata({
@@ -11,7 +10,7 @@ export async function generateMetadata({
   params: { mapSlug: string; gameSlug: string };
 }): Promise<Metadata> {
   const { gameSlug, mapSlug } = params;
-  const sdk = getSdk(client);
+  const sdk = getClient();
   const { mapDetails } = await sdk.MapDetails({ slug: mapSlug });
 
   const gameTitle = titleCase(gameSlug.replaceAll("-", " "));
