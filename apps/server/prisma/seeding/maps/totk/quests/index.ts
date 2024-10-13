@@ -2,7 +2,6 @@ export const quests = {
   title: "Quests",
   categories: [
     {
-      isChecklist: true,
       locations: [
         {
           mapSlug: "hyrule",

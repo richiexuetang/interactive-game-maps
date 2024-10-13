@@ -18,7 +18,6 @@ type Category {
   icon: String!
   id: Float!
   info: String
-  isChecklist: Boolean!
   locations: [Location!]
   title: String!
 
@@ -165,6 +164,7 @@ enum OrderDirection {
 
 type Query {
   category(id: Float!): Category!
+  checklist(id: Int!): ChecklistGuide!
   checklists(slug: String!): [ChecklistGuide!]!
   fetchGameByMap(slug: String!): Game!
   findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!

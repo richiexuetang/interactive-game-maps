@@ -1,4 +1,4 @@
-import { Args, Query, Resolver } from "@nestjs/graphql";
+import { Args, Int, Query, Resolver } from "@nestjs/graphql";
 import { ChecklistGuide } from "./models/checklist-guide.model";
 import { PrismaService } from "nestjs-prisma";
 
@@ -12,6 +12,18 @@ export class ChecklistGuidesResolver {
       where: { gameSlug: slug },
       include: {
         categories: true,
+      },
+    });
+  }
+
+  @Query(() => ChecklistGuide)
+  async checklist(@Args("id", { type: () => Int }) id: number) {
+    return this.prisma.checklistGuide.findUnique({
+      where: { id },
+      include: {
+        categories: {
+          include: { locations: { include: { category: true, map: true } } },
+        },
       },
     });
   }

@@ -1548,7 +1548,7 @@ export const gow = {
       categories: [
         {
           title: "Armor Set",
-          isChecklist: true,
+
           locations: [
             {
               mapSlug: "sindris-house",
@@ -1960,7 +1960,7 @@ export const gow = {
         },
         {
           title: "Artifact",
-          isChecklist: true,
+
           locations: [
             {
               mapSlug: "vanaheim",
@@ -3975,7 +3975,7 @@ export const gow = {
         },
         {
           title: "Odin's Raven",
-          isChecklist: true,
+
           icon: "odins_raven",
           locations: [
             {
@@ -4625,7 +4625,7 @@ export const gow = {
         },
         {
           title: "Relic",
-          isChecklist: true,
+
           locations: [
             {
               mapSlug: "sindris-house",
@@ -4872,7 +4872,7 @@ export const gow = {
         },
         {
           title: "Shield",
-          isChecklist: true,
+
           icon: "gow_shield",
           locations: [
             {

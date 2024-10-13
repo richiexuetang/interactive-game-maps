@@ -80,7 +80,6 @@ Table Category {
   groupId Int
   group Group
   locations Location [not null]
-  isChecklist Boolean [not null, default: false]
   defaultHidden Boolean [not null, default: false]
   checklistGuides ChecklistGuide [not null]
 }

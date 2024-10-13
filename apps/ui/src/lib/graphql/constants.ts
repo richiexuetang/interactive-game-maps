@@ -88,7 +88,6 @@ query MapData($slug: String!) {
           defaultHidden
           icon
           info
-          isChecklist
           title
         }
       }
@@ -109,7 +108,6 @@ export const FETCH_GAME_MAP_DETAILS = gql`
           icon
           info
           title
-          isChecklist
           defaultHidden
         }
       }

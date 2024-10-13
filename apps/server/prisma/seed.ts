@@ -19,34 +19,34 @@ async function main() {
 async function seedChecklist(checklist: any) {
   const { title, categories, gameSlug } = checklist;
 
-  if (!title) {
-    console.log("No checklist title provided", checklist);
-    return;
-  }
-
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i];
-    const existCategory = await prisma.category.findUniqueOrThrow({
-      where: { id: category },
-    });
 
-    await prisma.checklistGuide.upsert({
-      where: { id: i },
-      create: {
-        title: title,
-        game: { connect: { slug: gameSlug } },
-        categories: {
-          connect: { id: existCategory.id },
-        },
-      },
-      update: {
-        game: { connect: { slug: gameSlug } },
-        categories: {
-          connect: { id: existCategory.id },
-        },
-      },
+    const existChecklist = await prisma.checklistGuide.findFirst({
+      where: { title, gameSlug },
     });
-    console.log("seeded checklist", title, existCategory.id);
+    if (existChecklist) {
+      await prisma.checklistGuide.update({
+        where: { id: existChecklist.id },
+        data: {
+          categories: {
+            connect: { id: category },
+          },
+        },
+      });
+    } else {
+      await prisma.checklistGuide.create({
+        data: {
+          title: title,
+          game: { connect: { slug: gameSlug } },
+          categories: {
+            connect: { id: category },
+          },
+        },
+      });
+    }
+
+    console.log("seeded checklist", title);
   }
 }
 /**

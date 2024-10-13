@@ -6,7 +6,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Metadata } from "next";
 import Link from "next/link";
-import { Group, Map } from "@/__generated__/graphql";
 import { MainNav } from "@/components/main-nav";
 import { getFontClassName } from "@/lib/font";
 import { getClient } from "@/lib/graphql/apollo-client";
@@ -83,6 +82,7 @@ export default async function RegionPage({
     query: gql`
       query Checklists($slug: String!) {
         checklists(slug: $slug) {
+          id
           title
         }
       }
@@ -111,7 +111,7 @@ export default async function RegionPage({
             fontClassName
           )}
         >
-          {game.maps.map(({ slug, title }: Map) => (
+          {game.maps.map(({ slug, title }: any) => (
             <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
               <Card sx={{ maxWidth: 350 }}>
                 <CardActionArea>
@@ -175,29 +175,23 @@ export default async function RegionPage({
               {game.title.toUpperCase() + " CHECKLIST"}
             </h2>
             <div className="flex gap-6 p-6 flex-wrap content-center justify-center">
-              {game.groups.map(({ categories }: Group) =>
-                categories?.map(({ title, isChecklist, id }) => {
-                  if (!isChecklist) return;
-
-                  return (
-                    <Link key={title} href={`/game/${game.slug}/guide/${id}`}>
-                      <Card sx={{ minWidth: 350 }}>
-                        <CardActionArea>
-                          <CardContent
-                            sx={{
-                              justifyContent: "center",
-                              alignContent: "center",
-                              display: "flex",
-                            }}
-                          >
-                            <h4 className="font-body text-accent">{title}</h4>
-                          </CardContent>
-                        </CardActionArea>
-                      </Card>
-                    </Link>
-                  );
-                })
-              )}
+              {checklistData.checklists.map(({ title, id }: any) => (
+                <Link key={title} href={`/game/${game.slug}/guide/${id}`}>
+                  <Card sx={{ minWidth: 350 }}>
+                    <CardActionArea>
+                      <CardContent
+                        sx={{
+                          justifyContent: "center",
+                          alignContent: "center",
+                          display: "flex",
+                        }}
+                      >
+                        <h4 className="font-body text-accent">{title}</h4>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Link>
+              ))}
             </div>
           </div>
         </div>

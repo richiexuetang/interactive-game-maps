@@ -1,7 +1,7 @@
 export const equipment = [
   {
     title: "Armor",
-    isChecklist: true,
+
     locations: [
       {
         mapSlug: "the-lands-between",
@@ -1824,7 +1824,7 @@ export const equipment = [
   },
   {
     title: "Ash of War",
-    isChecklist: true,
+
     locations: [
       {
         mapSlug: "the-lands-between",
@@ -3132,7 +3132,7 @@ export const equipment = [
   },
   {
     title: "Incantation",
-    isChecklist: true,
+
     locations: [
       {
         mapSlug: "the-lands-between",
@@ -5386,7 +5386,7 @@ export const equipment = [
   },
   {
     title: "Sorcery",
-    isChecklist: true,
+
     locations: [
       {
         mapSlug: "the-lands-between",
@@ -6219,7 +6219,7 @@ export const equipment = [
   },
   {
     title: "Talisman",
-    isChecklist: true,
+
     locations: [
       {
         mapSlug: "the-lands-between",
@@ -7875,7 +7875,7 @@ export const equipment = [
   },
   {
     title: "Weapon",
-    isChecklist: true,
+
     locations: [
       {
         mapSlug: "the-lands-between",

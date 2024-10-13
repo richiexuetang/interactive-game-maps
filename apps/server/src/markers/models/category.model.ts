@@ -16,9 +16,6 @@ export class Category extends BaseModel {
   @Field(() => [Location], { nullable: true })
   locations?: Location[] | null;
 
-  @Field(() => Boolean)
-  isChecklist: boolean;
-
   @Field()
   defaultHidden?: boolean;
 }

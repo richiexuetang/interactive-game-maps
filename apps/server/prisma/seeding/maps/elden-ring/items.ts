@@ -2062,7 +2062,7 @@ export const items = [
   },
   {
     title: "Spirit Ashes",
-    isChecklist: true,
+
     info: "Spirit Ashes are summonable companions, that can aid the player in combat. After receiving the Spirit Calling Bell, the player may summon any acquired Spirit Ash by paying its cost when in range of a Rebirth Monument.\n\nAfter completing Roderika's Task, Roderika can upgrade any Spirit Ash with the corresponding upgrade material, up to +10.",
     locations: [
       {

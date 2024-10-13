@@ -343,7 +343,7 @@ export const keyItems = {
     },
     {
       title: "Formula",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-2",
@@ -408,7 +408,7 @@ export const keyItems = {
     },
     {
       title: "Gourd",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",
@@ -729,7 +729,7 @@ export const keyItems = {
     },
     {
       title: "Soak",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",
@@ -946,7 +946,7 @@ export const keyItems = {
     },
     {
       title: "Spirit",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",
