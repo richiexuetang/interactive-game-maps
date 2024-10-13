@@ -15304,7 +15304,7 @@ export const collectibles = {
           ],
         },
       ],
-      isChecklist: true,
+
       title: "Korok Seed",
     },
     {

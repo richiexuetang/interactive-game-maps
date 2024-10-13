@@ -35,6 +35,7 @@ Table Game {
   title String [not null]
   groups Group [not null]
   maps Map [not null]
+  ChecklistGuide ChecklistGuide [not null]
 }
 
 Table Map {
@@ -79,8 +80,8 @@ Table Category {
   groupId Int
   group Group
   locations Location [not null]
-  isChecklist Boolean [not null, default: false]
   defaultHidden Boolean [not null, default: false]
+  checklistGuides ChecklistGuide [not null]
 }
 
 Table Location {
@@ -106,9 +107,22 @@ Table Media {
   location Location
 }
 
+Table ChecklistGuide {
+  id Int [pk, increment]
+  title String [not null]
+  categories Category [not null]
+  gameSlug String [not null]
+  game Game [not null]
+}
+
 Table LocationToUser {
   foundmarkersId Int [ref: > Location.id]
   usersId String [ref: > User.id]
+}
+
+Table CategoryToChecklistGuide {
+  checklistguidesId Int [ref: > ChecklistGuide.id]
+  categoriesId Int [ref: > Category.id]
 }
 
 Enum LocationType {
@@ -133,3 +147,5 @@ Ref: Location.categoryId > Category.id
 Ref: Location.mapSlug > Map.slug
 
 Ref: Media.locationId > Location.id
+
+Ref: ChecklistGuide.gameSlug > Game.slug

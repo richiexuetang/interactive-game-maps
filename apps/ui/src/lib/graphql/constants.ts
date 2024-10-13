@@ -51,22 +51,22 @@ query MapData($slug: String!) {
     slug
     locations {
       categoryId
-          category {
-            title
-            id
-            icon
-            info
-          }
-          media {
-            url
-            type
-          }
-          type
-          description
-          latitude
-          longitude
-          title
-          id
+      category {
+        title
+        id
+        icon
+        info
+      }
+      media {
+        url
+        type
+      }
+      type
+      description
+      latitude
+      longitude
+      title
+      id
     }
     regions {
       centerX
@@ -88,7 +88,6 @@ query MapData($slug: String!) {
           defaultHidden
           icon
           info
-          isChecklist
           title
         }
       }
@@ -109,7 +108,6 @@ export const FETCH_GAME_MAP_DETAILS = gql`
           icon
           info
           title
-          isChecklist
           defaultHidden
         }
       }

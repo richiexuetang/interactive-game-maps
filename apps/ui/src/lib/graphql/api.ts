@@ -10,7 +10,6 @@ export async function fetchGameMapDetails(slug: string) {
   });
 
   const details = data.mapData;
-
   const processedLocations = [];
   const locations = details.locations;
   for (let i = 0; i < locations.length; i++) {

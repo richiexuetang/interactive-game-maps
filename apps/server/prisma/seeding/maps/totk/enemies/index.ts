@@ -2,7 +2,6 @@ export const enemies = {
   title: "Enemies",
   categories: [
     {
-      isChecklist: true,
       locations: [
         {
           mapSlug: "hyrule",

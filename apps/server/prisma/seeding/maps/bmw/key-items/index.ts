@@ -238,11 +238,43 @@ export const keyItems = {
       locations: [
         {
           mapSlug: "chapter-1",
-          title: "Coconut Wine",
+          title: "3-Year-Old Coconut Wine",
           description:
             "**Location:** Obtained by upgrading the starter Coconut Wine Drink  \n\n**Effect:**  Each sip restores 36% of maximum health",
           latitude: "0.72409334905448",
           longitude: "-0.59502002583520",
+        },
+        {
+          mapSlug: "chapter-1",
+          title: "5-Year-Old Coconut Wine",
+          description:
+            "**Location:** Obtained by upgrading the starter [3-Year-Old Coconute Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398848)  \n\n**Effect:**  Each sip restores 40% of maximum health",
+          latitude: "0.72490421053230",
+          longitude: "-0.59080320903740",
+        },
+        {
+          mapSlug: "chapter-1",
+          title: "10-Year-Old Coconut Wine",
+          description:
+            "**Location:** Obtained by upgrading the [5-Year-Old Coconute Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398849)\n\n**Effect:**  Each sip restores 43% of maximum health",
+          latitude: "0.72555289960904",
+          longitude: "-0.58577546593176",
+        },
+        {
+          mapSlug: "chapter-1",
+          title: "18-Year-Old Coconut Wine",
+          description:
+            "**Location:** Obtained by upgrading the [10-Year-Old Coconut Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398850)\n\n**Effect:**  Each sip restores 46% of maximum health",
+          latitude: "0.72603941635708",
+          longitude: "-0.58123427861170",
+        },
+        {
+          mapSlug: "chapter-1",
+          title: "30-Year-Old Coconut Wine",
+          description:
+            "**Location:** Obtained by upgrading the [18-Year-Old Coconut Wine](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=398851)\n\n**Effect:**  Each sip restores 49% of maximum health",
+          latitude: "0.72685027748490",
+          longitude: "-0.57636872076745",
         },
         {
           mapSlug: "chapter-1",
@@ -311,7 +343,7 @@ export const keyItems = {
     },
     {
       title: "Formula",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-2",
@@ -376,7 +408,7 @@ export const keyItems = {
     },
     {
       title: "Gourd",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",
@@ -697,7 +729,7 @@ export const keyItems = {
     },
     {
       title: "Soak",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",
@@ -914,7 +946,7 @@ export const keyItems = {
     },
     {
       title: "Spirit",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",

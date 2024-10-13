@@ -3,6 +3,9 @@
     "next/core-web-vitals",
     "prettier"
   ],
+  "globals": {
+    "JSX": "readonly"
+  },
   "rules": {
     "no-undef": "error",
     "no-unused-vars": "warn",

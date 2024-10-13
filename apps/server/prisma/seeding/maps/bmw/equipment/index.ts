@@ -3,7 +3,7 @@ export const equipment = {
   categories: [
     {
       title: "Armor",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-4",
@@ -408,7 +408,7 @@ export const equipment = {
     },
     {
       title: "Spell",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",
@@ -530,7 +530,7 @@ export const equipment = {
     },
     {
       title: "Weapon",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "chapter-1",

@@ -7,4 +7,5 @@ tiles
 .venv
 .vercel
 map-api.pem
-map-data
+
+.next

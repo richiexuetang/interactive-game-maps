@@ -6,7 +6,7 @@ export const loot = {
     {
       title: "Armor",
       icon: "totk_armor",
-      isChecklist: true,
+
       locations: [
         {
           mapSlug: "hyrule",

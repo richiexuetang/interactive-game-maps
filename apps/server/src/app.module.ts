@@ -10,6 +10,7 @@ import { UsersModule } from "./users/users.module";
 import { MapsModule } from "./regions/maps.module";
 import { MarkersModule } from "./markers/markers.module";
 import { AuthModule } from "./auth/auth.module";
+import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module";
 
 @Module({
   imports: [
@@ -36,6 +37,7 @@ import { AuthModule } from "./auth/auth.module";
       useClass: GqlConfigService,
     }),
 
+    ChecklistGuidesModule,
     GamesModule,
     MapsModule,
     UsersModule,

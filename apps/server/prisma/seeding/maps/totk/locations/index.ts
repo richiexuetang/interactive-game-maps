@@ -17,7 +17,7 @@ export const locations = {
     },
     {
       title: "Cave",
-      isChecklist: true,
+
       locations: [...cave],
     },
     {

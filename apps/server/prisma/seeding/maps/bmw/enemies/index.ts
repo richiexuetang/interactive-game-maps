@@ -737,7 +737,6 @@ export const enemies = {
     },
     {
       title: "Yaoguai King",
-      isChecklist: true,
       locations: [
         {
           mapSlug: "chapter-1",

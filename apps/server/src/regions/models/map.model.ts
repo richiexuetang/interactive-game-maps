@@ -3,6 +3,7 @@ import { BaseModel } from "src/common/models/base.model";
 import { Region as Region } from "./region.model";
 import { Location } from "src/markers/models/location.model";
 import { Game } from "src/games/models/game.model";
+import { Category } from "src/markers/models/category.model";
 
 @ObjectType()
 export class Map extends BaseModel {

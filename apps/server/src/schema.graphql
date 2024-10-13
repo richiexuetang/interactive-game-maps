@@ -18,8 +18,21 @@ type Category {
   icon: String!
   id: Float!
   info: String
-  isChecklist: Boolean!
   locations: [Location!]
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+type ChecklistGuide {
+  categories: [Category!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  game: Game!
+  gameSlug: String!
+  id: Float!
   title: String!
 
   """Identifies the date and time when the object was last updated."""
@@ -151,6 +164,8 @@ enum OrderDirection {
 
 type Query {
   category(id: Float!): Category!
+  checklist(id: Int!): ChecklistGuide!
+  checklists(slug: String!): [ChecklistGuide!]!
   fetchGameByMap(slug: String!): Game!
   findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!
   game(slug: String!): Game!

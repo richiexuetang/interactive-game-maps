@@ -173,12 +173,16 @@ export const Menu = ({ map }: MenuProps) => {
                           onClick={() => handleHiddenCategory(category.id)}
                         >
                           <span
-                            className={cn(`icon-${category.icon}`, "mr-2")}
+                            className={cn(
+                              `icon-${category.icon}`,
+                              "w-4 h-4 mr-2"
+                            )}
                           />
                           <Typography
                             variant="caption"
                             sx={{
                               fontSize: "12px",
+                              whiteSpace: "nowrap",
                             }}
                           >
                             {category.title}

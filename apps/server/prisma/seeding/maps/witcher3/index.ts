@@ -13430,7 +13430,7 @@ export const witcher3 = {
         },
         {
           title: "Witcher Gear",
-          isChecklist: true,
+
           locations: [
             {
               mapSlug: "white-orchard",
