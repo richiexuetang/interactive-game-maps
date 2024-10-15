@@ -111,7 +111,6 @@ export const TOGGLE_HIDE_FOUND = gql(
 mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
   toggleHideFoundSetting(data: $data) {
     hideFound
-    email
   }
 }
 `

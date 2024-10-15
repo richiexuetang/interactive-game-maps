@@ -36,8 +36,12 @@ export const ProgressTracker = () => {
   const currentMap = useMapStore((state) => state.currentMap);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
+  const user = useAuthStore((state) => state.user);
 
-  const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
+  const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND, {
+    onCompleted: (data) =>
+      setUser({ ...user!, hideFound: data.toggleHideFoundSetting.hideFound }),
+  });
   const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
     onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
   });
@@ -46,7 +50,6 @@ export const ProgressTracker = () => {
       setFoundMarkers(data.removeFoundLocation.foundMarkers),
   });
   const removeUser = useAuthStore((state) => state.removeUser);
-  const user = useAuthStore((state) => state.user);
   const setUser = useAuthStore((state) => state.setUser);
 
   //#endregion
@@ -90,14 +93,11 @@ export const ProgressTracker = () => {
   };
 
   const toggleHideFound = () => {
-    if (user) {
-      const hide = !user.hideFound;
+    if (!user) return;
 
-      toggleUserHideFound({
-        variables: { data: { email, hide } },
-      });
-      setUser({ ...user, hideFound: hide });
-    }
+    toggleUserHideFound({
+      variables: { data: { email, hide: !user.hideFound } },
+    });
   };
 
   const signOutUser = () => {
