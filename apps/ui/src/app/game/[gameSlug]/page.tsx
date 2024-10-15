@@ -7,9 +7,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { MainNav } from "@/components/main-nav";
 import { ChecklistGuide, getSdk, Map } from "@/generated/graphql";
-import { getFontClassName } from "@/lib/font";
 import { getClient } from "@/lib/getClient";
-import { client } from "@/lib/graphqlClient";
+import { client } from "@/lib/getClient";
+import { getFontClassName } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({

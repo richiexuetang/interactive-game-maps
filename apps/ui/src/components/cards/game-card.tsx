@@ -3,12 +3,12 @@
 import { useMutation } from "@apollo/client";
 import StarIcon from "@mui/icons-material/Star";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
-import { IconButton } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
+import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import { GamesQuery } from "@/generated/graphql";
@@ -52,7 +52,7 @@ export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
               sx={{ position: "absolute", right: 0, top: 0 }}
               onClick={toggleFavorite}
             >
-              {user?.favoriteMaps.some(({ slug }) => slug === game.slug) ? (
+              {user?.favoriteMaps?.some(({ slug }) => slug === game.slug) ? (
                 <StarIcon />
               ) : (
                 <StarOutlineIcon />

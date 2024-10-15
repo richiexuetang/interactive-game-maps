@@ -17,13 +17,13 @@ import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import { useRouter } from "next/navigation";
-import React, { useEffect } from "react";
-import { getBodyFont } from "@/lib/font";
+import React from "react";
 import {
   ADD_TO_USER_FOUND,
   REMOVE_FROM_USER_FOUND,
   TOGGLE_HIDE_FOUND,
 } from "@/lib/graphql/constants";
+import { getBodyFont } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
@@ -37,35 +37,25 @@ export const ProgressTracker = () => {
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
-  const [addLocation, { data: addData }] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation, { data: removeData }] = useMutation(
-    REMOVE_FROM_USER_FOUND
-  );
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
+    onCompleted: (data) =>
+      setUser({
+        ...user!,
+        foundMarkers: data.addFoundLocation.foundMarkers,
+      }),
+  });
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND, {
+    onCompleted: (data) =>
+      setUser({
+        ...user!,
+        foundMarkers: data.removeFoundLocation.foundMarkers,
+      }),
+  });
   const removeUser = useAuthStore((state) => state.removeUser);
   const user = useAuthStore((state) => state.user);
   const setUser = useAuthStore((state) => state.setUser);
 
   //#endregion
-
-  useEffect(() => {
-    if (addData) {
-      setUser({
-        ...user!,
-        foundMarkers: addData.addFoundLocation.foundMarkers,
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [addData]);
-
-  useEffect(() => {
-    if (removeData) {
-      setUser({
-        ...user!,
-        foundMarkers: removeData.removeFoundLocation.foundMarkers,
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [removeData]);
 
   if (!currentMap) return null;
 

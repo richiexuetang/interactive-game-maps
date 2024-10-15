@@ -1,6 +1,7 @@
 "use client";
 
-import { CssBaseline, Theme, ThemeProvider, createTheme } from "@mui/material";
+import CssBaseline from "@mui/material/CssBaseline";
+import { Theme, ThemeProvider, createTheme } from "@mui/material/styles";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import type { MapDataQuery } from "@/generated/graphql";

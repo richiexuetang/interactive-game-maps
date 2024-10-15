@@ -1,27 +1,25 @@
 import { useMutation } from "@apollo/client";
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  Divider,
-  Modal,
-  Stack,
-  TextField,
-  Typography,
-} from "@mui/material";
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Divider from "@mui/material/Divider";
+import Modal from "@mui/material/Modal";
+import Stack from "@mui/material/Stack";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
 import * as L from "leaflet";
 import { useParams } from "next/navigation";
 import { useRef, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { Marker, Popup } from "react-leaflet";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
-import { getBodyFont } from "@/lib/font";
 import {
   ADD_USER_NOTE_MARKER,
   REMOVE_USER_NOTE_MARKER,
   UPDATE_USER_NOTE_MARKER,
 } from "@/lib/graphql/constants";
+import { getBodyFont } from "@/lib/ui/font";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
 

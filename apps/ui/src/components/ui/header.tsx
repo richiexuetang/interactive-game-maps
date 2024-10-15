@@ -1,6 +1,6 @@
 import ZapIcon from "@mui/icons-material/ElectricBolt";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { Avatar } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
 import Box, { BoxProps } from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import React from "react";
@@ -31,7 +31,6 @@ export const AppHeader = ({
         href="/"
         sx={{
           mx: 2,
-          display: { xs: "none", md: "flex" },
           fontFamily: "monospace",
           fontWeight: 700,
           letterSpacing: ".3rem",

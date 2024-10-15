@@ -1,22 +1,16 @@
 "use client";
-import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
-import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
-import { ButtonBase, IconButton, Menu } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/IconButton";
 import * as React from "react";
 import { AppHeader } from "./header";
-import { NavSidebarMockup } from "./nav-sidebar";
 import { BmcIcon } from "../icons/bmc-icon";
 import {
   Content,
-  EdgeSidebar,
-  EdgeSidebarContent,
   Footer,
   Header,
   Root,
-  applyEdgeSidebarStyles,
   applyHeaderStyles,
   layoutClasses,
-  toggleEdgeSidebarCollapse,
   toggleTemporaryEdgeSidebar,
 } from "../layout";
 
@@ -39,6 +33,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
               onClick={() => {
                 toggleTemporaryEdgeSidebar();
               }}
+              component="div"
             >
               {/* @ts-ignore */}
               <Menu />

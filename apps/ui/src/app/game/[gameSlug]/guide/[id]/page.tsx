@@ -13,16 +13,13 @@ export default async function RegionPage({
 }: {
   params: { id: string; gameSlug: string };
 }) {
-  const sdk = getClient();
-  const { checklist } = await sdk.Checklist({ id: Number(params.id) });
+  const { checklist } = await getClient().Checklist({ id: Number(params.id) });
 
   const locations = checklist.categories?.flatMap(
     (category) => category.locations
   );
 
-  if (!locations) {
-    return null;
-  }
+  if (!locations) return null;
 
   const processedLocations = [];
   for (let i = 0; i < locations.length; i++) {

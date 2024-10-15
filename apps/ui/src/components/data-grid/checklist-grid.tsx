@@ -1,6 +1,6 @@
 "use client";
 
-import { Checkbox } from "@mui/material";
+import Checkbox from "@mui/material/Checkbox";
 import { DataGrid, GridRowsProp, GridColDef } from "@mui/x-data-grid";
 import * as React from "react";
 import { titleCase } from "@/lib/utils";

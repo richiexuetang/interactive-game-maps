@@ -22,10 +22,11 @@ export default async function Page() {
       >
         <Image
           src="/images/logo.png"
-          width={200}
-          height={100}
+          width="0"
+          height="0"
           alt="app logo"
-          className="my-8"
+          sizes="100vw"
+          className="w-36 h-28"
         />
         <Grid container spacing={4} sx={{ m: 8 }}>
           {games?.map((game) => (

@@ -273,13 +273,3 @@ export const REMOVE_FAVORITE = gql`
     }
   }
 `;
-
-export const removeFavorite = gql`
-  mutation RemoveFavorite($data: AddFavoriteInput!) {
-    removeFavorite(data: $data) {
-      favoriteMaps {
-        slug
-      }
-    }
-  }
-`;

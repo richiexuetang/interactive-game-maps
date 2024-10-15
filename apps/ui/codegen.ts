@@ -12,20 +12,16 @@ const config: CodegenConfig = {
         "typescript-graphql-request",
       ],
       config: {
-        fetcher: "../lib/graphqlClient#client",
+        fetcher: "../lib/getClient#client",
         isReactHook: false,
       },
     },
-    "./src/generated/client.ts": {
-      plugins: [
-        "typescript",
-        "typescript-operations",
-        "typescript-react-query",
-      ],
-      config: {
-        fetcher: "graphql-request",
-      },
-    },
+  },
+  hooks: {
+    // Codegen does not always regenerate new files unless files do not exist.
+    afterStart: ["find ./src/generated -name '*.generated.*' -delete"],
+    // This will remove all the `RequestInit` lines.
+    afterOneFileWrite: ["node ./src/generated/codegen-fix.mjs"],
   },
 };
 

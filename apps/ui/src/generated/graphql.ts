@@ -110,7 +110,7 @@ export type Map = {
   /** Identifies the date and time when the object was created. */
   createdAt: Scalars['DateTime']['output'];
   game?: Maybe<Game>;
-  gameSlug: Scalars['String']['output'];
+  gameSlug?: Maybe<Scalars['String']['output']>;
   id: Scalars['Float']['output'];
   locations?: Maybe<Array<Location>>;
   maxZoom: Scalars['Float']['output'];
@@ -358,7 +358,7 @@ export type MapDetailsQueryVariables = Exact<{
 }>;
 
 
-export type MapDetailsQuery = { __typename?: 'Query', mapDetails: { __typename?: 'Map', gameSlug: string, title: string } };
+export type MapDetailsQuery = { __typename?: 'Query', mapDetails: { __typename?: 'Map', gameSlug?: string | null, title: string } };
 
 export type GetGamesQueryVariables = Exact<{
   slug: Scalars['String']['input'];
@@ -447,7 +447,7 @@ export type RemoveFavoriteMutationVariables = Exact<{
 }>;
 
 
-export type RemoveFavoriteMutation = { __typename?: 'Mutation', removeFavorite: { __typename?: 'User', favoriteMaps?: Array<{ __typename?: 'Map', slug: string }> | null } };
+export type RemoveFavoriteMutation = { __typename?: 'Mutation', removeFavorite: { __typename?: 'User', favoriteMaps?: Array<{ __typename?: 'Map', title: string, id: number, slug: string }> | null } };
 
 
 export const ChecklistDocument = gql`
@@ -676,6 +676,8 @@ export const RemoveFavoriteDocument = gql`
     mutation RemoveFavorite($data: AddFavoriteInput!) {
   removeFavorite(data: $data) {
     favoriteMaps {
+      title
+      id
       slug
     }
   }

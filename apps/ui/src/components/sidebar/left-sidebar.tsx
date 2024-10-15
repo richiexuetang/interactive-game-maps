@@ -12,7 +12,7 @@ import { MarkerSearch } from "./components/marker-search";
 import { RegionsGrid } from "./components/regions-grid";
 import { ShowHideButtons } from "./components/show-hide-buttons";
 import { SidebarClose } from "./components/sidebar-close";
-import { getFontClassName } from "@/lib/font";
+import { getFontClassName } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 import { useMapStore } from "@/store/map";
 
