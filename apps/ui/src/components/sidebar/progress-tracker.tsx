@@ -35,21 +35,15 @@ export const ProgressTracker = () => {
   const open = Boolean(anchorEl);
   const currentMap = useMapStore((state) => state.currentMap);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
+  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND);
   const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
-    onCompleted: (data) =>
-      setUser({
-        ...user!,
-        foundMarkers: data.addFoundLocation.foundMarkers,
-      }),
+    onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
   });
   const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND, {
     onCompleted: (data) =>
-      setUser({
-        ...user!,
-        foundMarkers: data.removeFoundLocation.foundMarkers,
-      }),
+      setFoundMarkers(data.removeFoundLocation.foundMarkers),
   });
   const removeUser = useAuthStore((state) => state.removeUser);
   const user = useAuthStore((state) => state.user);
@@ -74,8 +68,8 @@ export const ProgressTracker = () => {
   const totalFoundForCategory = (categoryId: number) =>
     foundMarkers?.filter(
       (location) =>
-        locations?.find(({ id }) => id.toString() == location.toString())
-          ?.categoryId === categoryId
+        locations?.find(({ id }) => id == location.id)?.categoryId ===
+        categoryId
     ).length;
 
   const totalForCategory = (id: number) =>

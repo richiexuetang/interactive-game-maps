@@ -15,6 +15,11 @@ import { GamesQuery } from "@/generated/graphql";
 import { ADD_FAVORITE, REMOVE_FAVORITE } from "@/lib/graphql/constants";
 import { useAuthStore } from "@/store";
 
+/**
+ *
+ * @param param0
+ * @returns
+ */
 export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
   const user = useAuthStore((state) => state.user);

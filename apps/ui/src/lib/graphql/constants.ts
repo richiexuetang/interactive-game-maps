@@ -89,13 +89,8 @@ export const fetchGameByMap = gql`
 export const ADD_TO_USER_FOUND = gql`
   mutation AddFoundLocation($data: UpdateFoundLocationInput!) {
     addFoundLocation(data: $data) {
-      email
       foundMarkers {
         id
-        title
-        description
-        latitude
-        longitude
       }
     }
   }
@@ -104,13 +99,8 @@ export const ADD_TO_USER_FOUND = gql`
 export const REMOVE_FROM_USER_FOUND = gql`
   mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
     removeFoundLocation(data: $data) {
-      email
       foundMarkers {
         id
-        title
-        description
-        latitude
-        longitude
       }
     }
   }

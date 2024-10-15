@@ -8,9 +8,9 @@ export async function fetchGameMapDetails(slug: string) {
 
   const processedLocations = [];
   const locations = mapData.locations;
-  if (!locations) {
-    return null;
-  }
+
+  if (!locations) return mapData;
+
   for (let i = 0; i < locations.length; i++) {
     const curr = locations[i];
     const processedDesc = await remark()
