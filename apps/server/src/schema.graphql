@@ -170,17 +170,13 @@ enum OrderDirection {
 }
 
 type Query {
-  category(id: Float!): Category!
   checklist(id: Int!): ChecklistGuide!
   checklists(slug: String!): [ChecklistGuide!]!
   fetchGameByMap(slug: String!): Game!
   findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!
   game(slug: String!): Game!
   games: [Game!]!
-  getRegionsByMap(slug: String!): [Region!]!
-  locations(id: Int!): [Location!]!
   mapData(slug: String!): Map!
-  mapDetails(slug: String!): Map!
 }
 
 type Region {
@@ -245,5 +241,6 @@ type User {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+  user: User!
   username: String
 }

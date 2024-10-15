@@ -1,4 +1,11 @@
-import { Resolver, Mutation, Args, Subscription } from "@nestjs/graphql";
+import {
+  Resolver,
+  Mutation,
+  Args,
+  Subscription,
+  ResolveField,
+  Parent,
+} from "@nestjs/graphql";
 import { PubSub } from "graphql-subscriptions";
 import { User } from "src/users/models/user.model";
 import { NoteMarker } from "src/users/models/note-marker.model";
@@ -11,12 +18,18 @@ import { AddFavoriteInput } from "src/users/dto/add-favorite.input";
 import { UseGuards } from "@nestjs/common";
 import { GqlAuthGuard } from "./guards/gql-auth.guard";
 import { PrismaService } from "../common/prisma.service";
+import { Auth } from "./models/auth.model";
+import { AuthService } from "./auth.service";
+import { UserEntity } from "../common/decorators/user.decorator";
 
 const pubSub = new PubSub();
 
 @Resolver(() => User)
 export class AuthResolver {
-  constructor(private prisma: PrismaService) {}
+  constructor(
+    private prisma: PrismaService,
+    private readonly auth: AuthService
+  ) {}
 
   @Subscription((returns) => NoteMarker, {
     name: "noteMarkerAdded",
@@ -101,8 +114,13 @@ export class AuthResolver {
     });
   }
 
+  // @UseGuards(GqlAuthGuard)
   @Mutation(() => User)
-  async addFoundLocation(@Args("data") data: UpdateFoundLocationInput) {
+  async addFoundLocation(
+    @UserEntity() user: User,
+    @Args("data") data: UpdateFoundLocationInput
+  ) {
+    console.log("user", user);
     const { email, location } = data;
     const existingLocation = await this.prisma.location.findUnique({
       where: { id: location },
@@ -150,5 +168,10 @@ export class AuthResolver {
       },
       include: { foundMarkers: true },
     });
+  }
+
+  @ResolveField("user", () => User)
+  async user(@Parent() auth: Auth) {
+    return await this.auth.getUserFromToken(auth.accessToken);
   }
 }

@@ -13,10 +13,6 @@ import { User } from "@prisma/client";
 import { Token } from "./models/token.model";
 
 import { GoogleUser } from "./interfaces/auth.interface";
-import {
-  COOKIE_NAMES,
-  expiresTimeTokenMilliseconds,
-} from "./constants/auth.constants";
 import { PrismaService } from "src/common/prisma.service";
 import { SecurityConfig } from "src/common/configs/config.interface";
 
@@ -106,14 +102,14 @@ export class AuthService {
 
   setJwtTokenToCookies(res: Response, user: User) {
     const expirationDateInMilliseconds =
-      new Date().getTime() + expiresTimeTokenMilliseconds;
+      new Date().getTime() + 7 * 24 * 60 * 60 * 1000;
     const cookieOptions: CookieOptions = {
       httpOnly: true, // this ensures that the cookie cannot be accessed through JavaScript!
       expires: new Date(expirationDateInMilliseconds),
     };
 
     res.cookie(
-      COOKIE_NAMES.JWT,
+      "jwt",
       this.jwtService.sign({
         id: user.id,
         sub: {
@@ -155,5 +151,11 @@ export class AuthService {
     } catch (error) {
       throw new UnauthorizedException();
     }
+  }
+
+  getUserFromToken(token: string): Promise<User> {
+    console.log("token", token);
+    const id = this.jwtService.decode(token)["userId"];
+    return this.prismaService.user.findUnique({ where: { id } });
   }
 }

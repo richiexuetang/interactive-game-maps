@@ -343,6 +343,7 @@ export type User = {
   noteMarkers?: Maybe<Array<NoteMarker>>;
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
+  user: User;
   username?: Maybe<Scalars['String']['output']>;
 };
 
@@ -353,12 +354,12 @@ export type ChecklistQueryVariables = Exact<{
 
 export type ChecklistQuery = { __typename?: 'Query', checklist: { __typename?: 'ChecklistGuide', title: string, categories?: Array<{ __typename?: 'Category', title: string, locations?: Array<{ __typename?: 'Location', id: number, title: string, description?: string | null, latitude: number, longitude: number, mapSlug: string, map: { __typename?: 'Map', slug: string }, category?: { __typename?: 'Category', title: string } | null }> | null }> | null } };
 
-export type MapDetailsQueryVariables = Exact<{
+export type ChecklistsQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
-export type MapDetailsQuery = { __typename?: 'Query', mapDetails: { __typename?: 'Map', gameSlug?: string | null, title: string } };
+export type ChecklistsQuery = { __typename?: 'Query', checklists: Array<{ __typename?: 'ChecklistGuide', id: number, title: string }> };
 
 export type GetGamesQueryVariables = Exact<{
   slug: Scalars['String']['input'];
@@ -366,13 +367,6 @@ export type GetGamesQueryVariables = Exact<{
 
 
 export type GetGamesQuery = { __typename?: 'Query', game: { __typename?: 'Game', slug: string, title: string } };
-
-export type ChecklistsQueryVariables = Exact<{
-  slug: Scalars['String']['input'];
-}>;
-
-
-export type ChecklistsQuery = { __typename?: 'Query', checklists: Array<{ __typename?: 'ChecklistGuide', id: number, title: string }> };
 
 export type GamesQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -386,33 +380,40 @@ export type FetchGameByMapQueryVariables = Exact<{
 
 export type FetchGameByMapQuery = { __typename?: 'Query', game: { __typename?: 'Game', title: string, slug: string, groups?: Array<{ __typename?: 'Group', id: number, title: string, categories?: Array<{ __typename?: 'Category', id: number, icon: string, info?: string | null, title: string, defaultHidden: boolean }> | null }> | null, maps?: Array<{ __typename?: 'Map', slug: string, order: number, title: string, minZoom: number, maxZoom: number, zoom: number, center: Array<number> }> | null } };
 
-export type AddFoundLocationMutationVariables = Exact<{
-  data: UpdateFoundLocationInput;
-}>;
-
-
-export type AddFoundLocationMutation = { __typename?: 'Mutation', addFoundLocation: { __typename?: 'User', email: string, foundMarkers?: Array<{ __typename?: 'Location', id: number, title: string, description?: string | null, latitude: number, longitude: number }> | null } };
-
-export type RemoveFoundLocationMutationVariables = Exact<{
-  data: UpdateFoundLocationInput;
-}>;
-
-
-export type RemoveFoundLocationMutation = { __typename?: 'Mutation', removeFoundLocation: { __typename?: 'User', email: string, foundMarkers?: Array<{ __typename?: 'Location', id: number, title: string, description?: string | null, latitude: number, longitude: number }> | null } };
-
-export type ToggleHideFoundSettingMutationVariables = Exact<{
-  data: UpdateHideFoundInput;
-}>;
-
-
-export type ToggleHideFoundSettingMutation = { __typename?: 'Mutation', toggleHideFoundSetting: { __typename?: 'User', hideFound: boolean, email: string } };
-
 export type MapDataQueryVariables = Exact<{
   slug: Scalars['String']['input'];
 }>;
 
 
 export type MapDataQuery = { __typename?: 'Query', mapData: { __typename?: 'Map', center: Array<number>, maxZoom: number, minZoom: number, zoom: number, slug: string, locations?: Array<{ __typename?: 'Location', categoryId?: number | null, type?: string | null, description?: string | null, latitude: number, longitude: number, title: string, id: number, category?: { __typename?: 'Category', title: string, id: number, icon: string, info?: string | null } | null, media?: Array<{ __typename?: 'Media', url: string, type: string }> | null }> | null, regions?: Array<{ __typename?: 'Region', centerX?: number | null, centerY?: number | null, coordinates?: Array<Array<Array<number>>> | null, title: string }> | null, game?: { __typename?: 'Game', slug: string, maps?: Array<{ __typename?: 'Map', title: string, slug: string }> | null, groups?: Array<{ __typename?: 'Group', id: number, title: string, categories?: Array<{ __typename?: 'Category', id: number, defaultHidden: boolean, icon: string, info?: string | null, title: string }> | null }> | null } | null } };
+
+export type MapDetailsQueryVariables = Exact<{
+  slug: Scalars['String']['input'];
+}>;
+
+
+export type MapDetailsQuery = { __typename?: 'Query', mapData: { __typename?: 'Map', gameSlug?: string | null, title: string } };
+
+export type AddFoundLocationMutationVariables = Exact<{
+  data: UpdateFoundLocationInput;
+}>;
+
+
+export type AddFoundLocationMutation = { __typename?: 'Mutation', addFoundLocation: { __typename?: 'User', foundMarkers?: Array<{ __typename?: 'Location', id: number }> | null } };
+
+export type RemoveFoundLocationMutationVariables = Exact<{
+  data: UpdateFoundLocationInput;
+}>;
+
+
+export type RemoveFoundLocationMutation = { __typename?: 'Mutation', removeFoundLocation: { __typename?: 'User', foundMarkers?: Array<{ __typename?: 'Location', id: number }> | null } };
+
+export type ToggleHideFoundSettingMutationVariables = Exact<{
+  data: UpdateHideFoundInput;
+}>;
+
+
+export type ToggleHideFoundSettingMutation = { __typename?: 'Mutation', toggleHideFoundSetting: { __typename?: 'User', hideFound: boolean } };
 
 export type AddNoteMarkerMutationVariables = Exact<{
   data: AddNoteInput;
@@ -474,10 +475,10 @@ export const ChecklistDocument = gql`
   }
 }
     `;
-export const MapDetailsDocument = gql`
-    query MapDetails($slug: String!) {
-  mapDetails(slug: $slug) {
-    gameSlug
+export const ChecklistsDocument = gql`
+    query Checklists($slug: String!) {
+  checklists(slug: $slug) {
+    id
     title
   }
 }
@@ -486,14 +487,6 @@ export const GetGamesDocument = gql`
     query GetGames($slug: String!) {
   game(slug: $slug) {
     slug
-    title
-  }
-}
-    `;
-export const ChecklistsDocument = gql`
-    query Checklists($slug: String!) {
-  checklists(slug: $slug) {
-    id
     title
   }
 }
@@ -531,43 +524,6 @@ export const FetchGameByMapDocument = gql`
       zoom
       center
     }
-    slug
-  }
-}
-    `;
-export const AddFoundLocationDocument = gql`
-    mutation AddFoundLocation($data: UpdateFoundLocationInput!) {
-  addFoundLocation(data: $data) {
-    email
-    foundMarkers {
-      id
-      title
-      description
-      latitude
-      longitude
-    }
-  }
-}
-    `;
-export const RemoveFoundLocationDocument = gql`
-    mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
-  removeFoundLocation(data: $data) {
-    email
-    foundMarkers {
-      id
-      title
-      description
-      latitude
-      longitude
-    }
-  }
-}
-    `;
-export const ToggleHideFoundSettingDocument = gql`
-    mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
-  toggleHideFoundSetting(data: $data) {
-    hideFound
-    email
   }
 }
     `;
@@ -622,6 +578,39 @@ export const MapDataDocument = gql`
         }
       }
     }
+  }
+}
+    `;
+export const MapDetailsDocument = gql`
+    query MapDetails($slug: String!) {
+  mapData(slug: $slug) {
+    gameSlug
+    title
+  }
+}
+    `;
+export const AddFoundLocationDocument = gql`
+    mutation AddFoundLocation($data: UpdateFoundLocationInput!) {
+  addFoundLocation(data: $data) {
+    foundMarkers {
+      id
+    }
+  }
+}
+    `;
+export const RemoveFoundLocationDocument = gql`
+    mutation RemoveFoundLocation($data: UpdateFoundLocationInput!) {
+  removeFoundLocation(data: $data) {
+    foundMarkers {
+      id
+    }
+  }
+}
+    `;
+export const ToggleHideFoundSettingDocument = gql`
+    mutation ToggleHideFoundSetting($data: UpdateHideFoundInput!) {
+  toggleHideFoundSetting(data: $data) {
+    hideFound
   }
 }
     `;
@@ -694,20 +683,23 @@ export function getSdk(client: GraphQLClient, withWrapper: SdkFunctionWrapper = 
     Checklist(variables: ChecklistQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ChecklistQuery> {
       return withWrapper((wrappedRequestHeaders) => client.request<ChecklistQuery>(ChecklistDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Checklist', 'query', variables);
     },
-    MapDetails(variables: MapDetailsQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<MapDetailsQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<MapDetailsQuery>(MapDetailsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'MapDetails', 'query', variables);
+    Checklists(variables: ChecklistsQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ChecklistsQuery> {
+      return withWrapper((wrappedRequestHeaders) => client.request<ChecklistsQuery>(ChecklistsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Checklists', 'query', variables);
     },
     GetGames(variables: GetGamesQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<GetGamesQuery> {
       return withWrapper((wrappedRequestHeaders) => client.request<GetGamesQuery>(GetGamesDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'GetGames', 'query', variables);
-    },
-    Checklists(variables: ChecklistsQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ChecklistsQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<ChecklistsQuery>(ChecklistsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Checklists', 'query', variables);
     },
     Games(variables?: GamesQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<GamesQuery> {
       return withWrapper((wrappedRequestHeaders) => client.request<GamesQuery>(GamesDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'Games', 'query', variables);
     },
     FetchGameByMap(variables: FetchGameByMapQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<FetchGameByMapQuery> {
       return withWrapper((wrappedRequestHeaders) => client.request<FetchGameByMapQuery>(FetchGameByMapDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'FetchGameByMap', 'query', variables);
+    },
+    MapData(variables: MapDataQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<MapDataQuery> {
+      return withWrapper((wrappedRequestHeaders) => client.request<MapDataQuery>(MapDataDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'MapData', 'query', variables);
+    },
+    MapDetails(variables: MapDetailsQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<MapDetailsQuery> {
+      return withWrapper((wrappedRequestHeaders) => client.request<MapDetailsQuery>(MapDetailsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'MapDetails', 'query', variables);
     },
     AddFoundLocation(variables: AddFoundLocationMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<AddFoundLocationMutation> {
       return withWrapper((wrappedRequestHeaders) => client.request<AddFoundLocationMutation>(AddFoundLocationDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'AddFoundLocation', 'mutation', variables);
@@ -717,9 +709,6 @@ export function getSdk(client: GraphQLClient, withWrapper: SdkFunctionWrapper = 
     },
     ToggleHideFoundSetting(variables: ToggleHideFoundSettingMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<ToggleHideFoundSettingMutation> {
       return withWrapper((wrappedRequestHeaders) => client.request<ToggleHideFoundSettingMutation>(ToggleHideFoundSettingDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'ToggleHideFoundSetting', 'mutation', variables);
-    },
-    MapData(variables: MapDataQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<MapDataQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<MapDataQuery>(MapDataDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'MapData', 'query', variables);
     },
     AddNoteMarker(variables: AddNoteMarkerMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<AddNoteMarkerMutation> {
       return withWrapper((wrappedRequestHeaders) => client.request<AddNoteMarkerMutation>(AddNoteMarkerDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'AddNoteMarker', 'mutation', variables);

@@ -11,11 +11,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { gameSlug, mapSlug } = params;
   const sdk = getClient();
-  const { mapDetails } = await sdk.MapDetails({ slug: mapSlug });
+  const { mapData } = await sdk.MapDetails({ slug: mapSlug });
 
   const gameTitle = titleCase(gameSlug.replaceAll("-", " "));
   return {
-    title: `${mapDetails.title} | ${gameTitle} | Ritcher Map`,
+    title: `${mapData.title} | ${gameTitle} | Ritcher Map`,
     description: `${gameTitle} Interactive Map - All Hidden Collectibles, Bosses, Secret Easter Eggs, Equipment, Upgrades, Quest Locations & more! Use the progress tracker to get 100% completion!`,
     openGraph: {
       type: "website",

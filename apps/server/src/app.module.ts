@@ -6,7 +6,6 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
 import { MapsModule } from "./maps/maps.module";
-import { MarkersModule } from "./markers/markers.module";
 import { AuthModule } from "./auth/auth.module";
 import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module";
 import { PrismaModule } from "./common/prisma.module";
@@ -30,7 +29,6 @@ import { PrismaModule } from "./common/prisma.module";
     GamesModule,
     MapsModule,
     // UsersModule,
-    MarkersModule,
     AuthModule,
   ],
   controllers: [],
