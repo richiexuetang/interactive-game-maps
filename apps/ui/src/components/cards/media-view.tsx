@@ -82,7 +82,7 @@ export const MediaView = ({ media }: MediaViewProps) => {
       <Modal open={modalOpen} onClose={() => setModalOpen(false)}>
         <Image
           onClick={() => setModalOpen(false)}
-          src={media[0]?.url}
+          src={media[activeStep]?.url}
           fill
           objectFit="none"
           alt={media[0]?.url}

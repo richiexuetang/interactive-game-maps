@@ -1,5 +1,5 @@
 import * as L from "leaflet";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { Polygon, useMap } from "react-leaflet";
 import { TextMarker } from "../leaflet";
 import { useMapStore } from "@/store/map";
@@ -19,27 +19,21 @@ export const RegionLayer = ({
 }: RegionLayerProps) => {
   const polygonRef = useRef<L.Polygon | null>(null);
   const map = useMap();
-  const [center, setCenter] = useState<L.LatLng | null>(null);
-  const currentMap = useMapStore((state) => state.currentMap);
-  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
+  const { focusedRegionId } = useMapStore((state) => state.currentMap) || {};
+  const setFocusedRegionId = useMapStore((state) => state.setFocusedRegionId);
 
   //#region Hooks
   useEffect(() => {
-    if (polygonRef?.current) {
-      const center = polygonRef.current.getBounds().getCenter();
-      setCenter(center);
-    }
-  }, [polygonRef]);
+    if (focusedRegionId === id) {
+      map.fitBounds(polygonRef.current?.getBounds()!);
 
-  useEffect(() => {
-    if (currentMap?.focusedRegionId === id && polygonRef?.current) {
-      map.fitBounds(polygonRef.current.getBounds());
-
-      setCurrentMap({ ...currentMap, focusedRegionId: null });
+      setFocusedRegionId(null);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentMap?.focusedRegionId, id, map]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusedRegionId]);
   //#endregion
+
+  const center = polygonRef?.current?.getBounds().getCenter();
 
   const position = center ? center : [centerX ?? 0, centerY ?? 0];
   return (

@@ -37,11 +37,17 @@ export interface CurrentMapDef extends Map {
 export interface CurrentMapStateDef {
   currentMap: CurrentMapDef | null;
   setCurrentMap(map: CurrentMapDef): void;
+  setFocusedRegionId(regionId: string | null): void;
 }
 
 export const useMapStore = create<CurrentMapStateDef>()((set) => ({
   currentMap: null,
   setCurrentMap: (map: CurrentMapDef) => {
     set({ currentMap: map });
+  },
+  setFocusedRegionId: (regionId: string | null) => {
+    set((state) => ({
+      currentMap: { ...state.currentMap!, focusedRegionId: regionId },
+    }));
   },
 }));

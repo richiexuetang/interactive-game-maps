@@ -11,62 +11,6 @@ import React from "react";
 import { Circle } from "../mockup-shape";
 import { randomBetween } from "../mockup-utils";
 
-export const IconList = ({ count = 4 }: { count?: number }) => (
-  <>
-    {[...Array(count).fill(undefined)].map((_, index) => (
-      <ListItem key={index}>
-        <ListItemIcon>
-          <Circle sx={{ fontSize: 24 }} />
-        </ListItemIcon>
-        <ListItemText
-          primary={
-            <Circle
-              sx={{
-                height: 16,
-                width: randomBetween(56, 136),
-                borderRadius: 1,
-              }}
-            />
-          }
-          sx={{
-            "@container (max-width: 254px)": {
-              width: 0,
-              overflow: "hidden",
-            },
-          }}
-        />
-      </ListItem>
-    ))}
-  </>
-);
-
-// export const InsetList = ({ count = 4 }: { count?: number }) => (
-//   <>
-//     {[...Array(count).fill(undefined)].map((_, index) => (
-//       <ListItem key={index}>
-//         <ListItemText
-//           inset
-//           primary={
-//             <Circle
-//               sx={{
-//                 height: 16,
-//                 width: randomBetween(56, 136),
-//                 borderRadius: 1,
-//               }}
-//             />
-//           }
-//           sx={{
-//             "@container (max-width: 254px)": {
-//               width: 0,
-//               overflow: "hidden",
-//             },
-//           }}
-//         />
-//       </ListItem>
-//     ))}
-//   </>
-// );
-
 export const IconListItem = ({
   icon,
   children,

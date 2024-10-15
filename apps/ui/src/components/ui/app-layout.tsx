@@ -41,41 +41,6 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
           }
         />
       </Header>
-      {/* <EdgeSidebar
-        sx={(theme) => ({
-          ...applyEdgeSidebarStyles({
-            theme,
-            config: {
-              xs: {
-                variant: "temporary",
-                width: "256px",
-              },
-              sm: {
-                variant: "permanent",
-                width: "256px",
-                autoCollapse: "sm",
-                collapsedWidth: "64px",
-              },
-            },
-          }),
-        })}
-      >
-        <EdgeSidebarContent>
-          <NavSidebarMockup />
-          <ButtonBase
-            className={layoutClasses.EdgeSidebarCollapser}
-            onClick={(event) => toggleEdgeSidebarCollapse({ event })}
-            sx={{ height: 48, mt: "auto", color: "white" }}
-          >
-            <KeyboardArrowLeft
-              className={layoutClasses.EdgeSidebarUncollapsedVisible}
-            />
-            <KeyboardArrowRight
-              className={layoutClasses.EdgeSidebarCollapsedVisible}
-            />
-          </ButtonBase>
-        </EdgeSidebarContent>
-      </EdgeSidebar> */}
       <Content>{children}</Content>
       <Footer>
         <div className="bg-gray-900">

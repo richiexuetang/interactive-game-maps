@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 current_path = os.getcwd()
 
-zoom_start = 13
-zoom_end = 13
+zoom_start = 17
+zoom_end = 17
 
 lows = {
     8: 127,
@@ -17,8 +17,8 @@ lows = {
     13: 4065,
     14: 8136,
     15: 16293,
-    16: 32610,
-    17: 65250
+    16: 32548,
+    17: 65095
 }
 
 highs = {
@@ -31,7 +31,7 @@ highs = {
     14: 8184,
     15: 16360,
     16: 32668,
-    17: 65346
+    17: 65444
 }
 
 y_lows = {
@@ -57,7 +57,7 @@ y_highs = {
     17: 65445
 }
 regions = [
-    # "hyrule"
+    "hyrule/default-v2/",
     # "white-orchard",
     # "velen-novigrad",
     # "skellige",
@@ -72,21 +72,24 @@ regions = [
     # "chapter-5",
     # "chapter-6",
     # "sindris-house/",
-    "vanaheim/",
-    "alfheim/",
-    "muspelheim/",
-    "midgard/",
-    "niflheim/",
-    "svartalfheim/",
-    "jotunheim/",
-    "asgard/",
-    "helheim/",
+    # "vanaheim/",
+    # "alfheim/",
+    # "muspelheim/",
+    # "midgard/",
+    # "niflheim/",
+    # "svartalfheim/",
+    # "jotunheim/",
+    # "asgard/",
+    # "helheim/",
+    # "world/default-v2/",
+    # "hogwarts/default-v1/",
+    # "hogsmeade/derp-v1/",
 ]
 # rdr2/world/atlas-v1/
 dir_name = ("/Users/richardtang/Desktop/repos/ritcher-map-v2/"
             "apps/ui/public/tiles")
             
-game_name = "god-of-war-ragnarok"
+game_name = "zelda-tears-of-the-kingdom"
 
 base_uri = "https://tiles.mapgenie.io/games/"
 
@@ -106,7 +109,7 @@ for z in range(zoom_start, zoom_end+1):
     for x in range(lows[z], highs[z] + 1):
         for y in range(y_lows[z], y_highs[z] + 1):
             for region in regions:
-                uri = (base_uri + game_name + "/" + region + "default-v1/"
+                uri = (base_uri + game_name + "/" + region
                        + str(z) + "/" + str(x) + "/" + str(y) + ".jpg")
 
                 directory = "{dir}/{game_name}/{region}/{z}/{y}".format(
