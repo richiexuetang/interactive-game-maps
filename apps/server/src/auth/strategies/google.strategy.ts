@@ -7,13 +7,9 @@ import { PassportStrategy } from "@nestjs/passport";
 import { Strategy, VerifyCallback } from "passport-google-oauth20";
 
 import { GoogleUser } from "../interfaces/auth.interface";
-import { StrategiesEnum } from "../constants/strategies.constants";
 
 @Injectable()
-export class GoogleStrategy extends PassportStrategy(
-  Strategy,
-  StrategiesEnum.Google
-) {
+export class GoogleStrategy extends PassportStrategy(Strategy, "google") {
   constructor() {
     super({
       clientID: process.env.GOOGLE_CLIENT_ID,

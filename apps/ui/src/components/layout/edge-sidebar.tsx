@@ -213,7 +213,7 @@ export function toggleEdgeSidebarCollapse(options: {
   if (sidebarId) {
     selector = `#${sidebarId}`;
   }
-  internalCollapseSidebar({ ...options, selector });
+  internalCollapseSidebar({ ...options, selector } as any);
 }
 
 export function toggleTemporaryEdgeSidebar(options?: {
@@ -292,7 +292,6 @@ const EdgeSidebar = React.forwardRef<HTMLDivElement, BoxProps>(
   function EdgeSidebar({ className, ...props }, ref) {
     return (
       <StyledEdgeSidebarLeft
-        // @ts-expect-error Material UI issue
         ref={ref}
         {...props}
         className={`${layoutClasses.EdgeSidebar} ${className || ""}`}

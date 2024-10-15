@@ -1,6 +1,6 @@
 "use client";
 
-import { ApolloLink, HttpLink } from "@apollo/client";
+import { ApolloLink, from, HttpLink } from "@apollo/client";
 import { loadErrorMessages, loadDevMessages } from "@apollo/client/dev";
 import {
   ApolloClient,
@@ -8,6 +8,7 @@ import {
   InMemoryCache,
   SSRMultipartLink,
 } from "@apollo/experimental-nextjs-app-support";
+import Cookies from "js-cookie";
 import { PropsWithChildren } from "react";
 
 if (process.env.NODE_ENV === "development") {
@@ -16,6 +17,17 @@ if (process.env.NODE_ENV === "development") {
 }
 
 function makeClient() {
+  const authLink = new ApolloLink((operation, forward) => {
+    operation.setContext(({ headers }: { headers: Headers }) => ({
+      headers: {
+        ...headers,
+        authorization: `Bearer ${Cookies.get("jwt")}`,
+      },
+    }));
+
+    return forward(operation);
+  });
+
   const httpLink = new HttpLink({
     uri: `${process.env.NEXT_PUBLIC_API_BASE_URL}/graphql`,
   });
@@ -28,9 +40,9 @@ function makeClient() {
             new SSRMultipartLink({
               stripDefer: true,
             }),
-            httpLink,
+            from([authLink, httpLink]),
           ])
-        : httpLink,
+        : from([authLink, httpLink]),
   });
 }
 

@@ -31,7 +31,6 @@ export const AppHeader = ({
         href="/"
         sx={{
           mx: 2,
-          display: { xs: "none", md: "flex" },
           fontFamily: "monospace",
           fontWeight: 700,
           letterSpacing: ".3rem",
@@ -51,10 +50,20 @@ export const AppHeader = ({
           gap: { xs: 2, md: 3 },
         }}
       >
-        <GitHubIcon />
+        <GitHubIcon
+          sx={{ cursor: "pointer" }}
+          onClick={() =>
+            window.open(
+              "https://github.com/richiexuetang/interactive-game-maps",
+              "_blank"
+            )
+          }
+        />
       </Box>
 
-      <Avatar sx={{ width: 32, height: 32, ml: { xs: 0, sm: 2 } }} />
+      <Avatar
+        sx={{ cursor: "pointer", width: 32, height: 32, ml: { xs: 0, sm: 2 } }}
+      />
     </Box>
   );
 };

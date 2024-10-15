@@ -2,6 +2,11 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+input AddFavoriteInput {
+  email: String!
+  gameSlug: String!
+}
+
 input AddNoteInput {
   description: String!
   email: String!
@@ -97,7 +102,7 @@ type Map {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   game: Game
-  gameSlug: String!
+  gameSlug: String
   id: Float!
   locations: [Location!]
   maxZoom: Float!
@@ -131,8 +136,10 @@ type Media {
 }
 
 type Mutation {
+  addFavorite(data: AddFavoriteInput!): User!
   addFoundLocation(data: UpdateFoundLocationInput!): User!
   addNoteMarker(data: AddNoteInput!): NoteMarker!
+  removeFavorite(data: AddFavoriteInput!): User!
   removeFoundLocation(data: UpdateFoundLocationInput!): User!
   removeNoteMarker(data: RemoveNoteInput!): User!
   toggleHideFoundSetting(data: UpdateHideFoundInput!): User!
@@ -163,18 +170,13 @@ enum OrderDirection {
 }
 
 type Query {
-  category(id: Float!): Category!
   checklist(id: Int!): ChecklistGuide!
   checklists(slug: String!): [ChecklistGuide!]!
   fetchGameByMap(slug: String!): Game!
   findMapsByGame(orderBy: MapOrder, slug: String!): [Map!]!
   game(slug: String!): Game!
   games: [Game!]!
-  getRegionsByMap(slug: String!): [Region!]!
-  getUser(email: String!): User!
-  locations(id: Int!): [Location!]!
   mapData(slug: String!): Map!
-  mapDetails(slug: String!): Map!
 }
 
 type Region {
@@ -231,6 +233,7 @@ type User {
   """Identifies the date and time when the object was created."""
   createdAt: DateTime!
   email: String!
+  favoriteMaps: [Map!]
   foundMarkers: [Location!]
   hideFound: Boolean!
   id: String!
@@ -238,5 +241,6 @@ type User {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
+  user: User!
   username: String
 }

@@ -39,7 +39,7 @@ export type PermanentConfig = {
 };
 
 export function internalCollapseSidebar(options: {
-  event: React.MouseEvent;
+  event: MouseEvent;
   selector: string;
   state?: boolean;
   document?: Document | null;
@@ -171,4 +171,4 @@ export const EdgeSidebarRoot = styled("div")({
     height: "var(--Header-clipHeight)",
     top: "calc(-1 * var(--Header-clipHeight))",
   },
-});
+}) as any;

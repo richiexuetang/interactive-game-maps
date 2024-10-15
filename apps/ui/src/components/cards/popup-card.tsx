@@ -14,7 +14,7 @@ import Tooltip from "@mui/material/Tooltip";
 import { useParams } from "next/navigation";
 import * as React from "react";
 import { MediaView } from "./media-view";
-import { Location } from "@/__generated__/graphql";
+import { Location } from "@/generated/graphql";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import {
   ADD_TO_USER_FOUND,
@@ -41,38 +41,21 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const params = useParams();
 
   const user = useAuthStore((state) => state.user);
-  const setUser = useAuthStore((state) => state.setUser);
+  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
 
   const copy = useClipboardCopyFn();
 
-  const [addLocation, { data }] = useMutation(ADD_TO_USER_FOUND);
-  const [removeLocation, { data: removeData }] = useMutation(
-    REMOVE_FROM_USER_FOUND
-  );
-  //#endregion
-
-  //#region Lifecycle Hooks
-  React.useEffect(() => {
-    if (!data || !user) return;
-
-    setUser({
-      ...user!,
-      foundMarkers: data.addFoundLocation.foundMarkers ?? [],
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
-
-  React.useEffect(() => {
-    if (!removeData || !user) return;
-
-    setUser({
-      ...user!,
-      foundMarkers: removeData.removeFoundLocation.foundMarkers ?? [],
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [removeData]);
+  const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
+    variables: { data: { email: user?.email, location: id } },
+    onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
+  });
+  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND, {
+    variables: { data: { email: user?.email, location: id } },
+    onCompleted: (data) =>
+      setFoundMarkers(data.removeFoundLocation.foundMarkers),
+  });
   //#endregion
 
   const handleLogin = () => {
@@ -82,12 +65,10 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const handleMarkerFound = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!user) return;
 
-    const { email } = user;
-    const variables = { data: { email, location: id } };
     if (e.target.checked) {
-      addLocation({ variables });
+      addLocation();
     } else {
-      removeLocation({ variables });
+      removeLocation();
     }
   };
 

@@ -1,17 +1,16 @@
 import { remark } from "remark";
 import html from "remark-html";
-import { getClient } from "@/lib/graphql/apollo-client";
-import { GET_MAP_DATA } from "@/lib/graphql/constants";
+import { getClient } from "../getClient";
 
 export async function fetchGameMapDetails(slug: string) {
-  const { data } = await getClient().query({
-    query: GET_MAP_DATA,
-    variables: { slug },
-  });
+  const sdk = getClient();
+  const { mapData } = await sdk.MapData({ slug });
 
-  const details = data.mapData;
   const processedLocations = [];
-  const locations = details.locations;
+  const locations = mapData.locations;
+
+  if (!locations) return mapData;
+
   for (let i = 0; i < locations.length; i++) {
     const curr = locations[i];
     const processedDesc = await remark()
@@ -22,7 +21,7 @@ export async function fetchGameMapDetails(slug: string) {
   }
 
   return {
-    ...details,
+    ...mapData,
     locations: processedLocations,
   };
 }

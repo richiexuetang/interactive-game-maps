@@ -1,4 +1,3 @@
-import { gql } from "@apollo/client";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
@@ -7,9 +6,10 @@ import Typography from "@mui/material/Typography";
 import { Metadata } from "next";
 import Link from "next/link";
 import { MainNav } from "@/components/main-nav";
-import { getFontClassName } from "@/lib/font";
-import { getClient } from "@/lib/graphql/apollo-client";
-import { FETCH_GAME_MAP_DETAILS } from "@/lib/graphql/constants";
+import { ChecklistGuide, getSdk, Map } from "@/generated/graphql";
+import { getClient } from "@/lib/getClient";
+import { client } from "@/lib/getClient";
+import { getFontClassName } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
@@ -18,17 +18,8 @@ export async function generateMetadata({
   params: { gameSlug: string };
 }): Promise<Metadata> {
   const { gameSlug } = params;
-  const { data } = await getClient().query({
-    query: gql(`
-    query GetGames($slug: String!) {
-      game(slug: $slug) {
-        slug
-        title
-      }
-    }`),
-    variables: { slug: gameSlug },
-  });
-  const game = data.game;
+  const sdk = getClient();
+  const { game } = await sdk.GetGames({ slug: gameSlug });
 
   return {
     title: `${game.title} | Ritcher Map`,
@@ -73,25 +64,15 @@ export default async function RegionPage({
 }: {
   params: { gameSlug: string };
 }) {
-  const { data } = await getClient().query({
-    query: FETCH_GAME_MAP_DETAILS,
-    variables: { slug: params.gameSlug },
+  const sdk = getSdk(client);
+  const { game } = await sdk.FetchGameByMap({
+    slug: params.gameSlug,
   });
+  const { checklists } = await sdk.Checklists({ slug: params.gameSlug });
 
-  const { data: checklistData } = await getClient().query({
-    query: gql`
-      query Checklists($slug: String!) {
-        checklists(slug: $slug) {
-          id
-          title
-        }
-      }
-    `,
-    variables: { slug: params.gameSlug },
-  });
-
-  const game = data.game;
   const fontClassName = getFontClassName(params.gameSlug);
+
+  if (!game?.maps) return null;
 
   const showRegionMedia = game.maps.length <= 2;
 
@@ -111,7 +92,7 @@ export default async function RegionPage({
             fontClassName
           )}
         >
-          {game.maps.map(({ slug, title }: any) => (
+          {game.maps.map(({ slug, title }: Partial<Map>) => (
             <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
               <Card sx={{ maxWidth: 350 }}>
                 <CardActionArea>
@@ -175,7 +156,7 @@ export default async function RegionPage({
               {game.title.toUpperCase() + " CHECKLIST"}
             </h2>
             <div className="flex gap-6 p-6 flex-wrap content-center justify-center">
-              {checklistData.checklists.map(({ title, id }: any) => (
+              {checklists?.map(({ title, id }: Partial<ChecklistGuide>) => (
                 <Link key={title} href={`/game/${game.slug}/guide/${id}`}>
                   <Card sx={{ minWidth: 350 }}>
                     <CardActionArea>

@@ -12,7 +12,7 @@ import { MarkerSearch } from "./components/marker-search";
 import { RegionsGrid } from "./components/regions-grid";
 import { ShowHideButtons } from "./components/show-hide-buttons";
 import { SidebarClose } from "./components/sidebar-close";
-import { getFontClassName } from "@/lib/font";
+import { getFontClassName } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 import { useMapStore } from "@/store/map";
 
@@ -58,21 +58,21 @@ export const Menu = ({ map }: MenuProps) => {
    * @returns
    */
   const handleGroupHide = (groupId: number) => {
-    const cats = groups.find((group) => group.id === groupId)?.categories;
+    const cats = groups.find((group: any) => group.id === groupId)?.categories;
     if (!cats) return;
 
-    const count = cats.filter((category) =>
+    const count = cats.filter((category: any) =>
       hidden.includes(category.id)
     ).length;
 
     let newHidden = hidden;
     if (count == cats.length) {
-      cats.map(({ id }) => {
+      cats.map(({ id }: any) => {
         newHidden = newHidden.filter((cat) => cat != id);
       });
     } else {
       cats.map(
-        ({ id }) =>
+        ({ id }: any) =>
           !currentMap.hiddenCategories.includes(id) && newHidden.push(id)
       );
     }
@@ -128,9 +128,9 @@ export const Menu = ({ map }: MenuProps) => {
 
           <Divider orientation="horizontal" flexItem />
 
-          {groups?.map((group, index) => {
+          {groups?.map((group: any, index: any) => {
             const counts: any = {};
-            group.categories?.map((category) => {
+            group.categories?.map((category: any) => {
               const count = locations?.filter(
                 ({ categoryId }) => categoryId == category.id
               ).length;
@@ -153,7 +153,7 @@ export const Menu = ({ map }: MenuProps) => {
                   {group.title}
                 </h1>
                 <Grid container spacing={1} sx={{ minWidth: 350 }}>
-                  {group.categories?.map((category) => {
+                  {group.categories?.map((category: any) => {
                     const count = locations?.filter(
                       ({ categoryId }) => categoryId === category.id
                     ).length;

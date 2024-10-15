@@ -1,16 +1,14 @@
 import { GraphQLModule } from "@nestjs/graphql";
-import { Logger, Module } from "@nestjs/common";
+import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
-import { PrismaModule, loggingMiddleware } from "nestjs-prisma";
 import config from "./common/configs/config";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { GqlConfigService } from "./gql-config.service";
 import { GamesModule } from "./games/games.module";
-import { UsersModule } from "./users/users.module";
-import { MapsModule } from "./regions/maps.module";
-import { MarkersModule } from "./markers/markers.module";
+import { MapsModule } from "./maps/maps.module";
 import { AuthModule } from "./auth/auth.module";
 import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module";
+import { PrismaModule } from "./common/prisma.module";
 
 @Module({
   imports: [
@@ -20,17 +18,7 @@ import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module
       envFilePath: ".env",
     }),
 
-    PrismaModule.forRoot({
-      isGlobal: true,
-      prismaServiceOptions: {
-        middlewares: [
-          loggingMiddleware({
-            logger: new Logger("PrismaMiddleware"),
-            logLevel: "log",
-          }),
-        ],
-      },
-    }),
+    PrismaModule,
 
     GraphQLModule.forRootAsync<ApolloDriverConfig>({
       driver: ApolloDriver,
@@ -40,8 +28,7 @@ import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module
     ChecklistGuidesModule,
     GamesModule,
     MapsModule,
-    UsersModule,
-    MarkersModule,
+    // UsersModule,
     AuthModule,
   ],
   controllers: [],

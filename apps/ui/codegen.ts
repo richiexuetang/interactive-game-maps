@@ -5,15 +5,24 @@ const config: CodegenConfig = {
   // this assumes that all your source files are in a top-level `src/` directory - you might need to adjust this to your file structure
   documents: ["src/**/*.{ts,tsx}"],
   generates: {
-    "./src/__generated__/": {
-      preset: "client",
-      plugins: [],
-      presetConfig: {
-        gqlTagName: "gql",
+    "./src/generated/graphql.ts": {
+      plugins: [
+        "typescript",
+        "typescript-operations",
+        "typescript-graphql-request",
+      ],
+      config: {
+        fetcher: "../lib/getClient#client",
+        isReactHook: false,
       },
     },
   },
-  ignoreNoDocuments: true,
+  hooks: {
+    // Codegen does not always regenerate new files unless files do not exist.
+    afterStart: ["find ./src/generated -name '*.generated.*' -delete"],
+    // This will remove all the `RequestInit` lines.
+    afterOneFileWrite: ["node ./src/generated/codegen-fix.mjs"],
+  },
 };
 
 export default config;

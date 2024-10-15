@@ -32,8 +32,8 @@ export const ShowHideButtons = () => {
 
   const hideAll = () => {
     const allCategories: number[] = [];
-    map?.groups?.map(({ categories }) =>
-      categories?.map(({ id }) => allCategories.push(id))
+    map?.groups?.map(({ categories }: any) =>
+      categories?.map(({ id }: any) => allCategories.push(id))
     );
     setMap({
       ...currentMap!,

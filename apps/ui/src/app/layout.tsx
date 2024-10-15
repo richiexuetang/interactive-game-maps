@@ -1,11 +1,11 @@
 import { ThemeProvider } from "@mui/material/styles";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 import React from "react";
-import Providers from "./loading";
+import LoaderProviders from "./loading";
 import { ApolloWrapper } from "@/components/apollo-wrapper";
+import AppRouterCacheProvider from "@/components/app-router";
 import theme from "@/lib/ui/theme";
 import "@/styles/globals.css";
 
@@ -31,9 +31,11 @@ export default function RootLayout({
         <ApolloWrapper>
           <AppRouterCacheProvider>
             <ThemeProvider theme={theme}>
-              <Providers>{children}</Providers>
-              <Analytics />
-              <SpeedInsights />
+              <LoaderProviders>
+                {children}
+                <Analytics />
+                <SpeedInsights />
+              </LoaderProviders>
             </ThemeProvider>
           </AppRouterCacheProvider>
         </ApolloWrapper>

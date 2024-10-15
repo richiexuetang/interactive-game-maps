@@ -1,15 +1,16 @@
 "use client";
 
-import { CssBaseline, Theme, ThemeProvider, createTheme } from "@mui/material";
+import CssBaseline from "@mui/material/CssBaseline";
+import { Theme, ThemeProvider, createTheme } from "@mui/material/styles";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
-import type { Map } from "@/__generated__/graphql";
+import type { MapDataQuery } from "@/generated/graphql";
 import { getDesignTokens } from "@/lib/ui/design-tokens";
 import "@/styles/leaflet.css";
 import "@/styles/icon.css";
 
 export interface MapProps {
-  data: Map;
+  data: MapDataQuery["mapData"];
 }
 
 const RitcherMap = ({ data }: MapProps) => {

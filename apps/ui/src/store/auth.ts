@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import { Location } from "@/__generated__/graphql";
+import { Location, Map } from "@/generated/graphql";
 
 interface NoteMarker {
   id: string | number;
@@ -22,12 +22,17 @@ export interface UserDef {
   foundMarkers: Location[];
   noteMarkers: NoteMarker[];
   hideFound: boolean;
+  favoriteMaps: Map[];
 }
 
 export interface AuthStateDef {
   user: UserDef | null;
   setUser: (data: UserDef) => void;
   removeUser: () => void;
+  addNote: (note: NoteMarker) => void;
+  setNotes: (notes: NoteMarker[]) => void;
+  setFavorites: (map: Map[]) => void;
+  setFoundMarkers: (locations: Location[]) => void;
 }
 
 export const useAuthStore = create(
@@ -36,6 +41,38 @@ export const useAuthStore = create(
       user: null,
       setUser: (user: UserDef) => {
         set({ user });
+      },
+      addNote: (note: NoteMarker) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            noteMarkers: [...(state.user!.noteMarkers ?? []), note],
+          },
+        }));
+      },
+      setNotes: (noteMarkers: NoteMarker[]) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            noteMarkers,
+          },
+        }));
+      },
+      setFavorites: (favoriteMaps: Map[]) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            favoriteMaps,
+          },
+        }));
+      },
+      setFoundMarkers: (foundMarkers: Location[]) => {
+        set((state) => ({
+          user: {
+            ...state.user!,
+            foundMarkers,
+          },
+        }));
       },
       removeUser: () => {
         set({ user: null });

@@ -4,7 +4,8 @@
     "prettier"
   ],
   "globals": {
-    "JSX": "readonly"
+    "JSX": "readonly",
+    "RequestInit": true
   },
   "rules": {
     "no-undef": "error",

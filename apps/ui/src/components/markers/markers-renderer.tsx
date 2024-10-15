@@ -24,10 +24,7 @@ export const MarkersRenderer = () => {
     hiddenCategories,
     triggeredMarkerPopup,
   } = currentMap;
-  const { foundMarkers, hideFound } = user ?? {
-    foundMarkers: [],
-    hideFound: false,
-  };
+  const { foundMarkers = [], hideFound = false } = user ?? {};
   const coords = boundedRegion?.coordinates;
   const flattenBounds = getMarkerBounds(coords ? coords[0] : null);
 

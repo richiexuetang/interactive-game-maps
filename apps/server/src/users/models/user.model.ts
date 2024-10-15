@@ -1,8 +1,9 @@
 import "reflect-metadata";
-import { ObjectType, Field, Int } from "@nestjs/graphql";
+import { ObjectType, Field } from "@nestjs/graphql";
 import { IsEmail } from "class-validator";
 import { NoteMarker } from "./note-marker.model";
-import { Location } from "src/markers/models/location.model";
+import { Location } from "../../games/models/markers/location.model";
+import { Map } from "src/maps/models/map.model";
 
 @ObjectType()
 export class User {
@@ -35,4 +36,7 @@ export class User {
 
   @Field(() => [NoteMarker], { nullable: true })
   noteMarkers?: NoteMarker[];
+
+  @Field(() => [Map], { nullable: true })
+  favoriteMaps?: Map[];
 }

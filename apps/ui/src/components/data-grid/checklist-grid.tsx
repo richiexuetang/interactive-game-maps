@@ -1,18 +1,19 @@
 "use client";
 
-import { Checkbox } from "@mui/material";
+import Checkbox from "@mui/material/Checkbox";
 import { DataGrid, GridRowsProp, GridColDef } from "@mui/x-data-grid";
 import * as React from "react";
-import { Location } from "@/__generated__/graphql";
 import { titleCase } from "@/lib/utils";
 import { useAuthStore } from "@/store";
 
 interface ChecklistGridProps {
-  locations: Location[];
+  locations: any;
 }
 
 export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   const user = useAuthStore((state) => state.user);
+
+  if (!locations) return null;
 
   const columns: GridColDef[] = [
     {
@@ -39,15 +40,15 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   ];
 
   const rows: GridRowsProp = locations.map(
-    ({ id, title, category, mapSlug, description }) => ({
+    ({ id, title, category, mapSlug, description }: any) => ({
       id,
       found: user?.foundMarkers.map((m) => m.id).includes(id as number),
       title,
       categoryId: category?.title,
-      mapSlug: titleCase(mapSlug.replaceAll("-", " ")),
+      mapSlug: titleCase(mapSlug!.replaceAll("-", " ")),
       description,
     })
-  );
+  )!;
 
   return (
     <div className="w-full h-full">
