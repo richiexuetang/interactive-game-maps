@@ -16,7 +16,7 @@ export interface UserDef {
   id: string;
   createdAt: string;
   email: string;
-  fullName: string;
+  username: string;
   picture: string;
   updatedAt: string;
   foundMarkers: Location[];

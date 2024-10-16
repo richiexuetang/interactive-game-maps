@@ -81,9 +81,9 @@ export default async function RegionPage({
       <MainNav />
       <div className="flex flex-col !bg-bodyBackground">
         <div className="py-8">
-          <h2 className="text-center font-text text-accent text-xl">
+          <Typography className="text-center !font-text text-accent text-xl">
             {game.title.toUpperCase() + " MAPS"}
-          </h2>
+          </Typography>
         </div>
         <div
           className={cn(
@@ -135,9 +135,9 @@ export default async function RegionPage({
                         width: "325px",
                       }}
                     >
-                      <h4 className="font-body text-accent overflow-ellipsis">
+                      <Typography className="!font-body text-accent overflow-ellipsis">
                         {title}
-                      </h4>
+                      </Typography>
                     </CardContent>
                   )}
                 </CardActionArea>
@@ -152,9 +152,9 @@ export default async function RegionPage({
               fontClassName
             )}
           >
-            <h2 className="text-center font-text text-accent text-xl">
+            <Typography className="text-center !font-text text-accent text-xl">
               {game.title.toUpperCase() + " CHECKLIST"}
-            </h2>
+            </Typography>
             <div className="flex gap-6 p-6 flex-wrap content-center justify-center">
               {checklists?.map(({ title, id }: Partial<ChecklistGuide>) => (
                 <Link key={title} href={`/game/${game.slug}/guide/${id}`}>
@@ -167,7 +167,9 @@ export default async function RegionPage({
                           display: "flex",
                         }}
                       >
-                        <h4 className="font-body text-accent">{title}</h4>
+                        <Typography className="!font-body text-accent">
+                          {title}
+                        </Typography>
                       </CardContent>
                     </CardActionArea>
                   </Card>

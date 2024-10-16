@@ -46,7 +46,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
         <div className="bg-gray-900">
           <div className="max-w-2xl mx-auto text-white py-10">
             <div className="text-center">
-              <p> Save progress. All day, every day. </p>
+              <p> All day, every day. </p>
               <div className="flex justify-center my-5">
                 <div className="flex items-center border w-auto rounded-lg px-4 py-2 mx-2 cursor-pointer">
                   <BmcIcon />

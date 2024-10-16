@@ -1333,6 +1333,7 @@
 
 .zelda-tears-of-the-kingdom {
   --text-color: #f8f6e0;
+  --ritcher-palette-text-primary: #f8f6e0;
   --accent-color: #cab586;
   --title-font-color: var(--accent-color);
   --border-color: var(--accent-color);
@@ -1341,11 +1342,13 @@
   --map-background: #000;
   --text-font-family: 'Hylia';
   --body-font-family: "Open Sans", sans-serif, "sans-serif";
+  --ritcher-font-body1: "Open Sans", sans-serif, "sans-serif";
   --body-background: var(--sidebar-background-color);
 }
 
 .god-of-war-ragnarok {
   --text-color: #e9f3f9;
+  --ritcher-palette-text-primary: #e9f3f9;
   --accent-color: #3372ff;
   --title-font-color: var(--text-color);
   --border-color: var(--text-color);
@@ -1354,11 +1357,13 @@
   --map-background: #212121;
   --text-font-family: 'Berserker';
   --body-font-family: "gill-sans-nova";
+  --ritcher-font-body1: "gill-sans-nova";
   --body-background: var(--sidebar-background-color);
 }
 
 .witcher-3 {
   --text-color: #af894d;
+  --ritcher-palette-text-primary: #af894d;
   --accent-color: #d1c68f;
   --title-font-color: var(--accent-color);
   --border-color: #584835;
@@ -1367,11 +1372,13 @@
   --map-background: #141310;
   --text-font-family: "din-condensed";
   --body-font-family: "din-condensed";
+  --ritcher-font-body1: "din-condensed";
   --body-background: var(--sidebar-background-color);
 }
 
 .elden-ring {
   --text-color: #e4e4e5;
+  --ritcher-palette-text-primary: #e4e4e5;
   --accent-color: #c3b590;
   --title-font-color: var(--accent-color);
   --border-color: var(--accent-color);
@@ -1380,11 +1387,13 @@
   --map-background: #14130f;
   --text-font-family: 'Mantinia';
   --body-font-family: "Noto Sans";
+  --ritcher-font-body1: "Noto Sans";
   --body-background: var(--sidebar-background-color);
 }
 
 .black-myth-wukong {
   --text-color: #deddda;
+  --ritcher-palette-text-primary: #deddda;
   --accent-color: #d3c0a3;
   --title-font-color: var(--accent-color);
   --border-color: #757259;
@@ -1393,11 +1402,13 @@
   --map-background: #2b2b2b;
   --text-font-family: 'CrimsonPro';
   --body-font-family: "CrimsonPro";
+  --ritcher-font-body1: "CrimsonPro";
   --body-background: var(--sidebar-background-color);
 }
 
 .hogwarts-legacy {
   --text-color: #f8fbfc;
+  --ritcher-palette-text-primary: #f8fbfc;
   --accent-color: #a99862;
   --title-font-color: var(--accent-color);
   --border-color: var(--accent-color);
@@ -1406,6 +1417,7 @@
   --map-background: #2d3038;
   --text-font-family: 'OptiCollumna-Solid';
   --body-font-family: "Hybrid";
+  --ritcher-font-body1: "Hybrid";
   --body-background: #0d181b;
 }
 

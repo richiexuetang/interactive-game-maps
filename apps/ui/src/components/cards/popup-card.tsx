@@ -1,6 +1,7 @@
 import { useMutation } from "@apollo/client";
 import LinkIcon from "@mui/icons-material/Link";
 import LoginIcon from "@mui/icons-material/Login";
+import { Typography } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -87,7 +88,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
               alignItems: "center",
             }}
           >
-            {markerTitle}
+            <Typography variant="h3">{markerTitle}</Typography>
             <Tooltip title={open ? "Link Copied" : "Copy link"}>
               <IconButton sx={{ ml: 2 }}>
                 <LinkIcon
@@ -108,7 +109,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             </Tooltip>
           </Box>
         }
-        subheader={title}
+        subheader={<Typography variant="caption">{title}</Typography>}
       />
       {media && media.length > 0 && <MediaView media={media} />}
       <CardContent>

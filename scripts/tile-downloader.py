@@ -57,7 +57,7 @@ y_highs = {
     17: 65445
 }
 regions = [
-    "hyrule/",
+    # "hyrule/",
     # "white-orchard",
     # "velen-novigrad",
     # "skellige",
@@ -77,7 +77,7 @@ regions = [
     # "muspelheim/",
     # "midgard/",
     # "niflheim/",
-    # "svartalfheim/",
+    "svartalfheim/",
     # "jotunheim/",
     # "asgard/",
     # "helheim/",
