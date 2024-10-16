@@ -22,7 +22,6 @@ import {
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
-import { useMapStore } from "@/store/map";
 
 interface PopupCardProps {
   marker: Location;
@@ -42,11 +41,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
 
   const user = useAuthStore((state) => state.user);
   const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
-  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
-  const currentMap = useMapStore((state) => state.currentMap);
-
+  const [open, setOpen] = React.useState(false);
   const copy = useClipboardCopyFn();
-
   const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
     variables: { data: { email: user?.email, location: id } },
     onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
@@ -92,7 +88,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             }}
           >
             {markerTitle}
-            <Tooltip title="Copy link">
+            <Tooltip title={open ? "Link Copied" : "Copy link"}>
               <IconButton sx={{ ml: 2 }}>
                 <LinkIcon
                   sx={{ width: 18, height: 18 }}
@@ -100,7 +96,11 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                     copy(
                       `${process.env.NEXT_PUBLIC_APP_BASE_URL}/game/${params.gameSlug}/map/${params?.mapSlug}?marker=${marker.id}`
                     ).then(() => {
-                      setCurrentMap({ ...currentMap!, copySnackbar: true });
+                      setOpen(true);
+
+                      setTimeout(() => {
+                        setOpen(false);
+                      }, 3000);
                     })
                   }
                 />
@@ -111,7 +111,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         subheader={title}
       />
       {media && media.length > 0 && <MediaView media={media} />}
-
       <CardContent>
         {description && (
           <CardContent

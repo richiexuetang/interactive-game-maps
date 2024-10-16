@@ -14,7 +14,6 @@ export const GoogleOAuthSuccessRedirect = () => {
     const jwtUser = params.get("jwtUser");
     if (jwtUser) {
       const userFromJwt: UserDef = jwtDecode(jwtUser);
-      console.log(userFromJwt);
       if (userFromJwt) {
         setUser(userFromJwt);
       }

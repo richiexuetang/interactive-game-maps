@@ -760,8 +760,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 .marker-text-label {
     white-space: pre;
-    font-size: 10px;
-    color: white;
+    color: var(--text-color);
     font-family: var(--text-font-family);
 }
 

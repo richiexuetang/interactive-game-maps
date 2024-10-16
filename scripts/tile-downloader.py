@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 current_path = os.getcwd()
 
-zoom_start = 17
-zoom_end = 17
+zoom_start = 16
+zoom_end = 16
 
 lows = {
     8: 127,
@@ -17,7 +17,7 @@ lows = {
     13: 4065,
     14: 8136,
     15: 16293,
-    16: 32548,
+    16: 32683,
     17: 65095
 }
 
@@ -30,7 +30,7 @@ highs = {
     13: 4095,
     14: 8184,
     15: 16360,
-    16: 32668,
+    16: 32689,
     17: 65444
 }
 
@@ -53,11 +53,11 @@ y_highs = {
     13: 4095,
     14: 8184,
     15: 16360,
-    16: 32722,
+    16: 32731,
     17: 65445
 }
 regions = [
-    "hyrule/default-v2/",
+    "hyrule/",
     # "white-orchard",
     # "velen-novigrad",
     # "skellige",
@@ -109,7 +109,7 @@ for z in range(zoom_start, zoom_end+1):
     for x in range(lows[z], highs[z] + 1):
         for y in range(y_lows[z], y_highs[z] + 1):
             for region in regions:
-                uri = (base_uri + game_name + "/" + region
+                uri = (base_uri + game_name + "/" + region + "default-v2/"
                        + str(z) + "/" + str(x) + "/" + str(y) + ".jpg")
 
                 directory = "{dir}/{game_name}/{region}/{z}/{y}".format(
