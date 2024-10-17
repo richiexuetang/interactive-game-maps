@@ -34,7 +34,7 @@ export default async function RegionPage({
   return (
     <div className={cn(params.gameSlug, "h-[100vh] !bg-bodyBackground")}>
       <MainNav />
-      <Breadcrumbs sx={{ m: 5 }}>
+      <Breadcrumbs sx={{ m: 5, color: "var(--ritcher-palette-text-primary)" }}>
         <Link href="/">Home</Link>
         <Link underline="hover" href={`/game/${params.gameSlug}`}>
           {titleCase(params.gameSlug.replaceAll("-", " "))}
