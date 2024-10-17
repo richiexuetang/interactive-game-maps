@@ -32,7 +32,6 @@ export class UsersResolver {
     return pubSub.asyncIterator("noteMarkerAdded");
   }
 
-  // @UseGuards(GqlAuthGuard)
   @Mutation(() => NoteMarker)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
     const { email, mapSlug, ...noteData } = data;
