@@ -96,14 +96,14 @@ export const Menu = ({ map }: MenuProps) => {
               priority
             />
           </Link>
-          <h1
+          <Typography
             className={cn(
               "text-accent text-center",
               getFontClassName(game?.slug)
             )}
           >
             {game?.slug.replaceAll("-", " ").toUpperCase()} INTERACTIVE MAP
-          </h1>
+          </Typography>
           <Divider orientation="horizontal" flexItem />
 
           <MapSwitcher />
@@ -146,12 +146,12 @@ export const Menu = ({ map }: MenuProps) => {
 
             return (
               <React.Fragment key={`${group.id}_${index}`}>
-                <h1
-                  className="text-lg uppercase w-full text-text cursor-pointer"
+                <Typography
+                  className="text-lg uppercase w-full !font-text cursor-pointer"
                   onClick={() => handleGroupHide(group.id)}
                 >
                   {group.title}
-                </h1>
+                </Typography>
                 <Grid container spacing={1} sx={{ minWidth: 350 }}>
                   {group.categories?.map((category: any) => {
                     const count = locations?.filter(
@@ -183,6 +183,7 @@ export const Menu = ({ map }: MenuProps) => {
                             sx={{
                               fontSize: "12px",
                               whiteSpace: "nowrap",
+                              fontFamily: "var(--text-font-family)",
                             }}
                           >
                             {category.title}

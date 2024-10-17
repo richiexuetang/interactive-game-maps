@@ -1,5 +1,4 @@
 import { defineConfig, devices } from "@playwright/test";
-import path from "path";
 
 // Use process.env.PORT by default and fallback to port 3000
 const PORT = process.env.PORT || 3000;
@@ -12,9 +11,9 @@ export default defineConfig({
   // Timeout per test
   timeout: 30 * 1000,
   // Test directory
-  testDir: "./e2e",
+  testDir: "./src/app",
   // If a test fails, retry it additional 2 times
-  retries: 2,
+  retries: 0,
   // Artifacts folder where screenshots, videos, and traces are stored.
   outputDir: "test-results/",
 
@@ -26,6 +25,15 @@ export default defineConfig({
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
   },
+
+  fullyParallel: true,
+  /* Fail the build on CI if you accidentally left test.only in the source code. */
+  forbidOnly: !!process.env.CI,
+  /* Retry on CI only */
+  /* Opt out of parallel tests on CI. */
+  workers: process.env.CI ? 1 : undefined,
+  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  reporter: "list",
 
   use: {
     // Use baseURL so to make navigations relative.

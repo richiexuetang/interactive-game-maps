@@ -43,7 +43,7 @@ export const hogwarts = {
       zoom: 13,
       center: [0.81168800538754, -0.70660443990578],
       minZoom: 9,
-      maxZoom: 15,
+      maxZoom: 14,
     },
     {
       slug: "hogsmeade",

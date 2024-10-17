@@ -9,6 +9,7 @@ import { MapsModule } from "./maps/maps.module";
 import { AuthModule } from "./auth/auth.module";
 import { ChecklistGuidesModule } from "./checklist-guide/checklist-guides.module";
 import { PrismaModule } from "./common/prisma.module";
+import { UsersModule } from "./users/users.module";
 
 @Module({
   imports: [
@@ -28,7 +29,7 @@ import { PrismaModule } from "./common/prisma.module";
     ChecklistGuidesModule,
     GamesModule,
     MapsModule,
-    // UsersModule,
+    UsersModule,
     AuthModule,
   ],
   controllers: [],

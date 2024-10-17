@@ -3,29 +3,24 @@ import {
   Injectable,
   InternalServerErrorException,
   Logger,
-  UnauthorizedException,
 } from "@nestjs/common";
-import { ConfigService } from "@nestjs/config";
 import { JwtService } from "@nestjs/jwt";
 import { CookieOptions, Response } from "express";
 
 import { User } from "@prisma/client";
-import { Token } from "./models/token.model";
 
 import { GoogleUser } from "./interfaces/auth.interface";
 import { PrismaService } from "src/common/prisma.service";
-import { SecurityConfig } from "src/common/configs/config.interface";
 
 @Injectable()
 export class AuthService {
   constructor(
-    private configService: ConfigService,
     private jwtService: JwtService,
     private prismaService: PrismaService
   ) {}
 
   validateUser(email: string): Promise<User> {
-    return this.prismaService.user.findUnique({ where: { email: email } });
+    return this.prismaService.user.findUnique({ where: { email } });
   }
 
   validateToken(token: string) {
@@ -104,7 +99,7 @@ export class AuthService {
     const expirationDateInMilliseconds =
       new Date().getTime() + 7 * 24 * 60 * 60 * 1000;
     const cookieOptions: CookieOptions = {
-      httpOnly: true, // this ensures that the cookie cannot be accessed through JavaScript!
+      httpOnly: false,
       expires: new Date(expirationDateInMilliseconds),
     };
 
@@ -118,44 +113,5 @@ export class AuthService {
       }),
       cookieOptions
     );
-  }
-
-  generateTokens(payload: { userId: string }): Token {
-    return {
-      accessToken: this.generateAccessToken(payload),
-      refreshToken: this.generateRefreshToken(payload),
-    };
-  }
-
-  private generateAccessToken(payload: { userId: string }): string {
-    return this.jwtService.sign(payload);
-  }
-
-  private generateRefreshToken(payload: { userId: string }): string {
-    const securityConfig = this.configService.get<SecurityConfig>("security");
-    return this.jwtService.sign(payload, {
-      secret: this.configService.get("JWT_SECRET"),
-      expiresIn: securityConfig.refreshIn,
-    });
-  }
-
-  refreshToken(token: string) {
-    try {
-      const { userId } = this.jwtService.verify(token, {
-        secret: this.configService.get("JWT_SECRET"),
-      });
-
-      return this.generateTokens({
-        userId,
-      });
-    } catch (error) {
-      throw new UnauthorizedException();
-    }
-  }
-
-  getUserFromToken(token: string): Promise<User> {
-    console.log("token", token);
-    const id = this.jwtService.decode(token)["userId"];
-    return this.prismaService.user.findUnique({ where: { id } });
   }
 }

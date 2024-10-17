@@ -1,15 +1,11 @@
-import { createMock } from "@golevelup/ts-jest";
-import { ExecutionContext } from "@nestjs/common";
-import { GqlAuthGuard } from "./gql-auth.guard";
+import { Injectable, ExecutionContext } from "@nestjs/common";
+import { AuthGuard } from "@nestjs/passport";
+import { GqlExecutionContext } from "@nestjs/graphql";
 
-describe("GqlAuthGuard", () => {
-  let guard: GqlAuthGuard;
-
-  beforeEach(() => {
-    guard = new GqlAuthGuard();
-  });
-
-  it("should be defined", () => {
-    expect(guard).toBeDefined();
-  });
-});
+@Injectable()
+export class GqlAuthGuard extends AuthGuard("jwt") {
+  getRequest(context: ExecutionContext) {
+    const ctx = GqlExecutionContext.create(context);
+    return ctx.getContext().req;
+  }
+}

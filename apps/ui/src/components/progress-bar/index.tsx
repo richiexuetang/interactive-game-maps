@@ -1,23 +1,10 @@
 import { start, done } from "nprogress";
 import {
   AppProgressBar as AppProgressBarComponent,
+  NProgressOptions,
   useRouter,
 } from "./app-progress-bar";
 import withSuspense from "./with-suspense";
-
-export interface NProgressOptions {
-  minimum?: number;
-  template?: string;
-  easing?: string;
-  speed?: number;
-  trickle?: boolean;
-  trickleSpeed?: number;
-  showSpinner?: boolean;
-  parent?: string;
-  positionUsing?: string;
-  barSelector?: string;
-  spinnerSelector?: string;
-}
 
 /**
  * @param color Color of the progress bar. @default #0A2FFF
@@ -64,5 +51,5 @@ export const stopProgress = (force?: boolean) => {
   done(force);
 };
 
-const AppProgressBar = withSuspense<ProgressBarProps>(AppProgressBarComponent);
-export { AppProgressBar, useRouter };
+const ProgressBar = withSuspense<ProgressBarProps>(AppProgressBarComponent);
+export { ProgressBar, useRouter };

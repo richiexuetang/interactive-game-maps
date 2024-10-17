@@ -217,22 +217,13 @@ export enum OrderDirection {
 
 export type Query = {
   __typename?: 'Query';
-  category: Category;
   checklist: ChecklistGuide;
   checklists: Array<ChecklistGuide>;
   fetchGameByMap: Game;
   findMapsByGame: Array<Map>;
   game: Game;
   games: Array<Game>;
-  getRegionsByMap: Array<Region>;
-  locations: Array<Location>;
   mapData: Map;
-  mapDetails: Map;
-};
-
-
-export type QueryCategoryArgs = {
-  id: Scalars['Float']['input'];
 };
 
 
@@ -262,22 +253,7 @@ export type QueryGameArgs = {
 };
 
 
-export type QueryGetRegionsByMapArgs = {
-  slug: Scalars['String']['input'];
-};
-
-
-export type QueryLocationsArgs = {
-  id: Scalars['Int']['input'];
-};
-
-
 export type QueryMapDataArgs = {
-  slug: Scalars['String']['input'];
-};
-
-
-export type QueryMapDetailsArgs = {
   slug: Scalars['String']['input'];
 };
 
@@ -392,7 +368,7 @@ export type MapDetailsQueryVariables = Exact<{
 }>;
 
 
-export type MapDetailsQuery = { __typename?: 'Query', mapData: { __typename?: 'Map', gameSlug?: string | null, title: string } };
+export type MapDetailsQuery = { __typename?: 'Query', mapData: { __typename?: 'Map', title: string, game?: { __typename?: 'Game', title: string } | null } };
 
 export type AddFoundLocationMutationVariables = Exact<{
   data: UpdateFoundLocationInput;
@@ -584,8 +560,10 @@ export const MapDataDocument = gql`
 export const MapDetailsDocument = gql`
     query MapDetails($slug: String!) {
   mapData(slug: $slug) {
-    gameSlug
     title
+    game {
+      title
+    }
   }
 }
     `;

@@ -611,7 +611,7 @@ export const collectibles = {
           title: "Old Map",
           description:
             "**Location:** Hanging from vine over lowest level of island (next to tracks that enter from north). Shoot it to cut it down.    \n**Utility:** ??",
-          latitude: "1.07884722907000",
+          latitude: "1.07884722907",
           longitude: "-0.64475471547280",
         },
         {
@@ -981,7 +981,7 @@ export const collectibles = {
           title: "Korok Seed",
           description:
             "**Location:** Sitting by a campfire.\n\n**Puzzle:** Build a hanging cart (using the hooks & logs) and bring His friend back to the island.\n\n**Coordinates:** 0020, -1261, 1418\n\n**Note:** You'll receive 2x Korok Seeds for reuniting the pair.",
-          latitude: "1.00634526275000",
+          latitude: "1.00634526275",
           longitude: "-0.70612907409784",
           media: [
             {
@@ -4273,7 +4273,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** Toronbo Beach on Eventide Island  \n**Puzzle:** Bring his Friend to him that's located on the edge of Cape Cales to the west.  \n**Coordinates:** 4495 -3615 0000",
+            "**Location:** Toronbo Beach on Eventide Island  \n**Puzzle:** Bring his Friend to him that's located on the edge of Cape Cales to the west.  \n**Coordinates:** 4495 -3615 0",
           latitude: "0.58663749775874",
           longitude: "-0.55839875444070",
           media: [
@@ -9855,7 +9855,7 @@ export const collectibles = {
           description:
             "**Location:** Atop the ladder platform to the side of the building    \n**Puzzle:**  Glide down  \n\n**Coordinates:** -3422 -3119 0084",
           latitude: "0.60247838553315",
-          longitude: "-0.81357120113000",
+          longitude: "-0.81357120113",
           media: [
             {
               url: "https://media.mapgenie.io/storage/media/d150a76e-1957-42a8-84f7-1e2d764871ad.png",
@@ -10081,7 +10081,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:**  A camp at the edge of the shoal    \n**Puzzle:** Bring His friend to him.\n\n**Coordinates:** 0397, -3862, 0000",
+            "**Location:**  A camp at the edge of the shoal    \n**Puzzle:** Bring His friend to him.\n\n**Coordinates:** 0397, -3862, 0",
           latitude: "0.57888108816593",
           longitude: "-0.69022193643636",
           media: [
@@ -11059,7 +11059,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** On the beach  \n**Puzzle:** Bring his Friend back  \n**Coordinates:** 3900, -2506, 0000",
+            "**Location:** On the beach  \n**Puzzle:** Bring his Friend back  \n**Coordinates:** 3900, -2506, 0",
           latitude: "0.62241064079990",
           longitude: "-0.57759554846295",
           media: [
@@ -11549,7 +11549,7 @@ export const collectibles = {
           description:
             "**Location:** Under the stone bridge\n \n**Puzzle:** Ascend through the platform  \n\n**Coordinates:** -2675, -1360, 0502",
           latitude: "0.65997096293695",
-          longitude: "-0.78971389672000",
+          longitude: "-0.78971389672",
           media: [
             {
               url: "https://media.mapgenie.io/storage/media/319d0e6b-5086-4faf-9514-616514de4ed9.png",
@@ -12955,7 +12955,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** Samasa Plain  \n**Puzzle:** Put a porgy in the bowl and light it on fire to roast it  \n\n**Coordinates:** 3202, -0658, 0000",
+            "**Location:** Samasa Plain  \n**Puzzle:** Put a porgy in the bowl and light it on fire to roast it  \n\n**Coordinates:** 3202, -0658, 0",
           latitude: "0.68178253250895",
           longitude: "-0.59996736267269",
           media: [
@@ -13829,7 +13829,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** On the beach  \n**Puzzle:** Bring His friend in the east to here  \n**Coordinates:** 2429, -3944, 0000",
+            "**Location:** On the beach  \n**Puzzle:** Bring His friend in the east to here  \n**Coordinates:** 2429, -3944, 0",
           latitude: "0.57613538820725",
           longitude: "-0.62497292723418",
           media: [
@@ -14025,7 +14025,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** Tall pointy rock in the water near the ring of plants  \n**Puzzle:** Dive into the ring of plants    \n**Coordinates:** 4187, -0815, 0000",
+            "**Location:** Tall pointy rock in the water near the ring of plants  \n**Puzzle:** Dive into the ring of plants    \n**Coordinates:** 4187, -0815, 0",
           latitude: "0.67695931234375",
           longitude: "-0.56829975083659",
           media: [
@@ -14847,7 +14847,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** Under a palm tree\n**Puzzle:** Bring him to His friend south of here on the opposite beach  \n**Coordinates:** 3539 -3458 0000",
+            "**Location:** Under a palm tree\n**Puzzle:** Bring him to His friend south of here on the opposite beach  \n**Coordinates:** 3539 -3458 0",
           latitude: "0.59178817425794",
           longitude: "-0.58909414074026",
           media: [
@@ -14861,7 +14861,7 @@ export const collectibles = {
           mapSlug: "hyrule",
           title: "Korok Seed",
           description:
-            "**Location:** ??  \n**Puzzle:** Bring him to his Friend west of here.  \n**Coordinates:** 2829, -3884, 0000",
+            "**Location:** ??  \n**Puzzle:** Bring him to his Friend west of here.  \n**Coordinates:** 2829, -3884, 0",
           latitude: "0.57779281161970",
           longitude: "-0.61213170593081",
           media: [

@@ -1,6 +1,7 @@
 import { useMutation } from "@apollo/client";
 import LinkIcon from "@mui/icons-material/Link";
 import LoginIcon from "@mui/icons-material/Login";
+import { Typography } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -22,7 +23,6 @@ import {
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
-import { useMapStore } from "@/store/map";
 
 interface PopupCardProps {
   marker: Location;
@@ -42,11 +42,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
 
   const user = useAuthStore((state) => state.user);
   const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
-  const setCurrentMap = useMapStore((state) => state.setCurrentMap);
-  const currentMap = useMapStore((state) => state.currentMap);
-
+  const [open, setOpen] = React.useState(false);
   const copy = useClipboardCopyFn();
-
   const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
     variables: { data: { email: user?.email, location: id } },
     onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
@@ -91,8 +88,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
               alignItems: "center",
             }}
           >
-            {markerTitle}
-            <Tooltip title="Copy link">
+            <Typography variant="h3">{markerTitle}</Typography>
+            <Tooltip title={open ? "Link Copied" : "Copy link"}>
               <IconButton sx={{ ml: 2 }}>
                 <LinkIcon
                   sx={{ width: 18, height: 18 }}
@@ -100,7 +97,11 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
                     copy(
                       `${process.env.NEXT_PUBLIC_APP_BASE_URL}/game/${params.gameSlug}/map/${params?.mapSlug}?marker=${marker.id}`
                     ).then(() => {
-                      setCurrentMap({ ...currentMap!, copySnackbar: true });
+                      setOpen(true);
+
+                      setTimeout(() => {
+                        setOpen(false);
+                      }, 3000);
                     })
                   }
                 />
@@ -108,10 +109,9 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             </Tooltip>
           </Box>
         }
-        subheader={title}
+        subheader={<Typography variant="caption">{title}</Typography>}
       />
       {media && media.length > 0 && <MediaView media={media} />}
-
       <CardContent>
         {description && (
           <CardContent

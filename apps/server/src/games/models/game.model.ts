@@ -1,6 +1,6 @@
 import { Field, ObjectType } from "@nestjs/graphql";
 import { BaseModel } from "../../common/models/base.model";
-import { Group } from "./markers/group.model";
+import { Group } from "../../common/models/markers/group.model";
 import { Map } from "../../maps/models/map.model";
 
 @ObjectType()

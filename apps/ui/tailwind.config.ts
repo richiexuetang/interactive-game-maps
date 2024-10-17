@@ -255,11 +255,18 @@ const config: Config = {
       addBase({
         h1: { font: "var(--ritcher-font-h1)", letterSpacing: "-0.01562em" },
         h2: { font: "var(--ritcher-font-h2)", letterSpacing: "-0.00833em" },
-        h3: { font: "var(--ritcher-font-h3)" },
+        h3: {
+          font: "var(--ritcher-font-h3)",
+          color: "var(--ritcher-palette-text-primary)",
+        },
         h4: { font: "var(--ritcher-font-h4)", letterSpacing: "0.00735em" },
         h5: { font: "var(--ritcher-font-h5)" },
         h6: { font: "var(--ritcher-font-h6)", letterSpacing: "0.0075em" },
-        p: { font: "var(--ritcher-font-body1)", letterSpacing: "0.00938em" },
+        p: {
+          font: "var(--ritcher-font-body1) !important",
+          letterSpacing: "0.00938em",
+          color: "var(--ritcher-palette-text-primary)",
+        },
         span: { font: "var(--ritcher-font-body2)", letterSpacing: "0.01071em" },
       });
       addUtilities({

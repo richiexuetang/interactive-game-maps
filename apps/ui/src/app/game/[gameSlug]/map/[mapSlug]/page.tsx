@@ -15,7 +15,7 @@ export async function generateMetadata({
 
   const gameTitle = titleCase(gameSlug.replaceAll("-", " "));
   return {
-    title: `${mapData.title} | ${gameTitle} | Ritcher Map`,
+    title: `${mapData.title} | ${mapData.game?.title} | Ritcher Map`,
     description: `${gameTitle} Interactive Map - All Hidden Collectibles, Bosses, Secret Easter Eggs, Equipment, Upgrades, Quest Locations & more! Use the progress tracker to get 100% completion!`,
     openGraph: {
       type: "website",
@@ -49,8 +49,7 @@ export default async function MapPage({
   params: { mapSlug: string };
 }) {
   const mapData = await fetchGameMapDetails(params?.mapSlug);
-  if (!mapData) {
-    return null;
-  }
+  if (!mapData) return null;
+
   return <Map data={mapData} />;
 }

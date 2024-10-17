@@ -1,5 +1,5 @@
 import * as L from "leaflet";
-import { useParams, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { Popup, useMap, Tooltip, Marker } from "react-leaflet";
 import { PopupCard } from "@/components/cards/popup-card";
@@ -10,62 +10,57 @@ import { useMapStore } from "@/store/map";
 export const MapMarker = ({ markerId }: { markerId: number }) => {
   //#region Hooks
   const map = useMap();
-  const params = useParams<{ mapSlug: string; gameSlug: string }>();
   const searchParams = useSearchParams();
   const markerRef = useRef<L.Marker>(null);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const { locations, highlightMarkerId, triggeredMarkerPopup } =
+    useMapStore((state) => state.currentMap) ?? {};
+  const { foundMarkers } = useAuthStore((state) => state.user) ?? {};
   //#endregion
 
-  const currentMap = useMapStore((state) => state.currentMap);
-  const user = useAuthStore((state) => state.user);
-
-  const marker: Location = currentMap?.locations?.find(
+  const marker: Location = locations?.find(
     (loc) => loc.id === markerId
   ) as Location;
   const { id, title, latitude, longitude, category } = marker;
 
   const { icon } = category!;
-  const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
+  const markerFound = foundMarkers?.map((m) => m.id).includes(id);
 
   // build div icon
   const div = document.createElement("div");
-  div.className = `icon ${icon} ${
-    currentMap?.highlightMarkerId === id ? "highlight" : ""
-  }`;
+  div.className = `icon ${icon} ${highlightMarkerId === id ? "highlight" : ""}`;
 
   //#region Life cycle hooks
   useEffect(() => {
-    if (currentMap?.triggeredMarkerPopup === id && markerRef?.current) {
+    if (triggeredMarkerPopup === id) {
       map.setView([latitude, longitude]);
-      markerRef.current.openPopup();
+      markerRef?.current?.openPopup();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentMap?.triggeredMarkerPopup]);
+  });
 
   useEffect(() => {
-    const markerId = searchParams.get("marker");
-    if (markerId && id.toString() === markerId) {
-      map.flyTo([latitude, longitude]);
-      if (markerRef?.current) {
-        markerRef.current.openPopup();
-      }
-      window.history.replaceState(
-        null,
-        "",
-        `game/${params.gameSlug}/map/${params.mapSlug}`
-      );
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [marker, map, params, searchParams]);
+    const markerSearchParam = searchParams.get("marker");
 
-  useEffect(() => {
     const lat = searchParams.get("lat");
     const lng = searchParams.get("lng");
     const zoom = searchParams.get("zoom");
 
+    if (markerSearchParam) {
+      const markerId = parseInt(markerSearchParam);
+      if (markerId === id) {
+        map.flyTo([latitude, longitude]);
+        markerRef?.current?.openPopup();
+      }
+      router.replace(pathname);
+    }
+
     if (lat && lng && zoom) {
       map.flyTo([parseFloat(lat), parseFloat(lng)], parseFloat(zoom));
+      router.replace(pathname);
     }
-  }, [map, searchParams]);
+  });
   //#endregion
 
   return (

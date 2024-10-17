@@ -41,47 +41,12 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
           }
         />
       </Header>
-      {/* <EdgeSidebar
-        sx={(theme) => ({
-          ...applyEdgeSidebarStyles({
-            theme,
-            config: {
-              xs: {
-                variant: "temporary",
-                width: "256px",
-              },
-              sm: {
-                variant: "permanent",
-                width: "256px",
-                autoCollapse: "sm",
-                collapsedWidth: "64px",
-              },
-            },
-          }),
-        })}
-      >
-        <EdgeSidebarContent>
-          <NavSidebarMockup />
-          <ButtonBase
-            className={layoutClasses.EdgeSidebarCollapser}
-            onClick={(event) => toggleEdgeSidebarCollapse({ event })}
-            sx={{ height: 48, mt: "auto", color: "white" }}
-          >
-            <KeyboardArrowLeft
-              className={layoutClasses.EdgeSidebarUncollapsedVisible}
-            />
-            <KeyboardArrowRight
-              className={layoutClasses.EdgeSidebarCollapsedVisible}
-            />
-          </ButtonBase>
-        </EdgeSidebarContent>
-      </EdgeSidebar> */}
       <Content>{children}</Content>
       <Footer>
         <div className="bg-gray-900">
           <div className="max-w-2xl mx-auto text-white py-10">
             <div className="text-center">
-              <p> Save progress. All day, every day. </p>
+              <p> All day, every day. </p>
               <div className="flex justify-center my-5">
                 <div className="flex items-center border w-auto rounded-lg px-4 py-2 mx-2 cursor-pointer">
                   <BmcIcon />

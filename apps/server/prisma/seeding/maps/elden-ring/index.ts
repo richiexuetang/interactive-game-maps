@@ -198,7 +198,7 @@ export const eldenRing = {
       slug: "the-shadow-realm",
       title: "Realm of Shadow",
       minZoom: 8,
-      maxZoom: 17,
+      maxZoom: 16,
       zoom: 13,
       center: [0.6685143165321, -0.72313106578409],
       regions: [

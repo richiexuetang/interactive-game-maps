@@ -43,8 +43,8 @@ export const gow = {
       center: [0.74729625004228, -0.83045228169656],
     },
     {
-      title: "Svarthelheim",
-      slug: "svarthelheim",
+      title: "Svartalfheim",
+      slug: "svartalfheim",
       zoom: 10,
       minZoom: 9,
       maxZoom: 13,
@@ -165,7 +165,7 @@ export const gow = {
           title: "Dock",
           locations: [
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.51963340854225",
               longitude: "-0.65346909413182",
@@ -177,7 +177,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.56203187874867",
               longitude: "-0.67149353871901",
@@ -189,7 +189,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.59541707658589",
               longitude: "-0.60918293172486",
@@ -201,7 +201,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ni\u00f0avellir",
               latitude: "0.69906998272843",
               longitude: "-0.59869125322487",
@@ -213,7 +213,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ni\u00f0avellir West",
               latitude: "0.74455663660177",
               longitude: "-0.60847595172035",
@@ -225,7 +225,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Port",
               latitude: "0.74954507058796",
               longitude: "-0.64539916490639",
@@ -237,7 +237,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Modvitnir's Rig",
               latitude: "0.81572959634279",
               longitude: "-0.68906853753933",
@@ -249,7 +249,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Dragon Beach",
               latitude: "0.81227299250206",
               longitude: "-0.58989772894705",
@@ -261,7 +261,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Dragon Beach",
               latitude: "0.79373538461914",
               longitude: "-0.58543453314655",
@@ -273,7 +273,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Watchtower",
               latitude: "0.84385683039419",
               longitude: "-0.62886919270252",
@@ -285,7 +285,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Watchtower",
               latitude: "0.82720744735514",
               longitude: "-0.62732424030972",
@@ -297,7 +297,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Althjof's Rig",
               latitude: "0.88842111525571",
               longitude: "-0.66405977499119",
@@ -309,7 +309,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Alberich Island",
               latitude: "0.93991297181365",
               longitude: "-0.57872610061546",
@@ -321,7 +321,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Alberich Hollow",
               latitude: "0.86919730264997",
               longitude: "-0.55623846024216",
@@ -333,7 +333,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Bay of Bounty",
               latitude: "0.89803298422528",
               longitude: "-0.55692510575005",
@@ -345,7 +345,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Lyngbakr Island",
               latitude: "0.87614697807376",
               longitude: "-0.60158729553476",
@@ -357,7 +357,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.55468750244704",
               longitude: "-0.66811642789250",
@@ -369,7 +369,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.48934547428743",
               longitude: "-0.67705762398242",
@@ -381,7 +381,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.46379206743646",
               longitude: "-0.70768741490519",
@@ -393,7 +393,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.60246147565208",
               longitude: "-0.66800523841636",
@@ -405,7 +405,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ni\u00f0avellir Beach",
               latitude: "0.74645542911506",
               longitude: "-0.67801952073302",
@@ -417,7 +417,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Lyngbakr Island",
               latitude: "0.89316860319727",
               longitude: "-0.58831602092846",
@@ -828,19 +828,19 @@ export const gow = {
               longitude: "-0.77459307639282",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Forge",
               latitude: "0.81755074807181",
               longitude: "-0.75670969546726",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Myrkr Tunnels",
               latitude: "0.76791693671828",
               longitude: "-0.74133128965457",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Applecore",
               latitude: "0.57876339826116",
               longitude: "-0.78599981004123",
@@ -1083,7 +1083,7 @@ export const gow = {
               mapSlug: "muspelheim",
               title: "The Crucible",
               description:
-                "**Requires:** Find both Muspelheim Seed halves in svarthelheim to gain access to The Crucible -\n- [Muspelheim Seed Half",
+                "**Requires:** Find both Muspelheim Seed halves in svartalfheim to gain access to The Crucible -\n- [Muspelheim Seed Half",
               latitude: "0.78813064189694",
               longitude: "-0.86799514255316",
               media: [
@@ -1190,7 +1190,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Aurvangar Wetlands",
               latitude: "0.45663597269933",
               longitude: "-0.72041703111643",
@@ -1202,7 +1202,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ni\u00f0avellir West",
               latitude: "0.74233590375897",
               longitude: "-0.60608870957972",
@@ -1214,7 +1214,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ni\u00f0avellir Beach",
               latitude: "0.74439566692348",
               longitude: "-0.68247802232798",
@@ -1226,7 +1226,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Watchtower",
               latitude: "0.84093890239495",
               longitude: "-0.62234606037831",
@@ -1238,7 +1238,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Applecore",
               latitude: "0.61594594810768",
               longitude: "-0.81619500701862",
@@ -1250,7 +1250,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Jarnsmida Pitmines",
               latitude: "0.66900874390858",
               longitude: "-0.85511563985767",
@@ -1262,13 +1262,13 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Applecore Descent",
               latitude: "0.49913844278217",
               longitude: "-0.79949725645130",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Applecore Descent",
               latitude: "0.49978741483575",
               longitude: "-0.79740962806773",
@@ -1480,7 +1480,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nidavellir",
               latitude: "0.70576427330629",
               longitude: "-0.57845554527111",
@@ -1492,7 +1492,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Watchtower",
               latitude: "0.84128218815540",
               longitude: "-0.62560762653999",
@@ -1504,7 +1504,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Forge",
               latitude: "0.84015890146088",
               longitude: "-0.78360150023275",
@@ -1516,7 +1516,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Applecore",
               latitude: "0.58385954432492",
               longitude: "-0.78689917622327",
@@ -1913,7 +1913,7 @@ export const gow = {
               longitude: "-0.56945081781626",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ni\u00f0avellir's Finest Set (Kratos)",
               description:
                 "**Level:** 2  \n**Unlock:** Craftable at any Shop after completing Favor [In Service of Asgard",
@@ -2231,7 +2231,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Things Left Behind - Hreidmar\u2019s Brassard",
               description:
                 "On the upper platform.  Freeze the geysers as necessary to be able to grapple up to the artifact.",
@@ -2249,7 +2249,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Things Left Behind - Bari\u2019s Grenade",
               description: "Hiding under the broken wooden crate",
               latitude: "0.76902999899832",
@@ -2262,7 +2262,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Things Left Behind - Durinn\u2019s Stone Statue",
               latitude: "0.57561857778033",
               longitude: "-0.79598596719444",
@@ -2274,7 +2274,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Things Left Behind - Althjof's Statues",
               latitude: "0.61096805351569",
               longitude: "-0.81705331390350",
@@ -2286,7 +2286,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Things Left Behind - Lofhneid\u2019s Whetstone",
               latitude: "0.67089689001251",
               longitude: "-0.85803388335364",
@@ -2298,7 +2298,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Things Left Behind - Griep's Firebomb",
               description:
                 "Head through the sewer passage in the market plaza.  This artifact is on the ground in the corridor beyond.",
@@ -2419,7 +2419,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Washed Ashore Treasure",
               description:
                 "**Treasure Map:** [Washed Ashore\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Virtue\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
@@ -2433,7 +2433,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Mining Glory Treasure",
               description:
                 "**Treasure Map:** [Mining Glory\n\n**Reward:** \n- Amulet Enchantment - Muspelheim\u2019s Blessing\n-1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
@@ -2447,10 +2447,10 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Fruits of Industry Treasure",
               description:
-                "**Treasure Map:** [Fruits of Industry\n\n**Reward:** \n- Amulet Enchantment - svarthelheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+                "**Treasure Map:** [Fruits of Industry\n\n**Reward:** \n- Amulet Enchantment - svartalfheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
               latitude: "0.81190968163736",
               longitude: "-0.68713903426968",
               media: [
@@ -2543,7 +2543,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Jewel of Yggdrasil",
               description: "On top of the island",
               latitude: "0.91922869441244",
@@ -2556,7 +2556,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Jewel of Yggdrasil",
               description:
                 "Automatically obtained from the Ogre during story quest _Forging Destiny_",
@@ -2721,7 +2721,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Kvasir's Poem - The Sunrise of Nothingness",
               description: "On the wooden platform, on the table",
               latitude: "0.61199062441258",
@@ -2734,7 +2734,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title:
                 "Kvasir's Poem - Large Society Ground Orb, The Performance",
               description: "On the wooden crate, behind the Sonic barrier",
@@ -2748,7 +2748,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Kvasir's Poem - We Who Remain, Part the Second",
               description:
                 "Climb up and across the wooden scaffolding against the rock wall to reach the wooden platform with the poem and a coffin",
@@ -2762,7 +2762,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Kvasir's Poem - Sanguinity",
               latitude: "0.53732680120403",
               longitude: "-0.79305462747601",
@@ -2774,7 +2774,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Kvasir's Poem - Tool and Bang",
               latitude: "0.64875404086796",
               longitude: "-0.83983777730941",
@@ -3609,7 +3609,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Unsafe Roads",
               description:
                 "From the boat docks, climb up the wooden ledge, then head right and down to the lore marker.",
@@ -3623,7 +3623,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Shopping List",
               description: "On the ground in the main plaza",
               latitude: "0.70511503223908",
@@ -3636,7 +3636,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Warning",
               latitude: "0.81890050546565",
               longitude: "-0.69658279672436",
@@ -3648,7 +3648,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Climbing the Ladder",
               latitude: "0.84908849300913",
               longitude: "-0.59176674837846",
@@ -3660,7 +3660,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Squasher",
               latitude: "0.90261947225011",
               longitude: "-0.66640128543523",
@@ -3672,7 +3672,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Passion",
               latitude: "0.90534136579375",
               longitude: "-0.67139204475853",
@@ -3684,7 +3684,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Regarding the Removal of Resources",
               latitude: "0.88094817362111",
               longitude: "-0.61239865193218",
@@ -3696,7 +3696,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Don't Breathe",
               description: "On the beach in front of the dock",
               latitude: "0.80500695181915",
@@ -3709,7 +3709,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Dear Overseer",
               latitude: "0.79344217246793",
               longitude: "-0.74870799003870",
@@ -3721,7 +3721,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Forge",
               latitude: "0.79962138487659",
               longitude: "-0.74910462102676",
@@ -3733,7 +3733,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Cooperation",
               latitude: "0.57987643051111",
               longitude: "-0.80678862747575",
@@ -3745,7 +3745,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Vault",
               latitude: "0.58899660210460",
               longitude: "-0.78838586395199",
@@ -3757,7 +3757,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Pit Mine",
               latitude: "0.66626234834052",
               longitude: "-0.87022184102983",
@@ -3902,7 +3902,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Sparkthorn",
               description:
                 "**Requires:** Complete story quest _Forging Destiny_",
@@ -4429,7 +4429,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description: "Perched on the rock",
               latitude: "0.46487545236772",
@@ -4442,7 +4442,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description:
                 "Perched on the roof crown of the wood building in the main plaza",
@@ -4456,7 +4456,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description:
                 "Throw the Fire Bomb to clear out the ore, then find the raven perched on the ledge above",
@@ -4470,7 +4470,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description:
                 "Flying in a circle toward the southwestern end of The Watchtower.",
@@ -4484,7 +4484,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description: "Perched in the rope of the outstretched crane",
               latitude: "0.84385167493554",
@@ -4497,7 +4497,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description: "To the left just after climbing the chain",
               latitude: "0.88900997409840",
@@ -4510,7 +4510,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               description: "**Requires:** Draupnir Spear for access",
               latitude: "0.94223056040161",
@@ -4523,7 +4523,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               latitude: "0.92197719842692",
               longitude: "-0.58052451114304",
@@ -4535,7 +4535,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               latitude: "0.89399287325656",
               longitude: "-0.61857846150244",
@@ -4547,7 +4547,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               latitude: "0.76714189352093",
               longitude: "-0.72709620744689",
@@ -4559,7 +4559,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               latitude: "0.87960699120882",
               longitude: "-0.77279389106596",
@@ -4571,7 +4571,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               latitude: "0.55723861243455",
               longitude: "-0.79528622537603",
@@ -4583,7 +4583,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Odin's Raven",
               latitude: "0.66162780235064",
               longitude: "-0.86799024313001",
@@ -4782,7 +4782,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Talisman of Meign",
               description:
                 "Automatically found on the dwarf corpse stuck in the crack in the wall during story quest _The Quest for Tyr_ and cannot be missed",
@@ -5364,7 +5364,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Deadly Obsidian Handles",
               latitude: "0.59791517614050",
               longitude: "-0.66245140916951",
@@ -5376,7 +5376,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Luminous Recovery Handles",
               description:
                 "**Requires:** Draupnir Spear\n\nOn the upper platform.  Throw the spear at the wind fissure found on the wall just under the chest, then use it to climb up.",
@@ -5390,7 +5390,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Muspelheim Seed Half",
               description:
                 "Use the nearby Fire Bombs, obtained from the vase, to blow away the golden ore blocking the chest",
@@ -5404,7 +5404,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Fokvangr Whetstone, 5k Hacksilver",
               latitude: "0.86550995334144",
               longitude: "-0.55941990326309",
@@ -5416,7 +5416,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Muspelheim Seed Half",
               latitude: "0.81997889764902",
               longitude: "-0.69289358381224",
@@ -5428,7 +5428,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nj\u00f6rd's Tempest",
               latitude: "0.90942420227383",
               longitude: "-0.66685499083422",
@@ -5440,7 +5440,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "R\u00f6nd of Aggravation",
               latitude: "0.89656747957889",
               longitude: "-0.55042889486194",
@@ -5452,7 +5452,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Fog of Fimbulwinter",
               latitude: "0.73047268127945",
               longitude: "-0.73121392423985",
@@ -5464,7 +5464,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Atlas Eruption",
               latitude: "0.82965908910359",
               longitude: "-0.74086487494387",
@@ -5476,7 +5476,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Fortified Frost Knob",
               latitude: "0.56941855577720",
               longitude: "-0.79276544499237",
@@ -5488,7 +5488,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Banahogg Knob",
               latitude: "0.62521511872438",
               longitude: "-0.84125756805932",
@@ -5500,7 +5500,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Pommels of the Undying Spark",
               latitude: "0.65115714551747",
               longitude: "-0.83760617940874",
@@ -6068,7 +6068,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               description:
                 "Standing on the platform with the artifact, the three seals can be seen.  Destroy them all to unlock this chest.",
@@ -6082,7 +6082,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               description:
                 "Find and turn the three rune wheels to display the correct runes and unlock the chest",
@@ -6096,7 +6096,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               description:
                 "Ignite the three torches above the chest runes to unlock this chest",
@@ -6110,7 +6110,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               description:
                 "Ring the three rune bells all at the same time to unlock the chest.  The easiest order to ring the rune bells in is: N, R, C.",
@@ -6124,7 +6124,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               description:
                 "Smash the three runes to unlock the chest.  Freeze the geysers as necessary to be able to gain access the to runes.",
@@ -6138,7 +6138,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               latitude: "0.72103206297430",
               longitude: "-0.76142632658258",
@@ -6150,7 +6150,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               description: "**Requires:** Draupnir Spear",
               latitude: "0.77503760176840",
@@ -6163,7 +6163,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               latitude: "0.51346687317212",
               longitude: "-0.79253964333859",
@@ -6175,7 +6175,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               latitude: "0.61388613021811",
               longitude: "-0.81344842498700",
@@ -6187,7 +6187,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Nornir Chest",
               latitude: "0.66609069856655",
               longitude: "-0.86507199972141",
@@ -6514,7 +6514,7 @@ export const gow = {
               longitude: "-0.94915663222193",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               description: "On the wooden platform",
               latitude: "0.61227910345225",
@@ -6527,14 +6527,14 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               description: "On the wooden platform",
               latitude: "0.88993989090181",
               longitude: "-0.62298933178079",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               latitude: "0.53713252047808",
               longitude: "-0.64499861489961",
@@ -6546,7 +6546,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               latitude: "0.55127789980840",
               longitude: "-0.65887531759296",
@@ -6558,7 +6558,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               latitude: "0.69979392948963",
               longitude: "-0.59671915991348",
@@ -6570,7 +6570,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               description: "On the south side of the beach, just as you dock.",
               latitude: "0.74354659967983",
@@ -6583,13 +6583,13 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               latitude: "0.72998295016289",
               longitude: "-0.68750961545842",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Red Coffin",
               description: "Just past the Draugr hole",
               latitude: "0.84464063458292",
@@ -6707,7 +6707,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Mining Glory",
               description: "On the upper platform next to the [Legendary Chest",
               latitude: "0.73893719701243",
@@ -6720,7 +6720,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Fruits of Industry",
               description: "**Treasure:** [Fruits of Industry",
               latitude: "0.86641726050510",
@@ -6733,7 +6733,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Washed Ashore",
               description: "**Treasure:** [Washed Ashore",
               latitude: "0.92077572415565",
@@ -6746,7 +6746,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Demise of Dagestr",
               description: "**Treasure:** Demise of Dagestr",
               latitude: "0.50986212799933",
@@ -6839,7 +6839,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil's Dew of Runic Power",
               latitude: "0.54812787326578",
               longitude: "-0.67941427230588",
@@ -6851,7 +6851,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil's Dew of Cooldown",
               latitude: "0.76909497320855",
               longitude: "-0.62266945838698",
@@ -6863,7 +6863,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil's Dew of Defense",
               latitude: "0.87808534685669",
               longitude: "-0.53014047075811",
@@ -6875,7 +6875,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil's Dew of Vitality",
               description:
                 "**Requires:** Complete story quest _The Reckoning_\n\nTo gain access to this Dew, dock at the Bay of Bounty, climb the chain, and activate the Runic Slate",
@@ -6893,7 +6893,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil's Dew of Strength",
               latitude: "0.75629072118505",
               longitude: "-0.66499172350245",
@@ -6917,7 +6917,7 @@ export const gow = {
           info: "**Requires:** Completion of story quest The Word of Fate  \n**Associated Favor:** [Fit for a King",
           locations: [
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Hardrefill the Callous",
               description:
                 "**Power Level:** 5  \n**Reward:**  \n- Asgard's Fortitude Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes\n\n**Associated Favor:** [Fit for a King",
@@ -6931,7 +6931,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Beirgadr the Feared",
               description:
                 "**Power Level:** 6  \n**Reward:**  \n- Asgard's Might Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -6945,7 +6945,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Bodvar the Fierce and Starolfr the Troublesome",
               description:
                 "**Power Level:** 8  \n**Reward:**  \n- Hind of the Nine Realms\n- Gale Flame\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes",
@@ -7110,7 +7110,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Draugr Hole",
               description:
                 "**Reward:** \n- 310 Kratos XP\n- 93 Atreus XP\n- Cursed Empress Handles - Blades Attachment\n- 1 Chaos Spark\n- 2 Sovereign Coals\n- 5 Dust of Realms\n- Hacksilver",
@@ -7124,7 +7124,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Draugr Hole",
               description:
                 "**Reward:** \n- 500 Hacksilver\n- 15 Dust of Realms \n- 2 Sovereign Coals\n- 1 Chaos Spark",
@@ -7174,7 +7174,7 @@ export const gow = {
               mapSlug: "vanaheim",
               title: "Garden for the Dead",
               description:
-                "Speak with the spirit Astrid  \n\n**Objectives:** ??  \n\n**Reward:** \n- 500 XP Kratos\n- 120 XP Freya\n- 13 Whispering Slab\n- svarthelheim Amulet Enchantment",
+                "Speak with the spirit Astrid  \n\n**Objectives:** ??  \n\n**Reward:** \n- 500 XP Kratos\n- 120 XP Freya\n- 13 Whispering Slab\n- svartalfheim Amulet Enchantment",
               latitude: "0.43885824838161",
               longitude: "-0.68147503353075",
               media: [
@@ -7634,7 +7634,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "In Service of Asgard",
               description:
                 "Obtained either in the Nidavellir Tavern by speaking to Raeb again after they disclose the location of Durlin's office, or simply by sailing north into the bay.\n\n**Reward:**\n- 500 Kratos XP\n- 125 Atreus XP\n- Nidavellir Ore\n- Muspelheim Seed Half",
@@ -7648,7 +7648,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Spirit of Rebellion",
               description:
                 "**Requires:** Complete story quest _Forging Destiny_\n\nSpeak with Durlin to begin this Favor\n\n**Reward:**\n- 3000 Kratos XP\n- 750 Companion XP\n- 30 Whispering Slabs\n- Mountain Splitter",
@@ -7662,7 +7662,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Lost Treasure",
               description:
                 "**Requires:** Draupnir Spear for access \n\nSpeak with the Spirit on the platform to begin this quest\n\n**Reward:**\n- 3000 Kratos' XP\n- 750 Companion's XP\n- Alberich's Treasure",
@@ -7676,7 +7676,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Weight of Chains",
               description:
                 "Automatically obtained upon visiting Lyngbakr Island\n\n**Reward:**\n- 1000 Kratos XP \n- 250 Atreus XP",
@@ -7690,7 +7690,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "A Viking Funeral",
               description:
                 "**Requires:** Completion of all story quests\n\nSpeak with L\u00fanda at the forge in Sindri's House or at any Shop where she is present to begin this Favor",
@@ -7704,7 +7704,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Born From Fire",
               description:
                 "Automatically obtained upon starting your first Draugr Hole activity\n\n**Objectives:** Close all Draugr Holes across the Realms - \n- Draugr Hole\n\n**Reward:** \n- Kratos XP\n- Companion XP",
@@ -7819,7 +7819,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Hel Tear",
               latitude: "0.53680905277085",
               longitude: "-0.65113339788965",
@@ -7878,7 +7878,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Lost Lindwyrm",
               description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.85329345303175",
@@ -7891,7 +7891,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Lost Lindwyrm",
               description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.85336639521083",
@@ -7908,7 +7908,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Lost Lindwyrm",
               description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.94041286556296",
@@ -7925,7 +7925,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Lost Lindwyrm",
               description: "Obtained from the [Yggdrasil Rift",
               latitude: "0.61987404803629",
@@ -8123,7 +8123,7 @@ export const gow = {
           info: "**Requires:** Completion of all story quests.  \n**Associated Favor:** The Last Remnants of Asgard",
           locations: [
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.60238045486257",
               longitude: "-0.67568097480026",
@@ -8135,7 +8135,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.80706300828361",
               longitude: "-0.55855185487422",
@@ -8147,7 +8147,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Last Remnants of Asgard",
               latitude: "0.68513189113064",
               longitude: "-0.84851434850555",
@@ -8357,7 +8357,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               description:
                 "**Enemies:** \n- Lvl 6 Wulver\n- Lvl 3 Nightmare  \n\n**Reward:**\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 15 Dust of Realms\n- 1,500 Hacksilver",
@@ -8371,7 +8371,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm",
@@ -8385,7 +8385,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               latitude: "0.74993119104649",
               longitude: "-0.74882600784287",
@@ -8397,7 +8397,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm",
@@ -8411,7 +8411,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Rewards:** \n- [Lost Lindwyrm",
@@ -8425,7 +8425,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               latitude: "0.78230989792362",
               longitude: "-0.74632012541076",
@@ -8437,7 +8437,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Yggdrasil Rift",
               description:
                 "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- [Lost Lindwyrm",
@@ -8505,7 +8505,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Prongfruit",
               description:
                 "**Requires:** Complete story quest _Forging Destiny_ to gain access to this area\n\nOn the ground near the Nornir Chest and the green heart painted on the rock",
@@ -8649,14 +8649,14 @@ export const gow = {
               longitude: "-0.96866660939639",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ormstunga",
               description: "**Reward:** \n- Svefnthorn\n- Emblem of Elusion",
               latitude: "0.83997033787909",
               longitude: "-0.55918427061516",
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Miklimunnr",
               description:
                 "**Requires:** Complete *The Quest for Tyr*\n\n**Reward:** \n- Hind of the Four Winds",
@@ -8726,7 +8726,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "The Everlasting",
               description:
                 "**Requires:** Use the [Mystical Heirloom to awaken this boss\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Force\n- 3 Dragon Claws\n- 40 Bonded Leather\n- 75 Shattered Runes\n- 50,000 Hacksilver",
@@ -8770,7 +8770,7 @@ export const gow = {
               ],
             },
             {
-              mapSlug: "svarthelheim",
+              mapSlug: "svartalfheim",
               title: "Ormr",
               description: "Must be attacked from above",
               latitude: "0.80824338869297",

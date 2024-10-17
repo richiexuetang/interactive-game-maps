@@ -9,9 +9,58 @@ import {
 } from "next/navigation";
 import NProgress from "nprogress";
 import React, { useCallback, useEffect, useMemo, useRef } from "react";
-import { ProgressBarProps, RouterNProgressOptions } from "./";
 import { getAnchorProperty } from "@/lib/ui/get-anchor-property";
 import { isSameURL, isSameURLWithoutSearch } from "@/lib/ui/same-url";
+
+export interface NProgressOptions {
+  minimum?: number;
+  template?: string;
+  easing?: string;
+  speed?: number;
+  trickle?: boolean;
+  trickleSpeed?: number;
+  parent?: string;
+  positionUsing?: string;
+  barSelector?: string;
+  spinnerSelector?: string;
+}
+
+export interface RouterNProgressOptions {
+  showProgressBar?: boolean;
+  startPosition?: number;
+  disableSameURL?: boolean;
+}
+
+/**
+ * @param color Color of the progress bar. @default #0A2FFF
+ * @param height Height of the progress bar. @default 2px
+ * @param options NProgress options. @default undefined
+ * @param shallowRouting If the progress bar is not displayed when you use shallow routing - @default false
+ * @param startPosition The position of the progress bar at the start of the page load - @default 0
+ * @param delay When the page loads faster than the progress bar, it does not display - @default 0
+ * @param stopDelay Delay to stop the progress bar - @default 0
+ * @param style Custom css - @default undefined
+ * @param nonce Custom nonce for Content-Security-Policy directives - @default undefined
+ * @param shouldCompareComplexProps If you want to compare props in the React.memo return - @default false
+ * @param targetPreprocessor If you want to./AppProgressBaress the target URL - @default undefined
+ * @param disableAnchorClick Disable triggering progress bar on anchor clicks - @default false
+ */
+export interface ProgressBarProps {
+  color?: string;
+  height?: string;
+  options?: Partial<NProgressOptions>;
+  shallowRouting?: boolean;
+  disableSameURL?: boolean;
+  startPosition?: number;
+  delay?: number;
+  stopDelay?: number;
+  style?: string;
+  nonce?: string;
+  memo?: boolean;
+  shouldCompareComplexProps?: boolean;
+  targetPreprocessor?: (url: URL) => URL;
+  disableAnchorClick?: boolean;
+}
 
 type PushStateInput = [
   data: any,
@@ -54,7 +103,6 @@ export const AppProgressBar = React.memo(
             height: ${height};
           }
 
-          /* Fancy blur effect */
           #nprogress .peg {
             display: block;
             position: absolute;
@@ -69,46 +117,13 @@ export const AppProgressBar = React.memo(
                     transform: rotate(3deg) translate(0px, -4px);
           }
 
-          /* Remove these to get rid of the spinner */
-          #nprogress .spinner {
-            display: block;
-            position: fixed;
-            z-index: 1031;
-            top: 15px;
-            right: 15px;
-          }
-
-          #nprogress .spinner-icon {
-            width: 18px;
-            height: 18px;
-            box-sizing: border-box;
-
-            border: solid 2px transparent;
-            border-top-color: ${color};
-            border-left-color: ${color};
-            border-radius: 50%;
-
-            -webkit-animation: nprogress-spinner 400ms linear infinite;
-                    animation: nprogress-spinner 400ms linear infinite;
-          }
-
           .nprogress-custom-parent {
             overflow: hidden;
             position: relative;
           }
 
-          .nprogress-custom-parent #nprogress .spinner,
           .nprogress-custom-parent #nprogress .bar {
             position: absolute;
-          }
-
-          @-webkit-keyframes nprogress-spinner {
-            0%   { -webkit-transform: rotate(0deg); }
-            100% { -webkit-transform: rotate(360deg); }
-          }
-          @keyframes nprogress-spinner {
-            0%   { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
           }
         `}
       </style>

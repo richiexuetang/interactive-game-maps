@@ -6,7 +6,7 @@ import { GoogleStrategy } from "./strategies/google.strategy";
 import { JwtModule } from "@nestjs/jwt";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { JwtStrategy } from "./strategies/jwt.strategy";
-import { AuthResolver } from "./auth.resolver";
+import { GqlAuthGuard } from "./guards/gql-auth.guard";
 
 @Module({
   imports: [
@@ -24,7 +24,8 @@ import { AuthResolver } from "./auth.resolver";
     PrismaService,
     GoogleStrategy,
     JwtStrategy,
-    AuthResolver,
+    GqlAuthGuard,
   ],
+  exports: [GqlAuthGuard],
 })
 export class AuthModule {}

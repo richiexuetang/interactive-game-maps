@@ -8,68 +8,11 @@ export const locations = {
       locations: [
         {
           mapSlug: "chapter-1",
-          title: "Front Hills",
-          description:
-            "**Location:** Kill the Wolf Scout and the Wolf Stalwart and the golden trail will lead you here.",
-          latitude: 0.64941863428122,
-          longitude: -0.81590652466016,
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/51b83172-e92a-4eec-bd2c-4b6687cf4d76.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "chapter-1",
-          title: "Outside the Forest",
-          description: "**Location:** Just outside the small cave",
-          latitude: 0.88310749622674,
-          longitude: -0.91830909234253,
-          media: [
-            {
-              url: "https://lh3.googleusercontent.com/1PolZSeopVmwnUsE1l_7WWt4-qFAVJylmJ1aBywn8RWZXDUBWt0SJdXBScHApwxo7WdJgdnfmoX67yIPR03obcBAd34KDnA6XEZb4nKxuUU-5c3LaA=s0",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "chapter-1",
-          title: "Loong Claw Grove",
-          description:
-            "**Location** Use the Loong Scale (from Chapter 2) on the large waterfall on left side of 'Outside The Forest' region.",
-          latitude: 1.002,
-          longitude: -0.978,
-        },
-        {
-          mapSlug: "chapter-1",
-          title: "Guanyin Temple",
-          latitude: 0.84251,
-          longitude: -0.7873,
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/f42d46e0-f4fd-410c-85f2-6003f1d0e7c6.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "chapter-1",
-          title: "Back Hills",
-          latitude: 0.74282052,
-          longitude: -0.7647266,
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/80eca430-7795-4b50-9a0a-3633454c5b47.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "chapter-1",
+
           title: "Snake Trail",
-          latitude: 0.7545265,
-          longitude: -0.58213,
+
+          latitude: "0.75452650172841",
+          longitude: "-0.58213591575498",
           media: [
             {
               url: "https://media.mapgenie.io/storage/media/6e73b7d3-01e4-4208-9407-ff3d6e8e6de6.png",
@@ -78,21 +21,99 @@ export const locations = {
           ],
         },
         {
+          id: 397271,
           mapSlug: "chapter-1",
+
+          title: "Front Hills",
+          description:
+            "**Location:** Kill the Wolf Scout and the Wolf Stalwart and the golden trail will lead you here.",
+          latitude: "0.64941863428122",
+          longitude: "-0.81590652466016",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/51b83172-e92a-4eec-bd2c-4b6687cf4d76.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          id: 397292,
+          mapSlug: "chapter-1",
+
+          title: "Outside the Forest",
+          description: "**Location:** Just outside the small cave",
+          latitude: "0.88310749622674",
+          longitude: "-0.91830909234253",
+        },
+        {
+          id: 397305,
+          mapSlug: "chapter-1",
+
+          title: "Guanyin Temple",
+
+          latitude: "0.84251068136295",
+          longitude: "-0.78730456225531",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/f42d46e0-f4fd-410c-85f2-6003f1d0e7c6.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          id: 397306,
+          mapSlug: "chapter-1",
+
+          title: "Back Hills",
+
+          latitude: "0.74282052262677",
+          longitude: "-0.76472660959229",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/80eca430-7795-4b50-9a0a-3633454c5b47.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          id: 397382,
+          mapSlug: "chapter-1",
+
+          title: "Ancient Guanyin Temple Shrine",
+          description:
+            "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)\n\n**Shop:**\n- Evil Repelling Medicament (x2)\n- Longevity Decoction (x2)\n- Silk (x2)\n- Yaoguai Core (x2)",
+          latitude: "0.87509211105314",
+          longitude: "-0.71554884817940",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/e56278b4-8932-4803-91af-87206d6d560e.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          id: 397474,
+          mapSlug: "chapter-1",
+
           title: "Marsh of White Mist",
           description: "**Location:** By the edge of the path",
           latitude: "0.73069975846236",
           longitude: "-0.54159164428478",
         },
         {
+          id: 398289,
           mapSlug: "chapter-1",
-          title: "Cave Interior",
-          description: "**Location:** Inside the cavern",
-          latitude: "0.46541002162454",
-          longitude: "-0.71174613730850",
+
+          title: "Bodhi Peak",
+          description:
+            "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
+          latitude: "0.52036335626630",
+          longitude: "-0.88384964193304",
         },
         {
+          id: 398292,
           mapSlug: "chapter-1",
+
           title: "Outside the Cave",
           latitude: "0.36939126654569",
           longitude: "-0.77541589737046",
@@ -104,12 +125,21 @@ export const locations = {
           ],
         },
         {
+          id: 398293,
           mapSlug: "chapter-1",
-          title: "Bodhi Peak",
+
+          title: "Cave Interior",
+          description: "**Location:** Inside the cavern",
+          latitude: "0.46541002162454",
+          longitude: "-0.71174613730850",
+        },
+        {
+          mapSlug: "chapter-1",
+          title: "Loong Claw Grove",
           description:
-            "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
-          latitude: "0.52036335626630",
-          longitude: "-0.88384964193304",
+            "**Location** Use the Loong Scale (from Chapter 2) on the large waterfall on left side of 'Outside The Forest' region.",
+          latitude: 1.002,
+          longitude: -0.978,
         },
         {
           mapSlug: "chapter-1",
@@ -951,7 +981,7 @@ export const locations = {
         {
           mapSlug: "chapter-3",
           title: "Purple Sealed Gate",
-          description: "",
+
           latitude: "0.59188594676564",
           longitude: "-0.65380185842594",
         },
