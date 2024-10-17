@@ -177,6 +177,7 @@ type Query {
   game(slug: String!): Game!
   games: [Game!]!
   mapData(slug: String!): Map!
+  me: User!
 }
 
 type Region {
@@ -241,6 +242,5 @@ type User {
 
   """Identifies the date and time when the object was last updated."""
   updatedAt: DateTime!
-  user: User!
   username: String
 }

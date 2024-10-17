@@ -1,13 +1,13 @@
 "use client";
 import { Box, Button, Typography } from "@mui/material";
 import { useAuthStore } from "@/store";
+import { useRouter } from "next/navigation";
 
 export const AccountPage = () => {
   const user = useAuthStore((state) => state.user);
+  const router = useRouter();
 
-  if (!user) {
-    return <div>Not logged in</div>;
-  }
+  if (!user) router.push("/");
 
   return (
     <Box

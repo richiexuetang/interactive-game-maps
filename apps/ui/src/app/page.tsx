@@ -4,8 +4,10 @@ import Image from "next/image";
 import { GameCard } from "@/components/cards/game-card";
 import { AppLayout } from "@/components/ui/app-layout";
 import { getClient } from "@/lib/getClient";
+import { cookies } from "next/headers";
 
 export default async function Page() {
+  console.log(cookies().get("jwt"));
   const sdk = getClient();
   const { games } = await sdk.Games({});
 

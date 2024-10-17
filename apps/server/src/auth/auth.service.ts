@@ -25,7 +25,7 @@ export class AuthService {
   ) {}
 
   validateUser(email: string): Promise<User> {
-    return this.prismaService.user.findUnique({ where: { email: email } });
+    return this.prismaService.user.findUnique({ where: { email } });
   }
 
   validateToken(token: string) {
@@ -104,7 +104,7 @@ export class AuthService {
     const expirationDateInMilliseconds =
       new Date().getTime() + 7 * 24 * 60 * 60 * 1000;
     const cookieOptions: CookieOptions = {
-      httpOnly: true, // this ensures that the cookie cannot be accessed through JavaScript!
+      httpOnly: false,
       expires: new Date(expirationDateInMilliseconds),
     };
 
@@ -137,20 +137,6 @@ export class AuthService {
       secret: this.configService.get("JWT_SECRET"),
       expiresIn: securityConfig.refreshIn,
     });
-  }
-
-  refreshToken(token: string) {
-    try {
-      const { userId } = this.jwtService.verify(token, {
-        secret: this.configService.get("JWT_SECRET"),
-      });
-
-      return this.generateTokens({
-        userId,
-      });
-    } catch (error) {
-      throw new UnauthorizedException();
-    }
   }
 
   getUserFromToken(token: string): Promise<User> {
