@@ -16,7 +16,9 @@
     "start:server:prod": "pnpm --filter server start:prod",
     "start:migrate:dev": "pnpm --filter server migrate:dev && pnpm --filter server dev",
     "ui:build": "pnpm --filter ui build",
-    "ui:prod": "pnpm --filter ui start"
+    "ui:prod": "pnpm --filter ui start",
+    "prepare": "husky",
+    "test": "pnpm --filter server test && pnpm --filter ui test:e2e"
   },
   "dependencies": {
     "graphql": "16.7.1"
@@ -31,6 +33,7 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^9.1.6",
     "jest": "^29.7.0",
     "prettier": "2.8.8",
     "ts-jest": "^29.2.5",

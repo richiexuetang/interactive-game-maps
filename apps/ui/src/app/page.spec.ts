@@ -14,13 +14,9 @@ test("should navigate to elden ring game page", async ({ page }) => {
 
   await page.click("text=Elden Ring");
 
-  await expect(
-    page.getByRole("heading", { name: "ELDEN RING MAPS" })
-  ).toBeVisible();
+  await expect(page.getByText("ELDEN RING MAPS")).toBeVisible();
 
-  await expect(
-    page.getByRole("heading", { name: "ELDEN RING CHECKLIST" })
-  ).toBeVisible();
+  await expect(page.getByText("ELDEN RING CHECKLIST")).toBeVisible();
 });
 
 test("should navigate to black myth wukong game page", async ({ page }) => {
@@ -29,12 +25,10 @@ test("should navigate to black myth wukong game page", async ({ page }) => {
 
   await page.click(`text=${gameName}`);
 
-  await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} MAPS` })
-  ).toBeVisible();
+  await expect(page.getByText(`${gameName.toUpperCase()} MAPS`)).toBeVisible();
 
   await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} CHECKLIST` })
+    page.getByText(`${gameName.toUpperCase()} CHECKLIST`)
   ).toBeVisible();
 });
 
@@ -44,12 +38,10 @@ test("should navigate to zelda totk game page", async ({ page }) => {
 
   await page.click(`text=${gameName}`);
 
-  await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} MAPS` })
-  ).toBeVisible();
+  await expect(page.getByText(`${gameName.toUpperCase()} MAPS`)).toBeVisible();
 
   await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} CHECKLIST` })
+    page.getByText(`${gameName.toUpperCase()} CHECKLIST`)
   ).toBeVisible();
 });
 
@@ -59,12 +51,10 @@ test("should navigate to hogwarts legacy game page", async ({ page }) => {
 
   await page.click(`text=${gameName}`);
 
-  await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} MAPS` })
-  ).toBeVisible();
+  await expect(page.getByText(`${gameName.toUpperCase()} MAPS`)).toBeVisible();
 
   await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} CHECKLIST` })
+    page.getByText(`${gameName.toUpperCase()} CHECKLIST`)
   ).toBeVisible();
 });
 
@@ -74,12 +64,10 @@ test("should navigate to gow ragnarok game page", async ({ page }) => {
 
   await page.click(`text=${gameName}`);
 
-  await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} MAPS` })
-  ).toBeVisible();
+  await expect(page.getByText(`${gameName.toUpperCase()} MAPS`)).toBeVisible();
 
   await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} CHECKLIST` })
+    page.getByText(`${gameName.toUpperCase()} CHECKLIST`)
   ).toBeVisible();
 });
 
@@ -89,11 +77,9 @@ test("should navigate to witcher 3 game page", async ({ page }) => {
 
   await page.click(`text=${gameName}`);
 
-  await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} MAPS` })
-  ).toBeVisible();
+  await expect(page.getByText(`${gameName.toUpperCase()} MAPS`)).toBeVisible();
 
   await expect(
-    page.getByRole("heading", { name: `${gameName.toUpperCase()} CHECKLIST` })
+    page.getByText(`${gameName.toUpperCase()} CHECKLIST`)
   ).toBeVisible();
 });

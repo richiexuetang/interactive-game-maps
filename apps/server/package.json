@@ -29,7 +29,8 @@
     "docker:db": "docker-compose -f docker-compose.db.yml up -d",
     "docker:seed": "docker exec -it ritcher-map-api pnpm run seed",
     "docker": "docker-compose up -d",
-    "docker:build": "docker-compose build"
+    "docker:build": "docker-compose build",
+    "test": "pnpm exec jest"
   },
   "dependencies": {
     "@apollo/server": "^4.7.5",
