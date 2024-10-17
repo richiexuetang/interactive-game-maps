@@ -1,5 +1,6 @@
 {
   "compileOnSave": false,
+  "type": "module",
   "compilerOptions": {
     "esModuleInterop": true,
     "module": "esnext",

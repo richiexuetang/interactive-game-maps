@@ -24,6 +24,8 @@
     "graphql": "16.7.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@golevelup/ts-jest": "^0.5.6",
     "@nestjs/cli": "10.1.10",
     "@types/jest": "^29.5.13",
