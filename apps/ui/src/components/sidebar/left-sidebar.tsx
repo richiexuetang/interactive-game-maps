@@ -7,17 +7,17 @@ import * as L from "leaflet";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { getFontClassName } from "@/lib/ui/font";
+import { cn } from "@/lib/utils";
+import { useAuthStore } from "@/store";
+import { useMapStore } from "@/store/map";
+import { HideFoundToggle } from "./components/hide-found-toggle";
+import { LoginButton } from "./components/login-button";
 import { MapSwitcher } from "./components/map-switcher";
 import { MarkerSearch } from "./components/marker-search";
 import { RegionsGrid } from "./components/regions-grid";
 import { ShowHideButtons } from "./components/show-hide-buttons";
 import { SidebarClose } from "./components/sidebar-close";
-import { getFontClassName } from "@/lib/ui/font";
-import { cn } from "@/lib/utils";
-import { useMapStore } from "@/store/map";
-import { HideFoundToggle } from "./components/hide-found-toggle";
-import { useAuthStore } from "@/store";
-import { LoginButton } from "./components/login-button";
 
 interface MenuProps {
   map: L.Map | null;

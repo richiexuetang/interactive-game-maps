@@ -1,10 +1,10 @@
 import * as React from "react";
-import { NoteMarkers } from "./note-markers";
-import { MapMarker } from "../leaflet";
-import { TextMarker } from "../leaflet";
 import { getMarkerBounds, pointIsInBounds } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { NoteMarkers } from "./note-markers";
+import { MapMarker } from "../leaflet";
+import { TextMarker } from "../leaflet";
 
 /**
  * Handles rendering of markers (user note markers and game location markers)

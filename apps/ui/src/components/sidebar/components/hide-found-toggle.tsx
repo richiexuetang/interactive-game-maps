@@ -1,9 +1,9 @@
-import { TOGGLE_HIDE_FOUND } from "@/lib/graphql/constants";
-import { useAuthStore } from "@/store";
 import { useMutation } from "@apollo/client";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import Button from "@mui/material/Button";
+import { TOGGLE_HIDE_FOUND } from "@/lib/graphql/constants";
+import { useAuthStore } from "@/store";
 
 /**
  * Button to toggle the user's hide found setting

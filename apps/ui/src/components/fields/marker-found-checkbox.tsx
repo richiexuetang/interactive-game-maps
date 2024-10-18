@@ -1,9 +1,10 @@
+import Checkbox from "@mui/material/Checkbox";
+import * as React from "react";
 import {
   useAddFoundLocationMutation,
   useRemoveFoundLocationMutation,
 } from "@/generated/client-gql";
 import { useAuthStore } from "@/store";
-import Checkbox from "@mui/material/Checkbox";
 
 export const MarkerFoundCheckbox = ({ markerId }: { markerId: number }) => {
   const user = useAuthStore((state) => state.user);
@@ -35,6 +36,7 @@ export const MarkerFoundCheckbox = ({ markerId }: { markerId: number }) => {
 
   return (
     <Checkbox
+      disabled={!user}
       id={markerId.toString()}
       checked={markerFound}
       onChange={handleMarkerFound}

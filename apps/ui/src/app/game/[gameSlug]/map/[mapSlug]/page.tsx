@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import RitcherMap from "./map-page";
+import showdown from "showdown";
 import { getClient } from "@/lib/getClient";
 import { titleCase } from "@/lib/utils";
-import showdown from "showdown";
+import RitcherMap from "./map-page";
 
 export async function generateMetadata({
   params,

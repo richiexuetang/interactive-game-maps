@@ -7,18 +7,18 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardHeader from "@mui/material/CardHeader";
+import FormControlLabel from "@mui/material/FormControlLabel";
 import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
 import { useParams } from "next/navigation";
 import * as React from "react";
-import { MediaView } from "./media-view";
+import showdown from "showdown";
 import { Location } from "@/generated/graphql";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
-import showdown from "showdown";
+import { MediaView } from "./media-view";
 import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
 
 interface PopupCardProps {
   marker: Location;

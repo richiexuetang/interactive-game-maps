@@ -243,7 +243,7 @@ const config: Config = {
   },
   darkMode: ["class"],
   plugins: [
-    plugin(function ({ addBase, addUtilities }) {
+    plugin(function ({ addUtilities }) {
       // addBase({
       //   h1: { font: "var(--ritcher-font-h1)", letterSpacing: "-0.01562em" },
       //   h2: { font: "var(--ritcher-font-h2)", letterSpacing: "-0.00833em" },

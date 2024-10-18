@@ -3,10 +3,10 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 import React from "react";
-import LoaderProviders from "./loading";
 import { ApolloWrapper } from "@/components/apollo-wrapper";
 import AppRouterCacheProvider from "@/components/app-router";
 import theme from "@/lib/ui/theme";
+import LoaderProviders from "./loading";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {

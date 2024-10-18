@@ -1,6 +1,6 @@
 import { useParams } from "next/navigation";
-import { NoteMarker } from "./note-marker";
 import { useAuthStore } from "@/store";
+import { NoteMarker } from "./note-marker";
 
 export const NoteMarkers = () => {
   const user = useAuthStore((state) => state.user);

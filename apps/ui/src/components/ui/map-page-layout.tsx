@@ -3,11 +3,8 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Divider from "@mui/material/Divider";
-import IconButton from "@mui/material/IconButton";
-import Menu from "@mui/material/IconButton";
-import Image from "next/image";
-import Link from "next/link";
 import * as React from "react";
+import { useMapStore } from "@/store";
 import {
   Content,
   EdgeSidebar,
@@ -16,16 +13,12 @@ import {
   applyEdgeSidebarStyles,
   layoutClasses,
   toggleEdgeSidebarCollapse,
-  toggleTemporaryEdgeSidebar,
 } from "../layout";
-import { useMapStore } from "@/store";
 
 export const MapPageLayout = ({ children }: React.PropsWithChildren) => {
   const currentMap = useMapStore((state) => state.currentMap);
 
   if (!currentMap) return;
-
-  const { game, groups, locations, hiddenCategories } = currentMap;
 
   return (
     <Root>

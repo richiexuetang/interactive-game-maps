@@ -1,13 +1,8 @@
 "use client";
 
-import { useMutation } from "@apollo/client";
-import Checkbox from "@mui/material/Checkbox";
+import { Checkbox, FormControlLabel } from "@mui/material";
 import { DataGrid, GridRowsProp, GridColDef } from "@mui/x-data-grid";
 import * as React from "react";
-import {
-  ADD_TO_USER_FOUND,
-  REMOVE_FROM_USER_FOUND,
-} from "@/lib/graphql/constants";
 import { titleCase } from "@/lib/utils";
 import { useAuthStore } from "@/store";
 import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
@@ -15,29 +10,14 @@ import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
 interface ChecklistGridProps {
   locations: any;
 }
-
 export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   const user = useAuthStore((state) => state.user);
-  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
-  const [addFound] = useMutation(ADD_TO_USER_FOUND, {
-    onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
-  });
-  const [removeFound] = useMutation(REMOVE_FROM_USER_FOUND, {
-    onCompleted: (data) =>
-      setFoundMarkers(data.removeFoundLocation.foundMarkers),
-  });
+  const [hideFound, setHideFound] = React.useState(false);
 
+  const filteredLocations = locations.filter((location: any) =>
+    hideFound ? !found.map((m) => m.id).includes(location.id as number) : true
+  );
   if (!locations) return null;
-
-  const handleFoundChange = (id: number, found: boolean) => {
-    if (found) {
-      addFound({ variables: { data: { email: user?.email, location: id } } });
-    } else {
-      removeFound({
-        variables: { data: { email: user?.email, location: id } },
-      });
-    }
-  };
 
   const columns: GridColDef[] = [
     {
@@ -66,10 +46,12 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
     },
   ];
 
-  const rows: GridRowsProp = locations.map(
+  const found = user?.foundMarkers ?? [];
+
+  const rows: GridRowsProp = filteredLocations.map(
     ({ id, title, category, mapSlug, description }: any) => ({
       id,
-      found: user?.foundMarkers.map((m) => m.id).includes(id as number),
+      found: found.map((m) => m.id).includes(id as number),
       title,
       categoryId: category?.title,
       mapSlug: titleCase(mapSlug!.replaceAll("-", " ")),
@@ -79,7 +61,16 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
 
   return (
     <div className="w-full h-full">
-      <div className="m-10">
+      <div className="m-10 flex flex-col">
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={hideFound}
+              onChange={() => setHideFound((prev) => !prev)}
+            />
+          }
+          label="Hide Found Items"
+        />
         <DataGrid rows={rows} columns={columns} />
       </div>
     </div>

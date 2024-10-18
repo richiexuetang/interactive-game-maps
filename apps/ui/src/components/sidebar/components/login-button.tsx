@@ -1,6 +1,6 @@
+import LoginIcon from "@mui/icons-material/Login";
 import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
-import LoginIcon from "@mui/icons-material/Login";
 
 export const LoginButton = () => {
   const handleLogin = () => {

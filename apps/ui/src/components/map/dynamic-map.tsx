@@ -8,15 +8,15 @@ import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
 import { v4 as uuidv4 } from "uuid";
-import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
-import { RegionLayer } from "../layers/region";
-import { MarkersRenderer } from "../markers/markers-renderer";
-import { Menu, ProgressTracker } from "../sidebar";
 import { Category, MapDataQuery } from "@/generated/graphql";
 import { mapContainerOptions } from "@/lib/leaflet/map-container-options";
 import { cn, flatten } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { defaultState, useMapStore } from "@/store/map";
+import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
+import { RegionLayer } from "../layers/region";
+import { MarkersRenderer } from "../markers/markers-renderer";
+import { Menu, ProgressTracker } from "../sidebar";
 
 const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
   //#region Hooks

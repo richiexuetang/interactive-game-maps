@@ -7,10 +7,10 @@ import {
   Tooltip,
   Marker as RLeafletMarker,
 } from "react-leaflet";
-import { PopupCard } from "../cards/popup-card";
 import { Location } from "@/generated/graphql";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { PopupCard } from "../cards/popup-card";
 
 export const Marker = ({ markerId }: { markerId: number }) => {
   const map = useMap();

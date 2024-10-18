@@ -28,7 +28,6 @@ export const ProgressTracker = () => {
   const currentMap = useMapStore((state) => state.currentMap);
   const user = useAuthStore((state) => state.user);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
-  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
   const removeUser = useAuthStore((state) => state.removeUser);
   //#endregion
 
@@ -38,7 +37,6 @@ export const ProgressTracker = () => {
 
   const { groups, locations, gameSlug } = currentMap;
   const foundMarkers = user?.foundMarkers;
-  const email = user?.email;
 
   //#region Helper Functions
   const getCategoryInfoById = (categoryId: number) =>

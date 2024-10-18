@@ -58,6 +58,7 @@ export interface ProgressBarProps {
   nonce?: string;
   memo?: boolean;
   shouldCompareComplexProps?: boolean;
+  // eslint-disable-next-line no-unused-vars
   targetPreprocessor?: (url: URL) => URL;
   disableAnchorClick?: boolean;
 }

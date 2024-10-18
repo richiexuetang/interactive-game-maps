@@ -1,7 +1,7 @@
 "use client";
 import { Box, Button, Typography } from "@mui/material";
-import { useAuthStore } from "@/store";
 import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/store";
 
 export const AccountPage = () => {
   const user = useAuthStore((state) => state.user);

@@ -1,5 +1,6 @@
 "use client";
 
+import * as React from "react";
 import { ProgressBar } from "@/components/progress-bar";
 
 const Providers = ({ children }: { children: React.ReactNode }) => {

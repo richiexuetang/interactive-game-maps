@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import { Map } from "@/generated/graphql";
-import type { Location } from "@/generated/client-gql";
 
 interface NoteMarker {
   id: string | number;

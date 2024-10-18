@@ -10,12 +10,12 @@ import Grid from "@mui/material/Grid2";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
-import { GamesQuery } from "@/generated/graphql";
-import { useAuthStore } from "@/store";
 import {
   useAddFavoriteMutation,
   useRemoveFavoriteMutation,
 } from "@/generated/client-gql";
+import { GamesQuery } from "@/generated/graphql";
+import { useAuthStore } from "@/store";
 
 export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
