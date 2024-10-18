@@ -1,6 +1,5 @@
 "use client";
 
-import { useMutation } from "@apollo/client";
 import StarIcon from "@mui/icons-material/Star";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import Card from "@mui/material/Card";
@@ -12,8 +11,11 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import { GamesQuery } from "@/generated/graphql";
-import { ADD_FAVORITE, REMOVE_FAVORITE } from "@/lib/graphql/constants";
 import { useAuthStore } from "@/store";
+import {
+  useAddFavoriteMutation,
+  useRemoveFavoriteMutation,
+} from "@/generated/client-gql";
 
 export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
@@ -21,14 +23,14 @@ export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const setFavorites = useAuthStore((state) => state.setFavorites);
 
   //#region graphql
-  const [addFavorite] = useMutation(ADD_FAVORITE, {
-    variables: { data: { email: user?.email, gameSlug: game.slug } },
-    onCompleted: (data) => setFavorites(data.addFavorite.favoriteMaps),
+  const [addFavorite] = useAddFavoriteMutation({
+    variables: { data: { email: user?.email ?? "", gameSlug: game.slug } },
+    onCompleted: (data) => setFavorites(data.addFavorite.favoriteMaps ?? []),
   });
 
-  const [removeFavorite] = useMutation(REMOVE_FAVORITE, {
-    variables: { data: { email: user?.email, gameSlug: game.slug } },
-    onCompleted: (data) => setFavorites(data.removeFavorite.favoriteMaps),
+  const [removeFavorite] = useRemoveFavoriteMutation({
+    variables: { data: { email: user?.email ?? "", gameSlug: game.slug } },
+    onCompleted: (data) => setFavorites(data.removeFavorite.favoriteMaps ?? []),
   });
   //#endregion
 

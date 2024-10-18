@@ -5,7 +5,7 @@ const theme = createTheme({
   cssVariables: { cssVarPrefix: "ritcher" },
   palette: { mode: "dark", text: { primary: "#fff" } },
   typography: {
-    fontFamily: "var(--body-font-family)",
+    fontFamily: "var(--ritcher-typography-font-family)",
     button: {
       textTransform: "none",
     },
@@ -14,6 +14,26 @@ const theme = createTheme({
     },
     h6: {
       fontFamily: "var(--ritcher-typography-font-family)",
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: "none",
+          fontFamily: "var(--ritcher-typography-font-family)",
+        },
+      },
+    },
+    MuiFab: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "var(--ritcher-palette-background-default)",
+          ":hover": {
+            backgroundColor: "var(--accent-color)",
+          },
+        },
+      },
     },
   },
 });

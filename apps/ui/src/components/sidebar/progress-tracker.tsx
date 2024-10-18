@@ -1,58 +1,38 @@
-import { useMutation } from "@apollo/client";
 import ChecklistIcon from "@mui/icons-material/Checklist";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import NavigationIcon from "@mui/icons-material/Navigation";
-import VisibilityIcon from "@mui/icons-material/Visibility";
-import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Checkbox from "@mui/material/Checkbox";
 import Divider from "@mui/material/Divider";
 import Fab from "@mui/material/Fab";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
 import { useRouter } from "next/navigation";
 import React from "react";
-import {
-  ADD_TO_USER_FOUND,
-  REMOVE_FROM_USER_FOUND,
-  TOGGLE_HIDE_FOUND,
-} from "@/lib/graphql/constants";
 import { getBodyFont } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
 
 export const ProgressTracker = () => {
   //#region Hooks
   const router = useRouter();
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-  const open = Boolean(anchorEl);
+
+  // zustand
   const currentMap = useMapStore((state) => state.currentMap);
+  const user = useAuthStore((state) => state.user);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
-  const user = useAuthStore((state) => state.user);
-
-  const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND, {
-    onCompleted: (data) =>
-      setUser({ ...user!, hideFound: data.toggleHideFoundSetting.hideFound }),
-  });
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
-    onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
-  });
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND, {
-    onCompleted: (data) =>
-      setFoundMarkers(data.removeFoundLocation.foundMarkers),
-  });
   const removeUser = useAuthStore((state) => state.removeUser);
-  const setUser = useAuthStore((state) => state.setUser);
-
   //#endregion
+
+  const open = Boolean(anchorEl);
 
   if (!currentMap) return null;
 
@@ -78,27 +58,6 @@ export const ProgressTracker = () => {
   const totalForCategory = (id: number) =>
     currentMap?.locations?.filter((marker) => marker.categoryId === id).length;
   //#endregion
-
-  const handleMarkerFound = (markerId: number) => {
-    if (email) {
-      const data = {
-        variables: { data: { email, location: markerId } },
-      };
-      if (foundMarkers?.map(({ id }) => id).includes(markerId)) {
-        removeLocation(data);
-      } else {
-        addLocation(data);
-      }
-    }
-  };
-
-  const toggleHideFound = () => {
-    if (!user) return;
-
-    toggleUserHideFound({
-      variables: { data: { email, hide: !user.hideFound } },
-    });
-  };
 
   const signOutUser = () => {
     removeUser();
@@ -130,33 +89,12 @@ export const ProgressTracker = () => {
           "aria-labelledby": "progress-tracker-button",
         }}
       >
-        <Typography
-          variant="h6"
-          sx={{
-            p: 1,
-            my: 2,
-            textTransform: "uppercase",
-            textAlign: "center",
-            wordSpacing: "0.2rem",
-          }}
-        >
-          Progress Tracker
-        </Typography>
+        <h6 className="p-1 my-2 uppercase text-center">Progress Tracker</h6>
 
-        <Divider sx={{ mb: 2 }} />
+        <Divider />
 
         {user ? (
           <Box display="flex" flexDirection="column">
-            <Button
-              variant="text"
-              sx={{ color: "var(--accent-color)" }}
-              startIcon={
-                user?.hideFound ? <VisibilityIcon /> : <VisibilityOffIcon />
-              }
-              onClick={toggleHideFound}
-            >
-              {user?.hideFound ? "Show Found" : "Hide Found"}
-            </Button>
             <Button onClick={signOutUser}>Log out</Button>
             {groups?.map(({ categories }: any) =>
               categories?.map(({ id, icon }: any) => {
@@ -186,15 +124,7 @@ export const ProgressTracker = () => {
                                 alignItems: "center",
                               }}
                             >
-                              <Checkbox
-                                checked={
-                                  user?.foundMarkers
-                                    ?.map((m) => m.id)
-                                    .includes(markerId) ?? false
-                                }
-                                size="small"
-                                onChange={() => handleMarkerFound(markerId)}
-                              />
+                              <MarkerFoundCheckbox markerId={markerId} />
                               <span className="items-center text-xs">
                                 {title}
                               </span>

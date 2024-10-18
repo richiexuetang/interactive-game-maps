@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import { Location, Map } from "@/generated/graphql";
+import { Map } from "@/generated/graphql";
+import type { Location } from "@/generated/client-gql";
 
 interface NoteMarker {
   id: string | number;
@@ -19,10 +20,10 @@ export interface UserDef {
   username: string;
   picture: string;
   updatedAt: string;
-  foundMarkers: Location[];
+  foundMarkers: Array<{ __typename?: "Location"; id: number }>;
   noteMarkers: NoteMarker[];
   hideFound: boolean;
-  favoriteMaps: Map[];
+  favoriteMaps: Array<{ __typename?: "Map"; slug: string }>;
 }
 
 export interface AuthStateDef {
@@ -31,8 +32,10 @@ export interface AuthStateDef {
   removeUser: () => void;
   addNote: (note: NoteMarker) => void;
   setNotes: (notes: NoteMarker[]) => void;
-  setFavorites: (map: Map[]) => void;
-  setFoundMarkers: (locations: Location[]) => void;
+  setFavorites: (map: Array<{ __typename?: "Map"; slug: string }>) => void;
+  setFoundMarkers: (
+    locations: Array<{ __typename?: "Location"; id: number }>
+  ) => void;
 }
 
 export const useAuthStore = create(
@@ -58,7 +61,9 @@ export const useAuthStore = create(
           },
         }));
       },
-      setFavorites: (favoriteMaps: Map[]) => {
+      setFavorites: (
+        favoriteMaps: Array<{ __typename?: "Map"; slug: string }>
+      ) => {
         set((state) => ({
           user: {
             ...state.user!,
@@ -66,7 +71,9 @@ export const useAuthStore = create(
           },
         }));
       },
-      setFoundMarkers: (foundMarkers: Location[]) => {
+      setFoundMarkers: (
+        foundMarkers: Array<{ __typename?: "Location"; id: number }>
+      ) => {
         set((state) => ({
           user: {
             ...state.user!,

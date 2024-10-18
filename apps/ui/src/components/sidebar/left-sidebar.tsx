@@ -15,6 +15,9 @@ import { SidebarClose } from "./components/sidebar-close";
 import { getFontClassName } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 import { useMapStore } from "@/store/map";
+import { HideFoundToggle } from "./components/hide-found-toggle";
+import { useAuthStore } from "@/store";
+import { LoginButton } from "./components/login-button";
 
 interface MenuProps {
   map: L.Map | null;
@@ -27,6 +30,7 @@ export const Menu = ({ map }: MenuProps) => {
   const currentMap = useMapStore((state) => state.currentMap);
   const setMap = useMapStore((state) => state.setCurrentMap);
   const hidden = currentMap?.hiddenCategories ?? [];
+  const user = useAuthStore((state) => state.user);
   //#endregion
 
   if (!currentMap) return;
@@ -113,6 +117,10 @@ export const Menu = ({ map }: MenuProps) => {
           <Divider orientation="horizontal" flexItem />
 
           <ShowHideButtons />
+
+          <Divider orientation="horizontal" flexItem />
+
+          {user ? <HideFoundToggle /> : <LoginButton />}
 
           <Divider orientation="horizontal" flexItem />
 

@@ -224,6 +224,7 @@ export type Query = {
   game: Game;
   games: Array<Game>;
   mapData: Map;
+  me: User;
 };
 
 
@@ -284,11 +285,6 @@ export type RemoveNoteInput = {
   id: Scalars['Float']['input'];
 };
 
-export type Subscription = {
-  __typename?: 'Subscription';
-  noteMarkerAdded: NoteMarker;
-};
-
 export type UpdateFoundLocationInput = {
   email: Scalars['String']['input'];
   location: Scalars['Float']['input'];
@@ -319,7 +315,6 @@ export type User = {
   noteMarkers?: Maybe<Array<NoteMarker>>;
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
-  user: User;
   username?: Maybe<Scalars['String']['output']>;
 };
 

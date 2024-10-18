@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Map from "@/components/map/map";
+import RitcherMap from "./map-page";
 import { getClient } from "@/lib/getClient";
 import { titleCase } from "@/lib/utils";
 import showdown from "showdown";
@@ -66,5 +66,5 @@ export default async function MapPage({
 
   if (!mapData) return null;
 
-  return <Map data={{ ...mapData, locations: processedLocations }} />;
+  return <RitcherMap data={{ ...mapData, locations: processedLocations }} />;
 }

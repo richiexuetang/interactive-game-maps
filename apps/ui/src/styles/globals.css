@@ -1352,6 +1352,7 @@
   --ritcher-palette-text-primary: #f8f6e0;
   --ritcher-palette-background-default: #231d1b;
   --ritcher-palette-background-paper: #231d1b;
+  --ritcher-typography-font-family: "Open Sans", sans-serif, "sans-serif";
 }
 
 .god-of-war-ragnarok {
@@ -1377,6 +1378,7 @@
   --ritcher-palette-text-primary: #e9f3f9;
   --ritcher-palette-background-default: #1d1d21;
   --ritcher-palette-background-paper: #1d1d21;
+  --ritcher-typography-font-family: "gill-sans-nova";
 }
 
 .witcher-3 {
@@ -1399,6 +1401,7 @@
   --ritcher-palette-text-primary: #af894d;
   --ritcher-palette-background-default: #040404;
   --ritcher-palette-background-paper: #040404;
+  --ritcher-typography-font-family: "din-condensed";
 }
 
 .elden-ring {
@@ -1421,6 +1424,7 @@
   --ritcher-palette-text-primary: #e4e4e5;
   --ritcher-palette-background-default: #232423;
   --ritcher-palette-background-paper: #232423;
+  --ritcher-typography-font-family: "Noto Sans";
 }
 
 .black-myth-wukong {
@@ -1443,6 +1447,7 @@
   --ritcher-palette-text-primary: #deddda;
   --ritcher-palette-background-default: #090708;
   --ritcher-palette-background-paper: #090708;
+  --ritcher-typography-font-family: "CrimsonPro";
 }
 
 .hogwarts-legacy {
@@ -1466,6 +1471,7 @@
   --ritcher-palette-text-primary: #f8fbfc;
   --ritcher-palette-background-default: #2d3038;
   --ritcher-palette-background-paper: #2d3038;
+  --ritcher-typography-font-family: "Hybrid";
 }
 
 .MuiAccordionSummary-content {

@@ -15,8 +15,6 @@ const config: Config = {
       colors: {
         bodyBackground: "var(--body-background)",
         mapBackground: "var(--map-background)",
-        // text: "var(--text-color)",
-        // background: "var(--app-background)",
         foreground: "hsl(var(--foreground))",
         sidebarBackground: "var(--sidebar-background-color)",
         titleFont: "var(--title-font-color)",
@@ -163,14 +161,6 @@ const config: Config = {
         Skeleton: {
           bg: "var(--ritcher-palette-Skeleton-bg)",
         },
-        Slider: {
-          primaryTrack: "var(--ritcher-palette-Slider-primaryTrack)",
-          secondaryTrack: "var(--ritcher-palette-Slider-secondaryTrack)",
-          errorTrack: "var(--ritcher-palette-Slider-errorTrack)",
-          infoTrack: "var(--ritcher-palette-Slider-infoTrack)",
-          successTrack: "var(--ritcher-palette-Slider-successTrack)",
-          warningTrack: "var(--ritcher-palette-Slider-warningTrack)",
-        },
         SnackbarContent: {
           bg: "var(--ritcher-palette-SnackbarContent-bg)",
           color: "var(--ritcher-palette-SnackbarContent-color)",
@@ -254,31 +244,20 @@ const config: Config = {
   darkMode: ["class"],
   plugins: [
     plugin(function ({ addBase, addUtilities }) {
-      addBase({
-        h1: { font: "var(--ritcher-font-h1)", letterSpacing: "-0.01562em" },
-        h2: { font: "var(--ritcher-font-h2)", letterSpacing: "-0.00833em" },
-        h3: {
-          font: "var(--ritcher-font-h3)",
-          color: "var(--ritcher-palette-text-primary)",
-        },
-        h4: { font: "var(--ritcher-font-h4)", letterSpacing: "0.00735em" },
-        h5: { font: "var(--ritcher-font-h5)" },
-        h6: {
-          font: "var(--ritcher-font-h6)",
-          letterSpacing: "0.0075em",
-        },
-        p: {
-          font: "var(--ritcher-font-body1) !important",
-          letterSpacing: "0.00938em",
-          color: "var(--ritcher-palette-text-primary)",
-          fontFamily: "var(--body-font-family)",
-        },
-        span: {
-          font: "var(--ritcher-font-body2)",
-          letterSpacing: "0.01071em",
-          fontFamily: "var(--body-font-family)",
-        },
-      });
+      // addBase({
+      //   h1: { font: "var(--ritcher-font-h1)", letterSpacing: "-0.01562em" },
+      //   h2: { font: "var(--ritcher-font-h2)", letterSpacing: "-0.00833em" },
+      //   h3: { font: "var(--ritcher-font-h3)" },
+      //   h4: { font: "var(--ritcher-font-h4)", letterSpacing: "0.00735em" },
+      //   h5: { font: "var(--ritcher-font-h5)" },
+      //   h6: {
+      //     font: "var(--ritcher-font-h6)",
+      //     letterSpacing: "0.0075em",
+      //     fontFamily: "var(--ritcher-typography-font-family)",
+      //   },
+      //   p: { font: "var(--ritcher-font-body1)", letterSpacing: "0.00938em" },
+      //   span: { font: "var(--ritcher-font-body2)", letterSpacing: "0.01071em" },
+      // });
       addUtilities({
         ".typography-h1": { font: "var(--ritcher-font-h1)" },
         ".typography-h2": { font: "var(--ritcher-font-h2)" },

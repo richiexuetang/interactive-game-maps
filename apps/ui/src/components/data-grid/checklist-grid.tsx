@@ -10,6 +10,7 @@ import {
 } from "@/lib/graphql/constants";
 import { titleCase } from "@/lib/utils";
 import { useAuthStore } from "@/store";
+import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
 
 interface ChecklistGridProps {
   locations: any;
@@ -45,15 +46,7 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
       display: "flex",
       renderCell: (params) => {
         return (
-          <Checkbox
-            checked={user?.foundMarkers
-              .map((m) => m.id)
-              .includes(params.id as number)}
-            disabled={!user}
-            onChange={(e) =>
-              handleFoundChange(params.id as number, e.target.checked)
-            }
-          />
+          <MarkerFoundCheckbox markerId={parseInt(params.id.toString())} />
         );
       },
       editable: true,

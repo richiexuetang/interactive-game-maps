@@ -1,4 +1,3 @@
-import { useMutation } from "@apollo/client";
 import LinkIcon from "@mui/icons-material/Link";
 import LoginIcon from "@mui/icons-material/Login";
 import { Typography } from "@mui/material";
@@ -8,8 +7,6 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardHeader from "@mui/material/CardHeader";
-import Checkbox from "@mui/material/Checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
 import { useParams } from "next/navigation";
@@ -17,13 +14,11 @@ import * as React from "react";
 import { MediaView } from "./media-view";
 import { Location } from "@/generated/graphql";
 import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
-import {
-  ADD_TO_USER_FOUND,
-  REMOVE_FROM_USER_FOUND,
-} from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import showdown from "showdown";
+import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
 
 interface PopupCardProps {
   marker: Location;
@@ -44,37 +39,16 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const params = useParams();
 
   const user = useAuthStore((state) => state.user);
-  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
   const [open, setOpen] = React.useState(false);
   const copy = useClipboardCopyFn();
-  const [addLocation] = useMutation(ADD_TO_USER_FOUND, {
-    variables: { data: { email: user?.email, location: id } },
-    onCompleted: (data) => setFoundMarkers(data.addFoundLocation.foundMarkers),
-  });
-  const [removeLocation] = useMutation(REMOVE_FROM_USER_FOUND, {
-    variables: { data: { email: user?.email, location: id } },
-    onCompleted: (data) =>
-      setFoundMarkers(data.removeFoundLocation.foundMarkers),
-  });
   //#endregion
 
   const handleLogin = () => {
     window.location.href = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/auth/google`;
   };
 
-  const handleMarkerFound = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (!user) return;
-
-    if (e.target.checked) {
-      addLocation();
-    } else {
-      removeLocation();
-    }
-  };
-
   if (!category) return null;
   const { icon, info, title } = category;
-  const markerFound = user?.foundMarkers?.map((m) => m.id).includes(id);
 
   return (
     <Card sx={{ minWidth: 325 }}>
@@ -142,9 +116,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
       <CardActions sx={{ justifyContent: "center" }}>
         {user?.email ? (
           <FormControlLabel
-            control={
-              <Checkbox checked={markerFound} onChange={handleMarkerFound} />
-            }
+            control={<MarkerFoundCheckbox markerId={id} />}
             label="Found"
           />
         ) : (

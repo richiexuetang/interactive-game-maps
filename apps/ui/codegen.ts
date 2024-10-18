@@ -16,6 +16,13 @@ const config: CodegenConfig = {
         isReactHook: false,
       },
     },
+    "src/generated/client-gql.tsx": {
+      plugins: [
+        "typescript",
+        "typescript-operations",
+        "typescript-react-apollo",
+      ],
+    },
   },
   hooks: {
     // Codegen does not always regenerate new files unless files do not exist.

@@ -13,7 +13,7 @@ export interface MapProps {
 const RitcherMap = ({ data }: MapProps) => {
   const Map = useMemo(
     () =>
-      dynamic(() => import("./dynamic-map"), {
+      dynamic(() => import("@/components/map/dynamic-map"), {
         ssr: false,
       }),
     []
