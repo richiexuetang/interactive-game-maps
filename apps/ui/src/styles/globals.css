@@ -1343,7 +1343,15 @@
   --text-font-family: 'Hylia';
   --body-font-family: "Open Sans", sans-serif, "sans-serif";
   --ritcher-font-body1: "Open Sans", sans-serif, "sans-serif";
+  --ritcher-font-body2: "Open Sans", sans-serif, "sans-serif" !important;
   --body-background: var(--sidebar-background-color);
+
+  --ritcher-palette-primary-main: #cab586;
+  --ritcher-palette-secondary-main: #a99862;
+  --ritcher-palette-divider: #cab586;
+  --ritcher-palette-text-primary: #f8f6e0;
+  --ritcher-palette-background-default: #231d1b;
+  --ritcher-palette-background-paper: #231d1b;
 }
 
 .god-of-war-ragnarok {
@@ -1358,7 +1366,17 @@
   --text-font-family: 'Berserker';
   --body-font-family: "gill-sans-nova";
   --ritcher-font-body1: "gill-sans-nova";
+  --ritcher-font-body2: "gill-sans-nova" !important;
   --body-background: var(--sidebar-background-color);
+  --ritcher-palette-grey-A100: #464545;
+  --ritcher-palette-grey-300: #212121;
+
+  --ritcher-palette-primary-main: #3372ff;
+  --ritcher-palette-secondary-main: #a99862;
+  --ritcher-palette-divider: #3372ff;
+  --ritcher-palette-text-primary: #e9f3f9;
+  --ritcher-palette-background-default: #1d1d21;
+  --ritcher-palette-background-paper: #1d1d21;
 }
 
 .witcher-3 {
@@ -1374,6 +1392,13 @@
   --body-font-family: "din-condensed";
   --ritcher-font-body1: "din-condensed";
   --body-background: var(--sidebar-background-color);
+
+  --ritcher-palette-primary-main: #d1c68f;
+  --ritcher-palette-secondary-main: #d1c68f;
+  --ritcher-palette-divider: #d1c68f;
+  --ritcher-palette-text-primary: #af894d;
+  --ritcher-palette-background-default: #040404;
+  --ritcher-palette-background-paper: #040404;
 }
 
 .elden-ring {
@@ -1389,6 +1414,13 @@
   --body-font-family: "Noto Sans";
   --ritcher-font-body1: "Noto Sans";
   --body-background: var(--sidebar-background-color);
+
+  --ritcher-palette-divider: #c3b590;
+  --ritcher-palette-primary-main: #c3b590;
+  --ritcher-palette-secondary-main: #c3b590;
+  --ritcher-palette-text-primary: #e4e4e5;
+  --ritcher-palette-background-default: #232423;
+  --ritcher-palette-background-paper: #232423;
 }
 
 .black-myth-wukong {
@@ -1404,6 +1436,13 @@
   --body-font-family: "CrimsonPro";
   --ritcher-font-body1: "CrimsonPro";
   --body-background: var(--sidebar-background-color);
+
+  --ritcher-palette-divider: #757259;
+  --ritcher-palette-primary-main: #757259;
+  --ritcher-palette-secondary-main: #d3c0a3;
+  --ritcher-palette-text-primary: #deddda;
+  --ritcher-palette-background-default: #090708;
+  --ritcher-palette-background-paper: #090708;
 }
 
 .hogwarts-legacy {
@@ -1418,7 +1457,15 @@
   --text-font-family: 'OptiCollumna-Solid';
   --body-font-family: "Hybrid";
   --ritcher-font-body1: "Hybrid";
+  --ritcher-font-body2: "Hybrid";
   --body-background: #0d181b;
+
+  --ritcher-palette-divider: #a99862;
+  --ritcher-palette-secondary-main: #a99862;
+  --ritcher-palette-primary-main: #a99862;
+  --ritcher-palette-text-primary: #f8fbfc;
+  --ritcher-palette-background-default: #2d3038;
+  --ritcher-palette-background-paper: #2d3038;
 }
 
 .MuiAccordionSummary-content {

@@ -23,6 +23,7 @@ import {
 } from "@/lib/graphql/constants";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
+import showdown from "showdown";
 
 interface PopupCardProps {
   marker: Location;
@@ -36,6 +37,8 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
     media = [],
     description = "",
   } = marker;
+
+  const converter = new showdown.Converter();
 
   //#region Hooks
   const params = useParams();
@@ -88,7 +91,9 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
               alignItems: "center",
             }}
           >
-            <Typography variant="h3">{markerTitle}</Typography>
+            <Typography variant="body1" sx={{ whiteSpace: "nowrap" }}>
+              {markerTitle}
+            </Typography>
             <Tooltip title={open ? "Link Copied" : "Copy link"}>
               <IconButton sx={{ ml: 2 }}>
                 <LinkIcon
@@ -129,7 +134,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
           <CardContent sx={{ p: "0 !important", color: "var(--text-color)" }}>
             <div
               className="text-xs mt-7 italic"
-              dangerouslySetInnerHTML={{ __html: info }}
+              dangerouslySetInnerHTML={{ __html: converter.makeHtml(info) }}
             />
           </CardContent>
         )}

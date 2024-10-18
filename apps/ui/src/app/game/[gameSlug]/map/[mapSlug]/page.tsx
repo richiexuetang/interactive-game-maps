@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Map from "@/components/map/map";
 import { getClient } from "@/lib/getClient";
-import { fetchGameMapDetails } from "@/lib/graphql/api";
 import { titleCase } from "@/lib/utils";
+import showdown from "showdown";
 
 export async function generateMetadata({
   params,
@@ -48,8 +48,23 @@ export default async function MapPage({
 }: {
   params: { mapSlug: string };
 }) {
-  const mapData = await fetchGameMapDetails(params?.mapSlug);
+  const sdk = getClient();
+  const { mapData } = await sdk.MapData({ slug: params.mapSlug });
+
+  const processedLocations = [];
+  const locations = mapData.locations;
+
+  if (!locations) return mapData;
+
+  const converter = new showdown.Converter();
+  for (let i = 0; i < locations.length; i++) {
+    const curr = locations[i];
+    const processedDesc = converter.makeHtml(curr?.description ?? "");
+    const location = { ...curr, description: processedDesc.toString() };
+    processedLocations.push(location);
+  }
+
   if (!mapData) return null;
 
-  return <Map data={mapData} />;
+  return <Map data={{ ...mapData, locations: processedLocations }} />;
 }

@@ -30,6 +30,7 @@ const config: Config = {
           foreground: "hsl(var(--destructive-foreground))",
         },
         primary: {
+          main: "var(--ritcher-palette-primary-main)",
           DEFAULT: "rgb(var(--ritcher-palette-primary-mainChannel))",
           light: "rgb(var(--ritcher-palette-primary-lightChannel))",
           dark: "rgb(var(--ritcher-palette-primary-darkChannel))",
@@ -37,6 +38,7 @@ const config: Config = {
             "rgb(var(--ritcher-palette-primary-contrastTextChannel))",
         },
         secondary: {
+          main: "var(--ritcher-palette-secondary-main)",
           DEFAULT: "rgb(var(--ritcher-palette-secondary-mainChannel))",
           light: "rgb(var(--ritcher-palette-secondary-lightChannel))",
           dark: "rgb(var(--ritcher-palette-secondary-darkChannel))",
@@ -261,13 +263,21 @@ const config: Config = {
         },
         h4: { font: "var(--ritcher-font-h4)", letterSpacing: "0.00735em" },
         h5: { font: "var(--ritcher-font-h5)" },
-        h6: { font: "var(--ritcher-font-h6)", letterSpacing: "0.0075em" },
+        h6: {
+          font: "var(--ritcher-font-h6)",
+          letterSpacing: "0.0075em",
+        },
         p: {
           font: "var(--ritcher-font-body1) !important",
           letterSpacing: "0.00938em",
           color: "var(--ritcher-palette-text-primary)",
+          fontFamily: "var(--body-font-family)",
         },
-        span: { font: "var(--ritcher-font-body2)", letterSpacing: "0.01071em" },
+        span: {
+          font: "var(--ritcher-font-body2)",
+          letterSpacing: "0.01071em",
+          fontFamily: "var(--body-font-family)",
+        },
       });
       addUtilities({
         ".typography-h1": { font: "var(--ritcher-font-h1)" },

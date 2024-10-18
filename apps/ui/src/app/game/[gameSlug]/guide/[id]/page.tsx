@@ -1,8 +1,7 @@
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
-import { remark } from "remark";
-import html from "remark-html";
+import showdown from "showdown";
 import { ChecklistGrid } from "@/components/data-grid/checklist-grid";
 import { MainNav } from "@/components/main-nav";
 import { getClient } from "@/lib/getClient";
@@ -21,14 +20,16 @@ export default async function RegionPage({
 
   if (!locations) return null;
 
+  const converter = new showdown.Converter();
+
   const processedLocations = [];
   for (let i = 0; i < locations.length; i++) {
     const curr = locations[i];
-    const processedDesc = await remark()
-      .use(html)
-      .process(curr?.description ?? "");
-    const location = { ...curr, description: processedDesc.toString() };
-    processedLocations.push(location);
+
+    processedLocations.push({
+      ...curr,
+      description: converter.makeHtml(curr?.description ?? ""),
+    });
   }
 
   return (

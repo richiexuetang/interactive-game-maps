@@ -131,9 +131,10 @@ export const ProgressTracker = () => {
         }}
       >
         <Typography
-          variant="body1"
+          variant="h6"
           sx={{
             p: 1,
+            my: 2,
             textTransform: "uppercase",
             textAlign: "center",
             wordSpacing: "0.2rem",

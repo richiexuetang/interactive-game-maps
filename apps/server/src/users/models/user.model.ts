@@ -29,7 +29,7 @@ export class User {
   username?: string;
 
   @Field(() => [Location], { nullable: true })
-  foundMarkers?: number[] | null;
+  foundMarkers?: Location[] | null;
 
   @Field(() => Boolean)
   hideFound: boolean;
