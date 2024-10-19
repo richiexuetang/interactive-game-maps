@@ -1,17 +1,23 @@
 "use client";
 
-import { Checkbox, FormControlLabel } from "@mui/material";
+import { CheckBox } from "@mui/icons-material";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import {
   MaterialReactTable,
-  useMaterialReactTable,
+  MRT_ActionMenuItem,
   type MRT_ColumnDef,
 } from "material-react-table";
 import * as React from "react";
+import {
+  useAddFoundLocationMutation,
+  useRemoveFoundLocationMutation,
+} from "@/generated/client-gql";
 import { titleCase } from "@/lib/utils";
 import { useAuthStore } from "@/store";
 
-type Checklist = {
-  found: number;
+type ChecklistItem = {
+  id: number;
+  found: boolean;
   category: {
     title: string;
   };
@@ -19,22 +25,41 @@ type Checklist = {
   mapSlug: string;
   description: string;
 };
+
 interface ChecklistGridProps {
   locations: any;
 }
 export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   const user = useAuthStore((state) => state.user);
+  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
 
-  const cols = React.useMemo<MRT_ColumnDef<Checklist>[]>(
+  const [addLocation] = useAddFoundLocationMutation({
+    onCompleted: (data) =>
+      setFoundMarkers(
+        data.addFoundLocation.foundMarkers ?? user?.foundMarkers ?? []
+      ),
+  });
+  const [removeLocation] = useRemoveFoundLocationMutation({
+    onCompleted: (data) =>
+      setFoundMarkers(data.removeFoundLocation.foundMarkers ?? []),
+  });
+
+  const handleMarkerFound = (markerId: number) => {
+    if (!user) return;
+
+    if (!user.foundMarkers?.map((m) => m.id).includes(markerId)) {
+      addLocation({
+        variables: { data: { email: user?.email ?? "", location: markerId } },
+      });
+    } else {
+      removeLocation({
+        variables: { data: { email: user?.email ?? "", location: markerId } },
+      });
+    }
+  };
+
+  const cols = React.useMemo<MRT_ColumnDef<ChecklistItem>[]>(
     () => [
-      // {
-      //   accessorFn: (row) =>
-      //     user?.foundMarkers.map((m) => m.id).includes(row.found),
-      //   // accessorKey: "id",
-      //   header: "Found",
-      //   size: 150,
-      //   Cell: ({ renderedCellValue, row }) => <>{renderedCellValue}</>,
-      // },
       {
         accessorKey: "category.title",
         header: "Category",
@@ -68,15 +93,9 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
     []
   );
 
-  const [hideFound, setHideFound] = React.useState(false);
-
-  const filteredLocations = locations.filter((location: any) =>
-    hideFound ? !found.map((m) => m.id).includes(location.id as number) : true
-  );
-
   const found = user?.foundMarkers ?? [];
 
-  const data: Checklist[] = filteredLocations.map(
+  const data: ChecklistItem[] = locations.map(
     ({ id, title, category, mapSlug, description }: any) => ({
       id,
       found: found.map((m) => m.id).includes(id as number),
@@ -89,26 +108,27 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
     })
   )!;
 
-  const table = useMaterialReactTable({
-    columns: cols,
-    data,
-  });
-
   if (!locations) return null;
 
   return (
     <div className="w-full h-full">
       <div className="m-10 flex flex-col">
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={hideFound}
-              onChange={() => setHideFound((prev) => !prev)}
-            />
-          }
-          label="Hide Found Items"
+        <MaterialReactTable
+          columns={cols}
+          data={data}
+          enableRowActions
+          renderRowActionMenuItems={({ row, table }) => [
+            <MRT_ActionMenuItem
+              icon={
+                row.original.found ? <CheckBox /> : <CheckBoxOutlineBlankIcon />
+              }
+              key="found"
+              label="Found"
+              onClick={() => handleMarkerFound(row.original.id)}
+              table={table}
+            />,
+          ]}
         />
-        <MaterialReactTable table={table} />
       </div>
     </div>
   );
