@@ -140,7 +140,8 @@ query MapData($slug: String!) {
       }
     }
   }
-}`);
+}
+`);
 
 export const MapDetailsDocument = gql`
   query MapDetails($slug: String!) {

@@ -8,11 +8,9 @@ import { UpdateNoteInput } from "./dto/update-note.input";
 import { NoteMarker } from "./models/note-marker.model";
 import { AddFavoriteInput } from "./dto/add-favorite.input";
 import { PrismaService } from "../common/prisma.service";
-import { UserEntity } from "../auth/decorators/user.decorator";
+import { UserEntity } from "../common/decorators/user.decorator";
 import { GqlAuthGuard } from "../auth/guards/gql-auth.guard";
 import { UseGuards } from "@nestjs/common";
-import { Group } from "../common/models/markers/group.model";
-import { UserMapProgressInput } from "./dto/user-map-progress.input";
 
 @Resolver(() => User)
 @UseGuards(GqlAuthGuard)

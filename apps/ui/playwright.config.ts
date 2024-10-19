@@ -8,42 +8,28 @@ const baseURL = `http://localhost:${PORT}`;
 
 // Reference: https://playwright.dev/docs/test-configuration
 export default defineConfig({
-  // Timeout per test
+  // globalSetup: "./e2e/global-setup",
   timeout: 30 * 1000,
-  // Test directory
   testDir: "./src/app",
-  // If a test fails, retry it additional 2 times
   retries: 0,
-  // Artifacts folder where screenshots, videos, and traces are stored.
   outputDir: "test-results/",
-
-  // Run your local dev server before starting the tests:
-  // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
   webServer: {
     command: "pnpm dev",
     url: baseURL,
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
   },
-
   fullyParallel: true,
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: "list",
-
   use: {
-    // Use baseURL so to make navigations relative.
-    // More information: https://playwright.dev/docs/api/class-testoptions#test-options-base-url
     baseURL,
-
-    // Retry a test if its failing with enabled tracing. This allows you to analyze the DOM, console logs, network traffic etc.
-    // More information: https://playwright.dev/docs/trace-viewer
     trace: "retry-with-trace",
-
+    // storageState: "./e2e/storage-state.json",
     // All available context options: https://playwright.dev/docs/api/class-browser#browser-new-context
     // contextOptions: {
     //   ignoreHTTPSErrors: true,

@@ -24,6 +24,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
             fullWidth: "md",
           }),
           position: { xs: "sticky", md: "relative" },
+          backgroundColor: "#232528",
         }}
       >
         <AppHeader

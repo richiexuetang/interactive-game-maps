@@ -9,8 +9,8 @@ import { CookieOptions, Response } from "express";
 
 import { User } from "@prisma/client";
 
-import { GoogleUser } from "./interfaces/auth.interface";
 import { PrismaService } from "src/common/prisma.service";
+import { GoogleUserDto } from "./dto/google-user.dto";
 
 @Injectable()
 export class AuthService {
@@ -23,14 +23,8 @@ export class AuthService {
     return this.prismaService.user.findUnique({ where: { email } });
   }
 
-  validateToken(token: string) {
-    return this.jwtService.verify(token, {
-      secret: process.env.JWT_SECRET_KEY,
-    });
-  }
-
   async signInWithGoogle(
-    user: GoogleUser,
+    user: GoogleUserDto,
     res: Response
   ): Promise<{
     encodedUser: string;
@@ -60,7 +54,7 @@ export class AuthService {
     return user;
   }
 
-  private async registerGoogleUser(res: Response, user: GoogleUser) {
+  private async registerGoogleUser(res: Response, user: GoogleUserDto) {
     try {
       const fullName =
         !user.firstName && !user.lastName

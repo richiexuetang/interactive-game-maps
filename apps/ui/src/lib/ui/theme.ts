@@ -3,7 +3,9 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   cssVariables: { cssVarPrefix: "ritcher" },
-  palette: { mode: "dark", text: { primary: "#fff" } },
+  palette: {
+    mode: "dark",
+  },
   typography: {
     fontFamily: "var(--ritcher-typography-font-family)",
     button: {
