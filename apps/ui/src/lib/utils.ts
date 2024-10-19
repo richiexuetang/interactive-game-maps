@@ -36,3 +36,10 @@ export const pointIsInBounds = (point: number[], bounds: number[]) => {
     point[1] > bounds[3]
   );
 };
+
+// Generic helper function that can be used for the three operations:
+const operation = (list1: any[], list2: any[], isUnion = false) =>
+  list1.filter((a) => isUnion === list2.some((b) => a.slug === b.slug));
+
+export const inBoth = (list1: any[], list2: any[]) =>
+  operation(list1, list2, true);
