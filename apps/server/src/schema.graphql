@@ -55,6 +55,7 @@ type Game {
   groups: [Group!]
   id: Float!
   maps: [Map!]
+  releaseDate: DateTime
   slug: String!
   title: String!
 

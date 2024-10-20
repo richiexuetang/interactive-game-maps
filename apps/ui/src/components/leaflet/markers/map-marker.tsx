@@ -17,6 +17,7 @@ export const MapMarker = ({ markerId }: { markerId: number }) => {
 
   const { locations, highlightMarkerId, triggeredMarkerPopup } =
     useMapStore((state) => state.currentMap) ?? {};
+  const setTriggerPopup = useMapStore((state) => state.setTriggerPopup);
   const { foundMarkers } = useAuthStore((state) => state.user) ?? {};
   //#endregion
 
@@ -37,6 +38,7 @@ export const MapMarker = ({ markerId }: { markerId: number }) => {
     if (triggeredMarkerPopup === id) {
       map.setView([latitude, longitude]);
       markerRef?.current?.openPopup();
+      setTriggerPopup(null);
     }
   });
 

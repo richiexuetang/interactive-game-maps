@@ -50,6 +50,7 @@ model Game {
   maps           Map[]
   checklistGuide ChecklistGuide[]
   users          User[]
+  releaseDate    DateTime         @default(now())
 }
 
 model Map {

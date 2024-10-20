@@ -1,6 +1,7 @@
 export const hogwarts = {
   slug: "hogwarts-legacy",
   title: "Hogwarts Legacy",
+  releaseDate: new Date("2023-02-10"),
   maps: [
     {
       slug: "world",

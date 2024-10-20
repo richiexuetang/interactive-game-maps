@@ -1,6 +1,7 @@
 export const witcher3 = {
   slug: "witcher-3",
   title: "The Witcher 3: Wild Hunt",
+  releaseDate: new Date("2015-05-19"),
   maps: [
     {
       slug: "white-orchard",

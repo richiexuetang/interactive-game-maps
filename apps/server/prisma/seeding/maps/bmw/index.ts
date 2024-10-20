@@ -10,6 +10,7 @@ import { quests } from "./quests";
 export const bmw = {
   slug: "black-myth-wukong",
   title: "Black Myth: Wukong",
+  releaseDate: new Date("2024-08-19"),
   maps: [
     {
       slug: "chapter-1",

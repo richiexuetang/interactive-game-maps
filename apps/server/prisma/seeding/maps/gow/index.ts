@@ -3,6 +3,7 @@ import { locations } from "./locations";
 export const gow = {
   slug: "god-of-war-ragnarok",
   title: "God of War: Ragnarok",
+  releaseDate: new Date("2022-11-09"),
   maps: [
     {
       title: "Sindri's House",

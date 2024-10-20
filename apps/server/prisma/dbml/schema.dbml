@@ -38,6 +38,7 @@ Table Game {
   maps Map [not null]
   checklistGuide ChecklistGuide [not null]
   users User [not null]
+  releaseDate DateTime [default: `now()`, not null]
 }
 
 Table Map {

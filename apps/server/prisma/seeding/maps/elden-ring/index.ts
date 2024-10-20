@@ -10,6 +10,7 @@ import { other } from "./other";
 export const eldenRing = {
   slug: "elden-ring",
   title: "Elden Ring",
+  releaseDate: new Date("2022-02-25"),
   maps: [
     {
       slug: "the-lands-between",

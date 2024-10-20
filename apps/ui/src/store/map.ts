@@ -38,6 +38,7 @@ export interface CurrentMapStateDef {
   currentMap: CurrentMapDef | null;
   setCurrentMap(map: CurrentMapDef): void;
   setFocusedRegionId(regionId: string | null): void;
+  setTriggerPopup(markerId: number | null): void;
 }
 
 export const useMapStore = create<CurrentMapStateDef>()((set) => ({
@@ -48,6 +49,11 @@ export const useMapStore = create<CurrentMapStateDef>()((set) => ({
   setFocusedRegionId: (regionId: string | null) => {
     set((state) => ({
       currentMap: { ...state.currentMap!, focusedRegionId: regionId },
+    }));
+  },
+  setTriggerPopup: (markerId: number | null) => {
+    set((state) => ({
+      currentMap: { ...state.currentMap!, triggeredMarkerPopup: markerId },
     }));
   },
 }));
