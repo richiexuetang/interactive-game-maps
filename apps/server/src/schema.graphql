@@ -179,6 +179,7 @@ type Query {
   games: [Game!]!
   mapData(slug: String!): Map!
   me: User!
+  user(email: String!): User!
 }
 
 type Region {

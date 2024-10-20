@@ -18,7 +18,7 @@ export const AppHeader = ({
   trigger,
   ...props
 }: { trigger?: React.ReactNode } & BoxProps) => {
-  const user = useAuthStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const removeUser = useAuthStore((state) => state.removeUser);
@@ -94,7 +94,7 @@ export const AppHeader = ({
         />
       </Box>
 
-      {user ? (
+      {auth ? (
         <IconButton
           onClick={handleClick}
           aria-controls={open ? "account-menu" : undefined}
@@ -107,7 +107,7 @@ export const AppHeader = ({
               width: 32,
               height: 32,
             }}
-            src={user?.picture}
+            src={auth?.picture}
           />
         </IconButton>
       ) : (

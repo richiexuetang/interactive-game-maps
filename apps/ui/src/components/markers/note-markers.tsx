@@ -1,9 +1,9 @@
 import { useParams } from "next/navigation";
-import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 import { NoteMarker } from "./note-marker";
 
 export const NoteMarkers = () => {
-  const user = useAuthStore((state) => state.user);
+  const user = useUserStore((state) => state.user);
   const noteMarkers = user?.noteMarkers;
   const params = useParams<{ mapSlug: string }>();
 

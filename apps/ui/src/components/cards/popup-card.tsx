@@ -38,7 +38,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   //#region Hooks
   const params = useParams();
 
-  const user = useAuthStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
   const [open, setOpen] = React.useState(false);
   const copy = useClipboardCopyFn();
   //#endregion
@@ -114,7 +114,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
         )}
       </CardContent>
       <CardActions sx={{ justifyContent: "center" }}>
-        {user?.email ? (
+        {auth?.email ? (
           <FormControlLabel
             control={<MarkerFoundCheckbox markerId={id} />}
             label="Found"

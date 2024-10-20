@@ -47,7 +47,6 @@ export class AuthService {
   private async findUserByEmail(email: string) {
     const user = await this.prismaService.user.findFirst({
       where: { email },
-      include: { noteMarkers: true, foundMarkers: true, favoriteMaps: true },
     });
 
     if (!user) return null;

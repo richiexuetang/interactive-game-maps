@@ -5,27 +5,29 @@ import {
   useRemoveFoundLocationMutation,
 } from "@/generated/client-gql";
 import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 
 export const MarkerFoundCheckbox = ({ markerId }: { markerId: number }) => {
-  const user = useAuthStore((state) => state.user);
-  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
+  const auth = useAuthStore((state) => state.auth);
+  const user = useUserStore((state) => state.user);
+  const setFoundMarkers = useUserStore((state) => state.setFoundMarkers);
   const markerFound = user?.foundMarkers?.map((m) => m.id).includes(markerId);
 
   const [addLocation] = useAddFoundLocationMutation({
-    variables: { data: { email: user?.email ?? "", location: markerId } },
+    variables: { data: { email: auth?.email ?? "", location: markerId } },
     onCompleted: (data) =>
       setFoundMarkers(
         data.addFoundLocation.foundMarkers ?? user?.foundMarkers ?? []
       ),
   });
   const [removeLocation] = useRemoveFoundLocationMutation({
-    variables: { data: { email: user?.email ?? "", location: markerId } },
+    variables: { data: { email: auth?.email ?? "", location: markerId } },
     onCompleted: (data) =>
       setFoundMarkers(data.removeFoundLocation.foundMarkers ?? []),
   });
 
   const handleMarkerFound = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (!user) return;
+    if (!auth) return;
 
     if (e.target.checked) {
       addLocation();
@@ -36,7 +38,7 @@ export const MarkerFoundCheckbox = ({ markerId }: { markerId: number }) => {
 
   return (
     <Checkbox
-      disabled={!user}
+      disabled={!auth}
       id={markerId.toString()}
       checked={markerFound}
       onChange={handleMarkerFound}

@@ -47,10 +47,16 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
         <div className="bg-gray-900">
           <div className="max-w-2xl mx-auto text-white py-10">
             <div className="text-center">
-              <p> All day, every day. </p>
               <div className="flex justify-center my-5">
                 <div className="flex items-center border w-auto rounded-lg px-4 py-2 mx-2 cursor-pointer">
-                  <BmcIcon />
+                  <BmcIcon
+                    onClick={() =>
+                      window.open(
+                        "https://buymeacoffee.com/ritchermap",
+                        "_blank"
+                      )
+                    }
+                  />
                 </div>
               </div>
             </div>
@@ -59,9 +65,36 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
                 &copy; Ritcher Interactive Map, 2024.
               </p>
               <div className="order-1 md:order-2">
-                <span className="px-2">Github</span>
-                <span className="px-2 border-l">LinkedIn</span>
-                <span className="px-2 border-l">Donation</span>
+                <span
+                  className="px-2"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/richiexuetang/interactive-game-maps",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </span>
+                <span
+                  className="px-2 border-l"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/richardxuetang",
+                      "_blank"
+                    )
+                  }
+                >
+                  LinkedIn
+                </span>
+                <span
+                  className="px-2 border-l"
+                  onClick={() =>
+                    window.open("https://rebsite-eight.vercel.app", "_blank")
+                  }
+                >
+                  About me
+                </span>
               </div>
             </div>
           </div>

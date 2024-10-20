@@ -30,7 +30,7 @@ export const Menu = ({ map }: MenuProps) => {
   const currentMap = useMapStore((state) => state.currentMap);
   const setMap = useMapStore((state) => state.setCurrentMap);
   const hidden = currentMap?.hiddenCategories ?? [];
-  const user = useAuthStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
   //#endregion
 
   if (!currentMap) return;
@@ -120,7 +120,7 @@ export const Menu = ({ map }: MenuProps) => {
 
           <Divider orientation="horizontal" flexItem />
 
-          {user ? <HideFoundToggle /> : <LoginButton />}
+          {auth ? <HideFoundToggle /> : <LoginButton />}
 
           <Divider orientation="horizontal" flexItem />
 

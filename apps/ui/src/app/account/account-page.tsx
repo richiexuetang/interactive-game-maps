@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useAuthStore } from "@/store";
 
 export const AccountPage = () => {
-  const user = useAuthStore((state) => state.user);
+  const user = useAuthStore((state) => state.auth);
   const router = useRouter();
 
   if (!user) router.push("/");

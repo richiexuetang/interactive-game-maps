@@ -22,6 +22,15 @@ export class UsersResolver {
     return user;
   }
 
+  @Query(() => User)
+  async user(@Args("email") email: string) {
+    const user = await this.prisma.user.findUnique({
+      where: { email },
+      include: { foundMarkers: true, favoriteMaps: true, noteMarkers: true },
+    });
+    return user;
+  }
+
   @Mutation(() => NoteMarker)
   async addNoteMarker(@Args("data") data: AddNoteInput) {
     const { email, mapSlug, ...noteData } = data;

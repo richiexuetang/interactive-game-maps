@@ -4,6 +4,7 @@ import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import Button from "@mui/material/Button";
 import { TOGGLE_HIDE_FOUND } from "@/lib/graphql/constants";
 import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 
 /**
  * Button to toggle the user's hide found setting
@@ -11,8 +12,9 @@ import { useAuthStore } from "@/store";
  * @returns
  */
 export const HideFoundToggle = () => {
-  const user = useAuthStore((state) => state.user);
-  const setUser = useAuthStore((state) => state.setUser);
+  const auth = useAuthStore((state) => state.auth);
+  const user = useUserStore((state) => state.user);
+  const setUser = useUserStore((state) => state.setUser);
 
   const [toggleUserHideFound] = useMutation(TOGGLE_HIDE_FOUND, {
     onCompleted: (data) =>
@@ -20,10 +22,10 @@ export const HideFoundToggle = () => {
   });
 
   const toggleHideFound = () => {
-    if (!user) return;
+    if (!auth) return;
 
     toggleUserHideFound({
-      variables: { data: { email: user.email, hide: !user.hideFound } },
+      variables: { data: { email: auth.email, hide: !user.hideFound } },
     });
   };
 

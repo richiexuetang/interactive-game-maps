@@ -4,8 +4,8 @@ import { useEffect, useRef } from "react";
 import { Popup, useMap, Tooltip, Marker } from "react-leaflet";
 import { PopupCard } from "@/components/cards/popup-card";
 import { Location } from "@/generated/graphql";
-import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { useUserStore } from "@/store/user";
 
 export const MapMarker = ({ markerId }: { markerId: number }) => {
   //#region Hooks
@@ -18,7 +18,7 @@ export const MapMarker = ({ markerId }: { markerId: number }) => {
   const { locations, highlightMarkerId, triggeredMarkerPopup } =
     useMapStore((state) => state.currentMap) ?? {};
   const setTriggerPopup = useMapStore((state) => state.setTriggerPopup);
-  const { foundMarkers } = useAuthStore((state) => state.user) ?? {};
+  const { foundMarkers } = useUserStore((state) => state.user) ?? {};
   //#endregion
 
   const marker: Location = locations?.find(

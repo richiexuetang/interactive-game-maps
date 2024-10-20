@@ -8,7 +8,7 @@ import * as React from "react";
 import { GamesQuery } from "@/generated/graphql";
 import { useDebounceCallback } from "@/hooks/use-debounce-callback";
 import { inBoth } from "@/lib/utils";
-import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 
 interface GamePageToolbarProps {
   setGames: React.Dispatch<React.SetStateAction<GamesQuery["games"]>>;
@@ -21,7 +21,7 @@ export const GamePageToolbar = ({
   games,
   allGames,
 }: GamePageToolbarProps) => {
-  const user = useAuthStore((state) => state.user);
+  const user = useUserStore((state) => state.user);
   const [showFavorites, setShowFavorites] = React.useState(false);
   const debounced = useDebounceCallback(setGames, 500);
 

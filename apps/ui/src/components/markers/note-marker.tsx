@@ -1,4 +1,3 @@
-import { useMutation } from "@apollo/client";
 import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -13,15 +12,16 @@ import { useParams } from "next/navigation";
 import { useRef, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { Marker, Popup } from "react-leaflet";
-import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import {
-  ADD_USER_NOTE_MARKER,
-  REMOVE_USER_NOTE_MARKER,
-  UPDATE_USER_NOTE_MARKER,
-} from "@/lib/graphql/constants";
+  useAddNoteMarkerMutation,
+  useRemoveNoteMarkerMutation,
+  useUpdateNoteMarkerMutation,
+} from "@/generated/client-gql";
+import { useClipboardCopyFn } from "@/hooks/use-copy-to-clipboard";
 import { getBodyFont } from "@/lib/ui/font";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { useUserStore } from "@/store/user";
 
 interface NoteMarkerProps {
   latitude: number;
@@ -62,35 +62,27 @@ export const NoteMarker = ({
   const copy = useClipboardCopyFn();
 
   const currentMap = useMapStore((state) => state.currentMap);
-  const user = useAuthStore((state) => state.user);
-  const addNote = useAuthStore((state) => state.addNote);
-  const setNotes = useAuthStore((state) => state.setNotes);
+  const auth = useAuthStore((state) => state.auth);
+  const user = useUserStore((state) => state.user);
+  const addNote = useUserStore((state) => state.addNote);
+  const setNotes = useUserStore((state) => state.setNotes);
 
-  const [addNoteMarker] = useMutation(ADD_USER_NOTE_MARKER, {
-    variables: {
-      data: {
-        email: user?.email,
-        mapSlug: params.mapSlug,
-        title: getValues(`${position}-Title`),
-        description: getValues(`${position}-Description`),
-        ...coordinate,
-      },
-    },
+  const [addNoteMarker] = useAddNoteMarkerMutation({
     onCompleted: (data) => addNote(data.addNoteMarker),
   });
-  const [removeNoteMarker] = useMutation(REMOVE_USER_NOTE_MARKER, {
+  const [removeNoteMarker] = useRemoveNoteMarkerMutation({
     variables: {
       data: {
-        email: user?.email,
-        id,
+        email: auth?.email ?? "",
+        id: id as number,
       },
     },
     onCompleted: (data) => setNotes(data.removeNoteMarker.noteMarkers),
   });
-  const [updateNoteMarker] = useMutation(UPDATE_USER_NOTE_MARKER, {
+  const [updateNoteMarker] = useUpdateNoteMarkerMutation({
     variables: {
       data: {
-        id,
+        id: id as number,
         title: getValues(`${position}-Title`),
         description: getValues(`${position}-Description`),
         ...coordinate,
@@ -98,12 +90,11 @@ export const NoteMarker = ({
     },
     onCompleted: (data) =>
       setNotes([
-        ...noteMarkers.slice(0, position),
+        ...(user.noteMarkers?.slice(0, position) ?? []),
         data.updateNoteMarker,
-        ...noteMarkers.slice(position + 1),
+        ...(user.noteMarkers?.slice(position + 1) ?? []),
       ]),
   });
-  const noteMarkers = user?.noteMarkers ?? [];
   //#endregion
 
   const div = document.createElement("div");
@@ -125,7 +116,17 @@ export const NoteMarker = ({
         },
       });
     } else {
-      addNoteMarker();
+      addNoteMarker({
+        variables: {
+          data: {
+            email: auth?.email ?? "",
+            mapSlug: params.mapSlug,
+            title: getValues(`${position}-Title`),
+            description: getValues(`${position}-Description`),
+            ...coordinate,
+          },
+        },
+      });
     }
 
     setEditMode(false);
@@ -136,7 +137,9 @@ export const NoteMarker = ({
     if (typeof id === "number") {
       removeNoteMarker();
     } else {
-      setNotes(noteMarkers.filter(({ id: curId }) => curId !== id));
+      setNotes(
+        user.noteMarkers?.filter(({ id: curId }: any) => curId !== id) ?? []
+      );
     }
 
     setEditMode(false);

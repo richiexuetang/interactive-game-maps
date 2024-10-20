@@ -14,6 +14,7 @@ import {
 } from "@/generated/client-gql";
 import { titleCase } from "@/lib/utils";
 import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 
 type ChecklistItem = {
   id: number;
@@ -30,13 +31,15 @@ interface ChecklistGridProps {
   locations: any;
 }
 export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
-  const user = useAuthStore((state) => state.user);
-  const setFoundMarkers = useAuthStore((state) => state.setFoundMarkers);
+  const auth = useAuthStore((state) => state.auth);
+  const user = useUserStore((state) => state.user);
+
+  const setFoundMarkers = useUserStore((state) => state.setFoundMarkers);
 
   const [addLocation] = useAddFoundLocationMutation({
     onCompleted: (data) =>
       setFoundMarkers(
-        data.addFoundLocation.foundMarkers ?? user?.foundMarkers ?? []
+        data.addFoundLocation.foundMarkers ?? user.foundMarkers ?? []
       ),
   });
   const [removeLocation] = useRemoveFoundLocationMutation({
@@ -45,15 +48,15 @@ export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   });
 
   const handleMarkerFound = (markerId: number) => {
-    if (!user) return;
+    if (!auth) return;
 
     if (!user.foundMarkers?.map((m) => m.id).includes(markerId)) {
       addLocation({
-        variables: { data: { email: user?.email ?? "", location: markerId } },
+        variables: { data: { email: auth?.email ?? "", location: markerId } },
       });
     } else {
       removeLocation({
-        variables: { data: { email: user?.email ?? "", location: markerId } },
+        variables: { data: { email: auth?.email ?? "", location: markerId } },
       });
     }
   };

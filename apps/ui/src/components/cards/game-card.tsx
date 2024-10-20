@@ -16,27 +16,30 @@ import {
 } from "@/generated/client-gql";
 import { GamesQuery } from "@/generated/graphql";
 import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 
 export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
-  const user = useAuthStore((state) => state.user);
-  const setFavorites = useAuthStore((state) => state.setFavorites);
+  const user = useUserStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
+  const setFavorites = useUserStore((state) => state.setFavorites);
 
   //#region graphql
   const [addFavorite] = useAddFavoriteMutation({
-    variables: { data: { email: user?.email ?? "", gameSlug: game.slug } },
-    onCompleted: (data) => setFavorites(data.addFavorite.favoriteMaps ?? []),
+    variables: { data: { email: auth?.email ?? "", gameSlug: game.slug } },
+    onCompleted: (data) =>
+      setFavorites((data.addFavorite.favoriteMaps as any) ?? []),
   });
 
   const [removeFavorite] = useRemoveFavoriteMutation({
-    variables: { data: { email: user?.email ?? "", gameSlug: game.slug } },
+    variables: { data: { email: auth?.email ?? "", gameSlug: game.slug } },
     onCompleted: (data) => setFavorites(data.removeFavorite.favoriteMaps ?? []),
   });
   //#endregion
 
   const toggleFavorite = (e: any) => {
     e.preventDefault();
-    if (!user?.email) return;
+    if (!auth?.email) return;
 
     if (user.favoriteMaps?.some(({ slug }) => slug === game.slug)) {
       removeFavorite();

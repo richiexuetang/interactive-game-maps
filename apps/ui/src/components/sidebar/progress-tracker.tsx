@@ -17,6 +17,7 @@ import { getBodyFont } from "@/lib/ui/font";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { useUserStore } from "@/store/user";
 import { MarkerFoundCheckbox } from "../fields/marker-found-checkbox";
 
 export const ProgressTracker = () => {
@@ -26,7 +27,8 @@ export const ProgressTracker = () => {
 
   // zustand
   const currentMap = useMapStore((state) => state.currentMap);
-  const user = useAuthStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
+  const user = useUserStore((state) => state.user);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const removeUser = useAuthStore((state) => state.removeUser);
   //#endregion
@@ -91,7 +93,7 @@ export const ProgressTracker = () => {
 
         <Divider />
 
-        {user ? (
+        {auth ? (
           <Box display="flex" flexDirection="column">
             <Button onClick={signOutUser}>Log out</Button>
             {groups?.map(({ categories }: any) =>

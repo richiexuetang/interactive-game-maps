@@ -66,6 +66,7 @@ export type Game = {
   groups?: Maybe<Array<Group>>;
   id: Scalars['Float']['output'];
   maps?: Maybe<Array<Map>>;
+  releaseDate?: Maybe<Scalars['DateTime']['output']>;
   slug: Scalars['String']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
@@ -225,6 +226,7 @@ export type Query = {
   games: Array<Game>;
   mapData: Map;
   me: User;
+  user: User;
 };
 
 
@@ -256,6 +258,11 @@ export type QueryGameArgs = {
 
 export type QueryMapDataArgs = {
   slug: Scalars['String']['input'];
+};
+
+
+export type QueryUserArgs = {
+  email: Scalars['String']['input'];
 };
 
 export type Region = {
@@ -420,6 +427,13 @@ export type RemoveFavoriteMutationVariables = Exact<{
 
 
 export type RemoveFavoriteMutation = { __typename?: 'Mutation', removeFavorite: { __typename?: 'User', favoriteMaps?: Array<{ __typename?: 'Map', title: string, id: number, slug: string }> | null } };
+
+export type UserQueryVariables = Exact<{
+  email: Scalars['String']['input'];
+}>;
+
+
+export type UserQuery = { __typename?: 'Query', user: { __typename?: 'User', hideFound: boolean, favoriteMaps?: Array<{ __typename?: 'Map', title: string, slug: string }> | null, foundMarkers?: Array<{ __typename?: 'Location', id: number, categoryId?: number | null, description?: string | null, latitude: number, longitude: number, mapSlug: string, title: string, type?: string | null, media?: Array<{ __typename?: 'Media', type: string, url: string }> | null }> | null, noteMarkers?: Array<{ __typename?: 'NoteMarker', description: string, id: number, latitude: number, longitude: number, mapSlug: string, title: string }> | null } };
 
 
 export const ChecklistDocument = gql`
@@ -1083,3 +1097,69 @@ export function useRemoveFavoriteMutation(baseOptions?: Apollo.MutationHookOptio
 export type RemoveFavoriteMutationHookResult = ReturnType<typeof useRemoveFavoriteMutation>;
 export type RemoveFavoriteMutationResult = Apollo.MutationResult<RemoveFavoriteMutation>;
 export type RemoveFavoriteMutationOptions = Apollo.BaseMutationOptions<RemoveFavoriteMutation, RemoveFavoriteMutationVariables>;
+export const UserDocument = gql`
+    query User($email: String!) {
+  user(email: $email) {
+    favoriteMaps {
+      title
+      slug
+    }
+    foundMarkers {
+      id
+      categoryId
+      description
+      latitude
+      longitude
+      mapSlug
+      title
+      media {
+        type
+        url
+      }
+      type
+    }
+    hideFound
+    noteMarkers {
+      description
+      id
+      latitude
+      longitude
+      mapSlug
+      title
+    }
+  }
+}
+    `;
+
+/**
+ * __useUserQuery__
+ *
+ * To run a query within a React component, call `useUserQuery` and pass it any options that fit your needs.
+ * When your component renders, `useUserQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useUserQuery({
+ *   variables: {
+ *      email: // value for 'email'
+ *   },
+ * });
+ */
+export function useUserQuery(baseOptions: Apollo.QueryHookOptions<UserQuery, UserQueryVariables> & ({ variables: UserQueryVariables; skip?: boolean; } | { skip: boolean; }) ) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<UserQuery, UserQueryVariables>(UserDocument, options);
+      }
+export function useUserLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<UserQuery, UserQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<UserQuery, UserQueryVariables>(UserDocument, options);
+        }
+export function useUserSuspenseQuery(baseOptions?: Apollo.SkipToken | Apollo.SuspenseQueryHookOptions<UserQuery, UserQueryVariables>) {
+          const options = baseOptions === Apollo.skipToken ? baseOptions : {...defaultOptions, ...baseOptions}
+          return Apollo.useSuspenseQuery<UserQuery, UserQueryVariables>(UserDocument, options);
+        }
+export type UserQueryHookResult = ReturnType<typeof useUserQuery>;
+export type UserLazyQueryHookResult = ReturnType<typeof useUserLazyQuery>;
+export type UserSuspenseQueryHookResult = ReturnType<typeof useUserSuspenseQuery>;
+export type UserQueryResult = Apollo.QueryResult<UserQuery, UserQueryVariables>;
