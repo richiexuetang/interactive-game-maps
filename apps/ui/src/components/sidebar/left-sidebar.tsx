@@ -7,14 +7,17 @@ import * as L from "leaflet";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { getFontClassName } from "@/lib/ui/font";
+import { cn } from "@/lib/utils";
+import { useAuthStore } from "@/store";
+import { useMapStore } from "@/store/map";
+import { HideFoundToggle } from "./components/hide-found-toggle";
+import { LoginButton } from "./components/login-button";
 import { MapSwitcher } from "./components/map-switcher";
 import { MarkerSearch } from "./components/marker-search";
 import { RegionsGrid } from "./components/regions-grid";
 import { ShowHideButtons } from "./components/show-hide-buttons";
 import { SidebarClose } from "./components/sidebar-close";
-import { getFontClassName } from "@/lib/ui/font";
-import { cn } from "@/lib/utils";
-import { useMapStore } from "@/store/map";
 
 interface MenuProps {
   map: L.Map | null;
@@ -27,6 +30,7 @@ export const Menu = ({ map }: MenuProps) => {
   const currentMap = useMapStore((state) => state.currentMap);
   const setMap = useMapStore((state) => state.setCurrentMap);
   const hidden = currentMap?.hiddenCategories ?? [];
+  const auth = useAuthStore((state) => state.auth);
   //#endregion
 
   if (!currentMap) return;
@@ -116,6 +120,10 @@ export const Menu = ({ map }: MenuProps) => {
 
           <Divider orientation="horizontal" flexItem />
 
+          {auth ? <HideFoundToggle /> : <LoginButton />}
+
+          <Divider orientation="horizontal" flexItem />
+
           {currentMap?.boundedRegion && (
             <div className="items-center">
               <Chip
@@ -128,80 +136,81 @@ export const Menu = ({ map }: MenuProps) => {
 
           <Divider orientation="horizontal" flexItem />
 
-          {groups?.map((group: any, index: any) => {
-            const counts: any = {};
-            group.categories?.map((category: any) => {
-              const count = locations?.filter(
-                ({ categoryId }) => categoryId == category.id
-              ).length;
-              counts[`${category.title}`] = count;
-            });
+          {currentMap.searchFilterMarkers.length === 0 &&
+            groups?.map((group: any, index: any) => {
+              const counts: any = {};
+              group.categories?.map((category: any) => {
+                const count = locations?.filter(
+                  ({ categoryId }) => categoryId == category.id
+                ).length;
+                counts[`${category.title}`] = count;
+              });
 
-            const sumValues = Object.values(counts).reduce(
-              (a: any, b: any) => a + b,
-              0
-            );
+              const sumValues = Object.values(counts).reduce(
+                (a: any, b: any) => a + b,
+                0
+              );
 
-            if (sumValues === 0) return null;
+              if (sumValues === 0) return null;
 
-            return (
-              <React.Fragment key={`${group.id}_${index}`}>
-                <Typography
-                  className="text-lg uppercase w-full !font-text cursor-pointer"
-                  onClick={() => handleGroupHide(group.id)}
-                >
-                  {group.title}
-                </Typography>
-                <Grid container spacing={1} sx={{ minWidth: 350 }}>
-                  {group.categories?.map((category: any) => {
-                    const count = locations?.filter(
-                      ({ categoryId }) => categoryId === category.id
-                    ).length;
-                    if (!count) return null;
+              return (
+                <React.Fragment key={`${group.id}_${index}`}>
+                  <Typography
+                    className="text-lg uppercase w-full !font-text cursor-pointer"
+                    onClick={() => handleGroupHide(group.id)}
+                  >
+                    {group.title}
+                  </Typography>
+                  <Grid container spacing={1} sx={{ minWidth: 350 }}>
+                    {group.categories?.map((category: any) => {
+                      const count = locations?.filter(
+                        ({ categoryId }) => categoryId === category.id
+                      ).length;
+                      if (!count) return null;
 
-                    return (
-                      <Grid
-                        size={6}
-                        key={category.title}
-                        className={cn(
-                          currentMap.hiddenCategories.includes(category.id) &&
-                            "line-through opacity-80"
-                        )}
-                      >
-                        <div
-                          className="w-full flex items-center !cursor-pointer uppercase px-2 hover:opacity-80"
-                          onClick={() => handleHiddenCategory(category.id)}
+                      return (
+                        <Grid
+                          size={6}
+                          key={category.title}
+                          className={cn(
+                            currentMap.hiddenCategories.includes(category.id) &&
+                              "line-through opacity-80"
+                          )}
                         >
-                          <span
-                            className={cn(
-                              `icon-${category.icon}`,
-                              "w-4 h-4 mr-2"
-                            )}
-                          />
-                          <Typography
-                            variant="caption"
-                            sx={{
-                              fontSize: "12px",
-                              whiteSpace: "nowrap",
-                              fontFamily: "var(--text-font-family)",
-                            }}
+                          <div
+                            className="w-full flex items-center !cursor-pointer uppercase px-2 hover:opacity-80"
+                            onClick={() => handleHiddenCategory(category.id)}
                           >
-                            {category.title}
-                          </Typography>
-                          <Typography
-                            variant="caption"
-                            sx={{ flex: 1, textAlign: "right" }}
-                          >
-                            {count}
-                          </Typography>
-                        </div>
-                      </Grid>
-                    );
-                  })}
-                </Grid>
-              </React.Fragment>
-            );
-          })}
+                            <span
+                              className={cn(
+                                `icon-${category.icon}`,
+                                "w-4 h-4 mr-2"
+                              )}
+                            />
+                            <Typography
+                              variant="caption"
+                              sx={{
+                                fontSize: "12px",
+                                whiteSpace: "nowrap",
+                                fontFamily: "var(--text-font-family)",
+                              }}
+                            >
+                              {category.title}
+                            </Typography>
+                            <Typography
+                              variant="caption"
+                              sx={{ flex: 1, textAlign: "right" }}
+                            >
+                              {count}
+                            </Typography>
+                          </div>
+                        </Grid>
+                      );
+                    })}
+                  </Grid>
+                </React.Fragment>
+              );
+            })}
         </Paper>
       )}
     </div>

@@ -6,7 +6,6 @@ import InputAdornment from "@mui/material/InputAdornment";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
-import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
@@ -73,7 +72,7 @@ export const MarkerSearch = ({ map }: any) => {
         currentMap.searchFilterMarkers.length > 0 &&
         showFiltered && (
           <List>
-            {currentMap?.searchFilterMarkers.map((marker) => (
+            {currentMap?.searchFilterMarkers.map((marker, index) => (
               <React.Fragment key={marker.id}>
                 <ListItem
                   onPointerEnter={() => {
@@ -100,31 +99,37 @@ export const MarkerSearch = ({ map }: any) => {
                   sx={{ cursor: "pointer" }}
                   disablePadding
                 >
-                  <ListItemButton>
-                    <ListItemAvatar>
-                      <Avatar>
-                        <span className={cn(`icon-${marker.category?.icon}`)} />
-                      </Avatar>
-                    </ListItemAvatar>
-                    <ListItemText
-                      primary={marker.title}
-                      secondary={
-                        <Typography
-                          component="span"
-                          variant="body2"
-                          sx={{
-                            color: "text.primary",
-                            display: "inline",
-                            lineHeight: 2,
-                          }}
-                        >
-                          {marker.category?.title}
-                        </Typography>
-                      }
-                    />
-                  </ListItemButton>
+                  <ListItemAvatar>
+                    <Avatar>
+                      <span className={cn(`icon-${marker.category?.icon}`)} />
+                    </Avatar>
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary={marker.title}
+                    secondary={
+                      <Typography
+                        component="span"
+                        variant="body2"
+                        sx={{
+                          color: "text.primary",
+                          display: "inline",
+                          lineHeight: 2,
+                        }}
+                      >
+                        {marker.category?.title}
+                      </Typography>
+                    }
+                  />
                 </ListItem>
-                <Divider variant="inset" component="li" />
+                <div
+                  className="ml-16 mb-4 text-sm"
+                  dangerouslySetInnerHTML={{
+                    __html: marker.description ?? "",
+                  }}
+                />
+                {index !== currentMap?.searchFilterMarkers.length - 1 && (
+                  <Divider variant="fullWidth" component="li" sx={{ mb: 3 }} />
+                )}
               </React.Fragment>
             ))}
           </List>

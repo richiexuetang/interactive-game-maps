@@ -61,11 +61,8 @@ export const locations = {
           ],
         },
         {
-          id: 397306,
           mapSlug: "chapter-1",
-
           title: "Back Hills",
-
           latitude: "0.74282052262677",
           longitude: "-0.76472660959229",
           media: [
@@ -76,9 +73,7 @@ export const locations = {
           ],
         },
         {
-          id: 397382,
           mapSlug: "chapter-1",
-
           title: "Ancient Guanyin Temple Shrine",
           description:
             "**Location:** [Ancient Guanyin Temple](https://mapgenie.io/black-myth-wukong/maps/chapter-1?locationIds=397380)\n\n**Shop:**\n- Evil Repelling Medicament (x2)\n- Longevity Decoction (x2)\n- Silk (x2)\n- Yaoguai Core (x2)",
@@ -92,18 +87,14 @@ export const locations = {
           ],
         },
         {
-          id: 397474,
           mapSlug: "chapter-1",
-
           title: "Marsh of White Mist",
           description: "**Location:** By the edge of the path",
           latitude: "0.73069975846236",
           longitude: "-0.54159164428478",
         },
         {
-          id: 398289,
           mapSlug: "chapter-1",
-
           title: "Bodhi Peak",
           description:
             "The last shrine of the chapter, this can be found after ascending many stairs, immediately to the right. This shrine is also right before the  final boss of the chapter.",
@@ -111,9 +102,7 @@ export const locations = {
           longitude: "-0.88384964193304",
         },
         {
-          id: 398292,
           mapSlug: "chapter-1",
-
           title: "Outside the Cave",
           latitude: "0.36939126654569",
           longitude: "-0.77541589737046",
@@ -125,9 +114,7 @@ export const locations = {
           ],
         },
         {
-          id: 398293,
           mapSlug: "chapter-1",
-
           title: "Cave Interior",
           description: "**Location:** Inside the cavern",
           latitude: "0.46541002162454",

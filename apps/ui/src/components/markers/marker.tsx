@@ -7,10 +7,10 @@ import {
   Tooltip,
   Marker as RLeafletMarker,
 } from "react-leaflet";
-import { PopupCard } from "../cards/popup-card";
 import { Location } from "@/generated/graphql";
-import { useAuthStore } from "@/store/auth";
 import { useMapStore } from "@/store/map";
+import { useUserStore } from "@/store/user";
+import { PopupCard } from "../cards/popup-card";
 
 export const Marker = ({ markerId }: { markerId: number }) => {
   const map = useMap();
@@ -24,7 +24,7 @@ export const Marker = ({ markerId }: { markerId: number }) => {
   ) as Location;
   const { id, title, latitude, longitude, category } = marker;
 
-  const user = useAuthStore((state) => state.user);
+  const user = useUserStore((state) => state.user);
   const { icon } = category!;
 
   // build div icon

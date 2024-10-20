@@ -36,6 +36,7 @@ const EdgeTemporaryClose = React.forwardRef<
   HTMLButtonElement,
   JSX.IntrinsicElements["button"] & { sx?: SxProps; sidebarId?: string }
 >(function EdgeTemporaryClose(
+  // eslint-disable-next-line no-unused-vars
   { className, sidebarId, children, ...props },
   ref
 ) {

@@ -1,7 +1,13 @@
+import { HTMLAttributes } from "react";
+
 // Buy me coffee icon
-export const BmcIcon = () => {
+interface IconProps extends HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
+
+export const BmcIcon = (props: IconProps) => {
   return (
-    <div id="logo">
+    <div id="logo" {...props}>
       <svg
         width="195"
         height="40"

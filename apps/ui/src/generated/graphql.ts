@@ -66,6 +66,7 @@ export type Game = {
   groups?: Maybe<Array<Group>>;
   id: Scalars['Float']['output'];
   maps?: Maybe<Array<Map>>;
+  releaseDate?: Maybe<Scalars['DateTime']['output']>;
   slug: Scalars['String']['output'];
   title: Scalars['String']['output'];
   /** Identifies the date and time when the object was last updated. */
@@ -224,6 +225,8 @@ export type Query = {
   game: Game;
   games: Array<Game>;
   mapData: Map;
+  me: User;
+  user: User;
 };
 
 
@@ -257,6 +260,11 @@ export type QueryMapDataArgs = {
   slug: Scalars['String']['input'];
 };
 
+
+export type QueryUserArgs = {
+  email: Scalars['String']['input'];
+};
+
 export type Region = {
   __typename?: 'Region';
   centerX?: Maybe<Scalars['Float']['output']>;
@@ -282,11 +290,6 @@ export enum RegionOrderField {
 export type RemoveNoteInput = {
   email: Scalars['String']['input'];
   id: Scalars['Float']['input'];
-};
-
-export type Subscription = {
-  __typename?: 'Subscription';
-  noteMarkerAdded: NoteMarker;
 };
 
 export type UpdateFoundLocationInput = {
@@ -319,7 +322,6 @@ export type User = {
   noteMarkers?: Maybe<Array<NoteMarker>>;
   /** Identifies the date and time when the object was last updated. */
   updatedAt: Scalars['DateTime']['output'];
-  user: User;
   username?: Maybe<Scalars['String']['output']>;
 };
 
@@ -425,6 +427,13 @@ export type RemoveFavoriteMutationVariables = Exact<{
 
 
 export type RemoveFavoriteMutation = { __typename?: 'Mutation', removeFavorite: { __typename?: 'User', favoriteMaps?: Array<{ __typename?: 'Map', title: string, id: number, slug: string }> | null } };
+
+export type UserQueryVariables = Exact<{
+  email: Scalars['String']['input'];
+}>;
+
+
+export type UserQuery = { __typename?: 'Query', user: { __typename?: 'User', hideFound: boolean, favoriteMaps?: Array<{ __typename?: 'Map', title: string, slug: string }> | null, foundMarkers?: Array<{ __typename?: 'Location', id: number, categoryId?: number | null, description?: string | null, latitude: number, longitude: number, mapSlug: string, title: string, type?: string | null, media?: Array<{ __typename?: 'Media', type: string, url: string }> | null }> | null, noteMarkers?: Array<{ __typename?: 'NoteMarker', description: string, id: number, latitude: number, longitude: number, mapSlug: string, title: string }> | null } };
 
 
 export const ChecklistDocument = gql`
@@ -650,6 +659,39 @@ export const RemoveFavoriteDocument = gql`
   }
 }
     `;
+export const UserDocument = gql`
+    query User($email: String!) {
+  user(email: $email) {
+    favoriteMaps {
+      title
+      slug
+    }
+    foundMarkers {
+      id
+      categoryId
+      description
+      latitude
+      longitude
+      mapSlug
+      title
+      media {
+        type
+        url
+      }
+      type
+    }
+    hideFound
+    noteMarkers {
+      description
+      id
+      latitude
+      longitude
+      mapSlug
+      title
+    }
+  }
+}
+    `;
 
 export type SdkFunctionWrapper = <T>(action: (requestHeaders?:Record<string, string>) => Promise<T>, operationName: string, operationType?: string, variables?: any) => Promise<T>;
 
@@ -702,6 +744,9 @@ export function getSdk(client: GraphQLClient, withWrapper: SdkFunctionWrapper = 
     },
     RemoveFavorite(variables: RemoveFavoriteMutationVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<RemoveFavoriteMutation> {
       return withWrapper((wrappedRequestHeaders) => client.request<RemoveFavoriteMutation>(RemoveFavoriteDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'RemoveFavorite', 'mutation', variables);
+    },
+    User(variables: UserQueryVariables, requestHeaders?: GraphQLClientRequestHeaders): Promise<UserQuery> {
+      return withWrapper((wrappedRequestHeaders) => client.request<UserQuery>(UserDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'User', 'query', variables);
     }
   };
 }

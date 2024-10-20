@@ -1,10 +1,10 @@
 import * as React from "react";
+import { getMarkerBounds, pointIsInBounds } from "@/lib/utils";
+import { useMapStore } from "@/store/map";
+import { useUserStore } from "@/store/user";
 import { NoteMarkers } from "./note-markers";
 import { MapMarker } from "../leaflet";
 import { TextMarker } from "../leaflet";
-import { getMarkerBounds, pointIsInBounds } from "@/lib/utils";
-import { useAuthStore } from "@/store/auth";
-import { useMapStore } from "@/store/map";
 
 /**
  * Handles rendering of markers (user note markers and game location markers)
@@ -13,7 +13,7 @@ import { useMapStore } from "@/store/map";
  */
 export const MarkersRenderer = () => {
   const currentMap = useMapStore((state) => state.currentMap);
-  const user = useAuthStore((state) => state.user);
+  const user = useUserStore((state) => state.user);
 
   if (!currentMap) return null;
 

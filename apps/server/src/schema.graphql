@@ -55,6 +55,7 @@ type Game {
   groups: [Group!]
   id: Float!
   maps: [Map!]
+  releaseDate: DateTime
   slug: String!
   title: String!
 
@@ -178,6 +179,7 @@ type Query {
   games: [Game!]!
   mapData(slug: String!): Map!
   me: User!
+  user(email: String!): User!
 }
 
 type Region {
@@ -206,10 +208,6 @@ enum RegionOrderField {
 input RemoveNoteInput {
   email: String!
   id: Float!
-}
-
-type Subscription {
-  noteMarkerAdded: NoteMarker!
 }
 
 input UpdateFoundLocationInput {

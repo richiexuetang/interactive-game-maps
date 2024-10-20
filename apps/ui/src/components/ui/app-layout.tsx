@@ -24,6 +24,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
             fullWidth: "md",
           }),
           position: { xs: "sticky", md: "relative" },
+          backgroundColor: "#232528",
         }}
       >
         <AppHeader
@@ -46,10 +47,16 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
         <div className="bg-gray-900">
           <div className="max-w-2xl mx-auto text-white py-10">
             <div className="text-center">
-              <p> All day, every day. </p>
               <div className="flex justify-center my-5">
                 <div className="flex items-center border w-auto rounded-lg px-4 py-2 mx-2 cursor-pointer">
-                  <BmcIcon />
+                  <BmcIcon
+                    onClick={() =>
+                      window.open(
+                        "https://buymeacoffee.com/ritchermap",
+                        "_blank"
+                      )
+                    }
+                  />
                 </div>
               </div>
             </div>
@@ -57,10 +64,37 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
               <p className="order-2 md:order-1 mt-8 md:mt-0">
                 &copy; Ritcher Interactive Map, 2024.
               </p>
-              <div className="order-1 md:order-2">
-                <span className="px-2">Github</span>
-                <span className="px-2 border-l">LinkedIn</span>
-                <span className="px-2 border-l">Donation</span>
+              <div className="order-1 md:order-2 cursor-pointer">
+                <span
+                  className="px-2"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/richiexuetang/interactive-game-maps",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </span>
+                <span
+                  className="px-2 border-l cursor-pointer"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/richardxuetang",
+                      "_blank"
+                    )
+                  }
+                >
+                  LinkedIn
+                </span>
+                <span
+                  className="px-2 border-l cursor-pointer"
+                  onClick={() =>
+                    window.open("https://rebsite-eight.vercel.app", "_blank")
+                  }
+                >
+                  About me
+                </span>
               </div>
             </div>
           </div>

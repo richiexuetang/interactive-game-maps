@@ -1,15 +1,8 @@
-export interface GoogleUser {
+export interface GoogleUserDto {
   email: string;
   firstName: string;
   lastName: string;
   picture: string;
   accessToken: string;
   refreshToken: string;
-}
-
-export interface UserFromJwt {
-  id: string;
-  sub: {
-    email: string;
-  };
 }

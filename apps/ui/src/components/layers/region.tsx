@@ -1,8 +1,8 @@
 import * as L from "leaflet";
 import { useEffect, useRef } from "react";
 import { Polygon, useMap } from "react-leaflet";
-import { TextMarker } from "../leaflet";
 import { useMapStore } from "@/store/map";
+import { TextMarker } from "../leaflet";
 
 interface RegionLayerProps {
   positions?: number[][][] | null;

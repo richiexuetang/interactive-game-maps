@@ -1,6 +1,6 @@
 import Stack from "@mui/material/Stack";
-import { AccountPage } from "./account-page";
 import { AppLayout } from "@/components/ui/app-layout";
+import { AccountPage } from "./account-page";
 
 export default async function Page() {
   return (

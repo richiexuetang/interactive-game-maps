@@ -38,43 +38,48 @@ export const RegionsGrid = () => {
       <Divider orientation="horizontal" flexItem />
       <div className="flex flex-col gap-2">
         <Button onClick={() => setShowRegions(!showRegions)} sx={{ mt: 2 }}>
-          Show Regions
+          {showRegions ? "Hide" : "Show"} Regions
         </Button>
 
         {showRegions && (
-          <Fade in={showRegions}>
-            <Grid
-              container
-              spacing={1}
-              justifyContent="center"
-              alignContent="center"
-              my={1}
-            >
-              {regions?.map((region) => (
-                <div key={region.title} className="flex flex-start">
-                  <UnderlineButton
-                    onClick={() =>
-                      setCurrentMap({
-                        ...currentMap,
-                        focusedRegionId: region.title,
-                      })
-                    }
-                    onContextMenu={(e) => {
-                      e.preventDefault();
-                      setCurrentMap({ ...currentMap!, boundedRegion: region });
-                    }}
-                    sx={{ fontSize: 14, whiteSpace: "nowrap" }}
-                    variant="text"
-                  >
-                    {region.title}
-                  </UnderlineButton>
-                </div>
-              ))}
-              <span className="text-xs">
-                Tip: Right click to focus on that region
-              </span>
-            </Grid>
-          </Fade>
+          <>
+            <Fade in={showRegions}>
+              <Grid
+                container
+                spacing={1}
+                justifyContent="center"
+                alignContent="center"
+                my={1}
+              >
+                {regions?.map((region) => (
+                  <div key={region.title} className="flex flex-start">
+                    <UnderlineButton
+                      onClick={() =>
+                        setCurrentMap({
+                          ...currentMap,
+                          focusedRegionId: region.title,
+                        })
+                      }
+                      onContextMenu={(e) => {
+                        e.preventDefault();
+                        setCurrentMap({
+                          ...currentMap!,
+                          boundedRegion: region,
+                        });
+                      }}
+                      sx={{ fontSize: 14, whiteSpace: "nowrap" }}
+                      variant="text"
+                    >
+                      {region.title}
+                    </UnderlineButton>
+                  </div>
+                ))}
+              </Grid>
+            </Fade>
+            <span className="text-xs">
+              Tip: Right click to focus on that region
+            </span>
+          </>
         )}
       </div>
     </div>

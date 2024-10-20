@@ -9,6 +9,7 @@ import { services } from "./services";
 export const totk = {
   slug: "zelda-tears-of-the-kingdom",
   title: "Zelda: Tears of the Kingdom",
+  releaseDate: new Date("2023-05-12"),
   maps: [
     {
       slug: "hyrule",

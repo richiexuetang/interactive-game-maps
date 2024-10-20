@@ -8,15 +8,17 @@ import "@/lib/leaflet/smooth-wheel-zoom";
 import "@/lib/leaflet/context-menu";
 import "@/lib/leaflet/full-screen";
 import { v4 as uuidv4 } from "uuid";
-import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
-import { RegionLayer } from "../layers/region";
-import { MarkersRenderer } from "../markers/markers-renderer";
-import { Menu, ProgressTracker } from "../sidebar";
+import { useUserQuery } from "@/generated/client-gql";
 import { Category, MapDataQuery } from "@/generated/graphql";
 import { mapContainerOptions } from "@/lib/leaflet/map-container-options";
 import { cn, flatten } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
 import { defaultState, useMapStore } from "@/store/map";
+import { useUserStore } from "@/store/user";
+import { CopyLinkNotifier } from "../event-notifier/copy-link-notifier";
+import { RegionLayer } from "../layers/region";
+import { MarkersRenderer } from "../markers/markers-renderer";
+import { Menu, ProgressTracker } from "../sidebar";
 
 const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
   //#region Hooks
@@ -25,13 +27,30 @@ const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
 
   const { center, zoom, minZoom, maxZoom } = data;
 
-  const user = useAuthStore((state) => state.user);
-  const addNote = useAuthStore((state) => state.addNote);
+  const auth = useAuthStore((state) => state.auth);
+  const user = useUserStore((state) => state.user);
+  const setUser = useUserStore((state) => state.setUser);
+  const addNote = useUserStore((state) => state.addNote);
   const setCurrentMap = useMapStore((state) => state.setCurrentMap);
   const currentMap = useMapStore((state) => state.currentMap);
+  const { data: userData } = useUserQuery({
+    variables: { email: auth?.email ?? "" },
+  });
   //#endregion
 
   //#region Lifecycle
+  React.useEffect(() => {
+    if (!userData) return;
+    const { foundMarkers, noteMarkers, favoriteMaps } = userData.user;
+    setUser({
+      ...user,
+      foundMarkers,
+      noteMarkers,
+      favoriteMaps,
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [userData]);
+
   React.useEffect(() => {
     if (currentMap && currentMap.slug === data.slug) return;
     if (!data || !data.game || !data.game.groups) return;
@@ -69,9 +88,9 @@ const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
         // @ts-ignore
         contextmenuItems={[
           {
-            text: `${user ? "Add Note" : ""}`,
+            text: `${auth ? "Add Note" : ""}`,
             callback: ({ latlng }: any) => {
-              if (!user) return;
+              if (!auth) return;
 
               addNote({
                 title: "",
@@ -81,8 +100,6 @@ const DynamicMap = ({ data }: { data: MapDataQuery["mapData"] }) => {
                 id: uuidv4(),
                 mapSlug: params.mapSlug,
               });
-
-              console.log(user);
             },
           },
           {

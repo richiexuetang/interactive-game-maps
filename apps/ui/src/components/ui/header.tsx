@@ -1,4 +1,3 @@
-import ZapIcon from "@mui/icons-material/ElectricBolt";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LoginIcon from "@mui/icons-material/Login";
 import Logout from "@mui/icons-material/Logout";
@@ -10,6 +9,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { useAuthStore } from "@/store";
@@ -18,7 +18,7 @@ export const AppHeader = ({
   trigger,
   ...props
 }: { trigger?: React.ReactNode } & BoxProps) => {
-  const user = useAuthStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const removeUser = useAuthStore((state) => state.removeUser);
@@ -43,14 +43,21 @@ export const AppHeader = ({
         display: "flex",
         alignItems: "center",
         justifyContent: { xs: "space-between", sm: "flex-start" },
-        gap: 2,
+        gap: 1,
         px: 2,
         flex: 1,
         ...props.sx,
       }}
     >
       {trigger}
-      <ZapIcon />
+      <Image
+        src="/images/map-logo.png"
+        alt="logo without text"
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="w-14 h-6"
+      />
       <Typography
         variant="h6"
         noWrap
@@ -59,8 +66,8 @@ export const AppHeader = ({
         sx={{
           mx: 2,
           fontFamily: "monospace",
-          fontWeight: 700,
-          letterSpacing: ".3rem",
+          fontWeight: 400,
+          letterSpacing: ".25rem",
           color: "inherit",
           textDecoration: "none",
           flexGrow: 1,
@@ -68,7 +75,6 @@ export const AppHeader = ({
       >
         Ritcher Map
       </Typography>
-
       <Box
         ml="auto"
         sx={{
@@ -88,7 +94,7 @@ export const AppHeader = ({
         />
       </Box>
 
-      {user ? (
+      {auth ? (
         <IconButton
           onClick={handleClick}
           aria-controls={open ? "account-menu" : undefined}
@@ -101,7 +107,7 @@ export const AppHeader = ({
               width: 32,
               height: 32,
             }}
-            src={user?.picture}
+            src={auth?.picture}
           />
         </IconButton>
       ) : (

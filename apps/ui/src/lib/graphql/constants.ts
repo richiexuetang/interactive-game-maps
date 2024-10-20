@@ -140,7 +140,8 @@ query MapData($slug: String!) {
       }
     }
   }
-}`);
+}
+`);
 
 export const MapDetailsDocument = gql`
   query MapDetails($slug: String!) {
@@ -248,3 +249,38 @@ export const REMOVE_FAVORITE = gql`
     }
   }
 `;
+
+export const getUserDocument = gql(`
+query User($email: String!) {
+  user(email: $email) {
+    favoriteMaps {
+      title
+      slug
+    }
+    foundMarkers {
+      id
+      categoryId
+      description
+      latitude
+      longitude
+      mapSlug
+      title
+      media {
+        type
+        url
+      }
+      type
+    }
+    hideFound
+    noteMarkers {
+      description
+      id
+      latitude
+      longitude
+      mapSlug
+      title
+    }
+  }
+}
+
+`);

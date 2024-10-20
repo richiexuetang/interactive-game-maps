@@ -582,10 +582,6 @@ svg.leaflet-image-layer.leaflet-interactive path {
     margin-left: 10px;
 }
 
-.leaflet-popup-content p {
-    margin: 1.25em 0;
-}
-
 .leaflet-popup-tip-container {
     width: 40px;
     height: 20px;

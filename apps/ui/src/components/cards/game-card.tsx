@@ -1,6 +1,5 @@
 "use client";
 
-import { useMutation } from "@apollo/client";
 import StarIcon from "@mui/icons-material/Star";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import Card from "@mui/material/Card";
@@ -11,30 +10,36 @@ import Grid from "@mui/material/Grid2";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
+import {
+  useAddFavoriteMutation,
+  useRemoveFavoriteMutation,
+} from "@/generated/client-gql";
 import { GamesQuery } from "@/generated/graphql";
-import { ADD_FAVORITE, REMOVE_FAVORITE } from "@/lib/graphql/constants";
 import { useAuthStore } from "@/store";
+import { useUserStore } from "@/store/user";
 
 export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
   const { slug, title } = game;
-  const user = useAuthStore((state) => state.user);
-  const setFavorites = useAuthStore((state) => state.setFavorites);
+  const user = useUserStore((state) => state.user);
+  const auth = useAuthStore((state) => state.auth);
+  const setFavorites = useUserStore((state) => state.setFavorites);
 
   //#region graphql
-  const [addFavorite] = useMutation(ADD_FAVORITE, {
-    variables: { data: { email: user?.email, gameSlug: game.slug } },
-    onCompleted: (data) => setFavorites(data.addFavorite.favoriteMaps),
+  const [addFavorite] = useAddFavoriteMutation({
+    variables: { data: { email: auth?.email ?? "", gameSlug: game.slug } },
+    onCompleted: (data) =>
+      setFavorites((data.addFavorite.favoriteMaps as any) ?? []),
   });
 
-  const [removeFavorite] = useMutation(REMOVE_FAVORITE, {
-    variables: { data: { email: user?.email, gameSlug: game.slug } },
-    onCompleted: (data) => setFavorites(data.removeFavorite.favoriteMaps),
+  const [removeFavorite] = useRemoveFavoriteMutation({
+    variables: { data: { email: auth?.email ?? "", gameSlug: game.slug } },
+    onCompleted: (data) => setFavorites(data.removeFavorite.favoriteMaps ?? []),
   });
   //#endregion
 
   const toggleFavorite = (e: any) => {
     e.preventDefault();
-    if (!user?.email) return;
+    if (!auth?.email) return;
 
     if (user.favoriteMaps?.some(({ slug }) => slug === game.slug)) {
       removeFavorite();

@@ -16,4 +16,7 @@ export class Game extends BaseModel {
 
   @Field(() => [Group], { nullable: true })
   groups?: Group[] | null;
+
+  @Field(() => Date, { nullable: true })
+  releaseDate?: Date | null;
 }

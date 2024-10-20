@@ -1,4 +1,4 @@
-import { Resolver, Mutation, Args, Subscription, Query } from "@nestjs/graphql";
+import { Resolver, Mutation, Args, Query } from "@nestjs/graphql";
 import { User } from "./models/user.model";
 import { UpdateFoundLocationInput } from "./dto/update-found-location.input";
 import { UpdateHideFoundInput } from "./dto/update-hide-found.input";
@@ -6,14 +6,11 @@ import { AddNoteInput } from "./dto/add-note.input";
 import { RemoveNoteInput } from "./dto/remove-note.input";
 import { UpdateNoteInput } from "./dto/update-note.input";
 import { NoteMarker } from "./models/note-marker.model";
-import { PubSub } from "graphql-subscriptions";
 import { AddFavoriteInput } from "./dto/add-favorite.input";
 import { PrismaService } from "../common/prisma.service";
-import { UserEntity } from "../auth/decorators/user.decorator";
+import { UserEntity } from "../common/decorators/user.decorator";
 import { GqlAuthGuard } from "../auth/guards/gql-auth.guard";
 import { UseGuards } from "@nestjs/common";
-
-const pubSub = new PubSub();
 
 @Resolver(() => User)
 @UseGuards(GqlAuthGuard)
@@ -25,11 +22,13 @@ export class UsersResolver {
     return user;
   }
 
-  @Subscription((returns) => NoteMarker, {
-    name: "noteMarkerAdded",
-  })
-  subscribeToNoteMarkerAdded() {
-    return pubSub.asyncIterator("noteMarkerAdded");
+  @Query(() => User)
+  async user(@Args("email") email: string) {
+    const user = await this.prisma.user.findUnique({
+      where: { email },
+      include: { foundMarkers: true, favoriteMaps: true, noteMarkers: true },
+    });
+    return user;
   }
 
   @Mutation(() => NoteMarker)
@@ -43,7 +42,6 @@ export class UsersResolver {
         user: { connect: { email } },
       },
     });
-    // pubSub.publish("noteMarkerAdded", { commentAdded: marker });
     return marker;
   }
 
@@ -109,25 +107,19 @@ export class UsersResolver {
 
   @Mutation(() => User)
   async addFoundLocation(@Args("data") data: UpdateFoundLocationInput) {
-    const { email, location } = data;
+    const { email, location: id } = data;
     const existingLocation = await this.prisma.location.findUnique({
-      where: { id: location },
+      where: { id },
     });
 
     const newLocation = {
       create: { ...existingLocation },
-      where: { id: location },
+      where: { id },
     };
 
-    return await this.prisma.user.upsert({
+    return await this.prisma.user.update({
       where: { email },
-      create: {
-        email,
-        foundMarkers: {
-          connectOrCreate: newLocation,
-        },
-      },
-      update: {
+      data: {
         foundMarkers: {
           connectOrCreate: newLocation,
         },
@@ -138,20 +130,19 @@ export class UsersResolver {
 
   @Mutation(() => User)
   async removeFoundLocation(@Args("data") data: UpdateFoundLocationInput) {
+    const { email, location } = data;
     const user = await await this.prisma.user.findUnique({
-      where: { email: data.email },
+      where: { email },
       include: { foundMarkers: true },
     });
 
     return await this.prisma.user.update({
       where: {
-        email: data.email,
+        email,
       },
       data: {
         foundMarkers: {
-          set: user.foundMarkers.filter(
-            (location) => location.id !== data.location
-          ),
+          set: user.foundMarkers.filter(({ id }) => id !== location),
         },
       },
       include: { foundMarkers: true },
