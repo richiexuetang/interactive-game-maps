@@ -255,13 +255,14 @@ export const NoteMarker = ({
                 sx={{ color: "text.secondary", cursor: "pointer" }}
                 onClick={() =>
                   copy(
-                    `{\nlatitude: ${coordinate.latitude.toString()},\nlongitude: ${coordinate.longitude.toString()},\n mapSlug: "${
-                      params.mapSlug
-                    }",\n title: "${getValues(
-                      `${position}-Title`
-                    )}",\n description: "${getValues(
-                      `${position}-Description`
-                    )}"},\n`
+                    // `{\nlatitude: ${coordinate.latitude.toString()},\nlongitude: ${coordinate.longitude.toString()},\n mapSlug: "${
+                    //   params.mapSlug
+                    // }",\n title: "${getValues(
+                    //   `${position}-Title`
+                    // )}",\n description: "${getValues(
+                    //   `${position}-Description`
+                    // )}"},\n`
+                    `[${coordinate.latitude}, ${coordinate.longitude}],`
                   )
                 }
               >

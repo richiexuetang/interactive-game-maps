@@ -3,7 +3,6 @@ export const collectibles = {
   categories: [
     {
       title: "Armor Set",
-
       locations: [
         {
           mapSlug: "sindris-house",
@@ -382,22 +381,6 @@ export const collectibles = {
           ],
         },
         {
-          mapSlug: "jotunheim",
-          title: "Jotnar's Champion Garb (Atreus)",
-          description:
-            "**Unlock:** Found in the cabinet in Angrboda's Treehouse",
-          latitude: "0.69967855720800",
-          longitude: "-0.69729298004191",
-        },
-        {
-          mapSlug: "asgard",
-          title: "Aesir Uniform (Atreus)",
-          description:
-            "**Unlock:** Automatically obtained during story quest _The Runaway_ inside The Great Lodge",
-          latitude: "0.96304355355184",
-          longitude: "-0.67234615997720",
-        },
-        {
           mapSlug: "niflheim",
           title: "Raven Tears Set (Kratos)",
           description: "**Level:** 3  \n**Unlock:** \n- [Girdle of Raven Tears",
@@ -414,7 +397,6 @@ export const collectibles = {
     },
     {
       title: "Artifact",
-
       locations: [
         {
           mapSlug: "vanaheim",
@@ -2222,48 +2204,6 @@ export const collectibles = {
           ],
         },
         {
-          mapSlug: "jotunheim",
-          title: "The Tree",
-          description:
-            "After climbing up the ledge with the large wooden bucket, make a left to find the wooden structure with writing on it.  Destroy the structure to find the scroll inside \n\n**Note:** Untracked in game for 100% completion",
-          latitude: "0.55031683869424",
-          longitude: "-0.74214070906405",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/5c65a604-d728-45fb-a76d-b66dd56a8e01.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "jotunheim",
-          title: "Paints",
-          description:
-            "Inside Idi's Sinkhole (?)\n\n**Note:** Untracked in game for 100% completion",
-          latitude: "0.85761350388650",
-          longitude: "-0.87063966026923",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/7568241a-61d5-4599-bf20-76d691adcd9f.jpg",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "asgard",
-          title: "On Gjallarhorn",
-          description:
-            "On a table in Odin's chambers - this lore is retrieved automatically during a story cutscene and cannot be missed on story completion.\n\n**Note:** Untracked in game for 100% completion",
-          latitude: "0.96860774367711",
-          longitude: "-0.67644221644247",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/898d5427-441b-49bf-9be4-9fe1947ccb8d.png",
-              type: "image",
-            },
-          ],
-        },
-        {
           mapSlug: "helheim",
           title: "Hr\u00e6svelgr",
           description:
@@ -2344,7 +2284,7 @@ export const collectibles = {
           mapSlug: "midgard",
           title: "Mirkweed",
           description:
-            "**Requires:** Speak with [Ratatoskr after completing all story quests",
+            "**Requires:** Speak with [Ratatoskr](https://www.ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=11860) after completing all story quests",
           latitude: "0.50595496677302",
           longitude: "-0.63149674578526",
           media: [
@@ -2368,20 +2308,6 @@ export const collectibles = {
           ],
         },
         {
-          mapSlug: "jotunheim",
-          title: "Ironbell",
-          description:
-            "**Requires:** Speak with [Ratatoskr after completing all story quests",
-          latitude: "0.68455595291158",
-          longitude: "-0.65680623045853",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/5465116f-df3e-4c4f-aadd-bd41d04c1cba.png",
-              type: "image",
-            },
-          ],
-        },
-        {
           mapSlug: "helheim",
           title: "Soulblossom",
           description: "**Requires:** Defeat Garm to gain access to this area",
@@ -2398,7 +2324,7 @@ export const collectibles = {
           mapSlug: "niflheim",
           title: "Frostfinger",
           description:
-            "**Requires:** Speak with [Ratatoskr after completing all story quests",
+            "**Requires:** Speak with [Ratatoskr](https://www.ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=11860) after completing all story quests",
           latitude: "0.63200158309630",
           longitude: "-0.60317296498292",
           media: [
@@ -2426,7 +2352,6 @@ export const collectibles = {
     },
     {
       title: "Odin's Raven",
-
       icon: "odins_raven",
       locations: [
         {
@@ -3076,7 +3001,6 @@ export const collectibles = {
     },
     {
       title: "Relic",
-
       locations: [
         {
           mapSlug: "sindris-house",
@@ -3090,7 +3014,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "Glaive of Dodher",
           description:
-            "Obtained from defeating [Fiske during story quest _The Reckoning_",
+            "Obtained from defeating Fiske during story quest _The Reckoning_",
           latitude: "0.60318190900462",
           longitude: "-0.69933575629722",
           media: [
@@ -3323,7 +3247,6 @@ export const collectibles = {
     },
     {
       title: "Shield",
-
       icon: "gow_shield",
       locations: [
         {
@@ -3354,7 +3277,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "Shatter Star Shield",
           description:
-            "**Level:** 3  \n**Unlock:** Found in the [Legendary Chest",
+            "**Level:** 3  \n**Unlock:** Found in the Legendary Chest",
           latitude: "0.63117262016092",
           longitude: "-0.64957410218389",
         },

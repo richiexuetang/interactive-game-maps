@@ -852,6 +852,89 @@ export const missions = {
       ],
     },
     {
+      title: "Hel Tear",
+      info: "**Associated Favor:** [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515) (Helheim)",
+      locations: [
+        {
+          mapSlug: "alfheim",
+          title: "Hel Tear",
+          latitude: "0.53924488959694",
+          longitude: "-0.79137984382160",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/8eac97cc-e74b-483c-82c9-20c50daaac80.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          mapSlug: "svartalfheim",
+          title: "Hel Tear",
+          latitude: "0.53680905277085",
+          longitude: "-0.65113339788965",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/ac253543-dd7f-44ef-90e6-0b8bde17f5b9.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          mapSlug: "helheim",
+          title: "Hel Tear",
+          description:
+            "This Hel Tear must be closed during the story quest _Reunion_ and cannot be missed.\n\n**Note:** This Hel Tear is tracked as one of 6 needed to complete Favor [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515).",
+          latitude: "0.50757944768083",
+          longitude: "-0.74637901150740",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/cd9f1ed3-24db-42a3-af13-d03e8059e47d.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          mapSlug: "sindris-house",
+          title: "Hel Tear",
+          description:
+            "This Hel Tear must be closed as part of story quest _Unleashing Hel_ and cannot be missed.\n\n**Note:** The Favor for closing Hel Tears, [Hel to Pay](https://mapgenie.io/god-of-war-ragnarok/maps/helheim?locationIds=216515) (Helheim), does not begin until the subsequent story quest _Reunion_.  However this Hel Tear is still tracked as one of 6 needed for the Favor.",
+          latitude: "0.60853818350051",
+          longitude: "-0.72519864320111",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/2794d2e1-f032-4dfa-95e1-2b00419a0d56.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          mapSlug: "midgard",
+          title: "Hel Tear",
+          description: "Found climbing the cliffs that lead to the Well of Urd",
+          latitude: "0.88625234635153",
+          longitude: "-0.73723196983522",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/1d32531b-2962-4c2f-b39e-85e927ed89ef.png",
+              type: "image",
+            },
+          ],
+        },
+        {
+          mapSlug: "vanaheim",
+          title: "Hel Tear",
+          latitude: "0.38563007350608",
+          longitude: "-0.63840846043234",
+          media: [
+            {
+              url: "https://media.mapgenie.io/storage/media/a986c2af-1e2d-4681-9f5a-0183ac993220.png",
+              type: "image",
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: "Lindwyrm",
       icon: "lindwyrm",
       info: "**Associated Favor:** The Lost Lindwyrms",

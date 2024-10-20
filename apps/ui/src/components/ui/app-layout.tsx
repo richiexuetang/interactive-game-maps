@@ -64,7 +64,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
               <p className="order-2 md:order-1 mt-8 md:mt-0">
                 &copy; Ritcher Interactive Map, 2024.
               </p>
-              <div className="order-1 md:order-2">
+              <div className="order-1 md:order-2 cursor-pointer">
                 <span
                   className="px-2"
                   onClick={() =>
@@ -77,7 +77,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
                   Github
                 </span>
                 <span
-                  className="px-2 border-l"
+                  className="px-2 border-l cursor-pointer"
                   onClick={() =>
                     window.open(
                       "https://www.linkedin.com/in/richardxuetang",
@@ -88,7 +88,7 @@ export const AppLayout = ({ children }: React.PropsWithChildren) => {
                   LinkedIn
                 </span>
                 <span
-                  className="px-2 border-l"
+                  className="px-2 border-l cursor-pointer"
                   onClick={() =>
                     window.open("https://rebsite-eight.vercel.app", "_blank")
                   }

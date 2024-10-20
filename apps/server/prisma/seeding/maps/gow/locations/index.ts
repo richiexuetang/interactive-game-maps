@@ -1189,18 +1189,6 @@ export const locations = {
           longitude: "-0.79740962806773",
         },
         {
-          mapSlug: "jotunheim",
-          title: "Mystic Gateway",
-          latitude: "0.70772816699757",
-          longitude: "-0.67603565734581",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/fe917db5-77bb-4ff1-ac95-1a4804f8f510.jpg",
-              type: "image",
-            },
-          ],
-        },
-        {
           mapSlug: "helheim",
           title: "Hel's Perch",
           latitude: "0.55670465118114",

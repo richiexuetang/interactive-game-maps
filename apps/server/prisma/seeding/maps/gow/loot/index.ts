@@ -584,11 +584,17 @@ export const loot = {
               url: "https://media.mapgenie.io/storage/media/14e0e58d-d51f-48e2-8364-86771164d3e9.png",
               type: "image",
             },
+            {
+              url: "https://ritcher-media.s3.us-west-1.amazonaws.com/God_of_War_Ragnarok_Banahogg_Knob.webp",
+              type: "image",
+            },
           ],
         },
         {
           mapSlug: "svartalfheim",
           title: "Pommels of the Undying Spark",
+          description:
+            "**Effect** Boosts STRENGTH and RUNIC. Grants the Scorching Burn perk, increases the damage that the Burn status inflicts on enemies.",
           latitude: "0.65115714551747",
           longitude: "-0.83760617940874",
           media: [
@@ -596,78 +602,8 @@ export const loot = {
               url: "https://media.mapgenie.io/storage/media/fb74554e-1dee-4f71-981d-c554c10b7e42.jpg",
               type: "image",
             },
-          ],
-        },
-        {
-          mapSlug: "jotunheim",
-          title: "Runic Potency",
-          description:
-            "On the island inside the cave.  Take the path up and around, then drop down to the chest\n\n**Note:** Untracked in game for 100% completion",
-          latitude: "0.80754348141676",
-          longitude: "-0.87628841400223",
-          media: [
             {
-              url: "https://media.mapgenie.io/storage/media/99fe0c70-94fc-4810-b8fb-454950f8fb8a.png",
-              type: "image",
-            },
-            {
-              url: "https://media.mapgenie.io/storage/media/ba94e047-a117-42ff-a669-6471379620e9.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "jotunheim",
-          title: "Rampaging Ibex",
-          latitude: "0.53638200360713",
-          longitude: "-0.70069115158321",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/f2ffe172-893c-4771-b836-aceadb8d28c6.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "jotunheim",
-          title: "Runestone Refinement",
-          latitude: "0.80146424138499",
-          longitude: "-0.75464427840367",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/ffa968ce-8150-4831-8bcc-ec099da2bfef.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "asgard",
-          title: "Splintered Sigil",
-          description:
-            "Use Runic Arrows to chain the fire from the campfire above, to the brambles blocking the chest below\n\n**Note:** Untracked in game for 100% completion",
-          latitude: "0.49283011917937",
-          longitude: "-0.82266781033823",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/65d12014-b49a-4e34-a949-122365f8ade7.png",
-              type: "image",
-            },
-            {
-              url: "https://media.mapgenie.io/storage/media/fb3892dc-5371-4230-8ceb-4d166133612b.png",
-              type: "image",
-            },
-          ],
-        },
-        {
-          mapSlug: "asgard",
-          title: "Legendary Chest",
-          description:
-            "Underground in Odin's study.\n\n**Note:** Untracked in game for 100% completion",
-          latitude: "0.93777160278469",
-          longitude: "-0.67386452339835",
-          media: [
-            {
-              url: "https://media.mapgenie.io/storage/media/e5cac11d-3b99-4363-879a-74035d3c9140.png",
+              url: "https://ritcher-media.s3.us-west-1.amazonaws.com/God_of_War_Ragnarok_Pommels_of_the_Undying_Spark.webp",
               type: "image",
             },
           ],
@@ -676,7 +612,7 @@ export const loot = {
           mapSlug: "helheim",
           title: "Onslaught Shield",
           description:
-            "Find this [shield in the chest rewarded for defeating Garm\n\n**Note:** You cannot return to this location.  If you don't open the chest but progress forward, this shield can be purchased from any Shop.",
+            "Find this shield in the chest rewarded for defeating Garm\n\n**Note:** You cannot return to this location.  If you don't open the chest but progress forward, this shield can be purchased from any Shop.",
           latitude: "0.75084264398451",
           longitude: "-0.59663576485804",
           media: [
