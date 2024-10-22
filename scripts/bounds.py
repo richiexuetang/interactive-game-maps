@@ -127,8 +127,59 @@ helheim = dict(ragnarokBounds)
 
 niflheim = dict(ragnarokBounds)
 
+# Witcher 3
+whiteOrchard = {
+    "min_zoom": 8,
+    "max_zoom": 14,
+    "bounds": {
+        "8": {
+            "min_x": 7,
+            "min_y": 7,
+            "max_x": 8,
+            "max_y": 8
+        },
+        "9": {
+            "min_x": 15,
+            "min_y": 15,
+            "max_x": 17,
+            "max_y": 17
+        },
+        "10": {
+            "min_x": 31,
+            "min_y": 31,
+            "max_x": 35,
+            "max_y": 35
+        },
+        "11": {
+            "min_x": 64,
+            "min_y": 64,
+            "max_x": 69,
+            "max_y": 69
+        },
+        "12": {
+            "min_x": 128,
+            "min_y": 128,
+            "max_x": 141,
+            "max_y": 141
+        },
+        "13": {
+            "min_x": 257,
+            "min_y": 257,
+            "max_x": 277,
+            "max_y": 277
+        },
+        "14": {
+            "min_x": 515,
+            "min_y": 515,
+            "max_x": 555,
+            "max_y": 555
+        }
+    }
+}
+
 configs = [
     {"zelda-tears-of-the-kingdom": dict(totk)},
+    {"white-orchard": dict(whiteOrchard)},
     sindrisHouse,
     vanaheim,
     alfheim,

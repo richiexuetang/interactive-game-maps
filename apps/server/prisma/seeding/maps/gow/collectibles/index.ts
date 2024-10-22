@@ -6,7 +6,7 @@ export const collectibles = {
       locations: [
         {
           mapSlug: "sindris-house",
-          title: "Vidar's Might Set (Kratos)",
+          title: "Vidar's Might Set",
           description:
             "**Level:** ??  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
           latitude: "0.67143448076025",
@@ -20,7 +20,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Fortified Husk Set (Kratos)",
+          title: "Fortified Husk Set",
           description:
             "**Level:** 1  \n**Unlock:** Craftable at the Shop after completing story quest _The Quest for Tyr_",
           latitude: "0.67311169049404",
@@ -34,7 +34,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Risen Snow Set (Kratos)",
+          title: "Risen Snow Set",
           description:
             '**Level:** 1  \n**Unlock:** Craftable at the Shop after completing story quest _The Quest for Tyr_\n\n**Note:** This armor can currently only be obtained through purchase of the "Launch Edition" of the game.  It is not required for 100% completion and is not tracked in game.',
           latitude: "0.66800511427714",
@@ -48,7 +48,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Enlightenment Set (Kratos)",
+          title: "Enlightenment Set",
           description:
             "**Level:** 3  \n**Unlock:** Craftable at the Shop after completing story quest _Groa's Secret_",
           latitude: "0.69203238773841",
@@ -62,7 +62,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Sol's Set (Kratos)",
+          title: "Sol's Set",
           description:
             "**Level:** 4  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
           latitude: "0.69546899010427",
@@ -76,7 +76,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Spiritual Set (Kratos)",
+          title: "Spiritual Set",
           description:
             "**Level:** 4  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
           latitude: "0.69340920488172",
@@ -90,7 +90,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Mani's Wisdom Set (Kratos)",
+          title: "Mani's Wisdom Set",
           description:
             "**Level:** 5  \n**Unlock:** Progress the story until this set becomes available to craft at a Shop",
           latitude: "0.68105047482004",
@@ -104,7 +104,7 @@ export const collectibles = {
         },
         {
           mapSlug: "sindris-house",
-          title: "Giptumadr's Set (Kratos)",
+          title: "Giptumadr's Set",
           description:
             "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing story quest _The Word of Fate_",
           latitude: "0.69031589886509",
@@ -117,18 +117,10 @@ export const collectibles = {
           ],
         },
         {
-          mapSlug: "sindris-house",
-          title: "Darkdale Attire (Atreus)",
-          description:
-            "**Unlock:** Can only be obtained by purchasing God of War Ragnarok Deluxe Edition\n\n**Note:** This Armor Set is not required for 100% completion and is untracked in game.",
-          latitude: "0.70885394553324",
-          longitude: "-0.68818320667515",
-        },
-        {
           mapSlug: "vanaheim",
-          title: "Lunda's Lost Set (Kratos)",
+          title: "Lunda's Lost Set",
           description:
-            "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor The Mysterious Orb",
+            "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [The Mysterious Orb](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10891)",
           latitude: "0.51623193395690",
           longitude: "-0.68583782806709",
           media: [
@@ -140,9 +132,9 @@ export const collectibles = {
         },
         {
           mapSlug: "vanaheim",
-          title: "Fallen Stars Set (Kratos)",
+          title: "Fallen Stars Set",
           description:
-            "**Level:** 6  \n**Unlock:** \n- Bracers of Fallen Stars",
+            "**Level:** 6  \n**Unlock:** \n- [Bracers of Fallen Stars](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10838)\n- [Plackart of Fallen Stars](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10839)\n- [Waist Guard of Fallen Stars](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10843)",
           latitude: "0.85489172265960",
           longitude: "-0.71325407583413",
           media: [
@@ -154,7 +146,7 @@ export const collectibles = {
         },
         {
           mapSlug: "vanaheim",
-          title: "Dragon Scaled Set (Kratos)",
+          title: "Dragon Scaled Set",
           description:
             "**Level:** 6  \n**Unlock:** Can be crafted after reaching The Crater.  Requires Dragon Claw and Dragon Tooth.",
           latitude: "0.93110380884499",
@@ -168,7 +160,7 @@ export const collectibles = {
         },
         {
           mapSlug: "vanaheim",
-          title: "Hunter's Set (Kratos)",
+          title: "Hunter's Set",
           description:
             "**Level:** 6  \n**Unlock:** Craftable at the Shop after find a Hunter's Brand in The Crater (?)",
           latitude: "0.89612434925195",
@@ -181,38 +173,10 @@ export const collectibles = {
           ],
         },
         {
-          mapSlug: "vanaheim",
-          title: "Agony's Promise Tunic (Freya)",
-          description: "**Unlock:** This is the starting armor for Freya",
-          latitude: "0.51416631844808",
-          longitude: "-0.69997802181572",
-        },
-        {
-          mapSlug: "vanaheim",
-          title: "Regal Vanir Garments (Freya)",
-          description:
-            "**Unlock:** Reward for completing Favor [Freya's Missing Peace",
-          latitude: "0.47520575529212",
-          longitude: "-0.71678325077806",
-        },
-        {
-          mapSlug: "vanaheim",
-          title: "Tattered Witch Frock (Freya)",
-          description: "**Unlock:** This is the starting armor for Freya",
-          latitude: "0.51301759441787",
-          longitude: "-0.70394595574467",
-        },
-        {
-          mapSlug: "vanaheim",
-          title: "Warrior's Battledress (Freya)",
-          description: "**Unlock:** This is the starting armor for Freya",
-          latitude: "0.51027112189594",
-          longitude: "-0.70154269646673",
-        },
-        {
           mapSlug: "alfheim",
-          title: "Radiance Set (Kratos)",
-          description: "**Level:** 4  \n**Unlock:** \n- Belt of Radiance",
+          title: "Radiance Set",
+          description:
+            "**Level:** 4  \n**Unlock:** \n- [Belt of Radiance](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10770)\n- [Shoulder Straps of Radiance](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10771)\n- [Gauntlets of Radiance](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10772)",
           latitude: "0.70383093553374",
           longitude: "-0.55544466187914",
           media: [
@@ -224,7 +188,7 @@ export const collectibles = {
         },
         {
           mapSlug: "muspelheim",
-          title: "Undying Pyres Set (Kratos)",
+          title: "Undying Pyres Set",
           description:
             "**Level:** 6  \n**Unlock:** Craftable at the Shop after completing Muspelheim Trials",
           latitude: "0.81067238204993",
@@ -238,7 +202,7 @@ export const collectibles = {
         },
         {
           mapSlug: "muspelheim",
-          title: "Surtr's Scorched Set (Kratos)",
+          title: "Surtr's Scorched Set",
           description:
             "**Level:** 7  \n**Unlock:** Craftable at the Shop after completing Muspelheim final challenges",
           latitude: "0.80163247563561",
@@ -250,16 +214,10 @@ export const collectibles = {
             },
           ],
         },
-        {
-          mapSlug: "muspelheim",
-          title: "The Queen's Armor (Freya)",
-          description: "**Unlock:** Reward for defeating [Gn\u00e1",
-          latitude: "0.76557569024084",
-          longitude: "-0.82366227371890",
-        },
+
         {
           mapSlug: "midgard",
-          title: "Survival Set (Kratos)",
+          title: "Survival Set",
           description:
             "**Level:** 1  \n**Unlock:** This is the starting armor for Kratos",
           latitude: "0.62639947198569",
@@ -273,9 +231,9 @@ export const collectibles = {
         },
         {
           mapSlug: "midgard",
-          title: "Guiding Light Set (Kratos)",
+          title: "Guiding Light Set",
           description:
-            "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [Guiding Light",
+            "**Level:** 5  \n**Unlock:** Craftable at the Shop after completing Favor [Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10923).  Each armor piece can also be retrieved from near the objectives for the Favor - \n- [Waist Guard of Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10850)\n- [Guantlets of Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10851)\n- [Breastplate of Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10852)",
           latitude: "0.80819144503265",
           longitude: "-0.64209946089292",
           media: [
@@ -287,9 +245,9 @@ export const collectibles = {
         },
         {
           mapSlug: "midgard",
-          title: "Steinbjorn Set (Kratos)",
+          title: "Steinbjorn Set",
           description:
-            "**Level:** 6  \n**Unlock:** Craftable at the Shop after obtaining the [Mystical Heirloom",
+            "**Level:** 6  \n**Unlock:** Craftable at the Shop after obtaining the [Mystical Heirloom](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10739) and overcoming the 3 Sleeping Troll encounters:\n- [Blodugr Steinn](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=11015) (Midgard)\n- [Bjarg Stormr](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=11014) (Alfheim)\n- [G\u00f6lrab of the Ashes and Frost](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10601) (Vanaheim)",
           latitude: "0.68531959174460",
           longitude: "-0.64584748646757",
           media: [
@@ -301,7 +259,7 @@ export const collectibles = {
         },
         {
           mapSlug: "midgard",
-          title: "Berserker Set (Kratos)",
+          title: "Berserker Set",
           description:
             "**Level:** 5  \n**Unlock:** Craftable at the Shop after obtaining the necessary materials through completing Berserker Gravestones",
           latitude: "0.81805410807829",
@@ -315,7 +273,7 @@ export const collectibles = {
         },
         {
           mapSlug: "midgard",
-          title: "Fate Breaker Set (Kratos)",
+          title: "Fate Breaker Set",
           description:
             "**Level:** 6  \n**Unlock:** Purchasable at the beginning of story quest _The Realms at War_",
           latitude: "0.74047487541695",
@@ -327,50 +285,12 @@ export const collectibles = {
             },
           ],
         },
-        {
-          mapSlug: "midgard",
-          title: "Brother's Brand Vestment (Atreus)",
-          description:
-            "**Unlock:** Craftable at the Shop after completing story quest _Surviving Fimbulwinter_",
-          latitude: "0.62295115229247",
-          longitude: "-0.91785051787221",
-        },
-        {
-          mapSlug: "midgard",
-          title: "Survival Garb (Atreus)",
-          description: "**Unlock:** This is the starting armor for Atreus",
-          latitude: "0.62758573348130",
-          longitude: "-0.91613390410214",
-        },
-        {
-          mapSlug: "midgard",
-          title: "Risen Snow Tunic (Atreus)",
-          description:
-            '**Unlock:** Craftable at the Shop after completing story quest _Surviving Fimbulwinter_\n\n**Note:** This armor can currently only be obtained through purchase of the "Launch Edition" of the game.  It is not required for 100% completion and is not tracked in game.',
-          latitude: "0.62192124481025",
-          longitude: "-0.91424562895727",
-        },
-        {
-          mapSlug: "midgard",
-          title: "Fate Breaker Tunic (Atreus)",
-          description:
-            "**Unlock:** Purchasable at the beginning of story quest _The Realms at War_",
-          latitude: "0.73874618100706",
-          longitude: "-0.56695255902528",
-        },
-        {
-          mapSlug: "midgard",
-          title: "Fate Breaker Tunic (Freya)",
-          description:
-            "**Unlock:** Purchasable at the beginning of story quest _The Realms at War_",
-          latitude: "0.73652763495218",
-          longitude: "-0.56945081781626",
-        },
+
         {
           mapSlug: "svartalfheim",
-          title: "Ni\u00f0avellir's Finest Set (Kratos)",
+          title: "Ni\u00f0avellir's Finest Set",
           description:
-            "**Level:** 2  \n**Unlock:** Craftable at any Shop after completing Favor [In Service of Asgard",
+            "**Level:** 2  \n**Unlock:** Craftable at any Shop after completing Favor [In Service of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10929)",
           latitude: "0.73187394620824",
           longitude: "-0.57953083216256",
           media: [
@@ -380,10 +300,12 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "niflheim",
-          title: "Raven Tears Set (Kratos)",
-          description: "**Level:** 3  \n**Unlock:** \n- [Girdle of Raven Tears",
+          title: "Raven Tears Set",
+          description:
+            "**Level:** 3  \n**Unlock:** \n- [Girdle of Raven Tears](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=10801)\n- [Bracers of Raven Tears](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=10802)\n- [Cuirass of Raven Tears](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=10803)",
           latitude: "0.74948157922431",
           longitude: "-0.90142914924871",
           media: [
@@ -401,7 +323,7 @@ export const collectibles = {
         {
           mapSlug: "vanaheim",
           title: "Family Crests - Skirnir's Crest",
-          description: "On the ground in front of the [Mystic Gateway",
+          description: "On the ground in front of the Mystic Gateway",
           latitude: "0.48811322100141",
           longitude: "-0.71720123290709",
           media: [
@@ -487,16 +409,16 @@ export const collectibles = {
           mapSlug: "alfheim",
           title: "Tributes to Freyr - Harp",
           description:
-            "In a small cave just South-East of the entrance to The Barrens from The Canyons\n\n**Requires:** Completion of Favor [Secret of the Sands.",
+            "In a small cave just South-East of the entrance to The Barrens from The Canyons\n\n**Requires:** Completion of Favor [Secret of the Sands](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10914).",
           latitude: "0.64394952980052",
           longitude: "-0.62110384526491",
           media: [
             {
-              url: "https://media.mapgenie.io/storage/media/87cf8ac2-49ce-4ae9-81ef-1e8c878e1e67.png",
+              url: "https://media.mapgenie.io/storage/media/9f0da9bc-b6f0-436e-af2c-a89bac8f7584.png",
               type: "image",
             },
             {
-              url: "https://media.mapgenie.io/storage/media/9f0da9bc-b6f0-436e-af2c-a89bac8f7584.png",
+              url: "https://media.mapgenie.io/storage/media/87cf8ac2-49ce-4ae9-81ef-1e8c878e1e67.png",
               type: "image",
             },
           ],
@@ -517,7 +439,7 @@ export const collectibles = {
         {
           mapSlug: "alfheim",
           title: "Tributes to Freyr - Horn",
-          description: "On the ground next to the [lore marker",
+          description: "On the ground next to the lore marker",
           latitude: "0.81553197086650",
           longitude: "-0.61814610578267",
           media: [
@@ -613,11 +535,11 @@ export const collectibles = {
           longitude: "-0.80688180534034",
           media: [
             {
-              url: "https://media.mapgenie.io/storage/media/b7f2d61f-2fb4-41a3-aa81-7ce9675cbcdb.png",
+              url: "https://media.mapgenie.io/storage/media/3269df4a-dce9-45a9-86bf-c4ea6a3108dc.png",
               type: "image",
             },
             {
-              url: "https://media.mapgenie.io/storage/media/3269df4a-dce9-45a9-86bf-c4ea6a3108dc.png",
+              url: "https://media.mapgenie.io/storage/media/b7f2d61f-2fb4-41a3-aa81-7ce9675cbcdb.png",
               type: "image",
             },
           ],
@@ -760,7 +682,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "Under the Rainbow Treasure",
           description:
-            "**Treasure Map:** [Under the Rainbow\n\n**Reward:** \n- Amulet Enchantment - Niflheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Rune",
+            "**Treasure Map:** [Under the Rainbow](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10848)\n\n**Reward:** \n- Amulet Enchantment - Niflheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Rune",
           latitude: "0.37011335830979",
           longitude: "-0.73398115942285",
           media: [
@@ -774,7 +696,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "The Giant's Toes Treasure",
           description:
-            "Behind the [Mystic Gateway\n\n**Reward:** \n- Amulet Enchantment - Vanaheim\u2019s Power\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
+            "Behind the Mystic Gateway\n\n**Treasure Map:** [The Giant's Toes](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10849)\n\n**Reward:** \n- Amulet Enchantment - Vanaheim\u2019s Power\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
           latitude: "0.43096255191595",
           longitude: "-0.71547389030434",
           media: [
@@ -788,7 +710,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "A Scar is Born Treasure",
           description:
-            "On the ground under the archway \n\n**Treasure Map:** A Scar is Born\n\n**Reward:** \n- Amulet Enchantment - Asgard\u2019s Justice\n- 4 Asgardian Ingots\n- 4 Luminous Alloy\n- 4 Petrified Bones\n- 75 Shattered Runes",
+            "On the ground under the archway \n\n**Treasure Map:** [A Scar is Born](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10850)\n\n**Reward:** \n- Amulet Enchantment - Asgard\u2019s Justice\n- 4 Asgardian Ingots\n- 4 Luminous Alloy\n- 4 Petrified Bones\n- 75 Shattered Runes",
           latitude: "0.88712830540743",
           longitude: "-0.68751730097938",
           media: [
@@ -802,7 +724,7 @@ export const collectibles = {
           mapSlug: "alfheim",
           title: "Vulture's Gold Treasure",
           description:
-            "Found inside the mouth of the giant skull.\n\n**Treasure Map:** [Vulture's Gold  \n\n**Reward:**\n- Companion Accessory - Lethal Detonation\n- 1 Stonewood\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 10 Shattered Runes",
+            "Found inside the mouth of the giant skull.\n\n**Treasure Map:** [Vulture's Gold](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10857)  \n\n**Reward:**\n- Companion Accessory - Lethal Detonation\n- 1 Stonewood\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 10 Shattered Runes",
           latitude: "0.77200057500508",
           longitude: "-0.53790422467617",
           media: [
@@ -816,7 +738,7 @@ export const collectibles = {
           mapSlug: "alfheim",
           title: "Forgotten Tower Treasure",
           description:
-            "**Treasure Map:** [Forgotten Tower\n\n**Reward:** \n- Amulet Enchantment - Alfheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
+            "**Treasure Map:** [Forgotten Tower](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10858)\n\n**Reward:** \n- Amulet Enchantment - Alfheim\u2019s Virtue\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 10 Shattered Runes",
           latitude: "0.93394672740395",
           longitude: "-0.81771377088376",
           media: [
@@ -830,7 +752,7 @@ export const collectibles = {
           mapSlug: "midgard",
           title: "Demise of Dagestr Treasure",
           description:
-            "**Treasure Map:** Demise of Dagestr\n\n**Reward:** \n- Amulet Enchantment - Helheim\u2019s Force\n- 2 Asgardian Ingots\n- 2 Luminous Alloy\n- 2 Petrified Bones\n- 40 Shattered Runes",
+            "**Treasure Map:** [Demise of Dagestr](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10863) (Svartalfheim)\n\n**Reward:** \n- Amulet Enchantment - Helheim\u2019s Force\n- 2 Asgardian Ingots\n- 2 Luminous Alloy\n- 2 Petrified Bones\n- 40 Shattered Runes",
           latitude: "0.79520567607227",
           longitude: "-0.69409728223849",
           media: [
@@ -844,7 +766,7 @@ export const collectibles = {
           mapSlug: "midgard",
           title: "Viking's Gift Treasure",
           description:
-            "On the ground just in frond of the large doors\n\n**Treasure Map:** [Viking's Gift\n\n**Reward:**\n- Amulet Enchantment - Midgard\u2019s Justice\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 25 Shattered Runes",
+            "On the ground just in frond of the large doors\n\n**Treasure Map:** [Viking's Gift](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10859)\n\n**Reward:**\n- Amulet Enchantment - Midgard\u2019s Justice\n- 1 Dwarven Steel\n- 1 Honed Metal\n- 1 Stonewood\n- 25 Shattered Runes",
           latitude: "0.77828874742430",
           longitude: "-0.46895742416359",
           media: [
@@ -858,7 +780,7 @@ export const collectibles = {
           mapSlug: "svartalfheim",
           title: "Washed Ashore Treasure",
           description:
-            "**Treasure Map:** [Washed Ashore\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Virtue\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+            "**Treasure Map:** [Washed Ashore](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10862)\n\n**Reward:** \n- Amulet Enchantment - Jotunheim\u2019s Virtue\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
           latitude: "0.79264853394062",
           longitude: "-0.57934312502636",
           media: [
@@ -872,7 +794,7 @@ export const collectibles = {
           mapSlug: "svartalfheim",
           title: "Mining Glory Treasure",
           description:
-            "**Treasure Map:** [Mining Glory\n\n**Reward:** \n- Amulet Enchantment - Muspelheim\u2019s Blessing\n-1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+            "**Treasure Map:** [Mining Glory](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10860)\n\n**Reward:** \n- Amulet Enchantment - Muspelheim\u2019s Blessing\n-1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
           latitude: "0.58350713626018",
           longitude: "-0.80196910694781",
           media: [
@@ -886,7 +808,7 @@ export const collectibles = {
           mapSlug: "svartalfheim",
           title: "Fruits of Industry Treasure",
           description:
-            "**Treasure Map:** [Fruits of Industry\n\n**Reward:** \n- Amulet Enchantment - svartalfheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
+            "**Treasure Map:** [Fruits of Industry](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10861)\n\n**Reward:** \n- Amulet Enchantment - Svartalfheim\u2019s Lifeblood\n- 1 Asgardian Ingot\n- 1 Luminous Alloy\n- 1 Petrified Bone\n- 40 Shattered Runes",
           latitude: "0.81190968163736",
           longitude: "-0.68713903426968",
           media: [
@@ -968,7 +890,8 @@ export const collectibles = {
         {
           mapSlug: "midgard",
           title: "Jewel of Yggdrasil",
-          description: "Drops from defeating the [Frost Phantom",
+          description:
+            "Drops from defeating the [Frost Phantom](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=11006)",
           latitude: "0.85859272650404",
           longitude: "-0.79579475724842",
           media: [
@@ -1142,7 +1065,7 @@ export const collectibles = {
           mapSlug: "midgard",
           title: "Kvasir's Poem - The Dead Do Not Ride",
           description:
-            "From down in the cellar, climb out the hole in the ceiling to the left of the [Nornir Chest and up to the ledge with a Red Coffin and the poem on the floor",
+            "From down in the cellar, climb out the hole in the ceiling to the left of the Nornir Chest and up to the ledge with a Red Coffin and the poem on the floor",
           latitude: "0.85043287736413",
           longitude: "-0.57526946067549",
           media: [
@@ -1486,7 +1409,7 @@ export const collectibles = {
         {
           mapSlug: "vanaheim",
           title: "Living Masterpiece",
-          description: "Just east of the [Mystic Gateway",
+          description: "Just east of the Mystic Gateway",
           latitude: "0.42813021879390",
           longitude: "-0.70809245109555",
           media: [
@@ -1618,10 +1541,11 @@ export const collectibles = {
           latitude: "0.54807007233983",
           longitude: "-0.65355080180225",
         },
+
         {
           mapSlug: "alfheim",
           title: "Broken History",
-          description: "At the base of the statue near the [Mystic Gateway",
+          description: "At the base of the statue near the Mystic Gateway",
           latitude: "0.56312444367769",
           longitude: "-0.79762657479219",
           media: [
@@ -1820,7 +1744,8 @@ export const collectibles = {
         {
           mapSlug: "alfheim",
           title: "The Enlightened One",
-          description: "**Requires:** Completion of Favor [Freyr's Gift",
+          description:
+            "**Requires:** Completion of Favor [Freyr's Gift](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10915)",
           latitude: "0.93446164308797",
           longitude: "-0.80569747451497",
           media: [
@@ -1846,6 +1771,7 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "muspelheim",
           title: "Valhalla Rises",
@@ -1872,11 +1798,12 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "midgard",
           title: "Tyr's Right Bracer",
           description:
-            "**Requires:** Completion of story quest _Into the Fire_\n\nOn the large armature behind the brambles\n\n**Associated Favor:** [Guiding Light",
+            "**Requires:** Completion of story quest _Into the Fire_\n\nOn the large armature behind the brambles\n\n**Associated Favor:** [Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10923)",
           latitude: "0.82172556905445",
           longitude: "-0.58902382850493",
           media: [
@@ -1958,7 +1885,8 @@ export const collectibles = {
         {
           mapSlug: "midgard",
           title: "Tyr's Left Bracer",
-          description: "**Associated Favor:** [Guiding Light",
+          description:
+            "**Associated Favor:** [Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10923)",
           latitude: "0.80275889299082",
           longitude: "-0.64964175224281",
           media: [
@@ -1971,7 +1899,8 @@ export const collectibles = {
         {
           mapSlug: "midgard",
           title: "Tyr's Helmet",
-          description: "**Associated Favor:** [Guiding Light",
+          description:
+            "**Associated Favor:** [Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10923)",
           latitude: "0.76406359945597",
           longitude: "-0.56264162063471",
           media: [
@@ -1984,7 +1913,8 @@ export const collectibles = {
         {
           mapSlug: "midgard",
           title: "Tyr's Spear",
-          description: "**Associated Favor:** [Guiding Light",
+          description:
+            "**Associated Favor:** [Guiding Light](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10923)",
           latitude: "0.70411578698129",
           longitude: "-0.50483465194651",
           media: [
@@ -2043,6 +1973,7 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "svartalfheim",
           title: "Unsafe Roads",
@@ -2203,11 +2134,12 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "helheim",
           title: "Hr\u00e6svelgr",
           description:
-            "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway",
+            "Up and around the ruins.  Take the northeastern path from the Mystic Gateway",
           latitude: "0.56884840040343",
           longitude: "-0.86168846913023",
           media: [
@@ -2252,7 +2184,8 @@ export const collectibles = {
         {
           mapSlug: "alfheim",
           title: "Dawnbloom",
-          description: "**Requires:** Complete Favor [Song of the Sands",
+          description:
+            "**Requires:** Complete Favor [Song of the Sands](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10917)",
           latitude: "0.83937264487514",
           longitude: "-0.89581969743543",
           media: [
@@ -2284,7 +2217,7 @@ export const collectibles = {
           mapSlug: "midgard",
           title: "Mirkweed",
           description:
-            "**Requires:** Speak with [Ratatoskr](https://www.ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=11860) after completing all story quests",
+            "**Requires:** Speak with Ratatoskr (Sindri's House) after completing all story quests",
           latitude: "0.50595496677302",
           longitude: "-0.63149674578526",
           media: [
@@ -2324,7 +2257,7 @@ export const collectibles = {
           mapSlug: "niflheim",
           title: "Frostfinger",
           description:
-            "**Requires:** Speak with [Ratatoskr](https://www.ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=11860) after completing all story quests",
+            "**Requires:** Speak with Ratatoskr (Sindri's House) after completing all story quests",
           latitude: "0.63200158309630",
           longitude: "-0.60317296498292",
           media: [
@@ -2562,6 +2495,7 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "alfheim",
           title: "Odin's Raven",
@@ -2673,7 +2607,7 @@ export const collectibles = {
         {
           mapSlug: "alfheim",
           title: "Odin's Raven",
-          description: "On top of the ledge behind the [lore marker",
+          description: "On top of the ledge behind the lore marker",
           latitude: "0.85104434842219",
           longitude: "-0.90217116838269",
           media: [
@@ -2695,6 +2629,7 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "muspelheim",
           title: "Odin's Raven",
@@ -2974,7 +2909,7 @@ export const collectibles = {
           mapSlug: "helheim",
           title: "Odin's Raven",
           description:
-            "Up and around the ruins.  Take the northeastern path from the [Mystic Gateway lore stone",
+            "Up and around the ruins.  Take the northeastern path from the Mystic Gateway.  On the rock just behind and above the [Hr\u00e6svelgr](https://ritcher-map.app/game/god-of-war-ragnarok/map/helheim?marker=216517) lore stone",
           latitude: "0.56689305266323",
           longitude: "-0.85901259869223",
           media: [
@@ -3014,7 +2949,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "Glaive of Dodher",
           description:
-            "Obtained from defeating Fiske during story quest _The Reckoning_",
+            "Obtained from defeating [Fiske](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10994) during story quest _The Reckoning_",
           latitude: "0.60318190900462",
           longitude: "-0.69933575629722",
           media: [
@@ -3042,7 +2977,7 @@ export const collectibles = {
           mapSlug: "vanaheim",
           title: "Hilt of Tyrfing",
           description:
-            "Unlocked after obtaining The Lost Pages scroll - this relic can be crafted at any Shop",
+            "Unlocked after obtaining [The Lost Pages](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10627) scroll - this relic can be crafted at any Shop",
           latitude: "0.86406086851537",
           longitude: "-0.73276405662369",
           media: [
@@ -3069,7 +3004,7 @@ export const collectibles = {
         {
           mapSlug: "alfheim",
           title: "Hilt of Gram",
-          description: "Found in the [Legendary Chest",
+          description: "Found in the Legendary Chest",
           latitude: "0.43816634912183",
           longitude: "-0.86477564519964",
           media: [
@@ -3111,11 +3046,12 @@ export const collectibles = {
             },
           ],
         },
+
         {
           mapSlug: "midgard",
           title: "Mystical Heirloom",
           description:
-            "**Requires:** Draupnir Spear to access\n\nOn the ground next to the lore scroll.  \n\n**Use:** Ring the Mystical Heirloom to awaken Sleeping Bosses across the realms:\n- Blodugr Steinn",
+            "**Requires:** Draupnir Spear to access\n\nOn the ground next to the lore scroll.  \n\n**Use:** Ring the Mystical Heirloom to awaken Sleeping Bosses across the realms:\n- [Blodugr Steinn](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=11015) (Midgard)\n- [Bjarg Stormr](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=11014) (Alfheim)\n- [G\u00f6lrab of the Ashes and Frost](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10607) (Vanaheim)\n- [The Everlasting](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=11016) (Svartalfheim)",
           latitude: "0.68737938046614",
           longitude: "-0.64248870804306",
           media: [
@@ -3146,7 +3082,8 @@ export const collectibles = {
         {
           mapSlug: "midgard",
           title: "Hilt of Skofnung",
-          description: "Obtained from defeating [King Hrolf Kraki",
+          description:
+            "Obtained from defeating [King Hrolf Kraki](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10884)",
           latitude: "0.81300391289402",
           longitude: "-0.38927510616691",
           media: [
@@ -3173,7 +3110,8 @@ export const collectibles = {
         {
           mapSlug: "niflheim",
           title: "M\u00f3tsognir's Call",
-          description: "On the floor next to the [Legendary Chest",
+          description:
+            "On the floor next to the [Legendary Chest](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=216539)",
           latitude: "0.73967747190882",
           longitude: "-0.85823841952524",
           media: [
@@ -3186,7 +3124,8 @@ export const collectibles = {
         {
           mapSlug: "niflheim",
           title: "Hilt of Forsbrandr",
-          description: "Obtained from defeating The Raven Keeper",
+          description:
+            "Obtained from defeating [The Raven Keeper](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=216533)",
           latitude: "0.78129630114039",
           longitude: "-0.89899664414719",
         },
@@ -3280,6 +3219,14 @@ export const collectibles = {
             "**Level:** 3  \n**Unlock:** Found in the Legendary Chest",
           latitude: "0.63117262016092",
           longitude: "-0.64957410218389",
+        },
+        {
+          mapSlug: "helheim",
+          title: "Onslaught Shield",
+          description:
+            "**Level:** 6  \n**Unlock:** Found in the Legendary Chest just after defeating Garm",
+          latitude: "0.75757702905076",
+          longitude: "-0.58879137549414",
         },
       ],
     },

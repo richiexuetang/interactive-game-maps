@@ -5647,7 +5647,6 @@ export const hogwarts = {
         },
         {
           title: "Field Guide Page",
-
           info: "Field Guide Pages are hidden everywhere. Collecting one grants 80 XP and adds it to the collection log.",
           locations: [
             {

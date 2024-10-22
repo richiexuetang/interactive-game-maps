@@ -1,6 +1,8 @@
 export const elevators = [
   {
+    id: 164742,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description:
       "**Location:** Connects the 1st floor and the 7th floor. Must first be activated from the 1st floor.",
@@ -14,7 +16,9 @@ export const elevators = [
     ],
   },
   {
+    id: 164897,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description:
       "**Location:** Connects the [Liftside Chamber](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164047) Site of Grace to the rampart leading to [Secluded Cell](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164049).",
@@ -28,7 +32,9 @@ export const elevators = [
     ],
   },
   {
+    id: 165598,
     mapSlug: "the-lands-between",
+
     title: "Elevator To Siofra River Depths (South)",
     description:
       "[To Siofra River Depths (South)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167501)",
@@ -42,7 +48,9 @@ export const elevators = [
     ],
   },
   {
+    id: 165876,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description:
       "**Location:** After [Moongrum, Carian Knight](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165870). Leads up to [Rennala, Queen of the Full Moon](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164430).",
@@ -56,7 +64,9 @@ export const elevators = [
     ],
   },
   {
+    id: 167499,
     mapSlug: "the-lands-between",
+
     title: "Elevator To Siofra Well (North)",
     description:
       "[To Siofra Well (North)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167500)",
@@ -64,7 +74,9 @@ export const elevators = [
     longitude: "-0.65341814855935",
   },
   {
+    id: 167500,
     mapSlug: "the-lands-between",
+
     title: "Elevator To Overground (Caelid)",
     description:
       "[To Overground (Caelid)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167499)",
@@ -72,7 +84,9 @@ export const elevators = [
     longitude: "-0.66154520445596",
   },
   {
+    id: 167501,
     mapSlug: "the-lands-between",
+
     title: "Elevator To Overground (Limgrave)",
     description:
       "[Elevator To Overground (Limgrave)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165598)",
@@ -80,7 +94,9 @@ export const elevators = [
     longitude: "-0.69648250937365",
   },
   {
+    id: 167510,
     mapSlug: "the-lands-between",
+
     title: "Elevator To Ainsel River Well Depths",
     description:
       "[To Ainsel River Well Depths](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167511)",
@@ -88,7 +104,9 @@ export const elevators = [
     longitude: "-0.76523719019388",
   },
   {
+    id: 167511,
     mapSlug: "the-lands-between",
+
     title: "Elevator To Overground (Liurnia)",
     description:
       "[To Overground (Liurnia)](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167510)",
@@ -96,7 +114,9 @@ export const elevators = [
     longitude: "-0.77368321395384",
   },
   {
+    id: 167752,
     mapSlug: "the-lands-between",
+
     title: "Elevator to Sofia River Bank",
     description:
       "[Night's Sacred Ground](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167492)",
@@ -104,14 +124,18 @@ export const elevators = [
     longitude: "-0.68851819634509",
   },
   {
+    id: 167931,
     mapSlug: "the-lands-between",
+
     title: "Sluice Gate Elevator",
     description: "Between the Site of Grace and Uhl Palace",
     latitude: "0.37248378573840",
     longitude: "-0.78273527760388",
   },
   {
+    id: 168549,
     mapSlug: "the-lands-between",
+
     title: "Lift",
     description:
       "Lift that leads to golden seed. Accessible from a door on the left of the room containing Moon of Nokstella",
@@ -119,7 +143,9 @@ export const elevators = [
     longitude: "-0.80214890080456",
   },
   {
+    id: 168601,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description:
       "Requires [Dark Moon Ring](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=177447), takes you to the [Moonlight Altar](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166807).",
@@ -127,7 +153,9 @@ export const elevators = [
     longitude: "-0.82220512370668",
   },
   {
+    id: 168655,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description: "Elevator to the East Capital Rampart Grace",
     latitude: "0.78255059327049",
@@ -140,14 +168,18 @@ export const elevators = [
     ],
   },
   {
+    id: 168672,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description: "From Nokstella to Grace",
     latitude: "0.38792527819960",
     longitude: "-0.79989223899565",
   },
   {
+    id: 170464,
     mapSlug: "the-lands-between",
+
     title: "Water Wheel",
     description:
       "**Location:** Can be ridden up to a ledge, then down to the bottom.\n\nAbductor at bottom teleports to Volcano Manor (only if you die from it eating you).",
@@ -155,27 +187,35 @@ export const elevators = [
     longitude: "-0.80347055728370",
   },
   {
+    id: 176075,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description: "Noskella / Lake of Rot",
     latitude: "0.37889601827230",
     longitude: "-0.80427241361528",
   },
   {
+    id: 177465,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     latitude: "0.74757687029212",
     longitude: "-0.51499391509313",
   },
   {
+    id: 178164,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description: "To Ground level.",
     latitude: "0.72965871413805",
     longitude: "-0.52754459914135",
   },
   {
+    id: 192639,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description:
       "Temple of Eiglay Exterior to Tower Interior; must be unlocked at the top",
@@ -183,14 +223,18 @@ export const elevators = [
     longitude: "-0.78877340231554",
   },
   {
+    id: 192640,
     mapSlug: "the-lands-between",
+
     title: "Elevator to the Great Bridge",
     description: "Located after the beastmen temple.",
     latitude: "0.74216911420245",
     longitude: "-0.51675448828172",
   },
   {
+    id: 196165,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     description:
       "Located in the back of the Church and takes you down to the [Haligtree Roots Site of Grace](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167413).",
@@ -198,43 +242,57 @@ export const elevators = [
     longitude: "-0.63838722561331",
   },
   {
+    id: 196172,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     latitude: "0.85190102438276",
     longitude: "-0.62347430330794",
   },
   {
+    id: 217446,
     mapSlug: "the-lands-between",
+
     title: "Elevator",
     latitude: "0.79689195016502",
     longitude: "-0.78843766740746",
   },
   {
+    id: 381748,
     mapSlug: "the-shadow-realm",
+
     title: "Ladder",
     latitude: "0.71306674071496",
     longitude: "-0.70138584735810",
   },
   {
+    id: 381782,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     latitude: "0.71557285388904",
     longitude: "-0.69753315484817",
   },
   {
+    id: 381793,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     latitude: "0.71787826269770",
     longitude: "-0.69839186737445",
   },
   {
+    id: 381812,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     latitude: "0.71441607864951",
     longitude: "-0.69319062098208",
   },
   {
+    id: 382101,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     description:
       "**Location:** Behind a door on the ground floor of the church. Leads to [Tree-Worship Passage](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382099). Requires opening [The Dam Lever](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381776)",
@@ -242,27 +300,35 @@ export const elevators = [
     longitude: "-0.69618493617941",
   },
   {
+    id: 382205,
     mapSlug: "the-shadow-realm",
+
     title: "Stone Elevator Down",
     description: "Four Pillars",
     latitude: "0.70978828966419",
     longitude: "-0.72430436108911",
   },
   {
+    id: 382221,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     description: "Guarded by one shadow commoner that uses mesmers flame",
     latitude: "0.71847727120105",
     longitude: "-0.70242221705755",
   },
   {
+    id: 382631,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     latitude: "0.69222123343968",
     longitude: "-0.75300632178192",
   },
   {
+    id: 382693,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     description:
       "Elevator to go up from the rotten zone to get the Pest-Thread Spears",
@@ -270,7 +336,9 @@ export const elevators = [
     longitude: "-0.75530431213033",
   },
   {
+    id: 384483,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     description:
       "The elevator that lets you get to the Aspect of the Crucible : Bloom by going down and to a Revered Spirit Ash enemy drop by going up",
@@ -284,7 +352,9 @@ export const elevators = [
     ],
   },
   {
+    id: 385415,
     mapSlug: "the-shadow-realm",
+
     title: "Lift",
     description:
       'Leads to the closed doors next to the "Belurat, Tower Settlement" Site of Grace',
@@ -292,13 +362,17 @@ export const elevators = [
     longitude: "-0.75433091944728",
   },
   {
+    id: 385417,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     latitude: "0.67680612031239",
     longitude: "-0.75556283205233",
   },
   {
+    id: 386479,
     mapSlug: "the-shadow-realm",
+
     title: "Elevator",
     latitude: "0.67817199650119",
     longitude: "-0.75177960097909",
