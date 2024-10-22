@@ -31,6 +31,7 @@ async function bootstrap() {
       origin: [
         "http://localhost:3000", // React Server
         "https://ritcher-map-v2.vercel.app",
+        "https://www.ritcher-map.app",
       ],
       credentials: true,
     });

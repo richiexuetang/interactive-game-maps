@@ -1,6 +1,8 @@
 export const portals = [
   {
+    id: 164856,
     mapSlug: "the-lands-between",
+
     title: "Teleportation Trap Chest",
     description:
       "In the cellar of the Dragon-Burnt Ruins\n\nTeleports to the middle of the [Sellia Crystal Tunnel](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164376).\n\n**Warning:** Very dangerous to access for low level characters",
@@ -14,7 +16,9 @@ export const portals = [
     ],
   },
   {
+    id: 165155,
     mapSlug: "the-lands-between",
+
     title: "Portal",
     description:
       "**Location:** At the end of the bridge beyond [Limgrave Tower Bridge](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164041).  \n**Destination:** The front steps of [Divine Tower of Limgrave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164074).",
@@ -28,7 +32,9 @@ export const portals = [
     ],
   },
   {
+    id: 165282,
     mapSlug: "the-lands-between",
+
     title: "Portal to Raya Lucaria Academy",
     description:
       "**Location:** Near [South Raya Lucaria Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164150).  \n**Destination:** [Portal to South Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165311)\n\nRequires the [Academy Glintstone Key](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165269) to use",
@@ -42,7 +48,9 @@ export const portals = [
     ],
   },
   {
+    id: 165311,
     mapSlug: "the-lands-between",
+
     title: "Portal to South Gate",
     description:
       "**Location:** Near [Main Academy Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164422).  \n**Destination:** [Portal to Raya Academy](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165282)",
@@ -56,7 +64,9 @@ export const portals = [
     ],
   },
   {
+    id: 165313,
     mapSlug: "the-lands-between",
+
     title: "Portal to East Gate",
     description:
       "**Location:** Near [Main Academy Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164422).  \n**Destination:** [Portal to Raya Academy](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165314).",
@@ -70,7 +80,9 @@ export const portals = [
     ],
   },
   {
+    id: 165314,
     mapSlug: "the-lands-between",
+
     title: "Portal to Raya Academy",
     description:
       "**Location:** Near [East Raya Lucaria Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164179).  \n**Destination:** [Portal to East Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165313)",
@@ -84,7 +96,9 @@ export const portals = [
     ],
   },
   {
+    id: 165345,
     mapSlug: "the-lands-between",
+
     title: "Transporter Trap Chest",
     description:
       "At the top of [Tower of Return](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163981).  \n\nTransports you Lyndall, Royal Capital - near to the [Divine Bridge](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165199) Site of Grace",
@@ -98,7 +112,9 @@ export const portals = [
     ],
   },
   {
+    id: 165596,
     mapSlug: "the-lands-between",
+
     title: "Sending Gate to Bestial Sanctum",
     description:
       "Teleports to the [Bestial Sanctum](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164398)\n\nHidden in the bushes at the end of the river.",
@@ -112,7 +128,9 @@ export const portals = [
     ],
   },
   {
+    id: 165868,
     mapSlug: "the-lands-between",
+
     title: "Portal to Church of Vows",
     description:
       "**Location:** On a balcony, past the curved staircase.  \n**Destination:** [Church of Vows](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165501)",
@@ -126,7 +144,9 @@ export const portals = [
     ],
   },
   {
+    id: 166239,
     mapSlug: "the-lands-between",
+
     title: "Sending Gate",
     description:
       "**Located:** At the top of the tower after the Redman Knight.\n\n**Leads To:**  [Outside Redmane Castle](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168904). Beside the Impassable Greatbridge",
@@ -134,7 +154,9 @@ export const portals = [
     longitude: "-0.67541375756397",
   },
   {
+    id: 166429,
     mapSlug: "the-lands-between",
+
     title: "Laskyar Ruins Portal",
     description:
       "Teleports to [South Raya Lucaria Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164150)",
@@ -142,7 +164,9 @@ export const portals = [
     longitude: "-0.77614545822070",
   },
   {
+    id: 166460,
     mapSlug: "the-lands-between",
+
     title: "Portal to Crumbling Farum Azula",
     description:
       "Teleports to an isolated part of [Crumbling Farum Azula](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167132), where you can collect the [Pearldrake Talisman](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168793).\n\nRequires 1 Imbued Sword Key to unseal.",
@@ -156,7 +180,9 @@ export const portals = [
     ],
   },
   {
+    id: 166461,
     mapSlug: "the-lands-between",
+
     title: "Portal to Nokron, Eternal City",
     description:
       "Teleports to [Nokron, Eternal City](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170997).\n\nRequires 1 Imbued Sword Key to unseal.",
@@ -170,7 +196,9 @@ export const portals = [
     ],
   },
   {
+    id: 166462,
     mapSlug: "the-lands-between",
+
     title: "Portal to Chapel of Anticipation",
     description:
       "Teleports to the [prologue area](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175484).\n\nRequires 1 Imbued Sword Key to unseal.",
@@ -184,7 +212,9 @@ export const portals = [
     ],
   },
   {
+    id: 166463,
     mapSlug: "the-lands-between",
+
     title: "Portal to Isolated Divine Tower",
     description:
       "**Portal To:** [Isolated Divine Tower](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167609)",
@@ -198,7 +228,9 @@ export const portals = [
     ],
   },
   {
+    id: 166662,
     mapSlug: "the-lands-between",
+
     title: "Sending Gate",
     description:
       "Destination: [Northern Liurnia Lake Shore Site of Grace](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164163)",
@@ -206,7 +238,9 @@ export const portals = [
     longitude: "-0.78691989183434",
   },
   {
+    id: 166800,
     mapSlug: "the-lands-between",
+
     title: "Portal to South Raya Lucaria Gate",
     description:
       "**To:** [South Raya Lucaria Gate](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164150)",
@@ -220,7 +254,9 @@ export const portals = [
     ],
   },
   {
+    id: 167122,
     mapSlug: "the-lands-between",
+
     title: "Portal",
     description:
       "Teleports you across the ravine to the [northern side of the river](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=171331) near the Minor Erdtree",
@@ -228,7 +264,9 @@ export const portals = [
     longitude: "-0.63761862582624",
   },
   {
+    id: 167691,
     mapSlug: "the-lands-between",
+
     title: "Portal at Forest-Spanning Greatbridge",
     description:
       "Portal  by site of grace takes you to other end of broken bridge above [Road of Iniquity Side Path site of grace](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166783).",
@@ -242,7 +280,9 @@ export const portals = [
     ],
   },
   {
+    id: 167763,
     mapSlug: "the-lands-between",
+
     title: "Portal to Worshippers' Woods",
     description:
       "Takes you to the portal in the [Worshipper's Woods](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167927)",
@@ -250,7 +290,9 @@ export const portals = [
     longitude: "-0.67757758518081",
   },
   {
+    id: 167927,
     mapSlug: "the-lands-between",
+
     title: "Portal to Siofra River Bank",
     description:
       "To the small island north of [Siofra River Bank](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167473) Site of Grace",
@@ -258,7 +300,9 @@ export const portals = [
     longitude: "-0.66586156098009",
   },
   {
+    id: 167974,
     mapSlug: "the-lands-between",
+
     title: "Portal to Cliffside",
     description:
       "Run up a fallen pillar to the top of a crumbled bridge support. Using it will teleport you to the [location](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169076) to fight the [Dragonkin Soldier](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167928)",
@@ -266,7 +310,9 @@ export const portals = [
     longitude: "-0.66670813209726",
   },
   {
+    id: 168006,
     mapSlug: "the-lands-between",
+
     title: "Portal to Mohgwyn Palace",
     description:
       "Leads to cliffs overlooking path to Mohgwyn Palace, close to [Palace Approach Ledge-Road ](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167517) Site of Grace.",
@@ -274,7 +320,9 @@ export const portals = [
     longitude: "-0.67513594189757",
   },
   {
+    id: 168096,
     mapSlug: "the-lands-between",
+
     title: "Portal to Radahn",
     description:
       "**Destination:** [Starscourge Radahn](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165444)",
@@ -282,7 +330,9 @@ export const portals = [
     longitude: "-0.62306910753546",
   },
   {
+    id: 168178,
     mapSlug: "the-lands-between",
+
     title: "Portal",
     description:
       "Takes you to the [Audience Pathway](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168028) Site of Grace",
@@ -290,7 +340,9 @@ export const portals = [
     longitude: "-0.78734426933795",
   },
   {
+    id: 168233,
     mapSlug: "the-lands-between",
+
     title: "Miquella's Haligtree Portal",
     description:
       "**Location:** At the top of the stairs behind [Ordina, Liturgical Town](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167149)\n\n**Destination:**  [Haligtree Canopy](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167419)\n\n**Notes:** Requires completing the nearby [Evergaol puzzle](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167646)",
@@ -304,7 +356,9 @@ export const portals = [
     ],
   },
   {
+    id: 168426,
     mapSlug: "the-lands-between",
+
     title: "Portal",
     description:
       "- Leyndell Royal Capital near [Capital Rampart](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165524)",
@@ -312,7 +366,9 @@ export const portals = [
     longitude: "-0.70226348734940",
   },
   {
+    id: 168432,
     mapSlug: "the-lands-between",
+
     title: "Coffin to Ainsel River Main",
     description:
       "Transports you to [Ainsel River Main Site of Grace](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167480)",
@@ -326,7 +382,9 @@ export const portals = [
     ],
   },
   {
+    id: 168579,
     mapSlug: "the-lands-between",
+
     title: "Portal to Astel, Naturalborn of the Void",
     description:
       "To [Astel, Naturalborn of the Void](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167479)\n\nRest in the coffin to travel.",
@@ -334,14 +392,18 @@ export const portals = [
     longitude: "-0.81388956220931",
   },
   {
+    id: 168593,
     mapSlug: "the-lands-between",
+
     title: "Portal to Ancestor Spirit",
     description: "Active once all 8 Hallowhorn Brazier's are lit.",
     latitude: "0.27301069233103",
     longitude: "-0.67397863079063",
   },
   {
+    id: 168619,
     mapSlug: "the-lands-between",
+
     title: "Coffin to Great Waterfall Crest",
     description:
       "After the Gargoyle fight, you can get in the stone coffin to get transported to the [Great Waterfall Crest](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167606) Site of Grace.",
@@ -349,7 +411,9 @@ export const portals = [
     longitude: "-0.67778773595708",
   },
   {
+    id: 168903,
     mapSlug: "the-lands-between",
+
     title: "Sending Gate",
     description:
       "Links to Sending Gate inside [Redmane Castle](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164397)",
@@ -357,7 +421,9 @@ export const portals = [
     longitude: "-0.63302814960443",
   },
   {
+    id: 168915,
     mapSlug: "the-lands-between",
+
     title: "Sending Waygate",
     description:
       '**To:** Redmane Castle, near the "[Chamber Outside the Plaza](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164419)" Site of Grace.',
@@ -365,7 +431,9 @@ export const portals = [
     longitude: "-0.63957363003829",
   },
   {
+    id: 168918,
     mapSlug: "the-lands-between",
+
     title: "Sending Gate",
     description:
       "Links to Sending Gate outside [Redmane Castle](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164397)",
@@ -373,7 +441,9 @@ export const portals = [
     longitude: "-0.62290150883831",
   },
   {
+    id: 169781,
     mapSlug: "the-lands-between",
+
     title: "Portal to Ancestral Woods",
     description:
       "To [Ancestral Woods](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167496)",
@@ -381,7 +451,9 @@ export const portals = [
     longitude: "-0.68458098928400",
   },
   {
+    id: 170219,
     mapSlug: "the-lands-between",
+
     title: "Portal to Ainsel River Main",
     description:
       "**Location:** At the top of [Renna's Rise](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165880)\n\n**Destination:** [Ainsel River Main](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167480)",
@@ -389,7 +461,9 @@ export const portals = [
     longitude: "-0.80941329850901",
   },
   {
+    id: 381311,
     mapSlug: "the-shadow-realm",
+
     title: "Portal to Ancient Ruins of Ruah",
     description:
       "**Leads to:** [Portal to Castle Ensis](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=382542). Use the [Imbued Sword Key](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381218) to activate.",
@@ -403,7 +477,9 @@ export const portals = [
     ],
   },
   {
+    id: 381752,
     mapSlug: "the-shadow-realm",
+
     title: "Stone Coffin",
     description:
       "**Location:** Behind the [Illusory Wall](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381751)  \n**Leads to:** [Castle Watering Hole](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381753)",
@@ -417,7 +493,9 @@ export const portals = [
     ],
   },
   {
+    id: 382542,
     mapSlug: "the-shadow-realm",
+
     title: "Portal to Castle Ensis",
     description:
       "**Leads to:** [Portal to Ancient Ruins of Ruah](https://mapgenie.io/elden-ring/maps/the-shadow-realm?locationIds=381311)",

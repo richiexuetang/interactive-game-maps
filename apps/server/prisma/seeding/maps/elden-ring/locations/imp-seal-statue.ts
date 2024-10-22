@@ -1,6 +1,8 @@
 export const impSealStatues = [
   {
+    id: 164436,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** [Stranded Graveyard](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163931) - beside the [Stranded Graveyard](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163933) Site of Grace.\n\n**NB:** Requires 2 Stonesword Keys",
@@ -14,7 +16,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 164724,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** Eastern edge of [Summonwater Village](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164017)\n\nRequires 1 Stonesword Key\n\nContains several turtles and a chest containing the [Green Turtle Talisman](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164726)",
@@ -28,7 +32,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 164744,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** In a small courtyard. Guard passage towards a small cellar, containing a [Hawk Crest Wooden Shield](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164746), an [Iron Whetblade](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164748) and [Mis\u00e9ricorde](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164749).",
@@ -42,7 +48,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 164846,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** In the [cellar](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164840).",
@@ -56,7 +64,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 165319,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** [Tombsward Catacombs](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163989) - near the entrance.  \n**Loot:** [Nomadic Warrior's Cookbook [9]](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165320)",
@@ -70,7 +80,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 165409,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Unlocks:** [Weeping Evergaol](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163985)",
@@ -84,14 +96,18 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 165723,
     mapSlug: "the-lands-between",
+
     title: "Imp Statue",
     description: "Requires 2 keys, unlocks Gaol Cave",
     latitude: "0.63672587964776",
     longitude: "-0.67190140485692",
   },
   {
+    id: 166453,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** [Foresaken Ruins](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164384) - Blocking entry to the underground area with the [Sword of St. Trina](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166655)",
@@ -105,28 +121,36 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 167633,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "To the right of the altar.",
     latitude: "0.28166996975432",
     longitude: "-0.68318836302214",
   },
   {
+    id: 167648,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Activates the Evergaol.",
     latitude: "0.76604867675159",
     longitude: "-0.76079079271267",
   },
   {
+    id: 167771,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Requires 2 keys\n\nUnlocks use of the elevator",
     latitude: "0.30571714128859",
     longitude: "-0.66082404495284",
   },
   {
+    id: 167789,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** On the lower level of [Roundtable Hold](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165686). The staircase is by [Smithing Master Hewg](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167788).",
@@ -134,7 +158,9 @@ export const impSealStatues = [
     longitude: "-0.85437744855787",
   },
   {
+    id: 168003,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "At the base of the cliff \n\nRequires 2 keys, grants access to [Academy Crystal Cave](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164423)\n\nToo far N and a bit W of where it should be on V2 map",
@@ -142,35 +168,45 @@ export const impSealStatues = [
     longitude: "-0.81225788780721",
   },
   {
+    id: 168166,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "**Location:** In Wyndham Ruins",
     latitude: "0.79424224779075",
     longitude: "-0.77139838126013",
   },
   {
+    id: 168168,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "In the catacombs",
     latitude: "0.79683462216161",
     longitude: "-0.77152172341752",
   },
   {
+    id: 168457,
     mapSlug: "the-lands-between",
+
     title: "Imp Statue",
     description: "Top level building, needs one key",
     latitude: "0.38593374442659",
     longitude: "-0.79518976163737",
   },
   {
+    id: 168611,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Unlocks the room containing the Crimson Amber Medallion +1",
     latitude: "0.80014342312747",
     longitude: "-0.79795121597763",
   },
   {
+    id: 168729,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** In Cliffbottom Catacombs, contain Nox Mirrorhelm.",
@@ -178,7 +214,9 @@ export const impSealStatues = [
     longitude: "-0.75417662025247",
   },
   {
+    id: 168760,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** [Old Altus Tunnel](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165480)\n\nRequires 2 keys",
@@ -186,21 +224,27 @@ export const impSealStatues = [
     longitude: "-0.76431756995290",
   },
   {
+    id: 168835,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "2 keys needed\n\nUnlocks catacombs",
     latitude: "0.78476068497594",
     longitude: "-0.79204960799603",
   },
   {
+    id: 168836,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Requires 2 keys\n\nOpens access to the cave",
     latitude: "0.80757530548838",
     longitude: "-0.77943787210094",
   },
   {
+    id: 169145,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "Unlocks Spiritcaller's Cave\n\n**Boss:** Godskin Apostle & Godskin Nobel\n\nRequires 2 Keys to unlock",
@@ -208,14 +252,18 @@ export const impSealStatues = [
     longitude: "-0.60671918348723",
   },
   {
+    id: 170200,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Requires 2 keys\n\nLeads to Dragon Lift lost grace",
     latitude: "0.74240529240748",
     longitude: "-0.52259973899911",
   },
   {
+    id: 170249,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "Unlocks underground with the [Cerulean Amber Medallion +2](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168159)",
@@ -229,7 +277,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 170284,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "Unlocks room containing [Flame, Protect Me](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168842)",
@@ -237,14 +287,18 @@ export const impSealStatues = [
     longitude: "-0.64079180359644",
   },
   {
+    id: 170355,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "**Location:** In Black Knife Catacombs, contain Rosus's Axe.",
     latitude: "0.75191773809929",
     longitude: "-0.76251997296384",
   },
   {
+    id: 175108,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** At the entrance of the grave, contain Golden Epitaph guarded by two Basilisk.",
@@ -252,7 +306,9 @@ export const impSealStatues = [
     longitude: "-0.68951278925061",
   },
   {
+    id: 175118,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** in Sainted Hero's Grave in an area accessible by jumping on a guillotine, contain [Dragoncrest Shield Talisman +1](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166856).",
@@ -260,7 +316,9 @@ export const impSealStatues = [
     longitude: "-0.74468969553877",
   },
   {
+    id: 175119,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** At the entrance of Sainted Hero's Grave, contain [Crimson Seeds Talisman](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167675).",
@@ -268,7 +326,9 @@ export const impSealStatues = [
     longitude: "-0.74536273702492",
   },
   {
+    id: 175944,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**Location:** At the top of the manor, in the opposite direction of the throne room. Need two Stonesword Keys.  \n\nContains a platforming puzzle with several items, most notably:\n\n- Seedbed Curse\n- [Ash of War: Royal Knight\u2019s Resolve](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175136)\n- Somber Smithing Stone [7]\n- [Dagger Talisman](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=171764)\n- Rune Arc",
@@ -282,7 +342,9 @@ export const impSealStatues = [
     ],
   },
   {
+    id: 176095,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "Requires two Stonesword Keys to open. Unlocks the Cave of the Forlorn.",
@@ -290,7 +352,9 @@ export const impSealStatues = [
     longitude: "-0.64009157553503",
   },
   {
+    id: 176160,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "In the room after the fire throwing statue with a Fire Monk, contains Cranial Vessel Candlestand.",
@@ -298,21 +362,27 @@ export const impSealStatues = [
     longitude: "-0.64127326011536",
   },
   {
+    id: 176844,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Need one Stonesword Key and contains Marika's Soreseal.",
     latitude: "0.88817745424149",
     longitude: "-0.63868464477764",
   },
   {
+    id: 176868,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description: "Need one Stonesword Key and contain Triple Ring of Light.",
     latitude: "0.88884539065253",
     longitude: "-0.63945672043837",
   },
   {
+    id: 380238,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "The second Imp Statue Seal at **Roundtable Hold** will require 2 more Stonesword Keys (for a total of 3 in this area), and will award you the Assassin's Prayerbook once you open up the second door.",
@@ -320,7 +390,9 @@ export const impSealStatues = [
     longitude: "-0.85541765080200",
   },
   {
+    id: 380239,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**The Four Belfries Imp Statue Seal 1:** This Imp Statue Seal requires not a Stonesword Key but an Imbued Sword Key. The Imp Statue does not give way to a door, but unlocks a teleporter instead. It unlocks a teleporter that takes you to an isolated part of **Crumbling Farum Azula.**",
@@ -328,15 +400,18 @@ export const impSealStatues = [
     longitude: "-0.81927871135215",
   },
   {
+    id: 380240,
     mapSlug: "the-lands-between",
     title: "Imp Seal Statue",
     description:
-      "**The Four Belfries Imp Statue Seal 3:** This teleporter will take you to a part of the Siofra River's ruins.",
+      "**The Four Belfries Imp Statue Seal 3:** This will teleport you to a part of the Siofra River's ruins.",
     latitude: "0.73225092913719",
     longitude: "-0.81815234983654",
   },
   {
+    id: 380241,
     mapSlug: "the-lands-between",
+
     title: "Imp Seal Statue",
     description:
       "**\rThe Four Belfries Imp Statue Seal 2:** This Imp Statue Seal requires an Imbued Sword Key. It unlocks a teleporter that will take you to the Chapel of Anticipation.",

@@ -1,5 +1,6 @@
 export const divineTowers = [
   {
+    id: 164074,
     mapSlug: "the-lands-between",
     title: "Divine Tower of Limgrave",
     description:
@@ -14,6 +15,7 @@ export const divineTowers = [
     ],
   },
   {
+    id: 164411,
     mapSlug: "the-lands-between",
     title: "Divine Tower of Liurnia",
     description: "**Activates Rune:** ??",
@@ -21,6 +23,7 @@ export const divineTowers = [
     longitude: "-0.74110105633784",
   },
   {
+    id: 165620,
     mapSlug: "the-lands-between",
     title: "Divine Tower of Caelid",
     description:
@@ -29,6 +32,7 @@ export const divineTowers = [
     longitude: "-0.64551249146538",
   },
   {
+    id: 167609,
     mapSlug: "the-lands-between",
     title: "Isolated Divine Tower",
     description: "Activates Malenia's great rune",
@@ -36,6 +40,7 @@ export const divineTowers = [
     longitude: "-0.62722569461957",
   },
   {
+    id: 167706,
     mapSlug: "the-lands-between",
     title: "Divine Tower of West Altus",
     description:
@@ -44,6 +49,7 @@ export const divineTowers = [
     longitude: "-0.71619250597264",
   },
   {
+    id: 168667,
     mapSlug: "the-lands-between",
     title: "Divine Tower of East Altus",
     description: "Activates Morgott's and Mohg's Great Runes",

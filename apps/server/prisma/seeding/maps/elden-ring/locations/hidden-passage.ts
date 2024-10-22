@@ -1,5 +1,6 @@
 export const hiddenPassages = [
   {
+    id: 164084,
     mapSlug: "the-lands-between",
     title: "Gatefront Ruins Hidden Cellar",
     description: "",
@@ -17,6 +18,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 164615,
     mapSlug: "the-lands-between",
     title: "Waypoint Ruins Cellar Entrance",
     description:
@@ -31,6 +33,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 164669,
     mapSlug: "the-lands-between",
     title: "Locked Door",
     description:
@@ -39,6 +42,7 @@ export const hiddenPassages = [
     longitude: "-0.75233817100690",
   },
   {
+    id: 164840,
     mapSlug: "the-lands-between",
     title: "Stormveil Castle Cellar Passage",
     description: "**Location:** Access from the main courtyard.",
@@ -52,6 +56,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 165157,
     mapSlug: "the-lands-between",
     title: "Rooftop Access",
     description:
@@ -66,6 +71,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 165158,
     mapSlug: "the-lands-between",
     title: "Underground Crypt Passage",
     description:
@@ -80,6 +86,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 165423,
     mapSlug: "the-lands-between",
     title: "Tombsward Ruins Cellar Entrance",
     description: "",
@@ -93,6 +100,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 165636,
     mapSlug: "the-lands-between",
     title: "Unmarked Cave (Seaside Ruins)",
     description:
@@ -107,6 +115,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 165693,
     mapSlug: "the-lands-between",
     title: "Illusory Wall",
     description:
@@ -121,6 +130,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 165699,
     mapSlug: "the-lands-between",
     title: "Debate Hall 2nd Floor Access",
     description:
@@ -129,6 +139,7 @@ export const hiddenPassages = [
     longitude: "-0.79966306686319",
   },
   {
+    id: 165823,
     mapSlug: "the-lands-between",
     title: "Rooftops Access",
     description:
@@ -143,6 +154,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 166774,
     mapSlug: "the-lands-between",
     title: "Kingsrealm Ruins Hidden Cellar",
     description: "Hit the ground with an attack to reveal",
@@ -156,6 +168,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 167920,
     mapSlug: "the-lands-between",
     title: "Hidden Area",
     description: "Can drop down from the cliff onto a branch.",
@@ -169,6 +182,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 168240,
     mapSlug: "the-lands-between",
     title: "Seluvis's Hidden Cellar",
     description:
@@ -183,6 +197,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 168622,
     mapSlug: "the-lands-between",
     title: "Waterfall",
     description: "Waterfall can be passed through",
@@ -190,6 +205,7 @@ export const hiddenPassages = [
     longitude: "-0.67164420291260",
   },
   {
+    id: 169128,
     mapSlug: "the-lands-between",
     title: "Living Jars Area Hidden Passage",
     description:
@@ -204,6 +220,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 169260,
     mapSlug: "the-lands-between",
     title: "Magic Barrier",
     latitude: "0.65023607212751",
@@ -216,6 +233,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 169261,
     mapSlug: "the-lands-between",
     title: "Magic Barrier",
     latitude: "0.64853761003414",
@@ -228,6 +246,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 169801,
     mapSlug: "the-lands-between",
     title: "Invisible bridge",
     description:
@@ -236,6 +255,7 @@ export const hiddenPassages = [
     longitude: "-0.65300569681639",
   },
   {
+    id: 175472,
     mapSlug: "the-lands-between",
     title: "False Wall",
     description:
@@ -250,6 +270,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 175951,
     mapSlug: "the-lands-between",
     title: "Path to Subterranean Inquisition Chamber",
     description:
@@ -258,6 +279,7 @@ export const hiddenPassages = [
     longitude: "-0.78993675713807",
   },
   {
+    id: 176455,
     mapSlug: "the-lands-between",
     title: "Path to Dragonlord Placidusax arena",
     description:
@@ -266,6 +288,7 @@ export const hiddenPassages = [
     longitude: "-0.51986287961219",
   },
   {
+    id: 176589,
     mapSlug: "the-lands-between",
     title: "Sewer grate to Subterranean Shunning Grounds",
     description: "Accessible only in Capital of Ash, after defeating Maliketh.",
@@ -273,6 +296,7 @@ export const hiddenPassages = [
     longitude: "-0.69808613790849",
   },
   {
+    id: 180897,
     mapSlug: "the-lands-between",
     title: "Altus Cave",
     description:
@@ -281,6 +305,7 @@ export const hiddenPassages = [
     longitude: "-0.74732717788049",
   },
   {
+    id: 182503,
     mapSlug: "the-lands-between",
     title: "Hidden Path to Deeproot Depths",
     description:
@@ -289,6 +314,7 @@ export const hiddenPassages = [
     longitude: "-0.68544941436704",
   },
   {
+    id: 193935,
     mapSlug: "the-lands-between",
     title: "Illusionary Floor (Above Village)",
     description: "",
@@ -296,6 +322,7 @@ export const hiddenPassages = [
     longitude: "-0.79712774896022",
   },
   {
+    id: 194530,
     mapSlug: "the-lands-between",
     title: "Laskyar Ruins Cellar",
     latitude: "0.67732412031198",
@@ -308,6 +335,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 214867,
     mapSlug: "the-lands-between",
     title: "Illusory Wall",
     description: "First wall on the right side after entering the Building.",
@@ -321,6 +349,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 250502,
     mapSlug: "the-lands-between",
     title: "Demi-Human Forest Ruins Cellar",
     description: "Found by jumping into a walled-off area. Try using Torrent.",
@@ -334,6 +363,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 288016,
     mapSlug: "the-lands-between",
     title: "Illusionary Floor (Moonfolk Ruins)",
     description:
@@ -348,6 +378,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 309100,
     mapSlug: "the-lands-between",
     title: "Witchbane Ruins Cellar Entrance",
     description: "Under the enemy",
@@ -355,6 +386,7 @@ export const hiddenPassages = [
     longitude: "-0.73302216787394",
   },
   {
+    id: 380962,
     mapSlug: "the-shadow-realm",
     title: "Ellac River Cave Entrance",
     description: "**Location:** Follow the water into the cave",
@@ -362,6 +394,7 @@ export const hiddenPassages = [
     longitude: "-0.71277855811050",
   },
   {
+    id: 381038,
     mapSlug: "the-shadow-realm",
     title: "Dragon's Pit Abyss",
     description:
@@ -376,6 +409,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 381222,
     mapSlug: "the-shadow-realm",
     title: "Cliffroad",
     description:
@@ -390,6 +424,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 381225,
     mapSlug: "the-shadow-realm",
     title: "Well",
     description: "Leads to an underground temple.",
@@ -397,6 +432,7 @@ export const hiddenPassages = [
     longitude: "-0.69522814398087",
   },
   {
+    id: 381349,
     mapSlug: "the-shadow-realm",
     title: "Illusory Wall",
     description:
@@ -415,6 +451,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 381378,
     mapSlug: "the-shadow-realm",
     title: "Cliffside Path",
     description:
@@ -433,6 +470,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 381751,
     mapSlug: "the-shadow-realm",
     title: "Illusory Wall",
     description:
@@ -447,6 +485,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 382180,
     mapSlug: "the-shadow-realm",
     title: "Passage To The Depths",
     latitude: "0.58632164551130",
@@ -459,6 +498,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 382247,
     mapSlug: "the-shadow-realm",
     title: "Cave Entrance",
     description:
@@ -467,6 +507,7 @@ export const hiddenPassages = [
     longitude: "-0.70373376934540",
   },
   {
+    id: 382342,
     mapSlug: "the-shadow-realm",
     title: "Illusory Wall",
     latitude: "0.72124536209279",
@@ -483,6 +524,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 382625,
     mapSlug: "the-shadow-realm",
     title: "Passage to Southern Nameless Mausoleum",
     description: "**Location:** Behind nearby tree",
@@ -496,6 +538,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 382706,
     mapSlug: "the-shadow-realm",
     title: "Illusory Wall",
     description: "Beside the path to the cell, to the side of the staircase.",
@@ -513,6 +556,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 382728,
     mapSlug: "the-shadow-realm",
     title: "Tunnel to Poison Swamp north of Moorth Ruins",
     description: "From the Ancient Ruins Base Site of Grace head east",
@@ -520,6 +564,7 @@ export const hiddenPassages = [
     longitude: "-0.71273806092839",
   },
   {
+    id: 383032,
     mapSlug: "the-shadow-realm",
     title: "Cave Entrance",
     description:
@@ -534,6 +579,7 @@ export const hiddenPassages = [
     ],
   },
   {
+    id: 384431,
     mapSlug: "the-shadow-realm",
     title: "Leap of Faith",
     description: "Jump off the horned head statute",
@@ -541,6 +587,7 @@ export const hiddenPassages = [
     longitude: "-0.69959490228985",
   },
   {
+    id: 385427,
     mapSlug: "the-shadow-realm",
     title: "Hidden Passage",
     description:
@@ -549,6 +596,7 @@ export const hiddenPassages = [
     longitude: "-0.70609919025878",
   },
   {
+    id: 385429,
     mapSlug: "the-shadow-realm",
     title: "Illusory Wall",
     description:
@@ -557,6 +605,7 @@ export const hiddenPassages = [
     longitude: "-0.70259289014845",
   },
   {
+    id: 385468,
     mapSlug: "the-shadow-realm",
     title: "Subterranean Entrance",
     description:
@@ -565,6 +614,7 @@ export const hiddenPassages = [
     longitude: "-0.65845853488631",
   },
   {
+    id: 385844,
     mapSlug: "the-shadow-realm",
     title: "Passage to Bonny Village",
     description: "**Location:** Next to collapsed church",

@@ -8,9 +8,7 @@ export const locations = {
       locations: [
         {
           mapSlug: "chapter-1",
-
           title: "Snake Trail",
-
           latitude: "0.75452650172841",
           longitude: "-0.58213591575498",
           media: [
@@ -23,7 +21,6 @@ export const locations = {
         {
           id: 397271,
           mapSlug: "chapter-1",
-
           title: "Front Hills",
           description:
             "**Location:** Kill the Wolf Scout and the Wolf Stalwart and the golden trail will lead you here.",
@@ -39,7 +36,6 @@ export const locations = {
         {
           id: 397292,
           mapSlug: "chapter-1",
-
           title: "Outside the Forest",
           description: "**Location:** Just outside the small cave",
           latitude: "0.88310749622674",
@@ -48,9 +44,7 @@ export const locations = {
         {
           id: 397305,
           mapSlug: "chapter-1",
-
           title: "Guanyin Temple",
-
           latitude: "0.84251068136295",
           longitude: "-0.78730456225531",
           media: [
@@ -968,7 +962,6 @@ export const locations = {
         {
           mapSlug: "chapter-3",
           title: "Purple Sealed Gate",
-
           latitude: "0.59188594676564",
           longitude: "-0.65380185842594",
         },

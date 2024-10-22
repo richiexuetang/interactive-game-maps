@@ -560,6 +560,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     position: absolute;
     text-align: center;
     margin-bottom: 20px;
+    width: 425px !important;
 }
 
 .leaflet-popup-content-wrapper {
@@ -618,8 +619,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 .leaflet-container a.leaflet-popup-close-button {
     position: absolute;
-    top: 20px;
-    right: 5px;
+    top: 25px;
+    right: -5px;
     border: none;
     text-align: center;
     width: 24px;

@@ -1,6 +1,8 @@
 export const evergaols = [
   {
+    id: 163965,
     mapSlug: "the-lands-between",
+
     title: "Forlorn Hound Evergaol",
     description:
       "**Boss:** [Bloodhound Knight Darriwil](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164486)",
@@ -14,7 +16,9 @@ export const evergaols = [
     ],
   },
   {
+    id: 163985,
     mapSlug: "the-lands-between",
+
     title: "Weeping Evergaol",
     description:
       "**Boss:** [Ancient Hero of Zamor](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165411)\n\nRequires this [Imp Seal Statue](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165409) to access.",
@@ -28,7 +32,9 @@ export const evergaols = [
     ],
   },
   {
+    id: 164029,
     mapSlug: "the-lands-between",
+
     title: "Stormhill Evergaol",
     description:
       "**Boss:** [Crucible Knight](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164476)",
@@ -36,7 +42,9 @@ export const evergaols = [
     longitude: "-0.72801053523906",
   },
   {
+    id: 164171,
     mapSlug: "the-lands-between",
+
     title: "Malefactor's Evergaol",
     description:
       "**Boss:** [Adan, Thief of Fire](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166505)",
@@ -44,7 +52,9 @@ export const evergaols = [
     longitude: "-0.76924413442367",
   },
   {
+    id: 164176,
     mapSlug: "the-lands-between",
+
     title: "Cuckoo's Evergaol",
     description:
       "**Boss:** [Bols, Carian Knight](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167325)",
@@ -52,14 +62,18 @@ export const evergaols = [
     longitude: "-0.82531437277746",
   },
   {
+    id: 165508,
     mapSlug: "the-lands-between",
+
     title: "Ringleader's Evergaol",
     description: "**Boss:** Alecto, Black Knife Ringleader",
     latitude: "0.68399690248637",
     longitude: "-0.82543566446049",
   },
   {
+    id: 165514,
     mapSlug: "the-lands-between",
+
     title: "Royal Grave Evergaol",
     description:
       "**Boss:** [Onyx Lord](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166766)",
@@ -67,7 +81,9 @@ export const evergaols = [
     longitude: "-0.78676432371171",
   },
   {
+    id: 165644,
     mapSlug: "the-lands-between",
+
     title: "Lord Contender's Evergaol",
     description:
       "**Boss:** [Vyke, Knight of the Roundtable](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168377)",
@@ -75,7 +91,9 @@ export const evergaols = [
     longitude: "-0.60636296868358",
   },
   {
+    id: 165889,
     mapSlug: "the-lands-between",
+
     title: "Golden Lineage Evergaol",
     description:
       "**Boss:** [Godefroy the Grafted](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167645)\n\n**Reward:** [Godfrey Icon](https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167647)\n\nRequires Swordstone Key to enter.",
@@ -83,7 +101,9 @@ export const evergaols = [
     longitude: "-0.76100841164589",
   },
   {
+    id: 167028,
     mapSlug: "the-lands-between",
+
     title: "Sellia Evergaol",
     description: "Boss: Battlemage Hugues",
     latitude: "0.64825060714841",
@@ -96,7 +116,9 @@ export const evergaols = [
     ],
   },
   {
+    id: 167646,
     mapSlug: "the-lands-between",
+
     title: "Evergaol",
     description:
       "**Puzzle:** Light the candles of four statues around the town within the Evergaol",

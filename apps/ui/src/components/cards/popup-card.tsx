@@ -51,7 +51,7 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
   const { icon, info, title } = category;
 
   return (
-    <Card sx={{ minWidth: 325 }}>
+    <Card sx={{ minWidth: 425 }}>
       <CardHeader
         avatar={
           <Avatar>
@@ -100,7 +100,10 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
               fontSize: "0.875rem",
             }}
           >
-            <div dangerouslySetInnerHTML={{ __html: description }} />
+            <div
+              className="p-3"
+              dangerouslySetInnerHTML={{ __html: description }}
+            />
           </CardContent>
         )}
         {id}

@@ -138,7 +138,7 @@ async function seedGame(game: any) {
             categoryId: newCategory.id,
           },
         });
-        console.log("seeded location", newLocation.id, newLocation.categoryId);
+        console.log("seeded location", newLocation.id, newLocation.title);
 
         if (newLocation?.id && media?.length) {
           await seedMedia(media, newLocation.id);

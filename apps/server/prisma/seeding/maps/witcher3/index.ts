@@ -6563,7 +6563,7 @@ export const witcher3 = {
             {
               mapSlug: "velen-novigrad",
               title: "Gwent Player",
-              description: "[Shopkeeper",
+              description: "Shopkeeper",
               latitude: "83.94560217598054",
               longitude: "-168.35126437992892",
             },
@@ -13124,7 +13124,6 @@ export const witcher3 = {
         },
         {
           title: "Witcher Gear",
-
           locations: [
             {
               mapSlug: "white-orchard",
