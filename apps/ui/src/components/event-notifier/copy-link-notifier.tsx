@@ -22,7 +22,7 @@ export const CopyLinkNotifier = () => {
   const mapEvents = useMapEvents({
     contextmenu: () => {
       const center = mapEvents.getCenter();
-      const url = `${process.env.NEXT_PUBLIC_APP_BASE_URL}/game/${
+      const url = `${process.env.NEXT_PUBLIC_APP_BASE_URL}/${
         params.gameSlug
       }/map/${params.mapSlug}?lat=${center.lat}&lng=${
         center.lng

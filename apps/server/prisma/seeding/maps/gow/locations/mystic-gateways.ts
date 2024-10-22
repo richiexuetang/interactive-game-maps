@@ -214,7 +214,7 @@ export const mysticGateways = [
     mapSlug: "muspelheim",
     title: "The Crucible",
     description:
-      "**Requires:** Find both Muspelheim Seed halves in Svartalfheim to gain access to The Crucible -\n- [Muspelheim Seed Half](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10786) (Svartalfheim)\n- [Muspelheim Seed Half](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10788) (Svartalfheim)",
+      "**Requires:** Find both Muspelheim Seed halves in Svartalfheim to gain access to The Crucible -\n- [Muspelheim Seed Half](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10786) (Svartalfheim)\n- [Muspelheim Seed Half](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10788) (Svartalfheim)",
     latitude: "0.78813064189694",
     longitude: "-0.86799514255316",
     media: [
