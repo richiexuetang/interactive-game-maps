@@ -1675,8 +1675,8 @@ export const other = {
           title: "Hudson Sign",
           description:
             "**Location:** Near a construction material pile by the crossroad  \n**Reward:**\n- 20 Rupees\n- 1x Energizing Seafood Rice Balls\n- 1x Bomb Flower",
-          latitude: "0.76331503134024",
-          longitude: "-0.57107481330007",
+          latitude: 0.76331503134,
+          longitude: -0.5710748133,
         },
         {
           mapSlug: "hyrule",
