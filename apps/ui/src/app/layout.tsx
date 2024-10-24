@@ -11,7 +11,8 @@ import "@/styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Ritcher Map | Awesome Interactive Game Maps",
-  description: "Interactive game maps for Elden Ring, Witcher 3, and more.",
+  description:
+    "Interactive game maps for Elden Ring, Witcher 3, Hogwarts Legacy, God of War, Black Myth Wukong and more.",
   keywords:
     "game maps, interactive maps, game locations, game guides, Elden Ring, Tears of the Kingdom, Black myth wukong, Witcher 3, Hogwarts Legacy",
   openGraph: {

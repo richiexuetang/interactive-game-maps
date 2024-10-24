@@ -1,3 +1,5 @@
+"use client";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LoginIcon from "@mui/icons-material/Login";
 import Logout from "@mui/icons-material/Logout";
@@ -47,6 +49,7 @@ export const AppHeader = ({
         px: 2,
         flex: 1,
         ...props.sx,
+        backgroundColor: "black",
       }}
     >
       {trigger}

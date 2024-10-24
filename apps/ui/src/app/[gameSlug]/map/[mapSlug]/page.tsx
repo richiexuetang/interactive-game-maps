@@ -19,6 +19,8 @@ export async function generateMetadata({
     description: `${gameTitle} Interactive Map - All Hidden Collectibles, Bosses, Secret Easter Eggs, Equipment, Upgrades, Quest Locations & more! Use the progress tracker to get 100% completion!`,
     openGraph: {
       type: "website",
+      siteName: `Ritcher Map | ${gameTitle}`,
+      url: `https://ritcher-map.app/${gameSlug}/map/${mapSlug}`,
       images: [
         process.env.NEXT_PUBLIC_CDN_BASE_URL +
           `images/games/${gameSlug}/preview.png`,
