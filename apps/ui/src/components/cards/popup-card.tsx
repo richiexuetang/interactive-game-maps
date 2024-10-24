@@ -106,7 +106,6 @@ export const PopupCard = ({ marker }: PopupCardProps) => {
             />
           </CardContent>
         )}
-        {id}
         {info && (
           <CardContent sx={{ p: "0 !important", color: "var(--text-color)" }}>
             <div
