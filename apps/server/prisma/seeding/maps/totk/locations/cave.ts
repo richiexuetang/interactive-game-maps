@@ -48,7 +48,6 @@ export const cave = [
       "**Cave Entrances:** ??  \n**Coordinates:** -1751, 1180, 0255\n\n**Bubbulfrog:** At the end of a raised cliff, northwest of the main cavern.\n\n**Inside The Cave:** \n- [Taki-Ihaban Shrine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=277701)\n- Bomb Flowers\n- Brightflowers\n- Brightbloom Seed\n- Flint\n- Luminous Stone\n- Mini-Boss *Phantom-Ganon*",
     latitude: "0.73988286121400",
     longitude: "-0.75875463767673",
-    ign_page_id: "Lindor%27s_Brow_Cave",
     media: [
       {
         url: "https://media.mapgenie.io/storage/media/5e12e85f-89f8-49d4-9ad7-ff19b1fa1b4d.jpg",
@@ -91,7 +90,6 @@ export const cave = [
       "**Cave Entrances:** ??  \n\n**Bubbulfrog:** Hanging against a root, near the bottom of the cave on the eastern side.  \n\n**Inside The Cave:** \n- [Fierce Deity Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279654)\n- Like Like\n- Ore Nodes\n- Bomb Flowers",
     latitude: "0.68939221882129",
     longitude: "-0.73913030326384",
-    ign_page_id: "Ancient_Tree_Stump_Cave",
     media: [
       {
         url: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/c/cd/Tree-stump-cave-1.jpg",
@@ -350,7 +348,6 @@ export const cave = [
       "**Cave Entrances:**\n- ??\n\n**Bubbulfrog:** In the first big room, follow the wall to the left into the first passageway, take the fork to the right, go down the hole, cross to the bridge, and head left, Bubbulfrog is in the circular room with a large stone pillar in the middle  -2283, -0479, 0255\n\n**Inside the Cave:**\n- Blupees\n- Hearty Truffle at: -2179, -0578, 0121",
     latitude: "0.69148184671387",
     longitude: "-0.77231095082811",
-    ign_page_id: "Satori_Mountain_Cave",
     media: [
       {
         url: "https://media.mapgenie.io/storage/media/be0583a1-4fc1-4898-94b8-47138659c79d.jpg",

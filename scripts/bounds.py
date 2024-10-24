@@ -67,7 +67,6 @@ totk = {
 
 # Ragnarok
 ragnarokBounds = {
-    "min_zoom": 9,
     "bounds": {
         "9": {
             "min_x": 254,
@@ -108,7 +107,6 @@ sindrisHouse = dict(ragnarokBounds.copy(), **{
 })
 
 vanaheim = dict(ragnarokBounds, **{
-    "max_zoom": 13,
     "path": "god-of-war-ragnarok/vanaheim/default-v1"
 })
 
@@ -177,28 +175,192 @@ whiteOrchard = {
     }
 }
 
-configs = [
-    {"zelda-tears-of-the-kingdom": dict(totk)},
-    {"white-orchard": dict(whiteOrchard)},
-    sindrisHouse,
-    vanaheim,
-    alfheim,
-    muspelheim,
-    midgard,
-    svartalfheim,
-    helheim,
-    niflheim
-]
-
-gameMapConfigs = {
-    "tiles_base_url": "https://tiles.mapgenie.io",
-    "configs": configs
+base = {
+    "bounds": {
+        "8": {
+            "min_x": 127,
+            "min_y": 127,
+            "max_x": 8,
+            "max_y": 8
+        },
+        "9": {
+            "min_x": 254,
+            "min_y": 254,
+            "max_x": 255,
+            "max_y": 255
+            },
+        "10": {
+            "min_x": 508,
+            "min_y": 508,
+            "max_x": 511,
+            "max_y": 511
+        },
+        "11": {
+            "min_x": 1016,
+            "min_y": 1016,
+            "max_x": 1023,
+            "max_y": 1023
+        },
+        "12": {
+            "min_x": 2032,
+            "min_y": 2032,
+            "max_x": 2047,
+            "max_y": 2047
+        },
+        "13": {
+            "min_x": 4064,
+            "min_y": 4064,
+            "max_x": 4095,
+            "max_y": 4095
+        },
+        "14": {
+            "min_x": 8128,
+            "min_y": 8128,
+            "max_x": 8191,
+            "max_y": 8191
+        }
+    }
 }
 
-
-def main():
-    print(gameMapConfigs)
-
-
-if __name__ == "__main__":
-    main()
+maps = {
+    "god-of-war-2018": {
+        "helheim": dict(base, **{"subpath": "/default-v2/"}),
+        "midgard": dict(base, **{
+            "bounds": {
+                "15": {
+                    "min_x": 16256,
+                    "min_y": 16256,
+                    "max_x": 16383,
+                    "max_y": 16383
+                },
+            }
+        }, **{"subpath": "/default-v3/"}),
+        "alfheim": {
+            "bounds": {
+                "8": {
+                    "min_x": 127,
+                    "min_y": 127,
+                    "max_x": 127,
+                    "max_y": 127
+                },
+                "9": {
+                    "min_x": 254,
+                    "min_y": 254,
+                    "max_x": 255,
+                    "max_y": 255
+                },
+                "10": {
+                    "min_x": 508,
+                    "min_y": 508,
+                    "max_x": 511,
+                    "max_y": 511
+                },
+                "11": {
+                    "min_x": 1016,
+                    "min_y": 1016,
+                    "max_x": 1023,
+                    "max_y": 1023
+                },
+                "12": {
+                    "min_x": 2032,
+                    "min_y": 2032,
+                    "max_x": 2047,
+                    "max_y": 2047
+                },
+                "13": {
+                    "min_x": 4064,
+                    "min_y": 4064,
+                    "max_x": 4095,
+                    "max_y": 4095
+                },
+            },
+            "subpath": "/default-v2/"
+        },
+        "jotunheim": dict(base, **{"subpath": "/default-v2/"}),
+        "muspelheim": dict(base, **{"subpath": "/default-v2/"}),
+        "niflheim": dict(base, **{"subpath": "/default-v2/"}),
+    },
+    "god-of-war-ragnarok": {
+        "sindris-house": {
+            "bounds": {
+                "9": {
+                    "min_x": 254,
+                    "min_y": 254,
+                    "max_x": 255,
+                    "max_y": 255
+                },
+                "10": {
+                    "min_x": 508,
+                    "min_y": 508,
+                    "max_x": 511,
+                    "max_y": 511
+                },
+                "11": {
+                    "min_x": 1016,
+                    "min_y": 1016,
+                    "max_x": 1023,
+                    "max_y": 1023
+                },
+            },
+            "subpath": "/default-v1/"
+        },
+        "vanaheim": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        },
+        "alfheim": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        },
+        "muspelheim": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        },
+        "midgard": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        },
+        "svartalfheim": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        },
+        "helheim": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        },
+        "niflheim": {
+            "subpath": "/default-v1/",
+            **dict(ragnarokBounds),
+        }
+    },
+    "black-myth-wukong": {
+        "chapter-1": {
+            "subpath": "/paper-v1/",
+            **dict({i: base[i] for i in base if i != "8"}),
+        },
+        "chapter-2": {
+            "subpath": "/paper-v1/",
+            **dict({i: base[i] for i in base if i != "8"}),
+        },
+        "chapter-3": {
+            "subpath": "/paper-v1/",
+            **dict({i: base[i] for i in base if i != "8"}),
+        },
+        "chapter-4": {
+            "subpath": "/default-v1/",
+            **dict({i: base[i] for i in base if i != "8"}),
+        },
+        "chapter-5": {
+            "subpath": "/paper-v1/",
+            **dict({i: base[i] for i in base if i != "8"}),
+        },
+        "chapter-6": {
+            "subpath": "/paper-v1/",
+            **dict({i: base[i] for i in base if i != "8"}),
+        }
+    },
+    "elden-ring": {},
+    "witcher-3": {},
+    "hogwarts-legacy": {},
+    "zelda-tears-of-the-kingdom": {},
+}

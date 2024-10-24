@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     "game maps, interactive maps, game locations, game guides, Elden Ring, Tears of the Kingdom, Black myth wukong, Witcher 3, Hogwarts Legacy",
   openGraph: {
     type: "website",
+    siteName: "Ritcher Map",
+    url: "https://ritcher-map.app",
     title: "Ritcher Map | Awesome Interactive Game Maps",
   },
 };

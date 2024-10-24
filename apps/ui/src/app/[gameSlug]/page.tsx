@@ -26,7 +26,8 @@ export async function generateMetadata({
     description: `Explore ${game.title} on Ritcher Map and track all in-game locations.`,
     openGraph: {
       images: [
-        process.env.CDN_BASE_URL + `images/games/${gameSlug}/preview.png`,
+        process.env.NEXT_PUBLIC_CDN_BASE_URL +
+          `images/games/${gameSlug}/preview.png`,
       ],
     },
     icons: {
@@ -35,25 +36,25 @@ export async function generateMetadata({
           type: "image/png",
           sizes: "16x16",
           href:
-            process.env.CDN_BASE_URL +
+            process.env.NEXT_PUBLIC_CDN_BASE_URL +
             `images/games/${gameSlug}/favicon-16x16.png`,
           url:
-            process.env.CDN_BASE_URL +
+            process.env.NEXT_PUBLIC_CDN_BASE_URL +
             `images/games/${gameSlug}/favicon-16x16.png`,
         },
         {
           type: "image/png",
           sizes: "32x32",
           href:
-            process.env.CDN_BASE_URL +
+            process.env.NEXT_PUBLIC_CDN_BASE_URL +
             `images/games/${gameSlug}/favicon-32x32.png`,
           url:
-            process.env.CDN_BASE_URL +
+            process.env.NEXT_PUBLIC_CDN_BASE_URL +
             `images/games/${gameSlug}/favicon-32x32.png`,
         },
       ],
       apple:
-        process.env.CDN_BASE_URL +
+        process.env.NEXT_PUBLIC_CDN_BASE_URL +
         `images/games/${params.gameSlug}/apple-touch-icon.png`,
     },
   };
@@ -102,7 +103,7 @@ export default async function RegionPage({
                         component="img"
                         height="140"
                         image={
-                          process.env.CDN_BASE_URL +
+                          process.env.NEXT_PUBLIC_CDN_BASE_URL +
                             `images/games/${game.slug}/${slug}.png` || ""
                         }
                         alt={title}

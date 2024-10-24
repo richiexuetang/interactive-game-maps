@@ -2135,10 +2135,6 @@ export const keyItems = [
         longitude: "-0.73379069566778",
         media: [
           {
-            url: "https://www.video.com/watch?v=-0pX7sE3Als&t=59s",
-            type: "video",
-          },
-          {
             url: "https://media.mapgenie.io/storage/media/c017581e-2d4f-445e-9bb7-1a3d19e08b14.jpg",
             type: "image",
           },
