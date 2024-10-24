@@ -20,7 +20,8 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       images: [
-        process.env.CDN_BASE_URL + `images/games/${gameSlug}/preview.png`,
+        process.env.NEXT_PUBLIC_CDN_BASE_URL +
+          `images/games/${gameSlug}/preview.png`,
       ],
     },
     icons: {
