@@ -37,7 +37,7 @@ export default async function RegionPage({
       <MainNav />
       <Breadcrumbs sx={{ m: 5, color: "var(--ritcher-palette-text-primary)" }}>
         <Link href="/">Home</Link>
-        <Link underline="hover" href={`/game/${params.gameSlug}`}>
+        <Link underline="hover" href={`/${params.gameSlug}`}>
           {titleCase(params.gameSlug.replaceAll("-", " "))}
         </Link>
         <Typography>{checklist.title}</Typography>

@@ -4,46 +4,62 @@ export const services = {
     {
       locations: [
         {
+          id: 276755,
           mapSlug: "hyrule",
+
           title: "Armor Shop",
-          description: "**Location:** Lookout Landing - 120 Rupees",
+          description:
+            "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)  \n\n**Stock:**\n- ??\n- Hylian Set:\n  - [Hylian Hood](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279419) - 70 Rupees\n  - [Hylian Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279420) - 130 Rupees\n  - [Hylian Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279421) - 120 Rupees",
           latitude: "0.70591541298306",
           longitude: "-0.70987612008992",
         },
         {
+          id: 276825,
           mapSlug: "hyrule",
+
           title: "Enchanted (Armor Shop)",
-          description: "**Location:** Kakariko Village_",
+          description:
+            '**Location:** [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)  \n\nShop is renamed to "Enchanted" after completing [Gloom-Borne Illness](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279468).\n\n**Stock:**\n- Stealth Set:\n  - [Stealth Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279427) - 500 Rupees\n  - [Stealth Chest Guard](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279428) - 700 Rupees\n  - [Stealth Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279429) - 600 Rupees\n- Radiant Set:\n  - [Radiant Mask](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279442) - 800 Rupees\n  - [Radiant Shirt](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279441) - 800 Rupees\n  - [Radiant Tights](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279443) - 800 Rupees\n\n_Note: Prices are initially much higher (5000 Rupees each) but will lower after completing [Gloom-Borne Illness](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279468)_',
           latitude: "0.67149577081283",
           longitude: "-0.64344786107424",
         },
         {
+          id: 276844,
           mapSlug: "hyrule",
+
           title: "Brazen Beak",
-          description: "**Location:** Rito Village - 1,000 Rupees",
+          description:
+            "**Location:** [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)  \n\n**Stock:**\n- Snowquill Set:\n  - [Snowquill Headdress](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279409) - 650 Rupees\n  - [Snowquill Tunic](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279410) - 500 Rupees\n  - [Snowquill Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279411) - 1,000 Rupees",
           latitude: "0.76062371029016",
           longitude: "-0.82003776275457",
         },
         {
+          id: 276854,
           mapSlug: "hyrule",
+
           title: "Armor Shop",
-          description: "**Location:** Goron City - 1,200 Rupees",
+          description:
+            "**Location:** [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852)  \n\n**Stock:**\n- Flamebreaker Set:\n  - [Flamebreaker Helm](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279416) - 1,400 Rupees\n  - [Flamebreaker Armor](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279417) - 700 Rupees\n  - [Flamebreaker Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279418) - 1,200 Rupees",
           latitude: "0.78070766716684",
           longitude: "-0.65031272717667",
         },
         {
+          id: 276898,
           mapSlug: "hyrule",
+
           title: "Ventest Clothing Boutique",
           description:
-            "**Location:** Hateno Village\n- Hylian Trousers                      70 rps\n- Hylian Hood                            70 rps\n- Hylian Tunic.                          120 rps\n- Royal Guard Uniform        2,200 rps",
+            "**Location:** [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)  \n\nExclusive shop for Cece brand clothing!\n\n**Stock:** (After Mayoral Election quest is completed)\n- Hylian Trousers                      70 rps\n- Hylian Hood                            70 rps\n- Hylian Tunic.                          120 rps\n- Royal Guard Uniform        2,200 rps",
           latitude: "0.63445552941698",
           longitude: "-0.59508159756746",
         },
         {
+          id: 284929,
           mapSlug: "hyrule",
+
           title: "Gerudo Secret Club",
           description:
-            "_Shop does not appear on Purah Pad map._\n\n**Location:** Drop down into the Secret Shop Entrance \u2014 650",
+            "_Shop does not appear on Purah Pad map._\n\n**Location:** Drop down into the [Secret Shop Entrance](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279712) cave, and turn left at the cracked rock wall. Break apart the rocks, and continue pushing forward through the rock-blocked tunnel until you reach white stone pillars. Ascend through the roof, right into the Gerudo Secret Club armor shop.\n\nFor future shopping, make sure to unlock the [door shortcut](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284930) that leads into an alley of Gerudo Town.\n\n**Stock:**\n- [Snow Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284635) \u2014 1,300 Rupees\n- [Sand Boots](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=284634) \u2014 1,200 Rupees\n- [Desert Voe Spaulder](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279713) \u2014 1,300 Rupees\n- [Desert Voe Trousers](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=279714) \u2014 650",
           latitude: "0.60921474719935",
           longitude: "-0.82532107829942",
         },
@@ -53,53 +69,74 @@ export const services = {
     {
       locations: [
         {
+          id: 276867,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
-          description: "**Location:** Lookout Landing",
+          description:
+            "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752) - in Josha's lab\r\n\r\nAvailable after completing [Camera Work in The Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276866)",
           latitude: "0.70812739644488",
           longitude: "-0.71111261844658",
-          media: [],
+          ign_page_id: "Camera_Work_in_the_Depths",
+          media: [
+            {
+              url: "https://www.ign.com/videos/the-legend-of-zelda-tears-of-the-kingdom-gameplay-walkthrough-camera-work-in-the-depths-where-to-find-robbie",
+              type: "ign_video",
+            },
+          ],
         },
         {
+          id: 279268,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
           description: "**Coordinates:** 3850, -1333, -0857",
           latitude: "0.33616901053939",
           longitude: "-0.57920463214020",
         },
         {
+          id: 279272,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
           description: "**Coordinates:** 0457, -0803, -0472",
           latitude: "0.35341940565797",
           longitude: "-0.68832798637430",
         },
         {
+          id: 279407,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
           description: "**Coordinates:** 3708, 2598, -0414",
           latitude: "0.46282620188792",
           longitude: "-0.58432755113205",
         },
         {
+          id: 279743,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
           description: "**Coordinates:** 0882, -2401, -0393",
           latitude: "0.30188659223174",
           longitude: "-0.67470565438308",
         },
         {
+          id: 279745,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
           description: "**Coordinates:** -1032, 2690, -0273",
           latitude: "0.46542801730284",
           longitude: "-0.73665320354809",
         },
         {
+          id: 281471,
           mapSlug: "hyrule",
+
           title: "Bargainer Statue",
           description:
-            "Underneath the Central Mine. Unlocks after completion of the side adventure: A Call From the Depths.",
+            "Underneath the Central Mine. Unlocks after completion of the side adventure: [A Call From the Depths](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=281092).",
           latitude: "0.31729973634537",
           longitude: "-0.73057440641602",
         },
@@ -109,12 +146,14 @@ export const services = {
     {
       locations: [
         {
+          id: 276622,
           mapSlug: "hyrule",
           title: "Crystal Refinery",
           latitude: "0.99317762136084",
           longitude: "-0.69163575768562",
         },
         {
+          id: 277493,
           mapSlug: "hyrule",
           title: "Crystal Refinery",
           description:
@@ -128,7 +167,9 @@ export const services = {
     {
       locations: [
         {
+          id: 276625,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** 0439, -1680, 1443\n\n**Available Devices:** \n- Flame Emitter\n- Fan\n- Portable Pot",
@@ -136,7 +177,9 @@ export const services = {
           longitude: "-0.68910375237402",
         },
         {
+          id: 276633,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Flame Emitter\n- Wing\n- Fan\n- Portable Pot",
@@ -144,7 +187,9 @@ export const services = {
           longitude: "-0.67832970378325",
         },
         {
+          id: 277774,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:**   \n**Available Devices:** \n- Shock Emitter\n- Light\n- Steering Stick\n- Homing Cart \n\n**Note:** Must be activated by (??)",
@@ -152,7 +197,9 @@ export const services = {
           longitude: "-0.68889856338618",
         },
         {
+          id: 278314,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** On the main island of South Eldin Sky Archipelago   \n**Available Devices:** \n- Big Wheel\n- Hydrant\n- Battery\n- Fan",
@@ -160,7 +207,9 @@ export const services = {
           longitude: "-0.63937425613224",
         },
         {
+          id: 278330,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** \nNorth Necluda Sky Archipelago  \n**Available Devices:** \n- Cannon\n- Wing\n- Spring\n- Time Bomb",
@@ -168,7 +217,9 @@ export const services = {
           longitude: "-0.64583301543996",
         },
         {
+          id: 278391,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Big Wheel\n- Steering Stick\n- Portable Pot\n- Battery",
@@ -176,7 +227,9 @@ export const services = {
           longitude: "-0.63266848072465",
         },
         {
+          id: 279474,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n\n**Available Devices:** \n- Balloon\n- Fan\n- Big Wheel\n- Stabilizer",
@@ -184,14 +237,18 @@ export const services = {
           longitude: "-0.64397609793483",
         },
         {
+          id: 279500,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description: "- Cart\n- Wing\n- Fan\n- Beam Emitter",
           latitude: "1.06251229094070",
           longitude: "-0.60930669307638",
         },
         {
+          id: 279658,
           mapSlug: "hyrule",
+
           title: "Device Dispencer",
           description:
             "**Location:** South Hyrule Sky Archipelago, on the same island as Jinodok Shrine\n\n**Coordinates:** -1221, -1583, 1007\n\n**Available Devices:** \n- Time Bomb\n- Small Wheel\n- Light\n- Rocket",
@@ -199,7 +256,9 @@ export const services = {
           longitude: "-0.74221237978429",
         },
         {
+          id: 279695,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Coordinates:** -3807\uff0c2760\uff0c0702\n\n**Available Devices:** \n- Rocket\n- Flame Emitter\n- Portable Pot\n- Time Bomb",
@@ -207,7 +266,9 @@ export const services = {
           longitude: "-0.82574141970704",
         },
         {
+          id: 279770,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** Southeast side of Digdogg Suspension Bridge  \n\n**Coordinates:** -1627, -1889, 0002\n\n**Available Devices:** \n- Stake\n- Big Wheel\n- Spring\n- Portable Pot\n- Battery",
@@ -215,7 +276,9 @@ export const services = {
           longitude: "-0.75537599355684",
         },
         {
+          id: 279818,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Wing\n- Sled\n- Fan\n- Cart\n- Light",
@@ -223,7 +286,9 @@ export const services = {
           longitude: "-0.75822125944137",
         },
         {
+          id: 279848,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Wing\n- Frost Emitter\n- Small Wheel\n- Mirror",
@@ -231,7 +296,9 @@ export const services = {
           longitude: "-0.81429958078957",
         },
         {
+          id: 279855,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** directly across from shrine\n**Available Devices:** \n- Small Wheel\n- Steering Stick\n- Cannon\n- Light",
@@ -239,7 +306,9 @@ export const services = {
           longitude: "-0.61142479939403",
         },
         {
+          id: 280091,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Balloon\n- Fan\n- Portable Pot\n- Timing Bomb",
@@ -247,7 +316,9 @@ export const services = {
           longitude: "-0.77942084544975",
         },
         {
+          id: 280118,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** Torin Wetland  \n**Available Devices:** \n- Fan\n- Small Wheel\n- Balloon\n- Big Wheel\n- Rocket\n- Steering Stick",
@@ -255,7 +326,9 @@ export const services = {
           longitude: "-0.58057822286904",
         },
         {
+          id: 280683,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Spring\n- Hydrant\n- Beam Emitter\n- Steering Stick",
@@ -263,7 +336,9 @@ export const services = {
           longitude: "-0.55813448410797",
         },
         {
+          id: 280763,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** \nOn a small floating island under Lightcast Island\n\n**Available Devices:** \n- Mirror\n- Balloon\n- Spring\n- Wing\n- Hover Stone",
@@ -271,7 +346,9 @@ export const services = {
           longitude: "-0.81933831937303",
         },
         {
+          id: 280969,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Beam Emitter\n- Sled\n- Mirror\n- Steering Stick\n- Stake",
@@ -279,7 +356,9 @@ export const services = {
           longitude: "-0.76015971779182",
         },
         {
+          id: 280976,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Hover Stone\n- Time Bomb\n- Homing Cart\n- Hydrant",
@@ -287,7 +366,9 @@ export const services = {
           longitude: "-0.55644657686480",
         },
         {
+          id: 280995,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:**   \n**Available Devices:** \n- Light\n- Flame Emitter\n- Battery\n- Construct Head",
@@ -295,7 +376,9 @@ export const services = {
           longitude: "-0.69612566529983",
         },
         {
+          id: 281012,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Coordinates:** 3436, 0641, 1317  \n**Available Devices:** \n- Fan\n- Hover Stone\n- Wing \n- Battery\n- Stabilizer",
@@ -303,7 +386,9 @@ export const services = {
           longitude: "-0.59281492561044",
         },
         {
+          id: 281381,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** Starview Island  \n**Available Devices:** \n- Stake\n- Shock Emitter\n- Sled\n- Stabilizer\n- Frost Emitter",
@@ -311,7 +396,9 @@ export const services = {
           longitude: "-0.81425225831134",
         },
         {
+          id: 281478,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** Second floor of the interior  \n**Available Devices:** \n- Homing Cart\n- Beam Emitter\n- Flame Emitter\n- Frost Emitter\n- Time Bomb",
@@ -319,7 +406,9 @@ export const services = {
           longitude: "-0.62838722581060",
         },
         {
+          id: 281486,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** West Necluda Sky Archipelago\n\n**Available Devices:** \n- Construct Head\n- Cart\n- Balloon\n- Stabilizer\n- Hydrant",
@@ -327,7 +416,9 @@ export const services = {
           longitude: "-0.65987777039092",
         },
         {
+          id: 281617,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** Valor Island  \n**Available Devices:** \n- Frost Emitter\n- Wing\n- Battery\n- Mirror",
@@ -335,7 +426,9 @@ export const services = {
           longitude: "-0.55250990587010",
         },
         {
+          id: 281930,
           mapSlug: "hyrule",
+
           title: "Device Dispensor",
           description:
             "**Location:** Opposite the shrine on the sky island  \n**Available Devices:**\n- Homing Cart\n- Stake\n- Cart\n- Cannon\n- Construct Head",
@@ -343,7 +436,9 @@ export const services = {
           longitude: "-0.58240326547985",
         },
         {
+          id: 282086,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Coordinates:** 1390 -3238 0418\n\n**Available Devices:** \n- Wing\n- Cart\n- Fan\n- Steering Stick",
@@ -351,7 +446,9 @@ export const services = {
           longitude: "-0.65824964464351",
         },
         {
+          id: 282455,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "**Location:** ??  \n**Available Devices:** \n- Shock Emitter\n- Fan\n- Portable Pot\n- Battery",
@@ -359,7 +456,9 @@ export const services = {
           longitude: "-0.66758389333751",
         },
         {
+          id: 282588,
           mapSlug: "hyrule",
+
           title: "Device Dispenser",
           description:
             "Available Devices:\n- Wing\n- Small Wheel\n- Big Wheel\n- Rocket\n- Steering Stick\n- Construct Head",
@@ -372,9 +471,11 @@ export const services = {
     {
       locations: [
         {
+          id: 276896,
           mapSlug: "hyrule",
           title: "Kochi Dye Shop",
-          description: "**Location:** Hateno Village",
+          description:
+            "**Location:** [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)",
           latitude: "0.63387620775673",
           longitude: "-0.59361174702684",
         },
@@ -384,9 +485,12 @@ export const services = {
     {
       locations: [
         {
+          id: 276621,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
-          description: "**Location:** Mining Cave",
+          description:
+            "**Location:** [Mining Cave](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276623)\r\n\r\n**Stock:**  \r\n- 5x Zonai Charge (2 Zonaite)\r\n- 10x Crystallized Charge (3 Zonaite)",
           latitude: "0.99199696961145",
           longitude: "-0.68800979535848",
           media: [
@@ -397,62 +501,79 @@ export const services = {
           ],
         },
         {
+          id: 276754,
           mapSlug: "hyrule",
+
           title: "General Store",
-          description: "**Location:** Lookout Landing\n- Apples",
+          description:
+            "**Location:** [Lookout Landing](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276752)  \n\n**Stock:**\n- Arrows (x5)\n- Apples",
           latitude: "0.70555535373869",
           longitude: "-0.70987276732887",
         },
         {
+          id: 276822,
           mapSlug: "hyrule",
+
           title: "High Spirits Produce",
           description:
-            "**Location:** Kakariko Village  \n\n**Stock:**\n- Goat Butter\n- Fortified Pumpkin\n- Bird Egg\n- Swift Carrot",
+            "**Location:** [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)  \n\n**Stock:**\n- Goat Butter\n- Fortified Pumpkin\n- Bird Egg\n- Swift Carrot",
           latitude: "0.66996149395413",
           longitude: "-0.64541139038622",
         },
         {
+          id: 276823,
           mapSlug: "hyrule",
+
           title: "The Curious Quiver",
           description:
-            "**Location:** Kakariko Village  \r\n\r\n**Stock:**\r\n- ??",
+            "**Location:** [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)  \r\n\r\n**Stock:**\r\n- ??",
           latitude: "0.66958616877433",
           longitude: "-0.64428471028660",
         },
         {
+          id: 276829,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
-            "**Location:** Zora's Domain\n- Splash Fruit\n- Armored Carp\n- Mighty Carp\n- Hearty Salmon",
+            "**Location:** [Zora's Domain](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276828)  \n\n**Stock:** (Before Main Quest)\n- Arrow x 5\n- Hylian Rice\n- Swift Violet\n- Hylian Tomato\n\n(Added after Main Quest)\n- Splash Fruit\n- Armored Carp\n- Mighty Carp\n- Hearty Salmon",
           latitude: "0.71911853451458",
           longitude: "-0.59618020021685",
         },
         {
+          id: 276845,
           mapSlug: "hyrule",
+
           title: "The Slippery Falcon",
           description:
-            "**Location:** Rito Village:**\n- Sunshroom\n- Tabantha Wheat",
+            "**Location:** [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)  \n\n**Initial Stock:**\n- Cane Sugar\n- Goat Butter\n- Oil Jar\n- 5x Arrow Bundles\n\n**Expanded Stock (after weather clears):**\n- Sunshroom\n- Tabantha Wheat",
           latitude: "0.76146048568128",
           longitude: "-0.82045618736089",
         },
         {
+          id: 276855,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
-            "**Location:** Goron City  \n\n**Stock:**\n- 5x Arrow Bundles\n- Fire Fruit\n- Goron Spice\n- Cane Sugar\n- Rock Salt",
+            "**Location:** [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852)  \n\n**Stock:**\n- 5x Arrow Bundles\n- Fire Fruit\n- Goron Spice\n- Cane Sugar\n- Rock Salt",
           latitude: "0.78237940731087",
           longitude: "-0.64895778894265",
         },
         {
+          id: 276897,
           mapSlug: "hyrule",
+
           title: "East Wind",
           description:
-            "**Location:** Hateno Village  \n\n**Stock:**\n- Fresh Milk\n- Bird Egg\n- Hylian Tomato\n- Swift Carrot\n- Fortified Pumpkin\n- Hylian Shroom\n- Goat Butter\n- 5x Arrow Bundles   \n\n**After side quests**  \n- Sun pumpkin\n- Hateno cheese",
+            "**Location:** [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)  \n\n**Stock:**\n- Fresh Milk\n- Bird Egg\n- Hylian Tomato\n- Swift Carrot\n- Fortified Pumpkin\n- Hylian Shroom\n- Goat Butter\n- 5x Arrow Bundles   \n\n**After side quests**  \n- Sun pumpkin\n- Hateno cheese",
           latitude: "0.63324324512838",
           longitude: "-0.59494212269846",
         },
         {
+          id: 277800,
           mapSlug: "hyrule",
+
           title: "Maike's Bazaar Shop Stall",
           description:
             "**Location:** Outdoors near the oasis pond\n\n**Stock:**\n- Roasted Bass\n- Seared Steak\n- Lizalfos Tail",
@@ -460,17 +581,22 @@ export const services = {
           longitude: "-0.80854721367254",
         },
         {
+          id: 278089,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
-            "**Location:** Tarrey Town  \n\n**Stock:**\n- Arrows x5\n- Monster Extract x3\n- Dazzlefruit x4\n- Bomb Flower x4",
+            "**Location:** [Tarrey Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278088)  \n\n**Stock:**\n- Arrows x5\n- Monster Extract x3\n- Dazzlefruit x4\n- Bomb Flower x4",
           latitude: "0.75567528530573",
           longitude: "-0.57425721255194",
         },
         {
+          id: 278149,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
-          description: "**Location:** The Depths - Abandoned Kara Kara Mine",
+          description:
+            "**Location:** [The Depths - Abandoned Kara Kara Mine](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278147)  \r\n\r\n**Stock:**\r\n- 5x Large Zonai Charge (1 Large Zonaite)\r\n- 15x Zonai Charge (2 Zonaite)\r\n- 5x Large Crystallized Charge (3 Large Zonaite)\r\n- 30x Crystallized Charge (3 Zonaite)",
           latitude: "0.29814758512624",
           longitude: "-0.80579360601192",
           media: [
@@ -481,7 +607,9 @@ export const services = {
           ],
         },
         {
+          id: 279269,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** ??  \n\n**Stock:**\n- Crystalized Charge\n- Zonai Charge",
@@ -489,7 +617,9 @@ export const services = {
           longitude: "-0.58943977024276",
         },
         {
+          id: 279271,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** Abandoned Lurelin Mine\n\n**Stock:**\n- Crystalized Charge\n- Zonai Charge",
@@ -497,7 +627,9 @@ export const services = {
           longitude: "-0.60879777687771",
         },
         {
+          id: 279526,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** ??  \n\n**Stock:**\n- Crystalized Charge\n- Zonai Charge",
@@ -505,7 +637,9 @@ export const services = {
           longitude: "-0.59832493842242",
         },
         {
+          id: 279706,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
             "**Stock:**\n- Bomb Flower\n- Yellow Chuchu Jelly\n- White Chuchu Jelly\n- Red Chuchu Jelly\n- 5x Arrow Bundles",
@@ -513,7 +647,9 @@ export const services = {
           longitude: "-0.82747220993065",
         },
         {
+          id: 279707,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
             "**Stock:**\n- Rock Salt\n- Tabantha Wheat\n- Hylian Rice",
@@ -521,7 +657,9 @@ export const services = {
           longitude: "-0.82603425444933",
         },
         {
+          id: 279708,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
             "**Stock:**\n- Ironshroom\n- Razorshroom\n- Sunshroom\n- Zapshroom\n- Chillshroom",
@@ -529,14 +667,18 @@ export const services = {
           longitude: "-0.82590550841667",
         },
         {
+          id: 279709,
           mapSlug: "hyrule",
+
           title: "General Store",
           description: "**Stock:**\n- Voltfruit\n- Hydromelon\n- Palm Fruit",
           latitude: "0.61052362900622",
           longitude: "-0.82618445815476",
         },
         {
+          id: 279710,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
             "**Stock:**\n- Seared Steak\n- Seared Prime Steak\n- Seared Gourmet Steak",
@@ -544,7 +686,9 @@ export const services = {
           longitude: "-0.82720398902876",
         },
         {
+          id: 280879,
           mapSlug: "hyrule",
+
           title: "The General Shoppe",
           description:
             "**Location:** Inside the Great Deku Tree  \n\n**Stock:**\n- Tabantha Wheat\n- Apple\n- Hylian Rice\n- Cane Sugar\n- Arrow x5\n\n**Side Note:** Unavailable until Korok Forest is cleared of gloom.",
@@ -552,7 +696,9 @@ export const services = {
           longitude: "-0.68906955421022",
         },
         {
+          id: 281024,
           mapSlug: "hyrule",
+
           title: "Forge Construct (Central Abandoned Mine)",
           description:
             "**Location:** ??  \n\n**Stock:**\n- 5x Large Zonai Charge (1 Large Zonaite)\n- 15x Zonai Charge (2 Zonaite)\n- 5x Large Crystallized Charge (3 Large Zonaite)\n- 30x Crystallized Charge (3 Zonaite)",
@@ -560,7 +706,9 @@ export const services = {
           longitude: "-0.73060728547679",
         },
         {
+          id: 282443,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** Abandoned Kakariko Mine   \n\n**Stock:**\n- 30 Crystalized Charge\n- 5 Large Crystalized Charge\n- 15 Zonai Charge\n- 5 Large Zonai Charge",
@@ -568,7 +716,9 @@ export const services = {
           longitude: "-0.64598363731156",
         },
         {
+          id: 282485,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** -3810, -2957, -0487\n\n**Stock:**\n- 5x Large Zonai Charge (1 Large Zonaite)\n- 15x Zonai Charge (2 Zonaite)\n- 5x Large Crystallized Charge (3 Large Zonaite)\n- 30x Crystallized Charge (3 Zonaite)",
@@ -576,7 +726,9 @@ export const services = {
           longitude: "-0.82582318491117",
         },
         {
+          id: 282560,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** Abandoned Hebra Mine\n\n**Stock:**\n- Crystallized Charge x30\n- Large Crystallized Charge x5\n- Zonai Charge x 15\n- Large Zonai Charge x5",
@@ -584,14 +736,18 @@ export const services = {
           longitude: "-0.81455775642840",
         },
         {
+          id: 283138,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description: "**Location:** ??  \n\n**Stock:**\n- ??",
           latitude: "0.42917391856710",
           longitude: "-0.57563765704685",
         },
         {
+          id: 284239,
           mapSlug: "hyrule",
+
           title: "Emri's Bazaar Shop Stall",
           description:
             "**Location:** Outdoors near the oasis pond  \n\n**Stock:**\n- Electric Safflina\n- Hydromelon\n- Oil Jar",
@@ -599,7 +755,9 @@ export const services = {
           longitude: "-0.80877069255990",
         },
         {
+          id: 284240,
           mapSlug: "hyrule",
+
           title: "General Store",
           description:
             "**Location:** Inside the large oasis building.\n\n**Stock:**\n- 5x Arrow Bundles\n- Chuchu Jelly\n- Red Chuchu Jelly\n- Yellow Chuchu Jelly\n- White Chuchu Jelly",
@@ -607,7 +765,9 @@ export const services = {
           longitude: "-0.80807331821569",
         },
         {
+          id: 284363,
           mapSlug: "hyrule",
+
           title: "Forge Construct",
           description:
             "**Location:** Abandoned Eldin Mine  \n\n**Stock:**\n- 15 Zonai Charges\n- 5 Large Zonai Charges\n- 30 Crystallized Charges\n- 5 Large Crystallized Charges",
@@ -615,7 +775,9 @@ export const services = {
           longitude: "-0.64843604063995",
         },
         {
+          id: 285939,
           mapSlug: "hyrule",
+
           title: "The Spore Store",
           description:
             "**Location:** Inside the Great Deck Tree\n\n**Stock:**\n- Brightcap\n- Razorshroom\n- Ironshroom\n- Rushroom\n- Stamella Shroom\n\n**Side Note:** Unavailable until Korok Forest is cleared of gloom.",
@@ -623,7 +785,9 @@ export const services = {
           longitude: "-0.68957515060924",
         },
         {
+          id: 286700,
           mapSlug: "hyrule",
+
           title: "Smithing Construct",
           description:
             "**Location:** ??  \n\n**Stock:**\n- Mighty Zonaite Sword\n- Mighty Zonaite Longsword\n- Mighty Zonaite Spear\n- Mighty Zonaite Shield\n- Zonaite Bow",
@@ -671,55 +835,74 @@ export const services = {
     {
       locations: [
         {
+          id: 276824,
           mapSlug: "hyrule",
           title: "Shuteye Inn",
-          description: "**Location:** Kakariko Village",
+          description:
+            "**Location:** [Kakariko Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276821)",
           latitude: "0.67028333702208",
           longitude: "-0.64404882820705",
         },
         {
+          id: 276830,
           mapSlug: "hyrule",
           title: "Zora's Domain Inn",
-          description: "**Location:** Zora's Domain",
+          description:
+            "**Location:** [Zora's Domain](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276828)",
           latitude: "0.71951517207080",
           longitude: "-0.59686660766573",
         },
         {
+          id: 276846,
           mapSlug: "hyrule",
           title: "Swallow's Roost",
-          description: "**Location:** Rito Village",
+          description:
+            "**Location:** [Rito Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276843)",
           latitude: "0.76234017245608",
           longitude: "-0.81934038841069",
         },
         {
+          id: 276853,
           mapSlug: "hyrule",
+
           title: "Goron City Inn",
-          description: "**Location:** Goron City",
+          description:
+            "**Location:** [Goron City](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276852)",
           latitude: "0.78105962304120",
           longitude: "-0.64895757120189",
         },
         {
+          id: 276894,
           mapSlug: "hyrule",
+
           title: "The Great Ton Pu Inn",
-          description: "**Location:** Hateno Village",
+          description:
+            "**Location:** [Hateno Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=276892)",
           latitude: "0.63510793671755",
           longitude: "-0.59134662151388",
         },
         {
+          id: 278090,
           mapSlug: "hyrule",
+
           title: "Tarrey Town Inn",
-          description: "**Location:** Tarrey Town",
+          description:
+            "**Location:** [Tarrey Town](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278088)",
           latitude: "0.75449762829631",
           longitude: "-0.57442896911354",
         },
         {
+          id: 279711,
           mapSlug: "hyrule",
+
           title: "Hotel Oasis",
           latitude: "0.61000863613135",
           longitude: "-0.82701086997989",
         },
         {
+          id: 284243,
           mapSlug: "hyrule",
+
           title: "Inn",
           description:
             "**Location:** Inside the large oasis building, speak to Kachoo at the front desk.",
@@ -727,7 +910,9 @@ export const services = {
           longitude: "-0.80812696239639",
         },
         {
+          id: 285940,
           mapSlug: "hyrule",
+
           title: "Great Deku's Tree Navel",
           description:
             "**Location:** Inside the Great Deku Tree\n\n**Note:** Unavailable until Korok Forest is cleared of gloom.",
@@ -735,9 +920,12 @@ export const services = {
           longitude: "-0.68997211754396",
         },
         {
+          id: 287478,
           mapSlug: "hyrule",
+
           title: "Lurelin Inn",
-          description: "**Location:** Lurelin Village",
+          description:
+            "**Location:** [Lurelin Village](https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule?locationIds=278007)",
           latitude: "0.59231582773709",
           longitude: "-0.60826929671423",
         },

@@ -4,8 +4,7 @@ import {
   useAddFoundLocationMutation,
   useRemoveFoundLocationMutation,
 } from "@/generated/client-gql";
-import { useAuthStore } from "@/store";
-import { useUserStore } from "@/store/user";
+import { useAuthStore, useUserStore } from "@/store";
 
 export const MarkerFoundCheckbox = ({ markerId }: { markerId: number }) => {
   const auth = useAuthStore((state) => state.auth);

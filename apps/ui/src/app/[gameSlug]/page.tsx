@@ -93,7 +93,7 @@ export default async function RegionPage({
           )}
         >
           {game.maps.map(({ slug, title }: Partial<Map>) => (
-            <Link key={slug} href={`/game/${game.slug}/map/${slug}`}>
+            <Link key={slug} href={`/${game.slug}/map/${slug}`}>
               <Card sx={{ maxWidth: 350 }}>
                 <CardActionArea>
                   {showRegionMedia ? (
@@ -157,7 +157,7 @@ export default async function RegionPage({
             </Typography>
             <div className="flex gap-6 p-6 flex-wrap content-center justify-center">
               {checklists?.map(({ title, id }: Partial<ChecklistGuide>) => (
-                <Link key={title} href={`/game/${game.slug}/guide/${id}`}>
+                <Link key={title} href={`/${game.slug}/guide/${id}`}>
                   <Card sx={{ minWidth: 350 }}>
                     <CardActionArea>
                       <CardContent

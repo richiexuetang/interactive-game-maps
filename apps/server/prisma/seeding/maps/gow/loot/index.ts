@@ -69,7 +69,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "R\u00f6nd of Restoration",
           description:
-            "In a small hut beyond the opening found just behind the [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10885)",
+            "In a small hut beyond the opening found just behind the [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10885)",
           latitude: "0.61452245050779",
           longitude: "-0.66837102296381",
           media: [
@@ -198,7 +198,7 @@ export const loot = {
           mapSlug: "alfheim",
           title: "R\u00f6nd of Affliction",
           description:
-            "**Requires:** Completion of Favor [Secret of the Sands](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=21641091418)\n\nIn a small cave just South-East of the entrance to The Barrens from The Canyons (the same cave as [Tribute to Freyr #3 - Harp](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=216420)).  Break the Nest Vines using the nearby Twilight Stone to access.",
+            "**Requires:** Completion of Favor [Secret of the Sands](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=21641091418)\n\nIn a small cave just South-East of the entrance to The Barrens from The Canyons (the same cave as [Tribute to Freyr #3 - Harp](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=216420)).  Break the Nest Vines using the nearby Twilight Stone to access.",
           latitude: "0.64067890527082",
           longitude: "-0.62498270808669",
           media: [
@@ -232,7 +232,7 @@ export const loot = {
           mapSlug: "alfheim",
           title: "Hilt of Gram",
           description:
-            "Contains [Hilt of Gram](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=219055)",
+            "Contains [Hilt of Gram](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=219055)",
           latitude: "0.43411299659978",
           longitude: "-0.86112050797769",
           media: [
@@ -1021,7 +1021,7 @@ export const loot = {
           mapSlug: "muspelheim",
           title: "Nornir Chest",
           description:
-            "**Requires:** Complete the first 6 Muspelheim Trials:\n- [Weapon Mastery [1]](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10951)\n- [Flawless [2]](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10954)\n- [Ring Out Challenge [1]](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10952)\n- [Feed the Rift [2]](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10955)\n- [Population Control [1]](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10953)\n- [King of the Hill [2]](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10956)",
+            "**Requires:** Complete the first 6 Muspelheim Trials:\n- [Weapon Mastery [1]](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10951)\n- [Flawless [2]](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10954)\n- [Ring Out Challenge [1]](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10952)\n- [Feed the Rift [2]](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10955)\n- [Population Control [1]](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10953)\n- [King of the Hill [2]](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10956)",
           latitude: "0.80426525331329",
           longitude: "-0.84070098362557",
           media: [
@@ -1240,7 +1240,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Bracers of Fallen Stars",
           description:
-            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=11017)",
+            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=11017)",
           latitude: "0.85158892108416",
           longitude: "-0.72048535056348",
         },
@@ -1248,7 +1248,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Plackart of Fallen Stars",
           description:
-            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=11017)",
+            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=11017)",
           latitude: "0.85141727866386",
           longitude: "-0.71705212302413",
         },
@@ -1256,7 +1256,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Runic Hailstone Knob",
           description:
-            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=11017)",
+            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=11017)",
           latitude: "0.84832771379303",
           longitude: "-0.71550717063178",
         },
@@ -1264,7 +1264,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Celestial Panacea",
           description:
-            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=11017)",
+            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=11017)",
           latitude: "0.84506650375337",
           longitude: "-0.71602215476258",
         },
@@ -1272,7 +1272,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Hind of Volatile Might",
           description:
-            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=11017)",
+            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=11017)",
           latitude: "0.85193474866627",
           longitude: "-0.72374582290593",
         },
@@ -1280,7 +1280,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Waist Guard of Fallen Stars",
           description:
-            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=11017)",
+            "Obtainable by throwing Crystal Fragments into the [Wishing Well](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=11017)",
           latitude: "0.85313370253166",
           longitude: "-0.72683682151364",
         },
@@ -1289,7 +1289,7 @@ export const loot = {
           mapSlug: "midgard",
           title: "Waist Guard of Guiding Light",
           description:
-            "On the ground under the brambles next to [Tyr's Right Bracer](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10648)",
+            "On the ground under the brambles next to [Tyr's Right Bracer](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10648)",
           latitude: "0.81971202489122",
           longitude: "-0.59112590698970",
           media: [
@@ -1303,7 +1303,7 @@ export const loot = {
           mapSlug: "midgard",
           title: "Guantlets of Guiding Light",
           description:
-            "On the ground near [Tyr's Left Bracer](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10654)",
+            "On the ground near [Tyr's Left Bracer](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10654)",
           latitude: "0.80518337123685",
           longitude: "-0.65283894538891",
           media: [
@@ -1317,7 +1317,7 @@ export const loot = {
           mapSlug: "midgard",
           title: "Breastplate of Guiding Light",
           description:
-            "On the ground next to [Tyr's Helmet](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10655)",
+            "On the ground next to [Tyr's Helmet](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10655)",
           latitude: "0.76595089010188",
           longitude: "-0.56056292715991",
           media: [
@@ -1331,7 +1331,7 @@ export const loot = {
           mapSlug: "midgard",
           title: "J\u00f6tunheim's Essence",
           description:
-            "On the ground next to [Tyr's Spear](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10656)",
+            "On the ground next to [Tyr's Spear](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10656)",
           latitude: "0.70238705900714",
           longitude: "-0.50761526640426",
           media: [
@@ -1350,7 +1350,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "Under the Rainbow",
           description:
-            "In the corner on the ground\n\n**Treasure:** [Under the Rainbow](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10569)",
+            "In the corner on the ground\n\n**Treasure:** [Under the Rainbow](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10569)",
           latitude: "0.44349296816270",
           longitude: "-0.67872845150893",
           media: [
@@ -1364,7 +1364,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "The Giant's Toes",
           description:
-            "**Treasure:** [The Giant's Toes](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10564)",
+            "**Treasure:** [The Giant's Toes](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10564)",
           latitude: "0.37337485582235",
           longitude: "-0.75080397436389",
           media: [
@@ -1378,7 +1378,7 @@ export const loot = {
           mapSlug: "vanaheim",
           title: "A Scar is Born",
           description:
-            "**Treasure:** [A Scar is Born](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10565)",
+            "**Treasure:** [A Scar is Born](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10565)",
           latitude: "0.87455465620798",
           longitude: "-0.75491994084109",
           media: [
@@ -1393,7 +1393,7 @@ export const loot = {
           mapSlug: "alfheim",
           title: "Vulture's Gold",
           description:
-            "Up the path to the left from the Mystic Gateway\n\n**Treasure:** [Vulture's Gold](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10572)",
+            "Up the path to the left from the Mystic Gateway\n\n**Treasure:** [Vulture's Gold](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10572)",
           latitude: "0.57647963816197",
           longitude: "-0.78341353588223",
           media: [
@@ -1407,7 +1407,7 @@ export const loot = {
           mapSlug: "alfheim",
           title: "Forgotten Tower",
           description:
-            "On the shelf next to the chest that contains a Jewel of Yggdrasil\n\n**Treasure:** [Forgotten Tower](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10573)",
+            "On the shelf next to the chest that contains a Jewel of Yggdrasil\n\n**Treasure:** [Forgotten Tower](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10573)",
           latitude: "0.90979661029998",
           longitude: "-0.70075089823720",
           media: [
@@ -1421,7 +1421,7 @@ export const loot = {
           mapSlug: "midgard",
           title: "Viking's Gift",
           description:
-            "**Treasure:** [Viking's Gift](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10575)\n\nInside the Raider's Fort - on the ground near the campfire",
+            "**Treasure:** [Viking's Gift](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10575)\n\nInside the Raider's Fort - on the ground near the campfire",
           latitude: "0.76335885427549",
           longitude: "-0.67954255415776",
           media: [
@@ -1435,7 +1435,7 @@ export const loot = {
           mapSlug: "svartalfheim",
           title: "Mining Glory",
           description:
-            "On the upper platform next to the Legendary Chest\n\n**Treasure:** [Mining Glory](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10577)",
+            "On the upper platform next to the Legendary Chest\n\n**Treasure:** [Mining Glory](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10577)",
           latitude: "0.73893719701243",
           longitude: "-0.55810707435722",
           media: [
@@ -1449,7 +1449,7 @@ export const loot = {
           mapSlug: "svartalfheim",
           title: "Fruits of Industry",
           description:
-            "**Treasure:** [Fruits of Industry](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10578)",
+            "**Treasure:** [Fruits of Industry](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10578)",
           latitude: "0.86641726050510",
           longitude: "-0.55233545781596",
           media: [
@@ -1463,7 +1463,7 @@ export const loot = {
           mapSlug: "svartalfheim",
           title: "Washed Ashore",
           description:
-            "**Treasure:** [Washed Ashore](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10576)",
+            "**Treasure:** [Washed Ashore](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10576)",
           latitude: "0.92077572415565",
           longitude: "-0.57537466983462",
           media: [
@@ -1477,7 +1477,7 @@ export const loot = {
           mapSlug: "svartalfheim",
           title: "Demise of Dagestr",
           description:
-            "**Treasure:** [Demise of Dagestr](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=216475) (Midgard)",
+            "**Treasure:** [Demise of Dagestr](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=216475) (Midgard)",
           latitude: "0.50986212799933",
           longitude: "-0.79906277566280",
           media: [
@@ -1608,7 +1608,7 @@ export const loot = {
           mapSlug: "svartalfheim",
           title: "Yggdrasil's Dew of Vitality",
           description:
-            "**Requires:** Complete story quest _The Reckoning_\n\nTo gain access to this Dew, dock at the [Bay of Bounty](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10446), climb the chain, and activate the Runic Slate",
+            "**Requires:** Complete story quest _The Reckoning_\n\nTo gain access to this Dew, dock at the [Bay of Bounty](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10446), climb the chain, and activate the Runic Slate",
           latitude: "0.91464474509779",
           longitude: "-0.57957894732667",
           media: [

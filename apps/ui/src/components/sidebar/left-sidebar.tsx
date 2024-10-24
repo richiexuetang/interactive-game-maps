@@ -90,7 +90,7 @@ export const Menu = ({ map }: MenuProps) => {
 
       {showMenu && (
         <Paper className="overflow-y-scroll absolute left-0 z-[499] w-[425px] h-full !bg-sidebarBackground flex flex-col p-5 gap-4">
-          <Link href={`/game/${game?.slug}`}>
+          <Link href={`/${game?.slug}`}>
             <Image
               src={`/images/games/${game?.slug}/logo-512.png`}
               width="360"

@@ -13,8 +13,7 @@ import {
   useRemoveFoundLocationMutation,
 } from "@/generated/client-gql";
 import { titleCase } from "@/lib/utils";
-import { useAuthStore } from "@/store";
-import { useUserStore } from "@/store/user";
+import { useAuthStore, useUserStore } from "@/store";
 
 type ChecklistItem = {
   id: number;
@@ -30,6 +29,7 @@ type ChecklistItem = {
 interface ChecklistGridProps {
   locations: any;
 }
+
 export const ChecklistGrid = ({ locations }: ChecklistGridProps) => {
   const auth = useAuthStore((state) => state.auth);
   const user = useUserStore((state) => state.user);

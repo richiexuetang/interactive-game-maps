@@ -64,7 +64,7 @@ export const GameCard = ({ game }: { game: GamesQuery["games"][number] }) => {
               )}
             </IconButton>
           )}
-          <Link href={`/game/${slug}`}>
+          <Link href={`/${slug}`}>
             <CardMedia
               component="img"
               height="140"

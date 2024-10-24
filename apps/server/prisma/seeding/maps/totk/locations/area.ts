@@ -1,5 +1,6 @@
 export const area = [
   {
+    id: 276757,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Temple of Time",
@@ -7,6 +8,7 @@ export const area = [
     longitude: "-0.68852442724610",
   },
   {
+    id: 276913,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tenoko Island",
@@ -14,6 +16,7 @@ export const area = [
     longitude: "-0.57410193706548",
   },
   {
+    id: 277067,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Shatterback Point",
@@ -21,6 +24,7 @@ export const area = [
     longitude: "-0.58230924835959",
   },
   {
+    id: 277068,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lulu Lake",
@@ -28,6 +32,7 @@ export const area = [
     longitude: "-0.58339130062475",
   },
   {
+    id: 277069,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mikau Lake",
@@ -35,6 +40,7 @@ export const area = [
     longitude: "-0.58874286959946",
   },
   {
+    id: 277070,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Reservoir Lake",
@@ -42,6 +48,7 @@ export const area = [
     longitude: "-0.58515202173911",
   },
   {
+    id: 277071,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ruto Precipice",
@@ -49,6 +56,7 @@ export const area = [
     longitude: "-0.59374377288947",
   },
   {
+    id: 277073,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ruto Lake",
@@ -56,6 +64,7 @@ export const area = [
     longitude: "-0.60160033028751",
   },
   {
+    id: 277074,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rutala Dam",
@@ -63,6 +72,7 @@ export const area = [
     longitude: "-0.58844344718869",
   },
   {
+    id: 277075,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Veiled Falls",
@@ -70,6 +80,7 @@ export const area = [
     longitude: "-0.60427988835767",
   },
   {
+    id: 277076,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ralis Pond",
@@ -77,6 +88,7 @@ export const area = [
     longitude: "-0.60885637564147",
   },
   {
+    id: 277077,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rutala River",
@@ -84,6 +96,7 @@ export const area = [
     longitude: "-0.62333869723739",
   },
   {
+    id: 277079,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Zora River",
@@ -91,6 +104,7 @@ export const area = [
     longitude: "-0.61683882994171",
   },
   {
+    id: 277080,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bank of Wishes",
@@ -98,6 +112,7 @@ export const area = [
     longitude: "-0.61445248816108",
   },
   {
+    id: 277081,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tabahl Woods",
@@ -105,6 +120,7 @@ export const area = [
     longitude: "-0.61978877748672",
   },
   {
+    id: 277082,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Toto Lake",
@@ -112,6 +128,7 @@ export const area = [
     longitude: "-0.59137486062960",
   },
   {
+    id: 277083,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Upland Zorana",
@@ -119,6 +136,7 @@ export const area = [
     longitude: "-0.60186157091920",
   },
   {
+    id: 277084,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Akkala Falls",
@@ -126,6 +144,7 @@ export const area = [
     longitude: "-0.58297967826721",
   },
   {
+    id: 277085,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "South Lake Akkala",
@@ -133,6 +152,7 @@ export const area = [
     longitude: "-0.58734950455812",
   },
   {
+    id: 277086,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Akkala",
@@ -140,6 +160,7 @@ export const area = [
     longitude: "-0.57853007108133",
   },
   {
+    id: 277087,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Torin Wetland",
@@ -147,6 +168,7 @@ export const area = [
     longitude: "-0.58585899234166",
   },
   {
+    id: 277088,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Malin Bay",
@@ -154,6 +176,7 @@ export const area = [
     longitude: "-0.56115412231230",
   },
   {
+    id: 277089,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Akkala Beach",
@@ -161,6 +184,7 @@ export const area = [
     longitude: "-0.56329422214381",
   },
   {
+    id: 277090,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rist Peninsula",
@@ -168,6 +192,7 @@ export const area = [
     longitude: "-0.55591086682776",
   },
   {
+    id: 277091,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Akkala Plains",
@@ -175,6 +200,7 @@ export const area = [
     longitude: "-0.57518630297901",
   },
   {
+    id: 277092,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ordorac Quarry",
@@ -182,6 +208,7 @@ export const area = [
     longitude: "-0.58619238519745",
   },
   {
+    id: 277093,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Octorok Lake",
@@ -189,6 +216,7 @@ export const area = [
     longitude: "-0.57220528351587",
   },
   {
+    id: 277094,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "North Akkala Valley",
@@ -196,6 +224,7 @@ export const area = [
     longitude: "-0.58087901041259",
   },
   {
+    id: 277095,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Shadow Pass",
@@ -203,6 +232,7 @@ export const area = [
     longitude: "-0.59377646519127",
   },
   {
+    id: 277096,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "North Akkala Foothill",
@@ -210,6 +240,7 @@ export const area = [
     longitude: "-0.56790613192121",
   },
   {
+    id: 277097,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bloodleaf Lake",
@@ -217,6 +248,7 @@ export const area = [
     longitude: "-0.56564342055583",
   },
   {
+    id: 277098,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rok Woods",
@@ -224,6 +256,7 @@ export const area = [
     longitude: "-0.59543578685933",
   },
   {
+    id: 277099,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Skull Lake",
@@ -231,6 +264,7 @@ export const area = [
     longitude: "-0.59679341367874",
   },
   {
+    id: 277100,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Akkala Wilds",
@@ -238,6 +272,7 @@ export const area = [
     longitude: "-0.58389595890009",
   },
   {
+    id: 277101,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tempest Gulch",
@@ -245,6 +280,7 @@ export const area = [
     longitude: "-0.59339934663126",
   },
   {
+    id: 277102,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tumlea Heights",
@@ -252,6 +288,7 @@ export const area = [
     longitude: "-0.57024426699871",
   },
   {
+    id: 277104,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "North Akkala Beach",
@@ -259,6 +296,7 @@ export const area = [
     longitude: "-0.55184088123241",
   },
   {
+    id: 277105,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Eldin's Flank",
@@ -266,6 +304,7 @@ export const area = [
     longitude: "-0.63009679457494",
   },
   {
+    id: 277106,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Death Caldera",
@@ -273,6 +312,7 @@ export const area = [
     longitude: "-0.62179712978960",
   },
   {
+    id: 277107,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Darman",
@@ -280,6 +320,7 @@ export const area = [
     longitude: "-0.63907327164529",
   },
   {
+    id: 277108,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Goro Cove",
@@ -287,6 +328,7 @@ export const area = [
     longitude: "-0.64345332457304",
   },
   {
+    id: 277109,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gorko Lake",
@@ -294,6 +336,7 @@ export const area = [
     longitude: "-0.63564924114010",
   },
   {
+    id: 277110,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Darb Pond",
@@ -301,6 +344,7 @@ export const area = [
     longitude: "-0.62816520479956",
   },
   {
+    id: 277111,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gero Pond",
@@ -308,6 +352,7 @@ export const area = [
     longitude: "-0.62499888173119",
   },
   {
+    id: 277112,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Broca Island",
@@ -315,6 +360,7 @@ export const area = [
     longitude: "-0.61626750600055",
   },
   {
+    id: 277113,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gortram Cliff",
@@ -322,6 +368,7 @@ export const area = [
     longitude: "-0.64557998166657",
   },
   {
+    id: 277114,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gorko Tunnel",
@@ -329,6 +376,7 @@ export const area = [
     longitude: "-0.63924733553242",
   },
   {
+    id: 277115,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Goron Hot Springs",
@@ -336,6 +384,7 @@ export const area = [
     longitude: "-0.64682732105663",
   },
   {
+    id: 277116,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Goronbi River",
@@ -343,6 +392,7 @@ export const area = [
     longitude: "-0.65272071946060",
   },
   {
+    id: 277117,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ulri Mountain",
@@ -350,6 +400,7 @@ export const area = [
     longitude: "-0.58899544212593",
   },
   {
+    id: 277118,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Akkala Citadel Ruins",
@@ -357,6 +408,7 @@ export const area = [
     longitude: "-0.59645024864818",
   },
   {
+    id: 277120,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "South Akkala Plains",
@@ -364,6 +416,7 @@ export const area = [
     longitude: "-0.59854691297937",
   },
   {
+    id: 277121,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cephla Lake",
@@ -371,6 +424,7 @@ export const area = [
     longitude: "-0.61483328688729",
   },
   {
+    id: 277122,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Kanalet Ridge",
@@ -378,6 +432,7 @@ export const area = [
     longitude: "-0.59789751570776",
   },
   {
+    id: 277123,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ternio Trail",
@@ -385,6 +440,7 @@ export const area = [
     longitude: "-0.61629328806103",
   },
   {
+    id: 277124,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Trilby Valley",
@@ -392,6 +448,7 @@ export const area = [
     longitude: "-0.63068665052688",
   },
   {
+    id: 277125,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Ferona",
@@ -399,6 +456,7 @@ export const area = [
     longitude: "-0.63447866215768",
   },
   {
+    id: 277126,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bon\u00e9 Pond",
@@ -406,6 +464,7 @@ export const area = [
     longitude: "-0.63663188773398",
   },
   {
+    id: 277127,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Kincean Island",
@@ -413,6 +472,7 @@ export const area = [
     longitude: "-0.63805318497543",
   },
   {
+    id: 277128,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Molida Island",
@@ -420,6 +480,7 @@ export const area = [
     longitude: "-0.64427136037662",
   },
   {
+    id: 277129,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lineback Island",
@@ -427,6 +488,7 @@ export const area = [
     longitude: "-0.64736268186198",
   },
   {
+    id: 277131,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mercay Island",
@@ -434,6 +496,7 @@ export const area = [
     longitude: "-0.64853525207926",
   },
   {
+    id: 277132,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Zelo Pond",
@@ -441,6 +504,7 @@ export const area = [
     longitude: "-0.65033166450056",
   },
   {
+    id: 277133,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bannan Island",
@@ -448,6 +512,7 @@ export const area = [
     longitude: "-0.64625332232748",
   },
   {
+    id: 277134,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Shrine Island",
@@ -455,6 +520,7 @@ export const area = [
     longitude: "-0.65041061673844",
   },
   {
+    id: 277135,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Goponga Island",
@@ -462,6 +528,7 @@ export const area = [
     longitude: "-0.65293341932986",
   },
   {
+    id: 277136,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Wes Island",
@@ -469,6 +536,7 @@ export const area = [
     longitude: "-0.65815668666770",
   },
   {
+    id: 277137,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Zauz Island",
@@ -476,6 +544,7 @@ export const area = [
     longitude: "-0.65666432457135",
   },
   {
+    id: 277138,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Millennio Sandbar",
@@ -483,6 +552,7 @@ export const area = [
     longitude: "-0.66188759190791",
   },
   {
+    id: 277139,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rikoka Hills",
@@ -490,6 +560,7 @@ export const area = [
     longitude: "-0.65179638154225",
   },
   {
+    id: 277140,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Quatta's Shelf",
@@ -497,6 +568,7 @@ export const area = [
     longitude: "-0.63270192835222",
   },
   {
+    id: 277141,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Hill",
@@ -504,6 +576,7 @@ export const area = [
     longitude: "-0.64274889152401",
   },
   {
+    id: 277142,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Telta Lake",
@@ -511,6 +584,7 @@ export const area = [
     longitude: "-0.64786556156787",
   },
   {
+    id: 277143,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Sahasra Slope",
@@ -518,6 +592,7 @@ export const area = [
     longitude: "-0.65840225711756",
   },
   {
+    id: 277144,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lantern Lake",
@@ -525,6 +600,7 @@ export const area = [
     longitude: "-0.64821932451875",
   },
   {
+    id: 277145,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ring Ruins",
@@ -532,6 +608,7 @@ export const area = [
     longitude: "-0.64610056579116",
   },
   {
+    id: 277146,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Pierre Plateau",
@@ -539,6 +616,7 @@ export const area = [
     longitude: "-0.63254736136832",
   },
   {
+    id: 277147,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bonooru's Stand",
@@ -546,6 +624,7 @@ export const area = [
     longitude: "-0.63394187168248",
   },
   {
+    id: 277148,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rabia Plain",
@@ -553,6 +632,7 @@ export const area = [
     longitude: "-0.61911871733119",
   },
   {
+    id: 277149,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lanayru Heights",
@@ -560,6 +640,7 @@ export const area = [
     longitude: "-0.61496462600229",
   },
   {
+    id: 277150,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lanayru Bluff",
@@ -567,6 +648,7 @@ export const area = [
     longitude: "-0.61044399720294",
   },
   {
+    id: 277151,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Phalian Heights",
@@ -574,6 +656,7 @@ export const area = [
     longitude: "-0.62235646498482",
   },
   {
+    id: 277152,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Samasa Plain",
@@ -581,6 +664,7 @@ export const area = [
     longitude: "-0.60045637430079",
   },
   {
+    id: 277153,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Trotter's Downfall",
@@ -588,6 +672,7 @@ export const area = [
     longitude: "-0.60489045781861",
   },
   {
+    id: 277154,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lanayru Bay",
@@ -595,6 +680,7 @@ export const area = [
     longitude: "-0.57843375949523",
   },
   {
+    id: 277155,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Brynna Plain",
@@ -602,6 +688,7 @@ export const area = [
     longitude: "-0.57749090780942",
   },
   {
+    id: 277156,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Horon Lagoon",
@@ -609,6 +696,7 @@ export const area = [
     longitude: "-0.56704617774693",
   },
   {
+    id: 277157,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Talus Plateau",
@@ -616,6 +704,7 @@ export const area = [
     longitude: "-0.56064139044335",
   },
   {
+    id: 277158,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lodrum Headland",
@@ -623,6 +712,7 @@ export const area = [
     longitude: "-0.56054285525249",
   },
   {
+    id: 277159,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tarm Point",
@@ -630,6 +720,7 @@ export const area = [
     longitude: "-0.55906482741261",
   },
   {
+    id: 277160,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Wintre Island",
@@ -637,6 +728,7 @@ export const area = [
     longitude: "-0.55788240514116",
   },
   {
+    id: 277161,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ja'Abu Ridge",
@@ -644,6 +736,7 @@ export const area = [
     longitude: "-0.57896585313580",
   },
   {
+    id: 277162,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Spool Blight",
@@ -651,6 +744,7 @@ export const area = [
     longitude: "-0.56158354577514",
   },
   {
+    id: 277163,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tal Tal Peak",
@@ -658,6 +752,7 @@ export const area = [
     longitude: "-0.56984284088338",
   },
   {
+    id: 277164,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Davdi Island",
@@ -665,6 +760,7 @@ export const area = [
     longitude: "-0.55376832751406",
   },
   {
+    id: 277165,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Polymus Mountain",
@@ -672,6 +768,7 @@ export const area = [
     longitude: "-0.57946391230701",
   },
   {
+    id: 277166,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ulria Grotto",
@@ -679,6 +776,7 @@ export const area = [
     longitude: "-0.56777789857651",
   },
   {
+    id: 277167,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ukuku Plains",
@@ -686,6 +784,7 @@ export const area = [
     longitude: "-0.57741258410965",
   },
   {
+    id: 277168,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Knuckel Island",
@@ -693,6 +792,7 @@ export const area = [
     longitude: "-0.55355239822958",
   },
   {
+    id: 277169,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ankel Island",
@@ -700,6 +800,7 @@ export const area = [
     longitude: "-0.55349841590916",
   },
   {
+    id: 277170,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Kaepora Pass",
@@ -707,6 +808,7 @@ export const area = [
     longitude: "-0.57050284702433",
   },
   {
+    id: 277171,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tingel Island",
@@ -714,6 +816,7 @@ export const area = [
     longitude: "-0.55204089324405",
   },
   {
+    id: 277172,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Spring of Wisdom",
@@ -721,6 +824,7 @@ export const area = [
     longitude: "-0.57690082117264",
   },
   {
+    id: 277173,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Loshlo Harbor",
@@ -728,6 +832,7 @@ export const area = [
     longitude: "-0.59203293987107",
   },
   {
+    id: 277174,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hateno Bay",
@@ -735,6 +840,7 @@ export const area = [
     longitude: "-0.57347317453895",
   },
   {
+    id: 277175,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Kitano Bay",
@@ -742,6 +848,7 @@ export const area = [
     longitude: "-0.58421830182851",
   },
   {
+    id: 277176,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hateno Beach",
@@ -749,6 +856,7 @@ export const area = [
     longitude: "-0.57395032560126",
   },
   {
+    id: 277177,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Deepback Bay",
@@ -756,6 +864,7 @@ export const area = [
     longitude: "-0.56504213431157",
   },
   {
+    id: 277178,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Solewood Range",
@@ -763,6 +872,7 @@ export const area = [
     longitude: "-0.56088497837681",
   },
   {
+    id: 277179,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mapla Point",
@@ -770,6 +880,7 @@ export const area = [
     longitude: "-0.55280821827452",
   },
   {
+    id: 277180,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Koholit Rock",
@@ -777,6 +888,7 @@ export const area = [
     longitude: "-0.55311409210276",
   },
   {
+    id: 277181,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Eventide Island",
@@ -784,6 +896,7 @@ export const area = [
     longitude: "-0.55561902550147",
   },
   {
+    id: 277182,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Toronbo Beach",
@@ -791,6 +904,7 @@ export const area = [
     longitude: "-0.55874315591919",
   },
   {
+    id: 277183,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Soka Point",
@@ -798,6 +912,7 @@ export const area = [
     longitude: "-0.58092795746373",
   },
   {
+    id: 277184,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cape Cresia",
@@ -805,6 +920,7 @@ export const area = [
     longitude: "-0.59198104734256",
   },
   {
+    id: 277185,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rimba Beach",
@@ -812,6 +928,7 @@ export const area = [
     longitude: "-0.60129330088213",
   },
   {
+    id: 277186,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gogobi Shores",
@@ -819,6 +936,7 @@ export const area = [
     longitude: "-0.60111413615780",
   },
   {
+    id: 277187,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Palmorae Beach",
@@ -826,6 +944,7 @@ export const area = [
     longitude: "-0.59036425270710",
   },
   {
+    id: 277188,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cape Cales",
@@ -833,6 +952,7 @@ export const area = [
     longitude: "-0.58840353774713",
   },
   {
+    id: 277189,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Korne Beach",
@@ -840,6 +960,7 @@ export const area = [
     longitude: "-0.60924636732372",
   },
   {
+    id: 277190,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Clarnet Coast",
@@ -847,6 +968,7 @@ export const area = [
     longitude: "-0.62131012541883",
   },
   {
+    id: 277191,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Yambi Lake",
@@ -854,6 +976,7 @@ export const area = [
     longitude: "-0.62364825705276",
   },
   {
+    id: 277192,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tuft Mountain",
@@ -861,6 +984,7 @@ export const area = [
     longitude: "-0.62060245674115",
   },
   {
+    id: 277193,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Temto Hill",
@@ -868,6 +992,7 @@ export const area = [
     longitude: "-0.62699266523688",
   },
   {
+    id: 277194,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Atun Valley",
@@ -875,6 +1000,7 @@ export const area = [
     longitude: "-0.62388718128173",
   },
   {
+    id: 277195,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Dunsel",
@@ -882,6 +1008,7 @@ export const area = [
     longitude: "-0.60119062437420",
   },
   {
+    id: 277196,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dunsel Plateau",
@@ -889,6 +1016,7 @@ export const area = [
     longitude: "-0.60602807192706",
   },
   {
+    id: 277197,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Keya Pond",
@@ -896,6 +1024,7 @@ export const area = [
     longitude: "-0.60746138972070",
   },
   {
+    id: 277198,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Uten Marsh",
@@ -903,6 +1032,7 @@ export const area = [
     longitude: "-0.61671823380368",
   },
   {
+    id: 277199,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Taran Pass",
@@ -910,6 +1040,7 @@ export const area = [
     longitude: "-0.61581101474090",
   },
   {
+    id: 277200,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ebon Mountain",
@@ -917,6 +1048,7 @@ export const area = [
     longitude: "-0.59549007109285",
   },
   {
+    id: 277201,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hanu Pond",
@@ -924,6 +1056,7 @@ export const area = [
     longitude: "-0.61366606678629",
   },
   {
+    id: 277202,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Stinger Cliffs",
@@ -931,6 +1064,7 @@ export const area = [
     longitude: "-0.61151040188221",
   },
   {
+    id: 277203,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Firly Plateau",
@@ -938,6 +1072,7 @@ export const area = [
     longitude: "-0.60855634256774",
   },
   {
+    id: 277204,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Jarrah",
@@ -945,6 +1080,7 @@ export const area = [
     longitude: "-0.60823698480468",
   },
   {
+    id: 277205,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Firly Pond",
@@ -952,6 +1088,7 @@ export const area = [
     longitude: "-0.59793769692484",
   },
   {
+    id: 277206,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Marbold Plain",
@@ -959,6 +1096,7 @@ export const area = [
     longitude: "-0.61518301616425",
   },
   {
+    id: 277208,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Koto Pond",
@@ -966,6 +1104,7 @@ export const area = [
     longitude: "-0.62658182033329",
   },
   {
+    id: 277209,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Camphor Pond",
@@ -973,6 +1112,7 @@ export const area = [
     longitude: "-0.60451648933397",
   },
   {
+    id: 277210,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Midla Woods",
@@ -980,6 +1120,7 @@ export const area = [
     longitude: "-0.60323905827897",
   },
   {
+    id: 277211,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ginner Woods",
@@ -987,6 +1128,7 @@ export const area = [
     longitude: "-0.60044467784604",
   },
   {
+    id: 277212,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ovli Plain",
@@ -994,6 +1136,7 @@ export const area = [
     longitude: "-0.60583384011886",
   },
   {
+    id: 277213,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Zelkoa Pond",
@@ -1001,6 +1144,7 @@ export const area = [
     longitude: "-0.59074361328561",
   },
   {
+    id: 277214,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Sumac",
@@ -1008,6 +1152,7 @@ export const area = [
     longitude: "-0.58299918751570",
   },
   {
+    id: 277215,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Walnot Mountain",
@@ -1015,6 +1160,7 @@ export const area = [
     longitude: "-0.57044070323769",
   },
   {
+    id: 277216,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Afromsia Coast",
@@ -1022,6 +1168,7 @@ export const area = [
     longitude: "-0.55526559477582",
   },
   {
+    id: 277217,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lanayru Range",
@@ -1029,6 +1176,7 @@ export const area = [
     longitude: "-0.57462579074368",
   },
   {
+    id: 277218,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Madorna Mountain",
@@ -1036,6 +1184,7 @@ export const area = [
     longitude: "-0.57755862579356",
   },
   {
+    id: 277219,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Naydra Snowfield",
@@ -1043,6 +1192,7 @@ export const area = [
     longitude: "-0.59016817599121",
   },
   {
+    id: 277220,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nirvata Lake",
@@ -1050,6 +1200,7 @@ export const area = [
     longitude: "-0.60000946693526",
   },
   {
+    id: 277221,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nirvata Plateau",
@@ -1057,6 +1208,7 @@ export const area = [
     longitude: "-0.60034714231350",
   },
   {
+    id: 277222,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Purifier Lake",
@@ -1064,6 +1216,7 @@ export const area = [
     longitude: "-0.59891331184434",
   },
   {
+    id: 277223,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Peak of Awakening",
@@ -1071,6 +1224,7 @@ export const area = [
     longitude: "-0.60914564746196",
   },
   {
+    id: 277224,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Robred Dropoff",
@@ -1078,6 +1232,7 @@ export const area = [
     longitude: "-0.61611927746569",
   },
   {
+    id: 277225,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Fir River",
@@ -1085,6 +1240,7 @@ export const area = [
     longitude: "-0.61297603840003",
   },
   {
+    id: 277226,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Oakle's Navel",
@@ -1092,6 +1248,7 @@ export const area = [
     longitude: "-0.62379494102808",
   },
   {
+    id: 277228,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cliffs of Quince",
@@ -1099,6 +1256,7 @@ export const area = [
     longitude: "-0.62014519074364",
   },
   {
+    id: 277229,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Meda Mountain",
@@ -1106,6 +1264,7 @@ export const area = [
     longitude: "-0.62138349887064",
   },
   {
+    id: 277230,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bubinga Forest",
@@ -1113,6 +1272,7 @@ export const area = [
     longitude: "-0.63682976346496",
   },
   {
+    id: 277231,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ash Swamp",
@@ -1120,6 +1280,7 @@ export const area = [
     longitude: "-0.63930637972965",
   },
   {
+    id: 277232,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Blatchery Plain",
@@ -1127,6 +1288,7 @@ export const area = [
     longitude: "-0.63480936598646",
   },
   {
+    id: 277233,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hickaly Woods",
@@ -1134,6 +1296,7 @@ export const area = [
     longitude: "-0.64080538430127",
   },
   {
+    id: 277234,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Breman Peak",
@@ -1141,6 +1304,7 @@ export const area = [
     longitude: "-0.63493971420272",
   },
   {
+    id: 277235,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Taran",
@@ -1148,6 +1312,7 @@ export const area = [
     longitude: "-0.62349893152512",
   },
   {
+    id: 277236,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rabella Wetlands",
@@ -1155,6 +1320,7 @@ export const area = [
     longitude: "-0.62548445068913",
   },
   {
+    id: 277237,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Courage Steppe",
@@ -1162,6 +1328,7 @@ export const area = [
     longitude: "-0.63128494667512",
   },
   {
+    id: 277240,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Aris Beach",
@@ -1169,6 +1336,7 @@ export const area = [
     longitude: "-0.64166491270083",
   },
   {
+    id: 277241,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rassla Lake",
@@ -1176,6 +1344,7 @@ export const area = [
     longitude: "-0.64333890306054",
   },
   {
+    id: 277242,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Floria",
@@ -1183,6 +1352,7 @@ export const area = [
     longitude: "-0.64729138029961",
   },
   {
+    id: 277243,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ubota Point",
@@ -1190,6 +1360,7 @@ export const area = [
     longitude: "-0.65175535459238",
   },
   {
+    id: 277244,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ebara Forest",
@@ -1197,6 +1368,7 @@ export const area = [
     longitude: "-0.64310640439956",
   },
   {
+    id: 277245,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Calora Lake",
@@ -1204,6 +1376,7 @@ export const area = [
     longitude: "-0.63827043224899",
   },
   {
+    id: 277246,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rodai Lake",
@@ -1211,6 +1384,7 @@ export const area = [
     longitude: "-0.64347840226293",
   },
   {
+    id: 277247,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Floria Falls",
@@ -1218,6 +1392,7 @@ export const area = [
     longitude: "-0.64622188646351",
   },
   {
+    id: 277248,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Corta Lake",
@@ -1225,6 +1400,7 @@ export const area = [
     longitude: "-0.64910486986165",
   },
   {
+    id: 277249,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bronas Forest",
@@ -1232,6 +1408,7 @@ export const area = [
     longitude: "-0.65572981038380",
   },
   {
+    id: 277250,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Martha's Landing",
@@ -1239,6 +1416,7 @@ export const area = [
     longitude: "-0.66437876057819",
   },
   {
+    id: 277251,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Floria River",
@@ -1246,6 +1424,7 @@ export const area = [
     longitude: "-0.66284426941931",
   },
   {
+    id: 277252,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Sarjon Woods",
@@ -1253,6 +1432,7 @@ export const area = [
     longitude: "-0.66740687936928",
   },
   {
+    id: 277253,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Kamah Plateau",
@@ -1260,6 +1440,7 @@ export const area = [
     longitude: "-0.65750243640628",
   },
   {
+    id: 277254,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Keelay Plain",
@@ -1267,6 +1448,7 @@ export const area = [
     longitude: "-0.65519693240333",
   },
   {
+    id: 277255,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Riola Spring",
@@ -1274,6 +1456,7 @@ export const area = [
     longitude: "-0.64571098703067",
   },
   {
+    id: 277256,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Floria",
@@ -1281,6 +1464,7 @@ export const area = [
     longitude: "-0.64087501488012",
   },
   {
+    id: 277257,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Angel Peak",
@@ -1288,6 +1472,7 @@ export const area = [
     longitude: "-0.64853585994831",
   },
   {
+    id: 277258,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Jia Highlands",
@@ -1295,6 +1480,7 @@ export const area = [
     longitude: "-0.65495282299432",
   },
   {
+    id: 277259,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tobio's Hollow",
@@ -1302,6 +1488,7 @@ export const area = [
     longitude: "-0.66039329166369",
   },
   {
+    id: 277260,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dracozu Lake",
@@ -1309,6 +1496,7 @@ export const area = [
     longitude: "-0.67341321668505",
   },
   {
+    id: 277261,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Damel Forest",
@@ -1316,6 +1504,7 @@ export const area = [
     longitude: "-0.67652869872776",
   },
   {
+    id: 277262,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dracozu River",
@@ -1323,6 +1512,7 @@ export const area = [
     longitude: "-0.67127422898832",
   },
   {
+    id: 277263,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Harker Lake",
@@ -1330,6 +1520,7 @@ export const area = [
     longitude: "-0.67392471372463",
   },
   {
+    id: 277264,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Guchini Plain",
@@ -1337,6 +1528,7 @@ export const area = [
     longitude: "-0.67490012157924",
   },
   {
+    id: 277265,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Herin Lake",
@@ -1344,6 +1536,7 @@ export const area = [
     longitude: "-0.67076810719030",
   },
   {
+    id: 277266,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ibara Butte",
@@ -1351,6 +1544,7 @@ export const area = [
     longitude: "-0.67716289671810",
   },
   {
+    id: 277267,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Komo Shoreline",
@@ -1358,6 +1552,7 @@ export const area = [
     longitude: "-0.68040150259120",
   },
   {
+    id: 277268,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake of the Horse God",
@@ -1365,6 +1560,7 @@ export const area = [
     longitude: "-0.68274669994756",
   },
   {
+    id: 277269,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Pagos Woods",
@@ -1372,6 +1568,7 @@ export const area = [
     longitude: "-0.68299465952219",
   },
   {
+    id: 277270,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Finra Woods",
@@ -1379,6 +1576,7 @@ export const area = [
     longitude: "-0.68950233216239",
   },
   {
+    id: 277271,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Farosh Hills",
@@ -1386,6 +1584,7 @@ export const area = [
     longitude: "-0.68547088254763",
   },
   {
+    id: 277272,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Hylia",
@@ -1393,6 +1592,7 @@ export const area = [
     longitude: "-0.69966422068305",
   },
   {
+    id: 277273,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nette Plateau",
@@ -1400,6 +1600,7 @@ export const area = [
     longitude: "-0.69651544704027",
   },
   {
+    id: 277274,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Puffer Beach",
@@ -1407,6 +1608,7 @@ export const area = [
     longitude: "-0.69617691644265",
   },
   {
+    id: 277275,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Laverra Beach",
@@ -1414,6 +1616,7 @@ export const area = [
     longitude: "-0.70899350614533",
   },
   {
+    id: 277276,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nautelle Wetlands",
@@ -1421,6 +1624,7 @@ export const area = [
     longitude: "-0.72348124542580",
   },
   {
+    id: 277277,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Darybon Plains",
@@ -1428,6 +1632,7 @@ export const area = [
     longitude: "-0.71436720594184",
   },
   {
+    id: 277278,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Papetto Grove",
@@ -1435,6 +1640,7 @@ export const area = [
     longitude: "-0.71383421754953",
   },
   {
+    id: 277279,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Oseira Plains",
@@ -1442,6 +1648,7 @@ export const area = [
     longitude: "-0.72856079291770",
   },
   {
+    id: 277285,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hylia Island",
@@ -1449,6 +1656,7 @@ export const area = [
     longitude: "-0.71343585269997",
   },
   {
+    id: 277286,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cora Lake",
@@ -1456,6 +1664,7 @@ export const area = [
     longitude: "-0.70460220127183",
   },
   {
+    id: 277287,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Menoat River",
@@ -1463,6 +1672,7 @@ export const area = [
     longitude: "-0.70293328708377",
   },
   {
+    id: 277288,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Haran Lake",
@@ -1470,6 +1680,7 @@ export const area = [
     longitude: "-0.69102382946852",
   },
   {
+    id: 277289,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Harfin Valley",
@@ -1477,6 +1688,7 @@ export const area = [
     longitude: "-0.70020343941664",
   },
   {
+    id: 277290,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Barula Plain",
@@ -1484,6 +1696,7 @@ export const area = [
     longitude: "-0.69802580537939",
   },
   {
+    id: 277291,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Fural Plain",
@@ -1491,6 +1704,7 @@ export const area = [
     longitude: "-0.69002320320104",
   },
   {
+    id: 277292,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Parache Plains",
@@ -1498,6 +1712,7 @@ export const area = [
     longitude: "-0.71509517668369",
   },
   {
+    id: 277293,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Zokassa Ridge",
@@ -1505,6 +1720,7 @@ export const area = [
     longitude: "-0.72285933401037",
   },
   {
+    id: 277294,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Grinnden Plains",
@@ -1512,6 +1728,7 @@ export const area = [
     longitude: "-0.72748610779581",
   },
   {
+    id: 277295,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Gerudo Mesa",
@@ -1519,6 +1736,7 @@ export const area = [
     longitude: "-0.75652020663640",
   },
   {
+    id: 277296,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Champion's Gate",
@@ -1526,6 +1744,7 @@ export const area = [
     longitude: "-0.76722348906088",
   },
   {
+    id: 277297,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Granajh",
@@ -1533,6 +1752,7 @@ export const area = [
     longitude: "-0.74746719595217",
   },
   {
+    id: 277298,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Daval Peak",
@@ -1540,6 +1760,7 @@ export const area = [
     longitude: "-0.74807820334291",
   },
   {
+    id: 277299,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Barrens",
@@ -1547,6 +1768,7 @@ export const area = [
     longitude: "-0.78658460239035",
   },
   {
+    id: 277300,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Palu Wasteland",
@@ -1554,6 +1776,7 @@ export const area = [
     longitude: "-0.80587443831070",
   },
   {
+    id: 277301,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Southern Oasis",
@@ -1561,6 +1784,7 @@ export const area = [
     longitude: "-0.82354300840572",
   },
   {
+    id: 277302,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dragon's Exile",
@@ -1568,6 +1792,7 @@ export const area = [
     longitude: "-0.85547276683744",
   },
   {
+    id: 277303,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Toruma Dunes",
@@ -1575,6 +1800,7 @@ export const area = [
     longitude: "-0.85620956123884",
   },
   {
+    id: 277304,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "West Barrens",
@@ -1582,6 +1808,7 @@ export const area = [
     longitude: "-0.84843145942065",
   },
   {
+    id: 277305,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "West Gerudo Ruins",
@@ -1589,6 +1816,7 @@ export const area = [
     longitude: "-0.84595781442607",
   },
   {
+    id: 277306,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Great Cliffs",
@@ -1596,6 +1824,7 @@ export const area = [
     longitude: "-0.81016165065918",
   },
   {
+    id: 277308,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Birida Lookout",
@@ -1603,6 +1832,7 @@ export const area = [
     longitude: "-0.81532337705346",
   },
   {
+    id: 277309,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Karusa Valley",
@@ -1610,6 +1840,7 @@ export const area = [
     longitude: "-0.84215457890656",
   },
   {
+    id: 277310,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gerudo Desert Gateway",
@@ -1617,6 +1848,7 @@ export const area = [
     longitude: "-0.79697769091752",
   },
   {
+    id: 277311,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gerudo Canyon",
@@ -1624,6 +1856,7 @@ export const area = [
     longitude: "-0.77764513229477",
   },
   {
+    id: 277312,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Spectacle Rock",
@@ -1631,6 +1864,7 @@ export const area = [
     longitude: "-0.77463317569828",
   },
   {
+    id: 277313,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Yarna Valley",
@@ -1638,6 +1872,7 @@ export const area = [
     longitude: "-0.76412635035598",
   },
   {
+    id: 277314,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Stalry Plateau",
@@ -1645,6 +1880,7 @@ export const area = [
     longitude: "-0.75312920650254",
   },
   {
+    id: 277315,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Taobab Grassland",
@@ -1652,6 +1888,7 @@ export const area = [
     longitude: "-0.74213206264795",
   },
   {
+    id: 277316,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Faloraa",
@@ -1659,6 +1896,7 @@ export const area = [
     longitude: "-0.73393673887048",
   },
   {
+    id: 277317,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "River of the Dead",
@@ -1666,6 +1904,7 @@ export const area = [
     longitude: "-0.74185917414272",
   },
   {
+    id: 277318,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Hylia",
@@ -1673,6 +1912,7 @@ export const area = [
     longitude: "-0.74459142182224",
   },
   {
+    id: 277319,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gerudo Canyon Pass",
@@ -1680,6 +1920,7 @@ export const area = [
     longitude: "-0.75637364782156",
   },
   {
+    id: 277320,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Nabooru",
@@ -1687,6 +1928,7 @@ export const area = [
     longitude: "-0.76427239637763",
   },
   {
+    id: 277322,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hopper Pond",
@@ -1694,6 +1936,7 @@ export const area = [
     longitude: "-0.74122241195309",
   },
   {
+    id: 277323,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Forest of Spirits",
@@ -1701,6 +1944,7 @@ export const area = [
     longitude: "-0.73407763484823",
   },
   {
+    id: 277326,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Koukot Plateau",
@@ -1708,6 +1952,7 @@ export const area = [
     longitude: "-0.77361970721185",
   },
   {
+    id: 277327,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nephra Hill",
@@ -1715,6 +1960,7 @@ export const area = [
     longitude: "-0.77469230340128",
   },
   {
+    id: 277328,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Taafei Hill",
@@ -1722,6 +1968,7 @@ export const area = [
     longitude: "-0.79353935072149",
   },
   {
+    id: 277329,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Zirco Mesa",
@@ -1729,6 +1976,7 @@ export const area = [
     longitude: "-0.78786991372235",
   },
   {
+    id: 277330,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Sapphia's Table",
@@ -1736,6 +1984,7 @@ export const area = [
     longitude: "-0.80592702064104",
   },
   {
+    id: 277331,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Laporah Mesa",
@@ -1743,6 +1992,7 @@ export const area = [
     longitude: "-0.79841884731508",
   },
   {
+    id: 277334,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Vatorsa Snowfield",
@@ -1750,6 +2000,7 @@ export const area = [
     longitude: "-0.81588684238650",
   },
   {
+    id: 277335,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Risoka Snowfield",
@@ -1757,6 +2008,7 @@ export const area = [
     longitude: "-0.84921393825491",
   },
   {
+    id: 277336,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rutimala Hill",
@@ -1764,6 +2016,7 @@ export const area = [
     longitude: "-0.84783488601212",
   },
   {
+    id: 277337,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gerudo Summit",
@@ -1771,6 +2024,7 @@ export const area = [
     longitude: "-0.83603632793381",
   },
   {
+    id: 277338,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cliffs of Ruvara",
@@ -1778,6 +2032,7 @@ export const area = [
     longitude: "-0.81266983613457",
   },
   {
+    id: 277339,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Meadela's Mantle",
@@ -1785,6 +2040,7 @@ export const area = [
     longitude: "-0.83677797260626",
   },
   {
+    id: 277340,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hemaar's Descent",
@@ -1792,6 +2048,7 @@ export const area = [
     longitude: "-0.84124627739070",
   },
   {
+    id: 277341,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mystathi's Shelf",
@@ -1799,6 +2056,7 @@ export const area = [
     longitude: "-0.83385374335498",
   },
   {
+    id: 277342,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Illumeni",
@@ -1806,6 +2064,7 @@ export const area = [
     longitude: "-0.81709200904635",
   },
   {
+    id: 277343,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Illumeni Plateau",
@@ -1813,6 +2072,7 @@ export const area = [
     longitude: "-0.80326776352516",
   },
   {
+    id: 277344,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Washa's Bluff",
@@ -1820,6 +2080,7 @@ export const area = [
     longitude: "-0.79086434368611",
   },
   {
+    id: 277345,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tamio River",
@@ -1827,6 +2088,7 @@ export const area = [
     longitude: "-0.77864956585390",
   },
   {
+    id: 277346,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Satori Mountain",
@@ -1834,6 +2096,7 @@ export const area = [
     longitude: "-0.77627737988428",
   },
   {
+    id: 277347,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rutile Lake",
@@ -1841,6 +2104,7 @@ export const area = [
     longitude: "-0.78490928112788",
   },
   {
+    id: 277348,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dalite Forest",
@@ -1848,6 +2112,7 @@ export const area = [
     longitude: "-0.77010051968728",
   },
   {
+    id: 277349,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Safula Hill",
@@ -1855,6 +2120,7 @@ export const area = [
     longitude: "-0.76025837058862",
   },
   {
+    id: 277350,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nima Plain",
@@ -1862,6 +2128,7 @@ export const area = [
     longitude: "-0.75786547773839",
   },
   {
+    id: 277351,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Regencia River",
@@ -1869,6 +2136,7 @@ export const area = [
     longitude: "-0.77099146585860",
   },
   {
+    id: 277352,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Aquame Lake",
@@ -1876,6 +2144,7 @@ export const area = [
     longitude: "-0.73570981621845",
   },
   {
+    id: 277353,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Kolomo",
@@ -1883,6 +2152,7 @@ export const area = [
     longitude: "-0.71936443014471",
   },
   {
+    id: 277354,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Exchange Ruins",
@@ -1890,6 +2160,7 @@ export const area = [
     longitude: "-0.72776473441633",
   },
   {
+    id: 277355,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Windvane Meadow",
@@ -1897,6 +2168,7 @@ export const area = [
     longitude: "-0.72513023007272",
   },
   {
+    id: 277357,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Daphnes",
@@ -1904,6 +2176,7 @@ export const area = [
     longitude: "-0.73759333490960",
   },
   {
+    id: 277359,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Passeri Greenbelt",
@@ -1911,6 +2184,7 @@ export const area = [
     longitude: "-0.72240100447257",
   },
   {
+    id: 277360,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ranch Ruins",
@@ -1918,6 +2192,7 @@ export const area = [
     longitude: "-0.69991664195339",
   },
   {
+    id: 277361,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Whistling Hill",
@@ -1925,6 +2200,7 @@ export const area = [
     longitude: "-0.69694853558244",
   },
   {
+    id: 277362,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Bottomless Pond",
@@ -1932,6 +2208,7 @@ export const area = [
     longitude: "-0.68653453267976",
   },
   {
+    id: 277363,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hylia River",
@@ -1939,6 +2216,7 @@ export const area = [
     longitude: "-0.67725754158786",
   },
   {
+    id: 277364,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nabi Lake",
@@ -1946,6 +2224,7 @@ export const area = [
     longitude: "-0.66844514837547",
   },
   {
+    id: 277365,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Batrea Lake",
@@ -1953,6 +2232,7 @@ export const area = [
     longitude: "-0.68494079860557",
   },
   {
+    id: 277366,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Forest of Time",
@@ -1960,6 +2240,7 @@ export const area = [
     longitude: "-0.71517486440871",
   },
   {
+    id: 277368,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Scout's Hill",
@@ -1967,6 +2248,7 @@ export const area = [
     longitude: "-0.70387795758600",
   },
   {
+    id: 277369,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hills of Baumer",
@@ -1974,6 +2256,7 @@ export const area = [
     longitude: "-0.68960528018243",
   },
   {
+    id: 277370,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Deya Village Ruins",
@@ -1981,6 +2264,7 @@ export const area = [
     longitude: "-0.69191335648199",
   },
   {
+    id: 277371,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Deya Lake",
@@ -1988,6 +2272,7 @@ export const area = [
     longitude: "-0.68915801335379",
   },
   {
+    id: 277372,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Eastern Abbey",
@@ -1995,6 +2280,7 @@ export const area = [
     longitude: "-0.71871437530288",
   },
   {
+    id: 277373,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Popla Foothills",
@@ -2002,6 +2288,7 @@ export const area = [
     longitude: "-0.67762070833115",
   },
   {
+    id: 277374,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dueling Peaks",
@@ -2009,6 +2296,7 @@ export const area = [
     longitude: "-0.66042557422904",
   },
   {
+    id: 277375,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Squabble River",
@@ -2016,6 +2304,7 @@ export const area = [
     longitude: "-0.67341997939812",
   },
   {
+    id: 277376,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "South Nabi Lake",
@@ -2023,6 +2312,7 @@ export const area = [
     longitude: "-0.67567099904895",
   },
   {
+    id: 277377,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mable Ridge",
@@ -2030,6 +2320,7 @@ export const area = [
     longitude: "-0.66121325983019",
   },
   {
+    id: 277378,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Siela",
@@ -2037,6 +2328,7 @@ export const area = [
     longitude: "-0.65005031592835",
   },
   {
+    id: 277379,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Pillars of Levia",
@@ -2044,6 +2336,7 @@ export const area = [
     longitude: "-0.64316774004456",
   },
   {
+    id: 277380,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mabe Prairie",
@@ -2051,6 +2344,7 @@ export const area = [
     longitude: "-0.69627233601867",
   },
   {
+    id: 277381,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Applean Forest",
@@ -2058,6 +2352,7 @@ export const area = [
     longitude: "-0.68583031496092",
   },
   {
+    id: 277382,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Romani Plains",
@@ -2065,6 +2360,7 @@ export const area = [
     longitude: "-0.69307350581130",
   },
   {
+    id: 277384,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Gustaf",
@@ -2072,6 +2368,7 @@ export const area = [
     longitude: "-0.73439323191258",
   },
   {
+    id: 277385,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Moat Bridge",
@@ -2079,6 +2376,7 @@ export const area = [
     longitude: "-0.72284680813127",
   },
   {
+    id: 277386,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "West Castle Town",
@@ -2086,6 +2384,7 @@ export const area = [
     longitude: "-0.71942964337828",
   },
   {
+    id: 277387,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Quarry Ruins",
@@ -2093,6 +2392,7 @@ export const area = [
     longitude: "-0.72651346972592",
   },
   {
+    id: 277389,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Central Square",
@@ -2100,6 +2400,7 @@ export const area = [
     longitude: "-0.71126064333245",
   },
   {
+    id: 277390,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hyrule Castle Town Ruins",
@@ -2107,6 +2408,7 @@ export const area = [
     longitude: "-0.71137767269104",
   },
   {
+    id: 277391,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Castle Town",
@@ -2114,6 +2416,7 @@ export const area = [
     longitude: "-0.70279551973857",
   },
   {
+    id: 277393,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hyrule Castle Moat",
@@ -2121,6 +2424,7 @@ export const area = [
     longitude: "-0.70162190295517",
   },
   {
+    id: 277394,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Crenel Hills",
@@ -2128,6 +2432,7 @@ export const area = [
     longitude: "-0.68027406177586",
   },
   {
+    id: 277395,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Crenel Peak",
@@ -2135,6 +2440,7 @@ export const area = [
     longitude: "-0.66507715195641",
   },
   {
+    id: 277397,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Trilby Plain",
@@ -2142,6 +2448,7 @@ export const area = [
     longitude: "-0.65802294205551",
   },
   {
+    id: 277398,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Pico Pond",
@@ -2149,6 +2456,7 @@ export const area = [
     longitude: "-0.66441305386473",
   },
   {
+    id: 277399,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Minshi Woods",
@@ -2156,6 +2464,7 @@ export const area = [
     longitude: "-0.66947172462739",
   },
   {
+    id: 277400,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Goronbi Lake",
@@ -2163,6 +2472,7 @@ export const area = [
     longitude: "-0.64498897077038",
   },
   {
+    id: 277401,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Saria",
@@ -2170,6 +2480,7 @@ export const area = [
     longitude: "-0.70144654239388",
   },
   {
+    id: 277402,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mido Swamp",
@@ -2177,6 +2488,7 @@ export const area = [
     longitude: "-0.67725044026702",
   },
   {
+    id: 277403,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Mekar",
@@ -2184,6 +2496,7 @@ export const area = [
     longitude: "-0.69459313320536",
   },
   {
+    id: 277404,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mekar Island",
@@ -2191,6 +2504,7 @@ export const area = [
     longitude: "-0.71149622690339",
   },
   {
+    id: 277405,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Drena",
@@ -2198,6 +2512,7 @@ export const area = [
     longitude: "-0.72236111930675",
   },
   {
+    id: 277406,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Thyphlo Ruins",
@@ -2205,6 +2520,7 @@ export const area = [
     longitude: "-0.69318702653297",
   },
   {
+    id: 277407,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Drenan Highlands",
@@ -2212,6 +2528,7 @@ export const area = [
     longitude: "-0.70901174642489",
   },
   {
+    id: 277408,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Deplian Badlands",
@@ -2219,6 +2536,7 @@ export const area = [
     longitude: "-0.69204945232252",
   },
   {
+    id: 277409,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "East Deplian Badlands",
@@ -2226,6 +2544,7 @@ export const area = [
     longitude: "-0.66574455466358",
   },
   {
+    id: 277410,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "West Deplian Badlands",
@@ -2233,6 +2552,7 @@ export const area = [
     longitude: "-0.69870463610442",
   },
   {
+    id: 277411,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Isle of Rabac",
@@ -2240,6 +2560,7 @@ export const area = [
     longitude: "-0.65354313880530",
   },
   {
+    id: 277412,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Darunia Lake",
@@ -2247,6 +2568,7 @@ export const area = [
     longitude: "-0.65903997282686",
   },
   {
+    id: 277416,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rauru Hillside",
@@ -2254,6 +2576,7 @@ export const area = [
     longitude: "-0.68690599733216",
   },
   {
+    id: 277417,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Elma Knolls",
@@ -2261,6 +2584,7 @@ export const area = [
     longitude: "-0.71755111926043",
   },
   {
+    id: 277418,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Irch Plain",
@@ -2268,6 +2592,7 @@ export const area = [
     longitude: "-0.73294629899314",
   },
   {
+    id: 277420,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Breach of Demise",
@@ -2275,6 +2600,7 @@ export const area = [
     longitude: "-0.75108075357343",
   },
   {
+    id: 277421,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "North Hyrule Plain",
@@ -2282,6 +2608,7 @@ export const area = [
     longitude: "-0.74426193518894",
   },
   {
+    id: 277422,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Salari Hill",
@@ -2289,6 +2616,7 @@ export const area = [
     longitude: "-0.74696460742791",
   },
   {
+    id: 277423,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Seres Scablands",
@@ -2296,6 +2624,7 @@ export const area = [
     longitude: "-0.78065882284039",
   },
   {
+    id: 277424,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ludfo's Bog",
@@ -2303,6 +2632,7 @@ export const area = [
     longitude: "-0.77073582012872",
   },
   {
+    id: 277425,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Mount Rhoam",
@@ -2310,6 +2640,7 @@ export const area = [
     longitude: "-0.78938422177532",
   },
   {
+    id: 277426,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "West Hyrule Plains",
@@ -2317,6 +2648,7 @@ export const area = [
     longitude: "-0.75408240485893",
   },
   {
+    id: 277431,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Miphia Court",
@@ -2324,6 +2656,7 @@ export const area = [
     longitude: "-0.57982649616855",
   },
   {
+    id: 277457,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tanagar Canyon",
@@ -2331,6 +2664,7 @@ export const area = [
     longitude: "-0.79063257695893",
   },
   {
+    id: 277458,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Piper Ridge",
@@ -2338,6 +2672,7 @@ export const area = [
     longitude: "-0.81498776523242",
   },
   {
+    id: 277459,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rayne Highlands",
@@ -2345,6 +2680,7 @@ export const area = [
     longitude: "-0.82462705065791",
   },
   {
+    id: 277460,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Nero Hill",
@@ -2352,6 +2688,7 @@ export const area = [
     longitude: "-0.81963907422653",
   },
   {
+    id: 277461,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Strock Lake",
@@ -2359,6 +2696,7 @@ export const area = [
     longitude: "-0.81177963673554",
   },
   {
+    id: 277463,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Cuho Mountain",
@@ -2366,6 +2704,7 @@ export const area = [
     longitude: "-0.82764380863676",
   },
   {
+    id: 277464,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Passer Hill",
@@ -2373,6 +2712,7 @@ export const area = [
     longitude: "-0.83185116781158",
   },
   {
+    id: 277465,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Totori",
@@ -2380,6 +2720,7 @@ export const area = [
     longitude: "-0.82182653872633",
   },
   {
+    id: 277466,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dronoc's Pass",
@@ -2387,6 +2728,7 @@ export const area = [
     longitude: "-0.82526706745685",
   },
   {
+    id: 277467,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra Trailhead Lodge",
@@ -2394,6 +2736,7 @@ export const area = [
     longitude: "-0.81814618252591",
   },
   {
+    id: 277468,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rospro Pass",
@@ -2401,6 +2744,7 @@ export const area = [
     longitude: "-0.81776408626061",
   },
   {
+    id: 277472,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Corvash Peak",
@@ -2408,6 +2752,7 @@ export const area = [
     longitude: "-0.80828977476051",
   },
   {
+    id: 277473,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra South Summit",
@@ -2415,6 +2760,7 @@ export const area = [
     longitude: "-0.81407139102700",
   },
   {
+    id: 277474,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Talonto Peak",
@@ -2422,6 +2768,7 @@ export const area = [
     longitude: "-0.80577197412839",
   },
   {
+    id: 277475,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lake Kilsie",
@@ -2429,6 +2776,7 @@ export const area = [
     longitude: "-0.83343292559584",
   },
   {
+    id: 277476,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Sturnida Basin",
@@ -2436,6 +2784,7 @@ export const area = [
     longitude: "-0.83515045025013",
   },
   {
+    id: 277477,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Biron Snowshelf",
@@ -2443,6 +2792,7 @@ export const area = [
     longitude: "-0.82286970517274",
   },
   {
+    id: 277478,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra West Summit",
@@ -2450,6 +2800,7 @@ export const area = [
     longitude: "-0.84595376316631",
   },
   {
+    id: 277479,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra North Summit",
@@ -2457,6 +2808,7 @@ export const area = [
     longitude: "-0.83272972960751",
   },
   {
+    id: 277480,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Icefall Foothills",
@@ -2464,6 +2816,7 @@ export const area = [
     longitude: "-0.84290427460218",
   },
   {
+    id: 277481,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra North Crest",
@@ -2471,6 +2824,7 @@ export const area = [
     longitude: "-0.81749610610032",
   },
   {
+    id: 277482,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra Tundra",
@@ -2478,6 +2832,7 @@ export const area = [
     longitude: "-0.81366093351122",
   },
   {
+    id: 277490,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Floating Scales Island",
@@ -2485,6 +2840,7 @@ export const area = [
     longitude: "-0.57181586525562",
   },
   {
+    id: 277510,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lockup",
@@ -2492,6 +2848,7 @@ export const area = [
     longitude: "-0.71741569472067",
   },
   {
+    id: 277718,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Salari Plain",
@@ -2499,6 +2856,7 @@ export const area = [
     longitude: "-0.75651733129985",
   },
   {
+    id: 277719,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rowan Plain",
@@ -2506,6 +2864,7 @@ export const area = [
     longitude: "-0.74418405027981",
   },
   {
+    id: 277720,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Forgotten Temple",
@@ -2513,6 +2872,7 @@ export const area = [
     longitude: "-0.75252926817595",
   },
   {
+    id: 277721,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Lindor's Brow",
@@ -2520,6 +2880,7 @@ export const area = [
     longitude: "-0.76538226325084",
   },
   {
+    id: 277722,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Upland Lindor",
@@ -2527,6 +2888,7 @@ export const area = [
     longitude: "-0.77547872078836",
   },
   {
+    id: 277723,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Aldor Foothills",
@@ -2534,6 +2896,7 @@ export const area = [
     longitude: "-0.72547768624457",
   },
   {
+    id: 277724,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Kopeki Drifts",
@@ -2541,6 +2904,7 @@ export const area = [
     longitude: "-0.77880162886410",
   },
   {
+    id: 277725,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "South Tabantha Snowfield",
@@ -2548,6 +2912,7 @@ export const area = [
     longitude: "-0.76474914300306",
   },
   {
+    id: 277726,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "North Tabantha Snowfield",
@@ -2555,6 +2920,7 @@ export const area = [
     longitude: "-0.76443082572783",
   },
   {
+    id: 277727,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Pikida Stonegrove",
@@ -2562,6 +2928,7 @@ export const area = [
     longitude: "-0.77751665476055",
   },
   {
+    id: 277728,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Coldsnap Hollow",
@@ -2569,6 +2936,7 @@ export const area = [
     longitude: "-0.80262675261284",
   },
   {
+    id: 277729,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra Peak",
@@ -2576,6 +2944,7 @@ export const area = [
     longitude: "-0.79283432322976",
   },
   {
+    id: 277730,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra East Summit",
@@ -2583,6 +2952,7 @@ export const area = [
     longitude: "-0.79249692399512",
   },
   {
+    id: 277731,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra Plunge",
@@ -2590,6 +2960,7 @@ export const area = [
     longitude: "-0.80186316050293",
   },
   {
+    id: 277732,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tama Pond",
@@ -2597,6 +2968,7 @@ export const area = [
     longitude: "-0.79856624465910",
   },
   {
+    id: 277733,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tabantha Hills",
@@ -2604,6 +2976,7 @@ export const area = [
     longitude: "-0.78402089217346",
   },
   {
+    id: 277734,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Tabantha Village Ruins",
@@ -2611,6 +2984,7 @@ export const area = [
     longitude: "-0.77847510214946",
   },
   {
+    id: 277806,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gisa Crater",
@@ -2618,6 +2992,7 @@ export const area = [
     longitude: "-0.82994669858084",
   },
   {
+    id: 277812,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Great Plateau",
@@ -2625,6 +3000,7 @@ export const area = [
     longitude: "-0.73383061551499",
   },
   {
+    id: 278016,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gama Cove",
@@ -2632,6 +3008,7 @@ export const area = [
     longitude: "-0.59792319953851",
   },
   {
+    id: 278316,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Medingo Pool",
@@ -2639,6 +3016,7 @@ export const area = [
     longitude: "-0.63295138282359",
   },
   {
+    id: 279413,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Golow River",
@@ -2646,6 +3024,7 @@ export const area = [
     longitude: "-0.65540128727028",
   },
   {
+    id: 279497,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Military Training Camp",
@@ -2653,6 +3032,7 @@ export const area = [
     longitude: "-0.67544923417603",
   },
   {
+    id: 279723,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Great Abandoned Central Mine",
@@ -2660,6 +3040,7 @@ export const area = [
     longitude: "-0.72695063964205",
   },
   {
+    id: 279736,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Wellspring of Wisdom",
@@ -2667,6 +3048,7 @@ export const area = [
     longitude: "-0.57980905634622",
   },
   {
+    id: 279747,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "North Lomei Depths Labyrinth",
@@ -2674,6 +3056,7 @@ export const area = [
     longitude: "-0.72959764255774",
   },
   {
+    id: 280707,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Sky Mine",
@@ -2681,6 +3064,7 @@ export const area = [
     longitude: "-0.55596090828550",
   },
   {
+    id: 280708,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra Headspring",
@@ -2688,6 +3072,7 @@ export const area = [
     longitude: "-0.79462860209384",
   },
   {
+    id: 280709,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Hebra Falls",
@@ -2695,6 +3080,7 @@ export const area = [
     longitude: "-0.79182666800136",
   },
   {
+    id: 280793,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Dunsel Canyon Mine",
@@ -2702,6 +3088,7 @@ export const area = [
     longitude: "-0.60356265275459",
   },
   {
+    id: 280807,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Corvash Canyon Mine",
@@ -2709,6 +3096,7 @@ export const area = [
     longitude: "-0.81044741984002",
   },
   {
+    id: 280818,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Rist Mine",
@@ -2716,6 +3104,7 @@ export const area = [
     longitude: "-0.55641397450535",
   },
   {
+    id: 280832,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Minshi Grove",
@@ -2723,6 +3112,7 @@ export const area = [
     longitude: "-0.66948861129299",
   },
   {
+    id: 280852,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Ancient Columns",
@@ -2730,6 +3120,7 @@ export const area = [
     longitude: "-0.81810626969440",
   },
   {
+    id: 280857,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Thundra Plateau",
@@ -2737,6 +3128,7 @@ export const area = [
     longitude: "-0.77617160975984",
   },
   {
+    id: 281730,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "Gloom's Approach",
@@ -2744,6 +3136,7 @@ export const area = [
     longitude: "-0.71110657391186",
   },
   {
+    id: 286628,
     mapSlug: "hyrule",
     type: "TEXT",
     title: "South Lomei Labyrinth",

@@ -14,7 +14,7 @@ export const MapSwitcher = () => {
       <Select
         value={params.mapSlug}
         onChange={(event) =>
-          router.replace(`/game/${params.gameSlug}/map/${event.target.value}`)
+          router.replace(`/${params.gameSlug}/map/${event.target.value}`)
         }
       >
         {currentMap?.game?.maps?.map(({ title, slug }, index) => (

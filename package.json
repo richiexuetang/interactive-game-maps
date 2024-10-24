@@ -2,6 +2,7 @@
   "name": "ritcher-map",
   "version": "1.0.0",
   "scripts": {
+    "start": "pnpm --filter server start",
     "dev": "pnpm run --parallel dev",
     "build": "pnpm run --parallel build",
     "prisma:studio": "pnpm --filter server prisma:studio",

@@ -100,7 +100,7 @@ export const locations = {
           mapSlug: "midgard",
           title: "Fj\u00f3turlund Vault Key Half",
           description:
-            "**Requires:** Favor [Sigrun's Curse](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10926)",
+            "**Requires:** Favor [Sigrun's Curse](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10926)",
           latitude: "0.84304151653272",
           longitude: "-0.56539893150423",
         },
@@ -108,7 +108,7 @@ export const locations = {
           mapSlug: "midgard",
           title: "Fj\u00f3turlund Vault Key Half",
           description:
-            "**Requires:** Favor [Sigrun's Curse](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10926)\n\nNear the end of the Derelict Outpost - at the top of the cliff, just above the platform with the [Ivaldi's Anvil](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=216467), at the base of an altar.",
+            "**Requires:** Favor [Sigrun's Curse](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10926)\n\nNear the end of the Derelict Outpost - at the top of the cliff, just above the platform with the [Ivaldi's Anvil](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=216467), at the base of an altar.",
           latitude: "0.65941704063889",
           longitude: "-0.81507544508952",
         },
@@ -128,7 +128,7 @@ export const locations = {
           mapSlug: "vanaheim",
           title: "Mysterious Orb",
           description:
-            "Just after landing on the beach, find this Key Item on the ground to the left, near a grindstone and bellows.\n\n**Associated Favor:** [The Mysterious Orb](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10897)",
+            "Just after landing on the beach, find this Key Item on the ground to the left, near a grindstone and bellows.\n\n**Associated Favor:** [The Mysterious Orb](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10897)",
           latitude: "0.37551253967675",
           longitude: "-0.68862410945474",
           media: [
@@ -142,7 +142,7 @@ export const locations = {
           mapSlug: "alfheim",
           title: "Alfheim Barrens Key Half",
           description:
-            "**Requires:** Completion of Favor [Freyr's Gift](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10915)\n\nOn the ground in the snow",
+            "**Requires:** Completion of Favor [Freyr's Gift](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10915)\n\nOn the ground in the snow",
           latitude: "0.83988757370950",
           longitude: "-0.86921218400354",
         },
@@ -150,7 +150,7 @@ export const locations = {
           mapSlug: "alfheim",
           title: "Alfheim Barrens Key Half",
           description:
-            "**Requires:** Completion of Favor [Freyr's Gift](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10915)\n\nOn the ground in the snow",
+            "**Requires:** Completion of Favor [Freyr's Gift](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10915)\n\nOn the ground in the snow",
           latitude: "0.81509582476814",
           longitude: "-0.79203486442455",
         },

@@ -4,13 +4,13 @@ export const missions = {
     {
       title: "Berserker Gravestone",
       icon: "berserker_gravestone",
-      info: "**Requires:** Completion of story quest The Word of Fate  \n**Associated Favor:** [Fit for a King](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10924)",
+      info: "**Requires:** Completion of story quest The Word of Fate  \n**Associated Favor:** [Fit for a King](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10924)",
       locations: [
         {
           mapSlug: "svartalfheim",
           title: "Hardrefill the Callous",
           description:
-            "**Power Level:** 5  \n**Reward:**  \n- Asgard's Fortitude Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes\n\n**Associated Favor:** [Fit for a King](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10924) (Midgard)",
+            "**Power Level:** 5  \n**Reward:**  \n- Asgard's Fortitude Enchantment\n- Tempered Remnants\n- Bonded Leather\n- Shattered Runes\n\n**Associated Favor:** [Fit for a King](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10924) (Midgard)",
           latitude: "0.73136716872182",
           longitude: "-0.68128973937453",
           media: [
@@ -136,7 +136,7 @@ export const missions = {
           mapSlug: "midgard",
           title: "King Hrolf Kraki",
           description:
-            "**Requires:** Completion of all other Berserker Gravestones  \n**Power Level:** 9  \n**Reward:** \n- [Hilt of Skofnung](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10741)\n- Helheim's Virtue Enchantment\n- Bonded Leather\n- Hacksilver",
+            "**Requires:** Completion of all other Berserker Gravestones  \n**Power Level:** 9  \n**Reward:** \n- [Hilt of Skofnung](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10741)\n- Helheim's Virtue Enchantment\n- Bonded Leather\n- Hacksilver",
           latitude: "0.80836951965630",
           longitude: "-0.39271831512494",
           media: [
@@ -236,7 +236,7 @@ export const missions = {
           mapSlug: "sindris-house",
           title: "The Lost Lindwyrms",
           description:
-            "**Requires:** Complete story quest _The Word of Fate_\n\n**Objectives:** Activate Yggdrasil Rifts across the Realms to retrieve the 6 Lost Lindwyrms - \n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10946) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10947) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10948) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10949) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10944) (Vanaheim)\n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10945) (Vanaheim)\n\n**Reward:**\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Hacksilver\n- Dust of Realms\n- Lindwyrm Scales\n- 1 Gale Flame",
+            "**Requires:** Complete story quest _The Word of Fate_\n\n**Objectives:** Activate Yggdrasil Rifts across the Realms to retrieve the 6 Lost Lindwyrms - \n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10946) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10947) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10948) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10949) (Svartalfheim)\n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10944) (Vanaheim)\n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10945) (Vanaheim)\n\n**Reward:**\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Hacksilver\n- Dust of Realms\n- Lindwyrm Scales\n- 1 Gale Flame",
           latitude: "0.64847992133789",
           longitude: "-0.78951358795348",
           media: [
@@ -250,7 +250,7 @@ export const missions = {
           mapSlug: "sindris-house",
           title: "A Stag For All Seasons",
           description:
-            "**Requires:** Complete Favor [The Scent of Survival](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10914) (Vanaheim) to gain access to The Crater  \n\n**Objectives:** Accept the magical food from Ratatoskr and feed each of the 4 Stags throughout The Crater in Vanaheim -\n- [Stag of Winter](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10745) (Vanaheim)\n- [Stag of Spring](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10746) (Vanaheim)\n- [Stag of Summer](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10747) (Vanaheim)\n- [Stag of Autumn](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10748) (Vanaheim)   \n\n**Reward:** \n- 4500 Kratos XP\n- 1125 Companion XP\n- Whispering Slab \n- Rond of Disruption",
+            "**Requires:** Complete Favor [The Scent of Survival](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10914) (Vanaheim) to gain access to The Crater  \n\n**Objectives:** Accept the magical food from Ratatoskr and feed each of the 4 Stags throughout The Crater in Vanaheim -\n- [Stag of Winter](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10745) (Vanaheim)\n- [Stag of Spring](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10746) (Vanaheim)\n- [Stag of Summer](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10747) (Vanaheim)\n- [Stag of Autumn](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10748) (Vanaheim)   \n\n**Reward:** \n- 4500 Kratos XP\n- 1125 Companion XP\n- Whispering Slab \n- Rond of Disruption",
           latitude: "0.60908362961065",
           longitude: "-0.80216636096489",
           media: [
@@ -553,7 +553,7 @@ export const missions = {
           mapSlug: "alfheim",
           title: "The Desert Door",
           description:
-            "**Requires:** Complete Favor [Freyr's Gift](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=216601)\n\nBegin this quest by picking up either one of the Key Halves:\n- [Alfheim Barrens Key Half](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=216603)\n- [Alfheim Barrens Key Half](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=216611)\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Freya XP\n- Amulet Enchantment\n- Skirnir's Gambanteinn",
+            "**Requires:** Complete Favor [Freyr's Gift](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=216601)\n\nBegin this quest by picking up either one of the Key Halves:\n- [Alfheim Barrens Key Half](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=216603)\n- [Alfheim Barrens Key Half](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=216611)\n\n**Reward:**\n- 1000 Kratos XP\n- 250 Freya XP\n- Amulet Enchantment\n- Skirnir's Gambanteinn",
           latitude: "0.84421083289921",
           longitude: "-0.87281227111879",
           media: [
@@ -595,7 +595,7 @@ export const missions = {
           mapSlug: "alfheim",
           title: "Nine Realms in Bloom",
           description:
-            "This Favor begins after obtaining your first Nine Realms Flower  \n\n**Objectives:** Retrieve flowers from across the Realms -    \n- [Dawnbloom](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10676) (Alfheim)\n- [Sparkthorn](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10679) (Svartalfheim)\n- [Ashpetal](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10677) (Muspelheim)\n- [Soulblossom](https://ritcher-map.app/game/god-of-war-ragnarok/map/helheim?marker=10680) (Helheim)\n- [Starblush](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10675) (Vanaheim)\n- [Dreamshade](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=10682) (Niflheim)\n- [Frostfinger](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=10681) (Niflheim)\n- [Mirkweed](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10678) (Midgard)\n- Ironbell (Jotunheim)\n\n**Reward:** \n- 750 Kratos XP\n- 750 Companion XP",
+            "This Favor begins after obtaining your first Nine Realms Flower  \n\n**Objectives:** Retrieve flowers from across the Realms -    \n- [Dawnbloom](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10676) (Alfheim)\n- [Sparkthorn](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10679) (Svartalfheim)\n- [Ashpetal](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10677) (Muspelheim)\n- [Soulblossom](https://ritcher-map.app/god-of-war-ragnarok/map/helheim?marker=10680) (Helheim)\n- [Starblush](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10675) (Vanaheim)\n- [Dreamshade](https://ritcher-map.app/god-of-war-ragnarok/map/niflheim?marker=10682) (Niflheim)\n- [Frostfinger](https://ritcher-map.app/god-of-war-ragnarok/map/niflheim?marker=10681) (Niflheim)\n- [Mirkweed](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10678) (Midgard)\n- Ironbell (Jotunheim)\n\n**Reward:** \n- 750 Kratos XP\n- 750 Companion XP",
           latitude: "0.84557969471093",
           longitude: "-0.89027635133090",
           media: [
@@ -609,7 +609,7 @@ export const missions = {
           mapSlug: "muspelheim",
           title: "The Final Challenges",
           description:
-            "**Requires:** Completion of Favor [The Crucible](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=218797)",
+            "**Requires:** Completion of Favor [The Crucible](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=218797)",
           latitude: "0.80977392015335",
           longitude: "-0.83127020948859",
           media: [
@@ -623,7 +623,7 @@ export const missions = {
           mapSlug: "muspelheim",
           title: "The Crucible",
           description:
-            "**Requires:** Secure The Crucible gateway to access this area  \n\n**Objectives:** Complete the first 6 Muspelheim Trials  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP\n- [Undying Pyres Set](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10536)\n- Divine Ashes",
+            "**Requires:** Secure The Crucible gateway to access this area  \n\n**Objectives:** Complete the first 6 Muspelheim Trials  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP\n- [Undying Pyres Set](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10536)\n- Divine Ashes",
           latitude: "0.80528537737146",
           longitude: "-0.84738975956026",
           media: [
@@ -637,7 +637,7 @@ export const missions = {
           mapSlug: "muspelheim",
           title: "Defend Your Valor",
           description:
-            "**Requires:** Complete all story quests\n\nPick up the item on the ground near the campfire to begin this Favor and the epic fight with [Gn\u00e1](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=216511)",
+            "**Requires:** Complete all story quests\n\nPick up the item on the ground near the campfire to begin this Favor and the epic fight with [Gn\u00e1](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=216511)",
           latitude: "0.76714478461678",
           longitude: "-0.83153453888525",
           media: [
@@ -651,7 +651,7 @@ export const missions = {
           mapSlug: "midgard",
           title: "Guiding Light",
           description:
-            "**Requires:** Begin story quest _The Word of Fate_.  Automatically obtained the first time you read the runes from one of Tyr's statue pieces, spread out throughout Midgard  \n\n**Objectives:** Find all 4 pieces of Tyr's statue and read the runes found on them (each statue piece also has buried treasure to be retrieved nearby) -    \n- [Tyr's Left Bracer](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10654)\n- [Tyr's Right Bracer](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10648)\n- [Tyr's Helmet](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10655)\n- [Tyr's Spear](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10656)\n\n**Reward:** \n- 750 Kratos XP\n- 200 Companion XP",
+            "**Requires:** Begin story quest _The Word of Fate_.  Automatically obtained the first time you read the runes from one of Tyr's statue pieces, spread out throughout Midgard  \n\n**Objectives:** Find all 4 pieces of Tyr's statue and read the runes found on them (each statue piece also has buried treasure to be retrieved nearby) -    \n- [Tyr's Left Bracer](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10654)\n- [Tyr's Right Bracer](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10648)\n- [Tyr's Helmet](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10655)\n- [Tyr's Spear](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10656)\n\n**Reward:** \n- 750 Kratos XP\n- 200 Companion XP",
           latitude: "0.80475426014580",
           longitude: "-0.64568281173533",
           media: [
@@ -665,7 +665,7 @@ export const missions = {
           mapSlug: "midgard",
           title: "Fit for a King",
           description:
-            "Automatically obtained during story quest _The Word of Fate_.  \n\n**Objectives:** Defeat all Berserkers across the Realms -\n- [Fraekni the Zealous](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10883) (Midgard)\n- [Hardrefill the Callous](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10875) (Svartalfheim)\n- [Beirgadr the Feared](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10876) (Svartalfheim)\n- [Hvitserkr the Bold](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10879) (Vanaheim)\n- [Hjalti the Stolid](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10882) (Alfheim)\n- [Svipdagr the Cold and the Sisters of Illska](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10881) (Alfheim)\n- [Haklangr the Bearded](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10880) (Vanaheim)\n- [Bodvar the Fierce and Starolfr the Troublesome](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10877) (Svartalfheim)\n- [Skjothendi the Unerring](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=10878) (Niflheim)\n- [King Hrolf Kraki](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10884) (Midgard)  \n\n**Reward:** \n- Kratos XP\n- Companion XP",
+            "Automatically obtained during story quest _The Word of Fate_.  \n\n**Objectives:** Defeat all Berserkers across the Realms -\n- [Fraekni the Zealous](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10883) (Midgard)\n- [Hardrefill the Callous](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10875) (Svartalfheim)\n- [Beirgadr the Feared](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10876) (Svartalfheim)\n- [Hvitserkr the Bold](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10879) (Vanaheim)\n- [Hjalti the Stolid](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10882) (Alfheim)\n- [Svipdagr the Cold and the Sisters of Illska](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10881) (Alfheim)\n- [Haklangr the Bearded](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10880) (Vanaheim)\n- [Bodvar the Fierce and Starolfr the Troublesome](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10877) (Svartalfheim)\n- [Skjothendi the Unerring](https://ritcher-map.app/god-of-war-ragnarok/map/niflheim?marker=10878) (Niflheim)\n- [King Hrolf Kraki](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10884) (Midgard)  \n\n**Reward:** \n- Kratos XP\n- Companion XP",
           latitude: "0.80723237606270",
           longitude: "-0.39756774902435",
           media: [
@@ -679,7 +679,7 @@ export const missions = {
           mapSlug: "midgard",
           title: "Across the Realms",
           description:
-            "**Requires:** Begin story quest _The Word of Fate_.  Pick up the book near the rainbow campfire to start this Favor  \n\n**Objectives:** Retrieve all Ingredients across the Realms and return to the campfire to craft the Meal of Comfort - \n- [Nordic Gourd](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10992) (Midgard)\n- [Elven Cap](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10991) (Alfheim)\n- [Prongfruit](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10993) (Svartalfheim)\n- [Bantam Melon](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10990) (Vanaheim)  \n\n**Reward:** \n- 1,000 Kratos XP\n- 350 Companion XP\n- 30 Whispering Slabs\n- Meal of Comfort (+5 to all stats)",
+            "**Requires:** Begin story quest _The Word of Fate_.  Pick up the book near the rainbow campfire to start this Favor  \n\n**Objectives:** Retrieve all Ingredients across the Realms and return to the campfire to craft the Meal of Comfort - \n- [Nordic Gourd](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10992) (Midgard)\n- [Elven Cap](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10991) (Alfheim)\n- [Prongfruit](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10993) (Svartalfheim)\n- [Bantam Melon](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10990) (Vanaheim)  \n\n**Reward:** \n- 1,000 Kratos XP\n- 350 Companion XP\n- 30 Whispering Slabs\n- Meal of Comfort (+5 to all stats)",
           latitude: "0.81248898057396",
           longitude: "-0.48072695732051",
           media: [
@@ -693,7 +693,7 @@ export const missions = {
           mapSlug: "midgard",
           title: "Sigrun's Curse",
           description:
-            "**Requires:** Automatically obtained upon exploring either The Derelict Outpost or The Oarsmen regions  \n\n**Objectives:** Retrieve the key pieces to open the Vault, then defeat the enemies inside - \n- [Fj\u00f3turlund Vault Key Half](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10503)  \n- [Fj\u00f3turlund Vault Key Half](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10504)\n\n**Reward:** \n- 1500 Kratos XP\n- 375 Companion XP",
+            "**Requires:** Automatically obtained upon exploring either The Derelict Outpost or The Oarsmen regions  \n\n**Objectives:** Retrieve the key pieces to open the Vault, then defeat the enemies inside - \n- [Fj\u00f3turlund Vault Key Half](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10503)  \n- [Fj\u00f3turlund Vault Key Half](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10504)\n\n**Reward:** \n- 1500 Kratos XP\n- 375 Companion XP",
           latitude: "0.65593983407486",
           longitude: "-0.77047320334540",
           media: [
@@ -707,7 +707,7 @@ export const missions = {
           mapSlug: "midgard",
           title: "The Last Remnants of Asgard",
           description:
-            "**Requires:** Automatically obtained after completion of all story quests.  \n\n**Objectives:** Secure and clear out the wreckage from Asgard across the Realms - \n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10970) (Midgard)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=10971) (Midgard)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10972) (Svartalfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10973) (Svartalfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10974) (Svartalfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/muspelheim?marker=10969) (Muspelheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10967) (Alfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=10968) (Alfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10965) (Vanaheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10966) (Vanaheim)  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP",
+            "**Requires:** Automatically obtained after completion of all story quests.  \n\n**Objectives:** Secure and clear out the wreckage from Asgard across the Realms - \n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10970) (Midgard)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=10971) (Midgard)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10972) (Svartalfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10973) (Svartalfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10974) (Svartalfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/muspelheim?marker=10969) (Muspelheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10967) (Alfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=10968) (Alfheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10965) (Vanaheim)\n- [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10966) (Vanaheim)  \n\n**Reward:** \n- 10,000 Kratos XP\n- 2,500 Companion XP",
           latitude: "0.73802695159959",
           longitude: "-0.70428371429352",
         },
@@ -799,7 +799,7 @@ export const missions = {
           mapSlug: "svartalfheim",
           title: "Born From Fire",
           description:
-            "Automatically obtained upon starting your first Draugr Hole activity\n\n**Objectives:** Close all Draugr Holes across the Realms - \n- [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10889) (Svartalfheim)\n- [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10890) (Svartalfheim)\n- [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=216582) (Alfheim)\n- [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=216437) (Midgard)\n- [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10885) (Vanaheim)\n- [Draugr Hole](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10885) (Vanaheim)\n\n**Reward:** \n- Kratos XP\n- Companion XP",
+            "Automatically obtained upon starting your first Draugr Hole activity\n\n**Objectives:** Close all Draugr Holes across the Realms - \n- [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10889) (Svartalfheim)\n- [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10890) (Svartalfheim)\n- [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=216582) (Alfheim)\n- [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=216437) (Midgard)\n- [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10885) (Vanaheim)\n- [Draugr Hole](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10885) (Vanaheim)\n\n**Reward:** \n- Kratos XP\n- Companion XP",
           latitude: "0.83944840594222",
           longitude: "-0.63211055770472",
           media: [
@@ -813,7 +813,7 @@ export const missions = {
           mapSlug: "helheim",
           title: "Hel to Pay",
           description:
-            "Automatically obtained after closing the Hel Tear during story quest _Reunion_.  Note that the first 2 Hel Tears are part of the story and cannot be missed.\n\n**Objectives:** Close all Hel Tears across the Realms - \n- [Hel Tear](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=218791) (Sindri's House)\n- [Hel Tear](https://ritcher-map.app/game/god-of-war-ragnarok/map/helheim?marker=216514) (Helheim)\n- [Hel Tear](https://ritcher-map.app/game/god-of-war-ragnarok/map/svartalfheim?marker=10942) (Svartalfheim)\n- [Hel Tear](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?marker=216417) (Midgard)\n- [Hel Tear](https://ritcher-map.app/game/god-of-war-ragnarok/map/alfheim?marker=216542) (Alfheim)\n- [Hel Tear](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=10939) (Vanaheim)\n\n**Reward:** \n- Weapon Upgrade - Frozen Flame\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Essence of Hel\n- Dust of Realms\n- Hacksilver",
+            "Automatically obtained after closing the Hel Tear during story quest _Reunion_.  Note that the first 2 Hel Tears are part of the story and cannot be missed.\n\n**Objectives:** Close all Hel Tears across the Realms - \n- [Hel Tear](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=218791) (Sindri's House)\n- [Hel Tear](https://ritcher-map.app/god-of-war-ragnarok/map/helheim?marker=216514) (Helheim)\n- [Hel Tear](https://ritcher-map.app/god-of-war-ragnarok/map/svartalfheim?marker=10942) (Svartalfheim)\n- [Hel Tear](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?marker=216417) (Midgard)\n- [Hel Tear](https://ritcher-map.app/god-of-war-ragnarok/map/alfheim?marker=216542) (Alfheim)\n- [Hel Tear](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=10939) (Vanaheim)\n\n**Reward:** \n- Weapon Upgrade - Frozen Flame\n- 4,500 Kratos XP\n- 1,125 Companion XP\n- Essence of Hel\n- Dust of Realms\n- Hacksilver",
           latitude: "0.51267568346543",
           longitude: "-0.75235584588344",
           media: [
@@ -841,7 +841,7 @@ export const missions = {
           mapSlug: "niflheim",
           title: "The Eyes of Odin",
           description:
-            "Automatically obtained after killing your first Odin's Raven in any Realm.  This quest concludes after you've killed all 48 Ravens, opened all 6 Raven chests in Niflheim, and defeated [The Raven Keeper](https://ritcher-map.app/game/god-of-war-ragnarok/map/niflheim?marker=216533)",
+            "Automatically obtained after killing your first Odin's Raven in any Realm.  This quest concludes after you've killed all 48 Ravens, opened all 6 Raven chests in Niflheim, and defeated [The Raven Keeper](https://ritcher-map.app/god-of-war-ragnarok/map/niflheim?marker=216533)",
           latitude: "0.77671903712991",
           longitude: "-0.88548481444599",
           media: [
@@ -855,13 +855,13 @@ export const missions = {
     },
     {
       title: "Hel Tear",
-      info: "**Associated Favor:** [Hel to Pay](https://ritcher-map.app/game/god-of-war-ragnarok/map/helheim?marker=10935) (Helheim)",
+      info: "**Associated Favor:** [Hel to Pay](https://ritcher-map.app/god-of-war-ragnarok/map/helheim?marker=10935) (Helheim)",
       locations: [
         {
           mapSlug: "sindris-house",
           title: "Hel Tear",
           description:
-            "This Hel Tear must be closed as part of story quest _Unleashing Hel_ and cannot be missed.\n\n**Note:** The Favor for closing Hel Tears, [Hel to Pay](https://ritcher-map.app/game/god-of-war-ragnarok/map/helheim?marker=10935) (Helheim), does not begin until the subsequent story quest _Reunion_.  However this Hel Tear is still tracked as one of 6 needed for the Favor.",
+            "This Hel Tear must be closed as part of story quest _Unleashing Hel_ and cannot be missed.\n\n**Note:** The Favor for closing Hel Tears, [Hel to Pay](https://ritcher-map.app/god-of-war-ragnarok/map/helheim?marker=10935) (Helheim), does not begin until the subsequent story quest _Reunion_.  However this Hel Tear is still tracked as one of 6 needed for the Favor.",
           latitude: "0.60853818350051",
           longitude: "-0.72519864320111",
           media: [
@@ -924,7 +924,7 @@ export const missions = {
           mapSlug: "helheim",
           title: "Hel Tear",
           description:
-            "This Hel Tear must be closed during the story quest _Reunion_ and cannot be missed.\n\n**Note:** This Hel Tear is tracked as one of 6 needed to complete Favor [Hel to Pay](https://ritcher-map.app/game/god-of-war-ragnarok/map/helheim?marker=10935).",
+            "This Hel Tear must be closed during the story quest _Reunion_ and cannot be missed.\n\n**Note:** This Hel Tear is tracked as one of 6 needed to complete Favor [Hel to Pay](https://ritcher-map.app/god-of-war-ragnarok/map/helheim?marker=10935).",
           latitude: "0.50757944768083",
           longitude: "-0.74637901150740",
           media: [
@@ -958,7 +958,7 @@ export const missions = {
           mapSlug: "vanaheim",
           title: "Lost Lindwyrm",
           description:
-            "Obtained from the [Yggdrasil Rift](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=217324)",
+            "Obtained from the [Yggdrasil Rift](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=217324)",
           latitude: "0.95447547743436",
           longitude: "-0.76248303469788",
           media: [
@@ -1211,7 +1211,7 @@ export const missions = {
     {
       title: "Remnant of Asgard",
       icon: "remnant_of_asgard",
-      info: "**Requires:** Completion of all story quests.  \n**Associated Favor:** [The Last Remnants of Asgard](https://ritcher-map.app/game/god-of-war-ragnarok/map/midgard?locationIds=11810)",
+      info: "**Requires:** Completion of all story quests.  \n**Associated Favor:** [The Last Remnants of Asgard](https://ritcher-map.app/god-of-war-ragnarok/map/midgard?locationIds=11810)",
       locations: [
         {
           mapSlug: "vanaheim",
@@ -1360,7 +1360,7 @@ export const missions = {
           mapSlug: "vanaheim",
           title: "Yggdrasil Rift",
           description:
-            "**Requires:** Nighttime \n\n**Reward:** \n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=219266)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
+            "**Requires:** Nighttime \n\n**Reward:** \n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=219266)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
           latitude: "0.95110876228048",
           longitude: "-0.75909787310366",
           media: [
@@ -1374,7 +1374,7 @@ export const missions = {
           mapSlug: "vanaheim",
           title: "Yggdrasil Rift",
           description:
-            "**Reward:** \n- [Lost Lindwyrm](https://ritcher-map.app/game/god-of-war-ragnarok/map/vanaheim?marker=219265)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
+            "**Reward:** \n- [Lost Lindwyrm](https://ritcher-map.app/god-of-war-ragnarok/map/vanaheim?marker=219265)\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
           latitude: "0.91705828882164",
           longitude: "-0.69879666385259",
           media: [
@@ -1466,7 +1466,7 @@ export const missions = {
           mapSlug: "svartalfheim",
           title: "Yggdrasil Rift",
           description:
-            "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- Lost Lindwyrm\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
+            "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- Lost Lindwyrm\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
           latitude: "0.85154963170316",
           longitude: "-0.80338755625161",
           media: [
@@ -1492,7 +1492,7 @@ export const missions = {
           mapSlug: "svartalfheim",
           title: "Yggdrasil Rift",
           description:
-            "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- Lost Lindwyrm\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
+            "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- Lost Lindwyrm\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
           latitude: "0.85105532226697",
           longitude: "-0.55420871208835",
           media: [
@@ -1506,7 +1506,7 @@ export const missions = {
           mapSlug: "svartalfheim",
           title: "Yggdrasil Rift",
           description:
-            "**Requires:** Draupnir Spear for access\n\n**Rewards:** \n- Lost Lindwyrm\n- 2 Lindwrym Scales\n- 1 Gale Spark\n- 25 Dust of Realms\n- 3,000 Hacksilver\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
+            "**Requires:** Draupnir Spear for access\n\n**Rewards:** \n- Lost Lindwyrm\n- 2 Lindwrym Scales\n- 1 Gale Spark\n- 25 Dust of Realms\n- 3,000 Hacksilver\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
           latitude: "0.93759632685466",
           longitude: "-0.56747824648386",
           media: [
@@ -1532,7 +1532,7 @@ export const missions = {
           mapSlug: "svartalfheim",
           title: "Yggdrasil Rift",
           description:
-            "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- Lost Lindwyrm\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/game/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
+            "**Requires:** Draupnir Spear for access\n\n**Reward:** \n- Lost Lindwyrm\n\n**Note:** This rift remains locked until beginning Favor [The Lost Lindwyrms](https://ritcher-map.app/god-of-war-ragnarok/map/sindris-house?marker=216615) (Sindri's House)",
           latitude: "0.61647177390776",
           longitude: "-0.82259348057781",
           media: [
